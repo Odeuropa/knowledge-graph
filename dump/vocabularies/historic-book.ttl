@@ -1,0 +1,359 @@
+@prefix dbp: <http://dbpedia.org/property/> .
+@prefix dct: <http://purl.org/dc/terms/> .
+@prefix hbwheel: <http://data.odeuropa.eu/vocabulary/historic-book/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix voc: <http://data.odeuropa.eu/vocabulary/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+hbwheel:smoke a skos:Concept ;
+    dbp:next hbwheel:burning ;
+    dbp:prev hbwheel:ash ;
+    skos:broader hbwheel:smoky_burnt ;
+    skos:inScheme voc:historic-book ;
+    skos:prefLabel "Smoke"@en .
+
+hbwheel:almonds a skos:Concept ;
+    dbp:next hbwheel:biscuits ;
+    dbp:prev hbwheel:old_clothing ;
+    skos:broader hbwheel:sweet_spicy ;
+    skos:inScheme voc:historic-book ;
+    skos:prefLabel "Almonds"@en .
+
+hbwheel:biscuits a skos:Concept ;
+    dbp:next hbwheel:caramel ;
+    dbp:prev hbwheel:almonds ;
+    skos:broader hbwheel:sweet_spicy ;
+    skos:inScheme voc:historic-book ;
+    skos:prefLabel "Biscuits"@en .
+
+hbwheel:body_odour a skos:Concept ;
+    dbp:next hbwheel:poo ;
+    dbp:prev hbwheel:fish ;
+    skos:broader hbwheel:fishy_rancid ;
+    skos:inScheme voc:historic-book ;
+    skos:prefLabel "Body Odour"@en .
+
+hbwheel:bourbon_cream a skos:Concept ;
+    dbp:next hbwheel:vanilla ;
+    dbp:prev hbwheel:chocolate ;
+    skos:broader hbwheel:sweet_spicy ;
+    skos:inScheme voc:historic-book ;
+    skos:prefLabel "Bourbon / Cream"@en .
+
+hbwheel:burning a skos:Concept ;
+    dbp:next hbwheel:citrus ;
+    dbp:prev hbwheel:ash ;
+    skos:broader hbwheel:smoky_burnt ;
+    skos:inScheme voc:historic-book ;
+    skos:prefLabel "Burning"@en .
+
+hbwheel:caramel a skos:Concept ;
+    dbp:next hbwheel:chocolate ;
+    dbp:prev hbwheel:biscuits ;
+    skos:broader hbwheel:sweet_spicy ;
+    skos:inScheme voc:historic-book ;
+    skos:prefLabel "Caramel / Biscuits"@en .
+
+hbwheel:charred_wood a skos:Concept ;
+    dbp:next hbwheel:wood ;
+    dbp:prev hbwheel:grassy_leafy ;
+    skos:broader hbwheel:grassy_woody ;
+    skos:inScheme voc:historic-book ;
+    skos:prefLabel "Charred wood"@en .
+
+hbwheel:chocolate a skos:Concept ;
+    dbp:next hbwheel:bourbon_cream ;
+    dbp:prev hbwheel:caramel ;
+    skos:broader hbwheel:sweet_spicy ;
+    skos:inScheme voc:historic-book ;
+    skos:prefLabel "Chocolate"@en .
+
+hbwheel:citrus a skos:Concept ;
+    dbp:next hbwheel:fresh_fruit ;
+    dbp:prev hbwheel:burning ;
+    skos:broader hbwheel:fragrant ;
+    skos:inScheme voc:historic-book ;
+    skos:prefLabel "Citrus"@en .
+
+hbwheel:coal a skos:Concept ;
+    dbp:next hbwheel:incense ;
+    dbp:prev hbwheel:wood ;
+    skos:broader hbwheel:smoky_burnt ;
+    skos:inScheme voc:historic-book ;
+    skos:prefLabel "Coal"@en .
+
+hbwheel:dampness a skos:Concept ;
+    dbp:next hbwheel:old_room ;
+    dbp:prev hbwheel:farm_like ;
+    skos:broader hbwheel:earthly ;
+    skos:inScheme voc:historic-book ;
+    skos:prefLabel "Dampness"@en .
+
+hbwheel:engines a skos:Concept ;
+    dbp:next hbwheel:sweet ;
+    dbp:prev hbwheel:industrial ;
+    skos:broader hbwheel:chemical ;
+    skos:inScheme voc:historic-book ;
+    skos:prefLabel "Engines"@en .
+
+hbwheel:farm_like a skos:Concept ;
+    dbp:next hbwheel:dampness ;
+    dbp:prev hbwheel:old_seasoning ;
+    skos:broader hbwheel:earthly ;
+    skos:inScheme voc:historic-book ;
+    skos:prefLabel "Farm-like"@en .
+
+hbwheel:fish a skos:Concept ;
+    dbp:next hbwheel:body_odour ;
+    dbp:prev hbwheel:mothballs ;
+    skos:broader hbwheel:fishy_rancid ;
+    skos:inScheme voc:historic-book ;
+    skos:prefLabel "Fish"@en .
+
+hbwheel:fresh_fruit a skos:Concept ;
+    dbp:next hbwheel:green ;
+    dbp:prev hbwheel:citrus ;
+    skos:broader hbwheel:fragrant ;
+    skos:inScheme voc:historic-book ;
+    skos:prefLabel "Fresh Fruit"@en .
+
+hbwheel:gasoline_like a skos:Concept ;
+    dbp:next hbwheel:industrial ;
+    dbp:prev hbwheel:trash ;
+    skos:broader hbwheel:chemical ;
+    skos:inScheme voc:historic-book ;
+    skos:prefLabel "Gasoline-like"@en .
+
+hbwheel:grassy_leafy a skos:Concept ;
+    dbp:next hbwheel:charred_wood ;
+    dbp:prev hbwheel:vanilla ;
+    skos:broader hbwheel:grassy_woody ;
+    skos:inScheme voc:historic-book ;
+    skos:prefLabel "Grassy / Leafy"@en .
+
+hbwheel:green a skos:Concept ;
+    dbp:next hbwheel:vinegar ;
+    dbp:prev hbwheel:fresh_fruit ;
+    skos:broader hbwheel:fragrant ;
+    skos:inScheme voc:historic-book ;
+    skos:prefLabel "Green"@en .
+
+hbwheel:incense a skos:Concept ;
+    dbp:next hbwheel:ash ;
+    dbp:prev hbwheel:coal ;
+    skos:broader hbwheel:smoky_burnt ;
+    skos:inScheme voc:historic-book ;
+    skos:prefLabel "Incense"@en .
+
+hbwheel:industrial a skos:Concept ;
+    dbp:next hbwheel:engines ;
+    dbp:prev hbwheel:gasoline_like ;
+    skos:broader hbwheel:chemical ;
+    skos:inScheme voc:historic-book ;
+    skos:prefLabel "Industrial"@en .
+
+hbwheel:mothballs a skos:Concept ;
+    dbp:next hbwheel:fish ;
+    dbp:prev hbwheel:vinegar ;
+    skos:broader hbwheel:medicinal ;
+    skos:inScheme voc:historic-book ;
+    skos:prefLabel "Mothballs"@en .
+
+hbwheel:musty a skos:Concept ;
+    dbp:next hbwheel:old_clothing ;
+    dbp:prev hbwheel:old_room ;
+    skos:broader hbwheel:earthly ;
+    skos:inScheme voc:historic-book ;
+    skos:prefLabel "Musty"@en .
+
+hbwheel:old_clothing a skos:Concept ;
+    dbp:next hbwheel:almonds ;
+    dbp:prev hbwheel:musty ;
+    skos:broader hbwheel:earthly ;
+    skos:inScheme voc:historic-book ;
+    skos:prefLabel "Old clothing"@en .
+
+hbwheel:old_room a skos:Concept ;
+    dbp:next hbwheel:musty ;
+    dbp:prev hbwheel:dampness ;
+    skos:broader hbwheel:earthly ;
+    skos:inScheme voc:historic-book ;
+    skos:prefLabel "Old room"@en .
+
+hbwheel:old_seasoning a skos:Concept ;
+    dbp:next hbwheel:farm_like ;
+    dbp:prev hbwheel:sweet_pungent ;
+    skos:broader hbwheel:earthly ;
+    skos:inScheme voc:historic-book ;
+    skos:prefLabel "Old seasoning"@en .
+
+hbwheel:poo a skos:Concept ;
+    dbp:next hbwheel:rotten_socks ;
+    dbp:prev hbwheel:body_odour ;
+    skos:broader hbwheel:fishy_rancid ;
+    skos:inScheme voc:historic-book ;
+    skos:prefLabel "Poo"@en .
+
+hbwheel:rotten_socks a skos:Concept ;
+    dbp:next hbwheel:trash ;
+    dbp:prev hbwheel:poo ;
+    skos:broader hbwheel:fishy_rancid ;
+    skos:inScheme voc:historic-book ;
+    skos:prefLabel "Rotten Socks"@en .
+
+hbwheel:sweet a skos:Concept ;
+    dbp:next hbwheel:sweet_pungent ;
+    dbp:prev hbwheel:engines ;
+    skos:broader hbwheel:chemical ;
+    skos:inScheme voc:historic-book ;
+    skos:prefLabel "Sweet"@en .
+
+hbwheel:sweet_pungent a skos:Concept ;
+    dbp:next hbwheel:old_seasoning ;
+    dbp:prev hbwheel:sweet ;
+    skos:broader hbwheel:chemical ;
+    skos:inScheme voc:historic-book ;
+    skos:prefLabel "Sweet pungent"@en .
+
+hbwheel:trash a skos:Concept ;
+    dbp:next hbwheel:gasoline_like ;
+    dbp:prev hbwheel:rotten_socks ;
+    skos:broader hbwheel:fishy_rancid ;
+    skos:inScheme voc:historic-book ;
+    skos:prefLabel "Trash"@en .
+
+hbwheel:vanilla a skos:Concept ;
+    dbp:next hbwheel:grassy_leafy ;
+    dbp:prev hbwheel:bourbon_cream ;
+    skos:broader hbwheel:sweet_spicy ;
+    skos:inScheme voc:historic-book ;
+    skos:prefLabel "Vanilla"@en .
+
+hbwheel:vinegar a skos:Concept ;
+    dbp:next hbwheel:mothballs ;
+    dbp:prev hbwheel:green ;
+    skos:broader hbwheel:medicinal ;
+    skos:inScheme voc:historic-book ;
+    skos:prefLabel "Vinegar"@en .
+
+hbwheel:wood a skos:Concept ;
+    dbp:next hbwheel:coal ;
+    dbp:prev hbwheel:charred_wood ;
+    skos:broader hbwheel:grassy_woody ;
+    skos:inScheme voc:historic-book ;
+    skos:prefLabel "Wood"@en .
+
+hbwheel:ash a skos:Concept ;
+    dbp:next hbwheel:smoke ;
+    dbp:prev hbwheel:incense ;
+    skos:broader hbwheel:smoky_burnt ;
+    skos:inScheme voc:historic-book ;
+    skos:prefLabel "Ash"@en .
+
+hbwheel:medicinal a skos:Concept ;
+    dbp:next hbwheel:fishy_rancid ;
+    dbp:prev hbwheel:fragrant ;
+    skos:inScheme voc:historic-book ;
+    skos:narrower hbwheel:mothballs,
+        hbwheel:vinegar ;
+    skos:prefLabel "Medicinal"@en ;
+    skos:topConceptOf voc:historic-book .
+
+hbwheel:fragrant a skos:Concept ;
+    dbp:next hbwheel:medicinal ;
+    dbp:prev hbwheel:smoky_burnt ;
+    skos:inScheme voc:historic-book ;
+    skos:narrower hbwheel:citrus,
+        hbwheel:fresh_fruit,
+        hbwheel:green ;
+    skos:prefLabel "Fragrant / Vegetable / Fruity / Flowers"@en ;
+    skos:topConceptOf voc:historic-book .
+
+hbwheel:grassy_woody a skos:Concept ;
+    dbp:next hbwheel:smoky_burnt ;
+    dbp:prev hbwheel:sweet_spicy ;
+    skos:inScheme voc:historic-book ;
+    skos:narrower hbwheel:charred_wood,
+        hbwheel:grassy_leafy,
+        hbwheel:wood ;
+    skos:prefLabel "Grassy / Woody"@en ;
+    skos:topConceptOf voc:historic-book .
+
+hbwheel:chemical a skos:Concept ;
+    dbp:next hbwheel:earthly ;
+    dbp:prev hbwheel:fishy_rancid ;
+    skos:inScheme voc:historic-book ;
+    skos:narrower hbwheel:engines,
+        hbwheel:gasoline_like,
+        hbwheel:industrial,
+        hbwheel:sweet,
+        hbwheel:sweet_pungent ;
+    skos:prefLabel "Chemical / Hydrocarbons"@en ;
+    skos:topConceptOf voc:historic-book .
+
+hbwheel:fishy_rancid a skos:Concept ;
+    dbp:next hbwheel:chemical ;
+    dbp:prev hbwheel:medicinal ;
+    skos:inScheme voc:historic-book ;
+    skos:narrower hbwheel:body_odour,
+        hbwheel:fish,
+        hbwheel:poo,
+        hbwheel:rotten_socks,
+        hbwheel:trash ;
+    skos:prefLabel "Fishy / Rancid"@en ;
+    skos:topConceptOf voc:historic-book .
+
+hbwheel:smoky_burnt a skos:Concept ;
+    dbp:next hbwheel:fragrant ;
+    dbp:prev hbwheel:grassy_woody ;
+    skos:inScheme voc:historic-book ;
+    skos:narrower hbwheel:ash,
+        hbwheel:burning,
+        hbwheel:coal,
+        hbwheel:incense,
+        hbwheel:smoke ;
+    skos:prefLabel "Smoky / Burnt"@en ;
+    skos:topConceptOf voc:historic-book .
+
+hbwheel:earthly a skos:Concept ;
+    dbp:next hbwheel:sweet_spicy ;
+    dbp:prev hbwheel:chemical ;
+    skos:inScheme voc:historic-book ;
+    skos:narrower hbwheel:dampness,
+        hbwheel:farm_like,
+        hbwheel:musty,
+        hbwheel:old_clothing,
+        hbwheel:old_room,
+        hbwheel:old_seasoning ;
+    skos:prefLabel "Earthly / Musty / Mouldy"@en ;
+    skos:topConceptOf voc:historic-book .
+
+hbwheel:sweet_spicy a skos:Concept ;
+    dbp:next hbwheel:grassy_woody ;
+    dbp:prev hbwheel:earthly ;
+    skos:inScheme voc:historic-book ;
+    skos:narrower hbwheel:almonds,
+        hbwheel:biscuits,
+        hbwheel:bourbon_cream,
+        hbwheel:caramel,
+        hbwheel:chocolate,
+        hbwheel:vanilla ;
+    skos:prefLabel "Sweet / Spicy"@en ;
+    skos:topConceptOf voc:historic-book .
+
+voc:historic-book a skos:ConceptScheme ;
+    rdfs:label "Odour wheel of historic book"@en ;
+    dct:bibliographicCitation "Bembibre, C. & Strlič, M. Herit Sci (2017) 5: 2. https://doi.org/10.1186/s40494-016-0114-1" ;
+    dct:created "2017-01-01"^^xsd:gYear ;
+    dct:creator "Cecilia Bembibre",
+        "Matija Strlič" ;
+    dct:type voc:scent_wheel ;
+    skos:hasTopConcept hbwheel:chemical,
+        hbwheel:earthly,
+        hbwheel:fishy_rancid,
+        hbwheel:fragrant,
+        hbwheel:grassy_woody,
+        hbwheel:medicinal,
+        hbwheel:smoky_burnt,
+        hbwheel:sweet_spicy .
