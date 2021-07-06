@@ -1,200 +1,13 @@
 @prefix dct: <http://purl.org/dc/terms/> .
-@prefix fragrant-spaces: <http://data.odeuropa.eu/fragrant-spaces/> .
+@prefix fragrant-spaces: <http://data.odeuropa.eu/vocabulary/fragrant-spaces/> .
 @prefix iconclass: <http://iconclass.org/> .
-@prefix odeuropa: <http://data.odeuropa.eu/> .
 @prefix olf: <http://data.odeuropa.eu/olfactory_objects/> .
 @prefix pav: <http://purl.org/pav/> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 @prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix voc: <http://data.odeuropa.eu/vocabulary/> .
 @prefix wordnet: <http://www.w3.org/2006/03/wn/wn20/> .
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
-
-fragrant-spaces:1 a skos:Concept ;
-    skos:altLabel "Laboratorio alchemico"@it,
-        "Alchemistenlab"@nl ;
-    skos:inScheme odeuropa:fragrant-spaces ;
-    skos:prefLabel "Alchemist's workshop"@en,
-        "Atelier d'alchimie"@fr,
-        "Laboratorio dell'alchimista"@it,
-        "Werkplaats van de alchemist"@nl ;
-    skos:topConceptOf odeuropa:fragrant-spaces .
-
-fragrant-spaces:14 a skos:Concept ;
-    skos:altLabel "Cité"@fr,
-        "Ambiente urbano"@it ;
-    skos:inScheme odeuropa:fragrant-spaces ;
-    skos:prefLabel "City"@en,
-        "Ville"@fr,
-        "Città"@it,
-        "Stad"@nl ;
-    skos:topConceptOf odeuropa:fragrant-spaces .
-
-fragrant-spaces:17 a skos:Concept ;
-    skos:altLabel "Destilleerderij"@nl ;
-    skos:inScheme odeuropa:fragrant-spaces ;
-    skos:prefLabel "Distillery"@en,
-        "Distillerie"@fr,
-        "Distilleria"@it,
-        "Distilleerderij"@nl ;
-    skos:topConceptOf odeuropa:fragrant-spaces .
-
-fragrant-spaces:18 a skos:Concept ;
-    skos:altLabel "Letamaio"@it,
-        "Mestvaalt"@nl ;
-    skos:inScheme odeuropa:fragrant-spaces ;
-    skos:prefLabel "Dungheap"@en,
-        "Tas de fumier"@fr,
-        "Mucchio di letame"@it,
-        "Mesthoop"@nl ;
-    skos:topConceptOf odeuropa:fragrant-spaces .
-
-fragrant-spaces:21 a skos:Concept ;
-    skos:inScheme odeuropa:fragrant-spaces ;
-    skos:prefLabel "Fullery"@en,
-        "Foulon"@fr,
-        "Gualchiera"@it,
-        "Voller"@nl ;
-    skos:topConceptOf odeuropa:fragrant-spaces .
-
-fragrant-spaces:28 a skos:Concept ;
-    skos:altLabel "Kruidenwinkel"@nl,
-        "kruidenierswinkel"@nl ;
-    skos:inScheme odeuropa:fragrant-spaces ;
-    skos:prefLabel "Grocery"@en,
-        "Épicerie"@fr,
-        "Drogheria"@it,
-        "Kruidenier"@nl ;
-    skos:topConceptOf odeuropa:fragrant-spaces .
-
-fragrant-spaces:30 a skos:Concept ;
-    skos:altLabel "Hooiakker"@nl ;
-    skos:inScheme odeuropa:fragrant-spaces ;
-    skos:prefLabel "Hayfield"@en,
-        "Champ de foin"@fr,
-        "Campo di fieno"@it,
-        "Hooiveld"@nl ;
-    skos:topConceptOf odeuropa:fragrant-spaces .
-
-fragrant-spaces:31 a skos:Concept ;
-    skos:altLabel "Bottega"@it ;
-    skos:inScheme odeuropa:fragrant-spaces ;
-    skos:prefLabel "Handicraft place"@en,
-        "Atelier"@fr,
-        "Laboratorio artigianale"@it,
-        "Werkplaatsen"@nl ;
-    skos:topConceptOf odeuropa:fragrant-spaces .
-
-fragrant-spaces:34 a skos:Concept ;
-    skos:altLabel "Stilleven met wild/ wildstilleven"@nl ;
-    skos:inScheme odeuropa:fragrant-spaces ;
-    skos:prefLabel "Hunting scene/ still lifes"@en,
-        "Scène de chasse"@fr,
-        "Scena di caccia"@it,
-        "Jachttafereel"@nl ;
-    skos:topConceptOf odeuropa:fragrant-spaces .
-
-fragrant-spaces:42 a skos:Concept ;
-    skos:altLabel "Calchèra"@it,
-        "Forno da calce"@it,
-        "Kalkbranderij"@nl ;
-    skos:inScheme odeuropa:fragrant-spaces ;
-    skos:prefLabel "Lime Kiln"@en,
-        "Four à chaux"@fr,
-        "Calcara"@it,
-        "Kalkoven"@nl ;
-    skos:topConceptOf odeuropa:fragrant-spaces .
-
-fragrant-spaces:47 a skos:Concept ;
-    skos:altLabel "Palude"@it,
-        "Terreno paludoso"@it,
-        "Zona paludosa"@it ;
-    skos:inScheme odeuropa:fragrant-spaces ;
-    skos:prefLabel "Marshland"@en,
-        "Marécage"@fr,
-        "Acquitrino"@it,
-        "Moeras"@nl ;
-    skos:topConceptOf odeuropa:fragrant-spaces .
-
-fragrant-spaces:6 a skos:Concept ;
-    skos:inScheme odeuropa:fragrant-spaces ;
-    skos:prefLabel "Beer Brewery"@en,
-        "Brasserie"@fr,
-        "Birrificio"@it,
-        "Bierbrouwerij"@nl ;
-    skos:topConceptOf odeuropa:fragrant-spaces .
-
-fragrant-spaces:61 a skos:Concept ;
-    skos:altLabel "Abattoir"@nl ;
-    skos:inScheme odeuropa:fragrant-spaces ;
-    skos:prefLabel "Slaughter house"@en,
-        "Abattoir"@fr,
-        "Mattatoio"@it,
-        "Slachthuis"@nl ;
-    skos:topConceptOf odeuropa:fragrant-spaces .
-
-fragrant-spaces:62 a skos:Concept ;
-    skos:altLabel "Krotwoning"@nl ;
-    skos:inScheme odeuropa:fragrant-spaces ;
-    skos:prefLabel "Slum"@en,
-        "Bidonville"@fr,
-        "Baraccopoli"@it,
-        "Krottenwijken"@nl ;
-    skos:topConceptOf odeuropa:fragrant-spaces .
-
-fragrant-spaces:68 a skos:Concept ;
-    skos:inScheme odeuropa:fragrant-spaces ;
-    skos:prefLabel "Tannery"@en,
-        "Tannerie"@fr,
-        "Conceria"@it,
-        "Looierij"@nl ;
-    skos:topConceptOf odeuropa:fragrant-spaces .
-
-fragrant-spaces:7 a skos:Concept ;
-    skos:inScheme odeuropa:fragrant-spaces ;
-    skos:prefLabel "Bleaching field"@en,
-        "Champ de blanchiment"@fr,
-        "Bleekvelden"@nl ;
-    skos:topConceptOf odeuropa:fragrant-spaces .
-
-fragrant-spaces:70 a skos:Concept ;
-    skos:inScheme odeuropa:fragrant-spaces ;
-    skos:prefLabel "(Industrieel) afval"@nl ;
-    skos:topConceptOf odeuropa:fragrant-spaces .
-
-fragrant-spaces:83 a skos:Concept ;
-    skos:inScheme odeuropa:fragrant-spaces ;
-    skos:prefLabel "Anatomical theatre"@en,
-        "Théâtre anatomique"@fr,
-        "Teatro anatomico"@it,
-        "Anatomisch theater"@nl ;
-    skos:topConceptOf odeuropa:fragrant-spaces .
-
-fragrant-spaces:85 a skos:Concept ;
-    skos:altLabel "Usine de savon"@fr,
-        "Fabbrica di Sapone"@it ;
-    skos:inScheme odeuropa:fragrant-spaces ;
-    skos:prefLabel "Soap works"@en,
-        "Savonnerie"@fr,
-        "Saponificio"@it,
-        "Zeepziederij"@nl ;
-    skos:topConceptOf odeuropa:fragrant-spaces .
-
-fragrant-spaces:87 a skos:Concept ;
-    skos:altLabel "Artsenijtuin"@nl,
-        "plantaadje"@nl,
-        "plantage"@nl ;
-    skos:inScheme odeuropa:fragrant-spaces ;
-    skos:prefLabel "Medical garden"@en,
-        "Medische tuin"@nl ;
-    skos:topConceptOf odeuropa:fragrant-spaces .
-
-fragrant-spaces:91 a skos:Concept ;
-    skos:inScheme odeuropa:fragrant-spaces ;
-    skos:prefLabel "Tobacco spinning workshop"@en,
-        "Atelier de filature de tabac"@fr,
-        "Laboratorio di filatura del tabacco"@it,
-        "Tabaksspinnerij"@nl ;
-    skos:topConceptOf odeuropa:fragrant-spaces .
 
 olf:112 skos:related fragrant-spaces:55 .
 
@@ -209,6 +22,193 @@ olf:231 skos:related fragrant-spaces:94 .
 olf:36 skos:related fragrant-spaces:10 .
 
 olf:68 skos:related fragrant-spaces:26 .
+
+fragrant-spaces:1 a skos:Concept ;
+    skos:altLabel "Laboratorio alchemico"@it,
+        "Alchemistenlab"@nl ;
+    skos:inScheme voc:fragrant-spaces ;
+    skos:prefLabel "Alchemist's workshop"@en,
+        "Atelier d'alchimie"@fr,
+        "Laboratorio dell'alchimista"@it,
+        "Werkplaats van de alchemist"@nl ;
+    skos:topConceptOf voc:fragrant-spaces .
+
+fragrant-spaces:14 a skos:Concept ;
+    skos:altLabel "Cité"@fr,
+        "Ambiente urbano"@it ;
+    skos:inScheme voc:fragrant-spaces ;
+    skos:prefLabel "City"@en,
+        "Ville"@fr,
+        "Città"@it,
+        "Stad"@nl ;
+    skos:topConceptOf voc:fragrant-spaces .
+
+fragrant-spaces:17 a skos:Concept ;
+    skos:altLabel "Destilleerderij"@nl ;
+    skos:inScheme voc:fragrant-spaces ;
+    skos:prefLabel "Distillery"@en,
+        "Distillerie"@fr,
+        "Distilleria"@it,
+        "Distilleerderij"@nl ;
+    skos:topConceptOf voc:fragrant-spaces .
+
+fragrant-spaces:18 a skos:Concept ;
+    skos:altLabel "Letamaio"@it,
+        "Mestvaalt"@nl ;
+    skos:inScheme voc:fragrant-spaces ;
+    skos:prefLabel "Dungheap"@en,
+        "Tas de fumier"@fr,
+        "Mucchio di letame"@it,
+        "Mesthoop"@nl ;
+    skos:topConceptOf voc:fragrant-spaces .
+
+fragrant-spaces:21 a skos:Concept ;
+    skos:inScheme voc:fragrant-spaces ;
+    skos:prefLabel "Fullery"@en,
+        "Foulon"@fr,
+        "Gualchiera"@it,
+        "Voller"@nl ;
+    skos:topConceptOf voc:fragrant-spaces .
+
+fragrant-spaces:28 a skos:Concept ;
+    skos:altLabel "Kruidenwinkel"@nl,
+        "kruidenierswinkel"@nl ;
+    skos:inScheme voc:fragrant-spaces ;
+    skos:prefLabel "Grocery"@en,
+        "Épicerie"@fr,
+        "Drogheria"@it,
+        "Kruidenier"@nl ;
+    skos:topConceptOf voc:fragrant-spaces .
+
+fragrant-spaces:30 a skos:Concept ;
+    skos:altLabel "Hooiakker"@nl ;
+    skos:inScheme voc:fragrant-spaces ;
+    skos:prefLabel "Hayfield"@en,
+        "Champ de foin"@fr,
+        "Campo di fieno"@it,
+        "Hooiveld"@nl ;
+    skos:topConceptOf voc:fragrant-spaces .
+
+fragrant-spaces:31 a skos:Concept ;
+    skos:altLabel "Bottega"@it ;
+    skos:inScheme voc:fragrant-spaces ;
+    skos:prefLabel "Handicraft place"@en,
+        "Atelier"@fr,
+        "Laboratorio artigianale"@it,
+        "Werkplaatsen"@nl ;
+    skos:topConceptOf voc:fragrant-spaces .
+
+fragrant-spaces:34 a skos:Concept ;
+    skos:altLabel "Stilleven met wild/ wildstilleven"@nl ;
+    skos:inScheme voc:fragrant-spaces ;
+    skos:prefLabel "Hunting scene/ still lifes"@en,
+        "Scène de chasse"@fr,
+        "Scena di caccia"@it,
+        "Jachttafereel"@nl ;
+    skos:topConceptOf voc:fragrant-spaces .
+
+fragrant-spaces:42 a skos:Concept ;
+    skos:altLabel "Calchèra"@it,
+        "Forno da calce"@it,
+        "Kalkbranderij"@nl ;
+    skos:inScheme voc:fragrant-spaces ;
+    skos:prefLabel "Lime Kiln"@en,
+        "Four à chaux"@fr,
+        "Calcara"@it,
+        "Kalkoven"@nl ;
+    skos:topConceptOf voc:fragrant-spaces .
+
+fragrant-spaces:47 a skos:Concept ;
+    skos:altLabel "Palude"@it,
+        "Terreno paludoso"@it,
+        "Zona paludosa"@it ;
+    skos:inScheme voc:fragrant-spaces ;
+    skos:prefLabel "Marshland"@en,
+        "Marécage"@fr,
+        "Acquitrino"@it,
+        "Moeras"@nl ;
+    skos:topConceptOf voc:fragrant-spaces .
+
+fragrant-spaces:6 a skos:Concept ;
+    skos:inScheme voc:fragrant-spaces ;
+    skos:prefLabel "Beer Brewery"@en,
+        "Brasserie"@fr,
+        "Birrificio"@it,
+        "Bierbrouwerij"@nl ;
+    skos:topConceptOf voc:fragrant-spaces .
+
+fragrant-spaces:61 a skos:Concept ;
+    skos:altLabel "Abattoir"@nl ;
+    skos:inScheme voc:fragrant-spaces ;
+    skos:prefLabel "Slaughter house"@en,
+        "Abattoir"@fr,
+        "Mattatoio"@it,
+        "Slachthuis"@nl ;
+    skos:topConceptOf voc:fragrant-spaces .
+
+fragrant-spaces:62 a skos:Concept ;
+    skos:altLabel "Krotwoning"@nl ;
+    skos:inScheme voc:fragrant-spaces ;
+    skos:prefLabel "Slum"@en,
+        "Bidonville"@fr,
+        "Baraccopoli"@it,
+        "Krottenwijken"@nl ;
+    skos:topConceptOf voc:fragrant-spaces .
+
+fragrant-spaces:68 a skos:Concept ;
+    skos:inScheme voc:fragrant-spaces ;
+    skos:prefLabel "Tannery"@en,
+        "Tannerie"@fr,
+        "Conceria"@it,
+        "Looierij"@nl ;
+    skos:topConceptOf voc:fragrant-spaces .
+
+fragrant-spaces:7 a skos:Concept ;
+    skos:inScheme voc:fragrant-spaces ;
+    skos:prefLabel "Bleaching field"@en,
+        "Champ de blanchiment"@fr,
+        "Bleekvelden"@nl ;
+    skos:topConceptOf voc:fragrant-spaces .
+
+fragrant-spaces:70 a skos:Concept ;
+    skos:inScheme voc:fragrant-spaces ;
+    skos:prefLabel "(Industrieel) afval"@nl ;
+    skos:topConceptOf voc:fragrant-spaces .
+
+fragrant-spaces:83 a skos:Concept ;
+    skos:inScheme voc:fragrant-spaces ;
+    skos:prefLabel "Anatomical theatre"@en,
+        "Théâtre anatomique"@fr,
+        "Teatro anatomico"@it,
+        "Anatomisch theater"@nl ;
+    skos:topConceptOf voc:fragrant-spaces .
+
+fragrant-spaces:85 a skos:Concept ;
+    skos:altLabel "Usine de savon"@fr,
+        "Fabbrica di Sapone"@it ;
+    skos:inScheme voc:fragrant-spaces ;
+    skos:prefLabel "Soap works"@en,
+        "Savonnerie"@fr,
+        "Saponificio"@it,
+        "Zeepziederij"@nl ;
+    skos:topConceptOf voc:fragrant-spaces .
+
+fragrant-spaces:87 a skos:Concept ;
+    skos:altLabel "Artsenijtuin"@nl,
+        "plantaadje"@nl,
+        "plantage"@nl ;
+    skos:inScheme voc:fragrant-spaces ;
+    skos:prefLabel "Medical garden"@en,
+        "Medische tuin"@nl ;
+    skos:topConceptOf voc:fragrant-spaces .
+
+fragrant-spaces:91 a skos:Concept ;
+    skos:inScheme voc:fragrant-spaces ;
+    skos:prefLabel "Tobacco spinning workshop"@en,
+        "Atelier de filature de tabac"@fr,
+        "Laboratorio di filatura del tabacco"@it,
+        "Tabaksspinnerij"@nl ;
+    skos:topConceptOf voc:fragrant-spaces .
 
 iconclass:12I61 skos:closeMatch fragrant-spaces:89 .
 
@@ -338,18 +338,24 @@ wordnet:4088393 skos:exactMatch fragrant-spaces:92 .
 
 wordnet:4381822 skos:exactMatch fragrant-spaces:88 .
 
+olf:227 skos:related fragrant-spaces:71,
+        fragrant-spaces:92 .
+
+olf:248 skos:related fragrant-spaces:32,
+        fragrant-spaces:76 .
+
 fragrant-spaces:11 a skos:Concept ;
     skos:altLabel "Chenal"@fr,
         "Naviglio"@it,
         "Roggia"@it,
         "Kanaal"@nl ;
     skos:closeMatch iconclass:25H22 ;
-    skos:inScheme odeuropa:fragrant-spaces ;
+    skos:inScheme voc:fragrant-spaces ;
     skos:prefLabel "Canal"@en,
         "Canal"@fr,
         "Canale"@it,
         "Gracht"@nl ;
-    skos:topConceptOf odeuropa:fragrant-spaces .
+    skos:topConceptOf voc:fragrant-spaces .
 
 fragrant-spaces:12 a skos:Concept ;
     skos:altLabel "Grotto"@en,
@@ -358,64 +364,64 @@ fragrant-spaces:12 a skos:Concept ;
         "Grotta"@it,
         "Grot"@nl ;
     skos:closeMatch iconclass:25H119 ;
-    skos:inScheme odeuropa:fragrant-spaces ;
+    skos:inScheme voc:fragrant-spaces ;
     skos:prefLabel "Cave"@en,
         "Grotte"@fr,
         "Caverna"@it,
         "Grotto"@nl ;
-    skos:topConceptOf odeuropa:fragrant-spaces .
+    skos:topConceptOf voc:fragrant-spaces .
 
 fragrant-spaces:15 a skos:Concept ;
     skos:closeMatch iconclass:41A223 ;
-    skos:inScheme odeuropa:fragrant-spaces ;
+    skos:inScheme voc:fragrant-spaces ;
     skos:prefLabel "Dining-room"@en,
         "Salle à manger"@fr,
         "Sala da pranzo"@it,
         "Eetkamer"@nl ;
-    skos:topConceptOf odeuropa:fragrant-spaces .
+    skos:topConceptOf voc:fragrant-spaces .
 
 fragrant-spaces:22 a skos:Concept ;
     skos:altLabel "Stabilimenti e mulini sullo sfondo"@it ;
     skos:closeMatch iconclass:25I4 ;
-    skos:inScheme odeuropa:fragrant-spaces ;
+    skos:inScheme voc:fragrant-spaces ;
     skos:prefLabel "Factories and mills in landscape"@en,
         "Usines, fabriques et moulins dans un paysage"@fr,
         "Stabilimenti e mulini sul paesaggio"@it,
         "Fabrieken en molens in landschap"@nl ;
-    skos:topConceptOf odeuropa:fragrant-spaces .
+    skos:topConceptOf voc:fragrant-spaces .
 
 fragrant-spaces:29 a skos:Concept ;
     skos:altLabel "Orangery"@en,
         "Arancera"@it,
         "Orangerie"@nl ;
     skos:closeMatch iconclass:47I53 ;
-    skos:inScheme odeuropa:fragrant-spaces ;
+    skos:inScheme voc:fragrant-spaces ;
     skos:prefLabel "Greenhouse"@en,
         "Serre"@fr,
         "Serra"@it,
         "Plantenkas, Oranjerie"@nl ;
-    skos:topConceptOf odeuropa:fragrant-spaces .
+    skos:topConceptOf voc:fragrant-spaces .
 
 fragrant-spaces:3 a skos:Concept ;
     skos:altLabel "Dansfeest"@nl ;
     skos:closeMatch iconclass:43A23 ;
     skos:definition "Formal dance"@en ;
-    skos:inScheme odeuropa:fragrant-spaces ;
+    skos:inScheme voc:fragrant-spaces ;
     skos:prefLabel "Ball"@en,
         "Bal"@fr,
         "Ballo"@it,
         "Bal"@nl ;
-    skos:topConceptOf odeuropa:fragrant-spaces .
+    skos:topConceptOf voc:fragrant-spaces .
 
 fragrant-spaces:33 a skos:Concept ;
     skos:altLabel "Glass-house"@en ;
     skos:closeMatch iconclass:47I531 ;
-    skos:inScheme odeuropa:fragrant-spaces ;
+    skos:inScheme voc:fragrant-spaces ;
     skos:prefLabel "Hot-house"@en,
         "Serre chaude"@fr,
         "Serra riscaldata"@it,
         "Broeikas"@nl ;
-    skos:topConceptOf odeuropa:fragrant-spaces .
+    skos:topConceptOf voc:fragrant-spaces .
 
 fragrant-spaces:36 a skos:Concept ;
     skos:altLabel "Inn"@en,
@@ -424,23 +430,23 @@ fragrant-spaces:36 a skos:Concept ;
         "Bottega del caffè"@it,
         "Caffè"@it ;
     skos:closeMatch iconclass:43B31 ;
-    skos:inScheme odeuropa:fragrant-spaces ;
+    skos:inScheme voc:fragrant-spaces ;
     skos:prefLabel "Coffee-house"@en,
         "Café"@fr,
         "Caffetteria"@it,
         "Hotel, koffiehuis"@nl ;
-    skos:topConceptOf odeuropa:fragrant-spaces .
+    skos:topConceptOf voc:fragrant-spaces .
 
 fragrant-spaces:4 a skos:Concept ;
     skos:altLabel "Salle d'eau"@fr,
         "Toilettes"@fr ;
     skos:closeMatch iconclass:41A24 ;
-    skos:inScheme odeuropa:fragrant-spaces ;
+    skos:inScheme voc:fragrant-spaces ;
     skos:prefLabel "Bathroom"@en,
         "Salle de bain"@fr,
         "Bagno"@it,
         "Badkamer"@nl ;
-    skos:topConceptOf odeuropa:fragrant-spaces .
+    skos:topConceptOf voc:fragrant-spaces .
 
 fragrant-spaces:40 a skos:Concept ;
     skos:altLabel "Alley"@en,
@@ -450,12 +456,12 @@ fragrant-spaces:40 a skos:Concept ;
         "Vicolo"@it,
         "Viuzza"@it ;
     skos:closeMatch iconclass:25I1411 ;
-    skos:inScheme odeuropa:fragrant-spaces ;
+    skos:inScheme voc:fragrant-spaces ;
     skos:prefLabel "Lane"@en,
         "Ruelle"@fr,
         "Stradina"@it,
         "Laan, steeg"@nl ;
-    skos:topConceptOf odeuropa:fragrant-spaces .
+    skos:topConceptOf voc:fragrant-spaces .
 
 fragrant-spaces:41 a skos:Concept ;
     skos:altLabel "Depot"@en,
@@ -466,23 +472,23 @@ fragrant-spaces:41 a skos:Concept ;
         "Deposito"@it ;
     skos:closeMatch iconclass:47F31 ;
     skos:definition "Large-scale structure for storage"@en ;
-    skos:inScheme odeuropa:fragrant-spaces ;
+    skos:inScheme voc:fragrant-spaces ;
     skos:prefLabel "Warehouse"@en,
         "Entrepôt"@fr,
         "Magazzino"@it,
         "Warenhuis, pakhuis, silo"@nl ;
-    skos:topConceptOf odeuropa:fragrant-spaces .
+    skos:topConceptOf voc:fragrant-spaces .
 
 fragrant-spaces:43 a skos:Concept ;
     skos:altLabel "Limonaia"@fr ;
     skos:closeMatch <http://iconclass.org/?> ;
     skos:definition "A greenhouse for lemons"@en ;
-    skos:inScheme odeuropa:fragrant-spaces ;
+    skos:inScheme voc:fragrant-spaces ;
     skos:prefLabel "Limonaia"@en,
         "Orangerie"@fr,
         "Limonaia"@it,
         "Limonaia"@nl ;
-    skos:topConceptOf odeuropa:fragrant-spaces .
+    skos:topConceptOf voc:fragrant-spaces .
 
 fragrant-spaces:48 a skos:Concept ;
     skos:altLabel "Praire"@fr,
@@ -493,32 +499,32 @@ fragrant-spaces:48 a skos:Concept ;
         "Weide"@nl,
         "veld"@nl ;
     skos:closeMatch iconclass:25H17 ;
-    skos:inScheme odeuropa:fragrant-spaces ;
+    skos:inScheme voc:fragrant-spaces ;
     skos:prefLabel "Meadow, pasture"@en,
         "Pàturage"@fr,
         "Pascolo"@it,
         "Weiland"@nl ;
-    skos:topConceptOf odeuropa:fragrant-spaces .
+    skos:topConceptOf voc:fragrant-spaces .
 
 fragrant-spaces:49 a skos:Concept ;
     skos:altLabel "Mont"@fr ;
     skos:closeMatch iconclass:25H11 ;
-    skos:inScheme odeuropa:fragrant-spaces ;
+    skos:inScheme voc:fragrant-spaces ;
     skos:prefLabel "Mountain"@en,
         "Montange"@fr,
         "Montagna"@it,
         "Bergen"@nl ;
-    skos:topConceptOf odeuropa:fragrant-spaces .
+    skos:topConceptOf voc:fragrant-spaces .
 
 fragrant-spaces:5 a skos:Concept ;
     skos:altLabel "Littoral"@fr ;
     skos:closeMatch iconclass:25H133 ;
-    skos:inScheme odeuropa:fragrant-spaces ;
+    skos:inScheme voc:fragrant-spaces ;
     skos:prefLabel "Beach"@en,
         "Spiaggia"@fr,
         "Spiaggia"@it,
         "Strand"@nl ;
-    skos:topConceptOf odeuropa:fragrant-spaces .
+    skos:topConceptOf voc:fragrant-spaces .
 
 fragrant-spaces:50 a skos:Concept ;
     skos:altLabel "Couveuse"@fr,
@@ -526,21 +532,21 @@ fragrant-spaces:50 a skos:Concept ;
         "Vivier"@fr,
         "Orto"@it ;
     skos:closeMatch iconclass:47I31 ;
-    skos:inScheme odeuropa:fragrant-spaces ;
+    skos:inScheme voc:fragrant-spaces ;
     skos:prefLabel "Nursery, market garden"@en,
         "Pépinière"@fr,
         "Vivaio"@it,
         "Tuincentrum"@nl ;
-    skos:topConceptOf odeuropa:fragrant-spaces .
+    skos:topConceptOf voc:fragrant-spaces .
 
 fragrant-spaces:52 a skos:Concept ;
     skos:closeMatch iconclass:46B322 ;
-    skos:inScheme odeuropa:fragrant-spaces ;
+    skos:inScheme voc:fragrant-spaces ;
     skos:prefLabel "Office"@en,
         "Bureau"@fr,
         "Ufficio"@it,
         "Kantoor"@nl ;
-    skos:topConceptOf odeuropa:fragrant-spaces .
+    skos:topConceptOf voc:fragrant-spaces .
 
 fragrant-spaces:54 a skos:Concept ;
     skos:altLabel "Museum"@en,
@@ -549,22 +555,22 @@ fragrant-spaces:54 a skos:Concept ;
         "Galleria"@it,
         "Tentoonstellingsruimte"@nl ;
     skos:closeMatch iconclass:48A821 ;
-    skos:inScheme odeuropa:fragrant-spaces ;
+    skos:inScheme voc:fragrant-spaces ;
     skos:prefLabel "Permanent exhibition"@en,
         "Musée"@fr,
         "Museo"@it,
         "Museum"@nl ;
-    skos:topConceptOf odeuropa:fragrant-spaces .
+    skos:topConceptOf voc:fragrant-spaces .
 
 fragrant-spaces:55 a skos:Concept ;
     skos:altLabel "Industria dolciaria"@it ;
-    skos:inScheme odeuropa:fragrant-spaces ;
+    skos:inScheme voc:fragrant-spaces ;
     skos:prefLabel "Pastry factory"@en,
         "Pâtisserie"@fr,
         "Pasticceria"@it,
         "Banketbakkerij"@nl ;
     skos:related olf:112 ;
-    skos:topConceptOf odeuropa:fragrant-spaces .
+    skos:topConceptOf voc:fragrant-spaces .
 
 fragrant-spaces:56 a skos:Concept ;
     skos:altLabel "Jail"@en,
@@ -576,25 +582,25 @@ fragrant-spaces:56 a skos:Concept ;
         "Penitenziario"@it,
         "Gevang"@nl ;
     skos:closeMatch iconclass:44G311 ;
-    skos:inScheme odeuropa:fragrant-spaces ;
+    skos:inScheme voc:fragrant-spaces ;
     skos:prefLabel "Prison"@en,
         "Prison"@fr,
         "Prigione"@it,
         "Gevangenis"@nl ;
-    skos:topConceptOf odeuropa:fragrant-spaces .
+    skos:topConceptOf voc:fragrant-spaces .
 
 fragrant-spaces:58 a skos:Concept ;
     skos:altLabel "Badestube"@de,
         "Apothekersbenodidheden"@nl,
         "simplicia"@nl ;
     skos:closeMatch iconclass:49GB ;
-    skos:inScheme odeuropa:fragrant-spaces ;
+    skos:inScheme voc:fragrant-spaces ;
     skos:prefLabel "Badehaus"@de,
         "Pharmacy"@en,
         "Pharmacie"@fr,
         "Farmacia"@it,
         "Apothekerswinkel"@nl ;
-    skos:topConceptOf odeuropa:fragrant-spaces .
+    skos:topConceptOf voc:fragrant-spaces .
 
 fragrant-spaces:59 a skos:Concept ;
     skos:altLabel "Bath house"@en,
@@ -604,66 +610,66 @@ fragrant-spaces:59 a skos:Concept ;
         "Kopalna hiša"@sl ;
     skos:closeMatch iconclass:31A5451 ;
     skos:definition "Either Roman 'terme' where people can either bathe or get cleansed with steam, or a space with a pool or bath where people can bathe"@en ;
-    skos:inScheme odeuropa:fragrant-spaces ;
+    skos:inScheme voc:fragrant-spaces ;
     skos:prefLabel "Public Bath"@en,
         "Bains publics"@fr,
         "Bagni pubblici"@it,
         "Openbare baden"@nl,
         "Kopališče"@sl ;
-    skos:topConceptOf odeuropa:fragrant-spaces .
+    skos:topConceptOf voc:fragrant-spaces .
 
 fragrant-spaces:60 a skos:Concept ;
     skos:altLabel "Haras"@fr ;
     skos:closeMatch iconclass:46C1315 ;
-    skos:inScheme odeuropa:fragrant-spaces ;
+    skos:inScheme voc:fragrant-spaces ;
     skos:prefLabel "Stud farm"@en,
         "Écurie"@fr,
         "Scuderia"@it,
         "Veefokkerij"@nl ;
-    skos:topConceptOf odeuropa:fragrant-spaces .
+    skos:topConceptOf voc:fragrant-spaces .
 
 fragrant-spaces:63 a skos:Concept ;
     skos:altLabel "Stable"@en,
         "Stable"@fr,
         "Stalle"@fr ;
     skos:closeMatch iconclass:47I2271 ;
-    skos:inScheme odeuropa:fragrant-spaces ;
+    skos:inScheme voc:fragrant-spaces ;
     skos:prefLabel "Stall"@en,
         "Étable"@fr,
         "Stalla"@it,
         "Stal"@nl ;
-    skos:topConceptOf odeuropa:fragrant-spaces .
+    skos:topConceptOf voc:fragrant-spaces .
 
 fragrant-spaces:64 a skos:Concept ;
     skos:altLabel "Voie"@fr,
         "Via"@it ;
     skos:closeMatch iconclass:25I141 ;
-    skos:inScheme odeuropa:fragrant-spaces ;
+    skos:inScheme voc:fragrant-spaces ;
     skos:prefLabel "Street"@en,
         "Rue"@fr,
         "Strada"@it,
         "Straat"@nl ;
-    skos:topConceptOf odeuropa:fragrant-spaces .
+    skos:topConceptOf voc:fragrant-spaces .
 
 fragrant-spaces:65 a skos:Concept ;
     skos:altLabel "Usine de sucre"@fr,
         "Fabbrica dello Zucchero"@it,
         "Suikerbranderij"@nl ;
     skos:broader fragrant-spaces:23 ;
-    skos:inScheme odeuropa:fragrant-spaces ;
+    skos:inScheme voc:fragrant-spaces ;
     skos:prefLabel "Sugar factory"@en,
         "Sucrerie"@fr,
         "Zuccherificio"@it,
         "Suikerraffinaderij"@nl ;
-    skos:topConceptOf odeuropa:fragrant-spaces .
+    skos:topConceptOf voc:fragrant-spaces .
 
 fragrant-spaces:69 a skos:Concept ;
     skos:altLabel "Abitazione"@it ;
-    skos:inScheme odeuropa:fragrant-spaces ;
+    skos:inScheme voc:fragrant-spaces ;
     skos:narrower fragrant-spaces:86 ;
     skos:prefLabel "House"@en,
         "Casa"@it ;
-    skos:topConceptOf odeuropa:fragrant-spaces .
+    skos:topConceptOf voc:fragrant-spaces .
 
 fragrant-spaces:74 a skos:Concept ;
     skos:altLabel "Hospital room"@en,
@@ -671,46 +677,46 @@ fragrant-spaces:74 a skos:Concept ;
         "Reparto"@it,
         "Stanza d'ospedale"@it ;
     skos:closeMatch iconclass:49G41 ;
-    skos:inScheme odeuropa:fragrant-spaces ;
+    skos:inScheme voc:fragrant-spaces ;
     skos:prefLabel "Hospital ward"@en,
         "Salle d'hôpital"@fr,
         "Corsia (ospedale)"@it,
         "Ziekenzaal"@nl ;
-    skos:topConceptOf odeuropa:fragrant-spaces .
+    skos:topConceptOf voc:fragrant-spaces .
 
 fragrant-spaces:75 a skos:Concept ;
     skos:altLabel "Home laundry"@en,
         "Laundry room"@en,
         "Lavanderia"@it ;
     skos:closeMatch iconclass:41D4281 ;
-    skos:inScheme odeuropa:fragrant-spaces ;
+    skos:inScheme voc:fragrant-spaces ;
     skos:prefLabel "Wash house"@en,
         "Buanderie"@fr,
         "Lavatoio"@it,
         "Washuis"@nl ;
-    skos:topConceptOf odeuropa:fragrant-spaces .
+    skos:topConceptOf voc:fragrant-spaces .
 
 fragrant-spaces:77 a skos:Concept ;
     skos:altLabel "Cemetery"@en,
         "Camposanto"@it,
         "Grafveld"@nl ;
     skos:closeMatch iconclass:42E43 ;
-    skos:inScheme odeuropa:fragrant-spaces ;
+    skos:inScheme voc:fragrant-spaces ;
     skos:prefLabel "Graveyard"@en,
         "Cimetière"@fr,
         "Cimitero"@it,
         "Begraafplaats"@nl ;
-    skos:topConceptOf odeuropa:fragrant-spaces .
+    skos:topConceptOf voc:fragrant-spaces .
 
 fragrant-spaces:78 a skos:Concept ;
     skos:altLabel "Hôpital de terrain"@fr ;
     skos:closeMatch iconclass:45C723 ;
-    skos:inScheme odeuropa:fragrant-spaces ;
+    skos:inScheme voc:fragrant-spaces ;
     skos:prefLabel "Field hospital"@en,
         "Hôpital de campagne"@fr,
         "Ospedale da campo"@it,
         "Veldhospitaal"@nl ;
-    skos:topConceptOf odeuropa:fragrant-spaces .
+    skos:topConceptOf voc:fragrant-spaces .
 
 fragrant-spaces:79 a skos:Concept ;
     skos:altLabel "Circus"@en,
@@ -721,29 +727,29 @@ fragrant-spaces:79 a skos:Concept ;
         "Luna Park"@it,
         "Circus"@nl ;
     skos:closeMatch iconclass:43A3 ;
-    skos:inScheme odeuropa:fragrant-spaces ;
+    skos:inScheme voc:fragrant-spaces ;
     skos:prefLabel "Pleasure fair"@en,
         "Foire d'amusement"@fr,
         "Parco divertimenti"@it,
         "Kermis"@nl ;
-    skos:topConceptOf odeuropa:fragrant-spaces .
+    skos:topConceptOf voc:fragrant-spaces .
 
 fragrant-spaces:8 a skos:Concept ;
     skos:closeMatch iconclass:41D422 ;
-    skos:inScheme odeuropa:fragrant-spaces ;
+    skos:inScheme voc:fragrant-spaces ;
     skos:prefLabel "Bleaching (laundering)"@en,
         "Bleken"@nl ;
-    skos:topConceptOf odeuropa:fragrant-spaces .
+    skos:topConceptOf voc:fragrant-spaces .
 
 fragrant-spaces:80 a skos:Concept ;
     skos:altLabel "Rope walk"@en ;
     skos:closeMatch iconclass:47H411 ;
-    skos:inScheme odeuropa:fragrant-spaces ;
+    skos:inScheme voc:fragrant-spaces ;
     skos:prefLabel "Ropery"@en,
         "Corderie"@fr,
         "Corderia"@it,
         "Lijnbaan"@nl ;
-    skos:topConceptOf odeuropa:fragrant-spaces .
+    skos:topConceptOf voc:fragrant-spaces .
 
 fragrant-spaces:82 a skos:Concept ;
     skos:altLabel "Bordel"@fr,
@@ -753,27 +759,27 @@ fragrant-spaces:82 a skos:Concept ;
         "Lupanare"@it,
         "Hoerenhuis"@nl ;
     skos:closeMatch iconclass:33C51 ;
-    skos:inScheme odeuropa:fragrant-spaces ;
+    skos:inScheme voc:fragrant-spaces ;
     skos:prefLabel "Brothel"@en,
         "Maison de prostitution"@fr,
         "Bordello"@it,
         "Bordeel"@nl ;
-    skos:topConceptOf odeuropa:fragrant-spaces .
+    skos:topConceptOf voc:fragrant-spaces .
 
 fragrant-spaces:9 a skos:Concept ;
     skos:altLabel "Wasserette"@nl ;
     skos:closeMatch iconclass:41D428 ;
-    skos:inScheme odeuropa:fragrant-spaces ;
+    skos:inScheme voc:fragrant-spaces ;
     skos:prefLabel "Building or outbuilding where laundry is done"@en,
         "Laverie"@fr,
         "Lavanderia"@it,
         "Washuis"@nl ;
-    skos:topConceptOf odeuropa:fragrant-spaces .
+    skos:topConceptOf voc:fragrant-spaces .
 
 fragrant-spaces:94 a skos:Concept ;
     skos:altLabel "Pozzo di catrame"@it,
         "Asfaltna jama"@sl ;
-    skos:inScheme odeuropa:fragrant-spaces ;
+    skos:inScheme voc:fragrant-spaces ;
     skos:prefLabel "Teergrube"@de,
         "Tarpit"@en,
         "Fosse à bitume"@fr,
@@ -781,41 +787,39 @@ fragrant-spaces:94 a skos:Concept ;
         "Teerput"@nl,
         "Asfaltno jezero"@sl ;
     skos:related olf:231 ;
-    skos:topConceptOf odeuropa:fragrant-spaces .
+    skos:topConceptOf voc:fragrant-spaces .
 
 fragrant-spaces:95 a skos:Concept ;
-    skos:inScheme odeuropa:fragrant-spaces ;
+    skos:inScheme voc:fragrant-spaces ;
     skos:prefLabel "Library"@en,
         "Biblioteca"@it ;
     skos:related olf:262 ;
-    skos:topConceptOf odeuropa:fragrant-spaces .
+    skos:topConceptOf voc:fragrant-spaces .
 
-olf:227 skos:related fragrant-spaces:71,
-        fragrant-spaces:92 .
-
-olf:248 skos:related fragrant-spaces:32,
-        fragrant-spaces:76 .
+olf:262 skos:related fragrant-spaces:35,
+        fragrant-spaces:86,
+        fragrant-spaces:95 .
 
 fragrant-spaces:10 a skos:Concept ;
     skos:altLabel "Fabbrica di cacao"@it ;
     skos:broader fragrant-spaces:23 ;
-    skos:inScheme odeuropa:fragrant-spaces ;
+    skos:inScheme voc:fragrant-spaces ;
     skos:prefLabel "Cacao factory"@en,
         "Usine de cacao"@fr,
         "Fabbrica di cioccolato"@it,
         "Cacaofabriek"@nl ;
     skos:related olf:36 ;
-    skos:topConceptOf odeuropa:fragrant-spaces .
+    skos:topConceptOf voc:fragrant-spaces .
 
 fragrant-spaces:13 a skos:Concept ;
     skos:broader fragrant-spaces:23 ;
     skos:closeMatch iconclass:47B27 ;
-    skos:inScheme odeuropa:fragrant-spaces ;
+    skos:inScheme voc:fragrant-spaces ;
     skos:prefLabel "Chemical industry"@en,
         "Industrie Chimique"@fr,
         "Industria chimica"@it,
         "Chemische industrie"@nl ;
-    skos:topConceptOf odeuropa:fragrant-spaces .
+    skos:topConceptOf voc:fragrant-spaces .
 
 fragrant-spaces:16 a skos:Concept ;
     skos:altLabel "Gourde"@fr,
@@ -823,12 +827,12 @@ fragrant-spaces:16 a skos:Concept ;
         "Refettorio"@it ;
     skos:broader fragrant-spaces:92 ;
     skos:exactMatch wordnet:2955921 ;
-    skos:inScheme odeuropa:fragrant-spaces ;
+    skos:inScheme voc:fragrant-spaces ;
     skos:prefLabel "Canteen"@en,
         "Cantine"@fr,
         "Mensa"@it,
         "Kantine"@nl ;
-    skos:topConceptOf odeuropa:fragrant-spaces .
+    skos:topConceptOf voc:fragrant-spaces .
 
 fragrant-spaces:2 a skos:Concept ;
     skos:altLabel "Marché des animaux"@fr,
@@ -836,46 +840,46 @@ fragrant-spaces:2 a skos:Concept ;
         "Mercato del bestiame"@it,
         "Veemarkt"@nl ;
     skos:broader fragrant-spaces:45 ;
-    skos:inScheme odeuropa:fragrant-spaces ;
+    skos:inScheme voc:fragrant-spaces ;
     skos:prefLabel "Animal market"@en,
         "Marché aux bestiaux"@fr,
         "Mercato degli animali"@it,
         "Dierenmarkt"@nl ;
     skos:related olf:13 ;
-    skos:topConceptOf odeuropa:fragrant-spaces .
+    skos:topConceptOf voc:fragrant-spaces .
 
 fragrant-spaces:20 a skos:Concept ;
     skos:altLabel "Incendie de forêt"@fr,
         "Incendie forestier"@fr ;
     skos:broader fragrant-spaces:19 ;
     skos:closeMatch iconclass:25H159 ;
-    skos:inScheme odeuropa:fragrant-spaces ;
+    skos:inScheme voc:fragrant-spaces ;
     skos:prefLabel "Forest fire"@en,
         "Feu de forêt"@fr,
         "Incendio boschivo"@it,
         "Bosbrand"@nl ;
-    skos:topConceptOf odeuropa:fragrant-spaces .
+    skos:topConceptOf voc:fragrant-spaces .
 
 fragrant-spaces:24 a skos:Concept ;
     skos:altLabel "Officina di macchinari"@it ;
     skos:broader fragrant-spaces:23 ;
     skos:closeMatch iconclass:47A22 ;
-    skos:inScheme odeuropa:fragrant-spaces ;
+    skos:inScheme voc:fragrant-spaces ;
     skos:prefLabel "Factory-interior"@en,
         "Intérieur d'usine"@fr,
         "Interno di una fabbrica"@it,
         "Fabrieksinterieur"@nl ;
-    skos:topConceptOf odeuropa:fragrant-spaces .
+    skos:topConceptOf voc:fragrant-spaces .
 
 fragrant-spaces:25 a skos:Concept ;
     skos:closeMatch iconclass:41A17 ;
-    skos:inScheme odeuropa:fragrant-spaces ;
+    skos:inScheme voc:fragrant-spaces ;
     skos:narrower fragrant-spaces:57 ;
     skos:prefLabel "Farm"@en,
         "Ferme"@fr,
         "Fattoria"@it,
         "Boerderij (gebouw)"@nl ;
-    skos:topConceptOf odeuropa:fragrant-spaces .
+    skos:topConceptOf voc:fragrant-spaces .
 
 fragrant-spaces:26 a skos:Concept ;
     skos:altLabel "Poissonerie"@fr,
@@ -883,77 +887,77 @@ fragrant-spaces:26 a skos:Concept ;
         "Pescheria"@it,
         "Visafslag"@nl ;
     skos:broader fragrant-spaces:45 ;
-    skos:inScheme odeuropa:fragrant-spaces ;
+    skos:inScheme voc:fragrant-spaces ;
     skos:prefLabel "Fish market"@en,
         "Marché aux poissons"@fr,
         "Mercato del pesce"@it,
         "Vismarkt"@nl ;
     skos:related olf:68 ;
-    skos:topConceptOf odeuropa:fragrant-spaces .
+    skos:topConceptOf voc:fragrant-spaces .
 
 fragrant-spaces:38 a skos:Concept ;
     skos:broader fragrant-spaces:37 ;
     skos:closeMatch iconclass:41C231 ;
-    skos:inScheme odeuropa:fragrant-spaces ;
+    skos:inScheme voc:fragrant-spaces ;
     skos:prefLabel "Rich kitchen"@en,
         "Cuisine riche"@fr,
         "Cucina ricca"@it,
         "Rijke keuken"@nl ;
-    skos:topConceptOf odeuropa:fragrant-spaces .
+    skos:topConceptOf voc:fragrant-spaces .
 
 fragrant-spaces:39 a skos:Concept ;
     skos:altLabel "Gaarkeuken"@nl ;
     skos:broader fragrant-spaces:37 ;
     skos:closeMatch iconclass:41C232 ;
-    skos:inScheme odeuropa:fragrant-spaces ;
+    skos:inScheme voc:fragrant-spaces ;
     skos:prefLabel "Poor kitchen"@en,
         "Cuisine pauvre"@fr,
         "Cucina povera"@it,
         "Ameluiskeuken"@nl ;
-    skos:topConceptOf odeuropa:fragrant-spaces .
+    skos:topConceptOf voc:fragrant-spaces .
 
 fragrant-spaces:46 a skos:Concept ;
     skos:altLabel "Marché couvert"@fr ;
     skos:broader fragrant-spaces:45 ;
     skos:closeMatch iconclass:46B112 ;
-    skos:inScheme odeuropa:fragrant-spaces ;
+    skos:inScheme voc:fragrant-spaces ;
     skos:prefLabel "Market-hall"@en,
         "Halle"@fr,
         "Mercato coperto"@it,
         "Markthal"@nl ;
-    skos:topConceptOf odeuropa:fragrant-spaces .
+    skos:topConceptOf voc:fragrant-spaces .
 
 fragrant-spaces:51 a skos:Concept ;
     skos:broader fragrant-spaces:93 ;
     skos:closeMatch iconclass:25H2321 ;
-    skos:inScheme odeuropa:fragrant-spaces ;
+    skos:inScheme voc:fragrant-spaces ;
     skos:prefLabel "Ocean"@en,
         "Océan"@fr,
         "Oceano"@it,
         "Oceaan"@nl ;
-    skos:topConceptOf odeuropa:fragrant-spaces .
+    skos:topConceptOf voc:fragrant-spaces .
 
 fragrant-spaces:57 a skos:Concept ;
     skos:altLabel "Élevage de volaille"@fr,
         "Allevamento di polli"@it ;
     skos:broader fragrant-spaces:25 ;
     skos:closeMatch iconclass:47I23 ;
-    skos:inScheme odeuropa:fragrant-spaces ;
+    skos:inScheme voc:fragrant-spaces ;
     skos:prefLabel "Poultry farm"@en,
         "Ferme avicole"@fr,
         "Azienda avicola"@it,
         "Pluimveehouderij"@nl ;
-    skos:topConceptOf odeuropa:fragrant-spaces .
+    skos:topConceptOf voc:fragrant-spaces .
 
 fragrant-spaces:66 a skos:Concept ;
     skos:closeMatch iconclass:25H19 ;
-    skos:inScheme odeuropa:fragrant-spaces ;
+    skos:inScheme voc:fragrant-spaces ;
     skos:narrower fragrant-spaces:67 ;
     skos:prefLabel "Swamps and polders"@en,
         "Marais et polders"@fr,
         "Paludi e Polder"@it,
         "Moerassen en polders"@nl ;
-    skos:topConceptOf odeuropa:fragrant-spaces .
+    skos:topConceptOf voc:fragrant-spaces .
 
 fragrant-spaces:67 a skos:Concept ;
     skos:altLabel "Fens"@en,
@@ -962,44 +966,44 @@ fragrant-spaces:67 a skos:Concept ;
         "Zona paludosa"@it ;
     skos:broader fragrant-spaces:66 ;
     skos:closeMatch iconclass:25H191 ;
-    skos:inScheme odeuropa:fragrant-spaces ;
+    skos:inScheme voc:fragrant-spaces ;
     skos:prefLabel "Swamp"@en,
         "Marais"@fr,
         "Palude"@it,
         "Moerassen en vennen"@nl ;
-    skos:topConceptOf odeuropa:fragrant-spaces .
+    skos:topConceptOf voc:fragrant-spaces .
 
 fragrant-spaces:71 a skos:Concept ;
     skos:broader fragrant-spaces:23 ;
-    skos:inScheme odeuropa:fragrant-spaces ;
+    skos:inScheme voc:fragrant-spaces ;
     skos:prefLabel "Tobacco factory"@en,
         "Usine de tabac"@fr,
         "Fabbrica di Tabacco"@it,
         "Tabaksfabriek"@nl ;
     skos:related olf:227 ;
-    skos:topConceptOf odeuropa:fragrant-spaces .
+    skos:topConceptOf voc:fragrant-spaces .
 
 fragrant-spaces:72 a skos:Concept ;
     skos:altLabel "Garden restaurant"@en ;
     skos:broader fragrant-spaces:27 ;
     skos:closeMatch iconclass:43B312 ;
-    skos:inScheme odeuropa:fragrant-spaces ;
+    skos:inScheme voc:fragrant-spaces ;
     skos:prefLabel "Tea garden"@en,
         "Jardin du thé"@fr,
         "Giardino per il tè"@it,
         "Theetuin"@nl ;
-    skos:topConceptOf odeuropa:fragrant-spaces .
+    skos:topConceptOf voc:fragrant-spaces .
 
 fragrant-spaces:73 a skos:Concept ;
     skos:altLabel "Villaggio"@it ;
     skos:broader fragrant-spaces:32 ;
     skos:closeMatch iconclass:25I2 ;
-    skos:inScheme odeuropa:fragrant-spaces ;
+    skos:inScheme voc:fragrant-spaces ;
     skos:prefLabel "Village"@en,
         "Village"@fr,
         "Paese"@it,
         "Dorp"@nl ;
-    skos:topConceptOf odeuropa:fragrant-spaces .
+    skos:topConceptOf voc:fragrant-spaces .
 
 fragrant-spaces:76 a skos:Concept ;
     skos:altLabel "Battle field"@en,
@@ -1008,7 +1012,7 @@ fragrant-spaces:76 a skos:Concept ;
         "Zona di guerra"@it,
         "Oorlogsgebied"@nl ;
     skos:closeMatch iconclass:45H3 ;
-    skos:inScheme odeuropa:fragrant-spaces ;
+    skos:inScheme voc:fragrant-spaces ;
     skos:prefLabel "Schlachtfeld"@de,
         "War zone"@en,
         "Champ de bataille"@fr,
@@ -1016,7 +1020,7 @@ fragrant-spaces:76 a skos:Concept ;
         "Slagveld"@nl,
         "Vojno polje"@sl ;
     skos:related olf:248 ;
-    skos:topConceptOf odeuropa:fragrant-spaces .
+    skos:topConceptOf voc:fragrant-spaces .
 
 fragrant-spaces:81 a skos:Concept ;
     skos:altLabel "Hortus Conclusus"@en,
@@ -1024,66 +1028,62 @@ fragrant-spaces:81 a skos:Concept ;
         "Hortus conclusus"@nl ;
     skos:broader fragrant-spaces:27 ;
     skos:closeMatch iconclass:41A635 ;
-    skos:inScheme odeuropa:fragrant-spaces ;
+    skos:inScheme voc:fragrant-spaces ;
     skos:prefLabel "Fenced garden"@en,
         "Jardin Clos"@fr,
         "Giardino recintato"@it,
         "Omsloten tuin"@nl ;
-    skos:topConceptOf odeuropa:fragrant-spaces .
+    skos:topConceptOf voc:fragrant-spaces .
 
 fragrant-spaces:84 a skos:Concept ;
     skos:altLabel "Hortus Botanicus"@en,
         "Hortus Botanicus"@nl ;
     skos:broader fragrant-spaces:27 ;
     skos:closeMatch iconclass:49F11 ;
-    skos:inScheme odeuropa:fragrant-spaces ;
+    skos:inScheme voc:fragrant-spaces ;
     skos:prefLabel "Botanical garden"@en,
         "Jardin botanique"@fr,
         "Giardino botanico"@it,
         "Botanische tuin"@nl ;
-    skos:topConceptOf odeuropa:fragrant-spaces .
+    skos:topConceptOf voc:fragrant-spaces .
 
 fragrant-spaces:86 a skos:Concept ;
     skos:broader fragrant-spaces:69 ;
-    skos:inScheme odeuropa:fragrant-spaces ;
+    skos:inScheme voc:fragrant-spaces ;
     skos:prefLabel "Old House"@en,
         "Vecchia casa"@it ;
     skos:related olf:262 ;
-    skos:topConceptOf odeuropa:fragrant-spaces .
+    skos:topConceptOf voc:fragrant-spaces .
 
 fragrant-spaces:88 a skos:Concept ;
     skos:broader fragrant-spaces:53 ;
     skos:exactMatch wordnet:4381822 ;
-    skos:inScheme odeuropa:fragrant-spaces ;
+    skos:inScheme voc:fragrant-spaces ;
     skos:prefLabel "Synagogue"@en,
         "Synagogue"@fr,
         "Sinagoga"@it,
         "Synagoge"@nl ;
-    skos:topConceptOf odeuropa:fragrant-spaces .
+    skos:topConceptOf voc:fragrant-spaces .
 
 fragrant-spaces:90 a skos:Concept ;
     skos:altLabel "Fabbrica di aceto"@it ;
     skos:broader fragrant-spaces:23 ;
-    skos:inScheme odeuropa:fragrant-spaces ;
+    skos:inScheme voc:fragrant-spaces ;
     skos:prefLabel "Vinegar factory"@en,
         "Usine de vinaigre"@fr,
         "Acetificio"@it,
         "Azijnmakerij"@nl ;
     skos:related olf:165 ;
-    skos:topConceptOf odeuropa:fragrant-spaces .
+    skos:topConceptOf voc:fragrant-spaces .
 
 fragrant-spaces:93 a skos:Concept ;
     skos:closeMatch iconclass:25H2322 ;
-    skos:inScheme odeuropa:fragrant-spaces ;
+    skos:inScheme voc:fragrant-spaces ;
     skos:narrower fragrant-spaces:51 ;
     skos:prefLabel "Sea"@en,
         "Mer"@fr,
         "Mare"@it ;
-    skos:topConceptOf odeuropa:fragrant-spaces .
-
-olf:262 skos:related fragrant-spaces:35,
-        fragrant-spaces:86,
-        fragrant-spaces:95 .
+    skos:topConceptOf voc:fragrant-spaces .
 
 fragrant-spaces:19 a skos:Concept ;
     skos:altLabel "Wood"@en,
@@ -1094,7 +1094,7 @@ fragrant-spaces:19 a skos:Concept ;
         "Hout"@nl,
         "Woud"@nl ;
     skos:closeMatch iconclass:25H15 ;
-    skos:inScheme odeuropa:fragrant-spaces ;
+    skos:inScheme voc:fragrant-spaces ;
     skos:narrower fragrant-spaces:20 ;
     skos:prefLabel "Wald"@de,
         "Forest"@en,
@@ -1103,56 +1103,56 @@ fragrant-spaces:19 a skos:Concept ;
         "Bos"@nl,
         "Gozdno drevje"@sl ;
     skos:related olf:200 ;
-    skos:topConceptOf odeuropa:fragrant-spaces .
+    skos:topConceptOf voc:fragrant-spaces .
 
 fragrant-spaces:32 a skos:Concept ;
     skos:altLabel "Hospitaal"@nl ;
     skos:closeMatch iconclass:49G4 ;
-    skos:inScheme odeuropa:fragrant-spaces ;
+    skos:inScheme voc:fragrant-spaces ;
     skos:narrower fragrant-spaces:73 ;
     skos:prefLabel "Hospital"@en,
         "Hôpital"@fr,
         "Ospedale"@it,
         "Ziekenhuis"@nl ;
     skos:related olf:248 ;
-    skos:topConceptOf odeuropa:fragrant-spaces .
+    skos:topConceptOf voc:fragrant-spaces .
 
 fragrant-spaces:35 a skos:Concept ;
     skos:broader fragrant-spaces:53 ;
     skos:exactMatch wordnet:3031762 ;
-    skos:inScheme odeuropa:fragrant-spaces ;
+    skos:inScheme voc:fragrant-spaces ;
     skos:prefLabel "Church"@en,
         "Eglise"@fr,
         "Chiesa"@it,
         "Wierook gebruikt in kerken"@nl ;
     skos:related olf:262 ;
-    skos:topConceptOf odeuropa:fragrant-spaces .
+    skos:topConceptOf voc:fragrant-spaces .
 
 fragrant-spaces:37 a skos:Concept ;
     skos:closeMatch iconclass:41C21 ;
-    skos:inScheme odeuropa:fragrant-spaces ;
+    skos:inScheme voc:fragrant-spaces ;
     skos:narrower fragrant-spaces:38,
         fragrant-spaces:39 ;
     skos:prefLabel "Kitchen"@en,
         "Cuisine"@fr,
         "Cucina"@it,
         "Keuken"@nl ;
-    skos:topConceptOf odeuropa:fragrant-spaces .
+    skos:topConceptOf voc:fragrant-spaces .
 
 fragrant-spaces:89 a skos:Concept ;
     skos:broader fragrant-spaces:53 ;
     skos:closeMatch iconclass:12I61 ;
     skos:exactMatch wordnet:3793728 ;
-    skos:inScheme odeuropa:fragrant-spaces ;
+    skos:inScheme voc:fragrant-spaces ;
     skos:prefLabel "Mosque"@en,
         "Mosquée"@fr,
         "Moschea"@it,
         "Moskee"@nl ;
-    skos:topConceptOf odeuropa:fragrant-spaces .
+    skos:topConceptOf voc:fragrant-spaces .
 
 fragrant-spaces:27 a skos:Concept ;
     skos:closeMatch iconclass:41A6 ;
-    skos:inScheme odeuropa:fragrant-spaces ;
+    skos:inScheme voc:fragrant-spaces ;
     skos:narrower fragrant-spaces:72,
         fragrant-spaces:81,
         fragrant-spaces:84 ;
@@ -1160,11 +1160,11 @@ fragrant-spaces:27 a skos:Concept ;
         "Jardin"@fr,
         "Giardino"@it,
         "Tuin"@nl ;
-    skos:topConceptOf odeuropa:fragrant-spaces .
+    skos:topConceptOf voc:fragrant-spaces .
 
 fragrant-spaces:45 a skos:Concept ;
     skos:closeMatch iconclass:46B11 ;
-    skos:inScheme odeuropa:fragrant-spaces ;
+    skos:inScheme voc:fragrant-spaces ;
     skos:narrower fragrant-spaces:2,
         fragrant-spaces:26,
         fragrant-spaces:46 ;
@@ -1172,31 +1172,31 @@ fragrant-spaces:45 a skos:Concept ;
         "Marché"@fr,
         "Mercato"@it,
         "Markt"@nl ;
-    skos:topConceptOf odeuropa:fragrant-spaces .
+    skos:topConceptOf voc:fragrant-spaces .
 
 fragrant-spaces:53 a skos:Concept ;
     skos:exactMatch wordnet:3959692 ;
-    skos:inScheme odeuropa:fragrant-spaces ;
+    skos:inScheme voc:fragrant-spaces ;
     skos:narrower fragrant-spaces:35,
         fragrant-spaces:88,
         fragrant-spaces:89 ;
     skos:prefLabel "Place of worship"@en ;
-    skos:topConceptOf odeuropa:fragrant-spaces .
+    skos:topConceptOf voc:fragrant-spaces .
 
 fragrant-spaces:92 a skos:Concept ;
     skos:closeMatch iconclass:43B311 ;
     skos:exactMatch wordnet:4088393 ;
-    skos:inScheme odeuropa:fragrant-spaces ;
+    skos:inScheme voc:fragrant-spaces ;
     skos:narrower fragrant-spaces:16 ;
     skos:prefLabel "Restaurant"@en,
         "Restaurant"@fr,
         "Ristorante"@it ;
     skos:related olf:227 ;
-    skos:topConceptOf odeuropa:fragrant-spaces .
+    skos:topConceptOf voc:fragrant-spaces .
 
 fragrant-spaces:23 a skos:Concept ;
     skos:closeMatch iconclass:47A12 ;
-    skos:inScheme odeuropa:fragrant-spaces ;
+    skos:inScheme voc:fragrant-spaces ;
     skos:narrower fragrant-spaces:10,
         fragrant-spaces:13,
         fragrant-spaces:24,
@@ -1207,13 +1207,13 @@ fragrant-spaces:23 a skos:Concept ;
         "Usine"@fr,
         "Fabbrica"@it,
         "Fabrieksgebouw"@nl ;
-    skos:topConceptOf odeuropa:fragrant-spaces .
+    skos:topConceptOf voc:fragrant-spaces .
 
-odeuropa:fragrant-spaces a skos:ConceptScheme ;
+voc:fragrant-spaces a skos:ConceptScheme ;
     rdfs:label "Fragrant spaces" ;
     dct:created "2021-06-01"^^xsd:date ;
-    dct:modified "2021-06-22"^^xsd:date ;
-    pav:createdOn "2021-06-22"^^xsd:date ;
+    dct:modified "2021-07-06"^^xsd:date ;
+    pav:createdOn "2021-07-06"^^xsd:date ;
     pav:version "0.1" ;
     skos:hasTopConcept fragrant-spaces:1,
         fragrant-spaces:10,

@@ -16,7 +16,7 @@
 # skosmos main configuration
 
 :config a skosmos:Configuration ;
-    skosmos:sparqlEndpoint <http://data.odeuropa.eu/sparql> ;
+    skosmos:sparqlEndpoint <http://data.odeuropa.eu/repositories/odeuropa> ;
     skosmos:sparqlDialect "Generic" ;
     skosmos:sparqlCollationEnabled true ;
     skosmos:sparqlTimeout 20 ;
@@ -63,9 +63,9 @@
     skosmos:loadExternalResources "true" ;
     skosmos:showTopConcepts "true" ;
     skosmos:mainConceptScheme <http://data.odeuropa.eu/vocabulary/olfactory-objects> ;
-    void:sparqlEndpoint <http://data.odeuropa.eu/sparql> ;
+    void:sparqlEndpoint <http://data.odeuropa.eu/repositories/odeuropa> ;
     void:dataDump <https://github.com/Odeuropa/vocabularies/blob/main/vocabularies/olfactory-objects.ttl> ;
-    skosmos:sparqlGraph <http://data.odeuropa.eu/olfactory-objects>
+    skosmos:sparqlGraph <http://data.odeuropa.eu/vocabulary/olfactory-objects>
     .
 
 :fragrant-spaces a skosmos:Vocabulary, void:Dataset ;
@@ -85,9 +85,9 @@
     skosmos:loadExternalResources "true" ;
     skosmos:showTopConcepts "true" ;
     skosmos:mainConceptScheme <http://data.odeuropa.eu/vocabulary/fragrant-spaces> ;
-    void:sparqlEndpoint <http://data.odeuropa.eu/sparql> ;
+    void:sparqlEndpoint <http://data.odeuropa.eu/repositories/odeuropa> ;
     void:dataDump <https://github.com/Odeuropa/vocabularies/blob/main/vocabularies/fragrant-spaces.ttl> ;
-    skosmos:sparqlGraph <http://data.odeuropa.eu/fragrant-spaces>
+    skosmos:sparqlGraph <http://data.odeuropa.eu/vocabulary/fragrant-spaces>
     .
 
 :olfactory-gestures a skosmos:Vocabulary, void:Dataset ;
@@ -107,12 +107,12 @@
         skosmos:loadExternalResources "true" ;
         skosmos:showTopConcepts "true" ;
         skosmos:mainConceptScheme <http://data.odeuropa.eu/vocabulary/olfactory-gestures> ;
-        void:sparqlEndpoint <http://data.odeuropa.eu/sparql> ;
+        void:sparqlEndpoint <http://data.odeuropa.eu/repositories/odeuropa> ;
         void:dataDump <https://github.com/Odeuropa/vocabularies/blob/main/vocabularies/olfactory-gestures.ttl> ;
         skosmos:sparqlGraph <http://data.odeuropa.eu/vocabulary/olfactory-gestures>
         .
 
-:bembibre_strlic_wheel a skosmos:Vocabulary, void:Dataset ;
+:historic-book a skosmos:Vocabulary, void:Dataset ;
         dc:title "Odour wheel of historic book" ;
         dc:subject :wheel ;
         dc:type mdrtype:THESAURUS ;
@@ -129,12 +129,12 @@
         skosmos:loadExternalResources "true" ;
         skosmos:showTopConcepts "true" ;
         skosmos:mainConceptScheme <http://data.odeuropa.eu/vocabulary/historic-book> ;
-        void:sparqlEndpoint <http://data.odeuropa.eu/sparql> ;
+        void:sparqlEndpoint <http://data.odeuropa.eu/repositories/odeuropa> ;
         void:dataDump <https://github.com/Odeuropa/vocabularies/blob/main/vocabularies/historic-book.ttl> ;
         skosmos:sparqlGraph <http://data.odeuropa.eu/vocabulary/historic-book>
         .
 
-:drom_circle a skosmos:Vocabulary, void:Dataset ;
+:drom a skosmos:Vocabulary, void:Dataset ;
         dc:title "Drom's fragrance circle" ;
         dc:subject :wheel ;
         dc:type mdrtype:THESAURUS ;
@@ -151,7 +151,7 @@
         skosmos:loadExternalResources "true" ;
         skosmos:showTopConcepts "true" ;
         skosmos:mainConceptScheme <http://data.odeuropa.eu/vocabulary/drom> ;
-        void:sparqlEndpoint <http://data.odeuropa.eu/sparql> ;
+        void:sparqlEndpoint <http://data.odeuropa.eu/repositories/odeuropa> ;
         void:dataDump <https://github.com/Odeuropa/vocabularies/blob/main/vocabularies/drom.ttl> ;
         skosmos:sparqlGraph <http://data.odeuropa.eu/vocabulary/drom> .
 
@@ -172,7 +172,7 @@
         skosmos:loadExternalResources "true" ;
         skosmos:showTopConcepts "true" ;
         skosmos:mainConceptScheme <http://data.odeuropa.eu/vocabulary/edwards> ;
-        void:sparqlEndpoint <http://data.odeuropa.eu/sparql> ;
+        void:sparqlEndpoint <http://data.odeuropa.eu/repositories/odeuropa> ;
         void:dataDump <https://github.com/Odeuropa/vocabularies/blob/main/vocabularies/edwards.ttl> ;
         skosmos:sparqlGraph <http://data.odeuropa.eu/vocabulary/edwards> .
 
