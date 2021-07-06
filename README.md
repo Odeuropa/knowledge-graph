@@ -43,3 +43,12 @@ Running the following script (requires NodeJS installed)
 - script_graphdb.sh should be run inside the Docker container using `docker exec -it odeuropa_graphdb bash`
 
 > This procedure should be repeated when new base paths for dereferencing are needed
+
+### Skosmos
+
+Configure `skosmos/config.ttl` (see [instructions](https://github.com/NatLibFi/Skosmos/wiki/Configuration)).
+
+Install skosmos using docker
+
+  docker build -t skosmos https://github.com/silknow/skosmos
+  docker run -d -p 8872:80 -v /home/semantic/odeuropa/knowledge-graph/skosmos:/config --name odeuropa_skosmos skosmos
