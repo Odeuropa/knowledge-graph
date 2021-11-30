@@ -151,11 +151,10 @@ edwards:woody a skos:Concept ;
 voc:edwards a skos:ConceptScheme ;
     rdfs:label "Michael Edwards' scent wheel"@en ;
     dct:created "1983-01-01"^^xsd:gYear ;
-    dct:creator <http://dbpedia.org/resource/Michael_Edwards_(fragrance_expert)> ;
+    dct:creator <http://www.wikidata.org/entity/Q16106246> ;
     dct:modified "2010-01-01"^^xsd:gYear ;
     dct:type voc:scent_wheel ;
     skos:hasTopConcept edwards:floral_primary,
         edwards:fresh,
         edwards:oriental_primary,
         edwards:woody .
-

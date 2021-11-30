@@ -1,0 +1,67 @@
+@prefix dct: <http://purl.org/dc/terms/>.
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#>.
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#>.
+@prefix skos: <http://www.w3.org/2004/02/skos/core#>.
+@prefix wd: <http://www.wikidata.org/entity/>.
+@prefix zw: <http://data.odeuropa.eu/zwaardemaker/>.
+@prefix olf: <http://data.odeuropa.eu/vocabulary/olfactory-objects/>.
+
+zw:
+    a skos:ConceptScheme;
+    dct:created "1895"^^xsd:gYear;
+    dct:creator wd:Q1043, wd:Q971279;
+    rdfs:label "Zwaardemaker smell system"@en.
+zw:alliaceous
+    a skos:Concept;
+    skos:inScheme zw:;
+    skos:prefLabel "Alliaceous"@en;
+    skos:related olf:110, olf:79;
+    skos:topConceptOf zw:.
+zw:ambrosiac
+    a skos:Concept;
+    skos:inScheme zw:;
+    skos:prefLabel "Ambrosiac"@en;
+    skos:related "amber"@en, "musk"@en;
+    skos:topConceptOf zw:.
+zw:aromatic
+    a skos:Concept;
+    skos:inScheme zw:;
+    skos:prefLabel "Aromatic"@en;
+    skos:related "camphor"@en, olf:177;
+    skos:topConceptOf zw:.
+zw:empyreumatic
+    a skos:Concept;
+    skos:inScheme zw:;
+    skos:prefLabel "Empyreumatic"@en;
+    skos:related "roasted coffee"@en, "tobacco smoke"@en;
+    skos:topConceptOf zw:.
+zw:ethereal
+    a skos:Concept;
+    skos:inScheme zw:;
+    skos:prefLabel "Ethereal"@en;
+    skos:related "ether"@en, olf:345;
+    skos:topConceptOf zw:.
+zw:foul
+    a skos:Concept;
+    skos:inScheme zw:;
+    skos:prefLabel "Foul"@en;
+    skos:related "bedbug"@en, "coriander flower"@en;
+    skos:topConceptOf zw:.
+zw:fragrant
+    a skos:Concept;
+    skos:inScheme zw:;
+    skos:prefLabel "Fragrant"@en;
+    skos:related "rose petals"@en, olf:415;
+    skos:topConceptOf zw:.
+zw:hircine
+    a skos:Concept;
+    skos:inScheme zw:;
+    skos:prefLabel "Hircine"@en;
+    skos:related "rancid food"@en, "sour milk"@en;
+    skos:topConceptOf zw:.
+zw:nauseous
+    a skos:Concept;
+    skos:inScheme zw:;
+    skos:prefLabel "Nauseous"@en;
+    skos:related "faeces"@en, "rotten eggs"@en;
+    skos:topConceptOf zw:.
