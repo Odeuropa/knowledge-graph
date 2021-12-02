@@ -177,10 +177,78 @@
         skosmos:sparqlGraph <http://data.odeuropa.eu/vocabulary/edwards> .
 
 
+:flavornet a skosmos:Vocabulary, void:Dataset ;
+        dc:title "Flavornet and human odor space" ;
+        dc:subject :classification ;
+        dc:type mdrtype:THESAURUS ;
+        void:uriSpace "http://data.odeuropa.eu/vocabulary/flavornet/";
+        skosmos:language "en";
+        skosmos:fallbackLanguages "en";
+        skosmos:defaultLanguage "en" ;
+        skosmos:groupClass skos:Collection ;
+        skosmos:hasMultiLingualProperty dc:bibliographicCitation, skos:definition ;
+        skosmos:showDeprecated "true" ;
+        skosmos:shortName "Flavornet odor space";
+        skosmos:showChangeList "false" ;
+        skosmos:showNotation "true" ;
+        skosmos:loadExternalResources "true" ;
+        skosmos:showTopConcepts "true" ;
+        skosmos:mainConceptScheme <http://data.odeuropa.eu/vocabulary/flavornet> ;
+        void:sparqlEndpoint <http://data.odeuropa.eu/repositories/odeuropa> ;
+        void:dataDump <https://github.com/Odeuropa/vocabularies/blob/main/vocabularies/flavornet.ttl> ;
+        skosmos:sparqlGraph <http://data.odeuropa.eu/vocabulary/flavornet> .
+
+:historical-scent a skosmos:Vocabulary, void:Dataset ;
+        dc:title "A nose first classification system of iconographies, allegories and artefacts" ;
+        dc:subject :classification ;
+        dc:type mdrtype:THESAURUS ;
+        void:uriSpace "http://data.odeuropa.eu/vocabulary/historical-scent/";
+        skosmos:language "en";
+        skosmos:fallbackLanguages "en";
+        skosmos:defaultLanguage "en" ;
+        skosmos:groupClass skos:Collection ;
+        skosmos:hasMultiLingualProperty dc:bibliographicCitation, skos:definition ;
+        skosmos:showDeprecated "true" ;
+        skosmos:shortName "Nose-first historic classification";
+        skosmos:showChangeList "false" ;
+        skosmos:showNotation "true" ;
+        skosmos:loadExternalResources "true" ;
+        skosmos:showTopConcepts "true" ;
+        skosmos:mainConceptScheme <http://data.odeuropa.eu/vocabulary/historical-scent> ;
+        void:sparqlEndpoint <http://data.odeuropa.eu/repositories/odeuropa> ;
+        void:dataDump <https://github.com/Odeuropa/vocabularies/blob/main/vocabularies/historical-scent.ttl> ;
+        skosmos:sparqlGraph <http://data.odeuropa.eu/vocabulary/historical-scent> .
+
+:zwaardemaker a skosmos:Vocabulary, void:Dataset ;
+        dc:title "Zwaardemaker smell system" ;
+        dc:subject :classification ;
+        dc:type mdrtype:THESAURUS ;
+        void:uriSpace "http://data.odeuropa.eu/vocabulary/zwaardemaker/";
+        skosmos:language "en";
+        skosmos:fallbackLanguages "en";
+        skosmos:defaultLanguage "en" ;
+        skosmos:groupClass skos:Collection ;
+        skosmos:hasMultiLingualProperty dc:bibliographicCitation, skos:definition ;
+        skosmos:showDeprecated "true" ;
+        skosmos:shortName "Zwaardemaker smell system";
+        skosmos:showChangeList "false" ;
+        skosmos:showNotation "true" ;
+        skosmos:loadExternalResources "true" ;
+        skosmos:showTopConcepts "true" ;
+        skosmos:mainConceptScheme <http://data.odeuropa.eu/vocabulary/zwaardemaker> ;
+        void:sparqlEndpoint <http://data.odeuropa.eu/repositories/odeuropa> ;
+        void:dataDump <https://github.com/Odeuropa/vocabularies/blob/main/vocabularies/zwaardemaker.ttl> ;
+        skosmos:sparqlGraph <http://data.odeuropa.eu/vocabulary/zwaardemaker> .
+
+
 :cat_general a skos:Concept;
-  skos:prefLabel "Vocabularies"@en, "Vocabularies"@fr, "Vocabularies"@it,
-          "Vocabularies"@nl, "Vocabularies"@de, "Vocabularies"@sl.
+  skos:prefLabel "Vocabularies"@en, "Vocabulaires"@fr, "Vocabulari"@it,
+          "Vocabulaires"@nl, "Vokabularien"@de, "Slovarji"@sl.
 
 :wheel a skos:Concept;
   skos:prefLabel "Scent Wheel"@en, "Scent Wheel"@fr, "Scent Wheel"@it,
+          "Scent Wheel"@nl, "Scent Wheel"@de, "Scent Wheel"@sl.
+
+:classification a skos:Concept;
+  skos:prefLabel "Smell Classification"@en, "Classification des odeurs"@fr, "Classificazione degli odori"@it,
           "Scent Wheel"@nl, "Scent Wheel"@de, "Scent Wheel"@sl.
