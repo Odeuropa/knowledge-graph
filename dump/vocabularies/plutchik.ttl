@@ -1,207 +1,239 @@
-@prefix dct: <http://purl.org/dc/terms/>.
-@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#>.
-@prefix xsd: <http://www.w3.org/2001/XMLSchema#>.
-@prefix odeuropa: <http://data.odeuropa.eu/>.
-@prefix skos: <http://www.w3.org/2004/02/skos/core#>.
-@prefix wd: <http://www.wikidata.org/entity/>.
-@prefix dbp: <http://dbpedia.org/property/>.
-@prefix plu: <http://data.odeuropa.eu/plutchik/>.
+@prefix dbp: <http://dbpedia.org/property/> .
+@prefix dct: <http://purl.org/dc/terms/> .
+@prefix odeuropa: <http://data.odeuropa.eu/> .
+@prefix plu: <http://data.odeuropa.eu/plutchik/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix wd: <http://www.wikidata.org/entity/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 
-plu:
-    a skos:ConceptScheme;
-    dct:created "1980"^^xsd:gYear;
-    dct:creator wd:Q1664215;
-    dct:type odeuropa:wheel;
-    rdfs:label "Plutchik\u2019s Wheel of Emotions"@en.
-plu:acceptance
-    a skos:Concept;
-    skos:inScheme plu:;
-    skos:prefLabel "acceptance"@en;
-    skos:topConceptOf plu:.
-plu:admiration
-    a skos:Concept;
-    skos:broader plu:trust;
-    skos:inScheme plu:;
-    skos:prefLabel "admiration"@en.
-plu:aggressiveness
-    a skos:Concept;
-    dbp:next plu:anger;
-    dbp:prev plu:anticipation;
-    skos:inScheme plu:;
-    skos:prefLabel "aggressiveness"@en;
-    skos:topConceptOf plu:.
-plu:amazement
-    a skos:Concept;
-    skos:broader plu:surprise;
-    skos:inScheme plu:;
-    skos:prefLabel "amazement"@en.
-plu:anger
-    a skos:Concept;
-    dbp:next plu:contempt;
-    dbp:prev plu:aggressiveness;
-    skos:broader plu:annoyance;
-    skos:inScheme plu:;
-    skos:prefLabel "anger"@en.
-plu:annoyance
-    a skos:Concept;
-    skos:inScheme plu:;
-    skos:prefLabel "annoyance"@en;
-    skos:topConceptOf plu:.
-plu:anticipation
-    a skos:Concept;
-    dbp:next plu:aggressiveness;
-    dbp:prev plu:optimism;
-    skos:broader plu:interest;
-    skos:inScheme plu:;
-    skos:prefLabel "anticipation"@en.
-plu:apprehension
-    a skos:Concept;
-    skos:inScheme plu:;
-    skos:prefLabel "apprehension"@en;
-    skos:topConceptOf plu:.
-plu:awe
-    a skos:Concept;
-    dbp:next plu:fear;
-    dbp:prev plu:surprise;
-    skos:inScheme plu:;
-    skos:prefLabel "awe"@en;
-    skos:topConceptOf plu:.
-plu:boredom
-    a skos:Concept;
-    skos:inScheme plu:;
-    skos:prefLabel "boredom"@en;
-    skos:topConceptOf plu:.
-plu:contempt
-    a skos:Concept;
-    dbp:next plu:disgust;
-    dbp:prev plu:anger;
-    skos:inScheme plu:;
-    skos:prefLabel "contempt"@en;
-    skos:topConceptOf plu:.
-plu:disapproval
-    a skos:Concept;
-    dbp:next plu:surprise;
-    dbp:prev plu:sadness;
-    skos:inScheme plu:;
-    skos:prefLabel "disapproval"@en;
-    skos:topConceptOf plu:.
-plu:disgust
-    a skos:Concept;
-    dbp:next plu:remorse;
-    dbp:prev plu:contempt;
-    skos:broader plu:boredom;
-    skos:inScheme plu:;
-    skos:prefLabel "disgust"@en.
-plu:distraction
-    a skos:Concept;
-    skos:inScheme plu:;
-    skos:prefLabel "distraction"@en;
-    skos:topConceptOf plu:.
-plu:ecstasy
-    a skos:Concept;
-    skos:broader plu:joy;
-    skos:inScheme plu:;
-    skos:prefLabel "ecstasy"@en.
-plu:fear
-    a skos:Concept;
-    dbp:next plu:submission;
-    dbp:prev plu:awe;
-    skos:broader plu:apprehension;
-    skos:inScheme plu:;
-    skos:prefLabel "fear"@en.
-plu:grief
-    a skos:Concept;
-    skos:broader plu:sadness;
-    skos:inScheme plu:;
-    skos:prefLabel "grief"@en.
-plu:interest
-    a skos:Concept;
-    skos:inScheme plu:;
-    skos:prefLabel "interest"@en;
-    skos:topConceptOf plu:.
-plu:joy
-    a skos:Concept;
-    dbp:next plu:optimism;
-    dbp:prev plu:love;
-    skos:broader plu:serenity;
-    skos:inScheme plu:;
-    skos:prefLabel "joy"@en.
-plu:loathing
-    a skos:Concept;
-    skos:broader plu:disgust;
-    skos:inScheme plu:;
-    skos:prefLabel "loathing"@en.
-plu:love
-    a skos:Concept;
-    dbp:next plu:joy;
-    dbp:prev plu:trust;
-    skos:inScheme plu:;
-    skos:prefLabel "love"@en;
-    skos:topConceptOf plu:.
-plu:optimism
-    a skos:Concept;
-    dbp:next plu:anticipation;
-    dbp:prev plu:joy;
-    skos:inScheme plu:;
-    skos:prefLabel "optimism"@en;
-    skos:topConceptOf plu:.
-plu:pensiveness
-    a skos:Concept;
-    skos:inScheme plu:;
-    skos:prefLabel "pensiveness"@en;
-    skos:topConceptOf plu:.
-plu:rage
-    a skos:Concept;
-    skos:broader plu:anger;
-    skos:inScheme plu:;
-    skos:prefLabel "rage"@en.
-plu:remorse
-    a skos:Concept;
-    dbp:next plu:sadness;
-    dbp:prev plu:disgust;
-    skos:inScheme plu:;
-    skos:prefLabel "remorse"@en;
-    skos:topConceptOf plu:.
-plu:sadness
-    a skos:Concept;
-    dbp:next plu:disapproval;
-    dbp:prev plu:remorse;
-    skos:broader plu:pensiveness;
-    skos:inScheme plu:;
-    skos:prefLabel "sadness"@en.
-plu:serenity
-    a skos:Concept;
-    skos:inScheme plu:;
-    skos:prefLabel "serenity"@en;
-    skos:topConceptOf plu:.
-plu:submission
-    a skos:Concept;
-    dbp:next plu:trust;
-    dbp:prev plu:fear;
-    skos:inScheme plu:;
-    skos:prefLabel "submission"@en;
-    skos:topConceptOf plu:.
-plu:surprise
-    a skos:Concept;
-    dbp:next plu:awe;
-    dbp:prev plu:disapproval;
-    skos:broader plu:distraction;
-    skos:inScheme plu:;
-    skos:prefLabel "surprise"@en.
-plu:terror
-    a skos:Concept;
-    skos:broader plu:fear;
-    skos:inScheme plu:;
-    skos:prefLabel "terror"@en.
-plu:trust
-    a skos:Concept;
-    dbp:next plu:love;
-    dbp:prev plu:submission;
-    skos:broader plu:acceptance;
-    skos:inScheme plu:;
-    skos:prefLabel "trust"@en.
-plu:vigilance
-    a skos:Concept;
-    skos:broader plu:anticipation;
-    skos:inScheme plu:;
-    skos:prefLabel "vigilance"@en.
+plu:admiration a skos:Concept ;
+    skos:broader plu:trust ;
+    skos:inScheme plu: ;
+    skos:prefLabel "admiration"@en .
+
+plu:amazement a skos:Concept ;
+    skos:broader plu:surprise ;
+    skos:inScheme plu: ;
+    skos:prefLabel "amazement"@en .
+
+plu:ecstasy a skos:Concept ;
+    skos:broader plu:joy ;
+    skos:inScheme plu: ;
+    skos:prefLabel "ecstasy"@en .
+
+plu:grief a skos:Concept ;
+    skos:broader plu:sadness ;
+    skos:inScheme plu: ;
+    skos:prefLabel "grief"@en .
+
+plu:loathing a skos:Concept ;
+    skos:broader plu:disgust ;
+    skos:inScheme plu: ;
+    skos:prefLabel "loathing"@en .
+
+plu:rage a skos:Concept ;
+    skos:broader plu:anger ;
+    skos:inScheme plu: ;
+    skos:prefLabel "rage"@en .
+
+plu:terror a skos:Concept ;
+    skos:broader plu:fear ;
+    skos:inScheme plu: ;
+    skos:prefLabel "terror"@en .
+
+plu:vigilance a skos:Concept ;
+    skos:broader plu:anticipation ;
+    skos:inScheme plu: ;
+    skos:prefLabel "vigilance"@en .
+
+plu:acceptance a skos:Concept ;
+    skos:inScheme plu: ;
+    skos:narrower plu:trust ;
+    skos:prefLabel "acceptance"@en ;
+    skos:topConceptOf plu: .
+
+plu:annoyance a skos:Concept ;
+    skos:inScheme plu: ;
+    skos:narrower plu:anger ;
+    skos:prefLabel "annoyance"@en ;
+    skos:topConceptOf plu: .
+
+plu:apprehension a skos:Concept ;
+    skos:inScheme plu: ;
+    skos:narrower plu:fear ;
+    skos:prefLabel "apprehension"@en ;
+    skos:topConceptOf plu: .
+
+plu:boredom a skos:Concept ;
+    skos:inScheme plu: ;
+    skos:narrower plu:disgust ;
+    skos:prefLabel "boredom"@en ;
+    skos:topConceptOf plu: .
+
+plu:distraction a skos:Concept ;
+    skos:inScheme plu: ;
+    skos:narrower plu:surprise ;
+    skos:prefLabel "distraction"@en ;
+    skos:topConceptOf plu: .
+
+plu:interest a skos:Concept ;
+    skos:inScheme plu: ;
+    skos:narrower plu:anticipation ;
+    skos:prefLabel "interest"@en ;
+    skos:topConceptOf plu: .
+
+plu:pensiveness a skos:Concept ;
+    skos:inScheme plu: ;
+    skos:narrower plu:sadness ;
+    skos:prefLabel "pensiveness"@en ;
+    skos:topConceptOf plu: .
+
+plu:serenity a skos:Concept ;
+    skos:inScheme plu: ;
+    skos:narrower plu:joy ;
+    skos:prefLabel "serenity"@en ;
+    skos:topConceptOf plu: .
+
+plu:aggressiveness a skos:Concept ;
+    dbp:next plu:anger ;
+    dbp:prev plu:anticipation ;
+    skos:inScheme plu: ;
+    skos:prefLabel "aggressiveness"@en ;
+    skos:topConceptOf plu: .
+
+plu:awe a skos:Concept ;
+    dbp:next plu:fear ;
+    dbp:prev plu:surprise ;
+    skos:inScheme plu: ;
+    skos:prefLabel "awe"@en ;
+    skos:topConceptOf plu: .
+
+plu:contempt a skos:Concept ;
+    dbp:next plu:disgust ;
+    dbp:prev plu:anger ;
+    skos:inScheme plu: ;
+    skos:prefLabel "contempt"@en ;
+    skos:topConceptOf plu: .
+
+plu:disapproval a skos:Concept ;
+    dbp:next plu:surprise ;
+    dbp:prev plu:sadness ;
+    skos:inScheme plu: ;
+    skos:prefLabel "disapproval"@en ;
+    skos:topConceptOf plu: .
+
+plu:love a skos:Concept ;
+    dbp:next plu:joy ;
+    dbp:prev plu:trust ;
+    skos:inScheme plu: ;
+    skos:prefLabel "love"@en ;
+    skos:topConceptOf plu: .
+
+plu:optimism a skos:Concept ;
+    dbp:next plu:anticipation ;
+    dbp:prev plu:joy ;
+    skos:inScheme plu: ;
+    skos:prefLabel "optimism"@en ;
+    skos:topConceptOf plu: .
+
+plu:remorse a skos:Concept ;
+    dbp:next plu:sadness ;
+    dbp:prev plu:disgust ;
+    skos:inScheme plu: ;
+    skos:prefLabel "remorse"@en ;
+    skos:topConceptOf plu: .
+
+plu:submission a skos:Concept ;
+    dbp:next plu:trust ;
+    dbp:prev plu:fear ;
+    skos:inScheme plu: ;
+    skos:prefLabel "submission"@en ;
+    skos:topConceptOf plu: .
+
+plu:anger a skos:Concept ;
+    dbp:next plu:contempt ;
+    dbp:prev plu:aggressiveness ;
+    skos:broader plu:annoyance ;
+    skos:inScheme plu: ;
+    skos:narrower plu:rage ;
+    skos:prefLabel "anger"@en .
+
+plu:anticipation a skos:Concept ;
+    dbp:next plu:aggressiveness ;
+    dbp:prev plu:optimism ;
+    skos:broader plu:interest ;
+    skos:inScheme plu: ;
+    skos:narrower plu:vigilance ;
+    skos:prefLabel "anticipation"@en .
+
+plu:disgust a skos:Concept ;
+    dbp:next plu:remorse ;
+    dbp:prev plu:contempt ;
+    skos:broader plu:boredom ;
+    skos:inScheme plu: ;
+    skos:narrower plu:loathing ;
+    skos:prefLabel "disgust"@en .
+
+plu:fear a skos:Concept ;
+    dbp:next plu:submission ;
+    dbp:prev plu:awe ;
+    skos:broader plu:apprehension ;
+    skos:inScheme plu: ;
+    skos:narrower plu:terror ;
+    skos:prefLabel "fear"@en .
+
+plu:joy a skos:Concept ;
+    dbp:next plu:optimism ;
+    dbp:prev plu:love ;
+    skos:broader plu:serenity ;
+    skos:inScheme plu: ;
+    skos:narrower plu:ecstasy ;
+    skos:prefLabel "joy"@en .
+
+plu:sadness a skos:Concept ;
+    dbp:next plu:disapproval ;
+    dbp:prev plu:remorse ;
+    skos:broader plu:pensiveness ;
+    skos:inScheme plu: ;
+    skos:narrower plu:grief ;
+    skos:prefLabel "sadness"@en .
+
+plu:surprise a skos:Concept ;
+    dbp:next plu:awe ;
+    dbp:prev plu:disapproval ;
+    skos:broader plu:distraction ;
+    skos:inScheme plu: ;
+    skos:narrower plu:amazement ;
+    skos:prefLabel "surprise"@en .
+
+plu:trust a skos:Concept ;
+    dbp:next plu:love ;
+    dbp:prev plu:submission ;
+    skos:broader plu:acceptance ;
+    skos:inScheme plu: ;
+    skos:narrower plu:admiration ;
+    skos:prefLabel "trust"@en .
+
+plu: a skos:ConceptScheme ;
+    rdfs:label "Plutchik’s Wheel of Emotions"@en ;
+    dct:created "1980"^^xsd:gYear ;
+    dct:creator wd:Q1664215 ;
+    dct:type odeuropa:wheel ;
+    skos:hasTopConcept plu:acceptance,
+        plu:aggressiveness,
+        plu:annoyance,
+        plu:apprehension,
+        plu:awe,
+        plu:boredom,
+        plu:contempt,
+        plu:disapproval,
+        plu:distraction,
+        plu:interest,
+        plu:love,
+        plu:optimism,
+        plu:pensiveness,
+        plu:remorse,
+        plu:serenity,
+        plu:submission .
+
