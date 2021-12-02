@@ -497,7 +497,7 @@ his:lye a skos:Concept ;
     schema:category his:industrial ;
     skos:inScheme his: ;
     skos:prefLabel "Lye"@en ;
-    skos:related "Bleaching fields"@en ;
+    skos:related fragrant-spaces:7 ;
     skos:topConceptOf his: .
 
 his:manure a skos:Concept ;
@@ -660,7 +660,7 @@ his:sour_buttermilk a skos:Concept ;
     schema:category his:sulphurous__rotten__fecal ;
     skos:inScheme his: ;
     skos:prefLabel "Sour Buttermilk"@en ;
-    skos:related "Bleaching fields"@en ;
+    skos:related fragrant-spaces:7 ;
     skos:topConceptOf his: .
 
 his:sweet_plants a skos:Concept ;
@@ -745,21 +745,8 @@ olf:8 skos:related his:bonfire,
 olf:96 skos:related his:lavender,
         his:musk .
 
-"Bleaching fields"@en skos:related his:lye,
+fragrant-spaces:7 skos:related his:lye,
         his:sour_buttermilk .
-
-"Hair"@en skos:related his:hair .
-
-"Puddle"@en skos:related his:rain .
-
-"Strewing herbs"@en skos:related his:sweetness,
-        his:thyme .
-
-"Unicorn"@en skos:related his:mace,
-        his:saffran .
-
-"making of the Ketoret/Tabernacle and its accessories (Exodus 30:34-38)"@en skos:related his:galbanum,
-        his:styrax__often_known_as__gum_resin__ .
 
 his:ash a skos:Concept ;
     schema:category his:empyreumatic__smoky ;
