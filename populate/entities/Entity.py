@@ -9,7 +9,8 @@ from .config import BASE
 
 class Entity:
     def __init__(self, seed):
-        self.uri = path.join(BASE, 'text', str(uuid.uuid5(uuid.NAMESPACE_DNS, seed)))
+
+        self.uri = path.join(BASE, type(self).__name__, str(uuid.uuid5(uuid.NAMESPACE_DNS, seed)))
         self.res = URIRef(self.uri)
 
     def setclass(self, cls):

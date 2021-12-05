@@ -28,7 +28,7 @@ def extract_feature(text):
 
 def add_to_cache(text, geonames_id):
     if geonames_id is not None:
-        request.urlretrieve(f'https://sws.geonames.org/{geonames_id}/about.rdf', f'geonames/{geonames_id}.rdf')
+        request.urlretrieve(f'https://sws.geonames.org/{geonames_id}/about.rdf', f'../dump/geonames/{geonames_id}.rdf')
     cache[text] = geonames_id
 
     with open(GEONAMES_CACHE, 'w') as f:

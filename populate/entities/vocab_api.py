@@ -14,3 +14,13 @@ def query(domain, q, lang):
 
 def query_one(domain, q, lang):
     return query(domain, q, lang)[0]
+
+
+def interlink(domain, q, lang, fallback='text'):
+    x = query_one(domain, q, lang)
+    if x['confidence'] > 0.8:
+        return x['id']
+    elif fallback == 'text':
+        return q
+    else:
+        return None

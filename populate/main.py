@@ -48,5 +48,5 @@ def process_annotation_sheet(lang):
 
 for x in ['en', 'fr', 'de', 'sl', 'nl'][0:1]:
     process_annotation_sheet(x)
-    Graph.g.serialize(destination=f"output/{x}.ttl")
+    Graph.g.serialize(destination=f"../dump/main/{x}.ttl")
     Graph.reset()
