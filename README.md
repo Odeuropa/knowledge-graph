@@ -29,6 +29,11 @@ Upload vocabularies
 
     python3 scripts/load_vocabularies.py
 
+Upload dumps
+
+    python3 scripts/load_dump.py geonames
+    python3 scripts/load_dump.py main
+
 ## Apache Configuration and dereferencing
 
 In `graphdb/config.yml` it is possible to configure the basic information about the database server, as well as the list of base paths to dereference
