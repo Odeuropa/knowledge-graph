@@ -23,6 +23,8 @@ def add(subj, pred, obj, lang=''):
 
     if isinstance(obj, URIRef) or isinstance(obj, Literal):
         g.add((subj, pred, obj))
+    elif isinstance(lang, URIRef):
+        g.add((subj, pred, Literal(obj, datatype=lang)))
     else:
         g.add((subj, pred, Literal(obj, lang=lang)))
 

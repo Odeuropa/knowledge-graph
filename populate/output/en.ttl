@@ -1,6 +1,8 @@
 @prefix crm: <http://erlangen-crm.org/current/> .
+@prefix ns1: <http://www.w3.org/2006/time#> .
 @prefix od: <http://data.odeuropa.eu/ontology/> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 
 <http://data.odeuropa.eu/text/0005fa3c-bdff-5c9a-964e-ab4f8b604d7e/assignment/1> a crm:E13_Attribute_Assignment ;
     crm:P140_assigned_attribute_to <http://data.odeuropa.eu/text/9c4ea0ab-87a5-537e-abdd-67de07eb3ca5> ;
@@ -699,6 +701,11 @@
     crm:P140_assigned_attribute_to <http://data.odeuropa.eu/text/86644c2c-61db-512e-a48f-f0be7def623d> ;
     crm:P141_assigned "bad"@en ;
     crm:P17_was_motivated_by <http://data.odeuropa.eu/text/234dbb5a-48da-5734-a367-a49745f1d0e9> .
+
+<http://data.odeuropa.eu/text/239fbb6a-2cc3-5864-9cb0-f085413839dd> a ns1:TemporalEntity ;
+    rdfs:label "1820s - 1910s" ;
+    ns1:hasBeginning "1820 - 1910" ;
+    ns1:hasEnd "1829"^^xsd:gYear .
 
 <http://data.odeuropa.eu/text/23a47739-b2db-50b6-96af-bd0adc277c09/assignment/1> a crm:E13_Attribute_Assignment ;
     crm:P140_assigned_attribute_to <http://data.odeuropa.eu/text/e96f31d3-a7e9-55c0-be9d-c8e077d1f034> ;
@@ -1544,6 +1551,11 @@
     crm:P141_assigned "aromaticall"@en ;
     crm:P17_was_motivated_by <http://data.odeuropa.eu/text/464ce39d-a738-561e-b259-f2bb51b337d2> .
 
+<http://data.odeuropa.eu/text/468e72d1-b36a-5bf9-8a5c-136ffd9448fc> a ns1:TemporalEntity ;
+    rdfs:label "from May 1801 till August 1802" ;
+    ns1:hasBeginning "1801-05" ;
+    ns1:hasEnd "1802-08"^^xsd:gMonth .
+
 <http://data.odeuropa.eu/text/46f357a5-6241-5b80-8bb0-820505a91983/assignment/1> a crm:E13_Attribute_Assignment ;
     crm:P140_assigned_attribute_to <http://data.odeuropa.eu/text/8a7004a1-d05e-5941-b75a-1a7ba0d64219> ;
     crm:P141_assigned "aromatic"@en ;
@@ -2072,6 +2084,11 @@
     crm:P140_assigned_attribute_to <http://data.odeuropa.eu/text/9c4ea0ab-87a5-537e-abdd-67de07eb3ca5> ;
     crm:P141_assigned "odorous"@en ;
     crm:P17_was_motivated_by <http://data.odeuropa.eu/text/5c46c6a5-ba8b-51cc-8a7e-6899ece97e6d> .
+
+<http://data.odeuropa.eu/text/5c4f2e6f-0fa7-5929-b4b5-8d33cd0e1717> a ns1:TemporalEntity ;
+    rdfs:label " 1701" ;
+    ns1:hasBeginning "1701" ;
+    ns1:hasEnd "1701"^^xsd:gYear .
 
 <http://data.odeuropa.eu/text/5c776d53-4d0b-5f86-920d-88859ebf59ca/assignment/1> a crm:E13_Attribute_Assignment ;
     crm:P140_assigned_attribute_to <http://data.odeuropa.eu/text/b530408b-b1e4-5680-a38f-76a1b688e636> ;
@@ -3592,6 +3609,11 @@
     crm:P140_assigned_attribute_to <http://data.odeuropa.eu/text/3a9647fd-b329-56ee-83c5-a51ee2a562f2> ;
     crm:P141_assigned "ferocious"@en ;
     crm:P17_was_motivated_by <http://data.odeuropa.eu/text/a81e742d-aeb6-51ff-a5c6-af3f3e4e37a1> .
+
+<http://data.odeuropa.eu/text/a8a34430-83fe-5e77-83e5-cd681320d36c> a ns1:TemporalEntity ;
+    rdfs:label "in 1833" ;
+    ns1:hasBeginning "1833" ;
+    ns1:hasEnd "1833"^^xsd:gYear .
 
 <http://data.odeuropa.eu/text/a8e49e45-3269-5a4d-8ac3-7ba85863262c/assignment/1> a crm:E13_Attribute_Assignment ;
     crm:P140_assigned_attribute_to <http://data.odeuropa.eu/text/9c4ea0ab-87a5-537e-abdd-67de07eb3ca5> ;
