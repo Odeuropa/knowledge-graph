@@ -32,7 +32,7 @@ def process_annotation_sheet(lang):
 
         txt = TextualObject(title)
 
-        smell = Smell(title)
+        smell = Smell(title + str(j))
         emission = SmellEmission(title + str(j), smell, get_safe('Smell_Source', r), get_safe('Odour_Carrier', r), lang=lang)
         experience = OlfactoryExperience(title + str(j), smell, r['Perceiver'], r['Quality'], lang=lang)
         experience.add_gesture(r['Effect'], lang=lang)
