@@ -1,3 +1,4 @@
+import validators
 import numpy as np
 from rdflib import Graph, URIRef, Literal
 from .ontologies import *
@@ -23,10 +24,12 @@ def add(subj, pred, obj, lang=''):
 
     if isinstance(obj, URIRef) or isinstance(obj, Literal):
         g.add((subj, pred, obj))
+    elif validators.url(obj):
+        g.add((subj, pred, URIRef(obj)))
     elif isinstance(lang, URIRef):
         g.add((subj, pred, Literal(obj, datatype=lang)))
     else:
-        g.add((subj, pred, Literal(obj, lang=lang)))
+      g.add((subj, pred, Literal(obj, lang=lang)))
 
 
 def is_invalid(what):
