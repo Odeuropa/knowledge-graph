@@ -54,6 +54,6 @@ def load_dump(name):
 
 
 parser = argparse.ArgumentParser(description='Load dump in a graph.')
-parser.add_argument('name', required=True)
+parser.add_argument('name')
 args = parser.parse_args()
-load_dump(args['name'])
+load_dump(args.name)
