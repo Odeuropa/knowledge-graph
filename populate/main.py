@@ -1,3 +1,4 @@
+from math import isnan
 from os import path
 from tqdm import tqdm
 import pandas as pd
@@ -5,6 +6,13 @@ from entities import *
 from entities.ontologies import CRM, CRMsci, ODEUROPA
 
 xlsx_file = path.join('./', 'benchmark-annotation-output.xlsx')
+
+
+def get_safe(name, obj):
+    r = obj[name]
+    if type(r) == float and isnan(r):
+        return ''
+    return r
 
 
 def process_annotation_sheet(lang):
@@ -25,7 +33,7 @@ def process_annotation_sheet(lang):
         txt = TextualObject(title)
 
         smell = Smell(title)
-        emission = SmellEmission(title + str(j), smell, r['Smell_Source'], r['Odour_Carrier'], lang=lang)
+        emission = SmellEmission(title + str(j), smell, get_safe('Smell_Source', r), get_safe('Odour_Carrier', r), lang=lang)
         experience = OlfactoryExperience(title + str(j), smell, r['Perceiver'], r['Quality'], lang=lang)
         experience.add_gesture(r['Effect'], lang=lang)
         experience.evoked(r['Evoked_Odorant'], lang=lang)
