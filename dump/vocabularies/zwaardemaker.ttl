@@ -1,107 +1,69 @@
 @prefix dct: <http://purl.org/dc/terms/> .
+@prefix olf: <http://data.odeuropa.eu/vocabulary/olfactory-objects/> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 @prefix skos: <http://www.w3.org/2004/02/skos/core#> .
 @prefix wd: <http://www.wikidata.org/entity/> .
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 @prefix zw: <http://data.odeuropa.eu/vocabulary/zwaardemaker/> .
 
-"amber"@en skos:related zw:ambrosiac .
+olf:110 skos:related zw:alliaceous .
 
-"bedbug"@en skos:related zw:foul .
+olf:177 skos:related zw:aromatic .
 
-"camphor"@en skos:related zw:aromatic .
+olf:345 skos:related zw:ethereal .
 
-"coriander flower"@en skos:related zw:foul .
+olf:415 skos:related zw:fragrant .
 
-"ether"@en skos:related zw:ethereal .
-
-"faeces"@en skos:related zw:nauseous .
-
-"http://data.odeuropa.eu/vocabulary/olfactory-objects/110"@en skos:related zw:alliaceous .
-
-"http://data.odeuropa.eu/vocabulary/olfactory-objects/177"@en skos:related zw:aromatic .
-
-"http://data.odeuropa.eu/vocabulary/olfactory-objects/345"@en skos:related zw:ethereal .
-
-"http://data.odeuropa.eu/vocabulary/olfactory-objects/415"@en skos:related zw:fragrant .
-
-"http://data.odeuropa.eu/vocabulary/olfactory-objects/79"@en skos:related zw:alliaceous .
-
-"musk"@en skos:related zw:ambrosiac .
-
-"rancid food"@en skos:related zw:hircine .
-
-"roasted coffee"@en skos:related zw:empyreumatic .
-
-"rose petals"@en skos:related zw:fragrant .
-
-"rotten eggs"@en skos:related zw:nauseous .
-
-"sour milk"@en skos:related zw:hircine .
-
-"tobacco smoke"@en skos:related zw:empyreumatic .
-
-zw:alliaceous a skos:Concept ;
-    skos:inScheme zw: ;
-    skos:prefLabel "Alliaceous"@en ;
-    skos:related "http://data.odeuropa.eu/vocabulary/olfactory-objects/110"@en,
-        "http://data.odeuropa.eu/vocabulary/olfactory-objects/79"@en ;
-    skos:topConceptOf zw: .
+olf:79 skos:related zw:alliaceous .
 
 zw:ambrosiac a skos:Concept ;
     skos:inScheme zw: ;
     skos:prefLabel "Ambrosiac"@en ;
-    skos:related "amber"@en,
-        "musk"@en ;
-    skos:topConceptOf zw: .
-
-zw:aromatic a skos:Concept ;
-    skos:inScheme zw: ;
-    skos:prefLabel "Aromatic"@en ;
-    skos:related "camphor"@en,
-        "http://data.odeuropa.eu/vocabulary/olfactory-objects/177"@en ;
     skos:topConceptOf zw: .
 
 zw:empyreumatic a skos:Concept ;
     skos:inScheme zw: ;
     skos:prefLabel "Empyreumatic"@en ;
-    skos:related "roasted coffee"@en,
-        "tobacco smoke"@en ;
-    skos:topConceptOf zw: .
-
-zw:ethereal a skos:Concept ;
-    skos:inScheme zw: ;
-    skos:prefLabel "Ethereal"@en ;
-    skos:related "ether"@en,
-        "http://data.odeuropa.eu/vocabulary/olfactory-objects/345"@en ;
     skos:topConceptOf zw: .
 
 zw:foul a skos:Concept ;
     skos:inScheme zw: ;
     skos:prefLabel "Foul"@en ;
-    skos:related "bedbug"@en,
-        "coriander flower"@en ;
-    skos:topConceptOf zw: .
-
-zw:fragrant a skos:Concept ;
-    skos:inScheme zw: ;
-    skos:prefLabel "Fragrant"@en ;
-    skos:related "http://data.odeuropa.eu/vocabulary/olfactory-objects/415"@en,
-        "rose petals"@en ;
     skos:topConceptOf zw: .
 
 zw:hircine a skos:Concept ;
     skos:inScheme zw: ;
     skos:prefLabel "Hircine"@en ;
-    skos:related "rancid food"@en,
-        "sour milk"@en ;
     skos:topConceptOf zw: .
 
 zw:nauseous a skos:Concept ;
     skos:inScheme zw: ;
     skos:prefLabel "Nauseous"@en ;
-    skos:related "faeces"@en,
-        "rotten eggs"@en ;
+    skos:topConceptOf zw: .
+
+zw:aromatic a skos:Concept ;
+    skos:inScheme zw: ;
+    skos:prefLabel "Aromatic"@en ;
+    skos:related olf:177 ;
+    skos:topConceptOf zw: .
+
+zw:ethereal a skos:Concept ;
+    skos:inScheme zw: ;
+    skos:prefLabel "Ethereal"@en ;
+    skos:related olf:345 ;
+    skos:topConceptOf zw: .
+
+zw:fragrant a skos:Concept ;
+    skos:inScheme zw: ;
+    skos:prefLabel "Fragrant"@en ;
+    skos:related olf:415 ;
+    skos:topConceptOf zw: .
+
+zw:alliaceous a skos:Concept ;
+    skos:inScheme zw: ;
+    skos:prefLabel "Alliaceous"@en ;
+    skos:related olf:110,
+        olf:79 ;
     skos:topConceptOf zw: .
 
 zw: a skos:ConceptScheme ;

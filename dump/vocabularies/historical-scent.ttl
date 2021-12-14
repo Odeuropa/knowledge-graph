@@ -1,16 +1,40 @@
 @prefix dct: <http://purl.org/dc/terms/> .
 @prefix fr: <http://data.odeuropa.eu/vocabulary/fragrant-spaces/> .
-@prefix his: <http://data.odeuropa.eu/historical-scent/> .
+@prefix his: <http://data.odeuropa.eu/vocabulary/historical-scent/> .
 @prefix olf: <http://data.odeuropa.eu/vocabulary/olfactory-objects/> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 @prefix schema: <http://schema.org/> .
 @prefix skos: <http://www.w3.org/2004/02/skos/core#> .
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 
+fr:26 skos:related his:fish .
+
+fr:43 skos:related his:lemon .
+
+fr:45 skos:related his:carrot .
+
+his:acidic_acid a skos:Concept ;
+    schema:category his:sour__acidic__formerly_vinegary_ ;
+    skos:inScheme his: ;
+    skos:prefLabel "Acidic acid"@en ;
+    skos:topConceptOf his: .
+
 his:agar a skos:Concept ;
     schema:category his:woody ;
     skos:inScheme his: ;
     skos:prefLabel "Agar"@en ;
+    skos:topConceptOf his: .
+
+his:algum__almug__aka_red_sandalwood_ a skos:Concept ;
+    schema:category his:woody ;
+    skos:inScheme his: ;
+    skos:prefLabel "Algum (almug, aka red sandalwood)"@en ;
+    skos:topConceptOf his: .
+
+his:all_spice__nutmeg__cinnamon__cloves_ a skos:Concept ;
+    schema:category his:spicy ;
+    skos:inScheme his: ;
+    skos:prefLabel "All-Spice (nutmeg, Cinnamon, Cloves)"@en ;
     skos:topConceptOf his: .
 
 his:aloe__in_the_meaning_of_tree_ a skos:Concept ;
@@ -19,10 +43,40 @@ his:aloe__in_the_meaning_of_tree_ a skos:Concept ;
     skos:prefLabel "Aloe (in the meaning of tree)"@en ;
     skos:topConceptOf his: .
 
+his:apple a skos:Concept ;
+    schema:category his:fruity ;
+    skos:inScheme his: ;
+    skos:prefLabel "Apple"@en ;
+    skos:topConceptOf his: .
+
+his:ash a skos:Concept ;
+    schema:category his:empyreumatic__smoky ;
+    skos:inScheme his: ;
+    skos:prefLabel "Ash"@en ;
+    skos:topConceptOf his: .
+
 his:banana a skos:Concept ;
     schema:category his:fruity ;
     skos:inScheme his: ;
     skos:prefLabel "Banana"@en ;
+    skos:topConceptOf his: .
+
+his:blood a skos:Concept ;
+    schema:category his:metallic ;
+    skos:inScheme his: ;
+    skos:prefLabel "Blood"@en ;
+    skos:topConceptOf his: .
+
+his:bread a skos:Concept ;
+    schema:category his:gourmand__food ;
+    skos:inScheme his: ;
+    skos:prefLabel "Bread"@en ;
+    skos:topConceptOf his: .
+
+his:breath a skos:Concept ;
+    schema:category his:body_odour__human_ ;
+    skos:inScheme his: ;
+    skos:prefLabel "Breath"@en ;
     skos:topConceptOf his: .
 
 his:burnt_earth a skos:Concept ;
@@ -31,10 +85,46 @@ his:burnt_earth a skos:Concept ;
     skos:prefLabel "Burnt earth"@en ;
     skos:topConceptOf his: .
 
+his:cake a skos:Concept ;
+    schema:category his:gourmand__food ;
+    skos:inScheme his: ;
+    skos:prefLabel "Cake"@en ;
+    skos:topConceptOf his: .
+
+his:calamus a skos:Concept ;
+    schema:category his:radical__root ;
+    skos:inScheme his: ;
+    skos:prefLabel "Calamus"@en ;
+    skos:topConceptOf his: .
+
+his:camphor a skos:Concept ;
+    schema:category his:fresh_green ;
+    skos:inScheme his: ;
+    skos:prefLabel "Camphor"@en ;
+    skos:topConceptOf his: .
+
+his:caprylic__hircinos__crocker_henderson__linnaeus_ a skos:Concept ;
+    schema:category his:animalistic ;
+    skos:inScheme his: ;
+    skos:prefLabel "caprylic/ hircinos (crocker-henderson, linnaeus)"@en ;
+    skos:topConceptOf his: .
+
+his:carbolic_acid a skos:Concept ;
+    schema:category his:sweet ;
+    skos:inScheme his: ;
+    skos:prefLabel "Carbolic acid"@en ;
+    skos:topConceptOf his: .
+
 his:carnation a skos:Concept ;
     schema:category his:floral ;
     skos:inScheme his: ;
     skos:prefLabel "Carnation"@en ;
+    skos:topConceptOf his: .
+
+his:cedar a skos:Concept ;
+    schema:category his:woody ;
+    skos:inScheme his: ;
+    skos:prefLabel "Cedar"@en ;
     skos:topConceptOf his: .
 
 his:cherry a skos:Concept ;
@@ -49,6 +139,31 @@ his:coal a skos:Concept ;
     skos:prefLabel "Coal"@en ;
     skos:topConceptOf his: .
 
+his:coffee a skos:Concept ;
+    schema:category his:empyreumatic__smoky ;
+    skos:inScheme his: ;
+    skos:prefLabel "Coffee"@en ;
+    skos:topConceptOf his: .
+
+his:columbine a skos:Concept ;
+    schema:category his:floral ;
+    schema:subjectOf "The Madonna and Child with Saint Nicholas of Tolentino and Saint Anthony of Padua" ;
+    skos:inScheme his: ;
+    skos:prefLabel "Columbine"@en ;
+    skos:topConceptOf his: .
+
+his:cows a skos:Concept ;
+    schema:category his:rural ;
+    skos:inScheme his: ;
+    skos:prefLabel "cows"@en ;
+    skos:topConceptOf his: .
+
+his:decaying_plants_and_foods a skos:Concept ;
+    schema:category his:sulphurous__rotten__fecal ;
+    skos:inScheme his: ;
+    skos:prefLabel "Decaying plants and foods"@en ;
+    skos:topConceptOf his: .
+
 his:ear_wax___peter_de_cupere_ a skos:Concept ;
     schema:category his:body_odour__human_ ;
     skos:inScheme his: ;
@@ -61,16 +176,101 @@ his:earth a skos:Concept ;
     skos:prefLabel "Earth"@en ;
     skos:topConceptOf his: .
 
+his:elemi__canarium_luzonicum_ a skos:Concept ;
+    schema:category his:resinous ;
+    skos:inScheme his: ;
+    skos:prefLabel "Elemi (Canarium luzonicum)"@en ;
+    skos:topConceptOf his: .
+
+his:eucalyptus a skos:Concept ;
+    schema:category his:fresh_green ;
+    skos:inScheme his: ;
+    skos:prefLabel "Eucalyptus"@en ;
+    skos:topConceptOf his: .
+
+his:exhaust a skos:Concept ;
+    schema:category his:industrial ;
+    skos:inScheme his: ;
+    skos:prefLabel "Exhaust"@en ;
+    skos:topConceptOf his: .
+
+his:fart a skos:Concept ;
+    schema:category his:body_odour__human_ ;
+    skos:inScheme his: ;
+    skos:prefLabel "Fart"@en ;
+    skos:topConceptOf his: .
+
+his:fecal a skos:Concept ;
+    schema:category his:sulphurous__rotten__fecal ;
+    skos:inScheme his: ;
+    skos:prefLabel "Fecal"@en ;
+    skos:topConceptOf his: .
+
+his:feet a skos:Concept ;
+    schema:category his:body_odour__human_ ;
+    skos:inScheme his: ;
+    skos:prefLabel "Feet"@en ;
+    skos:topConceptOf his: .
+
+his:fermented_blood a skos:Concept ;
+    schema:category his:sour__acidic__formerly_vinegary_ ;
+    skos:inScheme his: ;
+    skos:prefLabel "Fermented blood"@en ;
+    skos:topConceptOf his: .
+
 his:field a skos:Concept ;
     schema:category his:rural ;
     skos:inScheme his: ;
     skos:prefLabel "field"@en ;
     skos:topConceptOf his: .
 
+his:flowers_garlands a skos:Concept ;
+    schema:category his:floral ;
+    skos:inScheme his: ;
+    skos:prefLabel "Flowers garlands"@en ;
+    skos:topConceptOf his: .
+
+his:galbanum a skos:Concept ;
+    schema:category his:fresh_green,
+        his:resinous ;
+    skos:inScheme his: ;
+    skos:prefLabel "Galbanum"@en ;
+    skos:topConceptOf his: .
+
+his:gasoline a skos:Concept ;
+    schema:category his:industrial ;
+    skos:inScheme his: ;
+    skos:prefLabel "Gasoline"@en ;
+    skos:topConceptOf his: .
+
+his:geosmin a skos:Concept ;
+    schema:category his:earthy__mineral ;
+    skos:inScheme his: ;
+    skos:prefLabel "Geosmin"@en ;
+    skos:topConceptOf his: .
+
 his:grapes a skos:Concept ;
     schema:category his:fruity ;
     skos:inScheme his: ;
     skos:prefLabel "Grapes"@en ;
+    skos:topConceptOf his: .
+
+his:grass a skos:Concept ;
+    schema:category his:fresh_green ;
+    skos:inScheme his: ;
+    skos:prefLabel "Grass"@en ;
+    skos:topConceptOf his: .
+
+his:gunpowder a skos:Concept ;
+    schema:category his:empyreumatic__smoky ;
+    skos:inScheme his: ;
+    skos:prefLabel "Gunpowder"@en ;
+    skos:topConceptOf his: .
+
+his:hair a skos:Concept ;
+    schema:category his:body_odour__human_ ;
+    skos:inScheme his: ;
+    skos:prefLabel "Hair"@en ;
     skos:topConceptOf his: .
 
 his:infections a skos:Concept ;
@@ -91,10 +291,34 @@ his:jasmin a skos:Concept ;
     skos:prefLabel "Jasmin"@en ;
     skos:topConceptOf his: .
 
+his:lake a skos:Concept ;
+    schema:category his:ozonic__aquatic ;
+    skos:inScheme his: ;
+    skos:prefLabel "Lake"@en ;
+    skos:topConceptOf his: .
+
+his:laurel a skos:Concept ;
+    schema:category his:fresh_green ;
+    skos:inScheme his: ;
+    skos:prefLabel "Laurel"@en ;
+    skos:topConceptOf his: .
+
 his:lily a skos:Concept ;
     schema:category his:floral ;
     skos:inScheme his: ;
     skos:prefLabel "Lily"@en ;
+    skos:topConceptOf his: .
+
+his:lily_of_the_valley a skos:Concept ;
+    schema:category his:floral ;
+    skos:inScheme his: ;
+    skos:prefLabel "Lily of the Valley"@en ;
+    skos:topConceptOf his: .
+
+his:lye a skos:Concept ;
+    schema:category his:industrial ;
+    skos:inScheme his: ;
+    skos:prefLabel "Lye"@en ;
     skos:topConceptOf his: .
 
 his:lye__boiled_ash_ a skos:Concept ;
@@ -103,10 +327,22 @@ his:lye__boiled_ash_ a skos:Concept ;
     skos:prefLabel "lye (boiled ash)"@en ;
     skos:topConceptOf his: .
 
+his:mace a skos:Concept ;
+    schema:category his:spicy ;
+    skos:inScheme his: ;
+    skos:prefLabel "Mace"@en ;
+    skos:topConceptOf his: .
+
 his:madonna_lily a skos:Concept ;
     schema:category his:floral ;
     skos:inScheme his: ;
     skos:prefLabel "Madonna Lily"@en ;
+    skos:topConceptOf his: .
+
+his:manure a skos:Concept ;
+    schema:category his:rural ;
+    skos:inScheme his: ;
+    skos:prefLabel "manure"@en ;
     skos:topConceptOf his: .
 
 his:marigold a skos:Concept ;
@@ -115,10 +351,85 @@ his:marigold a skos:Concept ;
     skos:prefLabel "Marigold"@en ;
     skos:topConceptOf his: .
 
+his:meadowsweet a skos:Concept ;
+    schema:category his:herbal ;
+    skos:inScheme his: ;
+    skos:prefLabel "Meadowsweet"@en ;
+    skos:topConceptOf his: .
+
+his:meat a skos:Concept ;
+    schema:category his:gourmand__food ;
+    skos:inScheme his: ;
+    skos:prefLabel "Meat"@en ;
+    skos:topConceptOf his: .
+
+his:metals a skos:Concept ;
+    schema:category his:metallic ;
+    skos:inScheme his: ;
+    skos:prefLabel "Metals"@en ;
+    skos:topConceptOf his: .
+
+his:mildew a skos:Concept ;
+    schema:category his:mouldy ;
+    skos:inScheme his: ;
+    skos:prefLabel "mildew"@en ;
+    skos:topConceptOf his: .
+
+his:milk a skos:Concept ;
+    schema:category his:gourmand__food ;
+    skos:inScheme his: ;
+    skos:prefLabel "Milk"@en ;
+    skos:topConceptOf his: .
+
+his:mint a skos:Concept ;
+    schema:category his:herbal ;
+    skos:inScheme his: ;
+    skos:prefLabel "Mint"@en ;
+    skos:topConceptOf his: .
+
+his:mould a skos:Concept ;
+    schema:category his:mouldy ;
+    skos:inScheme his: ;
+    skos:prefLabel "mould"@en ;
+    skos:topConceptOf his: .
+
+his:nutmeg a skos:Concept ;
+    schema:category his:spicy ;
+    skos:inScheme his: ;
+    skos:prefLabel "Nutmeg"@en ;
+    skos:topConceptOf his: .
+
+his:nuts a skos:Concept ;
+    schema:category his:gourmand__food ;
+    skos:inScheme his: ;
+    skos:prefLabel "Nuts"@en ;
+    skos:topConceptOf his: .
+
+his:odor_di_femmina a skos:Concept ;
+    schema:category his:body_odour__human_ ;
+    schema:subjectOf "Courbet: L’origine du monde, 1866" ;
+    skos:inScheme his: ;
+    skos:prefLabel "Odor di femmina"@en ;
+    skos:topConceptOf his: .
+
+his:odour_of_sanctity a skos:Concept ;
+    schema:category his:floral,
+        his:sweet ;
+    schema:subjectOf "Bernini: Teresa in Ecstasy" ;
+    skos:inScheme his: ;
+    skos:prefLabel "Odour of sanctity"@en ;
+    skos:topConceptOf his: .
+
 his:oil a skos:Concept ;
     schema:category his:industrial ;
     skos:inScheme his: ;
     skos:prefLabel "Oil"@en ;
+    skos:topConceptOf his: .
+
+his:orange a skos:Concept ;
+    schema:category his:fruity ;
+    skos:inScheme his: ;
+    skos:prefLabel "Orange"@en ;
     skos:topConceptOf his: .
 
 his:oregano a skos:Concept ;
@@ -127,10 +438,31 @@ his:oregano a skos:Concept ;
     skos:prefLabel "Oregano"@en ;
     skos:topConceptOf his: .
 
+his:orris_root a skos:Concept ;
+    schema:category his:radical__root ;
+    schema:subjectOf "Botticelli: Primavera",
+        "Van Eyck: The adoration of the Lamb" ;
+    skos:inScheme his: ;
+    skos:prefLabel "Orris root"@en ;
+    skos:topConceptOf his: .
+
 his:ozone a skos:Concept ;
     schema:category his:ozonic__aquatic ;
     skos:inScheme his: ;
     skos:prefLabel "Ozone"@en ;
+    skos:topConceptOf his: .
+
+his:patchouli a skos:Concept ;
+    schema:category his:earthy__mineral ;
+    schema:subjectOf "Cashmere shawls in 19th century portraits (smelled of patchouli in the 19th century)" ;
+    skos:inScheme his: ;
+    skos:prefLabel "Patchouli"@en ;
+    skos:topConceptOf his: .
+
+his:peat a skos:Concept ;
+    schema:category his:industrial ;
+    skos:inScheme his: ;
+    skos:prefLabel "Peat"@en ;
     skos:topConceptOf his: .
 
 his:peonie a skos:Concept ;
@@ -139,10 +471,67 @@ his:peonie a skos:Concept ;
     skos:prefLabel "Peonie"@en ;
     skos:topConceptOf his: .
 
+his:peru_balsam a skos:Concept ;
+    schema:category his:resinous ;
+    skos:inScheme his: ;
+    skos:prefLabel "Peru balsam"@en ;
+    skos:topConceptOf his: .
+
 his:petrichor a skos:Concept ;
     schema:category his:ozonic__aquatic ;
     skos:inScheme his: ;
     skos:prefLabel "Petrichor"@en ;
+    skos:topConceptOf his: .
+
+his:petrol a skos:Concept ;
+    schema:category his:industrial ;
+    skos:inScheme his: ;
+    skos:prefLabel "Petrol"@en ;
+    skos:topConceptOf his: .
+
+his:rain a skos:Concept ;
+    schema:category his:ozonic__aquatic ;
+    schema:subjectOf "Giorgione: La tempesta" ;
+    skos:inScheme his: ;
+    skos:prefLabel "Rain"@en ;
+    skos:topConceptOf his: .
+
+his:rose a skos:Concept ;
+    schema:category his:floral,
+        his:sweet ;
+    skos:inScheme his: ;
+    skos:prefLabel "Rose"@en ;
+    skos:topConceptOf his: .
+
+his:rosemary a skos:Concept ;
+    schema:category his:fresh_green,
+        his:herbal ;
+    skos:inScheme his: ;
+    skos:prefLabel "Rosemary"@en ;
+    skos:topConceptOf his: .
+
+his:saffran a skos:Concept ;
+    schema:category his:spicy ;
+    skos:inScheme his: ;
+    skos:prefLabel "Saffran"@en ;
+    skos:topConceptOf his: .
+
+his:sandalwood a skos:Concept ;
+    schema:category his:woody ;
+    skos:inScheme his: ;
+    skos:prefLabel "Sandalwood"@en ;
+    skos:topConceptOf his: .
+
+his:sea a skos:Concept ;
+    schema:category his:ozonic__aquatic ;
+    skos:inScheme his: ;
+    skos:prefLabel "Sea"@en ;
+    skos:topConceptOf his: .
+
+his:seafood a skos:Concept ;
+    schema:category his:fishy ;
+    skos:inScheme his: ;
+    skos:prefLabel "Seafood"@en ;
     skos:topConceptOf his: .
 
 his:smoke a skos:Concept ;
@@ -151,10 +540,66 @@ his:smoke a skos:Concept ;
     skos:prefLabel "Smoke"@en ;
     skos:topConceptOf his: .
 
+his:smoky_whisk_e_y a skos:Concept ;
+    schema:category his:empyreumatic__smoky ;
+    skos:inScheme his: ;
+    skos:prefLabel "Smoky Whisk(e)y"@en ;
+    skos:topConceptOf his: .
+
+his:soot a skos:Concept ;
+    schema:category his:industrial ;
+    skos:inScheme his: ;
+    skos:prefLabel "Soot"@en ;
+    skos:topConceptOf his: .
+
+his:sour_buttermilk a skos:Concept ;
+    schema:category his:sulphurous__rotten__fecal ;
+    skos:inScheme his: ;
+    skos:prefLabel "Sour Buttermilk"@en ;
+    skos:topConceptOf his: .
+
+his:spikenard a skos:Concept ;
+    schema:category his:earthy__mineral,
+        his:radical__root ;
+    schema:subjectOf "Jan van Scorel: Mary of Magdalen" ;
+    skos:inScheme his: ;
+    skos:prefLabel "Spikenard"@en ;
+    skos:topConceptOf his: .
+
 his:stagnant_water a skos:Concept ;
     schema:category his:ozonic__aquatic ;
     skos:inScheme his: ;
     skos:prefLabel "Stagnant water"@en ;
+    skos:topConceptOf his: .
+
+his:styrax__often_known_as__gum_resin__ a skos:Concept ;
+    schema:category his:resinous ;
+    skos:inScheme his: ;
+    skos:prefLabel "Styrax (often known as ‘gum-resin’)"@en ;
+    skos:topConceptOf his: .
+
+his:sweat a skos:Concept ;
+    schema:category his:body_odour__human_ ;
+    skos:inScheme his: ;
+    skos:prefLabel "Sweat"@en ;
+    skos:topConceptOf his: .
+
+his:sweet_plants a skos:Concept ;
+    schema:category his:sweet ;
+    skos:inScheme his: ;
+    skos:prefLabel "Sweet plants"@en ;
+    skos:topConceptOf his: .
+
+his:sweetness a skos:Concept ;
+    schema:category his:sweet ;
+    skos:inScheme his: ;
+    skos:prefLabel "sweetness"@en ;
+    skos:topConceptOf his: .
+
+his:tea a skos:Concept ;
+    schema:category his:empyreumatic__smoky ;
+    skos:inScheme his: ;
+    skos:prefLabel "Tea"@en ;
     skos:topConceptOf his: .
 
 his:thunderstorm a skos:Concept ;
@@ -163,10 +608,28 @@ his:thunderstorm a skos:Concept ;
     skos:prefLabel "Thunderstorm"@en ;
     skos:topConceptOf his: .
 
+his:thyme a skos:Concept ;
+    schema:category his:herbal ;
+    skos:inScheme his: ;
+    skos:prefLabel "Thyme"@en ;
+    skos:topConceptOf his: .
+
+his:tolu_balsam a skos:Concept ;
+    schema:category his:resinous ;
+    skos:inScheme his: ;
+    skos:prefLabel "Tolu balsam"@en ;
+    skos:topConceptOf his: .
+
 his:tulip a skos:Concept ;
     schema:category his:floral ;
     skos:inScheme his: ;
     skos:prefLabel "Tulip"@en ;
+    skos:topConceptOf his: .
+
+his:vanilla a skos:Concept ;
+    schema:category his:empyreumatic__smoky ;
+    skos:inScheme his: ;
+    skos:prefLabel "Vanilla"@en ;
     skos:topConceptOf his: .
 
 his:vegetables a skos:Concept ;
@@ -175,17 +638,41 @@ his:vegetables a skos:Concept ;
     skos:prefLabel "Vegetables"@en ;
     skos:topConceptOf his: .
 
+his:vinegar a skos:Concept ;
+    schema:category his:sour__acidic__formerly_vinegary_ ;
+    skos:inScheme his: ;
+    skos:prefLabel "Vinegar"@en ;
+    skos:topConceptOf his: .
+
+his:vinegar_wine a skos:Concept ;
+    schema:category his:sour__acidic__formerly_vinegary_ ;
+    skos:inScheme his: ;
+    skos:prefLabel "Vinegar wine"@en ;
+    skos:topConceptOf his: .
+
 his:violet a skos:Concept ;
     schema:category his:floral ;
     skos:inScheme his: ;
     skos:prefLabel "Violet"@en ;
     skos:topConceptOf his: .
 
-fr:26 skos:related his:fish .
+his:vomit a skos:Concept ;
+    schema:category his:sour__acidic__formerly_vinegary_ ;
+    skos:inScheme his: ;
+    skos:prefLabel "Vomit"@en ;
+    skos:topConceptOf his: .
 
-fr:43 skos:related his:lemon .
+his:wet_earth a skos:Concept ;
+    schema:category his:earthy__mineral ;
+    skos:inScheme his: ;
+    skos:prefLabel "Wet earth"@en ;
+    skos:topConceptOf his: .
 
-fr:45 skos:related his:carrot .
+his:wine a skos:Concept ;
+    schema:category his:gourmand__food ;
+    skos:inScheme his: ;
+    skos:prefLabel "Wine"@en ;
+    skos:topConceptOf his: .
 
 olf:10 skos:related his:compounds .
 
@@ -253,330 +740,8 @@ olf:60 skos:related his:perfume .
 
 olf:92 skos:related his:indolic .
 
-"(ingredient of) incense"@en skos:related his:labdanum .
-
-"(legend) Mary sheltered next to a rosemary bush with her blue cape and turned the flowers from white to blue"@en skos:related his:rosemary .
-
-"- see rosemary (herb) -"@en skos:related his:rosemary .
-
-"Adam and Eve"@en skos:related his:apple .
-
-"Allegory of smell (farting)"@en skos:related his:fart .
-
-"Allegory of victory"@en skos:related his:laurel .
-
-"Armida and Rinaldo Carriage"@en skos:related his:floral .
-
-"Armpit"@en skos:related his:sweat .
-
-"Bakery"@en skos:related his:bread .
-
-"Battlefields"@en skos:related his:patchouli .
-
-"Beaver (castoreum)"@en skos:related his:vanilla .
-
-"Belle Haleine (Duchamp)"@en skos:related his:breath .
-
-"Birth of Adonis"@en skos:related his:myrrh .
-
-"Bisamapfel"@en skos:related his:musk .
-
-"Bleaching"@en skos:related his:industrial .
-
-"Book of Genesis (37:25)(43:11) brought to Egypt from Canaan"@en skos:related his:labdanum .
-
-"Botany book"@en skos:related his:eucalyptus .
-
-"Burnt offering in Genesis"@en skos:related his:calamus .
-
-"Chapelet (head band)"@en skos:related his:flowers_garlands .
-
-"Chapelet (head great)"@en skos:related his:laurel .
-
-"Chevelure (Baudelaire)"@en skos:related his:hair .
-
-"Cigar box"@en skos:related his:tobacco .
-
-"Cigarbox"@en skos:related his:cedar .
-
-"Coffeepot"@en skos:related his:coffee .
-
-"Countryside"@en skos:related his:manure .
-
-"Daphne and Apollo"@en skos:related his:laurel .
-
-"Dentist’s visit"@en skos:related his:gangreen .
-
-"Deodorizer during the plague (Four Thieves Vinegar)"@en skos:related his:vinegar .
-
-"Descent into Limbo"@en skos:related his:sulphur .
-
-"Diaper (allegory of smell)"@en skos:related his:fecal .
-
-"Eau de la reine"@en skos:related his:perfume .
-
-"Eau d’hungarie"@en skos:related his:perfume .
-
-"Eucharisty"@en skos:related his:wine .
-
-"Factories"@en skos:related his:compounds .
-
-"Factory/ chimney"@en skos:related his:steam .
-
-"Fish plate"@en skos:related his:fish .
-
-"Flower still-lifes"@en skos:related his:rose .
-
-"Fruit trees"@en skos:related his:fruity .
-
-"Furnace"@en skos:related his:soot .
-
-"Furniture"@en skos:related his:sandalwood .
-
-"Garden (of Delight)"@en skos:related his:orris_root .
-
-"Grey clouds"@en skos:related his:wet_earth .
-
-"Herodotus of Halicarnassus"@en skos:related his:galbanum .
-
-"Herodotus of Halicarnassus (c.440 BC) referred to it keeping snakes away from ancient Egypt"@en skos:related his:styrax__often_known_as__gum_resin__ .
-
-"Host factory in collection of museum Ulm"@en skos:related his:bread .
-
-"Hunting scene"@en skos:related his:meat .
-
-"Iris flower"@en skos:related his:orris_root .
-
-"Jan Steen, Saint Nicholas celebration"@en skos:related his:gourmand__food .
-
-"Jewish tombs"@en skos:related his:rosemary .
-
-"Jonah in the belly of the whale"@en skos:related his:fish .
-
-"Joséphine de Beauharnais (musk perfume)"@en skos:related his:musk .
-
-"Koekenplank"@en skos:related his:nutmeg .
-
-"Lot and his daughters"@en skos:related his:sulphur .
-
-"Lydwina van Schiedam"@en skos:related his:odour_of_sanctity .
-
-"Machine"@en skos:related his:steam .
-
-"Mary"@en skos:related his:odour_of_sanctity .
-
-"Mary Ascension"@en skos:related his:lily_of_the_valley .
-
-"Mary of Bethany"@en skos:related his:spikenard .
-
-"Mary of Magdalen"@en skos:related his:spikenard .
-
-"Mary’s shoes"@en skos:related his:columbine .
-
-"Milkmaid"@en skos:related his:milk .
-
-"Mill"@en skos:related his:industrial .
-
-"Mouth"@en skos:related his:breath .
-
-"Musk ball"@en skos:related his:musk .
-
-"Musk rose"@en skos:related his:musk .
-
-"Myrrha"@en skos:related his:myrrh .
-
-"Myrrhbearers (miniature)"@en skos:related his:myrrh .
-
-"Narcissus"@en skos:related his:daffodil__jonquil .
-
-"Orangerie"@en skos:related his:orange .
-
-"Panther’s Breath (Book of Bestiary)"@en skos:related his:all_spice__nutmeg__cinnamon__cloves_ .
-
-"Panther’s breath (Book of Bestiary)"@en skos:related his:sweetness .
-
-"Pastoral scenes"@en skos:related his:cows .
-
-"Perfume vial"@en skos:related his:perfume .
-
-"Persian carpets"@en skos:related his:camphor .
-
-"Pillars Solomon’s temple"@en skos:related his:sandalwood .
-
-"Pipe (Allegory of smell)"@en skos:related his:tobacco .
-
-"Posie holder"@en skos:related his:daffodil__jonquil .
-
-"Queen Sheba with a train of camels with gifts (including spices, which could have included resins and woods too)"@en skos:related his:cloves .
-
-"Remmelin and Kilian, Pinax microcosmographicus, the body of eve, 1667"@en skos:related his:odor_di_femmina .
-
-"Rotten egg"@en skos:related his:rotten__sh_compounds_ .
-
-"Saints"@en skos:related his:odour_of_sanctity .
-
-"Scenes of war"@en skos:related his:geosmin .
-
-"Sea battle"@en skos:related his:lake .
-
-"Seascape"@en skos:related his:sea .
-
-"Sewage pipe"@en skos:related his:sulphur .
-
-"Simplicia cabinet"@en skos:related his:labdanum .
-
-"Skeleton"@en skos:related his:miasma .
-
-"Smoky whisk(e)y"@en skos:related his:smoky_whisk_e_y .
-
-"Solomon’s Temple and musical instruments (1 Kings 10:12; 2 Chronicles 2:8; 9:10-11) (together with cedar and pine)"@en skos:related his:algum__almug__aka_red_sandalwood_ .
-
-"Song of songs (2:1)"@en skos:related his:lily_of_the_valley .
-
-"Sperm whale beached"@en skos:related his:ambergris .
-
-"Spice ship"@en skos:related his:cloves .
-
-"Spice shop"@en skos:related his:cloves .
-
-"St. John’s wort"@en skos:related his:caprylic__hircinos__crocker_henderson__linnaeus_ .
-
-"Steam boat"@en skos:related his:steam .
-
-"Stephaton (Mark 15:35-36; Mark 27:47-48)"@en skos:related his:vinegar_wine .
-
-"Still life"@en skos:related his:floral .
-
-"Still-lifes"@en skos:related his:decaying_plants_and_foods .
-
-"Stinky tutsan"@en skos:related his:caprylic__hircinos__crocker_henderson__linnaeus_ .
-
-"Stoaf"@en skos:related his:peat .
-
-"Sugar cubes"@en skos:related his:sweetness .
-
-"Sugar refinery"@en skos:related his:burning_fire .
-
-"Sweet scented bedstraw"@en skos:related his:musk .
-
-"Sweetbags"@en skos:related his:sweet_plants .
-
-"Teapot"@en skos:related his:tea .
-
-"Teresa d’Avila"@en skos:related his:odour_of_sanctity .
-
-"Three Magi"@en skos:related his:frankincense .
-
-"Untreated leather"@en skos:related his:rotten__sh_compounds_ .
-
-"Venus by Botticelli (floral breath)"@en skos:related his:breath .
-
-"Virgin Mary’s tears"@en skos:related his:lily_of_the_valley .
-
-"Visual sillage"@en skos:related his:perfume .
-
-"Vomiting (Allegory of Smell)"@en skos:related his:vomit .
-
-"War scenes"@en skos:related his:gunpowder .
-
-"White flowers"@en skos:related his:indolic .
-
-"Wine bottle"@en skos:related his:wine .
-
-"Wine glass"@en skos:related his:wine .
-
-"allegory of smell"@en skos:related his:floral .
-
-"ashtray"@en skos:related his:ash .
-
-"assumption of mary"@en skos:related his:lily_of_the_valley .
-
-"bare feet"@en skos:related his:feet .
-
-"burnt offerings"@en skos:related his:smoke__cloud_ .
-
-"coffee bean refinery"@en skos:related his:coffee .
-
-"coffee shop"@en skos:related his:coffee .
-
-"coins"@en skos:related his:metals .
-
-"cremation"@en skos:related his:ash .
-
-"fireworks"@en skos:related his:gunpowder .
-
-"guns"@en skos:related his:gunpowder .
-
-"historically added to bedding"@en skos:related his:rosemary .
-
-"kermis (shitting)"@en skos:related his:excrements .
-
-"laurel arch"@en skos:related his:laurel .
-
-"laurel wrench"@en skos:related his:laurel .
-
-"linen cabinet (ex. combination of lavender, musk, cloves)"@en skos:related his:rose .
-
-"meadow"@en skos:related his:grass .
-
-"medicinal, food, perfume"@en skos:related his:peru_balsam .
-
-"medicinal, perfume (ingredient)"@en skos:related his:tolu_balsam .
-
-"metal artefacts"@en skos:related his:metals .
-
-"naked body"@en skos:related his:sweat .
-
-"nativity"@en skos:related his:rosemary .
-
-"old artifacts"@en skos:related his:mildew .
-
-"old books"@en skos:related his:mould .
-
-"pastoral scenes"@en skos:related his:grass .
-
-"prostitute"@en skos:related his:odor_di_femmina .
-
-"rotten egg"@en skos:related his:gangreen .
-
-"sex organs"@en skos:related his:odor_di_femmina .
-
-"strewing herbs"@en skos:related his:meadowsweet .
-
-"surgeries"@en skos:related his:metals .
-
-"symbol of remembrance"@en skos:related his:rosemary .
-
-"tea leaves"@en skos:related his:tea .
-
-"three magi (Casper)"@en skos:related his:frankincense .
-
-"vinaigrette (box)"@en skos:related his:vinegar .
-
-"war"@en skos:related his:fermented_blood .
-
-"war scenes"@en skos:related his:blood .
-
-his:acidic_acid a skos:Concept ;
-    schema:category his:sour__acidic__formerly_vinegary_ ;
-    skos:inScheme his: ;
-    skos:prefLabel "Acidic acid"@en ;
-    skos:related "(field) hospital"@en ;
-    skos:topConceptOf his: .
-
-his:algum__almug__aka_red_sandalwood_ a skos:Concept ;
-    schema:category his:woody ;
-    skos:inScheme his: ;
-    skos:prefLabel "Algum (almug, aka red sandalwood)"@en ;
-    skos:related "Solomon’s Temple and musical instruments (1 Kings 10:12; 2 Chronicles 2:8; 9:10-11) (together with cedar and pine)"@en ;
-    skos:topConceptOf his: .
-
-his:all_spice__nutmeg__cinnamon__cloves_ a skos:Concept ;
-    schema:category his:spicy ;
-    skos:inScheme his: ;
-    skos:prefLabel "All-Spice (nutmeg, Cinnamon, Cloves)"@en ;
-    skos:related "Panther’s Breath (Book of Bestiary)"@en ;
-    skos:topConceptOf his: .
+fr:19 skos:related his:tree_roots,
+        his:trees .
 
 his:ammonia a skos:Concept ;
     schema:category his:sour__acidic__formerly_vinegary_ ;
@@ -593,20 +758,6 @@ his:animal_burning a skos:Concept ;
     skos:related olf:9 ;
     skos:topConceptOf his: .
 
-his:apple a skos:Concept ;
-    schema:category his:fruity ;
-    skos:inScheme his: ;
-    skos:prefLabel "Apple"@en ;
-    skos:related "Adam and Eve"@en ;
-    skos:topConceptOf his: .
-
-his:blood a skos:Concept ;
-    schema:category his:metallic ;
-    skos:inScheme his: ;
-    skos:prefLabel "Blood"@en ;
-    skos:related "war scenes"@en ;
-    skos:topConceptOf his: .
-
 his:bonfire a skos:Concept ;
     schema:category his:empyreumatic__smoky ;
     skos:inScheme his: ;
@@ -614,32 +765,18 @@ his:bonfire a skos:Concept ;
     skos:related olf:8 ;
     skos:topConceptOf his: .
 
-his:cake a skos:Concept ;
-    schema:category his:gourmand__food ;
+his:burning_fire a skos:Concept ;
+    schema:category his:empyreumatic__smoky ;
     skos:inScheme his: ;
-    skos:prefLabel "Cake"@en ;
-    skos:related "Still-life"@en ;
+    skos:prefLabel "burning fire"@en ;
+    skos:related olf:8 ;
     skos:topConceptOf his: .
 
-his:calamus a skos:Concept ;
+his:carrot a skos:Concept ;
     schema:category his:radical__root ;
     skos:inScheme his: ;
-    skos:prefLabel "Calamus"@en ;
-    skos:related "Burnt offering in Genesis"@en ;
-    skos:topConceptOf his: .
-
-his:camphor a skos:Concept ;
-    schema:category his:fresh_green ;
-    skos:inScheme his: ;
-    skos:prefLabel "Camphor"@en ;
-    skos:related "Persian carpets"@en ;
-    skos:topConceptOf his: .
-
-his:carbolic_acid a skos:Concept ;
-    schema:category his:sweet ;
-    skos:inScheme his: ;
-    skos:prefLabel "Carbolic acid"@en ;
-    skos:related "(field) hospital"@en ;
+    skos:prefLabel "Carrot"@en ;
+    skos:related fr:45 ;
     skos:topConceptOf his: .
 
 his:castoreum a skos:Concept ;
@@ -647,13 +784,6 @@ his:castoreum a skos:Concept ;
     skos:inScheme his: ;
     skos:prefLabel "Castoreum"@en ;
     skos:related olf:14 ;
-    skos:topConceptOf his: .
-
-his:cedar a skos:Concept ;
-    schema:category his:woody ;
-    skos:inScheme his: ;
-    skos:prefLabel "Cedar"@en ;
-    skos:related "Cigarbox"@en ;
     skos:topConceptOf his: .
 
 his:cinnamon a skos:Concept ;
@@ -670,96 +800,46 @@ his:civet a skos:Concept ;
     skos:related olf:45 ;
     skos:topConceptOf his: .
 
-his:columbine a skos:Concept ;
-    schema:category his:floral ;
-    schema:subjectOf "The Madonna and Child with Saint Nicholas of Tolentino and Saint Anthony of Padua" ;
+his:cloves a skos:Concept ;
+    schema:category his:spicy ;
     skos:inScheme his: ;
-    skos:prefLabel "Columbine"@en ;
-    skos:related "Mary’s shoes"@en ;
+    skos:prefLabel "Cloves"@en ;
+    skos:related olf:125 ;
     skos:topConceptOf his: .
 
-his:cows a skos:Concept ;
-    schema:category his:rural ;
+his:compounds a skos:Concept ;
+    schema:category his:chemical ;
     skos:inScheme his: ;
-    skos:prefLabel "cows"@en ;
-    skos:related "Pastoral scenes"@en ;
+    skos:prefLabel "Compounds"@en ;
+    skos:related olf:10 ;
     skos:topConceptOf his: .
 
-his:decaying_plants_and_foods a skos:Concept ;
-    schema:category his:sulphurous__rotten__fecal ;
-    skos:inScheme his: ;
-    skos:prefLabel "Decaying plants and foods"@en ;
-    skos:related "Still-lifes"@en ;
-    skos:topConceptOf his: .
-
-his:elemi__canarium_luzonicum_ a skos:Concept ;
-    schema:category his:resinous ;
-    skos:inScheme his: ;
-    skos:prefLabel "Elemi (Canarium luzonicum)"@en ;
-    skos:related "Apothecary cabinet"@en ;
-    skos:topConceptOf his: .
-
-his:eucalyptus a skos:Concept ;
-    schema:category his:fresh_green ;
-    skos:inScheme his: ;
-    skos:prefLabel "Eucalyptus"@en ;
-    skos:related "Botany book"@en ;
-    skos:topConceptOf his: .
-
-his:exhaust a skos:Concept ;
-    schema:category his:industrial ;
-    skos:inScheme his: ;
-    skos:prefLabel "Exhaust"@en ;
-    skos:related "Car"@en ;
-    skos:topConceptOf his: .
-
-his:fart a skos:Concept ;
-    schema:category his:body_odour__human_ ;
-    skos:inScheme his: ;
-    skos:prefLabel "Fart"@en ;
-    skos:related "Allegory of smell (farting)"@en ;
-    skos:topConceptOf his: .
-
-his:fecal a skos:Concept ;
-    schema:category his:sulphurous__rotten__fecal ;
-    skos:inScheme his: ;
-    skos:prefLabel "Fecal"@en ;
-    skos:related "Diaper (allegory of smell)"@en ;
-    skos:topConceptOf his: .
-
-his:feet a skos:Concept ;
-    schema:category his:body_odour__human_ ;
-    skos:inScheme his: ;
-    skos:prefLabel "Feet"@en ;
-    skos:related "bare feet"@en ;
-    skos:topConceptOf his: .
-
-his:fermented_blood a skos:Concept ;
-    schema:category his:sour__acidic__formerly_vinegary_ ;
-    skos:inScheme his: ;
-    skos:prefLabel "Fermented blood"@en ;
-    skos:related "war"@en ;
-    skos:topConceptOf his: .
-
-his:flowers_garlands a skos:Concept ;
+his:daffodil__jonquil a skos:Concept ;
     schema:category his:floral ;
     skos:inScheme his: ;
-    skos:prefLabel "Flowers garlands"@en ;
-    skos:related "Chapelet (head band)"@en ;
+    skos:prefLabel "Daffodil/ jonquil"@en ;
+    skos:related olf:162 ;
     skos:topConceptOf his: .
 
-his:gasoline a skos:Concept ;
-    schema:category his:industrial ;
+his:excrements a skos:Concept ;
+    schema:category his:body_odour__human_ ;
     skos:inScheme his: ;
-    skos:prefLabel "Gasoline"@en ;
-    skos:related "Car"@en ;
+    skos:prefLabel "Excrements"@en ;
+    skos:related olf:53 ;
     skos:topConceptOf his: .
 
-his:geosmin a skos:Concept ;
-    schema:category his:earthy__mineral ;
+his:fish a skos:Concept ;
+    schema:category his:fishy ;
     skos:inScheme his: ;
-    skos:prefLabel "Geosmin"@en ;
-    skos:related "Scenes of war"@en ;
+    skos:prefLabel "Fish"@en ;
+    skos:related fr:26 ;
+    skos:topConceptOf his: .
+
+his:gangreen a skos:Concept ;
+    schema:category his:sulphurous__rotten__fecal ;
+    skos:inScheme his: ;
+    skos:prefLabel "Gangreen"@en ;
+    skos:related olf:23 ;
     skos:topConceptOf his: .
 
 his:goat a skos:Concept ;
@@ -776,11 +856,11 @@ his:horse a skos:Concept ;
     skos:related olf:189 ;
     skos:topConceptOf his: .
 
-his:lake a skos:Concept ;
-    schema:category his:ozonic__aquatic ;
+his:labdanum a skos:Concept ;
+    schema:category his:resinous ;
     skos:inScheme his: ;
-    skos:prefLabel "Lake"@en ;
-    skos:related "Sea battle"@en ;
+    skos:prefLabel "Labdanum"@en ;
+    skos:related olf:125 ;
     skos:topConceptOf his: .
 
 his:lavender a skos:Concept ;
@@ -797,46 +877,11 @@ his:lemon a skos:Concept ;
     skos:related fr:43 ;
     skos:topConceptOf his: .
 
-his:lye a skos:Concept ;
-    schema:category his:industrial ;
+his:miasma a skos:Concept ;
+    schema:category his:sulphurous__rotten__fecal ;
     skos:inScheme his: ;
-    skos:prefLabel "Lye"@en ;
-    skos:related "Bleaching fields"@en ;
-    skos:topConceptOf his: .
-
-his:manure a skos:Concept ;
-    schema:category his:rural ;
-    skos:inScheme his: ;
-    skos:prefLabel "manure"@en ;
-    skos:related "Countryside"@en ;
-    skos:topConceptOf his: .
-
-his:meadowsweet a skos:Concept ;
-    schema:category his:herbal ;
-    skos:inScheme his: ;
-    skos:prefLabel "Meadowsweet"@en ;
-    skos:related "strewing herbs"@en ;
-    skos:topConceptOf his: .
-
-his:mildew a skos:Concept ;
-    schema:category his:mouldy ;
-    skos:inScheme his: ;
-    skos:prefLabel "mildew"@en ;
-    skos:related "old artifacts"@en ;
-    skos:topConceptOf his: .
-
-his:milk a skos:Concept ;
-    schema:category his:gourmand__food ;
-    skos:inScheme his: ;
-    skos:prefLabel "Milk"@en ;
-    skos:related "Milkmaid"@en ;
-    skos:topConceptOf his: .
-
-his:mint a skos:Concept ;
-    schema:category his:herbal ;
-    skos:inScheme his: ;
-    skos:prefLabel "Mint"@en ;
-    skos:related "Grocery shop"@en ;
+    skos:prefLabel "Miasma"@en ;
+    skos:related olf:46 ;
     skos:topConceptOf his: .
 
 his:molecules a skos:Concept ;
@@ -846,54 +891,13 @@ his:molecules a skos:Concept ;
     skos:related olf:11 ;
     skos:topConceptOf his: .
 
-his:mould a skos:Concept ;
-    schema:category his:mouldy ;
+his:myrrh a skos:Concept ;
+    schema:category his:empyreumatic__smoky,
+        his:resinous ;
+    schema:subjectOf "The myth of Adonis from Myrrha" ;
     skos:inScheme his: ;
-    skos:prefLabel "mould"@en ;
-    skos:related "old books"@en ;
-    skos:topConceptOf his: .
-
-his:nutmeg a skos:Concept ;
-    schema:category his:spicy ;
-    skos:inScheme his: ;
-    skos:prefLabel "Nutmeg"@en ;
-    skos:related "Koekenplank"@en ;
-    skos:topConceptOf his: .
-
-his:nuts a skos:Concept ;
-    schema:category his:gourmand__food ;
-    skos:inScheme his: ;
-    skos:prefLabel "Nuts"@en ;
-    skos:related "Still-life"@en ;
-    skos:topConceptOf his: .
-
-his:orange a skos:Concept ;
-    schema:category his:fruity ;
-    skos:inScheme his: ;
-    skos:prefLabel "Orange"@en ;
-    skos:related "Orangerie"@en ;
-    skos:topConceptOf his: .
-
-his:patchouli a skos:Concept ;
-    schema:category his:earthy__mineral ;
-    schema:subjectOf "Cashmere shawls in 19th century portraits (smelled of patchouli in the 19th century)" ;
-    skos:inScheme his: ;
-    skos:prefLabel "Patchouli"@en ;
-    skos:related "Battlefields"@en ;
-    skos:topConceptOf his: .
-
-his:peat a skos:Concept ;
-    schema:category his:industrial ;
-    skos:inScheme his: ;
-    skos:prefLabel "Peat"@en ;
-    skos:related "Stoaf"@en ;
-    skos:topConceptOf his: .
-
-his:petrol a skos:Concept ;
-    schema:category his:industrial ;
-    skos:inScheme his: ;
-    skos:prefLabel "Petrol"@en ;
-    skos:related "Car"@en ;
+    skos:prefLabel "Myrrh"@en ;
+    skos:related olf:9 ;
     skos:topConceptOf his: .
 
 his:pig a skos:Concept ;
@@ -910,42 +914,6 @@ his:puddle a skos:Concept ;
     skos:related olf:199 ;
     skos:topConceptOf his: .
 
-his:rain a skos:Concept ;
-    schema:category his:ozonic__aquatic ;
-    schema:subjectOf "Giorgione: La tempesta" ;
-    skos:inScheme his: ;
-    skos:prefLabel "Rain"@en ;
-    skos:related "Puddle"@en ;
-    skos:topConceptOf his: .
-
-his:saffran a skos:Concept ;
-    schema:category his:spicy ;
-    skos:inScheme his: ;
-    skos:prefLabel "Saffran"@en ;
-    skos:related "Unicorn"@en ;
-    skos:topConceptOf his: .
-
-his:sea a skos:Concept ;
-    schema:category his:ozonic__aquatic ;
-    skos:inScheme his: ;
-    skos:prefLabel "Sea"@en ;
-    skos:related "Seascape"@en ;
-    skos:topConceptOf his: .
-
-his:seafood a skos:Concept ;
-    schema:category his:fishy ;
-    skos:inScheme his: ;
-    skos:prefLabel "Seafood"@en ;
-    skos:related "Still-life"@en ;
-    skos:topConceptOf his: .
-
-his:smoky_whisk_e_y a skos:Concept ;
-    schema:category his:empyreumatic__smoky ;
-    skos:inScheme his: ;
-    skos:prefLabel "Smoky Whisk(e)y"@en ;
-    skos:related "Smoky whisk(e)y"@en ;
-    skos:topConceptOf his: .
-
 his:snuff a skos:Concept ;
     schema:category his:empyreumatic__smoky ;
     skos:inScheme his: ;
@@ -953,39 +921,11 @@ his:snuff a skos:Concept ;
     skos:related olf:151 ;
     skos:topConceptOf his: .
 
-his:soot a skos:Concept ;
+his:steam a skos:Concept ;
     schema:category his:industrial ;
     skos:inScheme his: ;
-    skos:prefLabel "Soot"@en ;
-    skos:related "Furnace"@en ;
-    skos:topConceptOf his: .
-
-his:sour_buttermilk a skos:Concept ;
-    schema:category his:sulphurous__rotten__fecal ;
-    skos:inScheme his: ;
-    skos:prefLabel "Sour Buttermilk"@en ;
-    skos:related "Bleaching fields"@en ;
-    skos:topConceptOf his: .
-
-his:sweet_plants a skos:Concept ;
-    schema:category his:sweet ;
-    skos:inScheme his: ;
-    skos:prefLabel "Sweet plants"@en ;
-    skos:related "Sweetbags"@en ;
-    skos:topConceptOf his: .
-
-his:thyme a skos:Concept ;
-    schema:category his:herbal ;
-    skos:inScheme his: ;
-    skos:prefLabel "Thyme"@en ;
-    skos:related "Strewing herbs"@en ;
-    skos:topConceptOf his: .
-
-his:tolu_balsam a skos:Concept ;
-    schema:category his:resinous ;
-    skos:inScheme his: ;
-    skos:prefLabel "Tolu balsam"@en ;
-    skos:related "medicinal, perfume (ingredient)"@en ;
+    skos:prefLabel "Steam"@en ;
+    skos:related olf:157 ;
     skos:topConceptOf his: .
 
 his:tree_roots a skos:Concept ;
@@ -1003,37 +943,6 @@ his:trees a skos:Concept ;
     skos:related fr:19 ;
     skos:topConceptOf his: .
 
-his:vanilla a skos:Concept ;
-    schema:category his:empyreumatic__smoky ;
-    skos:inScheme his: ;
-    skos:prefLabel "Vanilla"@en ;
-    skos:related "Beaver (castoreum)"@en ;
-    skos:topConceptOf his: .
-
-his:vinegar_wine a skos:Concept ;
-    schema:category his:sour__acidic__formerly_vinegary_ ;
-    skos:inScheme his: ;
-    skos:prefLabel "Vinegar wine"@en ;
-    skos:related "Stephaton (Mark 15:35-36; Mark 27:47-48)"@en ;
-    skos:topConceptOf his: .
-
-his:vomit a skos:Concept ;
-    schema:category his:sour__acidic__formerly_vinegary_ ;
-    skos:inScheme his: ;
-    skos:prefLabel "Vomit"@en ;
-    skos:related "Vomiting (Allegory of Smell)"@en ;
-    skos:topConceptOf his: .
-
-his:wet_earth a skos:Concept ;
-    schema:category his:earthy__mineral ;
-    skos:inScheme his: ;
-    skos:prefLabel "Wet earth"@en ;
-    skos:related "Grey clouds"@en ;
-    skos:topConceptOf his: .
-
-fr:19 skos:related his:tree_roots,
-        his:trees .
-
 olf:23 skos:related his:gangreen,
         his:rotten__sh_compounds_ .
 
@@ -1049,52 +958,12 @@ olf:8 skos:related his:bonfire,
 olf:96 skos:related his:lavender,
         his:musk .
 
-"Bleaching fields"@en skos:related his:lye,
-        his:sour_buttermilk .
-
-"Hair"@en skos:related his:hair .
-
-"Puddle"@en skos:related his:rain .
-
-"Strewing herbs"@en skos:related his:sweetness,
-        his:thyme .
-
-"Unicorn"@en skos:related his:mace,
-        his:saffran .
-
-"making of the Ketoret/Tabernacle and its accessories (Exodus 30:34-38)"@en skos:related his:galbanum,
-        his:styrax__often_known_as__gum_resin__ .
-
-his:ash a skos:Concept ;
-    schema:category his:empyreumatic__smoky ;
-    skos:inScheme his: ;
-    skos:prefLabel "Ash"@en ;
-    skos:related "ashtray"@en,
-        "cremation"@en ;
-    skos:topConceptOf his: .
-
-his:burning_fire a skos:Concept ;
-    schema:category his:empyreumatic__smoky ;
-    skos:inScheme his: ;
-    skos:prefLabel "burning fire"@en ;
-    skos:related olf:8,
-        "Sugar refinery"@en ;
-    skos:topConceptOf his: .
-
-his:caprylic__hircinos__crocker_henderson__linnaeus_ a skos:Concept ;
+his:ambergris a skos:Concept ;
     schema:category his:animalistic ;
     skos:inScheme his: ;
-    skos:prefLabel "caprylic/ hircinos (crocker-henderson, linnaeus)"@en ;
-    skos:related "St. John’s wort"@en,
-        "Stinky tutsan"@en ;
-    skos:topConceptOf his: .
-
-his:carrot a skos:Concept ;
-    schema:category his:radical__root ;
-    skos:inScheme his: ;
-    skos:prefLabel "Carrot"@en ;
-    skos:related fr:45,
-        "Still Life"@en ;
+    skos:prefLabel "Ambergris"@en ;
+    skos:related olf:125,
+        olf:153 ;
     skos:topConceptOf his: .
 
 his:chemical a skos:Concept ;
@@ -1102,313 +971,9 @@ his:chemical a skos:Concept ;
     skos:prefLabel "Chemical"@en ;
     skos:topConceptOf his: .
 
-his:compounds a skos:Concept ;
-    schema:category his:chemical ;
-    skos:inScheme his: ;
-    skos:prefLabel "Compounds"@en ;
-    skos:related olf:10,
-        "Factories"@en ;
-    skos:topConceptOf his: .
-
-his:excrements a skos:Concept ;
-    schema:category his:body_odour__human_ ;
-    skos:inScheme his: ;
-    skos:prefLabel "Excrements"@en ;
-    skos:related olf:53,
-        "kermis (shitting)"@en ;
-    skos:topConceptOf his: .
-
 his:fishy a skos:Concept ;
     skos:inScheme his: ;
     skos:prefLabel "Fishy"@en ;
-    skos:topConceptOf his: .
-
-his:galbanum a skos:Concept ;
-    schema:category his:fresh_green,
-        his:resinous ;
-    skos:inScheme his: ;
-    skos:prefLabel "Galbanum"@en ;
-    skos:related "Herodotus of Halicarnassus"@en,
-        "making of the Ketoret/Tabernacle and its accessories (Exodus 30:34-38)"@en ;
-    skos:topConceptOf his: .
-
-his:grass a skos:Concept ;
-    schema:category his:fresh_green ;
-    skos:inScheme his: ;
-    skos:prefLabel "Grass"@en ;
-    skos:related "meadow"@en,
-        "pastoral scenes"@en ;
-    skos:topConceptOf his: .
-
-his:hair a skos:Concept ;
-    schema:category his:body_odour__human_ ;
-    skos:inScheme his: ;
-    skos:prefLabel "Hair"@en ;
-    skos:related "Chevelure (Baudelaire)"@en,
-        "Hair"@en ;
-    skos:topConceptOf his: .
-
-his:mace a skos:Concept ;
-    schema:category his:spicy ;
-    skos:inScheme his: ;
-    skos:prefLabel "Mace"@en ;
-    skos:related "Grocery shop"@en,
-        "Unicorn"@en ;
-    skos:topConceptOf his: .
-
-his:meat a skos:Concept ;
-    schema:category his:gourmand__food ;
-    skos:inScheme his: ;
-    skos:prefLabel "Meat"@en ;
-    skos:related "Hunting scene"@en,
-        "Still Life"@en ;
-    skos:topConceptOf his: .
-
-his:metallic a skos:Concept ;
-    skos:inScheme his: ;
-    skos:prefLabel "Metallic"@en ;
-    skos:topConceptOf his: .
-
-his:miasma a skos:Concept ;
-    schema:category his:sulphurous__rotten__fecal ;
-    skos:inScheme his: ;
-    skos:prefLabel "Miasma"@en ;
-    skos:related olf:46,
-        "Skeleton"@en ;
-    skos:topConceptOf his: .
-
-his:mouldy a skos:Concept ;
-    skos:inScheme his: ;
-    skos:prefLabel "Mouldy"@en ;
-    skos:topConceptOf his: .
-
-his:orris_root a skos:Concept ;
-    schema:category his:radical__root ;
-    schema:subjectOf "Botticelli: Primavera",
-        "Van Eyck: The adoration of the Lamb" ;
-    skos:inScheme his: ;
-    skos:prefLabel "Orris root"@en ;
-    skos:related "Garden (of Delight)"@en,
-        "Iris flower"@en ;
-    skos:topConceptOf his: .
-
-his:peru_balsam a skos:Concept ;
-    schema:category his:resinous ;
-    skos:inScheme his: ;
-    skos:prefLabel "Peru balsam"@en ;
-    skos:related "Apothecary cabinet"@en,
-        "medicinal, food, perfume"@en ;
-    skos:topConceptOf his: .
-
-his:rose a skos:Concept ;
-    schema:category his:floral,
-        his:sweet ;
-    skos:inScheme his: ;
-    skos:prefLabel "Rose"@en ;
-    skos:related "Flower still-lifes"@en,
-        "linen cabinet (ex. combination of lavender, musk, cloves)"@en ;
-    skos:topConceptOf his: .
-
-his:sandalwood a skos:Concept ;
-    schema:category his:woody ;
-    skos:inScheme his: ;
-    skos:prefLabel "Sandalwood"@en ;
-    skos:related "Furniture"@en,
-        "Pillars Solomon’s temple"@en ;
-    skos:topConceptOf his: .
-
-his:spikenard a skos:Concept ;
-    schema:category his:earthy__mineral,
-        his:radical__root ;
-    schema:subjectOf "Jan van Scorel: Mary of Magdalen" ;
-    skos:inScheme his: ;
-    skos:prefLabel "Spikenard"@en ;
-    skos:related "Mary of Bethany"@en,
-        "Mary of Magdalen"@en ;
-    skos:topConceptOf his: .
-
-his:styrax__often_known_as__gum_resin__ a skos:Concept ;
-    schema:category his:resinous ;
-    skos:inScheme his: ;
-    skos:prefLabel "Styrax (often known as ‘gum-resin’)"@en ;
-    skos:related "Herodotus of Halicarnassus (c.440 BC) referred to it keeping snakes away from ancient Egypt"@en,
-        "making of the Ketoret/Tabernacle and its accessories (Exodus 30:34-38)"@en ;
-    skos:topConceptOf his: .
-
-his:sweat a skos:Concept ;
-    schema:category his:body_odour__human_ ;
-    skos:inScheme his: ;
-    skos:prefLabel "Sweat"@en ;
-    skos:related "Armpit"@en,
-        "naked body"@en ;
-    skos:topConceptOf his: .
-
-his:tea a skos:Concept ;
-    schema:category his:empyreumatic__smoky ;
-    skos:inScheme his: ;
-    skos:prefLabel "Tea"@en ;
-    skos:related "Teapot"@en,
-        "tea leaves"@en ;
-    skos:topConceptOf his: .
-
-his:vinegar a skos:Concept ;
-    schema:category his:sour__acidic__formerly_vinegary_ ;
-    skos:inScheme his: ;
-    skos:prefLabel "Vinegar"@en ;
-    skos:related "Deodorizer during the plague (Four Thieves Vinegar)"@en,
-        "vinaigrette (box)"@en ;
-    skos:topConceptOf his: .
-
-olf:125 skos:related his:ambergris,
-        his:cloves,
-        his:labdanum .
-
-olf:9 skos:related his:animal_burning,
-        his:frankincense,
-        his:myrrh .
-
-"(field) hospital"@en skos:related his:acidic_acid,
-        his:carbolic_acid,
-        his:gangreen .
-
-"Apothecary cabinet"@en skos:related his:elemi__canarium_luzonicum_,
-        his:labdanum,
-        his:peru_balsam .
-
-"Car"@en skos:related his:exhaust,
-        his:gasoline,
-        his:petrol .
-
-"Grocery shop"@en skos:related his:bread,
-        his:mace,
-        his:mint .
-
-"Still Life"@en skos:related his:carrot,
-        his:fruity,
-        his:meat .
-
-"Still-life"@en skos:related his:cake,
-        his:nuts,
-        his:seafood .
-
-his:ambergris a skos:Concept ;
-    schema:category his:animalistic ;
-    skos:inScheme his: ;
-    skos:prefLabel "Ambergris"@en ;
-    skos:related olf:125,
-        olf:153,
-        "Sperm whale beached"@en ;
-    skos:topConceptOf his: .
-
-his:bread a skos:Concept ;
-    schema:category his:gourmand__food ;
-    skos:inScheme his: ;
-    skos:prefLabel "Bread"@en ;
-    skos:related "Bakery"@en,
-        "Grocery shop"@en,
-        "Host factory in collection of museum Ulm"@en ;
-    skos:topConceptOf his: .
-
-his:breath a skos:Concept ;
-    schema:category his:body_odour__human_ ;
-    skos:inScheme his: ;
-    skos:prefLabel "Breath"@en ;
-    skos:related "Belle Haleine (Duchamp)"@en,
-        "Mouth"@en,
-        "Venus by Botticelli (floral breath)"@en ;
-    skos:topConceptOf his: .
-
-his:coffee a skos:Concept ;
-    schema:category his:empyreumatic__smoky ;
-    skos:inScheme his: ;
-    skos:prefLabel "Coffee"@en ;
-    skos:related "Coffeepot"@en,
-        "coffee bean refinery"@en,
-        "coffee shop"@en ;
-    skos:topConceptOf his: .
-
-his:daffodil__jonquil a skos:Concept ;
-    schema:category his:floral ;
-    skos:inScheme his: ;
-    skos:prefLabel "Daffodil/ jonquil"@en ;
-    skos:related olf:162,
-        "Narcissus"@en,
-        "Posie holder"@en ;
-    skos:topConceptOf his: .
-
-his:fish a skos:Concept ;
-    schema:category his:fishy ;
-    skos:inScheme his: ;
-    skos:prefLabel "Fish"@en ;
-    skos:related fr:26,
-        "Fish plate"@en,
-        "Jonah in the belly of the whale"@en ;
-    skos:topConceptOf his: .
-
-his:gunpowder a skos:Concept ;
-    schema:category his:empyreumatic__smoky ;
-    skos:inScheme his: ;
-    skos:prefLabel "Gunpowder"@en ;
-    skos:related "War scenes"@en,
-        "fireworks"@en,
-        "guns"@en ;
-    skos:topConceptOf his: .
-
-his:metals a skos:Concept ;
-    schema:category his:metallic ;
-    skos:inScheme his: ;
-    skos:prefLabel "Metals"@en ;
-    skos:related "coins"@en,
-        "metal artefacts"@en,
-        "surgeries"@en ;
-    skos:topConceptOf his: .
-
-his:odor_di_femmina a skos:Concept ;
-    schema:category his:body_odour__human_ ;
-    schema:subjectOf "Courbet: L’origine du monde, 1866" ;
-    skos:inScheme his: ;
-    skos:prefLabel "Odor di femmina"@en ;
-    skos:related "Remmelin and Kilian, Pinax microcosmographicus, the body of eve, 1667"@en,
-        "prostitute"@en,
-        "sex organs"@en ;
-    skos:topConceptOf his: .
-
-his:smoke__cloud_ a skos:Concept ;
-    schema:category his:empyreumatic__smoky ;
-    schema:subjectOf "Cityscape with factories and chimneys" ;
-    skos:inScheme his: ;
-    skos:prefLabel "Smoke (cloud)"@en ;
-    skos:related olf:34,
-        olf:56,
-        "burnt offerings"@en ;
-    skos:topConceptOf his: .
-
-his:sweetness a skos:Concept ;
-    schema:category his:sweet ;
-    skos:inScheme his: ;
-    skos:prefLabel "sweetness"@en ;
-    skos:related "Panther’s breath (Book of Bestiary)"@en,
-        "Strewing herbs"@en,
-        "Sugar cubes"@en ;
-    skos:topConceptOf his: .
-
-his:wine a skos:Concept ;
-    schema:category his:gourmand__food ;
-    skos:inScheme his: ;
-    skos:prefLabel "Wine"@en ;
-    skos:related "Eucharisty"@en,
-        "Wine bottle"@en,
-        "Wine glass"@en ;
-    skos:topConceptOf his: .
-
-his:cloves a skos:Concept ;
-    schema:category his:spicy ;
-    skos:inScheme his: ;
-    skos:prefLabel "Cloves"@en ;
-    skos:related olf:125,
-        "Queen Sheba with a train of camels with gifts (including spices, which could have included resins and woods too)"@en,
-        "Spice ship"@en,
-        "Spice shop"@en ;
     skos:topConceptOf his: .
 
 his:frankincense a skos:Concept ;
@@ -1420,107 +985,35 @@ his:frankincense a skos:Concept ;
     skos:inScheme his: ;
     skos:prefLabel "Frankincense"@en ;
     skos:related olf:29,
-        olf:9,
-        "Three Magi"@en,
-        "three magi (Casper)"@en ;
+        olf:9 ;
     skos:topConceptOf his: .
 
-his:gangreen a skos:Concept ;
-    schema:category his:sulphurous__rotten__fecal ;
+his:metallic a skos:Concept ;
     skos:inScheme his: ;
-    skos:prefLabel "Gangreen"@en ;
-    skos:related olf:23,
-        "(field) hospital"@en,
-        "Dentist’s visit"@en,
-        "rotten egg"@en ;
+    skos:prefLabel "Metallic"@en ;
     skos:topConceptOf his: .
 
-his:lily_of_the_valley a skos:Concept ;
-    schema:category his:floral ;
+his:mouldy a skos:Concept ;
     skos:inScheme his: ;
-    skos:prefLabel "Lily of the Valley"@en ;
-    skos:related "Mary Ascension"@en,
-        "Song of songs (2:1)"@en,
-        "Virgin Mary’s tears"@en,
-        "assumption of mary"@en ;
+    skos:prefLabel "Mouldy"@en ;
     skos:topConceptOf his: .
 
-his:myrrh a skos:Concept ;
-    schema:category his:empyreumatic__smoky,
-        his:resinous ;
-    schema:subjectOf "The myth of Adonis from Myrrha" ;
+his:smoke__cloud_ a skos:Concept ;
+    schema:category his:empyreumatic__smoky ;
+    schema:subjectOf "Cityscape with factories and chimneys" ;
     skos:inScheme his: ;
-    skos:prefLabel "Myrrh"@en ;
-    skos:related olf:9,
-        "Birth of Adonis"@en,
-        "Myrrha"@en,
-        "Myrrhbearers (miniature)"@en ;
+    skos:prefLabel "Smoke (cloud)"@en ;
+    skos:related olf:34,
+        olf:56 ;
     skos:topConceptOf his: .
 
-his:odour_of_sanctity a skos:Concept ;
-    schema:category his:floral,
-        his:sweet ;
-    schema:subjectOf "Bernini: Teresa in Ecstasy" ;
-    skos:inScheme his: ;
-    skos:prefLabel "Odour of sanctity"@en ;
-    skos:related "Lydwina van Schiedam"@en,
-        "Mary"@en,
-        "Saints"@en,
-        "Teresa d’Avila"@en ;
-    skos:topConceptOf his: .
+olf:125 skos:related his:ambergris,
+        his:cloves,
+        his:labdanum .
 
-his:rural a skos:Concept ;
-    skos:inScheme his: ;
-    skos:prefLabel "Rural"@en ;
-    skos:topConceptOf his: .
-
-his:steam a skos:Concept ;
-    schema:category his:industrial ;
-    skos:inScheme his: ;
-    skos:prefLabel "Steam"@en ;
-    skos:related olf:157,
-        "Factory/ chimney"@en,
-        "Machine"@en,
-        "Steam boat"@en ;
-    skos:topConceptOf his: .
-
-his:indolic a skos:Concept ;
-    schema:category his:sulphurous__rotten__fecal ;
-    skos:inScheme his: ;
-    skos:prefLabel "Indolic"@en ;
-    skos:related olf:171,
-        olf:175,
-        olf:258,
-        olf:92,
-        "White flowers"@en ;
-    skos:topConceptOf his: .
-
-his:labdanum a skos:Concept ;
-    schema:category his:resinous ;
-    skos:inScheme his: ;
-    skos:prefLabel "Labdanum"@en ;
-    skos:related olf:125,
-        "(ingredient of) incense"@en,
-        "Apothecary cabinet"@en,
-        "Book of Genesis (37:25)(43:11) brought to Egypt from Canaan"@en,
-        "Simplicia cabinet"@en ;
-    skos:topConceptOf his: .
-
-his:laurel a skos:Concept ;
-    schema:category his:fresh_green ;
-    skos:inScheme his: ;
-    skos:prefLabel "Laurel"@en ;
-    skos:related "Allegory of victory"@en,
-        "Chapelet (head great)"@en,
-        "Daphne and Apollo"@en,
-        "laurel arch"@en,
-        "laurel wrench"@en ;
-    skos:topConceptOf his: .
-
-his:radical__root a skos:Concept ;
-    skos:inScheme his: ;
-    skos:prefLabel "Radical/ root"@en ;
-    skos:topConceptOf his: .
+olf:9 skos:related his:animal_burning,
+        his:frankincense,
+        his:myrrh .
 
 his:rotten__sh_compounds_ a skos:Concept ;
     schema:category his:sulphurous__rotten__fecal ;
@@ -1528,9 +1021,16 @@ his:rotten__sh_compounds_ a skos:Concept ;
     skos:prefLabel "Rotten (SH-compounds)"@en ;
     skos:related olf:23,
         olf:241,
-        olf:392,
-        "Rotten egg"@en,
-        "Untreated leather"@en ;
+        olf:392 ;
+    skos:topConceptOf his: .
+
+his:sulphur a skos:Concept ;
+    schema:category his:sulphurous__rotten__fecal ;
+    skos:inScheme his: ;
+    skos:prefLabel "Sulphur"@en ;
+    skos:related olf:144,
+        olf:26,
+        olf:56 ;
     skos:topConceptOf his: .
 
 his:tobacco a skos:Concept ;
@@ -1540,9 +1040,48 @@ his:tobacco a skos:Concept ;
     skos:prefLabel "Tobacco"@en ;
     skos:related olf:34,
         olf:39,
-        olf:43,
-        "Cigar box"@en,
-        "Pipe (Allegory of smell)"@en ;
+        olf:43 ;
+    skos:topConceptOf his: .
+
+his:indolic a skos:Concept ;
+    schema:category his:sulphurous__rotten__fecal ;
+    skos:inScheme his: ;
+    skos:prefLabel "Indolic"@en ;
+    skos:related olf:171,
+        olf:175,
+        olf:258,
+        olf:92 ;
+    skos:topConceptOf his: .
+
+his:musk a skos:Concept ;
+    schema:category his:animalistic ;
+    skos:inScheme his: ;
+    skos:prefLabel "Musk"@en ;
+    skos:related olf:101,
+        olf:102,
+        olf:389,
+        olf:96 ;
+    skos:topConceptOf his: .
+
+his:perfume a skos:Concept ;
+    schema:category his:perfume ;
+    schema:subjectOf "Giacomo Balla: Espansione di profumo, 1916",
+        "any Portrait of Napoleon" ;
+    skos:inScheme his: ;
+    skos:prefLabel "Perfume"@en ;
+    skos:related olf:116,
+        olf:58,
+        olf:60 ;
+    skos:topConceptOf his: .
+
+his:rural a skos:Concept ;
+    skos:inScheme his: ;
+    skos:prefLabel "Rural"@en ;
+    skos:topConceptOf his: .
+
+his:radical__root a skos:Concept ;
+    skos:inScheme his: ;
+    skos:prefLabel "Radical/ root"@en ;
     skos:topConceptOf his: .
 
 his:woody a skos:Concept ;
@@ -1555,39 +1094,19 @@ his:earthy__mineral a skos:Concept ;
     skos:prefLabel "Earthy/ mineral"@en ;
     skos:topConceptOf his: .
 
+his:fruity a skos:Concept ;
+    skos:inScheme his: ;
+    skos:prefLabel "Fruity"@en ;
+    skos:topConceptOf his: .
+
 his:herbal a skos:Concept ;
     skos:inScheme his: ;
     skos:prefLabel "Herbal"@en ;
     skos:topConceptOf his: .
 
-his:rosemary a skos:Concept ;
-    schema:category his:fresh_green,
-        his:herbal ;
-    skos:inScheme his: ;
-    skos:prefLabel "Rosemary"@en ;
-    skos:related "(legend) Mary sheltered next to a rosemary bush with her blue cape and turned the flowers from white to blue"@en,
-        "- see rosemary (herb) -"@en,
-        "Jewish tombs"@en,
-        "historically added to bedding"@en,
-        "nativity"@en,
-        "symbol of remembrance"@en ;
-    skos:topConceptOf his: .
-
 his:spicy a skos:Concept ;
     skos:inScheme his: ;
     skos:prefLabel "Spicy"@en ;
-    skos:topConceptOf his: .
-
-his:sulphur a skos:Concept ;
-    schema:category his:sulphurous__rotten__fecal ;
-    skos:inScheme his: ;
-    skos:prefLabel "Sulphur"@en ;
-    skos:related olf:144,
-        olf:26,
-        olf:56,
-        "Descent into Limbo"@en,
-        "Lot and his daughters"@en,
-        "Sewage pipe"@en ;
     skos:topConceptOf his: .
 
 his:sweet a skos:Concept ;
@@ -1598,6 +1117,11 @@ his:sweet a skos:Concept ;
 his:fresh_green a skos:Concept ;
     skos:inScheme his: ;
     skos:prefLabel "Fresh/green"@en ;
+    skos:topConceptOf his: .
+
+his:gourmand__food a skos:Concept ;
+    skos:inScheme his: ;
+    skos:prefLabel "Gourmand/ food"@en ;
     skos:topConceptOf his: .
 
 his:sour__acidic__formerly_vinegary_ a skos:Concept ;
@@ -1615,57 +1139,14 @@ his:body_odour__human_ a skos:Concept ;
     skos:prefLabel "Body odour (human)"@en ;
     skos:topConceptOf his: .
 
-his:fruity a skos:Concept ;
-    skos:inScheme his: ;
-    skos:prefLabel "Fruity"@en ;
-    skos:related "Fruit trees"@en,
-        "Still Life"@en ;
-    skos:topConceptOf his: .
-
-his:gourmand__food a skos:Concept ;
-    skos:inScheme his: ;
-    skos:prefLabel "Gourmand/ food"@en ;
-    skos:related "Jan Steen, Saint Nicholas celebration"@en ;
-    skos:topConceptOf his: .
-
 his:ozonic__aquatic a skos:Concept ;
     skos:inScheme his: ;
     skos:prefLabel "Ozonic/ aquatic"@en ;
     skos:topConceptOf his: .
 
-his:perfume a skos:Concept ;
-    schema:category his:perfume ;
-    schema:subjectOf "Giacomo Balla: Espansione di profumo, 1916",
-        "any Portrait of Napoleon" ;
-    skos:inScheme his: ;
-    skos:prefLabel "Perfume"@en ;
-    skos:related olf:116,
-        olf:58,
-        olf:60,
-        "Eau de la reine"@en,
-        "Eau d’hungarie"@en,
-        "Perfume vial"@en,
-        "Visual sillage"@en ;
-    skos:topConceptOf his: .
-
 his:resinous a skos:Concept ;
     skos:inScheme his: ;
     skos:prefLabel "Resinous"@en ;
-    skos:topConceptOf his: .
-
-his:musk a skos:Concept ;
-    schema:category his:animalistic ;
-    skos:inScheme his: ;
-    skos:prefLabel "Musk"@en ;
-    skos:related olf:101,
-        olf:102,
-        olf:389,
-        olf:96,
-        "Bisamapfel"@en,
-        "Joséphine de Beauharnais (musk perfume)"@en,
-        "Musk ball"@en,
-        "Musk rose"@en,
-        "Sweet scented bedstraw"@en ;
     skos:topConceptOf his: .
 
 his:sulphurous__rotten__fecal a skos:Concept ;
@@ -1676,8 +1157,6 @@ his:sulphurous__rotten__fecal a skos:Concept ;
 his:industrial a skos:Concept ;
     skos:inScheme his: ;
     skos:prefLabel "Industrial"@en ;
-    skos:related "Bleaching"@en,
-        "Mill"@en ;
     skos:topConceptOf his: .
 
 his:empyreumatic__smoky a skos:Concept ;
@@ -1689,9 +1168,6 @@ his:floral a skos:Concept ;
     schema:subjectOf "Dirck de Bray: Still Life with Symbols of the Virgin Mary, 1672" ;
     skos:inScheme his: ;
     skos:prefLabel "Floral"@en ;
-    skos:related "Armida and Rinaldo Carriage"@en,
-        "Still life"@en,
-        "allegory of smell"@en ;
     skos:topConceptOf his: .
 
 his: a skos:ConceptScheme ;
