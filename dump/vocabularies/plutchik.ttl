@@ -1,9 +1,9 @@
 @prefix dbp: <http://dbpedia.org/property/> .
 @prefix dct: <http://purl.org/dc/terms/> .
-@prefix odeuropa: <http://data.odeuropa.eu/> .
-@prefix plu: <http://data.odeuropa.eu/plutchik/> .
+@prefix plu: <http://data.odeuropa.eu/vocabulary/plutchik/> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 @prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix voc: <http://data.odeuropa.eu/vocabulary/> .
 @prefix wd: <http://www.wikidata.org/entity/> .
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 
@@ -219,7 +219,7 @@ plu: a skos:ConceptScheme ;
     rdfs:label "Plutchik’s Wheel of Emotions"@en ;
     dct:created "1980"^^xsd:gYear ;
     dct:creator wd:Q1664215 ;
-    dct:type odeuropa:wheel ;
+    dct:type voc:wheel ;
     skos:hasTopConcept plu:acceptance,
         plu:aggressiveness,
         plu:annoyance,
