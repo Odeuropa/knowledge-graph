@@ -8,6 +8,8 @@ class Time(Entity):
         super().__init__(label)
         self.setclass(TIME.TemporalEntity)
         self.add(RDFS.label, label)
+        self.start = None
+        self.end = None
 
     @classmethod
     def parse(cls, x):
@@ -16,14 +18,19 @@ class Time(Entity):
             return None
 
         startDate, endDate, startType, endType = res
+
         t = Time(x)
         t.set_start(startDate, startType)
         t.set_end(endDate, endType)
 
+        return t
+
     def set_start(self, date, type):
-        self.add(TIME.hasBeginning, date, )
+        self.start = date
+        self.add(TIME.hasBeginning, date, type)
         pass
 
     def set_end(self, date, type):
+        self.end = date
         self.add(TIME.hasEnd, date, type)
         pass

@@ -5,7 +5,16 @@ import pandas as pd
 from entities import *
 from entities.ontologies import CRM, CRMsci, ODEUROPA
 
-xlsx_file = path.join('./', 'benchmark-annotation-output.xlsx')
+xlsx_file = path.join('./', 'input', 'benchmark-annotation-output.xlsx')
+docs_file = path.join('./', 'input', 'benchmark.xlsx')
+
+lang_map = {
+    'English': 'en',
+    'French': 'fr',
+    'German': 'de',
+    'Slovenian': 'sl',
+    'Dutch': 'nl'
+}
 
 
 def get_safe(name, obj):
@@ -18,23 +27,25 @@ def get_safe(name, obj):
 def process_annotation_sheet(lang):
     print('processing ' + lang)
     df = pd.read_excel(xlsx_file, sheet_name=lang)
-    df.fillna('')
+    df.fillna('', inplace=True)
 
-    title_map = {}
+    doc_map = {}
 
     for i, r in tqdm(df.iterrows(), total=df.shape[0]):
         title = r['Title']
-        if not title in title_map:
-            title_map[title] = 0
+        id = title.split(' ')[0]
+        if not id in doc_map:
+            doc_map[id] = 0
 
-        j = title_map[title]
-        title_map[title] += 1
+        j = doc_map[id]
+        doc_map[id] += 1
 
-        txt = TextualObject(title)
+        txt = TextualObject(id, title)
 
-        smell = Smell(title + str(j))
-        emission = SmellEmission(title + str(j), smell, get_safe('Smell_Source', r), get_safe('Odour_Carrier', r), lang=lang)
-        experience = OlfactoryExperience(title + str(j), smell, r['Perceiver'], r['Quality'], lang=lang)
+        smell = Smell(id + str(j))
+        emission = SmellEmission(id + str(j), smell, get_safe('Smell_Source', r), get_safe('Odour_Carrier', r),
+                                 lang=lang)
+        experience = OlfactoryExperience(id + str(j), smell, r['Perceiver'], r['Quality'], lang=lang)
         experience.add_gesture(r['Effect'], lang=lang)
         experience.evoked(r['Evoked_Odorant'], lang=lang)
 
@@ -54,7 +65,23 @@ def process_annotation_sheet(lang):
         add(txt, CRM.P67_refers_to, experience)
 
 
-for x in ['en', 'fr', 'de', 'sl', 'nl'][0:1]:
-    process_annotation_sheet(x)
-    Graph.g.serialize(destination=f"../dump/main/{x}.ttl")
-    Graph.reset()
+def process_benchmark_sheet(language):
+    df = pd.read_excel(docs_file, sheet_name=language, dtype=str)
+    df.fillna('', inplace=True)
+
+    lang = lang_map[language]
+
+    for i, r in tqdm(df.iterrows(), total=df.shape[0]):
+        id = r['Document Identifier']
+        TextualObject(id, r['Title'], r['Author'], r['Year of Publication'], r['Place of Publication'], lang, r['Genre'])
+
+
+for x in ['English', 'French', 'German', 'Slovenian', 'Dutch'][0:1]:
+    process_benchmark_sheet(x)
+Graph.g.serialize(destination=f"../dump/main/docs.ttl")
+Graph.reset()
+
+# for x in ['en', 'fr', 'de', 'sl', 'nl'][0:1]:
+#     process_annotation_sheet(x)
+#     Graph.g.serialize(destination=f"../dump/main/{x}.ttl")
+#     Graph.reset()

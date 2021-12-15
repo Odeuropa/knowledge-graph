@@ -2,27 +2,27 @@ import re
 from rdflib import XSD
 from datetime import datetime
 
-UCT_DATE_REGEX = "\\d{4}(?:-(?:0[1-9]|1[0-2])(?:-(?:0[1-9]|[1-2]\\d|3[0-1]))?)?(?:T(?:[0-1]\\d|2[0-3]):[0-5]\\d:[" \
-                 "0-5]\\dZ?)?"
+UCT_DATE_REGEX = r"\d{4}(?:-(?:0[1-9]|1[0-2])(?:-(?:0[1-9]|[1-2]\d|3[0-1]))?)?(?:T(?:[0-1]\d|2[0-3]):[0-5]\d:[" \
+                 "0-5]\dZ?)?"
 
 ISO_DATE_FORMAT = "yyyy-MM-dd"
 SLASH_LITTLE_ENDIAN = "%d/%m/%Y"
 
-ANY_BRACKETS = "[(\\[\\])]"
+ANY_BRACKETS = r"[(\[\])]"
 
-APPROXIMATE_REGEX = r'(?i)(circa|around|about|vers |(?<!d)ca?\\.|\\[ca]|^ca |ca$)'
-UNCERTAIN_REGEX = "(?i)(forse|posiblemente|(proba|possi)ba?ly|\\?|¿)"
+APPROXIMATE_REGEX = r'(?i)(circa|around|about|vers |(?<!d)ca?\.|\[ca]|^ca |ca$)'
+UNCERTAIN_REGEX = r"(?i)(forse|posiblemente|(proba|possi)ba?ly|\?|¿)"
 
-SINGLE_YEAR = "\\d{3,4}s?"
-YEAR_SPAN = "(?i)(?:(?:entre|between)\\s+)?(\\d{3,4}s?)\\s*(?:[-=/]|to|a|or|y|and)\\s*(\\d{2,4}s?)"
+SINGLE_YEAR = r"\d{3,4}s?"
+YEAR_SPAN = r"(?i)(?:(?:entre|between)\s+)?(\d{3,4}s?)(?:\s*(?:[-=\/]|to|a|or|y|and)\s*|[-=\/])(\d{2,4}s?)"
 
-FULL_DATE_MULTI = "(3[01]|[012]?[0-9]|\\d{3,4})[-/ .](1[012]|0?\\d)[-/ .](\\d{2,4})"
-MONTH_DATE_REGEX = "(?:(\\d{2})/(\\d{4}))(?:-(\\d{2})/(\\d{4}))?"
+FULL_DATE_MULTI = r"(3[01]|[012]?[0-9]|\d{3,4})[-/ .](1[012]|0?\d)[-/ .](\d{2,4})"
+MONTH_DATE_REGEX = r"(?:(\d{2})/(\d{4}))(?:-(\d{2})/(\d{4}))?"
 
 SEPARATORS = "(?:[-=/]| to | a | or | y | and )"
 
-DATE_EN_REGEX = "(?i)(january|february|march|april|may|june|july|august|september|october|november|december|spring" \
-                "|fall|winter|summer)(?: (\\d{1,2}))? (\\d{4})"
+DATE_EN_REGEX = r"(?i)(january|february|march|april|may|june|july|august|september|october|november|december|spring" \
+                r"|fall|winter|summer)(?: (\d{1,2}))? (\d{4})"
 MONTHS_EN = ["january", "february", "march", "april", "may",
              "june", "july", "august", "september", "october", "november", "december",
              "spring", "summer", "fall", "winter"]
@@ -130,8 +130,8 @@ def parse_date(date):
 
     # preliminary parsing
     date = re.sub("(?i)^(in|on)( the)? ", "", date)  # in November
-    date = re.sub("\\(.*\\)", "", date)  # curly brackets
-    date = re.sub("\\[.*]", "", date)  # square brackets
+    date = re.sub("\(.*\)", "", date)  # curly brackets
+    date = re.sub("\[.*]", "", date)  # square brackets
     date = re.sub(ANY_BRACKETS, "", date)  # orphan brackets
 
     date = re.sub("\"", "", date)
@@ -142,12 +142,12 @@ def parse_date(date):
     date = re.sub(" A.?D.?", "", date);
     date = re.sub(" CE$", "", date);
     date = re.sub(" CE-", "-", date);
-    date = re.sub("dC\\.?$", "", date);
+    date = re.sub("dC\.?$", "", date);
     date = re.sub(" d$", "", date);
     date = re.sub("^by ", "", date);
     date = re.sub("soglo", "siglo", date);
     date = re.sub("sec.", "secolo", date)
-    date = re.sub("(?i)s(ig)?\\. ?", "siglo ", date)
+    date = re.sub("(?i)s(ig)?\. ?", "siglo ", date)
     date = re.sub("(?i)se? ([XVI]+)", "siglo $1", date)
     date = re.sub(" ca$", " ", date);
     date = re.sub("^ca ", " ", date);
@@ -156,7 +156,7 @@ def parse_date(date):
     date = re.sub("centuries", "century", date)
 
     date = re.sub("[.,]$", "", date)  # trailing punctuation
-    date = re.sub("\\s+", " ", date)  # double space to one space
+    date = re.sub("\s+", " ", date)  # double space to one space
 
     date = date.strip()
 
@@ -174,7 +174,7 @@ def parse_date(date):
     #   date = date.replaceAll(AFTER_REGEX, "").trim();
     # }
     #
-    # if (date.matches(("\\d+ " + BEFORE_CHRIST))) {
+    # if (date.matches(("\d+ " + BEFORE_CHRIST))) {
     #   date = "-" + padYear(date.replaceAll(BEFORE_CHRIST, "").trim());
     #   if (startYear == null) {
     #     startYear = startDate = date;
@@ -216,7 +216,7 @@ def parse_date(date):
     #   String partString = matcher.group(2);
     #   String centuryString = matcher.group(3);
     #   itSpan = getItSpanFromCentParts(itString, partString);
-    #   if (centuryString.matches("\\d{2}00s")) {
+    #   if (centuryString.matches("\d{2}00s")) {
     #     century = getCenturyURI(centuryString.substring(0, 2) + "01");
     #   } else {
     #     if (RomanConverter.isRoman(centuryString)) centuryString += " secolo";
@@ -249,7 +249,7 @@ def parse_date(date):
     # }
 
     # cases: 1871, 1920s
-    if re.match(SINGLE_YEAR, date):
+    if re.fullmatch(SINGLE_YEAR, date):
         if startYear is None:
             startYear = startDate = decade2year(date, False, modifier)
             startType = XSD.gYear
@@ -259,7 +259,7 @@ def parse_date(date):
         return startDate, endDate, startType, endType
 
     # cases: 1741-1754,  1960s to 1970s, ...
-    if re.match(YEAR_SPAN, date):
+    if re.fullmatch(YEAR_SPAN, date):
         matcher = re.search(YEAR_SPAN, date)
         if matcher:
             sy = decade2year(matcher.group(1), False, modifier)
@@ -351,8 +351,8 @@ def parse_date(date):
         startYear = text.sub(0, 4)
         endYear = startYear
 
-        startType =  XSD.date
-        endType =  XSD.date
+        startType = XSD.date
+        endType = XSD.date
         return startDate, endDate, startType, endType
     except ValueError as e:
         # nothing to do
@@ -446,9 +446,9 @@ def parse_date(date):
 #
 
 
-#   private static final String CENTURY_SPAN = "(\\d{1,2}th|[XVI]+)(?: century| secolo)?\\s*(?:[-=/]|to|or)\\s*(\\d{1,2}th|[XVI]+) (?:century|secolo)";
+#   private static final String CENTURY_SPAN = "(\d{1,2}th|[XVI]+)(?: century| secolo)?\s*(?:[-=/]|to|or)\s*(\d{1,2}th|[XVI]+) (?:century|secolo)";
 #   private static final Pattern CENTURY_SPAN_PATTERN = Pattern.compile(CENTURY_SPAN);
-#   private static final String ES_CENTURY_SPAN = "(?i)s[ie]gl[oe]s? (\\d{1,2})(?:-(\\d{1,2}))?";
+#   private static final String ES_CENTURY_SPAN = "(?i)s[ie]gl[oe]s? (\d{1,2})(?:-(\d{1,2}))?";
 #   private static final Pattern ES_CENTURY_SPAN_PATTERN = Pattern.compile(ES_CENTURY_SPAN);
 #
 #   private static final String CENTURY_PART_EN = "(?i)((?:fir|1)st|(?:2|seco)nd|(?:3|thi)rd|fourth|last) (quarter|half|third),?(?: of(?: the)?)?";
@@ -470,12 +470,12 @@ def parse_date(date):
 #
 #   public static final String[] CENTURY_PART_REGEXES = {CENTURY_PART_EN, CENTURY_PART_ES, CENTURY_PART_IT, CENTURY_PART_FR, EARLY_REGEX, LATE_REGEX, MID_REGEX};
 #
-#   private static final String DATE_ES_REGEX = "(?i)(?<!\\d)(\\d{1,2})?\\s?(?:de |-)?(ene(?:ro)?|feb(?:r|re+ro?)?|mar(?:[zc]o)?|abr(?:il)?|may(?:[o0])?|jun(?:io)?|jul(?:iol?)?|ago(?:sto)?|se[pt](?:tiembre)?|oct(?:ubre)?|nov(?:i?embre)?|dic(?:iembre)?)\\.?\\s?(?:de |-)?(\\d{2,4})";
+#   private static final String DATE_ES_REGEX = "(?i)(?<!\d)(\d{1,2})?\s?(?:de |-)?(ene(?:ro)?|feb(?:r|re+ro?)?|mar(?:[zc]o)?|abr(?:il)?|may(?:[o0])?|jun(?:io)?|jul(?:iol?)?|ago(?:sto)?|se[pt](?:tiembre)?|oct(?:ubre)?|nov(?:i?embre)?|dic(?:iembre)?)\.?\s?(?:de |-)?(\d{2,4})";
 #   private static final Pattern DATE_ES_PATTERN = Pattern.compile(DATE_ES_REGEX);
 #   private static final String[] MONTHS_ES = {"enero", "febrero", "marzo", "abril", "mayo",
 #     "junio", "julio", "agosto", "septiembre", "octubre", "noviembre", "diciembre"
 #   };
-#   private static final String DATE_FR_REGEX = "(?i)(?<!\\d)(\\d{1,2})?\\s?(?:de |-)?(janvier|f[EEEe][vb]rier|mars|avril|mai|juin|juillet|aoUUUt|septembre|octobre|november|dEEEcembre)\\.?\\s?(\\d{4})";
+#   private static final String DATE_FR_REGEX = "(?i)(?<!\d)(\d{1,2})?\s?(?:de |-)?(janvier|f[EEEe][vb]rier|mars|avril|mai|juin|juillet|aoUUUt|septembre|octobre|november|dEEEcembre)\.?\s?(\d{4})";
 #   private static final Pattern DATE_FR_PATTERN = Pattern.compile(DATE_FR_REGEX);
 #   private static final String[] MONTHS_FR = {"janvier", "fevrier", "mars", "avril", "mai",
 #     "juin", "juillet", "aoUUUt", "septembre", "octobre", "novembre", "dEEcembre"
@@ -483,7 +483,7 @@ def parse_date(date):
 #
 #
 #
-#   private static final String DECADES_ES_REGEX = "(?i)(?:dEEcada de lo|aNNo)(s)? (\\d+|diez)(?:-(\\d+))?(?: del|,)?(?: sig(?:lo|\\.) ?([XIV]+))?( \\d+$)?";
+#   private static final String DECADES_ES_REGEX = "(?i)(?:dEEcada de lo|aNNo)(s)? (\d+|diez)(?:-(\d+))?(?: del|,)?(?: sig(?:lo|\.) ?([XIV]+))?( \d+$)?";
 #   private static final Pattern DECADES_ES_PATTERN = Pattern.compile(DECADES_ES_REGEX);
 #
 #
@@ -499,7 +499,7 @@ def parse_date(date):
 #   private static final String AFTER_REGEX = "(?i)(or later|after)";
 #   private static final Pattern AFTER_PATTERN = Pattern.compile(AFTER_REGEX);
 #
-#   public static final String ACTIVITY_REGEX = "(?i)\\((embroider(ed|y|ing)|used|made|published|drawn|designed( and made| \\(process\\))?|(block )?print(ed|ing)|tambouring|collected|sewing|worn|altered|purchased|manufactured|(hand |tapestry )?weaving|woven|quilted|paint(ing|ed)|retailed|joinery|sold|upholstered)\\)";
+#   public static final String ACTIVITY_REGEX = "(?i)\((embroider(ed|y|ing)|used|made|published|drawn|designed( and made| \(process\))?|(block )?print(ed|ing)|tambouring|collected|sewing|worn|altered|purchased|manufactured|(hand |tapestry )?weaving|woven|quilted|paint(ing|ed)|retailed|joinery|sold|upholstered)\)";
 #   public static final Pattern ACTIVITY_PATTERN = Pattern.compile(ACTIVITY_REGEX);
 #
 #   static {
@@ -571,7 +571,7 @@ def parse_date(date):
 #       date = date.replaceAll(ACTIVITY_REGEX, "");
 #     }
 #     date = date.replaceAll("(?i)^dated ", " ");
-#     date = date.replaceAll("(?i)\\(dated\\) ", " ");
+#     date = date.replaceAll("(?i)\(dated\) ", " ");
 #
 #     this.label = date;
 #
@@ -680,7 +680,7 @@ def parse_date(date):
 #       return 4;
 #     if (ordinal.matches("(last|[UUUu]ltimo?)"))
 #       return -1;
-#     ordinal = ordinal.replaceAll("\\D+", ""); // replace all non-digits
+#     ordinal = ordinal.replaceAll("\D+", ""); // replace all non-digits
 #     try {
 #       return parseInt(ordinal);
 #     } catch (NumberFormatException e) {

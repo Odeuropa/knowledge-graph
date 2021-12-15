@@ -1,6 +1,6 @@
 import validators
 import numpy as np
-from rdflib import Graph, URIRef, Literal
+from rdflib import Graph, URIRef, Literal, TIME, SDO, OWL
 from .ontologies import *
 from .Entity import Entity
 
@@ -12,6 +12,9 @@ def reset():
     g.bind("od", ODEUROPA)
     g.bind("crm", CRM)
     g.bind("crmsci", CRMsci)
+    g.bind("time", TIME)
+    g.bind("schema", SDO)
+    g.bind("owl", OWL)
 
 
 def add(subj, pred, obj, lang=''):

@@ -1,7 +1,7 @@
 import re
 from .Entity import Entity
 from .ontologies import ODEUROPA
-from . import vocab_api as VocabAPI
+from .utils import vocab_api as VocabAPI
 
 
 class SmellEmission(Entity):

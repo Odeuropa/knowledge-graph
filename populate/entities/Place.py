@@ -6,7 +6,7 @@ import yaml
 from .Entity import Entity
 from .Graph import is_invalid
 from .ontologies import CRM
-from . import vocab_api as VocabAPI
+from .utils import vocab_api as VocabAPI
 from .utils.pronouns import Pronouns
 from .config import GEONAMES, GEONAMES_CACHE
 
