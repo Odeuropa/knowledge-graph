@@ -1,0 +1,24 @@
+vocabularies:
+  endpoint: http://data.odeuropa.eu/repositories/odeuropa # sparql endpoint
+  weights: # weights for the similarity measure of not exact matches
+    alternate_labels: 0.7
+    other_languages: 0.6
+    unmatching_start: 0.7
+  vocabularies: # list of vocabularies to include in the API
+    olfactory-objects:
+      scheme: http://data.odeuropa.eu/vocabulary/olfactory-objects
+    olfactory-gestures:
+      scheme: http://data.odeuropa.eu/vocabulary/olfactory-gestures
+    fragrant-spaces:
+      scheme: http://data.odeuropa.eu/vocabulary/fragrant-spaces
+    edwards:
+      scheme: http://data.odeuropa.eu/vocabulary/edwards
+      family: wheel # vocabularies that are part of the same family can be queried together
+      priority: 2 # low priorities are shown before in the results list for a family
+    drom:
+      scheme: http://data.odeuropa.eu/vocabulary/drom
+      family: wheel
+      priority: 2
+    historic-book:
+      scheme: http://data.odeuropa.eu/vocabulary/historic-book
+      family: wheel

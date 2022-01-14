@@ -1,7 +1,8 @@
 import uuid
 from os import path
 
-from rdflib import URIRef, RDF
+from rdflib import URIRef, RDF, TIME
+from .ontologies import CRM
 
 from . import Graph
 from .config import BASE
@@ -24,3 +25,9 @@ class Entity:
             return
         for x in obj.split('|'):
             Graph.add(self.res, pred, x.strip(), lang)
+
+    def add_place(self, place):
+        self.add(CRM.P7_took_place_at, place)
+
+    def add_time(self, place):
+        self.add(TIME.hasTime, place)

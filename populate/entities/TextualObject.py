@@ -22,14 +22,18 @@ GENRES = {
     "THE": "Theater"
 }
 
+
 def to_genre(id):
+    if not id:
+        return None
     genre = URIRef(path.join(BASE, 'genre', id))
     Graph.add(genre, RDF.type, SKOS.Concept)
     Graph.add(genre, RDFS.label, GENRES[id], 'en')
     return genre
 
+
 class TextualObject(Entity):
-    def __init__(self, _id, title, author, year, place, lang, genre):
+    def __init__(self, _id, title, author=None, year=None, place=None, lang=None, genre=None):
         super().__init__(_id)
         self.setclass(CRM.E33_Linguistic_Object)
         self.add(RDFS.label, title)

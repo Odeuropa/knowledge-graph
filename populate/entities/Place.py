@@ -6,7 +6,7 @@ import yaml
 from .Entity import Entity
 from .Graph import is_invalid
 from .ontologies import CRM
-from .utils import vocab_api as VocabAPI
+from .vocabularies import vocabulary_manager as VocManager
 from .utils.pronouns import Pronouns
 from .config import GEONAMES, GEONAMES_CACHE
 
@@ -68,9 +68,7 @@ class Place(Entity):
         if not text_clean:
             return None
 
-        # TODO lemmatize
-        typ = VocabAPI.query_one('fragrant-spaces', text_clean, lang)
-        typ = typ['id'] if typ['confidence'] > 0.6 else None
+        typ = VocManager.get('fragrant-spaces').interlink(text_clean, lang, fallback=None)
         if typ or not disambiguate:
             return Place(text, typ)
 

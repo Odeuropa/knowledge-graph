@@ -1,6 +1,6 @@
 import validators
 import numpy as np
-from rdflib import Graph, URIRef, Literal, TIME, SDO, OWL
+from rdflib import Graph, URIRef, Literal, TIME, SDO, OWL, PROV
 from .ontologies import *
 from .Entity import Entity
 
@@ -26,14 +26,24 @@ def add(subj, pred, obj, lang=''):
         subj = subj.res
 
     if isinstance(obj, URIRef) or isinstance(obj, Literal):
-        g.add((subj, pred, obj))
+        statement = (subj, pred, obj)
     elif validators.url(obj):
-        g.add((subj, pred, URIRef(obj)))
+        statement = (subj, pred, URIRef(obj))
     elif isinstance(lang, URIRef):
-        g.add((subj, pred, Literal(obj, datatype=lang)))
+        statement = (subj, pred, Literal(obj, datatype=lang))
     else:
-      g.add((subj, pred, Literal(obj, lang=lang)))
+        statement = (subj, pred, Literal(obj, lang=lang))
 
+    g.add(statement)
+    return statement
+
+
+def set_prov(statement, prov):
+    if not statement or not prov:
+        return
+    # under development in rdflib https://github.com/RDFLib/rdflib/discussions/1554
+    # g.add((statement, PROV.wasGeneratedBy, prov))
+    pass
 
 def is_invalid(what):
     return what is None or what == '' or (type(what) == float and np.isnan(what))

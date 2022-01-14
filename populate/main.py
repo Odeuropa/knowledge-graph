@@ -1,9 +1,13 @@
 from math import isnan
 from os import path
-from tqdm import tqdm
+
 import pandas as pd
+import yaml
+from tqdm import tqdm
+
 from entities import *
-from entities.ontologies import CRM, CRMsci, ODEUROPA
+from entities.ontologies import CRM
+from entities.vocabularies import vocabulary_manager as VocabularyManager
 
 xlsx_file = path.join('./', 'input', 'benchmark-annotation-output.xlsx')
 docs_file = path.join('./', 'input', 'benchmark.xlsx')
@@ -41,6 +45,7 @@ def process_annotation_sheet(lang):
         doc_map[id] += 1
 
         txt = TextualObject(id, title)
+        prov = Provenance(r['Annotator'])
 
         smell = Smell(id + str(j))
         emission = SmellEmission(id + str(j), smell, get_safe('Smell_Source', r), get_safe('Odour_Carrier', r),
@@ -56,11 +61,12 @@ def process_annotation_sheet(lang):
 
         if type(r['Time']) == str:
             for x in r['Time'].split('|'):
-                Time.parse(x)
+                experience.add_time(Time.parse(x, lang, fallback='text'))
+                emission.add_time(Time.parse(x, lang, fallback='text'))
                 # place = Place.from_text(x)
                 # experience.add_place(place)
 
-        add(txt, CRM.P67_refers_to, emission)
+        set_prov(add(txt, CRM.P67_refers_to, emission), prov)
         add(txt, CRM.P67_refers_to, smell)
         add(txt, CRM.P67_refers_to, experience)
 
@@ -73,15 +79,23 @@ def process_benchmark_sheet(language):
 
     for i, r in tqdm(df.iterrows(), total=df.shape[0]):
         id = r['Document Identifier']
-        TextualObject(id, r['Title'], r['Author'], r['Year of Publication'], r['Place of Publication'], lang, r['Genre'])
+        TextualObject(id, r['Title'], r['Author'], r['Year of Publication'], r['Place of Publication'], lang,
+                      r['Genre'])
 
+
+# init
+with open('config.yaml', 'r') as file:
+    config = yaml.safe_load(file)
+VocabularyManager.setup(config['vocabularies'])
+
+# convert
 
 for x in ['English', 'French', 'German', 'Slovenian', 'Dutch'][0:1]:
     process_benchmark_sheet(x)
 Graph.g.serialize(destination=f"../dump/main/docs.ttl")
 Graph.reset()
 
-# for x in ['en', 'fr', 'de', 'sl', 'nl'][0:1]:
-#     process_annotation_sheet(x)
-#     Graph.g.serialize(destination=f"../dump/main/{x}.ttl")
-#     Graph.reset()
+for x in ['en', 'fr', 'de', 'sl', 'nl'][0:1]:
+    process_annotation_sheet(x)
+    Graph.g.serialize(destination=f"../dump/main/{x}.ttl")
+    Graph.reset()

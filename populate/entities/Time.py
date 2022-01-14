@@ -4,22 +4,28 @@ from .time_parsing import en
 
 
 class Time(Entity):
-    def __init__(self, label):
-        super().__init__(label)
+    def __init__(self, seed, label):
+        super().__init__(seed)
         self.setclass(TIME.TemporalEntity)
         self.add(RDFS.label, label)
         self.start = None
         self.end = None
 
     @classmethod
-    def parse(cls, x):
-        res = en.parse_date(x)
+    def parse(cls, x, lang='en', fallback=None):
+        if lang == en:
+            res = en.parse_date(x)
+        else:
+            res = None
+
         if res is None:
+            if fallback == 'text':
+                return Time(x, x)
             return None
 
         startDate, endDate, startType, endType = res
 
-        t = Time(x)
+        t = Time(startDate, x)
         t.set_start(startDate, startType)
         t.set_end(endDate, endType)
 

@@ -47,6 +47,3 @@ class OlfactoryExperience(Entity):
     def evoked(self, what, lang=''):
         self.add(ODEUROPA.F6_evoked, what, lang)
 
-    def add_place(self, place):
-        self.add(CRM.P7_took_place_at, place)
-
