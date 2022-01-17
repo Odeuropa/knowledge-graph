@@ -1,3 +1,4 @@
+import re
 from nltk.stem import WordNetLemmatizer as Lemmatizer
 from .lemma import Lemma
 from .vocabulary import Vocabulary
@@ -7,6 +8,12 @@ import nltk
 nltk.download('omw-1.4')
 
 controller = {}
+
+ARTICLE_REGEX = {
+    'en': r'^(the|an?|some|any) ',
+    'it': r'^(le|gli|il?|dei|delle|un[oa]?) ',
+    'fr': r'^(les?|la|des?|du|une?) '
+}
 
 
 class VocabularyController:
@@ -24,11 +31,12 @@ class VocabularyController:
             return voc
         return voc.search(q, lang, n, autocomplete)
 
-    def interlink(self, q, lang, fallback='text'):
+    def interlink(self, q, lang='en', fallback=None):
+        q = re.sub(ARTICLE_REGEX.get(lang, ARTICLE_REGEX['en']), '', q.lower())
         lemmatizer = Lemmatizer()
         q = lemmatizer.lemmatize(q)
         x = self.search(q, lang, 1, False).lemmata[0]
-        if x.score > 0.8:
+        if x.score > 0.6:
             return x.id
         elif fallback == 'text':
             return q

@@ -1,4 +1,5 @@
 @prefix crm: <http://erlangen-crm.org/current/> .
+@prefix crmsci: <http://www.ics.forth.gr/isl/CRMsci/> .
 @prefix ns1: <http://www.w3.org/ns/prov#> .
 @prefix od: <http://data.odeuropa.eu/ontology/> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
@@ -14808,7 +14809,8 @@
 
 <http://data.odeuropa.eu/SmellEmission/0d6264ef-f5e0-5d4c-8bcd-f4c0fe235836> a od:L12_Smell_Emission ;
     od:F1_generated <http://data.odeuropa.eu/Smell/0d6264ef-f5e0-5d4c-8bcd-f4c0fe235836> ;
-    od:F3_had_source "Nelkenessenz"@de .
+    od:F3_had_source <http://data.odeuropa.eu/SmellSource/d4d43de7-bbd1-5861-9e1d-de1c414a46e5> ;
+    od:F4_had_carrier <http://data.odeuropa.eu/SmellSource/a3a787a8-e19a-5d59-9f39-1c1fadfd8fed> .
 
 <http://data.odeuropa.eu/SmellEmission/0df67987-115c-518e-b134-8826864a6e53> a od:L12_Smell_Emission ;
     od:F1_generated <http://data.odeuropa.eu/Smell/0df67987-115c-518e-b134-8826864a6e53> .
@@ -14901,7 +14903,8 @@
     od:F1_generated <http://data.odeuropa.eu/Smell/11d87669-fc0c-5e06-8a6a-3924e9548c7e> .
 
 <http://data.odeuropa.eu/SmellEmission/11f394cc-89e0-50b2-9fd9-fd5d86795625> a od:L12_Smell_Emission ;
-    od:F1_generated <http://data.odeuropa.eu/Smell/11f394cc-89e0-50b2-9fd9-fd5d86795625> .
+    od:F1_generated <http://data.odeuropa.eu/Smell/11f394cc-89e0-50b2-9fd9-fd5d86795625> ;
+    od:F4_had_carrier <http://data.odeuropa.eu/SmellSource/920c44e4-62ed-51ae-ad77-821931ac4111> .
 
 <http://data.odeuropa.eu/SmellEmission/121bfe27-cdcf-5098-8e92-b98033f60ea1> a od:L12_Smell_Emission ;
     od:F1_generated <http://data.odeuropa.eu/Smell/121bfe27-cdcf-5098-8e92-b98033f60ea1> .
@@ -15509,7 +15512,7 @@
 
 <http://data.odeuropa.eu/SmellEmission/352095f7-1c92-588d-a42f-50df409fc17c> a od:L12_Smell_Emission ;
     od:F1_generated <http://data.odeuropa.eu/Smell/352095f7-1c92-588d-a42f-50df409fc17c> ;
-    od:F3_had_source "der"@de .
+    od:F3_had_source <http://data.odeuropa.eu/SmellSource/748f691d-9fcc-5094-9371-45e5566f5df9> .
 
 <http://data.odeuropa.eu/SmellEmission/3539bdb0-e221-5eec-ad1b-ae69b7a2e73d> a od:L12_Smell_Emission ;
     od:F1_generated <http://data.odeuropa.eu/Smell/3539bdb0-e221-5eec-ad1b-ae69b7a2e73d> .
@@ -16045,7 +16048,7 @@
 
 <http://data.odeuropa.eu/SmellEmission/53638a7a-3683-552d-9efc-9fc6905559f7> a od:L12_Smell_Emission ;
     od:F1_generated <http://data.odeuropa.eu/Smell/53638a7a-3683-552d-9efc-9fc6905559f7> ;
-    od:F3_had_source "des Gatten"@de .
+    od:F3_had_source <http://data.odeuropa.eu/SmellSource/92d5c6f1-241e-5591-a304-5e02d6374cb4> .
 
 <http://data.odeuropa.eu/SmellEmission/5367b1e0-faca-5bfe-9982-2eb4e99d63ee> a od:L12_Smell_Emission ;
     od:F1_generated <http://data.odeuropa.eu/Smell/5367b1e0-faca-5bfe-9982-2eb4e99d63ee> .
@@ -16604,8 +16607,8 @@
 
 <http://data.odeuropa.eu/SmellEmission/71282d26-29c4-5812-b59d-3bd5283f6ada> a od:L12_Smell_Emission ;
     od:F1_generated <http://data.odeuropa.eu/Smell/71282d26-29c4-5812-b59d-3bd5283f6ada> ;
-    od:F3_had_source " Der Armen Braten"@de,
-        "der Reichen Krankheit "@de .
+    od:F3_had_source <http://data.odeuropa.eu/SmellSource/c3446814-0d75-5f6e-8978-8d90c583e4be>,
+        <http://data.odeuropa.eu/SmellSource/f739cbb1-76a3-518f-b078-86fcaf2ee024> .
 
 <http://data.odeuropa.eu/SmellEmission/71a1de68-21f2-5427-b840-83aea9208124> a od:L12_Smell_Emission ;
     od:F1_generated <http://data.odeuropa.eu/Smell/71a1de68-21f2-5427-b840-83aea9208124> .
@@ -16853,7 +16856,7 @@
 
 <http://data.odeuropa.eu/SmellEmission/80e51328-9443-53bb-aeb2-bb0ebb1512c7> a od:L12_Smell_Emission ;
     od:F1_generated <http://data.odeuropa.eu/Smell/80e51328-9443-53bb-aeb2-bb0ebb1512c7> ;
-    od:F3_had_source "welcher"@de .
+    od:F3_had_source <http://data.odeuropa.eu/SmellSource/15e83fe2-26ad-5ea7-8640-c908690d618a> .
 
 <http://data.odeuropa.eu/SmellEmission/811f22f2-6af6-530b-b09b-b705ef0f2811> a od:L12_Smell_Emission ;
     od:F1_generated <http://data.odeuropa.eu/Smell/811f22f2-6af6-530b-b09b-b705ef0f2811> .
@@ -16977,7 +16980,7 @@
 
 <http://data.odeuropa.eu/SmellEmission/88a9025c-5225-59bf-a7a2-3b0fc271d31b> a od:L12_Smell_Emission ;
     od:F1_generated <http://data.odeuropa.eu/Smell/88a9025c-5225-59bf-a7a2-3b0fc271d31b> ;
-    od:F3_had_source "den Menſchen"@de ;
+    od:F3_had_source <http://data.odeuropa.eu/SmellSource/5ca8d883-80af-5018-864f-5f71840bd1b9> ;
     crm:P7_took_place_at <http://data.odeuropa.eu/Place/d652e795-d6b6-506c-822c-c437d0db8753> .
 
 <http://data.odeuropa.eu/SmellEmission/88b38c04-02ec-5e17-a6db-c843d8b07f13> a od:L12_Smell_Emission ;
@@ -17225,7 +17228,7 @@
 
 <http://data.odeuropa.eu/SmellEmission/949fc525-d57b-50c0-8600-052149072f1f> a od:L12_Smell_Emission ;
     od:F1_generated <http://data.odeuropa.eu/Smell/949fc525-d57b-50c0-8600-052149072f1f> ;
-    od:F3_had_source "den Braten"@de .
+    od:F3_had_source <http://data.odeuropa.eu/SmellSource/3e50bcb2-c5ea-5d4b-918d-0911d9020001> .
 
 <http://data.odeuropa.eu/SmellEmission/94b0dad0-d495-578e-b8ff-a72f09356b0c> a od:L12_Smell_Emission ;
     od:F1_generated <http://data.odeuropa.eu/Smell/94b0dad0-d495-578e-b8ff-a72f09356b0c> .
@@ -17298,7 +17301,7 @@
 
 <http://data.odeuropa.eu/SmellEmission/9887276a-8fc3-50aa-b179-68bde37bc11e> a od:L12_Smell_Emission ;
     od:F1_generated <http://data.odeuropa.eu/Smell/9887276a-8fc3-50aa-b179-68bde37bc11e> ;
-    od:F3_had_source "den Nelkengeruch"@de .
+    od:F3_had_source <http://data.odeuropa.eu/SmellSource/c171e354-143b-5096-9239-6abdd2a8f920> .
 
 <http://data.odeuropa.eu/SmellEmission/98bd673f-c960-5a72-b4b8-f3c522d3e137> a od:L12_Smell_Emission ;
     od:F1_generated <http://data.odeuropa.eu/Smell/98bd673f-c960-5a72-b4b8-f3c522d3e137> .
@@ -17329,7 +17332,7 @@
 
 <http://data.odeuropa.eu/SmellEmission/99ca5101-ec6f-5178-abb3-98ad63765379> a od:L12_Smell_Emission ;
     od:F1_generated <http://data.odeuropa.eu/Smell/99ca5101-ec6f-5178-abb3-98ad63765379> ;
-    od:F3_had_source "dess Schweiss"@de .
+    od:F3_had_source <http://data.odeuropa.eu/SmellSource/49a2077e-845c-5a47-bc4a-16bebd4e8488> .
 
 <http://data.odeuropa.eu/SmellEmission/99e1edd5-5910-5c91-bc07-8a74e3d805cb> a od:L12_Smell_Emission ;
     od:F1_generated <http://data.odeuropa.eu/Smell/99e1edd5-5910-5c91-bc07-8a74e3d805cb> .
@@ -17627,7 +17630,7 @@
 
 <http://data.odeuropa.eu/SmellEmission/a98909c0-ee45-5923-9fa8-2843b5fc08e9> a od:L12_Smell_Emission ;
     od:F1_generated <http://data.odeuropa.eu/Smell/a98909c0-ee45-5923-9fa8-2843b5fc08e9> ;
-    od:F3_had_source "einen Wind"@de .
+    od:F3_had_source <http://data.odeuropa.eu/SmellSource/97371eaf-ea69-5367-908b-8118a97e0207> .
 
 <http://data.odeuropa.eu/SmellEmission/a9b4b2ab-033b-52fb-b02d-d0789a094988> a od:L12_Smell_Emission ;
     od:F1_generated <http://data.odeuropa.eu/Smell/a9b4b2ab-033b-52fb-b02d-d0789a094988> .
@@ -17658,7 +17661,7 @@
 
 <http://data.odeuropa.eu/SmellEmission/ac4c2e2a-e9da-5c2b-9e97-1b260433909d> a od:L12_Smell_Emission ;
     od:F1_generated <http://data.odeuropa.eu/Smell/ac4c2e2a-e9da-5c2b-9e97-1b260433909d> ;
-    od:F3_had_source "der Blumen"@de .
+    od:F3_had_source <http://data.odeuropa.eu/SmellSource/92a83b9d-5a44-5c0b-b672-cd38aa89ba93> .
 
 <http://data.odeuropa.eu/SmellEmission/ac68cbba-a36f-5ef7-b2dc-091e0472c607> a od:L12_Smell_Emission ;
     od:F1_generated <http://data.odeuropa.eu/Smell/ac68cbba-a36f-5ef7-b2dc-091e0472c607> .
@@ -17896,7 +17899,7 @@
 
 <http://data.odeuropa.eu/SmellEmission/bbaff086-86e7-5272-8e52-57c8368e6352> a od:L12_Smell_Emission ;
     od:F1_generated <http://data.odeuropa.eu/Smell/bbaff086-86e7-5272-8e52-57c8368e6352> ;
-    od:F3_had_source "Ein Aas"@de .
+    od:F3_had_source <http://data.odeuropa.eu/SmellSource/ac611515-a85c-5f39-b96d-84c28e2d9405> .
 
 <http://data.odeuropa.eu/SmellEmission/bbb4b484-8031-5e96-b2cb-e3fb7804de1f> a od:L12_Smell_Emission ;
     od:F1_generated <http://data.odeuropa.eu/Smell/bbb4b484-8031-5e96-b2cb-e3fb7804de1f> .
@@ -17906,7 +17909,8 @@
 
 <http://data.odeuropa.eu/SmellEmission/bc377bfe-9beb-5f4c-b8ab-887594b97a4d> a od:L12_Smell_Emission ;
     od:F1_generated <http://data.odeuropa.eu/Smell/bc377bfe-9beb-5f4c-b8ab-887594b97a4d> ;
-    od:F3_had_source "der Schweiß"@de .
+    od:F3_had_source <http://data.odeuropa.eu/SmellSource/b34f1eca-d0e0-5d57-aa61-341cee98ba4b> ;
+    od:F4_had_carrier <http://data.odeuropa.eu/SmellSource/afd92e67-411e-54c4-b13a-3f119658c087> .
 
 <http://data.odeuropa.eu/SmellEmission/bc4d19f3-8f63-5656-96c4-07f22cef1ff4> a od:L12_Smell_Emission ;
     od:F1_generated <http://data.odeuropa.eu/Smell/bc4d19f3-8f63-5656-96c4-07f22cef1ff4> .
@@ -18066,7 +18070,8 @@
     od:F1_generated <http://data.odeuropa.eu/Smell/c4af3ff2-9210-577c-b3ed-2d92ea5dc984> .
 
 <http://data.odeuropa.eu/SmellEmission/c4c4110a-adbb-5bc6-b3da-1dca15e2b16e> a od:L12_Smell_Emission ;
-    od:F1_generated <http://data.odeuropa.eu/Smell/c4c4110a-adbb-5bc6-b3da-1dca15e2b16e> .
+    od:F1_generated <http://data.odeuropa.eu/Smell/c4c4110a-adbb-5bc6-b3da-1dca15e2b16e> ;
+    od:F4_had_carrier <http://data.odeuropa.eu/SmellSource/27c723cf-175f-57a4-884b-6e8c80f29aea> .
 
 <http://data.odeuropa.eu/SmellEmission/c4c98dd2-a365-57ea-a560-a95508e5f759> a od:L12_Smell_Emission ;
     od:F1_generated <http://data.odeuropa.eu/Smell/c4c98dd2-a365-57ea-a560-a95508e5f759> .
@@ -18241,7 +18246,7 @@
 
 <http://data.odeuropa.eu/SmellEmission/ce363d3b-5bfb-5eae-8274-eb9014ed96bd> a od:L12_Smell_Emission ;
     od:F1_generated <http://data.odeuropa.eu/Smell/ce363d3b-5bfb-5eae-8274-eb9014ed96bd> ;
-    od:F3_had_source "einer"@de .
+    od:F3_had_source <http://data.odeuropa.eu/SmellSource/a20d86d0-3370-598e-851d-46d98736faa9> .
 
 <http://data.odeuropa.eu/SmellEmission/ce9107eb-28db-5291-8204-f70ae1b9c099> a od:L12_Smell_Emission ;
     od:F1_generated <http://data.odeuropa.eu/Smell/ce9107eb-28db-5291-8204-f70ae1b9c099> .
@@ -18786,7 +18791,7 @@
 
 <http://data.odeuropa.eu/SmellEmission/eef4f37d-3852-5ba3-861a-93db12afdd44> a od:L12_Smell_Emission ;
     od:F1_generated <http://data.odeuropa.eu/Smell/eef4f37d-3852-5ba3-861a-93db12afdd44> ;
-    od:F3_had_source "Sein Adel"@de .
+    od:F3_had_source <http://data.odeuropa.eu/SmellSource/7659aa95-8894-5e93-a394-8633d816bf0a> .
 
 <http://data.odeuropa.eu/SmellEmission/ef08caac-f61f-5e81-9159-835c0af6c28b> a od:L12_Smell_Emission ;
     od:F1_generated <http://data.odeuropa.eu/Smell/ef08caac-f61f-5e81-9159-835c0af6c28b> .
@@ -18850,7 +18855,7 @@
 
 <http://data.odeuropa.eu/SmellEmission/f278eec8-121c-5fe0-ba65-5517d7e09769> a od:L12_Smell_Emission ;
     od:F1_generated <http://data.odeuropa.eu/Smell/f278eec8-121c-5fe0-ba65-5517d7e09769> ;
-    od:F3_had_source "des Gatten"@de .
+    od:F3_had_source <http://data.odeuropa.eu/SmellSource/22186363-c9d7-5588-abb7-07dd8c83cb3f> .
 
 <http://data.odeuropa.eu/SmellEmission/f282d08a-9780-500f-9bce-678ff1523557> a od:L12_Smell_Emission ;
     od:F1_generated <http://data.odeuropa.eu/Smell/f282d08a-9780-500f-9bce-678ff1523557> .
@@ -18992,7 +18997,7 @@
 
 <http://data.odeuropa.eu/SmellEmission/fb527594-9bda-5fd8-9bdc-e86b1913c245> a od:L12_Smell_Emission ;
     od:F1_generated <http://data.odeuropa.eu/Smell/fb527594-9bda-5fd8-9bdc-e86b1913c245> ;
-    od:F3_had_source "Nelkenessenz"@de .
+    od:F3_had_source <http://data.odeuropa.eu/SmellSource/c5667990-5068-5432-acff-a77a19ad12a4> .
 
 <http://data.odeuropa.eu/SmellEmission/fb529420-fbd0-5d9f-9ba7-04cc6b7bead3> a od:L12_Smell_Emission ;
     od:F1_generated <http://data.odeuropa.eu/Smell/fb529420-fbd0-5d9f-9ba7-04cc6b7bead3> .
@@ -19077,6 +19082,72 @@
 
 <http://data.odeuropa.eu/SmellEmission/ffb35996-3f94-51f4-8bb9-8435a0920df1> a od:L12_Smell_Emission ;
     od:F1_generated <http://data.odeuropa.eu/Smell/ffb35996-3f94-51f4-8bb9-8435a0920df1> .
+
+<http://data.odeuropa.eu/SmellSource/15e83fe2-26ad-5ea7-8640-c908690d618a> a crmsci:S10_Material_Substantial ;
+    rdfs:label "welcher" .
+
+<http://data.odeuropa.eu/SmellSource/22186363-c9d7-5588-abb7-07dd8c83cb3f> a crmsci:S10_Material_Substantial ;
+    rdfs:label "des Gatten" .
+
+<http://data.odeuropa.eu/SmellSource/27c723cf-175f-57a4-884b-6e8c80f29aea> a crmsci:S10_Material_Substantial ;
+    rdfs:label "Lavendelduft" .
+
+<http://data.odeuropa.eu/SmellSource/3e50bcb2-c5ea-5d4b-918d-0911d9020001> a crmsci:S10_Material_Substantial ;
+    rdfs:label "den Braten" .
+
+<http://data.odeuropa.eu/SmellSource/49a2077e-845c-5a47-bc4a-16bebd4e8488> a crmsci:S10_Material_Substantial ;
+    rdfs:label "dess Schweiss" .
+
+<http://data.odeuropa.eu/SmellSource/5ca8d883-80af-5018-864f-5f71840bd1b9> a crmsci:S10_Material_Substantial ;
+    rdfs:label "den Menſchen" .
+
+<http://data.odeuropa.eu/SmellSource/748f691d-9fcc-5094-9371-45e5566f5df9> a crmsci:S10_Material_Substantial ;
+    rdfs:label "der" .
+
+<http://data.odeuropa.eu/SmellSource/7659aa95-8894-5e93-a394-8633d816bf0a> a crmsci:S10_Material_Substantial ;
+    rdfs:label "Sein Adel" .
+
+<http://data.odeuropa.eu/SmellSource/920c44e4-62ed-51ae-ad77-821931ac4111> a crmsci:S10_Material_Substantial ;
+    rdfs:label "der Blumen" .
+
+<http://data.odeuropa.eu/SmellSource/92a83b9d-5a44-5c0b-b672-cd38aa89ba93> a crmsci:S10_Material_Substantial ;
+    rdfs:label "der Blumen" .
+
+<http://data.odeuropa.eu/SmellSource/92d5c6f1-241e-5591-a304-5e02d6374cb4> a crmsci:S10_Material_Substantial ;
+    rdfs:label "des Gatten" .
+
+<http://data.odeuropa.eu/SmellSource/97371eaf-ea69-5367-908b-8118a97e0207> a crmsci:S10_Material_Substantial ;
+    rdfs:label "einen Wind" .
+
+<http://data.odeuropa.eu/SmellSource/a20d86d0-3370-598e-851d-46d98736faa9> a crmsci:S10_Material_Substantial ;
+    rdfs:label "einer" .
+
+<http://data.odeuropa.eu/SmellSource/a3a787a8-e19a-5d59-9f39-1c1fadfd8fed> a crmsci:S10_Material_Substantial ;
+    rdfs:label "die Lösung" .
+
+<http://data.odeuropa.eu/SmellSource/ac611515-a85c-5f39-b96d-84c28e2d9405> a crmsci:S10_Material_Substantial ;
+    rdfs:label "Ein Aas" .
+
+<http://data.odeuropa.eu/SmellSource/afd92e67-411e-54c4-b13a-3f119658c087> a crmsci:S10_Material_Substantial ;
+    rdfs:label "eines Menschen" .
+
+<http://data.odeuropa.eu/SmellSource/b34f1eca-d0e0-5d57-aa61-341cee98ba4b> a crmsci:S10_Material_Substantial ;
+    rdfs:label "der Schweiß" .
+
+<http://data.odeuropa.eu/SmellSource/c171e354-143b-5096-9239-6abdd2a8f920> a crmsci:S10_Material_Substantial ;
+    rdfs:label "den Nelkengeruch" .
+
+<http://data.odeuropa.eu/SmellSource/c3446814-0d75-5f6e-8978-8d90c583e4be> a crmsci:S10_Material_Substantial ;
+    rdfs:label "Der Armen Braten" .
+
+<http://data.odeuropa.eu/SmellSource/c5667990-5068-5432-acff-a77a19ad12a4> a crmsci:S10_Material_Substantial ;
+    rdfs:label "Nelkenessenz" .
+
+<http://data.odeuropa.eu/SmellSource/d4d43de7-bbd1-5861-9e1d-de1c414a46e5> a crmsci:S10_Material_Substantial ;
+    rdfs:label "Nelkenessenz" .
+
+<http://data.odeuropa.eu/SmellSource/f739cbb1-76a3-518f-b078-86fcaf2ee024> a crmsci:S10_Material_Substantial ;
+    rdfs:label "der Reichen Krankheit" .
 
 <http://data.odeuropa.eu/OlfactoryExperience/00cbdcbe-4c5e-5b8d-9969-382385a9d2e4> a od:L13_Olfactory_Experience ;
     od:F2_perceived <http://data.odeuropa.eu/Smell/00cbdcbe-4c5e-5b8d-9969-382385a9d2e4> ;

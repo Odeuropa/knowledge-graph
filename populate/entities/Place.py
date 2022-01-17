@@ -4,6 +4,7 @@ from rdflib import RDFS, URIRef
 import geocoder
 import yaml
 from .Entity import Entity
+from .vocabularies.vocabulary_manager import ARTICLE_REGEX
 from .Graph import is_invalid
 from .ontologies import CRM
 from .vocabularies import vocabulary_manager as VocManager
@@ -61,9 +62,9 @@ class Place(Entity):
         if re.match(pron_regex, text):
             text_clean = re.sub(pron_regex, '', text)
             disambiguate = False
-        ARTICLE_PREFIX = r'^(a|A|the|The) (?=[a-z])'
-        if re.match(ARTICLE_PREFIX, text):
-            text_clean = re.sub('^(a|the) ', '', text)
+        article_prefix = ARTICLE_REGEX.get('lang', ARTICLE_REGEX['en']) + '(?=[a-zA-Z])'
+        if re.match(article_prefix, text):
+            text_clean = re.sub(article_prefix, '', text)
             disambiguate = False
 
         # TODO
