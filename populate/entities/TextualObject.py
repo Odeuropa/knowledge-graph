@@ -29,6 +29,7 @@ def to_genre(id):
         return None
     id = "PUB" if id == "PUBH" else id
     id = "SCIE" if id == "SCI" else id
+    id = "OTH" if id == "OTHER" else id
     genre = URIRef(path.join(BASE, 'genre', id))
     Graph.add(genre, RDF.type, SKOS.Concept)
     Graph.add(genre, RDFS.label, GENRES[id], 'en')

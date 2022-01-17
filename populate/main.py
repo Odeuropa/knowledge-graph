@@ -19,7 +19,8 @@ lang_map = {
     'French': 'fr',
     'German': 'de',
     'Slovenian': 'sl',
-    'Dutch': 'nl'
+    'Dutch': 'nl',
+    'Italian': 'it'
 }
 docs = {}
 
@@ -101,7 +102,7 @@ VocabularyManager.setup(config['vocabularies'])
 
 # convert
 
-for x in ['English', 'French', 'German', 'Slovenian', 'Dutch']:
+for x in ['English', 'Italian', 'Dutch', 'French', 'German', 'Slovenian', 'Dutch']:
     process_benchmark_sheet(x)
 Graph.g.serialize(destination=f"../dump/main/docs.ttl")
 Graph.reset()
