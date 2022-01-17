@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<rdf:RDF xmlns:cc="http://creativecommons.org/ns#" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:foaf="http://xmlns.com/foaf/0.1/" xmlns:gn="http://www.geonames.org/ontology#" xmlns:owl="http://www.w3.org/2002/07/owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:wgs84_pos="http://www.w3.org/2003/01/geo/wgs84_pos#">
+    <gn:Feature rdf:about="https://sws.geonames.org/6269133/">
+        <rdfs:isDefinedBy rdf:resource="https://sws.geonames.org/6269133/about.rdf"/>
+        <gn:name>Middle East</gn:name>
+        <gn:alternateName xml:lang="eo">Mezoriento</gn:alternateName>
+        <gn:alternateName xml:lang="nl">Midden-Oosten</gn:alternateName>
+        <gn:alternateName xml:lang="en">Middle East</gn:alternateName>
+        <gn:alternateName xml:lang="fr">Moyen-Orient</gn:alternateName>
+        <gn:alternateName xml:lang="es">Oriente Medio</gn:alternateName>
+        <gn:alternateName xml:lang="eo">Sudokcidenta Azio</gn:alternateName>
+        <gn:officialName xml:lang="ar">الشرق الاوسط</gn:officialName>
+        <gn:featureClass rdf:resource="https://www.geonames.org/ontology#L"/>
+        <gn:featureCode rdf:resource="https://www.geonames.org/ontology#L.RGN"/>
+        <gn:population>371400000</gn:population>
+        <wgs84_pos:lat>33.13906</wgs84_pos:lat>
+        <wgs84_pos:long>35.85869</wgs84_pos:long>
+        <gn:parentFeature rdf:resource="https://sws.geonames.org/6295630/"/>
+        <gn:nearbyFeatures rdf:resource="https://sws.geonames.org/6269133/nearby.rdf"/>
+        <gn:locationMap rdf:resource="https://www.geonames.org/6269133/middle-east.html"/>
+        <gn:wikipediaArticle rdf:resource="https://en.wikipedia.org/wiki/Middle_East"/>
+        <rdfs:seeAlso rdf:resource="https://dbpedia.org/resource/Middle_East"/>
+    </gn:Feature>
+    <foaf:Document rdf:about="https://sws.geonames.org/6269133/about.rdf">
+        <foaf:primaryTopic rdf:resource="https://sws.geonames.org/6269133/"/>
+        <cc:license rdf:resource="https://creativecommons.org/licenses/by/4.0/"/>
+        <cc:attributionURL rdf:resource="https://www.geonames.org"/>
+        <cc:attributionName rdf:datatype="https://www.w3.org/2001/XMLSchema#string">GeoNames</cc:attributionName>
+        <dcterms:created rdf:datatype="https://www.w3.org/2001/XMLSchema#date">2006-06-22</dcterms:created>
+        <dcterms:modified rdf:datatype="https://www.w3.org/2001/XMLSchema#date">2018-10-10</dcterms:modified>
+    </foaf:Document>
+</rdf:RDF>
