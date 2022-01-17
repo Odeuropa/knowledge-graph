@@ -6,7 +6,7 @@ from .utils import wikidata_api
 
 
 class Actor(Entity):
-    def __init__(self, name, lang, alive_in):
+    def __init__(self, name, lang=None, alive_in=None):
         super().__init__(name)
         self.add(RDFS.label, name)
 
@@ -16,4 +16,3 @@ class Actor(Entity):
             self.add(OWL.sameAs, wd)
         else:
             self.setclass(CRM.E39_Actor)
-

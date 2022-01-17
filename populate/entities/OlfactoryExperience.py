@@ -17,12 +17,14 @@ class OlfactoryExperience(Entity):
 
         self.setclass(ODEUROPA.L13_Olfactory_Experience)
         self.add(ODEUROPA.F2_perceived, smell)
-        self.add(CRM.P14_carried_out_by, perceiver, lang)
         self.add(CRM.P7_took_place_at, place)
 
         if not is_invalid(quality):
             for x in quality.split('|'):
                 self.add_quality(x.strip(), lang)
+
+    def add_perceiver(self, perceiver):
+        self.add(CRM.P14_carried_out_by, perceiver)
 
     def add_quality(self, adjective, lang):
         self.assignment_id += 1

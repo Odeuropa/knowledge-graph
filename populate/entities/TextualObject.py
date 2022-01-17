@@ -19,13 +19,16 @@ GENRES = {
     "PUB": "Public Health",
     "SCIE": "Scientific and philosophical texts",
     "LAW": "Legal / criminal texts",
-    "THE": "Theater"
+    "THE": "Theater",
+    "OTH": "Other"
 }
 
 
 def to_genre(id):
     if not id:
         return None
+    id = "PUB" if id == "PUBH" else id
+    id = "SCIE" if id == "SCI" else id
     genre = URIRef(path.join(BASE, 'genre', id))
     Graph.add(genre, RDF.type, SKOS.Concept)
     Graph.add(genre, RDFS.label, GENRES[id], 'en')
@@ -35,6 +38,10 @@ def to_genre(id):
 class TextualObject(Entity):
     def __init__(self, _id, title, author=None, year=None, place=None, lang=None, genre=None):
         super().__init__(_id)
+        self.author = None
+        self.title = title
+        self.genre = genre
+
         self.setclass(CRM.E33_Linguistic_Object)
         self.add(RDFS.label, title)
         self.add(SDO.genre, to_genre(genre))
@@ -51,4 +58,5 @@ class TextualObject(Entity):
             year = t.start if t else None
 
         if author:
-            self.add(SDO.author, Actor(author.strip(), lang=lang, alive_in=year))
+            self.author = Actor(author.strip(), lang=lang, alive_in=year)
+            self.add(SDO.author, self.author)

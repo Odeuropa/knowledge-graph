@@ -51,7 +51,8 @@ class Place(Entity):
         if is_invalid(text):
             return None
 
-        text = re.sub('^(at|in|upon|even( in)?|of|on|along|from|to) ', '', text.strip(), flags=re.I).strip()
+        IN_PREFIX = r'^(at|in|upon|even( in)?|of|on|along|from|to) '
+        text = re.sub(IN_PREFIX, '', text.strip(), flags=re.I).strip()
         feature_class, text = extract_feature(text)
 
         text_clean = text
@@ -60,7 +61,8 @@ class Place(Entity):
         if re.match(pron_regex, text):
             text_clean = re.sub(pron_regex, '', text)
             disambiguate = False
-        if re.match('^(a|A|the|The) [a-z]', text):
+        ARTICLE_PREFIX = r'^(a|A|the|The) (?=[a-z])'
+        if re.match(ARTICLE_PREFIX, text):
             text_clean = re.sub('^(a|the) ', '', text)
             disambiguate = False
 

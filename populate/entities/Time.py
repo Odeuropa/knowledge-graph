@@ -1,6 +1,6 @@
 from rdflib import TIME, RDFS, XSD
 from .Entity import Entity
-from .time_parsing import en
+from .time_parsing import time_parsing
 
 
 class Time(Entity):
@@ -13,10 +13,10 @@ class Time(Entity):
 
     @classmethod
     def parse(cls, x, lang='en', fallback=None):
-        if lang == en:
-            res = en.parse_date(x)
-        else:
-            res = None
+        if not x:
+            return None
+
+        res = time_parsing.parse_date(x, lang)
 
         if res is None:
             if fallback == 'text':
