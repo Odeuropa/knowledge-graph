@@ -10,9 +10,9 @@ BASE_GRAPH = 'http://data.odeuropa.eu'
 ROOT = './dump'
 INTERNAL_ROOT = '/opt/graphdb/home/graphdb-import'
 
-
 C_TYPE = {
     'rdf': 'application/rdf+xml',
+    'owl': 'application/rdf+xml',
     'ttl': 'text/turtle'
 }
 

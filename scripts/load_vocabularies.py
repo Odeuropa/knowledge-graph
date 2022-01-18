@@ -1,6 +1,6 @@
 import os
 from os import path
-import json
+
 import requests
 
 from db_utils import base, get_auth

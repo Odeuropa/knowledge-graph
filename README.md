@@ -29,6 +29,10 @@ Upload vocabularies
 
     python3 scripts/load_vocabularies.py
 
+Upload ontologies (Odeuropa + CRM + CRMsci)
+
+    python3 scripts/load_dump.py ontology
+
 Upload dumps
 
     python3 scripts/load_dump.py geonames
