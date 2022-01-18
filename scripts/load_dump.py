@@ -36,7 +36,7 @@ def load_dump(name):
     for filename in os.listdir(folder):
         name, ext = filename.rsplit('.')
         print('- ' + name)
-        if C_TYPE[ext]:
+        if ext in C_TYPE:
             headers['Content-Type'] = C_TYPE[ext]
 
             with open(path.join(folder, filename), 'r', encoding='utf-8') as f:
