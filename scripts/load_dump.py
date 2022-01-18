@@ -34,9 +34,11 @@ def load_dump(name):
 
     # upload new resources
     for filename in os.listdir(folder):
+        if not '.' in filename:
+            continue
         name, ext = filename.rsplit('.')
-        print('- ' + name)
         if ext in C_TYPE:
+            print('- ' + name)
             headers['Content-Type'] = C_TYPE[ext]
 
             with open(path.join(folder, filename), 'r', encoding='utf-8') as f:
