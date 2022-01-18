@@ -12,7 +12,7 @@ INTERNAL_ROOT = '/opt/graphdb/home/graphdb-import'
 
 C_TYPE = {
     'rdf': 'application/rdf+xml',
-    'owl': 'application/rdf+xml',
+    'owl': 'text/turtle',
     'ttl': 'text/turtle'
 }
 
