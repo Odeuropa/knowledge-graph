@@ -1,4 +1,5 @@
 import re
+import string
 from urllib import request
 from rdflib import RDFS, URIRef
 import geocoder
@@ -15,6 +16,14 @@ with open(GEONAMES_CACHE, 'r') as _f:
     cache = yaml.load(_f, Loader=yaml.CLoader)
     if cache is None:
         cache = {}
+
+IN_PREFIX = {
+    'en': r'(?i)^(at|in(to)?|upon|near|even( in)?|of|on|along|from|to) ',
+    'it': r"(?i)^(d'|a |in |(da|ne|su|a)(gl)?i |presso |(da|ne|su|a)(l(l[aoe])?)? |(da|ne|su)ll ?')",
+    'fr': r"(?i)^((en|dans|à|aux?|sur) |d')",
+    'nl': r'(?i)^(by|te|op|in) ',
+    'sl': r'(?i)^(v|pod?|o[bd]|na|iz) '
+}
 
 
 def extract_feature(text):
@@ -51,9 +60,8 @@ class Place(Entity):
     def from_text(cls, text, lang='en'):
         if is_invalid(text):
             return None
-
-        IN_PREFIX = r'^(at|in|upon|even( in)?|of|on|along|from|to) '
-        text = re.sub(IN_PREFIX, '', text.strip(), flags=re.I).strip()
+        text = re.sub(IN_PREFIX.get(lang, IN_PREFIX['en']), '', text.strip(), flags=re.I).strip()
+        text = text.strip(string.punctuation).strip()
         feature_class, text = extract_feature(text)
 
         text_clean = text
@@ -65,7 +73,7 @@ class Place(Entity):
         article_prefix = ARTICLE_REGEX.get('lang', ARTICLE_REGEX['en']) + '(?=[a-zA-Z])'
         if re.match(article_prefix, text):
             text_clean = re.sub(article_prefix, '', text)
-            disambiguate = False
+            disambiguate = text_clean[0].isupper()
 
         # TODO
         if not text_clean:

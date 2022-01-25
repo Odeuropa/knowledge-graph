@@ -68,7 +68,7 @@ def process_annotation_sheet(lang):
 
         if type(r['Location']) == str:
             for x in r['Location'].split('|'):
-                place = Place.from_text(x)
+                place = Place.from_text(x, lang)
                 experience.add_place(place)
                 emission.add_place(place)
 

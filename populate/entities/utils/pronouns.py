@@ -11,7 +11,7 @@ class Pronouns:
             self.lst = [x.strip() for x in f.readlines()]
 
     def as_regex(self):
-        return '^(' + '|'.join(self.lst) + ')'
+        return '^(' + '|'.join(self.lst) + ')$'
 
     @classmethod
     def myself(cls, lang):
