@@ -38,7 +38,7 @@ def to_genre(id):
 
 class TextualObject(Entity):
     def __init__(self, _id, title, author=None, year=None, place=None, lang=None, genre=None):
-        super().__init__(_id)
+        super().__init__(str(year) + title)
         self.author = None
         self.title = title
         self.genre = genre

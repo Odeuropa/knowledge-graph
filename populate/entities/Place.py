@@ -22,6 +22,7 @@ IN_PREFIX = {
     'it': r"(?i)^(d'|a |in |(da|ne|su|a)(gl)?i |presso |(da|ne|su|a)(l(l[aoe])?)? |(da|ne|su)ll ?')",
     'fr': r"(?i)^((en|dans|à|aux?|sur) |d')",
     'nl': r'(?i)^(by|te|op|in) ',
+    'de': r'(?i)^(by|te|op|in) ',
     'sl': r'(?i)^(v|pod?|o[bd]|na|iz) '
 }
 

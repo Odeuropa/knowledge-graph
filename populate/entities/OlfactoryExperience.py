@@ -4,6 +4,7 @@ from os import path
 from .Entity import Entity
 from .Graph import add, is_invalid
 from .ontologies import ODEUROPA, CRM
+from .vocabularies import vocabulary_manager as VocManager
 
 
 class OlfactoryExperience(Entity):
@@ -39,11 +40,18 @@ class OlfactoryExperience(Entity):
         add(assignement, CRM.P17_was_motivated_by, self)
 
     def add_gesture(self, gesture, lang=''):
+        if is_invalid(gesture):
+            return
         self.gesture_id += 1
         gest_uri = path.join(self.uri, 'gesture', str(self.gesture_id))
         gest = URIRef(gest_uri)
+
+        # if 'vomit' in gesture:
+        #     typ = VocManager.get('olfactory-gestures').interlink_long(gesture, lang, fallback=None)
+        #     print(gesture, typ)
+
         add(gest, RDF.type, ODEUROPA.L7_Gesture)
-        add(gest, RDFS.label, gesture, 'en')
+        add(gest, RDFS.label, gesture, lang)
         self.add(ODEUROPA.F5_involved_gesture, gest)
 
     def evoked(self, what, lang=''):

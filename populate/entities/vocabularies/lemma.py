@@ -47,7 +47,7 @@ class Lemma:
     OTHER_LANG_WEIGHT = 0.6
     UNMATCHING_START_WEIGHT = 0.7
 
-    def __init__(self, data, score=None):
+    def __init__(self, data, score=0):
         self.data = data
         self.prefLabel = as_array(data['prefLabel'])
         self.altLabel = as_array(data.get('altLabel'))

@@ -1,7 +1,8 @@
 import re
 from rdflib import XSD
 from datetime import datetime
-from . import en, es, it, fr
+import roman
+from . import en, es, it, fr, nl, de, sl
 
 ISO_DATE_FORMAT = "yyyy-MM-dd"
 SLASH_LITTLE_ENDIAN = "%d/%m/%Y"
@@ -23,21 +24,26 @@ langs = {
     'en': en,
     'es': es,
     'it': it,
-    'fr': fr
+    'fr': fr,
+    'nl': nl,
+    'de': de,
+    'sl': sl
 }
 
 
 def date_format(dd, m, yy):
-    if len(yy) == 2:
+    if yy is None:
+        yy = 'XXXX'
+    elif len(yy) == 2:
         yy = "19" + yy
 
-    _type = XSD.gMonth
-    formatted = yy + "-" + "%02d" % int(m)
+    # _type = XSD.gMonth
+    formatted = yy + "-" + ("%02d" % int(m) if m != 0 else 'XX')
     if dd:
-        _type = XSD.date
+        # _type = XSD.date
         formatted += "-" + "%02d" % int(dd)
 
-    return formatted, _type
+    return formatted  # , _type
 
 
 def pad_year(year):
@@ -77,37 +83,80 @@ def decade2year(decade, end, modifier=0):
     return pad_year(decade)
 
 
-#         def getEDTF() {
-#     if (startDate == null && endDate == null)
-#       return null;
-#
-#     String startSym = "", endSym = "";
-#     if (startUncertain && startApproximate) startSym = "%";
-#     else if (startUncertain) startSym = "?";
-#     else if (startApproximate) startSym = "~";
-#     if (endUncertain && endApproximate) endSym = "%";
-#     else if (endUncertain) endSym = "?";
-#     else if (endApproximate) endSym = "~";
-#
-#     String bf = "", af = "";
-#     // 0 = NONE, +1 = ON OR AFTER, +2 = AFTER, -1 = ON OR BEFORE, -2 = BEFORE
-#     if (before_after > 0) af = "..";
-#     else if (before_after < 0) bf = "..";
-#
-#     String edtf;
-#     if (this.startDate != null) {
-#       if (startDate.equals(endDate) && startUncertain == endUncertain && endApproximate == startApproximate)
-#         edtf = bf + startDate + af + startSym;
-#       else if (endDate != null)
-#         if (before_after == 2) {
-#           edtf = endDate + endSym + "/..";
-#         } else if (before_after == -2) {
-#           edtf = "../" + startDate + startSym;
-#         } else edtf = bf + startDate + startSym + "/" + endDate + af + endSym;
-#       else edtf = bf + startDate + af + startSym + "/";
-#     } else edtf = "/" + bf + endDate + af + endSym;
-#
-#     return edtf;
+def parse_edtf(edtf):
+    parts = re.sub(r'[?%~]', '', edtf).split('/')
+    if len(parts) == 1:  # single date
+        start = end = parts[0]
+    else:
+        start, end = parts
+
+    if start.startswith('X'):
+        # uncertainty on the year, I can't transform into rdf date
+        start = ''
+    else:
+        start += start.replace('XX', '01').replace('X', '1')
+    if start.startswith('X'):
+        # uncertainty on the year, I can't transform into rdf date
+        end = ''
+    else:
+        end += start.replace('XX', '99').replace('X', '9')
+
+    dashS = start.count('-')
+    dashE = end.count('-')
+    startType = XSD.date if dashS == 2 else XSD.month if dashS == 1 else XSD.gYear
+    endType = XSD.date if dashE == 2 else XSD.month if dashE == 1 else XSD.gYear
+
+    return start, end, startType, endType
+
+
+def get_edtf_uncertain_sym(uncertain, approximate):
+    # get edtf for a single date
+    sym = ''
+    if uncertain and approximate:
+        sym = "%"
+    elif uncertain:
+        sym = "?"
+    elif approximate:
+        sym = "~"
+
+    return sym
+
+
+def get_edtf(date, uncertain=False, approximate=False):
+    # get edtf for a single date
+    if date is None:
+        return ''
+
+    return date, get_edtf_uncertain_sym(uncertain, approximate)
+
+
+def compute_edtf(startDate, endDate, startUncertain, startApproximate, endUncertain, endApproximate, before_after):
+    # get edtf for a time span
+    if startDate is None and endDate is None:
+        return '', ''
+
+    start, start_sym = get_edtf(startDate, startUncertain, startApproximate)
+    end, end_sym = get_edtf(endDate, endUncertain, endApproximate)
+
+    # 0 = NONE, +1 = ON OR AFTER, +2 = AFTER, -1 = ON OR BEFORE, -2 = BEFORE
+    af = '..' if before_after > 0 else ''
+    bf = '..' if before_after < 0 else ''
+
+    if startDate is not None:
+        if start == end and start_sym == end_sym:
+            return bf + start + af + start_sym
+        elif endDate is not None:
+            if before_after == 2:
+                return end + end_sym + "/.."
+            elif before_after == -2:
+                return "../" + start + start_sym
+            else:
+                return bf + start + start_sym + "/" + end + af + end_sym
+        else:
+            return bf + start + af + start_sym + "/"
+    else:
+        return "/" + bf + end + af + end_sym
+
 
 def detect_approximation(date, regex):
     matcher = re.search(regex, date)
@@ -117,14 +166,36 @@ def detect_approximation(date, regex):
     return date, approximate
 
 
-def parse_date(date, lang='en'):
-    startYear = None
-    startDate = None
-    startType = None
-    endYear = None
-    endDate = None
-    endType = None
+def month_to_num(month, localised_months):
+    month = month.lower()
+    mi = -1
+    for i, m in enumerate(localised_months):
+        if re.search(m, month):
+            mi = i
+            break
+    mi += 1
 
+    # 21     Spring (independent of location)
+    # 22     Summer (independent of location)
+    # 23     Autumn (independent of location)
+    # 24     Winter (independent of location)
+    if mi > 12:
+        mi += 8
+    return mi
+
+
+def parse_matched_date(dd, mm, yy, localised_months):
+    mi = month_to_num(mm, localised_months)
+    return date_format(dd, mi, yy)
+
+
+def pack_edtf_list(parsed, sym):
+    if parsed[0] == parsed[-1]:
+        return parsed[0] + sym
+    return parsed[0] + sym + '/' + parsed[-1] + sym
+
+
+def parse_date(date, lang='en'):
     lg = langs.get(lang, langs['en'])
 
     date, uncertain = detect_approximation(date, lg.UNCERTAIN_REGEX)
@@ -135,6 +206,7 @@ def parse_date(date, lang='en'):
     date = re.sub(CURLY_BRACKETS_REGEX, "", date)  # curly brackets
     date = re.sub(SQUARE_BRACKETS_REGEX, "", date)  # square brackets
     date = re.sub(ANY_BRACKETS_REGEX, "", date)  # orphan brackets
+    date = re.sub(lg.SEASON, "", date)  # unnecessary word
 
     date = re.sub("\"", "", date)
     date = date.strip()
@@ -144,10 +216,12 @@ def parse_date(date, lang='en'):
     date = re.sub(lg.AD_REGEX, "", date)
     date, circa = detect_approximation(date, CIRCA_REGEX)
     approximate = approximate or circa
+    sym = get_edtf_uncertain_sym(uncertain, approximate)
 
     date = re.sub(lg.CENTURY_VARIATION, lg.CENTURY_STANDARD, date)
-
     date = re.sub(r"[.,]$", "", date)  # trailing punctuation
+
+    date = re.sub(r'^(\d{1,2}(?:st|nd|rd|th))C$', r'\1 ' + lg.CENTURY_STANDARD, date)
     date = re.sub(r"\s+", " ", date)  # double space to one space
 
     date = date.strip()
@@ -187,15 +261,33 @@ def parse_date(date, lang='en'):
     # }
     # date = date.trim();
 
-    # // cases: XX
-    # if (RomanConverter.isRoman(date)) date += " secolo";
-    #
-    # // cases: 18th century, secolo XVI
-    # Resource century = VocabularyManager.searchInCategory(date, null, "dates", false);
-    # if (century != null && modifier == 0 && !splitted && !hasModifiers()) {
-    #   this.vocabularyMatch = century.getURI();
-    #   return;
-    # }
+    #  cases: XX
+    try:
+        roman.fromRoman(date)
+        date += ' ' + lg.CENTURY_STANDARD
+    except roman.InvalidRomanNumeralError:
+        pass
+
+    # cases: 18th century, secolo XVI
+    if lg.CENTURY_STANDARD in date:
+        d = re.sub(lg.CENTURY_STANDARD, '', date).strip()
+        d = re.sub(lg.ORDINALS, '', d).strip()
+
+        n = None
+        try:
+            n = roman.fromRoman(d)
+        except roman.InvalidRomanNumeralError:
+            try:
+                n = int(d)
+            except ValueError:
+                pass
+
+        if n is not None:
+            return str(n - 1) + 'XX' + sym
+        #     startDate = str((n - 1) * 100 + 1)
+        #     endDate = str(n * 100)
+        #     endType = startType = XSD.gYear
+        #     return startDate, endDate, startType, endType
 
     # // case 'early 18th century'
     # double[] itSpan = getItSpanFromModifier(modifier);
@@ -242,13 +334,7 @@ def parse_date(date, lang='en'):
 
     # cases: 1871, 1920s
     if re.fullmatch(SINGLE_YEAR, date):
-        if startYear is None:
-            startYear = startDate = decade2year(date, False, modifier)
-            startType = XSD.gYear
-
-        endYear = endDate = decade2year(date, True, modifier)
-        endType = XSD.gYear
-        return startDate, endDate, startType, endType
+        return date.replace('0s', 'X') + sym
 
     SEPARATORS_REGEX = "(?:[-=/]| " + " | ".join(lg.SEPARATORS) + " )"
     YEAR_SPAN = r"(?i)(?:(?:" + lg.BETWEEN + r")\s+)?(\d{3,4}s?)(?:\s*(?:[-=\/]|" + \
@@ -257,23 +343,13 @@ def parse_date(date, lang='en'):
     # cases: 1741-1754,  1960s to 1970s, ...
     if re.fullmatch(YEAR_SPAN, date):
         matcher = re.search(YEAR_SPAN, date)
-        if matcher:
-            sy = decade2year(matcher.group(1), False, modifier)
-            if startYear is None:
-                startDate = startYear = sy
-                startType = XSD.gYear
 
-            endYear = matcher.group(2)
+        start_year = matcher.group(1).replace('0s', 'X')
+        end_year = matcher.group(2).replace('0s', 'X')
+        if len(end_year) < len(start_year):
+            end_year = start_year[0: len(start_year) - len(end_year)] + end_year
 
-            if len(endYear) < len(sy):
-                endYear = sy.substring(0, sy.length() - len(endYear)) + endYear
-
-            endDate = endYear = decade2year(endYear, True, modifier)
-            endType = XSD.gYear
-
-            return startDate, endDate, startType, endType
-
-        return None
+        return start_year + sym + '/' + end_year + sym
 
     # // case: 19th-20th century
     # if (date.matches(CENTURY_SPAN)) {
@@ -301,62 +377,29 @@ def parse_date(date, lang='en'):
     #   return;
     # }
 
-    DATE_REGEX = r"(?i)(" + "|".join(lg.MONTHS) + r")(?: (\d{1,2}))? (\d{4})"
+    DATE_REGEX = r"(?i)(?:(\d{1,2})(?:" + lg.ORDINALS + ")? )?(" + "|".join(lg.MONTHS) + r")(?: (\d{4}))?"
 
-    # case "April 30 1856", "December 2004", "Fall 1919"
+    # case "30 April 1856", "December 2004", "Fall 1919", "27th June"
+    parsed = []
     for matcher in re.finditer(DATE_REGEX, date):
-        dd = matcher.group(2)
-        mm = matcher.group(1)
+        dd = matcher.group(1)
+        mm = matcher.group(2)
         yy = matcher.group(3)
-        mi = 0
-        for i, m in enumerate(lg.MONTHS):
-            mi = i
-            if mm.lower() == m:
-                break
-        mi += 1
+        parsed.append(parse_matched_date(dd, mm, yy, lg.MONTHS))
 
-        if mi <= 12:
-            if not startDate:
-                startDate, startType = date_format(dd, mi, yy)
-            endDate, endType = date_format(dd, mi, yy)
-        else:
-            if mi == 13:  # Spring
-                if not startDate:
-                    startDate, startType = date_format('21', 3, yy)
-                endDate, endType = date_format("21", 6, yy)
-            if mi == 14:  # Summer
-                if not startDate:
-                    startDate, startType = date_format('22', 6, yy)
-                endDate, endType = date_format("22", 9, yy)
-            if mi == 15:  # Fall
-                if not startDate:
-                    startDate, startType = date_format('23', 9, yy)
-                endDate, endType = date_format("22", 12, yy)
-            if mi == 16:  # Winter
-                if not startDate:
-                    startDate, startType = date_format('23', 12, yy)
-                endDate, endType = date_format("20", 3, str(int(yy) + 1))
-
-    if startDate:
-        return startDate, endDate, startType, endType
+    if len(parsed) > 0:
+        return pack_edtf_list(parsed, sym)
 
     # case 31/07/1816
     try:
         dt = datetime.strptime(date, SLASH_LITTLE_ENDIAN)
-        text = dt.isoformat()
-        startDate = text
-        endDate = text
-        startYear = text[0:4]
-        endYear = startYear
-
-        startType = XSD.date
-        endType = XSD.date
-        return startDate, endDate, startType, endType
+        return dt.isoformat()
     except ValueError as e:
         # nothing to do
         pass
 
     # case 31/7/1816 , 13-9-67
+    parsed = []
     for matcher in re.finditer(FULL_DATE_MULTI, date):
         dd = matcher.group(1)
         mm = int(matcher.group(2))
@@ -364,40 +407,54 @@ def parse_date(date, lang='en'):
 
         if len(dd) > 2:
             if len(yy) > 2:
+                # I can't say which one is the year => I surrend
                 continue
             else:  # swap
                 temp = dd
                 dd = yy
                 yy = temp
 
-        if len(yy) == 3:
-            yy = "1" + yy
-        elif len(yy) == 2:
-            yy = "19" + yy
+        parsed.append(date_format(dd, mm, yy))
 
-        if startDate is None:
-            startDate, startType = date_format(dd, mm, yy)
-        endDate, endType = date_format(dd, mm, yy)
-    if startDate is not None:
-        return startDate, endDate, startType, endType
+    if len(parsed) > 0:
+        return pack_edtf_list(parsed, sym)
 
     # case 02/1877, 03/1881-04/1881
+    parsed = []
     for matcher in re.finditer(MONTH_DATE_REGEX, date):
         mm = int(matcher.group(1))
         yy = matcher.group(2)
 
-        if startDate is None:
-            startDate, startType = date_format(None, mm, yy)
-
-        endDate, endType = date_format(None, mm, yy)
+        parsed.append(date_format(None, mm, yy))
 
         yy = matcher.group(4)
         if yy is not None:
             mm = int(matcher.group(3))
-            endDate, endType = date_format(None, mm, yy)
+            parsed.append(date_format(None, mm, yy))
 
-    if startDate is not None:
-        return startDate, endDate, startType, endType
+    if len(parsed) > 0:
+        return pack_edtf_list(parsed, sym)
+
+    # if it is already EDTF
+    if re.match('^[0-9X-]*$', date):
+        return date + sym
+
+    # search month in string
+    m = month_to_num(date, lg.MONTHS)
+    if m != 0:
+        return date_format(None, m, None) + sym
+
+    return None
+
+
+def get_parts_of_the_day(date, lang='en'):
+    date = date.lower()
+    lg = langs.get(lang, langs['en'])
+    found = []
+    for i, p in enumerate(lg.PART_OF_DAY):
+        if re.search(p, date):
+            found.append(langs['en'].PART_OF_DAY[i].replace("(^| )", ""))
+    return found
 
 # private static double[] getItSpanFromCentParts(String itString, String partString) {
 #   double it = ordinalToInt(itString);

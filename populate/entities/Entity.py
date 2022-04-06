@@ -32,5 +32,5 @@ class Entity:
     def add_place(self, place):
         self.add(CRM.P7_took_place_at, place)
 
-    def add_time(self, place):
-        self.add(TIME.hasTime, place)
+    def add_time(self, time):
+        self.add(TIME.hasTime, time)

@@ -42,8 +42,14 @@ class VocabularyController:
             return x.id
         elif fallback == 'text':
             return q
+        elif fallback == 'best':
+            return x.id
         else:
             return None
+
+    def interlink_long(self, q, lang='en', fallback=None):
+        # TODO for long texts, for which we want to "classify" rather than match
+        pass
 
 
 def setup(opt):
