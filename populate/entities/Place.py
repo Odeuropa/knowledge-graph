@@ -1,3 +1,4 @@
+import os
 import re
 import string
 from urllib import request
@@ -88,7 +89,11 @@ class Place(Entity):
             if cache[text] is None:  # already searched, no match
                 return Place(text)
             else:  # we have it in the cache!
-                return URIRef(to_geonames_uri(cache[text]))
+                geonames_id = cache[text]
+                file = f'../dump/geonames/{geonames_id}.rdf'
+                if not os.path.isfile(file):
+                    request.urlretrieve(f'https://sws.geonames.org/{geonames_id}/about.rdf', file)
+                return URIRef(to_geonames_uri(geonames_id))
 
         else:  # search
             res = geocoder.geonames(text, key=GEONAMES, featureClass=feature_class, orderby='relevance',

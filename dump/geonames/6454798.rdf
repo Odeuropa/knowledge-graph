@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<rdf:RDF xmlns:cc="http://creativecommons.org/ns#" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:foaf="http://xmlns.com/foaf/0.1/" xmlns:gn="http://www.geonames.org/ontology#" xmlns:owl="http://www.w3.org/2002/07/owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:wgs84_pos="http://www.w3.org/2003/01/geo/wgs84_pos#">
+    <gn:Feature rdf:about="https://sws.geonames.org/6454798/">
+        <rdfs:isDefinedBy rdf:resource="https://sws.geonames.org/6454798/about.rdf"/>
+        <gn:name>Montauban</gn:name>
+        <gn:shortName xml:lang="fr">Montauban</gn:shortName>
+        <gn:shortName>Montauban</gn:shortName>
+        <gn:featureClass rdf:resource="https://www.geonames.org/ontology#A"/>
+        <gn:featureCode rdf:resource="https://www.geonames.org/ontology#A.ADM4"/>
+        <gn:countryCode>FR</gn:countryCode>
+        <gn:population>60444</gn:population>
+        <wgs84_pos:lat>44.01722</wgs84_pos:lat>
+        <wgs84_pos:long>1.355</wgs84_pos:long>
+        <gn:parentFeature rdf:resource="https://sws.geonames.org/2993000/"/>
+        <gn:parentCountry rdf:resource="https://sws.geonames.org/3017382/"/>
+        <gn:parentADM1 rdf:resource="https://sws.geonames.org/11071623/"/>
+        <gn:parentADM2 rdf:resource="https://sws.geonames.org/2973357/"/>
+        <gn:parentADM3 rdf:resource="https://sws.geonames.org/2993000/"/>
+        <gn:childrenFeatures rdf:resource="https://sws.geonames.org/6454798/contains.rdf"/>
+        <gn:locationMap rdf:resource="https://www.geonames.org/6454798/montauban.html"/>
+        <gn:wikipediaArticle rdf:resource="https://en.wikipedia.org/wiki/Montauban"/>
+        <rdfs:seeAlso rdf:resource="https://dbpedia.org/resource/Montauban"/>
+        <owl:sameAs rdf:resource="http://id.insee.fr/geo/commune/82121"/>
+    </gn:Feature>
+    <foaf:Document rdf:about="https://sws.geonames.org/6454798/about.rdf">
+        <foaf:primaryTopic rdf:resource="https://sws.geonames.org/6454798/"/>
+        <cc:license rdf:resource="https://creativecommons.org/licenses/by/4.0/"/>
+        <cc:attributionURL rdf:resource="https://www.geonames.org"/>
+        <cc:attributionName rdf:datatype="https://www.w3.org/2001/XMLSchema#string">GeoNames</cc:attributionName>
+        <dcterms:created rdf:datatype="https://www.w3.org/2001/XMLSchema#date">2007-04-01</dcterms:created>
+        <dcterms:modified rdf:datatype="https://www.w3.org/2001/XMLSchema#date">2019-03-29</dcterms:modified>
+    </foaf:Document>
+</rdf:RDF>
