@@ -144,10 +144,10 @@ with open('input/image-odor-dataset/annotations.json') as f:
 
     cur_id = -1
     current = []
-    for x in annotations[0:100]:
+    for x in annotations: # [0:100]:
         if x['image_id'] != cur_id:
             if cur_id != -1:
-                print(current)
+                # print(current)
                 current = []
             cur_id = x['image_id']
 
