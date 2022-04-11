@@ -1,31 +1,22 @@
+import json
 from math import isnan
 from os import path
-import re
 
-import numpy as np
 import pandas as pd
 import yaml
 from tqdm import tqdm
 
 from entities import *
 from entities.ontologies import CRM
-from entities.vocabularies import vocabulary_manager as VocabularyManager
-from entities.utils.smell_words import get_all_smell_words
 from entities.utils.pronouns import Pronouns
+from entities.utils.smell_words import get_all_smell_words
+from entities.vocabularies import vocabulary_manager as VocManager
 
 # xlsx_file = path.join('./', 'input', 'benchmark-annotation-output.xlsx')
 docs_file = path.join('./', 'input', 'benchmark.xlsx')
 
 DOC_ID_REGEX = "\d{3}[A-Z]"
 
-lang_map = {
-    'English': 'en',
-    'French': 'fr',
-    'German': 'de',
-    'Slovenian': 'sl',
-    'Dutch': 'nl',
-    'Italian': 'it'
-}
 docs = {}
 
 
@@ -34,37 +25,6 @@ def get_safe(name, obj):
     if type(r) == float and isnan(r):
         return ''
     return r
-
-
-WORKAROUND_DOC_ID = {
-    "108 Antilles.txt": "108F",
-    "107 Moreau 1639.txt": "107F"
-}
-
-not_found = []
-
-
-def extract_id(lang, title):
-    if title in WORKAROUND_DOC_ID:
-        id = WORKAROUND_DOC_ID[title]
-        return id, docs[id]
-    x = re.search(DOC_ID_REGEX, title)
-    if x is not None:
-        x = x.group(0)
-    else:
-        ctitle = re.sub(r"_potentially_smelly_passages_\d+\.txt", "", title)
-        ctitle = re.sub(r"\.txt.+", "", ctitle)
-        ctitle = re.sub(r"^_", "", ctitle)
-        ctitle = ctitle.replace(' ', '-')
-
-        x = [k for k in docs.keys() if k in ctitle or ctitle in k]
-        if len(x) > 0:
-            # print(title , x)
-            x = x[0]
-        else:
-            not_found.append(lang + ' | ' + title)
-            return title, None
-    return x, docs[x]
 
 
 def process_annotation_sheet(df, lang):
@@ -121,39 +81,82 @@ def process_annotation_sheet(df, lang):
         add(txt, CRM.P67_refers_to, experience)
 
 
-def process_benchmark_sheet(language):
-    df = pd.read_excel(docs_file, sheet_name=language, dtype=str)
-    df.fillna('', inplace=True)
-
-    lang = lang_map[language]
-
+def process_metadata(df):
     for i, r in tqdm(df.iterrows(), total=df.shape[0]):
-        id = r.get('File Name', r['Document Identifier'])
+        id = r['File Name']
         if id == '':
             continue
-        id = id.replace(' ', '-')
-        to = TextualObject(id, r['Title'], r['Author'], r['Year of Publication'].replace('.0', ''),
-                           r['Place of Publication'], lang, r['Genre'])
+        date = r['Earliest Date'].replace('.0', '').ljust(4, 'X')
+        if 'Latest Date' in r and len(r['Latest Date']) > 0:
+            date += '/' + r['Latest Date'].replace('.0', '').ljust(4, 'X')
+
+        to = ImageObject(id, r['Title'], r['Artist'], date,
+                         r['Original Location'], r['Current Location'], r['Genre'], r['Image URL'])
         docs[id] = to
 
 
 # init
 with open('config.yaml', 'r') as file:
     config = yaml.safe_load(file)
-VocabularyManager.setup(config['vocabularies'])
+VocManager.setup(config['vocabularies'])
+voc = VocManager.get('olfactory-objects')
 
 # convert
-
-for x in ['English', 'Italian', 'Dutch', 'French', 'German', 'Slovenian', 'Dutch']:
-    process_benchmark_sheet(x)
-Graph.g.serialize(destination=f"../dump/main/docs.ttl")
+df = pd.read_csv('input/image-odor-dataset/metadata.csv', dtype=str)
+df.fillna('', inplace=True)
+process_metadata(df)
+Graph.g.serialize(destination=f"../dump/main/figs.ttl")
 Graph.reset()
 
-for x in ['en', 'fr', 'it', 'de', 'sl', 'nl']:
-    with open(f"./input/{x}-frame-elements.tsv") as file:
-        tsv_data = pd.read_csv(file, sep='\t')
-        process_annotation_sheet(tsv_data, lang=x)
-        Graph.g.serialize(destination=f"../dump/main/{x}.ttl")
-        Graph.reset()
 
-print(np.unique(not_found))
+image_map = {}
+cat_map = {}
+
+BASE_OO = 'http://data.odeuropa.eu/vocabulary/olfactory-objects/'
+
+
+def guess_annotation(body, seed):
+    uri, role = body.get('uri')
+    ann = None
+    if uri is None:
+        # no choice, generic
+        ann = Thing(seed, body['name'])
+    else:
+        x = voc.get(uri).lemmata[0]
+        ann = SmellSource(seed, body['name'], lang='en', lemma=x.id, role=x.collection)
+    return ann
+
+
+with open('input/image-odor-dataset/annotations.json') as f:
+    res = json.load(f)
+
+    for x in res['images']:
+        image_map[x['id']] = docs[x['file_name']]
+
+    for x in res['categories']:
+        name = x['name'].replace('other ', '')
+        x['uri'] = voc.interlink(name, 'en', fallback=None)
+        # if x['uri'] is None:
+        #     print(x['name'])
+        cat_map[x['id']] = x
+
+    annotations = res['annotations']
+    sorted(annotations, key=lambda k: k['image_id'])
+
+    cur_id = -1
+    current = []
+    for x in annotations[0:100]:
+        if x['image_id'] != cur_id:
+            if cur_id != -1:
+                print(current)
+                current = []
+            cur_id = x['image_id']
+
+        cur_img = image_map[cur_id]
+        frag = cur_img.add_fragment(x['bbox'])
+        ann = cat_map[x['category_id']]
+        cat = guess_annotation(ann, cur_img.title + str(x['id']))
+        current.append(cat)
+        frag.add_annotation(cat)
+
+Graph.g.serialize(destination=f"../dump/main/figs_annotated.ttl")

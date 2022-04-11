@@ -4,7 +4,6 @@
 @prefix prov: <http://www.w3.org/ns/prov#> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 @prefix time: <http://www.w3.org/2006/time#> .
-@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 
 <http://data.odeuropa.eu/OlfactoryExperience/0146a4bc-9578-5a70-b274-58deec472221/assignment/1> a crm:E13_Attribute_Assignment ;
     crm:P140_assigned_attribute_to <http://data.odeuropa.eu/Smell/0146a4bc-9578-5a70-b274-58deec472221> ;
@@ -4245,97 +4244,69 @@
     od:F3_had_source <http://data.odeuropa.eu/SmellSource/c1291e55-21b4-5d01-a7f0-19d3d09b049b> ;
     crm:P7_took_place_at <http://data.odeuropa.eu/Place/04f557ef-4fcd-53e8-9bf6-a70a3821b380> .
 
-<http://data.odeuropa.eu/SmellSource/00151ebd-662d-5575-ae0a-acb9cfeabac9> a crmsci:S10_Material_Substantial ;
-    rdfs:label "Wachol - derſtraͤuchen" .
+<http://data.odeuropa.eu/SmellSource/00151ebd-662d-5575-ae0a-acb9cfeabac9> rdfs:label "Wachol - derſtraͤuchen" .
 
-<http://data.odeuropa.eu/SmellSource/010169fb-0cb9-5688-9be2-9f4c867e0ba8> a crmsci:S10_Material_Substantial ;
-    rdfs:label "Blitz-Pulver" .
+<http://data.odeuropa.eu/SmellSource/010169fb-0cb9-5688-9be2-9f4c867e0ba8> rdfs:label "Blitz-Pulver" .
 
-<http://data.odeuropa.eu/SmellSource/016f40fd-c916-5a7f-bf1d-2165e5227899> a crmsci:S10_Material_Substantial ;
-    rdfs:label "der Sturm" .
+<http://data.odeuropa.eu/SmellSource/016f40fd-c916-5a7f-bf1d-2165e5227899> rdfs:label "der Sturm" .
 
-<http://data.odeuropa.eu/SmellSource/026f1b12-b8e6-5057-a33e-7ecdc16d1269> a crmsci:S10_Material_Substantial ;
-    rdfs:label "Flüssigkeit" .
+<http://data.odeuropa.eu/SmellSource/026f1b12-b8e6-5057-a33e-7ecdc16d1269> rdfs:label "Flüssigkeit" .
 
-<http://data.odeuropa.eu/SmellSource/03fea333-c381-5fbf-af15-141c59562390> a crmsci:S10_Material_Substantial ;
-    rdfs:label "Deine langen Locken" .
+<http://data.odeuropa.eu/SmellSource/03fea333-c381-5fbf-af15-141c59562390> rdfs:label "Deine langen Locken" .
 
 <http://data.odeuropa.eu/SmellSource/047b1deb-c974-53db-a1ad-d57c50d01f53> a crmsci:S10_Material_Substantial ;
     rdfs:label "Wind" ;
     crm:P137_exemplifies <http://data.odeuropa.eu/vocabulary/olfactory-objects/53> .
 
-<http://data.odeuropa.eu/SmellSource/057cca85-25e3-5c48-a6dd-900056c7c83f> a crmsci:S10_Material_Substantial ;
-    rdfs:label "Esma Khan" .
+<http://data.odeuropa.eu/SmellSource/057cca85-25e3-5c48-a6dd-900056c7c83f> rdfs:label "Esma Khan" .
 
-<http://data.odeuropa.eu/SmellSource/05ceceb7-f4ed-595f-8375-a6abf61abed4> a crmsci:S10_Material_Substantial ;
-    rdfs:label "Same" .
+<http://data.odeuropa.eu/SmellSource/05ceceb7-f4ed-595f-8375-a6abf61abed4> rdfs:label "Same" .
 
-<http://data.odeuropa.eu/SmellSource/06c32432-e3f3-5136-a69a-44eb61fa7058> a crmsci:S10_Material_Substantial ;
-    rdfs:label "Er" .
+<http://data.odeuropa.eu/SmellSource/06c32432-e3f3-5136-a69a-44eb61fa7058> rdfs:label "Er" .
 
-<http://data.odeuropa.eu/SmellSource/077d1798-5a11-5210-b982-8b33dd23fd70> a crmsci:S10_Material_Substantial ;
-    rdfs:label "ein andere Gat - tung" .
+<http://data.odeuropa.eu/SmellSource/077d1798-5a11-5210-b982-8b33dd23fd70> rdfs:label "ein andere Gat - tung" .
 
-<http://data.odeuropa.eu/SmellSource/07d0892b-3cbd-59c5-8a0a-908fe26162a0> a crmsci:S10_Material_Substantial ;
-    rdfs:label "Seyffe" .
+<http://data.odeuropa.eu/SmellSource/07d0892b-3cbd-59c5-8a0a-908fe26162a0> rdfs:label "Seyffe" .
 
-<http://data.odeuropa.eu/SmellSource/083e4e0e-5ccd-59eb-bc34-27f595a7e2a1> a crmsci:S10_Material_Substantial ;
-    rdfs:label "Pflanze" .
+<http://data.odeuropa.eu/SmellSource/083e4e0e-5ccd-59eb-bc34-27f595a7e2a1> rdfs:label "Pflanze" .
 
-<http://data.odeuropa.eu/SmellSource/08af59bd-8c82-50a2-8769-14427c6a913c> a crmsci:S10_Material_Substantial ;
-    rdfs:label "Stuhlgänge" .
+<http://data.odeuropa.eu/SmellSource/08af59bd-8c82-50a2-8769-14427c6a913c> rdfs:label "Stuhlgänge" .
 
 <http://data.odeuropa.eu/SmellSource/08b576fb-e169-52d1-b91f-21ed910d5509> a crmsci:S10_Material_Substantial ;
     rdfs:label "Kaffee" ;
     crm:P137_exemplifies <http://data.odeuropa.eu/vocabulary/olfactory-objects/50> .
 
-<http://data.odeuropa.eu/SmellSource/0a83c0fc-8db1-5d8f-8e1a-a61bf8d0ad2e> a crmsci:S10_Material_Substantial ;
-    rdfs:label "Citronen - Saltz Eſſenz" .
+<http://data.odeuropa.eu/SmellSource/0a83c0fc-8db1-5d8f-8e1a-a61bf8d0ad2e> rdfs:label "Citronen - Saltz Eſſenz" .
 
-<http://data.odeuropa.eu/SmellSource/0ae47dc7-16a3-55af-976d-5605422fe4e2> a crmsci:S10_Material_Substantial ;
-    rdfs:label "Peter - ſilie" .
+<http://data.odeuropa.eu/SmellSource/0ae47dc7-16a3-55af-976d-5605422fe4e2> rdfs:label "Peter - ſilie" .
 
-<http://data.odeuropa.eu/SmellSource/0b57c333-2245-5be4-8285-b9a236f6300f> a crmsci:S10_Material_Substantial ;
-    rdfs:label "Reizgas" .
+<http://data.odeuropa.eu/SmellSource/0b57c333-2245-5be4-8285-b9a236f6300f> rdfs:label "Reizgas" .
 
-<http://data.odeuropa.eu/SmellSource/0e50077e-a289-5f72-aa03-d828176a99f5> a crmsci:S10_Material_Substantial ;
-    rdfs:label "Orangenbaum" .
+<http://data.odeuropa.eu/SmellSource/0e50077e-a289-5f72-aa03-d828176a99f5> rdfs:label "Orangenbaum" .
 
-<http://data.odeuropa.eu/SmellSource/0e6717b0-3cca-55ed-b2cc-63cd96ed2a40> a crmsci:S10_Material_Substantial ;
-    rdfs:label "Wassern" .
+<http://data.odeuropa.eu/SmellSource/0e6717b0-3cca-55ed-b2cc-63cd96ed2a40> rdfs:label "Wassern" .
 
-<http://data.odeuropa.eu/SmellSource/0f409fd7-281a-504c-968d-4bc7a84487c2> a crmsci:S10_Material_Substantial ;
-    rdfs:label "Erbsensuppe" .
+<http://data.odeuropa.eu/SmellSource/0f409fd7-281a-504c-968d-4bc7a84487c2> rdfs:label "Erbsensuppe" .
 
-<http://data.odeuropa.eu/SmellSource/0faeb830-61a1-5072-838c-5e856204a3e1> a crmsci:S10_Material_Substantial ;
-    rdfs:label "Blüthenduft" .
+<http://data.odeuropa.eu/SmellSource/0faeb830-61a1-5072-838c-5e856204a3e1> rdfs:label "Blüthenduft" .
 
-<http://data.odeuropa.eu/SmellSource/0faf8889-d01e-59cd-9880-41c1103f662f> a crmsci:S10_Material_Substantial ;
-    rdfs:label "Die - ſes Kraut" .
+<http://data.odeuropa.eu/SmellSource/0faf8889-d01e-59cd-9880-41c1103f662f> rdfs:label "Die - ſes Kraut" .
 
-<http://data.odeuropa.eu/SmellSource/102495ec-d3d2-59bc-9f61-1a9a4190d9b5> a crmsci:S10_Material_Substantial ;
-    rdfs:label "Heuchler" .
+<http://data.odeuropa.eu/SmellSource/102495ec-d3d2-59bc-9f61-1a9a4190d9b5> rdfs:label "Heuchler" .
 
-<http://data.odeuropa.eu/SmellSource/10b6d9e5-1b70-52d9-9534-6e10842a0ca7> a crmsci:S10_Material_Substantial ;
-    rdfs:label "Blitz-Pulver" .
+<http://data.odeuropa.eu/SmellSource/10b6d9e5-1b70-52d9-9534-6e10842a0ca7> rdfs:label "Blitz-Pulver" .
 
-<http://data.odeuropa.eu/SmellSource/10c7cd40-7efa-5fdc-8cb5-9da25f7549a4> a crmsci:S10_Material_Substantial ;
-    rdfs:label "meinen kleinen Strauß" .
+<http://data.odeuropa.eu/SmellSource/10c7cd40-7efa-5fdc-8cb5-9da25f7549a4> rdfs:label "meinen kleinen Strauß" .
 
-<http://data.odeuropa.eu/SmellSource/116d3b5a-4b4f-5558-aa44-5ceba6fe193b> a crmsci:S10_Material_Substantial ;
-    rdfs:label "Sprit" .
+<http://data.odeuropa.eu/SmellSource/116d3b5a-4b4f-5558-aa44-5ceba6fe193b> rdfs:label "Sprit" .
 
-<http://data.odeuropa.eu/SmellSource/11cb8a12-0e42-5b4a-8a76-c217f0a9561a> a crmsci:S10_Material_Substantial ;
-    rdfs:label "sie" .
+<http://data.odeuropa.eu/SmellSource/11cb8a12-0e42-5b4a-8a76-c217f0a9561a> rdfs:label "sie" .
 
-<http://data.odeuropa.eu/SmellSource/14d4ade7-8e1d-5407-8778-9adf515b96db> a crmsci:S10_Material_Substantial ;
-    rdfs:label "Kraͤuter" .
+<http://data.odeuropa.eu/SmellSource/14d4ade7-8e1d-5407-8778-9adf515b96db> rdfs:label "Kraͤuter" .
 
-<http://data.odeuropa.eu/SmellSource/162c0f33-a627-5a8b-8ac8-b08891c03195> a crmsci:S10_Material_Substantial ;
-    rdfs:label "vom Lande" .
+<http://data.odeuropa.eu/SmellSource/162c0f33-a627-5a8b-8ac8-b08891c03195> rdfs:label "vom Lande" .
 
-<http://data.odeuropa.eu/SmellSource/167adc46-3de9-5685-a2fc-6d2f8c155b82> a crmsci:S10_Material_Substantial ;
-    rdfs:label "Pulvern" .
+<http://data.odeuropa.eu/SmellSource/167adc46-3de9-5685-a2fc-6d2f8c155b82> rdfs:label "Pulvern" .
 
 <http://data.odeuropa.eu/SmellSource/16c50f77-0e29-51a8-afac-69144c2da7a7> a crmsci:S10_Material_Substantial ;
     rdfs:label "Schwefel" ;
@@ -4345,61 +4316,45 @@
     rdfs:label "Blume" ;
     crm:P137_exemplifies <http://data.odeuropa.eu/vocabulary/olfactory-objects/72> .
 
-<http://data.odeuropa.eu/SmellSource/189620ec-0648-59b3-a3e6-2f96031aad5b> a crmsci:S10_Material_Substantial ;
-    rdfs:label "hohe Blume" .
+<http://data.odeuropa.eu/SmellSource/189620ec-0648-59b3-a3e6-2f96031aad5b> rdfs:label "hohe Blume" .
 
-<http://data.odeuropa.eu/SmellSource/18b68298-0883-55f1-a800-67bb8597e659> a crmsci:S10_Material_Substantial ;
-    rdfs:label "gruͤnliche Blumen" .
+<http://data.odeuropa.eu/SmellSource/18b68298-0883-55f1-a800-67bb8597e659> rdfs:label "gruͤnliche Blumen" .
 
-<http://data.odeuropa.eu/SmellSource/196b59bb-b35c-5fce-91e2-375c499a1add> a crmsci:S10_Material_Substantial ;
-    rdfs:label "Kräutchen" .
+<http://data.odeuropa.eu/SmellSource/196b59bb-b35c-5fce-91e2-375c499a1add> rdfs:label "Kräutchen" .
 
-<http://data.odeuropa.eu/SmellSource/19b7b123-0a33-527d-85d1-b94cb97e4300> a crmsci:S10_Material_Substantial ;
-    rdfs:label "Btulileütleerungeu" .
+<http://data.odeuropa.eu/SmellSource/19b7b123-0a33-527d-85d1-b94cb97e4300> rdfs:label "Btulileütleerungeu" .
 
 <http://data.odeuropa.eu/SmellSource/19d0a187-f4ce-5538-ba34-5e2a226e0496> a crmsci:S10_Material_Substantial ;
     rdfs:label "Wind" ;
     crm:P137_exemplifies <http://data.odeuropa.eu/vocabulary/olfactory-objects/53> .
 
-<http://data.odeuropa.eu/SmellSource/19f9395a-cbdb-52f1-b9ed-30dd32d98a00> a crmsci:S10_Material_Substantial ;
-    rdfs:label "Wuͤrkungs-Crayß" .
+<http://data.odeuropa.eu/SmellSource/19f9395a-cbdb-52f1-b9ed-30dd32d98a00> rdfs:label "Wuͤrkungs-Crayß" .
 
-<http://data.odeuropa.eu/SmellSource/1cea5a66-a94d-5100-9784-9ed69621111b> a crmsci:S10_Material_Substantial ;
-    rdfs:label "ein Pomerantzen farbes Pulffer" .
+<http://data.odeuropa.eu/SmellSource/1cea5a66-a94d-5100-9784-9ed69621111b> rdfs:label "ein Pomerantzen farbes Pulffer" .
 
-<http://data.odeuropa.eu/SmellSource/1db0b28c-e02a-5217-bc8b-234f36c3bf35> a crmsci:S10_Material_Substantial ;
-    rdfs:label "Wasch - platzes" .
+<http://data.odeuropa.eu/SmellSource/1db0b28c-e02a-5217-bc8b-234f36c3bf35> rdfs:label "Wasch - platzes" .
 
-<http://data.odeuropa.eu/SmellSource/22147eb2-f211-5e79-9640-4e7e37143a73> a crmsci:S10_Material_Substantial ;
-    rdfs:label "Beſtandteile der geröſteten Kaffee" .
+<http://data.odeuropa.eu/SmellSource/22147eb2-f211-5e79-9640-4e7e37143a73> rdfs:label "Beſtandteile der geröſteten Kaffee" .
 
-<http://data.odeuropa.eu/SmellSource/225906cc-cb60-5bbc-b5db-2bbe0b9a8e82> a crmsci:S10_Material_Substantial ;
-    rdfs:label "Schwefelſtanck" .
+<http://data.odeuropa.eu/SmellSource/225906cc-cb60-5bbc-b5db-2bbe0b9a8e82> rdfs:label "Schwefelſtanck" .
 
-<http://data.odeuropa.eu/SmellSource/233af829-8298-587c-aa0c-cc32f4bccfb6> a crmsci:S10_Material_Substantial ;
-    rdfs:label "Stoffe" .
+<http://data.odeuropa.eu/SmellSource/233af829-8298-587c-aa0c-cc32f4bccfb6> rdfs:label "Stoffe" .
 
-<http://data.odeuropa.eu/SmellSource/24eeef68-0eaa-5628-b075-aec955fc1cf9> a crmsci:S10_Material_Substantial ;
-    rdfs:label "Luft" .
+<http://data.odeuropa.eu/SmellSource/24eeef68-0eaa-5628-b075-aec955fc1cf9> rdfs:label "Luft" .
 
-<http://data.odeuropa.eu/SmellSource/25264fc1-dcf0-59e3-a61e-97821531c468> a crmsci:S10_Material_Substantial ;
-    rdfs:label "Fiſche" .
+<http://data.odeuropa.eu/SmellSource/25264fc1-dcf0-59e3-a61e-97821531c468> rdfs:label "Fiſche" .
 
-<http://data.odeuropa.eu/SmellSource/26324b77-0d3d-59f7-981d-a707aa47fbec> a crmsci:S10_Material_Substantial ;
-    rdfs:label "Tabak" .
+<http://data.odeuropa.eu/SmellSource/26324b77-0d3d-59f7-981d-a707aa47fbec> rdfs:label "Tabak" .
 
-<http://data.odeuropa.eu/SmellSource/26de9f57-1a23-5742-b87a-112461e7dff0> a crmsci:S10_Material_Substantial ;
-    rdfs:label "Der Baum" .
+<http://data.odeuropa.eu/SmellSource/26de9f57-1a23-5742-b87a-112461e7dff0> rdfs:label "Der Baum" .
 
-<http://data.odeuropa.eu/SmellSource/279aca67-e273-578b-8e68-4a75cf18f4f5> a crmsci:S10_Material_Substantial ;
-    rdfs:label "Das Plaun" .
+<http://data.odeuropa.eu/SmellSource/279aca67-e273-578b-8e68-4a75cf18f4f5> rdfs:label "Das Plaun" .
 
 <http://data.odeuropa.eu/SmellSource/27b8e495-6854-525b-837e-434a76643747> a crmsci:S10_Material_Substantial ;
     rdfs:label "Kaffees" ;
     crm:P137_exemplifies <http://data.odeuropa.eu/vocabulary/olfactory-objects/50> .
 
-<http://data.odeuropa.eu/SmellSource/286a94da-d2bd-5bcb-bd68-f5c2c62f7df3> a crmsci:S10_Material_Substantial ;
-    rdfs:label "Tuͤchlein" .
+<http://data.odeuropa.eu/SmellSource/286a94da-d2bd-5bcb-bd68-f5c2c62f7df3> rdfs:label "Tuͤchlein" .
 
 <http://data.odeuropa.eu/SmellSource/28f07760-361c-5093-9085-ffb0c6ab29e7> a crmsci:S10_Material_Substantial ;
     rdfs:label "Kaffee" ;
@@ -4409,604 +4364,427 @@
     rdfs:label "Strauß" ;
     crm:P137_exemplifies <http://data.odeuropa.eu/vocabulary/olfactory-objects/18> .
 
-<http://data.odeuropa.eu/SmellSource/2af30633-d099-5ed5-89b5-c47c1ac18388> a crmsci:S10_Material_Substantial ;
-    rdfs:label "Pulver" .
+<http://data.odeuropa.eu/SmellSource/2af30633-d099-5ed5-89b5-c47c1ac18388> rdfs:label "Pulver" .
 
-<http://data.odeuropa.eu/SmellSource/2bf20bf5-8e42-50c9-979a-b9586f9d081b> a crmsci:S10_Material_Substantial ;
-    rdfs:label "Stiffel-Wichſe" .
+<http://data.odeuropa.eu/SmellSource/2bf20bf5-8e42-50c9-979a-b9586f9d081b> rdfs:label "Stiffel-Wichſe" .
 
-<http://data.odeuropa.eu/SmellSource/2d3e6a25-0acc-5514-81fe-c8d6b476c32c> a crmsci:S10_Material_Substantial ;
-    rdfs:label "Fabrikat" .
+<http://data.odeuropa.eu/SmellSource/2d3e6a25-0acc-5514-81fe-c8d6b476c32c> rdfs:label "Fabrikat" .
 
-<http://data.odeuropa.eu/SmellSource/2fdc2b3c-e9f0-5451-b2bc-58f6ceb88b24> a crmsci:S10_Material_Substantial ;
-    rdfs:label "des Kampfes" .
+<http://data.odeuropa.eu/SmellSource/2fdc2b3c-e9f0-5451-b2bc-58f6ceb88b24> rdfs:label "des Kampfes" .
 
-<http://data.odeuropa.eu/SmellSource/31301c1c-caa9-58cf-84d8-c8ae16adf713> a crmsci:S10_Material_Substantial ;
-    rdfs:label "die Bohnen" .
+<http://data.odeuropa.eu/SmellSource/31301c1c-caa9-58cf-84d8-c8ae16adf713> rdfs:label "die Bohnen" .
 
-<http://data.odeuropa.eu/SmellSource/3264bd9e-8907-52a4-83aa-b34d419b32bd> a crmsci:S10_Material_Substantial ;
-    rdfs:label "Flüssigkeit" .
+<http://data.odeuropa.eu/SmellSource/3264bd9e-8907-52a4-83aa-b34d419b32bd> rdfs:label "Flüssigkeit" .
 
-<http://data.odeuropa.eu/SmellSource/33651469-2c5d-53e5-96a9-25a5923cbea0> a crmsci:S10_Material_Substantial ;
-    rdfs:label "Urin" .
+<http://data.odeuropa.eu/SmellSource/33651469-2c5d-53e5-96a9-25a5923cbea0> rdfs:label "Urin" .
 
-<http://data.odeuropa.eu/SmellSource/347881a7-a54e-52b7-b347-eed0ee6674f7> a crmsci:S10_Material_Substantial ;
-    rdfs:label "Stühle" .
+<http://data.odeuropa.eu/SmellSource/347881a7-a54e-52b7-b347-eed0ee6674f7> rdfs:label "Stühle" .
 
-<http://data.odeuropa.eu/SmellSource/355bcfed-afdb-5177-80e4-10295e9d4f94> a crmsci:S10_Material_Substantial ;
-    rdfs:label "Sa - chen" .
+<http://data.odeuropa.eu/SmellSource/355bcfed-afdb-5177-80e4-10295e9d4f94> rdfs:label "Sa - chen" .
 
-<http://data.odeuropa.eu/SmellSource/355e46df-567e-5d1f-82f5-4ec15fc30ac6> a crmsci:S10_Material_Substantial ;
-    rdfs:label "an den Blättern der Bäume" .
+<http://data.odeuropa.eu/SmellSource/355e46df-567e-5d1f-82f5-4ec15fc30ac6> rdfs:label "an den Blättern der Bäume" .
 
-<http://data.odeuropa.eu/SmellSource/35ca547d-68c8-5800-8256-de03cd92acea> a crmsci:S10_Material_Substantial ;
-    rdfs:label "des Kraͤuterichs" .
+<http://data.odeuropa.eu/SmellSource/35ca547d-68c8-5800-8256-de03cd92acea> rdfs:label "des Kraͤuterichs" .
 
-<http://data.odeuropa.eu/SmellSource/36c3f4e3-8f41-5d5c-88a3-283e6bf35e68> a crmsci:S10_Material_Substantial ;
-    rdfs:label "Seyffe" .
+<http://data.odeuropa.eu/SmellSource/36c3f4e3-8f41-5d5c-88a3-283e6bf35e68> rdfs:label "Seyffe" .
 
-<http://data.odeuropa.eu/SmellSource/37625c48-6217-50b6-ba40-837ac450de2f> a crmsci:S10_Material_Substantial ;
-    rdfs:label "Paraguaythee" .
+<http://data.odeuropa.eu/SmellSource/37625c48-6217-50b6-ba40-837ac450de2f> rdfs:label "Paraguaythee" .
 
-<http://data.odeuropa.eu/SmellSource/3940cd13-cba0-57be-896d-f3e02283ce5b> a crmsci:S10_Material_Substantial ;
-    rdfs:label "es" .
+<http://data.odeuropa.eu/SmellSource/3940cd13-cba0-57be-896d-f3e02283ce5b> rdfs:label "es" .
 
-<http://data.odeuropa.eu/SmellSource/39a5c593-a84c-5453-9195-137b07fb4f1f> a crmsci:S10_Material_Substantial ;
-    rdfs:label "geruchlos" .
+<http://data.odeuropa.eu/SmellSource/39a5c593-a84c-5453-9195-137b07fb4f1f> rdfs:label "geruchlos" .
 
-<http://data.odeuropa.eu/SmellSource/39b0ad4d-cc98-5161-b24b-f3c6f79179eb> a crmsci:S10_Material_Substantial ;
-    rdfs:label "Wurzel" .
+<http://data.odeuropa.eu/SmellSource/39b0ad4d-cc98-5161-b24b-f3c6f79179eb> rdfs:label "Wurzel" .
 
-<http://data.odeuropa.eu/SmellSource/3a570fde-950c-5d8c-a45a-da0d6346ba08> a crmsci:S10_Material_Substantial ;
-    rdfs:label "Wurzel" .
+<http://data.odeuropa.eu/SmellSource/3a570fde-950c-5d8c-a45a-da0d6346ba08> rdfs:label "Wurzel" .
 
 <http://data.odeuropa.eu/SmellSource/3afee79a-d826-5ea3-ac03-d749baf289f3> a crmsci:S10_Material_Substantial ;
     rdfs:label "Kaffee" ;
     crm:P137_exemplifies <http://data.odeuropa.eu/vocabulary/olfactory-objects/50> .
 
-<http://data.odeuropa.eu/SmellSource/3b765fb9-0408-5e04-9268-c031cca7e5bf> a crmsci:S10_Material_Substantial ;
-    rdfs:label "eine Roſe und ein Veilchen" .
+<http://data.odeuropa.eu/SmellSource/3b765fb9-0408-5e04-9268-c031cca7e5bf> rdfs:label "eine Roſe und ein Veilchen" .
 
-<http://data.odeuropa.eu/SmellSource/3b875477-272a-5170-9ec9-a1a5b7f9ab56> a crmsci:S10_Material_Substantial ;
-    rdfs:label "Aſchen" .
+<http://data.odeuropa.eu/SmellSource/3b875477-272a-5170-9ec9-a1a5b7f9ab56> rdfs:label "Aſchen" .
 
-<http://data.odeuropa.eu/SmellSource/3d1d152f-ac17-5b50-87dd-594bd55e5d20> a crmsci:S10_Material_Substantial ;
-    rdfs:label "Sa - chen" .
+<http://data.odeuropa.eu/SmellSource/3d1d152f-ac17-5b50-87dd-594bd55e5d20> rdfs:label "Sa - chen" .
 
-<http://data.odeuropa.eu/SmellSource/3d671bed-bceb-5f1d-a9e9-3bbc94e3d0bc> a crmsci:S10_Material_Substantial ;
-    rdfs:label "Sake , vielleicht ein Cabliau" .
+<http://data.odeuropa.eu/SmellSource/3d671bed-bceb-5f1d-a9e9-3bbc94e3d0bc> rdfs:label "Sake , vielleicht ein Cabliau" .
 
-<http://data.odeuropa.eu/SmellSource/3e0fa591-fd89-5cc1-aa4a-b161917ac0f2> a crmsci:S10_Material_Substantial ;
-    rdfs:label "Römer" .
+<http://data.odeuropa.eu/SmellSource/3e0fa591-fd89-5cc1-aa4a-b161917ac0f2> rdfs:label "Römer" .
 
-<http://data.odeuropa.eu/SmellSource/3e154dfe-346e-5672-9f71-964563850420> a crmsci:S10_Material_Substantial ;
-    rdfs:label "Btulileütleerungeu" .
+<http://data.odeuropa.eu/SmellSource/3e154dfe-346e-5672-9f71-964563850420> rdfs:label "Btulileütleerungeu" .
 
-<http://data.odeuropa.eu/SmellSource/3f75251c-1b67-5db1-a9e7-05873b89b648> a crmsci:S10_Material_Substantial ;
-    rdfs:label "Verwesungsgeruch" .
+<http://data.odeuropa.eu/SmellSource/3f75251c-1b67-5db1-a9e7-05873b89b648> rdfs:label "Verwesungsgeruch" .
 
-<http://data.odeuropa.eu/SmellSource/3fbdb49a-ce3a-5d21-979b-150571553e84> a crmsci:S10_Material_Substantial ;
-    rdfs:label "Maſtir" .
+<http://data.odeuropa.eu/SmellSource/3fbdb49a-ce3a-5d21-979b-150571553e84> rdfs:label "Maſtir" .
 
-<http://data.odeuropa.eu/SmellSource/4058d0a6-ec29-5711-84ca-886d6db0661d> a crmsci:S10_Material_Substantial ;
-    rdfs:label "Schatten" .
+<http://data.odeuropa.eu/SmellSource/4058d0a6-ec29-5711-84ca-886d6db0661d> rdfs:label "Schatten" .
 
 <http://data.odeuropa.eu/SmellSource/406972a0-fde5-5447-80e8-68725b351a99> a crmsci:S10_Material_Substantial ;
     rdfs:label "Blumen" ;
     crm:P137_exemplifies <http://data.odeuropa.eu/vocabulary/olfactory-objects/72> .
 
-<http://data.odeuropa.eu/SmellSource/41e983bc-7001-547b-be27-c627b2a3ae02> a crmsci:S10_Material_Substantial ;
-    rdfs:label "Gase" .
+<http://data.odeuropa.eu/SmellSource/41e983bc-7001-547b-be27-c627b2a3ae02> rdfs:label "Gase" .
 
-<http://data.odeuropa.eu/SmellSource/4279961a-f25b-572b-aa7e-ebc62695e617> a crmsci:S10_Material_Substantial ;
-    rdfs:label "Gas" .
+<http://data.odeuropa.eu/SmellSource/4279961a-f25b-572b-aa7e-ebc62695e617> rdfs:label "Gas" .
 
-<http://data.odeuropa.eu/SmellSource/42bcd942-9463-5c27-8eae-3609599c5732> a crmsci:S10_Material_Substantial ;
-    rdfs:label "Ge - tränke" .
+<http://data.odeuropa.eu/SmellSource/42bcd942-9463-5c27-8eae-3609599c5732> rdfs:label "Ge - tränke" .
 
 <http://data.odeuropa.eu/SmellSource/44856705-6c85-5f02-92a8-98f01012533c> a crmsci:S10_Material_Substantial ;
     rdfs:label "Wein" ;
     crm:P137_exemplifies <http://data.odeuropa.eu/vocabulary/olfactory-objects/169> .
 
-<http://data.odeuropa.eu/SmellSource/44a4d639-1bb4-5a77-b7b2-e37a3a2b5a4e> a crmsci:S10_Material_Substantial ;
-    rdfs:label "es" .
+<http://data.odeuropa.eu/SmellSource/44a4d639-1bb4-5a77-b7b2-e37a3a2b5a4e> rdfs:label "es" .
 
-<http://data.odeuropa.eu/SmellSource/44b02549-14fd-5771-8018-ee1c434b9020> a crmsci:S10_Material_Substantial ;
-    rdfs:label "Gehaͤßigen" .
+<http://data.odeuropa.eu/SmellSource/44b02549-14fd-5771-8018-ee1c434b9020> rdfs:label "Gehaͤßigen" .
 
-<http://data.odeuropa.eu/SmellSource/45ea1c42-2b29-5060-a966-88b3ad628d8c> a crmsci:S10_Material_Substantial ;
-    rdfs:label "Lufft" .
+<http://data.odeuropa.eu/SmellSource/45ea1c42-2b29-5060-a966-88b3ad628d8c> rdfs:label "Lufft" .
 
-<http://data.odeuropa.eu/SmellSource/46ed048d-8be0-51a3-b5e4-54e2adc08f66> a crmsci:S10_Material_Substantial ;
-    rdfs:label "frische Luft" .
+<http://data.odeuropa.eu/SmellSource/46ed048d-8be0-51a3-b5e4-54e2adc08f66> rdfs:label "frische Luft" .
 
-<http://data.odeuropa.eu/SmellSource/47d8bc8f-b6e6-5e38-bcc3-1f939dcfb03e> a crmsci:S10_Material_Substantial ;
-    rdfs:label "Meethe" .
+<http://data.odeuropa.eu/SmellSource/47d8bc8f-b6e6-5e38-bcc3-1f939dcfb03e> rdfs:label "Meethe" .
 
-<http://data.odeuropa.eu/SmellSource/47d9e763-9483-5c2c-b67c-5d9c5ff0c4c4> a crmsci:S10_Material_Substantial ;
-    rdfs:label "Seyffe" .
+<http://data.odeuropa.eu/SmellSource/47d9e763-9483-5c2c-b67c-5d9c5ff0c4c4> rdfs:label "Seyffe" .
 
-<http://data.odeuropa.eu/SmellSource/488ad8c7-9ad1-5cc9-849a-79a44e79b7b4> a crmsci:S10_Material_Substantial ;
-    rdfs:label "Peterſilie" .
+<http://data.odeuropa.eu/SmellSource/488ad8c7-9ad1-5cc9-849a-79a44e79b7b4> rdfs:label "Peterſilie" .
 
-<http://data.odeuropa.eu/SmellSource/48ed93ff-e46a-5469-86ca-2d08b7cd4d65> a crmsci:S10_Material_Substantial ;
-    rdfs:label "des Tabakdampfes" .
+<http://data.odeuropa.eu/SmellSource/48ed93ff-e46a-5469-86ca-2d08b7cd4d65> rdfs:label "des Tabakdampfes" .
 
-<http://data.odeuropa.eu/SmellSource/49961796-3544-5c76-ab14-f6498c4f3b52> a crmsci:S10_Material_Substantial ;
-    rdfs:label "Aovaj" .
+<http://data.odeuropa.eu/SmellSource/49961796-3544-5c76-ab14-f6498c4f3b52> rdfs:label "Aovaj" .
 
-<http://data.odeuropa.eu/SmellSource/49c1437b-2c9e-5982-a9b1-a05faf7ea68b> a crmsci:S10_Material_Substantial ;
-    rdfs:label "an meinem Herzen" .
+<http://data.odeuropa.eu/SmellSource/49c1437b-2c9e-5982-a9b1-a05faf7ea68b> rdfs:label "an meinem Herzen" .
 
-<http://data.odeuropa.eu/SmellSource/4e958324-0148-5db1-9972-3ab9f99d81fe> a crmsci:S10_Material_Substantial ;
-    rdfs:label "Flamme" .
+<http://data.odeuropa.eu/SmellSource/4e958324-0148-5db1-9972-3ab9f99d81fe> rdfs:label "Flamme" .
 
-<http://data.odeuropa.eu/SmellSource/4ecaec07-0adf-5eea-94f9-ec0cf6e0f4dd> a crmsci:S10_Material_Substantial ;
-    rdfs:label "Lufft" .
+<http://data.odeuropa.eu/SmellSource/4ecaec07-0adf-5eea-94f9-ec0cf6e0f4dd> rdfs:label "Lufft" .
 
-<http://data.odeuropa.eu/SmellSource/4ee669e6-d54f-58dd-afd0-8aa7710e96e8> a crmsci:S10_Material_Substantial ;
-    rdfs:label "Bergheu" .
+<http://data.odeuropa.eu/SmellSource/4ee669e6-d54f-58dd-afd0-8aa7710e96e8> rdfs:label "Bergheu" .
 
-<http://data.odeuropa.eu/SmellSource/4f221413-c1a2-5222-a0e3-62569389ccef> a crmsci:S10_Material_Substantial ;
-    rdfs:label "per anum entleerte Flüssigkeit" .
+<http://data.odeuropa.eu/SmellSource/4f221413-c1a2-5222-a0e3-62569389ccef> rdfs:label "per anum entleerte Flüssigkeit" .
 
-<http://data.odeuropa.eu/SmellSource/504fdccd-7e33-56a9-add8-60eaf2b35361> a crmsci:S10_Material_Substantial ;
-    rdfs:label "Schmierſeifen" .
+<http://data.odeuropa.eu/SmellSource/504fdccd-7e33-56a9-add8-60eaf2b35361> rdfs:label "Schmierſeifen" .
 
-<http://data.odeuropa.eu/SmellSource/529209a4-5c3c-50d3-9b14-cb6a94f4fb67> a crmsci:S10_Material_Substantial ;
-    rdfs:label "Ertz" .
+<http://data.odeuropa.eu/SmellSource/529209a4-5c3c-50d3-9b14-cb6a94f4fb67> rdfs:label "Ertz" .
 
-<http://data.odeuropa.eu/SmellSource/536b2939-380a-5078-80b7-a141727c33e3> a crmsci:S10_Material_Substantial ;
-    rdfs:label "Ro - ſen-Waſſer" .
+<http://data.odeuropa.eu/SmellSource/536b2939-380a-5078-80b7-a141727c33e3> rdfs:label "Ro - ſen-Waſſer" .
 
-<http://data.odeuropa.eu/SmellSource/54647b99-cc5e-5da9-a62f-9591ea10a42a> a crmsci:S10_Material_Substantial ;
-    rdfs:label "Schmierſeifen" .
+<http://data.odeuropa.eu/SmellSource/54647b99-cc5e-5da9-a62f-9591ea10a42a> rdfs:label "Schmierſeifen" .
 
 <http://data.odeuropa.eu/SmellSource/54a29f7c-19b1-513d-aca0-72ec24f28a59> a crmsci:S10_Material_Substantial ;
     rdfs:label "Öl" ;
     crm:P137_exemplifies <http://data.odeuropa.eu/vocabulary/olfactory-objects/109> .
 
-<http://data.odeuropa.eu/SmellSource/5564518d-5517-51d0-8d25-e825d1046141> a crmsci:S10_Material_Substantial ;
-    rdfs:label "Schwefelkohlenſtoff" .
+<http://data.odeuropa.eu/SmellSource/5564518d-5517-51d0-8d25-e825d1046141> rdfs:label "Schwefelkohlenſtoff" .
 
-<http://data.odeuropa.eu/SmellSource/559d84be-cf6e-521b-a72f-2318c3c33f65> a crmsci:S10_Material_Substantial ;
-    rdfs:label "Angiers / Roſen / Lilien / Jaſminen / Violen / vnd andere dergleichen" .
+<http://data.odeuropa.eu/SmellSource/559d84be-cf6e-521b-a72f-2318c3c33f65> rdfs:label "Angiers / Roſen / Lilien / Jaſminen / Violen / vnd andere dergleichen" .
 
-<http://data.odeuropa.eu/SmellSource/5701b104-fe4c-5860-b124-e1c34ce052b8> a crmsci:S10_Material_Substantial ;
-    rdfs:label "Schweisse" .
+<http://data.odeuropa.eu/SmellSource/5701b104-fe4c-5860-b124-e1c34ce052b8> rdfs:label "Schweisse" .
 
-<http://data.odeuropa.eu/SmellSource/5844addf-6f9c-5744-b5d7-1a716ae22d60> a crmsci:S10_Material_Substantial ;
-    rdfs:label "ein niedliches Gerichtchen enthielt , welches die Form eines Beefſteak hatte" .
+<http://data.odeuropa.eu/SmellSource/5844addf-6f9c-5744-b5d7-1a716ae22d60> rdfs:label "ein niedliches Gerichtchen enthielt , welches die Form eines Beefſteak hatte" .
 
-<http://data.odeuropa.eu/SmellSource/588a5d68-0a0a-50b8-b978-ed96e2bd129c> a crmsci:S10_Material_Substantial ;
-    rdfs:label "„ Die Heuſchrecken" .
+<http://data.odeuropa.eu/SmellSource/588a5d68-0a0a-50b8-b978-ed96e2bd129c> rdfs:label "„ Die Heuſchrecken" .
 
-<http://data.odeuropa.eu/SmellSource/588dcd9e-dc97-5005-8348-d225e43ad7d6> a crmsci:S10_Material_Substantial ;
-    rdfs:label "ihres Rauchs" .
+<http://data.odeuropa.eu/SmellSource/588dcd9e-dc97-5005-8348-d225e43ad7d6> rdfs:label "ihres Rauchs" .
 
 <http://data.odeuropa.eu/SmellSource/59a5527b-0f2a-5db0-b049-abc8d1e5cd08> a crmsci:S10_Material_Substantial ;
     rdfs:label "Kaffees" ;
     crm:P137_exemplifies <http://data.odeuropa.eu/vocabulary/olfactory-objects/50> .
 
-<http://data.odeuropa.eu/SmellSource/5bb8a970-b909-545f-850d-c42c2902e401> a crmsci:S10_Material_Substantial ;
-    rdfs:label "Schwefelkohlenſtoff" .
+<http://data.odeuropa.eu/SmellSource/5bb8a970-b909-545f-850d-c42c2902e401> rdfs:label "Schwefelkohlenſtoff" .
 
-<http://data.odeuropa.eu/SmellSource/5de23ab7-1ffa-5c1f-87b1-1e988df36ab4> a crmsci:S10_Material_Substantial ;
-    rdfs:label "Phosgengeruch" .
+<http://data.odeuropa.eu/SmellSource/5de23ab7-1ffa-5c1f-87b1-1e988df36ab4> rdfs:label "Phosgengeruch" .
 
-<http://data.odeuropa.eu/SmellSource/5e4639e7-d68b-5a81-aa1b-f043ff917645> a crmsci:S10_Material_Substantial ;
-    rdfs:label "Flüssigkeit" .
+<http://data.odeuropa.eu/SmellSource/5e4639e7-d68b-5a81-aa1b-f043ff917645> rdfs:label "Flüssigkeit" .
 
-<http://data.odeuropa.eu/SmellSource/5e5cd1a5-1da5-5342-aa6a-8df227291ae5> a crmsci:S10_Material_Substantial ;
-    rdfs:label "Laugen" .
+<http://data.odeuropa.eu/SmellSource/5e5cd1a5-1da5-5342-aa6a-8df227291ae5> rdfs:label "Laugen" .
 
-<http://data.odeuropa.eu/SmellSource/5e9863af-adcc-5a63-a10a-517a526c46c9> a crmsci:S10_Material_Substantial ;
-    rdfs:label "Feldküche" .
+<http://data.odeuropa.eu/SmellSource/5e9863af-adcc-5a63-a10a-517a526c46c9> rdfs:label "Feldküche" .
 
-<http://data.odeuropa.eu/SmellSource/5ee4c827-ce49-5a1d-a9b2-a243266441d1> a crmsci:S10_Material_Substantial ;
-    rdfs:label "Konterbande" .
+<http://data.odeuropa.eu/SmellSource/5ee4c827-ce49-5a1d-a9b2-a243266441d1> rdfs:label "Konterbande" .
 
-<http://data.odeuropa.eu/SmellSource/5f3dd1e5-51e0-5908-9bc6-1d1adee72da4> a crmsci:S10_Material_Substantial ;
-    rdfs:label "Himmels - ſchlüſſel" .
+<http://data.odeuropa.eu/SmellSource/5f3dd1e5-51e0-5908-9bc6-1d1adee72da4> rdfs:label "Himmels - ſchlüſſel" .
 
-<http://data.odeuropa.eu/SmellSource/6043389a-5d38-515f-932a-674d7bbaf9be> a crmsci:S10_Material_Substantial ;
-    rdfs:label "welche" .
+<http://data.odeuropa.eu/SmellSource/6043389a-5d38-515f-932a-674d7bbaf9be> rdfs:label "welche" .
 
-<http://data.odeuropa.eu/SmellSource/60a0257b-a73d-5f31-b72e-42703588d580> a crmsci:S10_Material_Substantial ;
-    rdfs:label "den Raum" .
+<http://data.odeuropa.eu/SmellSource/60a0257b-a73d-5f31-b72e-42703588d580> rdfs:label "den Raum" .
 
-<http://data.odeuropa.eu/SmellSource/625fe1ea-e9ea-5ad3-9d30-97ee064178af> a crmsci:S10_Material_Substantial ;
-    rdfs:label "Arzneien" .
+<http://data.odeuropa.eu/SmellSource/625fe1ea-e9ea-5ad3-9d30-97ee064178af> rdfs:label "Arzneien" .
 
-<http://data.odeuropa.eu/SmellSource/6426c5fa-d8f6-5ccd-afd1-ecc48cea8078> a crmsci:S10_Material_Substantial ;
-    rdfs:label "die - ſer Same" .
+<http://data.odeuropa.eu/SmellSource/6426c5fa-d8f6-5ccd-afd1-ecc48cea8078> rdfs:label "die - ſer Same" .
 
-<http://data.odeuropa.eu/SmellSource/65c31a4c-bd4b-5b7d-96ba-bc716975b531> a crmsci:S10_Material_Substantial ;
-    rdfs:label "die Materien einer Huͤndin" .
+<http://data.odeuropa.eu/SmellSource/65c31a4c-bd4b-5b7d-96ba-bc716975b531> rdfs:label "die Materien einer Huͤndin" .
 
-<http://data.odeuropa.eu/SmellSource/66d67716-d46a-5730-9f4d-8c5569facfdd> a crmsci:S10_Material_Substantial ;
-    rdfs:label "Madana" .
+<http://data.odeuropa.eu/SmellSource/66d67716-d46a-5730-9f4d-8c5569facfdd> rdfs:label "Madana" .
 
-<http://data.odeuropa.eu/SmellSource/66e073d4-a9e2-50db-b6aa-91d229a9ef39> a crmsci:S10_Material_Substantial ;
-    rdfs:label "Konterbande" .
+<http://data.odeuropa.eu/SmellSource/66e073d4-a9e2-50db-b6aa-91d229a9ef39> rdfs:label "Konterbande" .
 
-<http://data.odeuropa.eu/SmellSource/67135956-df04-5dba-9bc4-f2f37d49c4b7> a crmsci:S10_Material_Substantial ;
-    rdfs:label "blühender Gefilde" .
+<http://data.odeuropa.eu/SmellSource/67135956-df04-5dba-9bc4-f2f37d49c4b7> rdfs:label "blühender Gefilde" .
 
-<http://data.odeuropa.eu/SmellSource/674791be-edd5-5be0-bba7-eeedd55cb044> a crmsci:S10_Material_Substantial ;
-    rdfs:label "die Luft" .
+<http://data.odeuropa.eu/SmellSource/674791be-edd5-5be0-bba7-eeedd55cb044> rdfs:label "die Luft" .
 
-<http://data.odeuropa.eu/SmellSource/678271d0-d708-5c3e-92b4-df673b6cee30> a crmsci:S10_Material_Substantial ;
-    rdfs:label "winzigen Ofen" .
+<http://data.odeuropa.eu/SmellSource/678271d0-d708-5c3e-92b4-df673b6cee30> rdfs:label "winzigen Ofen" .
 
-<http://data.odeuropa.eu/SmellSource/6816a9d6-fc12-584b-a3f4-885b99c7dd73> a crmsci:S10_Material_Substantial ;
-    rdfs:label "Kasten" .
+<http://data.odeuropa.eu/SmellSource/6816a9d6-fc12-584b-a3f4-885b99c7dd73> rdfs:label "Kasten" .
 
-<http://data.odeuropa.eu/SmellSource/68ad1c47-a422-56ab-8c78-f95d61a40ae4> a crmsci:S10_Material_Substantial ;
-    rdfs:label "Stoffe" .
+<http://data.odeuropa.eu/SmellSource/68ad1c47-a422-56ab-8c78-f95d61a40ae4> rdfs:label "Stoffe" .
 
-<http://data.odeuropa.eu/SmellSource/692a8c2b-e0a2-5ad6-abe8-1ec2938e1dfa> a crmsci:S10_Material_Substantial ;
-    rdfs:label "Erinnerung und Gegenwart" .
+<http://data.odeuropa.eu/SmellSource/692a8c2b-e0a2-5ad6-abe8-1ec2938e1dfa> rdfs:label "Erinnerung und Gegenwart" .
 
 <http://data.odeuropa.eu/SmellSource/696bf207-c3d8-560d-b92d-66289e046f27> a crmsci:S10_Material_Substantial ;
     rdfs:label "Strauß" ;
     crm:P137_exemplifies <http://data.odeuropa.eu/vocabulary/olfactory-objects/18> .
 
-<http://data.odeuropa.eu/SmellSource/6b148082-e598-528d-8021-7e91db26588a> a crmsci:S10_Material_Substantial ;
-    rdfs:label "ein Baum" .
+<http://data.odeuropa.eu/SmellSource/6b148082-e598-528d-8021-7e91db26588a> rdfs:label "ein Baum" .
 
-<http://data.odeuropa.eu/SmellSource/6ba737f2-7b90-5194-8af6-a92836072841> a crmsci:S10_Material_Substantial ;
-    rdfs:label "Fabrikat" .
+<http://data.odeuropa.eu/SmellSource/6ba737f2-7b90-5194-8af6-a92836072841> rdfs:label "Fabrikat" .
 
-<http://data.odeuropa.eu/SmellSource/6c11970b-5522-54b9-a94c-2d37322d8651> a crmsci:S10_Material_Substantial ;
-    rdfs:label "Kraut" .
+<http://data.odeuropa.eu/SmellSource/6c11970b-5522-54b9-a94c-2d37322d8651> rdfs:label "Kraut" .
 
 <http://data.odeuropa.eu/SmellSource/6cb665dc-62c3-530c-a585-0a520263290d> a crmsci:S10_Material_Substantial ;
     rdfs:label "Blumen" ;
     crm:P137_exemplifies <http://data.odeuropa.eu/vocabulary/olfactory-objects/72> .
 
-<http://data.odeuropa.eu/SmellSource/6d0ff120-09bb-52d0-9128-ddb8425bf27f> a crmsci:S10_Material_Substantial ;
-    rdfs:label "Peterſilie" .
+<http://data.odeuropa.eu/SmellSource/6d0ff120-09bb-52d0-9128-ddb8425bf27f> rdfs:label "Peterſilie" .
 
-<http://data.odeuropa.eu/SmellSource/6eaa9883-17b4-524a-b7b0-2eb933029c54> a crmsci:S10_Material_Substantial ;
-    rdfs:label "Madana" .
+<http://data.odeuropa.eu/SmellSource/6eaa9883-17b4-524a-b7b0-2eb933029c54> rdfs:label "Madana" .
 
-<http://data.odeuropa.eu/SmellSource/6f3ee9c1-ad19-5708-be2d-02cb0dca4dd0> a crmsci:S10_Material_Substantial ;
-    rdfs:label "welche Unſchuldige verfolgt ha - ben" .
+<http://data.odeuropa.eu/SmellSource/6f3ee9c1-ad19-5708-be2d-02cb0dca4dd0> rdfs:label "welche Unſchuldige verfolgt ha - ben" .
 
-<http://data.odeuropa.eu/SmellSource/7037d560-e900-5f38-89d9-f04806c14c64> a crmsci:S10_Material_Substantial ;
-    rdfs:label "Spaniſche Maſſa" .
+<http://data.odeuropa.eu/SmellSource/7037d560-e900-5f38-89d9-f04806c14c64> rdfs:label "Spaniſche Maſſa" .
 
-<http://data.odeuropa.eu/SmellSource/70625792-c922-5501-b2fa-3034cc8c7b30> a crmsci:S10_Material_Substantial ;
-    rdfs:label "es" .
+<http://data.odeuropa.eu/SmellSource/70625792-c922-5501-b2fa-3034cc8c7b30> rdfs:label "es" .
 
-<http://data.odeuropa.eu/SmellSource/70955921-4ad6-5207-b859-7fb36f17d23e> a crmsci:S10_Material_Substantial ;
-    rdfs:label "das Wasser" .
+<http://data.odeuropa.eu/SmellSource/70955921-4ad6-5207-b859-7fb36f17d23e> rdfs:label "das Wasser" .
 
-<http://data.odeuropa.eu/SmellSource/7101ff94-816b-5469-ab7a-2c7d2f2c5289> a crmsci:S10_Material_Substantial ;
-    rdfs:label "Biſam" .
+<http://data.odeuropa.eu/SmellSource/7101ff94-816b-5469-ab7a-2c7d2f2c5289> rdfs:label "Biſam" .
 
-<http://data.odeuropa.eu/SmellSource/743a98a6-b577-5638-9266-2f3708c5d7f4> a crmsci:S10_Material_Substantial ;
-    rdfs:label "Blätter" .
+<http://data.odeuropa.eu/SmellSource/743a98a6-b577-5638-9266-2f3708c5d7f4> rdfs:label "Blätter" .
 
-<http://data.odeuropa.eu/SmellSource/748fe218-184d-5c15-84c7-3639934408cd> a crmsci:S10_Material_Substantial ;
-    rdfs:label "Tabakdampfes" .
+<http://data.odeuropa.eu/SmellSource/748fe218-184d-5c15-84c7-3639934408cd> rdfs:label "Tabakdampfes" .
 
 <http://data.odeuropa.eu/SmellSource/75ab063c-122a-58c2-912c-662a697eb84c> a crmsci:S10_Material_Substantial ;
     rdfs:label "Schwefel" ;
     crm:P137_exemplifies <http://data.odeuropa.eu/vocabulary/olfactory-objects/242> .
 
-<http://data.odeuropa.eu/SmellSource/76bb21d0-4b57-56b6-8367-a83ff43f143c> a crmsci:S10_Material_Substantial ;
-    rdfs:label "Blitz-Pulver" .
+<http://data.odeuropa.eu/SmellSource/76bb21d0-4b57-56b6-8367-a83ff43f143c> rdfs:label "Blitz-Pulver" .
 
-<http://data.odeuropa.eu/SmellSource/7781c429-685d-564f-9827-567d94fad4c8> a crmsci:S10_Material_Substantial ;
-    rdfs:label "Wuͤrkungs-Crayß" .
+<http://data.odeuropa.eu/SmellSource/7781c429-685d-564f-9827-567d94fad4c8> rdfs:label "Wuͤrkungs-Crayß" .
 
-<http://data.odeuropa.eu/SmellSource/7782996d-98e6-5bc0-bced-8fc6a002e5c3> a crmsci:S10_Material_Substantial ;
-    rdfs:label "Beſtandteile" .
+<http://data.odeuropa.eu/SmellSource/7782996d-98e6-5bc0-bced-8fc6a002e5c3> rdfs:label "Beſtandteile" .
 
-<http://data.odeuropa.eu/SmellSource/7858b00c-2232-5c69-812a-bb5f7d1e36c8> a crmsci:S10_Material_Substantial ;
-    rdfs:label "Erbrechen" .
+<http://data.odeuropa.eu/SmellSource/7858b00c-2232-5c69-812a-bb5f7d1e36c8> rdfs:label "Erbrechen" .
 
-<http://data.odeuropa.eu/SmellSource/79aac051-9c7c-5f5a-8d17-a0ee33b28fb5> a crmsci:S10_Material_Substantial ;
-    rdfs:label "ich" .
+<http://data.odeuropa.eu/SmellSource/79aac051-9c7c-5f5a-8d17-a0ee33b28fb5> rdfs:label "ich" .
 
-<http://data.odeuropa.eu/SmellSource/79ab1fd8-6b66-5fd5-95b7-e6c22df10ff9> a crmsci:S10_Material_Substantial ;
-    rdfs:label "Es" .
+<http://data.odeuropa.eu/SmellSource/79ab1fd8-6b66-5fd5-95b7-e6c22df10ff9> rdfs:label "Es" .
 
-<http://data.odeuropa.eu/SmellSource/7ad03616-785e-542f-8ddc-36456fd30d5c> a crmsci:S10_Material_Substantial ;
-    rdfs:label "Seyffe" .
+<http://data.odeuropa.eu/SmellSource/7ad03616-785e-542f-8ddc-36456fd30d5c> rdfs:label "Seyffe" .
 
-<http://data.odeuropa.eu/SmellSource/7af1863f-6600-59af-b5f4-a36afb5e79b5> a crmsci:S10_Material_Substantial ;
-    rdfs:label "Citronen - Saltz Eſſenz" .
+<http://data.odeuropa.eu/SmellSource/7af1863f-6600-59af-b5f4-a36afb5e79b5> rdfs:label "Citronen - Saltz Eſſenz" .
 
-<http://data.odeuropa.eu/SmellSource/7b8c201d-eea2-51a8-8976-395842c5d518> a crmsci:S10_Material_Substantial ;
-    rdfs:label "Thymian" .
+<http://data.odeuropa.eu/SmellSource/7b8c201d-eea2-51a8-8976-395842c5d518> rdfs:label "Thymian" .
 
-<http://data.odeuropa.eu/SmellSource/7b8e800e-7255-5b56-9d9f-bb31d80e0840> a crmsci:S10_Material_Substantial ;
-    rdfs:label "ſie" .
+<http://data.odeuropa.eu/SmellSource/7b8e800e-7255-5b56-9d9f-bb31d80e0840> rdfs:label "ſie" .
 
-<http://data.odeuropa.eu/SmellSource/7c2d2a22-f673-5251-ba94-327bf1332be1> a crmsci:S10_Material_Substantial ;
-    rdfs:label "Er" .
+<http://data.odeuropa.eu/SmellSource/7c2d2a22-f673-5251-ba94-327bf1332be1> rdfs:label "Er" .
 
-<http://data.odeuropa.eu/SmellSource/7cbbb920-e353-5149-8913-d915c6246d6d> a crmsci:S10_Material_Substantial ;
-    rdfs:label "Pulver" .
+<http://data.odeuropa.eu/SmellSource/7cbbb920-e353-5149-8913-d915c6246d6d> rdfs:label "Pulver" .
 
-<http://data.odeuropa.eu/SmellSource/7cf45183-c4c1-5d5f-9b92-17ae39623d35> a crmsci:S10_Material_Substantial ;
-    rdfs:label "Lufft" .
+<http://data.odeuropa.eu/SmellSource/7cf45183-c4c1-5d5f-9b92-17ae39623d35> rdfs:label "Lufft" .
 
-<http://data.odeuropa.eu/SmellSource/7dc779af-cf48-5aca-a44f-bc6024afc71d> a crmsci:S10_Material_Substantial ;
-    rdfs:label "Die Stühle" .
+<http://data.odeuropa.eu/SmellSource/7dc779af-cf48-5aca-a44f-bc6024afc71d> rdfs:label "Die Stühle" .
 
-<http://data.odeuropa.eu/SmellSource/7dee5b3a-ac18-5dc2-b074-2ea9855e834d> a crmsci:S10_Material_Substantial ;
-    rdfs:label "daran" .
+<http://data.odeuropa.eu/SmellSource/7dee5b3a-ac18-5dc2-b074-2ea9855e834d> rdfs:label "daran" .
 
-<http://data.odeuropa.eu/SmellSource/7e24e4a3-636b-56fd-830e-f0b3fc7590b0> a crmsci:S10_Material_Substantial ;
-    rdfs:label "geruchlos" .
+<http://data.odeuropa.eu/SmellSource/7e24e4a3-636b-56fd-830e-f0b3fc7590b0> rdfs:label "geruchlos" .
 
-<http://data.odeuropa.eu/SmellSource/810a5c3c-d025-59d7-9b44-1133d6c52abe> a crmsci:S10_Material_Substantial ;
-    rdfs:label "Kraͤuterichs" .
+<http://data.odeuropa.eu/SmellSource/810a5c3c-d025-59d7-9b44-1133d6c52abe> rdfs:label "Kraͤuterichs" .
 
-<http://data.odeuropa.eu/SmellSource/8119d187-16f3-5232-a106-5bc6963e55be> a crmsci:S10_Material_Substantial ;
-    rdfs:label "Nikotin" .
+<http://data.odeuropa.eu/SmellSource/8119d187-16f3-5232-a106-5bc6963e55be> rdfs:label "Nikotin" .
 
-<http://data.odeuropa.eu/SmellSource/815d739a-445a-589a-bffc-5487ffa5bd25> a crmsci:S10_Material_Substantial ;
-    rdfs:label "Gummi" .
+<http://data.odeuropa.eu/SmellSource/815d739a-445a-589a-bffc-5487ffa5bd25> rdfs:label "Gummi" .
 
 <http://data.odeuropa.eu/SmellSource/82842efa-e4be-5cff-a871-0b05ee86b048> a crmsci:S10_Material_Substantial ;
     rdfs:label "Blumen" ;
     crm:P137_exemplifies <http://data.odeuropa.eu/vocabulary/olfactory-objects/72> .
 
-<http://data.odeuropa.eu/SmellSource/8321a780-2cee-5094-8059-c57f6300c5e3> a crmsci:S10_Material_Substantial ;
-    rdfs:label "Senkgrube" .
+<http://data.odeuropa.eu/SmellSource/8321a780-2cee-5094-8059-c57f6300c5e3> rdfs:label "Senkgrube" .
 
-<http://data.odeuropa.eu/SmellSource/847b9bd7-ea91-5710-a62c-16c1cb5ed708> a crmsci:S10_Material_Substantial ;
-    rdfs:label "Nikotianin oder der Tabakskampfer" .
+<http://data.odeuropa.eu/SmellSource/847b9bd7-ea91-5710-a62c-16c1cb5ed708> rdfs:label "Nikotianin oder der Tabakskampfer" .
 
-<http://data.odeuropa.eu/SmellSource/8586276a-831f-5571-a81e-f3209e08db12> a crmsci:S10_Material_Substantial ;
-    rdfs:label "Er" .
+<http://data.odeuropa.eu/SmellSource/8586276a-831f-5571-a81e-f3209e08db12> rdfs:label "Er" .
 
-<http://data.odeuropa.eu/SmellSource/85e24908-41e9-53f8-a4d0-b66543e527e4> a crmsci:S10_Material_Substantial ;
-    rdfs:label "ein Tuͤchlein" .
+<http://data.odeuropa.eu/SmellSource/85e24908-41e9-53f8-a4d0-b66543e527e4> rdfs:label "ein Tuͤchlein" .
 
-<http://data.odeuropa.eu/SmellSource/874e20fe-7989-54e4-b6b6-7d7387e33946> a crmsci:S10_Material_Substantial ;
-    rdfs:label "ungebrannten Kaffees" .
+<http://data.odeuropa.eu/SmellSource/874e20fe-7989-54e4-b6b6-7d7387e33946> rdfs:label "ungebrannten Kaffees" .
 
-<http://data.odeuropa.eu/SmellSource/88139681-5330-5f02-af9a-954bc1a6c473> a crmsci:S10_Material_Substantial ;
-    rdfs:label "Sa - chen" .
+<http://data.odeuropa.eu/SmellSource/88139681-5330-5f02-af9a-954bc1a6c473> rdfs:label "Sa - chen" .
 
 <http://data.odeuropa.eu/SmellSource/8867dc36-8816-5fb0-8aea-83a0b630f73b> a crmsci:S10_Material_Substantial ;
     rdfs:label "Kaffee" ;
     crm:P137_exemplifies <http://data.odeuropa.eu/vocabulary/olfactory-objects/50> .
 
-<http://data.odeuropa.eu/SmellSource/89d1b68d-bef0-59b7-913e-a15abc383015> a crmsci:S10_Material_Substantial ;
-    rdfs:label "Moß-Puder" .
+<http://data.odeuropa.eu/SmellSource/89d1b68d-bef0-59b7-913e-a15abc383015> rdfs:label "Moß-Puder" .
 
-<http://data.odeuropa.eu/SmellSource/89d5880b-98af-53a9-82b4-8059a4326ef8> a crmsci:S10_Material_Substantial ;
-    rdfs:label "er" .
+<http://data.odeuropa.eu/SmellSource/89d5880b-98af-53a9-82b4-8059a4326ef8> rdfs:label "er" .
 
 <http://data.odeuropa.eu/SmellSource/8a1ec7fe-8381-5206-a553-2add127886be> a crmsci:S10_Material_Substantial ;
     rdfs:label "Blumen" ;
     crm:P137_exemplifies <http://data.odeuropa.eu/vocabulary/olfactory-objects/72> .
 
-<http://data.odeuropa.eu/SmellSource/8bd38e73-4722-56a5-b17a-96c1c3772182> a crmsci:S10_Material_Substantial ;
-    rdfs:label "Die Wuͤrkungs-Crayſe" .
+<http://data.odeuropa.eu/SmellSource/8bd38e73-4722-56a5-b17a-96c1c3772182> rdfs:label "Die Wuͤrkungs-Crayſe" .
 
-<http://data.odeuropa.eu/SmellSource/8bf26134-34e4-5f15-8837-eb184191735d> a crmsci:S10_Material_Substantial ;
-    rdfs:label "Faß - und Schimmelgeruch" .
+<http://data.odeuropa.eu/SmellSource/8bf26134-34e4-5f15-8837-eb184191735d> rdfs:label "Faß - und Schimmelgeruch" .
 
-<http://data.odeuropa.eu/SmellSource/8bfff2e5-b357-51cc-ac8f-9e7a3068b8a3> a crmsci:S10_Material_Substantial ;
-    rdfs:label "Senkgrube" .
+<http://data.odeuropa.eu/SmellSource/8bfff2e5-b357-51cc-ac8f-9e7a3068b8a3> rdfs:label "Senkgrube" .
 
-<http://data.odeuropa.eu/SmellSource/8c060d78-1c76-5098-9563-633223d92a46> a crmsci:S10_Material_Substantial ;
-    rdfs:label "er" .
+<http://data.odeuropa.eu/SmellSource/8c060d78-1c76-5098-9563-633223d92a46> rdfs:label "er" .
 
-<http://data.odeuropa.eu/SmellSource/8c71fd85-1099-5c9b-8922-f34ec73ae15e> a crmsci:S10_Material_Substantial ;
-    rdfs:label "Ne - gelken / Cardemom vnd Caneel oder Zimmet" .
+<http://data.odeuropa.eu/SmellSource/8c71fd85-1099-5c9b-8922-f34ec73ae15e> rdfs:label "Ne - gelken / Cardemom vnd Caneel oder Zimmet" .
 
 <http://data.odeuropa.eu/SmellSource/8c82f81c-b0ea-5ab3-b929-9be4a90b7515> a crmsci:S10_Material_Substantial ;
     rdfs:label "Kaffee" ;
     crm:P137_exemplifies <http://data.odeuropa.eu/vocabulary/olfactory-objects/50> .
 
-<http://data.odeuropa.eu/SmellSource/8cb88de7-de6f-525c-b256-f2eac57f61f0> a crmsci:S10_Material_Substantial ;
-    rdfs:label "Haut" .
+<http://data.odeuropa.eu/SmellSource/8cb88de7-de6f-525c-b256-f2eac57f61f0> rdfs:label "Haut" .
 
-<http://data.odeuropa.eu/SmellSource/8d200276-f21f-53ad-9fea-f182b105b560> a crmsci:S10_Material_Substantial ;
-    rdfs:label "Esma Khan" .
+<http://data.odeuropa.eu/SmellSource/8d200276-f21f-53ad-9fea-f182b105b560> rdfs:label "Esma Khan" .
 
 <http://data.odeuropa.eu/SmellSource/8e1b3cac-a0c7-5e98-b252-23a33b9d344b> a crmsci:S10_Material_Substantial ;
     rdfs:label "Blume" ;
     crm:P137_exemplifies <http://data.odeuropa.eu/vocabulary/olfactory-objects/72> .
 
-<http://data.odeuropa.eu/SmellSource/8e6351fa-6216-5f9f-ad97-5fd7d5ef0d3d> a crmsci:S10_Material_Substantial ;
-    rdfs:label "Rettige" .
+<http://data.odeuropa.eu/SmellSource/8e6351fa-6216-5f9f-ad97-5fd7d5ef0d3d> rdfs:label "Rettige" .
 
-<http://data.odeuropa.eu/SmellSource/8fb1146a-9aa8-51c7-a00b-26f996484bec> a crmsci:S10_Material_Substantial ;
-    rdfs:label "die Fußſtapf - fen der Feinde" .
+<http://data.odeuropa.eu/SmellSource/8fb1146a-9aa8-51c7-a00b-26f996484bec> rdfs:label "die Fußſtapf - fen der Feinde" .
 
-<http://data.odeuropa.eu/SmellSource/90d4ba78-e76d-5605-8ce9-2ed03b27bdbe> a crmsci:S10_Material_Substantial ;
-    rdfs:label "Ausſcheidungsprodukt" .
+<http://data.odeuropa.eu/SmellSource/90d4ba78-e76d-5605-8ce9-2ed03b27bdbe> rdfs:label "Ausſcheidungsprodukt" .
 
-<http://data.odeuropa.eu/SmellSource/90df0e0d-776b-5feb-8459-8c61bc9bbc3a> a crmsci:S10_Material_Substantial ;
-    rdfs:label "er" .
+<http://data.odeuropa.eu/SmellSource/90df0e0d-776b-5feb-8459-8c61bc9bbc3a> rdfs:label "er" .
 
-<http://data.odeuropa.eu/SmellSource/91d80bd4-4c31-5cb8-9f3d-54b977872384> a crmsci:S10_Material_Substantial ;
-    rdfs:label "von mir" .
+<http://data.odeuropa.eu/SmellSource/91d80bd4-4c31-5cb8-9f3d-54b977872384> rdfs:label "von mir" .
 
-<http://data.odeuropa.eu/SmellSource/920d22e2-ee80-5838-a578-898a31a974cc> a crmsci:S10_Material_Substantial ;
-    rdfs:label "Sachen" .
+<http://data.odeuropa.eu/SmellSource/920d22e2-ee80-5838-a578-898a31a974cc> rdfs:label "Sachen" .
 
-<http://data.odeuropa.eu/SmellSource/93dfaf25-26af-5d57-ad84-894b065d2f7a> a crmsci:S10_Material_Substantial ;
-    rdfs:label "Orangenbaum" .
+<http://data.odeuropa.eu/SmellSource/93dfaf25-26af-5d57-ad84-894b065d2f7a> rdfs:label "Orangenbaum" .
 
-<http://data.odeuropa.eu/SmellSource/94173fc9-4a72-50f8-a808-fb05b7ffc92a> a crmsci:S10_Material_Substantial ;
-    rdfs:label "zu den Kleidern" .
+<http://data.odeuropa.eu/SmellSource/94173fc9-4a72-50f8-a808-fb05b7ffc92a> rdfs:label "zu den Kleidern" .
 
-<http://data.odeuropa.eu/SmellSource/94a6b894-ec8c-50bd-add3-d37f93542d6f> a crmsci:S10_Material_Substantial ;
-    rdfs:label "nach der Laugen" .
+<http://data.odeuropa.eu/SmellSource/94a6b894-ec8c-50bd-add3-d37f93542d6f> rdfs:label "nach der Laugen" .
 
-<http://data.odeuropa.eu/SmellSource/9569ccb6-022a-507e-b8af-0a4ec3e03a0d> a crmsci:S10_Material_Substantial ;
-    rdfs:label "Schwefelſtanck" .
+<http://data.odeuropa.eu/SmellSource/9569ccb6-022a-507e-b8af-0a4ec3e03a0d> rdfs:label "Schwefelſtanck" .
 
-<http://data.odeuropa.eu/SmellSource/95c286ba-ad25-51ca-ae7a-9c1980a9afd4> a crmsci:S10_Material_Substantial ;
-    rdfs:label "der Ehebrecher" .
+<http://data.odeuropa.eu/SmellSource/95c286ba-ad25-51ca-ae7a-9c1980a9afd4> rdfs:label "der Ehebrecher" .
 
 <http://data.odeuropa.eu/SmellSource/98d685ad-bdee-5e15-bdcd-832982e27af6> a crmsci:S10_Material_Substantial ;
     rdfs:label "Strauß" ;
     crm:P137_exemplifies <http://data.odeuropa.eu/vocabulary/olfactory-objects/18> .
 
-<http://data.odeuropa.eu/SmellSource/99aa22db-ed55-53b2-8fd5-24c2db19f760> a crmsci:S10_Material_Substantial ;
-    rdfs:label "Bergheu" .
+<http://data.odeuropa.eu/SmellSource/99aa22db-ed55-53b2-8fd5-24c2db19f760> rdfs:label "Bergheu" .
 
-<http://data.odeuropa.eu/SmellSource/99c16e57-544d-5d8e-9afb-d1e400341f03> a crmsci:S10_Material_Substantial ;
-    rdfs:label "Lufft" .
+<http://data.odeuropa.eu/SmellSource/99c16e57-544d-5d8e-9afb-d1e400341f03> rdfs:label "Lufft" .
 
-<http://data.odeuropa.eu/SmellSource/9a216a67-a58d-5c67-a8f8-18112dd96dd3> a crmsci:S10_Material_Substantial ;
-    rdfs:label "Wasch - platzes" .
+<http://data.odeuropa.eu/SmellSource/9a216a67-a58d-5c67-a8f8-18112dd96dd3> rdfs:label "Wasch - platzes" .
 
-<http://data.odeuropa.eu/SmellSource/9af410fb-8dac-5d6f-b8e3-47ad221f8cc7> a crmsci:S10_Material_Substantial ;
-    rdfs:label "Glycerin" .
+<http://data.odeuropa.eu/SmellSource/9af410fb-8dac-5d6f-b8e3-47ad221f8cc7> rdfs:label "Glycerin" .
 
-<http://data.odeuropa.eu/SmellSource/9b440d12-3dc0-53e7-b842-6a435cba83ed> a crmsci:S10_Material_Substantial ;
-    rdfs:label "Reizgas englischer Granaten" .
+<http://data.odeuropa.eu/SmellSource/9b440d12-3dc0-53e7-b842-6a435cba83ed> rdfs:label "Reizgas englischer Granaten" .
 
-<http://data.odeuropa.eu/SmellSource/9bd93c50-4184-5253-87ea-a18953aad85d> a crmsci:S10_Material_Substantial ;
-    rdfs:label "Pfuͤtzen" .
+<http://data.odeuropa.eu/SmellSource/9bd93c50-4184-5253-87ea-a18953aad85d> rdfs:label "Pfuͤtzen" .
 
-<http://data.odeuropa.eu/SmellSource/9cdf766d-09bd-522b-a7bb-aeb8be941aae> a crmsci:S10_Material_Substantial ;
-    rdfs:label "Druſenbranntwein" .
+<http://data.odeuropa.eu/SmellSource/9cdf766d-09bd-522b-a7bb-aeb8be941aae> rdfs:label "Druſenbranntwein" .
 
-<http://data.odeuropa.eu/SmellSource/9e5b4cc1-e3b9-5ae2-a8c3-306ff6ca1553> a crmsci:S10_Material_Substantial ;
-    rdfs:label "Schatten" .
+<http://data.odeuropa.eu/SmellSource/9e5b4cc1-e3b9-5ae2-a8c3-306ff6ca1553> rdfs:label "Schatten" .
 
-<http://data.odeuropa.eu/SmellSource/9efc37af-1381-5297-9dbb-c9226282619d> a crmsci:S10_Material_Substantial ;
-    rdfs:label "Stuhlgänge" .
+<http://data.odeuropa.eu/SmellSource/9efc37af-1381-5297-9dbb-c9226282619d> rdfs:label "Stuhlgänge" .
 
-<http://data.odeuropa.eu/SmellSource/9f504ea3-5d04-5565-8aeb-72ab267b4723> a crmsci:S10_Material_Substantial ;
-    rdfs:label "Thymian" .
+<http://data.odeuropa.eu/SmellSource/9f504ea3-5d04-5565-8aeb-72ab267b4723> rdfs:label "Thymian" .
 
-<http://data.odeuropa.eu/SmellSource/9f7c0253-fc41-5057-b267-6fa4c4dd3a85> a crmsci:S10_Material_Substantial ;
-    rdfs:label "Feldküche" .
+<http://data.odeuropa.eu/SmellSource/9f7c0253-fc41-5057-b267-6fa4c4dd3a85> rdfs:label "Feldküche" .
 
-<http://data.odeuropa.eu/SmellSource/a017a66e-0cb1-51ff-bd7a-fa94efd4146c> a crmsci:S10_Material_Substantial ;
-    rdfs:label "Poudre" .
+<http://data.odeuropa.eu/SmellSource/a017a66e-0cb1-51ff-bd7a-fa94efd4146c> rdfs:label "Poudre" .
 
-<http://data.odeuropa.eu/SmellSource/a14963e9-71f9-5055-a116-5a43ba073559> a crmsci:S10_Material_Substantial ;
-    rdfs:label "Samens" .
+<http://data.odeuropa.eu/SmellSource/a14963e9-71f9-5055-a116-5a43ba073559> rdfs:label "Samens" .
 
-<http://data.odeuropa.eu/SmellSource/a22a98de-23ef-57af-9144-ef4ec60b2d47> a crmsci:S10_Material_Substantial ;
-    rdfs:label "Gasgeruch" .
+<http://data.odeuropa.eu/SmellSource/a22a98de-23ef-57af-9144-ef4ec60b2d47> rdfs:label "Gasgeruch" .
 
-<http://data.odeuropa.eu/SmellSource/a2b368f2-f0a4-5665-8168-f472c6c80059> a crmsci:S10_Material_Substantial ;
-    rdfs:label "koͤſtliche Roſe" .
+<http://data.odeuropa.eu/SmellSource/a2b368f2-f0a4-5665-8168-f472c6c80059> rdfs:label "koͤſtliche Roſe" .
 
-<http://data.odeuropa.eu/SmellSource/a3660bd7-da1c-5755-a85b-5f9b00a7117c> a crmsci:S10_Material_Substantial ;
-    rdfs:label "Flamme" .
+<http://data.odeuropa.eu/SmellSource/a3660bd7-da1c-5755-a85b-5f9b00a7117c> rdfs:label "Flamme" .
 
-<http://data.odeuropa.eu/SmellSource/a4b7c64d-8b49-5498-9ba5-d9f321413aac> a crmsci:S10_Material_Substantial ;
-    rdfs:label "Spaniſche Maſſa" .
+<http://data.odeuropa.eu/SmellSource/a4b7c64d-8b49-5498-9ba5-d9f321413aac> rdfs:label "Spaniſche Maſſa" .
 
-<http://data.odeuropa.eu/SmellSource/a4d87b70-8c78-523e-8bcb-7d290048560f> a crmsci:S10_Material_Substantial ;
-    rdfs:label "Tabakgeruch" .
+<http://data.odeuropa.eu/SmellSource/a4d87b70-8c78-523e-8bcb-7d290048560f> rdfs:label "Tabakgeruch" .
 
-<http://data.odeuropa.eu/SmellSource/a5271973-45f4-5fe7-8847-afb1da3e0213> a crmsci:S10_Material_Substantial ;
-    rdfs:label "Gas" .
+<http://data.odeuropa.eu/SmellSource/a5271973-45f4-5fe7-8847-afb1da3e0213> rdfs:label "Gas" .
 
-<http://data.odeuropa.eu/SmellSource/a6f6c925-93b2-5ed4-8b5a-5da18cdae7cb> a crmsci:S10_Material_Substantial ;
-    rdfs:label "Moß-Puder" .
+<http://data.odeuropa.eu/SmellSource/a6f6c925-93b2-5ed4-8b5a-5da18cdae7cb> rdfs:label "Moß-Puder" .
 
-<http://data.odeuropa.eu/SmellSource/a8596307-f972-5b99-8041-9260dbce41d8> a crmsci:S10_Material_Substantial ;
-    rdfs:label "Wassern" .
+<http://data.odeuropa.eu/SmellSource/a8596307-f972-5b99-8041-9260dbce41d8> rdfs:label "Wassern" .
 
-<http://data.odeuropa.eu/SmellSource/a8ddf833-fafe-5a9d-a3a3-3ac653b15398> a crmsci:S10_Material_Substantial ;
-    rdfs:label "Fläſchlein" .
+<http://data.odeuropa.eu/SmellSource/a8ddf833-fafe-5a9d-a3a3-3ac653b15398> rdfs:label "Fläſchlein" .
 
-<http://data.odeuropa.eu/SmellSource/a8fa5ec8-001d-50c2-b72f-3459a1ed8975> a crmsci:S10_Material_Substantial ;
-    rdfs:label "Rettige" .
+<http://data.odeuropa.eu/SmellSource/a8fa5ec8-001d-50c2-b72f-3459a1ed8975> rdfs:label "Rettige" .
 
-<http://data.odeuropa.eu/SmellSource/aa49d1c1-5b89-517a-9bce-4a14f997cc9b> a crmsci:S10_Material_Substantial ;
-    rdfs:label "des Kraͤuterichs" .
+<http://data.odeuropa.eu/SmellSource/aa49d1c1-5b89-517a-9bce-4a14f997cc9b> rdfs:label "des Kraͤuterichs" .
 
-<http://data.odeuropa.eu/SmellSource/aab98825-9507-5e30-8c2a-8b53310a86e8> a crmsci:S10_Material_Substantial ;
-    rdfs:label "Der pra - lenden Redner" .
+<http://data.odeuropa.eu/SmellSource/aab98825-9507-5e30-8c2a-8b53310a86e8> rdfs:label "Der pra - lenden Redner" .
 
-<http://data.odeuropa.eu/SmellSource/aae51ed2-ae6a-506d-9008-17e0fdf960c5> a crmsci:S10_Material_Substantial ;
-    rdfs:label "Mai - blumen" .
+<http://data.odeuropa.eu/SmellSource/aae51ed2-ae6a-506d-9008-17e0fdf960c5> rdfs:label "Mai - blumen" .
 
-<http://data.odeuropa.eu/SmellSource/ab3da428-20d6-559d-a0f5-c0c95c364a91> a crmsci:S10_Material_Substantial ;
-    rdfs:label "ihm" .
+<http://data.odeuropa.eu/SmellSource/ab3da428-20d6-559d-a0f5-c0c95c364a91> rdfs:label "ihm" .
 
-<http://data.odeuropa.eu/SmellSource/ab878e61-7f67-5c99-8791-6b2645138e44> a crmsci:S10_Material_Substantial ;
-    rdfs:label "Harze" .
+<http://data.odeuropa.eu/SmellSource/ab878e61-7f67-5c99-8791-6b2645138e44> rdfs:label "Harze" .
 
-<http://data.odeuropa.eu/SmellSource/ac57a3c8-04bb-583b-959d-d4785dc17a32> a crmsci:S10_Material_Substantial ;
-    rdfs:label "deine Rede" .
+<http://data.odeuropa.eu/SmellSource/ac57a3c8-04bb-583b-959d-d4785dc17a32> rdfs:label "deine Rede" .
 
-<http://data.odeuropa.eu/SmellSource/ac6f7cf0-8916-58ab-a7d1-982936caa70d> a crmsci:S10_Material_Substantial ;
-    rdfs:label "eine art Melonen" .
+<http://data.odeuropa.eu/SmellSource/ac6f7cf0-8916-58ab-a7d1-982936caa70d> rdfs:label "eine art Melonen" .
 
-<http://data.odeuropa.eu/SmellSource/ad21e5a9-212c-55c5-b14a-97d2465fe166> a crmsci:S10_Material_Substantial ;
-    rdfs:label "dingen" .
+<http://data.odeuropa.eu/SmellSource/ad21e5a9-212c-55c5-b14a-97d2465fe166> rdfs:label "dingen" .
 
-<http://data.odeuropa.eu/SmellSource/adeb708d-18a7-5e0a-951c-5d4c35b39606> a crmsci:S10_Material_Substantial ;
-    rdfs:label "ſie" .
+<http://data.odeuropa.eu/SmellSource/adeb708d-18a7-5e0a-951c-5d4c35b39606> rdfs:label "ſie" .
 
-<http://data.odeuropa.eu/SmellSource/aef581d9-3863-5dee-a4ad-64f2c532a685> a crmsci:S10_Material_Substantial ;
-    rdfs:label "daran" .
+<http://data.odeuropa.eu/SmellSource/aef581d9-3863-5dee-a4ad-64f2c532a685> rdfs:label "daran" .
 
 <http://data.odeuropa.eu/SmellSource/af25eae2-adaf-5f4e-8784-3c307ac6a71c> a crmsci:S10_Material_Substantial ;
     rdfs:label "Blume" ;
     crm:P137_exemplifies <http://data.odeuropa.eu/vocabulary/olfactory-objects/72> .
 
-<http://data.odeuropa.eu/SmellSource/afd2e7a0-96f6-5723-a3a3-16f5bfb3de62> a crmsci:S10_Material_Substantial ;
-    rdfs:label "die Spur des Entflohenen" .
+<http://data.odeuropa.eu/SmellSource/afd2e7a0-96f6-5723-a3a3-16f5bfb3de62> rdfs:label "die Spur des Entflohenen" .
 
-<http://data.odeuropa.eu/SmellSource/b03ca885-8fdc-5701-aba6-e114a3b59b07> a crmsci:S10_Material_Substantial ;
-    rdfs:label "gerösteter Brotscheiben" .
+<http://data.odeuropa.eu/SmellSource/b03ca885-8fdc-5701-aba6-e114a3b59b07> rdfs:label "gerösteter Brotscheiben" .
 
-<http://data.odeuropa.eu/SmellSource/b10b6b05-49a1-5f69-8ee1-145f81d84cb4> a crmsci:S10_Material_Substantial ;
-    rdfs:label "Poudre" .
+<http://data.odeuropa.eu/SmellSource/b10b6b05-49a1-5f69-8ee1-145f81d84cb4> rdfs:label "Poudre" .
 
-<http://data.odeuropa.eu/SmellSource/b132cda8-06d2-53f7-91fb-de04ea9e475a> a crmsci:S10_Material_Substantial ;
-    rdfs:label "Leichengeruch" .
+<http://data.odeuropa.eu/SmellSource/b132cda8-06d2-53f7-91fb-de04ea9e475a> rdfs:label "Leichengeruch" .
 
 <http://data.odeuropa.eu/SmellSource/b21b671f-fbe7-549c-8228-b9b06fcbfbac> a crmsci:S10_Material_Substantial ;
     rdfs:label "Strauß" ;
     crm:P137_exemplifies <http://data.odeuropa.eu/vocabulary/olfactory-objects/18> .
 
-<http://data.odeuropa.eu/SmellSource/b3129266-c9ad-5f38-a375-47f27838c0d0> a crmsci:S10_Material_Substantial ;
-    rdfs:label "verdorbenen Samen" .
+<http://data.odeuropa.eu/SmellSource/b3129266-c9ad-5f38-a375-47f27838c0d0> rdfs:label "verdorbenen Samen" .
 
 <http://data.odeuropa.eu/SmellSource/b37d1105-84b5-553a-841f-24ea50772c97> a crmsci:S10_Material_Substantial ;
     rdfs:label "Kaffee" ;
     crm:P137_exemplifies <http://data.odeuropa.eu/vocabulary/olfactory-objects/50> .
 
-<http://data.odeuropa.eu/SmellSource/b4519c97-c472-5139-9ae4-dae398af66e4> a crmsci:S10_Material_Substantial ;
-    rdfs:label "es" .
+<http://data.odeuropa.eu/SmellSource/b4519c97-c472-5139-9ae4-dae398af66e4> rdfs:label "es" .
 
-<http://data.odeuropa.eu/SmellSource/b48e1fed-1c70-5f99-af7d-0ba4f29fc7c4> a crmsci:S10_Material_Substantial ;
-    rdfs:label "Gegenwart" .
+<http://data.odeuropa.eu/SmellSource/b48e1fed-1c70-5f99-af7d-0ba4f29fc7c4> rdfs:label "Gegenwart" .
 
-<http://data.odeuropa.eu/SmellSource/b4a5fde9-8e7a-5ad4-b2b6-9f111c5d08b7> a crmsci:S10_Material_Substantial ;
-    rdfs:label "daran" .
+<http://data.odeuropa.eu/SmellSource/b4a5fde9-8e7a-5ad4-b2b6-9f111c5d08b7> rdfs:label "daran" .
 
-<http://data.odeuropa.eu/SmellSource/b4f8d495-f1a6-5deb-bae9-8480cff32281> a crmsci:S10_Material_Substantial ;
-    rdfs:label "Stuhlentleerungen" .
+<http://data.odeuropa.eu/SmellSource/b4f8d495-f1a6-5deb-bae9-8480cff32281> rdfs:label "Stuhlentleerungen" .
 
-<http://data.odeuropa.eu/SmellSource/b751ed89-fa44-5364-9a90-5d2b5ece4847> a crmsci:S10_Material_Substantial ;
-    rdfs:label "Fiſche" .
+<http://data.odeuropa.eu/SmellSource/b751ed89-fa44-5364-9a90-5d2b5ece4847> rdfs:label "Fiſche" .
 
-<http://data.odeuropa.eu/SmellSource/b7934ab4-291b-550e-920f-4a359177362e> a crmsci:S10_Material_Substantial ;
-    rdfs:label "Druſenbranntwein" .
+<http://data.odeuropa.eu/SmellSource/b7934ab4-291b-550e-920f-4a359177362e> rdfs:label "Druſenbranntwein" .
 
-<http://data.odeuropa.eu/SmellSource/b7d49b1a-7515-5812-958a-173c50331bb0> a crmsci:S10_Material_Substantial ;
-    rdfs:label "nach dem menſchlichen Miſt" .
+<http://data.odeuropa.eu/SmellSource/b7d49b1a-7515-5812-958a-173c50331bb0> rdfs:label "nach dem menſchlichen Miſt" .
 
-<http://data.odeuropa.eu/SmellSource/b868cf5f-4c0c-54a2-b6e8-cf97bdb74466> a crmsci:S10_Material_Substantial ;
-    rdfs:label "hohe Blume" .
+<http://data.odeuropa.eu/SmellSource/b868cf5f-4c0c-54a2-b6e8-cf97bdb74466> rdfs:label "hohe Blume" .
 
-<http://data.odeuropa.eu/SmellSource/b9ccc43f-e4f1-5454-8f57-cf1b3a9b3265> a crmsci:S10_Material_Substantial ;
-    rdfs:label "Pulver" .
+<http://data.odeuropa.eu/SmellSource/b9ccc43f-e4f1-5454-8f57-cf1b3a9b3265> rdfs:label "Pulver" .
 
 <http://data.odeuropa.eu/SmellSource/b9d6dd3c-f423-534f-bdbe-248a9afdf12b> a crmsci:S10_Material_Substantial ;
     rdfs:label "Wein" ;
@@ -5020,81 +4798,57 @@
     rdfs:label "Blume" ;
     crm:P137_exemplifies <http://data.odeuropa.eu/vocabulary/olfactory-objects/72> .
 
-<http://data.odeuropa.eu/SmellSource/bc2dcce5-b996-5250-8697-0b08146706cb> a crmsci:S10_Material_Substantial ;
-    rdfs:label "die Blum Joloſuchil" .
+<http://data.odeuropa.eu/SmellSource/bc2dcce5-b996-5250-8697-0b08146706cb> rdfs:label "die Blum Joloſuchil" .
 
-<http://data.odeuropa.eu/SmellSource/bce386a3-1339-55d9-a880-6c46ad1af3bd> a crmsci:S10_Material_Substantial ;
-    rdfs:label "Erinnerung" .
+<http://data.odeuropa.eu/SmellSource/bce386a3-1339-55d9-a880-6c46ad1af3bd> rdfs:label "Erinnerung" .
 
-<http://data.odeuropa.eu/SmellSource/bd60c9a5-b5a7-5905-a1ac-d0dd19f56b21> a crmsci:S10_Material_Substantial ;
-    rdfs:label "Cou - tentis der dicken Därme" .
+<http://data.odeuropa.eu/SmellSource/bd60c9a5-b5a7-5905-a1ac-d0dd19f56b21> rdfs:label "Cou - tentis der dicken Därme" .
 
-<http://data.odeuropa.eu/SmellSource/be610cf7-faef-5fec-aff4-0d77b0b3081d> a crmsci:S10_Material_Substantial ;
-    rdfs:label "ſie" .
+<http://data.odeuropa.eu/SmellSource/be610cf7-faef-5fec-aff4-0d77b0b3081d> rdfs:label "ſie" .
 
-<http://data.odeuropa.eu/SmellSource/be7e80fd-b8d3-548d-9c3d-190608996312> a crmsci:S10_Material_Substantial ;
-    rdfs:label "Mittel" .
+<http://data.odeuropa.eu/SmellSource/be7e80fd-b8d3-548d-9c3d-190608996312> rdfs:label "Mittel" .
 
-<http://data.odeuropa.eu/SmellSource/bfd8a1d9-dc37-5ef9-a0bb-5780234586c1> a crmsci:S10_Material_Substantial ;
-    rdfs:label "Subſtanzen" .
+<http://data.odeuropa.eu/SmellSource/bfd8a1d9-dc37-5ef9-a0bb-5780234586c1> rdfs:label "Subſtanzen" .
 
-<http://data.odeuropa.eu/SmellSource/c057d83c-c4fd-538f-9283-4a1b28f90b84> a crmsci:S10_Material_Substantial ;
-    rdfs:label "Paraguaythee" .
+<http://data.odeuropa.eu/SmellSource/c057d83c-c4fd-538f-9283-4a1b28f90b84> rdfs:label "Paraguaythee" .
 
-<http://data.odeuropa.eu/SmellSource/c0ad7764-42eb-51dc-8f8d-cb314e26b7d6> a crmsci:S10_Material_Substantial ;
-    rdfs:label "Oel" .
+<http://data.odeuropa.eu/SmellSource/c0ad7764-42eb-51dc-8f8d-cb314e26b7d6> rdfs:label "Oel" .
 
-<http://data.odeuropa.eu/SmellSource/c1291e55-21b4-5d01-a7f0-19d3d09b049b> a crmsci:S10_Material_Substantial ;
-    rdfs:label "Weibsbild" .
+<http://data.odeuropa.eu/SmellSource/c1291e55-21b4-5d01-a7f0-19d3d09b049b> rdfs:label "Weibsbild" .
 
-<http://data.odeuropa.eu/SmellSource/c1619408-884b-516a-8a4c-cca8527a9f86> a crmsci:S10_Material_Substantial ;
-    rdfs:label "die Aſche" .
+<http://data.odeuropa.eu/SmellSource/c1619408-884b-516a-8a4c-cca8527a9f86> rdfs:label "die Aſche" .
 
-<http://data.odeuropa.eu/SmellSource/c1eb3fb3-2f3d-5b1d-afad-0595d3fbfae5> a crmsci:S10_Material_Substantial ;
-    rdfs:label "Sträußer von Mai - blumen" .
+<http://data.odeuropa.eu/SmellSource/c1eb3fb3-2f3d-5b1d-afad-0595d3fbfae5> rdfs:label "Sträußer von Mai - blumen" .
 
 <http://data.odeuropa.eu/SmellSource/c2471efa-77f0-582c-9d2d-89a600cd72c2> a crmsci:S10_Material_Substantial ;
     rdfs:label "Wein" ;
     crm:P137_exemplifies <http://data.odeuropa.eu/vocabulary/olfactory-objects/169> .
 
-<http://data.odeuropa.eu/SmellSource/c30da31d-f398-569d-92f3-e4b3753e57ed> a crmsci:S10_Material_Substantial ;
-    rdfs:label "Sake , vielleicht ein Cabliau" .
+<http://data.odeuropa.eu/SmellSource/c30da31d-f398-569d-92f3-e4b3753e57ed> rdfs:label "Sake , vielleicht ein Cabliau" .
 
-<http://data.odeuropa.eu/SmellSource/c37aa72b-9a0b-58fb-bab6-8f3d34e4d8fc> a crmsci:S10_Material_Substantial ;
-    rdfs:label "Fiſchmarckt" .
+<http://data.odeuropa.eu/SmellSource/c37aa72b-9a0b-58fb-bab6-8f3d34e4d8fc> rdfs:label "Fiſchmarckt" .
 
-<http://data.odeuropa.eu/SmellSource/c487e610-27fe-53b2-84b3-ee75d2737fb0> a crmsci:S10_Material_Substantial ;
-    rdfs:label "Körper" .
+<http://data.odeuropa.eu/SmellSource/c487e610-27fe-53b2-84b3-ee75d2737fb0> rdfs:label "Körper" .
 
-<http://data.odeuropa.eu/SmellSource/c718762a-6277-5229-9f38-44ca5f2bf3f0> a crmsci:S10_Material_Substantial ;
-    rdfs:label "Sprit" .
+<http://data.odeuropa.eu/SmellSource/c718762a-6277-5229-9f38-44ca5f2bf3f0> rdfs:label "Sprit" .
 
-<http://data.odeuropa.eu/SmellSource/c8f4bf53-66a4-5fa8-b36e-b843f5b3e573> a crmsci:S10_Material_Substantial ;
-    rdfs:label "Schwe - N007 felwasserstoff" .
+<http://data.odeuropa.eu/SmellSource/c8f4bf53-66a4-5fa8-b36e-b843f5b3e573> rdfs:label "Schwe - N007 felwasserstoff" .
 
-<http://data.odeuropa.eu/SmellSource/c91d8d9b-01aa-5940-80bd-70e78834ee5b> a crmsci:S10_Material_Substantial ;
-    rdfs:label "blühende Äſte" .
+<http://data.odeuropa.eu/SmellSource/c91d8d9b-01aa-5940-80bd-70e78834ee5b> rdfs:label "blühende Äſte" .
 
-<http://data.odeuropa.eu/SmellSource/c9f76b9c-c5f8-549e-bae4-0eae005015e9> a crmsci:S10_Material_Substantial ;
-    rdfs:label "er" .
+<http://data.odeuropa.eu/SmellSource/c9f76b9c-c5f8-549e-bae4-0eae005015e9> rdfs:label "er" .
 
-<http://data.odeuropa.eu/SmellSource/cdb88136-5fde-5ae4-b661-455b38a063af> a crmsci:S10_Material_Substantial ;
-    rdfs:label "Schleim" .
+<http://data.odeuropa.eu/SmellSource/cdb88136-5fde-5ae4-b661-455b38a063af> rdfs:label "Schleim" .
 
-<http://data.odeuropa.eu/SmellSource/cddec009-7d4e-526a-9011-76ec096e4352> a crmsci:S10_Material_Substantial ;
-    rdfs:label "Senkgrube" .
+<http://data.odeuropa.eu/SmellSource/cddec009-7d4e-526a-9011-76ec096e4352> rdfs:label "Senkgrube" .
 
-<http://data.odeuropa.eu/SmellSource/cf3be8e9-a787-50a5-8632-b1c1e7d185d7> a crmsci:S10_Material_Substantial ;
-    rdfs:label "der nahe Wald" .
+<http://data.odeuropa.eu/SmellSource/cf3be8e9-a787-50a5-8632-b1c1e7d185d7> rdfs:label "der nahe Wald" .
 
-<http://data.odeuropa.eu/SmellSource/cf4a2dda-f49e-5994-814d-b3c2267f3ac8> a crmsci:S10_Material_Substantial ;
-    rdfs:label "ſilberne Weisheit" .
+<http://data.odeuropa.eu/SmellSource/cf4a2dda-f49e-5994-814d-b3c2267f3ac8> rdfs:label "ſilberne Weisheit" .
 
-<http://data.odeuropa.eu/SmellSource/cfc84968-e753-529a-94bd-b87fa52ad9b1> a crmsci:S10_Material_Substantial ;
-    rdfs:label "aus ſeiner Umgebung" .
+<http://data.odeuropa.eu/SmellSource/cfc84968-e753-529a-94bd-b87fa52ad9b1> rdfs:label "aus ſeiner Umgebung" .
 
-<http://data.odeuropa.eu/SmellSource/cfcb0d28-f43a-5fc1-8287-afa31dda462e> a crmsci:S10_Material_Substantial ;
-    rdfs:label "Heuchler" .
+<http://data.odeuropa.eu/SmellSource/cfcb0d28-f43a-5fc1-8287-afa31dda462e> rdfs:label "Heuchler" .
 
 <http://data.odeuropa.eu/SmellSource/d007114d-10d6-5cac-9931-c0534f1e263e> a crmsci:S10_Material_Substantial ;
     rdfs:label "Wein" ;
@@ -5104,49 +4858,37 @@
     rdfs:label "Kaffees" ;
     crm:P137_exemplifies <http://data.odeuropa.eu/vocabulary/olfactory-objects/50> .
 
-<http://data.odeuropa.eu/SmellSource/d12e6a77-ebc0-5b37-8122-00d92f62f0a9> a crmsci:S10_Material_Substantial ;
-    rdfs:label "Sachen" .
+<http://data.odeuropa.eu/SmellSource/d12e6a77-ebc0-5b37-8122-00d92f62f0a9> rdfs:label "Sachen" .
 
-<http://data.odeuropa.eu/SmellSource/d13719a7-fad5-50a2-b7c6-a514e4b47ea0> a crmsci:S10_Material_Substantial ;
-    rdfs:label "Weinberge" .
+<http://data.odeuropa.eu/SmellSource/d13719a7-fad5-50a2-b7c6-a514e4b47ea0> rdfs:label "Weinberge" .
 
-<http://data.odeuropa.eu/SmellSource/d146f0be-2d5e-525a-a322-4c28d37668d3> a crmsci:S10_Material_Substantial ;
-    rdfs:label "Aovaj" .
+<http://data.odeuropa.eu/SmellSource/d146f0be-2d5e-525a-a322-4c28d37668d3> rdfs:label "Aovaj" .
 
-<http://data.odeuropa.eu/SmellSource/d16d193a-a047-5e76-9e04-1f1f70a82d5d> a crmsci:S10_Material_Substantial ;
-    rdfs:label "ſolcher" .
+<http://data.odeuropa.eu/SmellSource/d16d193a-a047-5e76-9e04-1f1f70a82d5d> rdfs:label "ſolcher" .
 
-<http://data.odeuropa.eu/SmellSource/d24ce666-0d68-515e-996e-71324098755b> a crmsci:S10_Material_Substantial ;
-    rdfs:label "er" .
+<http://data.odeuropa.eu/SmellSource/d24ce666-0d68-515e-996e-71324098755b> rdfs:label "er" .
 
-<http://data.odeuropa.eu/SmellSource/d4411c3d-fe2c-5446-8b84-962272119dfe> a crmsci:S10_Material_Substantial ;
-    rdfs:label "bösen Wetter" .
+<http://data.odeuropa.eu/SmellSource/d4411c3d-fe2c-5446-8b84-962272119dfe> rdfs:label "bösen Wetter" .
 
-<http://data.odeuropa.eu/SmellSource/d51dfa34-512b-5746-95fd-21ac7a953972> a crmsci:S10_Material_Substantial ;
-    rdfs:label "Tabakgeruch" .
+<http://data.odeuropa.eu/SmellSource/d51dfa34-512b-5746-95fd-21ac7a953972> rdfs:label "Tabakgeruch" .
 
 <http://data.odeuropa.eu/SmellSource/d90fb207-ce5b-56cb-bcf3-10f2742c497f> a crmsci:S10_Material_Substantial ;
     rdfs:label "Blume" ;
     crm:P137_exemplifies <http://data.odeuropa.eu/vocabulary/olfactory-objects/72> .
 
-<http://data.odeuropa.eu/SmellSource/dae475d7-2add-53de-877d-a1bb08655797> a crmsci:S10_Material_Substantial ;
-    rdfs:label "Wasch - platzes" .
+<http://data.odeuropa.eu/SmellSource/dae475d7-2add-53de-877d-a1bb08655797> rdfs:label "Wasch - platzes" .
 
-<http://data.odeuropa.eu/SmellSource/dba88251-dab7-5471-a9c2-6cf0144d6db1> a crmsci:S10_Material_Substantial ;
-    rdfs:label "Paraguaythee" .
+<http://data.odeuropa.eu/SmellSource/dba88251-dab7-5471-a9c2-6cf0144d6db1> rdfs:label "Paraguaythee" .
 
-<http://data.odeuropa.eu/SmellSource/dbe21b2e-a50f-5a8e-8a34-e732f2d395e2> a crmsci:S10_Material_Substantial ;
+<http://data.odeuropa.eu/SmellSource/dbe21b2e-a50f-5a8e-8a34-e732f2d395e2> a <E22_Human-Made_Object> ;
     rdfs:label "Weihrauch" ;
     crm:P137_exemplifies <http://data.odeuropa.eu/vocabulary/olfactory-objects/89> .
 
-<http://data.odeuropa.eu/SmellSource/dbe38ac4-af56-5571-983d-0d74fda2bf5a> a crmsci:S10_Material_Substantial ;
-    rdfs:label "Sa - chen" .
+<http://data.odeuropa.eu/SmellSource/dbe38ac4-af56-5571-983d-0d74fda2bf5a> rdfs:label "Sa - chen" .
 
-<http://data.odeuropa.eu/SmellSource/dc33a11c-7678-5441-b712-46acf07e9419> a crmsci:S10_Material_Substantial ;
-    rdfs:label "Harze" .
+<http://data.odeuropa.eu/SmellSource/dc33a11c-7678-5441-b712-46acf07e9419> rdfs:label "Harze" .
 
-<http://data.odeuropa.eu/SmellSource/dc4bc5ca-3223-543d-8c86-a912902fe5e8> a crmsci:S10_Material_Substantial ;
-    rdfs:label "er" .
+<http://data.odeuropa.eu/SmellSource/dc4bc5ca-3223-543d-8c86-a912902fe5e8> rdfs:label "er" .
 
 <http://data.odeuropa.eu/SmellSource/dc5e1a02-146e-5ffb-ad87-d00ddde73b0e> a crmsci:S10_Material_Substantial ;
     rdfs:label "Pferd" ;
@@ -5156,145 +4898,105 @@
     rdfs:label "das Feuer" ;
     crm:P137_exemplifies <http://data.odeuropa.eu/vocabulary/olfactory-objects/66> .
 
-<http://data.odeuropa.eu/SmellSource/dd4e9763-7210-50d3-86d9-815ed3f76efc> a crmsci:S10_Material_Substantial ;
-    rdfs:label "Urin" .
+<http://data.odeuropa.eu/SmellSource/dd4e9763-7210-50d3-86d9-815ed3f76efc> rdfs:label "Urin" .
 
-<http://data.odeuropa.eu/SmellSource/dd9312dc-2b72-5fe7-9ed5-500abdbcf08e> a crmsci:S10_Material_Substantial ;
-    rdfs:label "es" .
+<http://data.odeuropa.eu/SmellSource/dd9312dc-2b72-5fe7-9ed5-500abdbcf08e> rdfs:label "es" .
 
-<http://data.odeuropa.eu/SmellSource/ddc28eca-23dd-50ce-92b4-6c5dcacd0a39> a crmsci:S10_Material_Substantial ;
-    rdfs:label "Materie" .
+<http://data.odeuropa.eu/SmellSource/ddc28eca-23dd-50ce-92b4-6c5dcacd0a39> rdfs:label "Materie" .
 
-<http://data.odeuropa.eu/SmellSource/de18e6d3-1a2b-5ec2-8e8e-4272a31fad18> a crmsci:S10_Material_Substantial ;
-    rdfs:label "Wurzel" .
+<http://data.odeuropa.eu/SmellSource/de18e6d3-1a2b-5ec2-8e8e-4272a31fad18> rdfs:label "Wurzel" .
 
-<http://data.odeuropa.eu/SmellSource/de1987bb-eef8-5d70-a706-d6b952d64fde> a crmsci:S10_Material_Substantial ;
-    rdfs:label "gewaltig qualmenden Ofen" .
+<http://data.odeuropa.eu/SmellSource/de1987bb-eef8-5d70-a706-d6b952d64fde> rdfs:label "gewaltig qualmenden Ofen" .
 
-<http://data.odeuropa.eu/SmellSource/de47ec0a-4ad0-5d6b-8ffc-df63acf1bfbc> a crmsci:S10_Material_Substantial ;
-    rdfs:label "Leichengeruch" .
+<http://data.odeuropa.eu/SmellSource/de47ec0a-4ad0-5d6b-8ffc-df63acf1bfbc> rdfs:label "Leichengeruch" .
 
-<http://data.odeuropa.eu/SmellSource/defb0259-11bf-53ba-8f0b-ed0f0d34138e> a crmsci:S10_Material_Substantial ;
-    rdfs:label "ſie" .
+<http://data.odeuropa.eu/SmellSource/defb0259-11bf-53ba-8f0b-ed0f0d34138e> rdfs:label "ſie" .
 
-<http://data.odeuropa.eu/SmellSource/df032975-8670-5895-9974-acf46e24f4b2> a crmsci:S10_Material_Substantial ;
-    rdfs:label "des Schiffs" .
+<http://data.odeuropa.eu/SmellSource/df032975-8670-5895-9974-acf46e24f4b2> rdfs:label "des Schiffs" .
 
 <http://data.odeuropa.eu/SmellSource/df207436-90fe-522f-af6a-bbeccc7d2b0d> a crmsci:S10_Material_Substantial ;
     rdfs:label "Strauß" ;
     crm:P137_exemplifies <http://data.odeuropa.eu/vocabulary/olfactory-objects/18> .
 
-<http://data.odeuropa.eu/SmellSource/dfd5008d-cfb2-5c27-a607-02a253360163> a crmsci:S10_Material_Substantial ;
-    rdfs:label "balſamus floridiſſimus" .
+<http://data.odeuropa.eu/SmellSource/dfd5008d-cfb2-5c27-a607-02a253360163> rdfs:label "balſamus floridiſſimus" .
 
-<http://data.odeuropa.eu/SmellSource/dfd8e2ee-a30d-5335-ba9d-79a9dfd0a117> a crmsci:S10_Material_Substantial ;
-    rdfs:label "Theeblätter" .
+<http://data.odeuropa.eu/SmellSource/dfd8e2ee-a30d-5335-ba9d-79a9dfd0a117> rdfs:label "Theeblätter" .
 
-<http://data.odeuropa.eu/SmellSource/e06640fa-7ddc-5cb4-9cb9-80d5682e5c9b> a crmsci:S10_Material_Substantial ;
-    rdfs:label "Munde" .
+<http://data.odeuropa.eu/SmellSource/e06640fa-7ddc-5cb4-9cb9-80d5682e5c9b> rdfs:label "Munde" .
 
-<http://data.odeuropa.eu/SmellSource/e164de6b-0a73-5d03-8194-e14bac255859> a crmsci:S10_Material_Substantial ;
-    rdfs:label "Sa - chen" .
+<http://data.odeuropa.eu/SmellSource/e164de6b-0a73-5d03-8194-e14bac255859> rdfs:label "Sa - chen" .
 
-<http://data.odeuropa.eu/SmellSource/e1cd4d70-e21c-5251-851b-50073a27140c> a crmsci:S10_Material_Substantial ;
-    rdfs:label "Aliptæ Moſchatæ" .
+<http://data.odeuropa.eu/SmellSource/e1cd4d70-e21c-5251-851b-50073a27140c> rdfs:label "Aliptæ Moſchatæ" .
 
-<http://data.odeuropa.eu/SmellSource/e3213829-942f-5089-950d-4cbaa1c5ed3b> a crmsci:S10_Material_Substantial ;
-    rdfs:label "die Waͤſche" .
+<http://data.odeuropa.eu/SmellSource/e3213829-942f-5089-950d-4cbaa1c5ed3b> rdfs:label "die Waͤſche" .
 
-<http://data.odeuropa.eu/SmellSource/e3468c1d-bbe7-57ea-90e1-12ec52a3997e> a crmsci:S10_Material_Substantial ;
-    rdfs:label "Sachen" .
+<http://data.odeuropa.eu/SmellSource/e3468c1d-bbe7-57ea-90e1-12ec52a3997e> rdfs:label "Sachen" .
 
-<http://data.odeuropa.eu/SmellSource/e74c0f72-f24f-5872-8e4f-4fa66f6ad3f0> a crmsci:S10_Material_Substantial ;
-    rdfs:label "Weibsbild" .
+<http://data.odeuropa.eu/SmellSource/e74c0f72-f24f-5872-8e4f-4fa66f6ad3f0> rdfs:label "Weibsbild" .
 
-<http://data.odeuropa.eu/SmellSource/e81ed082-3c5f-5bb3-b802-60f8ea189cb4> a crmsci:S10_Material_Substantial ;
-    rdfs:label "Chlorgeruch" .
+<http://data.odeuropa.eu/SmellSource/e81ed082-3c5f-5bb3-b802-60f8ea189cb4> rdfs:label "Chlorgeruch" .
 
-<http://data.odeuropa.eu/SmellSource/e8609972-dfbb-564d-8b0c-885299327a44> a crmsci:S10_Material_Substantial ;
-    rdfs:label "daran" .
+<http://data.odeuropa.eu/SmellSource/e8609972-dfbb-564d-8b0c-885299327a44> rdfs:label "daran" .
 
-<http://data.odeuropa.eu/SmellSource/e8c4ac30-2f84-59bf-a643-8d0e0654a6ad> a crmsci:S10_Material_Substantial ;
-    rdfs:label "Hand" .
+<http://data.odeuropa.eu/SmellSource/e8c4ac30-2f84-59bf-a643-8d0e0654a6ad> rdfs:label "Hand" .
 
-<http://data.odeuropa.eu/SmellSource/e990b49e-8b16-5092-8047-1b797cc6023a> a crmsci:S10_Material_Substantial ;
-    rdfs:label "Kleidern" .
+<http://data.odeuropa.eu/SmellSource/e990b49e-8b16-5092-8047-1b797cc6023a> rdfs:label "Kleidern" .
 
-<http://data.odeuropa.eu/SmellSource/e9925578-2400-5a4f-b53d-7a53547c92cf> a crmsci:S10_Material_Substantial ;
-    rdfs:label "die Fuß - ſtapffen" .
+<http://data.odeuropa.eu/SmellSource/e9925578-2400-5a4f-b53d-7a53547c92cf> rdfs:label "die Fuß - ſtapffen" .
 
-<http://data.odeuropa.eu/SmellSource/eb8b2698-fb89-5b2b-9e17-496d71d23766> a crmsci:S10_Material_Substantial ;
-    rdfs:label "Wacholdern" .
+<http://data.odeuropa.eu/SmellSource/eb8b2698-fb89-5b2b-9e17-496d71d23766> rdfs:label "Wacholdern" .
 
 <http://data.odeuropa.eu/SmellSource/eccd6494-853c-50f9-af3b-024f71a1cbf1> a crmsci:S10_Material_Substantial ;
     rdfs:label "Zibeth" ;
     crm:P137_exemplifies <http://data.odeuropa.eu/vocabulary/olfactory-objects/44> .
 
-<http://data.odeuropa.eu/SmellSource/ee0e5656-ab85-5299-9e6e-7cd1b56fb938> a crmsci:S10_Material_Substantial ;
-    rdfs:label "Stoffe" .
+<http://data.odeuropa.eu/SmellSource/ee0e5656-ab85-5299-9e6e-7cd1b56fb938> rdfs:label "Stoffe" .
 
-<http://data.odeuropa.eu/SmellSource/ee9cba09-5e7c-5eb1-b0ae-fdd814eacab9> a crmsci:S10_Material_Substantial ;
-    rdfs:label "Schleim" .
+<http://data.odeuropa.eu/SmellSource/ee9cba09-5e7c-5eb1-b0ae-fdd814eacab9> rdfs:label "Schleim" .
 
-<http://data.odeuropa.eu/SmellSource/ef368865-52cf-5094-afa4-52d49bf10148> a crmsci:S10_Material_Substantial ;
-    rdfs:label "ſie" .
+<http://data.odeuropa.eu/SmellSource/ef368865-52cf-5094-afa4-52d49bf10148> rdfs:label "ſie" .
 
-<http://data.odeuropa.eu/SmellSource/ef65363f-68b9-54f3-8e4c-529e77ac76b2> a crmsci:S10_Material_Substantial ;
-    rdfs:label "Schweisse" .
+<http://data.odeuropa.eu/SmellSource/ef65363f-68b9-54f3-8e4c-529e77ac76b2> rdfs:label "Schweisse" .
 
-<http://data.odeuropa.eu/SmellSource/ef8c23c3-96ee-50a5-baef-f8252f63c18d> a crmsci:S10_Material_Substantial ;
-    rdfs:label "Flüssigkeit" .
+<http://data.odeuropa.eu/SmellSource/ef8c23c3-96ee-50a5-baef-f8252f63c18d> rdfs:label "Flüssigkeit" .
 
-<http://data.odeuropa.eu/SmellSource/ef95ce60-a39a-5e7e-ace5-51a0bf6232cf> a crmsci:S10_Material_Substantial ;
-    rdfs:label "nach dem menſchlichen Miſt" .
+<http://data.odeuropa.eu/SmellSource/ef95ce60-a39a-5e7e-ace5-51a0bf6232cf> rdfs:label "nach dem menſchlichen Miſt" .
 
-<http://data.odeuropa.eu/SmellSource/f07b9ade-b4f7-5e72-be0d-1c736946f8f3> a crmsci:S10_Material_Substantial ;
-    rdfs:label "Flüssigkeit" .
+<http://data.odeuropa.eu/SmellSource/f07b9ade-b4f7-5e72-be0d-1c736946f8f3> rdfs:label "Flüssigkeit" .
 
-<http://data.odeuropa.eu/SmellSource/f110e290-d0a2-5167-8d4c-1fc4dd90b7ea> a crmsci:S10_Material_Substantial ;
-    rdfs:label "Gal - liæ Moſchatæ" .
+<http://data.odeuropa.eu/SmellSource/f110e290-d0a2-5167-8d4c-1fc4dd90b7ea> rdfs:label "Gal - liæ Moſchatæ" .
 
-<http://data.odeuropa.eu/SmellSource/f14c205d-106f-548c-b293-fe9d79965be6> a crmsci:S10_Material_Substantial ;
-    rdfs:label "Gummi" .
+<http://data.odeuropa.eu/SmellSource/f14c205d-106f-548c-b293-fe9d79965be6> rdfs:label "Gummi" .
 
-<http://data.odeuropa.eu/SmellSource/f19e453a-0e06-59a2-a575-91bd76952e7c> a crmsci:S10_Material_Substantial ;
-    rdfs:label "kleinen Strauß" .
+<http://data.odeuropa.eu/SmellSource/f19e453a-0e06-59a2-a575-91bd76952e7c> rdfs:label "kleinen Strauß" .
 
-<http://data.odeuropa.eu/SmellSource/f31a0768-a01e-5443-b974-97bde50300e0> a crmsci:S10_Material_Substantial ;
-    rdfs:label "Theeblätter" .
+<http://data.odeuropa.eu/SmellSource/f31a0768-a01e-5443-b974-97bde50300e0> rdfs:label "Theeblätter" .
 
-<http://data.odeuropa.eu/SmellSource/f3d8db15-f3d4-5993-8e5d-fce44c127b34> a crmsci:S10_Material_Substantial ;
-    rdfs:label "ſtets gruͤnender Balſam" .
+<http://data.odeuropa.eu/SmellSource/f3d8db15-f3d4-5993-8e5d-fce44c127b34> rdfs:label "ſtets gruͤnender Balſam" .
 
 <http://data.odeuropa.eu/SmellSource/f625d800-c44c-528a-ac2b-2a29062cc834> a crmsci:S10_Material_Substantial ;
     rdfs:label "Blumen" ;
     crm:P137_exemplifies <http://data.odeuropa.eu/vocabulary/olfactory-objects/72> .
 
-<http://data.odeuropa.eu/SmellSource/f6c2c2f6-c2c1-5d2f-b625-61ecde015814> a crmsci:S10_Material_Substantial ;
-    rdfs:label "Qualm" .
+<http://data.odeuropa.eu/SmellSource/f6c2c2f6-c2c1-5d2f-b625-61ecde015814> rdfs:label "Qualm" .
 
-<http://data.odeuropa.eu/SmellSource/f73d774f-58e2-55d0-a7f6-c4f7e692957d> a crmsci:S10_Material_Substantial ;
-    rdfs:label "Geitzigen" .
+<http://data.odeuropa.eu/SmellSource/f73d774f-58e2-55d0-a7f6-c4f7e692957d> rdfs:label "Geitzigen" .
 
-<http://data.odeuropa.eu/SmellSource/f7898fdf-81b6-5af8-afc7-b5a490996d2a> a crmsci:S10_Material_Substantial ;
-    rdfs:label "Valerianſäure" .
+<http://data.odeuropa.eu/SmellSource/f7898fdf-81b6-5af8-afc7-b5a490996d2a> rdfs:label "Valerianſäure" .
 
 <http://data.odeuropa.eu/SmellSource/f7c5328c-d0ec-5729-bc82-7c2e3b518e0f> a crmsci:S10_Material_Substantial ;
     rdfs:label "Blume" ;
     crm:P137_exemplifies <http://data.odeuropa.eu/vocabulary/olfactory-objects/72> .
 
-<http://data.odeuropa.eu/SmellSource/f841da8c-e560-540a-88c0-25761741aaf6> a crmsci:S10_Material_Substantial ;
-    rdfs:label "Wolluͤſtigen" .
+<http://data.odeuropa.eu/SmellSource/f841da8c-e560-540a-88c0-25761741aaf6> rdfs:label "Wolluͤſtigen" .
 
-<http://data.odeuropa.eu/SmellSource/fa78a84a-7eda-5f9b-8037-cb69d260e0e8> a crmsci:S10_Material_Substantial ;
-    rdfs:label "ein Ballen Kaffee" .
+<http://data.odeuropa.eu/SmellSource/fa78a84a-7eda-5f9b-8037-cb69d260e0e8> rdfs:label "ein Ballen Kaffee" .
 
 <http://data.odeuropa.eu/SmellSource/fe4f68fb-397f-5502-9b82-db318942e1ca> a crmsci:S10_Material_Substantial ;
     rdfs:label "Strauß" ;
     crm:P137_exemplifies <http://data.odeuropa.eu/vocabulary/olfactory-objects/18> .
 
-<http://data.odeuropa.eu/SmellSource/ff37ed0a-7dd4-5ca2-90b0-315f1b727864> a crmsci:S10_Material_Substantial ;
-    rdfs:label "Ro - ſen-Waſſer" .
+<http://data.odeuropa.eu/SmellSource/ff37ed0a-7dd4-5ca2-90b0-315f1b727864> rdfs:label "Ro - ſen-Waſſer" .
 
 <http://data.odeuropa.eu/OlfactoryExperience/0146a4bc-9578-5a70-b274-58deec472221> a od:L13_Olfactory_Experience ;
     od:F2_perceived <http://data.odeuropa.eu/Smell/0146a4bc-9578-5a70-b274-58deec472221> ;
@@ -6702,8 +6404,7 @@
 
 <http://data.odeuropa.eu/Time/7e7b585e-6c19-5a6d-a6c9-db92d2e276e4> a time:TemporalEntity ;
     rdfs:label "XXXX-22" ;
-    rdfs:comment "morning"@en ;
-    time:hasEnd "XXXX-22morning"^^xsd:month .
+    rdfs:comment "morning"@en .
 
 <http://data.odeuropa.eu/Smell/0e3509a2-0c61-5b89-b590-15cb47c60184> a od:L11_Smell .
 

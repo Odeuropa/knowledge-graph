@@ -59,7 +59,7 @@ class Place(Entity):
 
     @classmethod
     def from_text(cls, text, lang='en'):
-        if is_invalid(text):
+        if is_invalid(text) or re.match('[0-9]+(\\.[0-9]+)?', text):
             return None
         text = re.sub(IN_PREFIX.get(lang, IN_PREFIX['en']), '', text.strip(), flags=re.I).strip()
         text = text.strip(string.punctuation).strip()
@@ -77,10 +77,10 @@ class Place(Entity):
             disambiguate = text_clean[0].isupper()
 
         # TODO
-        if not text_clean:
+        if not text_clean or re.match('[0-9]+(\\.[0-9]+)?', text_clean):
             return None
 
-        typ = VocManager.get('fragrant-spaces').interlink(text_clean, lang, fallback=None)
+        typ, role = VocManager.get('fragrant-spaces').interlink(text_clean, lang, fallback=None)
         if typ or not disambiguate:
             return Place(text, typ)
 

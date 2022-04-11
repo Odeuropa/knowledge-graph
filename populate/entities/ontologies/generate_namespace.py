@@ -119,7 +119,7 @@ def _hdr(g: Graph, uri: URIRef, url: str) -> str:
 
     # Prettify the class docstring
     order = 100
-    for l in g2.serialize(format="turtle").decode().split('\n'):
+    for l in g2.serialize(format="turtle").split('\n'):
         if l and '@prefix' not in l:
             l = re.sub(r';$', '', re.sub(r'.$', '', l))
             l = l.replace('"""', "'''").replace('\\r', '\n').replace('@en', '').rstrip()

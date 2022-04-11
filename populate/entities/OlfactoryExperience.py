@@ -31,13 +31,13 @@ class OlfactoryExperience(Entity):
         self.assignment_id += 1
         attr_uri = path.join(self.uri, 'assignment', str(self.assignment_id))
 
-        assignement = URIRef(attr_uri)
-        add(assignement, RDF.type, CRM.E13_Attribute_Assignment)
-        add(assignement, CRM.P141_assigned, adjective, lang)
-        add(assignement, CRM.P140_assigned_attribute_to, self.smell)
-        add(assignement, CRM.P14_carried_out_by, self.perceiver)
+        assignment = URIRef(attr_uri)
+        add(assignment, RDF.type, CRM.E13_Attribute_Assignment)
+        add(assignment, CRM.P141_assigned, adjective, lang)
+        add(assignment, CRM.P140_assigned_attribute_to, self.smell)
+        add(assignment, CRM.P14_carried_out_by, self.perceiver)
 
-        add(assignement, CRM.P17_was_motivated_by, self)
+        add(assignment, CRM.P17_was_motivated_by, self)
 
     def add_gesture(self, gesture, lang=''):
         if is_invalid(gesture):

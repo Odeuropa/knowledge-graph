@@ -10,8 +10,10 @@ class Actor(Entity):
         super().__init__(name)
         self.add(RDFS.label, name)
 
-        wd = wikidata_api.searchperson(name, lang=lang, alive_in=alive_in)
-        if wd:
+        wd = None
+        if len(name) < 40:
+            wd = wikidata_api.searchperson(name, lang=lang, alive_in=alive_in)
+        if wd is not None:
             self.setclass(CRM.E21_Person)
             self.add(OWL.sameAs, wd)
         else:

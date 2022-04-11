@@ -36,18 +36,16 @@ class Time(Entity):
         return t
 
     def set_start(self, date, type):
-        if not date:
+        if not date or 'X' in date:
             return
         self.start = date
         self.add(TIME.hasBeginning, date, type)
-        pass
 
     def set_end(self, date, type):
-        if not date:
+        if not date or 'X' in date:
             return
         self.end = date
         self.add(TIME.hasEnd, date, type)
-        pass
 
     def compute_rdf_date(self):
         dt = time_parsing.parse_edtf(self.seed)

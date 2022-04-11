@@ -52,6 +52,7 @@ class Lemma:
         self.prefLabel = as_array(data['prefLabel'])
         self.altLabel = as_array(data.get('altLabel'))
         self.id = data['@id']
+        self.collection = data.get('collection', None)
         self.score = score
 
         for x in as_array(self.data.get('exactMatch', [])):

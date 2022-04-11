@@ -94,12 +94,12 @@ def parse_edtf(edtf):
         # uncertainty on the year, I can't transform into rdf date
         start = ''
     else:
-        start += start.replace('XX', '01').replace('X', '1')
-    if start.startswith('X'):
+        start = start.replace('XX', '01').replace('X', '1')
+    if end.startswith('X'):
         # uncertainty on the year, I can't transform into rdf date
         end = ''
     else:
-        end += start.replace('XX', '99').replace('X', '9')
+        end = end.replace('XX', '99').replace('X', '9')
 
     dashS = start.count('-')
     dashE = end.count('-')
@@ -220,6 +220,7 @@ def parse_date(date, lang='en'):
 
     date = re.sub(lg.CENTURY_VARIATION, lg.CENTURY_STANDARD, date)
     date = re.sub(r"[.,]$", "", date)  # trailing punctuation
+    date = re.sub(r"\(?(dated?|active)\)?", "", date)
 
     date = re.sub(r'^(\d{1,2}(?:st|nd|rd|th))C$', r'\1 ' + lg.CENTURY_STANDARD, date)
     date = re.sub(r"\s+", " ", date)  # double space to one space
@@ -436,7 +437,7 @@ def parse_date(date, lang='en'):
         return pack_edtf_list(parsed, sym)
 
     # if it is already EDTF
-    if re.match('^[0-9X-]*$', date):
+    if re.match('^[/0-9X-]*$', date):
         return date + sym
 
     # search month in string

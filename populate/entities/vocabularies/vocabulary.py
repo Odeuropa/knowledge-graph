@@ -26,6 +26,7 @@ class Vocabulary:
                 'altLabel': '$skos:altLabel|skos:hiddenLabel',
                 'exactMatch': '$skos:exactMatch',
                 'inScheme': '?namespace',
+                'collection': '$skos:member$reverse'
             }],
             '$where': '{ ?id skos:inScheme|skos:topConceptOf ?namespace } UNION { ?namespace skos:member ?id}',
             '$values': {

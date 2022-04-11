@@ -39,13 +39,13 @@ class VocabularyController:
         q = lemmatizer.lemmatize(q)
         x = self.search(q, lang, 1, False).lemmata[0]
         if x.score > 0.6:
-            return x.id
+            return x.id, x.collection
         elif fallback == 'text':
-            return q
+            return q, None
         elif fallback == 'best':
-            return x.id
+            return x.id, x.collection
         else:
-            return None
+            return None, None
 
     def interlink_long(self, q, lang='en', fallback=None):
         # TODO for long texts, for which we want to "classify" rather than match
