@@ -14,7 +14,7 @@ class ImageObject(SourceDoc):
         super().__init__(_id, title, author, date)
         self.genre = genre
 
-        self.setclass(CRM.E33_Linguistic_Object)
+        self.setclass(CRM.E36_Visual_Item)
         self.add(SDO.genre, genre)
         self.add(SDO.locationCreated, Place.from_text(place))
         self.add(SDO.image, url)

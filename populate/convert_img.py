@@ -117,7 +117,6 @@ BASE_OO = 'http://data.odeuropa.eu/vocabulary/olfactory-objects/'
 
 def guess_annotation(body, seed):
     uri, role = body.get('uri')
-    ann = None
     if uri is None:
         # no choice, generic
         ann = Thing(seed, body['name'])

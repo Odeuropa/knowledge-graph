@@ -45,6 +45,7 @@ def set_prov(statement, prov):
     # g.add((statement, PROV.wasGeneratedBy, prov))
     pass
 
+
 def is_invalid(what):
     return what is None or what == '' or (type(what) == float and np.isnan(what))
 
