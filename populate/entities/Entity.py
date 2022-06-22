@@ -27,7 +27,10 @@ class Entity:
             Graph.add(self.res, pred, x.strip(), lang)
 
     def add_label(self, label):
-        self.add(RDFS.label, label)
+        self.add(RDFS.label, label.strip())
+
+    def add_descr(self, text):
+        self.add(RDFS.comment, text.strip())
 
     def add_place(self, place):
         self.add(CRM.P7_took_place_at, place)

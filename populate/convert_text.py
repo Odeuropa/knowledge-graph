@@ -1,5 +1,6 @@
-from math import isnan
+import os
 from os import path
+from math import isnan
 import re
 
 import numpy as np
@@ -9,14 +10,16 @@ from tqdm import tqdm
 
 from entities import *
 from entities.ontologies import CRM
-from entities.vocabularies import vocabulary_manager as VocabularyManager
+from entities.vocabularies import VocabularyManager as VocabularyManager
 from entities.utils.smell_words import get_all_smell_words
 from entities.utils.pronouns import Pronouns
 
 # xlsx_file = path.join('./', 'input', 'benchmark-annotation-output.xlsx')
 docs_file = path.join('./', 'input', 'benchmark.xlsx')
+out_folder = '../dump/text-annotation'
+os.makedirs(out_folder, exist_ok=True)
 
-DOC_ID_REGEX = "\d{3}[A-Z]"
+DOC_ID_REGEX = r"\d{3}[A-Z]"
 
 lang_map = {
     'English': 'en',
@@ -38,7 +41,8 @@ def get_safe(name, obj):
 
 WORKAROUND_DOC_ID = {
     "108 Antilles.txt": "108F",
-    "107 Moreau 1639.txt": "107F"
+    "107 Moreau 1639.txt": "107F",
+    "Wander_Deutsches-Sprichwörter-Lexikon_1867.txt": "076G",
 }
 
 not_found = []
@@ -46,8 +50,8 @@ not_found = []
 
 def extract_id(lang, title):
     if title in WORKAROUND_DOC_ID:
-        id = WORKAROUND_DOC_ID[title]
-        return id, docs[id]
+        _id = WORKAROUND_DOC_ID[title]
+        return _id, docs[_id]
     x = re.search(DOC_ID_REGEX, title)
     if x is not None:
         x = x.group(0)
@@ -55,6 +59,7 @@ def extract_id(lang, title):
         ctitle = re.sub(r"_potentially_smelly_passages_\d+\.txt", "", title)
         ctitle = re.sub(r"\.txt.+", "", ctitle)
         ctitle = re.sub(r"^_", "", ctitle)
+        ctitle = re.sub(r"^LITERATURE_", "0", ctitle)
         ctitle = ctitle.replace(' ', '-')
 
         x = [k for k in docs.keys() if k in ctitle or ctitle in k]
@@ -75,27 +80,28 @@ def process_annotation_sheet(df, lang):
 
     for i, r in tqdm(df.iterrows(), total=df.shape[0]):
         title = r['Title']
-        if title == 'annotator1.xmi':
+        if 'annotator1.xmi' in title:
             continue
 
-        id, doc = extract_id(lang, title)
-        if not id in doc_map:
-            doc_map[id] = 0
+        identifier, doc = extract_id(lang, title)
+        if identifier not in doc_map:
+            doc_map[identifier] = 0
 
-        j = doc_map[id]
-        doc_map[id] += 1
+        j = doc_map[identifier]
+        doc_map[identifier] += 1
 
-        txt = doc or TextualObject(id, title)
+        txt = doc or TextualObject(identifier, title)
         prov = Provenance(r['Annotator'])
 
-        smell = Smell(id + str(j))
-        emission = SmellEmission(id + str(j), smell, get_safe('Smell_Source', r), get_safe('Odour_Carrier', r),
+        smell = Smell(identifier + str(j))
+        smell.add_descr(r['Sentence'])
+        emission = SmellEmission(identifier + str(j), smell, get_safe('Smell_Source', r), get_safe('Odour_Carrier', r),
                                  lang=lang)
         perceiver = set([p for p in r['Perceiver'].split(' | ') if p not in get_all_smell_words(lang)])
-        experience = OlfactoryExperience(id + str(j), smell, quality=r['Quality'], lang=lang)
+        experience = OlfactoryExperience(identifier + str(j), smell, quality=r['Quality'], lang=lang)
         for p in perceiver:
-            if p.lower() in Pronouns.myself(lang) and id in docs:  # fixme
-                doc = docs[id]
+            if p.lower() in Pronouns.myself(lang) and identifier in docs:  # fixme
+                doc = docs[identifier]
                 if doc.genre not in ['LIT', 'THE']:
                     experience.add_perceiver(doc.author)
                     continue
@@ -128,10 +134,10 @@ def process_benchmark_sheet(language):
     lang = lang_map[language]
 
     for i, r in tqdm(df.iterrows(), total=df.shape[0]):
-        id = r.get('File Name', r['Document Identifier'])
-        if id == '':
+        identifier = r.get('File Name', r['Document Identifier'])
+        if identifier == '':
             continue
-        id = id.replace(' ', '-')
+        identifier = identifier.replace(' ', '-')
 
         year = r['Year of Publication'].replace('.0', '')
         if "(" in year:
@@ -139,9 +145,9 @@ def process_benchmark_sheet(language):
             cont = re.search(r'\((.*?)\)', year)
             year = cont.group(1) if not cont.group(1).startswith('from') else year.replace(cont.group(0), '')
 
-        to = TextualObject(id, r['Title'], r['Author'], year,
+        to = TextualObject(identifier, r['Title'], r['Author'], year,
                            r['Place of Publication'], lang, r['Genre'])
-        docs[id] = to
+        docs[identifier] = to
 
 
 # init
@@ -151,16 +157,19 @@ VocabularyManager.setup(config['vocabularies'])
 
 # convert
 
-for x in ['English', 'Italian', 'Dutch', 'French', 'German', 'Slovenian', 'Dutch']:
-    process_benchmark_sheet(x)
-Graph.g.serialize(destination=f"../dump/main/docs.ttl")
+for lg in ['English', 'Italian', 'Dutch', 'French', 'German', 'Slovenian', 'Dutch']:
+    process_benchmark_sheet(lg)
+Graph.g.serialize(destination=f"{out_folder}/docs.ttl")
 Graph.reset()
 
-for x in ['en', 'fr', 'it', 'de', 'sl', 'nl']:
-    with open(f"./input/{x}-frame-elements.tsv") as file:
+for lg in ['en', 'fr', 'it', 'de', 'sl', 'nl']:
+    with open(f"./input/{lg}-frame-elements.tsv") as file:
         tsv_data = pd.read_csv(file, sep='\t')
-        process_annotation_sheet(tsv_data, lang=x)
-        Graph.g.serialize(destination=f"../dump/main/{x}.ttl")
+        process_annotation_sheet(tsv_data, lang=lg)
+        out = Graph.g.serialize(format='ttl')
+        out = out.replace('"<<', '<<').replace('>>"', '>>')
+        with open(f"{out_folder}/{lg}.ttl", 'w') as outfile:
+            outfile.write(out)
         Graph.reset()
 
 print(np.unique(not_found))

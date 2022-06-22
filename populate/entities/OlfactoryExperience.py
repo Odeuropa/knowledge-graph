@@ -4,7 +4,7 @@ from os import path
 from .Entity import Entity
 from .Graph import add, is_invalid
 from .ontologies import ODEUROPA, CRM
-from .vocabularies import vocabulary_manager as VocManager
+from .vocabularies import VocabularyManager as VocManager
 
 
 class OlfactoryExperience(Entity):

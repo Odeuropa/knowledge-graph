@@ -4,17 +4,23 @@ from rdflib import Graph, URIRef, Literal, TIME, SDO, OWL, PROV
 from .ontologies import *
 from .Entity import Entity
 
+g = Graph()
+
+
+def set_prefixes(gx):
+    gx.bind("od", ODEUROPA)
+    gx.bind("crm", CRM)
+    gx.bind("crmsci", CRMsci)
+    gx.bind("time", TIME)
+    gx.bind("schema", SDO)
+    gx.bind("owl", OWL)
+
 
 def reset():
     global g
     g = Graph()
 
-    g.bind("od", ODEUROPA)
-    g.bind("crm", CRM)
-    g.bind("crmsci", CRMsci)
-    g.bind("time", TIME)
-    g.bind("schema", SDO)
-    g.bind("owl", OWL)
+    set_prefixes(g)
 
 
 def add(subj, pred, obj, lang=''):
@@ -38,11 +44,20 @@ def add(subj, pred, obj, lang=''):
     return statement
 
 
+def wrap_statement(statement):
+    gx = Graph()
+    set_prefixes(gx)
+    gx.add(statement)
+    gxt = gx.serialize(format='ttl').split(' .')[-2].strip()
+    return Literal(f"<< {gxt} >>")
+
+
 def set_prov(statement, prov):
     if not statement or not prov:
         return
     # under development in rdflib https://github.com/RDFLib/rdflib/discussions/1554
-    # g.add((statement, PROV.wasGeneratedBy, prov))
+    # workaround = use a string and then re-convert afterwords
+    g.add((wrap_statement(statement), PROV.wasGeneratedBy, prov.res))
     pass
 
 

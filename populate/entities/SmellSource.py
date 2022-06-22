@@ -1,6 +1,6 @@
 from .Entity import Entity
 from .ontologies import CRM, CRMsci
-from .vocabularies import vocabulary_manager as VocManager
+from .vocabularies import VocabularyManager as VocManager
 
 BASE_OO = 'http://data.odeuropa.eu/vocabulary/olfactory-objects/'
 

@@ -36,7 +36,8 @@ Upload ontologies (Odeuropa + CRM + CRMsci)
 Upload dumps
 
     python3 scripts/load_dump.py geonames
-    python3 scripts/load_dump.py main
+    python3 scripts/load_dump.py text-annotation
+    python3 scripts/load_dump.py image-annotation
 
 ## Apache Configuration and dereferencing
 
@@ -61,3 +62,13 @@ Install skosmos using docker
 
   docker build -t skosmos https://github.com/silknow/skosmos
   docker run -d -p 8872:80 -v /home/semantic/odeuropa/knowledge-graph/skosmos:/config --name odeuropa_skosmos skosmos
+
+
+# Data conversion from raw
+
+    cd populate
+    pip install -r requirements.txt
+
+    python convert_text.py 
+    python convert_img.py 
+ 
