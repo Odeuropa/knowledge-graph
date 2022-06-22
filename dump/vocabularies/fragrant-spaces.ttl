@@ -2,10 +2,12 @@
 @prefix fragrant-spaces: <http://data.odeuropa.eu/vocabulary/fragrant-spaces/> .
 @prefix iconclass: <http://iconclass.org/> .
 @prefix olf: <http://data.odeuropa.eu/olfactory_objects/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
 @prefix pav: <http://purl.org/pav/> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 @prefix skos: <http://www.w3.org/2004/02/skos/core#> .
 @prefix voc: <http://data.odeuropa.eu/vocabulary/> .
+@prefix wd: <http://www.wikidata.org/entity/> .
 @prefix wordnet: <http://www.w3.org/2006/03/wn/wn20/> .
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 
@@ -21,6 +23,8 @@ olf:231 skos:related fragrant-spaces:94 .
 
 olf:36 skos:related fragrant-spaces:10 .
 
+olf:454 skos:related fragrant-spaces:35 .
+
 olf:68 skos:related fragrant-spaces:26 .
 
 fragrant-spaces:1 a skos:Concept ;
@@ -35,6 +39,7 @@ fragrant-spaces:1 a skos:Concept ;
 
 fragrant-spaces:100 a skos:Concept ;
     dct:bibliographicCitation "WNT: 't Was luguber-leeg in hun stamlokaal. Er hing oude stank van bedorven bier en sigaren-eindjes,  Robbers, Gel. Fam. 83 [1909]."@nl ;
+    owl:sameAs wd:Q212198 ;
     skos:altLabel "Birreria"@it ;
     skos:inScheme voc:fragrant-spaces ;
     skos:prefLabel "Pub"@en,
@@ -45,6 +50,7 @@ fragrant-spaces:100 a skos:Concept ;
 
 fragrant-spaces:101 a skos:Concept ;
     dct:bibliographicCitation "WNT: En al waer dit genoch tot een Godt-salich leven, Soo stelt daer evenwel de helsche pijn beneven, Vol vier, vol vlam, vol nacht, vol swaevel, peck, en stanck,  Poirters, H. Herte 86."@nl ;
+    owl:sameAs wd:Q564 ;
     skos:inScheme voc:fragrant-spaces ;
     skos:prefLabel "Hell"@en,
         "Enfer"@fr,
@@ -55,6 +61,7 @@ fragrant-spaces:101 a skos:Concept ;
 fragrant-spaces:102 a skos:Concept ;
     dct:bibliographicCitation "Dit zelfde ondervind men in de Schouwburgen, daar men in de bovenste zittingen (t.w. de loges) altydt een vunze reuk gewaar word,  du hamel du monceau, Baak d. Gezondh. 73 [1760]."@nl,
         "WNT: Omstreeks het midden der voorstelling verneemt men een zonderling geraas, en een onaangename reuk verspreidt zich door de zaal,  Alg. Handelsbl. 11 Sept. 1830, 6 a [1830]."@nl ;
+    owl:sameAs wd:Q11635 ;
     skos:inScheme voc:fragrant-spaces ;
     skos:prefLabel "Theatre"@en,
         "Théâtre"@fr,
@@ -62,20 +69,9 @@ fragrant-spaces:102 a skos:Concept ;
         "Theater"@nl ;
     skos:topConceptOf voc:fragrant-spaces .
 
-fragrant-spaces:103 a skos:Concept ;
-    dct:bibliographicCitation "WNT: De korte nacht had geen koelte meegebracht, en de dampkring was steeds bevangen, vol van den reuk der zandwegen, die voortwentelden tusschen het dorre zoomgras en de poeierige akkers,  Vlaanderen 2, 361 [1904]."@nl ;
-    skos:altLabel "Route de terre"@fr,
-        "Carrareccia"@it,
-        "Mulattiera"@it ;
-    skos:inScheme voc:fragrant-spaces ;
-    skos:prefLabel "Dirt road"@en,
-        "Chemin de terre"@fr,
-        "Strada sterrata"@it,
-        "Zandweg"@nl ;
-    skos:topConceptOf voc:fragrant-spaces .
-
 fragrant-spaces:104 a skos:Concept ;
     dct:bibliographicCitation "WNT: Nimmer zal men Kinderen zenden naar kleine, vunsche, stinkende Schooltjes,  v. geuns bij sypkens smit, M. v. Geuns 537 a [1788]."@nl ;
+    owl:sameAs wd:Q3914 ;
     skos:inScheme voc:fragrant-spaces ;
     skos:prefLabel "School"@en,
         "École"@fr,
@@ -85,6 +81,7 @@ fragrant-spaces:104 a skos:Concept ;
 
 fragrant-spaces:105 a skos:Concept ;
     dct:bibliographicCitation "WNT: Uit de openstaande bakkersdeuren walmde den vollen reuk van verschgebakken krentebrood, vlaaien en confijten,  thiry, Hofken v. Ol. 107 [1910]."@nl ;
+    owl:sameAs wd:Q274393 ;
     skos:altLabel "Panificio"@it ;
     skos:inScheme voc:fragrant-spaces ;
     skos:prefLabel "Bakery"@en,
@@ -95,6 +92,7 @@ fragrant-spaces:105 a skos:Concept ;
 
 fragrant-spaces:106 a skos:Concept ;
     dct:bibliographicCitation "WNT: Toen iemand er uit (t.w. uit een drukkerij) kwam walmde een weeë machinelucht mee, uit de donkere gang,   robbers, Gel. Fam. 5 [1909]."@nl ;
+    owl:sameAs wd:Q47003909 ;
     skos:inScheme voc:fragrant-spaces ;
     skos:prefLabel "Print shop"@en,
         "Imprimerie"@fr,
@@ -104,6 +102,7 @@ fragrant-spaces:106 a skos:Concept ;
 
 fragrant-spaces:107 a skos:Concept ;
     dct:bibliographicCitation "WNT: Er hing in dien winkel een weeë, zoetige, benauwde lucht van al dat wollige kleedengoed,   robbers, A. de Boogh 152 [1902]."@nl ;
+    owl:sameAs wd:Q213441 ;
     skos:altLabel "Magasin"@fr,
         "Bottega"@it ;
     skos:inScheme voc:fragrant-spaces ;
@@ -115,6 +114,7 @@ fragrant-spaces:107 a skos:Concept ;
 
 fragrant-spaces:108 a skos:Concept ;
     dct:bibliographicCitation "WNT: Als 't Weste windje door de Hoven zacht gaat weiden …: Wat moet zich dan een reuk door't Paradys verspreiden, Zo lieflyk vloeijende uit uw vriendelyken mond!  luyken, Jezus en de Z. 18 [1678]."@nl ;
+    owl:sameAs wd:Q3363340 ;
     skos:inScheme voc:fragrant-spaces ;
     skos:prefLabel "Paradise"@en,
         "Paradis"@fr,
@@ -125,6 +125,7 @@ fragrant-spaces:108 a skos:Concept ;
 fragrant-spaces:109 a skos:Concept ;
     dct:bibliographicCitation "WNT: De Arabieren, dewelke in welriekend Arabien, gelukkig Arabien, en zommige deelen van woest en steenig Arabien, in vaste steden en onder hun eige Koningen, wetten, en burgerlyke opvoedinge, woonen, oefenen konsten en handwerken,  V. Ranouw, Kab. 4, 269 [1720]."@nl,
         "Wy verbeelden ons met hem te wandelen door een weelig landschap van Arkadia, of 't gelukkig Arabië, daar de Natuur haare zegeningen elk oogenblik verdubbelt, zonder de kalmte van dien welriekenden dampkring door eenig gedruisch van storm of onweêr te ontrusten,  stijl, Lev. v. Punt 16 [1781]."@nl ;
+    owl:sameAs wd:Q31945 ;
     skos:inScheme voc:fragrant-spaces ;
     skos:prefLabel "Arabia"@en,
         "Arabië"@nl ;
@@ -132,6 +133,7 @@ fragrant-spaces:109 a skos:Concept ;
 
 fragrant-spaces:110 a skos:Concept ;
     dct:bibliographicCitation "WNT: Wy verbeelden ons met hem te wandelen door een weelig landschap van Arkadia, of 't gelukkig Arabië, daar de Natuur haare zegeningen elk oogenblik verdubbelt, WNT: zonder de kalmte van dien welriekenden dampkring door eenig gedruisch van storm of onweêr te ontrusten,   stijl, Lev. v. Punt 16 [1781]."@nl ;
+    owl:sameAs wd:Q168786 ;
     skos:inScheme voc:fragrant-spaces ;
     skos:prefLabel "Arcadia"@en,
         "Arcadie"@fr,
@@ -142,6 +144,7 @@ fragrant-spaces:110 a skos:Concept ;
 fragrant-spaces:14 a skos:Concept ;
     dct:bibliographicCitation "WNT: De heele stad is met stank vervuld, v. daleᴣ"@nl,
         "Wat hadde dan die stadt anders gheweest dan eenen gruwelicken moortcuijl, dan eenen hoop greijs, viers, roocx, bloets, dooder lichamen ende stancx, v. vaernewijck, Ber. T. 2, 3 [1566]."@nl ;
+    owl:sameAs wd:Q515 ;
     skos:altLabel "Cité"@fr,
         "Ambiente urbano"@it ;
     skos:inScheme voc:fragrant-spaces ;
@@ -152,6 +155,7 @@ fragrant-spaces:14 a skos:Concept ;
     skos:topConceptOf voc:fragrant-spaces .
 
 fragrant-spaces:17 a skos:Concept ;
+    owl:sameAs wd:Q1251750 ;
     skos:altLabel "Destilleerderij"@nl ;
     skos:inScheme voc:fragrant-spaces ;
     skos:prefLabel "Distillery"@en,
@@ -171,6 +175,7 @@ fragrant-spaces:18 a skos:Concept ;
     skos:topConceptOf voc:fragrant-spaces .
 
 fragrant-spaces:21 a skos:Concept ;
+    owl:sameAs wd:Q448030 ;
     skos:inScheme voc:fragrant-spaces ;
     skos:prefLabel "Fullery"@en,
         "Foulon"@fr,
@@ -179,6 +184,7 @@ fragrant-spaces:21 a skos:Concept ;
     skos:topConceptOf voc:fragrant-spaces .
 
 fragrant-spaces:28 a skos:Concept ;
+    owl:sameAs wd:Q1295201 ;
     skos:altLabel "Kruidenwinkel"@nl,
         "kruidenierswinkel"@nl ;
     skos:inScheme voc:fragrant-spaces ;
@@ -189,6 +195,7 @@ fragrant-spaces:28 a skos:Concept ;
     skos:topConceptOf voc:fragrant-spaces .
 
 fragrant-spaces:30 a skos:Concept ;
+    owl:sameAs wd:Q2485852 ;
     skos:altLabel "Hooiakker"@nl ;
     skos:inScheme voc:fragrant-spaces ;
     skos:prefLabel "Hayfield"@en,
@@ -207,6 +214,7 @@ fragrant-spaces:31 a skos:Concept ;
     skos:topConceptOf voc:fragrant-spaces .
 
 fragrant-spaces:34 a skos:Concept ;
+    owl:sameAs wd:Q36963 ;
     skos:altLabel "Stilleven met wild/ wildstilleven"@nl ;
     skos:inScheme voc:fragrant-spaces ;
     skos:prefLabel "Hunting scene"@en,
@@ -216,6 +224,7 @@ fragrant-spaces:34 a skos:Concept ;
     skos:topConceptOf voc:fragrant-spaces .
 
 fragrant-spaces:42 a skos:Concept ;
+    owl:sameAs wd:Q59772 ;
     skos:altLabel "Calchèra"@it,
         "Forno da calce"@it,
         "Kalkbranderij"@nl ;
@@ -227,6 +236,8 @@ fragrant-spaces:42 a skos:Concept ;
     skos:topConceptOf voc:fragrant-spaces .
 
 fragrant-spaces:6 a skos:Concept ;
+    owl:sameAs wd:Q131734 ;
+    skos:altLabel "Brewery"@en ;
     skos:inScheme voc:fragrant-spaces ;
     skos:prefLabel "Beer Brewery"@en,
         "Brasserie"@fr,
@@ -244,6 +255,7 @@ fragrant-spaces:61 a skos:Concept ;
     skos:topConceptOf voc:fragrant-spaces .
 
 fragrant-spaces:62 a skos:Concept ;
+    owl:sameAs wd:Q201759 ;
     skos:altLabel "Krotwoning"@nl ;
     skos:inScheme voc:fragrant-spaces ;
     skos:prefLabel "Slum"@en,
@@ -253,6 +265,7 @@ fragrant-spaces:62 a skos:Concept ;
     skos:topConceptOf voc:fragrant-spaces .
 
 fragrant-spaces:68 a skos:Concept ;
+    owl:sameAs wd:Q3515239 ;
     skos:altLabel "Leerlooierij"@nl ;
     skos:inScheme voc:fragrant-spaces ;
     skos:prefLabel "Tannery"@en,
@@ -262,6 +275,7 @@ fragrant-spaces:68 a skos:Concept ;
     skos:topConceptOf voc:fragrant-spaces .
 
 fragrant-spaces:7 a skos:Concept ;
+    owl:sameAs wd:Q2169265 ;
     skos:inScheme voc:fragrant-spaces ;
     skos:prefLabel "Bleaching field"@en,
         "Champ de blanchiment"@fr,
@@ -270,6 +284,7 @@ fragrant-spaces:7 a skos:Concept ;
 
 fragrant-spaces:8 a skos:Concept ;
     dct:bibliographicCitation "WNT: Het kasteel was weldra geheel met hofmanstank … geparfumeerd, Loosjes, Golst. 1, 21."@nl ;
+    owl:sameAs wd:Q23413 ;
     skos:inScheme voc:fragrant-spaces ;
     skos:prefLabel "Castle"@en,
         "Chateau"@fr,
@@ -278,6 +293,7 @@ fragrant-spaces:8 a skos:Concept ;
     skos:topConceptOf voc:fragrant-spaces .
 
 fragrant-spaces:83 a skos:Concept ;
+    owl:sameAs wd:Q488444 ;
     skos:inScheme voc:fragrant-spaces ;
     skos:prefLabel "Anatomical theatre"@en,
         "Théâtre anatomique"@fr,
@@ -317,38 +333,12 @@ fragrant-spaces:91 a skos:Concept ;
         "Tabaksspinnerij"@nl ;
     skos:topConceptOf voc:fragrant-spaces .
 
-fragrant-spaces:96 a skos:Concept ;
-    skos:altLabel "Prise"@fr,
-        "poldre"@fr ;
-    skos:inScheme voc:fragrant-spaces ;
-    skos:prefLabel "Polder"@en,
-        "Polder"@fr,
-        "Polder"@nl ;
-    skos:topConceptOf voc:fragrant-spaces .
-
 fragrant-spaces:97 a skos:Concept ;
     dct:bibliographicCitation "WNT: De reuk en smaak (wordt) aangedaan, in de verte zelfs van Kalkovens, Runmakerijen, Leertouwerijen enz., berkhey, N.H. 5, 401 [1805]."@nl ;
     skos:definition "Run: Eikenschors (soms ook schors van andere boomen als berken, wilgen), inzonderheid (thans bepaaldelijk) in gemalen toestand, zooals zij, wegens het looizuur dat er in bevat is, in de leerlooierij wordt gebezigd"@nl ;
     skos:inScheme voc:fragrant-spaces ;
     skos:prefLabel "Run factory"@en,
         "Runmakerij"@nl ;
-    skos:topConceptOf voc:fragrant-spaces .
-
-fragrant-spaces:98 a skos:Concept ;
-    dct:bibliographicCitation "(Ieder huis) heeft sijn vuyltjens, sijn' verborgene riolen, Sijn on-Civetsch geheim, sijn' Amberloose holen,  huygens 1, 539 [1661]."@nl,
-        "De Keirel sou my cuysschen al waert dat ick in een Riool stack Want men vont noyt leelijck Lief, Ogier, Seven Hoofts. 173 [1647]."@nl,
-        "Op den bovensten trap van een kelder … onder den frisschen adem van een stinkend riool, Beets, C.O. 25 [1839]."@nl,
-        "Ten einde in die vunze, donkere holen (van de Londensche rioleering) te kunnen zien, is ieder (werkman) van een lantaren voorzien,   Boek d. Uitv. 6, 47 [1869]."@nl,
-        "WNT: Het Amsterdamsche water ontvangt van duizend en duizend riolen en riooltjes eenen slechten reuk,  weil."@nl,
-        "Wat zijn … Haar herten? Nesten van veel pyn enz. … Haer keelen? Open stanck-ryolen En sonden-holen,  camphuyzen, Ps. 5, 11 [c. 1626]."@nl,
-        "Zóó veel verstand hebben zij (zekere schrijvers), dat zij gevoelen, dat het talent der beschrijving die dingen smakelijk moet maken"@nl,
-        "maar men sla dat talent niet te hoog aan! Een riool is een riool en niets meer, Geel 236 [1835]."@nl ;
-    skos:altLabel "Fognatura"@it ;
-    skos:inScheme voc:fragrant-spaces ;
-    skos:prefLabel "Sewer"@en,
-        "Égouts"@fr,
-        "Fogna"@it,
-        "Riool"@nl ;
     skos:topConceptOf voc:fragrant-spaces .
 
 fragrant-spaces:99 a skos:Concept ;
@@ -390,6 +380,8 @@ iconclass:25H2322 skos:closeMatch fragrant-spaces:93 .
 iconclass:25I141 skos:closeMatch fragrant-spaces:64 .
 
 iconclass:25I1411 skos:closeMatch fragrant-spaces:40 .
+
+iconclass:25I17 skos:closeMatch fragrant-spaces:98 .
 
 iconclass:25I2 skos:closeMatch fragrant-spaces:73 .
 
@@ -497,7 +489,22 @@ olf:227 skos:related fragrant-spaces:71,
 olf:248 skos:related fragrant-spaces:32,
         fragrant-spaces:76 .
 
+fragrant-spaces:103 a skos:Concept ;
+    dct:bibliographicCitation "WNT: De korte nacht had geen koelte meegebracht, en de dampkring was steeds bevangen, vol van den reuk der zandwegen, die voortwentelden tusschen het dorre zoomgras en de poeierige akkers,  Vlaanderen 2, 361 [1904]."@nl ;
+    owl:sameAs wd:Q700143 ;
+    skos:altLabel "Route de terre"@fr,
+        "Carrareccia"@it,
+        "Mulattiera"@it ;
+    skos:broader fragrant-spaces:64 ;
+    skos:inScheme voc:fragrant-spaces ;
+    skos:prefLabel "Dirt road"@en,
+        "Chemin de terre"@fr,
+        "Strada sterrata"@it,
+        "Zandweg"@nl ;
+    skos:topConceptOf voc:fragrant-spaces .
+
 fragrant-spaces:11 a skos:Concept ;
+    owl:sameAs wd:Q12284 ;
     skos:altLabel "Chenal"@fr,
         "Naviglio"@it,
         "Roggia"@it,
@@ -511,6 +518,7 @@ fragrant-spaces:11 a skos:Concept ;
     skos:topConceptOf voc:fragrant-spaces .
 
 fragrant-spaces:12 a skos:Concept ;
+    owl:sameAs wd:Q35509 ;
     skos:altLabel "Grotto"@en,
         "Cave"@fr,
         "Caverne"@fr,
@@ -524,6 +532,7 @@ fragrant-spaces:12 a skos:Concept ;
     skos:topConceptOf voc:fragrant-spaces .
 
 fragrant-spaces:15 a skos:Concept ;
+    owl:sameAs wd:Q661199 ;
     skos:closeMatch iconclass:41A223 ;
     skos:inScheme voc:fragrant-spaces ;
     skos:prefLabel "Dining-room"@en,
@@ -543,6 +552,7 @@ fragrant-spaces:22 a skos:Concept ;
     skos:topConceptOf voc:fragrant-spaces .
 
 fragrant-spaces:3 a skos:Concept ;
+    owl:sameAs wd:Q478515 ;
     skos:altLabel "Dansfeest"@nl ;
     skos:closeMatch iconclass:43A23 ;
     skos:definition "Formal dance"@en ;
@@ -554,6 +564,7 @@ fragrant-spaces:3 a skos:Concept ;
     skos:topConceptOf voc:fragrant-spaces .
 
 fragrant-spaces:33 a skos:Concept ;
+    owl:sameAs wd:Q165044 ;
     skos:altLabel "Glass-house"@en ;
     skos:closeMatch iconclass:47I531 ;
     skos:inScheme voc:fragrant-spaces ;
@@ -564,6 +575,7 @@ fragrant-spaces:33 a skos:Concept ;
     skos:topConceptOf voc:fragrant-spaces .
 
 fragrant-spaces:36 a skos:Concept ;
+    owl:sameAs wd:Q30022 ;
     skos:altLabel "Inn"@en,
         "Public house"@en,
         "Bar"@it,
@@ -578,6 +590,7 @@ fragrant-spaces:36 a skos:Concept ;
     skos:topConceptOf voc:fragrant-spaces .
 
 fragrant-spaces:4 a skos:Concept ;
+    owl:sameAs wd:Q190771 ;
     skos:altLabel "Salle d'eau"@fr,
         "Toilettes"@fr ;
     skos:closeMatch iconclass:41A24 ;
@@ -589,6 +602,7 @@ fragrant-spaces:4 a skos:Concept ;
     skos:topConceptOf voc:fragrant-spaces .
 
 fragrant-spaces:40 a skos:Concept ;
+    owl:sameAs wd:Q1251403 ;
     skos:altLabel "Alley"@en,
         "Allée"@fr,
         "Chemin"@fr,
@@ -604,6 +618,7 @@ fragrant-spaces:40 a skos:Concept ;
     skos:topConceptOf voc:fragrant-spaces .
 
 fragrant-spaces:41 a skos:Concept ;
+    owl:sameAs wd:Q181623 ;
     skos:altLabel "Depot"@en,
         "Silo"@en,
         "Dépôt"@fr,
@@ -621,6 +636,7 @@ fragrant-spaces:41 a skos:Concept ;
     skos:topConceptOf voc:fragrant-spaces .
 
 fragrant-spaces:44 a skos:Concept ;
+    owl:sameAs wd:Q952885 ;
     skos:altLabel "Orangery"@en ;
     skos:broader fragrant-spaces:29 ;
     skos:definition "A greenhouse for oranges"@en ;
@@ -632,6 +648,7 @@ fragrant-spaces:44 a skos:Concept ;
     skos:topConceptOf voc:fragrant-spaces .
 
 fragrant-spaces:47 a skos:Concept ;
+    owl:sameAs wd:Q62562206 ;
     skos:altLabel "Palude"@it,
         "Terreno paludoso"@it,
         "Zona paludosa"@it ;
@@ -644,7 +661,9 @@ fragrant-spaces:47 a skos:Concept ;
     skos:topConceptOf voc:fragrant-spaces .
 
 fragrant-spaces:48 a skos:Concept ;
-    skos:altLabel "Praire"@fr,
+    owl:sameAs wd:Q7777019 ;
+    skos:altLabel "Pasture"@en,
+        "Praire"@fr,
         "Pré"@fr,
         "Pàture"@fr,
         "Alpeggio"@it,
@@ -653,13 +672,14 @@ fragrant-spaces:48 a skos:Concept ;
         "veld"@nl ;
     skos:closeMatch iconclass:25H17 ;
     skos:inScheme voc:fragrant-spaces ;
-    skos:prefLabel "Meadow, pasture"@en,
+    skos:prefLabel "Meadow"@en,
         "Pàturage"@fr,
         "Pascolo"@it,
         "Weiland"@nl ;
     skos:topConceptOf voc:fragrant-spaces .
 
 fragrant-spaces:49 a skos:Concept ;
+    owl:sameAs wd:Q8502 ;
     skos:altLabel "Mont"@fr ;
     skos:closeMatch iconclass:25H11 ;
     skos:inScheme voc:fragrant-spaces ;
@@ -670,6 +690,7 @@ fragrant-spaces:49 a skos:Concept ;
     skos:topConceptOf voc:fragrant-spaces .
 
 fragrant-spaces:5 a skos:Concept ;
+    owl:sameAs wd:Q40080 ;
     skos:altLabel "Littoral"@fr ;
     skos:closeMatch iconclass:25H133 ;
     skos:inScheme voc:fragrant-spaces ;
@@ -694,6 +715,7 @@ fragrant-spaces:50 a skos:Concept ;
     skos:topConceptOf voc:fragrant-spaces .
 
 fragrant-spaces:52 a skos:Concept ;
+    owl:sameAs wd:Q182060 ;
     skos:closeMatch iconclass:46B322 ;
     skos:inScheme voc:fragrant-spaces ;
     skos:prefLabel "Office"@en,
@@ -703,6 +725,7 @@ fragrant-spaces:52 a skos:Concept ;
     skos:topConceptOf voc:fragrant-spaces .
 
 fragrant-spaces:54 a skos:Concept ;
+    owl:sameAs wd:Q10426913 ;
     skos:altLabel "Museum"@en,
         "Exposition permanente"@fr,
         "Esibizione permanente"@it,
@@ -717,6 +740,7 @@ fragrant-spaces:54 a skos:Concept ;
     skos:topConceptOf voc:fragrant-spaces .
 
 fragrant-spaces:56 a skos:Concept ;
+    owl:sameAs wd:Q40357 ;
     skos:altLabel "Jail"@en,
         "Pénitentiaire"@fr,
         "Carcere"@it,
@@ -734,6 +758,7 @@ fragrant-spaces:56 a skos:Concept ;
     skos:topConceptOf voc:fragrant-spaces .
 
 fragrant-spaces:58 a skos:Concept ;
+    owl:sameAs wd:Q614304 ;
     skos:altLabel "Badestube"@de,
         "Apothekersbenodidheden"@nl,
         "simplicia"@nl ;
@@ -747,6 +772,7 @@ fragrant-spaces:58 a skos:Concept ;
     skos:topConceptOf voc:fragrant-spaces .
 
 fragrant-spaces:59 a skos:Concept ;
+    owl:sameAs wd:Q785952 ;
     skos:altLabel "Bath house"@en,
         "Thermes"@fr,
         "Terme"@it,
@@ -763,6 +789,7 @@ fragrant-spaces:59 a skos:Concept ;
     skos:topConceptOf voc:fragrant-spaces .
 
 fragrant-spaces:60 a skos:Concept ;
+    owl:sameAs wd:Q18663765 ;
     skos:altLabel "Haras"@fr ;
     skos:closeMatch iconclass:46C1315 ;
     skos:inScheme voc:fragrant-spaces ;
@@ -774,6 +801,7 @@ fragrant-spaces:60 a skos:Concept ;
 
 fragrant-spaces:63 a skos:Concept ;
     dct:bibliographicCitation "WNT: Het Vee, den vunschen stal ontvlucht,  Ned. Jaerb. 1750, 322 [1750]."@nl ;
+    owl:sameAs wd:Q752034 ;
     skos:altLabel "Stable"@en,
         "Stable"@fr,
         "Stalle"@fr ;
@@ -785,18 +813,8 @@ fragrant-spaces:63 a skos:Concept ;
         "Stal"@nl ;
     skos:topConceptOf voc:fragrant-spaces .
 
-fragrant-spaces:64 a skos:Concept ;
-    skos:altLabel "Voie"@fr,
-        "Via"@it ;
-    skos:closeMatch iconclass:25I141 ;
-    skos:inScheme voc:fragrant-spaces ;
-    skos:prefLabel "Street"@en,
-        "Rue"@fr,
-        "Strada"@it,
-        "Straat"@nl ;
-    skos:topConceptOf voc:fragrant-spaces .
-
 fragrant-spaces:65 a skos:Concept ;
+    owl:sameAs wd:Q227857 ;
     skos:altLabel "Usine de sucre"@fr,
         "Fabbrica dello Zucchero"@it,
         "Suikerbranderij"@nl ;
@@ -810,6 +828,7 @@ fragrant-spaces:65 a skos:Concept ;
 
 fragrant-spaces:69 a skos:Concept ;
     dct:bibliographicCitation "WNT: Daar was een onverdraaglijke stank in huis, Halma."@nl ;
+    owl:sameAs wd:Q3947 ;
     skos:altLabel "Demeure"@fr,
         "Abitazione"@it ;
     skos:inScheme voc:fragrant-spaces ;
@@ -846,6 +865,7 @@ fragrant-spaces:74 a skos:Concept ;
     skos:topConceptOf voc:fragrant-spaces .
 
 fragrant-spaces:75 a skos:Concept ;
+    owl:sameAs wd:Q1690211 ;
     skos:altLabel "Home laundry"@en,
         "Laundry room"@en,
         "Lavanderia"@it ;
@@ -858,6 +878,7 @@ fragrant-spaces:75 a skos:Concept ;
     skos:topConceptOf voc:fragrant-spaces .
 
 fragrant-spaces:77 a skos:Concept ;
+    owl:sameAs wd:Q39614 ;
     skos:altLabel "Cemetery"@en,
         "Camposanto"@it,
         "Grafveld"@nl ;
@@ -870,6 +891,7 @@ fragrant-spaces:77 a skos:Concept ;
     skos:topConceptOf voc:fragrant-spaces .
 
 fragrant-spaces:78 a skos:Concept ;
+    owl:sameAs wd:Q1402739 ;
     skos:altLabel "Hôpital de terrain"@fr ;
     skos:closeMatch iconclass:45C723 ;
     skos:inScheme voc:fragrant-spaces ;
@@ -896,6 +918,7 @@ fragrant-spaces:79 a skos:Concept ;
     skos:topConceptOf voc:fragrant-spaces .
 
 fragrant-spaces:80 a skos:Concept ;
+    owl:sameAs wd:Q1249556 ;
     skos:altLabel "Rope walk"@en,
         "Touwslagerij"@nl ;
     skos:closeMatch iconclass:47H411 ;
@@ -907,6 +930,7 @@ fragrant-spaces:80 a skos:Concept ;
     skos:topConceptOf voc:fragrant-spaces .
 
 fragrant-spaces:82 a skos:Concept ;
+    owl:sameAs wd:Q131295 ;
     skos:altLabel "Bordel"@fr,
         "Maison close"@fr,
         "Casa chiusa"@it,
@@ -945,6 +969,7 @@ fragrant-spaces:94 a skos:Concept ;
     skos:topConceptOf voc:fragrant-spaces .
 
 fragrant-spaces:95 a skos:Concept ;
+    owl:sameAs wd:Q7075 ;
     skos:inScheme voc:fragrant-spaces ;
     skos:prefLabel "Library"@en,
         "Bibliothèque"@fr,
@@ -953,7 +978,40 @@ fragrant-spaces:95 a skos:Concept ;
     skos:related olf:262 ;
     skos:topConceptOf voc:fragrant-spaces .
 
-olf:262 skos:related fragrant-spaces:35,
+fragrant-spaces:96 a skos:Concept ;
+    owl:sameAs wd:Q106259 ;
+    skos:altLabel "Prise"@fr,
+        "poldre"@fr ;
+    skos:broader fragrant-spaces:66 ;
+    skos:inScheme voc:fragrant-spaces ;
+    skos:prefLabel "Polder"@en,
+        "Polder"@fr,
+        "Polder"@nl ;
+    skos:topConceptOf voc:fragrant-spaces .
+
+fragrant-spaces:98 a skos:Concept ;
+    dct:bibliographicCitation "(Ieder huis) heeft sijn vuyltjens, sijn' verborgene riolen, Sijn on-Civetsch geheim, sijn' Amberloose holen,  huygens 1, 539 [1661]."@nl,
+        "De Keirel sou my cuysschen al waert dat ick in een Riool stack Want men vont noyt leelijck Lief, Ogier, Seven Hoofts. 173 [1647]."@nl,
+        "Op den bovensten trap van een kelder … onder den frisschen adem van een stinkend riool, Beets, C.O. 25 [1839]."@nl,
+        "Ten einde in die vunze, donkere holen (van de Londensche rioleering) te kunnen zien, is ieder (werkman) van een lantaren voorzien,   Boek d. Uitv. 6, 47 [1869]."@nl,
+        "WNT: Het Amsterdamsche water ontvangt van duizend en duizend riolen en riooltjes eenen slechten reuk,  weil."@nl,
+        "Wat zijn … Haar herten? Nesten van veel pyn enz. … Haer keelen? Open stanck-ryolen En sonden-holen,  camphuyzen, Ps. 5, 11 [c. 1626]."@nl,
+        "Zóó veel verstand hebben zij (zekere schrijvers), dat zij gevoelen, dat het talent der beschrijving die dingen smakelijk moet maken"@nl,
+        "maar men sla dat talent niet te hoog aan! Een riool is een riool en niets meer, Geel 236 [1835]."@nl ;
+    owl:sameAs wd:Q1805497 ;
+    skos:altLabel "Fognatura"@it,
+        "Riolering"@nl ;
+    skos:closeMatch iconclass:25I17 ;
+    skos:inScheme voc:fragrant-spaces ;
+    skos:prefLabel "Kanalisation"@de,
+        "Sewer"@en,
+        "Égouts"@fr,
+        "Fogna"@it,
+        "Riool"@nl,
+        "Odtočni kanal"@sl ;
+    skos:topConceptOf voc:fragrant-spaces .
+
+olf:262 skos:related fragrant-spaces:67,
         fragrant-spaces:86,
         fragrant-spaces:95 .
 
@@ -969,6 +1027,7 @@ fragrant-spaces:10 a skos:Concept ;
     skos:topConceptOf voc:fragrant-spaces .
 
 fragrant-spaces:13 a skos:Concept ;
+    owl:sameAs wd:Q207652 ;
     skos:broader fragrant-spaces:23 ;
     skos:closeMatch iconclass:47B27 ;
     skos:inScheme voc:fragrant-spaces ;
@@ -979,6 +1038,7 @@ fragrant-spaces:13 a skos:Concept ;
     skos:topConceptOf voc:fragrant-spaces .
 
 fragrant-spaces:16 a skos:Concept ;
+    owl:sameAs wd:Q1127296 ;
     skos:altLabel "Gourde"@fr,
         "Réfectoire Cafétéria"@fr,
         "Refettorio"@it ;
@@ -1006,6 +1066,7 @@ fragrant-spaces:2 a skos:Concept ;
     skos:topConceptOf voc:fragrant-spaces .
 
 fragrant-spaces:20 a skos:Concept ;
+    owl:sameAs wd:Q107434304 ;
     skos:altLabel "Incendie de forêt"@fr,
         "Incendie forestier"@fr ;
     skos:broader fragrant-spaces:19 ;
@@ -1029,6 +1090,7 @@ fragrant-spaces:24 a skos:Concept ;
     skos:topConceptOf voc:fragrant-spaces .
 
 fragrant-spaces:25 a skos:Concept ;
+    owl:sameAs wd:Q131596 ;
     skos:closeMatch iconclass:41A17 ;
     skos:inScheme voc:fragrant-spaces ;
     skos:narrower fragrant-spaces:57 ;
@@ -1039,6 +1101,7 @@ fragrant-spaces:25 a skos:Concept ;
     skos:topConceptOf voc:fragrant-spaces .
 
 fragrant-spaces:26 a skos:Concept ;
+    owl:sameAs wd:Q1188480 ;
     skos:altLabel "Poissonerie"@fr,
         "Mercato ittico"@it,
         "Pescheria"@it,
@@ -1053,6 +1116,7 @@ fragrant-spaces:26 a skos:Concept ;
     skos:topConceptOf voc:fragrant-spaces .
 
 fragrant-spaces:38 a skos:Concept ;
+    owl:sameAs wd:Q43275297 ;
     skos:broader fragrant-spaces:37 ;
     skos:closeMatch iconclass:41C231 ;
     skos:inScheme voc:fragrant-spaces ;
@@ -1063,6 +1127,7 @@ fragrant-spaces:38 a skos:Concept ;
     skos:topConceptOf voc:fragrant-spaces .
 
 fragrant-spaces:39 a skos:Concept ;
+    owl:sameAs wd:Q43275344 ;
     skos:altLabel "Gaarkeuken"@nl ;
     skos:broader fragrant-spaces:37 ;
     skos:closeMatch iconclass:41C232 ;
@@ -1085,6 +1150,7 @@ fragrant-spaces:43 a skos:Concept ;
     skos:topConceptOf voc:fragrant-spaces .
 
 fragrant-spaces:46 a skos:Concept ;
+    owl:sameAs wd:Q2080521 ;
     skos:altLabel "Marché couvert"@fr ;
     skos:broader fragrant-spaces:45 ;
     skos:closeMatch iconclass:46B112 ;
@@ -1096,6 +1162,7 @@ fragrant-spaces:46 a skos:Concept ;
     skos:topConceptOf voc:fragrant-spaces .
 
 fragrant-spaces:51 a skos:Concept ;
+    owl:sameAs wd:Q9430 ;
     skos:broader fragrant-spaces:93 ;
     skos:closeMatch iconclass:25H2321 ;
     skos:inScheme voc:fragrant-spaces ;
@@ -1117,6 +1184,7 @@ fragrant-spaces:55 a skos:Concept ;
     skos:topConceptOf voc:fragrant-spaces .
 
 fragrant-spaces:57 a skos:Concept ;
+    owl:sameAs wd:Q107856378 ;
     skos:altLabel "Élevage de volaille"@fr,
         "Allevamento di polli"@it ;
     skos:broader fragrant-spaces:25 ;
@@ -1128,22 +1196,22 @@ fragrant-spaces:57 a skos:Concept ;
         "Pluimveehouderij"@nl ;
     skos:topConceptOf voc:fragrant-spaces .
 
-fragrant-spaces:67 a skos:Concept ;
-    skos:altLabel "Fens"@en,
-        "Inland marsh"@en,
-        "Région marécageuse"@fr,
-        "Zona paludosa"@it,
-        "Ven"@nl ;
-    skos:broader fragrant-spaces:66 ;
-    skos:closeMatch iconclass:25H191 ;
+fragrant-spaces:64 a skos:Concept ;
+    owl:sameAs wd:Q34442 ;
+    skos:altLabel "Road"@en,
+        "Voie"@fr,
+        "Via"@it ;
+    skos:closeMatch iconclass:25I141 ;
     skos:inScheme voc:fragrant-spaces ;
-    skos:prefLabel "Swamp"@en,
-        "Marais"@fr,
-        "Palude"@it,
-        "Moeras"@nl ;
+    skos:narrower fragrant-spaces:103 ;
+    skos:prefLabel "Street"@en,
+        "Rue"@fr,
+        "Strada"@it,
+        "Straat"@nl ;
     skos:topConceptOf voc:fragrant-spaces .
 
 fragrant-spaces:71 a skos:Concept ;
+    owl:sameAs wd:Q55635949 ;
     skos:broader fragrant-spaces:23 ;
     skos:inScheme voc:fragrant-spaces ;
     skos:prefLabel "Tobacco factory"@en,
@@ -1154,6 +1222,7 @@ fragrant-spaces:71 a skos:Concept ;
     skos:topConceptOf voc:fragrant-spaces .
 
 fragrant-spaces:72 a skos:Concept ;
+    owl:sameAs wd:Q1827414 ;
     skos:altLabel "Garden restaurant"@en ;
     skos:broader fragrant-spaces:27 ;
     skos:closeMatch iconclass:43B312 ;
@@ -1165,6 +1234,7 @@ fragrant-spaces:72 a skos:Concept ;
     skos:topConceptOf voc:fragrant-spaces .
 
 fragrant-spaces:73 a skos:Concept ;
+    owl:sameAs wd:Q532 ;
     skos:altLabel "Villaggio"@it ;
     skos:broader fragrant-spaces:32 ;
     skos:closeMatch iconclass:25I2 ;
@@ -1176,6 +1246,7 @@ fragrant-spaces:73 a skos:Concept ;
     skos:topConceptOf voc:fragrant-spaces .
 
 fragrant-spaces:76 a skos:Concept ;
+    owl:sameAs wd:Q4895508 ;
     skos:altLabel "Battle field"@en,
         "Terrain de bataille"@fr,
         "Zone de guerre"@fr,
@@ -1206,6 +1277,7 @@ fragrant-spaces:81 a skos:Concept ;
     skos:topConceptOf voc:fragrant-spaces .
 
 fragrant-spaces:84 a skos:Concept ;
+    owl:sameAs wd:Q167346 ;
     skos:altLabel "Hortus Botanicus"@en,
         "Hortus Botanicus"@nl ;
     skos:broader fragrant-spaces:27 ;
@@ -1229,6 +1301,7 @@ fragrant-spaces:86 a skos:Concept ;
     skos:topConceptOf voc:fragrant-spaces .
 
 fragrant-spaces:88 a skos:Concept ;
+    owl:sameAs wd:Q34627 ;
     skos:broader fragrant-spaces:53 ;
     skos:exactMatch wordnet:4381822 ;
     skos:inScheme voc:fragrant-spaces ;
@@ -1252,6 +1325,7 @@ fragrant-spaces:90 a skos:Concept ;
 
 fragrant-spaces:93 a skos:Concept ;
     dct:bibliographicCitation "WNT: Rook hij hier al niet zijn zee, die weeïg-zoute lucht van zeegras, mosselen, wier en drooggeloopen scharren? haspels, Brandaris 29 [1908]."@nl ;
+    owl:sameAs wd:Q165 ;
     skos:closeMatch iconclass:25H2322 ;
     skos:inScheme voc:fragrant-spaces ;
     skos:narrower fragrant-spaces:51 ;
@@ -1262,6 +1336,7 @@ fragrant-spaces:93 a skos:Concept ;
     skos:topConceptOf voc:fragrant-spaces .
 
 fragrant-spaces:19 a skos:Concept ;
+    owl:sameAs wd:Q4421 ;
     skos:altLabel "Wood"@en,
         "Bois"@fr,
         "Foresterie"@fr,
@@ -1282,6 +1357,7 @@ fragrant-spaces:19 a skos:Concept ;
     skos:topConceptOf voc:fragrant-spaces .
 
 fragrant-spaces:29 a skos:Concept ;
+    owl:sameAs wd:Q165044 ;
     skos:altLabel "Arancera"@it,
         "Plantenkas"@nl ;
     skos:closeMatch iconclass:47I53 ;
@@ -1295,6 +1371,7 @@ fragrant-spaces:29 a skos:Concept ;
     skos:topConceptOf voc:fragrant-spaces .
 
 fragrant-spaces:32 a skos:Concept ;
+    owl:sameAs wd:Q16917 ;
     skos:altLabel "Hospitaal"@nl ;
     skos:closeMatch iconclass:49G4 ;
     skos:inScheme voc:fragrant-spaces ;
@@ -1308,6 +1385,7 @@ fragrant-spaces:32 a skos:Concept ;
 
 fragrant-spaces:35 a skos:Concept ;
     dct:bibliographicCitation "WNT: (Mozes) leeft, hij groeit in deugd, in moed, Die straks, voor vunze kerkerwalmen, U Kanâns geuren aêmen doet,  bogaers 1, 59 [1835]."@nl ;
+    owl:sameAs wd:Q16970 ;
     skos:broader fragrant-spaces:53 ;
     skos:exactMatch wordnet:3031762 ;
     skos:inScheme voc:fragrant-spaces ;
@@ -1315,32 +1393,42 @@ fragrant-spaces:35 a skos:Concept ;
         "Eglise"@fr,
         "Chiesa"@it,
         "Kerk"@nl ;
-    skos:related olf:262 ;
+    skos:related olf:454 ;
     skos:topConceptOf voc:fragrant-spaces .
 
 fragrant-spaces:37 a skos:Concept ;
+    owl:sameAs wd:Q43164 ;
     skos:closeMatch iconclass:41C21 ;
     skos:inScheme voc:fragrant-spaces ;
     skos:narrower fragrant-spaces:38,
         fragrant-spaces:39 ;
-    skos:prefLabel "Kitchen"@en,
+    skos:prefLabel "Küche"@de,
+        "Kitchen"@en,
         "Cuisine"@fr,
         "Cucina"@it,
-        "Keuken"@nl ;
+        "Keuken"@nl,
+        "Kuhinja"@sl ;
     skos:topConceptOf voc:fragrant-spaces .
 
-fragrant-spaces:66 a skos:Concept ;
-    skos:closeMatch iconclass:25H19 ;
+fragrant-spaces:67 a skos:Concept ;
+    owl:sameAs wd:Q166735 ;
+    skos:altLabel "Fens"@en,
+        "Inland marsh"@en,
+        "Région marécageuse"@fr,
+        "Zona paludosa"@it,
+        "Ven"@nl ;
+    skos:broader fragrant-spaces:66 ;
+    skos:closeMatch iconclass:25H191 ;
     skos:inScheme voc:fragrant-spaces ;
-    skos:narrower fragrant-spaces:47,
-        fragrant-spaces:67 ;
-    skos:prefLabel "Swamps and polders"@en,
-        "Marais et polders"@fr,
-        "Paludi e Polder"@it,
-        "Moerassen en polders"@nl ;
+    skos:prefLabel "Swamp"@en,
+        "Marais"@fr,
+        "Palude"@it,
+        "Moeras"@nl ;
+    skos:related olf:262 ;
     skos:topConceptOf voc:fragrant-spaces .
 
 fragrant-spaces:89 a skos:Concept ;
+    owl:sameAs wd:Q32815 ;
     skos:broader fragrant-spaces:53 ;
     skos:closeMatch iconclass:12I61 ;
     skos:exactMatch wordnet:3793728 ;
@@ -1352,6 +1440,7 @@ fragrant-spaces:89 a skos:Concept ;
     skos:topConceptOf voc:fragrant-spaces .
 
 fragrant-spaces:27 a skos:Concept ;
+    owl:sameAs wd:Q1107656 ;
     skos:closeMatch iconclass:41A6 ;
     skos:inScheme voc:fragrant-spaces ;
     skos:narrower fragrant-spaces:72,
@@ -1364,6 +1453,7 @@ fragrant-spaces:27 a skos:Concept ;
     skos:topConceptOf voc:fragrant-spaces .
 
 fragrant-spaces:45 a skos:Concept ;
+    owl:sameAs wd:Q330284 ;
     skos:closeMatch iconclass:46B11 ;
     skos:inScheme voc:fragrant-spaces ;
     skos:narrower fragrant-spaces:2,
@@ -1376,6 +1466,7 @@ fragrant-spaces:45 a skos:Concept ;
     skos:topConceptOf voc:fragrant-spaces .
 
 fragrant-spaces:53 a skos:Concept ;
+    owl:sameAs wd:Q1370598 ;
     skos:altLabel "Edificio di culto"@it ;
     skos:exactMatch wordnet:3959692 ;
     skos:inScheme voc:fragrant-spaces ;
@@ -1388,8 +1479,21 @@ fragrant-spaces:53 a skos:Concept ;
         "Gebedsruimte"@nl ;
     skos:topConceptOf voc:fragrant-spaces .
 
+fragrant-spaces:66 a skos:Concept ;
+    skos:closeMatch iconclass:25H19 ;
+    skos:inScheme voc:fragrant-spaces ;
+    skos:narrower fragrant-spaces:47,
+        fragrant-spaces:67,
+        fragrant-spaces:96 ;
+    skos:prefLabel "Swamps and polders"@en,
+        "Marais et polders"@fr,
+        "Paludi e Polder"@it,
+        "Moerassen en polders"@nl ;
+    skos:topConceptOf voc:fragrant-spaces .
+
 fragrant-spaces:92 a skos:Concept ;
     dct:bibliographicCitation "WNT: Het rook er zoo lakker a's aen de deur van 't Lanswelvaren: — zoo 'enen reuk gelyk van 'en restoratie, consc., Avondst. 89 [1846]."@nl ;
+    owl:sameAs wd:Q11707 ;
     skos:closeMatch iconclass:43B311 ;
     skos:exactMatch wordnet:4088393 ;
     skos:inScheme voc:fragrant-spaces ;
@@ -1403,6 +1507,7 @@ fragrant-spaces:92 a skos:Concept ;
 
 fragrant-spaces:23 a skos:Concept ;
     dct:bibliographicCitation "WNT: 't Fabriek, — de gore, hooge holten, die ze wel eens even door 'n kierende deur had ingekeken, terwijl 'n zure stank, door 'n bitteren roet-walm heen, haar in de keel sloeg, schart.-ant., Sprotje 1, 13 [1905]."@nl ;
+    owl:sameAs wd:Q83405 ;
     skos:altLabel "Fabrieksgebouw"@nl ;
     skos:closeMatch iconclass:47A12 ;
     skos:inScheme voc:fragrant-spaces ;
@@ -1422,8 +1527,8 @@ fragrant-spaces:23 a skos:Concept ;
 voc:fragrant-spaces a skos:ConceptScheme ;
     rdfs:label "Fragrant spaces" ;
     dct:created "2021-06-01"^^xsd:date ;
-    dct:modified "2021-11-30"^^xsd:date ;
-    pav:createdOn "2021-11-30"^^xsd:date ;
+    dct:modified "2022-05-13"^^xsd:date ;
+    pav:createdOn "2022-05-13"^^xsd:date ;
     pav:version "0.1" ;
     skos:hasTopConcept fragrant-spaces:1,
         fragrant-spaces:10,
