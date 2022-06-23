@@ -38,6 +38,8 @@ def process_metadata(df):
         date = r['Earliest Date'].replace('.0', '').ljust(4, 'X')
         if 'Latest Date' in r and len(r['Latest Date']) > 0:
             date += '/' + r['Latest Date'].replace('.0', '').ljust(4, 'X')
+        if date == 'XXXX':
+            date = None
 
         author = r['Artist']
         author = None if author == "Autore non indicato" else author
@@ -111,7 +113,7 @@ with open('input/image-odor-dataset/annotations.json') as f:
         cur_img = image_map[cur_id]
         frag = cur_img.add_fragment(x['bbox'])
         ann = cat_map[x['category_id']]
-        cat = guess_annotation(ann, cur_img.title + str(x['id']))
+        cat = guess_annotation(ann, 'image-annotation' + cur_img.title + str(x['id']))
         current.append(cat)
         frag.add_annotation(cat, prov)
 

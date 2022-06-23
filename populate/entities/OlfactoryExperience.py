@@ -1,10 +1,10 @@
+from os import path
+
 from rdflib import URIRef, RDF, RDFS
 
-from os import path
 from .Entity import Entity
 from .Graph import add, is_invalid
 from .ontologies import ODEUROPA, CRM
-from .vocabularies import VocabularyManager as VocManager
 
 
 class OlfactoryExperience(Entity):
@@ -33,6 +33,7 @@ class OlfactoryExperience(Entity):
 
         assignment = URIRef(attr_uri)
         add(assignment, RDF.type, CRM.E13_Attribute_Assignment)
+        add(assignment, RDFS.label, adjective, lang)
         add(assignment, CRM.P141_assigned, adjective, lang)
         add(assignment, CRM.P140_assigned_attribute_to, self.smell)
         add(assignment, CRM.P14_carried_out_by, self.perceiver)

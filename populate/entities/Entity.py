@@ -10,8 +10,9 @@ from .config import BASE
 
 class Entity:
     def __init__(self, seed):
+        curclass = type(self).__name__
 
-        self.uri = path.join(BASE, type(self).__name__, str(uuid.uuid5(uuid.NAMESPACE_DNS, seed)))
+        self.uri = path.join(BASE, curclass, str(uuid.uuid5(uuid.NAMESPACE_DNS, curclass + seed)))
         self.res = URIRef(self.uri)
 
     def setclass(self, cls):
@@ -29,8 +30,8 @@ class Entity:
     def add_label(self, label):
         self.add(RDFS.label, label.strip())
 
-    def add_descr(self, text):
-        self.add(RDFS.comment, text.strip())
+    def add_descr(self, text, lang):
+        self.add(RDFS.comment, text.strip(), lang)
 
     def add_place(self, place):
         self.add(CRM.P7_took_place_at, place)

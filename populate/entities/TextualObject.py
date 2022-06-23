@@ -45,3 +45,6 @@ class TextualObject(SourceDoc):
         self.add(SDO.genre, to_genre(genre))
         self.add(SDO.inLanguage, lang)
         self.add(SDO.locationCreated, Place.from_text(place))
+
+    def add_url(self, url):
+        self.add(SDO.url, url)

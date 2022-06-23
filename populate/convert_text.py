@@ -93,14 +93,15 @@ def process_annotation_sheet(df, lang):
         doc_map[identifier] += 1
 
         txt = doc or TextualObject(identifier, title)
-        prov = Provenance(r['Annotator'], 'Manual text annotation', PROV_DESCR, r['Annotator'])
+        prov = Provenance('text_annotation' + r['Annotator'], 'Manual text annotation', PROV_DESCR, r['Annotator'])
 
-        smell = Smell(identifier + str(j))
-        smell.add_descr(r['Sentence'])
-        emission = SmellEmission(identifier + str(j), smell, get_safe('Smell_Source', r), get_safe('Odour_Carrier', r),
+        curid = 'text_annotation' + identifier + str(j)
+        smell = Smell(curid)
+        smell.add_descr(r['Sentence'], lang)
+        emission = SmellEmission(curid, smell, get_safe('Smell_Source', r), get_safe('Odour_Carrier', r),
                                  lang=lang)
         perceiver = set([p for p in r['Perceiver'].split(' | ') if p not in get_all_smell_words(lang)])
-        experience = OlfactoryExperience(identifier + str(j), smell, quality=r['Quality'], lang=lang)
+        experience = OlfactoryExperience(curid, smell, quality=r['Quality'], lang=lang)
         for p in perceiver:
             if p.lower() in Pronouns.myself(lang) and identifier in docs:  # fixme
                 doc = docs[identifier]
@@ -149,6 +150,7 @@ def process_benchmark_sheet(language):
 
         to = TextualObject(identifier, r['Title'], r['Author'], year,
                            r['Place of Publication'], lang, r['Genre'])
+        to.add_url(r['Link to source'])
         docs[identifier] = to
 
 
