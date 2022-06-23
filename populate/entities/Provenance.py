@@ -5,10 +5,12 @@ from .Person import Person
 
 
 class Provenance(Entity):
-    def __init__(self, annotator):
-        super().__init__(annotator)
+    def __init__(self, seed, label, description, annotator=None):
+        super().__init__(seed)
         self.setclass(PROV.Activity)
-        self.add(RDFS.label, "Manual annotation")
+        self.add(RDFS.label, label)
+        self.add(RDFS.comment, description)
 
-        annt = Person(annotator, anonymize=True)
-        self.add(PROV.wasAssociatedWith, annt)
+        if annotator:
+            annt = Person(annotator, anonymize=True)
+            self.add(PROV.wasAssociatedWith, annt)

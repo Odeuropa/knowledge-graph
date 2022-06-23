@@ -20,6 +20,8 @@ out_folder = '../dump/text-annotation'
 os.makedirs(out_folder, exist_ok=True)
 
 DOC_ID_REGEX = r"\d{3}[A-Z]"
+PROV_DESCR = 'Manual annotation of textual resources realised according to the Odeuropa deliverable D3.2 ' \
+             '"Multilingual historical corpora and annotated benchmarks" '
 
 lang_map = {
     'English': 'en',
@@ -91,7 +93,7 @@ def process_annotation_sheet(df, lang):
         doc_map[identifier] += 1
 
         txt = doc or TextualObject(identifier, title)
-        prov = Provenance(r['Annotator'])
+        prov = Provenance(r['Annotator'], 'Manual text annotation', PROV_DESCR, r['Annotator'])
 
         smell = Smell(identifier + str(j))
         smell.add_descr(r['Sentence'])

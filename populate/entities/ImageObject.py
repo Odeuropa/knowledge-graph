@@ -1,12 +1,10 @@
-import uuid
-from os import path
 from rdflib import URIRef, SDO
-from .ontologies import MA, OA
-from .Entity import Entity
-from .SourceDoc import SourceDoc
+
+from .Entity import Entity, Graph
 from .Place import Place
+from .SourceDoc import SourceDoc
 from .ontologies import CRM
-from .config import BASE
+from .ontologies import MA, OA
 
 
 class ImageObject(SourceDoc):
@@ -18,6 +16,9 @@ class ImageObject(SourceDoc):
         self.add(SDO.genre, genre)
         self.add(SDO.locationCreated, Place.from_text(place))
         self.add(SDO.image, url)
+        # internal uri
+        self.add(SDO.image, f'http://data.odeuropa.eu/image/{_id}')
+
         currentPlace = currentPlace.split(', inv./cat.nr')[0]
         self.add(CRM.P53_has_former_or_current_location, Place.from_text(currentPlace))
 
@@ -38,10 +39,11 @@ class MediaFragment(Entity):
         self.add(SDO.height, str(h))
         self.add(SDO.width, str(w))
 
-    def add_annotation(self, body):
+    def add_annotation(self, body, prov):
         annotation = Annotation(self.uri, body)
         annotation.add(OA.hasTarget, self)
-        self.media.add(CRM.P138_represents, body)
+
+        Graph.set_prov(self.media.add(CRM.P138_represents, body), prov)
 
 
 class Annotation(Entity):

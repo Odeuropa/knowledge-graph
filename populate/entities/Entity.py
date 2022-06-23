@@ -15,10 +15,10 @@ class Entity:
         self.res = URIRef(self.uri)
 
     def setclass(self, cls):
-        self.add(RDF.type, cls)
+        return self.add(RDF.type, cls)
 
     def add(self, pred, obj, lang=''):
-        Graph.add(self.res, pred, obj, lang)
+        return Graph.add(self.res, pred, obj, lang)
 
     def split_add(self, pred, obj, lang=''):
         if Graph.is_invalid(obj):

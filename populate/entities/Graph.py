@@ -14,6 +14,8 @@ def set_prefixes(gx):
     gx.bind("time", TIME)
     gx.bind("schema", SDO)
     gx.bind("owl", OWL)
+    gx.bind("oa", OA)
+    gx.bind("ma", MA)
 
 
 def reset():

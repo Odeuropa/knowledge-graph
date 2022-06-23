@@ -2,7 +2,11 @@ from .Entity import Entity
 from .ontologies import CRM, CRMsci
 from .vocabularies import VocabularyManager as VocManager
 
-BASE_OO = 'http://data.odeuropa.eu/vocabulary/olfactory-objects/'
+# BASE_OO = 'http://data.odeuropa.eu/vocabulary/olfactory-objects/'
+
+SMELL_SOURCE = 'http://data.odeuropa.eu/vocabulary/olfactory-objects/smell-source'
+CARRIER = 'http://data.odeuropa.eu/vocabulary/olfactory-objects/carrier'
+ARTIFACT = 'http://data.odeuropa.eu/vocabulary/olfactory-objects/artifact'
 
 
 class SmellSource(Entity):
@@ -16,13 +20,13 @@ class SmellSource(Entity):
 
         if lemma is not None:
             self.add(CRM.P137_exemplifies, lemma)
-            if role and BASE_OO + 'artifact' in role:
+            if role and ARTIFACT in role:
                 self.setclass(CRM.E22_HumanMade_Object)
             else:
                 self.setclass(CRMsci.S10_Material_Substantial)
 
             if role:
-                if BASE_OO + 'carrier' in role:
+                if CARRIER in role:
                     self.role = 'carrier'
-                elif BASE_OO + 'smell-source' in role:
+                elif SMELL_SOURCE in role:
                     self.role = 'smell-source'
