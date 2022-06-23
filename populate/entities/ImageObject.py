@@ -1,10 +1,9 @@
-from rdflib import URIRef, SDO
+from rdflib import URIRef, SDO, PROV
 
 from .Entity import Entity, Graph
 from .Place import Place
 from .SourceDoc import SourceDoc
-from .ontologies import CRM
-from .ontologies import MA, OA
+from .ontologies import CRM, MA, OA
 
 
 class ImageObject(SourceDoc):
@@ -42,7 +41,7 @@ class MediaFragment(Entity):
     def add_annotation(self, body, prov):
         annotation = Annotation(self.uri, body)
         annotation.add(OA.hasTarget, self)
-
+        annotation.add(PROV.wasGeneratedBy, prov)
         Graph.set_prov(self.media.add(CRM.P138_represents, body), prov)
 
 

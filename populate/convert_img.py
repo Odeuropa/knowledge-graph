@@ -1,5 +1,6 @@
 import json
 import os
+import re
 from math import isnan
 from os import path
 
@@ -38,7 +39,13 @@ def process_metadata(df):
         if 'Latest Date' in r and len(r['Latest Date']) > 0:
             date += '/' + r['Latest Date'].replace('.0', '').ljust(4, 'X')
 
-        to = ImageObject(idf, r['Title'].strip(), r['Artist'], date,
+        author = r['Artist']
+        author = None if author == "Autore non indicato" else author
+        if author is not None:
+            author = re.sub(r'\[ [A-Z]+ ]', '', author)
+            author = re.sub(r'\|', '', author)
+            author = re.sub(r'(,? )?\(?\?\)?', '', author).strip()
+        to = ImageObject(idf, r['Title'].strip(), author, date,
                          r['Original Location'], r['Current Location'], r['Genre'], r['Image URL'])
         docs[idf] = to
 
