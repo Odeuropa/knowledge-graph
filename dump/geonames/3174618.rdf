@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<rdf:RDF xmlns:cc="http://creativecommons.org/ns#" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:foaf="http://xmlns.com/foaf/0.1/" xmlns:gn="http://www.geonames.org/ontology#" xmlns:owl="http://www.w3.org/2002/07/owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:wgs84_pos="http://www.w3.org/2003/01/geo/wgs84_pos#">
+    <gn:Feature rdf:about="https://sws.geonames.org/3174618/">
+        <rdfs:isDefinedBy rdf:resource="https://sws.geonames.org/3174618/about.rdf"/>
+        <gn:name>Lombardy</gn:name>
+        <gn:officialName xml:lang="ko">롬바르디아 주</gn:officialName>
+        <gn:officialName xml:lang="ca">Llombardia</gn:officialName>
+        <gn:officialName xml:lang="de">Lombardei</gn:officialName>
+        <gn:officialName xml:lang="it">Lombardia</gn:officialName>
+        <gn:shortName xml:lang="es">Lombardía</gn:shortName>
+        <gn:officialName xml:lang="fr">Lombardie</gn:officialName>
+        <gn:alternateName xml:lang="sv">Lombardiet</gn:alternateName>
+        <gn:officialName xml:lang="nl">Lombardije</gn:officialName>
+        <gn:officialName xml:lang="en">Lombardy</gn:officialName>
+        <gn:officialName xml:lang="es">Región de Lombardía</gn:officialName>
+        <gn:featureClass rdf:resource="https://www.geonames.org/ontology#A"/>
+        <gn:featureCode rdf:resource="https://www.geonames.org/ontology#A.ADM1"/>
+        <gn:countryCode>IT</gn:countryCode>
+        <gn:population>10059681</gn:population>
+        <wgs84_pos:lat>45.66667</wgs84_pos:lat>
+        <wgs84_pos:long>9.5</wgs84_pos:long>
+        <gn:parentFeature rdf:resource="https://sws.geonames.org/12089030/"/>
+        <gn:parentCountry rdf:resource="https://sws.geonames.org/3175395/"/>
+        <gn:childrenFeatures rdf:resource="https://sws.geonames.org/3174618/contains.rdf"/>
+        <gn:locationMap rdf:resource="https://www.geonames.org/3174618/lombardia.html"/>
+        <gn:wikipediaArticle rdf:resource="https://en.wikipedia.org/wiki/Lombardy"/>
+        <rdfs:seeAlso rdf:resource="https://dbpedia.org/resource/Lombardy"/>
+    </gn:Feature>
+    <foaf:Document rdf:about="https://sws.geonames.org/3174618/about.rdf">
+        <foaf:primaryTopic rdf:resource="https://sws.geonames.org/3174618/"/>
+        <cc:license rdf:resource="https://creativecommons.org/licenses/by/4.0/"/>
+        <cc:attributionURL rdf:resource="https://www.geonames.org"/>
+        <cc:attributionName rdf:datatype="https://www.w3.org/2001/XMLSchema#string">GeoNames</cc:attributionName>
+        <dcterms:created rdf:datatype="https://www.w3.org/2001/XMLSchema#date">2006-01-15</dcterms:created>
+        <dcterms:modified rdf:datatype="https://www.w3.org/2001/XMLSchema#date">2020-06-07</dcterms:modified>
+    </foaf:Document>
+</rdf:RDF>

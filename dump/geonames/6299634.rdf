@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<rdf:RDF xmlns:cc="http://creativecommons.org/ns#" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:foaf="http://xmlns.com/foaf/0.1/" xmlns:gn="http://www.geonames.org/ontology#" xmlns:owl="http://www.w3.org/2002/07/owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:wgs84_pos="http://www.w3.org/2003/01/geo/wgs84_pos#">
+    <gn:Feature rdf:about="https://sws.geonames.org/6299634/">
+        <rdfs:isDefinedBy rdf:resource="https://sws.geonames.org/6299634/about.rdf"/>
+        <gn:name>Perugia Sant'Egidio Airport</gn:name>
+        <gn:officialName xml:lang="it">Aeroporto di Perugia Sant'Egidio</gn:officialName>
+        <gn:alternateName xml:lang="it">Aeroporto Internazionale dell'Umbria – Perugia San Francesco d'Assisi</gn:alternateName>
+        <gn:alternateName xml:lang="en">Perugia San Francesco d'Assisi – Umbria International Airport</gn:alternateName>
+        <gn:officialName xml:lang="en">Perugia Sant'Egidio Airport</gn:officialName>
+        <gn:officialName xml:lang="sv">Perugia Sant'Egidio Flygplats</gn:officialName>
+        <gn:featureClass rdf:resource="https://www.geonames.org/ontology#S"/>
+        <gn:featureCode rdf:resource="https://www.geonames.org/ontology#S.AIRP"/>
+        <gn:countryCode>IT</gn:countryCode>
+        <wgs84_pos:lat>43.09591</wgs84_pos:lat>
+        <wgs84_pos:long>12.51322</wgs84_pos:long>
+        <wgs84_pos:alt>211</wgs84_pos:alt>
+        <gn:parentFeature rdf:resource="https://sws.geonames.org/6538612/"/>
+        <gn:parentCountry rdf:resource="https://sws.geonames.org/3175395/"/>
+        <gn:parentADM1 rdf:resource="https://sws.geonames.org/3165048/"/>
+        <gn:parentADM2 rdf:resource="https://sws.geonames.org/3171179/"/>
+        <gn:parentADM3 rdf:resource="https://sws.geonames.org/6538612/"/>
+        <gn:nearbyFeatures rdf:resource="https://sws.geonames.org/6299634/nearby.rdf"/>
+        <gn:locationMap rdf:resource="https://www.geonames.org/6299634/perugia-san-francesco-d-assisi-umbria-international-airport.html"/>
+        <gn:wikipediaArticle rdf:resource="https://en.wikipedia.org/wiki/Perugia_San_Francesco_d%27Assisi_%E2%80%93_Umbria_International_Airport"/>
+        <rdfs:seeAlso rdf:resource="https://dbpedia.org/resource/Perugia_San_Francesco_d%27Assisi_%E2%80%93_Umbria_International_Airport"/>
+    </gn:Feature>
+    <foaf:Document rdf:about="https://sws.geonames.org/6299634/about.rdf">
+        <foaf:primaryTopic rdf:resource="https://sws.geonames.org/6299634/"/>
+        <cc:license rdf:resource="https://creativecommons.org/licenses/by/4.0/"/>
+        <cc:attributionURL rdf:resource="https://www.geonames.org"/>
+        <cc:attributionName rdf:datatype="https://www.w3.org/2001/XMLSchema#string">GeoNames</cc:attributionName>
+        <dcterms:created rdf:datatype="https://www.w3.org/2001/XMLSchema#date">2006-10-28</dcterms:created>
+        <dcterms:modified rdf:datatype="https://www.w3.org/2001/XMLSchema#date">2017-05-27</dcterms:modified>
+    </foaf:Document>
+</rdf:RDF>
