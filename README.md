@@ -72,3 +72,5 @@ Install skosmos using docker
     python convert_text.py 
     python convert_img.py 
  
+
+The URI pattern is described in a separate [README](URI-patterns.md)

@@ -1,10 +1,10 @@
+import uuid
 from os import path
-
 from rdflib import URIRef, RDF, RDFS, SDO, SKOS
 
-from . import Graph
 from .SourceDoc import SourceDoc
-from .Place import Place
+from .Entity import Entity
+from . import Graph, Place
 from .config import BASE
 from .ontologies import CRM
 
@@ -24,15 +24,15 @@ GENRES = {
 }
 
 
-def to_genre(id):
-    if not id:
+def to_genre(idg):
+    if not idg:
         return None
-    id = "PUB" if id == "PUBH" else id
-    id = "SCIE" if id == "SCI" else id
-    id = "OTH" if id == "OTHER" else id
-    genre = URIRef(path.join(BASE, 'genre', id))
+    idg = "PUB" if idg == "PUBH" else idg
+    idg = "SCIE" if idg == "SCI" else idg
+    idg = "OTH" if idg == "OTHER" else idg
+    genre = URIRef(path.join(BASE, 'genre', idg))
     Graph.add(genre, RDF.type, SKOS.Concept)
-    Graph.add(genre, RDFS.label, GENRES[id], 'en')
+    Graph.add(genre, RDFS.label, GENRES[idg], 'en')
     return genre
 
 
@@ -40,11 +40,25 @@ class TextualObject(SourceDoc):
     def __init__(self, _id, title, author=None, date=None, place=None, lang=None, genre=None):
         super().__init__(_id, title, author, date, lang)
         self.genre = genre
+        self.lang = lang
 
-        self.setclass(CRM.E33_Linguistic_Object)
+        self.set_class(CRM.E33_Linguistic_Object)
         self.add(SDO.genre, to_genre(genre))
         self.add(SDO.inLanguage, lang)
         self.add(SDO.locationCreated, Place.from_text(place))
 
     def add_url(self, url):
         self.add(SDO.url, url)
+
+    def add_fragment(self, text, lang=None):
+        frag = TextFragment(self.uri, text, lang or self.lang)
+        self.add(CRM.P165_incorporates, frag)
+
+
+class TextFragment(Entity):
+    def __init__(self, parent_uri, text, lang):
+        self.uri = path.join(parent_uri, 'fragment', str(uuid.uuid5(uuid.NAMESPACE_DNS, text)))
+        self.res = URIRef(self.uri)
+
+        self.set_class(CRM.E33_Linguistic_Object)
+        self.add_descr(text, lang)

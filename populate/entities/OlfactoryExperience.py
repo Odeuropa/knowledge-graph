@@ -9,14 +9,14 @@ from .ontologies import ODEUROPA, CRM
 
 class OlfactoryExperience(Entity):
     def __init__(self, seed, smell, perceiver='', quality='', place='', lang='en'):
-        super().__init__(seed)
+        super().__init__(seed, 'experience')
         self.assignment_id = 0
         self.gesture_id = 0
 
         self.smell = smell
         self.perceiver = perceiver
 
-        self.setclass(ODEUROPA.L13_Olfactory_Experience)
+        self.set_class(ODEUROPA.L13_Olfactory_Experience)
         self.add(ODEUROPA.F2_perceived, smell)
         self.add(CRM.P7_took_place_at, place)
 
@@ -57,4 +57,3 @@ class OlfactoryExperience(Entity):
 
     def evoked(self, what, lang=''):
         self.add(ODEUROPA.F6_evoked, what, lang)
-

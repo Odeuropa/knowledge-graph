@@ -1,13 +1,14 @@
-from rdflib import TIME, RDFS, XSD
+from rdflib import TIME, RDFS
+
 from .Entity import Entity
 from .time_parsing import time_parsing
 
 
 class Time(Entity):
     def __init__(self, seed, label):
-        super().__init__(str(seed))
+        super().__init__(str(seed), 'time')
         self.seed = seed
-        self.setclass(TIME.TemporalEntity)
+        self.set_class(TIME.TemporalEntity)
         self.add(RDFS.label, label)
         self.start = None
         self.end = None
@@ -24,7 +25,8 @@ class Time(Entity):
             # print(x, "=>", edtf, part_day)
             if fallback == 'text':
                 t = Time(x, x)
-            return None
+            else:
+                return None
         else:
             # print(x, edtf)
             t = Time(edtf + ''.join(part_day), edtf)
@@ -35,17 +37,17 @@ class Time(Entity):
 
         return t
 
-    def set_start(self, date, type):
+    def set_start(self, date, xsd_type):
         if not date or 'X' in date:
             return
         self.start = date
-        self.add(TIME.hasBeginning, date, type)
+        self.add(TIME.hasBeginning, date, xsd_type)
 
-    def set_end(self, date, type):
+    def set_end(self, date, xsd_type):
         if not date or 'X' in date:
             return
         self.end = date
-        self.add(TIME.hasEnd, date, type)
+        self.add(TIME.hasEnd, date, xsd_type)
 
     def compute_rdf_date(self):
         dt = time_parsing.parse_edtf(self.seed)

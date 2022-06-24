@@ -11,7 +11,7 @@ class ImageObject(SourceDoc):
         super().__init__(_id, title, author, date)
         self.genre = genre
 
-        self.setclass(CRM.E36_Visual_Item)
+        self.set_class(CRM.E36_Visual_Item)
         self.add(SDO.genre, genre)
         self.add(SDO.locationCreated, Place.from_text(place))
         self.add(SDO.image, url)
@@ -31,7 +31,7 @@ class MediaFragment(Entity):
     def __init__(self, media_uri, bbox, media_obj):
         self.uri = media_uri + '#xywh=' + ','.join([str(x) for x in bbox])
         self.res = URIRef(self.uri)
-        self.setclass(MA.MediaFragment)
+        self.set_class(MA.MediaFragment)
         self.media = media_obj
 
         x, y, w, h = bbox
@@ -47,6 +47,6 @@ class MediaFragment(Entity):
 
 class Annotation(Entity):
     def __init__(self, seed, body):
-        super().__init__(seed)
-        self.setclass(OA.Annotation)
+        super().__init__(seed, 'annotation')
+        self.set_class(OA.Annotation)
         self.add(OA.hasBody, body)

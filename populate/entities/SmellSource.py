@@ -11,7 +11,7 @@ ARTIFACT = 'http://data.odeuropa.eu/vocabulary/olfactory-objects/artifact'
 
 class SmellSource(Entity):
     def __init__(self, seed, label, lang='en', lemma=None, role=None):
-        super().__init__(seed)
+        super().__init__(seed, 'object')
         self.add_label(label)
 
         self.role = None
@@ -21,9 +21,9 @@ class SmellSource(Entity):
         if lemma is not None:
             self.add(CRM.P137_exemplifies, lemma)
             if role and ARTIFACT in role:
-                self.setclass(CRM.E22_HumanMade_Object)
+                self.set_class(CRM.E22_HumanMade_Object)
             else:
-                self.setclass(CRMsci.S10_Material_Substantial)
+                self.set_class(CRMsci.S10_Material_Substantial)
 
             if role:
                 if CARRIER in role:

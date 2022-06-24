@@ -1,12 +1,6 @@
-from rdflib import RDFS
-
-from .Entity import Entity
-from .ontologies import CRM
+from . import Actor
 
 
-class Person(Entity):
+class Person(Actor):
     def __init__(self, name, anonymize=False):
-        super().__init__(name)
-        self.setclass(CRM.E21_Person)
-        if not anonymize:
-            self.add(RDFS.label, name)
+        super().__init__(name, anonymize=anonymize, is_person=True)

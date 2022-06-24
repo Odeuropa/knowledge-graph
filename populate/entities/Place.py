@@ -53,8 +53,8 @@ def to_geonames_uri(geonames_id):
 
 class Place(Entity):
     def __init__(self, name, typ=None):
-        super().__init__(name)
-        self.setclass(CRM.E53_Place)
+        super().__init__(name, 'place')
+        self.set_class(CRM.E53_Place)
         self.add(RDFS.label, name)
         self.add(CRM.P137_exemplifies, typ)
 

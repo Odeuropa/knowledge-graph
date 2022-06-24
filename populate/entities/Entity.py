@@ -9,13 +9,13 @@ from .config import BASE
 
 
 class Entity:
-    def __init__(self, seed):
+    def __init__(self, seed, group):
         curclass = type(self).__name__
 
-        self.uri = path.join(BASE, curclass, str(uuid.uuid5(uuid.NAMESPACE_DNS, curclass + seed)))
+        self.uri = path.join(BASE, group, str(uuid.uuid5(uuid.NAMESPACE_DNS, curclass + seed)))
         self.res = URIRef(self.uri)
 
-    def setclass(self, cls):
+    def set_class(self, cls):
         return self.add(RDF.type, cls)
 
     def add(self, pred, obj, lang=''):

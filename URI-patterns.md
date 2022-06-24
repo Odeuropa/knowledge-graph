@@ -29,21 +29,21 @@ http://data.odeuropa.eu/<group>/<uuid>
 
 The `<group>` is taken from this table
 
-| Class                           | Group               |
-|---------------------------------|---------------------|
-| od:L11_Smell                    | Smell               |
-| od:L12_Smell_Emission           | SmellEmission       |
-| od:L13_Olfactory_Experience     | OlfactoryExperience |
-| crm:E22_Human-Made_Object       | SmellSource         |
-| crmsci:S10_Material_Substantial | SmellSource         |
-| crm:E39_Actor                   | Actor               |
-| crm:E21_Person                  | Actor               |
-| crm:E53_Place                   | Place               |
-| time:TemporalEntity             | Time                |
-| crm:E33_Linguistic_Object       | TextualObject       |
-| crm:E36_Visual_Item             | ImageObject         |
-| oa:Annotation                   | Annotation          |
-| prov:Activity                   | Provenance          |
+| Class                           | Group      |
+|---------------------------------|------------|
+| od:L11_Smell                    | smell      |
+| od:L12_Smell_Emission           | emission   |
+| od:L13_Olfactory_Experience     | experience |
+| crm:E22_Human-Made_Object       | object     |
+| crmsci:S10_Material_Substantial | object     |
+| crm:E39_Actor                   | actor      |
+| crm:E21_Person                  | actor      |
+| crm:E53_Place                   | place      |
+| time:TemporalEntity             | time       |
+| E33_Linguistic_Object       | resource   |
+| crm:E36_Visual_Item             | resource   |
+| oa:Annotation                   | annotation |
+| prov:Activity                   | provenance |
 
 ## Secondary entities
 
@@ -59,11 +59,12 @@ The used pattern is the following:
 
 The `<suffix>` is taken from this table:
 
-| Class | Group                | Suffix                        |
-| --- |----------------------|-------------------------------|
-| od:L7_Gesture | OlfactoryExperience  | /gesture/{progressive int}    |
-| crm:E13_Attribute_Assignment    | OlfactoryEnxperience | /assignment/{progressive int  |
-| ma:MediaFragment | ImageObject          | #xywh={coordinates}           |
+| Class                                | Group      | Suffix                                       |
+|--------------------------------------|------------|----------------------------------------------|
+| od:L7_Gesture                        | experience | /gesture/{progressive int}                   |
+| crm:E13_Attribute_Assignment         | experience | /assignment/{progressive int                 |
+| ma:MediaFragment                     | resource   | #xywh={coordinates}                          |
+| E33_Linguistic_Object (text snippet) | resource   | /fragment/{uuid generated from text content} |
 
 ## UUID and seed generation
 
