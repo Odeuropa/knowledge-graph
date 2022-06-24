@@ -93,7 +93,7 @@ def process_annotation_sheet(df, lang):
         doc_map[identifier] += 1
 
         txt = doc or TextualObject(identifier, title)
-        txt.add_fragment(r['Sentence'], lang)
+        frag = txt.add_fragment(r['Sentence'], lang)
 
         prov = Provenance('text_annotation' + r['Annotator'], 'Manual text annotation', PROV_DESCR, r['Annotator'])
 
@@ -125,9 +125,9 @@ def process_annotation_sheet(df, lang):
                 experience.add_time(tim)
                 emission.add_time(tim)
 
-        set_prov(add(txt, CRM.P67_refers_to, emission), prov)
-        add(txt, CRM.P67_refers_to, smell)
-        add(txt, CRM.P67_refers_to, experience)
+        frag.add_annotation(emission, prov)
+        frag.add_annotation(smell, prov)
+        frag.add_annotation(experience, prov)
 
 
 def process_benchmark_sheet(language):

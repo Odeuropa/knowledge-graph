@@ -51,14 +51,20 @@ class TextualObject(SourceDoc):
         self.add(SDO.url, url)
 
     def add_fragment(self, text, lang=None):
-        frag = TextFragment(self.uri, text, lang or self.lang)
+        frag = TextFragment(self, text, lang or self.lang)
         self.add(CRM.P165_incorporates, frag)
+        return frag
 
 
 class TextFragment(Entity):
-    def __init__(self, parent_uri, text, lang):
-        self.uri = path.join(parent_uri, 'fragment', str(uuid.uuid5(uuid.NAMESPACE_DNS, text)))
+    def __init__(self, parent, text, lang):
+        self.uri = path.join(parent.uri, 'fragment', str(uuid.uuid5(uuid.NAMESPACE_DNS, text)))
         self.res = URIRef(self.uri)
+        self.parent = parent
 
         self.set_class(CRM.E33_Linguistic_Object)
         self.add_descr(text, lang)
+
+    def add_annotation(self, what, prov):
+        Graph.set_prov(self.add(CRM.P67_refers_to, what), prov)
+        Graph.set_prov(self.parent.add(CRM.P67_refers_to, what), prov)
