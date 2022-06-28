@@ -1,0 +1,722 @@
+@prefix dct: <http://purl.org/dc/terms/> .
+@prefix gold: <http://purl.org/linguistics/gold/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix wd: <http://www.wikidata.org/entity/> .
+@prefix xsd1: <http://www.w3.org/2001/MLSchema#> .
+
+<http://data.odeuropa.eu/vocabulary/vdi-hedonic/01n> a skos:Concept ;
+    gold:antonym <http://data.odeuropa.eu/vocabulary/vdi-hedonic/01p> ;
+    skos:inScheme <http://data.odeuropa.eu/vocabulary/vdi-hedonic> ;
+    skos:prefLabel "Schwach"@de,
+        "Weak"@en,
+        "Faible"@fr,
+        "Debole"@it,
+        "Zwak"@nl,
+        "Šibka"@sl ;
+    skos:topConceptOf <http://data.odeuropa.eu/vocabulary/vdi-hedonic> .
+
+<http://data.odeuropa.eu/vocabulary/vdi-hedonic/01p> a skos:Concept ;
+    gold:antonym <http://data.odeuropa.eu/vocabulary/vdi-hedonic/01n> ;
+    skos:inScheme <http://data.odeuropa.eu/vocabulary/vdi-hedonic> ;
+    skos:prefLabel "Stark"@de,
+        "Strong"@en,
+        "Forte"@fr,
+        "Forte"@it,
+        "Sterk"@nl,
+        "Močan"@sl ;
+    skos:topConceptOf <http://data.odeuropa.eu/vocabulary/vdi-hedonic> .
+
+<http://data.odeuropa.eu/vocabulary/vdi-hedonic/02n> a skos:Concept ;
+    gold:antonym <http://data.odeuropa.eu/vocabulary/vdi-hedonic/02p> ;
+    skos:inScheme <http://data.odeuropa.eu/vocabulary/vdi-hedonic> ;
+    skos:prefLabel "Fein"@de,
+        "Fine"@en,
+        "Fine"@fr,
+        "Fine"@it,
+        "Fijn"@nl,
+        "Fine"@sl ;
+    skos:topConceptOf <http://data.odeuropa.eu/vocabulary/vdi-hedonic> .
+
+<http://data.odeuropa.eu/vocabulary/vdi-hedonic/02p> a skos:Concept ;
+    gold:antonym <http://data.odeuropa.eu/vocabulary/vdi-hedonic/02n> ;
+    skos:inScheme <http://data.odeuropa.eu/vocabulary/vdi-hedonic> ;
+    skos:prefLabel "Grob"@de,
+        "Coarse"@en,
+        "Grossier"@fr,
+        "Grezzo"@it,
+        "Rough"@nl,
+        "Surov"@sl ;
+    skos:topConceptOf <http://data.odeuropa.eu/vocabulary/vdi-hedonic> .
+
+<http://data.odeuropa.eu/vocabulary/vdi-hedonic/03n> a skos:Concept ;
+    gold:antonym <http://data.odeuropa.eu/vocabulary/vdi-hedonic/03p> ;
+    skos:altLabel "Stimulant"@fr,
+        "Stimolante"@it ;
+    skos:inScheme <http://data.odeuropa.eu/vocabulary/vdi-hedonic> ;
+    skos:prefLabel "Erhebend"@de,
+        "Elevating"@en,
+        "Exaltant"@fr,
+        "Entusiasmante"@it,
+        "Spannend"@nl,
+        "Razburljivo"@sl ;
+    skos:topConceptOf <http://data.odeuropa.eu/vocabulary/vdi-hedonic> .
+
+<http://data.odeuropa.eu/vocabulary/vdi-hedonic/03p> a skos:Concept ;
+    gold:antonym <http://data.odeuropa.eu/vocabulary/vdi-hedonic/03n> ;
+    skos:inScheme <http://data.odeuropa.eu/vocabulary/vdi-hedonic> ;
+    skos:prefLabel "Niederdrückend"@de,
+        "Depressing"@en,
+        "Dépressif"@fr,
+        "Deprimente"@it,
+        "Deprimerend"@nl,
+        "Depresivni"@sl ;
+    skos:topConceptOf <http://data.odeuropa.eu/vocabulary/vdi-hedonic> .
+
+<http://data.odeuropa.eu/vocabulary/vdi-hedonic/04n> a skos:Concept ;
+    gold:antonym <http://data.odeuropa.eu/vocabulary/vdi-hedonic/04p> ;
+    skos:inScheme <http://data.odeuropa.eu/vocabulary/vdi-hedonic> ;
+    skos:prefLabel "Zart"@de,
+        "Delicate"@en,
+        "Délicat"@fr,
+        "Delicato"@it,
+        "Delicaat"@nl,
+        "Delikatno"@sl ;
+    skos:topConceptOf <http://data.odeuropa.eu/vocabulary/vdi-hedonic> .
+
+<http://data.odeuropa.eu/vocabulary/vdi-hedonic/04p> a skos:Concept ;
+    gold:antonym <http://data.odeuropa.eu/vocabulary/vdi-hedonic/04n> ;
+    skos:inScheme <http://data.odeuropa.eu/vocabulary/vdi-hedonic> ;
+    skos:prefLabel "Robust"@de,
+        "Sturdy"@en,
+        "Robuste"@fr,
+        "Robusto"@it,
+        "Robuust"@nl,
+        "Robusten"@sl ;
+    skos:topConceptOf <http://data.odeuropa.eu/vocabulary/vdi-hedonic> .
+
+<http://data.odeuropa.eu/vocabulary/vdi-hedonic/05n> a skos:Concept ;
+    gold:antonym <http://data.odeuropa.eu/vocabulary/vdi-hedonic/05p> ;
+    skos:inScheme <http://data.odeuropa.eu/vocabulary/vdi-hedonic> ;
+    skos:prefLabel "Leicht"@de,
+        "Light"@en,
+        "Léger"@fr,
+        "Leggero"@it,
+        "Licht"@nl,
+        "Svetlobo"@sl ;
+    skos:topConceptOf <http://data.odeuropa.eu/vocabulary/vdi-hedonic> .
+
+<http://data.odeuropa.eu/vocabulary/vdi-hedonic/05p> a skos:Concept ;
+    gold:antonym <http://data.odeuropa.eu/vocabulary/vdi-hedonic/05n> ;
+    skos:inScheme <http://data.odeuropa.eu/vocabulary/vdi-hedonic> ;
+    skos:prefLabel "Schwer"@de,
+        "Heavy"@en,
+        "Lourd"@fr,
+        "Pesante"@it,
+        "Zwaar"@nl,
+        "Težki"@sl ;
+    skos:topConceptOf <http://data.odeuropa.eu/vocabulary/vdi-hedonic> .
+
+<http://data.odeuropa.eu/vocabulary/vdi-hedonic/06n> a skos:Concept ;
+    gold:antonym <http://data.odeuropa.eu/vocabulary/vdi-hedonic/06p> ;
+    skos:inScheme <http://data.odeuropa.eu/vocabulary/vdi-hedonic> ;
+    skos:prefLabel "Jung"@de,
+        "Young"@en,
+        "Jeune"@fr,
+        "Giovane"@it,
+        "Jong"@nl,
+        "Mladi"@sl ;
+    skos:topConceptOf <http://data.odeuropa.eu/vocabulary/vdi-hedonic> .
+
+<http://data.odeuropa.eu/vocabulary/vdi-hedonic/06p> a skos:Concept ;
+    gold:antonym <http://data.odeuropa.eu/vocabulary/vdi-hedonic/06n> ;
+    skos:inScheme <http://data.odeuropa.eu/vocabulary/vdi-hedonic> ;
+    skos:prefLabel "Alt"@de,
+        "Old"@en,
+        "Ancien"@fr,
+        "Vecchio"@it,
+        "Old"@nl,
+        "Stari"@sl ;
+    skos:topConceptOf <http://data.odeuropa.eu/vocabulary/vdi-hedonic> .
+
+<http://data.odeuropa.eu/vocabulary/vdi-hedonic/07n> a skos:Concept ;
+    gold:antonym <http://data.odeuropa.eu/vocabulary/vdi-hedonic/07p> ;
+    skos:inScheme <http://data.odeuropa.eu/vocabulary/vdi-hedonic> ;
+    skos:prefLabel "Sanft"@de,
+        "Gentle"@en,
+        "Raffiné"@fr,
+        "Raffinato"@it,
+        "Verfijnd"@nl,
+        "Nežen"@sl ;
+    skos:topConceptOf <http://data.odeuropa.eu/vocabulary/vdi-hedonic> .
+
+<http://data.odeuropa.eu/vocabulary/vdi-hedonic/07p> a skos:Concept ;
+    gold:antonym <http://data.odeuropa.eu/vocabulary/vdi-hedonic/07n> ;
+    skos:inScheme <http://data.odeuropa.eu/vocabulary/vdi-hedonic> ;
+    skos:prefLabel "Wild"@de,
+        "Wild"@en,
+        "Sauvage"@fr,
+        "Selvaggio"@it,
+        "Wild"@nl,
+        "Divji"@sl ;
+    skos:topConceptOf <http://data.odeuropa.eu/vocabulary/vdi-hedonic> .
+
+<http://data.odeuropa.eu/vocabulary/vdi-hedonic/08n> a skos:Concept ;
+    gold:antonym <http://data.odeuropa.eu/vocabulary/vdi-hedonic/08p> ;
+    skos:inScheme <http://data.odeuropa.eu/vocabulary/vdi-hedonic> ;
+    skos:prefLabel "Beruhigend"@de,
+        "Soothing"@en,
+        "Apaisant"@fr,
+        "Rilassante"@it,
+        "Ontspannen"@nl,
+        "Sproščujoče"@sl ;
+    skos:topConceptOf <http://data.odeuropa.eu/vocabulary/vdi-hedonic> .
+
+<http://data.odeuropa.eu/vocabulary/vdi-hedonic/08p> a skos:Concept ;
+    gold:antonym <http://data.odeuropa.eu/vocabulary/vdi-hedonic/08n> ;
+    skos:altLabel "Eccitante"@it ;
+    skos:inScheme <http://data.odeuropa.eu/vocabulary/vdi-hedonic> ;
+    skos:prefLabel "Aufregend"@de,
+        "Exciting"@en,
+        "Excitant"@fr,
+        "Emozionante"@it,
+        "Opwindend"@nl,
+        "Razburljivo"@sl ;
+    skos:topConceptOf <http://data.odeuropa.eu/vocabulary/vdi-hedonic> .
+
+<http://data.odeuropa.eu/vocabulary/vdi-hedonic/09n> a skos:Concept ;
+    gold:antonym <http://data.odeuropa.eu/vocabulary/vdi-hedonic/09p> ;
+    skos:inScheme <http://data.odeuropa.eu/vocabulary/vdi-hedonic> ;
+    skos:prefLabel "Glatt"@de,
+        "Smooth"@en,
+        "Lisse"@fr,
+        "Liscio"@it,
+        "Glad"@nl,
+        "Gladek"@sl ;
+    skos:topConceptOf <http://data.odeuropa.eu/vocabulary/vdi-hedonic> .
+
+<http://data.odeuropa.eu/vocabulary/vdi-hedonic/09p> a skos:Concept ;
+    gold:antonym <http://data.odeuropa.eu/vocabulary/vdi-hedonic/09n> ;
+    skos:inScheme <http://data.odeuropa.eu/vocabulary/vdi-hedonic> ;
+    skos:prefLabel "Rauh"@de,
+        "Rough"@en,
+        "Rugueux"@fr,
+        "Ruvido"@it,
+        "Ruw"@nl,
+        "Grobo"@sl ;
+    skos:topConceptOf <http://data.odeuropa.eu/vocabulary/vdi-hedonic> .
+
+<http://data.odeuropa.eu/vocabulary/vdi-hedonic/10n> a skos:Concept ;
+    gold:antonym <http://data.odeuropa.eu/vocabulary/vdi-hedonic/10p> ;
+    skos:altLabel "Lumineux"@fr,
+        "Luminoso"@it ;
+    skos:inScheme <http://data.odeuropa.eu/vocabulary/vdi-hedonic> ;
+    skos:prefLabel "Hell"@de,
+        "Bright"@en,
+        "Clair"@fr,
+        "Chiaro"@it,
+        "Helder"@nl,
+        "Jasen"@sl ;
+    skos:topConceptOf <http://data.odeuropa.eu/vocabulary/vdi-hedonic> .
+
+<http://data.odeuropa.eu/vocabulary/vdi-hedonic/10p> a skos:Concept ;
+    gold:antonym <http://data.odeuropa.eu/vocabulary/vdi-hedonic/10n> ;
+    skos:inScheme <http://data.odeuropa.eu/vocabulary/vdi-hedonic> ;
+    skos:prefLabel "Dunkel"@de,
+        "Dark"@en,
+        "Sombre"@fr,
+        "Scuro"@it,
+        "Donker"@nl,
+        "Temno"@sl ;
+    skos:topConceptOf <http://data.odeuropa.eu/vocabulary/vdi-hedonic> .
+
+<http://data.odeuropa.eu/vocabulary/vdi-hedonic/11n> a skos:Concept ;
+    gold:antonym <http://data.odeuropa.eu/vocabulary/vdi-hedonic/11p> ;
+    skos:altLabel "Doux"@fr ;
+    skos:inScheme <http://data.odeuropa.eu/vocabulary/vdi-hedonic> ;
+    skos:prefLabel "Süß"@de,
+        "Sweet"@en,
+        "Suave"@fr,
+        "Dolce"@it,
+        "Zoet"@nl,
+        "Sladko"@sl ;
+    skos:topConceptOf <http://data.odeuropa.eu/vocabulary/vdi-hedonic> .
+
+<http://data.odeuropa.eu/vocabulary/vdi-hedonic/11p> a skos:Concept ;
+    gold:antonym <http://data.odeuropa.eu/vocabulary/vdi-hedonic/11n> ;
+    skos:inScheme <http://data.odeuropa.eu/vocabulary/vdi-hedonic> ;
+    skos:prefLabel "Herb"@de,
+        "Bitter"@en,
+        "Amère"@fr,
+        "Amaro"@it,
+        "Bitter"@nl,
+        "Grenko"@sl ;
+    skos:topConceptOf <http://data.odeuropa.eu/vocabulary/vdi-hedonic> .
+
+<http://data.odeuropa.eu/vocabulary/vdi-hedonic/12n> a skos:Concept ;
+    gold:antonym <http://data.odeuropa.eu/vocabulary/vdi-hedonic/12p> ;
+    skos:inScheme <http://data.odeuropa.eu/vocabulary/vdi-hedonic> ;
+    skos:prefLabel "Langweilig"@de,
+        "Boring"@en,
+        "Ennuyeux"@fr,
+        "Noioso"@it,
+        "Saai"@nl,
+        "Dolgočasno"@sl ;
+    skos:topConceptOf <http://data.odeuropa.eu/vocabulary/vdi-hedonic> .
+
+<http://data.odeuropa.eu/vocabulary/vdi-hedonic/12p> a skos:Concept ;
+    gold:antonym <http://data.odeuropa.eu/vocabulary/vdi-hedonic/12n> ;
+    skos:inScheme <http://data.odeuropa.eu/vocabulary/vdi-hedonic> ;
+    skos:prefLabel "Interessant"@de,
+        "Interesting"@en,
+        "Intéressant"@fr,
+        "Interessante"@it,
+        "Interessant"@nl,
+        "Zanimivo"@sl ;
+    skos:topConceptOf <http://data.odeuropa.eu/vocabulary/vdi-hedonic> .
+
+<http://data.odeuropa.eu/vocabulary/vdi-hedonic/13n> a skos:Concept ;
+    gold:antonym <http://data.odeuropa.eu/vocabulary/vdi-hedonic/13p> ;
+    skos:inScheme <http://data.odeuropa.eu/vocabulary/vdi-hedonic> ;
+    skos:prefLabel "Warm"@de,
+        "Hot"@en,
+        "Chaud"@fr,
+        "Caldo"@it,
+        "Heet"@nl,
+        "Vroče"@sl ;
+    skos:topConceptOf <http://data.odeuropa.eu/vocabulary/vdi-hedonic> .
+
+<http://data.odeuropa.eu/vocabulary/vdi-hedonic/13p> a skos:Concept ;
+    gold:antonym <http://data.odeuropa.eu/vocabulary/vdi-hedonic/13n> ;
+    skos:inScheme <http://data.odeuropa.eu/vocabulary/vdi-hedonic> ;
+    skos:prefLabel "Kalt"@de,
+        "Cold"@en,
+        "Froid"@fr,
+        "Freddo"@it,
+        "Koud"@nl,
+        "Hladno"@sl ;
+    skos:topConceptOf <http://data.odeuropa.eu/vocabulary/vdi-hedonic> .
+
+<http://data.odeuropa.eu/vocabulary/vdi-hedonic/14n> a skos:Concept ;
+    gold:antonym <http://data.odeuropa.eu/vocabulary/vdi-hedonic/14p> ;
+    skos:inScheme <http://data.odeuropa.eu/vocabulary/vdi-hedonic> ;
+    skos:prefLabel "Müde"@de,
+        "Tired"@en,
+        "Fatigué"@fr,
+        "Stanco"@it,
+        "Moe"@nl,
+        "Utrujen"@sl ;
+    skos:topConceptOf <http://data.odeuropa.eu/vocabulary/vdi-hedonic> .
+
+<http://data.odeuropa.eu/vocabulary/vdi-hedonic/14p> a skos:Concept ;
+    gold:antonym <http://data.odeuropa.eu/vocabulary/vdi-hedonic/14n> ;
+    skos:inScheme <http://data.odeuropa.eu/vocabulary/vdi-hedonic> ;
+    skos:prefLabel "Wach"@de,
+        "Awake"@en,
+        "Réveillé"@fr,
+        "Sveglio"@it,
+        "Wakker"@nl,
+        "Prebujen"@sl ;
+    skos:topConceptOf <http://data.odeuropa.eu/vocabulary/vdi-hedonic> .
+
+<http://data.odeuropa.eu/vocabulary/vdi-hedonic/15n> a skos:Concept ;
+    gold:antonym <http://data.odeuropa.eu/vocabulary/vdi-hedonic/15p> ;
+    skos:inScheme <http://data.odeuropa.eu/vocabulary/vdi-hedonic> ;
+    skos:prefLabel "Tief"@de,
+        "Deep"@en,
+        "Profond"@fr,
+        "Profondo"@it,
+        "Diep"@nl,
+        "Globok"@sl ;
+    skos:topConceptOf <http://data.odeuropa.eu/vocabulary/vdi-hedonic> .
+
+<http://data.odeuropa.eu/vocabulary/vdi-hedonic/15p> a skos:Concept ;
+    gold:antonym <http://data.odeuropa.eu/vocabulary/vdi-hedonic/15n> ;
+    skos:altLabel "Basso"@it,
+        "Poco profondo"@it ;
+    skos:inScheme <http://data.odeuropa.eu/vocabulary/vdi-hedonic> ;
+    skos:prefLabel "Seicht"@de,
+        "Shallow"@en,
+        "Peu profond"@fr,
+        "Poco Profondo"@it,
+        "Oppervlakkig"@nl,
+        "Plitvo"@sl ;
+    skos:topConceptOf <http://data.odeuropa.eu/vocabulary/vdi-hedonic> .
+
+<http://data.odeuropa.eu/vocabulary/vdi-hedonic/16n> a skos:Concept ;
+    gold:antonym <http://data.odeuropa.eu/vocabulary/vdi-hedonic/16p> ;
+    skos:inScheme <http://data.odeuropa.eu/vocabulary/vdi-hedonic> ;
+    skos:prefLabel "Laut"@de,
+        "Loud"@en,
+        "Bruyant"@fr,
+        "Rumoroso"@it,
+        "Luid"@nl,
+        "Glasno"@sl ;
+    skos:topConceptOf <http://data.odeuropa.eu/vocabulary/vdi-hedonic> .
+
+<http://data.odeuropa.eu/vocabulary/vdi-hedonic/16p> a skos:Concept ;
+    gold:antonym <http://data.odeuropa.eu/vocabulary/vdi-hedonic/16n> ;
+    skos:inScheme <http://data.odeuropa.eu/vocabulary/vdi-hedonic> ;
+    skos:prefLabel "Leise"@de,
+        "Quiet"@en,
+        "Silencieux"@fr,
+        "Silenzioso"@it,
+        "Rustig"@nl,
+        "Tihi"@sl ;
+    skos:topConceptOf <http://data.odeuropa.eu/vocabulary/vdi-hedonic> .
+
+<http://data.odeuropa.eu/vocabulary/vdi-hedonic/17n> a skos:Concept ;
+    gold:antonym <http://data.odeuropa.eu/vocabulary/vdi-hedonic/17p> ;
+    skos:inScheme <http://data.odeuropa.eu/vocabulary/vdi-hedonic> ;
+    skos:prefLabel "Hart"@de,
+        "Hard"@en,
+        "Dur"@fr,
+        "Duro"@it,
+        "Hard"@nl,
+        "Težko"@sl ;
+    skos:topConceptOf <http://data.odeuropa.eu/vocabulary/vdi-hedonic> .
+
+<http://data.odeuropa.eu/vocabulary/vdi-hedonic/17p> a skos:Concept ;
+    gold:antonym <http://data.odeuropa.eu/vocabulary/vdi-hedonic/17n> ;
+    skos:altLabel "Doux"@fr ;
+    skos:inScheme <http://data.odeuropa.eu/vocabulary/vdi-hedonic> ;
+    skos:prefLabel "Weich"@de,
+        "Soft"@en,
+        "Tendre"@fr,
+        "Morbido"@it,
+        "Zacht"@nl,
+        "Mehka"@sl ;
+    skos:topConceptOf <http://data.odeuropa.eu/vocabulary/vdi-hedonic> .
+
+<http://data.odeuropa.eu/vocabulary/vdi-hedonic/18n> a skos:Concept ;
+    gold:antonym <http://data.odeuropa.eu/vocabulary/vdi-hedonic/18p> ;
+    skos:altLabel "Fade"@fr ;
+    skos:inScheme <http://data.odeuropa.eu/vocabulary/vdi-hedonic> ;
+    skos:prefLabel "Schal"@de,
+        "Flat"@en,
+        "Insipide"@fr,
+        "Insipido"@it,
+        "Sjaal"@nl,
+        "Neokusen"@sl ;
+    skos:topConceptOf <http://data.odeuropa.eu/vocabulary/vdi-hedonic> .
+
+<http://data.odeuropa.eu/vocabulary/vdi-hedonic/18p> a skos:Concept ;
+    gold:antonym <http://data.odeuropa.eu/vocabulary/vdi-hedonic/18n> ;
+    skos:inScheme <http://data.odeuropa.eu/vocabulary/vdi-hedonic> ;
+    skos:prefLabel "Würzig"@de,
+        "Tasty"@en,
+        "Savoureux"@fr,
+        "Saporito"@it,
+        "Smakelijk"@nl,
+        "Okusno"@sl ;
+    skos:topConceptOf <http://data.odeuropa.eu/vocabulary/vdi-hedonic> .
+
+<http://data.odeuropa.eu/vocabulary/vdi-hedonic/19n> a skos:Concept ;
+    gold:antonym <http://data.odeuropa.eu/vocabulary/vdi-hedonic/19p> ;
+    skos:inScheme <http://data.odeuropa.eu/vocabulary/vdi-hedonic> ;
+    skos:prefLabel "Stechend"@de,
+        "Pungent"@en,
+        "Piquant"@fr,
+        "Pungente"@it,
+        "Scherp"@nl,
+        "Oster"@sl ;
+    skos:topConceptOf <http://data.odeuropa.eu/vocabulary/vdi-hedonic> .
+
+<http://data.odeuropa.eu/vocabulary/vdi-hedonic/19p> a skos:Concept ;
+    gold:antonym <http://data.odeuropa.eu/vocabulary/vdi-hedonic/19n> ;
+    skos:altLabel "Pust"@sl ;
+    skos:inScheme <http://data.odeuropa.eu/vocabulary/vdi-hedonic> ;
+    skos:prefLabel "Dumpf"@de,
+        "Dull"@en,
+        "Terne"@fr,
+        "Scialbo"@it,
+        "Saai"@nl,
+        "Dolgočasen"@sl ;
+    skos:topConceptOf <http://data.odeuropa.eu/vocabulary/vdi-hedonic> .
+
+<http://data.odeuropa.eu/vocabulary/vdi-hedonic/20n> a skos:Concept ;
+    gold:antonym <http://data.odeuropa.eu/vocabulary/vdi-hedonic/20p> ;
+    skos:inScheme <http://data.odeuropa.eu/vocabulary/vdi-hedonic> ;
+    skos:prefLabel "Ernst"@de,
+        "Serious"@en,
+        "Sérieux"@fr,
+        "Serio"@it,
+        "Ernstig"@nl,
+        "Resen"@sl ;
+    skos:topConceptOf <http://data.odeuropa.eu/vocabulary/vdi-hedonic> .
+
+<http://data.odeuropa.eu/vocabulary/vdi-hedonic/20p> a skos:Concept ;
+    gold:antonym <http://data.odeuropa.eu/vocabulary/vdi-hedonic/20n> ;
+    skos:inScheme <http://data.odeuropa.eu/vocabulary/vdi-hedonic> ;
+    skos:prefLabel "Verspielt"@de,
+        "Playful"@en,
+        "Ludique"@fr,
+        "Giocoso"@it,
+        "Speels"@nl,
+        "Igriv"@sl ;
+    skos:topConceptOf <http://data.odeuropa.eu/vocabulary/vdi-hedonic> .
+
+<http://data.odeuropa.eu/vocabulary/vdi-hedonic/21n> a skos:Concept ;
+    gold:antonym <http://data.odeuropa.eu/vocabulary/vdi-hedonic/21p> ;
+    skos:inScheme <http://data.odeuropa.eu/vocabulary/vdi-hedonic> ;
+    skos:prefLabel "Voll"@de,
+        "Full"@en,
+        "Plein"@fr,
+        "Pieno"@it,
+        "Volledig"@nl,
+        "Popolnoma"@sl ;
+    skos:topConceptOf <http://data.odeuropa.eu/vocabulary/vdi-hedonic> .
+
+<http://data.odeuropa.eu/vocabulary/vdi-hedonic/21p> a skos:Concept ;
+    gold:antonym <http://data.odeuropa.eu/vocabulary/vdi-hedonic/21n> ;
+    skos:inScheme <http://data.odeuropa.eu/vocabulary/vdi-hedonic> ;
+    skos:prefLabel "Leer"@de,
+        "Empty"@en,
+        "Vide"@fr,
+        "Vuoto"@it,
+        "Leeg"@nl,
+        "Prazen"@sl ;
+    skos:topConceptOf <http://data.odeuropa.eu/vocabulary/vdi-hedonic> .
+
+<http://data.odeuropa.eu/vocabulary/vdi-hedonic/22n> a skos:Concept ;
+    gold:antonym <http://data.odeuropa.eu/vocabulary/vdi-hedonic/22p> ;
+    skos:inScheme <http://data.odeuropa.eu/vocabulary/vdi-hedonic> ;
+    skos:prefLabel "Aktiv"@de,
+        "Active"@en,
+        "Actif"@fr,
+        "Attivo"@it,
+        "Actief"@nl,
+        "Aktivno"@sl ;
+    skos:topConceptOf <http://data.odeuropa.eu/vocabulary/vdi-hedonic> .
+
+<http://data.odeuropa.eu/vocabulary/vdi-hedonic/22p> a skos:Concept ;
+    gold:antonym <http://data.odeuropa.eu/vocabulary/vdi-hedonic/22n> ;
+    skos:inScheme <http://data.odeuropa.eu/vocabulary/vdi-hedonic> ;
+    skos:prefLabel "Passiv"@de,
+        "Passive"@en,
+        "Passif"@fr,
+        "Passivo"@it,
+        "Passief"@nl,
+        "Pasivni"@sl ;
+    skos:topConceptOf <http://data.odeuropa.eu/vocabulary/vdi-hedonic> .
+
+<http://data.odeuropa.eu/vocabulary/vdi-hedonic/23n> a skos:Concept ;
+    gold:antonym <http://data.odeuropa.eu/vocabulary/vdi-hedonic/23p> ;
+    skos:inScheme <http://data.odeuropa.eu/vocabulary/vdi-hedonic> ;
+    skos:prefLabel "Abgestanden"@de,
+        "Stale"@en,
+        "Rassis"@fr,
+        "Stantio"@it,
+        "Muf"@nl,
+        "Sladko"@sl ;
+    skos:topConceptOf <http://data.odeuropa.eu/vocabulary/vdi-hedonic> .
+
+<http://data.odeuropa.eu/vocabulary/vdi-hedonic/23p> a skos:Concept ;
+    gold:antonym <http://data.odeuropa.eu/vocabulary/vdi-hedonic/23n> ;
+    skos:inScheme <http://data.odeuropa.eu/vocabulary/vdi-hedonic> ;
+    skos:prefLabel "Frisch"@de,
+        "Fresh"@en,
+        "Frais"@fr,
+        "Fresco"@it,
+        "Fris"@nl,
+        "Sveže"@sl ;
+    skos:topConceptOf <http://data.odeuropa.eu/vocabulary/vdi-hedonic> .
+
+<http://data.odeuropa.eu/vocabulary/vdi-hedonic/24n> a skos:Concept ;
+    gold:antonym <http://data.odeuropa.eu/vocabulary/vdi-hedonic/24p> ;
+    skos:inScheme <http://data.odeuropa.eu/vocabulary/vdi-hedonic> ;
+    skos:prefLabel "Mißmutig"@de,
+        "Sullen"@en,
+        "Maussade"@fr,
+        "Cupo"@it,
+        "Somber"@nl,
+        "Sramežljiv"@sl ;
+    skos:topConceptOf <http://data.odeuropa.eu/vocabulary/vdi-hedonic> .
+
+<http://data.odeuropa.eu/vocabulary/vdi-hedonic/24p> a skos:Concept ;
+    gold:antonym <http://data.odeuropa.eu/vocabulary/vdi-hedonic/24n> ;
+    skos:inScheme <http://data.odeuropa.eu/vocabulary/vdi-hedonic> ;
+    skos:prefLabel "Vergnügt"@de,
+        "Cheerful"@en,
+        "Amusant"@fr,
+        "Allegro"@it,
+        "Vrolijk"@nl,
+        "Veselo"@sl ;
+    skos:topConceptOf <http://data.odeuropa.eu/vocabulary/vdi-hedonic> .
+
+<http://data.odeuropa.eu/vocabulary/vdi-hedonic/25n> a skos:Concept ;
+    gold:antonym <http://data.odeuropa.eu/vocabulary/vdi-hedonic/25p> ;
+    skos:inScheme <http://data.odeuropa.eu/vocabulary/vdi-hedonic> ;
+    skos:prefLabel "Unharmonisch"@de,
+        "Discordant"@en,
+        "Discordant"@fr,
+        "Discordante"@it,
+        "Disharmonisch"@nl,
+        "Neusklajen"@sl ;
+    skos:topConceptOf <http://data.odeuropa.eu/vocabulary/vdi-hedonic> .
+
+<http://data.odeuropa.eu/vocabulary/vdi-hedonic/25p> a skos:Concept ;
+    gold:antonym <http://data.odeuropa.eu/vocabulary/vdi-hedonic/25n> ;
+    skos:inScheme <http://data.odeuropa.eu/vocabulary/vdi-hedonic> ;
+    skos:prefLabel "Harmonisch"@de,
+        "Harmonious"@en,
+        "Harmonieux"@fr,
+        "Armonioso"@it,
+        "Harmonieus"@nl,
+        "Harmoničen"@sl ;
+    skos:topConceptOf <http://data.odeuropa.eu/vocabulary/vdi-hedonic> .
+
+<http://data.odeuropa.eu/vocabulary/vdi-hedonic/26n> a skos:Concept ;
+    gold:antonym <http://data.odeuropa.eu/vocabulary/vdi-hedonic/26p> ;
+    skos:altLabel "Rigoroso"@it ;
+    skos:inScheme <http://data.odeuropa.eu/vocabulary/vdi-hedonic> ;
+    skos:prefLabel "Streng"@de,
+        "Severe"@en,
+        "Sévère"@fr,
+        "Severo"@it,
+        "Streng"@nl,
+        "Huda"@sl ;
+    skos:topConceptOf <http://data.odeuropa.eu/vocabulary/vdi-hedonic> .
+
+<http://data.odeuropa.eu/vocabulary/vdi-hedonic/26p> a skos:Concept ;
+    gold:antonym <http://data.odeuropa.eu/vocabulary/vdi-hedonic/26n> ;
+    skos:inScheme <http://data.odeuropa.eu/vocabulary/vdi-hedonic> ;
+    skos:prefLabel "Mild"@de,
+        "Mild"@en,
+        "Doux"@fr,
+        "Mite"@it,
+        "Mild"@nl,
+        "Blag"@sl ;
+    skos:topConceptOf <http://data.odeuropa.eu/vocabulary/vdi-hedonic> .
+
+<http://data.odeuropa.eu/vocabulary/vdi-hedonic/27n> a skos:Concept ;
+    gold:antonym <http://data.odeuropa.eu/vocabulary/vdi-hedonic/27p> ;
+    skos:inScheme <http://data.odeuropa.eu/vocabulary/vdi-hedonic> ;
+    skos:prefLabel "Aggressiv"@de,
+        "Aggressive"@en,
+        "Aggressif"@fr,
+        "Aggressivo"@it,
+        "Agressief"@nl,
+        "Agresivni"@sl ;
+    skos:topConceptOf <http://data.odeuropa.eu/vocabulary/vdi-hedonic> .
+
+<http://data.odeuropa.eu/vocabulary/vdi-hedonic/27p> a skos:Concept ;
+    gold:antonym <http://data.odeuropa.eu/vocabulary/vdi-hedonic/27n> ;
+    skos:inScheme <http://data.odeuropa.eu/vocabulary/vdi-hedonic> ;
+    skos:prefLabel "Friedlich"@de,
+        "Peaceful"@en,
+        "Paisible"@fr,
+        "Tranquillo"@it,
+        "Vredig"@nl,
+        "Miren"@sl ;
+    skos:topConceptOf <http://data.odeuropa.eu/vocabulary/vdi-hedonic> .
+
+<http://data.odeuropa.eu/vocabulary/vdi-hedonic/28n> a skos:Concept ;
+    gold:antonym <http://data.odeuropa.eu/vocabulary/vdi-hedonic/28p> ;
+    skos:inScheme <http://data.odeuropa.eu/vocabulary/vdi-hedonic> ;
+    skos:prefLabel "Häßlich"@de,
+        "Ugly"@en,
+        "Laid"@fr,
+        "Brutto"@it,
+        "Lelijk"@nl,
+        "Grdo"@sl ;
+    skos:topConceptOf <http://data.odeuropa.eu/vocabulary/vdi-hedonic> .
+
+<http://data.odeuropa.eu/vocabulary/vdi-hedonic/28p> a skos:Concept ;
+    gold:antonym <http://data.odeuropa.eu/vocabulary/vdi-hedonic/28n> ;
+    skos:inScheme <http://data.odeuropa.eu/vocabulary/vdi-hedonic> ;
+    skos:prefLabel "Schön"@de,
+        "Beautiful"@en,
+        "Beau"@fr,
+        "Bello"@it,
+        "Mooi"@nl,
+        "Lepa"@sl ;
+    skos:topConceptOf <http://data.odeuropa.eu/vocabulary/vdi-hedonic> .
+
+<http://data.odeuropa.eu/vocabulary/vdi-hedonic/29n> a skos:Concept ;
+    gold:antonym <http://data.odeuropa.eu/vocabulary/vdi-hedonic/29p> ;
+    skos:inScheme <http://data.odeuropa.eu/vocabulary/vdi-hedonic> ;
+    skos:prefLabel "Unangenehm"@de,
+        "Unpleasant"@en,
+        "Désagréable"@fr,
+        "Sgradevole"@it,
+        "Onaangenaam"@nl,
+        "Neprijetno"@sl ;
+    skos:topConceptOf <http://data.odeuropa.eu/vocabulary/vdi-hedonic> .
+
+<http://data.odeuropa.eu/vocabulary/vdi-hedonic/29p> a skos:Concept ;
+    gold:antonym <http://data.odeuropa.eu/vocabulary/vdi-hedonic/29n> ;
+    skos:altLabel "Gradevole"@it ;
+    skos:inScheme <http://data.odeuropa.eu/vocabulary/vdi-hedonic> ;
+    skos:prefLabel "Angenehm"@de,
+        "Pleasant"@en,
+        "Agréable"@fr,
+        "Piacevole"@it,
+        "Aangenaam"@nl,
+        "Prijetno"@sl ;
+    skos:topConceptOf <http://data.odeuropa.eu/vocabulary/vdi-hedonic> .
+
+<http://data.odeuropa.eu/vocabulary/vdi-hedonic> a skos:ConceptScheme ;
+    dct:bibliographicCitation "Olfactometry-Determination of Hedonic Odour Tone, Part 2. Vol. 1 VDI-Handbuch Reinhaltung der Luft, Verein Deutsche Ingenieure Verlag; Düsseldorf, Germany: 1994. VDI-guideline 3882/2."@en ;
+    dct:created "1994"^^xsd1:gYear ;
+    dct:creator wd:Q529564 ;
+    skos:hasTopConcept <http://data.odeuropa.eu/vocabulary/vdi-hedonic/01n>,
+        <http://data.odeuropa.eu/vocabulary/vdi-hedonic/01p>,
+        <http://data.odeuropa.eu/vocabulary/vdi-hedonic/02n>,
+        <http://data.odeuropa.eu/vocabulary/vdi-hedonic/02p>,
+        <http://data.odeuropa.eu/vocabulary/vdi-hedonic/03n>,
+        <http://data.odeuropa.eu/vocabulary/vdi-hedonic/03p>,
+        <http://data.odeuropa.eu/vocabulary/vdi-hedonic/04n>,
+        <http://data.odeuropa.eu/vocabulary/vdi-hedonic/04p>,
+        <http://data.odeuropa.eu/vocabulary/vdi-hedonic/05n>,
+        <http://data.odeuropa.eu/vocabulary/vdi-hedonic/05p>,
+        <http://data.odeuropa.eu/vocabulary/vdi-hedonic/06n>,
+        <http://data.odeuropa.eu/vocabulary/vdi-hedonic/06p>,
+        <http://data.odeuropa.eu/vocabulary/vdi-hedonic/07n>,
+        <http://data.odeuropa.eu/vocabulary/vdi-hedonic/07p>,
+        <http://data.odeuropa.eu/vocabulary/vdi-hedonic/08n>,
+        <http://data.odeuropa.eu/vocabulary/vdi-hedonic/08p>,
+        <http://data.odeuropa.eu/vocabulary/vdi-hedonic/09n>,
+        <http://data.odeuropa.eu/vocabulary/vdi-hedonic/09p>,
+        <http://data.odeuropa.eu/vocabulary/vdi-hedonic/10n>,
+        <http://data.odeuropa.eu/vocabulary/vdi-hedonic/10p>,
+        <http://data.odeuropa.eu/vocabulary/vdi-hedonic/11n>,
+        <http://data.odeuropa.eu/vocabulary/vdi-hedonic/11p>,
+        <http://data.odeuropa.eu/vocabulary/vdi-hedonic/12n>,
+        <http://data.odeuropa.eu/vocabulary/vdi-hedonic/12p>,
+        <http://data.odeuropa.eu/vocabulary/vdi-hedonic/13n>,
+        <http://data.odeuropa.eu/vocabulary/vdi-hedonic/13p>,
+        <http://data.odeuropa.eu/vocabulary/vdi-hedonic/14n>,
+        <http://data.odeuropa.eu/vocabulary/vdi-hedonic/14p>,
+        <http://data.odeuropa.eu/vocabulary/vdi-hedonic/15n>,
+        <http://data.odeuropa.eu/vocabulary/vdi-hedonic/15p>,
+        <http://data.odeuropa.eu/vocabulary/vdi-hedonic/16n>,
+        <http://data.odeuropa.eu/vocabulary/vdi-hedonic/16p>,
+        <http://data.odeuropa.eu/vocabulary/vdi-hedonic/17n>,
+        <http://data.odeuropa.eu/vocabulary/vdi-hedonic/17p>,
+        <http://data.odeuropa.eu/vocabulary/vdi-hedonic/18n>,
+        <http://data.odeuropa.eu/vocabulary/vdi-hedonic/18p>,
+        <http://data.odeuropa.eu/vocabulary/vdi-hedonic/19n>,
+        <http://data.odeuropa.eu/vocabulary/vdi-hedonic/19p>,
+        <http://data.odeuropa.eu/vocabulary/vdi-hedonic/20n>,
+        <http://data.odeuropa.eu/vocabulary/vdi-hedonic/20p>,
+        <http://data.odeuropa.eu/vocabulary/vdi-hedonic/21n>,
+        <http://data.odeuropa.eu/vocabulary/vdi-hedonic/21p>,
+        <http://data.odeuropa.eu/vocabulary/vdi-hedonic/22n>,
+        <http://data.odeuropa.eu/vocabulary/vdi-hedonic/22p>,
+        <http://data.odeuropa.eu/vocabulary/vdi-hedonic/23n>,
+        <http://data.odeuropa.eu/vocabulary/vdi-hedonic/23p>,
+        <http://data.odeuropa.eu/vocabulary/vdi-hedonic/24n>,
+        <http://data.odeuropa.eu/vocabulary/vdi-hedonic/24p>,
+        <http://data.odeuropa.eu/vocabulary/vdi-hedonic/25n>,
+        <http://data.odeuropa.eu/vocabulary/vdi-hedonic/25p>,
+        <http://data.odeuropa.eu/vocabulary/vdi-hedonic/26n>,
+        <http://data.odeuropa.eu/vocabulary/vdi-hedonic/26p>,
+        <http://data.odeuropa.eu/vocabulary/vdi-hedonic/27n>,
+        <http://data.odeuropa.eu/vocabulary/vdi-hedonic/27p>,
+        <http://data.odeuropa.eu/vocabulary/vdi-hedonic/28n>,
+        <http://data.odeuropa.eu/vocabulary/vdi-hedonic/28p>,
+        <http://data.odeuropa.eu/vocabulary/vdi-hedonic/29n>,
+        <http://data.odeuropa.eu/vocabulary/vdi-hedonic/29p> ;
+    skos:prefLabel "Olfaktometrie - Bestimmung der hedonischen Geruchswirkung"@de,
+        "Olfactometry - Determination of Hedonic Odour Tone"@en .
+

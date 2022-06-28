@@ -1,0 +1,100 @@
+@prefix dct: <http://purl.org/dc/terms/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix wd: <http://www.wikidata.org/entity/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<http://data.odeuropa.eu/vocabulary/vdi-intensity/0> a skos:Concept ;
+    rdf:value "0"^^xsd:nonNegativeInteger ;
+    skos:altLabel "non perceptible"@fr,
+        "non percettibile"@it ;
+    skos:inScheme <http://data.odeuropa.eu/vocabulary/vdi-intensity> ;
+    skos:prefLabel "nicht wahrnehmbar"@de,
+        "not perceptible"@en,
+        "imperceptible"@fr,
+        "impercettibile"@it,
+        "niet waarneembaar"@nl,
+        "ni zaznaven"@sl ;
+    skos:topConceptOf <http://data.odeuropa.eu/vocabulary/vdi-intensity> .
+
+<http://data.odeuropa.eu/vocabulary/vdi-intensity/1> a skos:Concept ;
+    rdf:value "1"^^xsd:nonNegativeInteger ;
+    skos:inScheme <http://data.odeuropa.eu/vocabulary/vdi-intensity> ;
+    skos:prefLabel "schr schwach"@de,
+        "very weak"@en,
+        "très faible"@fr,
+        "molto debole"@it,
+        "zeer zwak"@nl,
+        "zelo šibek"@sl ;
+    skos:topConceptOf <http://data.odeuropa.eu/vocabulary/vdi-intensity> .
+
+<http://data.odeuropa.eu/vocabulary/vdi-intensity/2> a skos:Concept ;
+    rdf:value "2"^^xsd:nonNegativeInteger ;
+    skos:inScheme <http://data.odeuropa.eu/vocabulary/vdi-intensity> ;
+    skos:prefLabel "schwach"@de,
+        "weak"@en,
+        "faible"@fr,
+        "debole"@it,
+        "zwak"@nl,
+        "šibek"@sl ;
+    skos:topConceptOf <http://data.odeuropa.eu/vocabulary/vdi-intensity> .
+
+<http://data.odeuropa.eu/vocabulary/vdi-intensity/3> a skos:Concept ;
+    rdf:value "3"^^xsd:nonNegativeInteger ;
+    skos:altLabel "distinto"@it ;
+    skos:inScheme <http://data.odeuropa.eu/vocabulary/vdi-intensity> ;
+    skos:prefLabel "deutlich"@de,
+        "distinct"@en,
+        "distinct"@fr,
+        "definito"@it,
+        "duidelijk"@nl,
+        "izrazit"@sl ;
+    skos:topConceptOf <http://data.odeuropa.eu/vocabulary/vdi-intensity> .
+
+<http://data.odeuropa.eu/vocabulary/vdi-intensity/4> a skos:Concept ;
+    rdf:value "4"^^xsd:nonNegativeInteger ;
+    skos:inScheme <http://data.odeuropa.eu/vocabulary/vdi-intensity> ;
+    skos:prefLabel "stark"@de,
+        "strong"@en,
+        "fort"@fr,
+        "forte"@it,
+        "sterk"@nl,
+        "močan"@sl ;
+    skos:topConceptOf <http://data.odeuropa.eu/vocabulary/vdi-intensity> .
+
+<http://data.odeuropa.eu/vocabulary/vdi-intensity/5> a skos:Concept ;
+    rdf:value "5"^^xsd:nonNegativeInteger ;
+    skos:inScheme <http://data.odeuropa.eu/vocabulary/vdi-intensity> ;
+    skos:prefLabel "schr stark"@de,
+        "very strong"@en,
+        "très fort"@fr,
+        "molto forte"@it,
+        "zeer sterk"@nl,
+        "zelo močan"@sl ;
+    skos:topConceptOf <http://data.odeuropa.eu/vocabulary/vdi-intensity> .
+
+<http://data.odeuropa.eu/vocabulary/vdi-intensity/6> a skos:Concept ;
+    rdf:value "6"^^xsd:nonNegativeInteger ;
+    skos:inScheme <http://data.odeuropa.eu/vocabulary/vdi-intensity> ;
+    skos:prefLabel "extrem stark"@de,
+        "extremely strong"@en,
+        "extrêmement trong"@fr,
+        "estremamente forte"@it,
+        "uiterst sterk"@nl,
+        "izjemno močan"@sl ;
+    skos:topConceptOf <http://data.odeuropa.eu/vocabulary/vdi-intensity> .
+
+<http://data.odeuropa.eu/vocabulary/vdi-intensity> a skos:ConceptScheme ;
+    dct:bibliographicCitation "Olfactometry-Determination of Odour Intensity, Part 1. Vol. 1 VDI-guideline 3882/1, VDI-Handbuch Reinhaltung der Luft, Verein Deutsche Ingenieure Verlag; Düsseldorf, Germany: 1992"@en ;
+    dct:created "1992"^^xsd:gYear ;
+    dct:creator wd:Q529564 ;
+    skos:hasTopConcept <http://data.odeuropa.eu/vocabulary/vdi-intensity/0>,
+        <http://data.odeuropa.eu/vocabulary/vdi-intensity/1>,
+        <http://data.odeuropa.eu/vocabulary/vdi-intensity/2>,
+        <http://data.odeuropa.eu/vocabulary/vdi-intensity/3>,
+        <http://data.odeuropa.eu/vocabulary/vdi-intensity/4>,
+        <http://data.odeuropa.eu/vocabulary/vdi-intensity/5>,
+        <http://data.odeuropa.eu/vocabulary/vdi-intensity/6> ;
+    skos:prefLabel "Olfaktometrie - Bestimmung der Geruchsintensitat"@de,
+        "Olfactometry - Determination of Odour intensity"@en .
+
