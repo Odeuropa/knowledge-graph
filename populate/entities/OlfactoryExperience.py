@@ -3,6 +3,7 @@ from os import path
 from rdflib import URIRef, RDF, RDFS
 
 from .Entity import Entity
+from .AttributeAssignment import AttributeAssignment
 from .Graph import add, is_invalid
 from .ontologies import ODEUROPA, CRM
 
@@ -31,13 +32,7 @@ class OlfactoryExperience(Entity):
     def add_quality(self, adjective, lang):
         self.assignment_id += 1
         attr_uri = path.join(self.uri, 'assignment', str(self.assignment_id))
-
-        assignment = URIRef(attr_uri)
-        add(assignment, RDF.type, CRM.E13_Attribute_Assignment)
-        add(assignment, RDFS.label, adjective, lang)
-        add(assignment, CRM.P141_assigned, adjective, lang)
-        add(assignment, CRM.P140_assigned_attribute_to, self.smell)
-        add(assignment, CRM.P14_carried_out_by, self.perceiver)
+        assignment = AttributeAssignment(attr_uri, adjective, lang, self.smell, self.perceiver)
 
         add(assignment, CRM.P17_was_motivated_by, self)
 

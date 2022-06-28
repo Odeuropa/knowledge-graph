@@ -42,12 +42,12 @@ class Vocabulary:
         result = sparqlTransformer(query, options)
 
         if isinstance(schema, list):
-            result['@graph'].sort(key=lambda _x: schema.indexOf(_x))
+            result['@graph'].sort(key=lambda _x: schema.index(_x['inScheme']))
 
             def search_id(ex):
                 lemma = next((l for l in result['@graph'] if l['@id'] == ex), None)
                 if lemma:
-                    result['@graph'].pop(result['@graph'].indexOf(lemma))
+                    result['@graph'].pop(result['@graph'].index(lemma))
                     return lemma
                 return ex
 

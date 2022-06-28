@@ -11,14 +11,28 @@ vocabularies:
       scheme: http://data.odeuropa.eu/vocabulary/olfactory-gestures
     fragrant-spaces:
       scheme: http://data.odeuropa.eu/vocabulary/fragrant-spaces
+    vdi-hedonic:
+      scheme: http://data.odeuropa.eu/vocabulary/vdi-hedonic
+      family: hedonic # vocabularies that are part of the same family can be queried together
+    vdi-intensity:
+      scheme: http://data.odeuropa.eu/vocabulary/vdi-intensity
+      family: intensity # vocabularies that are part of the same family can be queried together
     edwards:
       scheme: http://data.odeuropa.eu/vocabulary/edwards
-      family: wheel # vocabularies that are part of the same family can be queried together
+      family: character # vocabularies that are part of the same family can be queried together
       priority: 2 # low priorities are shown before in the results list for a family
     drom:
       scheme: http://data.odeuropa.eu/vocabulary/drom
-      family: wheel
+      family: character
       priority: 2
     historic-book:
       scheme: http://data.odeuropa.eu/vocabulary/historic-book
-      family: wheel
+      family: character
+    flavornet:
+      scheme: http://data.odeuropa.eu/vocabulary/flavornet
+      family: character
+      priority: 3
+    zwaardemaker:
+      scheme: http://data.odeuropa.eu/vocabulary/zwaardemaker
+      family: character
+      priority: 3

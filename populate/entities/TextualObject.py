@@ -63,7 +63,7 @@ class TextFragment(Entity):
         self.parent = parent
 
         self.set_class(CRM.E33_Linguistic_Object)
-        self.add_descr(text, lang)
+        self.add(RDF.value, text, lang)
 
     def add_annotation(self, what, prov):
         Graph.set_prov(self.add(CRM.P67_refers_to, what), prov)
