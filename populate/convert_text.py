@@ -108,7 +108,9 @@ def process_annotation_sheet(df, lang):
                 if doc.genre not in ['LIT', 'THE']:
                     experience.add_perceiver(doc.author)
                     continue
-            experience.add_perceiver(p)
+            p = p.replace(Place.IN_PREFIX[lang], '').strip()
+            p = p.replace(VocabularyManager.ARTICLE_REGEX[lang], '').strip()
+            experience.add_perceiver(Actor(p))
         for x in r['Effect'].split('|'):
             experience.add_gesture(x, lang=lang)
         experience.evoked(r['Evoked_Odorant'], lang=lang)

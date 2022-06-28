@@ -20,7 +20,7 @@ with open(GEONAMES_CACHE, 'r') as _f:
 
 IN_PREFIX = {
     'en': r'(?i)^(at|in(to)?|upon|near|even( in)?|of|on|along|from|to) ',
-    'it': r"(?i)^(d'|a |in |(da|ne|su|a)(gl)?i |presso |(da|ne|su|a)(l(l[aoe])?)? |(da|ne|su)ll ?')",
+    'it': r"(?i)^(d'|a |in |(da|ne|su|a)(gl)?i |presso |per |(da|ne|su|a)(l(l[aoe])?)? |(da|ne|su)ll ?')",
     'fr': r"(?i)^((en|dans|à|aux?|sur) |d')",
     'nl': r'(?i)^(by|te|op|in) ',
     'de': r'(?i)^(by|te|op|in|im|von) ',
@@ -52,6 +52,8 @@ def to_geonames_uri(geonames_id):
 
 
 class Place(Entity):
+    IN_PREFIX = IN_PREFIX
+
     def __init__(self, name, typ=None):
         super().__init__(name, 'place')
         self.set_class(CRM.E53_Place)

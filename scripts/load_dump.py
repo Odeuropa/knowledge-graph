@@ -25,6 +25,7 @@ def load_dump(name):
     headers = {'Authorization': get_auth()}
     params = (('graph', main_graph),)
 
+    print('Deleting graph...')
     response = requests.delete(f'{base}/repositories/odeuropa/rdf-graphs/service',
                                headers=headers, params=params)
     if response.status_code != 204:
@@ -32,6 +33,7 @@ def load_dump(name):
         print(response.content)
         return
 
+    print('Uploading new resources...')
     # upload new resources
     for filename in os.listdir(folder):
         if not '.' in filename:

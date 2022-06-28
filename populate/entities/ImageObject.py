@@ -16,7 +16,7 @@ class ImageObject(SourceDoc):
         self.add(SDO.locationCreated, Place.from_text(place))
         self.add(SDO.image, url)
         # internal uri
-        self.add(SDO.image, f'http://data.odeuropa.eu/image/{_id}')
+        self.add(SDO.image, f'https://data.odeuropa.eu/image/{_id}')
 
         currentPlace = currentPlace.split(', inv./cat.nr')[0]
         self.add(CRM.P53_has_former_or_current_location, Place.from_text(currentPlace))

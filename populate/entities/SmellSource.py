@@ -2,8 +2,6 @@ from .Entity import Entity
 from .ontologies import CRM, CRMsci
 from .vocabularies import VocabularyManager as VocManager
 
-# BASE_OO = 'http://data.odeuropa.eu/vocabulary/olfactory-objects/'
-
 SMELL_SOURCE = 'http://data.odeuropa.eu/vocabulary/olfactory-objects/smell-source'
 CARRIER = 'http://data.odeuropa.eu/vocabulary/olfactory-objects/carrier'
 ARTIFACT = 'http://data.odeuropa.eu/vocabulary/olfactory-objects/artifact'
@@ -12,7 +10,7 @@ ARTIFACT = 'http://data.odeuropa.eu/vocabulary/olfactory-objects/artifact'
 class SmellSource(Entity):
     def __init__(self, seed, label, lang='en', lemma=None, role=None):
         super().__init__(seed, 'object')
-        self.add_label(label)
+        self.add_label(label, lang)
 
         self.role = None
         if lemma is None:

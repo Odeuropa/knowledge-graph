@@ -22,12 +22,13 @@ DEFAULT_OPTIONS = {
 
 def computeSimilarityScore(l, q, accepted, autocomplete, lowerBound):
     value = l['@value'] if '@value' in l else l
+
     if not value or not isinstance(value, str):
         return 0
 
     value = value.lower()
     if autocomplete and q in value:
-        return 0
+        return 1
 
     curlang = l['@language']
     langQuality = Lemma.OTHER_LANG_WEIGHT if accepted else 1  # untagged values
@@ -38,7 +39,8 @@ def computeSimilarityScore(l, q, accepted, autocomplete, lowerBound):
         langQuality = 1
 
     score = Levenshtein.ratio(q, value)
-    startQual = 1 if value.startswith(q) else Lemma.UNMATCHING_START_WEIGHT
+    value_comp = q[0:-1] if accepted[0:2] == 'it' else q
+    startQual = 1 if value.startswith(value_comp) else Lemma.UNMATCHING_START_WEIGHT
     return score * langQuality * startQual
 
 

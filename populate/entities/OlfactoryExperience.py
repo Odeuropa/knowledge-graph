@@ -8,13 +8,13 @@ from .ontologies import ODEUROPA, CRM
 
 
 class OlfactoryExperience(Entity):
-    def __init__(self, seed, smell, perceiver='', quality='', place='', lang='en'):
+    def __init__(self, seed, smell, quality='', place='', lang='en'):
         super().__init__(seed, 'experience')
         self.assignment_id = 0
         self.gesture_id = 0
 
         self.smell = smell
-        self.perceiver = perceiver
+        self.perceiver = None
 
         self.set_class(ODEUROPA.L13_Olfactory_Experience)
         self.add(ODEUROPA.F2_perceived, smell)
@@ -25,6 +25,7 @@ class OlfactoryExperience(Entity):
                 self.add_quality(x.strip(), lang)
 
     def add_perceiver(self, perceiver):
+        self.perceiver = perceiver
         self.add(CRM.P14_carried_out_by, perceiver)
 
     def add_quality(self, adjective, lang):
