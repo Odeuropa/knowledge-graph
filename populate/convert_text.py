@@ -99,6 +99,7 @@ def process_annotation_sheet(df, lang):
 
         curid = 'text_annotation' + identifier + str(j)
         smell = Smell(curid)
+        smell.add_label(r['Smell_Word'], lang)
         emission = SmellEmission(curid, smell, get_safe('Smell_Source', r), get_safe('Odour_Carrier', r), lang=lang)
         perceiver = set([p for p in r['Perceiver'].split(' | ') if p not in get_all_smell_words(lang)])
         experience = OlfactoryExperience(curid, smell, quality=r['Quality'], lang=lang)

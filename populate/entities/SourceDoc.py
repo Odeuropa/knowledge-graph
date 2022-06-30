@@ -8,7 +8,7 @@ from . import Actor, Time
 
 class SourceDoc(Entity):
     def __init__(self, _id, title, author=None, date=None, lang=None):
-        super().__init__(str(date) + title, 'resource')
+        super().__init__(str(date) + title, 'source')
         self.author = None
         self.title = title
 

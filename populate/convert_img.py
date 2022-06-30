@@ -35,9 +35,9 @@ def process_metadata(df):
         idf = r['File Name']
         if idf == '':
             continue
-        date = r['Earliest Date'].replace('.0', '').ljust(4, 'X')
+        date = r['Earliest Date'].strip().replace('.0', '').ljust(4, 'X')
         if 'Latest Date' in r and len(r['Latest Date']) > 0:
-            date += '/' + r['Latest Date'].replace('.0', '').ljust(4, 'X')
+            date += '/' + r['Latest Date'].strip().replace('.0', '').ljust(4, 'X')
         if date == 'XXXX':
             date = None
 

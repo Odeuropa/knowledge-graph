@@ -103,8 +103,8 @@ def parse_edtf(edtf):
 
     dashS = start.count('-')
     dashE = end.count('-')
-    startType = XSD.date if dashS == 2 else XSD.month if dashS == 1 else XSD.gYear
-    endType = XSD.date if dashE == 2 else XSD.month if dashE == 1 else XSD.gYear
+    startType = XSD.date if dashS == 2 else XSD.gMonth if dashS == 1 else XSD.gYear
+    endType = XSD.date if dashE == 2 else XSD.gMonth if dashE == 1 else XSD.gYear
 
     return start, end, startType, endType
 
