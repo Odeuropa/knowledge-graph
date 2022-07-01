@@ -15,7 +15,7 @@ ARTICLE_REGEX = {
     'fr': r"(?i)^((?:les?|la|des?|du|une?) |l ?' ?)",
     'de': r'(?i)^(die|das|de[rnms]?|ein(e[smnr]?)?|eene? ) ',
     'nl': r"(?i)^(de|het|een|' ?t) ",
-    'sl': r'' # no articles in slovene
+    'sl': r''  # no articles in slovene
 }
 
 
@@ -36,6 +36,8 @@ class VocabularyController:
 
     def interlink(self, q, lang='en', fallback=None):
         q = re.sub(ARTICLE_REGEX.get(lang, ARTICLE_REGEX['en']), '', q.lower())
+        if len(q) < 3:
+            return None, None
         lemmatizer = Lemmatizer()
         q = lemmatizer.lemmatize(q)
         lms = self.search(q, lang, 1, False).lemmata

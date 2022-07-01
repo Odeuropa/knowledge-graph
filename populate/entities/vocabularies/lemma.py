@@ -39,7 +39,7 @@ def computeSimilarityScore(l, q, accepted, autocomplete, lowerBound):
         langQuality = 1
 
     score = Levenshtein.ratio(q, value)
-    value_comp = q[0:-1] if accepted[0:2] == 'it' else q
+    value_comp = q[0:-1] if (accepted and accepted[0:2]) == 'it' else q
     startQual = 1 if value.startswith(value_comp) else Lemma.UNMATCHING_START_WEIGHT
     return score * langQuality * startQual
 

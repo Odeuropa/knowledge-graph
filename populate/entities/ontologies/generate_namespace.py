@@ -234,3 +234,4 @@ if __name__ == '__main__':
 #  python ontologies/generate_namespace.py -f xml od http://data.odeuropa.eu/ontology/  https://raw.githubusercontent.com/Odeuropa/ontology/master/odeuropa-ontology.owl
 #  python ontologies/generate_namespace.py -f xml crm http://erlangen-crm.org/current/  https://raw.githubusercontent.com/Odeuropa/ontology/master/cidoc-crm.rdf
 #  python ontologies/generate_namespace.py -f xml crmsci http://www.ics.forth.gr/isl/CRMsci/  https://raw.githubusercontent.com/Odeuropa/ontology/master/crmsci.rdf
+#  python ontologies/generate_namespace.py -f ttl reo 'https://read-it.acc.hum.uu.nl/ontology#'  'https://read-it.acc.hum.uu.nl/ontology#'
