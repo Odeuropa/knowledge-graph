@@ -16,7 +16,7 @@
 # skosmos main configuration
 
 :config a skosmos:Configuration ;
-    skosmos:sparqlEndpoint <http://data.odeuropa.eu/repositories/odeuropa> ;
+    skosmos:sparqlEndpoint <https://data.odeuropa.eu/repositories/odeuropa> ;
     skosmos:sparqlDialect "Generic" ;
     skosmos:sparqlCollationEnabled true ;
     skosmos:sparqlTimeout 20 ;
@@ -36,7 +36,7 @@
     skosmos:logCaughtExceptions true ;
     skosmos:logBrowserConsole true ;
     skosmos:templateCache "/tmp/skosmos-template-cache" ;
-    skosmos:baseHref "http://vocab.odeuropa.eu/";
+    skosmos:baseHref "https://vocab.odeuropa.eu/";
     # skosmos:customCss "resource/css/stylesheet.css" ;
     skosmos:uiLanguageDropdown true ;
     # whether to enable the spam honey pot or not, enabled by default
@@ -63,7 +63,7 @@
     skosmos:loadExternalResources "true" ;
     skosmos:showTopConcepts "true" ;
     skosmos:mainConceptScheme <http://data.odeuropa.eu/vocabulary/olfactory-objects> ;
-    void:sparqlEndpoint <http://data.odeuropa.eu/repositories/odeuropa> ;
+    void:sparqlEndpoint <https://data.odeuropa.eu/repositories/odeuropa> ;
     void:dataDump <https://github.com/Odeuropa/vocabularies/blob/main/vocabularies/olfactory-objects.ttl> ;
     skosmos:sparqlGraph <http://data.odeuropa.eu/vocabulary/olfactory-objects>
     .
@@ -85,7 +85,7 @@
     skosmos:loadExternalResources "true" ;
     skosmos:showTopConcepts "true" ;
     skosmos:mainConceptScheme <http://data.odeuropa.eu/vocabulary/fragrant-spaces> ;
-    void:sparqlEndpoint <http://data.odeuropa.eu/repositories/odeuropa> ;
+    void:sparqlEndpoint <https://data.odeuropa.eu/repositories/odeuropa> ;
     void:dataDump <https://github.com/Odeuropa/vocabularies/blob/main/vocabularies/fragrant-spaces.ttl> ;
     skosmos:sparqlGraph <http://data.odeuropa.eu/vocabulary/fragrant-spaces>
     .
@@ -107,7 +107,7 @@
         skosmos:loadExternalResources "true" ;
         skosmos:showTopConcepts "true" ;
         skosmos:mainConceptScheme <http://data.odeuropa.eu/vocabulary/olfactory-gestures> ;
-        void:sparqlEndpoint <http://data.odeuropa.eu/repositories/odeuropa> ;
+        void:sparqlEndpoint <https://data.odeuropa.eu/repositories/odeuropa> ;
         void:dataDump <https://github.com/Odeuropa/vocabularies/blob/main/vocabularies/olfactory-gestures.ttl> ;
         skosmos:sparqlGraph <http://data.odeuropa.eu/vocabulary/olfactory-gestures>
         .
@@ -129,7 +129,7 @@
         skosmos:loadExternalResources "true" ;
         skosmos:showTopConcepts "true" ;
         skosmos:mainConceptScheme <http://data.odeuropa.eu/vocabulary/historic-book> ;
-        void:sparqlEndpoint <http://data.odeuropa.eu/repositories/odeuropa> ;
+        void:sparqlEndpoint <https://data.odeuropa.eu/repositories/odeuropa> ;
         void:dataDump <https://github.com/Odeuropa/vocabularies/blob/main/vocabularies/historic-book.ttl> ;
         skosmos:sparqlGraph <http://data.odeuropa.eu/vocabulary/historic-book>
         .
@@ -151,7 +151,7 @@
         skosmos:loadExternalResources "true" ;
         skosmos:showTopConcepts "true" ;
         skosmos:mainConceptScheme <http://data.odeuropa.eu/vocabulary/drom> ;
-        void:sparqlEndpoint <http://data.odeuropa.eu/repositories/odeuropa> ;
+        void:sparqlEndpoint <https://data.odeuropa.eu/repositories/odeuropa> ;
         void:dataDump <https://github.com/Odeuropa/vocabularies/blob/main/vocabularies/drom.ttl> ;
         skosmos:sparqlGraph <http://data.odeuropa.eu/vocabulary/drom> .
 
@@ -172,7 +172,7 @@
         skosmos:loadExternalResources "true" ;
         skosmos:showTopConcepts "true" ;
         skosmos:mainConceptScheme <http://data.odeuropa.eu/vocabulary/edwards> ;
-        void:sparqlEndpoint <http://data.odeuropa.eu/repositories/odeuropa> ;
+        void:sparqlEndpoint <https://data.odeuropa.eu/repositories/odeuropa> ;
         void:dataDump <https://github.com/Odeuropa/vocabularies/blob/main/vocabularies/edwards.ttl> ;
         skosmos:sparqlGraph <http://data.odeuropa.eu/vocabulary/edwards> .
 
@@ -194,7 +194,7 @@
         skosmos:loadExternalResources "true" ;
         skosmos:showTopConcepts "true" ;
         skosmos:mainConceptScheme <http://data.odeuropa.eu/vocabulary/flavornet> ;
-        void:sparqlEndpoint <http://data.odeuropa.eu/repositories/odeuropa> ;
+        void:sparqlEndpoint <https://data.odeuropa.eu/repositories/odeuropa> ;
         void:dataDump <https://github.com/Odeuropa/vocabularies/blob/main/vocabularies/flavornet.ttl> ;
         skosmos:sparqlGraph <http://data.odeuropa.eu/vocabulary/flavornet> .
 
@@ -215,7 +215,7 @@
         skosmos:loadExternalResources "true" ;
         skosmos:showTopConcepts "true" ;
         skosmos:mainConceptScheme <http://data.odeuropa.eu/vocabulary/historical-scent> ;
-        void:sparqlEndpoint <http://data.odeuropa.eu/repositories/odeuropa> ;
+        void:sparqlEndpoint <https://data.odeuropa.eu/repositories/odeuropa> ;
         void:dataDump <https://github.com/Odeuropa/vocabularies/blob/main/vocabularies/historical-scent.ttl> ;
         skosmos:sparqlGraph <http://data.odeuropa.eu/vocabulary/historical-scent> .
 
@@ -236,7 +236,7 @@
         skosmos:loadExternalResources "true" ;
         skosmos:showTopConcepts "true" ;
         skosmos:mainConceptScheme <http://data.odeuropa.eu/vocabulary/zwaardemaker> ;
-        void:sparqlEndpoint <http://data.odeuropa.eu/repositories/odeuropa> ;
+        void:sparqlEndpoint <https://data.odeuropa.eu/repositories/odeuropa> ;
         void:dataDump <https://github.com/Odeuropa/vocabularies/blob/main/vocabularies/zwaardemaker.ttl> ;
         skosmos:sparqlGraph <http://data.odeuropa.eu/vocabulary/zwaardemaker> .
 
@@ -258,7 +258,7 @@
         skosmos:loadExternalResources "true" ;
         skosmos:showTopConcepts "true" ;
         skosmos:mainConceptScheme <http://data.odeuropa.eu/vocabulary/dhsv-sw> ;
-        void:sparqlEndpoint <http://data.odeuropa.eu/repositories/odeuropa> ;
+        void:sparqlEndpoint <https://data.odeuropa.eu/repositories/odeuropa> ;
         void:dataDump <https://github.com/Odeuropa/vocabularies/blob/main/vocabularies/dhsv-sw.ttl> ;
         skosmos:sparqlGraph <http://data.odeuropa.eu/vocabulary/dhsv-sw> .
 
@@ -279,7 +279,7 @@
         skosmos:loadExternalResources "true" ;
         skosmos:showTopConcepts "true" ;
         skosmos:mainConceptScheme <http://data.odeuropa.eu/vocabulary/noses> ;
-        void:sparqlEndpoint <http://data.odeuropa.eu/repositories/odeuropa> ;
+        void:sparqlEndpoint <https://data.odeuropa.eu/repositories/odeuropa> ;
         void:dataDump <https://github.com/Odeuropa/vocabularies/blob/main/vocabularies/noses.ttl> ;
         skosmos:sparqlGraph <http://data.odeuropa.eu/vocabulary/noses> .
 
@@ -301,7 +301,7 @@
         skosmos:loadExternalResources "true" ;
         skosmos:showTopConcepts "true" ;
         skosmos:mainConceptScheme <http://data.odeuropa.eu/vocabulary/plutchik> ;
-        void:sparqlEndpoint <http://data.odeuropa.eu/repositories/odeuropa> ;
+        void:sparqlEndpoint <https://data.odeuropa.eu/repositories/odeuropa> ;
         void:dataDump <https://github.com/Odeuropa/vocabularies/blob/main/vocabularies/plutchik.ttl> ;
         skosmos:sparqlGraph <http://data.odeuropa.eu/vocabulary/plutchik> .
 
@@ -323,7 +323,7 @@
         skosmos:loadExternalResources "true" ;
         skosmos:showTopConcepts "true" ;
         skosmos:mainConceptScheme <http://data.odeuropa.eu/vocabulary/vdi-hedonic> ;
-        void:sparqlEndpoint <http://data.odeuropa.eu/repositories/odeuropa> ;
+        void:sparqlEndpoint <https://data.odeuropa.eu/repositories/odeuropa> ;
         void:dataDump <https://github.com/Odeuropa/vocabularies/blob/main/vocabularies/vdi-hedonic.ttl> ;
         skosmos:sparqlGraph <http://data.odeuropa.eu/vocabulary/vdi-hedonic> .
 
@@ -344,7 +344,7 @@
         skosmos:loadExternalResources "true" ;
         skosmos:showTopConcepts "true" ;
         skosmos:mainConceptScheme <http://data.odeuropa.eu/vocabulary/vdi-intensity> ;
-        void:sparqlEndpoint <http://data.odeuropa.eu/repositories/odeuropa> ;
+        void:sparqlEndpoint <https://data.odeuropa.eu/repositories/odeuropa> ;
         void:dataDump <https://github.com/Odeuropa/vocabularies/blob/main/vocabularies/vdi-intensity.ttl> ;
         skosmos:sparqlGraph <http://data.odeuropa.eu/vocabulary/vdi-intensity> .
 
