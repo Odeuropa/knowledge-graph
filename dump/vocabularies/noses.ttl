@@ -1,0 +1,257 @@
+@prefix dct: <http://purl.org/dc/terms/> .
+@prefix noses: <http://data.odeuropa.eu/vocabulary/noses/> .
+@prefix olf: <http://data.odeuropa.eu/olfactory_objects/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix pav: <http://purl.org/pav/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix voc: <http://data.odeuropa.eu/vocabulary/> .
+@prefix wd: <http://www.wikidata.org/entity/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+noses:Animal a skos:Collection ;
+    skos:member noses:1,
+        noses:13,
+        noses:14,
+        noses:5 ;
+    skos:prefLabel "Animal"@en .
+
+noses:Characteristic a skos:Collection ;
+    skos:member noses:10 ;
+    skos:prefLabel "Characteristic"@en .
+
+noses:Cultural_Practice a skos:Collection ;
+    skos:member noses:11 ;
+    skos:prefLabel "Cultural Practice"@en .
+
+noses:Occupation a skos:Collection ;
+    skos:member noses:12,
+        noses:2,
+        noses:3,
+        noses:4,
+        noses:6,
+        noses:7,
+        noses:8,
+        noses:9 ;
+    skos:prefLabel "Occupation"@en .
+
+olf:227 skos:related noses:11 .
+
+noses:111 skos:related noses:6 .
+
+olf:65 skos:related noses:7,
+        noses:9 .
+
+noses:10 a skos:Concept ;
+    dct:bibliographicCitation "WNT: Ruiker: Persoon die ruikt of goed ruiken kan. (Tabakssnuiver). Ruker: Het woord zal in het Mnl. wel niet bekend zijn geweest, gezegd van een persoon, hij die ruikt of goed ruiken kan, een fijnen reuk heeft (vgl. bij Duc. “odorare i. naribus sapere”) of ook reukwerkmaker (lat. odorare, “welriekend maken”"@nl,
+        "eene dezer beide beteekenissen kan eigen zijn aan Kil.'s “riecker, odorator"@nl ;
+    skos:altLabel "Ruker"@nl ;
+    skos:definition "Someone that smells"@en ;
+    skos:inScheme voc:noses ;
+    skos:prefLabel "Smeller"@en,
+        "Renifleur"@fr,
+        "Annusatore"@it,
+        "Ruiker"@nl ;
+    skos:topConceptOf voc:noses .
+
+noses:12 a skos:Concept ;
+    owl:sameAs wd:Q39631 ;
+    skos:altLabel "Doctor"@en,
+        "Docteur"@fr,
+        "Soignant"@fr,
+        "Dottore"@it ;
+    skos:inScheme voc:noses ;
+    skos:prefLabel "Arzt"@de,
+        "Physician"@en,
+        "Médecin"@fr,
+        "Medico"@it,
+        "Zdravnik"@sl ;
+    skos:topConceptOf voc:noses .
+
+noses:2 a skos:Concept ;
+    dct:bibliographicCitation "WNT: Men blinddoeke een ervaren Chimist, Drogist of Apothekar, en legge hem duizend verschillende drogerijen voor, hij zal dezelve door den reuk onderkennen, berkhey, N.H.5, 349 [1805]."@nl ;
+    owl:sameAs wd:Q593644 ;
+    skos:altLabel "Chimist"@nl ;
+    skos:inScheme voc:noses ;
+    skos:prefLabel "Chemiker"@de,
+        "Chemist"@en,
+        "Chemiste"@fr,
+        "Chimico"@it,
+        "Chemist"@nl,
+        "Kemik"@sl ;
+    skos:topConceptOf voc:noses .
+
+noses:404 skos:related noses:3,
+        noses:4 .
+
+noses:8 a skos:Concept ;
+    dct:bibliographicCitation "Het stinkt hier of 'er de Duivel zyn ruykballetjen had laaten vallen … Waar vaaren wy hier heen Kapitein? … Myn Heer, wy zijn by de traanbokken. Wel Kapitein repje dan zo veel als je kond … Zie zo! dat gaat wel, wy zeilend'er Dieu mercy voorby, en zeilen de kil in, Gem. Parnas-Loof 32 [1692]."@nl,
+        "Traanbok, … iemand, die in de traan werkt, en daarvan eenen onaangenamen reuk bekomt, weil. [1810]."@nl,
+        "WNT: Een traanbok, een die in de traan arbeid, v. winschooten, Seeman [1681]. marin [1701]."@nl ;
+    skos:definition "Arbeider in de traanbereiding."@nl ;
+    skos:inScheme voc:noses ;
+    skos:prefLabel "Tear maker"@en,
+        "Fabricant de larmes"@fr,
+        "Fabbricante di lacrime"@it,
+        "Traanbok"@nl,
+        "Izdelovalec solz"@sl ;
+    skos:topConceptOf voc:noses .
+
+noses:1 a skos:Concept ;
+    dct:bibliographicCitation "Die schrikkelijke fijnheid van reuk, waarvoor de jagthond van Pieterbaas onderdoen moet, wolff en deken, Wildsch. 2, 212 [1793]."@nl,
+        """WNT: "Even als in 't velt de hazen, op het bassen / Der brakken snel van reuk, hun legerstede ontvlucht, / Vliên voor den winthont, die, vol vuur door 't veltgerucht,
+ Hen na- en omzet, springt en raamt, tot hy ten lesten / Den prooi verwint". Hoogvliet"""@nl ;
+    owl:sameAs wd:Q38774 ;
+    skos:altLabel "Brak"@nl ;
+    skos:broader noses:13 ;
+    skos:definition "Brak is een jachthond van een ras, die loopend wild opzoekt en het zoo lang op den voet (d. i. door den reuk) vervolgt, tot het geschoten of doodgedreven is; fr. chien courant."@nl ;
+    skos:inScheme voc:noses ;
+    skos:prefLabel "Jagdhund"@de,
+        "Hunting dog"@en,
+        "Chien de chasse"@fr,
+        "Cane da caccia"@it,
+        "Jachthond"@nl,
+        "Lovski pes"@sl ;
+    skos:topConceptOf voc:noses .
+
+noses:11 a skos:Concept ;
+    dct:bibliographicCitation "WNT: De Portugaler zend zyn Kielen … derwaert (t.w. naar Brazilië) … Om Amber, Balsemgeur, Saffraen' Brasilhout, Suiker En Boomwol en Tabak voor Rooker en voor Ruiker, f. de haes, Port. 19."@nl ;
+    skos:inScheme voc:noses ;
+    skos:prefLabel "Tabakschnüffler"@de,
+        "Tobacco sniffer"@en,
+        "Renifleur de tabac"@fr,
+        "Annusatore di tabacco"@it,
+        "Tabakssnuiver"@nl,
+        "Vohljač tobaka"@sl ;
+    skos:related olf:227 ;
+    skos:topConceptOf voc:noses .
+
+noses:13 a skos:Concept ;
+    owl:sameAs olf:55 ;
+    skos:altLabel "Cucki"@sl,
+        "ščeneta"@sl ;
+    skos:inScheme voc:noses ;
+    skos:narrower noses:1 ;
+    skos:prefLabel "Hunde"@de,
+        "Dog"@en,
+        "Chien"@fr,
+        "Cane"@it,
+        "Hond"@nl,
+        "Psi"@sl ;
+    skos:topConceptOf voc:noses .
+
+noses:14 a skos:Concept ;
+    owl:sameAs olf:461 ;
+    skos:inScheme voc:noses ;
+    skos:narrower noses:5 ;
+    skos:prefLabel "Vogel"@de,
+        "Bird"@en,
+        "Oiseau"@fr,
+        "Uccello"@it,
+        "Vogel"@nl,
+        "Ptica"@sl ;
+    skos:topConceptOf voc:noses .
+
+noses:5 a skos:Concept ;
+    dct:bibliographicCitation "WNT: De Graauwe reiger (Ardea cinerea, Latham, A. major Linn.) is een vreesachtige en schuwe vogel, welke een scherp gezigt en eenen fijnen reuk heeft, en uit dien hoofde zeer moeijelijk te naderen is, thon-bomhoff, Jagersschool 283 [1835]."@nl ;
+    owl:sameAs wd:Q18789 ;
+    skos:broader noses:14 ;
+    skos:inScheme voc:noses ;
+    skos:prefLabel "Reiher"@de,
+        "Heron"@en,
+        "Héron"@fr,
+        "Airone"@it,
+        "Reiger"@nl,
+        "Čaplje"@sl ;
+    skos:topConceptOf voc:noses .
+
+noses:6 a skos:Concept ;
+    dct:bibliographicCitation "WNT: De Salf-verkooper bereyt den wellustigen parfuymen (ruyckwerck), wel rieckende seep-balletjes en roock-werck, met het welcke sylieden overgooten zijnde, lieffelijck ruycken, Comenius, Deure d. Taalen 137 [1666]."@nl ;
+    skos:inScheme voc:noses ;
+    skos:prefLabel "Salbenverkäufer"@de,
+        "Ointment seller"@en,
+        "Vendeur de pommades"@fr,
+        "Venditore di unguenti"@it,
+        "Zalfverkoper"@nl,
+        "Prodajalec mazila"@sl ;
+    skos:related noses:111 ;
+    skos:topConceptOf voc:noses .
+
+noses:3 a skos:Concept ;
+    dct:bibliographicCitation "WNT: Men blinddoeke een ervaren Chimist, Drogist of Apothekar, en legge hem duizend verschillende drogerijen voor, hij zal dezelve door den reuk onderkennen, berkhey, N.H.5, 349 [1805]."@nl ;
+    owl:sameAs wd:Q105186 ;
+    skos:altLabel "Pharmacist"@en ;
+    skos:inScheme voc:noses ;
+    skos:narrower noses:4 ;
+    skos:prefLabel "Apotheker"@de,
+        "Druggist"@en,
+        "Pharmacien"@fr,
+        "Farmacista"@it,
+        "Drogist"@nl,
+        "Farmacevt"@sl ;
+    skos:related noses:404 ;
+    skos:topConceptOf voc:noses .
+
+noses:4 a skos:Concept ;
+    dct:bibliographicCitation "WNT: Men blinddoeke een ervaren Chimist, Drogist of Apothekar, en legge hem duizend verschillende drogerijen voor, hij zal dezelve door den reuk onderkennen, berkhey, N.H.5, 349 [1805]."@nl ;
+    owl:sameAs wd:Q1131236 ;
+    skos:altLabel "Apothekar"@nl ;
+    skos:broader noses:3 ;
+    skos:inScheme voc:noses ;
+    skos:prefLabel "Apothecary"@en,
+        "Apothicaire"@fr,
+        "Speziale"@it,
+        "Apotheker"@nl,
+        "Lekarnar"@sl ;
+    skos:related noses:404 ;
+    skos:topConceptOf voc:noses .
+
+noses:7 a skos:Concept ;
+    dct:bibliographicCitation "WNT: Het rook er zo lekker als bij een' parfumeur, Wolff en deken, Wildsch. 1, 84 [1793]."@nl ;
+    owl:sameAs wd:Q579021 ;
+    skos:altLabel "Profumiere"@it ;
+    skos:inScheme voc:noses ;
+    skos:prefLabel "Parfümeur"@de,
+        "Perfumer"@en,
+        "Parfumeur"@fr,
+        "Profumista"@it,
+        "Parfumeur"@nl,
+        "Parfumer"@sl ;
+    skos:related olf:65,
+        noses:9 ;
+    skos:topConceptOf voc:noses .
+
+noses:9 a skos:Concept ;
+    dct:bibliographicCitation "WNT: Tuyteschiksters, krolle-schikkers, Reuk-verkoopers …, Ik en wét niet, welken bras Hier al niet en kómt te pas, v. daele, Tydv. 39, 14 [1806]."@nl ;
+    skos:inScheme voc:noses ;
+    skos:prefLabel "Parfümverkäufer"@de,
+        "Perfume seller"@en,
+        "Vendeur de parfums"@fr,
+        "Venditore di profumi"@it,
+        "Reukverkoper"@nl,
+        "Prodajalec parfumov"@sl ;
+    skos:related olf:65,
+        noses:7 ;
+    skos:topConceptOf voc:noses .
+
+voc:noses a skos:ConceptScheme ;
+    rdfs:label "Noses" ;
+    dct:created "2021-06-01"^^xsd:date ;
+    dct:modified "2022-07-01"^^xsd:date ;
+    pav:createdOn "2022-07-01"^^xsd:date ;
+    pav:version "0.1" ;
+    skos:hasTopConcept noses:1,
+        noses:10,
+        noses:11,
+        noses:12,
+        noses:13,
+        noses:14,
+        noses:2,
+        noses:3,
+        noses:4,
+        noses:5,
+        noses:6,
+        noses:7,
+        noses:8,
+        noses:9 .
+
