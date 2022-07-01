@@ -241,6 +241,113 @@
         skosmos:sparqlGraph <http://data.odeuropa.eu/vocabulary/zwaardemaker> .
 
 
+:dhsv-sw a skosmos:Vocabulary, void:Dataset ;
+        dc:title "Dutch Historical Smell Vocabulary (DHSV) - Smell Words" ;
+        dc:subject :cat_general ;
+        dc:type mdrtype:THESAURUS ;
+        void:uriSpace "http://data.odeuropa.eu/vocabulary/dhsv-sw/";
+        skosmos:language "nl";
+        skosmos:fallbackLanguages "en";
+        skosmos:defaultLanguage "en" ;
+        skosmos:groupClass skos:Collection ;
+        skosmos:hasMultiLingualProperty dc:bibliographicCitation, skos:definition ;
+        skosmos:showDeprecated "true" ;
+        skosmos:shortName "DHSV";
+        skosmos:showChangeList "false" ;
+        skosmos:showNotation "true" ;
+        skosmos:loadExternalResources "true" ;
+        skosmos:showTopConcepts "true" ;
+        skosmos:mainConceptScheme <http://data.odeuropa.eu/vocabulary/dhsv-sw> ;
+        void:sparqlEndpoint <http://data.odeuropa.eu/repositories/odeuropa> ;
+        void:dataDump <https://github.com/Odeuropa/vocabularies/blob/main/vocabularies/dhsv-sw.ttl> ;
+        skosmos:sparqlGraph <http://data.odeuropa.eu/vocabulary/dhsv-sw> .
+
+:noses a skosmos:Vocabulary, void:Dataset ;
+        dc:title "Noses" ;
+        dc:subject :cat_general ;
+        dc:type mdrtype:THESAURUS ;
+        void:uriSpace "http://data.odeuropa.eu/vocabulary/noses/";
+        skosmos:language "en";
+        skosmos:fallbackLanguages "en";
+        skosmos:defaultLanguage "en" ;
+        skosmos:groupClass skos:Collection ;
+        skosmos:hasMultiLingualProperty dc:bibliographicCitation, skos:definition ;
+        skosmos:showDeprecated "true" ;
+        skosmos:shortName "Noses";
+        skosmos:showChangeList "false" ;
+        skosmos:showNotation "true" ;
+        skosmos:loadExternalResources "true" ;
+        skosmos:showTopConcepts "true" ;
+        skosmos:mainConceptScheme <http://data.odeuropa.eu/vocabulary/noses> ;
+        void:sparqlEndpoint <http://data.odeuropa.eu/repositories/odeuropa> ;
+        void:dataDump <https://github.com/Odeuropa/vocabularies/blob/main/vocabularies/noses.ttl> ;
+        skosmos:sparqlGraph <http://data.odeuropa.eu/vocabulary/noses> .
+
+
+:plutchik a skosmos:Vocabulary, void:Dataset ;
+        dc:title "Plutchik’s Wheel of Emotions" ;
+        dc:subject :cat_general ;
+        dc:type mdrtype:THESAURUS ;
+        void:uriSpace "http://data.odeuropa.eu/vocabulary/plutchik/";
+        skosmos:language "en";
+        skosmos:fallbackLanguages "en";
+        skosmos:defaultLanguage "en" ;
+        skosmos:groupClass skos:Collection ;
+        skosmos:hasMultiLingualProperty dc:bibliographicCitation, skos:definition ;
+        skosmos:showDeprecated "true" ;
+        skosmos:shortName "Plutchik’s Emotion of Emotions";
+        skosmos:showChangeList "false" ;
+        skosmos:showNotation "true" ;
+        skosmos:loadExternalResources "true" ;
+        skosmos:showTopConcepts "true" ;
+        skosmos:mainConceptScheme <http://data.odeuropa.eu/vocabulary/plutchik> ;
+        void:sparqlEndpoint <http://data.odeuropa.eu/repositories/odeuropa> ;
+        void:dataDump <https://github.com/Odeuropa/vocabularies/blob/main/vocabularies/plutchik.ttl> ;
+        skosmos:sparqlGraph <http://data.odeuropa.eu/vocabulary/plutchik> .
+
+
+:vdi-hedonic a skosmos:Vocabulary, void:Dataset ;
+        dc:title "VDI Olfactometry - Determination of Hedonic Odour Tone" ;
+        dc:subject :classification ;
+        dc:type mdrtype:THESAURUS ;
+        void:uriSpace "http://data.odeuropa.eu/vocabulary/vdi-hedonic/";
+        skosmos:language "en";
+        skosmos:fallbackLanguages "en";
+        skosmos:defaultLanguage "en" ;
+        skosmos:groupClass skos:Collection ;
+        skosmos:hasMultiLingualProperty dc:bibliographicCitation, skos:definition ;
+        skosmos:showDeprecated "true" ;
+        skosmos:shortName "VDI Hedonic";
+        skosmos:showChangeList "false" ;
+        skosmos:showNotation "true" ;
+        skosmos:loadExternalResources "true" ;
+        skosmos:showTopConcepts "true" ;
+        skosmos:mainConceptScheme <http://data.odeuropa.eu/vocabulary/vdi-hedonic> ;
+        void:sparqlEndpoint <http://data.odeuropa.eu/repositories/odeuropa> ;
+        void:dataDump <https://github.com/Odeuropa/vocabularies/blob/main/vocabularies/vdi-hedonic.ttl> ;
+        skosmos:sparqlGraph <http://data.odeuropa.eu/vocabulary/vdi-hedonic> .
+
+:vdi-intensity a skosmos:Vocabulary, void:Dataset ;
+        dc:title "VDI Olfactometry - Determination of Odour intensity" ;
+        dc:subject :classification ;
+        dc:type mdrtype:THESAURUS ;
+        void:uriSpace "http://data.odeuropa.eu/vocabulary/vdi-intensity/";
+        skosmos:language "en";
+        skosmos:fallbackLanguages "en";
+        skosmos:defaultLanguage "en" ;
+        skosmos:groupClass skos:Collection ;
+        skosmos:hasMultiLingualProperty dc:bibliographicCitation, skos:definition ;
+        skosmos:showDeprecated "true" ;
+        skosmos:shortName "VDI Hedonic";
+        skosmos:showChangeList "false" ;
+        skosmos:showNotation "true" ;
+        skosmos:loadExternalResources "true" ;
+        skosmos:showTopConcepts "true" ;
+        skosmos:mainConceptScheme <http://data.odeuropa.eu/vocabulary/vdi-intensity> ;
+        void:sparqlEndpoint <http://data.odeuropa.eu/repositories/odeuropa> ;
+        void:dataDump <https://github.com/Odeuropa/vocabularies/blob/main/vocabularies/vdi-intensity.ttl> ;
+        skosmos:sparqlGraph <http://data.odeuropa.eu/vocabulary/vdi-intensity> .
+
 :cat_general a skos:Concept;
   skos:prefLabel "Vocabularies"@en, "Vocabulaires"@fr, "Vocabulari"@it,
           "Vocabulaires"@nl, "Vokabularien"@de, "Slovarji"@sl.
