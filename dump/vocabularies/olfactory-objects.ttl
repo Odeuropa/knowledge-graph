@@ -442,6 +442,7 @@ olfactory-objects:smell-source a skos:Collection ;
         olfactory-objects:470,
         olfactory-objects:471,
         olfactory-objects:475,
+        olfactory-objects:476,
         olfactory-objects:52,
         olfactory-objects:53,
         olfactory-objects:55,
@@ -1607,31 +1608,6 @@ olfactory-objects:328 a skos:Concept ;
         "Sladki koren"@sl ;
     skos:topConceptOf voc:olfactory-objects .
 
-olfactory-objects:329 a skos:Concept ;
-    dct:bibliographicCitation "part of Andrea Buettner's (FAU) \"Geruchsobjekte\""@en ;
-    owl:sameAs wd:Q161090 ;
-    skos:altLabel "Aspérule odorante"@fr,
-        "Asperula"@it,
-        "Dišeča perla"@sl ;
-    skos:inScheme voc:olfactory-objects ;
-    skos:prefLabel "Woodruff"@en,
-        "Gaillet odorant"@fr,
-        "Stellina odorosa"@it,
-        "Lievevrouwebedstro"@nl,
-        "Dišeča lakota"@sl ;
-    skos:topConceptOf voc:olfactory-objects .
-
-olfactory-objects:330 a skos:Concept ;
-    dct:bibliographicCitation "part of Andrea Buettner's (FAU) \"Geruchsobjekte\""@en ;
-    owl:sameAs wd:Q20856764 ;
-    skos:inScheme voc:olfactory-objects ;
-    skos:prefLabel "Coriander seed"@en,
-        "Graine de coriandre"@fr,
-        "Semi di coriandolo"@it,
-        "Korianderzaad"@nl,
-        "Semena koriandra"@sl ;
-    skos:topConceptOf voc:olfactory-objects .
-
 olfactory-objects:331 a skos:Concept ;
     dct:bibliographicCitation "part of Andrea Buettner's (FAU) \"Geruchsobjekte\""@en ;
     owl:sameAs wd:Q65523167 ;
@@ -2044,19 +2020,6 @@ olfactory-objects:388 a skos:Concept ;
         "Sasafras"@sl ;
     skos:topConceptOf voc:olfactory-objects .
 
-olfactory-objects:390 a skos:Concept ;
-    skos:altLabel "Grani muschiati"@it,
-        "Seme di ambretta"@it,
-        "Semi di ambra"@it,
-        "Semi muschiati"@it ;
-    skos:inScheme voc:olfactory-objects ;
-    skos:prefLabel "Musk seed"@en,
-        "Graines d'Ambrette"@fr,
-        "Seme di abelmosco"@it,
-        "Muskuskaasjeskruidzaad"@nl,
-        "Semena slezenovca"@sl ;
-    skos:topConceptOf voc:olfactory-objects .
-
 olfactory-objects:394 a skos:Concept ;
     skos:altLabel "Speculaas"@en,
         "speculoos"@en,
@@ -2084,14 +2047,6 @@ olfactory-objects:395 a skos:Concept ;
         "Pepe della Giamaica"@it,
         "Piment"@nl,
         "Začimbe"@sl ;
-    skos:topConceptOf voc:olfactory-objects .
-
-olfactory-objects:396 a skos:Concept ;
-    owl:sameAs wd:Q191000 ;
-    skos:definition "A piece of fragrant wood or tree"@en ;
-    skos:inScheme voc:olfactory-objects ;
-    skos:prefLabel "Oud"@en,
-        "Oud"@nl ;
     skos:topConceptOf voc:olfactory-objects .
 
 olfactory-objects:397 a skos:Concept ;
@@ -2543,31 +2498,6 @@ olfactory-objects:1 a skos:Concept ;
         "Amuleto aromatico"@it,
         "Aromatisch amulet"@nl,
         "Aromatični amulet"@sl ;
-    skos:topConceptOf voc:olfactory-objects .
-
-olfactory-objects:101 a skos:Concept ;
-    owl:sameAs wd:Q3866060 ;
-    skos:altLabel "Cerf porte-musc"@fr ;
-    skos:broader olfactory-objects:459 ;
-    skos:inScheme voc:olfactory-objects ;
-    skos:prefLabel "Moschushirsch"@de,
-        "Musk Deer"@en,
-        "Chevrotain porte-musc"@fr,
-        "Cervo muschiato"@it,
-        "Muskushert"@nl,
-        "Mošusni jelen"@sl ;
-    skos:topConceptOf voc:olfactory-objects .
-
-olfactory-objects:102 a skos:Concept ;
-    owl:sameAs wd:Q26283 ;
-    skos:altLabel "Muskrat"@en ;
-    skos:broader olfactory-objects:459 ;
-    skos:inScheme voc:olfactory-objects ;
-    skos:prefLabel "Musk Rat"@en,
-        "Musk Rat"@fr,
-        "Topo muschiato"@it,
-        "Muskusrat"@nl,
-        "Pižmovka"@sl ;
     skos:topConceptOf voc:olfactory-objects .
 
 olfactory-objects:103 a skos:Concept ;
@@ -3151,7 +3081,7 @@ olfactory-objects:201 a skos:Concept ;
 olfactory-objects:202 a skos:Concept ;
     owl:sameAs wd:Q210858 ;
     skos:altLabel "Santal"@nl ;
-    skos:broader olfactory-objects:200 ;
+    skos:broader olfactory-objects:476 ;
     skos:inScheme voc:olfactory-objects ;
     skos:prefLabel "Sandelholz"@de,
         "Sandalwood"@en,
@@ -3317,7 +3247,6 @@ olfactory-objects:216 a skos:Concept ;
     owl:sameAs wd:Q12861 ;
     skos:altLabel "Poudre"@fr,
         "Strelni prah"@sl ;
-    skos:broader olfactory-objects:259 ;
     skos:inScheme voc:olfactory-objects ;
     skos:prefLabel "Schießpulver"@de,
         "Gunpowder"@en,
@@ -3325,6 +3254,7 @@ olfactory-objects:216 a skos:Concept ;
         "Polvere da sparo"@it,
         "Buskruit"@nl,
         "Smodnik"@sl ;
+    skos:related olfactory-objects:83 ;
     skos:topConceptOf voc:olfactory-objects .
 
 olfactory-objects:217 a skos:Concept ;
@@ -4015,6 +3945,33 @@ olfactory-objects:322 a skos:Concept ;
         "Origano"@sl ;
     skos:topConceptOf voc:olfactory-objects .
 
+olfactory-objects:329 a skos:Concept ;
+    dct:bibliographicCitation "part of Andrea Buettner's (FAU) \"Geruchsobjekte\""@en ;
+    owl:sameAs wd:Q161090 ;
+    skos:altLabel "Aspérule odorante"@fr,
+        "Asperula"@it,
+        "Dišeča perla"@sl ;
+    skos:broader olfactory-objects:72 ;
+    skos:inScheme voc:olfactory-objects ;
+    skos:prefLabel "Woodruff"@en,
+        "Gaillet odorant"@fr,
+        "Stellina odorosa"@it,
+        "Lievevrouwebedstro"@nl,
+        "Dišeča lakota"@sl ;
+    skos:topConceptOf voc:olfactory-objects .
+
+olfactory-objects:330 a skos:Concept ;
+    dct:bibliographicCitation "part of Andrea Buettner's (FAU) \"Geruchsobjekte\""@en ;
+    owl:sameAs wd:Q20856764 ;
+    skos:broader olfactory-objects:370 ;
+    skos:inScheme voc:olfactory-objects ;
+    skos:prefLabel "Coriander seed"@en,
+        "Graine de coriandre"@fr,
+        "Semi di coriandolo"@it,
+        "Korianderzaad"@nl,
+        "Semena koriandra"@sl ;
+    skos:topConceptOf voc:olfactory-objects .
+
 olfactory-objects:335 a skos:Concept ;
     dct:bibliographicCitation "part of Andrea Buettner's (FAU) \"Geruchsobjekte\""@en ;
     owl:sameAs wd:Q1093742 ;
@@ -4200,6 +4157,14 @@ olfactory-objects:366 a skos:Concept ;
         "Urin"@sl ;
     skos:topConceptOf voc:olfactory-objects .
 
+olfactory-objects:370 a skos:Concept ;
+    owl:sameAs wd:Q40763 ;
+    skos:inScheme voc:olfactory-objects ;
+    skos:narrower olfactory-objects:330,
+        olfactory-objects:390 ;
+    skos:prefLabel "Seed"@en ;
+    skos:topConceptOf voc:olfactory-objects .
+
 olfactory-objects:375 a skos:Concept ;
     owl:sameAs wd:Q1053334 ;
     skos:broader olfactory-objects:109 ;
@@ -4312,6 +4277,20 @@ olfactory-objects:389 a skos:Concept ;
         "Muškatni slezenovec"@sl ;
     skos:topConceptOf voc:olfactory-objects .
 
+olfactory-objects:390 a skos:Concept ;
+    skos:altLabel "Grani muschiati"@it,
+        "Seme di ambretta"@it,
+        "Semi di ambra"@it,
+        "Semi muschiati"@it ;
+    skos:broader olfactory-objects:370 ;
+    skos:inScheme voc:olfactory-objects ;
+    skos:prefLabel "Musk seed"@en,
+        "Graines d'Ambrette"@fr,
+        "Seme di abelmosco"@it,
+        "Muskuskaasjeskruidzaad"@nl,
+        "Semena slezenovca"@sl ;
+    skos:topConceptOf voc:olfactory-objects .
+
 olfactory-objects:391 a skos:Concept ;
     owl:sameAs wd:Q156921 ;
     skos:altLabel "Audifoin"@fr,
@@ -4343,6 +4322,15 @@ olfactory-objects:393 a skos:Concept ;
         "Fumigazione"@it,
         "Per fumum"@nl,
         "Fumgacija"@sl ;
+    skos:topConceptOf voc:olfactory-objects .
+
+olfactory-objects:396 a skos:Concept ;
+    owl:sameAs wd:Q191000 ;
+    skos:broader olfactory-objects:476 ;
+    skos:definition "A piece of fragrant wood or tree"@en ;
+    skos:inScheme voc:olfactory-objects ;
+    skos:prefLabel "Oud"@en,
+        "Oud"@nl ;
     skos:topConceptOf voc:olfactory-objects .
 
 olfactory-objects:398 a skos:Concept ;
@@ -4901,19 +4889,6 @@ olfactory-objects:82 a skos:Concept ;
         "Girlanda"@sl ;
     skos:topConceptOf voc:olfactory-objects .
 
-olfactory-objects:83 a skos:Concept ;
-    owl:sameAs wd:Q12796 ;
-    skos:altLabel "Arme"@fr,
-        "Pistolet"@fr ;
-    skos:inScheme voc:olfactory-objects ;
-    skos:prefLabel "(Schuss-)Waffen"@de,
-        "Gun"@en,
-        "Arme à feu"@fr,
-        "Pistola"@it,
-        "Geweer"@nl,
-        "Orožje"@sl ;
-    skos:topConceptOf voc:olfactory-objects .
-
 olfactory-objects:86 a skos:Concept ;
     skos:broader olfactory-objects:85 ;
     skos:definition "A fragranced handkerchief carried around to put to the nose when a stench came"@en ;
@@ -4994,6 +4969,33 @@ olfactory-objects:96 a skos:Concept ;
         "Armadio"@it,
         "Linnenkast"@nl,
         "Omara za perilo"@sl ;
+    skos:topConceptOf voc:olfactory-objects .
+
+olfactory-objects:101 a skos:Concept ;
+    owl:sameAs wd:Q3866060 ;
+    skos:altLabel "Cerf porte-musc"@fr ;
+    skos:broader olfactory-objects:459 ;
+    skos:inScheme voc:olfactory-objects ;
+    skos:prefLabel "Moschushirsch"@de,
+        "Musk Deer"@en,
+        "Chevrotain porte-musc"@fr,
+        "Cervo muschiato"@it,
+        "Muskushert"@nl,
+        "Mošusni jelen"@sl ;
+    skos:related olfactory-objects:270 ;
+    skos:topConceptOf voc:olfactory-objects .
+
+olfactory-objects:102 a skos:Concept ;
+    owl:sameAs wd:Q26283 ;
+    skos:altLabel "Muskrat"@en ;
+    skos:broader olfactory-objects:459 ;
+    skos:inScheme voc:olfactory-objects ;
+    skos:prefLabel "Musk Rat"@en,
+        "Musk Rat"@fr,
+        "Topo muschiato"@it,
+        "Muskusrat"@nl,
+        "Pižmovka"@sl ;
+    skos:related olfactory-objects:270 ;
     skos:topConceptOf voc:olfactory-objects .
 
 olfactory-objects:110 a skos:Concept ;
@@ -5523,6 +5525,15 @@ olfactory-objects:265 a skos:Concept ;
     skos:related olfactory-objects:233 ;
     skos:topConceptOf voc:olfactory-objects .
 
+olfactory-objects:270 a skos:Concept ;
+    owl:sameAs wd:Q323461 ;
+    skos:inScheme voc:olfactory-objects ;
+    skos:prefLabel "Musk"@en ;
+    skos:related olfactory-objects:101,
+        olfactory-objects:102,
+        olfactory-objects:125 ;
+    skos:topConceptOf voc:olfactory-objects .
+
 olfactory-objects:302 a skos:Concept ;
     dct:bibliographicCitation "part of Andrea Buettner's (FAU) \"Geruchsobjekte\""@en ;
     owl:sameAs wd:Q51148 ;
@@ -5834,6 +5845,20 @@ olfactory-objects:80 a skos:Concept ;
         "Handschoenen"@nl,
         "Rokavice"@sl ;
     skos:related olfactory-objects:52 ;
+    skos:topConceptOf voc:olfactory-objects .
+
+olfactory-objects:83 a skos:Concept ;
+    owl:sameAs wd:Q12796 ;
+    skos:altLabel "Arme"@fr,
+        "Pistolet"@fr ;
+    skos:inScheme voc:olfactory-objects ;
+    skos:prefLabel "(Schuss-)Waffen"@de,
+        "Gun"@en,
+        "Arme à feu"@fr,
+        "Pistola"@it,
+        "Geweer"@nl,
+        "Orožje"@sl ;
+    skos:related olfactory-objects:216 ;
     skos:topConceptOf voc:olfactory-objects .
 
 olfactory-objects:84 a skos:Concept ;
@@ -6175,6 +6200,15 @@ olfactory-objects:475 a skos:Concept ;
     skos:related olfactory-objects:233 ;
     skos:topConceptOf voc:olfactory-objects .
 
+olfactory-objects:476 a skos:Concept ;
+    owl:sameAs wd:Q287 ;
+    skos:inScheme voc:olfactory-objects ;
+    skos:narrower olfactory-objects:202,
+        olfactory-objects:396 ;
+    skos:prefLabel "Wood"@en ;
+    skos:related olfactory-objects:200 ;
+    skos:topConceptOf voc:olfactory-objects .
+
 olfactory-objects:52 a skos:Concept ;
     owl:sameAs wd:Q1247500 ;
     skos:altLabel "Russia Leather"@en,
@@ -6347,22 +6381,6 @@ olfactory-objects:228 a skos:Concept ;
         olfactory-objects:59 ;
     skos:topConceptOf voc:olfactory-objects .
 
-olfactory-objects:269 a skos:Concept ;
-    owl:sameAs wd:Q273131 ;
-    skos:definition "Collection of fragrant materials that can be burnt 'per fumum'  in order to give of scent"@en ;
-    skos:inScheme voc:olfactory-objects ;
-    skos:prefLabel "Incense"@en,
-        "Encens"@fr,
-        "Incenso"@it,
-        "Wierook"@nl,
-        "Kadilo"@sl ;
-    skos:related olfactory-objects:251,
-        olfactory-objects:264,
-        olfactory-objects:267,
-        olfactory-objects:29,
-        olfactory-objects:89 ;
-    skos:topConceptOf voc:olfactory-objects .
-
 olfactory-objects:473 a skos:Concept ;
     owl:sameAs wd:Q46847 ;
     skos:broader olfactory-objects:4 ;
@@ -6393,30 +6411,6 @@ olfactory-objects:69 a skos:Concept ;
         "Flacone"@it,
         "Flacon"@nl,
         "Parfumska steklenička"@sl ;
-    skos:topConceptOf voc:olfactory-objects .
-
-olfactory-objects:125 a skos:Concept ;
-    owl:sameAs wd:Q4736 ;
-    skos:altLabel "Musk ball"@en,
-        "Pomme de senteur"@fr,
-        "pomander"@fr,
-        "pomandre ou pommandre"@fr,
-        "Reukbal"@nl,
-        "muskbal"@nl,
-        "Parfumska krogla"@sl ;
-    skos:broader olfactory-objects:4 ;
-    skos:closeMatch iconclass:31A51451 ;
-    skos:definition "Jewel (often) made of precious metal, designed to contain scents, sometimes in seperate compartments, and accompanied by a small spoon"@en ;
-    skos:inScheme voc:olfactory-objects ;
-    skos:narrower olfactory-objects:84 ;
-    skos:prefLabel "Bisamapfel"@de,
-        "Pomander"@en,
-        "Pomme d'ambre"@fr,
-        "Pomo d'ambra"@it,
-        "Pomander"@nl,
-        "Pomander"@sl ;
-    skos:related olfactory-objects:131,
-        olfactory-objects:386 ;
     skos:topConceptOf voc:olfactory-objects .
 
 olfactory-objects:227 a skos:Concept ;
@@ -6451,6 +6445,23 @@ olfactory-objects:233 a skos:Concept ;
     skos:related olfactory-objects:113,
         olfactory-objects:265,
         olfactory-objects:475 ;
+    skos:topConceptOf voc:olfactory-objects .
+
+olfactory-objects:269 a skos:Concept ;
+    owl:sameAs wd:Q273131 ;
+    skos:broader olfactory-objects:259 ;
+    skos:definition "Collection of fragrant materials that can be burnt 'per fumum'  in order to give of scent"@en ;
+    skos:inScheme voc:olfactory-objects ;
+    skos:prefLabel "Incense"@en,
+        "Encens"@fr,
+        "Incenso"@it,
+        "Wierook"@nl,
+        "Kadilo"@sl ;
+    skos:related olfactory-objects:251,
+        olfactory-objects:264,
+        olfactory-objects:267,
+        olfactory-objects:29,
+        olfactory-objects:89 ;
     skos:topConceptOf voc:olfactory-objects .
 
 olfactory-objects:33 a skos:Concept ;
@@ -6528,6 +6539,31 @@ olfactory-objects:98 a skos:Concept ;
         olfactory-objects:190,
         olfactory-objects:191,
         olfactory-objects:195 ;
+    skos:topConceptOf voc:olfactory-objects .
+
+olfactory-objects:125 a skos:Concept ;
+    owl:sameAs wd:Q4736 ;
+    skos:altLabel "Musk ball"@en,
+        "Pomme de senteur"@fr,
+        "pomander"@fr,
+        "pomandre ou pommandre"@fr,
+        "Reukbal"@nl,
+        "muskbal"@nl,
+        "Parfumska krogla"@sl ;
+    skos:broader olfactory-objects:4 ;
+    skos:closeMatch iconclass:31A51451 ;
+    skos:definition "Jewel (often) made of precious metal, designed to contain scents, sometimes in seperate compartments, and accompanied by a small spoon"@en ;
+    skos:inScheme voc:olfactory-objects ;
+    skos:narrower olfactory-objects:84 ;
+    skos:prefLabel "Bisamapfel"@de,
+        "Pomander"@en,
+        "Pomme d'ambre"@fr,
+        "Pomo d'ambra"@it,
+        "Pomander"@nl,
+        "Pomander"@sl ;
+    skos:related olfactory-objects:131,
+        olfactory-objects:270,
+        olfactory-objects:386 ;
     skos:topConceptOf voc:olfactory-objects .
 
 olfactory-objects:403 a skos:Concept ;
@@ -6645,7 +6681,6 @@ olfactory-objects:200 a skos:Concept ;
     owl:sameAs wd:Q10884 ;
     skos:inScheme voc:olfactory-objects ;
     skos:narrower olfactory-objects:201,
-        olfactory-objects:202,
         olfactory-objects:218,
         olfactory-objects:221,
         olfactory-objects:231,
@@ -6661,6 +6696,7 @@ olfactory-objects:200 a skos:Concept ;
         "Albero"@it,
         "Bomen"@nl,
         "Drevesa"@sl ;
+    skos:related olfactory-objects:476 ;
     skos:topConceptOf voc:olfactory-objects .
 
 olfactory-objects:259 a skos:Concept ;
@@ -6671,11 +6707,11 @@ olfactory-objects:259 a skos:Concept ;
         olfactory-objects:203,
         olfactory-objects:204,
         olfactory-objects:205,
-        olfactory-objects:216,
         olfactory-objects:217,
         olfactory-objects:220,
         olfactory-objects:222,
         olfactory-objects:267,
+        olfactory-objects:269,
         olfactory-objects:427,
         olfactory-objects:431 ;
     skos:prefLabel "Resin"@en,
@@ -6855,6 +6891,7 @@ olfactory-objects:72 a skos:Concept ;
         olfactory-objects:255,
         olfactory-objects:258,
         olfactory-objects:27,
+        olfactory-objects:329,
         olfactory-objects:384,
         olfactory-objects:389,
         olfactory-objects:391,
@@ -6877,8 +6914,8 @@ olfactory-objects:72 a skos:Concept ;
 voc:olfactory-objects a skos:ConceptScheme ;
     rdfs:label "Olfactory objects" ;
     dct:created "2021-06-01"^^xsd:date ;
-    dct:modified "2022-05-13"^^xsd:date ;
-    pav:createdOn "2022-05-13"^^xsd:date ;
+    dct:modified "2022-07-06"^^xsd:date ;
+    pav:createdOn "2022-07-06"^^xsd:date ;
     pav:version "0.1" ;
     skos:hasTopConcept olfactory-objects:1,
         olfactory-objects:10,
@@ -7067,6 +7104,7 @@ voc:olfactory-objects a skos:ConceptScheme ;
         olfactory-objects:268,
         olfactory-objects:269,
         olfactory-objects:27,
+        olfactory-objects:270,
         olfactory-objects:271,
         olfactory-objects:272,
         olfactory-objects:273,
@@ -7177,6 +7215,7 @@ voc:olfactory-objects a skos:ConceptScheme ;
         olfactory-objects:368,
         olfactory-objects:369,
         olfactory-objects:37,
+        olfactory-objects:370,
         olfactory-objects:371,
         olfactory-objects:372,
         olfactory-objects:373,
@@ -7293,6 +7332,7 @@ voc:olfactory-objects a skos:ConceptScheme ;
         olfactory-objects:473,
         olfactory-objects:474,
         olfactory-objects:475,
+        olfactory-objects:476,
         olfactory-objects:48,
         olfactory-objects:49,
         olfactory-objects:5,
