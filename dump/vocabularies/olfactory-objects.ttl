@@ -7,7 +7,7 @@
 @prefix skos: <http://www.w3.org/2004/02/skos/core#> .
 @prefix voc: <http://data.odeuropa.eu/vocabulary/> .
 @prefix wd: <http://www.wikidata.org/entity/> .
-@prefix wordnet: <http://www.w3.org/2006/03/wn/wn20/> .
+@prefix wordnet: <http://wordnet-rdf.princeton.edu/id/> .
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 
 olfactory-objects:artifact a skos:Collection ;
@@ -685,17 +685,17 @@ iconclass:49G82 skos:closeMatch olfactory-objects:11 .
 
 iconclass:Carcassa skos:closeMatch olfactory-objects:460 .
 
-wordnet:21445 skos:exactMatch olfactory-objects:404 .
+wordnet:021445-n skos:exactMatch olfactory-objects:404 .
 
-wordnet:2674410 skos:exactMatch olfactory-objects:85 .
+wordnet:02674410-n skos:exactMatch olfactory-objects:85 .
 
-wordnet:3602662 skos:exactMatch olfactory-objects:4 .
+wordnet:03602662-n skos:exactMatch olfactory-objects:4 .
 
-wordnet:3922150 skos:exactMatch olfactory-objects:65 .
+wordnet:03922150-n skos:exactMatch olfactory-objects:65 .
 
-wordnet:4116429 skos:exactMatch olfactory-objects:136 .
+wordnet:04116429-n skos:exactMatch olfactory-objects:136 .
 
-wordnet:7828160 skos:exactMatch olfactory-objects:177 .
+wordnet:07828160-n skos:exactMatch olfactory-objects:177 .
 
 olfactory-objects:10 a skos:Concept ;
     dct:bibliographicCitation "https://www.britannica.com/topic/alchemy"@en ;
@@ -2640,7 +2640,7 @@ olfactory-objects:136 a skos:Concept ;
     skos:altLabel "Roženkranc"@sl,
         "molek"@sl ;
     skos:definition "Rosary can be made from wood, bone, glass, crushed flowers, agate, jet, amber, or jasper"@en ;
-    skos:exactMatch wordnet:4116429 ;
+    skos:exactMatch wordnet:04116429-n ;
     skos:inScheme voc:olfactory-objects ;
     skos:prefLabel "Rosenkränze"@de,
         "Rosary"@en,
@@ -5874,7 +5874,7 @@ olfactory-objects:84 a skos:Concept ;
 olfactory-objects:85 a skos:Concept ;
     owl:sameAs wd:Q1065579 ;
     skos:definition "Clothing that is worn or carried, but not part of your main clothing"@en ;
-    skos:exactMatch wordnet:2674410 ;
+    skos:exactMatch wordnet:02674410-n ;
     skos:inScheme voc:olfactory-objects ;
     skos:narrower olfactory-objects:86 ;
     skos:prefLabel "Accessory"@en,
@@ -6034,7 +6034,7 @@ olfactory-objects:404 a skos:Concept ;
     owl:sameAs wd:Q12140 ;
     skos:altLabel "Farmaco"@it,
         "Medicina"@it ;
-    skos:exactMatch wordnet:21445 ;
+    skos:exactMatch wordnet:021445-n ;
     skos:inScheme voc:olfactory-objects ;
     skos:narrower olfactory-objects:228,
         olfactory-objects:229 ;
@@ -6606,7 +6606,7 @@ olfactory-objects:88 a skos:Concept ;
 olfactory-objects:177 a skos:Concept ;
     owl:sameAs wd:Q42527 ;
     skos:broader olfactory-objects:405 ;
-    skos:exactMatch wordnet:7828160 ;
+    skos:exactMatch wordnet:07828160-n ;
     skos:inScheme voc:olfactory-objects ;
     skos:narrower olfactory-objects:213,
         olfactory-objects:214,
@@ -6726,7 +6726,7 @@ olfactory-objects:65 a skos:Concept ;
     owl:sameAs wd:Q131746 ;
     skos:closeMatch iconclass:31A5142 ;
     skos:definition "A toiletry that emits and diffuses a fragrant odor"@en ;
-    skos:exactMatch wordnet:3922150 ;
+    skos:exactMatch wordnet:03922150-n ;
     skos:inScheme voc:olfactory-objects ;
     skos:narrower olfactory-objects:113,
         olfactory-objects:228,
@@ -6750,7 +6750,7 @@ olfactory-objects:65 a skos:Concept ;
 olfactory-objects:4 a skos:Concept ;
     owl:sameAs wd:Q161439 ;
     skos:altLabel "Kopalna hiša"@sl ;
-    skos:exactMatch wordnet:3602662 ;
+    skos:exactMatch wordnet:03602662-n ;
     skos:inScheme voc:olfactory-objects ;
     skos:narrower olfactory-objects:1,
         olfactory-objects:114,
@@ -6914,8 +6914,8 @@ olfactory-objects:72 a skos:Concept ;
 voc:olfactory-objects a skos:ConceptScheme ;
     rdfs:label "Olfactory objects" ;
     dct:created "2021-06-01"^^xsd:date ;
-    dct:modified "2022-07-06"^^xsd:date ;
-    pav:createdOn "2022-07-06"^^xsd:date ;
+    dct:modified "2022-07-19"^^xsd:date ;
+    pav:createdOn "2022-07-19"^^xsd:date ;
     pav:version "0.1" ;
     skos:hasTopConcept olfactory-objects:1,
         olfactory-objects:10,
