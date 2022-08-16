@@ -27,7 +27,7 @@ class Entity:
         for x in obj.split('|'):
             Graph.add(self.res, pred, x.strip(), lang)
 
-    def add_label(self, label, lang):
+    def add_label(self, label, lang=None):
         self.add(RDFS.label, label.strip(), lang)
 
     def add_descr(self, text, lang):

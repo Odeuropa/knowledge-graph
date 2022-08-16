@@ -15973,8 +15973,9 @@
 <http://data.odeuropa.eu/actor/54c03ff6-1eaa-55e7-b433-fe8042ead756> a crm:E39_Actor ;
     rdfs:label "Tout homme qui en fera de semblables" .
 
-<http://data.odeuropa.eu/actor/5c2f9d65-dbc2-5f34-a5b1-9b910abc19cf> a crm:E39_Actor ;
-    rdfs:label "Oiseaus" .
+<http://data.odeuropa.eu/actor/5c2f9d65-dbc2-5f34-a5b1-9b910abc19cf> a od:L6_Animal ;
+    rdfs:label "Oiseaus" ;
+    crm:P137_exemplifies <http://data.odeuropa.eu/vocabulary/noses/14> .
 
 <http://data.odeuropa.eu/actor/5d22da46-8389-5cca-a18f-5f12d526afaf> a crm:E39_Actor ;
     rdfs:label "les auteurs des mémoires" .
@@ -16029,8 +16030,9 @@
 <http://data.odeuropa.eu/actor/9e40b788-cfd7-58cf-96c5-19b78f8242c4> a crm:E39_Actor ;
     rdfs:label "personnes" .
 
-<http://data.odeuropa.eu/actor/a0c03531-6701-5529-b570-6b891f9ae18f> a crm:E39_Actor ;
-    rdfs:label "chiens" .
+<http://data.odeuropa.eu/actor/a0c03531-6701-5529-b570-6b891f9ae18f> a od:L6_Animal ;
+    rdfs:label "chiens" ;
+    crm:P137_exemplifies <http://data.odeuropa.eu/vocabulary/noses/13> .
 
 <http://data.odeuropa.eu/actor/a7396b4b-cf4a-53e1-8616-ec5d889dbd24> a crm:E39_Actor ;
     rdfs:label "membres des mêmes jurys" .
@@ -16071,8 +16073,9 @@
 <http://data.odeuropa.eu/actor/cf911fd6-5383-5a24-a9cd-c9cb15547822> a crm:E39_Actor ;
     rdfs:label "Anciens" .
 
-<http://data.odeuropa.eu/actor/d0c354f8-2616-5821-b020-23668068ab28> a crm:E39_Actor ;
-    rdfs:label "chien" .
+<http://data.odeuropa.eu/actor/d0c354f8-2616-5821-b020-23668068ab28> a od:L6_Animal ;
+    rdfs:label "chien" ;
+    crm:P137_exemplifies <http://data.odeuropa.eu/vocabulary/noses/13> .
 
 <http://data.odeuropa.eu/actor/d3b2f2e5-f86a-50e1-b8a3-a2e06bd9eb62> a crm:E39_Actor ;
     rdfs:label "enfant" .

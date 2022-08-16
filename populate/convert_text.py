@@ -1,3 +1,4 @@
+import argparse
 import os
 from os import path
 from math import isnan
@@ -7,17 +8,15 @@ import numpy as np
 import pandas as pd
 import yaml
 from tqdm import tqdm
+from rdflib import SDO, RDF
 
 from entities import *
-from entities.ontologies import CRM
 from entities.vocabularies import VocabularyManager as VocabularyManager
 from entities.utils.smell_words import get_all_smell_words
 from entities.utils.pronouns import Pronouns
 
-# xlsx_file = path.join('./', 'input', 'benchmark-annotation-output.xlsx')
-docs_file = path.join('./', 'input', 'benchmark.xlsx')
-out_folder = '../dump/text-annotation'
-os.makedirs(out_folder, exist_ok=True)
+DEFAULT_ROOT = path.join('./', 'input', 'text-annotation')
+DEFAULT_OUT = path.join('../', 'dump')
 
 DOC_ID_REGEX = r"\d{3}[A-Z]"
 PROV_DESCR = 'Manual annotation of textual resources realised according to the Odeuropa deliverable D3.2 ' \
@@ -31,10 +30,13 @@ lang_map = {
     'Dutch': 'nl',
     'Italian': 'it'
 }
+
 docs = {}
 
 
 def get_safe(name, obj):
+    if name not in obj:
+        return ''
     r = obj[name]
     if type(r) == float and isnan(r):
         return ''
@@ -62,7 +64,7 @@ def extract_id(lang, title):
         ctitle = re.sub(r"\.txt.+", "", ctitle)
         ctitle = re.sub(r"^_", "", ctitle)
         ctitle = re.sub(r"^LITERATURE_", "0", ctitle)
-        ctitle = ctitle.replace(' ', '-')
+        ctitle = ctitle.replace(' ', '-').strip()
 
         x = [k for k in docs.keys() if k in ctitle or ctitle in k]
         if len(x) > 0:
@@ -74,14 +76,18 @@ def extract_id(lang, title):
     return x, docs[x]
 
 
-def process_annotation_sheet(df, lang):
+def process_annotation_sheet(df, lang, codename):
     print('processing ' + lang)
     df.fillna('', inplace=True)
 
     doc_map = {}
 
     for i, r in tqdm(df.iterrows(), total=df.shape[0]):
-        title = r['Title']
+        # too many spaces = fake sentence
+        if len(re.findall(r"\w", r['Sentence'])) - len(re.findall(r"\W", r['Sentence'])) < 10:
+            continue
+
+        title = r.get('Title', r['Book'])
         if 'annotator1.xmi' in title:
             continue
 
@@ -95,13 +101,19 @@ def process_annotation_sheet(df, lang):
         txt = doc or TextualObject(identifier, title)
         frag = txt.add_fragment(r['Sentence'], lang)
 
-        prov = Provenance('text_annotation' + r['Annotator'], 'Manual text annotation', PROV_DESCR, r['Annotator'])
+        if 'Annotator' in r:
+            prov = Provenance('text_annotation' + r['Annotator'], 'Manual text annotation', PROV_DESCR, r['Annotator'])
+        else:
+            prov = Provenance(codename, 'Automatic annotation', 'Automatic Annotation for the PastScent workshop', None)
+            prov.add_software('PastScent', 'https://github.com/Odeuropa/PastScent')
 
         curid = 'text_annotation' + identifier + str(j)
         smell = Smell(curid)
         smell.add_label(r['Smell_Word'], lang)
         emission = SmellEmission(curid, smell, get_safe('Smell_Source', r), get_safe('Odour_Carrier', r), lang=lang)
-        perceiver = set([p for p in r['Perceiver'].split(' | ') if p not in get_all_smell_words(lang)])
+
+        perceiver = set([p for p in r.get('Perceiver', '').split(' | ') if p not in get_all_smell_words(lang)])
+
         experience = OlfactoryExperience(curid, smell, quality=r['Quality'], lang=lang)
         for p in perceiver:
             if p.lower() in Pronouns.myself(lang) and identifier in docs:  # fixme
@@ -112,17 +124,17 @@ def process_annotation_sheet(df, lang):
             p = p.replace(Place.IN_PREFIX[lang], '').strip()
             p = p.replace(VocabularyManager.ARTICLE_REGEX[lang], '').strip()
             experience.add_perceiver(Actor(p, lang))
-        for x in r['Effect'].split('|'):
+        for x in r.get('Effect', '').split('|'):
             experience.add_gesture(x, lang=lang)
-        experience.evoked(r['Evoked_Odorant'], lang=lang)
+        experience.evoked(r.get('Evoked_Odorant', None), lang=lang)
 
-        if type(r['Location']) == str:
+        if type(r.get('Location', None)) == str:
             for x in r['Location'].split('|'):
                 place = Place.from_text(x, lang)
                 experience.add_place(place)
                 emission.add_place(place)
 
-        if type(r['Time']) == str:
+        if type(r.get('Time', None)) == str:
             for x in r['Time'].split('|'):
                 tim = Time.parse(x, lang, fallback='text')
                 experience.add_time(tim)
@@ -133,8 +145,11 @@ def process_annotation_sheet(df, lang):
         frag.add_annotation(experience, prov)
 
 
-def process_benchmark_sheet(language):
-    df = pd.read_excel(docs_file, sheet_name=language, dtype=str)
+def process_benchmark_sheet(language, docs_file):
+    if docs_file.endswith('.xlsx'):
+        df = pd.read_excel(docs_file, sheet_name=language, dtype=str)
+    else:
+        df = pd.read_csv(docs_file, sep='\t')
     df.fillna('', inplace=True)
 
     lang = lang_map[language]
@@ -157,26 +172,87 @@ def process_benchmark_sheet(language):
         docs[identifier] = to
 
 
-# init
-with open('config.yaml', 'r') as file:
-    config = yaml.safe_load(file)
-VocabularyManager.setup(config['vocabularies'])
+def process_rsc_metadata(lang, docs_file, map_file):
+    df = pd.read_csv(docs_file, dtype=str, sep='\t', encoding='utf-8')
+    df.fillna('', inplace=True)
 
-# convert
+    intermediate_map = pd.read_csv(map_file, dtype=str, sep='\t', encoding='utf-8', names=['id', 'filename'])
+    intermediate_map['real_id'] = intermediate_map['filename'].apply(lambda x: x.split('text_')[-1])
 
-for lg in ['English', 'Italian', 'Dutch', 'French', 'German', 'Slovenian', 'Dutch']:
-    process_benchmark_sheet(lg)
-Graph.g.serialize(destination=f"{out_folder}/docs.ttl")
-Graph.reset()
+    for i, r in tqdm(df.iterrows(), total=df.shape[0]):
+        identifier = r['id']
+        real_id = intermediate_map[intermediate_map['real_id'] == identifier + '.txt']['id'].iloc[0]
 
-for lg in ['en', 'fr', 'it', 'de', 'sl', 'nl']:
-    with open(f"./input/{lg}-frame-elements.tsv") as file:
-        tsv_data = pd.read_csv(file, sep='\t')
-        process_annotation_sheet(tsv_data, lang=lg)
-        out = Graph.g.serialize(format='ttl')
-        out = out.replace('"<<', '<<').replace('>>"', '>>')
-        with open(f"{out_folder}/{lg}.ttl", 'w') as outfile:
-            outfile.write(out)
-        Graph.reset()
+        year = r['year'].replace('.0', '')
 
-print(np.unique(not_found))
+        to = TextualObject(identifier, title=r['title'], date=year, place='London', lang=lang)
+        for author in r['author'].split('|'):
+            to.add_author(author, lang)
+        to.add_url(r['doiLink'])
+        to.add(SDO.issn, r['id'])
+        to.add(RDF.type, SDO.ScholarlyArticle)
+        to.add(SDO.about, r['primaryTopic'])
+        to.add(SDO.isPartOf, TextualObject(r['journal'], r['journal'], date=year))
+        docs[real_id] = to
+
+
+def run(root, output, lang=None):
+    docs_file = path.join(root, 'metadata.xlsx')
+    codename = root.split('/')[-1]
+    folder_name = path.split(root)[-1]
+    out_folder = path.join(output, folder_name)
+    os.makedirs(out_folder, exist_ok=True)
+
+    # init
+    with open('config.yaml', 'r') as file:
+        config = yaml.safe_load(file)
+    VocabularyManager.setup(config['vocabularies'])
+
+    # convert
+    if lang is None:
+        lang_list = ['en', 'fr', 'it', 'de', 'sl', 'nl']
+        for lg in ['English', 'Italian', 'Dutch', 'French', 'German', 'Slovenian', 'Dutch']:
+            process_benchmark_sheet(lg, docs_file)
+    else:
+        lang_list = [lang]
+        docs_file = path.join(root, 'metadata.tsv')
+        if folder_name == 'royal-society-corpus':
+            map_file = path.join(root, 'map.tsv')
+            process_rsc_metadata(lang, docs_file, map_file)
+        else:
+            process_benchmark_sheet(lang, docs_file)
+
+    Graph.g.serialize(destination=f"{out_folder}/docs.ttl")
+    Graph.reset()
+
+    for lg in lang_list:
+        with open(path.join(root, f"{lg}-frame-elements.tsv")) as file:
+            tsv_data = pd.read_csv(file, sep='\t', index_col=False)
+            process_annotation_sheet(tsv_data, lang=lg, codename=codename)
+            out = Graph.g.serialize(format='ttl')
+            out = out.replace('"<<', '<<').replace('>>"', '>>')
+            with open(f"{out_folder}/{lg}.ttl", 'w') as outfile:
+                outfile.write(out)
+            Graph.reset()
+
+    print(np.unique(not_found))
+
+
+def dir_path(string):
+    if os.path.isdir(string):
+        return string
+    else:
+        raise NotADirectoryError(string)
+
+
+def parse_arguments():
+    parser = argparse.ArgumentParser(description='Convert csv from text into the Odeuropa Model.')
+    parser.add_argument('--input', '-i', type=dir_path, default=DEFAULT_ROOT)
+    parser.add_argument('--output', '-o', type=dir_path, default=DEFAULT_OUT)
+    parser.add_argument('--lang', type=str)
+
+    return parser.parse_args()
+
+
+args = parse_arguments()
+run(args.input, args.output, args.lang)

@@ -4,6 +4,12 @@ MYSELF = {
     'fr': ['je', 'moi', 'moi même', 'mon', 'ma', 'mes']
 }
 
+HER = {
+    'en': ['her'],
+    'it': ['lei', 'ella', 'essa'],
+    'fr': ['elle', 'lui']
+}
+
 
 class Pronouns:
     def __init__(self, lang):
@@ -16,3 +22,7 @@ class Pronouns:
     @classmethod
     def myself(cls, lang):
         return MYSELF.get(lang, [])
+
+    @classmethod
+    def is_pronoun(cls, what, lang):
+        return what in MYSELF.get(lang, []) or what in HER.get(lang, [])

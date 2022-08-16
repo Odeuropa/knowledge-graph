@@ -1,20 +1,29 @@
+import re
 from rdflib import RDFS, OWL
 
 from .Entity import Entity
 from .ontologies import CRM, ODEUROPA, REO
 from .utils import wikidata_api
+from .utils.pronouns import Pronouns
 from .vocabularies import VocabularyManager as VocManager
+
+TITLES = {
+    'en': ['Sir', 'Professor', 'The Hon.', 'Prof.', 'Commander', 'Dr.', 'Captain']
+}
 
 
 class Actor(Entity):
     def __init__(self, name, lang=None, alive_in=None, anonymize=False, is_person=False):
         super().__init__(name, 'actor')
         is_animal = False
+        role = None
 
         if not anonymize:
             self.add(RDFS.label, name)
 
-            lemma, role = VocManager.get('noses').ienterlink(name, lang)
+            lemma = None
+            if not Pronouns.is_pronoun(name, lang):
+                lemma, role = VocManager.get('noses').interlink(name, lang)
 
             if lemma is not None:
                 print(name, lemma)
@@ -29,7 +38,12 @@ class Actor(Entity):
 
             wd = None
             if lemma is None and len(name) < 40:
-                wd = wikidata_api.searchperson(name, lang=lang, alive_in=alive_in)
+                q = re.sub(r", [a-zA-Z]{1,3}\. .+", "", name)
+                ttls = [x.replace('.', '\\.') for x in TITLES.get(lang, [])]
+                q = re.sub(rf"^{'|'.join(ttls)} ", '', q).strip()
+                q = re.sub(r"[.,:]$", '', q)  # trailing punctuation
+                # print(q, ' <= ', name)
+                wd = wikidata_api.searchperson(q.strip(), lang=lang, alive_in=alive_in)
             if wd is not None:
                 self.add(OWL.sameAs, wd)
                 is_person = True

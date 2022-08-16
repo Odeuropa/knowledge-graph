@@ -13,6 +13,11 @@ Series of scripts, procedures and dumps for deploying the EOKG on GraphDB and Do
 Download latest version of GraphDB free by registering on the [product website](https://www.ontotext.com/products/graphdb/graphdb-free/). Place the obtained zip in the `graphdb` folder.
 We will use version 9.8.0.
 
+If you have the new Mac M1, run:
+
+    export DOCKER_DEFAULT_PLATFORM=linux/amd64  
+
+
 Then, run:
 
     make free VERSION=9.8.0 -f graphdb/Makefile
@@ -23,6 +28,7 @@ Then, run:
 
 Create the GraphDB repository
 
+    pip install -r requirements.txt
     python3 scripts/create_repo.py
 
 Upload vocabularies
@@ -69,8 +75,9 @@ Install skosmos using docker
     cd populate
     pip install -r requirements.txt
 
-    python convert_text.py 
-    python convert_img.py 
- 
+    python convert_text.py -i ./input/text-annotation
+    python convert_text.py -i ./input/royal-society-corpus --lang en
+    python convert_img.py
+
 
 The URI pattern is described in a separate [README](URI-patterns.md)

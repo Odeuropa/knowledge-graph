@@ -39,6 +39,7 @@ def to_genre(idg):
 class TextualObject(SourceDoc):
     def __init__(self, _id, title, author=None, date=None, place=None, lang=None, genre=None):
         super().__init__(_id, title, author, date, lang)
+
         self.genre = genre
         self.lang = lang
 
