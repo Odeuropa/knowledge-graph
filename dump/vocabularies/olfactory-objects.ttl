@@ -497,6 +497,17 @@ olfactory-objects:12 a skos:Concept ;
         "Lekcije anatomije"@sl ;
     skos:topConceptOf voc:olfactory-objects .
 
+olfactory-objects:126 a skos:Concept ;
+    owl:sameAs wd:Q283 ;
+    skos:inScheme voc:olfactory-objects ;
+    skos:prefLabel "Wasser"@de,
+        "Water"@en,
+        "Eau"@fr,
+        "Acqua"@it,
+        "Water"@nl,
+        "Voda"@sl ;
+    skos:topConceptOf voc:olfactory-objects .
+
 olfactory-objects:139 a skos:Concept ;
     owl:sameAs wd:Q864214 ;
     skos:inScheme voc:olfactory-objects ;
@@ -1256,8 +1267,11 @@ olfactory-objects:275 a skos:Concept ;
 olfactory-objects:276 a skos:Concept ;
     dct:bibliographicCitation "part of Andrea Buettner's (FAU) \"Geruchsobjekte\""@en ;
     owl:sameAs wd:Q18113858 ;
+    skos:altLabel "Gummi"@de,
+        "Kautschuk"@de ;
     skos:inScheme voc:olfactory-objects ;
-    skos:prefLabel "Rubber"@en,
+    skos:prefLabel "Naturkautschuk"@de,
+        "Rubber"@en,
         "Gomme"@fr,
         "Gomma"@it,
         "Rubber"@nl,
@@ -1899,12 +1913,13 @@ olfactory-objects:368 a skos:Concept ;
         "Liquide séminal"@fr,
         "Liquido seminale"@it,
         "Seme"@it,
+        "Zaad"@nl,
         "Sperma"@sl ;
     skos:inScheme voc:olfactory-objects ;
     skos:prefLabel "Semen"@en,
         "Sperme"@fr,
         "Sperma"@it,
-        "Zaad, sperma"@nl,
+        "Sperma"@nl,
         "Seme"@sl ;
     skos:topConceptOf voc:olfactory-objects .
 
@@ -2472,7 +2487,7 @@ olfactory-objects:81 a skos:Concept ;
     skos:prefLabel "Gras"@de,
         "Grass"@en,
         "Herbe"@fr,
-        "Erba"@it,
+        "Erba (Graminacee)"@it,
         "Gras"@nl,
         "Trava"@sl ;
     skos:topConceptOf voc:olfactory-objects .
@@ -4159,10 +4174,17 @@ olfactory-objects:366 a skos:Concept ;
 
 olfactory-objects:370 a skos:Concept ;
     owl:sameAs wd:Q40763 ;
+    skos:altLabel "Same"@de,
+        "Samen"@de ;
     skos:inScheme voc:olfactory-objects ;
     skos:narrower olfactory-objects:330,
         olfactory-objects:390 ;
-    skos:prefLabel "Seed"@en ;
+    skos:prefLabel "Pflanzensamen"@de,
+        "Seed"@en,
+        "Graine"@fr,
+        "Seme"@it,
+        "Zaad"@nl,
+        "Seme"@sl ;
     skos:topConceptOf voc:olfactory-objects .
 
 olfactory-objects:375 a skos:Concept ;
@@ -5528,7 +5550,12 @@ olfactory-objects:265 a skos:Concept ;
 olfactory-objects:270 a skos:Concept ;
     owl:sameAs wd:Q323461 ;
     skos:inScheme voc:olfactory-objects ;
-    skos:prefLabel "Musk"@en ;
+    skos:prefLabel "Moschus"@de,
+        "Musk"@en,
+        "Musc"@fr,
+        "Muschio"@it,
+        "Muskus"@nl,
+        "Mošus"@sl ;
     skos:related olfactory-objects:101,
         olfactory-objects:102,
         olfactory-objects:125 ;
@@ -6202,10 +6229,18 @@ olfactory-objects:475 a skos:Concept ;
 
 olfactory-objects:476 a skos:Concept ;
     owl:sameAs wd:Q287 ;
+    skos:altLabel "Rinde"@de,
+        "Corteccia"@it,
+        "Legna"@it ;
     skos:inScheme voc:olfactory-objects ;
     skos:narrower olfactory-objects:202,
         olfactory-objects:396 ;
-    skos:prefLabel "Wood"@en ;
+    skos:prefLabel "Holz"@de,
+        "Wood"@en,
+        "Bois"@fr,
+        "Legno"@it,
+        "Hout"@nl,
+        "Lés"@sl ;
     skos:related olfactory-objects:200 ;
     skos:topConceptOf voc:olfactory-objects .
 
@@ -6325,7 +6360,8 @@ olfactory-objects:410 a skos:Concept ;
         olfactory-objects:297,
         olfactory-objects:314,
         olfactory-objects:422 ;
-    skos:prefLabel "Root"@en,
+    skos:prefLabel "Wurzel"@de,
+        "Root"@en,
         "Racine"@fr,
         "Radice"@it,
         "Wortel"@nl,
@@ -6597,7 +6633,7 @@ olfactory-objects:88 a skos:Concept ;
     skos:prefLabel "Kräuter"@de,
         "Herb"@en,
         "Herbe"@fr,
-        "Erba (menta, basilico, timo, origano, ecc.)"@it,
+        "Erba"@it,
         "Kruiden"@nl,
         "Zelišča"@sl ;
     skos:related olfactory-objects:415 ;
@@ -6618,7 +6654,7 @@ olfactory-objects:177 a skos:Concept ;
         "Spice"@en,
         "Épices"@fr,
         "Spezie"@it,
-        "Specerijen (kruidnagel, foelie, nootmuskaat, kaneel, etc.)"@nl,
+        "Specerijen"@nl,
         "Začimba (nageljnove žbice, muškatovec, muškatni orešček, cimet)"@sl ;
     skos:topConceptOf voc:olfactory-objects .
 
@@ -6914,8 +6950,8 @@ olfactory-objects:72 a skos:Concept ;
 voc:olfactory-objects a skos:ConceptScheme ;
     rdfs:label "Olfactory objects" ;
     dct:created "2021-06-01"^^xsd:date ;
-    dct:modified "2022-07-19"^^xsd:date ;
-    pav:createdOn "2022-07-19"^^xsd:date ;
+    dct:modified "2022-08-17"^^xsd:date ;
+    pav:createdOn "2022-08-17"^^xsd:date ;
     pav:version "0.1" ;
     skos:hasTopConcept olfactory-objects:1,
         olfactory-objects:10,
@@ -6947,6 +6983,7 @@ voc:olfactory-objects a skos:ConceptScheme ;
         olfactory-objects:123,
         olfactory-objects:124,
         olfactory-objects:125,
+        olfactory-objects:126,
         olfactory-objects:127,
         olfactory-objects:128,
         olfactory-objects:129,
