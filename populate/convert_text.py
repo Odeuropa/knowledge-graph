@@ -66,9 +66,13 @@ def extract_id(lang, title):
         ctitle = re.sub(r"^LITERATURE_", "0", ctitle)
         ctitle = ctitle.replace(' ', '-').strip()
 
-        x = [k for k in docs.keys() if k in ctitle or ctitle in k]
+        x = docs.get(ctitle, None)
+        if x is None:
+            x = [k for k in docs.keys() if k in ctitle or ctitle in k]
+        else:
+            x = [ctitle]
+
         if len(x) > 0:
-            # print(title , x)
             x = x[0]
         else:
             not_found.append(lang + ' | ' + title)
