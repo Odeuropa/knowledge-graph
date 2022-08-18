@@ -8,7 +8,7 @@ import numpy as np
 import pandas as pd
 import yaml
 from tqdm import tqdm
-from rdflib import SDO, RDF
+from rdflib import SDO, RDF, SKOS
 
 from entities import *
 from entities.vocabularies import VocabularyManager as VocabularyManager
@@ -176,27 +176,30 @@ def process_benchmark_sheet(language, docs_file):
         docs[identifier] = to
 
 
-def process_rsc_metadata(lang, docs_file, map_file):
+def process_metadata(lang, docs_file, map_file):
     df = pd.read_csv(docs_file, dtype=str, sep='\t', encoding='utf-8')
     df.fillna('', inplace=True)
 
     intermediate_map = pd.read_csv(map_file, dtype=str, sep='\t', encoding='utf-8', names=['id', 'filename'])
     intermediate_map['real_id'] = intermediate_map['filename'].apply(lambda x: x.split('text_')[-1])
 
+    splitting = ',' if 'old-bailey-corpus' in docs_file else '|'
     for i, r in tqdm(df.iterrows(), total=df.shape[0]):
-        identifier = r['id']
+        identifier = r['id'].replace('.xml', '')
         real_id = intermediate_map[intermediate_map['real_id'] == identifier + '.txt']['id'].iloc[0]
 
         year = r['year'].replace('.0', '')
 
         to = TextualObject(identifier, title=r['title'], date=year, place='London', lang=lang)
-        for author in r['author'].split('|'):
+        for author in r['author'].split(splitting):
             to.add_author(author, lang)
-        to.add_url(r['doiLink'])
+        to.add_url(r.get('doiLink'))
+        to.add(SKOS.editorialNote, r.get('note'))
         to.add(SDO.issn, r['id'])
         to.add(RDF.type, SDO.ScholarlyArticle)
-        to.add(SDO.about, r['primaryTopic'])
-        to.add(SDO.isPartOf, TextualObject(r['journal'], r['journal'], date=year))
+        to.add(SDO.about, r.get('primaryTopic'))
+        if 'journal' in r:
+            to.add(SDO.isPartOf, TextualObject(r['journal'], r['journal'], date=year))
         docs[real_id] = to
 
 
@@ -220,9 +223,10 @@ def run(root, output, lang=None):
     else:
         lang_list = [lang]
         docs_file = path.join(root, 'metadata.tsv')
-        if folder_name == 'royal-society-corpus':
-            map_file = path.join(root, 'map.tsv')
-            process_rsc_metadata(lang, docs_file, map_file)
+        map_file = path.join(root, 'map.tsv')
+
+        if path.isfile(map_file):
+            process_metadata(lang, docs_file, map_file)
         else:
             process_benchmark_sheet(lang, docs_file)
 
