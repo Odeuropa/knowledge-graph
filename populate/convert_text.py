@@ -82,7 +82,6 @@ def extract_id(lang, title):
 
 def process_annotation_sheet(df, lang, codename):
     print('processing ' + lang)
-    df.fillna('', inplace=True)
 
     doc_map = {}
 
@@ -179,28 +178,47 @@ def process_benchmark_sheet(language, docs_file):
 def process_metadata(lang, docs_file, map_file):
     df = pd.read_csv(docs_file, dtype=str, sep='\t', encoding='utf-8')
     df.fillna('', inplace=True)
+    intermediate_map = None
 
-    intermediate_map = pd.read_csv(map_file, dtype=str, sep='\t', encoding='utf-8', names=['id', 'filename'])
-    intermediate_map['real_id'] = intermediate_map['filename'].apply(lambda x: x.split('text_')[-1])
+    if path.isfile(map_file):
+        intermediate_map = pd.read_csv(map_file, dtype=str, sep='\t', encoding='utf-8', names=['id', 'filename'])
+        intermediate_map['real_id'] = intermediate_map['filename'].apply(lambda x: x.split('text_')[-1])
 
     splitting = ',' if 'old-bailey-corpus' in docs_file else '|'
     for i, r in tqdm(df.iterrows(), total=df.shape[0]):
-        identifier = r['id'].replace('.xml', '')
-        real_id = intermediate_map[intermediate_map['real_id'] == identifier + '.txt']['id'].iloc[0]
+        identifier = r['id'].replace('.xml', '').replace('.txt', '')
+        if 'eebo' in docs_file:
+            identifier = identifier.replace('/', '_')
 
         year = r['year'].replace('.0', '')
 
         to = TextualObject(identifier, title=r['title'], date=year, place='London', lang=lang)
         for author in r['author'].split(splitting):
-            to.add_author(author, lang)
+            m = re.search(r", (\d{4}\??)-(\d{4}\??)", author)
+            birth = death = None
+            if m is not None:
+                birth = m.group(1)
+                death = m.group(1)
+                author = author.replace(m.group(0), '')
+            if ',' in author:
+                parts = re.sub(r'\.$', '', author).split(',')
+                author = f'{parts[1]} {parts[0]}'
+
+            to.add_author(author, lang, birth, death)
         to.add_url(r.get('doiLink'))
         to.add(SKOS.editorialNote, r.get('note'))
-        to.add(SDO.issn, r['id'])
-        to.add(RDF.type, SDO.ScholarlyArticle)
+        to.add(SDO.issn, r.get('issn'))
+        if 'royal-society-corpus' in docs_file:
+            to.add(RDF.type, SDO.ScholarlyArticle)
         to.add(SDO.about, r.get('primaryTopic'))
         if 'journal' in r:
             to.add(SDO.isPartOf, TextualObject(r['journal'], r['journal'], date=year))
-        docs[real_id] = to
+
+        if intermediate_map is not None:
+            real_id = intermediate_map[intermediate_map['real_id'] == identifier + '.txt']['id'].iloc[0]
+            docs[real_id] = to
+        else:
+            docs[identifier] = to
 
 
 def run(root, output, lang=None):
@@ -225,10 +243,7 @@ def run(root, output, lang=None):
         docs_file = path.join(root, 'metadata.tsv')
         map_file = path.join(root, 'map.tsv')
 
-        if path.isfile(map_file):
-            process_metadata(lang, docs_file, map_file)
-        else:
-            process_benchmark_sheet(lang, docs_file)
+        process_metadata(lang, docs_file, map_file)
 
     Graph.g.serialize(destination=f"{out_folder}/docs.ttl")
     Graph.reset()
@@ -236,12 +251,17 @@ def run(root, output, lang=None):
     for lg in lang_list:
         with open(path.join(root, f"{lg}-frame-elements.tsv")) as file:
             tsv_data = pd.read_csv(file, sep='\t', index_col=False)
-            process_annotation_sheet(tsv_data, lang=lg, codename=codename)
-            out = Graph.g.serialize(format='ttl')
-            out = out.replace('"<<', '<<').replace('>>"', '>>')
-            with open(f"{out_folder}/{lg}.ttl", 'w') as outfile:
-                outfile.write(out)
-            Graph.reset()
+            tsv_data.fillna('', inplace=True)
+
+            # dividing in batches of 10K rows
+            step = 10000
+            for i in tqdm(np.arange(0, len(tsv_data) - 1, step), desc="Batches: "):
+                process_annotation_sheet(tsv_data[i:i+step], lang=lg, codename=codename)
+                out = Graph.g.serialize(format='ttl')
+                out = out.replace('"<<', '<<').replace('>>"', '>>')
+                with open(f"{out_folder}/{lg}{i}.ttl", 'w') as outfile:
+                    outfile.write(out)
+                Graph.reset()
 
     print(np.unique(not_found))
 

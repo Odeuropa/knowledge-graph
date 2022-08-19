@@ -1,7 +1,8 @@
 import re
-from rdflib import RDFS, OWL
+from rdflib import RDFS, OWL, SDO
 
 from .Entity import Entity
+from .Time import Time
 from .ontologies import CRM, ODEUROPA, REO
 from .utils import wikidata_api
 from .utils.pronouns import Pronouns
@@ -13,7 +14,7 @@ TITLES = {
 
 
 class Actor(Entity):
-    def __init__(self, name, lang=None, alive_in=None, anonymize=False, is_person=False):
+    def __init__(self, name, lang=None, alive_in=None, anonymize=False, is_person=False, birth=None, death=None):
         super().__init__(name, 'actor')
         is_animal = False
         role = None
@@ -36,6 +37,11 @@ class Actor(Entity):
 
             self.add(CRM.P137_exemplifies, lemma)
 
+            b = birth.replace('?', '') if birth else None
+            d = death.replace('?', '') if death else None
+            self.add(SDO.birthDate, Time(birth, birth))
+            self.add(SDO.deathDate, Time(death, death))
+
             wd = None
             if lemma is None and len(name) < 40:
                 q = re.sub(r", [a-zA-Z]{1,3}\. .+", "", name)
@@ -43,7 +49,7 @@ class Actor(Entity):
                 q = re.sub(rf"^{'|'.join(ttls)} ", '', q).strip()
                 q = re.sub(r"[.,:]$", '', q)  # trailing punctuation
                 # print(q, ' <= ', name)
-                wd = wikidata_api.searchperson(q.strip(), lang=lang, alive_in=alive_in)
+                wd = wikidata_api.searchperson(q.strip(), lang=lang, alive_in=alive_in, birth=b, death=d)
             if wd is not None:
                 self.add(OWL.sameAs, wd)
                 is_person = True

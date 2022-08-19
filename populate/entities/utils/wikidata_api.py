@@ -32,12 +32,18 @@ def wbsearchentities(query, lang='en'):
         return res[0]['concepturi']
 
 
-def searchperson(name, lang='en', alive_in=None):
+def searchperson(name, lang='en', alive_in=None, birth=None, death=None):
     if name in cache:
         return cache[name]
+    return None
     time.sleep(5)
+    if birth or death:
+        alive_condition = f'FILTER(year(?dateOfBirth) = {birth})' if birth is not None else '' \
+                          f'FILTER(year(?dateOfDeath) = {death})' if death is not None else '' \
+                          f'BIND(1 AS ?alive)' if alive_in is not None else ''
+    else:
+        alive_condition = f'BIND((year(?dateOfBirth) < {alive_in}) && (year(?dateOfDeath) >= {alive_in} ) AS ?alive)' if alive_in is not None else ''
 
-    alive_condition = f'BIND((year(?dateOfBirth) < {alive_in}) && (year(?dateOfDeath) >= {alive_in} ) AS ?alive)' if alive_in is not None else ''
     query = '''
     SELECT DISTINCT ?item ?itemLabel ?alive
     WHERE {
@@ -60,6 +66,8 @@ def searchperson(name, lang='en', alive_in=None):
 
     params = {'format': 'json', 'query': query}
     r = requests.get(SPARQL_ENDPOINT, params=params)
+    if r.status_code != 200:
+        print(query, r.status_code, r.text)
     res = r.json()['results']['bindings']
 
     if res and len(res) > 0:
