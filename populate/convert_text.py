@@ -90,7 +90,7 @@ def process_annotation_sheet(df, lang, codename):
         if len(re.findall(r"\w", r['Sentence'])) - len(re.findall(r"\W", r['Sentence'])) < 10:
             continue
 
-        title = r.get('Title', r['Book'])
+        title = r.get('Title', r.get('Book', None))
         if 'annotator1.xmi' in title:
             continue
 
@@ -105,12 +105,12 @@ def process_annotation_sheet(df, lang, codename):
         frag = txt.add_fragment(r['Sentence'], lang)
 
         if 'Annotator' in r:
-            prov = Provenance('text_annotation' + r['Annotator'], 'Manual text annotation', PROV_DESCR, r['Annotator'])
+            prov = Provenance(codename + r['Annotator'], 'Manual text annotation', PROV_DESCR, r['Annotator'])
         else:
             prov = Provenance(codename, 'Automatic annotation', 'Automatic Annotation for the PastScent workshop', None)
             prov.add_software('PastScent', 'https://github.com/Odeuropa/PastScent')
 
-        curid = 'text_annotation' + identifier + str(j)
+        curid = codename + identifier + str(j)
         smell = Smell(curid)
         smell.add_label(r['Smell_Word'], lang)
         emission = SmellEmission(curid, smell, get_safe('Smell_Source', r), get_safe('Odour_Carrier', r), lang=lang)
