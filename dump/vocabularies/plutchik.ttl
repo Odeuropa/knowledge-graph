@@ -51,7 +51,7 @@ plu:acceptance a skos:Concept ;
     skos:inScheme <http://data.odeuropa.eu/vocabulary/plutchik> ;
     skos:narrower plu:trust ;
     skos:prefLabel "acceptance"@en ;
-    skos:topConceptOf plu: .
+    skos:topConceptOf <http://data.odeuropa.eu/vocabulary/plutchik> .
 
 plu:annoyance a skos:Concept ;
     skos:inScheme <http://data.odeuropa.eu/vocabulary/plutchik> ;
