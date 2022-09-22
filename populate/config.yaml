@@ -5,6 +5,9 @@ vocabularies:
     other_languages: 0.6
     unmatching_start: 0.7
   vocabularies: # list of vocabularies to include in the API
+    plutchik:
+      scheme: http://data.odeuropa.eu/vocabulary/plutchik
+      family: emotion
     olfactory-objects:
       scheme: http://data.odeuropa.eu/vocabulary/olfactory-objects
     olfactory-gestures:

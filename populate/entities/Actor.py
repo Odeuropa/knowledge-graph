@@ -27,7 +27,7 @@ class Actor(Entity):
                 lemma, role = VocManager.get('noses').interlink(name, lang)
 
             if lemma is not None:
-                print(name, lemma)
+                # print(name, lemma)
                 if 'Animal' in role:
                     is_animal = True
                 else:

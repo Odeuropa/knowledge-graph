@@ -1,11 +1,12 @@
 from os import path
 
-from rdflib import URIRef, RDF, RDFS
+from rdflib import URIRef, RDF, RDFS, SKOS
 
-from .Entity import Entity
+from .Entity import Entity, MiniEntity
 from .AttributeAssignment import AttributeAssignment
 from .Graph import add, is_invalid
-from .ontologies import ODEUROPA, CRM
+from .ontologies import ODEUROPA, CRM, REO
+from .vocabularies import VocabularyManager as VocManager
 
 
 class OlfactoryExperience(Entity):
@@ -53,3 +54,25 @@ class OlfactoryExperience(Entity):
 
     def evoked(self, what, lang=''):
         self.add(ODEUROPA.F6_evoked, what, lang)
+
+    def add_emotion(self, label, typ, sentiment):
+        typ = [t for t in typ.split(' | ') if t != 'Smell_Word'][0]
+        em = Emotion(self.seed, label, typ, sentiment)
+        # print(label, typ, sentiment)
+        self.add(REO.readP27, em)
+
+
+class Emotion(Entity):
+    def __init__(self, seed, label, typ, sentiment):
+        super().__init__(seed, 'emotion')
+
+        self.set_class(REO.REO21)
+        self.add_label(label)
+        self.add(CRM.P2_has_type, MiniEntity('sentiment', sentiment.lower(), sentiment, SKOS.Concept))
+
+        if typ:
+            match = VocManager.get('emotion').search(typ.lower())
+            if len(match.lemmata) and match.lemmata[0].score == 1:
+                self.add(CRM.P137_exemplifies, match.lemmata[0].id)
+            else:
+                self.add(CRM.P137_exemplifies, MiniEntity('emotion-type', typ.lower(), typ, SKOS.Concept))

@@ -28,7 +28,7 @@ class VocabularyController:
     def get(self, lemma):
         return Vocabulary.get_all(self.name, self.scheme, self.endpoint).get(lemma)
 
-    def search(self, q, lang, n=10, autocomplete=False):
+    def search(self, q, lang='en', n=10, autocomplete=False):
         voc = Vocabulary.get_all(self.name, self.scheme, self.endpoint)
         if not q:
             return voc

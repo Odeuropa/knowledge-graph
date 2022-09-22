@@ -45,8 +45,11 @@ def get_safe(name, obj):
 
 WORKAROUND_DOC_ID = {
     "108 Antilles.txt": "108F",
+    "108 Antilles.tsv": "108F",
     "107 Moreau 1639.txt": "107F",
+    "107 Moreau 1639.tsv": "107F",
     "Wander_Deutsches-Sprichwörter-Lexikon_1867.txt": "076G",
+    "Wander_Deutsches-Sprichwörter-Lexikon_1867.tsv": "076G",
 }
 
 not_found = []
@@ -80,6 +83,9 @@ def extract_id(lang, title):
     return x, docs[x]
 
 
+sentence_archive = []
+
+
 def process_annotation_sheet(df, lang, codename):
     print('processing ' + lang)
 
@@ -90,7 +96,11 @@ def process_annotation_sheet(df, lang, codename):
         if len(re.findall(r"\w", r['Sentence'])) - len(re.findall(r"\W", r['Sentence'])) < 10:
             continue
 
-        title = r.get('Title', r.get('Book', None))
+        if r['Sentence'] in sentence_archive:
+            continue
+        sentence_archive.append(r['Sentence'])
+
+        title = r.get('Title', r.get('Book', None)).replace('.tsv', '.txt')
         if 'annotator1.xmi' in title:
             continue
 
@@ -142,6 +152,15 @@ def process_annotation_sheet(df, lang, codename):
                 tim = Time.parse(x, lang, fallback='text')
                 experience.add_time(tim)
                 emission.add_time(tim)
+
+        # emotion
+        emotion = r.get('Emotion', None)
+        if emotion:
+            for e in np.unique(emotion.split(' | ')):
+                if r['Emotion_Type'] == 'Smell_Word':
+                    return
+                typ = r['Emotion_Other'] if r['Emotion_Type'] == 'Other' else r['Emotion_Type']
+                experience.add_emotion(e, typ, r['Emotion_Sentiment'])
 
         frag.add_annotation(emission, prov)
         frag.add_annotation(smell, prov)
@@ -249,14 +268,22 @@ def run(root, output, lang=None):
     Graph.reset()
 
     for lg in lang_list:
+        em_tsv = path.join(root, f"{lg}-frame-elements-emotion.tsv")
+        tsv_data = None
+
+        if os.path.isfile(em_tsv):
+            with open(em_tsv) as file:
+                tsv_data = pd.read_csv(file, sep='\t', index_col=False)
+
         with open(path.join(root, f"{lg}-frame-elements.tsv")) as file:
-            tsv_data = pd.read_csv(file, sep='\t', index_col=False)
+            temp = pd.read_csv(file, sep='\t', index_col=False)
+            tsv_data = temp if tsv_data is None else pd.concat([tsv_data, temp], ignore_index=True)
             tsv_data.fillna('', inplace=True)
 
             # dividing in batches of 10K rows
             step = 10000
             for i in tqdm(np.arange(0, len(tsv_data) - 1, step), desc="Batches: "):
-                process_annotation_sheet(tsv_data[i:i+step], lang=lg, codename=codename)
+                process_annotation_sheet(tsv_data[i:i + step], lang=lg, codename=codename)
                 out = Graph.g.serialize(format='ttl')
                 out = out.replace('"<<', '<<').replace('>>"', '>>')
                 with open(f"{out_folder}/{lg}{i}.ttl", 'w') as outfile:

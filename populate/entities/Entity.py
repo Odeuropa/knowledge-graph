@@ -11,7 +11,7 @@ from .config import BASE
 class Entity:
     def __init__(self, seed, group):
         curclass = type(self).__name__
-
+        self.seed = seed
         self.uri = path.join(BASE, group, str(uuid.uuid5(uuid.NAMESPACE_DNS, curclass + seed)))
         self.res = URIRef(self.uri)
 
@@ -38,3 +38,12 @@ class Entity:
 
     def add_time(self, time):
         self.add(TIME.hasTime, time)
+
+
+class MiniEntity(Entity):
+    def __init__(self, group, id, label, clas):
+        self.uri = path.join(BASE, group, id.replace(' ', '_'))
+        self.res = URIRef(self.uri)
+        self.add_label(label)
+        self.set_class(clas)
+
