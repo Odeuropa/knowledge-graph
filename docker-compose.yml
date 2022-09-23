@@ -12,7 +12,7 @@ services:
     restart: unless-stopped
     environment:
       GDB_JAVA_OPTS: >-
-        -Xmx2g -Xms2g
+        -Xmx8g -Xms8g
         -Dgraphdb.home=/opt/graphdb/home
         -Dgraphdb.workbench.importDirectory=/opt/graphdb/home/graphdb-import
         -Dgraphdb.workbench.cors.enable=true
