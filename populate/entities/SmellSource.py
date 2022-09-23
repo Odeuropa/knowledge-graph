@@ -16,7 +16,9 @@ class SmellSource(Entity):
         if lemma is None:
             lemma, role = VocManager.get('olfactory-objects').interlink(label, lang)
 
-        if lemma is not None:
+        if lemma is None:
+            self.set_class(CRMsci.S10_Material_Substantial)
+        else:
             self.add(CRM.P137_exemplifies, lemma)
             if role and ARTIFACT in role:
                 self.set_class(CRM.E22_HumanMade_Object)
