@@ -59,7 +59,7 @@ class OlfactoryExperience(Entity):
         typ = [t for t in typ.split(' | ') if t != 'Smell_Word'][0]
         em = Emotion(self.seed, label, typ, sentiment)
         # print(label, typ, sentiment)
-        self.add(REO.readP27, em)
+        em.add(REO.readP27, self)
 
 
 class Emotion(Entity):
