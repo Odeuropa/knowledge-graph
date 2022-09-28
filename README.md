@@ -35,7 +35,7 @@ Upload vocabularies
 
     python3 scripts/load_vocabularies.py
 
-Upload ontologies (Odeuropa + CRM + CRMsci)
+Upload ontologies (Odeuropa + CRM + CRMsci + REO)
 
     python3 scripts/load_dump.py ontology
 

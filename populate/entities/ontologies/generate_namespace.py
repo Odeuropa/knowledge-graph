@@ -62,7 +62,7 @@ def generate_namespace(namespace: str, uri: Union[str, URIRef, Namespace], rdf_l
     if rdf_format == 'manual':
         g.parse(data=manual(rdf_loc), format="turtle")
     else:
-        g.load(rdf_loc, format=rdf_format)
+        g.parse(rdf_loc, format=rdf_format)
     uri = URIRef(str(uri))
     g.bind(namespace.lower(), uri)
 
@@ -235,3 +235,4 @@ if __name__ == '__main__':
 #  python ontologies/generate_namespace.py -f xml crm http://erlangen-crm.org/current/  https://raw.githubusercontent.com/Odeuropa/ontology/master/cidoc-crm.rdf
 #  python ontologies/generate_namespace.py -f xml crmsci http://www.ics.forth.gr/isl/CRMsci/  https://raw.githubusercontent.com/Odeuropa/ontology/master/crmsci.rdf
 #  python ontologies/generate_namespace.py -f ttl reo 'https://read-it.acc.hum.uu.nl/ontology#'  'https://read-it.acc.hum.uu.nl/ontology#'
+#  python ontologies/generate_namespace.py -f ttl ninsuna 'http://organon.elis.ugent.be/ontologies/ninsuna#'  '/Users/pasquale/git/odeuropa-kg/dump/ontology/ninsuna.ttl'

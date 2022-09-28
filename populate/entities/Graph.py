@@ -16,6 +16,9 @@ def set_prefixes(gx):
     gx.bind("owl", OWL)
     gx.bind("oa", OA)
     gx.bind("ma", MA)
+    gx.bind("reo", REO)
+    gx.bind("prov", PROV)
+    gx.bind("nsa", NINSUNA)
 
 
 def reset():
@@ -33,12 +36,12 @@ def add(subj, pred, obj, lang=''):
     if isinstance(subj, Entity):
         subj = subj.res
 
-    if isinstance(obj, URIRef) or isinstance(obj, Literal):
+    if isinstance(lang, URIRef):
+        statement = (subj, pred, Literal(obj, datatype=lang))
+    elif isinstance(obj, URIRef) or isinstance(obj, Literal):
         statement = (subj, pred, obj)
     elif validators.url(obj):
         statement = (subj, pred, URIRef(obj))
-    elif isinstance(lang, URIRef):
-        statement = (subj, pred, Literal(obj, datatype=lang))
     else:
         statement = (subj, pred, Literal(obj, lang=lang))
 

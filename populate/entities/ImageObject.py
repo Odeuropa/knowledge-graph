@@ -1,9 +1,9 @@
-from rdflib import URIRef, SDO, PROV
+from rdflib import URIRef, SDO, PROV, RDF, XSD
 
 from .Entity import Entity, Graph
 from .Place import Place
 from .SourceDoc import SourceDoc
-from .ontologies import CRM, MA, OA
+from .ontologies import CRM, MA, OA, NINSUNA
 
 
 class ImageObject(SourceDoc):
@@ -35,13 +35,16 @@ class MediaFragment(Entity):
         self.media = media_obj
 
         x, y, w, h = bbox
-        self.add(SDO.height, str(h))
-        self.add(SDO.width, str(w))
+        self.add(NINSUNA.spatialH, str(h))
+        self.add(NINSUNA.spatialW, str(w))
+        self.add(NINSUNA.spatialX, str(x))
+        self.add(NINSUNA.spatialY, str(y))
 
-    def add_annotation(self, body, prov):
+    def add_annotation(self, body, prov, confidence=1):
         annotation = Annotation(self.uri, body)
         annotation.add(OA.hasTarget, self)
         annotation.add(PROV.wasGeneratedBy, prov)
+        annotation.add(RDF.value, confidence, XSD.decimal)
         Graph.set_prov(self.media.add(CRM.P138_represents, body), prov)
 
 

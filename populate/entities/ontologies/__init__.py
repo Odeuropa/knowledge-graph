@@ -4,4 +4,5 @@ from .odeuropa import OD as ODEUROPA
 from .oa import OA
 from .ma import MA
 from .reo import REO
+from .ninsuna import NINSUNA
 
