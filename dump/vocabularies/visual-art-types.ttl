@@ -1,0 +1,242 @@
+@prefix dct: <http://purl.org/dc/terms/>.
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#>.
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#>.
+@prefix skos: <http://www.w3.org/2004/02/skos/core#>.
+@prefix vat: <http://data.odeuropa.eu/vocabulary/visual-art-types/>.
+
+vat:
+    a skos:ConceptScheme;
+    dct:created "2022"^^xsd:gYear;
+    rdfs:label "Visual and plastic art types"@en.
+
+vat:painting-art
+    a skos:Concept;
+    skos:prefLabel "painting (art)"@en, "pittura"@it;
+    skos:altLabel "painting (visual work)"@en;
+    skos:inScheme vat:;
+    skos:topConceptOf vat: .
+
+
+vat:painting
+    a skos:Concept;
+    skos:prefLabel "painting"@en, "dipinto"@it, "gemälde"@de, "peinture"@fr;
+    skos:inScheme vat:;
+    skos:broader vat:painting-art .
+
+vat:sculpture
+    a skos:Concept;
+    skos:prefLabel "sculpture"@en;
+    skos:inScheme vat:;
+    skos:topConceptOf vat: .
+
+vat:photograph
+    a skos:Concept;
+    skos:prefLabel "photograph"@en, "fotografia"@it, "fotografie"@de;
+    skos:inScheme vat:;
+    skos:topConceptOf vat: .
+
+vat:decorative-arts
+    a skos:Concept;
+    skos:prefLabel "decorative-arts"@en, "arts décoratifs"@fr, "arti decorative"@it ;
+    skos:inScheme vat:;
+    skos:topConceptOf vat: .
+
+vat:ceramic
+    a skos:Concept;
+    skos:prefLabel "ceramic"@en, "céramique"@fr, "ceramica"@it;
+    skos:inScheme vat:;
+    skos:broader vat:decorative-arts .
+
+vat:album
+    a skos:Concept;
+    skos:prefLabel "album"@en;
+    skos:inScheme vat:;
+    skos:broader vat:painting-art .
+
+vat:decorative-wall-component
+    a skos:Concept;
+    skos:prefLabel "decorative wall component"@en;
+    skos:inScheme vat:;
+    skos:topConceptOf vat: .
+
+vat:retable
+    a skos:Concept;
+    skos:prefLabel "retable"@en;
+    skos:inScheme vat:;
+    skos:broader vat:decorative-wall-component .
+
+vat:altarpiece
+    a skos:Concept;
+    skos:prefLabel "altarpiece"@en, "pala d'altare"@it;
+    skos:inScheme vat:;
+    skos:broader vat:retable , vat:painting-art .
+
+vat:anta
+    a skos:Concept;
+    skos:prefLabel "anta"@en;
+    skos:inScheme vat:;
+    skos:broader vat:decorative-wall-component , vat:painting-art .
+
+vat:cabinet-photograph
+    a skos:Concept;
+    skos:prefLabel "cabinet photograph"@en;
+    skos:inScheme vat:;
+    skos:broader vat:photograph .
+
+vat:carte-de-visite
+    a skos:Concept;
+    skos:prefLabel "carte-de-visite"@en, "portrait carte-de-visite"@fr;
+    skos:inScheme vat:;
+    skos:broader vat:photograph .
+
+vat:ceiling-painting
+    a skos:Concept;
+    skos:prefLabel "ceiling painting"@en;
+    skos:inScheme vat:;
+    skos:broader vat:painting-art .
+
+vat:drawing
+    a skos:Concept;
+    skos:prefLabel "drawing"@en, "dessin"@fr, "disegno"@it, "zeichnung"@de;
+    skos:inScheme vat:;
+    skos:broader vat:painting-art .
+
+
+vat:goldsmithery
+    a skos:Concept;
+    skos:prefLabel "goldsmithery"@en, "orfèvrerie"@fr, "oreficeria"@it;
+    skos:inScheme vat:;
+    skos:broader vat:decorative-arts .
+
+
+vat:illustration
+    a skos:Concept;
+    skos:prefLabel "illustration"@en;
+    skos:inScheme vat:;
+    skos:broader vat:painting-art .
+
+vat:printing
+    a skos:Concept;
+    skos:prefLabel "printing"@en, "stampa"@it;
+    skos:inScheme vat:;
+    skos:topConceptOf vat: .
+
+
+vat:print
+    a skos:Concept;
+    skos:prefLabel "print"@en, "druckgrafik"@de, "estampe"@fr, "stampa"@it;
+    skos:inScheme vat:;
+    skos:broader vat:printing .
+
+vat:illumination
+    a skos:Concept;
+    skos:prefLabel "illumination"@en, "miniatura"@it;
+    skos:altLabel "miniature"@en ;
+    skos:inScheme vat:;
+    skos:broader vat:painting .
+
+vat:engraving
+    a skos:Concept;
+    skos:prefLabel "engraving"@en, "incisione"@it;
+    skos:inScheme vat:;
+    skos:broader vat:sculpture .
+
+vat:mural-painting
+    a skos:Concept;
+    skos:prefLabel "mural painting"@en;
+    skos:inScheme vat:;
+    skos:broader vat:painting .
+
+vat:oil-sketch
+    a skos:Concept;
+    skos:prefLabel "oil sketch"@en;
+    skos:inScheme vat:;
+    skos:broader vat:painting .
+
+vat:overdoor
+    a skos:Concept;
+    skos:prefLabel "overdoor"@en;
+    skos:inScheme vat:;
+    skos:broader vat:decorative-wall-component .
+
+vat:overmantel
+    a skos:Concept;
+    skos:prefLabel "overmantel"@en;
+    skos:inScheme vat:;
+    skos:broader vat:decorative-wall-component .
+
+vat:painted-wallhanging
+    a skos:Concept;
+    skos:prefLabel "painted wallhanging"@en;
+    skos:inScheme vat:;
+    skos:broader vat:painting-art .
+
+vat:pen-painting
+    a skos:Concept;
+    skos:prefLabel "pen-painting"@en;
+    skos:inScheme vat:;
+    skos:broader vat:painting-art .
+
+
+vat:photomechanical-print
+    a skos:Concept;
+    skos:prefLabel "photomechanical print"@en;
+    skos:inScheme vat:;
+    skos:broader vat:print .
+
+vat:polyptych
+    a skos:Concept;
+    skos:prefLabel "polyptych"@en;
+    skos:inScheme vat:;
+    skos:broader vat:altarpiece .
+
+vat:miniature-portrait
+    a skos:Concept;
+    skos:prefLabel "portrait en miniature"@en, "portrait miniature"@fr;
+    skos:altLabel "miniature"@en;
+    skos:inScheme vat:;
+    skos:broader vat:painting-art .
+
+vat:relief
+    a skos:Concept;
+    skos:prefLabel "relief"@en, "relief"@fr, "rilievo"@it;
+    skos:inScheme vat:;
+    skos:broader vat:sculpture .
+
+vat:reproductive-print
+    a skos:Concept;
+    skos:prefLabel "reproductive print"@en;
+    skos:inScheme vat:;
+    skos:broader vat:print .
+
+
+vat:silhouette
+    a skos:Concept;
+    skos:prefLabel "silhouette"@en;
+    skos:inScheme vat:;
+    skos:broader vat:drawing .
+
+vat:stereo-photo
+    a skos:Concept;
+    skos:prefLabel "stereo photo"@en;
+    skos:inScheme vat:;
+    skos:broader vat:photograph .
+
+vat:triptych
+    a skos:Concept;
+    skos:prefLabel "triptych"@en;
+    skos:inScheme vat:;
+    skos:broader vat:polyptych.
+
+vat:unfinished-painting
+    a skos:Concept;
+    skos:prefLabel "unfinished painting"@en;
+    skos:inScheme vat:;
+    skos:broader vat:painting.
+
+vat:watercolor
+    a skos:Concept;
+    skos:altLabel "watercolor (painting)"@en;
+    skos:prefLabel "watercolor"@en;
+    skos:inScheme vat:;
+    skos:broader vat:painting.
