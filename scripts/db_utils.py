@@ -2,6 +2,7 @@ import yaml
 import requests
 
 base = 'http://localhost:7200'
+repo = 'odeuropa'
 token = None
 
 
@@ -9,10 +10,12 @@ def load_config():
     global base
     global user
     global pwd
+    global repo
 
     with open('scripts/config.yaml') as f:
         config = yaml.load(f, Loader=yaml.FullLoader)
     base = config['base_uri']
+    repo = config['repo']
     user = config['user']
     pwd = config['password']
 

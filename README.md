@@ -28,7 +28,7 @@ Then, run:
 
 Create the GraphDB repository
 
-    pip install -r requirements.txt
+    pip install -r scripts/requirements.txt
     python3 scripts/create_repo.py
 
 Upload vocabularies
@@ -47,7 +47,7 @@ Upload dumps
     python3 scripts/load_dump.py old-bailey-corpus
     python3 scripts/load_dump.py eebo
     python3 scripts/load_dump.py gutenberg
-    scripts/load_dump.py image-annotation
+    python3 scripts/load_dump.py image-annotation
 
 ## Apache Configuration and dereferencing
 
