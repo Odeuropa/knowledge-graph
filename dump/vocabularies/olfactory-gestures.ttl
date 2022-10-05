@@ -31,6 +31,7 @@ olfactory-gestures:14 a skos:Concept ;
     skos:topConceptOf voc:olfactory-gestures .
 
 olfactory-gestures:17 a skos:Concept ;
+    skos:altLabel "Cleaning a baby"@en ;
     skos:inScheme voc:olfactory-gestures ;
     skos:prefLabel "Changing diaper"@en,
         "Changer une couche"@fr,
@@ -174,6 +175,7 @@ olfactory-gestures:19 a skos:Concept ;
     skos:topConceptOf voc:olfactory-gestures .
 
 olfactory-gestures:2 a skos:Concept ;
+    skos:altLabel "Holding the nose"@en ;
     skos:closeMatch iconclass:31A25351 ;
     skos:inScheme voc:olfactory-gestures ;
     skos:prefLabel "Holding one's nose"@en,
@@ -279,6 +281,7 @@ olfactory-gestures:7 a skos:Concept ;
     skos:topConceptOf voc:olfactory-gestures .
 
 olfactory-gestures:1 a skos:Concept ;
+    skos:altLabel "Sniffing"@en ;
     skos:closeMatch iconclass:31A22111 ;
     skos:inScheme voc:olfactory-gestures ;
     skos:narrower olfactory-gestures:22 ;
@@ -369,7 +372,8 @@ olfactory-gestures:6 a skos:Concept ;
     skos:topConceptOf voc:olfactory-gestures .
 
 olfactory-gestures:8 a skos:Concept ;
-    skos:altLabel "Cacare"@it,
+    skos:altLabel "Defecating"@en,
+        "Cacare"@it,
         "Poepen"@nl,
         "plassen"@nl,
         "urineren"@nl ;
@@ -385,8 +389,8 @@ olfactory-gestures:8 a skos:Concept ;
 voc:olfactory-gestures a skos:ConceptScheme ;
     rdfs:label "Olfactory gestures" ;
     dct:created "2021-06-01"^^xsd:date ;
-    dct:modified "2022-07-06"^^xsd:date ;
-    pav:createdOn "2022-07-06"^^xsd:date ;
+    dct:modified "2022-10-05"^^xsd:date ;
+    pav:createdOn "2022-10-05"^^xsd:date ;
     pav:version "0.1" ;
     skos:hasTopConcept olfactory-gestures:1,
         olfactory-gestures:10,
