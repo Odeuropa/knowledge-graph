@@ -2313,10 +2313,10 @@ olfactory-objects:484 a skos:Concept ;
     skos:topConceptOf voc:olfactory-objects .
 
 olfactory-objects:485 a skos:Concept ;
-    skos:broader olfactory-objects:72 ;
+    skos:broader olfactory-objects:403 ;
     skos:inScheme voc:olfactory-objects ;
-    skos:prefLabel "Peonia"@en,
-        "Peonia"@it ;
+    skos:prefLabel "Radish"@en,
+        "Ravanello"@it ;
     skos:topConceptOf voc:olfactory-objects .
 
 olfactory-objects:486 a skos:Concept ;
@@ -3761,9 +3761,10 @@ olfactory-objects:25 a skos:Concept ;
 
 olfactory-objects:250 a skos:Concept ;
     owl:sameAs wd:Q49248125 ;
+    skos:altLabel "Paeony"@en ;
     skos:broader olfactory-objects:72 ;
     skos:inScheme voc:olfactory-objects ;
-    skos:prefLabel "Peonie"@en,
+    skos:prefLabel "Peony"@en,
         "Pivoine"@fr,
         "Peonia"@it,
         "Pioenroos"@nl,
@@ -6340,6 +6341,7 @@ olfactory-objects:13 a skos:Concept ;
 
 olfactory-objects:151 a skos:Concept ;
     skos:altLabel "Tobacco box"@en,
+        "Tobacco-box"@en,
         "Snuifdoos"@nl,
         "Doze za njuhanec"@sl ;
     skos:closeMatch iconclass:41C7441 ;
@@ -7198,6 +7200,7 @@ olfactory-objects:403 a skos:Concept ;
         olfactory-objects:306,
         olfactory-objects:307,
         olfactory-objects:446,
+        olfactory-objects:485,
         olfactory-objects:494,
         olfactory-objects:495,
         olfactory-objects:507,
@@ -7401,7 +7404,6 @@ olfactory-objects:72 a skos:Concept ;
         olfactory-objects:439,
         olfactory-objects:440,
         olfactory-objects:482,
-        olfactory-objects:485,
         olfactory-objects:486,
         olfactory-objects:487,
         olfactory-objects:497,
@@ -7420,8 +7422,8 @@ olfactory-objects:72 a skos:Concept ;
 voc:olfactory-objects a skos:ConceptScheme ;
     rdfs:label "Olfactory objects" ;
     dct:created "2021-06-01"^^xsd:date ;
-    dct:modified "2022-10-05"^^xsd:date ;
-    pav:createdOn "2022-10-05"^^xsd:date ;
+    dct:modified "2022-10-06"^^xsd:date ;
+    pav:createdOn "2022-10-06"^^xsd:date ;
     pav:version "0.1" ;
     skos:hasTopConcept olfactory-objects:1,
         olfactory-objects:10,
