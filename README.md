@@ -41,6 +41,7 @@ Upload ontologies (Odeuropa + CRM + CRMsci + REO)
 
 Upload dumps
 
+    python3 scripts/load_dump.py getty
     python3 scripts/load_dump.py geonames
     python3 scripts/load_dump.py text-annotation
     python3 scripts/load_dump.py royal-society-corpus

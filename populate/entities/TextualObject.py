@@ -48,8 +48,6 @@ class TextualObject(SourceDoc):
         self.add(SDO.inLanguage, lang)
         self.add(SDO.locationCreated, Place.from_text(place))
 
-    def add_url(self, url):
-        self.add(SDO.url, url)
 
     def add_fragment(self, text, lang=None):
         frag = TextFragment(self, text, lang or self.lang)

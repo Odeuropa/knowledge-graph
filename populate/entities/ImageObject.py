@@ -1,30 +1,83 @@
-from rdflib import URIRef, SDO, PROV, RDF, XSD
+import os.path
+import re
+from rdflib import URIRef, SDO, PROV, RDF, XSD, RDFS
 
-from .Entity import Entity, Graph
+from .Entity import Entity, Graph, MiniEntity
 from .Place import Place
 from .SourceDoc import SourceDoc
 from .ontologies import CRM, MA, OA, NINSUNA
+from .utils.getty import interlink_material
+
+CM_REGEX = r'cm (\d+(?:\.\d+)?) × (\d+(?:\.\d+)?)'
 
 
 class ImageObject(SourceDoc):
-    def __init__(self, _id, title, author=None, date=None, place=None, currentPlace=None, genre=None, url=None):
-        super().__init__(_id, title, author, date)
-        self.genre = genre
+    def __init__(self, _id, title, author=None, date=None, place=None, url=None, lang=None):
+        super().__init__(_id, title, author, date, lang)
 
         self.set_class(CRM.E36_Visual_Item)
-        self.add(SDO.genre, genre)
         self.add(SDO.locationCreated, Place.from_text(place))
         self.add(SDO.image, url)
         # internal uri
         self.add(SDO.image, f'https://data.odeuropa.eu/image/{_id}')
 
-        currentPlace = currentPlace.split(', inv./cat.nr')[0]
-        self.add(CRM.P53_has_former_or_current_location, Place.from_text(currentPlace))
+        self.physical = PhysicalObject(self.uri)
 
     def add_fragment(self, bbox):
         frag = MediaFragment(self.uri, bbox, self)
         self.add(MA.hasFragment, frag, self)
         return frag
+
+    def add_type(self, typ):
+        self.add(CRM.P2_has_type, typ)
+
+    def add_material(self, m):
+        x = re.match(CM_REGEX, m)
+
+        if x is not None:
+            w = x.group(1)
+            h = x.group(2)
+            self.physical.add_measure(m, (w, 'cm', 'width'), (h, 'cm', 'height'))
+            return
+
+        self.physical.add_material(m)
+
+    def add_location(self, place, lang=None):
+        if not isinstance(place, str):
+            place = Place.from_text(place, lang)
+        self.physical.add(CRM.P53_has_former_or_current_location, place)
+
+    def add_identifier(self, identifier):
+        self.physical.add(CRM.P1_is_identified_by, identifier)
+
+
+class PhysicalObject(Entity):
+    # The physical part of the image (i.e. the proper painting hosted at the Museum)
+    def __int__(self, parent_uri):
+        self.uri = parent_uri.replace('/source/', '/source-object/')
+        self.res = URIRef(self.uri)
+        self.set_class(CRM.E24_HumanMade_Thing)
+
+    def add_material(self, material):
+        m = MiniEntity('material', material, material, CRM.E57_Material)
+        m.same_as(interlink_material(material))
+        self.add(CRM.P45_consists_of, m)
+
+    def add_measure(self, label, *dimensions):
+        dim_uri = self.uri + "/dimension/"
+
+        measure = URIRef(dim_uri)
+        Graph.add(measure, RDF.type, CRM.E16_Measurement)
+        Graph.add(measure, CRM.P39_measured, self)
+        Graph.add(measure, RDFS.label, label)
+
+        for i, m in enumerate(dimensions):
+            value, unit, typ = m
+            r = URIRef(os.path.join(dim_uri, str(i)))
+            Graph.add(r, RDF.type, CRM.E54_Dimension)
+            Graph.add(r, CRM.P90_has_value, value, XSD.float)
+            Graph.add(r, CRM.P91_has_unit, unit)
+            Graph.add(measure, CRM.P40_observed_dimension, r)
 
 
 class MediaFragment(Entity):

@@ -8,6 +8,7 @@ from .Place import Place
 from .Thing import Thing
 from .Actor import Actor
 from .Person import Person
+from .Gesture import Gesture
 from .Provenance import Provenance
 from .TextualObject import TextualObject
 from .ImageObject import ImageObject

@@ -1,7 +1,7 @@
 import uuid
 from os import path
 
-from rdflib import URIRef, RDF, RDFS, TIME
+from rdflib import URIRef, RDF, RDFS, TIME, OWL
 from .ontologies import CRM
 
 from . import Graph
@@ -9,10 +9,16 @@ from .config import BASE
 
 
 class Entity:
-    def __init__(self, seed, group):
+    def __init__(self, seed, group=None):
         curclass = type(self).__name__
-        self.seed = seed
-        self.uri = path.join(BASE, group, str(uuid.uuid5(uuid.NAMESPACE_DNS, curclass + seed)))
+
+        if seed.startswith('http'):
+            self.uri = seed
+        else:
+            if group is None:
+                raise TypeError("If seed is not a URI, the param group is mandatory")
+            self.seed = seed
+            self.uri = path.join(BASE, group, str(uuid.uuid5(uuid.NAMESPACE_DNS, curclass + seed)))
         self.res = URIRef(self.uri)
 
     def set_class(self, cls):
@@ -39,6 +45,9 @@ class Entity:
     def add_time(self, time):
         self.add(TIME.hasTime, time)
 
+    def same_as(self, entity):
+        self.add(OWL.sameAs, entity)
+
 
 class MiniEntity(Entity):
     def __init__(self, group, id, label, clas):
@@ -46,4 +55,3 @@ class MiniEntity(Entity):
         self.res = URIRef(self.uri)
         self.add_label(label)
         self.set_class(clas)
-

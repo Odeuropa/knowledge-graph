@@ -2,16 +2,18 @@ import os
 import re
 import string
 from urllib import request
-from rdflib import RDFS, URIRef
+
 import geocoder
 import yaml
+from rdflib import RDFS
+
 from .Entity import Entity
-from .vocabularies.VocabularyManager import ARTICLE_REGEX
 from .Graph import is_invalid
-from .ontologies import CRM
-from .vocabularies import VocabularyManager as VocManager
-from .utils.pronouns import Pronouns
 from .config import GEONAMES, GEONAMES_CACHE
+from .ontologies import CRM
+from .utils.pronouns import Pronouns
+from .vocabularies import VocabularyManager as VocManager
+from .vocabularies.VocabularyManager import ARTICLE_REGEX
 
 with open(GEONAMES_CACHE, 'r') as _f:
     cache = yaml.load(_f, Loader=yaml.CLoader)
@@ -19,13 +21,16 @@ with open(GEONAMES_CACHE, 'r') as _f:
         cache = {}
 
 IN_PREFIX = {
-    'en': r'(?i)^(at|in(to)?|upon|near|even( in)?|of|on|along|from|to) ',
+    'en': r'(?i)^(at|in(to)?|upon|near|even( in)?|of|on|along|from|to|before) ',
     'it': r"(?i)^(d'|a |in |(da|ne|su|a)(gl)?i |presso |per |(da|ne|su|a)(l(l[aoe])?)? |(da|ne|su)ll ?')",
     'fr': r"(?i)^((en|dans|à|aux?|sur) |d')",
     'nl': r'(?i)^(by|te|op|in) ',
-    'de': r'(?i)^(by|te|op|in|im|von) ',
+    'de': r'(?i)^(by|te|op|in|im|von|au[sß]|auff?) ',
     'sl': r'(?i)^(v|pod?|o[bd]|na|iz) '
 }
+
+VERBAL_PREFIX = r"((first time )?(auction|report|record|purchas|deposit|mention|exhibit|acquir|signale|sight)ed|shown|sold|" \
+                r"gesignaleer?d|getoond|(verworv|geschonk|overled)en|tentoongesteld|geveild)"
 
 
 def extract_feature(text):
@@ -57,19 +62,42 @@ class Place(Entity):
     def __init__(self, name, typ=None):
         super().__init__(name, 'place')
         self.set_class(CRM.E53_Place)
-        self.add(RDFS.label, name)
+        if not name.startswith('http'):
+            self.add(RDFS.label, name)
         self.add(CRM.P137_exemplifies, typ)
+        self.interlinked = name.startswith('http')
 
     @classmethod
-    def from_text(cls, text, lang='en'):
+    def from_text(cls, text, lang='en', only_interlinked=False):
+        if is_invalid(text) or re.match(r'\d+(\\.\d+)?', text):
+            return None
+        if text.strip() in ['Whereabouts unknown', 'Ubicazione sconosciuta']:
+            return None
+        original_text = text
+
+        text = re.sub(VERBAL_PREFIX, '', text.strip(), flags=re.I).strip()
+        text = re.sub(IN_PREFIX.get(lang, IN_PREFIX['en']), '', text.strip(), flags=re.I).strip()
+        text = text.strip(string.punctuation).strip()
+
+
+        PRIVATE_COLLECTION_REGEX =\
+            r'(?i)(Private Collection|Collezione privata|Mercato antiquario|art dealer)[^:,(-]*([:,-]? \(?)?'
+        pc = re.match(PRIVATE_COLLECTION_REGEX, text)
+        if pc:
+            # we can't find a private collection in geonames
+            text = re.sub(PRIVATE_COLLECTION_REGEX, '', text, flags=re.I)
+            text = text.strip(string.punctuation).strip()
+            p = Place(original_text)
+            if len(text) > 0:
+                # I try to search where this private collection is
+                parent = Place.from_text(text, lang, only_interlinked=True)
+                p.falls_within(parent)
+
+            return p
+
         if is_invalid(text) or re.match(r'\d+(\\.\d+)?', text):
             return None
 
-        if text.startswith('art dealer'):
-            return  # TODO
-        text = re.sub(IN_PREFIX.get(lang, IN_PREFIX['en']), '', text.strip(), flags=re.I).strip()
-        text = re.sub(r'(Private Collection|Collezione privata|Mercato antiquario)([:,]? \(?)?', '', text, flags=re.I)
-        text = text.strip(string.punctuation).strip()
         feature_class, text = extract_feature(text)
 
         text_clean = text
@@ -89,25 +117,31 @@ class Place(Entity):
 
         typ, role = VocManager.get('fragrant-spaces').interlink(text_clean, lang, fallback=None)
         if typ or not disambiguate:
-            return Place(text, typ)
+            return None if only_interlinked else Place(original_text, typ)
 
         if text in cache:
             if cache[text] is None:  # already searched, no match
-                return Place(text)
+                return None if only_interlinked else Place(original_text)
             else:  # we have it in the cache!
                 geonames_id = cache[text]
                 file = f'../dump/geonames/{geonames_id}.rdf'
                 if not os.path.isfile(file):
-                    request.urlretrieve(f'https://sws.geonames.org/{geonames_id}/about.rdf', file)
-                return URIRef(to_geonames_uri(geonames_id))
+                    try:
+                        request.urlretrieve(f'https://sws.geonames.org/{geonames_id}/about.rdf', file)
+                    except:
+                        pass
+                return Place(to_geonames_uri(geonames_id))
 
         else:  # search
             res = geocoder.geonames(text, key=GEONAMES, featureClass=feature_class, orderby='relevance',
                                     isNameRequired=True, searchlang=lang, lang=lang)
             if res:  # found
                 add_to_cache(text, res.geonames_id)
-                return URIRef(to_geonames_uri(res.geonames_id))
+                return Place(to_geonames_uri(res.geonames_id))
             else:  # generic place
                 add_to_cache(text, None)
                 # create new object
-                return Place(text)
+                return None if only_interlinked else Place(original_text)
+
+    def falls_within(self, place):
+        self.add(CRM.P89_falls_within, place)

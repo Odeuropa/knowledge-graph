@@ -1,20 +1,24 @@
 # This class is thought to serve as superclass for TextualObject and ImageObject
+import re
 
 from rdflib import RDFS, SDO
 
+from . import Actor, Time, Place
 from .Entity import Entity
-from . import Actor, Time
+from .SmellSource import SmellSource
+from .Thing import Thing
+from .vocabularies import VocabularyManager as VocManager
 
 
 class SourceDoc(Entity):
     def __init__(self, _id, title, author=None, date=None, lang=None):
-        super().__init__(str(date) + title, 'source')
+        super().__init__(str(date) + title + str(author), 'source')
         self.author = None
         self.date = None
 
         self.title = title
 
-        self.add(RDFS.label, title)
+        self.add_label(title, lang)
 
         if date:
             t = Time.parse(date)
@@ -33,3 +37,35 @@ class SourceDoc(Entity):
         else:
             person = Actor(name, lang=lang, alive_in=self.date)
         self.add(SDO.author, person)
+
+    def add_subject(self, subject, lang=None):
+        if subject is None:
+            return
+
+        # is it an olfactory object ?
+        label = re.sub(r'\(.+\)', '', subject)
+        lemma, role = VocManager.get('olfactory-objects').interlink(label, lang)
+        if lemma:
+            obj = SmellSource(subject, lemma=lemma, role=role)
+        else:
+            lemma, role = VocManager.get('fragrant-spaces').interlink(label, lang)
+            if lemma:
+                obj = Place(subject, typ=lemma)
+            else:
+                # we go generic
+                obj = Thing(subject, subject)
+
+        self.add(SDO.about, obj)
+
+    def add_url(self, url):
+        self.add(SDO.url, url)
+
+    def add_license(self, text):
+        CC_REGEX = r'CC (.+) (\d\.\d)'
+        m = re.match(CC_REGEX, text)
+        if m:
+            self.add(SDO.license, f'https://creativecommons.org/licenses/{m.group(1).lower()}/{m.group(2)}/')
+        elif text == 'Public Domain':
+            self.add(SDO.license, 'https://creativecommons.org/publicdomain/mark/1.0/')
+        else:
+            self.add(SDO.license, text)

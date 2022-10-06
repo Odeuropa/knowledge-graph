@@ -8,14 +8,17 @@ ARTIFACT = 'http://data.odeuropa.eu/vocabulary/olfactory-objects/artifact'
 
 
 class SmellSource(Entity):
-    def __init__(self, seed, label, lang='en', lemma=None, role=None):
+    def __init__(self, seed, label=None, lang='en', lemma=None, role=None):
         super().__init__(seed, 'object')
+        if label is None:
+            label = seed
         self.add_label(label, lang)
 
         self.role = None
         if lemma is None:
             lemma, role = VocManager.get('olfactory-objects').interlink(label, lang)
 
+        self.interlinked = lemma is not None
         if lemma is None:
             self.set_class(CRMsci.S10_Material_Substantial)
         else:

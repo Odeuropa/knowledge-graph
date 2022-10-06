@@ -29,21 +29,25 @@ http://data.odeuropa.eu/<group>/<uuid>
 
 The `<group>` is taken from this table
 
-| Class                           | Group      |
-|---------------------------------|------------|
-| od:L11_Smell                    | smell      |
-| od:L12_Smell_Emission           | emission   |
-| od:L13_Olfactory_Experience     | experience |
-| crm:E22_Human-Made_Object       | object     |
-| crmsci:S10_Material_Substantial | object     |
-| crm:E39_Actor                   | actor      |
-| crm:E21_Person                  | actor      |
-| crm:E53_Place                   | place      |
-| time:TemporalEntity             | time       |
-| E33_Linguistic_Object       | resource   |
-| crm:E36_Visual_Item             | resource   |
-| oa:Annotation                   | annotation |
-| prov:Activity                   | provenance |
+| Class                             | Group         |
+|-----------------------------------|---------------|
+| crm:E70_Thing                     | thing         |
+| od:L11_Smell                      | smell         |
+| od:L12_Smell_Emission             | emission      |
+| od:L13_Olfactory_Experience       | experience    |
+| od:L7_Gesture                     | gesture       |
+| crm:E22_Human-Made_Object         | object        |
+| crmsci:S10_Material_Substantial   | object        |
+| crm:E39_Actor                     | actor         |
+| crm:E21_Person                    | actor         |
+| crm:E53_Place                     | place         |
+| time:TemporalEntity               | time          |
+| crm:E33_Linguistic_Object         | source        |
+| crm:E36_Visual_Item               | source        |
+| crm:E24_Physical_Human-Made_Thing | source-object |
+| crm:E57_Material                  | material      |
+| oa:Annotation                     | annotation    |
+| prov:Activity                     | provenance    |
 
 ## Secondary entities
 
@@ -59,12 +63,13 @@ The used pattern is the following:
 
 The `<suffix>` is taken from this table:
 
-| Class                                | Group      | Suffix                                       |
-|--------------------------------------|------------|----------------------------------------------|
+| Class                                | Group  | Suffix                                       |
+|--------------------------------------|--------|----------------------------------------------|
 | od:L7_Gesture                        | experience | /gesture/{progressive int}                   |
 | crm:E13_Attribute_Assignment         | experience | /assignment/{progressive int                 |
-| ma:MediaFragment                     | resource   | #xywh={coordinates}                          |
-| E33_Linguistic_Object (text snippet) | resource   | /fragment/{uuid generated from text content} |
+| ma:MediaFragment                     | source | #xywh={coordinates}                          |
+| E33_Linguistic_Object (text snippet) | source | /fragment/{uuid generated from text content} |
+| E54_Dimension | source | /E54_Dimension/{progressive int} |
 
 ## UUID and seed generation
 

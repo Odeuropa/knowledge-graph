@@ -26,6 +26,7 @@ lang_map = {
     'English': 'en',
     'French': 'fr',
     'German': 'de',
+    'Deutsch': 'de',
     'Slovenian': 'sl',
     'Dutch': 'nl',
     'Italian': 'it'
@@ -309,5 +310,6 @@ def parse_arguments():
     return parser.parse_args()
 
 
-args = parse_arguments()
-run(args.input, args.output, args.lang)
+if __name__ == "__main__":
+    args = parse_arguments()
+    run(args.input, args.output, args.lang)
