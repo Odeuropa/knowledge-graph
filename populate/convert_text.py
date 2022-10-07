@@ -121,7 +121,7 @@ def process_annotation_sheet(df, lang, codename):
             prov = Provenance(codename, 'Automatic annotation', 'Automatic Annotation for the PastScent workshop', None)
             prov.add_software('PastScent', 'https://github.com/Odeuropa/PastScent')
 
-        curid = codename + identifier + str(j)
+        curid = codename + identifier + '$' + str(j)
         smell = Smell(curid)
         smell.add_label(r['Smell_Word'], lang)
         emission = SmellEmission(curid, smell, get_safe('Smell_Source', r), get_safe('Odour_Carrier', r), lang=lang)
