@@ -62,7 +62,7 @@ def searchperson(name, lang='en', alive_in=None, birth=None, death=None):
 
       SERVICE wikibase:label { bd:serviceParam wikibase:language "[AUTO_LANGUAGE],en". }
      } ORDER BY ASC(?num)
-    ''' % (name, lang, alive_condition)
+    ''' % (name.replace('"', ''), lang, alive_condition)
 
     params = {'format': 'json', 'query': query}
     r = requests.get(SPARQL_ENDPOINT, params=params)

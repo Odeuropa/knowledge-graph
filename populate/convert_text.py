@@ -123,12 +123,13 @@ def process_annotation_sheet(df, lang, codename):
 
         curid = codename + identifier + '$' + str(j)
         smell = Smell(curid)
-        smell.add_label(r['Smell_Word'], lang)
+        for x in r['Smell_Word'].split('|'):
+            smell.add_label(x, lang)
         emission = SmellEmission(curid, smell, get_safe('Smell_Source', r), get_safe('Odour_Carrier', r), lang=lang)
 
         perceiver = set([p for p in r.get('Perceiver', '').split(' | ') if p not in get_all_smell_words(lang)])
 
-        experience = OlfactoryExperience(curid, smell, quality=r['Quality'], lang=lang)
+        experience = OlfactoryExperience(curid, smell, lang=lang)
         for p in perceiver:
             if p.lower() in Pronouns.myself(lang) and identifier in docs:  # fixme
                 doc = docs[identifier]
@@ -137,7 +138,12 @@ def process_annotation_sheet(df, lang, codename):
                     continue
             p = p.replace(Place.IN_PREFIX[lang], '').strip()
             p = p.replace(VocabularyManager.ARTICLE_REGEX[lang], '').strip()
-            experience.add_perceiver(Actor(p, lang))
+            if len(p) > 0:
+                experience.add_perceiver(Actor(p, lang))
+
+        for x in r.get('Quality', '').split('|'):
+            experience.add_quality(x.strip(), lang)
+
         for x in r.get('Effect', '').split('|'):
             experience.add_gesture(x, lang=lang)
         experience.evoked(r.get('Evoked_Odorant', None), lang=lang)

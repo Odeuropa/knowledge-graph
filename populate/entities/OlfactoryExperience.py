@@ -10,7 +10,7 @@ from .vocabularies import VocabularyManager as VocManager
 
 
 class OlfactoryExperience(Entity):
-    def __init__(self, seed, smell, quality='', place='', lang='en'):
+    def __init__(self, seed, smell, place='', lang='en'):
         super().__init__(seed, 'experience')
         self.assignment_id = 0
         self.gesture_id = 0
@@ -21,10 +21,6 @@ class OlfactoryExperience(Entity):
         self.set_class(ODEUROPA.L13_Olfactory_Experience)
         self.add(ODEUROPA.F2_perceived, smell)
         self.add(CRM.P7_took_place_at, place)
-
-        if not is_invalid(quality):
-            for x in quality.split('|'):
-                self.add_quality(x.strip(), lang)
 
     def add_perceiver(self, perceiver):
         self.perceiver = perceiver
