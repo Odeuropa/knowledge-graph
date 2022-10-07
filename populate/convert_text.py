@@ -129,7 +129,7 @@ def process_annotation_sheet(df, lang, codename):
 
         perceiver = set([p for p in r.get('Perceiver', '').split(' | ') if p not in get_all_smell_words(lang)])
 
-        experience = OlfactoryExperience(curid, smell, lang=lang)
+        experience = OlfactoryExperience(curid, smell)
         for p in perceiver:
             if p.lower() in Pronouns.myself(lang) and identifier in docs:  # fixme
                 doc = docs[identifier]

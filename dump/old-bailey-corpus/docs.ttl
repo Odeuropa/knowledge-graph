@@ -1,5 +1,6 @@
 @prefix crm: <http://erlangen-crm.org/current/> .
 @prefix ns1: <http://www.w3.org/2004/02/skos/core#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 @prefix schema: <https://schema.org/> .
 @prefix time: <http://www.w3.org/2006/time#> .
@@ -5721,13 +5722,15 @@
     schema:inLanguage "en" ;
     schema:locationCreated <https://sws.geonames.org/2643743/> .
 
-<http://data.odeuropa.eu/actor/00319338-bc0a-58f8-a249-11970436441b> a crm:E39_Actor ;
+<http://data.odeuropa.eu/actor/00319338-bc0a-58f8-a249-11970436441b> a crm:E21_Person ;
     rdfs:label "Francis Maseres" ;
+    owl:sameAs <http://www.wikidata.org/entity/Q3081588> ;
     schema:birthDate <http://data.odeuropa.eu/time/d253d9a2-3190-572a-aa64-636a762ccb71> ;
     schema:deathDate <http://data.odeuropa.eu/time/d253d9a2-3190-572a-aa64-636a762ccb71> .
 
-<http://data.odeuropa.eu/actor/02380154-4ea6-5dfe-bd97-a4ed759cbb67> a crm:E39_Actor ;
+<http://data.odeuropa.eu/actor/02380154-4ea6-5dfe-bd97-a4ed759cbb67> a crm:E21_Person ;
     rdfs:label "George Sowley" ;
+    owl:sameAs <http://www.wikidata.org/entity/Q16239939> ;
     schema:birthDate <http://data.odeuropa.eu/time/d253d9a2-3190-572a-aa64-636a762ccb71> ;
     schema:deathDate <http://data.odeuropa.eu/time/d253d9a2-3190-572a-aa64-636a762ccb71> .
 
@@ -5751,8 +5754,9 @@
     schema:birthDate <http://data.odeuropa.eu/time/d253d9a2-3190-572a-aa64-636a762ccb71> ;
     schema:deathDate <http://data.odeuropa.eu/time/d253d9a2-3190-572a-aa64-636a762ccb71> .
 
-<http://data.odeuropa.eu/actor/07ce7184-a353-5fe9-96db-0417bb727eb3> a crm:E39_Actor ;
+<http://data.odeuropa.eu/actor/07ce7184-a353-5fe9-96db-0417bb727eb3> a crm:E21_Person ;
     rdfs:label "Charles Ewan Law" ;
+    owl:sameAs <http://www.wikidata.org/entity/Q5080112> ;
     schema:birthDate <http://data.odeuropa.eu/time/d253d9a2-3190-572a-aa64-636a762ccb71> ;
     schema:deathDate <http://data.odeuropa.eu/time/d253d9a2-3190-572a-aa64-636a762ccb71> .
 
@@ -5771,8 +5775,9 @@
     schema:birthDate <http://data.odeuropa.eu/time/d253d9a2-3190-572a-aa64-636a762ccb71> ;
     schema:deathDate <http://data.odeuropa.eu/time/d253d9a2-3190-572a-aa64-636a762ccb71> .
 
-<http://data.odeuropa.eu/actor/1fbf1787-11b6-54fb-8586-5db9cbe8adb7> a crm:E39_Actor ;
+<http://data.odeuropa.eu/actor/1fbf1787-11b6-54fb-8586-5db9cbe8adb7> a crm:E21_Person ;
     rdfs:label "Thomas Harrison" ;
+    owl:sameAs <http://www.wikidata.org/entity/Q2424548> ;
     schema:birthDate <http://data.odeuropa.eu/time/d253d9a2-3190-572a-aa64-636a762ccb71> ;
     schema:deathDate <http://data.odeuropa.eu/time/d253d9a2-3190-572a-aa64-636a762ccb71> .
 
@@ -5781,33 +5786,39 @@
     schema:birthDate <http://data.odeuropa.eu/time/d253d9a2-3190-572a-aa64-636a762ccb71> ;
     schema:deathDate <http://data.odeuropa.eu/time/d253d9a2-3190-572a-aa64-636a762ccb71> .
 
-<http://data.odeuropa.eu/actor/26a79209-fd84-52a7-8290-2e06b11cccb5> a crm:E39_Actor ;
+<http://data.odeuropa.eu/actor/26a79209-fd84-52a7-8290-2e06b11cccb5> a crm:E21_Person ;
     rdfs:label "John Eardley Wilmot" ;
+    owl:sameAs <http://www.wikidata.org/entity/Q6264463> ;
     schema:birthDate <http://data.odeuropa.eu/time/d253d9a2-3190-572a-aa64-636a762ccb71> ;
     schema:deathDate <http://data.odeuropa.eu/time/d253d9a2-3190-572a-aa64-636a762ccb71> .
 
-<http://data.odeuropa.eu/actor/2ccebf15-dcff-5237-a0b7-84f439fc8ac0> a crm:E39_Actor ;
+<http://data.odeuropa.eu/actor/2ccebf15-dcff-5237-a0b7-84f439fc8ac0> a crm:E21_Person ;
     rdfs:label "John Hullock" ;
+    owl:sameAs <http://www.wikidata.org/entity/Q16857732> ;
     schema:birthDate <http://data.odeuropa.eu/time/d253d9a2-3190-572a-aa64-636a762ccb71> ;
     schema:deathDate <http://data.odeuropa.eu/time/d253d9a2-3190-572a-aa64-636a762ccb71> .
 
-<http://data.odeuropa.eu/actor/2dab1644-4a6a-52c8-8cce-4683833c4c60> a crm:E39_Actor ;
+<http://data.odeuropa.eu/actor/2dab1644-4a6a-52c8-8cce-4683833c4c60> a crm:E21_Person ;
     rdfs:label "Thomas Wright" ;
+    owl:sameAs <http://www.wikidata.org/entity/Q214062> ;
     schema:birthDate <http://data.odeuropa.eu/time/d253d9a2-3190-572a-aa64-636a762ccb71> ;
     schema:deathDate <http://data.odeuropa.eu/time/d253d9a2-3190-572a-aa64-636a762ccb71> .
 
-<http://data.odeuropa.eu/actor/32e038ff-c2ae-5aaf-a75e-091dd3bc61a6> a crm:E39_Actor ;
+<http://data.odeuropa.eu/actor/32e038ff-c2ae-5aaf-a75e-091dd3bc61a6> a crm:E21_Person ;
     rdfs:label "William Alexander" ;
+    owl:sameAs <http://www.wikidata.org/entity/Q961465> ;
     schema:birthDate <http://data.odeuropa.eu/time/d253d9a2-3190-572a-aa64-636a762ccb71> ;
     schema:deathDate <http://data.odeuropa.eu/time/d253d9a2-3190-572a-aa64-636a762ccb71> .
 
-<http://data.odeuropa.eu/actor/35db2eef-4452-5a0a-b054-8581f8c6abba> a crm:E39_Actor ;
+<http://data.odeuropa.eu/actor/35db2eef-4452-5a0a-b054-8581f8c6abba> a crm:E21_Person ;
     rdfs:label "William Rose" ;
+    owl:sameAs <http://www.wikidata.org/entity/Q11885> ;
     schema:birthDate <http://data.odeuropa.eu/time/d253d9a2-3190-572a-aa64-636a762ccb71> ;
     schema:deathDate <http://data.odeuropa.eu/time/d253d9a2-3190-572a-aa64-636a762ccb71> .
 
-<http://data.odeuropa.eu/actor/35e5d3a3-013c-5353-9c87-e26907e8a747> a crm:E39_Actor ;
+<http://data.odeuropa.eu/actor/35e5d3a3-013c-5353-9c87-e26907e8a747> a crm:E21_Person ;
     rdfs:label "James Esdaile" ;
+    owl:sameAs <http://www.wikidata.org/entity/Q2744810> ;
     schema:birthDate <http://data.odeuropa.eu/time/d253d9a2-3190-572a-aa64-636a762ccb71> ;
     schema:deathDate <http://data.odeuropa.eu/time/d253d9a2-3190-572a-aa64-636a762ccb71> .
 
@@ -5831,18 +5842,21 @@
     schema:birthDate <http://data.odeuropa.eu/time/d253d9a2-3190-572a-aa64-636a762ccb71> ;
     schema:deathDate <http://data.odeuropa.eu/time/d253d9a2-3190-572a-aa64-636a762ccb71> .
 
-<http://data.odeuropa.eu/actor/3e421eea-505e-5178-9d28-482ce4359d4f> a crm:E39_Actor ;
+<http://data.odeuropa.eu/actor/3e421eea-505e-5178-9d28-482ce4359d4f> a crm:E21_Person ;
     rdfs:label "Charles Clarke" ;
+    owl:sameAs <http://www.wikidata.org/entity/Q333758> ;
     schema:birthDate <http://data.odeuropa.eu/time/d253d9a2-3190-572a-aa64-636a762ccb71> ;
     schema:deathDate <http://data.odeuropa.eu/time/d253d9a2-3190-572a-aa64-636a762ccb71> .
 
-<http://data.odeuropa.eu/actor/3ed44e4b-5441-5d7b-8ab5-ef4a6f7f45b4> a crm:E39_Actor ;
+<http://data.odeuropa.eu/actor/3ed44e4b-5441-5d7b-8ab5-ef4a6f7f45b4> a crm:E21_Person ;
     rdfs:label "Richard Rothwell" ;
+    owl:sameAs <http://www.wikidata.org/entity/Q2150488> ;
     schema:birthDate <http://data.odeuropa.eu/time/d253d9a2-3190-572a-aa64-636a762ccb71> ;
     schema:deathDate <http://data.odeuropa.eu/time/d253d9a2-3190-572a-aa64-636a762ccb71> .
 
-<http://data.odeuropa.eu/actor/420dc626-5d64-5f22-a609-d8983dbcd25f> a crm:E39_Actor ;
+<http://data.odeuropa.eu/actor/420dc626-5d64-5f22-a609-d8983dbcd25f> a crm:E21_Person ;
     rdfs:label "John Birch" ;
+    owl:sameAs <http://www.wikidata.org/entity/Q76110429> ;
     schema:birthDate <http://data.odeuropa.eu/time/d253d9a2-3190-572a-aa64-636a762ccb71> ;
     schema:deathDate <http://data.odeuropa.eu/time/d253d9a2-3190-572a-aa64-636a762ccb71> .
 
@@ -5851,23 +5865,27 @@
     schema:birthDate <http://data.odeuropa.eu/time/d253d9a2-3190-572a-aa64-636a762ccb71> ;
     schema:deathDate <http://data.odeuropa.eu/time/d253d9a2-3190-572a-aa64-636a762ccb71> .
 
-<http://data.odeuropa.eu/actor/45918cdf-c340-540a-bc18-760705ffbafb> a crm:E39_Actor ;
+<http://data.odeuropa.eu/actor/45918cdf-c340-540a-bc18-760705ffbafb> a crm:E21_Person ;
     rdfs:label "John Roby" ;
+    owl:sameAs <http://www.wikidata.org/entity/Q15485627> ;
     schema:birthDate <http://data.odeuropa.eu/time/d253d9a2-3190-572a-aa64-636a762ccb71> ;
     schema:deathDate <http://data.odeuropa.eu/time/d253d9a2-3190-572a-aa64-636a762ccb71> .
 
-<http://data.odeuropa.eu/actor/463b0c37-c17f-5c87-b867-ff2906f8baa2> a crm:E39_Actor ;
+<http://data.odeuropa.eu/actor/463b0c37-c17f-5c87-b867-ff2906f8baa2> a crm:E21_Person ;
     rdfs:label "John Willes" ;
+    owl:sameAs <http://www.wikidata.org/entity/Q6264099> ;
     schema:birthDate <http://data.odeuropa.eu/time/d253d9a2-3190-572a-aa64-636a762ccb71> ;
     schema:deathDate <http://data.odeuropa.eu/time/d253d9a2-3190-572a-aa64-636a762ccb71> .
 
-<http://data.odeuropa.eu/actor/48c33a1d-ff17-55be-b0f0-56761352f147> a crm:E39_Actor ;
+<http://data.odeuropa.eu/actor/48c33a1d-ff17-55be-b0f0-56761352f147> a crm:E21_Person ;
     rdfs:label "Thomas Aston" ;
+    owl:sameAs <http://www.wikidata.org/entity/Q28061604> ;
     schema:birthDate <http://data.odeuropa.eu/time/d253d9a2-3190-572a-aa64-636a762ccb71> ;
     schema:deathDate <http://data.odeuropa.eu/time/d253d9a2-3190-572a-aa64-636a762ccb71> .
 
-<http://data.odeuropa.eu/actor/49712c28-431d-5de8-adb9-42c256c73e3b> a crm:E39_Actor ;
+<http://data.odeuropa.eu/actor/49712c28-431d-5de8-adb9-42c256c73e3b> a crm:E21_Person ;
     rdfs:label "Henry Ashurst" ;
+    owl:sameAs <http://www.wikidata.org/entity/Q18528292> ;
     schema:birthDate <http://data.odeuropa.eu/time/d253d9a2-3190-572a-aa64-636a762ccb71> ;
     schema:deathDate <http://data.odeuropa.eu/time/d253d9a2-3190-572a-aa64-636a762ccb71> .
 
@@ -5876,8 +5894,9 @@
     schema:birthDate <http://data.odeuropa.eu/time/d253d9a2-3190-572a-aa64-636a762ccb71> ;
     schema:deathDate <http://data.odeuropa.eu/time/d253d9a2-3190-572a-aa64-636a762ccb71> .
 
-<http://data.odeuropa.eu/actor/50bd88f7-0a2e-575c-88c4-9fca91f8336d> a crm:E39_Actor ;
+<http://data.odeuropa.eu/actor/50bd88f7-0a2e-575c-88c4-9fca91f8336d> a crm:E21_Person ;
     rdfs:label "James Sanderson" ;
+    owl:sameAs <http://www.wikidata.org/entity/Q18810814> ;
     schema:birthDate <http://data.odeuropa.eu/time/d253d9a2-3190-572a-aa64-636a762ccb71> ;
     schema:deathDate <http://data.odeuropa.eu/time/d253d9a2-3190-572a-aa64-636a762ccb71> .
 
@@ -5891,8 +5910,9 @@
     schema:birthDate <http://data.odeuropa.eu/time/d253d9a2-3190-572a-aa64-636a762ccb71> ;
     schema:deathDate <http://data.odeuropa.eu/time/d253d9a2-3190-572a-aa64-636a762ccb71> .
 
-<http://data.odeuropa.eu/actor/59ea1d9a-d229-5e96-9885-67211a1218ea> a crm:E39_Actor ;
+<http://data.odeuropa.eu/actor/59ea1d9a-d229-5e96-9885-67211a1218ea> a crm:E21_Person ;
     rdfs:label "Francis Cockayne" ;
+    owl:sameAs <http://www.wikidata.org/entity/Q75591233> ;
     schema:birthDate <http://data.odeuropa.eu/time/d253d9a2-3190-572a-aa64-636a762ccb71> ;
     schema:deathDate <http://data.odeuropa.eu/time/d253d9a2-3190-572a-aa64-636a762ccb71> .
 
@@ -5906,28 +5926,33 @@
     schema:birthDate <http://data.odeuropa.eu/time/d253d9a2-3190-572a-aa64-636a762ccb71> ;
     schema:deathDate <http://data.odeuropa.eu/time/d253d9a2-3190-572a-aa64-636a762ccb71> .
 
-<http://data.odeuropa.eu/actor/5f4f0992-1bd9-5fc9-a5de-0e6842c1b843> a crm:E39_Actor ;
+<http://data.odeuropa.eu/actor/5f4f0992-1bd9-5fc9-a5de-0e6842c1b843> a crm:E21_Person ;
     rdfs:label "Richard Clark" ;
+    owl:sameAs <http://www.wikidata.org/entity/Q7324759> ;
     schema:birthDate <http://data.odeuropa.eu/time/d253d9a2-3190-572a-aa64-636a762ccb71> ;
     schema:deathDate <http://data.odeuropa.eu/time/d253d9a2-3190-572a-aa64-636a762ccb71> .
 
-<http://data.odeuropa.eu/actor/63b71696-28c3-5895-a741-35af3b0af787> a crm:E39_Actor ;
+<http://data.odeuropa.eu/actor/63b71696-28c3-5895-a741-35af3b0af787> a crm:E21_Person ;
     rdfs:label "Richard Pepper" ;
+    owl:sameAs <http://www.wikidata.org/entity/Q7323765> ;
     schema:birthDate <http://data.odeuropa.eu/time/d253d9a2-3190-572a-aa64-636a762ccb71> ;
     schema:deathDate <http://data.odeuropa.eu/time/d253d9a2-3190-572a-aa64-636a762ccb71> .
 
-<http://data.odeuropa.eu/actor/65174b02-2326-59b6-b5ee-b1071719b56d> a crm:E39_Actor ;
+<http://data.odeuropa.eu/actor/65174b02-2326-59b6-b5ee-b1071719b56d> a crm:E21_Person ;
     rdfs:label "Stephen Hunter" ;
+    owl:sameAs <http://www.wikidata.org/entity/Q983243> ;
     schema:birthDate <http://data.odeuropa.eu/time/d253d9a2-3190-572a-aa64-636a762ccb71> ;
     schema:deathDate <http://data.odeuropa.eu/time/d253d9a2-3190-572a-aa64-636a762ccb71> .
 
-<http://data.odeuropa.eu/actor/65f5f3d0-772b-59ee-a943-e40e30a4714d> a crm:E39_Actor ;
+<http://data.odeuropa.eu/actor/65f5f3d0-772b-59ee-a943-e40e30a4714d> a crm:E21_Person ;
     rdfs:label "Richard Clarke" ;
+    owl:sameAs <http://www.wikidata.org/entity/Q560747> ;
     schema:birthDate <http://data.odeuropa.eu/time/d253d9a2-3190-572a-aa64-636a762ccb71> ;
     schema:deathDate <http://data.odeuropa.eu/time/d253d9a2-3190-572a-aa64-636a762ccb71> .
 
-<http://data.odeuropa.eu/actor/66f389cd-61e6-50e5-9c0e-e18b5bbea3be> a crm:E39_Actor ;
+<http://data.odeuropa.eu/actor/66f389cd-61e6-50e5-9c0e-e18b5bbea3be> a crm:E21_Person ;
     rdfs:label "William Garratt" ;
+    owl:sameAs <http://www.wikidata.org/entity/Q75500633> ;
     schema:birthDate <http://data.odeuropa.eu/time/d253d9a2-3190-572a-aa64-636a762ccb71> ;
     schema:deathDate <http://data.odeuropa.eu/time/d253d9a2-3190-572a-aa64-636a762ccb71> .
 
@@ -5936,13 +5961,15 @@
     schema:birthDate <http://data.odeuropa.eu/time/d253d9a2-3190-572a-aa64-636a762ccb71> ;
     schema:deathDate <http://data.odeuropa.eu/time/d253d9a2-3190-572a-aa64-636a762ccb71> .
 
-<http://data.odeuropa.eu/actor/67a982aa-0127-51c0-b2e4-b2fbe86cfc97> a crm:E39_Actor ;
+<http://data.odeuropa.eu/actor/67a982aa-0127-51c0-b2e4-b2fbe86cfc97> a crm:E21_Person ;
     rdfs:label "Thomas Kelly" ;
+    owl:sameAs <http://www.wikidata.org/entity/Q5905653> ;
     schema:birthDate <http://data.odeuropa.eu/time/d253d9a2-3190-572a-aa64-636a762ccb71> ;
     schema:deathDate <http://data.odeuropa.eu/time/d253d9a2-3190-572a-aa64-636a762ccb71> .
 
-<http://data.odeuropa.eu/actor/68c65156-a8c9-5988-bf6b-92e222e0f5aa> a crm:E39_Actor ;
+<http://data.odeuropa.eu/actor/68c65156-a8c9-5988-bf6b-92e222e0f5aa> a crm:E21_Person ;
     rdfs:label "William Bolland" ;
+    owl:sameAs <http://www.wikidata.org/entity/Q18531044> ;
     schema:birthDate <http://data.odeuropa.eu/time/d253d9a2-3190-572a-aa64-636a762ccb71> ;
     schema:deathDate <http://data.odeuropa.eu/time/d253d9a2-3190-572a-aa64-636a762ccb71> .
 
@@ -5951,33 +5978,39 @@
     schema:birthDate <http://data.odeuropa.eu/time/d253d9a2-3190-572a-aa64-636a762ccb71> ;
     schema:deathDate <http://data.odeuropa.eu/time/d253d9a2-3190-572a-aa64-636a762ccb71> .
 
-<http://data.odeuropa.eu/actor/6e656933-a2a8-5c1a-9be0-3a53c24d2aea> a crm:E39_Actor ;
+<http://data.odeuropa.eu/actor/6e656933-a2a8-5c1a-9be0-3a53c24d2aea> a crm:E21_Person ;
     rdfs:label "Justice Lee" ;
+    owl:sameAs <http://www.wikidata.org/entity/Q19863176> ;
     schema:birthDate <http://data.odeuropa.eu/time/d253d9a2-3190-572a-aa64-636a762ccb71> ;
     schema:deathDate <http://data.odeuropa.eu/time/d253d9a2-3190-572a-aa64-636a762ccb71> .
 
-<http://data.odeuropa.eu/actor/6fee3a75-620b-52cb-90dc-d58f1b3db336> a crm:E39_Actor ;
+<http://data.odeuropa.eu/actor/6fee3a75-620b-52cb-90dc-d58f1b3db336> a crm:E21_Person ;
     rdfs:label "William Newman" ;
+    owl:sameAs <http://www.wikidata.org/entity/Q17386457> ;
     schema:birthDate <http://data.odeuropa.eu/time/d253d9a2-3190-572a-aa64-636a762ccb71> ;
     schema:deathDate <http://data.odeuropa.eu/time/d253d9a2-3190-572a-aa64-636a762ccb71> .
 
-<http://data.odeuropa.eu/actor/74ce6de0-71d6-5b56-9c04-89d617eec993> a crm:E39_Actor ;
+<http://data.odeuropa.eu/actor/74ce6de0-71d6-5b56-9c04-89d617eec993> a crm:E21_Person ;
     rdfs:label "Sir Thomas Birch" ;
+    owl:sameAs <http://www.wikidata.org/entity/Q175370> ;
     schema:birthDate <http://data.odeuropa.eu/time/d253d9a2-3190-572a-aa64-636a762ccb71> ;
     schema:deathDate <http://data.odeuropa.eu/time/d253d9a2-3190-572a-aa64-636a762ccb71> .
 
-<http://data.odeuropa.eu/actor/7503a00e-eb02-5919-b11f-5e7caacd87f3> a crm:E39_Actor ;
+<http://data.odeuropa.eu/actor/7503a00e-eb02-5919-b11f-5e7caacd87f3> a crm:E21_Person ;
     rdfs:label "George Clarke" ;
+    owl:sameAs <http://www.wikidata.org/entity/Q5537942> ;
     schema:birthDate <http://data.odeuropa.eu/time/d253d9a2-3190-572a-aa64-636a762ccb71> ;
     schema:deathDate <http://data.odeuropa.eu/time/d253d9a2-3190-572a-aa64-636a762ccb71> .
 
-<http://data.odeuropa.eu/actor/761d9431-e26b-5059-9e50-5d3cc4c39bc5> a crm:E39_Actor ;
+<http://data.odeuropa.eu/actor/761d9431-e26b-5059-9e50-5d3cc4c39bc5> a crm:E21_Person ;
     rdfs:label "Sir Richard Carr" ;
+    owl:sameAs <http://www.wikidata.org/entity/Q1810075> ;
     schema:birthDate <http://data.odeuropa.eu/time/d253d9a2-3190-572a-aa64-636a762ccb71> ;
     schema:deathDate <http://data.odeuropa.eu/time/d253d9a2-3190-572a-aa64-636a762ccb71> .
 
-<http://data.odeuropa.eu/actor/787a379f-592d-58f3-9c14-0f182cf4bc65> a crm:E39_Actor ;
+<http://data.odeuropa.eu/actor/787a379f-592d-58f3-9c14-0f182cf4bc65> a crm:E21_Person ;
     rdfs:label "Humphry Parsons" ;
+    owl:sameAs <http://www.wikidata.org/entity/Q18576351> ;
     schema:birthDate <http://data.odeuropa.eu/time/d253d9a2-3190-572a-aa64-636a762ccb71> ;
     schema:deathDate <http://data.odeuropa.eu/time/d253d9a2-3190-572a-aa64-636a762ccb71> .
 
@@ -5991,13 +6024,15 @@
     schema:birthDate <http://data.odeuropa.eu/time/d253d9a2-3190-572a-aa64-636a762ccb71> ;
     schema:deathDate <http://data.odeuropa.eu/time/d253d9a2-3190-572a-aa64-636a762ccb71> .
 
-<http://data.odeuropa.eu/actor/80963676-4b01-5068-be28-acfa2c48914e> a crm:E39_Actor ;
+<http://data.odeuropa.eu/actor/80963676-4b01-5068-be28-acfa2c48914e> a crm:E21_Person ;
     rdfs:label "John Peter" ;
+    owl:sameAs <http://www.wikidata.org/entity/Q6252623> ;
     schema:birthDate <http://data.odeuropa.eu/time/d253d9a2-3190-572a-aa64-636a762ccb71> ;
     schema:deathDate <http://data.odeuropa.eu/time/d253d9a2-3190-572a-aa64-636a762ccb71> .
 
-<http://data.odeuropa.eu/actor/80c1402f-8f61-5bc6-ac5e-53ccd2ca9d50> a crm:E39_Actor ;
+<http://data.odeuropa.eu/actor/80c1402f-8f61-5bc6-ac5e-53ccd2ca9d50> a crm:E21_Person ;
     rdfs:label "Robert Alsop" ;
+    owl:sameAs <http://www.wikidata.org/entity/Q7341476> ;
     schema:birthDate <http://data.odeuropa.eu/time/d253d9a2-3190-572a-aa64-636a762ccb71> ;
     schema:deathDate <http://data.odeuropa.eu/time/d253d9a2-3190-572a-aa64-636a762ccb71> .
 
@@ -6006,13 +6041,15 @@
     schema:birthDate <http://data.odeuropa.eu/time/d253d9a2-3190-572a-aa64-636a762ccb71> ;
     schema:deathDate <http://data.odeuropa.eu/time/d253d9a2-3190-572a-aa64-636a762ccb71> .
 
-<http://data.odeuropa.eu/actor/8757d889-1ea1-5d66-b916-9a62deab9bf9> a crm:E39_Actor ;
+<http://data.odeuropa.eu/actor/8757d889-1ea1-5d66-b916-9a62deab9bf9> a crm:E21_Person ;
     rdfs:label "William Ashurst" ;
+    owl:sameAs <http://www.wikidata.org/entity/Q2076700> ;
     schema:birthDate <http://data.odeuropa.eu/time/d253d9a2-3190-572a-aa64-636a762ccb71> ;
     schema:deathDate <http://data.odeuropa.eu/time/d253d9a2-3190-572a-aa64-636a762ccb71> .
 
-<http://data.odeuropa.eu/actor/898cb8f6-6e13-5def-919c-06666a924bac> a crm:E39_Actor ;
+<http://data.odeuropa.eu/actor/898cb8f6-6e13-5def-919c-06666a924bac> a crm:E21_Person ;
     rdfs:label "John Anderson" ;
+    owl:sameAs <http://www.wikidata.org/entity/Q1349404> ;
     schema:birthDate <http://data.odeuropa.eu/time/d253d9a2-3190-572a-aa64-636a762ccb71> ;
     schema:deathDate <http://data.odeuropa.eu/time/d253d9a2-3190-572a-aa64-636a762ccb71> .
 
@@ -6026,8 +6063,9 @@
     schema:birthDate <http://data.odeuropa.eu/time/d253d9a2-3190-572a-aa64-636a762ccb71> ;
     schema:deathDate <http://data.odeuropa.eu/time/d253d9a2-3190-572a-aa64-636a762ccb71> .
 
-<http://data.odeuropa.eu/actor/8c781f37-381b-5b0a-b60d-a3c6a5d95e59> a crm:E39_Actor ;
+<http://data.odeuropa.eu/actor/8c781f37-381b-5b0a-b60d-a3c6a5d95e59> a crm:E21_Person ;
     rdfs:label "George Mackenzie" ;
+    owl:sameAs <http://www.wikidata.org/entity/Q1009482> ;
     schema:birthDate <http://data.odeuropa.eu/time/d253d9a2-3190-572a-aa64-636a762ccb71> ;
     schema:deathDate <http://data.odeuropa.eu/time/d253d9a2-3190-572a-aa64-636a762ccb71> .
 
@@ -6051,13 +6089,15 @@
     schema:birthDate <http://data.odeuropa.eu/time/d253d9a2-3190-572a-aa64-636a762ccb71> ;
     schema:deathDate <http://data.odeuropa.eu/time/d253d9a2-3190-572a-aa64-636a762ccb71> .
 
-<http://data.odeuropa.eu/actor/9c72567e-1a55-5771-b039-53ae1f94b637> a crm:E39_Actor ;
+<http://data.odeuropa.eu/actor/9c72567e-1a55-5771-b039-53ae1f94b637> a crm:E21_Person ;
     rdfs:label "Thomas Rowcroft" ;
+    owl:sameAs <http://www.wikidata.org/entity/Q21556719> ;
     schema:birthDate <http://data.odeuropa.eu/time/d253d9a2-3190-572a-aa64-636a762ccb71> ;
     schema:deathDate <http://data.odeuropa.eu/time/d253d9a2-3190-572a-aa64-636a762ccb71> .
 
-<http://data.odeuropa.eu/actor/9ca731a0-1a77-5bd1-a1d3-c636b2aa4210> a crm:E39_Actor ;
+<http://data.odeuropa.eu/actor/9ca731a0-1a77-5bd1-a1d3-c636b2aa4210> a crm:E21_Person ;
     rdfs:label "William Anderson" ;
+    owl:sameAs <http://www.wikidata.org/entity/Q6167725> ;
     schema:birthDate <http://data.odeuropa.eu/time/d253d9a2-3190-572a-aa64-636a762ccb71> ;
     schema:deathDate <http://data.odeuropa.eu/time/d253d9a2-3190-572a-aa64-636a762ccb71> .
 
@@ -6066,38 +6106,45 @@
     schema:birthDate <http://data.odeuropa.eu/time/d253d9a2-3190-572a-aa64-636a762ccb71> ;
     schema:deathDate <http://data.odeuropa.eu/time/d253d9a2-3190-572a-aa64-636a762ccb71> .
 
-<http://data.odeuropa.eu/actor/9d147d2e-480a-52ba-ae3a-b7dc1970de5b> a crm:E39_Actor ;
+<http://data.odeuropa.eu/actor/9d147d2e-480a-52ba-ae3a-b7dc1970de5b> a crm:E21_Person ;
     rdfs:label "John Bernard Bosanquet" ;
+    owl:sameAs <http://www.wikidata.org/entity/Q6222505> ;
     schema:birthDate <http://data.odeuropa.eu/time/d253d9a2-3190-572a-aa64-636a762ccb71> ;
     schema:deathDate <http://data.odeuropa.eu/time/d253d9a2-3190-572a-aa64-636a762ccb71> .
 
-<http://data.odeuropa.eu/actor/9e509406-cf24-5f24-ba92-248e04e4cdfa> a crm:E39_Actor ;
+<http://data.odeuropa.eu/actor/9e509406-cf24-5f24-ba92-248e04e4cdfa> a crm:E21_Person ;
     rdfs:label "Thomas Salusbury" ;
+    owl:sameAs <http://www.wikidata.org/entity/Q58689968> ;
     schema:birthDate <http://data.odeuropa.eu/time/d253d9a2-3190-572a-aa64-636a762ccb71> ;
     schema:deathDate <http://data.odeuropa.eu/time/d253d9a2-3190-572a-aa64-636a762ccb71> .
 
-<http://data.odeuropa.eu/actor/9f69284e-fba9-5288-ab5c-ffdd6acc36af> a crm:E39_Actor ;
+<http://data.odeuropa.eu/actor/9f69284e-fba9-5288-ab5c-ffdd6acc36af> a crm:E21_Person ;
     rdfs:label "Thomas Manners Sutton" ;
+    owl:sameAs <http://www.wikidata.org/entity/Q75262108> ;
     schema:birthDate <http://data.odeuropa.eu/time/d253d9a2-3190-572a-aa64-636a762ccb71> ;
     schema:deathDate <http://data.odeuropa.eu/time/d253d9a2-3190-572a-aa64-636a762ccb71> .
 
-<http://data.odeuropa.eu/actor/a38a36da-714e-5123-8fbb-6627f2179857> a crm:E39_Actor ;
+<http://data.odeuropa.eu/actor/a38a36da-714e-5123-8fbb-6627f2179857> a crm:E21_Person ;
     rdfs:label "Jonathan Smith" ;
+    owl:sameAs <http://www.wikidata.org/entity/Q294449> ;
     schema:birthDate <http://data.odeuropa.eu/time/d253d9a2-3190-572a-aa64-636a762ccb71> ;
     schema:deathDate <http://data.odeuropa.eu/time/d253d9a2-3190-572a-aa64-636a762ccb71> .
 
-<http://data.odeuropa.eu/actor/a4c4eb5b-3fa2-5965-bcfc-e26aac9a39df> a crm:E39_Actor ;
+<http://data.odeuropa.eu/actor/a4c4eb5b-3fa2-5965-bcfc-e26aac9a39df> a crm:E21_Person ;
     rdfs:label "William Crowder" ;
+    owl:sameAs <http://www.wikidata.org/entity/Q76323463> ;
     schema:birthDate <http://data.odeuropa.eu/time/d253d9a2-3190-572a-aa64-636a762ccb71> ;
     schema:deathDate <http://data.odeuropa.eu/time/d253d9a2-3190-572a-aa64-636a762ccb71> .
 
-<http://data.odeuropa.eu/actor/aa84c2ec-f3fe-53c1-9043-d8c5b0a38169> a crm:E39_Actor ;
+<http://data.odeuropa.eu/actor/aa84c2ec-f3fe-53c1-9043-d8c5b0a38169> a crm:E21_Person ;
     rdfs:label "Thomas Denison" ;
+    owl:sameAs <http://www.wikidata.org/entity/Q18936272> ;
     schema:birthDate <http://data.odeuropa.eu/time/d253d9a2-3190-572a-aa64-636a762ccb71> ;
     schema:deathDate <http://data.odeuropa.eu/time/d253d9a2-3190-572a-aa64-636a762ccb71> .
 
-<http://data.odeuropa.eu/actor/ad19a61e-72b7-5e59-8b0b-24773e51bba1> a crm:E39_Actor ;
+<http://data.odeuropa.eu/actor/ad19a61e-72b7-5e59-8b0b-24773e51bba1> a crm:E21_Person ;
     rdfs:label "George Brydges" ;
+    owl:sameAs <http://www.wikidata.org/entity/Q5537375> ;
     schema:birthDate <http://data.odeuropa.eu/time/d253d9a2-3190-572a-aa64-636a762ccb71> ;
     schema:deathDate <http://data.odeuropa.eu/time/d253d9a2-3190-572a-aa64-636a762ccb71> .
 
@@ -6111,8 +6158,9 @@
     schema:birthDate <http://data.odeuropa.eu/time/d253d9a2-3190-572a-aa64-636a762ccb71> ;
     schema:deathDate <http://data.odeuropa.eu/time/d253d9a2-3190-572a-aa64-636a762ccb71> .
 
-<http://data.odeuropa.eu/actor/b5efe30f-da7d-5ed9-8979-afd774ada9aa> a crm:E39_Actor ;
+<http://data.odeuropa.eu/actor/b5efe30f-da7d-5ed9-8979-afd774ada9aa> a crm:E21_Person ;
     rdfs:label "Matthias Prime" ;
+    owl:sameAs <http://www.wikidata.org/entity/Q102063372> ;
     schema:birthDate <http://data.odeuropa.eu/time/d253d9a2-3190-572a-aa64-636a762ccb71> ;
     schema:deathDate <http://data.odeuropa.eu/time/d253d9a2-3190-572a-aa64-636a762ccb71> .
 
@@ -6136,8 +6184,9 @@
     schema:birthDate <http://data.odeuropa.eu/time/d253d9a2-3190-572a-aa64-636a762ccb71> ;
     schema:deathDate <http://data.odeuropa.eu/time/d253d9a2-3190-572a-aa64-636a762ccb71> .
 
-<http://data.odeuropa.eu/actor/cbc05a46-445b-5891-8fd9-0be09cd3d5b0> a crm:E39_Actor ;
+<http://data.odeuropa.eu/actor/cbc05a46-445b-5891-8fd9-0be09cd3d5b0> a crm:E21_Person ;
     rdfs:label "Richard Richards" ;
+    owl:sameAs <http://www.wikidata.org/entity/Q25559009> ;
     schema:birthDate <http://data.odeuropa.eu/time/d253d9a2-3190-572a-aa64-636a762ccb71> ;
     schema:deathDate <http://data.odeuropa.eu/time/d253d9a2-3190-572a-aa64-636a762ccb71> .
 
@@ -6161,8 +6210,9 @@
     schema:birthDate <http://data.odeuropa.eu/time/d253d9a2-3190-572a-aa64-636a762ccb71> ;
     schema:deathDate <http://data.odeuropa.eu/time/d253d9a2-3190-572a-aa64-636a762ccb71> .
 
-<http://data.odeuropa.eu/actor/dac8d16f-eb95-53d0-85aa-df44f7f3c831> a crm:E39_Actor ;
+<http://data.odeuropa.eu/actor/dac8d16f-eb95-53d0-85aa-df44f7f3c831> a crm:E21_Person ;
     rdfs:label "Thomas Clive" ;
+    owl:sameAs <http://www.wikidata.org/entity/Q76290856> ;
     schema:birthDate <http://data.odeuropa.eu/time/d253d9a2-3190-572a-aa64-636a762ccb71> ;
     schema:deathDate <http://data.odeuropa.eu/time/d253d9a2-3190-572a-aa64-636a762ccb71> .
 
@@ -6171,28 +6221,33 @@
     schema:birthDate <http://data.odeuropa.eu/time/d253d9a2-3190-572a-aa64-636a762ccb71> ;
     schema:deathDate <http://data.odeuropa.eu/time/d253d9a2-3190-572a-aa64-636a762ccb71> .
 
-<http://data.odeuropa.eu/actor/e009dc7a-355d-55ab-9210-992edd14f17a> a crm:E39_Actor ;
+<http://data.odeuropa.eu/actor/e009dc7a-355d-55ab-9210-992edd14f17a> a crm:E21_Person ;
     rdfs:label "William Brown" ;
+    owl:sameAs <http://www.wikidata.org/entity/Q966952> ;
     schema:birthDate <http://data.odeuropa.eu/time/d253d9a2-3190-572a-aa64-636a762ccb71> ;
     schema:deathDate <http://data.odeuropa.eu/time/d253d9a2-3190-572a-aa64-636a762ccb71> .
 
-<http://data.odeuropa.eu/actor/e500dc2a-216c-56b6-b504-600150c458a6> a crm:E39_Actor ;
+<http://data.odeuropa.eu/actor/e500dc2a-216c-56b6-b504-600150c458a6> a crm:E21_Person ;
     rdfs:label "William St" ;
+    owl:sameAs <http://www.wikidata.org/entity/Q90176253> ;
     schema:birthDate <http://data.odeuropa.eu/time/d253d9a2-3190-572a-aa64-636a762ccb71> ;
     schema:deathDate <http://data.odeuropa.eu/time/d253d9a2-3190-572a-aa64-636a762ccb71> .
 
-<http://data.odeuropa.eu/actor/e6088a8c-12df-5205-9f58-31635188cd5e> a crm:E39_Actor ;
+<http://data.odeuropa.eu/actor/e6088a8c-12df-5205-9f58-31635188cd5e> a crm:E21_Person ;
     rdfs:label "Sir William Curtis" ;
+    owl:sameAs <http://www.wikidata.org/entity/Q460867> ;
     schema:birthDate <http://data.odeuropa.eu/time/d253d9a2-3190-572a-aa64-636a762ccb71> ;
     schema:deathDate <http://data.odeuropa.eu/time/d253d9a2-3190-572a-aa64-636a762ccb71> .
 
-<http://data.odeuropa.eu/actor/e6ad5ade-8892-5614-b28b-11c504c0f6dc> a crm:E39_Actor ;
+<http://data.odeuropa.eu/actor/e6ad5ade-8892-5614-b28b-11c504c0f6dc> a crm:E21_Person ;
     rdfs:label "Henry Penrice" ;
+    owl:sameAs <http://www.wikidata.org/entity/Q75428699> ;
     schema:birthDate <http://data.odeuropa.eu/time/d253d9a2-3190-572a-aa64-636a762ccb71> ;
     schema:deathDate <http://data.odeuropa.eu/time/d253d9a2-3190-572a-aa64-636a762ccb71> .
 
-<http://data.odeuropa.eu/actor/e75d67de-5600-5258-b5bc-1338e8830762> a crm:E39_Actor ;
+<http://data.odeuropa.eu/actor/e75d67de-5600-5258-b5bc-1338e8830762> a crm:E21_Person ;
     rdfs:label "Simon Le" ;
+    owl:sameAs <http://www.wikidata.org/entity/Q3819820> ;
     schema:birthDate <http://data.odeuropa.eu/time/d253d9a2-3190-572a-aa64-636a762ccb71> ;
     schema:deathDate <http://data.odeuropa.eu/time/d253d9a2-3190-572a-aa64-636a762ccb71> .
 
@@ -6201,18 +6256,21 @@
     schema:birthDate <http://data.odeuropa.eu/time/d253d9a2-3190-572a-aa64-636a762ccb71> ;
     schema:deathDate <http://data.odeuropa.eu/time/d253d9a2-3190-572a-aa64-636a762ccb71> .
 
-<http://data.odeuropa.eu/actor/f212b986-05d8-5bd2-bf25-d1874b0bf5eb> a crm:E39_Actor ;
+<http://data.odeuropa.eu/actor/f212b986-05d8-5bd2-bf25-d1874b0bf5eb> a crm:E21_Person ;
     rdfs:label "Chapman Marshall" ;
+    owl:sameAs <http://www.wikidata.org/entity/Q75981608> ;
     schema:birthDate <http://data.odeuropa.eu/time/d253d9a2-3190-572a-aa64-636a762ccb71> ;
     schema:deathDate <http://data.odeuropa.eu/time/d253d9a2-3190-572a-aa64-636a762ccb71> .
 
-<http://data.odeuropa.eu/actor/f31ac7de-b6d3-55d1-9ce7-a778b5335def> a crm:E39_Actor ;
+<http://data.odeuropa.eu/actor/f31ac7de-b6d3-55d1-9ce7-a778b5335def> a crm:E21_Person ;
     rdfs:label "Simon Le-Blanc" ;
+    owl:sameAs <http://www.wikidata.org/entity/Q7519183> ;
     schema:birthDate <http://data.odeuropa.eu/time/d253d9a2-3190-572a-aa64-636a762ccb71> ;
     schema:deathDate <http://data.odeuropa.eu/time/d253d9a2-3190-572a-aa64-636a762ccb71> .
 
-<http://data.odeuropa.eu/actor/f3afb2ba-d525-5a92-af50-5d173efc7aa4> a crm:E39_Actor ;
+<http://data.odeuropa.eu/actor/f3afb2ba-d525-5a92-af50-5d173efc7aa4> a crm:E21_Person ;
     rdfs:label "William Herne" ;
+    owl:sameAs <http://www.wikidata.org/entity/Q76286598> ;
     schema:birthDate <http://data.odeuropa.eu/time/d253d9a2-3190-572a-aa64-636a762ccb71> ;
     schema:deathDate <http://data.odeuropa.eu/time/d253d9a2-3190-572a-aa64-636a762ccb71> .
 
@@ -6231,13 +6289,15 @@
     schema:birthDate <http://data.odeuropa.eu/time/d253d9a2-3190-572a-aa64-636a762ccb71> ;
     schema:deathDate <http://data.odeuropa.eu/time/d253d9a2-3190-572a-aa64-636a762ccb71> .
 
-<http://data.odeuropa.eu/actor/fdbb1f3a-9a32-5170-b10b-06f59da47e16> a crm:E39_Actor ;
+<http://data.odeuropa.eu/actor/fdbb1f3a-9a32-5170-b10b-06f59da47e16> a crm:E21_Person ;
     rdfs:label "Thomas Cadell" ;
+    owl:sameAs <http://www.wikidata.org/entity/Q7788182> ;
     schema:birthDate <http://data.odeuropa.eu/time/d253d9a2-3190-572a-aa64-636a762ccb71> ;
     schema:deathDate <http://data.odeuropa.eu/time/d253d9a2-3190-572a-aa64-636a762ccb71> .
 
-<http://data.odeuropa.eu/actor/fe660ac6-8fc7-5c91-9699-ca2d6ced3781> a crm:E39_Actor ;
+<http://data.odeuropa.eu/actor/fe660ac6-8fc7-5c91-9699-ca2d6ced3781> a crm:E21_Person ;
     rdfs:label "Harvey Christian" ;
+    owl:sameAs <http://www.wikidata.org/entity/Q75337438> ;
     schema:birthDate <http://data.odeuropa.eu/time/d253d9a2-3190-572a-aa64-636a762ccb71> ;
     schema:deathDate <http://data.odeuropa.eu/time/d253d9a2-3190-572a-aa64-636a762ccb71> .
 
@@ -6331,8 +6391,9 @@
     time:hasBeginning "1814"^^xsd:gYear ;
     time:hasEnd "1814"^^xsd:gYear .
 
-<http://data.odeuropa.eu/actor/01a9bf2f-f3d7-573a-ad13-135c94f83a6c> a crm:E39_Actor ;
+<http://data.odeuropa.eu/actor/01a9bf2f-f3d7-573a-ad13-135c94f83a6c> a crm:E21_Person ;
     rdfs:label "William Henry Ashurst" ;
+    owl:sameAs <http://www.wikidata.org/entity/Q21548853> ;
     schema:birthDate <http://data.odeuropa.eu/time/d253d9a2-3190-572a-aa64-636a762ccb71> ;
     schema:deathDate <http://data.odeuropa.eu/time/d253d9a2-3190-572a-aa64-636a762ccb71> .
 
@@ -6346,23 +6407,27 @@
     schema:birthDate <http://data.odeuropa.eu/time/d253d9a2-3190-572a-aa64-636a762ccb71> ;
     schema:deathDate <http://data.odeuropa.eu/time/d253d9a2-3190-572a-aa64-636a762ccb71> .
 
-<http://data.odeuropa.eu/actor/0b778edf-21c8-5931-a0e1-a8baf1053ee2> a crm:E39_Actor ;
+<http://data.odeuropa.eu/actor/0b778edf-21c8-5931-a0e1-a8baf1053ee2> a crm:E21_Person ;
     rdfs:label "Brackley Kennet" ;
+    owl:sameAs <http://www.wikidata.org/entity/Q4953726> ;
     schema:birthDate <http://data.odeuropa.eu/time/d253d9a2-3190-572a-aa64-636a762ccb71> ;
     schema:deathDate <http://data.odeuropa.eu/time/d253d9a2-3190-572a-aa64-636a762ccb71> .
 
-<http://data.odeuropa.eu/actor/109c5867-a99c-5540-8150-13ee1ce88cc2> a crm:E39_Actor ;
+<http://data.odeuropa.eu/actor/109c5867-a99c-5540-8150-13ee1ce88cc2> a crm:E21_Person ;
     rdfs:label "James Parke" ;
+    owl:sameAs <http://www.wikidata.org/entity/Q18756803> ;
     schema:birthDate <http://data.odeuropa.eu/time/d253d9a2-3190-572a-aa64-636a762ccb71> ;
     schema:deathDate <http://data.odeuropa.eu/time/d253d9a2-3190-572a-aa64-636a762ccb71> .
 
-<http://data.odeuropa.eu/actor/11433a01-813c-5c2e-829b-201c7bcc3f33> a crm:E39_Actor ;
+<http://data.odeuropa.eu/actor/11433a01-813c-5c2e-829b-201c7bcc3f33> a crm:E21_Person ;
     rdfs:label "Richard Glyn" ;
+    owl:sameAs <http://www.wikidata.org/entity/Q7528585> ;
     schema:birthDate <http://data.odeuropa.eu/time/d253d9a2-3190-572a-aa64-636a762ccb71> ;
     schema:deathDate <http://data.odeuropa.eu/time/d253d9a2-3190-572a-aa64-636a762ccb71> .
 
-<http://data.odeuropa.eu/actor/1a7c5299-f4ba-5bfc-80df-850efa906b86> a crm:E39_Actor ;
+<http://data.odeuropa.eu/actor/1a7c5299-f4ba-5bfc-80df-850efa906b86> a crm:E21_Person ;
     rdfs:label "George Clark" ;
+    owl:sameAs <http://www.wikidata.org/entity/Q5537926> ;
     schema:birthDate <http://data.odeuropa.eu/time/d253d9a2-3190-572a-aa64-636a762ccb71> ;
     schema:deathDate <http://data.odeuropa.eu/time/d253d9a2-3190-572a-aa64-636a762ccb71> .
 
@@ -6371,8 +6436,9 @@
     schema:birthDate <http://data.odeuropa.eu/time/d253d9a2-3190-572a-aa64-636a762ccb71> ;
     schema:deathDate <http://data.odeuropa.eu/time/d253d9a2-3190-572a-aa64-636a762ccb71> .
 
-<http://data.odeuropa.eu/actor/25c2c59d-307d-5e3f-a1e6-671f9a8a1e8a> a crm:E39_Actor ;
+<http://data.odeuropa.eu/actor/25c2c59d-307d-5e3f-a1e6-671f9a8a1e8a> a crm:E21_Person ;
     rdfs:label "Richard Lloyd" ;
+    owl:sameAs <http://www.wikidata.org/entity/Q922227> ;
     schema:birthDate <http://data.odeuropa.eu/time/d253d9a2-3190-572a-aa64-636a762ccb71> ;
     schema:deathDate <http://data.odeuropa.eu/time/d253d9a2-3190-572a-aa64-636a762ccb71> .
 
@@ -6386,18 +6452,21 @@
     schema:birthDate <http://data.odeuropa.eu/time/d253d9a2-3190-572a-aa64-636a762ccb71> ;
     schema:deathDate <http://data.odeuropa.eu/time/d253d9a2-3190-572a-aa64-636a762ccb71> .
 
-<http://data.odeuropa.eu/actor/381310a1-92b2-5277-81ff-d28528f0a007> a crm:E39_Actor ;
+<http://data.odeuropa.eu/actor/381310a1-92b2-5277-81ff-d28528f0a007> a crm:E21_Person ;
     rdfs:label "John Vaillant" ;
+    owl:sameAs <http://www.wikidata.org/entity/Q6261706> ;
     schema:birthDate <http://data.odeuropa.eu/time/d253d9a2-3190-572a-aa64-636a762ccb71> ;
     schema:deathDate <http://data.odeuropa.eu/time/d253d9a2-3190-572a-aa64-636a762ccb71> .
 
-<http://data.odeuropa.eu/actor/3b404214-9347-5c25-a431-af034c415122> a crm:E39_Actor ;
+<http://data.odeuropa.eu/actor/3b404214-9347-5c25-a431-af034c415122> a crm:E21_Person ;
     rdfs:label "James Hewitt" ;
+    owl:sameAs <http://www.wikidata.org/entity/Q324418> ;
     schema:birthDate <http://data.odeuropa.eu/time/d253d9a2-3190-572a-aa64-636a762ccb71> ;
     schema:deathDate <http://data.odeuropa.eu/time/d253d9a2-3190-572a-aa64-636a762ccb71> .
 
-<http://data.odeuropa.eu/actor/3cdcda1c-140c-5256-b44f-cd3e7ec0dfd2> a crm:E39_Actor ;
+<http://data.odeuropa.eu/actor/3cdcda1c-140c-5256-b44f-cd3e7ec0dfd2> a crm:E21_Person ;
     rdfs:label "John Sawbridge" ;
+    owl:sameAs <http://www.wikidata.org/entity/Q6256771> ;
     schema:birthDate <http://data.odeuropa.eu/time/d253d9a2-3190-572a-aa64-636a762ccb71> ;
     schema:deathDate <http://data.odeuropa.eu/time/d253d9a2-3190-572a-aa64-636a762ccb71> .
 
@@ -6406,23 +6475,27 @@
     schema:birthDate <http://data.odeuropa.eu/time/d253d9a2-3190-572a-aa64-636a762ccb71> ;
     schema:deathDate <http://data.odeuropa.eu/time/d253d9a2-3190-572a-aa64-636a762ccb71> .
 
-<http://data.odeuropa.eu/actor/4412a600-daa0-5d5e-9b2c-ece2eabb372d> a crm:E39_Actor ;
+<http://data.odeuropa.eu/actor/4412a600-daa0-5d5e-9b2c-ece2eabb372d> a crm:E21_Person ;
     rdfs:label "Josiah Boydell" ;
+    owl:sameAs <http://www.wikidata.org/entity/Q6290431> ;
     schema:birthDate <http://data.odeuropa.eu/time/d253d9a2-3190-572a-aa64-636a762ccb71> ;
     schema:deathDate <http://data.odeuropa.eu/time/d253d9a2-3190-572a-aa64-636a762ccb71> .
 
-<http://data.odeuropa.eu/actor/46a914f4-cf90-5835-991f-4a1d7e94a6dc> a crm:E39_Actor ;
+<http://data.odeuropa.eu/actor/46a914f4-cf90-5835-991f-4a1d7e94a6dc> a crm:E21_Person ;
     rdfs:label "George Nelson" ;
+    owl:sameAs <http://www.wikidata.org/entity/Q519124> ;
     schema:birthDate <http://data.odeuropa.eu/time/d253d9a2-3190-572a-aa64-636a762ccb71> ;
     schema:deathDate <http://data.odeuropa.eu/time/d253d9a2-3190-572a-aa64-636a762ccb71> .
 
-<http://data.odeuropa.eu/actor/4a7fc79c-d94b-50eb-a7f4-de20eb9779db> a crm:E39_Actor ;
+<http://data.odeuropa.eu/actor/4a7fc79c-d94b-50eb-a7f4-de20eb9779db> a crm:E21_Person ;
     rdfs:label "Baron Montague" ;
+    owl:sameAs <http://www.wikidata.org/entity/Q5727081> ;
     schema:birthDate <http://data.odeuropa.eu/time/d253d9a2-3190-572a-aa64-636a762ccb71> ;
     schema:deathDate <http://data.odeuropa.eu/time/d253d9a2-3190-572a-aa64-636a762ccb71> .
 
-<http://data.odeuropa.eu/actor/51e4269d-2038-50d7-893c-e594ef2b52bf> a crm:E39_Actor ;
+<http://data.odeuropa.eu/actor/51e4269d-2038-50d7-893c-e594ef2b52bf> a crm:E21_Person ;
     rdfs:label "James Graham" ;
+    owl:sameAs <http://www.wikidata.org/entity/Q433708> ;
     schema:birthDate <http://data.odeuropa.eu/time/d253d9a2-3190-572a-aa64-636a762ccb71> ;
     schema:deathDate <http://data.odeuropa.eu/time/d253d9a2-3190-572a-aa64-636a762ccb71> .
 
@@ -6431,8 +6504,9 @@
     schema:birthDate <http://data.odeuropa.eu/time/d253d9a2-3190-572a-aa64-636a762ccb71> ;
     schema:deathDate <http://data.odeuropa.eu/time/d253d9a2-3190-572a-aa64-636a762ccb71> .
 
-<http://data.odeuropa.eu/actor/6bebe68a-2508-5541-9198-d24160100ced> a crm:E39_Actor ;
+<http://data.odeuropa.eu/actor/6bebe68a-2508-5541-9198-d24160100ced> a crm:E21_Person ;
     rdfs:label "Joseph Littledale" ;
+    owl:sameAs <http://www.wikidata.org/entity/Q6284980> ;
     schema:birthDate <http://data.odeuropa.eu/time/d253d9a2-3190-572a-aa64-636a762ccb71> ;
     schema:deathDate <http://data.odeuropa.eu/time/d253d9a2-3190-572a-aa64-636a762ccb71> .
 
@@ -6441,38 +6515,45 @@
     schema:birthDate <http://data.odeuropa.eu/time/d253d9a2-3190-572a-aa64-636a762ccb71> ;
     schema:deathDate <http://data.odeuropa.eu/time/d253d9a2-3190-572a-aa64-636a762ccb71> .
 
-<http://data.odeuropa.eu/actor/7301aa4d-c42f-542e-85d2-63179641b783> a crm:E39_Actor ;
+<http://data.odeuropa.eu/actor/7301aa4d-c42f-542e-85d2-63179641b783> a crm:E21_Person ;
     rdfs:label "Samuel Turner" ;
+    owl:sameAs <http://www.wikidata.org/entity/Q75611500> ;
     schema:birthDate <http://data.odeuropa.eu/time/d253d9a2-3190-572a-aa64-636a762ccb71> ;
     schema:deathDate <http://data.odeuropa.eu/time/d253d9a2-3190-572a-aa64-636a762ccb71> .
 
-<http://data.odeuropa.eu/actor/80e97cc2-46d9-57b4-a26a-04dc732079a6> a crm:E39_Actor ;
+<http://data.odeuropa.eu/actor/80e97cc2-46d9-57b4-a26a-04dc732079a6> a crm:E21_Person ;
     rdfs:label "William Staines" ;
+    owl:sameAs <http://www.wikidata.org/entity/Q18162504> ;
     schema:birthDate <http://data.odeuropa.eu/time/d253d9a2-3190-572a-aa64-636a762ccb71> ;
     schema:deathDate <http://data.odeuropa.eu/time/d253d9a2-3190-572a-aa64-636a762ccb71> .
 
-<http://data.odeuropa.eu/actor/82b1041f-95e5-51d0-a607-d4003c5ab3a3> a crm:E39_Actor ;
+<http://data.odeuropa.eu/actor/82b1041f-95e5-51d0-a607-d4003c5ab3a3> a crm:E21_Person ;
     rdfs:label "Vicary Gibbs" ;
+    owl:sameAs <http://www.wikidata.org/entity/Q7924986> ;
     schema:birthDate <http://data.odeuropa.eu/time/d253d9a2-3190-572a-aa64-636a762ccb71> ;
     schema:deathDate <http://data.odeuropa.eu/time/d253d9a2-3190-572a-aa64-636a762ccb71> .
 
-<http://data.odeuropa.eu/actor/8ef9027e-436e-5e71-ba06-daae386a3b8f> a crm:E39_Actor ;
+<http://data.odeuropa.eu/actor/8ef9027e-436e-5e71-ba06-daae386a3b8f> a crm:E21_Person ;
     rdfs:label "Charles Asgill" ;
+    owl:sameAs <http://www.wikidata.org/entity/Q7526171> ;
     schema:birthDate <http://data.odeuropa.eu/time/d253d9a2-3190-572a-aa64-636a762ccb71> ;
     schema:deathDate <http://data.odeuropa.eu/time/d253d9a2-3190-572a-aa64-636a762ccb71> .
 
-<http://data.odeuropa.eu/actor/94d7ddbf-196e-5f51-ad1c-d4270161da4d> a crm:E39_Actor ;
+<http://data.odeuropa.eu/actor/94d7ddbf-196e-5f51-ad1c-d4270161da4d> a crm:E21_Person ;
     rdfs:label "George Hibbert" ;
+    owl:sameAs <http://www.wikidata.org/entity/Q5540581> ;
     schema:birthDate <http://data.odeuropa.eu/time/d253d9a2-3190-572a-aa64-636a762ccb71> ;
     schema:deathDate <http://data.odeuropa.eu/time/d253d9a2-3190-572a-aa64-636a762ccb71> .
 
-<http://data.odeuropa.eu/actor/989f6d1a-b20b-5382-a5ec-d2062a0ac634> a crm:E39_Actor ;
+<http://data.odeuropa.eu/actor/989f6d1a-b20b-5382-a5ec-d2062a0ac634> a crm:E21_Person ;
     rdfs:label "Barlow Trecothick" ;
+    owl:sameAs <http://www.wikidata.org/entity/Q26880502> ;
     schema:birthDate <http://data.odeuropa.eu/time/d253d9a2-3190-572a-aa64-636a762ccb71> ;
     schema:deathDate <http://data.odeuropa.eu/time/d253d9a2-3190-572a-aa64-636a762ccb71> .
 
-<http://data.odeuropa.eu/actor/a0dbba3a-2da8-5239-8833-9dc2b5b5837f> a crm:E39_Actor ;
+<http://data.odeuropa.eu/actor/a0dbba3a-2da8-5239-8833-9dc2b5b5837f> a crm:E21_Person ;
     rdfs:label "Thomas Burnet" ;
+    owl:sameAs <http://www.wikidata.org/entity/Q715203> ;
     schema:birthDate <http://data.odeuropa.eu/time/d253d9a2-3190-572a-aa64-636a762ccb71> ;
     schema:deathDate <http://data.odeuropa.eu/time/d253d9a2-3190-572a-aa64-636a762ccb71> .
 
@@ -6486,8 +6567,9 @@
     schema:birthDate <http://data.odeuropa.eu/time/d253d9a2-3190-572a-aa64-636a762ccb71> ;
     schema:deathDate <http://data.odeuropa.eu/time/d253d9a2-3190-572a-aa64-636a762ccb71> .
 
-<http://data.odeuropa.eu/actor/cf772c4d-840f-546b-a191-86dd5c0c63d3> a crm:E39_Actor ;
+<http://data.odeuropa.eu/actor/cf772c4d-840f-546b-a191-86dd5c0c63d3> a crm:E21_Person ;
     rdfs:label "Stephen Gaselee" ;
+    owl:sameAs <http://www.wikidata.org/entity/Q7609298> ;
     schema:birthDate <http://data.odeuropa.eu/time/d253d9a2-3190-572a-aa64-636a762ccb71> ;
     schema:deathDate <http://data.odeuropa.eu/time/d253d9a2-3190-572a-aa64-636a762ccb71> .
 
@@ -6496,8 +6578,9 @@
     schema:birthDate <http://data.odeuropa.eu/time/d253d9a2-3190-572a-aa64-636a762ccb71> ;
     schema:deathDate <http://data.odeuropa.eu/time/d253d9a2-3190-572a-aa64-636a762ccb71> .
 
-<http://data.odeuropa.eu/actor/de8797dd-a9be-5619-829a-bbcf3dda75f7> a crm:E39_Actor ;
+<http://data.odeuropa.eu/actor/de8797dd-a9be-5619-829a-bbcf3dda75f7> a crm:E21_Person ;
     rdfs:label "John Richardson" ;
+    owl:sameAs <http://www.wikidata.org/entity/Q545944> ;
     schema:birthDate <http://data.odeuropa.eu/time/d253d9a2-3190-572a-aa64-636a762ccb71> ;
     schema:deathDate <http://data.odeuropa.eu/time/d253d9a2-3190-572a-aa64-636a762ccb71> .
 
@@ -6506,13 +6589,15 @@
     schema:birthDate <http://data.odeuropa.eu/time/d253d9a2-3190-572a-aa64-636a762ccb71> ;
     schema:deathDate <http://data.odeuropa.eu/time/d253d9a2-3190-572a-aa64-636a762ccb71> .
 
-<http://data.odeuropa.eu/actor/e75ab8d8-6522-567f-a473-d6a1bbcfa49d> a crm:E39_Actor ;
+<http://data.odeuropa.eu/actor/e75ab8d8-6522-567f-a473-d6a1bbcfa49d> a crm:E21_Person ;
     rdfs:label "Thomas Pengelly" ;
+    owl:sameAs <http://www.wikidata.org/entity/Q7793093> ;
     schema:birthDate <http://data.odeuropa.eu/time/d253d9a2-3190-572a-aa64-636a762ccb71> ;
     schema:deathDate <http://data.odeuropa.eu/time/d253d9a2-3190-572a-aa64-636a762ccb71> .
 
-<http://data.odeuropa.eu/actor/e99fb531-9294-5fe9-ac33-d6bd26227d80> a crm:E39_Actor ;
+<http://data.odeuropa.eu/actor/e99fb531-9294-5fe9-ac33-d6bd26227d80> a crm:E21_Person ;
     rdfs:label "George Heathcote" ;
+    owl:sameAs <http://www.wikidata.org/entity/Q61741666> ;
     schema:birthDate <http://data.odeuropa.eu/time/d253d9a2-3190-572a-aa64-636a762ccb71> ;
     schema:deathDate <http://data.odeuropa.eu/time/d253d9a2-3190-572a-aa64-636a762ccb71> .
 
@@ -6521,8 +6606,9 @@
     schema:birthDate <http://data.odeuropa.eu/time/d253d9a2-3190-572a-aa64-636a762ccb71> ;
     schema:deathDate <http://data.odeuropa.eu/time/d253d9a2-3190-572a-aa64-636a762ccb71> .
 
-<http://data.odeuropa.eu/actor/fd5d74e9-a930-50f2-acac-b6dee324ad0f> a crm:E39_Actor ;
+<http://data.odeuropa.eu/actor/fd5d74e9-a930-50f2-acac-b6dee324ad0f> a crm:E21_Person ;
     rdfs:label "Brass Crosby" ;
+    owl:sameAs <http://www.wikidata.org/entity/Q4957862> ;
     schema:birthDate <http://data.odeuropa.eu/time/d253d9a2-3190-572a-aa64-636a762ccb71> ;
     schema:deathDate <http://data.odeuropa.eu/time/d253d9a2-3190-572a-aa64-636a762ccb71> .
 
@@ -6596,13 +6682,15 @@
     time:hasBeginning "1786"^^xsd:gYear ;
     time:hasEnd "1786"^^xsd:gYear .
 
-<http://data.odeuropa.eu/actor/0c8e6f6b-5078-513a-8d27-9a1d510bb784> a crm:E39_Actor ;
+<http://data.odeuropa.eu/actor/0c8e6f6b-5078-513a-8d27-9a1d510bb784> a crm:E21_Person ;
     rdfs:label "Brook Watson" ;
+    owl:sameAs <http://www.wikidata.org/entity/Q4974369> ;
     schema:birthDate <http://data.odeuropa.eu/time/d253d9a2-3190-572a-aa64-636a762ccb71> ;
     schema:deathDate <http://data.odeuropa.eu/time/d253d9a2-3190-572a-aa64-636a762ccb71> .
 
-<http://data.odeuropa.eu/actor/0dc37fdf-ee9e-5163-ba82-0da0a35725f5> a crm:E39_Actor ;
+<http://data.odeuropa.eu/actor/0dc37fdf-ee9e-5163-ba82-0da0a35725f5> a crm:E21_Person ;
     rdfs:label "Daniel Lambert" ;
+    owl:sameAs <http://www.wikidata.org/entity/Q1161485> ;
     schema:birthDate <http://data.odeuropa.eu/time/d253d9a2-3190-572a-aa64-636a762ccb71> ;
     schema:deathDate <http://data.odeuropa.eu/time/d253d9a2-3190-572a-aa64-636a762ccb71> .
 
@@ -6611,93 +6699,111 @@
     schema:birthDate <http://data.odeuropa.eu/time/d253d9a2-3190-572a-aa64-636a762ccb71> ;
     schema:deathDate <http://data.odeuropa.eu/time/d253d9a2-3190-572a-aa64-636a762ccb71> .
 
-<http://data.odeuropa.eu/actor/1629264b-95b1-55b2-ba15-629fc85d3433> a crm:E39_Actor ;
+<http://data.odeuropa.eu/actor/1629264b-95b1-55b2-ba15-629fc85d3433> a crm:E21_Person ;
     rdfs:label "Frederick Bull" ;
+    owl:sameAs <http://www.wikidata.org/entity/Q5497440> ;
     schema:birthDate <http://data.odeuropa.eu/time/d253d9a2-3190-572a-aa64-636a762ccb71> ;
     schema:deathDate <http://data.odeuropa.eu/time/d253d9a2-3190-572a-aa64-636a762ccb71> .
 
-<http://data.odeuropa.eu/actor/17eef425-a99d-5ca8-a1b1-cba0e9d594ac> a crm:E39_Actor ;
+<http://data.odeuropa.eu/actor/17eef425-a99d-5ca8-a1b1-cba0e9d594ac> a crm:E21_Person ;
     rdfs:label "William Pickett" ;
+    owl:sameAs <http://www.wikidata.org/entity/Q105333835> ;
     schema:birthDate <http://data.odeuropa.eu/time/d253d9a2-3190-572a-aa64-636a762ccb71> ;
     schema:deathDate <http://data.odeuropa.eu/time/d253d9a2-3190-572a-aa64-636a762ccb71> .
 
-<http://data.odeuropa.eu/actor/1f0b2d08-e3e3-52dc-ab3c-cb34771e1bbc> a crm:E39_Actor ;
+<http://data.odeuropa.eu/actor/1f0b2d08-e3e3-52dc-ab3c-cb34771e1bbc> a crm:E21_Person ;
     rdfs:label "Robert Raymond" ;
+    owl:sameAs <http://www.wikidata.org/entity/Q4935490> ;
     schema:birthDate <http://data.odeuropa.eu/time/d253d9a2-3190-572a-aa64-636a762ccb71> ;
     schema:deathDate <http://data.odeuropa.eu/time/d253d9a2-3190-572a-aa64-636a762ccb71> .
 
-<http://data.odeuropa.eu/actor/3a11cc4f-ec25-5d17-8373-ea993c9d3759> a crm:E39_Actor ;
+<http://data.odeuropa.eu/actor/3a11cc4f-ec25-5d17-8373-ea993c9d3759> a crm:E21_Person ;
     rdfs:label "Martin Wright" ;
+    owl:sameAs <http://www.wikidata.org/entity/Q54218> ;
     schema:birthDate <http://data.odeuropa.eu/time/d253d9a2-3190-572a-aa64-636a762ccb71> ;
     schema:deathDate <http://data.odeuropa.eu/time/d253d9a2-3190-572a-aa64-636a762ccb71> .
 
-<http://data.odeuropa.eu/actor/3eab020f-2bf0-596d-8734-1bcbe80f4334> a crm:E39_Actor ;
+<http://data.odeuropa.eu/actor/3eab020f-2bf0-596d-8734-1bcbe80f4334> a crm:E21_Person ;
     rdfs:label "Claudius Stephen" ;
+    owl:sameAs <http://www.wikidata.org/entity/Q7526345> ;
     schema:birthDate <http://data.odeuropa.eu/time/d253d9a2-3190-572a-aa64-636a762ccb71> ;
     schema:deathDate <http://data.odeuropa.eu/time/d253d9a2-3190-572a-aa64-636a762ccb71> .
 
-<http://data.odeuropa.eu/actor/4100c710-03fd-59a6-89f0-98cf327d31e8> a crm:E39_Actor ;
+<http://data.odeuropa.eu/actor/4100c710-03fd-59a6-89f0-98cf327d31e8> a crm:E21_Person ;
     rdfs:label "John Burland" ;
+    owl:sameAs <http://www.wikidata.org/entity/Q1699459> ;
     schema:birthDate <http://data.odeuropa.eu/time/d253d9a2-3190-572a-aa64-636a762ccb71> ;
     schema:deathDate <http://data.odeuropa.eu/time/d253d9a2-3190-572a-aa64-636a762ccb71> .
 
-<http://data.odeuropa.eu/actor/47266efd-f647-5000-b485-f0d98c2c42e0> a crm:E39_Actor ;
+<http://data.odeuropa.eu/actor/47266efd-f647-5000-b485-f0d98c2c42e0> a crm:E21_Person ;
     rdfs:label "William Fortescue" ;
+    owl:sameAs <http://www.wikidata.org/entity/Q75545995> ;
     schema:birthDate <http://data.odeuropa.eu/time/d253d9a2-3190-572a-aa64-636a762ccb71> ;
     schema:deathDate <http://data.odeuropa.eu/time/d253d9a2-3190-572a-aa64-636a762ccb71> .
 
-<http://data.odeuropa.eu/actor/4b871b2a-d8ec-5e80-9213-8c4b144d37e8> a crm:E39_Actor ;
+<http://data.odeuropa.eu/actor/4b871b2a-d8ec-5e80-9213-8c4b144d37e8> a crm:E21_Person ;
     rdfs:label "Charles Abbott" ;
+    owl:sameAs <http://www.wikidata.org/entity/Q1063507> ;
     schema:birthDate <http://data.odeuropa.eu/time/d253d9a2-3190-572a-aa64-636a762ccb71> ;
     schema:deathDate <http://data.odeuropa.eu/time/d253d9a2-3190-572a-aa64-636a762ccb71> .
 
-<http://data.odeuropa.eu/actor/64d24d74-0a19-5cf6-b95b-bdbaa762bdd4> a crm:E39_Actor ;
+<http://data.odeuropa.eu/actor/64d24d74-0a19-5cf6-b95b-bdbaa762bdd4> a crm:E21_Person ;
     rdfs:label "John Blachford" ;
+    owl:sameAs <http://www.wikidata.org/entity/Q75629780> ;
     schema:birthDate <http://data.odeuropa.eu/time/d253d9a2-3190-572a-aa64-636a762ccb71> ;
     schema:deathDate <http://data.odeuropa.eu/time/d253d9a2-3190-572a-aa64-636a762ccb71> .
 
-<http://data.odeuropa.eu/actor/74e52db7-cf5e-585e-9b68-2f100c43694d> a crm:E39_Actor ;
+<http://data.odeuropa.eu/actor/74e52db7-cf5e-585e-9b68-2f100c43694d> a crm:E21_Person ;
     rdfs:label "Robert Waithman" ;
+    owl:sameAs <http://www.wikidata.org/entity/Q7350786> ;
     schema:birthDate <http://data.odeuropa.eu/time/d253d9a2-3190-572a-aa64-636a762ccb71> ;
     schema:deathDate <http://data.odeuropa.eu/time/d253d9a2-3190-572a-aa64-636a762ccb71> .
 
-<http://data.odeuropa.eu/actor/7cd53f48-43f5-59a4-8c30-bdb01cda42bb> a crm:E39_Actor ;
+<http://data.odeuropa.eu/actor/7cd53f48-43f5-59a4-8c30-bdb01cda42bb> a crm:E21_Person ;
     rdfs:label "John Garratt" ;
+    owl:sameAs <http://www.wikidata.org/entity/Q113509539> ;
     schema:birthDate <http://data.odeuropa.eu/time/d253d9a2-3190-572a-aa64-636a762ccb71> ;
     schema:deathDate <http://data.odeuropa.eu/time/d253d9a2-3190-572a-aa64-636a762ccb71> .
 
-<http://data.odeuropa.eu/actor/8e93daaa-9e99-5b7f-b62d-602c4dd6c220> a crm:E39_Actor ;
+<http://data.odeuropa.eu/actor/8e93daaa-9e99-5b7f-b62d-602c4dd6c220> a crm:E21_Person ;
     rdfs:label "Peter Laurie" ;
+    owl:sameAs <http://www.wikidata.org/entity/Q7175372> ;
     schema:birthDate <http://data.odeuropa.eu/time/d253d9a2-3190-572a-aa64-636a762ccb71> ;
     schema:deathDate <http://data.odeuropa.eu/time/d253d9a2-3190-572a-aa64-636a762ccb71> .
 
-<http://data.odeuropa.eu/actor/a74f687e-17e1-5b55-8e40-72dc64b650a5> a crm:E39_Actor ;
+<http://data.odeuropa.eu/actor/a74f687e-17e1-5b55-8e40-72dc64b650a5> a crm:E21_Person ;
     rdfs:label "Thomas Harley" ;
+    owl:sameAs <http://www.wikidata.org/entity/Q7790431> ;
     schema:birthDate <http://data.odeuropa.eu/time/d253d9a2-3190-572a-aa64-636a762ccb71> ;
     schema:deathDate <http://data.odeuropa.eu/time/d253d9a2-3190-572a-aa64-636a762ccb71> .
 
-<http://data.odeuropa.eu/actor/acc1c256-b3b7-5f01-aaa3-941f51ef75f4> a crm:E39_Actor ;
+<http://data.odeuropa.eu/actor/acc1c256-b3b7-5f01-aaa3-941f51ef75f4> a crm:E21_Person ;
     rdfs:label "Joshua Jonathan" ;
+    owl:sameAs <http://www.wikidata.org/entity/Q77075760> ;
     schema:birthDate <http://data.odeuropa.eu/time/d253d9a2-3190-572a-aa64-636a762ccb71> ;
     schema:deathDate <http://data.odeuropa.eu/time/d253d9a2-3190-572a-aa64-636a762ccb71> .
 
-<http://data.odeuropa.eu/actor/b058da1f-e11d-5cfb-a1a7-ee3378b2583e> a crm:E39_Actor ;
+<http://data.odeuropa.eu/actor/b058da1f-e11d-5cfb-a1a7-ee3378b2583e> a crm:E21_Person ;
     rdfs:label "Peter Perchard" ;
+    owl:sameAs <http://www.wikidata.org/entity/Q16858186> ;
     schema:birthDate <http://data.odeuropa.eu/time/d253d9a2-3190-572a-aa64-636a762ccb71> ;
     schema:deathDate <http://data.odeuropa.eu/time/d253d9a2-3190-572a-aa64-636a762ccb71> .
 
-<http://data.odeuropa.eu/actor/b5eb8bee-d93e-556b-afe6-98de8ab347fc> a crm:E39_Actor ;
+<http://data.odeuropa.eu/actor/b5eb8bee-d93e-556b-afe6-98de8ab347fc> a crm:E21_Person ;
     rdfs:label "Samuel Plumbe" ;
+    owl:sameAs <http://www.wikidata.org/entity/Q109854221> ;
     schema:birthDate <http://data.odeuropa.eu/time/d253d9a2-3190-572a-aa64-636a762ccb71> ;
     schema:deathDate <http://data.odeuropa.eu/time/d253d9a2-3190-572a-aa64-636a762ccb71> .
 
-<http://data.odeuropa.eu/actor/bc5b19aa-6f05-5637-9ff0-4fa3054626a3> a crm:E39_Actor ;
+<http://data.odeuropa.eu/actor/bc5b19aa-6f05-5637-9ff0-4fa3054626a3> a crm:E21_Person ;
     rdfs:label "Robert Dallas" ;
+    owl:sameAs <http://www.wikidata.org/entity/Q7343367> ;
     schema:birthDate <http://data.odeuropa.eu/time/d253d9a2-3190-572a-aa64-636a762ccb71> ;
     schema:deathDate <http://data.odeuropa.eu/time/d253d9a2-3190-572a-aa64-636a762ccb71> .
 
-<http://data.odeuropa.eu/actor/bd933347-bfbb-5d9a-a1cf-d9fe9d500f52> a crm:E39_Actor ;
+<http://data.odeuropa.eu/actor/bd933347-bfbb-5d9a-a1cf-d9fe9d500f52> a crm:E21_Person ;
     rdfs:label "John Skynner" ;
+    owl:sameAs <http://www.wikidata.org/entity/Q18813287> ;
     schema:birthDate <http://data.odeuropa.eu/time/d253d9a2-3190-572a-aa64-636a762ccb71> ;
     schema:deathDate <http://data.odeuropa.eu/time/d253d9a2-3190-572a-aa64-636a762ccb71> .
 
@@ -6706,13 +6812,15 @@
     schema:birthDate <http://data.odeuropa.eu/time/d253d9a2-3190-572a-aa64-636a762ccb71> ;
     schema:deathDate <http://data.odeuropa.eu/time/d253d9a2-3190-572a-aa64-636a762ccb71> .
 
-<http://data.odeuropa.eu/actor/d005d033-bec4-54bd-984f-1c562eb75f19> a crm:E39_Actor ;
+<http://data.odeuropa.eu/actor/d005d033-bec4-54bd-984f-1c562eb75f19> a crm:E21_Person ;
     rdfs:label "George Perrott" ;
+    owl:sameAs <http://www.wikidata.org/entity/Q94139204> ;
     schema:birthDate <http://data.odeuropa.eu/time/d253d9a2-3190-572a-aa64-636a762ccb71> ;
     schema:deathDate <http://data.odeuropa.eu/time/d253d9a2-3190-572a-aa64-636a762ccb71> .
 
-<http://data.odeuropa.eu/actor/e8ff1de1-9c0e-5603-be5b-7b788d941702> a crm:E39_Actor ;
+<http://data.odeuropa.eu/actor/e8ff1de1-9c0e-5603-be5b-7b788d941702> a crm:E21_Person ;
     rdfs:label "Richard Carr" ;
+    owl:sameAs <http://www.wikidata.org/entity/Q1810075> ;
     schema:birthDate <http://data.odeuropa.eu/time/d253d9a2-3190-572a-aa64-636a762ccb71> ;
     schema:deathDate <http://data.odeuropa.eu/time/d253d9a2-3190-572a-aa64-636a762ccb71> .
 
@@ -6771,33 +6879,39 @@
     time:hasBeginning "1812"^^xsd:gYear ;
     time:hasEnd "1812"^^xsd:gYear .
 
-<http://data.odeuropa.eu/actor/0461100f-d498-5be5-b253-cccf476a9aa1> a crm:E39_Actor ;
+<http://data.odeuropa.eu/actor/0461100f-d498-5be5-b253-cccf476a9aa1> a crm:E21_Person ;
     rdfs:label "Joseph Yates" ;
+    owl:sameAs <http://www.wikidata.org/entity/Q6281740> ;
     schema:birthDate <http://data.odeuropa.eu/time/d253d9a2-3190-572a-aa64-636a762ccb71> ;
     schema:deathDate <http://data.odeuropa.eu/time/d253d9a2-3190-572a-aa64-636a762ccb71> .
 
-<http://data.odeuropa.eu/actor/26662c5d-3975-582b-ae52-1ae4478c9294> a crm:E39_Actor ;
+<http://data.odeuropa.eu/actor/26662c5d-3975-582b-ae52-1ae4478c9294> a crm:E21_Person ;
     rdfs:label "George Perrot" ;
+    owl:sameAs <http://www.wikidata.org/entity/Q18756723> ;
     schema:birthDate <http://data.odeuropa.eu/time/d253d9a2-3190-572a-aa64-636a762ccb71> ;
     schema:deathDate <http://data.odeuropa.eu/time/d253d9a2-3190-572a-aa64-636a762ccb71> .
 
-<http://data.odeuropa.eu/actor/28732183-ead5-54fc-bd9c-6ac5d2beac75> a crm:E39_Actor ;
+<http://data.odeuropa.eu/actor/28732183-ead5-54fc-bd9c-6ac5d2beac75> a crm:E21_Person ;
     rdfs:label "Robert Ladbroke" ;
+    owl:sameAs <http://www.wikidata.org/entity/Q18160477> ;
     schema:birthDate <http://data.odeuropa.eu/time/d253d9a2-3190-572a-aa64-636a762ccb71> ;
     schema:deathDate <http://data.odeuropa.eu/time/d253d9a2-3190-572a-aa64-636a762ccb71> .
 
-<http://data.odeuropa.eu/actor/2975c545-3b8f-5d99-b5fc-536fbcbfba52> a crm:E39_Actor ;
+<http://data.odeuropa.eu/actor/2975c545-3b8f-5d99-b5fc-536fbcbfba52> a crm:E21_Person ;
     rdfs:label "James Townsend" ;
+    owl:sameAs <http://www.wikidata.org/entity/Q16225698> ;
     schema:birthDate <http://data.odeuropa.eu/time/d253d9a2-3190-572a-aa64-636a762ccb71> ;
     schema:deathDate <http://data.odeuropa.eu/time/d253d9a2-3190-572a-aa64-636a762ccb71> .
 
-<http://data.odeuropa.eu/actor/31e3a0c9-c587-51dc-aa37-9144f4f889bd> a crm:E39_Actor ;
+<http://data.odeuropa.eu/actor/31e3a0c9-c587-51dc-aa37-9144f4f889bd> a crm:E21_Person ;
     rdfs:label "Edward Becher" ;
+    owl:sameAs <http://www.wikidata.org/entity/Q75677326> ;
     schema:birthDate <http://data.odeuropa.eu/time/d253d9a2-3190-572a-aa64-636a762ccb71> ;
     schema:deathDate <http://data.odeuropa.eu/time/d253d9a2-3190-572a-aa64-636a762ccb71> .
 
-<http://data.odeuropa.eu/actor/3faca130-15f5-540f-a42a-f5bba144fa67> a crm:E39_Actor ;
+<http://data.odeuropa.eu/actor/3faca130-15f5-540f-a42a-f5bba144fa67> a crm:E21_Person ;
     rdfs:label "William Bridgen" ;
+    owl:sameAs <http://www.wikidata.org/entity/Q75418652> ;
     schema:birthDate <http://data.odeuropa.eu/time/d253d9a2-3190-572a-aa64-636a762ccb71> ;
     schema:deathDate <http://data.odeuropa.eu/time/d253d9a2-3190-572a-aa64-636a762ccb71> .
 
@@ -6806,8 +6920,9 @@
     schema:birthDate <http://data.odeuropa.eu/time/d253d9a2-3190-572a-aa64-636a762ccb71> ;
     schema:deathDate <http://data.odeuropa.eu/time/d253d9a2-3190-572a-aa64-636a762ccb71> .
 
-<http://data.odeuropa.eu/actor/47211a16-5af8-5f78-9e78-ea567a74182f> a crm:E39_Actor ;
+<http://data.odeuropa.eu/actor/47211a16-5af8-5f78-9e78-ea567a74182f> a crm:E21_Person ;
     rdfs:label "James Allan Park" ;
+    owl:sameAs <http://www.wikidata.org/entity/Q6128456> ;
     schema:birthDate <http://data.odeuropa.eu/time/d253d9a2-3190-572a-aa64-636a762ccb71> ;
     schema:deathDate <http://data.odeuropa.eu/time/d253d9a2-3190-572a-aa64-636a762ccb71> .
 
@@ -6831,43 +6946,51 @@
     schema:birthDate <http://data.odeuropa.eu/time/d253d9a2-3190-572a-aa64-636a762ccb71> ;
     schema:deathDate <http://data.odeuropa.eu/time/d253d9a2-3190-572a-aa64-636a762ccb71> .
 
-<http://data.odeuropa.eu/actor/8923a331-de88-582b-ac77-5c61037e0d0a> a crm:E39_Actor ;
+<http://data.odeuropa.eu/actor/8923a331-de88-582b-ac77-5c61037e0d0a> a crm:E21_Person ;
     rdfs:label "George Sowley Holroyd" ;
+    owl:sameAs <http://www.wikidata.org/entity/Q16239939> ;
     schema:birthDate <http://data.odeuropa.eu/time/d253d9a2-3190-572a-aa64-636a762ccb71> ;
     schema:deathDate <http://data.odeuropa.eu/time/d253d9a2-3190-572a-aa64-636a762ccb71> .
 
-<http://data.odeuropa.eu/actor/89be7cbc-2f49-5ba7-bf42-9b4df1a0309e> a crm:E39_Actor ;
+<http://data.odeuropa.eu/actor/89be7cbc-2f49-5ba7-bf42-9b4df1a0309e> a crm:E21_Person ;
     rdfs:label "Thomas Rawlinson" ;
+    owl:sameAs <http://www.wikidata.org/entity/Q18530856> ;
     schema:birthDate <http://data.odeuropa.eu/time/d253d9a2-3190-572a-aa64-636a762ccb71> ;
     schema:deathDate <http://data.odeuropa.eu/time/d253d9a2-3190-572a-aa64-636a762ccb71> .
 
-<http://data.odeuropa.eu/actor/8ccb17a1-6280-5e64-a648-457592bf1f53> a crm:E39_Actor ;
+<http://data.odeuropa.eu/actor/8ccb17a1-6280-5e64-a648-457592bf1f53> a crm:E21_Person ;
     rdfs:label "Richard Lea" ;
+    owl:sameAs <http://www.wikidata.org/entity/Q318960> ;
     schema:birthDate <http://data.odeuropa.eu/time/d253d9a2-3190-572a-aa64-636a762ccb71> ;
     schema:deathDate <http://data.odeuropa.eu/time/d253d9a2-3190-572a-aa64-636a762ccb71> .
 
-<http://data.odeuropa.eu/actor/95744dbe-dcae-5689-a68a-020b0be5e488> a crm:E39_Actor ;
+<http://data.odeuropa.eu/actor/95744dbe-dcae-5689-a68a-020b0be5e488> a crm:E21_Person ;
     rdfs:label "Thomas Skinner" ;
+    owl:sameAs <http://www.wikidata.org/entity/Q7794001> ;
     schema:birthDate <http://data.odeuropa.eu/time/d253d9a2-3190-572a-aa64-636a762ccb71> ;
     schema:deathDate <http://data.odeuropa.eu/time/d253d9a2-3190-572a-aa64-636a762ccb71> .
 
-<http://data.odeuropa.eu/actor/95b3e7a4-5c9f-54e4-8b05-314d2ef9b545> a crm:E39_Actor ;
+<http://data.odeuropa.eu/actor/95b3e7a4-5c9f-54e4-8b05-314d2ef9b545> a crm:E21_Person ;
     rdfs:label "John Eardley" ;
+    owl:sameAs <http://www.wikidata.org/entity/Q7527746> ;
     schema:birthDate <http://data.odeuropa.eu/time/d253d9a2-3190-572a-aa64-636a762ccb71> ;
     schema:deathDate <http://data.odeuropa.eu/time/d253d9a2-3190-572a-aa64-636a762ccb71> .
 
-<http://data.odeuropa.eu/actor/996ce5e0-44eb-54db-ba54-b5768775320b> a crm:E39_Actor ;
+<http://data.odeuropa.eu/actor/996ce5e0-44eb-54db-ba54-b5768775320b> a crm:E21_Person ;
     rdfs:label "John Bayley" ;
+    owl:sameAs <http://www.wikidata.org/entity/Q6221174> ;
     schema:birthDate <http://data.odeuropa.eu/time/d253d9a2-3190-572a-aa64-636a762ccb71> ;
     schema:deathDate <http://data.odeuropa.eu/time/d253d9a2-3190-572a-aa64-636a762ccb71> .
 
-<http://data.odeuropa.eu/actor/a274cafd-38e5-55df-8f6d-1f5d126f47bc> a crm:E39_Actor ;
+<http://data.odeuropa.eu/actor/a274cafd-38e5-55df-8f6d-1f5d126f47bc> a crm:E21_Person ;
     rdfs:label "Nathaniel Newnham" ;
+    owl:sameAs <http://www.wikidata.org/entity/Q26898963> ;
     schema:birthDate <http://data.odeuropa.eu/time/d253d9a2-3190-572a-aa64-636a762ccb71> ;
     schema:deathDate <http://data.odeuropa.eu/time/d253d9a2-3190-572a-aa64-636a762ccb71> .
 
-<http://data.odeuropa.eu/actor/a6dd2979-3e68-596a-92f1-3b7bb511862c> a crm:E39_Actor ;
+<http://data.odeuropa.eu/actor/a6dd2979-3e68-596a-92f1-3b7bb511862c> a crm:E21_Person ;
     rdfs:label "Watkin Lewis" ;
+    owl:sameAs <http://www.wikidata.org/entity/Q97066423> ;
     schema:birthDate <http://data.odeuropa.eu/time/d253d9a2-3190-572a-aa64-636a762ccb71> ;
     schema:deathDate <http://data.odeuropa.eu/time/d253d9a2-3190-572a-aa64-636a762ccb71> .
 
@@ -6876,23 +6999,27 @@
     schema:birthDate <http://data.odeuropa.eu/time/d253d9a2-3190-572a-aa64-636a762ccb71> ;
     schema:deathDate <http://data.odeuropa.eu/time/d253d9a2-3190-572a-aa64-636a762ccb71> .
 
-<http://data.odeuropa.eu/actor/a9d22342-1f52-5c79-a119-59e91c3a59e0> a crm:E39_Actor ;
+<http://data.odeuropa.eu/actor/a9d22342-1f52-5c79-a119-59e91c3a59e0> a crm:E21_Person ;
     rdfs:label "Samuel Pennant" ;
+    owl:sameAs <http://www.wikidata.org/entity/Q7412378> ;
     schema:birthDate <http://data.odeuropa.eu/time/d253d9a2-3190-572a-aa64-636a762ccb71> ;
     schema:deathDate <http://data.odeuropa.eu/time/d253d9a2-3190-572a-aa64-636a762ccb71> .
 
-<http://data.odeuropa.eu/actor/b69ccbf5-f793-579a-b17c-6929f88df51f> a crm:E39_Actor ;
+<http://data.odeuropa.eu/actor/b69ccbf5-f793-579a-b17c-6929f88df51f> a crm:E21_Person ;
     rdfs:label "Baron Clark" ;
+    owl:sameAs <http://www.wikidata.org/entity/Q371258> ;
     schema:birthDate <http://data.odeuropa.eu/time/d253d9a2-3190-572a-aa64-636a762ccb71> ;
     schema:deathDate <http://data.odeuropa.eu/time/d253d9a2-3190-572a-aa64-636a762ccb71> .
 
-<http://data.odeuropa.eu/actor/c16e53a1-9454-58cc-b58a-d0b97ba9e279> a crm:E39_Actor ;
+<http://data.odeuropa.eu/actor/c16e53a1-9454-58cc-b58a-d0b97ba9e279> a crm:E21_Person ;
     rdfs:label "John Crowder" ;
+    owl:sameAs <http://www.wikidata.org/entity/Q5307835> ;
     schema:birthDate <http://data.odeuropa.eu/time/d253d9a2-3190-572a-aa64-636a762ccb71> ;
     schema:deathDate <http://data.odeuropa.eu/time/d253d9a2-3190-572a-aa64-636a762ccb71> .
 
-<http://data.odeuropa.eu/actor/c4f39fac-7a00-5d71-96a0-8085f41f7d51> a crm:E39_Actor ;
+<http://data.odeuropa.eu/actor/c4f39fac-7a00-5d71-96a0-8085f41f7d51> a crm:E21_Person ;
     rdfs:label "George Thorold" ;
+    owl:sameAs <http://www.wikidata.org/entity/Q75642658> ;
     schema:birthDate <http://data.odeuropa.eu/time/d253d9a2-3190-572a-aa64-636a762ccb71> ;
     schema:deathDate <http://data.odeuropa.eu/time/d253d9a2-3190-572a-aa64-636a762ccb71> .
 
@@ -6901,13 +7028,15 @@
     schema:birthDate <http://data.odeuropa.eu/time/d253d9a2-3190-572a-aa64-636a762ccb71> ;
     schema:deathDate <http://data.odeuropa.eu/time/d253d9a2-3190-572a-aa64-636a762ccb71> .
 
-<http://data.odeuropa.eu/actor/eea1494b-166f-5d44-8a3c-55e3b0ae2d08> a crm:E39_Actor ;
+<http://data.odeuropa.eu/actor/eea1494b-166f-5d44-8a3c-55e3b0ae2d08> a crm:E21_Person ;
     rdfs:label "Anthony Brown" ;
+    owl:sameAs <http://www.wikidata.org/entity/Q20440606> ;
     schema:birthDate <http://data.odeuropa.eu/time/d253d9a2-3190-572a-aa64-636a762ccb71> ;
     schema:deathDate <http://data.odeuropa.eu/time/d253d9a2-3190-572a-aa64-636a762ccb71> .
 
-<http://data.odeuropa.eu/actor/f0ad5ee0-0379-54a1-a564-7cbed5524c93> a crm:E39_Actor ;
+<http://data.odeuropa.eu/actor/f0ad5ee0-0379-54a1-a564-7cbed5524c93> a crm:E21_Person ;
     rdfs:label "Thomas Sainsbury" ;
+    owl:sameAs <http://www.wikidata.org/entity/Q60243117> ;
     schema:birthDate <http://data.odeuropa.eu/time/d253d9a2-3190-572a-aa64-636a762ccb71> ;
     schema:deathDate <http://data.odeuropa.eu/time/d253d9a2-3190-572a-aa64-636a762ccb71> .
 
@@ -6976,18 +7105,21 @@
     time:hasBeginning "1720"^^xsd:gYear ;
     time:hasEnd "1720"^^xsd:gYear .
 
-<http://data.odeuropa.eu/actor/059e5b31-8a7b-56f3-87df-8a15d13f044d> a crm:E39_Actor ;
+<http://data.odeuropa.eu/actor/059e5b31-8a7b-56f3-87df-8a15d13f044d> a crm:E21_Person ;
     rdfs:label "Thomas Abney" ;
+    owl:sameAs <http://www.wikidata.org/entity/Q7786931> ;
     schema:birthDate <http://data.odeuropa.eu/time/d253d9a2-3190-572a-aa64-636a762ccb71> ;
     schema:deathDate <http://data.odeuropa.eu/time/d253d9a2-3190-572a-aa64-636a762ccb71> .
 
-<http://data.odeuropa.eu/actor/1307cc02-a95a-517d-935b-331a47074604> a crm:E39_Actor ;
+<http://data.odeuropa.eu/actor/1307cc02-a95a-517d-935b-331a47074604> a crm:E21_Person ;
     rdfs:label "William Stewart" ;
+    owl:sameAs <http://www.wikidata.org/entity/Q1691252> ;
     schema:birthDate <http://data.odeuropa.eu/time/d253d9a2-3190-572a-aa64-636a762ccb71> ;
     schema:deathDate <http://data.odeuropa.eu/time/d253d9a2-3190-572a-aa64-636a762ccb71> .
 
-<http://data.odeuropa.eu/actor/25dc3e3e-c3e8-5431-9104-1e91f0acc183> a crm:E39_Actor ;
+<http://data.odeuropa.eu/actor/25dc3e3e-c3e8-5431-9104-1e91f0acc183> a crm:E21_Person ;
     rdfs:label "Robert Westley" ;
+    owl:sameAs <http://www.wikidata.org/entity/Q26678275> ;
     schema:birthDate <http://data.odeuropa.eu/time/d253d9a2-3190-572a-aa64-636a762ccb71> ;
     schema:deathDate <http://data.odeuropa.eu/time/d253d9a2-3190-572a-aa64-636a762ccb71> .
 
@@ -7001,8 +7133,9 @@
     schema:birthDate <http://data.odeuropa.eu/time/d253d9a2-3190-572a-aa64-636a762ccb71> ;
     schema:deathDate <http://data.odeuropa.eu/time/d253d9a2-3190-572a-aa64-636a762ccb71> .
 
-<http://data.odeuropa.eu/actor/3f81b672-cb48-567d-9b1d-985d5c858934> a crm:E39_Actor ;
+<http://data.odeuropa.eu/actor/3f81b672-cb48-567d-9b1d-985d5c858934> a crm:E21_Person ;
     rdfs:label "Robert Kite" ;
+    owl:sameAs <http://www.wikidata.org/entity/Q7346394> ;
     schema:birthDate <http://data.odeuropa.eu/time/d253d9a2-3190-572a-aa64-636a762ccb71> ;
     schema:deathDate <http://data.odeuropa.eu/time/d253d9a2-3190-572a-aa64-636a762ccb71> .
 
@@ -7011,23 +7144,27 @@
     schema:birthDate <http://data.odeuropa.eu/time/d253d9a2-3190-572a-aa64-636a762ccb71> ;
     schema:deathDate <http://data.odeuropa.eu/time/d253d9a2-3190-572a-aa64-636a762ccb71> .
 
-<http://data.odeuropa.eu/actor/4abcc5da-3bc3-55d2-acd8-fab5fd921cd2> a crm:E39_Actor ;
+<http://data.odeuropa.eu/actor/4abcc5da-3bc3-55d2-acd8-fab5fd921cd2> a crm:E21_Person ;
     rdfs:label "Matthew Bloxam" ;
+    owl:sameAs <http://www.wikidata.org/entity/Q6790176> ;
     schema:birthDate <http://data.odeuropa.eu/time/d253d9a2-3190-572a-aa64-636a762ccb71> ;
     schema:deathDate <http://data.odeuropa.eu/time/d253d9a2-3190-572a-aa64-636a762ccb71> .
 
-<http://data.odeuropa.eu/actor/4bfcaed1-f427-5a96-a535-3351b614b6f6> a crm:E39_Actor ;
+<http://data.odeuropa.eu/actor/4bfcaed1-f427-5a96-a535-3351b614b6f6> a crm:E21_Person ;
     rdfs:label "William Benn" ;
+    owl:sameAs <http://www.wikidata.org/entity/Q15433259> ;
     schema:birthDate <http://data.odeuropa.eu/time/d253d9a2-3190-572a-aa64-636a762ccb71> ;
     schema:deathDate <http://data.odeuropa.eu/time/d253d9a2-3190-572a-aa64-636a762ccb71> .
 
-<http://data.odeuropa.eu/actor/4f6cca8f-f60d-5506-9dc1-7d0b4d32978c> a crm:E39_Actor ;
+<http://data.odeuropa.eu/actor/4f6cca8f-f60d-5506-9dc1-7d0b4d32978c> a crm:E21_Person ;
     rdfs:label "Robert Baylis" ;
+    owl:sameAs <http://www.wikidata.org/entity/Q39895528> ;
     schema:birthDate <http://data.odeuropa.eu/time/d253d9a2-3190-572a-aa64-636a762ccb71> ;
     schema:deathDate <http://data.odeuropa.eu/time/d253d9a2-3190-572a-aa64-636a762ccb71> .
 
-<http://data.odeuropa.eu/actor/5496b79a-65ba-5f0c-899c-bbd0496e466c> a crm:E39_Actor ;
+<http://data.odeuropa.eu/actor/5496b79a-65ba-5f0c-899c-bbd0496e466c> a crm:E21_Person ;
     rdfs:label "John Fryer" ;
+    owl:sameAs <http://www.wikidata.org/entity/Q120575> ;
     schema:birthDate <http://data.odeuropa.eu/time/d253d9a2-3190-572a-aa64-636a762ccb71> ;
     schema:deathDate <http://data.odeuropa.eu/time/d253d9a2-3190-572a-aa64-636a762ccb71> .
 
@@ -7036,18 +7173,21 @@
     schema:birthDate <http://data.odeuropa.eu/time/d253d9a2-3190-572a-aa64-636a762ccb71> ;
     schema:deathDate <http://data.odeuropa.eu/time/d253d9a2-3190-572a-aa64-636a762ccb71> .
 
-<http://data.odeuropa.eu/actor/585b2b21-3d15-5f02-9d23-d4241a36a352> a crm:E39_Actor ;
+<http://data.odeuropa.eu/actor/585b2b21-3d15-5f02-9d23-d4241a36a352> a crm:E21_Person ;
     rdfs:label "Matthias Prime Lucas" ;
+    owl:sameAs <http://www.wikidata.org/entity/Q102063372> ;
     schema:birthDate <http://data.odeuropa.eu/time/d253d9a2-3190-572a-aa64-636a762ccb71> ;
     schema:deathDate <http://data.odeuropa.eu/time/d253d9a2-3190-572a-aa64-636a762ccb71> .
 
-<http://data.odeuropa.eu/actor/5ac90f90-1efc-58ab-8a92-afba048336a2> a crm:E39_Actor ;
+<http://data.odeuropa.eu/actor/5ac90f90-1efc-58ab-8a92-afba048336a2> a crm:E21_Person ;
     rdfs:label "John Eyles" ;
+    owl:sameAs <http://www.wikidata.org/entity/Q16239516> ;
     schema:birthDate <http://data.odeuropa.eu/time/d253d9a2-3190-572a-aa64-636a762ccb71> ;
     schema:deathDate <http://data.odeuropa.eu/time/d253d9a2-3190-572a-aa64-636a762ccb71> .
 
-<http://data.odeuropa.eu/actor/5ca1bc2a-3c7f-5442-ba48-896ecafff102> a crm:E39_Actor ;
+<http://data.odeuropa.eu/actor/5ca1bc2a-3c7f-5442-ba48-896ecafff102> a crm:E21_Person ;
     rdfs:label "Peter Delme" ;
+    owl:sameAs <http://www.wikidata.org/entity/Q7173620> ;
     schema:birthDate <http://data.odeuropa.eu/time/d253d9a2-3190-572a-aa64-636a762ccb71> ;
     schema:deathDate <http://data.odeuropa.eu/time/d253d9a2-3190-572a-aa64-636a762ccb71> .
 
@@ -7056,8 +7196,9 @@
     schema:birthDate <http://data.odeuropa.eu/time/d253d9a2-3190-572a-aa64-636a762ccb71> ;
     schema:deathDate <http://data.odeuropa.eu/time/d253d9a2-3190-572a-aa64-636a762ccb71> .
 
-<http://data.odeuropa.eu/actor/71adb9d7-2656-5432-b795-e14025039a39> a crm:E39_Actor ;
+<http://data.odeuropa.eu/actor/71adb9d7-2656-5432-b795-e14025039a39> a crm:E21_Person ;
     rdfs:label "Gerard Conyers" ;
+    owl:sameAs <http://www.wikidata.org/entity/Q22336791> ;
     schema:birthDate <http://data.odeuropa.eu/time/d253d9a2-3190-572a-aa64-636a762ccb71> ;
     schema:deathDate <http://data.odeuropa.eu/time/d253d9a2-3190-572a-aa64-636a762ccb71> .
 
@@ -7066,13 +7207,15 @@
     schema:birthDate <http://data.odeuropa.eu/time/d253d9a2-3190-572a-aa64-636a762ccb71> ;
     schema:deathDate <http://data.odeuropa.eu/time/d253d9a2-3190-572a-aa64-636a762ccb71> .
 
-<http://data.odeuropa.eu/actor/9d2b8e7a-7077-57cb-a575-07947abf9be2> a crm:E39_Actor ;
+<http://data.odeuropa.eu/actor/9d2b8e7a-7077-57cb-a575-07947abf9be2> a crm:E21_Person ;
     rdfs:label "Matthew Blakiston" ;
+    owl:sameAs <http://www.wikidata.org/entity/Q6790173> ;
     schema:birthDate <http://data.odeuropa.eu/time/d253d9a2-3190-572a-aa64-636a762ccb71> ;
     schema:deathDate <http://data.odeuropa.eu/time/d253d9a2-3190-572a-aa64-636a762ccb71> .
 
-<http://data.odeuropa.eu/actor/9e80c693-bc02-5e07-afac-168680305ae3> a crm:E39_Actor ;
+<http://data.odeuropa.eu/actor/9e80c693-bc02-5e07-afac-168680305ae3> a crm:E21_Person ;
     rdfs:label "George Wood" ;
+    owl:sameAs <http://www.wikidata.org/entity/Q665851> ;
     schema:birthDate <http://data.odeuropa.eu/time/d253d9a2-3190-572a-aa64-636a762ccb71> ;
     schema:deathDate <http://data.odeuropa.eu/time/d253d9a2-3190-572a-aa64-636a762ccb71> .
 
@@ -7081,28 +7224,33 @@
     schema:birthDate <http://data.odeuropa.eu/time/d253d9a2-3190-572a-aa64-636a762ccb71> ;
     schema:deathDate <http://data.odeuropa.eu/time/d253d9a2-3190-572a-aa64-636a762ccb71> .
 
-<http://data.odeuropa.eu/actor/ab1f40c4-90e7-58f0-a2b7-2b42ada523e0> a crm:E39_Actor ;
+<http://data.odeuropa.eu/actor/ab1f40c4-90e7-58f0-a2b7-2b42ada523e0> a crm:E21_Person ;
     rdfs:label "Robert Godschall" ;
+    owl:sameAs <http://www.wikidata.org/entity/Q28800063> ;
     schema:birthDate <http://data.odeuropa.eu/time/d253d9a2-3190-572a-aa64-636a762ccb71> ;
     schema:deathDate <http://data.odeuropa.eu/time/d253d9a2-3190-572a-aa64-636a762ccb71> .
 
-<http://data.odeuropa.eu/actor/b49ed84a-4107-55ba-a3f2-39fdf159d197> a crm:E39_Actor ;
+<http://data.odeuropa.eu/actor/b49ed84a-4107-55ba-a3f2-39fdf159d197> a crm:E21_Person ;
     rdfs:label "Francis Cokayne" ;
+    owl:sameAs <http://www.wikidata.org/entity/Q75591233> ;
     schema:birthDate <http://data.odeuropa.eu/time/d253d9a2-3190-572a-aa64-636a762ccb71> ;
     schema:deathDate <http://data.odeuropa.eu/time/d253d9a2-3190-572a-aa64-636a762ccb71> .
 
-<http://data.odeuropa.eu/actor/bbaca26e-1863-54c8-86b2-65860c987a1c> a crm:E39_Actor ;
+<http://data.odeuropa.eu/actor/bbaca26e-1863-54c8-86b2-65860c987a1c> a crm:E21_Person ;
     rdfs:label "Soulden Lawrence" ;
+    owl:sameAs <http://www.wikidata.org/entity/Q18672345> ;
     schema:birthDate <http://data.odeuropa.eu/time/d253d9a2-3190-572a-aa64-636a762ccb71> ;
     schema:deathDate <http://data.odeuropa.eu/time/d253d9a2-3190-572a-aa64-636a762ccb71> .
 
-<http://data.odeuropa.eu/actor/c964554d-e46d-5061-82c6-6a68d08103c6> a crm:E39_Actor ;
+<http://data.odeuropa.eu/actor/c964554d-e46d-5061-82c6-6a68d08103c6> a crm:E21_Person ;
     rdfs:label "William Stephenson" ;
+    owl:sameAs <http://www.wikidata.org/entity/Q620577> ;
     schema:birthDate <http://data.odeuropa.eu/time/d253d9a2-3190-572a-aa64-636a762ccb71> ;
     schema:deathDate <http://data.odeuropa.eu/time/d253d9a2-3190-572a-aa64-636a762ccb71> .
 
-<http://data.odeuropa.eu/actor/cbc000bc-50d2-5e38-9750-50f92782538e> a crm:E39_Actor ;
+<http://data.odeuropa.eu/actor/cbc000bc-50d2-5e38-9750-50f92782538e> a crm:E21_Person ;
     rdfs:label "John Key" ;
+    owl:sameAs <http://www.wikidata.org/entity/Q57783> ;
     schema:birthDate <http://data.odeuropa.eu/time/d253d9a2-3190-572a-aa64-636a762ccb71> ;
     schema:deathDate <http://data.odeuropa.eu/time/d253d9a2-3190-572a-aa64-636a762ccb71> .
 
@@ -7111,8 +7259,9 @@
     schema:birthDate <http://data.odeuropa.eu/time/d253d9a2-3190-572a-aa64-636a762ccb71> ;
     schema:deathDate <http://data.odeuropa.eu/time/d253d9a2-3190-572a-aa64-636a762ccb71> .
 
-<http://data.odeuropa.eu/actor/f6548335-201a-599c-b8da-3df17b7828d8> a crm:E39_Actor ;
+<http://data.odeuropa.eu/actor/f6548335-201a-599c-b8da-3df17b7828d8> a crm:E21_Person ;
     rdfs:label "George Bridges" ;
+    owl:sameAs <http://www.wikidata.org/entity/Q20090344> ;
     schema:birthDate <http://data.odeuropa.eu/time/d253d9a2-3190-572a-aa64-636a762ccb71> ;
     schema:deathDate <http://data.odeuropa.eu/time/d253d9a2-3190-572a-aa64-636a762ccb71> .
 
@@ -7211,28 +7360,33 @@
     time:hasBeginning "1761"^^xsd:gYear ;
     time:hasEnd "1761"^^xsd:gYear .
 
-<http://data.odeuropa.eu/actor/135bf344-1cec-51b6-bef4-16930faf37da> a crm:E39_Actor ;
+<http://data.odeuropa.eu/actor/135bf344-1cec-51b6-bef4-16930faf37da> a crm:E21_Person ;
     rdfs:label "William Garrow" ;
+    owl:sameAs <http://www.wikidata.org/entity/Q3066176> ;
     schema:birthDate <http://data.odeuropa.eu/time/d253d9a2-3190-572a-aa64-636a762ccb71> ;
     schema:deathDate <http://data.odeuropa.eu/time/d253d9a2-3190-572a-aa64-636a762ccb71> .
 
-<http://data.odeuropa.eu/actor/21cf9a72-4e6d-56b4-980e-9918ac3f9af4> a crm:E39_Actor ;
+<http://data.odeuropa.eu/actor/21cf9a72-4e6d-56b4-980e-9918ac3f9af4> a crm:E21_Person ;
     rdfs:label "Thomas Birch" ;
+    owl:sameAs <http://www.wikidata.org/entity/Q175370> ;
     schema:birthDate <http://data.odeuropa.eu/time/d253d9a2-3190-572a-aa64-636a762ccb71> ;
     schema:deathDate <http://data.odeuropa.eu/time/d253d9a2-3190-572a-aa64-636a762ccb71> .
 
-<http://data.odeuropa.eu/actor/264fb86b-048e-5076-9357-18778296112b> a crm:E39_Actor ;
+<http://data.odeuropa.eu/actor/264fb86b-048e-5076-9357-18778296112b> a crm:E21_Person ;
     rdfs:label "John Wilkes" ;
+    owl:sameAs <http://www.wikidata.org/entity/Q333127> ;
     schema:birthDate <http://data.odeuropa.eu/time/d253d9a2-3190-572a-aa64-636a762ccb71> ;
     schema:deathDate <http://data.odeuropa.eu/time/d253d9a2-3190-572a-aa64-636a762ccb71> .
 
-<http://data.odeuropa.eu/actor/26cdfc83-5ea5-5523-a0cc-0671bc1ee90f> a crm:E39_Actor ;
+<http://data.odeuropa.eu/actor/26cdfc83-5ea5-5523-a0cc-0671bc1ee90f> a crm:E21_Person ;
     rdfs:label "John William Anderson" ;
+    owl:sameAs <http://www.wikidata.org/entity/Q667804> ;
     schema:birthDate <http://data.odeuropa.eu/time/d253d9a2-3190-572a-aa64-636a762ccb71> ;
     schema:deathDate <http://data.odeuropa.eu/time/d253d9a2-3190-572a-aa64-636a762ccb71> .
 
-<http://data.odeuropa.eu/actor/2ac89d82-bdbb-5840-b99c-1b48c462b864> a crm:E39_Actor ;
+<http://data.odeuropa.eu/actor/2ac89d82-bdbb-5840-b99c-1b48c462b864> a crm:E21_Person ;
     rdfs:label "William Plomer" ;
+    owl:sameAs <http://www.wikidata.org/entity/Q1282985> ;
     schema:birthDate <http://data.odeuropa.eu/time/d253d9a2-3190-572a-aa64-636a762ccb71> ;
     schema:deathDate <http://data.odeuropa.eu/time/d253d9a2-3190-572a-aa64-636a762ccb71> .
 
@@ -7241,68 +7395,81 @@
     schema:birthDate <http://data.odeuropa.eu/time/d253d9a2-3190-572a-aa64-636a762ccb71> ;
     schema:deathDate <http://data.odeuropa.eu/time/d253d9a2-3190-572a-aa64-636a762ccb71> .
 
-<http://data.odeuropa.eu/actor/4cff76b1-e419-5fe6-92da-34d1c45a4bea> a crm:E39_Actor ;
+<http://data.odeuropa.eu/actor/4cff76b1-e419-5fe6-92da-34d1c45a4bea> a crm:E21_Person ;
     rdfs:label "William Venables" ;
+    owl:sameAs <http://www.wikidata.org/entity/Q24568675> ;
     schema:birthDate <http://data.odeuropa.eu/time/d253d9a2-3190-572a-aa64-636a762ccb71> ;
     schema:deathDate <http://data.odeuropa.eu/time/d253d9a2-3190-572a-aa64-636a762ccb71> .
 
-<http://data.odeuropa.eu/actor/4d4f89e4-957b-5a10-9d7e-23c031448595> a crm:E39_Actor ;
+<http://data.odeuropa.eu/actor/4d4f89e4-957b-5a10-9d7e-23c031448595> a crm:E21_Person ;
     rdfs:label "Thomas Hallifax" ;
+    owl:sameAs <http://www.wikidata.org/entity/Q16201984> ;
     schema:birthDate <http://data.odeuropa.eu/time/d253d9a2-3190-572a-aa64-636a762ccb71> ;
     schema:deathDate <http://data.odeuropa.eu/time/d253d9a2-3190-572a-aa64-636a762ccb71> .
 
-<http://data.odeuropa.eu/actor/51af9577-0a66-5707-b815-e48a4a543a7c> a crm:E39_Actor ;
+<http://data.odeuropa.eu/actor/51af9577-0a66-5707-b815-e48a4a543a7c> a crm:E21_Person ;
     rdfs:label "Richard Carr Glyn" ;
+    owl:sameAs <http://www.wikidata.org/entity/Q7528585> ;
     schema:birthDate <http://data.odeuropa.eu/time/d253d9a2-3190-572a-aa64-636a762ccb71> ;
     schema:deathDate <http://data.odeuropa.eu/time/d253d9a2-3190-572a-aa64-636a762ccb71> .
 
-<http://data.odeuropa.eu/actor/52f7bdeb-f5fa-5567-a260-ec2589c82233> a crm:E39_Actor ;
+<http://data.odeuropa.eu/actor/52f7bdeb-f5fa-5567-a260-ec2589c82233> a crm:E21_Person ;
     rdfs:label "John Hyde" ;
+    owl:sameAs <http://www.wikidata.org/entity/Q6240562> ;
     schema:birthDate <http://data.odeuropa.eu/time/d253d9a2-3190-572a-aa64-636a762ccb71> ;
     schema:deathDate <http://data.odeuropa.eu/time/d253d9a2-3190-572a-aa64-636a762ccb71> .
 
-<http://data.odeuropa.eu/actor/58576ef7-76b8-54ea-ba01-b401cf73d44e> a crm:E39_Actor ;
+<http://data.odeuropa.eu/actor/58576ef7-76b8-54ea-ba01-b401cf73d44e> a crm:E21_Person ;
     rdfs:label "Francis Forbes" ;
+    owl:sameAs <http://www.wikidata.org/entity/Q5480968> ;
     schema:birthDate <http://data.odeuropa.eu/time/d253d9a2-3190-572a-aa64-636a762ccb71> ;
     schema:deathDate <http://data.odeuropa.eu/time/d253d9a2-3190-572a-aa64-636a762ccb71> .
 
-<http://data.odeuropa.eu/actor/65b81e7d-53ff-518d-80ad-38736a969035> a crm:E39_Actor ;
+<http://data.odeuropa.eu/actor/65b81e7d-53ff-518d-80ad-38736a969035> a crm:E21_Person ;
     rdfs:label "Paul Le Mesurier" ;
+    owl:sameAs <http://www.wikidata.org/entity/Q18534871> ;
     schema:birthDate <http://data.odeuropa.eu/time/d253d9a2-3190-572a-aa64-636a762ccb71> ;
     schema:deathDate <http://data.odeuropa.eu/time/d253d9a2-3190-572a-aa64-636a762ccb71> .
 
-<http://data.odeuropa.eu/actor/81cc7e3a-48ca-5719-bece-fe859054a051> a crm:E39_Actor ;
+<http://data.odeuropa.eu/actor/81cc7e3a-48ca-5719-bece-fe859054a051> a crm:E21_Person ;
     rdfs:label "John Williams" ;
+    owl:sameAs <http://www.wikidata.org/entity/Q131285> ;
     schema:birthDate <http://data.odeuropa.eu/time/d253d9a2-3190-572a-aa64-636a762ccb71> ;
     schema:deathDate <http://data.odeuropa.eu/time/d253d9a2-3190-572a-aa64-636a762ccb71> .
 
-<http://data.odeuropa.eu/actor/8d7802b8-a3b1-5719-b3e4-5839731fc2ae> a crm:E39_Actor ;
+<http://data.odeuropa.eu/actor/8d7802b8-a3b1-5719-b3e4-5839731fc2ae> a crm:E21_Person ;
     rdfs:label "Richard Hoare" ;
+    owl:sameAs <http://www.wikidata.org/entity/Q2363258> ;
     schema:birthDate <http://data.odeuropa.eu/time/d253d9a2-3190-572a-aa64-636a762ccb71> ;
     schema:deathDate <http://data.odeuropa.eu/time/d253d9a2-3190-572a-aa64-636a762ccb71> .
 
-<http://data.odeuropa.eu/actor/93bde90f-a46d-5e56-b34a-988e6cfb17d4> a crm:E39_Actor ;
+<http://data.odeuropa.eu/actor/93bde90f-a46d-5e56-b34a-988e6cfb17d4> a crm:E21_Person ;
     rdfs:label "John Boydell" ;
+    owl:sameAs <http://www.wikidata.org/entity/Q321419> ;
     schema:birthDate <http://data.odeuropa.eu/time/d253d9a2-3190-572a-aa64-636a762ccb71> ;
     schema:deathDate <http://data.odeuropa.eu/time/d253d9a2-3190-572a-aa64-636a762ccb71> .
 
-<http://data.odeuropa.eu/actor/bb2f4827-4246-57b7-b125-887e32a62367> a crm:E39_Actor ;
+<http://data.odeuropa.eu/actor/bb2f4827-4246-57b7-b125-887e32a62367> a crm:E21_Person ;
     rdfs:label "Humphrey Parsons" ;
+    owl:sameAs <http://www.wikidata.org/entity/Q18576351> ;
     schema:birthDate <http://data.odeuropa.eu/time/d253d9a2-3190-572a-aa64-636a762ccb71> ;
     schema:deathDate <http://data.odeuropa.eu/time/d253d9a2-3190-572a-aa64-636a762ccb71> .
 
-<http://data.odeuropa.eu/actor/bf7156d4-a2ac-5f88-ad39-dd1f7ec45ca1> a crm:E39_Actor ;
+<http://data.odeuropa.eu/actor/bf7156d4-a2ac-5f88-ad39-dd1f7ec45ca1> a crm:E21_Person ;
     rdfs:label "William Domville" ;
+    owl:sameAs <http://www.wikidata.org/entity/Q8007883> ;
     schema:birthDate <http://data.odeuropa.eu/time/d253d9a2-3190-572a-aa64-636a762ccb71> ;
     schema:deathDate <http://data.odeuropa.eu/time/d253d9a2-3190-572a-aa64-636a762ccb71> .
 
-<http://data.odeuropa.eu/actor/d6a59ef7-61eb-5bbc-b9ef-30b7e2796652> a crm:E39_Actor ;
+<http://data.odeuropa.eu/actor/d6a59ef7-61eb-5bbc-b9ef-30b7e2796652> a crm:E21_Person ;
     rdfs:label "Thomas Chitty" ;
+    owl:sameAs <http://www.wikidata.org/entity/Q21664285> ;
     schema:birthDate <http://data.odeuropa.eu/time/d253d9a2-3190-572a-aa64-636a762ccb71> ;
     schema:deathDate <http://data.odeuropa.eu/time/d253d9a2-3190-572a-aa64-636a762ccb71> .
 
-<http://data.odeuropa.eu/actor/f0a91ef1-f4f9-5415-b710-e32d25e7a7fe> a crm:E39_Actor ;
+<http://data.odeuropa.eu/actor/f0a91ef1-f4f9-5415-b710-e32d25e7a7fe> a crm:E21_Person ;
     rdfs:label "Baron Clive" ;
+    owl:sameAs <http://www.wikidata.org/entity/Q162296> ;
     schema:birthDate <http://data.odeuropa.eu/time/d253d9a2-3190-572a-aa64-636a762ccb71> ;
     schema:deathDate <http://data.odeuropa.eu/time/d253d9a2-3190-572a-aa64-636a762ccb71> .
 
@@ -7361,13 +7528,15 @@
     time:hasBeginning "1780"^^xsd:gYear ;
     time:hasEnd "1780"^^xsd:gYear .
 
-<http://data.odeuropa.eu/actor/0373570d-3c8e-5e85-9d8f-18ded1a02486> a crm:E39_Actor ;
+<http://data.odeuropa.eu/actor/0373570d-3c8e-5e85-9d8f-18ded1a02486> a crm:E21_Person ;
     rdfs:label "William Nash" ;
+    owl:sameAs <http://www.wikidata.org/entity/Q8016035> ;
     schema:birthDate <http://data.odeuropa.eu/time/d253d9a2-3190-572a-aa64-636a762ccb71> ;
     schema:deathDate <http://data.odeuropa.eu/time/d253d9a2-3190-572a-aa64-636a762ccb71> .
 
-<http://data.odeuropa.eu/actor/0ff82b9e-2f72-5810-8eef-9b070308919e> a crm:E39_Actor ;
+<http://data.odeuropa.eu/actor/0ff82b9e-2f72-5810-8eef-9b070308919e> a crm:E21_Person ;
     rdfs:label "John Hopkins" ;
+    owl:sameAs <http://www.wikidata.org/entity/Q651953> ;
     schema:birthDate <http://data.odeuropa.eu/time/d253d9a2-3190-572a-aa64-636a762ccb71> ;
     schema:deathDate <http://data.odeuropa.eu/time/d253d9a2-3190-572a-aa64-636a762ccb71> .
 
@@ -7376,33 +7545,39 @@
     schema:birthDate <http://data.odeuropa.eu/time/d253d9a2-3190-572a-aa64-636a762ccb71> ;
     schema:deathDate <http://data.odeuropa.eu/time/d253d9a2-3190-572a-aa64-636a762ccb71> .
 
-<http://data.odeuropa.eu/actor/22ee8921-1c6e-5da5-82e2-af985401473d> a crm:E39_Actor ;
+<http://data.odeuropa.eu/actor/22ee8921-1c6e-5da5-82e2-af985401473d> a crm:E21_Person ;
     rdfs:label "Giles Rooke" ;
+    owl:sameAs <http://www.wikidata.org/entity/Q106827968> ;
     schema:birthDate <http://data.odeuropa.eu/time/d253d9a2-3190-572a-aa64-636a762ccb71> ;
     schema:deathDate <http://data.odeuropa.eu/time/d253d9a2-3190-572a-aa64-636a762ccb71> .
 
-<http://data.odeuropa.eu/actor/5541c764-c037-55c5-9227-0f7a6cc71967> a crm:E39_Actor ;
+<http://data.odeuropa.eu/actor/5541c764-c037-55c5-9227-0f7a6cc71967> a crm:E21_Person ;
     rdfs:label "John Sylvester" ;
+    owl:sameAs <http://www.wikidata.org/entity/Q6259874> ;
     schema:birthDate <http://data.odeuropa.eu/time/d253d9a2-3190-572a-aa64-636a762ccb71> ;
     schema:deathDate <http://data.odeuropa.eu/time/d253d9a2-3190-572a-aa64-636a762ccb71> .
 
-<http://data.odeuropa.eu/actor/647c2331-295b-5faa-bd17-3e2fe0b4e826> a crm:E39_Actor ;
+<http://data.odeuropa.eu/actor/647c2331-295b-5faa-bd17-3e2fe0b4e826> a crm:E21_Person ;
     rdfs:label "John Salter" ;
+    owl:sameAs <http://www.wikidata.org/entity/Q18810926> ;
     schema:birthDate <http://data.odeuropa.eu/time/d253d9a2-3190-572a-aa64-636a762ccb71> ;
     schema:deathDate <http://data.odeuropa.eu/time/d253d9a2-3190-572a-aa64-636a762ccb71> .
 
-<http://data.odeuropa.eu/actor/b2b8fe36-e029-5a35-b7ab-99640d35409a> a crm:E39_Actor ;
+<http://data.odeuropa.eu/actor/b2b8fe36-e029-5a35-b7ab-99640d35409a> a crm:E21_Person ;
     rdfs:label "William Beckford" ;
+    owl:sameAs <http://www.wikidata.org/entity/Q361026> ;
     schema:birthDate <http://data.odeuropa.eu/time/d253d9a2-3190-572a-aa64-636a762ccb71> ;
     schema:deathDate <http://data.odeuropa.eu/time/d253d9a2-3190-572a-aa64-636a762ccb71> .
 
-<http://data.odeuropa.eu/actor/cc505170-f224-54e4-b8da-5125ac176426> a crm:E39_Actor ;
+<http://data.odeuropa.eu/actor/cc505170-f224-54e4-b8da-5125ac176426> a crm:E21_Person ;
     rdfs:label "William Thomson" ;
+    owl:sameAs <http://www.wikidata.org/entity/Q122701> ;
     schema:birthDate <http://data.odeuropa.eu/time/d253d9a2-3190-572a-aa64-636a762ccb71> ;
     schema:deathDate <http://data.odeuropa.eu/time/d253d9a2-3190-572a-aa64-636a762ccb71> .
 
-<http://data.odeuropa.eu/actor/ce72cf09-933b-5101-83b2-502eec014537> a crm:E39_Actor ;
+<http://data.odeuropa.eu/actor/ce72cf09-933b-5101-83b2-502eec014537> a crm:E21_Person ;
     rdfs:label "Samuel Fludyer" ;
+    owl:sameAs <http://www.wikidata.org/entity/Q3471114> ;
     schema:birthDate <http://data.odeuropa.eu/time/d253d9a2-3190-572a-aa64-636a762ccb71> ;
     schema:deathDate <http://data.odeuropa.eu/time/d253d9a2-3190-572a-aa64-636a762ccb71> .
 
@@ -7411,8 +7586,9 @@
     schema:birthDate <http://data.odeuropa.eu/time/d253d9a2-3190-572a-aa64-636a762ccb71> ;
     schema:deathDate <http://data.odeuropa.eu/time/d253d9a2-3190-572a-aa64-636a762ccb71> .
 
-<http://data.odeuropa.eu/actor/ffe93990-0554-534c-95b8-0b9044f9b8c3> a crm:E39_Actor ;
+<http://data.odeuropa.eu/actor/ffe93990-0554-534c-95b8-0b9044f9b8c3> a crm:E21_Person ;
     rdfs:label "Harvey Christian Combe" ;
+    owl:sameAs <http://www.wikidata.org/entity/Q5677102> ;
     schema:birthDate <http://data.odeuropa.eu/time/d253d9a2-3190-572a-aa64-636a762ccb71> ;
     schema:deathDate <http://data.odeuropa.eu/time/d253d9a2-3190-572a-aa64-636a762ccb71> .
 
@@ -7461,28 +7637,33 @@
     time:hasBeginning "1765"^^xsd:gYear ;
     time:hasEnd "1765"^^xsd:gYear .
 
-<http://data.odeuropa.eu/actor/238af64a-448f-5a6b-a40a-61127aab2424> a crm:E39_Actor ;
+<http://data.odeuropa.eu/actor/238af64a-448f-5a6b-a40a-61127aab2424> a crm:E21_Person ;
     rdfs:label "Henry Bathurst" ;
+    owl:sameAs <http://www.wikidata.org/entity/Q335316> ;
     schema:birthDate <http://data.odeuropa.eu/time/d253d9a2-3190-572a-aa64-636a762ccb71> ;
     schema:deathDate <http://data.odeuropa.eu/time/d253d9a2-3190-572a-aa64-636a762ccb71> .
 
-<http://data.odeuropa.eu/actor/3f4cbbb3-0af3-5df6-96e5-d932daee3381> a crm:E39_Actor ;
+<http://data.odeuropa.eu/actor/3f4cbbb3-0af3-5df6-96e5-d932daee3381> a crm:E21_Person ;
     rdfs:label "Edward Clive" ;
+    owl:sameAs <http://www.wikidata.org/entity/Q5343428> ;
     schema:birthDate <http://data.odeuropa.eu/time/d253d9a2-3190-572a-aa64-636a762ccb71> ;
     schema:deathDate <http://data.odeuropa.eu/time/d253d9a2-3190-572a-aa64-636a762ccb71> .
 
-<http://data.odeuropa.eu/actor/401cb548-323a-5458-ba51-80ab048ee7e6> a crm:E39_Actor ;
+<http://data.odeuropa.eu/actor/401cb548-323a-5458-ba51-80ab048ee7e6> a crm:E21_Person ;
     rdfs:label "Baron Thomson" ;
+    owl:sameAs <http://www.wikidata.org/entity/Q2943679> ;
     schema:birthDate <http://data.odeuropa.eu/time/d253d9a2-3190-572a-aa64-636a762ccb71> ;
     schema:deathDate <http://data.odeuropa.eu/time/d253d9a2-3190-572a-aa64-636a762ccb71> .
 
-<http://data.odeuropa.eu/actor/544d9233-955b-58e5-917e-805cb32463a3> a crm:E39_Actor ;
+<http://data.odeuropa.eu/actor/544d9233-955b-58e5-917e-805cb32463a3> a crm:E21_Person ;
     rdfs:label "William Billers" ;
+    owl:sameAs <http://www.wikidata.org/entity/Q28864157> ;
     schema:birthDate <http://data.odeuropa.eu/time/d253d9a2-3190-572a-aa64-636a762ccb71> ;
     schema:deathDate <http://data.odeuropa.eu/time/d253d9a2-3190-572a-aa64-636a762ccb71> .
 
-<http://data.odeuropa.eu/actor/582a8fdb-0778-5d7f-9cd9-4d993346f43a> a crm:E39_Actor ;
+<http://data.odeuropa.eu/actor/582a8fdb-0778-5d7f-9cd9-4d993346f43a> a crm:E21_Person ;
     rdfs:label "Micajah Perry" ;
+    owl:sameAs <http://www.wikidata.org/entity/Q18819701> ;
     schema:birthDate <http://data.odeuropa.eu/time/d253d9a2-3190-572a-aa64-636a762ccb71> ;
     schema:deathDate <http://data.odeuropa.eu/time/d253d9a2-3190-572a-aa64-636a762ccb71> .
 
@@ -7491,78 +7672,93 @@
     schema:birthDate <http://data.odeuropa.eu/time/d253d9a2-3190-572a-aa64-636a762ccb71> ;
     schema:deathDate <http://data.odeuropa.eu/time/d253d9a2-3190-572a-aa64-636a762ccb71> .
 
-<http://data.odeuropa.eu/actor/721a6dba-3912-573e-b549-00e5c4c6de4c> a crm:E39_Actor ;
+<http://data.odeuropa.eu/actor/721a6dba-3912-573e-b549-00e5c4c6de4c> a crm:E21_Person ;
     rdfs:label "James Burrough" ;
+    owl:sameAs <http://www.wikidata.org/entity/Q6130546> ;
     schema:birthDate <http://data.odeuropa.eu/time/d253d9a2-3190-572a-aa64-636a762ccb71> ;
     schema:deathDate <http://data.odeuropa.eu/time/d253d9a2-3190-572a-aa64-636a762ccb71> .
 
-<http://data.odeuropa.eu/actor/926ccbc6-fdf8-55c9-93cf-9ce7978aa666> a crm:E39_Actor ;
+<http://data.odeuropa.eu/actor/926ccbc6-fdf8-55c9-93cf-9ce7978aa666> a crm:E21_Person ;
     rdfs:label "John Barnard" ;
+    owl:sameAs <http://www.wikidata.org/entity/Q173549> ;
     schema:birthDate <http://data.odeuropa.eu/time/d253d9a2-3190-572a-aa64-636a762ccb71> ;
     schema:deathDate <http://data.odeuropa.eu/time/d253d9a2-3190-572a-aa64-636a762ccb71> .
 
-<http://data.odeuropa.eu/actor/93075c29-8e60-501a-a65a-243368a7d731> a crm:E39_Actor ;
+<http://data.odeuropa.eu/actor/93075c29-8e60-501a-a65a-243368a7d731> a crm:E21_Person ;
     rdfs:label "John Thomas Thorp" ;
+    owl:sameAs <http://www.wikidata.org/entity/Q26262560> ;
     schema:birthDate <http://data.odeuropa.eu/time/d253d9a2-3190-572a-aa64-636a762ccb71> ;
     schema:deathDate <http://data.odeuropa.eu/time/d253d9a2-3190-572a-aa64-636a762ccb71> .
 
-<http://data.odeuropa.eu/actor/99d3e11b-4211-5657-af86-fc0d96740e27> a crm:E39_Actor ;
+<http://data.odeuropa.eu/actor/99d3e11b-4211-5657-af86-fc0d96740e27> a crm:E21_Person ;
     rdfs:label "William Calvert" ;
+    owl:sameAs <http://www.wikidata.org/entity/Q75732462> ;
     schema:birthDate <http://data.odeuropa.eu/time/d253d9a2-3190-572a-aa64-636a762ccb71> ;
     schema:deathDate <http://data.odeuropa.eu/time/d253d9a2-3190-572a-aa64-636a762ccb71> .
 
-<http://data.odeuropa.eu/actor/9dce0a11-4c71-52ba-8da2-d9be4a51e395> a crm:E39_Actor ;
+<http://data.odeuropa.eu/actor/9dce0a11-4c71-52ba-8da2-d9be4a51e395> a crm:E21_Person ;
     rdfs:label "Francis Child" ;
+    owl:sameAs <http://www.wikidata.org/entity/Q15637739> ;
     schema:birthDate <http://data.odeuropa.eu/time/d253d9a2-3190-572a-aa64-636a762ccb71> ;
     schema:deathDate <http://data.odeuropa.eu/time/d253d9a2-3190-572a-aa64-636a762ccb71> .
 
-<http://data.odeuropa.eu/actor/b6090e89-5b5c-51d7-9641-513e04e77c02> a crm:E39_Actor ;
+<http://data.odeuropa.eu/actor/b6090e89-5b5c-51d7-9641-513e04e77c02> a crm:E21_Person ;
     rdfs:label "Stephen Theodore Janssen" ;
+    owl:sameAs <http://www.wikidata.org/entity/Q36622498> ;
     schema:birthDate <http://data.odeuropa.eu/time/d253d9a2-3190-572a-aa64-636a762ccb71> ;
     schema:deathDate <http://data.odeuropa.eu/time/d253d9a2-3190-572a-aa64-636a762ccb71> .
 
-<http://data.odeuropa.eu/actor/b992879f-10a9-51b2-a0ac-a5fdb3929de6> a crm:E39_Actor ;
+<http://data.odeuropa.eu/actor/b992879f-10a9-51b2-a0ac-a5fdb3929de6> a crm:E21_Person ;
     rdfs:label "John Thompson" ;
+    owl:sameAs <http://www.wikidata.org/entity/Q47285> ;
     schema:birthDate <http://data.odeuropa.eu/time/d253d9a2-3190-572a-aa64-636a762ccb71> ;
     schema:deathDate <http://data.odeuropa.eu/time/d253d9a2-3190-572a-aa64-636a762ccb71> .
 
-<http://data.odeuropa.eu/actor/bfc56215-8f65-5c7f-bc4b-61f6af0beba5> a crm:E39_Actor ;
+<http://data.odeuropa.eu/actor/bfc56215-8f65-5c7f-bc4b-61f6af0beba5> a crm:E21_Person ;
     rdfs:label "Edward Bellamy" ;
+    owl:sameAs <http://www.wikidata.org/entity/Q455776> ;
     schema:birthDate <http://data.odeuropa.eu/time/d253d9a2-3190-572a-aa64-636a762ccb71> ;
     schema:deathDate <http://data.odeuropa.eu/time/d253d9a2-3190-572a-aa64-636a762ccb71> .
 
-<http://data.odeuropa.eu/actor/c870052d-fa84-5d4f-8b3a-67a1b284909d> a crm:E39_Actor ;
+<http://data.odeuropa.eu/actor/c870052d-fa84-5d4f-8b3a-67a1b284909d> a crm:E21_Person ;
     rdfs:label "John Barber" ;
+    owl:sameAs <http://www.wikidata.org/entity/Q173968> ;
     schema:birthDate <http://data.odeuropa.eu/time/d253d9a2-3190-572a-aa64-636a762ccb71> ;
     schema:deathDate <http://data.odeuropa.eu/time/d253d9a2-3190-572a-aa64-636a762ccb71> .
 
-<http://data.odeuropa.eu/actor/d3905609-51f7-5ae9-a019-cf74bfa2cb4a> a crm:E39_Actor ;
+<http://data.odeuropa.eu/actor/d3905609-51f7-5ae9-a019-cf74bfa2cb4a> a crm:E21_Person ;
     rdfs:label "Nash Grose" ;
+    owl:sameAs <http://www.wikidata.org/entity/Q6966785> ;
     schema:birthDate <http://data.odeuropa.eu/time/d253d9a2-3190-572a-aa64-636a762ccb71> ;
     schema:deathDate <http://data.odeuropa.eu/time/d253d9a2-3190-572a-aa64-636a762ccb71> .
 
-<http://data.odeuropa.eu/actor/ee33b37a-58bc-5d0d-ba66-e69978e4122a> a crm:E39_Actor ;
+<http://data.odeuropa.eu/actor/ee33b37a-58bc-5d0d-ba66-e69978e4122a> a crm:E21_Person ;
     rdfs:label "William Henry" ;
+    owl:sameAs <http://www.wikidata.org/entity/Q130822> ;
     schema:birthDate <http://data.odeuropa.eu/time/d253d9a2-3190-572a-aa64-636a762ccb71> ;
     schema:deathDate <http://data.odeuropa.eu/time/d253d9a2-3190-572a-aa64-636a762ccb71> .
 
-<http://data.odeuropa.eu/actor/f2ecbf5c-c43d-5292-91bb-43b4375a787a> a crm:E39_Actor ;
+<http://data.odeuropa.eu/actor/f2ecbf5c-c43d-5292-91bb-43b4375a787a> a crm:E21_Person ;
     rdfs:label "John Atkins" ;
+    owl:sameAs <http://www.wikidata.org/entity/Q6219675> ;
     schema:birthDate <http://data.odeuropa.eu/time/d253d9a2-3190-572a-aa64-636a762ccb71> ;
     schema:deathDate <http://data.odeuropa.eu/time/d253d9a2-3190-572a-aa64-636a762ccb71> .
 
-<http://data.odeuropa.eu/actor/f49160ab-4feb-50c8-a54f-5075a02b1437> a crm:E39_Actor ;
+<http://data.odeuropa.eu/actor/f49160ab-4feb-50c8-a54f-5075a02b1437> a crm:E21_Person ;
     rdfs:label "John Wilson" ;
+    owl:sameAs <http://www.wikidata.org/entity/Q6264502> ;
     schema:birthDate <http://data.odeuropa.eu/time/d253d9a2-3190-572a-aa64-636a762ccb71> ;
     schema:deathDate <http://data.odeuropa.eu/time/d253d9a2-3190-572a-aa64-636a762ccb71> .
 
-<http://data.odeuropa.eu/actor/fd22dd13-f1e4-58ad-8a38-a35e24474bcd> a crm:E39_Actor ;
+<http://data.odeuropa.eu/actor/fd22dd13-f1e4-58ad-8a38-a35e24474bcd> a crm:E21_Person ;
     rdfs:label "Richard Aston" ;
+    owl:sameAs <http://www.wikidata.org/entity/Q75413908> ;
     schema:birthDate <http://data.odeuropa.eu/time/d253d9a2-3190-572a-aa64-636a762ccb71> ;
     schema:deathDate <http://data.odeuropa.eu/time/d253d9a2-3190-572a-aa64-636a762ccb71> .
 
-<http://data.odeuropa.eu/actor/fe3e9a39-8659-5b31-88b0-90fe58b94839> a crm:E39_Actor ;
+<http://data.odeuropa.eu/actor/fe3e9a39-8659-5b31-88b0-90fe58b94839> a crm:E21_Person ;
     rdfs:label "Henry Marshall" ;
+    owl:sameAs <http://www.wikidata.org/entity/Q5725471> ;
     schema:birthDate <http://data.odeuropa.eu/time/d253d9a2-3190-572a-aa64-636a762ccb71> ;
     schema:deathDate <http://data.odeuropa.eu/time/d253d9a2-3190-572a-aa64-636a762ccb71> .
 
@@ -7611,23 +7807,27 @@
     time:hasBeginning "1738"^^xsd:gYear ;
     time:hasEnd "1738"^^xsd:gYear .
 
-<http://data.odeuropa.eu/actor/11a7163d-731b-5cc1-bd80-6f77217625ed> a crm:E39_Actor ;
+<http://data.odeuropa.eu/actor/11a7163d-731b-5cc1-bd80-6f77217625ed> a crm:E21_Person ;
     rdfs:label "John Bailey" ;
+    owl:sameAs <http://www.wikidata.org/entity/Q367813> ;
     schema:birthDate <http://data.odeuropa.eu/time/d253d9a2-3190-572a-aa64-636a762ccb71> ;
     schema:deathDate <http://data.odeuropa.eu/time/d253d9a2-3190-572a-aa64-636a762ccb71> .
 
-<http://data.odeuropa.eu/actor/399324bf-4332-589e-a027-20745a09886e> a crm:E39_Actor ;
+<http://data.odeuropa.eu/actor/399324bf-4332-589e-a027-20745a09886e> a crm:E21_Person ;
     rdfs:label "Simon Le Blanc" ;
+    owl:sameAs <http://www.wikidata.org/entity/Q7519183> ;
     schema:birthDate <http://data.odeuropa.eu/time/d253d9a2-3190-572a-aa64-636a762ccb71> ;
     schema:deathDate <http://data.odeuropa.eu/time/d253d9a2-3190-572a-aa64-636a762ccb71> .
 
-<http://data.odeuropa.eu/actor/6df13b2f-98d5-5768-9dc1-d33a3800b0ce> a crm:E39_Actor ;
+<http://data.odeuropa.eu/actor/6df13b2f-98d5-5768-9dc1-d33a3800b0ce> a crm:E21_Person ;
     rdfs:label "Thomas Denman" ;
+    owl:sameAs <http://www.wikidata.org/entity/Q335621> ;
     schema:birthDate <http://data.odeuropa.eu/time/d253d9a2-3190-572a-aa64-636a762ccb71> ;
     schema:deathDate <http://data.odeuropa.eu/time/d253d9a2-3190-572a-aa64-636a762ccb71> .
 
-<http://data.odeuropa.eu/actor/a61ff524-c251-5bd3-91f6-e6abbca7c2f6> a crm:E39_Actor ;
+<http://data.odeuropa.eu/actor/a61ff524-c251-5bd3-91f6-e6abbca7c2f6> a crm:E21_Person ;
     rdfs:label "Robert Graham" ;
+    owl:sameAs <http://www.wikidata.org/entity/Q347461> ;
     schema:birthDate <http://data.odeuropa.eu/time/d253d9a2-3190-572a-aa64-636a762ccb71> ;
     schema:deathDate <http://data.odeuropa.eu/time/d253d9a2-3190-572a-aa64-636a762ccb71> .
 
@@ -7646,53 +7846,63 @@
     schema:birthDate <http://data.odeuropa.eu/time/d253d9a2-3190-572a-aa64-636a762ccb71> ;
     schema:deathDate <http://data.odeuropa.eu/time/d253d9a2-3190-572a-aa64-636a762ccb71> .
 
-<http://data.odeuropa.eu/actor/57dd6707-bc44-50ea-88ef-70d2d5a5f226> a crm:E39_Actor ;
+<http://data.odeuropa.eu/actor/57dd6707-bc44-50ea-88ef-70d2d5a5f226> a crm:E21_Person ;
     rdfs:label "Claudius Stephen Hunter" ;
+    owl:sameAs <http://www.wikidata.org/entity/Q7526345> ;
     schema:birthDate <http://data.odeuropa.eu/time/d253d9a2-3190-572a-aa64-636a762ccb71> ;
     schema:deathDate <http://data.odeuropa.eu/time/d253d9a2-3190-572a-aa64-636a762ccb71> .
 
-<http://data.odeuropa.eu/actor/62a83869-ce38-5cab-8cd1-4307eb9e6fba> a crm:E39_Actor ;
+<http://data.odeuropa.eu/actor/62a83869-ce38-5cab-8cd1-4307eb9e6fba> a crm:E21_Person ;
     rdfs:label "Richard Perryn" ;
+    owl:sameAs <http://www.wikidata.org/entity/Q7328379> ;
     schema:birthDate <http://data.odeuropa.eu/time/d253d9a2-3190-572a-aa64-636a762ccb71> ;
     schema:deathDate <http://data.odeuropa.eu/time/d253d9a2-3190-572a-aa64-636a762ccb71> .
 
-<http://data.odeuropa.eu/actor/6a5b0ca2-e0a0-55bf-b4e0-fcbb37b1b6ce> a crm:E39_Actor ;
+<http://data.odeuropa.eu/actor/6a5b0ca2-e0a0-55bf-b4e0-fcbb37b1b6ce> a crm:E21_Person ;
     rdfs:label "William Curtis" ;
+    owl:sameAs <http://www.wikidata.org/entity/Q460867> ;
     schema:birthDate <http://data.odeuropa.eu/time/d253d9a2-3190-572a-aa64-636a762ccb71> ;
     schema:deathDate <http://data.odeuropa.eu/time/d253d9a2-3190-572a-aa64-636a762ccb71> .
 
-<http://data.odeuropa.eu/actor/86596cd0-4c99-5bad-86d4-915049136ca2> a crm:E39_Actor ;
+<http://data.odeuropa.eu/actor/86596cd0-4c99-5bad-86d4-915049136ca2> a crm:E21_Person ;
     rdfs:label "Alan Chambre" ;
+    owl:sameAs <http://www.wikidata.org/entity/Q4706353> ;
     schema:birthDate <http://data.odeuropa.eu/time/d253d9a2-3190-572a-aa64-636a762ccb71> ;
     schema:deathDate <http://data.odeuropa.eu/time/d253d9a2-3190-572a-aa64-636a762ccb71> .
 
-<http://data.odeuropa.eu/actor/9116a669-6c26-5f61-acd8-acbf9b3416dd> a crm:E39_Actor ;
+<http://data.odeuropa.eu/actor/9116a669-6c26-5f61-acd8-acbf9b3416dd> a crm:E21_Person ;
     rdfs:label "William Heygate" ;
+    owl:sameAs <http://www.wikidata.org/entity/Q18531385> ;
     schema:birthDate <http://data.odeuropa.eu/time/d253d9a2-3190-572a-aa64-636a762ccb71> ;
     schema:deathDate <http://data.odeuropa.eu/time/d253d9a2-3190-572a-aa64-636a762ccb71> .
 
-<http://data.odeuropa.eu/actor/a04c4d67-d4b2-5820-a1be-c7ce1c6b6b3c> a crm:E39_Actor ;
+<http://data.odeuropa.eu/actor/a04c4d67-d4b2-5820-a1be-c7ce1c6b6b3c> a crm:E21_Person ;
     rdfs:label "Alexander Thompson" ;
+    owl:sameAs <http://www.wikidata.org/entity/Q18935980> ;
     schema:birthDate <http://data.odeuropa.eu/time/d253d9a2-3190-572a-aa64-636a762ccb71> ;
     schema:deathDate <http://data.odeuropa.eu/time/d253d9a2-3190-572a-aa64-636a762ccb71> .
 
-<http://data.odeuropa.eu/actor/ab605f03-6089-5fd8-9285-10ad7ff72c7c> a crm:E39_Actor ;
+<http://data.odeuropa.eu/actor/ab605f03-6089-5fd8-9285-10ad7ff72c7c> a crm:E21_Person ;
     rdfs:label "Charles Flower" ;
+    owl:sameAs <http://www.wikidata.org/entity/Q16857611> ;
     schema:birthDate <http://data.odeuropa.eu/time/d253d9a2-3190-572a-aa64-636a762ccb71> ;
     schema:deathDate <http://data.odeuropa.eu/time/d253d9a2-3190-572a-aa64-636a762ccb71> .
 
-<http://data.odeuropa.eu/actor/f93acb99-4bdc-5cf4-8028-e804862ce83d> a crm:E39_Actor ;
+<http://data.odeuropa.eu/actor/f93acb99-4bdc-5cf4-8028-e804862ce83d> a crm:E21_Person ;
     rdfs:label "William Blackstone" ;
+    owl:sameAs <http://www.wikidata.org/entity/Q332449> ;
     schema:birthDate <http://data.odeuropa.eu/time/d253d9a2-3190-572a-aa64-636a762ccb71> ;
     schema:deathDate <http://data.odeuropa.eu/time/d253d9a2-3190-572a-aa64-636a762ccb71> .
 
-<http://data.odeuropa.eu/actor/47f3f2bf-32df-57c8-b3f0-830231c0006b> a crm:E39_Actor ;
+<http://data.odeuropa.eu/actor/47f3f2bf-32df-57c8-b3f0-830231c0006b> a crm:E21_Person ;
     rdfs:label "Samuel Birch" ;
+    owl:sameAs <http://www.wikidata.org/entity/Q1372034> ;
     schema:birthDate <http://data.odeuropa.eu/time/d253d9a2-3190-572a-aa64-636a762ccb71> ;
     schema:deathDate <http://data.odeuropa.eu/time/d253d9a2-3190-572a-aa64-636a762ccb71> .
 
-<http://data.odeuropa.eu/actor/90776e2c-d4ff-5f32-96ff-11cd097c2fec> a crm:E39_Actor ;
+<http://data.odeuropa.eu/actor/90776e2c-d4ff-5f32-96ff-11cd097c2fec> a crm:E21_Person ;
     rdfs:label "Archibald Macdonald" ;
+    owl:sameAs <http://www.wikidata.org/entity/Q7526038> ;
     schema:birthDate <http://data.odeuropa.eu/time/d253d9a2-3190-572a-aa64-636a762ccb71> ;
     schema:deathDate <http://data.odeuropa.eu/time/d253d9a2-3190-572a-aa64-636a762ccb71> .
 
@@ -7701,13 +7911,15 @@
     schema:birthDate <http://data.odeuropa.eu/time/d253d9a2-3190-572a-aa64-636a762ccb71> ;
     schema:deathDate <http://data.odeuropa.eu/time/d253d9a2-3190-572a-aa64-636a762ccb71> .
 
-<http://data.odeuropa.eu/actor/f94386e4-2570-5d40-8dd6-ca4784c2f663> a crm:E39_Actor ;
+<http://data.odeuropa.eu/actor/f94386e4-2570-5d40-8dd6-ca4784c2f663> a crm:E21_Person ;
     rdfs:label "John Stracey" ;
+    owl:sameAs <http://www.wikidata.org/entity/Q76179466> ;
     schema:birthDate <http://data.odeuropa.eu/time/d253d9a2-3190-572a-aa64-636a762ccb71> ;
     schema:deathDate <http://data.odeuropa.eu/time/d253d9a2-3190-572a-aa64-636a762ccb71> .
 
-<http://data.odeuropa.eu/actor/1b18b47e-2185-50a6-950b-af7a8c3a31bf> a crm:E39_Actor ;
+<http://data.odeuropa.eu/actor/1b18b47e-2185-50a6-950b-af7a8c3a31bf> a crm:E21_Person ;
     rdfs:label "Charles Price" ;
+    owl:sameAs <http://www.wikidata.org/entity/Q5080900> ;
     schema:birthDate <http://data.odeuropa.eu/time/d253d9a2-3190-572a-aa64-636a762ccb71> ;
     schema:deathDate <http://data.odeuropa.eu/time/d253d9a2-3190-572a-aa64-636a762ccb71> .
 
@@ -7716,13 +7928,15 @@
     schema:birthDate <http://data.odeuropa.eu/time/d253d9a2-3190-572a-aa64-636a762ccb71> ;
     schema:deathDate <http://data.odeuropa.eu/time/d253d9a2-3190-572a-aa64-636a762ccb71> .
 
-<http://data.odeuropa.eu/actor/14599492-b388-52a7-916b-77969e03df98> a crm:E39_Actor ;
+<http://data.odeuropa.eu/actor/14599492-b388-52a7-916b-77969e03df98> a crm:E21_Person ;
     rdfs:label "Thomas Smith" ;
+    owl:sameAs <http://www.wikidata.org/entity/Q1179411> ;
     schema:birthDate <http://data.odeuropa.eu/time/d253d9a2-3190-572a-aa64-636a762ccb71> ;
     schema:deathDate <http://data.odeuropa.eu/time/d253d9a2-3190-572a-aa64-636a762ccb71> .
 
-<http://data.odeuropa.eu/actor/54d1a418-bcc9-596a-9b6a-de766854be62> a crm:E39_Actor ;
+<http://data.odeuropa.eu/actor/54d1a418-bcc9-596a-9b6a-de766854be62> a crm:E21_Person ;
     rdfs:label "Christopher Magnay" ;
+    owl:sameAs <http://www.wikidata.org/entity/Q5112792> ;
     schema:birthDate <http://data.odeuropa.eu/time/d253d9a2-3190-572a-aa64-636a762ccb71> ;
     schema:deathDate <http://data.odeuropa.eu/time/d253d9a2-3190-572a-aa64-636a762ccb71> .
 
@@ -7731,58 +7945,69 @@
     schema:birthDate <http://data.odeuropa.eu/time/d253d9a2-3190-572a-aa64-636a762ccb71> ;
     schema:deathDate <http://data.odeuropa.eu/time/d253d9a2-3190-572a-aa64-636a762ccb71> .
 
-<http://data.odeuropa.eu/actor/6befabad-3bd7-5c37-a4a5-4b04cf08d557> a crm:E39_Actor ;
+<http://data.odeuropa.eu/actor/6befabad-3bd7-5c37-a4a5-4b04cf08d557> a crm:E21_Person ;
     rdfs:label "Thomas Parker" ;
+    owl:sameAs <http://www.wikidata.org/entity/Q323912> ;
     schema:birthDate <http://data.odeuropa.eu/time/d253d9a2-3190-572a-aa64-636a762ccb71> ;
     schema:deathDate <http://data.odeuropa.eu/time/d253d9a2-3190-572a-aa64-636a762ccb71> .
 
-<http://data.odeuropa.eu/actor/91fd6e11-cd01-5f29-ae1b-141cde63013a> a crm:E39_Actor ;
+<http://data.odeuropa.eu/actor/91fd6e11-cd01-5f29-ae1b-141cde63013a> a crm:E21_Person ;
     rdfs:label "Michael Foster" ;
+    owl:sameAs <http://www.wikidata.org/entity/Q770417> ;
     schema:birthDate <http://data.odeuropa.eu/time/d253d9a2-3190-572a-aa64-636a762ccb71> ;
     schema:deathDate <http://data.odeuropa.eu/time/d253d9a2-3190-572a-aa64-636a762ccb71> .
 
-<http://data.odeuropa.eu/actor/aaf4f0a3-d7a7-559a-b8de-1f0158fe967c> a crm:E39_Actor ;
+<http://data.odeuropa.eu/actor/aaf4f0a3-d7a7-559a-b8de-1f0158fe967c> a crm:E21_Person ;
     rdfs:label "James Shaw" ;
+    owl:sameAs <http://www.wikidata.org/entity/Q25172277> ;
     schema:birthDate <http://data.odeuropa.eu/time/d253d9a2-3190-572a-aa64-636a762ccb71> ;
     schema:deathDate <http://data.odeuropa.eu/time/d253d9a2-3190-572a-aa64-636a762ccb71> .
 
-<http://data.odeuropa.eu/actor/39ed864e-f805-5388-9c5b-fe78c276f322> a crm:E39_Actor ;
+<http://data.odeuropa.eu/actor/39ed864e-f805-5388-9c5b-fe78c276f322> a crm:E21_Person ;
     rdfs:label "Christopher Smith" ;
+    owl:sameAs <http://www.wikidata.org/entity/Q966124> ;
     schema:birthDate <http://data.odeuropa.eu/time/d253d9a2-3190-572a-aa64-636a762ccb71> ;
     schema:deathDate <http://data.odeuropa.eu/time/d253d9a2-3190-572a-aa64-636a762ccb71> .
 
-<http://data.odeuropa.eu/actor/48da9b7b-87a1-5e94-bb39-4414184eef4d> a crm:E39_Actor ;
+<http://data.odeuropa.eu/actor/48da9b7b-87a1-5e94-bb39-4414184eef4d> a crm:E21_Person ;
     rdfs:label "George Nares" ;
+    owl:sameAs <http://www.wikidata.org/entity/Q504761> ;
     schema:birthDate <http://data.odeuropa.eu/time/d253d9a2-3190-572a-aa64-636a762ccb71> ;
     schema:deathDate <http://data.odeuropa.eu/time/d253d9a2-3190-572a-aa64-636a762ccb71> .
 
-<http://data.odeuropa.eu/actor/5a0fe42f-4c6f-5d7e-8513-154218f990ff> a crm:E39_Actor ;
+<http://data.odeuropa.eu/actor/5a0fe42f-4c6f-5d7e-8513-154218f990ff> a crm:E21_Person ;
     rdfs:label "John Strange" ;
+    owl:sameAs <http://www.wikidata.org/entity/Q6259378> ;
     schema:birthDate <http://data.odeuropa.eu/time/d253d9a2-3190-572a-aa64-636a762ccb71> ;
     schema:deathDate <http://data.odeuropa.eu/time/d253d9a2-3190-572a-aa64-636a762ccb71> .
 
-<http://data.odeuropa.eu/actor/5d4a3c13-5cbd-5ac4-afca-11ecdc891e67> a crm:E39_Actor ;
+<http://data.odeuropa.eu/actor/5d4a3c13-5cbd-5ac4-afca-11ecdc891e67> a crm:E21_Person ;
     rdfs:label "John Perring" ;
+    owl:sameAs <http://www.wikidata.org/entity/Q75371874> ;
     schema:birthDate <http://data.odeuropa.eu/time/d253d9a2-3190-572a-aa64-636a762ccb71> ;
     schema:deathDate <http://data.odeuropa.eu/time/d253d9a2-3190-572a-aa64-636a762ccb71> .
 
-<http://data.odeuropa.eu/actor/95591b05-fdf6-5ec5-9d81-68729e74dcf6> a crm:E39_Actor ;
+<http://data.odeuropa.eu/actor/95591b05-fdf6-5ec5-9d81-68729e74dcf6> a crm:E21_Person ;
     rdfs:label "John William" ;
+    owl:sameAs <http://www.wikidata.org/entity/Q1241783> ;
     schema:birthDate <http://data.odeuropa.eu/time/d253d9a2-3190-572a-aa64-636a762ccb71> ;
     schema:deathDate <http://data.odeuropa.eu/time/d253d9a2-3190-572a-aa64-636a762ccb71> .
 
-<http://data.odeuropa.eu/actor/b4ca369f-cb71-58bf-9f85-298e962bffd2> a crm:E39_Actor ;
+<http://data.odeuropa.eu/actor/b4ca369f-cb71-58bf-9f85-298e962bffd2> a crm:E21_Person ;
     rdfs:label "William Thompson" ;
+    owl:sameAs <http://www.wikidata.org/entity/Q1340247> ;
     schema:birthDate <http://data.odeuropa.eu/time/d253d9a2-3190-572a-aa64-636a762ccb71> ;
     schema:deathDate <http://data.odeuropa.eu/time/d253d9a2-3190-572a-aa64-636a762ccb71> .
 
-<http://data.odeuropa.eu/actor/e10fa5d7-76f3-5bff-93ae-8e4887003c76> a crm:E39_Actor ;
+<http://data.odeuropa.eu/actor/e10fa5d7-76f3-5bff-93ae-8e4887003c76> a crm:E21_Person ;
     rdfs:label "Watkin Lewes" ;
+    owl:sameAs <http://www.wikidata.org/entity/Q7974676> ;
     schema:birthDate <http://data.odeuropa.eu/time/d253d9a2-3190-572a-aa64-636a762ccb71> ;
     schema:deathDate <http://data.odeuropa.eu/time/d253d9a2-3190-572a-aa64-636a762ccb71> .
 
-<http://data.odeuropa.eu/actor/8df35ff9-6e00-5e4e-a930-9fd2ea3825a3> a crm:E39_Actor ;
+<http://data.odeuropa.eu/actor/8df35ff9-6e00-5e4e-a930-9fd2ea3825a3> a crm:E21_Person ;
     rdfs:label "George Scholey" ;
+    owl:sameAs <http://www.wikidata.org/entity/Q18392301> ;
     schema:birthDate <http://data.odeuropa.eu/time/d253d9a2-3190-572a-aa64-636a762ccb71> ;
     schema:deathDate <http://data.odeuropa.eu/time/d253d9a2-3190-572a-aa64-636a762ccb71> .
 
@@ -7791,33 +8016,39 @@
     schema:birthDate <http://data.odeuropa.eu/time/d253d9a2-3190-572a-aa64-636a762ccb71> ;
     schema:deathDate <http://data.odeuropa.eu/time/d253d9a2-3190-572a-aa64-636a762ccb71> .
 
-<http://data.odeuropa.eu/actor/303a3319-0f46-5b97-a6cc-cc5dbd62fd13> a crm:E39_Actor ;
+<http://data.odeuropa.eu/actor/303a3319-0f46-5b97-a6cc-cc5dbd62fd13> a crm:E21_Person ;
     rdfs:label "Matthew Wood" ;
+    owl:sameAs <http://www.wikidata.org/entity/Q459532> ;
     schema:birthDate <http://data.odeuropa.eu/time/d253d9a2-3190-572a-aa64-636a762ccb71> ;
     schema:deathDate <http://data.odeuropa.eu/time/d253d9a2-3190-572a-aa64-636a762ccb71> .
 
-<http://data.odeuropa.eu/actor/4c3a4695-49d7-5f8a-92b0-96447b12fd53> a crm:E39_Actor ;
+<http://data.odeuropa.eu/actor/4c3a4695-49d7-5f8a-92b0-96447b12fd53> a crm:E21_Person ;
     rdfs:label "Edward Willes" ;
+    owl:sameAs <http://www.wikidata.org/entity/Q1294098> ;
     schema:birthDate <http://data.odeuropa.eu/time/d253d9a2-3190-572a-aa64-636a762ccb71> ;
     schema:deathDate <http://data.odeuropa.eu/time/d253d9a2-3190-572a-aa64-636a762ccb71> .
 
-<http://data.odeuropa.eu/actor/ba09fa2d-cefc-543d-843b-be9f9c37e723> a crm:E39_Actor ;
+<http://data.odeuropa.eu/actor/ba09fa2d-cefc-543d-843b-be9f9c37e723> a crm:E21_Person ;
     rdfs:label "Francis Buller" ;
+    owl:sameAs <http://www.wikidata.org/entity/Q5480363> ;
     schema:birthDate <http://data.odeuropa.eu/time/d253d9a2-3190-572a-aa64-636a762ccb71> ;
     schema:deathDate <http://data.odeuropa.eu/time/d253d9a2-3190-572a-aa64-636a762ccb71> .
 
-<http://data.odeuropa.eu/actor/d7dafed1-58ff-54f5-9c0f-770743b98acf> a crm:E39_Actor ;
+<http://data.odeuropa.eu/actor/d7dafed1-58ff-54f5-9c0f-770743b98acf> a crm:E21_Person ;
     rdfs:label "William Leighton" ;
+    owl:sameAs <http://www.wikidata.org/entity/Q16857822> ;
     schema:birthDate <http://data.odeuropa.eu/time/d253d9a2-3190-572a-aa64-636a762ccb71> ;
     schema:deathDate <http://data.odeuropa.eu/time/d253d9a2-3190-572a-aa64-636a762ccb71> .
 
-<http://data.odeuropa.eu/actor/d9e6cf47-d2e2-52d7-bc92-fc4aa80f9ec7> a crm:E39_Actor ;
+<http://data.odeuropa.eu/actor/d9e6cf47-d2e2-52d7-bc92-fc4aa80f9ec7> a crm:E21_Person ;
     rdfs:label "John Ansley" ;
+    owl:sameAs <http://www.wikidata.org/entity/Q16151390> ;
     schema:birthDate <http://data.odeuropa.eu/time/d253d9a2-3190-572a-aa64-636a762ccb71> ;
     schema:deathDate <http://data.odeuropa.eu/time/d253d9a2-3190-572a-aa64-636a762ccb71> .
 
-<http://data.odeuropa.eu/actor/a016a673-37cb-53f0-847a-09b4a1a8960c> a crm:E39_Actor ;
+<http://data.odeuropa.eu/actor/a016a673-37cb-53f0-847a-09b4a1a8960c> a crm:E21_Person ;
     rdfs:label "John Heath" ;
+    owl:sameAs <http://www.wikidata.org/entity/Q6238477> ;
     schema:birthDate <http://data.odeuropa.eu/time/d253d9a2-3190-572a-aa64-636a762ccb71> ;
     schema:deathDate <http://data.odeuropa.eu/time/d253d9a2-3190-572a-aa64-636a762ccb71> .
 
@@ -7831,18 +8062,21 @@
     schema:birthDate <http://data.odeuropa.eu/time/d253d9a2-3190-572a-aa64-636a762ccb71> ;
     schema:deathDate <http://data.odeuropa.eu/time/d253d9a2-3190-572a-aa64-636a762ccb71> .
 
-<http://data.odeuropa.eu/actor/33b8557b-7a97-5d87-a28e-758b57da96e7> a crm:E39_Actor ;
+<http://data.odeuropa.eu/actor/33b8557b-7a97-5d87-a28e-758b57da96e7> a crm:E21_Person ;
     rdfs:label "James Adair" ;
+    owl:sameAs <http://www.wikidata.org/entity/Q6128359> ;
     schema:birthDate <http://data.odeuropa.eu/time/d253d9a2-3190-572a-aa64-636a762ccb71> ;
     schema:deathDate <http://data.odeuropa.eu/time/d253d9a2-3190-572a-aa64-636a762ccb71> .
 
-<http://data.odeuropa.eu/actor/d17b4ae9-58db-5930-8137-60e6372c703b> a crm:E39_Actor ;
+<http://data.odeuropa.eu/actor/d17b4ae9-58db-5930-8137-60e6372c703b> a crm:E21_Person ;
     rdfs:label "Henry Gould" ;
+    owl:sameAs <http://www.wikidata.org/entity/Q18671396> ;
     schema:birthDate <http://data.odeuropa.eu/time/d253d9a2-3190-572a-aa64-636a762ccb71> ;
     schema:deathDate <http://data.odeuropa.eu/time/d253d9a2-3190-572a-aa64-636a762ccb71> .
 
-<http://data.odeuropa.eu/actor/dbe14e12-0f90-5b0c-8576-10f359f291c6> a crm:E39_Actor ;
+<http://data.odeuropa.eu/actor/dbe14e12-0f90-5b0c-8576-10f359f291c6> a crm:E21_Person ;
     rdfs:label "Beaumont Hotham" ;
+    owl:sameAs <http://www.wikidata.org/entity/Q18526620> ;
     schema:birthDate <http://data.odeuropa.eu/time/d253d9a2-3190-572a-aa64-636a762ccb71> ;
     schema:deathDate <http://data.odeuropa.eu/time/d253d9a2-3190-572a-aa64-636a762ccb71> .
 
@@ -7851,8 +8085,9 @@
     schema:birthDate <http://data.odeuropa.eu/time/d253d9a2-3190-572a-aa64-636a762ccb71> ;
     schema:deathDate <http://data.odeuropa.eu/time/d253d9a2-3190-572a-aa64-636a762ccb71> .
 
-<http://data.odeuropa.eu/actor/3a2d9fa9-0725-5c7b-beaf-d248661eac6e> a crm:E39_Actor ;
+<http://data.odeuropa.eu/actor/3a2d9fa9-0725-5c7b-beaf-d248661eac6e> a crm:E21_Person ;
     rdfs:label "Thomas Nugent" ;
+    owl:sameAs <http://www.wikidata.org/entity/Q2426358> ;
     schema:birthDate <http://data.odeuropa.eu/time/d253d9a2-3190-572a-aa64-636a762ccb71> ;
     schema:deathDate <http://data.odeuropa.eu/time/d253d9a2-3190-572a-aa64-636a762ccb71> .
 
@@ -7861,13 +8096,15 @@
     schema:birthDate <http://data.odeuropa.eu/time/d253d9a2-3190-572a-aa64-636a762ccb71> ;
     schema:deathDate <http://data.odeuropa.eu/time/d253d9a2-3190-572a-aa64-636a762ccb71> .
 
-<http://data.odeuropa.eu/actor/2c65fd3b-b3d4-5bb2-ad2c-2b7553a0cb84> a crm:E39_Actor ;
+<http://data.odeuropa.eu/actor/2c65fd3b-b3d4-5bb2-ad2c-2b7553a0cb84> a crm:E21_Person ;
     rdfs:label "John William Rose" ;
+    owl:sameAs <http://www.wikidata.org/entity/Q102239156> ;
     schema:birthDate <http://data.odeuropa.eu/time/d253d9a2-3190-572a-aa64-636a762ccb71> ;
     schema:deathDate <http://data.odeuropa.eu/time/d253d9a2-3190-572a-aa64-636a762ccb71> .
 
-<http://data.odeuropa.eu/actor/250bacbb-c466-5583-8e35-9a54e8c6d823> a crm:E39_Actor ;
+<http://data.odeuropa.eu/actor/250bacbb-c466-5583-8e35-9a54e8c6d823> a crm:E21_Person ;
     rdfs:label "Newman Knowlys" ;
+    owl:sameAs <http://www.wikidata.org/entity/Q19043413> ;
     schema:birthDate <http://data.odeuropa.eu/time/d253d9a2-3190-572a-aa64-636a762ccb71> ;
     schema:deathDate <http://data.odeuropa.eu/time/d253d9a2-3190-572a-aa64-636a762ccb71> .
 
@@ -7876,28 +8113,33 @@
     schema:birthDate <http://data.odeuropa.eu/time/d253d9a2-3190-572a-aa64-636a762ccb71> ;
     schema:deathDate <http://data.odeuropa.eu/time/d253d9a2-3190-572a-aa64-636a762ccb71> .
 
-<http://data.odeuropa.eu/actor/83993cc5-d4b1-5f9d-8c49-a96ebc844a1a> a crm:E39_Actor ;
+<http://data.odeuropa.eu/actor/83993cc5-d4b1-5f9d-8c49-a96ebc844a1a> a crm:E21_Person ;
     rdfs:label "William Moreton" ;
+    owl:sameAs <http://www.wikidata.org/entity/Q2943307> ;
     schema:birthDate <http://data.odeuropa.eu/time/d253d9a2-3190-572a-aa64-636a762ccb71> ;
     schema:deathDate <http://data.odeuropa.eu/time/d253d9a2-3190-572a-aa64-636a762ccb71> .
 
-<http://data.odeuropa.eu/actor/53b0f31d-e8c4-511d-9c45-b9d4c99fa268> a crm:E39_Actor ;
+<http://data.odeuropa.eu/actor/53b0f31d-e8c4-511d-9c45-b9d4c99fa268> a crm:E21_Person ;
     rdfs:label "Richard Adams" ;
+    owl:sameAs <http://www.wikidata.org/entity/Q313289> ;
     schema:birthDate <http://data.odeuropa.eu/time/d253d9a2-3190-572a-aa64-636a762ccb71> ;
     schema:deathDate <http://data.odeuropa.eu/time/d253d9a2-3190-572a-aa64-636a762ccb71> .
 
-<http://data.odeuropa.eu/actor/3aa7cc26-1989-57bf-8fab-bd8ad08006ba> a crm:E39_Actor ;
+<http://data.odeuropa.eu/actor/3aa7cc26-1989-57bf-8fab-bd8ad08006ba> a crm:E21_Person ;
     rdfs:label "Lord Mayor" ;
+    owl:sameAs <http://www.wikidata.org/entity/Q74148232> ;
     schema:birthDate <http://data.odeuropa.eu/time/d253d9a2-3190-572a-aa64-636a762ccb71> ;
     schema:deathDate <http://data.odeuropa.eu/time/d253d9a2-3190-572a-aa64-636a762ccb71> .
 
-<http://data.odeuropa.eu/actor/1b99fe2d-f5a9-55ae-b023-4f30ed4cfc0a> a crm:E39_Actor ;
+<http://data.odeuropa.eu/actor/1b99fe2d-f5a9-55ae-b023-4f30ed4cfc0a> a crm:E21_Person ;
     rdfs:label "James Eyre" ;
+    owl:sameAs <http://www.wikidata.org/entity/Q6133568> ;
     schema:birthDate <http://data.odeuropa.eu/time/d253d9a2-3190-572a-aa64-636a762ccb71> ;
     schema:deathDate <http://data.odeuropa.eu/time/d253d9a2-3190-572a-aa64-636a762ccb71> .
 
-<http://data.odeuropa.eu/actor/bc10a494-8bde-5a1b-81a9-30663807d7c3> a crm:E39_Actor ;
+<http://data.odeuropa.eu/actor/bc10a494-8bde-5a1b-81a9-30663807d7c3> a crm:E21_Person ;
     rdfs:label "John Silvester" ;
+    owl:sameAs <http://www.wikidata.org/entity/Q15994744> ;
     schema:birthDate <http://data.odeuropa.eu/time/d253d9a2-3190-572a-aa64-636a762ccb71> ;
     schema:deathDate <http://data.odeuropa.eu/time/d253d9a2-3190-572a-aa64-636a762ccb71> .
 

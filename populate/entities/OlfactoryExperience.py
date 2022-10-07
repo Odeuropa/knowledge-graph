@@ -10,7 +10,7 @@ from .vocabularies import VocabularyManager as VocManager
 
 
 class OlfactoryExperience(Entity):
-    def __init__(self, seed, smell, place='', lang='en'):
+    def __init__(self, seed, smell, place=''):
         super().__init__(seed, 'experience')
         self.assignment_id = 0
         self.gesture_id = 0
