@@ -4,6 +4,7 @@
 @prefix owl: <http://www.w3.org/2002/07/owl#> .
 @prefix pav: <http://purl.org/pav/> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <http://schema.org/> .
 @prefix skos: <http://www.w3.org/2004/02/skos/core#> .
 @prefix voc: <http://data.odeuropa.eu/vocabulary/> .
 @prefix wd: <http://www.wikidata.org/entity/> .
@@ -507,6 +508,7 @@ olfactory-objects:12 a skos:Concept ;
     skos:topConceptOf voc:olfactory-objects .
 
 olfactory-objects:126 a skos:Concept ;
+    schema:image <https://commons.wikimedia.org/wiki/Special:FilePath/IceBirdWithFledgling.jpg> ;
     owl:sameAs wd:Q283 ;
     skos:inScheme voc:olfactory-objects ;
     skos:prefLabel "Wasser"@de,
@@ -528,6 +530,7 @@ olfactory-objects:139 a skos:Concept ;
 
 olfactory-objects:18 a skos:Concept ;
     dct:bibliographicCitation "Ook hebben zich nu de bouquetstoffen gevormd, die van zoveel belang zijn voor de smaak en de reuk van de wijn (”Bouquet”) en de wijn heeft een zachte volle smaak gekregen,   sarels v. rijn, Koken 601 [1951]."@nl ;
+    schema:image "https://commons.wikimedia.org/wiki/Special:FilePath/Nlm nlmuid-101704898-img (25392882207).jpg" ;
     owl:sameAs wd:Q1187930 ;
     skos:altLabel "Bouquet"@de,
         "Strauß"@de,
@@ -545,6 +548,7 @@ olfactory-objects:18 a skos:Concept ;
     skos:topConceptOf voc:olfactory-objects .
 
 olfactory-objects:19 a skos:Concept ;
+    schema:image "https://commons.wikimedia.org/wiki/Special:FilePath/Bouquet holder, possibly Italy, c. 1850-1875 - Royal Ontario Museum - DSC09500.JPG" ;
     owl:sameAs wd:Q3398846 ;
     skos:altLabel "Base per bouquet"@it,
         "Stojalo za šopek"@sl ;
@@ -558,6 +562,7 @@ olfactory-objects:19 a skos:Concept ;
     skos:topConceptOf voc:olfactory-objects .
 
 olfactory-objects:38 a skos:Concept ;
+    schema:image "https://commons.wikimedia.org/wiki/Special:FilePath/Musée Sainte-Menehould Ciboire 29112014.jpg" ;
     owl:sameAs wd:Q198373 ;
     skos:definition "Chalice-like holder for liquids and fragrances"@en ;
     skos:inScheme voc:olfactory-objects ;
@@ -630,6 +635,7 @@ olfactory-objects:6 a skos:Concept ;
     skos:topConceptOf voc:olfactory-objects .
 
 olfactory-objects:74 a skos:Concept ;
+    schema:image "https://commons.wikimedia.org/wiki/Special:FilePath/Lichen foliacé2..JPG" ;
     owl:sameAs wd:Q904074 ;
     skos:altLabel "Lichen fruticuleux"@fr ;
     skos:inScheme voc:olfactory-objects ;
@@ -792,6 +798,7 @@ olfactory-objects:119 a skos:Concept ;
     skos:topConceptOf voc:olfactory-objects .
 
 olfactory-objects:123 a skos:Concept ;
+    schema:image "https://commons.wikimedia.org/wiki/Special:FilePath/17. Jht. Pesthaube anagoria.JPG" ;
     owl:sameAs wd:Q109568861 ;
     skos:definition "Mask filled with fragrant substances (sometimes fumigated) to protect oneself from sickening miasmas"@en ;
     skos:inScheme voc:olfactory-objects ;
@@ -813,6 +820,7 @@ olfactory-objects:124 a skos:Concept ;
     skos:topConceptOf voc:olfactory-objects .
 
 olfactory-objects:135 a skos:Concept ;
+    schema:image "https://commons.wikimedia.org/wiki/Special:FilePath/08152 Bukowsko (powiat sanocki).jpg" ;
     owl:sameAs wd:Q7925 ;
     skos:inScheme voc:olfactory-objects ;
     skos:prefLabel "Regen"@de,
@@ -844,6 +852,7 @@ olfactory-objects:144 a skos:Concept ;
     skos:topConceptOf voc:olfactory-objects .
 
 olfactory-objects:145 a skos:Concept ;
+    schema:image "https://commons.wikimedia.org/wiki/Special:FilePath/Łajno końskie 400.jpg" ;
     owl:sameAs wd:Q496 ;
     skos:altLabel "Kacke"@de,
         "Kot"@de,
@@ -887,6 +896,7 @@ olfactory-objects:150 a skos:Concept ;
     skos:topConceptOf voc:olfactory-objects .
 
 olfactory-objects:152 a skos:Concept ;
+    schema:image <https://commons.wikimedia.org/wiki/Special:FilePath/Baby-Soap-Tindi-Ringuva.jpg> ;
     owl:sameAs wd:Q34396 ;
     skos:inScheme voc:olfactory-objects ;
     skos:prefLabel "Seife"@de,
@@ -898,6 +908,7 @@ olfactory-objects:152 a skos:Concept ;
     skos:topConceptOf voc:olfactory-objects .
 
 olfactory-objects:154 a skos:Concept ;
+    schema:image "https://commons.wikimedia.org/wiki/Special:FilePath/Flacon with nards perfume.jpg" ;
     owl:sameAs wd:Q15110770 ;
     skos:altLabel "Nardova špajka"@sl ;
     skos:definition "Plant root"@en ;
@@ -923,6 +934,7 @@ olfactory-objects:156 a skos:Concept ;
 
 olfactory-objects:159 a skos:Concept ;
     dct:bibliographicCitation "https://www.earthmagazine.org/article/mineral-resource-month-talc/"@en ;
+    schema:image <https://commons.wikimedia.org/wiki/Special:FilePath/Talc.jpg> ;
     owl:sameAs wd:Q134583 ;
     skos:altLabel "Körperpuder"@de ;
     skos:definition "Originating in Egypt and used in cosmetics"@en ;
@@ -937,6 +949,7 @@ olfactory-objects:159 a skos:Concept ;
 
 olfactory-objects:16 a skos:Concept ;
     dct:bibliographicCitation "https://www.metmuseum.org/art/collection/search/239369"@en ;
+    schema:image "https://commons.wikimedia.org/wiki/Special:FilePath/Spice Container V (3718011472).jpg" ;
     owl:sameAs wd:Q829412 ;
     skos:closeMatch iconclass:12A61611 ;
     skos:definition "Spice box for Jewish ritual"@en ;
@@ -947,6 +960,7 @@ olfactory-objects:16 a skos:Concept ;
     skos:topConceptOf voc:olfactory-objects .
 
 olfactory-objects:160 a skos:Concept ;
+    schema:image "https://commons.wikimedia.org/wiki/Special:FilePath/Tallow-beef suet after rendering.jpg" ;
     owl:sameAs wd:Q863266 ;
     skos:definition "Substance from animal fat used for soap and candles"@en ;
     skos:inScheme voc:olfactory-objects ;
@@ -959,6 +973,7 @@ olfactory-objects:160 a skos:Concept ;
     skos:topConceptOf voc:olfactory-objects .
 
 olfactory-objects:165 a skos:Concept ;
+    schema:image "https://commons.wikimedia.org/wiki/Special:FilePath/Acetic acid.jpg" ;
     owl:sameAs wd:Q47512 ;
     skos:inScheme voc:olfactory-objects ;
     skos:prefLabel "Essig"@de,
@@ -970,6 +985,7 @@ olfactory-objects:165 a skos:Concept ;
     skos:topConceptOf voc:olfactory-objects .
 
 olfactory-objects:17 a skos:Concept ;
+    schema:image "https://commons.wikimedia.org/wiki/Special:FilePath/Venous and arterial blood.jpg" ;
     owl:sameAs wd:Q7873 ;
     skos:closeMatch iconclass:31A22611 ;
     skos:inScheme voc:olfactory-objects ;
@@ -993,6 +1009,7 @@ olfactory-objects:173 a skos:Concept ;
     skos:topConceptOf voc:olfactory-objects .
 
 olfactory-objects:176 a skos:Concept ;
+    schema:image "https://commons.wikimedia.org/wiki/Special:FilePath/Madagascar 06 545 - Flickr - gailhampshire.jpg" ;
     owl:sameAs wd:Q852100 ;
     skos:altLabel "Wäscherei"@de,
         "Lessive"@fr ;
@@ -1006,6 +1023,7 @@ olfactory-objects:176 a skos:Concept ;
     skos:topConceptOf voc:olfactory-objects .
 
 olfactory-objects:178 a skos:Concept ;
+    schema:image "https://commons.wikimedia.org/wiki/Special:FilePath/Plateau van zeevruchten.jpg" ;
     owl:sameAs wd:Q192935 ;
     skos:altLabel "Marée"@fr,
         "Produit de la mer"@fr ;
@@ -1019,6 +1037,7 @@ olfactory-objects:178 a skos:Concept ;
     skos:topConceptOf voc:olfactory-objects .
 
 olfactory-objects:198 a skos:Concept ;
+    schema:image "https://commons.wikimedia.org/wiki/Special:FilePath/Paracas National Reserve, Ica, Peru-3April2011.jpg" ;
     owl:sameAs wd:Q165 ;
     skos:inScheme voc:olfactory-objects ;
     skos:prefLabel "Meer"@de,
@@ -1030,6 +1049,7 @@ olfactory-objects:198 a skos:Concept ;
     skos:topConceptOf voc:olfactory-objects .
 
 olfactory-objects:199 a skos:Concept ;
+    schema:image "https://commons.wikimedia.org/wiki/Special:FilePath/Bariloche- Argentina2.jpg" ;
     owl:sameAs wd:Q23397 ;
     skos:inScheme voc:olfactory-objects ;
     skos:prefLabel "See"@de,
@@ -1041,6 +1061,7 @@ olfactory-objects:199 a skos:Concept ;
     skos:topConceptOf voc:olfactory-objects .
 
 olfactory-objects:206 a skos:Concept ;
+    schema:image <https://commons.wikimedia.org/wiki/Special:FilePath/Vanilla1web.jpg> ;
     owl:sameAs wd:Q162044 ;
     skos:altLabel "Vanilje"@nl ;
     skos:inScheme voc:olfactory-objects ;
@@ -1053,6 +1074,7 @@ olfactory-objects:206 a skos:Concept ;
     skos:topConceptOf voc:olfactory-objects .
 
 olfactory-objects:21 a skos:Concept ;
+    schema:image "https://commons.wikimedia.org/wiki/Special:FilePath/Assorted bread.jpg" ;
     owl:sameAs wd:Q7802 ;
     skos:altLabel "Hlebec"@sl,
         "štruca"@sl ;
@@ -1081,6 +1103,7 @@ olfactory-objects:211 a skos:Concept ;
     skos:topConceptOf voc:olfactory-objects .
 
 olfactory-objects:22 a skos:Concept ;
+    schema:image "https://commons.wikimedia.org/wiki/Special:FilePath/Butter at the Borough Market.jpg" ;
     owl:sameAs wd:Q34172 ;
     skos:closeMatch iconclass:41C6411 ;
     skos:inScheme voc:olfactory-objects ;
@@ -1129,6 +1152,7 @@ olfactory-objects:230 a skos:Concept ;
     skos:topConceptOf voc:olfactory-objects .
 
 olfactory-objects:239 a skos:Concept ;
+    schema:image <https://commons.wikimedia.org/wiki/Special:FilePath/Acaciafarnesiana1web.jpg> ;
     owl:sameAs wd:Q932729 ;
     skos:altLabel "Huisache"@en,
         "Needle bush"@en,
@@ -1178,6 +1202,7 @@ olfactory-objects:244 a skos:Concept ;
     skos:topConceptOf voc:olfactory-objects .
 
 olfactory-objects:249 a skos:Concept ;
+    schema:image <https://commons.wikimedia.org/wiki/Special:FilePath/Tourbiere.JPG> ;
     owl:sameAs wd:Q184624 ;
     skos:inScheme voc:olfactory-objects ;
     skos:prefLabel "Torf"@de,
@@ -1211,6 +1236,7 @@ olfactory-objects:268 a skos:Concept ;
 
 olfactory-objects:271 a skos:Concept ;
     dct:bibliographicCitation "part of Andrea Buettner's (FAU) \"Geruchsobjekte\""@en ;
+    schema:image <https://commons.wikimedia.org/wiki/Special:FilePath/Ink-stain-texture-9.jpg> ;
     owl:sameAs wd:Q127418 ;
     skos:inScheme voc:olfactory-objects ;
     skos:prefLabel "Ink"@en,
@@ -1222,6 +1248,7 @@ olfactory-objects:271 a skos:Concept ;
 
 olfactory-objects:272 a skos:Concept ;
     dct:bibliographicCitation "part of Andrea Buettner's (FAU) \"Geruchsobjekte\""@en ;
+    schema:image "https://commons.wikimedia.org/wiki/Special:FilePath/Cork p1160013.jpg" ;
     owl:sameAs wd:Q49444 ;
     skos:inScheme voc:olfactory-objects ;
     skos:prefLabel "Cork"@en,
@@ -1233,6 +1260,7 @@ olfactory-objects:272 a skos:Concept ;
 
 olfactory-objects:273 a skos:Concept ;
     dct:bibliographicCitation "part of Andrea Buettner's (FAU) \"Geruchsobjekte\""@en ;
+    schema:image "https://commons.wikimedia.org/wiki/Special:FilePath/Almost done (9046914035).jpg" ;
     owl:sameAs wd:Q389782 ;
     skos:inScheme voc:olfactory-objects ;
     skos:prefLabel "Cardboard"@en,
@@ -1255,6 +1283,7 @@ olfactory-objects:274 a skos:Concept ;
 
 olfactory-objects:275 a skos:Concept ;
     dct:bibliographicCitation "part of Andrea Buettner's (FAU) \"Geruchsobjekte\""@en ;
+    schema:image "https://commons.wikimedia.org/wiki/Special:FilePath/Mineral turpentine.jpg" ;
     owl:sameAs wd:Q201382 ;
     skos:inScheme voc:olfactory-objects ;
     skos:prefLabel "Turpentine"@en,
@@ -1289,6 +1318,7 @@ olfactory-objects:28 a skos:Concept ;
     skos:topConceptOf voc:olfactory-objects .
 
 olfactory-objects:3 a skos:Concept ;
+    schema:image "https://commons.wikimedia.org/wiki/Special:FilePath/Gerome baigneuses.jpg" ;
     owl:sameAs wd:Q327651 ;
     skos:closeMatch iconclass:31A545 ;
     skos:inScheme voc:olfactory-objects ;
@@ -1313,6 +1343,7 @@ olfactory-objects:30 a skos:Concept ;
 
 olfactory-objects:312 a skos:Concept ;
     dct:bibliographicCitation "part of Andrea Buettner's (FAU) \"Geruchsobjekte\""@en ;
+    schema:image "https://commons.wikimedia.org/wiki/Special:FilePath/Amanita muscaria (fly agaric).JPG" ;
     owl:sameAs wd:Q83093 ;
     skos:altLabel "Fongus"@fr,
         "Fungus"@fr ;
@@ -1326,6 +1357,7 @@ olfactory-objects:312 a skos:Concept ;
 
 olfactory-objects:317 a skos:Concept ;
     dct:bibliographicCitation "part of Andrea Buettner's (FAU) \"Geruchsobjekte\""@en ;
+    schema:image <https://commons.wikimedia.org/wiki/Special:FilePath/Indiandishes.jpg> ;
     owl:sameAs wd:Q164606 ;
     skos:inScheme voc:olfactory-objects ;
     skos:prefLabel "Curry"@en,
@@ -1337,6 +1369,7 @@ olfactory-objects:317 a skos:Concept ;
 
 olfactory-objects:318 a skos:Concept ;
     dct:bibliographicCitation "part of Andrea Buettner's (FAU) \"Geruchsobjekte\""@en ;
+    schema:image <https://commons.wikimedia.org/wiki/Special:FilePath/Senf-Variationen.jpg> ;
     owl:sameAs wd:Q131748 ;
     skos:inScheme voc:olfactory-objects ;
     skos:prefLabel "Mustard"@en,
@@ -1348,6 +1381,7 @@ olfactory-objects:318 a skos:Concept ;
 
 olfactory-objects:319 a skos:Concept ;
     dct:bibliographicCitation "part of Andrea Buettner's (FAU) \"Geruchsobjekte\""@en ;
+    schema:image "https://commons.wikimedia.org/wiki/Special:FilePath/Madame Jeanette and other chillies.jpg" ;
     owl:sameAs wd:Q165199 ;
     skos:inScheme voc:olfactory-objects ;
     skos:prefLabel "Chili"@en,
@@ -1358,6 +1392,7 @@ olfactory-objects:319 a skos:Concept ;
     skos:topConceptOf voc:olfactory-objects .
 
 olfactory-objects:32 a skos:Concept ;
+    schema:image "https://commons.wikimedia.org/wiki/Special:FilePath/Hartkaese HardCheeses.jpg" ;
     owl:sameAs wd:Q10943 ;
     skos:closeMatch iconclass:41C6412 ;
     skos:inScheme voc:olfactory-objects ;
@@ -1371,6 +1406,7 @@ olfactory-objects:32 a skos:Concept ;
 
 olfactory-objects:320 a skos:Concept ;
     dct:bibliographicCitation "part of Andrea Buettner's (FAU) \"Geruchsobjekte\""@en ;
+    schema:image "https://commons.wikimedia.org/wiki/Special:FilePath/Junger Bockshornklee.jpg" ;
     owl:sameAs wd:Q133205 ;
     skos:altLabel "Sénégrain"@fr,
         "Trigonelle fenugrec Trigonelle"@fr,
@@ -1387,6 +1423,7 @@ olfactory-objects:320 a skos:Concept ;
 
 olfactory-objects:325 a skos:Concept ;
     dct:bibliographicCitation "part of Andrea Buettner's (FAU) \"Geruchsobjekte\""@en ;
+    schema:image "https://commons.wikimedia.org/wiki/Special:FilePath/Foeniculum July 2011-1a.jpg" ;
     owl:sameAs wd:Q43511 ;
     skos:altLabel "Navadni komarček"@sl ;
     skos:inScheme voc:olfactory-objects ;
@@ -1399,6 +1436,7 @@ olfactory-objects:325 a skos:Concept ;
 
 olfactory-objects:326 a skos:Concept ;
     dct:bibliographicCitation "part of Andrea Buettner's (FAU) \"Geruchsobjekte\""@en ;
+    schema:image "https://commons.wikimedia.org/wiki/Special:FilePath/Carum carvi - Köhler–s Medizinal-Pflanzen-172.jpg" ;
     owl:sameAs wd:Q26811 ;
     skos:altLabel "Anis des Vosges"@fr,
         "Cumin de Hollande"@fr,
@@ -1417,6 +1455,7 @@ olfactory-objects:326 a skos:Concept ;
 
 olfactory-objects:327 a skos:Concept ;
     dct:bibliographicCitation "part of Andrea Buettner's (FAU) \"Geruchsobjekte\""@en ;
+    schema:image "https://commons.wikimedia.org/wiki/Special:FilePath/Anethum graveolens 02.jpg" ;
     owl:sameAs wd:Q26686 ;
     skos:inScheme voc:olfactory-objects ;
     skos:prefLabel "Dill"@en,
@@ -1428,6 +1467,7 @@ olfactory-objects:327 a skos:Concept ;
 
 olfactory-objects:328 a skos:Concept ;
     dct:bibliographicCitation "part of Andrea Buettner's (FAU) \"Geruchsobjekte\""@en ;
+    schema:image "https://commons.wikimedia.org/wiki/Special:FilePath/Illustration Glycyrrhiza glabra0.jpg" ;
     owl:sameAs wd:Q257106 ;
     skos:altLabel "Liquerizia"@it,
         "Likviricija"@sl ;
@@ -1441,6 +1481,7 @@ olfactory-objects:328 a skos:Concept ;
 
 olfactory-objects:332 a skos:Concept ;
     dct:bibliographicCitation "part of Andrea Buettner's (FAU) \"Geruchsobjekte\""@en ;
+    schema:image "https://commons.wikimedia.org/wiki/Special:FilePath/Salvia officinalis0.jpg" ;
     owl:sameAs wd:Q1111359 ;
     skos:inScheme voc:olfactory-objects ;
     skos:prefLabel "Sage"@en,
@@ -1452,6 +1493,7 @@ olfactory-objects:332 a skos:Concept ;
 
 olfactory-objects:333 a skos:Concept ;
     dct:bibliographicCitation "part of Andrea Buettner's (FAU) \"Geruchsobjekte\""@en ;
+    schema:image "https://commons.wikimedia.org/wiki/Special:FilePath/Liebstöckel.JPG" ;
     owl:sameAs wd:Q27615 ;
     skos:altLabel "Ache des montagnes"@fr,
         "Sedano di monte"@it ;
@@ -1465,6 +1507,7 @@ olfactory-objects:333 a skos:Concept ;
 
 olfactory-objects:334 a skos:Concept ;
     dct:bibliographicCitation "part of Andrea Buettner's (FAU) \"Geruchsobjekte\""@en ;
+    schema:image "https://commons.wikimedia.org/wiki/Special:FilePath/Melissa officinalis Bee Balm,Lemon Balm ბარამბო.JPG" ;
     owl:sameAs wd:Q148396 ;
     skos:altLabel "Citronnelle"@fr,
         "Mélisse citronnelle"@fr ;
@@ -1478,6 +1521,7 @@ olfactory-objects:334 a skos:Concept ;
 
 olfactory-objects:336 a skos:Concept ;
     dct:bibliographicCitation "part of Andrea Buettner's (FAU) \"Geruchsobjekte\""@en ;
+    schema:image "https://commons.wikimedia.org/wiki/Special:FilePath/Irigoien Herrero sagardotegia, Astigarraga.jpg" ;
     owl:sameAs wd:Q167296 ;
     skos:inScheme voc:olfactory-objects ;
     skos:prefLabel "Cider"@en,
@@ -1488,6 +1532,7 @@ olfactory-objects:336 a skos:Concept ;
     skos:topConceptOf voc:olfactory-objects .
 
 olfactory-objects:34 a skos:Concept ;
+    schema:image "https://commons.wikimedia.org/wiki/Special:FilePath/Seven-flue Stack 1834.png" ;
     owl:sameAs wd:Q170477 ;
     skos:altLabel "Kamin"@de,
         "Camino"@it,
@@ -1506,6 +1551,7 @@ olfactory-objects:34 a skos:Concept ;
 
 olfactory-objects:341 a skos:Concept ;
     dct:bibliographicCitation "part of Andrea Buettner's (FAU) \"Geruchsobjekte\""@en ;
+    schema:image <https://commons.wikimedia.org/wiki/Special:FilePath/Eierdoos.JPG> ;
     owl:sameAs wd:Q93189 ;
     skos:altLabel "Oeuf"@fr ;
     skos:inScheme voc:olfactory-objects ;
@@ -1518,6 +1564,7 @@ olfactory-objects:341 a skos:Concept ;
 
 olfactory-objects:344 a skos:Concept ;
     dct:bibliographicCitation "part of Andrea Buettner's (FAU) \"Geruchsobjekte\""@en ;
+    schema:image "https://commons.wikimedia.org/wiki/Special:FilePath/Runny hunny.jpg" ;
     owl:sameAs wd:Q10987 ;
     skos:inScheme voc:olfactory-objects ;
     skos:prefLabel "Honey"@en,
@@ -1529,6 +1576,7 @@ olfactory-objects:344 a skos:Concept ;
 
 olfactory-objects:346 a skos:Concept ;
     dct:bibliographicCitation "part of Andrea Buettner's (FAU) \"Geruchsobjekte\""@en ;
+    schema:image <https://commons.wikimedia.org/wiki/Special:FilePath/Broth.jpg> ;
     owl:sameAs wd:Q275068 ;
     skos:inScheme voc:olfactory-objects ;
     skos:prefLabel "Broth"@en,
@@ -1551,6 +1599,7 @@ olfactory-objects:35 a skos:Concept ;
     skos:topConceptOf voc:olfactory-objects .
 
 olfactory-objects:36 a skos:Concept ;
+    schema:image "https://commons.wikimedia.org/wiki/Special:FilePath/Dark chocolate bar.jpg" ;
     owl:sameAs wd:Q195 ;
     skos:altLabel "Heiße Schokolade"@de,
         "Cacao"@en,
@@ -1569,6 +1618,7 @@ olfactory-objects:36 a skos:Concept ;
 
 olfactory-objects:365 a skos:Concept ;
     dct:bibliographicCitation "part of Andrea Buettner's (FAU) \"Geruchsobjekte\""@en ;
+    schema:image "https://commons.wikimedia.org/wiki/Special:FilePath/S cerevisiae under DIC microscopy.jpg" ;
     owl:sameAs wd:Q45422 ;
     skos:inScheme voc:olfactory-objects ;
     skos:prefLabel "Yeast"@en,
@@ -1580,6 +1630,7 @@ olfactory-objects:365 a skos:Concept ;
 
 olfactory-objects:367 a skos:Concept ;
     dct:bibliographicCitation "part of Andrea Buettner's (FAU) \"Geruchsobjekte\""@en ;
+    schema:image "https://commons.wikimedia.org/wiki/Special:FilePath/Dick Tärnström (cropped1).JPG" ;
     owl:sameAs wd:Q3503092 ;
     skos:inScheme voc:olfactory-objects ;
     skos:prefLabel "Sweat"@en,
@@ -1591,6 +1642,7 @@ olfactory-objects:367 a skos:Concept ;
 
 olfactory-objects:368 a skos:Concept ;
     dct:bibliographicCitation "part of Andrea Buettner's (FAU) \"Geruchsobjekte\""@en ;
+    schema:image "https://commons.wikimedia.org/wiki/Special:FilePath/Human semen in petri dish.jpg" ;
     owl:sameAs wd:Q9715 ;
     skos:altLabel "Seminal fluid"@en,
         "Liquide séminal"@fr,
@@ -1635,6 +1687,7 @@ olfactory-objects:371 a skos:Concept ;
 
 olfactory-objects:372 a skos:Concept ;
     dct:bibliographicCitation "part of Andrea Buettner's (FAU) \"Geruchsobjekte\""@en ;
+    schema:image "https://commons.wikimedia.org/wiki/Special:FilePath/Whin or Gorse on Fife Coastal Trail.jpg" ;
     owl:sameAs wd:Q393278 ;
     skos:altLabel "Genêt épineux"@fr,
         "Ginestra spinosa"@it ;
@@ -1656,6 +1709,7 @@ olfactory-objects:373 a skos:Concept ;
     skos:topConceptOf voc:olfactory-objects .
 
 olfactory-objects:381 a skos:Concept ;
+    schema:image "https://commons.wikimedia.org/wiki/Special:FilePath/Diesel in mason jar.JPG" ;
     owl:sameAs wd:Q38423 ;
     skos:altLabel "Diesel"@fr,
         "Diésel"@fr,
@@ -1672,6 +1726,7 @@ olfactory-objects:381 a skos:Concept ;
     skos:topConceptOf voc:olfactory-objects .
 
 olfactory-objects:382 a skos:Concept ;
+    schema:image "https://commons.wikimedia.org/wiki/Special:FilePath/Kerosene bottle.jpg" ;
     owl:sameAs wd:Q76904 ;
     skos:altLabel "Parrafin"@en,
         "Pétrole lampant"@fr,
@@ -1686,6 +1741,7 @@ olfactory-objects:382 a skos:Concept ;
     skos:topConceptOf voc:olfactory-objects .
 
 olfactory-objects:383 a skos:Concept ;
+    schema:image "https://commons.wikimedia.org/wiki/Special:FilePath/Petroleum sample.jpg" ;
     owl:sameAs wd:Q22656 ;
     skos:altLabel "Napthe"@fr,
         "Greggio"@it,
@@ -1699,6 +1755,7 @@ olfactory-objects:383 a skos:Concept ;
     skos:topConceptOf voc:olfactory-objects .
 
 olfactory-objects:388 a skos:Concept ;
+    schema:image <https://commons.wikimedia.org/wiki/Special:FilePath/Sassafras7.jpg> ;
     owl:sameAs wd:Q131532 ;
     skos:altLabel "Sassafrasso"@it ;
     skos:inScheme voc:olfactory-objects ;
@@ -1773,6 +1830,7 @@ olfactory-objects:402 a skos:Concept ;
     skos:topConceptOf voc:olfactory-objects .
 
 olfactory-objects:417 a skos:Concept ;
+    schema:image "https://commons.wikimedia.org/wiki/Special:FilePath/Air composition pie chart.JPG" ;
     owl:sameAs wd:Q7391292 ;
     skos:altLabel "Atmosphere"@en ;
     skos:inScheme voc:olfactory-objects ;
@@ -1784,6 +1842,7 @@ olfactory-objects:417 a skos:Concept ;
     skos:topConceptOf voc:olfactory-objects .
 
 olfactory-objects:418 a skos:Concept ;
+    schema:image "https://commons.wikimedia.org/wiki/Special:FilePath/Potato starch slurry.jpg" ;
     owl:sameAs wd:Q23925154 ;
     skos:altLabel "Boue"@fr ;
     skos:inScheme voc:olfactory-objects ;
@@ -1793,6 +1852,7 @@ olfactory-objects:418 a skos:Concept ;
     skos:topConceptOf voc:olfactory-objects .
 
 olfactory-objects:419 a skos:Concept ;
+    schema:image "https://commons.wikimedia.org/wiki/Special:FilePath/Aasblume Aug 2005.jpg" ;
     owl:sameAs wd:Q163930 ;
     skos:definition "Stapelia is a genus of low-growing, spineless, stem succulent plants, predominantly from South Africa;  Stapelia flowers generate the odor of rotten flesh when they bloom"@en ;
     skos:inScheme voc:olfactory-objects ;
@@ -1811,6 +1871,7 @@ olfactory-objects:420 a skos:Concept ;
     skos:topConceptOf voc:olfactory-objects .
 
 olfactory-objects:421 a skos:Concept ;
+    schema:image "https://commons.wikimedia.org/wiki/Special:FilePath/Tagetes x erecta1.jpg" ;
     owl:sameAs wd:Q759876 ;
     skos:altLabel "Tagettes"@fr ;
     skos:definition "A genus[2] of annual or perennial, mostly herbaceous plants in the sunflower family Asteraceae."@en,
@@ -1822,6 +1883,7 @@ olfactory-objects:421 a skos:Concept ;
     skos:topConceptOf voc:olfactory-objects .
 
 olfactory-objects:423 a skos:Concept ;
+    schema:image "https://commons.wikimedia.org/wiki/Special:FilePath/Artemisia absinthium P1210748.jpg" ;
     owl:sameAs wd:Q25686 ;
     skos:definition "Artemisia absinthium (wormwood, grand wormwood, absinthe, absinthium, absinthe wormwood,[4] mugwort, wermout, wermud, wormit, wormod[5]) is a moderately poisonous species of Artemisia native to temperate regions of Eurasia[6] and North Africa, and widely naturalized in Canada and the northern United States."@en,
         "Ene plant, tot de familie der Synanthereën behoorende, op hooge zandgronden in het wild groeiende, bekend om haren onaangenamen reuk en bitteren smaak"@nl ;
@@ -1844,6 +1906,7 @@ olfactory-objects:424 a skos:Concept ;
     skos:topConceptOf voc:olfactory-objects .
 
 olfactory-objects:425 a skos:Concept ;
+    schema:image "https://commons.wikimedia.org/wiki/Special:FilePath/Magnolia wieseneri.jpg" ;
     owl:sameAs wd:Q157017 ;
     skos:definition "De bladerlooze magnolia's openden haar witte kroon in de tuinen en de lauwe lucht was doortrokken met geuren van wellust,   de vos, Vl. Jong. 91 [1881]."@nl ;
     skos:inScheme voc:olfactory-objects ;
@@ -1861,6 +1924,7 @@ olfactory-objects:426 a skos:Concept ;
     skos:topConceptOf voc:olfactory-objects .
 
 olfactory-objects:429 a skos:Concept ;
+    schema:image "https://commons.wikimedia.org/wiki/Special:FilePath/Artemisia campestris Ypey37.jpg" ;
     owl:sameAs wd:Q783863 ;
     skos:altLabel "Artemisia Campestris"@en,
         "Averuit"@nl ;
@@ -1881,6 +1945,7 @@ olfactory-objects:432 a skos:Concept ;
         "In dese dartelheên heeft sich uw jeuchd besteedt: Haer amber was het stof, haer rosewater 't sweet (aan een krijgsman), Hooft, Ged. 1, 153 [1615]."@nl,
         "Wat Amber ofte Amber-grijs is, wert onder de schrijvers seer getwijffelt,   v. beverw., Schat d. Onges. 1, 39 b [1642]."@nl,
         "u, die altijdt ruyckt soo soet Van Ambra, Sivetta, of Musceliaet.   visscher, Brabb. 65 [c. 1600]."@nl ;
+    schema:image "https://commons.wikimedia.org/wiki/Special:FilePath/Ecomare - ambergris van potvis in 2012 (potvis2012-ambergris-2164-em).jpg" ;
     owl:sameAs wd:Q188774 ;
     skos:altLabel "Grijze amber"@nl ;
     skos:definition "Grey amber. Derived from sperm whale"@en,
@@ -1896,6 +1961,7 @@ olfactory-objects:432 a skos:Concept ;
 
 olfactory-objects:433 a skos:Concept ;
     dct:bibliographicCitation "In het algemeen heeft het Berg-Pek geen aanmerkelyken reuk, maar smeltende … ruikt het naar Barnsteen,   chomel, Verv. 474 a [1786]."@nl ;
+    schema:image "https://commons.wikimedia.org/wiki/Special:FilePath/McKittrick Tar Seep North of Highway 58.jpg" ;
     owl:sameAs wd:Q202251 ;
     skos:altLabel "Bitumen"@en,
         "Bitume"@fr,
@@ -1912,6 +1978,7 @@ olfactory-objects:433 a skos:Concept ;
 
 olfactory-objects:434 a skos:Concept ;
     dct:bibliographicCitation "Petun, Tabak, Nicotiana, oft Bilsencruyt van Peru, soo men dat mach noemen,   dodon. 804 b [ed. 1608]."@nl ;
+    schema:image <https://commons.wikimedia.org/wiki/Special:FilePath/Henbane1.JPG> ;
     owl:sameAs wd:Q161058 ;
     skos:definition "Hyoscyamus niger"@en,
         "Een geslacht van vergiftige planten, behoorende tot de familie der Solanaceae, en geheeten Hyoscyamus; verschillende soorten komen voor, hier te lande het zwart bilzenkruid. De reuk is zeer onaangenaam, het sap heeft eene verdoovende werking (vandaar de namen malkruid, dolkruid, malwillempjeskruid), en wordt in de geneeskunde gebruikt (verg. oudemans, Flora² 2, 382 en 388 )"@nl ;
@@ -1925,6 +1992,7 @@ olfactory-objects:434 a skos:Concept ;
     skos:topConceptOf voc:olfactory-objects .
 
 olfactory-objects:435 a skos:Concept ;
+    schema:image "https://commons.wikimedia.org/wiki/Special:FilePath/Mentha aquatica 02.jpg" ;
     owl:sameAs wd:Q161232 ;
     skos:altLabel "Bachminze"@de,
         "Bruine berend"@nl,
@@ -1943,6 +2011,7 @@ olfactory-objects:435 a skos:Concept ;
     skos:topConceptOf voc:olfactory-objects .
 
 olfactory-objects:447 a skos:Concept ;
+    schema:image "https://commons.wikimedia.org/wiki/Special:FilePath/Cucurbita 2011 G1.jpg" ;
     owl:sameAs wd:Q165308 ;
     skos:inScheme voc:olfactory-objects ;
     skos:prefLabel "Kurbis"@de,
@@ -1954,6 +2023,7 @@ olfactory-objects:447 a skos:Concept ;
     skos:topConceptOf voc:olfactory-objects .
 
 olfactory-objects:45 a skos:Concept ;
+    schema:image "https://commons.wikimedia.org/wiki/Special:FilePath/Civettictis civetta 11.jpg" ;
     owl:sameAs wd:Q241256 ;
     skos:altLabel "Viverra"@en,
         "Zibetto (animale)"@it,
@@ -1970,6 +2040,7 @@ olfactory-objects:45 a skos:Concept ;
     skos:topConceptOf voc:olfactory-objects .
 
 olfactory-objects:46 a skos:Concept ;
+    schema:image "https://commons.wikimedia.org/wiki/Special:FilePath/Cumulus cloud.jpg" ;
     owl:sameAs wd:Q8074 ;
     skos:altLabel "Oblačec"@sl ;
     skos:closeMatch iconclass:26A ;
@@ -1983,6 +2054,7 @@ olfactory-objects:46 a skos:Concept ;
     skos:topConceptOf voc:olfactory-objects .
 
 olfactory-objects:47 a skos:Concept ;
+    schema:image "https://commons.wikimedia.org/wiki/Special:FilePath/Coal (Anthracite).JPG" ;
     owl:sameAs wd:Q24489 ;
     skos:altLabel "Ogel"@sl,
         "oglje"@sl ;
@@ -2337,6 +2409,7 @@ olfactory-objects:529 a skos:Concept ;
     skos:topConceptOf voc:olfactory-objects .
 
 olfactory-objects:53 a skos:Concept ;
+    schema:image <https://commons.wikimedia.org/wiki/Special:FilePath/Diaper.jpg> ;
     owl:sameAs wd:Q187359 ;
     skos:altLabel "Nappy"@en ;
     skos:definition "Allegory of smell"@en ;
@@ -2387,6 +2460,7 @@ olfactory-objects:54 a skos:Concept ;
     skos:topConceptOf voc:olfactory-objects .
 
 olfactory-objects:56 a skos:Concept ;
+    schema:image "https://commons.wikimedia.org/wiki/Special:FilePath/Hokusai Dragon.jpg" ;
     owl:sameAs wd:Q7559 ;
     skos:inScheme voc:olfactory-objects ;
     skos:prefLabel "Drachen"@de,
@@ -2407,6 +2481,7 @@ olfactory-objects:60 a skos:Concept ;
     skos:topConceptOf voc:olfactory-objects .
 
 olfactory-objects:62 a skos:Concept ;
+    schema:image <https://commons.wikimedia.org/wiki/Special:FilePath/RutaGraveolensEssentialOil.png> ;
     owl:sameAs wd:Q170885 ;
     skos:altLabel "Eterično olje"@sl ;
     skos:inScheme voc:olfactory-objects ;
@@ -2419,6 +2494,7 @@ olfactory-objects:62 a skos:Concept ;
     skos:topConceptOf voc:olfactory-objects .
 
 olfactory-objects:66 a skos:Concept ;
+    schema:image <https://commons.wikimedia.org/wiki/Special:FilePath/Fire02.jpg> ;
     owl:sameAs wd:Q3196 ;
     skos:inScheme voc:olfactory-objects ;
     skos:prefLabel "Feuer"@de,
@@ -2430,6 +2506,7 @@ olfactory-objects:66 a skos:Concept ;
     skos:topConceptOf voc:olfactory-objects .
 
 olfactory-objects:67 a skos:Concept ;
+    schema:image "https://commons.wikimedia.org/wiki/Special:FilePath/50-aspetti di vita quotidiana, veglia,Taccuino Sanitatis, Ca.jpg" ;
     owl:sameAs wd:Q188669 ;
     skos:altLabel "Caminetto"@it ;
     skos:inScheme voc:olfactory-objects ;
@@ -2454,6 +2531,7 @@ olfactory-objects:7 a skos:Concept ;
     skos:topConceptOf voc:olfactory-objects .
 
 olfactory-objects:8 a skos:Concept ;
+    schema:image "https://commons.wikimedia.org/wiki/Special:FilePath/Bonfore night.JPG" ;
     owl:sameAs wd:Q9505308 ;
     skos:altLabel "Feuer"@de,
         "Leuchtfeuer"@de,
@@ -2471,6 +2549,7 @@ olfactory-objects:8 a skos:Concept ;
     skos:topConceptOf voc:olfactory-objects .
 
 olfactory-objects:81 a skos:Concept ;
+    schema:image "https://commons.wikimedia.org/wiki/Special:FilePath/Vincent van Gogh - In the Dunes - F15a JH393.jpg" ;
     owl:sameAs wd:Q643352 ;
     skos:altLabel "Pelouse"@fr,
         "Prato"@it ;
@@ -2484,6 +2563,7 @@ olfactory-objects:81 a skos:Concept ;
     skos:topConceptOf voc:olfactory-objects .
 
 olfactory-objects:95 a skos:Concept ;
+    schema:image <https://commons.wikimedia.org/wiki/Special:FilePath/Textielmuseum-cabinet-02.jpg> ;
     owl:sameAs wd:Q1426327 ;
     skos:inScheme voc:olfactory-objects ;
     skos:prefLabel "Leinen"@de,
@@ -2510,6 +2590,7 @@ olfactory-objects:1 a skos:Concept ;
     skos:topConceptOf voc:olfactory-objects .
 
 olfactory-objects:103 a skos:Concept ;
+    schema:image <https://commons.wikimedia.org/wiki/Special:FilePath/Myrrh.JPG> ;
     owl:sameAs wd:Q203635 ;
     skos:broader olfactory-objects:259 ;
     skos:inScheme voc:olfactory-objects ;
@@ -2522,6 +2603,7 @@ olfactory-objects:103 a skos:Concept ;
     skos:topConceptOf voc:olfactory-objects .
 
 olfactory-objects:104 a skos:Concept ;
+    schema:image <https://commons.wikimedia.org/wiki/Special:FilePath/Anemones5.jpg> ;
     owl:sameAs wd:Q158286 ;
     skos:altLabel "Windflower"@en ;
     skos:broader olfactory-objects:72 ;
@@ -2535,6 +2617,7 @@ olfactory-objects:104 a skos:Concept ;
     skos:topConceptOf voc:olfactory-objects .
 
 olfactory-objects:105 a skos:Concept ;
+    schema:image "https://commons.wikimedia.org/wiki/Special:FilePath/Heliotropium peruvianum.jpg" ;
     owl:sameAs wd:Q158082 ;
     skos:broader olfactory-objects:73 ;
     skos:inScheme voc:olfactory-objects ;
@@ -2548,6 +2631,7 @@ olfactory-objects:105 a skos:Concept ;
 
 olfactory-objects:106 a skos:Concept ;
     dct:bibliographicCitation "Nutmeg Grater | V&A Explore The Collections (vam.ac.uk)"@en ;
+    schema:image <https://commons.wikimedia.org/wiki/Special:FilePath/Nutmeggrater.jpg> ;
     owl:sameAs wd:Q7070464 ;
     skos:definition "Appeared in the 17th century, a portable silver object which held nutmeg which was supposed to protect against the pague"@en ;
     skos:inScheme voc:olfactory-objects ;
@@ -2570,6 +2654,7 @@ olfactory-objects:107 a skos:Concept ;
     skos:topConceptOf voc:olfactory-objects .
 
 olfactory-objects:112 a skos:Concept ;
+    schema:image "https://commons.wikimedia.org/wiki/Special:FilePath/Baked goods.jpg" ;
     owl:sameAs wd:Q477248 ;
     skos:altLabel "Pâtisserie"@fr,
         "Pasticceria"@it,
@@ -2627,6 +2712,7 @@ olfactory-objects:133 a skos:Concept ;
     skos:topConceptOf voc:olfactory-objects .
 
 olfactory-objects:134 a skos:Concept ;
+    schema:image "https://commons.wikimedia.org/wiki/Special:FilePath/Outhouse at Holma boat club.jpg" ;
     owl:sameAs wd:Q153938 ;
     skos:altLabel "Toilettes dehors"@fr,
         "Gabinetto"@it,
@@ -2644,6 +2730,7 @@ olfactory-objects:134 a skos:Concept ;
     skos:topConceptOf voc:olfactory-objects .
 
 olfactory-objects:138 a skos:Concept ;
+    schema:image "https://commons.wikimedia.org/wiki/Special:FilePath/Rosa pendulina.jpg" ;
     owl:sameAs wd:Q34687 ;
     skos:broader olfactory-objects:72 ;
     skos:inScheme voc:olfactory-objects ;
@@ -2656,6 +2743,7 @@ olfactory-objects:138 a skos:Concept ;
     skos:topConceptOf voc:olfactory-objects .
 
 olfactory-objects:146 a skos:Concept ;
+    schema:image "https://commons.wikimedia.org/wiki/Special:FilePath/Striped Skunk.jpg" ;
     owl:sameAs wd:Q43604020 ;
     skos:altLabel "Moffetta"@it ;
     skos:broader olfactory-objects:480 ;
@@ -2669,6 +2757,7 @@ olfactory-objects:146 a skos:Concept ;
     skos:topConceptOf voc:olfactory-objects .
 
 olfactory-objects:147 a skos:Concept ;
+    schema:image "https://commons.wikimedia.org/wiki/Special:FilePath/Ognisko ubt 0126.jpeg" ;
     owl:sameAs wd:Q130768 ;
     skos:inScheme voc:olfactory-objects ;
     skos:prefLabel "Rauch"@de,
@@ -2722,6 +2811,7 @@ olfactory-objects:158 a skos:Concept ;
     skos:topConceptOf voc:olfactory-objects .
 
 olfactory-objects:161 a skos:Concept ;
+    schema:image "https://commons.wikimedia.org/wiki/Special:FilePath/Longjing tea after steeping.jpg" ;
     owl:sameAs wd:Q6097 ;
     skos:altLabel "The"@it,
         "Thè"@it ;
@@ -2769,6 +2859,7 @@ olfactory-objects:163 a skos:Concept ;
     skos:topConceptOf voc:olfactory-objects .
 
 olfactory-objects:164 a skos:Concept ;
+    schema:image "https://commons.wikimedia.org/wiki/Special:FilePath/Raspberry vinaigrette.jpg" ;
     owl:sameAs wd:Q847441 ;
     skos:altLabel "Etui-à-parfum"@fr ;
     skos:inScheme voc:olfactory-objects ;
@@ -2781,6 +2872,7 @@ olfactory-objects:164 a skos:Concept ;
     skos:topConceptOf voc:olfactory-objects .
 
 olfactory-objects:166 a skos:Concept ;
+    schema:image <https://commons.wikimedia.org/wiki/Special:FilePath/Vomiting.jpg> ;
     owl:sameAs wd:Q127076 ;
     skos:altLabel "Erbrochenes"@de,
         "Gerbe"@fr,
@@ -2803,6 +2895,7 @@ olfactory-objects:166 a skos:Concept ;
     skos:topConceptOf voc:olfactory-objects .
 
 olfactory-objects:167 a skos:Concept ;
+    schema:image <https://commons.wikimedia.org/wiki/Special:FilePath/MODOCeroline.jpg> ;
     owl:sameAs wd:Q124695 ;
     skos:inScheme voc:olfactory-objects ;
     skos:narrower olfactory-objects:345 ;
@@ -2815,6 +2908,7 @@ olfactory-objects:167 a skos:Concept ;
     skos:topConceptOf voc:olfactory-objects .
 
 olfactory-objects:168 a skos:Concept ;
+    schema:image "https://commons.wikimedia.org/wiki/Special:FilePath/Hime cut.jpg" ;
     owl:sameAs wd:Q105507 ;
     skos:altLabel "Poederpruik"@nl ;
     skos:inScheme voc:olfactory-objects ;
@@ -2839,6 +2933,7 @@ olfactory-objects:172 a skos:Concept ;
     skos:topConceptOf voc:olfactory-objects .
 
 olfactory-objects:174 a skos:Concept ;
+    schema:image "https://commons.wikimedia.org/wiki/Special:FilePath/Distillation by Retort.png" ;
     owl:sameAs wd:Q845242 ;
     skos:altLabel "Still"@en,
         "Hruškasta posoda"@sl ;
@@ -2852,6 +2947,7 @@ olfactory-objects:174 a skos:Concept ;
     skos:topConceptOf voc:olfactory-objects .
 
 olfactory-objects:180 a skos:Concept ;
+    schema:image <https://commons.wikimedia.org/wiki/Special:FilePath/FoodMeat.jpg> ;
     owl:sameAs wd:Q10990 ;
     skos:broader olfactory-objects:405 ;
     skos:inScheme voc:olfactory-objects ;
@@ -2864,6 +2960,7 @@ olfactory-objects:180 a skos:Concept ;
     skos:topConceptOf voc:olfactory-objects .
 
 olfactory-objects:181 a skos:Concept ;
+    schema:image "https://commons.wikimedia.org/wiki/Special:FilePath/Pølse med potetmos.jpg" ;
     owl:sameAs wd:Q131419 ;
     skos:altLabel "Würstchen"@de,
         "Saucisson"@fr ;
@@ -2878,6 +2975,7 @@ olfactory-objects:181 a skos:Concept ;
     skos:topConceptOf voc:olfactory-objects .
 
 olfactory-objects:182 a skos:Concept ;
+    schema:image <https://commons.wikimedia.org/wiki/Special:FilePath/Schinken-gekocht.jpg> ;
     owl:sameAs wd:Q170486 ;
     skos:broader olfactory-objects:405 ;
     skos:inScheme voc:olfactory-objects ;
@@ -2890,6 +2988,7 @@ olfactory-objects:182 a skos:Concept ;
     skos:topConceptOf voc:olfactory-objects .
 
 olfactory-objects:183 a skos:Concept ;
+    schema:image "https://commons.wikimedia.org/wiki/Special:FilePath/Conejo estofado.jpeg" ;
     owl:sameAs wd:Q2920963 ;
     skos:altLabel "Brasato"@it,
         "Spezzatino"@it,
@@ -2905,6 +3004,7 @@ olfactory-objects:183 a skos:Concept ;
     skos:topConceptOf voc:olfactory-objects .
 
 olfactory-objects:184 a skos:Concept ;
+    schema:image "https://commons.wikimedia.org/wiki/Special:FilePath/Scheuerer Hühnerhof.jpg" ;
     owl:sameAs wd:Q178559 ;
     skos:broader olfactory-objects:405 ;
     skos:inScheme voc:olfactory-objects ;
@@ -2917,6 +3017,7 @@ olfactory-objects:184 a skos:Concept ;
     skos:topConceptOf voc:olfactory-objects .
 
 olfactory-objects:185 a skos:Concept ;
+    schema:image <https://commons.wikimedia.org/wiki/Special:FilePath/Porridge.jpg> ;
     owl:sameAs wd:Q186817 ;
     skos:altLabel "Haferschleim"@de ;
     skos:broader olfactory-objects:405 ;
@@ -2930,6 +3031,7 @@ olfactory-objects:185 a skos:Concept ;
     skos:topConceptOf voc:olfactory-objects .
 
 olfactory-objects:186 a skos:Concept ;
+    schema:image "https://commons.wikimedia.org/wiki/Special:FilePath/Banana on pancake.jpg" ;
     owl:sameAs wd:Q44541 ;
     skos:altLabel "Pancakes"@de,
         "Pannenkoek"@nl ;
@@ -2944,6 +3046,7 @@ olfactory-objects:186 a skos:Concept ;
     skos:topConceptOf voc:olfactory-objects .
 
 olfactory-objects:187 a skos:Concept ;
+    schema:image "https://commons.wikimedia.org/wiki/Special:FilePath/Pumpkin Pie.jpg" ;
     owl:sameAs wd:Q13360264 ;
     skos:altLabel "Pasteten"@de,
         "Gebak"@nl ;
@@ -2973,6 +3076,7 @@ olfactory-objects:192 a skos:Concept ;
     skos:topConceptOf voc:olfactory-objects .
 
 olfactory-objects:193 a skos:Concept ;
+    schema:image "https://commons.wikimedia.org/wiki/Special:FilePath/Flock of sheep.jpg" ;
     owl:sameAs wd:Q7368 ;
     skos:altLabel "Agnau"@fr,
         "Agnelle"@fr,
@@ -2992,6 +3096,7 @@ olfactory-objects:193 a skos:Concept ;
     skos:topConceptOf voc:olfactory-objects .
 
 olfactory-objects:194 a skos:Concept ;
+    schema:image "https://commons.wikimedia.org/wiki/Special:FilePath/Barnevelder Cock.png" ;
     owl:sameAs wd:Q780 ;
     skos:altLabel "Coq"@fr,
         "Cappone"@it,
@@ -3019,6 +3124,7 @@ olfactory-objects:196 a skos:Concept ;
     skos:topConceptOf voc:olfactory-objects .
 
 olfactory-objects:197 a skos:Concept ;
+    schema:image "https://commons.wikimedia.org/wiki/Special:FilePath/Labdanum fest.jpg" ;
     owl:sameAs wd:Q909160 ;
     skos:broader olfactory-objects:259 ;
     skos:inScheme voc:olfactory-objects ;
@@ -3055,6 +3161,7 @@ olfactory-objects:201 a skos:Concept ;
     skos:topConceptOf voc:olfactory-objects .
 
 olfactory-objects:202 a skos:Concept ;
+    schema:image "https://commons.wikimedia.org/wiki/Special:FilePath/Santalum album - Köhler–s Medizinal-Pflanzen-128.jpg" ;
     owl:sameAs wd:Q210858 ;
     skos:altLabel "Santal"@nl ;
     skos:broader olfactory-objects:476 ;
@@ -3071,6 +3178,7 @@ olfactory-objects:203 a skos:Concept ;
     dct:bibliographicCitation "Benzoïn, zoo liefelyk van reuk,   antonides 1, 48 [1671]"@nl,
         "De Benzoin dient tot allerleij reukwerken"@nl,
         "als meede tot een blanketzel voor de Vrouwen,   156 a."@nl ;
+    schema:image "https://commons.wikimedia.org/wiki/Special:FilePath/Kemenyan 110112-11054 tdp.jpg" ;
     owl:sameAs wd:Q793163 ;
     skos:altLabel "Storaxbaum"@de,
         "Ase douce"@fr,
@@ -3117,6 +3225,7 @@ olfactory-objects:205 a skos:Concept ;
     skos:topConceptOf voc:olfactory-objects .
 
 olfactory-objects:207 a skos:Concept ;
+    schema:image <https://commons.wikimedia.org/wiki/Special:FilePath/Castoreum1.JPG> ;
     owl:sameAs wd:Q162724 ;
     skos:altLabel "Castorio"@it ;
     skos:inScheme voc:olfactory-objects ;
@@ -3169,6 +3278,7 @@ olfactory-objects:210 a skos:Concept ;
     skos:topConceptOf voc:olfactory-objects .
 
 olfactory-objects:212 a skos:Concept ;
+    schema:image "https://commons.wikimedia.org/wiki/Special:FilePath/Acorus calamus1.jpg" ;
     owl:sameAs wd:Q158008 ;
     skos:altLabel "Sweet flag"@en,
         "sweet cane"@en,
@@ -3185,6 +3295,7 @@ olfactory-objects:212 a skos:Concept ;
     skos:topConceptOf voc:olfactory-objects .
 
 olfactory-objects:213 a skos:Concept ;
+    schema:image "https://commons.wikimedia.org/wiki/Special:FilePath/EB1911 - Mace - Fig. 1.—Group of War Maces of the 15th and 16th centuries.jpg" ;
     owl:sameAs wd:Q272990 ;
     skos:broader olfactory-objects:177 ;
     skos:inScheme voc:olfactory-objects ;
@@ -3196,6 +3307,7 @@ olfactory-objects:213 a skos:Concept ;
     skos:topConceptOf voc:olfactory-objects .
 
 olfactory-objects:214 a skos:Concept ;
+    schema:image <https://commons.wikimedia.org/wiki/Special:FilePath/Cloves.JPG> ;
     owl:sameAs wd:Q15622897 ;
     skos:altLabel "Nagel"@nl ;
     skos:broader olfactory-objects:177 ;
@@ -3209,6 +3321,7 @@ olfactory-objects:214 a skos:Concept ;
     skos:topConceptOf voc:olfactory-objects .
 
 olfactory-objects:215 a skos:Concept ;
+    schema:image "https://commons.wikimedia.org/wiki/Special:FilePath/Cinnamomum verum1.jpg" ;
     owl:sameAs wd:Q370239 ;
     skos:broader olfactory-objects:177 ;
     skos:inScheme voc:olfactory-objects ;
@@ -3220,6 +3333,7 @@ olfactory-objects:215 a skos:Concept ;
     skos:topConceptOf voc:olfactory-objects .
 
 olfactory-objects:216 a skos:Concept ;
+    schema:image "https://commons.wikimedia.org/wiki/Special:FilePath/Дымный порох (Россия).JPG" ;
     owl:sameAs wd:Q12861 ;
     skos:altLabel "Poudre"@fr,
         "Strelni prah"@sl ;
@@ -3234,6 +3348,7 @@ olfactory-objects:216 a skos:Concept ;
     skos:topConceptOf voc:olfactory-objects .
 
 olfactory-objects:217 a skos:Concept ;
+    schema:image "https://commons.wikimedia.org/wiki/Special:FilePath/Styrax platanifolius.jpg" ;
     owl:sameAs wd:Q525062 ;
     skos:broader olfactory-objects:259 ;
     skos:inScheme voc:olfactory-objects ;
@@ -3245,6 +3360,7 @@ olfactory-objects:217 a skos:Concept ;
     skos:topConceptOf voc:olfactory-objects .
 
 olfactory-objects:218 a skos:Concept ;
+    schema:image "https://commons.wikimedia.org/wiki/Special:FilePath/Quercus robur.jpg" ;
     owl:sameAs wd:Q12004 ;
     skos:altLabel "Eikenhout"@nl,
         "Hrastovina"@sl ;
@@ -3259,6 +3375,7 @@ olfactory-objects:218 a skos:Concept ;
     skos:topConceptOf voc:olfactory-objects .
 
 olfactory-objects:219 a skos:Concept ;
+    schema:image "https://commons.wikimedia.org/wiki/Special:FilePath/Cananga odorata flowers.jpg" ;
     owl:sameAs wd:Q220963 ;
     skos:altLabel "Ylang-ylang"@it,
         "Ylang ylang"@sl ;
@@ -3273,6 +3390,7 @@ olfactory-objects:219 a skos:Concept ;
     skos:topConceptOf voc:olfactory-objects .
 
 olfactory-objects:220 a skos:Concept ;
+    schema:image <https://commons.wikimedia.org/wiki/Special:FilePath/Opoponax1.JPG> ;
     owl:sameAs wd:Q21024255 ;
     skos:altLabel "Opoponax"@fr ;
     skos:broader olfactory-objects:259 ;
@@ -3285,6 +3403,7 @@ olfactory-objects:220 a skos:Concept ;
     skos:topConceptOf voc:olfactory-objects .
 
 olfactory-objects:222 a skos:Concept ;
+    schema:image "https://commons.wikimedia.org/wiki/Special:FilePath/Tetrapleura tetraptera-NMNH-13158020.jpg" ;
     owl:sameAs wd:Q7706672 ;
     skos:altLabel "Galbanharz"@de ;
     skos:broader olfactory-objects:259 ;
@@ -3298,6 +3417,7 @@ olfactory-objects:222 a skos:Concept ;
     skos:topConceptOf voc:olfactory-objects .
 
 olfactory-objects:223 a skos:Concept ;
+    schema:image "https://commons.wikimedia.org/wiki/Special:FilePath/Color icon violet v2.svg" ;
     owl:sameAs wd:Q428124 ;
     skos:altLabel "Vijolična"@sl ;
     skos:broader olfactory-objects:72 ;
@@ -3311,6 +3431,7 @@ olfactory-objects:223 a skos:Concept ;
     skos:topConceptOf voc:olfactory-objects .
 
 olfactory-objects:225 a skos:Concept ;
+    schema:image <https://commons.wikimedia.org/wiki/Special:FilePath/Tragacantha1.JPG> ;
     owl:sameAs wd:Q423901 ;
     skos:altLabel "Gummitragant"@de,
         "Tragacanthe"@fr,
@@ -3328,6 +3449,7 @@ olfactory-objects:225 a skos:Concept ;
     skos:topConceptOf voc:olfactory-objects .
 
 olfactory-objects:226 a skos:Concept ;
+    schema:image "https://commons.wikimedia.org/wiki/Special:FilePath/Campanian red-figure Lekythos by the Ixion Painter Antikensammlung Kiel B 774.jpg" ;
     owl:sameAs wd:Q207273 ;
     skos:altLabel "Jacinta"@sl ;
     skos:broader olfactory-objects:72 ;
@@ -3341,6 +3463,7 @@ olfactory-objects:226 a skos:Concept ;
     skos:topConceptOf voc:olfactory-objects .
 
 olfactory-objects:234 a skos:Concept ;
+    schema:image "https://commons.wikimedia.org/wiki/Special:FilePath/Myrtus communis.jpg" ;
     owl:sameAs wd:Q165152 ;
     skos:altLabel "Myrthe"@de ;
     skos:broader olfactory-objects:200 ;
@@ -3354,6 +3477,7 @@ olfactory-objects:234 a skos:Concept ;
     skos:topConceptOf voc:olfactory-objects .
 
 olfactory-objects:235 a skos:Concept ;
+    schema:image "https://commons.wikimedia.org/wiki/Special:FilePath/Mentha viridis - Köhler–s Medizinal-Pflanzen-096.jpg" ;
     owl:sameAs wd:Q47859 ;
     skos:broader olfactory-objects:88 ;
     skos:inScheme voc:olfactory-objects ;
@@ -3366,6 +3490,7 @@ olfactory-objects:235 a skos:Concept ;
     skos:topConceptOf voc:olfactory-objects .
 
 olfactory-objects:236 a skos:Concept ;
+    schema:image "https://commons.wikimedia.org/wiki/Special:FilePath/Orchis simia Saarland 01.jpg" ;
     owl:sameAs wd:Q142269 ;
     skos:broader olfactory-objects:72 ;
     skos:inScheme voc:olfactory-objects ;
@@ -3414,6 +3539,7 @@ olfactory-objects:238 a skos:Concept ;
     skos:topConceptOf voc:olfactory-objects .
 
 olfactory-objects:240 a skos:Concept ;
+    schema:image "https://commons.wikimedia.org/wiki/Special:FilePath/90-year old Kate Carter in North Carolina log cabin.jpg" ;
     owl:sameAs wd:Q152475 ;
     skos:altLabel "Vase de nuit"@fr ;
     skos:broader olfactory-objects:413 ;
@@ -3427,6 +3553,7 @@ olfactory-objects:240 a skos:Concept ;
     skos:topConceptOf voc:olfactory-objects .
 
 olfactory-objects:241 a skos:Concept ;
+    schema:image "https://commons.wikimedia.org/wiki/Special:FilePath/Acral gangrene due to plague.jpg" ;
     owl:sameAs wd:Q168805 ;
     skos:altLabel "Gasgangreen"@nl ;
     skos:broader olfactory-objects:413 ;
@@ -3439,6 +3566,7 @@ olfactory-objects:241 a skos:Concept ;
     skos:topConceptOf voc:olfactory-objects .
 
 olfactory-objects:242 a skos:Concept ;
+    schema:image "https://commons.wikimedia.org/wiki/Special:FilePath/Sulfur - El Desierto mine, San Pablo de Napa, Daniel Campos Province, Potosí, Bolivia.jpg" ;
     owl:sameAs wd:Q682 ;
     skos:altLabel "Brimstone"@en,
         "Solfo"@it ;
@@ -3501,6 +3629,7 @@ olfactory-objects:250 a skos:Concept ;
     skos:topConceptOf voc:olfactory-objects .
 
 olfactory-objects:256 a skos:Concept ;
+    schema:image <https://commons.wikimedia.org/wiki/Special:FilePath/Durian.jpg> ;
     owl:sameAs wd:Q134185 ;
     skos:altLabel "Durion"@fr,
         "Durione"@it ;
@@ -3515,6 +3644,7 @@ olfactory-objects:256 a skos:Concept ;
     skos:topConceptOf voc:olfactory-objects .
 
 olfactory-objects:257 a skos:Concept ;
+    schema:image "https://commons.wikimedia.org/wiki/Special:FilePath/Narcissus flowers.jpg" ;
     owl:sameAs wd:Q29465 ;
     skos:broader olfactory-objects:171 ;
     skos:inScheme voc:olfactory-objects ;
@@ -3535,6 +3665,7 @@ olfactory-objects:266 a skos:Concept ;
     skos:topConceptOf voc:olfactory-objects .
 
 olfactory-objects:27 a skos:Concept ;
+    schema:image "https://commons.wikimedia.org/wiki/Special:FilePath/Gartennelke 1.jpg" ;
     owl:sameAs wd:Q158984 ;
     skos:altLabel "Clove pink"@en,
         "Oeillet"@fr,
@@ -3553,6 +3684,7 @@ olfactory-objects:27 a skos:Concept ;
 
 olfactory-objects:277 a skos:Concept ;
     dct:bibliographicCitation "part of Andrea Buettner's (FAU) \"Geruchsobjekte\""@en ;
+    schema:image "https://commons.wikimedia.org/wiki/Special:FilePath/Grapefruits - whole-halved-segments.jpg" ;
     owl:sameAs wd:Q21552830 ;
     skos:broader olfactory-objects:75 ;
     skos:inScheme voc:olfactory-objects ;
@@ -3565,6 +3697,7 @@ olfactory-objects:277 a skos:Concept ;
 
 olfactory-objects:278 a skos:Concept ;
     dct:bibliographicCitation "part of Andrea Buettner's (FAU) \"Geruchsobjekte\""@en ;
+    schema:image "https://commons.wikimedia.org/wiki/Special:FilePath/Mandarin Oranges (Citrus Reticulata).jpg" ;
     owl:sameAs wd:Q125337 ;
     skos:altLabel "Mandarin"@fr,
         "Tangerine"@fr ;
@@ -3579,6 +3712,7 @@ olfactory-objects:278 a skos:Concept ;
 
 olfactory-objects:279 a skos:Concept ;
     dct:bibliographicCitation "part of Andrea Buettner's (FAU) \"Geruchsobjekte\""@en ;
+    schema:image "https://commons.wikimedia.org/wiki/Special:FilePath/YosriNov04Pokok Serai.JPG" ;
     owl:sameAs wd:Q33913 ;
     skos:broader olfactory-objects:75 ;
     skos:inScheme voc:olfactory-objects ;
@@ -3591,6 +3725,7 @@ olfactory-objects:279 a skos:Concept ;
 
 olfactory-objects:280 a skos:Concept ;
     dct:bibliographicCitation "part of Andrea Buettner's (FAU) \"Geruchsobjekte\""@en ;
+    schema:image <https://commons.wikimedia.org/wiki/Special:FilePath/Schwarzejohannisbeere.jpg> ;
     owl:sameAs wd:Q146604 ;
     skos:altLabel "Cassis"@fr,
         "Gadellier noir"@fr,
@@ -3607,6 +3742,7 @@ olfactory-objects:280 a skos:Concept ;
 
 olfactory-objects:282 a skos:Concept ;
     dct:bibliographicCitation "part of Andrea Buettner's (FAU) \"Geruchsobjekte\""@en ;
+    schema:image "https://commons.wikimedia.org/wiki/Special:FilePath/Fragaria vesca (41503723130).jpg" ;
     owl:sameAs wd:Q745 ;
     skos:broader olfactory-objects:75 ;
     skos:inScheme voc:olfactory-objects ;
@@ -3619,6 +3755,7 @@ olfactory-objects:282 a skos:Concept ;
 
 olfactory-objects:283 a skos:Concept ;
     dct:bibliographicCitation "part of Andrea Buettner's (FAU) \"Geruchsobjekte\""@en ;
+    schema:image "https://commons.wikimedia.org/wiki/Special:FilePath/20130714Himbeere Schwetzinger Hardt2.jpg" ;
     owl:sameAs wd:Q12252383 ;
     skos:broader olfactory-objects:75 ;
     skos:inScheme voc:olfactory-objects ;
@@ -3643,6 +3780,7 @@ olfactory-objects:284 a skos:Concept ;
 
 olfactory-objects:285 a skos:Concept ;
     dct:bibliographicCitation "part of Andrea Buettner's (FAU) \"Geruchsobjekte\""@en ;
+    schema:image "https://commons.wikimedia.org/wiki/Special:FilePath/Autumn Red peaches.jpg" ;
     owl:sameAs wd:Q13189 ;
     skos:broader olfactory-objects:75 ;
     skos:inScheme voc:olfactory-objects ;
@@ -3655,6 +3793,7 @@ olfactory-objects:285 a skos:Concept ;
 
 olfactory-objects:286 a skos:Concept ;
     dct:bibliographicCitation "part of Andrea Buettner's (FAU) \"Geruchsobjekte\""@en ;
+    schema:image "https://commons.wikimedia.org/wiki/Special:FilePath/Plum on tree02.jpg" ;
     owl:sameAs wd:Q12372598 ;
     skos:broader olfactory-objects:75 ;
     skos:inScheme voc:olfactory-objects ;
@@ -3667,6 +3806,7 @@ olfactory-objects:286 a skos:Concept ;
 
 olfactory-objects:287 a skos:Concept ;
     dct:bibliographicCitation "part of Andrea Buettner's (FAU) \"Geruchsobjekte\""@en ;
+    schema:image "https://commons.wikimedia.org/wiki/Special:FilePath/Wine grapes03.jpg" ;
     owl:sameAs wd:Q10978 ;
     skos:broader olfactory-objects:75 ;
     skos:inScheme voc:olfactory-objects ;
@@ -3679,6 +3819,7 @@ olfactory-objects:287 a skos:Concept ;
 
 olfactory-objects:288 a skos:Concept ;
     dct:bibliographicCitation "part of Andrea Buettner's (FAU) \"Geruchsobjekte\""@en ;
+    schema:image <https://commons.wikimedia.org/wiki/Special:FilePath/Honeydew.jpg> ;
     owl:sameAs wd:Q47801 ;
     skos:altLabel "Honeydew"@en,
         "Melon miel"@fr,
@@ -3693,6 +3834,7 @@ olfactory-objects:288 a skos:Concept ;
 
 olfactory-objects:289 a skos:Concept ;
     dct:bibliographicCitation "part of Andrea Buettner's (FAU) \"Geruchsobjekte\""@en ;
+    schema:image <https://commons.wikimedia.org/wiki/Special:FilePath/AnanasComosusOnPlant.jpg> ;
     owl:sameAs wd:Q1493 ;
     skos:broader olfactory-objects:75 ;
     skos:inScheme voc:olfactory-objects ;
@@ -3704,6 +3846,7 @@ olfactory-objects:289 a skos:Concept ;
     skos:topConceptOf voc:olfactory-objects .
 
 olfactory-objects:29 a skos:Concept ;
+    schema:image "https://commons.wikimedia.org/wiki/Special:FilePath/Censer MET cdi09-152-4s4.jpg" ;
     owl:sameAs wd:Q1264081 ;
     skos:altLabel "Turibolo"@it ;
     skos:closeMatch iconclass:11Q71428 ;
@@ -3720,6 +3863,7 @@ olfactory-objects:29 a skos:Concept ;
 
 olfactory-objects:290 a skos:Concept ;
     dct:bibliographicCitation "part of Andrea Buettner's (FAU) \"Geruchsobjekte\""@en ;
+    schema:image <https://commons.wikimedia.org/wiki/Special:FilePath/Pears.jpg> ;
     owl:sameAs wd:Q434 ;
     skos:broader olfactory-objects:75 ;
     skos:inScheme voc:olfactory-objects ;
@@ -3732,6 +3876,7 @@ olfactory-objects:290 a skos:Concept ;
 
 olfactory-objects:291 a skos:Concept ;
     dct:bibliographicCitation "part of Andrea Buettner's (FAU) \"Geruchsobjekte\""@en ;
+    schema:image <https://commons.wikimedia.org/wiki/Special:FilePath/Watermelon-garden.jpg> ;
     owl:sameAs wd:Q17507129 ;
     skos:altLabel "Melon d'eau"@fr,
         "Anguria"@it ;
@@ -3746,6 +3891,7 @@ olfactory-objects:291 a skos:Concept ;
 
 olfactory-objects:292 a skos:Concept ;
     dct:bibliographicCitation "part of Andrea Buettner's (FAU) \"Geruchsobjekte\""@en ;
+    schema:image "https://commons.wikimedia.org/wiki/Special:FilePath/Cocos nucifera8.jpg" ;
     owl:sameAs wd:Q3342808 ;
     skos:altLabel "Coco"@fr,
         "Cocco"@it ;
@@ -3760,6 +3906,7 @@ olfactory-objects:292 a skos:Concept ;
 
 olfactory-objects:293 a skos:Concept ;
     dct:bibliographicCitation "part of Andrea Buettner's (FAU) \"Geruchsobjekte\""@en ;
+    schema:image "https://commons.wikimedia.org/wiki/Special:FilePath/Walnut forest in Arslanbab.jpg" ;
     owl:sameAs wd:Q46871 ;
     skos:broader olfactory-objects:520 ;
     skos:inScheme voc:olfactory-objects ;
@@ -3772,6 +3919,7 @@ olfactory-objects:293 a skos:Concept ;
 
 olfactory-objects:294 a skos:Concept ;
     dct:bibliographicCitation "part of Andrea Buettner's (FAU) \"Geruchsobjekte\""@en ;
+    schema:image "https://commons.wikimedia.org/wiki/Special:FilePath/Hazelnuts (Corylus avellana) - whole with kernels.jpg" ;
     owl:sameAs wd:Q578307 ;
     skos:broader olfactory-objects:520 ;
     skos:inScheme voc:olfactory-objects ;
@@ -3784,6 +3932,7 @@ olfactory-objects:294 a skos:Concept ;
 
 olfactory-objects:295 a skos:Concept ;
     dct:bibliographicCitation "part of Andrea Buettner's (FAU) \"Geruchsobjekte\""@en ;
+    schema:image "https://commons.wikimedia.org/wiki/Special:FilePath/Arachis hypogaea - Köhler–s Medizinal-Pflanzen-163.jpg" ;
     owl:sameAs wd:Q37383 ;
     skos:altLabel "Arachide"@fr,
         "Cacahouète"@fr,
@@ -3808,6 +3957,7 @@ olfactory-objects:295 a skos:Concept ;
 
 olfactory-objects:296 a skos:Concept ;
     dct:bibliographicCitation "part of Andrea Buettner's (FAU) \"Geruchsobjekte\""@en ;
+    schema:image "https://commons.wikimedia.org/wiki/Special:FilePath/Prunus dulcis - Köhler–s Medizinal-Pflanzen-250.jpg" ;
     owl:sameAs wd:Q15545507 ;
     skos:broader olfactory-objects:520 ;
     skos:inScheme voc:olfactory-objects ;
@@ -3820,6 +3970,7 @@ olfactory-objects:296 a skos:Concept ;
 
 olfactory-objects:297 a skos:Concept ;
     dct:bibliographicCitation "part of Andrea Buettner's (FAU) \"Geruchsobjekte\""@en ;
+    schema:image "https://commons.wikimedia.org/wiki/Special:FilePath/Carrots of many colors.jpg" ;
     owl:sameAs wd:Q81 ;
     skos:altLabel "Korenje"@sl ;
     skos:broader olfactory-objects:410 ;
@@ -3833,6 +3984,7 @@ olfactory-objects:297 a skos:Concept ;
 
 olfactory-objects:298 a skos:Concept ;
     dct:bibliographicCitation "part of Andrea Buettner's (FAU) \"Geruchsobjekte\""@en ;
+    schema:image <https://commons.wikimedia.org/wiki/Special:FilePath/Aubergine.jpg> ;
     owl:sameAs wd:Q7540 ;
     skos:altLabel "Eggplant"@en,
         "Melancan (colloquial)"@sl ;
@@ -3847,6 +3999,7 @@ olfactory-objects:298 a skos:Concept ;
 
 olfactory-objects:299 a skos:Concept ;
     dct:bibliographicCitation "part of Andrea Buettner's (FAU) \"Geruchsobjekte\""@en ;
+    schema:image "https://commons.wikimedia.org/wiki/Special:FilePath/NCI peas in pod.jpg" ;
     owl:sameAs wd:Q25237 ;
     skos:altLabel "Petit pois"@fr ;
     skos:broader olfactory-objects:403 ;
@@ -3860,6 +4013,7 @@ olfactory-objects:299 a skos:Concept ;
 
 olfactory-objects:300 a skos:Concept ;
     dct:bibliographicCitation "part of Andrea Buettner's (FAU) \"Geruchsobjekte\""@en ;
+    schema:image "https://commons.wikimedia.org/wiki/Special:FilePath/Potato sprout, January 23, 2006.jpg" ;
     owl:sameAs wd:Q10998 ;
     skos:altLabel "Patate"@fr ;
     skos:broader olfactory-objects:403 ;
@@ -3873,6 +4027,7 @@ olfactory-objects:300 a skos:Concept ;
 
 olfactory-objects:301 a skos:Concept ;
     dct:bibliographicCitation "part of Andrea Buettner's (FAU) \"Geruchsobjekte\""@en ;
+    schema:image "https://commons.wikimedia.org/wiki/Special:FilePath/Illustration Asparagus officinalis0 clean.jpg" ;
     owl:sameAs wd:Q2853420 ;
     skos:altLabel "Špargelj"@sl ;
     skos:broader olfactory-objects:403 ;
@@ -3898,6 +4053,7 @@ olfactory-objects:304 a skos:Concept ;
 
 olfactory-objects:305 a skos:Concept ;
     dct:bibliographicCitation "part of Andrea Buettner's (FAU) \"Geruchsobjekte\""@en ;
+    schema:image "https://commons.wikimedia.org/wiki/Special:FilePath/Corntassel 7095.jpg" ;
     owl:sameAs wd:Q11575 ;
     skos:altLabel "Blé de Barbarie"@fr,
         "Blé de Guinée"@fr,
@@ -3948,6 +4104,7 @@ olfactory-objects:306 a skos:Concept ;
 
 olfactory-objects:307 a skos:Concept ;
     dct:bibliographicCitation "part of Andrea Buettner's (FAU) \"Geruchsobjekte\""@en ;
+    schema:image "https://commons.wikimedia.org/wiki/Special:FilePath/Daun Bawang.jpg" ;
     owl:sameAs wd:Q774278 ;
     skos:altLabel "Scallion"@en,
         "Ciboule"@fr,
@@ -3963,6 +4120,7 @@ olfactory-objects:307 a skos:Concept ;
 
 olfactory-objects:308 a skos:Concept ;
     dct:bibliographicCitation "part of Andrea Buettner's (FAU) \"Geruchsobjekte\""@en ;
+    schema:image "https://commons.wikimedia.org/wiki/Special:FilePath/Celery (2905891576).jpg" ;
     owl:sameAs wd:Q28298 ;
     skos:broader olfactory-objects:403 ;
     skos:inScheme voc:olfactory-objects ;
@@ -3975,6 +4133,7 @@ olfactory-objects:308 a skos:Concept ;
 
 olfactory-objects:309 a skos:Concept ;
     dct:bibliographicCitation "part of Andrea Buettner's (FAU) \"Geruchsobjekte\""@en ;
+    schema:image <https://commons.wikimedia.org/wiki/Special:FilePath/PastinakePflanzegeerntet.jpg> ;
     owl:sameAs wd:Q188614 ;
     skos:altLabel "Pastinaca sativa"@it ;
     skos:broader olfactory-objects:403 ;
@@ -4001,6 +4160,7 @@ olfactory-objects:31 a skos:Concept ;
 
 olfactory-objects:310 a skos:Concept ;
     dct:bibliographicCitation "part of Andrea Buettner's (FAU) \"Geruchsobjekte\""@en ;
+    schema:image "https://commons.wikimedia.org/wiki/Special:FilePath/Aceitunas coloradas.jpg" ;
     owl:sameAs wd:Q1621080 ;
     skos:broader olfactory-objects:403 ;
     skos:inScheme voc:olfactory-objects ;
@@ -4013,6 +4173,7 @@ olfactory-objects:310 a skos:Concept ;
 
 olfactory-objects:311 a skos:Concept ;
     dct:bibliographicCitation "part of Andrea Buettner's (FAU) \"Geruchsobjekte\""@en ;
+    schema:image "https://commons.wikimedia.org/wiki/Special:FilePath/Aesthetic Cabage.jpg" ;
     owl:sameAs wd:Q14328596 ;
     skos:altLabel "Chou pommé"@fr ;
     skos:broader olfactory-objects:403 ;
@@ -4037,6 +4198,7 @@ olfactory-objects:313 a skos:Concept ;
 
 olfactory-objects:314 a skos:Concept ;
     dct:bibliographicCitation "part of Andrea Buettner's (FAU) \"Geruchsobjekte\""@en ;
+    schema:image "https://commons.wikimedia.org/wiki/Special:FilePath/Beets produce-1.jpg" ;
     owl:sameAs wd:Q165437 ;
     skos:altLabel "Betterave"@fr ;
     skos:broader olfactory-objects:410 ;
@@ -4050,6 +4212,7 @@ olfactory-objects:314 a skos:Concept ;
 
 olfactory-objects:315 a skos:Concept ;
     dct:bibliographicCitation "part of Andrea Buettner's (FAU) \"Geruchsobjekte\""@en ;
+    schema:image "https://commons.wikimedia.org/wiki/Special:FilePath/Petroselinum crispum 003.JPG" ;
     owl:sameAs wd:Q25284 ;
     skos:broader olfactory-objects:403 ;
     skos:inScheme voc:olfactory-objects ;
@@ -4062,6 +4225,7 @@ olfactory-objects:315 a skos:Concept ;
 
 olfactory-objects:316 a skos:Concept ;
     dct:bibliographicCitation "part of Andrea Buettner's (FAU) \"Geruchsobjekte\""@en ;
+    schema:image "https://commons.wikimedia.org/wiki/Special:FilePath/Img 0717 garden cress.jpg" ;
     owl:sameAs wd:Q27033 ;
     skos:broader olfactory-objects:403 ;
     skos:inScheme voc:olfactory-objects ;
@@ -4073,6 +4237,7 @@ olfactory-objects:316 a skos:Concept ;
 
 olfactory-objects:321 a skos:Concept ;
     dct:bibliographicCitation "part of Andrea Buettner's (FAU) \"Geruchsobjekte\""@en ;
+    schema:image "https://commons.wikimedia.org/wiki/Special:FilePath/Piper nigrum - Köhler–s Medizinal-Pflanzen-107.jpg" ;
     owl:sameAs wd:Q43084 ;
     skos:broader olfactory-objects:177 ;
     skos:inScheme voc:olfactory-objects ;
@@ -4085,6 +4250,7 @@ olfactory-objects:321 a skos:Concept ;
 
 olfactory-objects:322 a skos:Concept ;
     dct:bibliographicCitation "part of Andrea Buettner's (FAU) \"Geruchsobjekte\""@en ;
+    schema:image <https://commons.wikimedia.org/wiki/Special:FilePath/Oregano-spice.jpg> ;
     owl:sameAs wd:Q92581152 ;
     skos:altLabel "Oregano"@en ;
     skos:broader olfactory-objects:88 ;
@@ -4110,6 +4276,7 @@ olfactory-objects:323 a skos:Concept ;
 
 olfactory-objects:324 a skos:Concept ;
     dct:bibliographicCitation "part of Andrea Buettner's (FAU) \"Geruchsobjekte\""@en ;
+    schema:image <https://commons.wikimedia.org/wiki/Special:FilePath/Koehler1887-PimpinellaAnisum.jpg> ;
     owl:sameAs wd:Q28692 ;
     skos:broader olfactory-objects:177 ;
     skos:inScheme voc:olfactory-objects ;
@@ -4122,6 +4289,7 @@ olfactory-objects:324 a skos:Concept ;
 
 olfactory-objects:329 a skos:Concept ;
     dct:bibliographicCitation "part of Andrea Buettner's (FAU) \"Geruchsobjekte\""@en ;
+    schema:image "https://commons.wikimedia.org/wiki/Special:FilePath/Galium odoratum Flower.JPG" ;
     owl:sameAs wd:Q161090 ;
     skos:altLabel "Aspérule odorante"@fr,
         "Asperula"@it,
@@ -4137,6 +4305,7 @@ olfactory-objects:329 a skos:Concept ;
 
 olfactory-objects:335 a skos:Concept ;
     dct:bibliographicCitation "part of Andrea Buettner's (FAU) \"Geruchsobjekte\""@en ;
+    schema:image <https://commons.wikimedia.org/wiki/Special:FilePath/Lemon.jpg> ;
     owl:sameAs wd:Q1093742 ;
     skos:broader olfactory-objects:75 ;
     skos:inScheme voc:olfactory-objects ;
@@ -4149,6 +4318,7 @@ olfactory-objects:335 a skos:Concept ;
 
 olfactory-objects:337 a skos:Concept ;
     dct:bibliographicCitation "part of Andrea Buettner's (FAU) \"Geruchsobjekte\""@en ;
+    schema:image "https://commons.wikimedia.org/wiki/Special:FilePath/Homemade strawberry liqueur.jpg" ;
     owl:sameAs wd:Q178780 ;
     skos:inScheme voc:olfactory-objects ;
     skos:narrower olfactory-objects:349 ;
@@ -4161,6 +4331,7 @@ olfactory-objects:337 a skos:Concept ;
 
 olfactory-objects:338 a skos:Concept ;
     dct:bibliographicCitation "part of Andrea Buettner's (FAU) \"Geruchsobjekte\""@en ;
+    schema:image "https://commons.wikimedia.org/wiki/Special:FilePath/Glass of Milk (33657535532).jpg" ;
     owl:sameAs wd:Q8495 ;
     skos:inScheme voc:olfactory-objects ;
     skos:prefLabel "Milk"@en,
@@ -4173,6 +4344,7 @@ olfactory-objects:338 a skos:Concept ;
 
 olfactory-objects:339 a skos:Concept ;
     dct:bibliographicCitation "part of Andrea Buettner's (FAU) \"Geruchsobjekte\""@en ;
+    schema:image "https://commons.wikimedia.org/wiki/Special:FilePath/Cream Drop.jpg" ;
     owl:sameAs wd:Q13228 ;
     skos:altLabel "Crema di latte"@it ;
     skos:broader olfactory-objects:405 ;
@@ -4186,6 +4358,7 @@ olfactory-objects:339 a skos:Concept ;
 
 olfactory-objects:340 a skos:Concept ;
     dct:bibliographicCitation "part of Andrea Buettner's (FAU) \"Geruchsobjekte\""@en ;
+    schema:image <https://commons.wikimedia.org/wiki/Special:FilePath/Joghurt.jpg> ;
     owl:sameAs wd:Q13317 ;
     skos:altLabel "Yahourt"@fr,
         "yoghourt"@fr,
@@ -4203,6 +4376,7 @@ olfactory-objects:340 a skos:Concept ;
 
 olfactory-objects:342 a skos:Concept ;
     dct:bibliographicCitation "part of Andrea Buettner's (FAU) \"Geruchsobjekte\""@en ;
+    schema:image "https://commons.wikimedia.org/wiki/Special:FilePath/Miesmuscheln Mytilus 2.jpg" ;
     owl:sameAs wd:Q27855 ;
     skos:broader olfactory-objects:465 ;
     skos:inScheme voc:olfactory-objects ;
@@ -4215,6 +4389,7 @@ olfactory-objects:342 a skos:Concept ;
 
 olfactory-objects:345 a skos:Concept ;
     dct:bibliographicCitation "part of Andrea Buettner's (FAU) \"Geruchsobjekte\""@en ;
+    schema:image <https://commons.wikimedia.org/wiki/Special:FilePath/Bijenwas1591.JPG> ;
     owl:sameAs wd:Q143739 ;
     skos:broader olfactory-objects:167 ;
     skos:inScheme voc:olfactory-objects ;
@@ -4227,6 +4402,7 @@ olfactory-objects:345 a skos:Concept ;
 
 olfactory-objects:347 a skos:Concept ;
     dct:bibliographicCitation "part of Andrea Buettner's (FAU) \"Geruchsobjekte\""@en ;
+    schema:image "https://commons.wikimedia.org/wiki/Special:FilePath/Cotton candy Μαλλί της γριάς.JPG" ;
     owl:sameAs wd:Q49737 ;
     skos:altLabel "Cotton candy"@en ;
     skos:broader olfactory-objects:405 ;
@@ -4240,6 +4416,7 @@ olfactory-objects:347 a skos:Concept ;
 
 olfactory-objects:348 a skos:Concept ;
     dct:bibliographicCitation "part of Andrea Buettner's (FAU) \"Geruchsobjekte\""@en ;
+    schema:image "https://commons.wikimedia.org/wiki/Special:FilePath/Marzipanfrüchte.jpg" ;
     owl:sameAs wd:Q106252 ;
     skos:altLabel "Pâte d'amandes"@fr,
         "Pasta reale"@it ;
@@ -4254,6 +4431,7 @@ olfactory-objects:348 a skos:Concept ;
 
 olfactory-objects:349 a skos:Concept ;
     dct:bibliographicCitation "part of Andrea Buettner's (FAU) \"Geruchsobjekte\""@en ;
+    schema:image "https://commons.wikimedia.org/wiki/Special:FilePath/Amaretto disaronno.jpg" ;
     owl:sameAs wd:Q455045 ;
     skos:broader olfactory-objects:337 ;
     skos:inScheme voc:olfactory-objects ;
@@ -4290,6 +4468,7 @@ olfactory-objects:353 a skos:Concept ;
 
 olfactory-objects:354 a skos:Concept ;
     dct:bibliographicCitation "part of Andrea Buettner's (FAU) \"Geruchsobjekte\""@en ;
+    schema:image "https://commons.wikimedia.org/wiki/Special:FilePath/(MHNT) Brassica napus - Habit.jpg" ;
     owl:sameAs wd:Q177932 ;
     skos:altLabel "Navone"@it ;
     skos:broader olfactory-objects:78 ;
@@ -4303,6 +4482,7 @@ olfactory-objects:354 a skos:Concept ;
 
 olfactory-objects:355 a skos:Concept ;
     dct:bibliographicCitation "part of Andrea Buettner's (FAU) \"Geruchsobjekte\""@en ;
+    schema:image "https://commons.wikimedia.org/wiki/Special:FilePath/Eucalyptus tereticornis flowers, capsules, buds and foliage.jpeg" ;
     owl:sameAs wd:Q45669 ;
     skos:broader olfactory-objects:200 ;
     skos:inScheme voc:olfactory-objects ;
@@ -4339,6 +4519,7 @@ olfactory-objects:357 a skos:Concept ;
 
 olfactory-objects:360 a skos:Concept ;
     dct:bibliographicCitation "part of Andrea Buettner's (FAU) \"Geruchsobjekte\""@en ;
+    schema:image "https://commons.wikimedia.org/wiki/Special:FilePath/Cèdre du Liban Barouk 2005.jpg" ;
     owl:sameAs wd:Q61105 ;
     skos:broader olfactory-objects:359 ;
     skos:inScheme voc:olfactory-objects ;
@@ -4351,6 +4532,7 @@ olfactory-objects:360 a skos:Concept ;
 
 olfactory-objects:361 a skos:Concept ;
     dct:bibliographicCitation "part of Andrea Buettner's (FAU) \"Geruchsobjekte\""@en ;
+    schema:image "https://commons.wikimedia.org/wiki/Special:FilePath/Matricaria recutita 0.1 R.jpg" ;
     owl:sameAs wd:Q28437 ;
     skos:altLabel "Camomile"@en ;
     skos:broader olfactory-objects:72 ;
@@ -4364,6 +4546,7 @@ olfactory-objects:361 a skos:Concept ;
 
 olfactory-objects:362 a skos:Concept ;
     dct:bibliographicCitation "part of Andrea Buettner's (FAU) \"Geruchsobjekte\""@en ;
+    schema:image "https://commons.wikimedia.org/wiki/Special:FilePath/Syringa vulgaris Bulgaria 6.jpg" ;
     owl:sameAs wd:Q6565319 ;
     skos:broader olfactory-objects:73 ;
     skos:inScheme voc:olfactory-objects ;
@@ -4376,6 +4559,7 @@ olfactory-objects:362 a skos:Concept ;
 
 olfactory-objects:363 a skos:Concept ;
     dct:bibliographicCitation "part of Andrea Buettner's (FAU) \"Geruchsobjekte\""@en ;
+    schema:image "https://commons.wikimedia.org/wiki/Special:FilePath/Patlamış mısır.JPG" ;
     owl:sameAs wd:Q165112 ;
     skos:altLabel "Maïs soufflé"@fr,
         "Maïs éclaté"@fr,
@@ -4394,6 +4578,7 @@ olfactory-objects:363 a skos:Concept ;
 
 olfactory-objects:364 a skos:Concept ;
     dct:bibliographicCitation "part of Andrea Buettner's (FAU) \"Geruchsobjekte\""@en ;
+    schema:image "https://commons.wikimedia.org/wiki/Special:FilePath/Cebadas de Cerveza.png" ;
     owl:sameAs wd:Q152024 ;
     skos:inScheme voc:olfactory-objects ;
     skos:prefLabel "Malt"@en,
@@ -4406,6 +4591,7 @@ olfactory-objects:364 a skos:Concept ;
 
 olfactory-objects:366 a skos:Concept ;
     dct:bibliographicCitation "part of Andrea Buettner's (FAU) \"Geruchsobjekte\""@en ;
+    schema:image "https://commons.wikimedia.org/wiki/Special:FilePath/Urintest beim Dalmatiner 34.jpg" ;
     owl:sameAs wd:Q40924 ;
     skos:altLabel "Lancequine"@fr,
         "Lansquine"@fr,
@@ -4438,6 +4624,7 @@ olfactory-objects:375 a skos:Concept ;
     skos:topConceptOf voc:olfactory-objects .
 
 olfactory-objects:376 a skos:Concept ;
+    schema:image "https://commons.wikimedia.org/wiki/Special:FilePath/Cod liver oil.png" ;
     owl:sameAs wd:Q748786 ;
     skos:broader olfactory-objects:109 ;
     skos:inScheme voc:olfactory-objects ;
@@ -4449,6 +4636,7 @@ olfactory-objects:376 a skos:Concept ;
     skos:topConceptOf voc:olfactory-objects .
 
 olfactory-objects:377 a skos:Concept ;
+    schema:image <https://commons.wikimedia.org/wiki/Special:FilePath/Factory.gif> ;
     owl:sameAs wd:Q58734 ;
     skos:altLabel "Contamination"@en ;
     skos:inScheme voc:olfactory-objects ;
@@ -4461,6 +4649,7 @@ olfactory-objects:377 a skos:Concept ;
     skos:topConceptOf voc:olfactory-objects .
 
 olfactory-objects:378 a skos:Concept ;
+    schema:image "https://commons.wikimedia.org/wiki/Special:FilePath/Smoke over the river Volga.jpg" ;
     owl:sameAs wd:Q131123 ;
     skos:altLabel "Pollution de l'air"@fr,
         "Inquinamento dell'aria"@it ;
@@ -4486,6 +4675,7 @@ olfactory-objects:380 a skos:Concept ;
     skos:topConceptOf voc:olfactory-objects .
 
 olfactory-objects:384 a skos:Concept ;
+    schema:image "https://commons.wikimedia.org/wiki/Special:FilePath/Passiflora discophora - Copenhagen Botanical Garden - DSC07364.JPG" ;
     owl:sameAs wd:Q1327999 ;
     skos:broader olfactory-objects:72 ;
     skos:inScheme voc:olfactory-objects ;
@@ -4497,6 +4687,7 @@ olfactory-objects:384 a skos:Concept ;
     skos:topConceptOf voc:olfactory-objects .
 
 olfactory-objects:385 a skos:Concept ;
+    schema:image "https://commons.wikimedia.org/wiki/Special:FilePath/Цветок маракуйи.jpg" ;
     owl:sameAs wd:Q156790 ;
     skos:altLabel "Fruit de la passion"@fr,
         "Fruit de pourpre"@fr,
@@ -4527,6 +4718,7 @@ olfactory-objects:387 a skos:Concept ;
     skos:topConceptOf voc:olfactory-objects .
 
 olfactory-objects:389 a skos:Concept ;
+    schema:image "https://commons.wikimedia.org/wiki/Special:FilePath/Malva moschata 20060708163508wp.jpg" ;
     owl:sameAs wd:Q157920 ;
     skos:altLabel "Ambretta"@it ;
     skos:broader olfactory-objects:72 ;
@@ -4553,6 +4745,7 @@ olfactory-objects:390 a skos:Concept ;
     skos:topConceptOf voc:olfactory-objects .
 
 olfactory-objects:391 a skos:Concept ;
+    schema:image <https://commons.wikimedia.org/wiki/Special:FilePath/CentaureaCyanus-bloem-kl.jpg> ;
     owl:sameAs wd:Q156921 ;
     skos:altLabel "Audifoin"@fr,
         "Barbeau"@fr,
@@ -4586,6 +4779,7 @@ olfactory-objects:393 a skos:Concept ;
     skos:topConceptOf voc:olfactory-objects .
 
 olfactory-objects:396 a skos:Concept ;
+    schema:image "https://commons.wikimedia.org/wiki/Special:FilePath/Oud - MIM PHX.jpg" ;
     owl:sameAs wd:Q191000 ;
     skos:broader olfactory-objects:476 ;
     skos:definition "A piece of fragrant wood or tree"@en ;
@@ -4614,6 +4808,7 @@ olfactory-objects:399 a skos:Concept ;
     skos:topConceptOf voc:olfactory-objects .
 
 olfactory-objects:407 a skos:Concept ;
+    schema:image "https://commons.wikimedia.org/wiki/Special:FilePath/Great Turkish Bombard at Fort Nelson.JPG" ;
     owl:sameAs wd:Q16822477 ;
     skos:altLabel "Herbe royale"@fr ;
     skos:broader olfactory-objects:88 ;
@@ -4626,6 +4821,7 @@ olfactory-objects:407 a skos:Concept ;
     skos:topConceptOf voc:olfactory-objects .
 
 olfactory-objects:408 a skos:Concept ;
+    schema:image "https://commons.wikimedia.org/wiki/Special:FilePath/Rosemary bush.jpg" ;
     owl:sameAs wd:Q122679 ;
     skos:broader olfactory-objects:88 ;
     skos:inScheme voc:olfactory-objects ;
@@ -4637,6 +4833,7 @@ olfactory-objects:408 a skos:Concept ;
     skos:topConceptOf voc:olfactory-objects .
 
 olfactory-objects:409 a skos:Concept ;
+    schema:image "https://commons.wikimedia.org/wiki/Special:FilePath/Thymus vulgaris1.JPG" ;
     owl:sameAs wd:Q148668 ;
     skos:altLabel "Materina dušica"@sl ;
     skos:broader olfactory-objects:88 ;
@@ -4649,6 +4846,7 @@ olfactory-objects:409 a skos:Concept ;
     skos:topConceptOf voc:olfactory-objects .
 
 olfactory-objects:414 a skos:Concept ;
+    schema:image "https://commons.wikimedia.org/wiki/Special:FilePath/Saffran crocus sativus moist.jpg" ;
     owl:sameAs wd:Q25434 ;
     skos:broader olfactory-objects:177 ;
     skos:inScheme voc:olfactory-objects ;
@@ -4660,6 +4858,7 @@ olfactory-objects:414 a skos:Concept ;
     skos:topConceptOf voc:olfactory-objects .
 
 olfactory-objects:416 a skos:Concept ;
+    schema:image "https://commons.wikimedia.org/wiki/Special:FilePath/Austria - Admont Abbey Library - 1407.jpg" ;
     owl:sameAs wd:Q571 ;
     skos:inScheme voc:olfactory-objects ;
     skos:prefLabel "Book"@en,
@@ -4672,6 +4871,7 @@ olfactory-objects:416 a skos:Concept ;
     skos:topConceptOf voc:olfactory-objects .
 
 olfactory-objects:422 a skos:Concept ;
+    schema:image "https://commons.wikimedia.org/wiki/Special:FilePath/Mandragora officinarum 002.JPG" ;
     owl:sameAs wd:Q212742 ;
     skos:altLabel "Mandragola"@it ;
     skos:broader olfactory-objects:410 ;
@@ -4698,6 +4898,7 @@ olfactory-objects:427 a skos:Concept ;
     skos:topConceptOf voc:olfactory-objects .
 
 olfactory-objects:428 a skos:Concept ;
+    schema:image "https://commons.wikimedia.org/wiki/Special:FilePath/Grayling Thymallus thymallus.JPG" ;
     owl:sameAs wd:Q627960 ;
     skos:altLabel "Aschvet"@nl ;
     skos:broader olfactory-objects:68 ;
@@ -4712,6 +4913,7 @@ olfactory-objects:428 a skos:Concept ;
     skos:topConceptOf voc:olfactory-objects .
 
 olfactory-objects:430 a skos:Concept ;
+    schema:image "https://commons.wikimedia.org/wiki/Special:FilePath/Acetic acid.jpg" ;
     owl:sameAs wd:Q47512 ;
     skos:broader olfactory-objects:33 ;
     skos:definition "Een helder, kleurloos vocht van een zuren reuk, zijnde eene verbinding van 2 atomen koolstof, 4 atomen waterstof en 2 atomen zuurstof"@nl ;
@@ -4727,6 +4929,7 @@ olfactory-objects:430 a skos:Concept ;
 olfactory-objects:431 a skos:Concept ;
     dct:bibliographicCitation """Indien uw neus den amber rijck Verfoeit bij reuck van vyands lijck,   hooft, Ged. 2, 350 [1617].
 Den reuckbal, bont bemaelt, en glinsterenden ammer, De traenen van een trits gezustren, in 't gejammer Om Faëton hervormt,   vondel 11, 629 [1671]  (verg. bij AMBERBOOM)."""@nl ;
+    schema:image "https://commons.wikimedia.org/wiki/Special:FilePath/Amber Bernstein many stones.jpg" ;
     owl:sameAs wd:Q25381 ;
     skos:altLabel "Barnsteen"@nl,
         "Gele amber"@nl ;
@@ -4743,6 +4946,7 @@ Den reuckbal, bont bemaelt, en glinsterenden ammer, De traenen van een trits gez
     skos:topConceptOf voc:olfactory-objects .
 
 olfactory-objects:436 a skos:Concept ;
+    schema:image "https://commons.wikimedia.org/wiki/Special:FilePath/Lignit (ksylit).JPG" ;
     owl:sameAs wd:Q156267 ;
     skos:broader olfactory-objects:47 ;
     skos:definition "Lignite"@en ;
@@ -4756,6 +4960,7 @@ olfactory-objects:436 a skos:Concept ;
     skos:topConceptOf voc:olfactory-objects .
 
 olfactory-objects:437 a skos:Concept ;
+    schema:image <https://commons.wikimedia.org/wiki/Special:FilePath/Neroli.png> ;
     owl:sameAs wd:Q900616 ;
     skos:broader olfactory-objects:72 ;
     skos:inScheme voc:olfactory-objects ;
@@ -4768,6 +4973,7 @@ olfactory-objects:437 a skos:Concept ;
     skos:topConceptOf voc:olfactory-objects .
 
 olfactory-objects:438 a skos:Concept ;
+    schema:image "https://commons.wikimedia.org/wiki/Special:FilePath/Pink petunias.jpg" ;
     owl:sameAs wd:Q161103 ;
     skos:broader olfactory-objects:72 ;
     skos:inScheme voc:olfactory-objects ;
@@ -4780,6 +4986,7 @@ olfactory-objects:438 a skos:Concept ;
     skos:topConceptOf voc:olfactory-objects .
 
 olfactory-objects:439 a skos:Concept ;
+    schema:image "https://commons.wikimedia.org/wiki/Special:FilePath/Poppy flower, Torcello, Italy.jpg" ;
     owl:sameAs wd:Q967457 ;
     skos:altLabel "Papaver"@de,
         "Papaver"@en,
@@ -4796,6 +5003,7 @@ olfactory-objects:439 a skos:Concept ;
     skos:topConceptOf voc:olfactory-objects .
 
 olfactory-objects:440 a skos:Concept ;
+    schema:image "https://commons.wikimedia.org/wiki/Special:FilePath/Tulipa suaveolens floriade to Canberra.jpg" ;
     owl:sameAs wd:Q93201 ;
     skos:broader olfactory-objects:72 ;
     skos:inScheme voc:olfactory-objects ;
@@ -4808,6 +5016,7 @@ olfactory-objects:440 a skos:Concept ;
     skos:topConceptOf voc:olfactory-objects .
 
 olfactory-objects:441 a skos:Concept ;
+    schema:image <https://commons.wikimedia.org/wiki/Special:FilePath/Honeycrisp.jpg> ;
     owl:sameAs wd:Q89 ;
     skos:altLabel "Apfel"@de ;
     skos:broader olfactory-objects:75 ;
@@ -4821,6 +5030,7 @@ olfactory-objects:441 a skos:Concept ;
     skos:topConceptOf voc:olfactory-objects .
 
 olfactory-objects:442 a skos:Concept ;
+    schema:image "https://commons.wikimedia.org/wiki/Special:FilePath/Cherry Stella444.jpg" ;
     owl:sameAs wd:Q196 ;
     skos:altLabel "Kriek"@nl ;
     skos:broader olfactory-objects:75 ;
@@ -4834,6 +5044,7 @@ olfactory-objects:442 a skos:Concept ;
     skos:topConceptOf voc:olfactory-objects .
 
 olfactory-objects:443 a skos:Concept ;
+    schema:image "https://commons.wikimedia.org/wiki/Special:FilePath/Červený rybíz.jpg" ;
     owl:sameAs wd:Q3241599 ;
     skos:altLabel "Ribiseln"@de,
         "Ribes"@en,
@@ -4849,6 +5060,7 @@ olfactory-objects:443 a skos:Concept ;
     skos:topConceptOf voc:olfactory-objects .
 
 olfactory-objects:444 a skos:Concept ;
+    schema:image "https://commons.wikimedia.org/wiki/Special:FilePath/Smokve na grani.jpg" ;
     owl:sameAs wd:Q36146 ;
     skos:broader olfactory-objects:75 ;
     skos:inScheme voc:olfactory-objects ;
@@ -4861,6 +5073,7 @@ olfactory-objects:444 a skos:Concept ;
     skos:topConceptOf voc:olfactory-objects .
 
 olfactory-objects:446 a skos:Concept ;
+    schema:image "https://commons.wikimedia.org/wiki/Special:FilePath/Artichoke ready to cook.jpg" ;
     owl:sameAs wd:Q23041430 ;
     skos:broader olfactory-objects:403 ;
     skos:inScheme voc:olfactory-objects ;
@@ -4873,6 +5086,7 @@ olfactory-objects:446 a skos:Concept ;
     skos:topConceptOf voc:olfactory-objects .
 
 olfactory-objects:463 a skos:Concept ;
+    schema:image "https://commons.wikimedia.org/wiki/Special:FilePath/Equus asinus asinus.JPG" ;
     owl:sameAs wd:Q19707 ;
     skos:broader olfactory-objects:480 ;
     skos:inScheme voc:olfactory-objects ;
@@ -4885,6 +5099,7 @@ olfactory-objects:463 a skos:Concept ;
     skos:topConceptOf voc:olfactory-objects .
 
 olfactory-objects:466 a skos:Concept ;
+    schema:image "https://commons.wikimedia.org/wiki/Special:FilePath/Charaxes brutus natalensis.jpg" ;
     owl:sameAs wd:Q11946202 ;
     skos:broader olfactory-objects:464 ;
     skos:inScheme voc:olfactory-objects ;
@@ -4897,6 +5112,7 @@ olfactory-objects:466 a skos:Concept ;
     skos:topConceptOf voc:olfactory-objects .
 
 olfactory-objects:467 a skos:Concept ;
+    schema:image <https://commons.wikimedia.org/wiki/Special:FilePath/Caterpillar.jpg> ;
     owl:sameAs wd:Q81825 ;
     skos:broader olfactory-objects:464 ;
     skos:inScheme voc:olfactory-objects ;
@@ -4909,6 +5125,7 @@ olfactory-objects:467 a skos:Concept ;
     skos:topConceptOf voc:olfactory-objects .
 
 olfactory-objects:468 a skos:Concept ;
+    schema:image "https://commons.wikimedia.org/wiki/Special:FilePath/Bessenbandzweefvlieg Vrouwtje (2).JPG" ;
     owl:sameAs wd:Q25312 ;
     skos:broader olfactory-objects:464 ;
     skos:inScheme voc:olfactory-objects ;
@@ -4933,6 +5150,7 @@ olfactory-objects:469 a skos:Concept ;
     skos:topConceptOf voc:olfactory-objects .
 
 olfactory-objects:470 a skos:Concept ;
+    schema:image "https://commons.wikimedia.org/wiki/Special:FilePath/Garnelen im Verkauf fcm.jpg" ;
     owl:sameAs wd:Q7504001 ;
     skos:broader olfactory-objects:464 ;
     skos:inScheme voc:olfactory-objects ;
@@ -5037,6 +5255,7 @@ olfactory-objects:61 a skos:Concept ;
     skos:topConceptOf voc:olfactory-objects .
 
 olfactory-objects:64 a skos:Concept ;
+    schema:image "https://commons.wikimedia.org/wiki/Special:FilePath/2 feathers.jpg" ;
     owl:sameAs wd:Q81025 ;
     skos:inScheme voc:olfactory-objects ;
     skos:prefLabel "Feder"@de,
@@ -5069,6 +5288,7 @@ olfactory-objects:71 a skos:Concept ;
     skos:topConceptOf voc:olfactory-objects .
 
 olfactory-objects:76 a skos:Concept ;
+    schema:image "https://commons.wikimedia.org/wiki/Special:FilePath/Fur crossfox.jpg" ;
     owl:sameAs wd:Q197204 ;
     skos:altLabel "Pelo"@it,
         "Vacht"@nl,
@@ -5085,6 +5305,7 @@ olfactory-objects:76 a skos:Concept ;
     skos:topConceptOf voc:olfactory-objects .
 
 olfactory-objects:77 a skos:Concept ;
+    schema:image "https://commons.wikimedia.org/wiki/Special:FilePath/Aterro Sanitario.jpg" ;
     owl:sameAs wd:Q45701 ;
     skos:altLabel "Abfall"@de,
         "Garbage"@en,
@@ -5110,6 +5331,7 @@ olfactory-objects:77 a skos:Concept ;
     skos:topConceptOf voc:olfactory-objects .
 
 olfactory-objects:79 a skos:Concept ;
+    schema:image "https://commons.wikimedia.org/wiki/Special:FilePath/Wild HIll Garlic of Tamilnadu.jpg" ;
     owl:sameAs wd:Q23400 ;
     skos:broader olfactory-objects:403 ;
     skos:inScheme voc:olfactory-objects ;
@@ -5123,6 +5345,7 @@ olfactory-objects:79 a skos:Concept ;
 
 olfactory-objects:82 a skos:Concept ;
     dct:bibliographicCitation "https://en.wikipedia.org/wiki/Garland"@en ;
+    schema:image "https://commons.wikimedia.org/wiki/Special:FilePath/Couronne de fleursFlandres, e.jpg" ;
     owl:sameAs wd:Q756600 ;
     skos:altLabel "Venec"@sl ;
     skos:broader olfactory-objects:72 ;
@@ -5149,6 +5372,7 @@ olfactory-objects:86 a skos:Concept ;
     skos:topConceptOf voc:olfactory-objects .
 
 olfactory-objects:87 a skos:Concept ;
+    schema:image "https://commons.wikimedia.org/wiki/Special:FilePath/Foin meule Roumanie.jpg" ;
     owl:sameAs wd:Q336989 ;
     skos:inScheme voc:olfactory-objects ;
     skos:prefLabel "Heu"@de,
@@ -5176,6 +5400,7 @@ olfactory-objects:9 a skos:Concept ;
     skos:topConceptOf voc:olfactory-objects .
 
 olfactory-objects:90 a skos:Concept ;
+    schema:image "https://commons.wikimedia.org/wiki/Special:FilePath/壽字吉祥文蒔絵印籠 - Inrō with the Characters for Longevity and Good Fortune and the “Seven Lucky Treasures” on Checkerboard Ground.jpg" ;
     owl:sameAs wd:Q557164 ;
     skos:broader olfactory-objects:4 ;
     skos:definition "Fragrant pouch/perfume case, accessory worn with a kimono below the waist"@en ;
@@ -5187,6 +5412,7 @@ olfactory-objects:90 a skos:Concept ;
     skos:topConceptOf voc:olfactory-objects .
 
 olfactory-objects:91 a skos:Concept ;
+    schema:image <https://commons.wikimedia.org/wiki/Special:FilePath/Wald-Akelei.JPG> ;
     owl:sameAs wd:Q147641 ;
     skos:altLabel "Aquilegia"@en,
         "Granny's bonnet"@en ;
@@ -5219,6 +5445,7 @@ olfactory-objects:96 a skos:Concept ;
     skos:topConceptOf voc:olfactory-objects .
 
 olfactory-objects:101 a skos:Concept ;
+    schema:image <https://commons.wikimedia.org/wiki/Special:FilePath/Moschustier.jpg> ;
     owl:sameAs wd:Q3866060 ;
     skos:altLabel "Cerf porte-musc"@fr ;
     skos:broader olfactory-objects:480 ;
@@ -5233,6 +5460,7 @@ olfactory-objects:101 a skos:Concept ;
     skos:topConceptOf voc:olfactory-objects .
 
 olfactory-objects:102 a skos:Concept ;
+    schema:image "https://commons.wikimedia.org/wiki/Special:FilePath/Muskrat Foraging.JPG" ;
     owl:sameAs wd:Q26283 ;
     skos:altLabel "Muskrat"@en ;
     skos:broader olfactory-objects:480 ;
@@ -5246,6 +5474,7 @@ olfactory-objects:102 a skos:Concept ;
     skos:topConceptOf voc:olfactory-objects .
 
 olfactory-objects:111 a skos:Concept ;
+    schema:image "https://commons.wikimedia.org/wiki/Special:FilePath/Ointment Jar MET 25.3.46a EGDP013552.jpg" ;
     owl:sameAs wd:Q111490260 ;
     skos:inScheme voc:olfactory-objects ;
     skos:prefLabel "Ointment jar"@en,
@@ -5289,6 +5518,7 @@ olfactory-objects:117 a skos:Concept ;
     skos:topConceptOf voc:olfactory-objects .
 
 olfactory-objects:129 a skos:Concept ;
+    schema:image "https://commons.wikimedia.org/wiki/Special:FilePath/Bouquet holder, possibly Italy, c. 1850-1875 - Royal Ontario Museum - DSC09500.JPG" ;
     owl:sameAs wd:Q3398846 ;
     skos:broader olfactory-objects:4 ;
     skos:definition "Holder of tussie mussie to prevent one from catching the plague"@en ;
@@ -5323,6 +5553,7 @@ olfactory-objects:132 a skos:Concept ;
     skos:topConceptOf voc:olfactory-objects .
 
 olfactory-objects:136 a skos:Concept ;
+    schema:image <https://commons.wikimedia.org/wiki/Special:FilePath/Rosary.svg> ;
     owl:sameAs wd:Q132539 ;
     skos:altLabel "Roženkranc"@sl,
         "molek"@sl ;
@@ -5352,6 +5583,7 @@ olfactory-objects:137 a skos:Concept ;
     skos:topConceptOf voc:olfactory-objects .
 
 olfactory-objects:14 a skos:Concept ;
+    schema:image "https://commons.wikimedia.org/wiki/Special:FilePath/American Beaver.jpg" ;
     owl:sameAs wd:Q47542 ;
     skos:broader olfactory-objects:480 ;
     skos:closeMatch iconclass:25F26 ;
@@ -5417,6 +5649,7 @@ olfactory-objects:148 a skos:Concept ;
     skos:topConceptOf voc:olfactory-objects .
 
 olfactory-objects:15 a skos:Concept ;
+    schema:image "https://commons.wikimedia.org/wiki/Special:FilePath/NCI Visuals Food Beer.jpg" ;
     owl:sameAs wd:Q44 ;
     skos:broader olfactory-objects:535 ;
     skos:closeMatch iconclass:41C714 ;
@@ -5431,6 +5664,7 @@ olfactory-objects:15 a skos:Concept ;
     skos:topConceptOf voc:olfactory-objects .
 
 olfactory-objects:153 a skos:Concept ;
+    schema:image "https://commons.wikimedia.org/wiki/Special:FilePath/Mother and baby sperm whale.jpg" ;
     owl:sameAs wd:Q81214 ;
     skos:altLabel "Ambre gris"@fr,
         "Ambra grigia"@it ;
@@ -5446,6 +5680,7 @@ olfactory-objects:153 a skos:Concept ;
     skos:topConceptOf voc:olfactory-objects .
 
 olfactory-objects:169 a skos:Concept ;
+    schema:image "https://commons.wikimedia.org/wiki/Special:FilePath/Red and white wine 12-2015.jpg" ;
     owl:sameAs wd:Q282 ;
     skos:broader olfactory-objects:535 ;
     skos:inScheme voc:olfactory-objects ;
@@ -5459,6 +5694,7 @@ olfactory-objects:169 a skos:Concept ;
     skos:topConceptOf voc:olfactory-objects .
 
 olfactory-objects:170 a skos:Concept ;
+    schema:image "https://commons.wikimedia.org/wiki/Special:FilePath/Iris germanica 001.jpg" ;
     owl:sameAs wd:Q156901 ;
     skos:altLabel "Schwertlilie"@de,
         "Giaggiolo"@it ;
@@ -5474,6 +5710,7 @@ olfactory-objects:170 a skos:Concept ;
     skos:topConceptOf voc:olfactory-objects .
 
 olfactory-objects:171 a skos:Concept ;
+    schema:image "https://commons.wikimedia.org/wiki/Special:FilePath/Narcissus jonquilla 001 GotBot 2016.jpg" ;
     owl:sameAs wd:Q1703489 ;
     skos:altLabel "Narcisse Jonquille"@fr,
         "Narcis"@nl ;
@@ -5489,6 +5726,7 @@ olfactory-objects:171 a skos:Concept ;
     skos:topConceptOf voc:olfactory-objects .
 
 olfactory-objects:175 a skos:Concept ;
+    schema:image "https://commons.wikimedia.org/wiki/Special:FilePath/Convallaria majalis inflorescence - Keila.jpg" ;
     owl:sameAs wd:Q101711 ;
     skos:altLabel "Lily of the valley"@en,
         "Muguet de mai"@fr ;
@@ -5503,6 +5741,7 @@ olfactory-objects:175 a skos:Concept ;
     skos:topConceptOf voc:olfactory-objects .
 
 olfactory-objects:179 a skos:Concept ;
+    schema:image <https://commons.wikimedia.org/wiki/Special:FilePath/DiwaliOilLampCrop.JPG> ;
     owl:sameAs wd:Q821952 ;
     skos:altLabel "Svetilka na olje"@sl ;
     skos:broader olfactory-objects:144 ;
@@ -5517,6 +5756,7 @@ olfactory-objects:179 a skos:Concept ;
     skos:topConceptOf voc:olfactory-objects .
 
 olfactory-objects:188 a skos:Concept ;
+    schema:image "https://commons.wikimedia.org/wiki/Special:FilePath/Sow with piglet.jpg" ;
     owl:sameAs wd:Q787 ;
     skos:altLabel "Cochon"@fr,
         "Porco"@it,
@@ -5535,6 +5775,7 @@ olfactory-objects:188 a skos:Concept ;
     skos:topConceptOf voc:olfactory-objects .
 
 olfactory-objects:189 a skos:Concept ;
+    schema:image "https://commons.wikimedia.org/wiki/Special:FilePath/Biandintz eta zaldiak - modified2.jpg" ;
     owl:sameAs wd:Q726 ;
     skos:broader olfactory-objects:480 ;
     skos:inScheme voc:olfactory-objects ;
@@ -5548,6 +5789,7 @@ olfactory-objects:189 a skos:Concept ;
     skos:topConceptOf voc:olfactory-objects .
 
 olfactory-objects:190 a skos:Concept ;
+    schema:image "https://commons.wikimedia.org/wiki/Special:FilePath/Cow female black white.jpg" ;
     owl:sameAs wd:Q11748378 ;
     skos:altLabel "Boeuf"@fr,
         "Bœuf"@fr,
@@ -5568,6 +5810,7 @@ olfactory-objects:190 a skos:Concept ;
     skos:topConceptOf voc:olfactory-objects .
 
 olfactory-objects:191 a skos:Concept ;
+    schema:image "https://commons.wikimedia.org/wiki/Special:FilePath/Charolais cattle, Sierra Nevada, Venezuela.jpg" ;
     owl:sameAs wd:Q693690 ;
     skos:broader olfactory-objects:480 ;
     skos:inScheme voc:olfactory-objects ;
@@ -5581,6 +5824,7 @@ olfactory-objects:191 a skos:Concept ;
     skos:topConceptOf voc:olfactory-objects .
 
 olfactory-objects:195 a skos:Concept ;
+    schema:image "https://commons.wikimedia.org/wiki/Special:FilePath/2019-03-17 Columba oenas, Jesmond Dene 8.jpg" ;
     owl:sameAs wd:Q10856 ;
     skos:broader olfactory-objects:461 ;
     skos:inScheme voc:olfactory-objects ;
@@ -5631,6 +5875,7 @@ olfactory-objects:229 a skos:Concept ;
     skos:topConceptOf voc:olfactory-objects .
 
 olfactory-objects:231 a skos:Concept ;
+    schema:image <https://commons.wikimedia.org/wiki/Special:FilePath/Jeneverbes.jpg> ;
     owl:sameAs wd:Q26325 ;
     skos:altLabel "Juniper berry"@en,
         "Baies de genièvre"@fr,
@@ -5648,6 +5893,7 @@ olfactory-objects:231 a skos:Concept ;
     skos:topConceptOf voc:olfactory-objects .
 
 olfactory-objects:232 a skos:Concept ;
+    schema:image <https://commons.wikimedia.org/wiki/Special:FilePath/Laurier.jpg> ;
     owl:sameAs wd:Q26006 ;
     skos:altLabel "Bay leaves"@en,
         "Lauro"@it ;
@@ -5663,6 +5909,7 @@ olfactory-objects:232 a skos:Concept ;
     skos:topConceptOf voc:olfactory-objects .
 
 olfactory-objects:243 a skos:Concept ;
+    schema:image <https://commons.wikimedia.org/wiki/Special:FilePath/Svovlsyre.png> ;
     owl:sameAs wd:Q4118 ;
     skos:broader olfactory-objects:33,
         olfactory-objects:413 ;
@@ -5689,6 +5936,7 @@ olfactory-objects:247 a skos:Concept ;
     skos:topConceptOf voc:olfactory-objects .
 
 olfactory-objects:248 a skos:Concept ;
+    schema:image "https://commons.wikimedia.org/wiki/Special:FilePath/Phenol 2 grams.jpg" ;
     owl:sameAs wd:Q130336 ;
     skos:altLabel "Acide carbolique"@fr,
         "Acide phénique"@fr,
@@ -5740,6 +5988,7 @@ olfactory-objects:254 a skos:Concept ;
     skos:topConceptOf voc:olfactory-objects .
 
 olfactory-objects:255 a skos:Concept ;
+    schema:image "https://commons.wikimedia.org/wiki/Special:FilePath/Rafflesia Arnoldii Batang Palupuah Indonesia.jpg" ;
     owl:sameAs wd:Q161888 ;
     skos:broader olfactory-objects:413,
         olfactory-objects:72 ;
@@ -5753,6 +6002,7 @@ olfactory-objects:255 a skos:Concept ;
     skos:topConceptOf voc:olfactory-objects .
 
 olfactory-objects:258 a skos:Concept ;
+    schema:image "https://commons.wikimedia.org/wiki/Special:FilePath/Chinese jasmine in spring bloom.JPG" ;
     owl:sameAs wd:Q82014 ;
     skos:broader olfactory-objects:72 ;
     skos:inScheme voc:olfactory-objects ;
@@ -5776,6 +6026,7 @@ olfactory-objects:260 a skos:Concept ;
     skos:topConceptOf voc:olfactory-objects .
 
 olfactory-objects:261 a skos:Concept ;
+    schema:image "https://commons.wikimedia.org/wiki/Special:FilePath/Cholera art.jpg" ;
     owl:sameAs wd:Q607329 ;
     skos:broader olfactory-objects:413 ;
     skos:definition "Manifestation of noxious air, often perceived as a foul smell"@en ;
@@ -5789,6 +6040,7 @@ olfactory-objects:261 a skos:Concept ;
     skos:topConceptOf voc:olfactory-objects .
 
 olfactory-objects:262 a skos:Concept ;
+    schema:image <https://commons.wikimedia.org/wiki/Special:FilePath/UncinulaTulasneiLeaf.jpg> ;
     owl:sameAs wd:Q1220207 ;
     skos:altLabel "Pourriture blanche"@fr,
         "Muffa"@it ;
@@ -5803,6 +6055,7 @@ olfactory-objects:262 a skos:Concept ;
     skos:topConceptOf voc:olfactory-objects .
 
 olfactory-objects:263 a skos:Concept ;
+    schema:image <https://commons.wikimedia.org/wiki/Special:FilePath/DecayingPeachSmall.gif> ;
     owl:sameAs wd:Q159341 ;
     skos:altLabel "Ambigious: it might pertain to a shaped container into which you pour liquid that becomes solid in the shape of the container"@sl ;
     skos:broader olfactory-objects:413 ;
@@ -5827,6 +6080,7 @@ olfactory-objects:265 a skos:Concept ;
     skos:topConceptOf voc:olfactory-objects .
 
 olfactory-objects:270 a skos:Concept ;
+    schema:image "https://commons.wikimedia.org/wiki/Special:FilePath/Primary Form of Musk.jpg" ;
     owl:sameAs wd:Q323461 ;
     skos:inScheme voc:olfactory-objects ;
     skos:prefLabel "Moschus"@de,
@@ -5842,6 +6096,7 @@ olfactory-objects:270 a skos:Concept ;
 
 olfactory-objects:302 a skos:Concept ;
     dct:bibliographicCitation "part of Andrea Buettner's (FAU) \"Geruchsobjekte\""@en ;
+    schema:image "https://commons.wikimedia.org/wiki/Special:FilePath/Allium schoenoprasum J1.JPG" ;
     owl:sameAs wd:Q51148 ;
     skos:altLabel "Civette"@fr ;
     skos:broader olfactory-objects:403 ;
@@ -5856,6 +6111,7 @@ olfactory-objects:302 a skos:Concept ;
 
 olfactory-objects:303 a skos:Concept ;
     dct:bibliographicCitation "part of Andrea Buettner's (FAU) \"Geruchsobjekte\""@en ;
+    schema:image <https://commons.wikimedia.org/wiki/Special:FilePath/2010-06-19-supermarkt-by-RalfR-35.jpg> ;
     owl:sameAs wd:Q1807269 ;
     skos:broader olfactory-objects:403 ;
     skos:inScheme voc:olfactory-objects ;
@@ -5869,6 +6125,7 @@ olfactory-objects:303 a skos:Concept ;
 
 olfactory-objects:330 a skos:Concept ;
     dct:bibliographicCitation "part of Andrea Buettner's (FAU) \"Geruchsobjekte\""@en ;
+    schema:image <https://commons.wikimedia.org/wiki/Special:FilePath/Koriandersamen.jpg> ;
     owl:sameAs wd:Q20856764 ;
     skos:broader olfactory-objects:177,
         olfactory-objects:370 ;
@@ -5882,6 +6139,7 @@ olfactory-objects:330 a skos:Concept ;
 
 olfactory-objects:350 a skos:Concept ;
     dct:bibliographicCitation "part of Andrea Buettner's (FAU) \"Geruchsobjekte\""@en ;
+    schema:image "https://commons.wikimedia.org/wiki/Special:FilePath/Geranium February 2008-1.jpg" ;
     owl:sameAs wd:Q157211 ;
     skos:altLabel "Geraneo"@it,
         "Giranio"@it,
@@ -5912,6 +6170,7 @@ olfactory-objects:351 a skos:Concept ;
 
 olfactory-objects:358 a skos:Concept ;
     dct:bibliographicCitation "part of Andrea Buettner's (FAU) \"Geruchsobjekte\""@en ;
+    schema:image "https://commons.wikimedia.org/wiki/Special:FilePath/Conifer forest.jpg" ;
     owl:sameAs wd:Q132825 ;
     skos:broader olfactory-objects:200 ;
     skos:inScheme voc:olfactory-objects ;
@@ -5925,6 +6184,7 @@ olfactory-objects:358 a skos:Concept ;
 
 olfactory-objects:359 a skos:Concept ;
     dct:bibliographicCitation "part of Andrea Buettner's (FAU) \"Geruchsobjekte\""@en ;
+    schema:image "https://commons.wikimedia.org/wiki/Special:FilePath/2009-10-31 Eastern Juniper, Gibraltar Rock, Columbia County, Wisconsin.jpg" ;
     owl:sameAs wd:Q157522 ;
     skos:altLabel "Cèdre rouge oriental"@fr,
         "Potloodceder"@nl ;
@@ -5958,6 +6218,7 @@ olfactory-objects:369 a skos:Concept ;
     skos:topConceptOf voc:olfactory-objects .
 
 olfactory-objects:370 a skos:Concept ;
+    schema:image "https://commons.wikimedia.org/wiki/Special:FilePath/Разнообразие семян.jpg" ;
     owl:sameAs wd:Q40763 ;
     skos:altLabel "Same"@de,
         "Samen"@de ;
@@ -5984,6 +6245,7 @@ olfactory-objects:374 a skos:Concept ;
     skos:topConceptOf voc:olfactory-objects .
 
 olfactory-objects:379 a skos:Concept ;
+    schema:image "https://commons.wikimedia.org/wiki/Special:FilePath/Bundesarchiv Bild 183-1990-0206-324, Berlin, Passanten im Wind.jpg" ;
     owl:sameAs wd:Q8094 ;
     skos:broader olfactory-objects:417 ;
     skos:inScheme voc:olfactory-objects ;
@@ -5996,6 +6258,7 @@ olfactory-objects:379 a skos:Concept ;
     skos:topConceptOf voc:olfactory-objects .
 
 olfactory-objects:392 a skos:Concept ;
+    schema:image <https://commons.wikimedia.org/wiki/Special:FilePath/Chamois-natural.jpg> ;
     owl:sameAs wd:Q1450533 ;
     skos:broader olfactory-objects:233 ;
     skos:inScheme voc:olfactory-objects ;
@@ -6023,6 +6286,7 @@ olfactory-objects:40 a skos:Concept ;
     skos:topConceptOf voc:olfactory-objects .
 
 olfactory-objects:406 a skos:Concept ;
+    schema:image "https://commons.wikimedia.org/wiki/Special:FilePath/Myristica fragrans - Köhler–s Medizinal-Pflanzen-097.jpg" ;
     owl:sameAs wd:Q2724976 ;
     skos:altLabel "Muscade"@fr ;
     skos:broader olfactory-objects:177 ;
@@ -6051,6 +6315,7 @@ olfactory-objects:41 a skos:Concept ;
     skos:topConceptOf voc:olfactory-objects .
 
 olfactory-objects:411 a skos:Concept ;
+    schema:image "https://commons.wikimedia.org/wiki/Special:FilePath/Goat family.jpg" ;
     owl:sameAs wd:Q2934 ;
     skos:broader olfactory-objects:480 ;
     skos:inScheme voc:olfactory-objects ;
@@ -6077,6 +6342,7 @@ olfactory-objects:42 a skos:Concept ;
     skos:topConceptOf voc:olfactory-objects .
 
 olfactory-objects:43 a skos:Concept ;
+    schema:image <https://commons.wikimedia.org/wiki/Special:FilePath/Cigaret-5.jpg> ;
     owl:sameAs wd:Q1578 ;
     skos:broader olfactory-objects:281 ;
     skos:closeMatch iconclass:41C743 ;
@@ -6099,6 +6365,7 @@ olfactory-objects:451 a skos:Concept ;
     skos:topConceptOf voc:olfactory-objects .
 
 olfactory-objects:453 a skos:Concept ;
+    schema:image "https://commons.wikimedia.org/wiki/Special:FilePath/Five Piece Tea Service with Chrysanthemum Design LACMA M.2006.132.10a-i.jpg" ;
     owl:sameAs wd:Q81727 ;
     skos:altLabel "Tasse"@fr,
         "Tazza"@it ;
@@ -6112,6 +6379,7 @@ olfactory-objects:453 a skos:Concept ;
     skos:topConceptOf voc:olfactory-objects .
 
 olfactory-objects:454 a skos:Concept ;
+    schema:image <https://commons.wikimedia.org/wiki/Special:FilePath/Chalice.jpeg> ;
     owl:sameAs wd:Q210723 ;
     skos:broader olfactory-objects:450 ;
     skos:inScheme voc:olfactory-objects ;
@@ -6124,6 +6392,7 @@ olfactory-objects:454 a skos:Concept ;
     skos:topConceptOf voc:olfactory-objects .
 
 olfactory-objects:460 a skos:Concept ;
+    schema:image "https://commons.wikimedia.org/wiki/Special:FilePath/MIN Rungis viandes de boucherie veau.jpg" ;
     owl:sameAs wd:Q2937981 ;
     skos:altLabel "Animal Carcass"@en,
         "Animal corpse"@en ;
@@ -6139,6 +6408,7 @@ olfactory-objects:460 a skos:Concept ;
     skos:topConceptOf voc:olfactory-objects .
 
 olfactory-objects:462 a skos:Concept ;
+    schema:image "https://commons.wikimedia.org/wiki/Special:FilePath/Cat November 2010-1a.jpg" ;
     owl:sameAs wd:Q146 ;
     skos:broader olfactory-objects:480 ;
     skos:inScheme voc:olfactory-objects ;
@@ -6165,6 +6435,7 @@ olfactory-objects:465 a skos:Concept ;
     skos:topConceptOf voc:olfactory-objects .
 
 olfactory-objects:474 a skos:Concept ;
+    schema:image "https://commons.wikimedia.org/wiki/Special:FilePath/Cigarette in white ashtray.jpg" ;
     owl:sameAs wd:Q214488 ;
     skos:inScheme voc:olfactory-objects ;
     skos:prefLabel "Aschenbecher"@de,
@@ -6186,6 +6457,7 @@ olfactory-objects:492 a skos:Concept ;
     skos:topConceptOf voc:olfactory-objects .
 
 olfactory-objects:50 a skos:Concept ;
+    schema:image "https://commons.wikimedia.org/wiki/Special:FilePath/A small cup of coffee.JPG" ;
     owl:sameAs wd:Q8486 ;
     skos:altLabel "Črno zlato"@sl ;
     skos:broader olfactory-objects:534 ;
@@ -6211,6 +6483,7 @@ olfactory-objects:535 a skos:Concept ;
     skos:topConceptOf voc:olfactory-objects .
 
 olfactory-objects:55 a skos:Concept ;
+    schema:image "https://commons.wikimedia.org/wiki/Special:FilePath/Greenland 467 (35130903436) (cropped).jpg" ;
     owl:sameAs wd:Q144 ;
     skos:altLabel "Cucki"@sl,
         "ščeneta"@sl ;
@@ -6244,6 +6517,7 @@ olfactory-objects:59 a skos:Concept ;
     skos:topConceptOf voc:olfactory-objects .
 
 olfactory-objects:63 a skos:Concept ;
+    schema:image "https://commons.wikimedia.org/wiki/Special:FilePath/Hand fan 1 ( mahuci).jpg" ;
     owl:sameAs wd:Q193220 ;
     skos:altLabel "Fan"@en,
         "Ventilateur pliant"@fr,
@@ -6263,6 +6537,7 @@ olfactory-objects:63 a skos:Concept ;
     skos:topConceptOf voc:olfactory-objects .
 
 olfactory-objects:68 a skos:Concept ;
+    schema:image "https://commons.wikimedia.org/wiki/Special:FilePath/Georgia Aquarium - Giant Grouper edit.jpg" ;
     owl:sameAs wd:Q152 ;
     skos:broader olfactory-objects:459 ;
     skos:inScheme voc:olfactory-objects ;
@@ -6288,6 +6563,7 @@ olfactory-objects:80 a skos:Concept ;
     skos:topConceptOf voc:olfactory-objects .
 
 olfactory-objects:83 a skos:Concept ;
+    schema:image "https://commons.wikimedia.org/wiki/Special:FilePath/FAMAS dsc06877.jpg" ;
     owl:sameAs wd:Q12796 ;
     skos:altLabel "Arme"@fr,
         "Pistolet"@fr ;
@@ -6312,6 +6588,7 @@ olfactory-objects:84 a skos:Concept ;
     skos:topConceptOf voc:olfactory-objects .
 
 olfactory-objects:85 a skos:Concept ;
+    schema:image "https://commons.wikimedia.org/wiki/Special:FilePath/Hattutställning - Hallwylska museet - 85706.tif" ;
     owl:sameAs wd:Q1065579 ;
     skos:definition "Clothing that is worn or carried, but not part of your main clothing"@en ;
     skos:exactMatch wordnet:02674410-n ;
@@ -6324,6 +6601,7 @@ olfactory-objects:85 a skos:Concept ;
     skos:topConceptOf voc:olfactory-objects .
 
 olfactory-objects:93 a skos:Concept ;
+    schema:image "https://commons.wikimedia.org/wiki/Special:FilePath/Testa di Torquato Tasso di profilo.jpg" ;
     owl:sameAs wd:Q734844 ;
     skos:altLabel "Laurel Arch"@en,
         "Couronne de lauriers"@it,
@@ -6359,6 +6637,7 @@ olfactory-objects:99 a skos:Concept ;
     skos:topConceptOf voc:olfactory-objects .
 
 olfactory-objects:109 a skos:Concept ;
+    schema:image "https://commons.wikimedia.org/wiki/Special:FilePath/Motor oil refill with funnel.JPG" ;
     owl:sameAs wd:Q42962 ;
     skos:inScheme voc:olfactory-objects ;
     skos:narrower olfactory-objects:375,
@@ -6373,6 +6652,7 @@ olfactory-objects:109 a skos:Concept ;
     skos:topConceptOf voc:olfactory-objects .
 
 olfactory-objects:110 a skos:Concept ;
+    schema:image <https://commons.wikimedia.org/wiki/Special:FilePath/Onions.jpg> ;
     owl:sameAs wd:Q3406628 ;
     skos:broader olfactory-objects:403 ;
     skos:inScheme voc:olfactory-objects ;
@@ -6387,6 +6667,7 @@ olfactory-objects:110 a skos:Concept ;
     skos:topConceptOf voc:olfactory-objects .
 
 olfactory-objects:116 a skos:Concept ;
+    schema:image "https://commons.wikimedia.org/wiki/Special:FilePath/Perfume bottle.jpg" ;
     owl:sameAs wd:Q29512262 ;
     skos:altLabel "Parfumflasche"@de,
         "Flacon de parfum"@fr,
@@ -6427,6 +6708,7 @@ olfactory-objects:121 a skos:Concept ;
     skos:topConceptOf voc:olfactory-objects .
 
 olfactory-objects:122 a skos:Concept ;
+    schema:image <https://commons.wikimedia.org/wiki/Special:FilePath/Alvano-Sabina-pipe.jpg> ;
     owl:sameAs wd:Q104526 ;
     skos:altLabel "Tube"@fr,
         "Tubatura"@it ;
@@ -6442,6 +6724,7 @@ olfactory-objects:122 a skos:Concept ;
     skos:topConceptOf voc:olfactory-objects .
 
 olfactory-objects:13 a skos:Concept ;
+    schema:image <https://commons.wikimedia.org/wiki/Special:FilePath/2010-kodiak-bear-1.jpg> ;
     owl:sameAs wd:Q729 ;
     skos:closeMatch iconclass:25F ;
     skos:inScheme voc:olfactory-objects ;
@@ -6457,6 +6740,7 @@ olfactory-objects:13 a skos:Concept ;
     skos:topConceptOf voc:olfactory-objects .
 
 olfactory-objects:221 a skos:Concept ;
+    schema:image "https://commons.wikimedia.org/wiki/Special:FilePath/Acacia dealbata.jpg" ;
     owl:sameAs wd:Q81666 ;
     skos:broader olfactory-objects:200,
         olfactory-objects:72 ;
@@ -6471,6 +6755,7 @@ olfactory-objects:221 a skos:Concept ;
     skos:topConceptOf voc:olfactory-objects .
 
 olfactory-objects:251 a skos:Concept ;
+    schema:image "https://commons.wikimedia.org/wiki/Special:FilePath/Incense bowl - IMJ 961800081.jpeg" ;
     owl:sameAs wd:Q111514798 ;
     skos:broader olfactory-objects:89 ;
     skos:inScheme voc:olfactory-objects ;
@@ -6483,6 +6768,7 @@ olfactory-objects:251 a skos:Concept ;
     skos:topConceptOf voc:olfactory-objects .
 
 olfactory-objects:267 a skos:Concept ;
+    schema:image <https://commons.wikimedia.org/wiki/Special:FilePath/Frankincense.JPG> ;
     owl:sameAs wd:Q173486 ;
     skos:altLabel "Encens (résine oliban)"@fr,
         "Oliban"@fr,
@@ -6501,6 +6787,7 @@ olfactory-objects:267 a skos:Concept ;
 
 olfactory-objects:331 a skos:Concept ;
     dct:bibliographicCitation "part of Andrea Buettner's (FAU) \"Geruchsobjekte\""@en ;
+    schema:image "https://commons.wikimedia.org/wiki/Special:FilePath/Coriander Leaves.jpg" ;
     owl:sameAs wd:Q65523167 ;
     skos:broader olfactory-objects:177,
         olfactory-objects:531,
@@ -6515,6 +6802,7 @@ olfactory-objects:331 a skos:Concept ;
 
 olfactory-objects:343 a skos:Concept ;
     dct:bibliographicCitation "part of Andrea Buettner's (FAU) \"Geruchsobjekte\""@en ;
+    schema:image "https://commons.wikimedia.org/wiki/Special:FilePath/Crustacea collage.png" ;
     owl:sameAs wd:Q25364 ;
     skos:broader olfactory-objects:464 ;
     skos:inScheme voc:olfactory-objects ;
@@ -6528,6 +6816,7 @@ olfactory-objects:343 a skos:Concept ;
     skos:topConceptOf voc:olfactory-objects .
 
 olfactory-objects:404 a skos:Concept ;
+    schema:image <https://commons.wikimedia.org/wiki/Special:FilePath/VariousPills.jpg> ;
     owl:sameAs wd:Q12140 ;
     skos:altLabel "Farmaco"@it,
         "Medicina"@it ;
@@ -6544,6 +6833,7 @@ olfactory-objects:404 a skos:Concept ;
     skos:topConceptOf voc:olfactory-objects .
 
 olfactory-objects:415 a skos:Concept ;
+    schema:image "https://commons.wikimedia.org/wiki/Special:FilePath/Single lavender flower02.jpg" ;
     owl:sameAs wd:Q171892 ;
     skos:broader olfactory-objects:72 ;
     skos:inScheme voc:olfactory-objects ;
@@ -6557,6 +6847,7 @@ olfactory-objects:415 a skos:Concept ;
     skos:topConceptOf voc:olfactory-objects .
 
 olfactory-objects:445 a skos:Concept ;
+    schema:image "https://commons.wikimedia.org/wiki/Special:FilePath/Cantaloupe and canary melon.jpg" ;
     owl:sameAs wd:Q5881191 ;
     skos:broader olfactory-objects:75 ;
     skos:inScheme voc:olfactory-objects ;
@@ -6571,6 +6862,7 @@ olfactory-objects:445 a skos:Concept ;
     skos:topConceptOf voc:olfactory-objects .
 
 olfactory-objects:450 a skos:Concept ;
+    schema:image "https://commons.wikimedia.org/wiki/Special:FilePath/Beerglass orval.jpg" ;
     owl:sameAs wd:Q18451251 ;
     skos:altLabel "Goblet"@en ;
     skos:broader olfactory-objects:449 ;
@@ -6583,6 +6875,7 @@ olfactory-objects:450 a skos:Concept ;
     skos:topConceptOf voc:olfactory-objects .
 
 olfactory-objects:452 a skos:Concept ;
+    schema:image "https://commons.wikimedia.org/wiki/Special:FilePath/Voller grüner Weinkranz Krug 0,8l.jpg" ;
     owl:sameAs wd:Q2413314 ;
     skos:broader olfactory-objects:448 ;
     skos:inScheme voc:olfactory-objects ;
@@ -6593,6 +6886,7 @@ olfactory-objects:452 a skos:Concept ;
     skos:topConceptOf voc:olfactory-objects .
 
 olfactory-objects:455 a skos:Concept ;
+    schema:image <https://commons.wikimedia.org/wiki/Special:FilePath/Bouteille.jpg> ;
     owl:sameAs wd:Q23490 ;
     skos:broader olfactory-objects:412 ;
     skos:inScheme voc:olfactory-objects ;
@@ -6606,6 +6900,7 @@ olfactory-objects:455 a skos:Concept ;
     skos:topConceptOf voc:olfactory-objects .
 
 olfactory-objects:456 a skos:Concept ;
+    schema:image "https://commons.wikimedia.org/wiki/Special:FilePath/Bleikristall Karaffe.jpg" ;
     owl:sameAs wd:Q1104430 ;
     skos:broader olfactory-objects:448 ;
     skos:inScheme voc:olfactory-objects ;
@@ -6618,6 +6913,7 @@ olfactory-objects:456 a skos:Concept ;
     skos:topConceptOf voc:olfactory-objects .
 
 olfactory-objects:457 a skos:Concept ;
+    schema:image "https://commons.wikimedia.org/wiki/Special:FilePath/Sas Cofee pot hand holding pot.JPG" ;
     owl:sameAs wd:Q1721055 ;
     skos:altLabel "Koffiepot"@nl ;
     skos:broader olfactory-objects:448 ;
@@ -6631,6 +6927,7 @@ olfactory-objects:457 a skos:Concept ;
     skos:topConceptOf voc:olfactory-objects .
 
 olfactory-objects:458 a skos:Concept ;
+    schema:image "https://commons.wikimedia.org/wiki/Special:FilePath/Teapot 2010 G1.jpg" ;
     owl:sameAs wd:Q245005 ;
     skos:broader olfactory-objects:448 ;
     skos:inScheme voc:olfactory-objects ;
@@ -6643,6 +6940,7 @@ olfactory-objects:458 a skos:Concept ;
     skos:topConceptOf voc:olfactory-objects .
 
 olfactory-objects:461 a skos:Concept ;
+    schema:image "https://commons.wikimedia.org/wiki/Special:FilePath/Female house sparrow at Kodai.jpg" ;
     owl:sameAs wd:Q5113 ;
     skos:broader olfactory-objects:459 ;
     skos:inScheme voc:olfactory-objects ;
@@ -6657,6 +6955,7 @@ olfactory-objects:461 a skos:Concept ;
     skos:topConceptOf voc:olfactory-objects .
 
 olfactory-objects:472 a skos:Concept ;
+    schema:image "https://commons.wikimedia.org/wiki/Special:FilePath/Bracelet Amrit Louvre Bj2238b.jpg" ;
     owl:sameAs wd:Q201664 ;
     skos:altLabel "Braccialetto"@it ;
     skos:broader olfactory-objects:4 ;
@@ -6671,6 +6970,7 @@ olfactory-objects:472 a skos:Concept ;
     skos:topConceptOf voc:olfactory-objects .
 
 olfactory-objects:475 a skos:Concept ;
+    schema:image "https://commons.wikimedia.org/wiki/Special:FilePath/Centre de Documentació Museu Tèxtil de Terrassa- Reserves- Teixits- Guants002.JPG" ;
     owl:sameAs wd:Q169031 ;
     skos:inScheme voc:olfactory-objects ;
     skos:prefLabel "Handschuhe"@de,
@@ -6683,6 +6983,7 @@ olfactory-objects:475 a skos:Concept ;
     skos:topConceptOf voc:olfactory-objects .
 
 olfactory-objects:476 a skos:Concept ;
+    schema:image "https://commons.wikimedia.org/wiki/Special:FilePath/Arquitectura en madera.jpg" ;
     owl:sameAs wd:Q287 ;
     skos:altLabel "Rinde"@de,
         "Corteccia"@it,
@@ -6771,6 +7072,7 @@ olfactory-objects:73 a skos:Concept ;
     skos:topConceptOf voc:olfactory-objects .
 
 olfactory-objects:92 a skos:Concept ;
+    schema:image <https://commons.wikimedia.org/wiki/Special:FilePath/LiliumBulbiferumCroceumBologna.jpg> ;
     owl:sameAs wd:Q5194627 ;
     skos:altLabel "Lis"@fr ;
     skos:broader olfactory-objects:72 ;
@@ -6856,6 +7158,7 @@ olfactory-objects:264 a skos:Concept ;
     skos:topConceptOf voc:olfactory-objects .
 
 olfactory-objects:39 a skos:Concept ;
+    schema:image "https://commons.wikimedia.org/wiki/Special:FilePath/Cigar Wrapper Color Chart.jpg" ;
     owl:sameAs wd:Q1576 ;
     skos:altLabel "Havana"@sl,
         "havanka"@sl ;
@@ -6913,6 +7216,7 @@ olfactory-objects:531 a skos:Concept ;
     skos:topConceptOf voc:olfactory-objects .
 
 olfactory-objects:89 a skos:Concept ;
+    schema:image "https://commons.wikimedia.org/wiki/Special:FilePath/Incense Burner MET wb-1972.87d.jpeg" ;
     owl:sameAs wd:Q111514811 ;
     skos:altLabel "Räuchergefäß"@de,
         "Portaincensi"@it ;
@@ -6945,6 +7249,7 @@ olfactory-objects:228 a skos:Concept ;
     skos:topConceptOf voc:olfactory-objects .
 
 olfactory-objects:449 a skos:Concept ;
+    schema:image <https://commons.wikimedia.org/wiki/Special:FilePath/Glass-of-water.jpg> ;
     owl:sameAs wd:Q21167379 ;
     skos:altLabel "Trinkglas"@de,
         "Glass"@en,
@@ -6963,6 +7268,7 @@ olfactory-objects:449 a skos:Concept ;
     skos:topConceptOf voc:olfactory-objects .
 
 olfactory-objects:473 a skos:Concept ;
+    schema:image "https://commons.wikimedia.org/wiki/Special:FilePath/Roman - Crouching Venus - Walters 421007 - Three Quarter.jpg" ;
     owl:sameAs wd:Q46847 ;
     skos:broader olfactory-objects:4 ;
     skos:inScheme voc:olfactory-objects ;
@@ -7009,6 +7315,7 @@ olfactory-objects:69 a skos:Concept ;
     skos:topConceptOf voc:olfactory-objects .
 
 olfactory-objects:233 a skos:Concept ;
+    schema:image <https://commons.wikimedia.org/wiki/Special:FilePath/Leathertools.jpg> ;
     owl:sameAs wd:Q286 ;
     skos:altLabel "Leder"@nl ;
     skos:inScheme voc:olfactory-objects ;
@@ -7026,6 +7333,7 @@ olfactory-objects:233 a skos:Concept ;
     skos:topConceptOf voc:olfactory-objects .
 
 olfactory-objects:269 a skos:Concept ;
+    schema:image "https://commons.wikimedia.org/wiki/Special:FilePath/China-Schanghai-Jade Buddha-Temple-5176573.jpg" ;
     owl:sameAs wd:Q273131 ;
     skos:broader olfactory-objects:259 ;
     skos:definition "Collection of fragrant materials that can be burnt 'per fumum'  in order to give of scent"@en ;
@@ -7061,6 +7369,7 @@ olfactory-objects:33 a skos:Concept ;
     skos:topConceptOf voc:olfactory-objects .
 
 olfactory-objects:412 a skos:Concept ;
+    schema:image "https://commons.wikimedia.org/wiki/Special:FilePath/Bouteille nb.jpg" ;
     owl:sameAs wd:Q80228 ;
     skos:broader olfactory-objects:448 ;
     skos:inScheme voc:olfactory-objects ;
@@ -7101,6 +7410,7 @@ olfactory-objects:58 a skos:Concept ;
     skos:topConceptOf voc:olfactory-objects .
 
 olfactory-objects:98 a skos:Concept ;
+    schema:image "https://commons.wikimedia.org/wiki/Special:FilePath/Mà i fems (26999241221).jpg" ;
     owl:sameAs wd:Q185716 ;
     skos:altLabel "Dung"@de,
         "Mist"@de ;
@@ -7120,6 +7430,7 @@ olfactory-objects:98 a skos:Concept ;
     skos:topConceptOf voc:olfactory-objects .
 
 olfactory-objects:125 a skos:Concept ;
+    schema:image "https://commons.wikimedia.org/wiki/Special:FilePath/Selection of gold and silver pomanders, Europe Wellcome L0058230.jpg" ;
     owl:sameAs wd:Q4736 ;
     skos:altLabel "Musk ball"@en,
         "Pomme de senteur"@fr,
@@ -7145,6 +7456,7 @@ olfactory-objects:125 a skos:Concept ;
     skos:topConceptOf voc:olfactory-objects .
 
 olfactory-objects:471 a skos:Concept ;
+    schema:image <https://commons.wikimedia.org/wiki/Special:FilePath/Insekter.jpg> ;
     owl:sameAs wd:Q1390 ;
     skos:altLabel "Bug"@en ;
     skos:broader olfactory-objects:464 ;
@@ -7164,6 +7476,7 @@ olfactory-objects:471 a skos:Concept ;
     skos:topConceptOf voc:olfactory-objects .
 
 olfactory-objects:459 a skos:Concept ;
+    schema:image "https://commons.wikimedia.org/wiki/Special:FilePath/Tiliqua scincoides scincoides.jpg" ;
     owl:sameAs wd:Q25241 ;
     skos:altLabel "Vertebraten"@nl ;
     skos:broader olfactory-objects:13 ;
@@ -7185,6 +7498,7 @@ olfactory-objects:459 a skos:Concept ;
 
 olfactory-objects:281 a skos:Concept ;
     dct:bibliographicCitation "part of Andrea Buettner's (FAU) \"Geruchsobjekte\""@en ;
+    schema:image <https://commons.wikimedia.org/wiki/Special:FilePath/Blueberries-In-Pack.jpg> ;
     owl:sameAs wd:Q13178 ;
     skos:broader olfactory-objects:75 ;
     skos:inScheme voc:olfactory-objects ;
@@ -7222,6 +7536,7 @@ olfactory-objects:413 a skos:Concept ;
     skos:topConceptOf voc:olfactory-objects .
 
 olfactory-objects:78 a skos:Concept ;
+    schema:image "https://commons.wikimedia.org/wiki/Special:FilePath/Thanh Long ở Ninh Thuận.jpg" ;
     owl:sameAs wd:Q756 ;
     skos:inScheme voc:olfactory-objects ;
     skos:narrower olfactory-objects:200,
@@ -7240,6 +7555,7 @@ olfactory-objects:78 a skos:Concept ;
     skos:topConceptOf voc:olfactory-objects .
 
 olfactory-objects:227 a skos:Concept ;
+    schema:image "https://commons.wikimedia.org/wiki/Special:FilePath/Tabak 9290019.JPG" ;
     owl:sameAs wd:Q1566 ;
     skos:inScheme voc:olfactory-objects ;
     skos:narrower olfactory-objects:530 ;
@@ -7261,6 +7577,7 @@ olfactory-objects:227 a skos:Concept ;
     skos:topConceptOf voc:olfactory-objects .
 
 olfactory-objects:464 a skos:Concept ;
+    schema:image "https://commons.wikimedia.org/wiki/Special:FilePath/Jelly cc11.jpg" ;
     owl:sameAs wd:Q43806 ;
     skos:broader olfactory-objects:13 ;
     skos:inScheme voc:olfactory-objects ;
@@ -7282,6 +7599,7 @@ olfactory-objects:464 a skos:Concept ;
     skos:topConceptOf voc:olfactory-objects .
 
 olfactory-objects:88 a skos:Concept ;
+    schema:image "https://commons.wikimedia.org/wiki/Special:FilePath/Küchenkräuter-1.jpg" ;
     owl:sameAs wd:Q207123 ;
     skos:broader olfactory-objects:405,
         olfactory-objects:78 ;
@@ -7303,6 +7621,7 @@ olfactory-objects:88 a skos:Concept ;
     skos:topConceptOf voc:olfactory-objects .
 
 olfactory-objects:177 a skos:Concept ;
+    schema:image <https://commons.wikimedia.org/wiki/Special:FilePath/Spices1.jpg> ;
     owl:sameAs wd:Q42527 ;
     skos:broader olfactory-objects:405 ;
     skos:exactMatch wordnet:07828160-n ;
@@ -7326,6 +7645,7 @@ olfactory-objects:177 a skos:Concept ;
     skos:topConceptOf voc:olfactory-objects .
 
 olfactory-objects:259 a skos:Concept ;
+    schema:image "https://commons.wikimedia.org/wiki/Special:FilePath/Resin with insect (aka).jpg" ;
     owl:sameAs wd:Q145205 ;
     skos:inScheme voc:olfactory-objects ;
     skos:narrower olfactory-objects:103,
@@ -7348,6 +7668,7 @@ olfactory-objects:259 a skos:Concept ;
     skos:topConceptOf voc:olfactory-objects .
 
 olfactory-objects:448 a skos:Concept ;
+    schema:image "https://commons.wikimedia.org/wiki/Special:FilePath/Danske Lerkar fra Stenalderen.jpg" ;
     owl:sameAs wd:Q96952903 ;
     skos:altLabel "Drinking vessel"@en ;
     skos:inScheme voc:olfactory-objects ;
@@ -7370,6 +7691,7 @@ olfactory-objects:448 a skos:Concept ;
     skos:topConceptOf voc:olfactory-objects .
 
 olfactory-objects:200 a skos:Concept ;
+    schema:image "https://commons.wikimedia.org/wiki/Special:FilePath/Sequoiadendron giganteum at Kenilworth Castle.jpg" ;
     owl:sameAs wd:Q10884 ;
     skos:broader olfactory-objects:78 ;
     skos:inScheme voc:olfactory-objects ;
@@ -7396,6 +7718,7 @@ olfactory-objects:200 a skos:Concept ;
 
 olfactory-objects:65 a skos:Concept ;
     dct:bibliographicCitation "WordNet"@en ;
+    schema:image "https://commons.wikimedia.org/wiki/Special:FilePath/Perfume set from Sovjetunio cca 1965.jpg" ;
     owl:sameAs wd:Q131746 ;
     skos:closeMatch iconclass:31A5142 ;
     skos:definition "A toiletry that emits and diffuses a fragrant odor"@en ;
@@ -7421,6 +7744,7 @@ olfactory-objects:65 a skos:Concept ;
     skos:topConceptOf voc:olfactory-objects .
 
 olfactory-objects:405 a skos:Concept ;
+    schema:image "https://commons.wikimedia.org/wiki/Special:FilePath/Good Food Display - NCI Visuals Online.jpg" ;
     owl:sameAs wd:Q2095 ;
     skos:altLabel "Aliment"@fr,
         "Bouffe"@fr ;
@@ -7450,6 +7774,7 @@ olfactory-objects:405 a skos:Concept ;
     skos:topConceptOf voc:olfactory-objects .
 
 olfactory-objects:4 a skos:Concept ;
+    schema:image "https://commons.wikimedia.org/wiki/Special:FilePath/Parure della regina maria amelia, parigi, 1800-15 poi 1850-75 ca.jpg" ;
     owl:sameAs wd:Q161439 ;
     skos:altLabel "Kopalna hiša"@sl ;
     skos:exactMatch wordnet:03602662-n ;
@@ -7479,6 +7804,7 @@ olfactory-objects:4 a skos:Concept ;
     skos:topConceptOf voc:olfactory-objects .
 
 olfactory-objects:403 a skos:Concept ;
+    schema:image "https://commons.wikimedia.org/wiki/Special:FilePath/Kleinmarkthalle Frankfurt Gemüsestand.jpg" ;
     owl:sameAs wd:Q11004 ;
     skos:altLabel "Végétal"@fr ;
     skos:broader olfactory-objects:405,
@@ -7551,6 +7877,7 @@ olfactory-objects:480 a skos:Concept ;
     skos:topConceptOf voc:olfactory-objects .
 
 olfactory-objects:75 a skos:Concept ;
+    schema:image "https://commons.wikimedia.org/wiki/Special:FilePath/Fruit Stall in Barcelona Market.jpg" ;
     owl:sameAs wd:Q3314483 ;
     skos:altLabel "Frutta"@it,
         "Vruchten"@nl ;
@@ -7595,6 +7922,7 @@ olfactory-objects:75 a skos:Concept ;
     skos:topConceptOf voc:olfactory-objects .
 
 olfactory-objects:72 a skos:Concept ;
+    schema:image <https://commons.wikimedia.org/wiki/Special:FilePath/Flores.gif> ;
     owl:sameAs wd:Q506 ;
     skos:altLabel "Cvetlice"@sl ;
     skos:broader olfactory-objects:78 ;
@@ -7648,8 +7976,8 @@ olfactory-objects:72 a skos:Concept ;
 voc:olfactory-objects a skos:ConceptScheme ;
     rdfs:label "Olfactory objects" ;
     dct:created "2021-06-01"^^xsd:date ;
-    dct:modified "2022-10-11"^^xsd:date ;
-    pav:createdOn "2022-10-11"^^xsd:date ;
+    dct:modified "2022-10-12"^^xsd:date ;
+    pav:createdOn "2022-10-12"^^xsd:date ;
     pav:version "0.1" ;
     skos:hasTopConcept olfactory-objects:1,
         olfactory-objects:10,

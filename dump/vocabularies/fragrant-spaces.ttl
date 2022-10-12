@@ -5,6 +5,7 @@
 @prefix owl: <http://www.w3.org/2002/07/owl#> .
 @prefix pav: <http://purl.org/pav/> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <http://schema.org/> .
 @prefix skos: <http://www.w3.org/2004/02/skos/core#> .
 @prefix voc: <http://data.odeuropa.eu/vocabulary/> .
 @prefix wd: <http://www.wikidata.org/entity/> .
@@ -41,6 +42,7 @@ fragrant-spaces:1 a skos:Concept ;
 
 fragrant-spaces:100 a skos:Concept ;
     dct:bibliographicCitation "WNT: 't Was luguber-leeg in hun stamlokaal. Er hing oude stank van bedorven bier en sigaren-eindjes,  Robbers, Gel. Fam. 83 [1909]."@nl ;
+    schema:image <https://commons.wikimedia.org/wiki/Special:FilePath/Pubbsm.jpg> ;
     owl:sameAs wd:Q212198 ;
     skos:altLabel "Birreria"@it ;
     skos:inScheme voc:fragrant-spaces ;
@@ -52,6 +54,7 @@ fragrant-spaces:100 a skos:Concept ;
 
 fragrant-spaces:101 a skos:Concept ;
     dct:bibliographicCitation "WNT: En al waer dit genoch tot een Godt-salich leven, Soo stelt daer evenwel de helsche pijn beneven, Vol vier, vol vlam, vol nacht, vol swaevel, peck, en stanck,  Poirters, H. Herte 86."@nl ;
+    schema:image "https://commons.wikimedia.org/wiki/Special:FilePath/William-Adolphe Bouguereau (1825-1905) - Dante And Virgil In Hell (1850).jpg" ;
     owl:sameAs wd:Q564 ;
     skos:inScheme voc:fragrant-spaces ;
     skos:prefLabel "Hell"@en,
@@ -63,6 +66,7 @@ fragrant-spaces:101 a skos:Concept ;
 fragrant-spaces:102 a skos:Concept ;
     dct:bibliographicCitation "Dit zelfde ondervind men in de Schouwburgen, daar men in de bovenste zittingen (t.w. de loges) altydt een vunze reuk gewaar word,  du hamel du monceau, Baak d. Gezondh. 73 [1760]."@nl,
         "WNT: Omstreeks het midden der voorstelling verneemt men een zonderling geraas, en een onaangename reuk verspreidt zich door de zaal,  Alg. Handelsbl. 11 Sept. 1830, 6 a [1830]."@nl ;
+    schema:image "https://commons.wikimedia.org/wiki/Special:FilePath/Ana Maria Ventura como Altisidora en \"La enamorada del rey\" (1988).jpg" ;
     owl:sameAs wd:Q11635,
         <https://www.geonames.org/ontology#S.THTR> ;
     skos:altLabel "Theater"@en ;
@@ -75,6 +79,7 @@ fragrant-spaces:102 a skos:Concept ;
 
 fragrant-spaces:104 a skos:Concept ;
     dct:bibliographicCitation "WNT: Nimmer zal men Kinderen zenden naar kleine, vunsche, stinkende Schooltjes,  v. geuns bij sypkens smit, M. v. Geuns 537 a [1788]."@nl ;
+    schema:image "https://commons.wikimedia.org/wiki/Special:FilePath/BogdanovBelsky UstnySchet.jpg" ;
     owl:sameAs wd:Q3914,
         <https://www.geonames.org/ontology#S.SCH> ;
     skos:inScheme voc:fragrant-spaces ;
@@ -86,6 +91,7 @@ fragrant-spaces:104 a skos:Concept ;
 
 fragrant-spaces:105 a skos:Concept ;
     dct:bibliographicCitation "WNT: Uit de openstaande bakkersdeuren walmde den vollen reuk van verschgebakken krentebrood, vlaaien en confijten,  thiry, Hofken v. Ol. 107 [1910]."@nl ;
+    schema:image "https://commons.wikimedia.org/wiki/Special:FilePath/Feature. James P. Lloyd. Cake Baker BAnQ P48S1P09086.jpg" ;
     owl:sameAs wd:Q274393 ;
     skos:altLabel "Panificio"@it ;
     skos:inScheme voc:fragrant-spaces ;
@@ -107,6 +113,7 @@ fragrant-spaces:106 a skos:Concept ;
 
 fragrant-spaces:107 a skos:Concept ;
     dct:bibliographicCitation "WNT: Er hing in dien winkel een weeë, zoetige, benauwde lucht van al dat wollige kleedengoed,   robbers, A. de Boogh 152 [1902]."@nl ;
+    schema:image "https://commons.wikimedia.org/wiki/Special:FilePath/Comercio en la plaza del 9 de abril de 1947, Tánger, Marruecos, 2015-12-11, DD 78.JPG" ;
     owl:sameAs wd:Q213441 ;
     skos:altLabel "Magasin"@fr,
         "Bottega"@it ;
@@ -119,6 +126,7 @@ fragrant-spaces:107 a skos:Concept ;
 
 fragrant-spaces:108 a skos:Concept ;
     dct:bibliographicCitation "WNT: Als 't Weste windje door de Hoven zacht gaat weiden …: Wat moet zich dan een reuk door't Paradys verspreiden, Zo lieflyk vloeijende uit uw vriendelyken mond!  luyken, Jezus en de Z. 18 [1678]."@nl ;
+    schema:image "https://commons.wikimedia.org/wiki/Special:FilePath/Jan Brueghel de Oude en Peter Paul Rubens - Het aards paradijs met de zondeval van Adam en Eva.jpg" ;
     owl:sameAs wd:Q3363340 ;
     skos:inScheme voc:fragrant-spaces ;
     skos:prefLabel "Paradise"@en,
@@ -130,6 +138,7 @@ fragrant-spaces:108 a skos:Concept ;
 fragrant-spaces:109 a skos:Concept ;
     dct:bibliographicCitation "WNT: De Arabieren, dewelke in welriekend Arabien, gelukkig Arabien, en zommige deelen van woest en steenig Arabien, in vaste steden en onder hun eige Koningen, wetten, en burgerlyke opvoedinge, woonen, oefenen konsten en handwerken,  V. Ranouw, Kab. 4, 269 [1720]."@nl,
         "Wy verbeelden ons met hem te wandelen door een weelig landschap van Arkadia, of 't gelukkig Arabië, daar de Natuur haare zegeningen elk oogenblik verdubbelt, zonder de kalmte van dien welriekenden dampkring door eenig gedruisch van storm of onweêr te ontrusten,  stijl, Lev. v. Punt 16 [1781]."@nl ;
+    schema:image "https://commons.wikimedia.org/wiki/Special:FilePath/Empty quarter Arabia.PNG" ;
     owl:sameAs wd:Q31945 ;
     skos:inScheme voc:fragrant-spaces ;
     skos:prefLabel "Arabia"@en,
@@ -149,6 +158,7 @@ fragrant-spaces:110 a skos:Concept ;
 fragrant-spaces:14 a skos:Concept ;
     dct:bibliographicCitation "WNT: De heele stad is met stank vervuld, v. daleᴣ"@nl,
         "Wat hadde dan die stadt anders gheweest dan eenen gruwelicken moortcuijl, dan eenen hoop greijs, viers, roocx, bloets, dooder lichamen ende stancx, v. vaernewijck, Ber. T. 2, 3 [1566]."@nl ;
+    schema:image "https://commons.wikimedia.org/wiki/Special:FilePath/NYC wideangle south from Top of the Rock.jpg" ;
     owl:sameAs wd:Q515,
         <https://www.geonames.org/ontology#P.PPLA> ;
     skos:altLabel "Cité"@fr,
@@ -161,6 +171,7 @@ fragrant-spaces:14 a skos:Concept ;
     skos:topConceptOf voc:fragrant-spaces .
 
 fragrant-spaces:17 a skos:Concept ;
+    schema:image "https://commons.wikimedia.org/wiki/Special:FilePath/New Inventions of Modern Times -Nova Reperta-, The Invention of Distillation, plate 7 MET DP841129.jpg" ;
     owl:sameAs wd:Q1251750 ;
     skos:altLabel "Destilleerderij"@nl ;
     skos:inScheme voc:fragrant-spaces ;
@@ -181,6 +192,7 @@ fragrant-spaces:18 a skos:Concept ;
     skos:topConceptOf voc:fragrant-spaces .
 
 fragrant-spaces:21 a skos:Concept ;
+    schema:image "https://commons.wikimedia.org/wiki/Special:FilePath/Fulling mill bockler.jpg" ;
     owl:sameAs wd:Q448030 ;
     skos:inScheme voc:fragrant-spaces ;
     skos:prefLabel "Fullery"@en,
@@ -190,6 +202,7 @@ fragrant-spaces:21 a skos:Concept ;
     skos:topConceptOf voc:fragrant-spaces .
 
 fragrant-spaces:28 a skos:Concept ;
+    schema:image "https://commons.wikimedia.org/wiki/Special:FilePath/A grocery store in Cheung Hong Estate.jpg" ;
     owl:sameAs wd:Q1295201 ;
     skos:altLabel "Kruidenwinkel"@nl,
         "kruidenierswinkel"@nl ;
@@ -201,6 +214,7 @@ fragrant-spaces:28 a skos:Concept ;
     skos:topConceptOf voc:fragrant-spaces .
 
 fragrant-spaces:30 a skos:Concept ;
+    schema:image "https://commons.wikimedia.org/wiki/Special:FilePath/Hayfield Church Street 0072.JPG" ;
     owl:sameAs wd:Q2485852 ;
     skos:altLabel "Hooiakker"@nl ;
     skos:inScheme voc:fragrant-spaces ;
@@ -220,6 +234,7 @@ fragrant-spaces:31 a skos:Concept ;
     skos:topConceptOf voc:fragrant-spaces .
 
 fragrant-spaces:34 a skos:Concept ;
+    schema:image "https://commons.wikimedia.org/wiki/Special:FilePath/Paul Childerley driven hunt Finland 06.png" ;
     owl:sameAs wd:Q36963 ;
     skos:altLabel "Stilleven met wild/ wildstilleven"@nl ;
     skos:inScheme voc:fragrant-spaces ;
@@ -230,6 +245,7 @@ fragrant-spaces:34 a skos:Concept ;
     skos:topConceptOf voc:fragrant-spaces .
 
 fragrant-spaces:42 a skos:Concept ;
+    schema:image "https://commons.wikimedia.org/wiki/Special:FilePath/ForndeCalç.jpg" ;
     owl:sameAs wd:Q59772 ;
     skos:altLabel "Calchèra"@it,
         "Forno da calce"@it,
@@ -242,6 +258,7 @@ fragrant-spaces:42 a skos:Concept ;
     skos:topConceptOf voc:fragrant-spaces .
 
 fragrant-spaces:6 a skos:Concept ;
+    schema:image "https://commons.wikimedia.org/wiki/Special:FilePath/8210 Brewery in Abbaye Notre-Dame de Saint-Remy Rochefort 2007 Luca Galuzzi.jpg" ;
     owl:sameAs wd:Q131734 ;
     skos:altLabel "Brewery"@en ;
     skos:inScheme voc:fragrant-spaces ;
@@ -261,6 +278,7 @@ fragrant-spaces:61 a skos:Concept ;
     skos:topConceptOf voc:fragrant-spaces .
 
 fragrant-spaces:62 a skos:Concept ;
+    schema:image "https://commons.wikimedia.org/wiki/Special:FilePath/Mumbai 03-2016 105 Bandra station surroundings.jpg" ;
     owl:sameAs wd:Q201759 ;
     skos:altLabel "Krotwoning"@nl ;
     skos:inScheme voc:fragrant-spaces ;
@@ -281,6 +299,7 @@ fragrant-spaces:68 a skos:Concept ;
     skos:topConceptOf voc:fragrant-spaces .
 
 fragrant-spaces:7 a skos:Concept ;
+    schema:image "https://commons.wikimedia.org/wiki/Special:FilePath/Fotothek df tg 0007587 Textilverarbeitung ^ Bleichen.jpg" ;
     owl:sameAs wd:Q2169265,
         <https://www.geonames.org/ontology#S.CSTL> ;
     skos:inScheme voc:fragrant-spaces ;
@@ -291,6 +310,7 @@ fragrant-spaces:7 a skos:Concept ;
 
 fragrant-spaces:8 a skos:Concept ;
     dct:bibliographicCitation "WNT: Het kasteel was weldra geheel met hofmanstank … geparfumeerd, Loosjes, Golst. 1, 21."@nl ;
+    schema:image "https://commons.wikimedia.org/wiki/Special:FilePath/Fotografía nocturna del Alcázar de Segovia.jpg" ;
     owl:sameAs wd:Q23413 ;
     skos:inScheme voc:fragrant-spaces ;
     skos:prefLabel "Castle"@en,
@@ -300,6 +320,7 @@ fragrant-spaces:8 a skos:Concept ;
     skos:topConceptOf voc:fragrant-spaces .
 
 fragrant-spaces:83 a skos:Concept ;
+    schema:image "https://commons.wikimedia.org/wiki/Special:FilePath/Anatomical theatre Leiden.jpg" ;
     owl:sameAs wd:Q488444 ;
     skos:inScheme voc:fragrant-spaces ;
     skos:prefLabel "Anatomical theatre"@en,
@@ -498,6 +519,7 @@ olf:248 skos:related fragrant-spaces:32,
 
 fragrant-spaces:103 a skos:Concept ;
     dct:bibliographicCitation "WNT: De korte nacht had geen koelte meegebracht, en de dampkring was steeds bevangen, vol van den reuk der zandwegen, die voortwentelden tusschen het dorre zoomgras en de poeierige akkers,  Vlaanderen 2, 361 [1904]."@nl ;
+    schema:image "https://commons.wikimedia.org/wiki/Special:FilePath/Piste im Erongo.jpg" ;
     owl:sameAs wd:Q700143 ;
     skos:altLabel "Route de terre"@fr,
         "Carrareccia"@it,
@@ -511,6 +533,7 @@ fragrant-spaces:103 a skos:Concept ;
     skos:topConceptOf voc:fragrant-spaces .
 
 fragrant-spaces:11 a skos:Concept ;
+    schema:image "https://commons.wikimedia.org/wiki/Special:FilePath/Corinth Canal 1.jpg" ;
     owl:sameAs wd:Q12284 ;
     skos:altLabel "Chenal"@fr,
         "Naviglio"@it,
@@ -525,6 +548,7 @@ fragrant-spaces:11 a skos:Concept ;
     skos:topConceptOf voc:fragrant-spaces .
 
 fragrant-spaces:12 a skos:Concept ;
+    schema:image "https://commons.wikimedia.org/wiki/Special:FilePath/Hawaiian lava tube.jpg" ;
     owl:sameAs wd:Q35509 ;
     skos:altLabel "Grotto"@en,
         "Cave"@fr,
@@ -539,6 +563,7 @@ fragrant-spaces:12 a skos:Concept ;
     skos:topConceptOf voc:fragrant-spaces .
 
 fragrant-spaces:15 a skos:Concept ;
+    schema:image "https://commons.wikimedia.org/wiki/Special:FilePath/Heiligengrabe, Kloster Stift zum Heiligengrabe, Abtei, Speiseraum -- 2017 -- 7082-8.jpg" ;
     owl:sameAs wd:Q661199 ;
     skos:closeMatch iconclass:41A223 ;
     skos:inScheme voc:fragrant-spaces ;
@@ -559,6 +584,7 @@ fragrant-spaces:22 a skos:Concept ;
     skos:topConceptOf voc:fragrant-spaces .
 
 fragrant-spaces:3 a skos:Concept ;
+    schema:image "https://commons.wikimedia.org/wiki/Special:FilePath/Bal 18e siècle.jpg" ;
     owl:sameAs wd:Q478515 ;
     skos:altLabel "Dansfeest"@nl ;
     skos:closeMatch iconclass:43A23 ;
@@ -571,6 +597,7 @@ fragrant-spaces:3 a skos:Concept ;
     skos:topConceptOf voc:fragrant-spaces .
 
 fragrant-spaces:33 a skos:Concept ;
+    schema:image "https://commons.wikimedia.org/wiki/Special:FilePath/Greenhouse for strawberry.jpg" ;
     owl:sameAs wd:Q165044 ;
     skos:altLabel "Glass-house"@en ;
     skos:closeMatch iconclass:47I531 ;
@@ -582,6 +609,7 @@ fragrant-spaces:33 a skos:Concept ;
     skos:topConceptOf voc:fragrant-spaces .
 
 fragrant-spaces:36 a skos:Concept ;
+    schema:image "https://commons.wikimedia.org/wiki/Special:FilePath/Café de Flore.jpg" ;
     owl:sameAs wd:Q30022 ;
     skos:altLabel "Inn"@en,
         "Public house"@en,
@@ -597,6 +625,7 @@ fragrant-spaces:36 a skos:Concept ;
     skos:topConceptOf voc:fragrant-spaces .
 
 fragrant-spaces:4 a skos:Concept ;
+    schema:image "https://commons.wikimedia.org/wiki/Special:FilePath/Restaurant bathroom with two-way mirror.jpg" ;
     owl:sameAs wd:Q190771 ;
     skos:altLabel "Salle d'eau"@fr,
         "Toilettes"@fr ;
@@ -609,6 +638,7 @@ fragrant-spaces:4 a skos:Concept ;
     skos:topConceptOf voc:fragrant-spaces .
 
 fragrant-spaces:40 a skos:Concept ;
+    schema:image "https://commons.wikimedia.org/wiki/Special:FilePath/Karat Muo Alley.jpg" ;
     owl:sameAs wd:Q1251403 ;
     skos:altLabel "Alley"@en,
         "Allée"@fr,
@@ -625,6 +655,7 @@ fragrant-spaces:40 a skos:Concept ;
     skos:topConceptOf voc:fragrant-spaces .
 
 fragrant-spaces:41 a skos:Concept ;
+    schema:image "https://commons.wikimedia.org/wiki/Special:FilePath/Automatisches Kleinteilelager.jpg" ;
     owl:sameAs wd:Q181623 ;
     skos:altLabel "Depot"@en,
         "Silo"@en,
@@ -643,6 +674,7 @@ fragrant-spaces:41 a skos:Concept ;
     skos:topConceptOf voc:fragrant-spaces .
 
 fragrant-spaces:44 a skos:Concept ;
+    schema:image "https://commons.wikimedia.org/wiki/Special:FilePath/Kensington Palace Orangery.jpg" ;
     owl:sameAs wd:Q952885 ;
     skos:altLabel "Orangery"@en ;
     skos:broader fragrant-spaces:29 ;
@@ -668,6 +700,7 @@ fragrant-spaces:47 a skos:Concept ;
     skos:topConceptOf voc:fragrant-spaces .
 
 fragrant-spaces:48 a skos:Concept ;
+    schema:image "https://commons.wikimedia.org/wiki/Special:FilePath/Луг в Томском районе3.JPG" ;
     owl:sameAs wd:Q7777019 ;
     skos:altLabel "Pasture"@en,
         "Praire"@fr,
@@ -686,6 +719,7 @@ fragrant-spaces:48 a skos:Concept ;
     skos:topConceptOf voc:fragrant-spaces .
 
 fragrant-spaces:49 a skos:Concept ;
+    schema:image "https://commons.wikimedia.org/wiki/Special:FilePath/Pico Gilbo. Agosto 2005 (editada).jpg" ;
     owl:sameAs wd:Q8502,
         <https://www.geonames.org/ontology#T.MT>,
         <https://www.geonames.org/ontology#T.MTS> ;
@@ -699,6 +733,7 @@ fragrant-spaces:49 a skos:Concept ;
     skos:topConceptOf voc:fragrant-spaces .
 
 fragrant-spaces:5 a skos:Concept ;
+    schema:image <https://commons.wikimedia.org/wiki/Special:FilePath/Strandbad-Seeblick-15-09-2008-162.jpg> ;
     owl:sameAs wd:Q40080 ;
     skos:altLabel "Littoral"@fr ;
     skos:closeMatch iconclass:25H133 ;
@@ -724,6 +759,7 @@ fragrant-spaces:50 a skos:Concept ;
     skos:topConceptOf voc:fragrant-spaces .
 
 fragrant-spaces:52 a skos:Concept ;
+    schema:image "https://commons.wikimedia.org/wiki/Special:FilePath/Photograph of the Division of Classification and Cataloging (36341206050).jpg" ;
     owl:sameAs wd:Q182060 ;
     skos:closeMatch iconclass:46B322 ;
     skos:inScheme voc:fragrant-spaces ;
@@ -750,6 +786,7 @@ fragrant-spaces:54 a skos:Concept ;
     skos:topConceptOf voc:fragrant-spaces .
 
 fragrant-spaces:56 a skos:Concept ;
+    schema:image "https://commons.wikimedia.org/wiki/Special:FilePath/Abu Ghraib cell block.jpg" ;
     owl:sameAs wd:Q40357 ;
     skos:altLabel "Jail"@en,
         "Pénitentiaire"@fr,
@@ -768,6 +805,7 @@ fragrant-spaces:56 a skos:Concept ;
     skos:topConceptOf voc:fragrant-spaces .
 
 fragrant-spaces:58 a skos:Concept ;
+    schema:image "https://commons.wikimedia.org/wiki/Special:FilePath/Bowl Of Hygieia by David.svg" ;
     owl:sameAs wd:Q614304 ;
     skos:altLabel "Badestube"@de,
         "Apothekersbenodidheden"@nl,
@@ -782,6 +820,7 @@ fragrant-spaces:58 a skos:Concept ;
     skos:topConceptOf voc:fragrant-spaces .
 
 fragrant-spaces:59 a skos:Concept ;
+    schema:image "https://commons.wikimedia.org/wiki/Special:FilePath/Roman Baths in Bath Spa, England - July 2006.jpg" ;
     owl:sameAs wd:Q785952 ;
     skos:altLabel "Bath house"@en,
         "Thermes"@fr,
@@ -799,6 +838,7 @@ fragrant-spaces:59 a skos:Concept ;
     skos:topConceptOf voc:fragrant-spaces .
 
 fragrant-spaces:60 a skos:Concept ;
+    schema:image "https://commons.wikimedia.org/wiki/Special:FilePath/Ergela međimurskog konja.jpg" ;
     owl:sameAs wd:Q18663765 ;
     skos:altLabel "Haras"@fr ;
     skos:closeMatch iconclass:46C1315 ;
@@ -824,6 +864,7 @@ fragrant-spaces:63 a skos:Concept ;
     skos:topConceptOf voc:fragrant-spaces .
 
 fragrant-spaces:65 a skos:Concept ;
+    schema:image "https://commons.wikimedia.org/wiki/Special:FilePath/Sugar plant dsc09052.jpg" ;
     owl:sameAs wd:Q227857 ;
     skos:altLabel "Usine de sucre"@fr,
         "Fabbrica dello Zucchero"@it,
@@ -838,6 +879,7 @@ fragrant-spaces:65 a skos:Concept ;
 
 fragrant-spaces:69 a skos:Concept ;
     dct:bibliographicCitation "WNT: Daar was een onverdraaglijke stank in huis, Halma."@nl ;
+    schema:image "https://commons.wikimedia.org/wiki/Special:FilePath/Ranch style home in Salinas, California.JPG" ;
     owl:sameAs wd:Q3947 ;
     skos:altLabel "Demeure"@fr,
         "Abitazione"@it ;
@@ -875,6 +917,7 @@ fragrant-spaces:74 a skos:Concept ;
     skos:topConceptOf voc:fragrant-spaces .
 
 fragrant-spaces:75 a skos:Concept ;
+    schema:image "https://commons.wikimedia.org/wiki/Special:FilePath/Biniaraix 47.jpg" ;
     owl:sameAs wd:Q1690211 ;
     skos:altLabel "Home laundry"@en,
         "Laundry room"@en,
@@ -888,6 +931,7 @@ fragrant-spaces:75 a skos:Concept ;
     skos:topConceptOf voc:fragrant-spaces .
 
 fragrant-spaces:77 a skos:Concept ;
+    schema:image "https://commons.wikimedia.org/wiki/Special:FilePath/Cimetiere americain Colleville-sur-Mer.jpg" ;
     owl:sameAs wd:Q39614 ;
     skos:altLabel "Cemetery"@en,
         "Camposanto"@it,
@@ -901,6 +945,7 @@ fragrant-spaces:77 a skos:Concept ;
     skos:topConceptOf voc:fragrant-spaces .
 
 fragrant-spaces:78 a skos:Concept ;
+    schema:image "https://commons.wikimedia.org/wiki/Special:FilePath/Loon 3 earthquake.JPG" ;
     owl:sameAs wd:Q1402739 ;
     skos:altLabel "Hôpital de terrain"@fr ;
     skos:closeMatch iconclass:45C723 ;
@@ -940,6 +985,7 @@ fragrant-spaces:80 a skos:Concept ;
     skos:topConceptOf voc:fragrant-spaces .
 
 fragrant-spaces:82 a skos:Concept ;
+    schema:image "https://commons.wikimedia.org/wiki/Special:FilePath/Forain - Le client.jpg" ;
     owl:sameAs wd:Q131295 ;
     skos:altLabel "Bordel"@fr,
         "Maison close"@fr,
@@ -979,6 +1025,7 @@ fragrant-spaces:94 a skos:Concept ;
     skos:topConceptOf voc:fragrant-spaces .
 
 fragrant-spaces:95 a skos:Concept ;
+    schema:image "https://commons.wikimedia.org/wiki/Special:FilePath/Austria - Göttweig Abbey - 2015.jpg" ;
     owl:sameAs wd:Q7075 ;
     skos:inScheme voc:fragrant-spaces ;
     skos:prefLabel "Library"@en,
@@ -989,6 +1036,7 @@ fragrant-spaces:95 a skos:Concept ;
     skos:topConceptOf voc:fragrant-spaces .
 
 fragrant-spaces:96 a skos:Concept ;
+    schema:image "https://commons.wikimedia.org/wiki/Special:FilePath/2012-05-13 Nordsee-Luftbilder DSCF8784.jpg" ;
     owl:sameAs wd:Q106259 ;
     skos:altLabel "Prise"@fr,
         "poldre"@fr ;
@@ -1037,6 +1085,7 @@ fragrant-spaces:10 a skos:Concept ;
     skos:topConceptOf voc:fragrant-spaces .
 
 fragrant-spaces:13 a skos:Concept ;
+    schema:image "https://commons.wikimedia.org/wiki/Special:FilePath/FEMA - 37677 - Aerial of a Louisiana oil refinary repaired since Katrina.jpg" ;
     owl:sameAs wd:Q207652 ;
     skos:broader fragrant-spaces:23 ;
     skos:closeMatch iconclass:47B27 ;
@@ -1048,6 +1097,7 @@ fragrant-spaces:13 a skos:Concept ;
     skos:topConceptOf voc:fragrant-spaces .
 
 fragrant-spaces:16 a skos:Concept ;
+    schema:image "https://commons.wikimedia.org/wiki/Special:FilePath/Military Canteen 7984.jpg" ;
     owl:sameAs wd:Q1127296 ;
     skos:altLabel "Gourde"@fr,
         "Réfectoire Cafétéria"@fr,
@@ -1076,6 +1126,7 @@ fragrant-spaces:2 a skos:Concept ;
     skos:topConceptOf voc:fragrant-spaces .
 
 fragrant-spaces:20 a skos:Concept ;
+    schema:image "https://commons.wikimedia.org/wiki/Special:FilePath/Lick Fire on the Umatilla National Forest burning at night.jpg" ;
     owl:sameAs wd:Q107434304 ;
     skos:altLabel "Incendie de forêt"@fr,
         "Incendie forestier"@fr ;
@@ -1100,6 +1151,7 @@ fragrant-spaces:24 a skos:Concept ;
     skos:topConceptOf voc:fragrant-spaces .
 
 fragrant-spaces:25 a skos:Concept ;
+    schema:image <https://commons.wikimedia.org/wiki/Special:FilePath/07070020boerderijloobergen.JPG> ;
     owl:sameAs wd:Q131596,
         <https://www.geonames.org/ontology#S.FRM> ;
     skos:closeMatch iconclass:41A17 ;
@@ -1112,6 +1164,7 @@ fragrant-spaces:25 a skos:Concept ;
     skos:topConceptOf voc:fragrant-spaces .
 
 fragrant-spaces:26 a skos:Concept ;
+    schema:image "https://commons.wikimedia.org/wiki/Special:FilePath/HAL fish market.jpg" ;
     owl:sameAs wd:Q1188480 ;
     skos:altLabel "Poissonerie"@fr,
         "Mercato ittico"@it,
@@ -1161,6 +1214,7 @@ fragrant-spaces:43 a skos:Concept ;
     skos:topConceptOf voc:fragrant-spaces .
 
 fragrant-spaces:46 a skos:Concept ;
+    schema:image "https://commons.wikimedia.org/wiki/Special:FilePath/Istanbul asv2021-11 img42 Grand Bazaar.jpg" ;
     owl:sameAs wd:Q2080521 ;
     skos:altLabel "Marché couvert"@fr ;
     skos:broader fragrant-spaces:45 ;
@@ -1173,6 +1227,7 @@ fragrant-spaces:46 a skos:Concept ;
     skos:topConceptOf voc:fragrant-spaces .
 
 fragrant-spaces:51 a skos:Concept ;
+    schema:image "https://commons.wikimedia.org/wiki/Special:FilePath/World ocean map.gif" ;
     owl:sameAs wd:Q9430 ;
     skos:broader fragrant-spaces:93 ;
     skos:closeMatch iconclass:25H2321 ;
@@ -1208,6 +1263,7 @@ fragrant-spaces:57 a skos:Concept ;
     skos:topConceptOf voc:fragrant-spaces .
 
 fragrant-spaces:64 a skos:Concept ;
+    schema:image "https://commons.wikimedia.org/wiki/Special:FilePath/Slezské Beskydy - Rytířská stezka (cesta Nýdek - Velká Čantoryje).JPG" ;
     owl:sameAs wd:Q34442,
         <https://www.geonames.org/ontology#R.ST> ;
     skos:altLabel "Road"@en,
@@ -1234,6 +1290,7 @@ fragrant-spaces:71 a skos:Concept ;
     skos:topConceptOf voc:fragrant-spaces .
 
 fragrant-spaces:72 a skos:Concept ;
+    schema:image "https://commons.wikimedia.org/wiki/Special:FilePath/The Orchard Tea Garden in Grantchester May 2007.JPG" ;
     owl:sameAs wd:Q1827414 ;
     skos:altLabel "Garden restaurant"@en ;
     skos:broader fragrant-spaces:27 ;
@@ -1246,6 +1303,7 @@ fragrant-spaces:72 a skos:Concept ;
     skos:topConceptOf voc:fragrant-spaces .
 
 fragrant-spaces:73 a skos:Concept ;
+    schema:image "https://commons.wikimedia.org/wiki/Special:FilePath/Betley- The main road, looking north, the postmans bike at rest - geograph.org.uk - 147874.jpg" ;
     owl:sameAs wd:Q532 ;
     skos:altLabel "Villaggio"@it ;
     skos:broader fragrant-spaces:32 ;
@@ -1290,6 +1348,7 @@ fragrant-spaces:81 a skos:Concept ;
     skos:topConceptOf voc:fragrant-spaces .
 
 fragrant-spaces:84 a skos:Concept ;
+    schema:image "https://commons.wikimedia.org/wiki/Special:FilePath/Gewaechshaus Botanischer Garten Berlin.jpg" ;
     owl:sameAs wd:Q167346 ;
     skos:altLabel "Hortus Botanicus"@en,
         "Hortus Botanicus"@nl ;
@@ -1314,6 +1373,7 @@ fragrant-spaces:86 a skos:Concept ;
     skos:topConceptOf voc:fragrant-spaces .
 
 fragrant-spaces:88 a skos:Concept ;
+    schema:image "https://commons.wikimedia.org/wiki/Special:FilePath/Eldridge Street Synagogue (42773).jpg" ;
     owl:sameAs wd:Q34627,
         <https://www.geonames.org/ontology#S.REST> ;
     skos:broader fragrant-spaces:53 ;
@@ -1339,6 +1399,7 @@ fragrant-spaces:90 a skos:Concept ;
 
 fragrant-spaces:93 a skos:Concept ;
     dct:bibliographicCitation "WNT: Rook hij hier al niet zijn zee, die weeïg-zoute lucht van zeegras, mosselen, wier en drooggeloopen scharren? haspels, Brandaris 29 [1908]."@nl ;
+    schema:image "https://commons.wikimedia.org/wiki/Special:FilePath/Paracas National Reserve, Ica, Peru-3April2011.jpg" ;
     owl:sameAs wd:Q165 ;
     skos:closeMatch iconclass:25H2322 ;
     skos:inScheme voc:fragrant-spaces ;
@@ -1350,6 +1411,7 @@ fragrant-spaces:93 a skos:Concept ;
     skos:topConceptOf voc:fragrant-spaces .
 
 fragrant-spaces:19 a skos:Concept ;
+    schema:image "https://commons.wikimedia.org/wiki/Special:FilePath/Forest on San Juan Island.jpg" ;
     owl:sameAs wd:Q4421 ;
     skos:altLabel "Wood"@en,
         "Bois"@fr,
@@ -1371,6 +1433,7 @@ fragrant-spaces:19 a skos:Concept ;
     skos:topConceptOf voc:fragrant-spaces .
 
 fragrant-spaces:29 a skos:Concept ;
+    schema:image "https://commons.wikimedia.org/wiki/Special:FilePath/Greenhouse for strawberry.jpg" ;
     owl:sameAs wd:Q165044 ;
     skos:altLabel "Arancera"@it,
         "Plantenkas"@nl ;
@@ -1385,6 +1448,7 @@ fragrant-spaces:29 a skos:Concept ;
     skos:topConceptOf voc:fragrant-spaces .
 
 fragrant-spaces:32 a skos:Concept ;
+    schema:image "https://commons.wikimedia.org/wiki/Special:FilePath/Больница № 3. Северодвинск. Старый корпус.jpg" ;
     owl:sameAs wd:Q16917 ;
     skos:altLabel "Hospitaal"@nl ;
     skos:closeMatch iconclass:49G4 ;
@@ -1399,6 +1463,7 @@ fragrant-spaces:32 a skos:Concept ;
 
 fragrant-spaces:35 a skos:Concept ;
     dct:bibliographicCitation "WNT: (Mozes) leeft, hij groeit in deugd, in moed, Die straks, voor vunze kerkerwalmen, U Kanâns geuren aêmen doet,  bogaers 1, 59 [1835]."@nl ;
+    schema:image "https://commons.wikimedia.org/wiki/Special:FilePath/Basilica di San Pietro in Vaticano September 2015-1a.jpg" ;
     owl:sameAs wd:Q16970,
         <https://www.geonames.org/ontology#S.CH> ;
     skos:broader fragrant-spaces:53 ;
@@ -1412,6 +1477,7 @@ fragrant-spaces:35 a skos:Concept ;
     skos:topConceptOf voc:fragrant-spaces .
 
 fragrant-spaces:37 a skos:Concept ;
+    schema:image <https://commons.wikimedia.org/wiki/Special:FilePath/Kitchenwhitehouse.jpg> ;
     owl:sameAs wd:Q43164 ;
     skos:closeMatch iconclass:41C21 ;
     skos:inScheme voc:fragrant-spaces ;
@@ -1426,6 +1492,7 @@ fragrant-spaces:37 a skos:Concept ;
     skos:topConceptOf voc:fragrant-spaces .
 
 fragrant-spaces:67 a skos:Concept ;
+    schema:image "https://commons.wikimedia.org/wiki/Special:FilePath/Briesetal bei Briese.JPG" ;
     owl:sameAs wd:Q166735 ;
     skos:altLabel "Fens"@en,
         "Inland marsh"@en,
@@ -1443,6 +1510,7 @@ fragrant-spaces:67 a skos:Concept ;
     skos:topConceptOf voc:fragrant-spaces .
 
 fragrant-spaces:89 a skos:Concept ;
+    schema:image "https://commons.wikimedia.org/wiki/Special:FilePath/Mosque, Tamale, Northern region, Dagbon.jpg" ;
     owl:sameAs wd:Q32815 ;
     skos:broader fragrant-spaces:53 ;
     skos:closeMatch iconclass:12I61 ;
@@ -1455,6 +1523,7 @@ fragrant-spaces:89 a skos:Concept ;
     skos:topConceptOf voc:fragrant-spaces .
 
 fragrant-spaces:45 a skos:Concept ;
+    schema:image "https://commons.wikimedia.org/wiki/Special:FilePath/Grand-Bazaar Shop.jpg" ;
     owl:sameAs wd:Q330284 ;
     skos:closeMatch iconclass:46B11 ;
     skos:inScheme voc:fragrant-spaces ;
@@ -1468,6 +1537,7 @@ fragrant-spaces:45 a skos:Concept ;
     skos:topConceptOf voc:fragrant-spaces .
 
 fragrant-spaces:53 a skos:Concept ;
+    schema:image "https://commons.wikimedia.org/wiki/Special:FilePath/Arch St Meeting interior.JPG" ;
     owl:sameAs wd:Q1370598 ;
     skos:altLabel "Edificio di culto"@it ;
     skos:exactMatch wordnet:3959692 ;
@@ -1495,6 +1565,7 @@ fragrant-spaces:66 a skos:Concept ;
 
 fragrant-spaces:92 a skos:Concept ;
     dct:bibliographicCitation "WNT: Het rook er zoo lakker a's aen de deur van 't Lanswelvaren: — zoo 'enen reuk gelyk van 'en restoratie, consc., Avondst. 89 [1846]."@nl ;
+    schema:image "https://commons.wikimedia.org/wiki/Special:FilePath/Gaggenau 2016 -Restaurant- by-RaBoe 118.jpg" ;
     owl:sameAs wd:Q11707 ;
     skos:closeMatch iconclass:43B311 ;
     skos:exactMatch wordnet:4088393 ;
@@ -1508,6 +1579,7 @@ fragrant-spaces:92 a skos:Concept ;
     skos:topConceptOf voc:fragrant-spaces .
 
 fragrant-spaces:27 a skos:Concept ;
+    schema:image "https://commons.wikimedia.org/wiki/Special:FilePath/French Formal Garden in Loire Valley.jpg" ;
     owl:sameAs wd:Q1107656 ;
     skos:closeMatch iconclass:41A6 ;
     skos:inScheme voc:fragrant-spaces ;
@@ -1525,6 +1597,7 @@ fragrant-spaces:27 a skos:Concept ;
 
 fragrant-spaces:23 a skos:Concept ;
     dct:bibliographicCitation "WNT: 't Fabriek, — de gore, hooge holten, die ze wel eens even door 'n kierende deur had ingekeken, terwijl 'n zure stank, door 'n bitteren roet-walm heen, haar in de keel sloeg, schart.-ant., Sprotje 1, 13 [1905]."@nl ;
+    schema:image "https://commons.wikimedia.org/wiki/Special:FilePath/Workers in the fuse factory Woolwich Arsenal Flickr 4615367952 d40a18ec24 o.jpg" ;
     owl:sameAs wd:Q83405 ;
     skos:altLabel "Fabrieksgebouw"@nl ;
     skos:closeMatch iconclass:47A12 ;
