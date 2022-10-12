@@ -43,7 +43,7 @@ class ImageObject(SourceDoc):
         self.physical.add_material(m)
 
     def add_location(self, place, lang=None):
-        if not isinstance(place, str):
+        if isinstance(place, str):
             place = Place.from_text(place, lang)
         self.physical.add(CRM.P53_has_former_or_current_location, place)
 

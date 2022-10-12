@@ -1,9 +1,10 @@
 from os import path
 
-from rdflib import URIRef, RDF, RDFS, SKOS
+from rdflib import SKOS
 
-from .Entity import Entity, MiniEntity
 from .AttributeAssignment import AttributeAssignment
+from .Entity import Entity, MiniEntity
+from .Gesture import Gesture
 from .Graph import add, is_invalid
 from .ontologies import ODEUROPA, CRM, REO
 from .vocabularies import VocabularyManager as VocManager
@@ -34,6 +35,9 @@ class OlfactoryExperience(Entity):
         add(assignment, CRM.P17_was_motivated_by, self)
 
     def add_gesture(self, gesture, lang=''):
+        if isinstance(gesture, Gesture):
+            self.add(ODEUROPA.F5_involved_gesture, gesture)
+
         # TODO
         if is_invalid(gesture):
             return
@@ -68,8 +72,8 @@ class Emotion(Entity):
         self.add(CRM.P2_has_type, MiniEntity('sentiment', sentiment.lower(), sentiment, SKOS.Concept))
 
         if typ:
-            match = VocManager.get('emotion').search(typ.lower())
+            match = VocManager.get('emotion').search(typ)
             if len(match.lemmata) and match.lemmata[0].score == 1:
                 self.add(CRM.P137_exemplifies, match.lemmata[0].id)
             else:
-                self.add(CRM.P137_exemplifies, MiniEntity('emotion-type', typ.lower(), typ, SKOS.Concept))
+                self.add(CRM.P137_exemplifies, MiniEntity('emotion-type', typ, typ, SKOS.Concept))

@@ -9,6 +9,8 @@ from .SmellSource import SmellSource
 from .Thing import Thing
 from .vocabularies import VocabularyManager as VocManager
 
+subj_map = {}
+
 
 class SourceDoc(Entity):
     def __init__(self, _id, title, author=None, date=None, lang=None):
@@ -43,10 +45,14 @@ class SourceDoc(Entity):
             return
 
         # is it an olfactory object ?
-        label = re.sub(r'\(.+\)', '', subject)
+        label = re.sub(r'\(.+\)', '', subject).lower()
+        if label in subj_map:
+            return subj_map[label]
+
         lemma, role = VocManager.get('olfactory-objects').interlink(label, lang)
         if lemma:
             obj = SmellSource(subject, lemma=lemma, role=role)
+            subj_map[label] = obj
         else:
             lemma, role = VocManager.get('fragrant-spaces').interlink(label, lang)
             if lemma:
@@ -54,6 +60,7 @@ class SourceDoc(Entity):
             else:
                 # we go generic
                 obj = Thing(subject, subject)
+            subj_map[label] = obj
 
         self.add(SDO.about, obj)
 

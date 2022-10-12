@@ -6,6 +6,14 @@ def move(array, oldIndex, newIndex):
     return array
 
 
+def lowercasing(l):
+    value = (l['@value'] if '@value' in l else l).lower()
+    if '@value' in l:
+        l['@value'] = value
+        return l
+    return value
+
+
 def as_array(input):
     if not input:
         return []
@@ -22,11 +30,9 @@ DEFAULT_OPTIONS = {
 
 def computeSimilarityScore(l, q, accepted, autocomplete, lowerBound):
     value = l['@value'] if '@value' in l else l
-
     if not value or not isinstance(value, str):
         return 0
 
-    value = value.lower()
     if autocomplete and q in value:
         return 1
 
@@ -61,7 +67,8 @@ class Lemma:
             if 'prefLabel' in x:
                 self.prefLabel.extend(as_array(x['prefLabel']))
                 self.altLabel.extend(as_array(x.get('altLabel')))
-
+        self.prefLabel = [lowercasing(x) for x in self.prefLabel]
+        self.altLabel = [lowercasing(x) for x in self.altLabel]
         self.labels = self.prefLabel + self.altLabel
         self.untagged = [x for x in self.labels if '@language' not in x]
 
@@ -113,7 +120,7 @@ class Lemma:
         return label[0] if opt['unique'] else label
 
     def similar_to(self, q, lang, autocomplete=False):
-        q = q.lower()
+        q = q
         lowerBound = 0.2
 
         scores = [computeSimilarityScore(l, q, lang, autocomplete, lowerBound) for l in self.prefLabel]

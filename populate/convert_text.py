@@ -18,6 +18,7 @@ from entities.utils.pronouns import Pronouns
 DEFAULT_ROOT = path.join('./', 'input', 'text-annotation')
 DEFAULT_OUT = path.join('../', 'dump')
 
+NAN_REGEX = r'(^| )nan( |$)'
 DOC_ID_REGEX = r"\d{3}[A-Z]"
 PROV_DESCR = 'Manual annotation of textual resources realised according to the Odeuropa deliverable D3.2 ' \
              '"Multilingual historical corpora and annotated benchmarks" '
@@ -113,7 +114,7 @@ def process_annotation_sheet(df, lang, codename):
         doc_map[identifier] += 1
 
         txt = doc or TextualObject(identifier, title)
-        frag = txt.add_fragment(r['Sentence'], lang)
+        frag = txt.add_fragment(r['Sentence'].replace(' | ', ''), lang)
 
         if 'Annotator' in r:
             prov = Provenance(codename + r['Annotator'], 'Manual text annotation', PROV_DESCR, r['Annotator'])
@@ -167,7 +168,7 @@ def process_annotation_sheet(df, lang, codename):
                 if r['Emotion_Type'] == 'Smell_Word':
                     return
                 typ = r['Emotion_Other'] if r['Emotion_Type'] == 'Other' else r['Emotion_Type']
-                experience.add_emotion(e, typ, r['Emotion_Sentiment'])
+                experience.add_emotion(e, typ.lower(), r['Emotion_Sentiment'])
 
         frag.add_annotation(emission, prov)
         frag.add_annotation(smell, prov)
@@ -213,11 +214,13 @@ def process_metadata(lang, docs_file, map_file):
     splitting = ',' if 'old-bailey-corpus' in docs_file else '|'
     for i, r in tqdm(df.iterrows(), total=df.shape[0]):
         identifier = r['id'].replace('.xml', '').replace('.txt', '')
-        if 'eebo' in docs_file:
-            identifier = identifier.replace('/', '_')
-
         year = r['year'].replace('.0', '')
 
+        if 'eebo' in docs_file:
+            identifier = identifier.replace('/', '_')
+            year = re.sub(r'-\??(?!\d)', '.?', year)
+
+        # print(identifier, year)
         to = TextualObject(identifier, title=r['title'], date=year, place='London', lang=lang)
         for author in r['author'].split(splitting):
             m = re.search(r", (\d{4}\??)-(\d{4}\??)", author)
@@ -286,6 +289,8 @@ def run(root, output, lang=None):
             temp = pd.read_csv(file, sep='\t', index_col=False)
             tsv_data = temp if tsv_data is None else pd.concat([tsv_data, temp], ignore_index=True)
             tsv_data.fillna('', inplace=True)
+            tsv_data.replace(NAN_REGEX, regex=True, inplace=True)
+            tsv_data.replace(NAN_REGEX, regex=True, inplace=True)
 
             # dividing in batches of 10K rows
             step = 10000

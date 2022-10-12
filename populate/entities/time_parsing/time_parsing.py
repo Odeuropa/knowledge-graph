@@ -264,8 +264,11 @@ def parse_date(date, lang='en'):
 
     #  cases: XX
     try:
-        roman.fromRoman(date)
-        date += ' ' + lg.CENTURY_STANDARD
+        d = roman.fromRoman(date)
+        if d < 22:
+            date += ' ' + lg.CENTURY_STANDARD
+        else:
+            date = str(d)
     except roman.InvalidRomanNumeralError:
         pass
 

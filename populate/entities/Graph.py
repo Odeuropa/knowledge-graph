@@ -62,8 +62,16 @@ def set_prov(statement, prov):
         return
     # under development in rdflib https://github.com/RDFLib/rdflib/discussions/1554
     # workaround = use a string and then re-convert afterwords
-    g.add((wrap_statement(statement), PROV.wasGeneratedBy, prov.res))
+    add_rdfstar(statement, PROV.wasGeneratedBy, prov.res)
     pass
+
+
+def add_rdfstar(s, p, o):
+    if type(s) == tuple:
+        s = wrap_statement(s)
+    if type(o) == tuple:
+        o = wrap_statement(o)
+    return add(s, p, o)
 
 
 def is_invalid(what):

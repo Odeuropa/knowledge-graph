@@ -11,15 +11,16 @@ from .config import BASE
 class Entity:
     def __init__(self, seed, group=None):
         curclass = type(self).__name__
-
+        self.seed = seed
         if seed.startswith('http'):
             self.uri = seed
         else:
             if group is None:
-                raise TypeError("If seed is not a URI, the param group is mandatory")
-            self.seed = seed
+                raise TypeError("If seed is not a URI, the param 'group' is mandatory")
             self.uri = path.join(BASE, group, str(uuid.uuid5(uuid.NAMESPACE_DNS, curclass + seed)))
         self.res = URIRef(self.uri)
+
+        self.time = None
 
     def set_class(self, cls):
         return self.add(RDF.type, cls)
@@ -42,8 +43,12 @@ class Entity:
     def add_place(self, place):
         self.add(CRM.P7_took_place_at, place)
 
-    def add_time(self, time):
-        self.add(TIME.hasTime, time)
+    def add_time(self, time, inferred=False):
+        self.time = time
+        statement = self.add(TIME.hasTime, time)
+        if inferred:
+            Graph.add_rdfstar(statement, CRM.P2_has_type, 'inferred')
+
 
     def same_as(self, entity):
         self.add(OWL.sameAs, entity)

@@ -3,17 +3,16 @@ import os
 import re
 from math import isnan
 from os import path
+from urllib.parse import urlparse
 
 import pandas as pd
 import yaml
 from tqdm import tqdm
-from urllib.parse import urlparse
 
+from convert_text import lang_map
 from entities import *
 from entities.vocabularies import VocabularyManager as VocManager
-from convert_text import lang_map
 
-# xlsx_file = path.join('./', 'input', 'benchmark-annotation-output.xlsx')
 docs_file = path.join('./', 'input', 'image-odor-dataset', 'metadata.csv')
 out_folder = '../dump/image-annotation'
 os.makedirs(out_folder, exist_ok=True)
@@ -104,7 +103,7 @@ def process_metadata(df):
         material = r['Material']
         if material:
             material = material.replace(' su ', ', ').lower()
-            material = material.replace(' auf ', ', ').lower()
+            material = material.replace(' auf ', ', ')
             material = material.replace('(bis)', '')
             material = re.sub(r'\((.+)\)', '', material)
             material = re.sub(r': .+', '', material)
@@ -131,10 +130,12 @@ art = VocManager.get('visual-art-types')
 
 # convert
 process_metadata(pd.read_csv(docs_file, dtype=str))
+
 Graph.g.serialize(destination=f"{out_folder}/figs.ttl")
 Graph.reset()
 
 image_map = {}
+smell_map = {}
 cat_map = {}
 
 BASE_OO = 'http://data.odeuropa.eu/vocabulary/olfactory-objects/'
@@ -168,7 +169,19 @@ with open('input/image-odor-dataset/annotations.json') as f:
         if x['file_name'] not in docs:
             not_found.append(x['file_name'])
             continue
-        image_map[x['id']] = docs[x['file_name']]
+        img = docs[x['file_name']]
+        image_map[x['id']] = img
+
+        # init basic smell entities
+        # policy: 1 image = 1 smell
+        codename = 'image annotation'
+        curid = codename + str(x['id'])
+        smell = Smell(curid)
+        emission = SmellEmission(curid, smell)
+        experience = OlfactoryExperience(curid, smell)
+        emission.add_time(img.time, inferred=True)
+        experience.add_time(img.time, inferred=True)
+        smell_map[curid] = (smell, emission, experience)
 
     print('Not found', not_found)
 
@@ -200,6 +213,15 @@ with open('input/image-odor-dataset/annotations.json') as f:
         frag = cur_img.add_fragment(x['bbox'])
         ann = cat_map[x['category_id']]
         cat = guess_annotation(ann, 'image-annotation' + cur_img.title + str(x['id']))
+
+        smell, emission, experience = smell_map[curid]
+        if isinstance(cat, Gesture):
+            experience.add_gesture(cat)
+        elif cat.role == 'carrier':
+            emission.add_carrier(cat)
+        else:
+            emission.add_source(cat)
+
         current.append(cat)
         frag.add_annotation(cat, prov)
 

@@ -8,7 +8,7 @@
 @prefix skos: <http://www.w3.org/2004/02/skos/core#> .
 @prefix voc: <http://data.odeuropa.eu/vocabulary/> .
 @prefix wd: <http://www.wikidata.org/entity/> .
-@prefix wordnet: <http://www.w3.org/2006/03/wn/wn20/> .
+@prefix wordnet: <http://wordnet-rdf.princeton.edu/id/> .
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 
 olf:112 skos:related fragrant-spaces:55 .
@@ -26,6 +26,8 @@ olf:36 skos:related fragrant-spaces:10 .
 olf:454 skos:related fragrant-spaces:35 .
 
 olf:68 skos:related fragrant-spaces:26 .
+
+olf:78 skos:related fragrant-spaces:27 .
 
 fragrant-spaces:1 a skos:Concept ;
     skos:altLabel "Laboratorio alchemico"@it,
@@ -61,7 +63,9 @@ fragrant-spaces:101 a skos:Concept ;
 fragrant-spaces:102 a skos:Concept ;
     dct:bibliographicCitation "Dit zelfde ondervind men in de Schouwburgen, daar men in de bovenste zittingen (t.w. de loges) altydt een vunze reuk gewaar word,  du hamel du monceau, Baak d. Gezondh. 73 [1760]."@nl,
         "WNT: Omstreeks het midden der voorstelling verneemt men een zonderling geraas, en een onaangename reuk verspreidt zich door de zaal,  Alg. Handelsbl. 11 Sept. 1830, 6 a [1830]."@nl ;
-    owl:sameAs wd:Q11635 ;
+    owl:sameAs wd:Q11635,
+        <https://www.geonames.org/ontology#S.THTR> ;
+    skos:altLabel "Theater"@en ;
     skos:inScheme voc:fragrant-spaces ;
     skos:prefLabel "Theatre"@en,
         "Théâtre"@fr,
@@ -71,7 +75,8 @@ fragrant-spaces:102 a skos:Concept ;
 
 fragrant-spaces:104 a skos:Concept ;
     dct:bibliographicCitation "WNT: Nimmer zal men Kinderen zenden naar kleine, vunsche, stinkende Schooltjes,  v. geuns bij sypkens smit, M. v. Geuns 537 a [1788]."@nl ;
-    owl:sameAs wd:Q3914 ;
+    owl:sameAs wd:Q3914,
+        <https://www.geonames.org/ontology#S.SCH> ;
     skos:inScheme voc:fragrant-spaces ;
     skos:prefLabel "School"@en,
         "École"@fr,
@@ -144,7 +149,8 @@ fragrant-spaces:110 a skos:Concept ;
 fragrant-spaces:14 a skos:Concept ;
     dct:bibliographicCitation "WNT: De heele stad is met stank vervuld, v. daleᴣ"@nl,
         "Wat hadde dan die stadt anders gheweest dan eenen gruwelicken moortcuijl, dan eenen hoop greijs, viers, roocx, bloets, dooder lichamen ende stancx, v. vaernewijck, Ber. T. 2, 3 [1566]."@nl ;
-    owl:sameAs wd:Q515 ;
+    owl:sameAs wd:Q515,
+        <https://www.geonames.org/ontology#P.PPLA> ;
     skos:altLabel "Cité"@fr,
         "Ambiente urbano"@it ;
     skos:inScheme voc:fragrant-spaces ;
@@ -275,7 +281,8 @@ fragrant-spaces:68 a skos:Concept ;
     skos:topConceptOf voc:fragrant-spaces .
 
 fragrant-spaces:7 a skos:Concept ;
-    owl:sameAs wd:Q2169265 ;
+    owl:sameAs wd:Q2169265,
+        <https://www.geonames.org/ontology#S.CSTL> ;
     skos:inScheme voc:fragrant-spaces ;
     skos:prefLabel "Bleaching field"@en,
         "Champ de blanchiment"@fr,
@@ -679,7 +686,9 @@ fragrant-spaces:48 a skos:Concept ;
     skos:topConceptOf voc:fragrant-spaces .
 
 fragrant-spaces:49 a skos:Concept ;
-    owl:sameAs wd:Q8502 ;
+    owl:sameAs wd:Q8502,
+        <https://www.geonames.org/ontology#T.MT>,
+        <https://www.geonames.org/ontology#T.MTS> ;
     skos:altLabel "Mont"@fr ;
     skos:closeMatch iconclass:25H11 ;
     skos:inScheme voc:fragrant-spaces ;
@@ -725,15 +734,16 @@ fragrant-spaces:52 a skos:Concept ;
     skos:topConceptOf voc:fragrant-spaces .
 
 fragrant-spaces:54 a skos:Concept ;
-    owl:sameAs wd:Q10426913 ;
-    skos:altLabel "Museum"@en,
+    owl:sameAs wd:Q10426913,
+        <https://www.geonames.org/ontology#S.MUS> ;
+    skos:altLabel "Permanent Exhibition"@en,
         "Exposition permanente"@fr,
         "Esibizione permanente"@it,
         "Galleria"@it,
         "Museunzaal"@nl ;
     skos:closeMatch iconclass:48A821 ;
     skos:inScheme voc:fragrant-spaces ;
-    skos:prefLabel "Permanent exhibition"@en,
+    skos:prefLabel "Museum"@en,
         "Musée"@fr,
         "Museo"@it,
         "Tentoonstellingsruimte"@nl ;
@@ -1090,7 +1100,8 @@ fragrant-spaces:24 a skos:Concept ;
     skos:topConceptOf voc:fragrant-spaces .
 
 fragrant-spaces:25 a skos:Concept ;
-    owl:sameAs wd:Q131596 ;
+    owl:sameAs wd:Q131596,
+        <https://www.geonames.org/ontology#S.FRM> ;
     skos:closeMatch iconclass:41A17 ;
     skos:inScheme voc:fragrant-spaces ;
     skos:narrower fragrant-spaces:57 ;
@@ -1197,7 +1208,8 @@ fragrant-spaces:57 a skos:Concept ;
     skos:topConceptOf voc:fragrant-spaces .
 
 fragrant-spaces:64 a skos:Concept ;
-    owl:sameAs wd:Q34442 ;
+    owl:sameAs wd:Q34442,
+        <https://www.geonames.org/ontology#R.ST> ;
     skos:altLabel "Road"@en,
         "Voie"@fr,
         "Via"@it ;
@@ -1246,7 +1258,8 @@ fragrant-spaces:73 a skos:Concept ;
     skos:topConceptOf voc:fragrant-spaces .
 
 fragrant-spaces:76 a skos:Concept ;
-    owl:sameAs wd:Q4895508 ;
+    owl:sameAs wd:Q4895508,
+        <https://www.geonames.org/ontology#L.BTL> ;
     skos:altLabel "Battle field"@en,
         "Terrain de bataille"@fr,
         "Zone de guerre"@fr,
@@ -1301,7 +1314,8 @@ fragrant-spaces:86 a skos:Concept ;
     skos:topConceptOf voc:fragrant-spaces .
 
 fragrant-spaces:88 a skos:Concept ;
-    owl:sameAs wd:Q34627 ;
+    owl:sameAs wd:Q34627,
+        <https://www.geonames.org/ontology#S.REST> ;
     skos:broader fragrant-spaces:53 ;
     skos:exactMatch wordnet:4381822 ;
     skos:inScheme voc:fragrant-spaces ;
@@ -1385,7 +1399,8 @@ fragrant-spaces:32 a skos:Concept ;
 
 fragrant-spaces:35 a skos:Concept ;
     dct:bibliographicCitation "WNT: (Mozes) leeft, hij groeit in deugd, in moed, Die straks, voor vunze kerkerwalmen, U Kanâns geuren aêmen doet,  bogaers 1, 59 [1835]."@nl ;
-    owl:sameAs wd:Q16970 ;
+    owl:sameAs wd:Q16970,
+        <https://www.geonames.org/ontology#S.CH> ;
     skos:broader fragrant-spaces:53 ;
     skos:exactMatch wordnet:3031762 ;
     skos:inScheme voc:fragrant-spaces ;
@@ -1437,19 +1452,6 @@ fragrant-spaces:89 a skos:Concept ;
         "Mosquée"@fr,
         "Moschea"@it,
         "Moskee"@nl ;
-    skos:topConceptOf voc:fragrant-spaces .
-
-fragrant-spaces:27 a skos:Concept ;
-    owl:sameAs wd:Q1107656 ;
-    skos:closeMatch iconclass:41A6 ;
-    skos:inScheme voc:fragrant-spaces ;
-    skos:narrower fragrant-spaces:72,
-        fragrant-spaces:81,
-        fragrant-spaces:84 ;
-    skos:prefLabel "Garden"@en,
-        "Jardin"@fr,
-        "Giardino"@it,
-        "Tuin"@nl ;
     skos:topConceptOf voc:fragrant-spaces .
 
 fragrant-spaces:45 a skos:Concept ;
@@ -1505,6 +1507,22 @@ fragrant-spaces:92 a skos:Concept ;
     skos:related olf:227 ;
     skos:topConceptOf voc:fragrant-spaces .
 
+fragrant-spaces:27 a skos:Concept ;
+    owl:sameAs wd:Q1107656 ;
+    skos:closeMatch iconclass:41A6 ;
+    skos:inScheme voc:fragrant-spaces ;
+    skos:narrower fragrant-spaces:72,
+        fragrant-spaces:81,
+        fragrant-spaces:84 ;
+    skos:prefLabel "Garten"@de,
+        "Garden"@en,
+        "Jardin"@fr,
+        "Giardino"@it,
+        "Tuin"@nl,
+        "Vrt"@sl ;
+    skos:related olf:78 ;
+    skos:topConceptOf voc:fragrant-spaces .
+
 fragrant-spaces:23 a skos:Concept ;
     dct:bibliographicCitation "WNT: 't Fabriek, — de gore, hooge holten, die ze wel eens even door 'n kierende deur had ingekeken, terwijl 'n zure stank, door 'n bitteren roet-walm heen, haar in de keel sloeg, schart.-ant., Sprotje 1, 13 [1905]."@nl ;
     owl:sameAs wd:Q83405 ;
@@ -1527,8 +1545,8 @@ fragrant-spaces:23 a skos:Concept ;
 voc:fragrant-spaces a skos:ConceptScheme ;
     rdfs:label "Fragrant spaces" ;
     dct:created "2021-06-01"^^xsd:date ;
-    dct:modified "2022-05-13"^^xsd:date ;
-    pav:createdOn "2022-05-13"^^xsd:date ;
+    dct:modified "2022-10-12"^^xsd:date ;
+    pav:createdOn "2022-10-12"^^xsd:date ;
     pav:version "0.1" ;
     skos:hasTopConcept fragrant-spaces:1,
         fragrant-spaces:10,

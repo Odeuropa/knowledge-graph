@@ -11,15 +11,31 @@ class SmellEmission(Entity):
         self.set_class(ODEUROPA.L12_Smell_Emission)
         self.add(ODEUROPA.F1_generated, smell)
 
-        for i, x in enumerate(source.split(' | ')):
-            if not x:
-                break
-            s = re.sub(r'^of ', '', x).strip()
+        self.count_source = 0
 
-            self.add(ODEUROPA.F3_had_source, SmellSource(seed + str(i), s, lang))
+        for i, x in enumerate(re.split(r' ?\| ?', source)):
+            if not x or re.match(r'^\W+$', x.strip()):
+                break
+            s = re.sub(r'^(of|with) ', '', x.strip()).strip()
+
+            self.add_source(s, lang)
 
         for i, x in enumerate(carrier.split(' | ')):
             if not x:
                 break
             c = re.sub(r'^of ', '', x).strip()
-            self.add(ODEUROPA.F4_had_carrier, SmellSource(seed + str(i) + 'c', c, lang))
+            self.add_carrier(c, lang)
+
+    def add_source(self, source, lang=None):
+        if not isinstance(source, Entity):
+            source = SmellSource(self.seed + str(self.count_source), source, lang)
+
+        self.add(ODEUROPA.F3_had_source, source)
+        self.count_source += 1
+
+    def add_carrier(self, carrier, lang=None):
+        if not isinstance(carrier, Entity):
+            carrier = SmellSource(self.seed + str(self.count_source), carrier, lang)
+
+        self.add(ODEUROPA.F4_had_carrier, carrier)
+        self.count_source += 1
