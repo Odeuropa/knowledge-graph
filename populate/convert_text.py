@@ -160,6 +160,10 @@ def process_annotation_sheet(df, lang, codename):
                 tim = Time.parse(x, lang, fallback='text')
                 experience.add_time(tim)
                 emission.add_time(tim)
+        if not experience.time or not experience.time.is_parsed():
+            # add creation time as time
+            experience.add_time(txt.time)
+            emission.add_time(txt.time)
 
         # emotion
         emotion = r.get('Emotion', None)

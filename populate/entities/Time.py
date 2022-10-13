@@ -13,6 +13,9 @@ class Time(Entity):
         self.start = None
         self.end = None
 
+    def is_parsed(self):
+        return self.start is not None or self.end is not None
+
     @classmethod
     def parse(cls, x, lang='en', fallback=None):
         if not x:

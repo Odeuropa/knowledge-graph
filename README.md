@@ -71,8 +71,8 @@ Configure `skosmos/config.ttl` (see [instructions](https://github.com/NatLibFi/S
 
 Install skosmos using docker
 
-  docker build -t skosmos https://github.com/silknow/skosmos
-  docker run -d -p 8872:80 -v /home/semantic/odeuropa/knowledge-graph/skosmos:/config --name odeuropa_skosmos skosmos
+    docker build -t skosmos https://github.com/silknow/skosmos
+    docker run -d -p 8872:80 -v /home/semantic/odeuropa/knowledge-graph/skosmos:/config --name odeuropa_skosmos skosmos
 
 
 # Data conversion from raw

@@ -16,7 +16,6 @@ class SourceDoc(Entity):
     def __init__(self, _id, title, author=None, date=None, lang=None):
         super().__init__(str(date) + title + str(author), 'source')
         self.author = None
-        self.date = None
 
         self.title = title
 
@@ -26,7 +25,7 @@ class SourceDoc(Entity):
             t = Time.parse(date)
             self.add(SDO.dateCreated, t)
             date = t.start if t else None
-            self.date = date
+            self.time = date
 
         if author:
             self.author = Actor(author.strip(), lang=lang, alive_in=date)
@@ -37,7 +36,7 @@ class SourceDoc(Entity):
         if birth or death:
             person = Actor(name, lang=lang, birth=birth, death=death)
         else:
-            person = Actor(name, lang=lang, alive_in=self.date)
+            person = Actor(name, lang=lang, alive_in=self.time)
         self.add(SDO.author, person)
 
     def add_subject(self, subject, lang=None):
