@@ -39,8 +39,10 @@ class Actor(Entity):
 
             b = birth.replace('?', '') if birth else None
             d = death.replace('?', '') if death else None
-            self.add(SDO.birthDate, Time(birth, birth))
-            self.add(SDO.deathDate, Time(death, death))
+            if birth:
+                self.add(SDO.birthDate, Time(birth, birth))
+            if death:
+                self.add(SDO.deathDate, Time(death, death))
 
             wd = None
             if lemma is None and len(name) < 40:

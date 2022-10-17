@@ -5,7 +5,6 @@
 @prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 @prefix reo: <https://read-it.acc.hum.uu.nl/ontology#> .
-@prefix schema: <https://schema.org/> .
 @prefix time: <http://www.w3.org/2006/time#> .
 
 <http://data.odeuropa.eu/emission/9c620580-7828-561c-a9dc-2e70ba16b796> a od:L12_Smell_Emission ;
@@ -9297,9 +9296,7 @@
 << <http://data.odeuropa.eu/source/f50e3df8-460a-5aa8-be5a-c4ad9d79b8d7> crm:P67_refers_to <http://data.odeuropa.eu/smell/60a6a591-07e7-5ef7-b9c8-5284b78d73ac> >> prov:wasGeneratedBy <http://data.odeuropa.eu/provenance/eb5757bc-7003-55fd-966c-8f341daf4ce8> .
 
 <http://data.odeuropa.eu/actor/aa723f25-c67c-503a-aab2-70e857d55c2a> a crm:E39_Actor ;
-    rdfs:label "altri" ;
-    schema:birthDate <http://data.odeuropa.eu/time/d253d9a2-3190-572a-aa64-636a762ccb71> ;
-    schema:deathDate <http://data.odeuropa.eu/time/d253d9a2-3190-572a-aa64-636a762ccb71> .
+    rdfs:label "altri" .
 
 <http://data.odeuropa.eu/actor/c752bf75-1c1a-560d-8645-dd649eb7dc45> a crm:E21_Person .
 
@@ -9717,7 +9714,8 @@
     crm:P137_exemplifies <http://data.odeuropa.eu/vocabulary/olfactory-objects/72> .
 
 <http://data.odeuropa.eu/object/1e781338-aa1e-543b-bfc2-29042e30ce10> a crmsci:S10_Material_Substantial ;
-    rdfs:label "La violetta"@it .
+    rdfs:label "La violetta"@it ;
+    crm:P137_exemplifies <http://data.odeuropa.eu/vocabulary/olfactory-objects/223> .
 
 <http://data.odeuropa.eu/object/1e87e135-f435-545c-a0a9-2e0b59f89830> a crmsci:S10_Material_Substantial ;
     rdfs:label "olii essenziali"@it ;
@@ -10064,7 +10062,8 @@
     rdfs:label "molte epidemiche malattie"@it .
 
 <http://data.odeuropa.eu/object/61bfed91-8df4-5c2f-aa03-e1829d486f7d> a crmsci:S10_Material_Substantial ;
-    rdfs:label "la rosa"@it .
+    rdfs:label "la rosa"@it ;
+    crm:P137_exemplifies <http://data.odeuropa.eu/vocabulary/olfactory-objects/138> .
 
 <http://data.odeuropa.eu/object/624a4a44-8deb-5340-a58d-4df35e2791b8> a crmsci:S10_Material_Substantial ;
     rdfs:label "muschio"@it ;
@@ -10153,7 +10152,8 @@
     crm:P137_exemplifies <http://data.odeuropa.eu/vocabulary/olfactory-objects/72> .
 
 <http://data.odeuropa.eu/object/719092d4-3ea6-5381-8b40-cfa5cac89778> a crmsci:S10_Material_Substantial ;
-    rdfs:label "La radice"@it .
+    rdfs:label "La radice"@it ;
+    crm:P137_exemplifies <http://data.odeuropa.eu/vocabulary/olfactory-objects/410> .
 
 <http://data.odeuropa.eu/object/73b32917-1148-5ed3-8748-bb165d71cab1> a crmsci:S10_Material_Substantial ;
     rdfs:label "un umore untuoso , nereggiante"@it .
@@ -10257,7 +10257,8 @@
     rdfs:label "Colla fiorino estratto"@it .
 
 <http://data.odeuropa.eu/object/89461144-a07e-53fe-bbfc-1bc53ba03d3d> a crmsci:S10_Material_Substantial ;
-    rdfs:label "La radice"@it .
+    rdfs:label "La radice"@it ;
+    crm:P137_exemplifies <http://data.odeuropa.eu/vocabulary/olfactory-objects/410> .
 
 <http://data.odeuropa.eu/object/89d79ed1-269e-5050-9c7e-2760c4c430ac> a crmsci:S10_Material_Substantial ;
     rdfs:label "dai pètali"@it .
@@ -10427,7 +10428,8 @@
     rdfs:label "di bergamotto"@it .
 
 <http://data.odeuropa.eu/object/affcf00d-ca6e-5303-b06b-50e14ef0cac1> a crmsci:S10_Material_Substantial ;
-    rdfs:label "la corteccia"@it .
+    rdfs:label "la corteccia"@it ;
+    crm:P137_exemplifies <http://data.odeuropa.eu/vocabulary/olfactory-objects/476> .
 
 <http://data.odeuropa.eu/object/b062e520-f916-5413-bff8-49c99aa79ae0> a crmsci:S10_Material_Substantial ;
     rdfs:label "Il burro di caccao"@it .
@@ -10585,7 +10587,8 @@
     rdfs:label "nel grasso o nell ’ olio"@it .
 
 <http://data.odeuropa.eu/object/d0c4d119-0a36-5393-966a-998e4c20f69d> a crmsci:S10_Material_Substantial ;
-    rdfs:label "La corteccia"@it .
+    rdfs:label "La corteccia"@it ;
+    crm:P137_exemplifies <http://data.odeuropa.eu/vocabulary/olfactory-objects/476> .
 
 <http://data.odeuropa.eu/object/d12df441-32e5-59c8-9b5e-1dd861c68b39> a crmsci:S10_Material_Substantial ;
     rdfs:label "I fiori della zucca"@it .
@@ -10620,7 +10623,8 @@
     rdfs:label "L ’ olio di ricino"@it .
 
 <http://data.odeuropa.eu/object/dbe9b1c5-4859-56cf-9270-9281cd471764> a crmsci:S10_Material_Substantial ;
-    rdfs:label "La radice"@it .
+    rdfs:label "La radice"@it ;
+    crm:P137_exemplifies <http://data.odeuropa.eu/vocabulary/olfactory-objects/410> .
 
 <http://data.odeuropa.eu/object/dc549874-de5b-549e-b464-fe6fa0dbbdfb> a crmsci:S10_Material_Substantial ;
     rdfs:label "La vera ambra detta anche ambra frigia"@it .
@@ -10632,7 +10636,8 @@
     rdfs:label "il suo fiorello"@it .
 
 <http://data.odeuropa.eu/object/dea7ae47-8df3-5bfb-a5af-edcf218a2415> a crmsci:S10_Material_Substantial ;
-    rdfs:label "la corteccia"@it .
+    rdfs:label "la corteccia"@it ;
+    crm:P137_exemplifies <http://data.odeuropa.eu/vocabulary/olfactory-objects/476> .
 
 <http://data.odeuropa.eu/object/dfeaec9b-02aa-5812-a66a-c96da62dbf68> a crmsci:S10_Material_Substantial ;
     rdfs:label "Quest ’ olio"@it .
@@ -10727,7 +10732,8 @@
     rdfs:label "Il sassofrasso falsificato con altri legni"@it .
 
 <http://data.odeuropa.eu/object/f9ddfce1-a3c3-5282-a19d-c9465fad6c61> a crmsci:S10_Material_Substantial ;
-    rdfs:label "La corteccia"@it .
+    rdfs:label "La corteccia"@it ;
+    crm:P137_exemplifies <http://data.odeuropa.eu/vocabulary/olfactory-objects/476> .
 
 <http://data.odeuropa.eu/object/fa338375-3e11-5924-bcee-c5545baa741d> a crmsci:S10_Material_Substantial ;
     rdfs:label "organi sessuali"@it .
@@ -13133,93 +13139,59 @@
     rdf:value "Dopo i 12 mesi si ammettono i detenuti al lavoro collettivo, poi si trasportano nella terra di Van-Diemen, alla isola di Norfolk, nell ' Australia, o altrove. - Con l ' Atto dei 4 marzo 1849, confermato con la Legge del 5 maggio 1849, tutta intera la pena si sconta nella carcere separata; ch ' è quanto dire con la perdita della salute e della intelligenza, peggiore assai di quella della vita; - il lavoro, la più parte in cella, consistente in filare canape, fatalissimo per la polvere minuta che n ' esce, causa potente di etisia; - il vitto vario: pei condannati allo Ergastolo, carne (4 oncie) e vino (1 mezzetta), una volta per settimana; alla Casa di Forza, carne e vino nella medesima proporzione, due volte; alla Casa di Detenzione, tre volte: - ventilatori non si conoscono; temperatura quale la stagione manda nella state e nel verno; aria poca, acqua fredda sempre; - mobili, un letto pieno di capecchio, che si alza e si chiude al muro per tutta la giornata; non seggiole, non tavole; uno sgabello incatenato, una mensola traversa, una catinella, una brocca, un vaso mutato due volte al giorno; - le stanze lunghe sette passi, larghe poco più di due (a tre non arrivano), fetide e buie; d ' insetti schifosi, qui nelle Murate, popolatissime; - sacramentale l ' ordine che i detenuti non si parlino nè si vedano; e per meglio assicurarsene, le brevi finestre, ora quadre, ora circolari, ora bucate a guisa di 8 (come a Volterra), munite spesso dalle tramoggie, invenzione infernale, che lascia vedere uno spicchio di cielo all ' insù."@it .
 
 <http://data.odeuropa.eu/actor/11e03fad-dc36-517f-9c6d-8e540697ef06> a crm:E39_Actor ;
-    rdfs:label "compratori" ;
-    schema:birthDate <http://data.odeuropa.eu/time/d253d9a2-3190-572a-aa64-636a762ccb71> ;
-    schema:deathDate <http://data.odeuropa.eu/time/d253d9a2-3190-572a-aa64-636a762ccb71> .
+    rdfs:label "compratori" .
 
 <http://data.odeuropa.eu/actor/14e1b6a5-ed9f-5e8a-9061-076d1243d6d0> a crm:E39_Actor ;
-    rdfs:label "veruno di noi , di otto ch ' eravamo" ;
-    schema:birthDate <http://data.odeuropa.eu/time/d253d9a2-3190-572a-aa64-636a762ccb71> ;
-    schema:deathDate <http://data.odeuropa.eu/time/d253d9a2-3190-572a-aa64-636a762ccb71> .
+    rdfs:label "veruno di noi , di otto ch ' eravamo" .
 
 <http://data.odeuropa.eu/actor/1c9ff779-2966-59eb-b642-0a1e0cd8cfc5> a crm:E39_Actor ;
-    rdfs:label "mangiatore" ;
-    schema:birthDate <http://data.odeuropa.eu/time/d253d9a2-3190-572a-aa64-636a762ccb71> ;
-    schema:deathDate <http://data.odeuropa.eu/time/d253d9a2-3190-572a-aa64-636a762ccb71> .
+    rdfs:label "mangiatore" .
 
 <http://data.odeuropa.eu/actor/3d148ac5-9619-5a8c-887c-9c1b776b6f5e> a crm:E39_Actor ;
-    rdfs:label "Il signore" ;
-    schema:birthDate <http://data.odeuropa.eu/time/d253d9a2-3190-572a-aa64-636a762ccb71> ;
-    schema:deathDate <http://data.odeuropa.eu/time/d253d9a2-3190-572a-aa64-636a762ccb71> .
+    rdfs:label "Il signore" .
 
 <http://data.odeuropa.eu/actor/426f76ed-2c7e-5202-b20b-793e77769c47> a crm:E39_Actor ;
-    rdfs:label "persone" ;
-    schema:birthDate <http://data.odeuropa.eu/time/d253d9a2-3190-572a-aa64-636a762ccb71> ;
-    schema:deathDate <http://data.odeuropa.eu/time/d253d9a2-3190-572a-aa64-636a762ccb71> .
+    rdfs:label "persone" .
 
 <http://data.odeuropa.eu/actor/4d092383-8d57-5180-9475-2ff304645aa8> a crm:E39_Actor ;
-    rdfs:label "la donna" ;
-    schema:birthDate <http://data.odeuropa.eu/time/d253d9a2-3190-572a-aa64-636a762ccb71> ;
-    schema:deathDate <http://data.odeuropa.eu/time/d253d9a2-3190-572a-aa64-636a762ccb71> .
+    rdfs:label "la donna" .
 
 <http://data.odeuropa.eu/actor/52f2d387-0633-5eeb-86cf-a4879160b8fd> a crm:E39_Actor ;
-    rdfs:label "taluno" ;
-    schema:birthDate <http://data.odeuropa.eu/time/d253d9a2-3190-572a-aa64-636a762ccb71> ;
-    schema:deathDate <http://data.odeuropa.eu/time/d253d9a2-3190-572a-aa64-636a762ccb71> .
+    rdfs:label "taluno" .
 
 <http://data.odeuropa.eu/actor/57afd574-27eb-5cf5-b8aa-42b59768a825> a crm:E21_Person ;
     rdfs:label "Il profumiere" ;
     crm:P137_exemplifies <http://data.odeuropa.eu/vocabulary/noses/7> ;
-    reo:readP1 <http://data.odeuropa.eu/vocabulary/noses/7> ;
-    schema:birthDate <http://data.odeuropa.eu/time/d253d9a2-3190-572a-aa64-636a762ccb71> ;
-    schema:deathDate <http://data.odeuropa.eu/time/d253d9a2-3190-572a-aa64-636a762ccb71> .
+    reo:readP1 <http://data.odeuropa.eu/vocabulary/noses/7> .
 
 <http://data.odeuropa.eu/actor/61b337f1-a000-51cc-b91a-3083ddc4251c> a crm:E39_Actor ;
-    rdfs:label "ci" ;
-    schema:birthDate <http://data.odeuropa.eu/time/d253d9a2-3190-572a-aa64-636a762ccb71> ;
-    schema:deathDate <http://data.odeuropa.eu/time/d253d9a2-3190-572a-aa64-636a762ccb71> .
+    rdfs:label "ci" .
 
 <http://data.odeuropa.eu/actor/aeb64f6b-79e1-5ec4-800c-2d0c542f590e> a crm:E39_Actor ;
-    rdfs:label "Fourcroy" ;
-    schema:birthDate <http://data.odeuropa.eu/time/d253d9a2-3190-572a-aa64-636a762ccb71> ;
-    schema:deathDate <http://data.odeuropa.eu/time/d253d9a2-3190-572a-aa64-636a762ccb71> .
+    rdfs:label "Fourcroy" .
 
 <http://data.odeuropa.eu/actor/be5a8f88-f603-5303-a0e5-87721b3442c9> a crm:E39_Actor ;
-    rdfs:label "egli" ;
-    schema:birthDate <http://data.odeuropa.eu/time/d253d9a2-3190-572a-aa64-636a762ccb71> ;
-    schema:deathDate <http://data.odeuropa.eu/time/d253d9a2-3190-572a-aa64-636a762ccb71> .
+    rdfs:label "egli" .
 
 <http://data.odeuropa.eu/actor/c10cc2ab-d815-57f3-a326-41bde7ae90d9> a crm:E39_Actor ;
-    rdfs:label "La gentil donna" ;
-    schema:birthDate <http://data.odeuropa.eu/time/d253d9a2-3190-572a-aa64-636a762ccb71> ;
-    schema:deathDate <http://data.odeuropa.eu/time/d253d9a2-3190-572a-aa64-636a762ccb71> .
+    rdfs:label "La gentil donna" .
 
 <http://data.odeuropa.eu/actor/dd8c2972-c1f2-5eac-b210-1e34c54fe601> a crm:E39_Actor ;
-    rdfs:label "i fisiologi" ;
-    schema:birthDate <http://data.odeuropa.eu/time/d253d9a2-3190-572a-aa64-636a762ccb71> ;
-    schema:deathDate <http://data.odeuropa.eu/time/d253d9a2-3190-572a-aa64-636a762ccb71> .
+    rdfs:label "i fisiologi" .
 
 <http://data.odeuropa.eu/actor/de6f2def-d70e-5d6c-a537-4832563b53a8> a crm:E21_Person ;
     rdfs:label "il profumiere" ;
     crm:P137_exemplifies <http://data.odeuropa.eu/vocabulary/noses/7> ;
-    reo:readP1 <http://data.odeuropa.eu/vocabulary/noses/7> ;
-    schema:birthDate <http://data.odeuropa.eu/time/d253d9a2-3190-572a-aa64-636a762ccb71> ;
-    schema:deathDate <http://data.odeuropa.eu/time/d253d9a2-3190-572a-aa64-636a762ccb71> .
+    reo:readP1 <http://data.odeuropa.eu/vocabulary/noses/7> .
 
 <http://data.odeuropa.eu/actor/e6925d80-da63-5bcb-a9b7-01a128d2f334> a crm:E39_Actor ;
-    rdfs:label "dal Padre M" ;
-    schema:birthDate <http://data.odeuropa.eu/time/d253d9a2-3190-572a-aa64-636a762ccb71> ;
-    schema:deathDate <http://data.odeuropa.eu/time/d253d9a2-3190-572a-aa64-636a762ccb71> .
+    rdfs:label "dal Padre M" .
 
 <http://data.odeuropa.eu/actor/e8b1e73e-5e2f-57cb-942b-d36d26e5ff77> a crm:E39_Actor ;
-    rdfs:label "gli officiali e gli abitanti attorno" ;
-    schema:birthDate <http://data.odeuropa.eu/time/d253d9a2-3190-572a-aa64-636a762ccb71> ;
-    schema:deathDate <http://data.odeuropa.eu/time/d253d9a2-3190-572a-aa64-636a762ccb71> .
+    rdfs:label "gli officiali e gli abitanti attorno" .
 
 <http://data.odeuropa.eu/actor/f2b9d67f-c668-5895-b62f-6213e4b3714a> a crm:E39_Actor ;
-    rdfs:label "ìo" ;
-    schema:birthDate <http://data.odeuropa.eu/time/d253d9a2-3190-572a-aa64-636a762ccb71> ;
-    schema:deathDate <http://data.odeuropa.eu/time/d253d9a2-3190-572a-aa64-636a762ccb71> .
+    rdfs:label "ìo" .
 
 <http://data.odeuropa.eu/attribute/alcun_it> a crm:E90_Symbolic_Object ;
     rdfs:label "alcun"@it .
@@ -13559,7 +13531,7 @@
 <http://data.odeuropa.eu/emission/232c0a27-81e0-5fd6-b7d6-0c2bba139ce7> a od:L12_Smell_Emission ;
     od:F1_generated <http://data.odeuropa.eu/smell/8c022bf2-cc11-533d-b2a1-5de8666a3486> ;
     od:F3_had_source <http://data.odeuropa.eu/object/39e11849-3b80-53e1-be82-606d0a57d736> ;
-    crm:P7_took_place_at <https://sws.geonames.org/3039604/> ;
+    crm:P7_took_place_at <http://data.odeuropa.eu/place/07c40b0d-a14d-505d-89d1-ab9993a0e419> ;
     time:hasTime "1945" .
 
 <http://data.odeuropa.eu/emission/2336ea3f-1aa6-58aa-9910-cd0f9f52c024> a od:L12_Smell_Emission ;
@@ -15261,6 +15233,10 @@
     od:F1_generated <http://data.odeuropa.eu/smell/8eaed5f0-2bd3-55b7-9a13-579ae8171834> ;
     time:hasTime "1841" .
 
+<http://data.odeuropa.eu/place/07c40b0d-a14d-505d-89d1-ab9993a0e419> a crm:E53_Place ;
+    rdfs:label "la casa" ;
+    crm:P137_exemplifies <http://data.odeuropa.eu/vocabulary/fragrant-spaces/69> .
+
 <http://data.odeuropa.eu/place/160db400-509d-5c18-8018-fb65be4fda56> a crm:E53_Place ;
     rdfs:label " da ' luoghi segreti" .
 
@@ -15464,8 +15440,6 @@
 <https://sws.geonames.org/10344715/> a crm:E53_Place .
 
 <https://sws.geonames.org/2988507/> a crm:E53_Place .
-
-<https://sws.geonames.org/3039604/> a crm:E53_Place .
 
 <https://sws.geonames.org/3176219/> a crm:E53_Place .
 
@@ -16067,7 +16041,7 @@
 
 <http://data.odeuropa.eu/experience/8a77b62c-40b5-5769-b9f4-8fdb84197b6e> a od:L13_Olfactory_Experience ;
     od:F2_perceived <http://data.odeuropa.eu/smell/8c022bf2-cc11-533d-b2a1-5de8666a3486> ;
-    crm:P7_took_place_at <https://sws.geonames.org/3039604/> ;
+    crm:P7_took_place_at <http://data.odeuropa.eu/place/07c40b0d-a14d-505d-89d1-ab9993a0e419> ;
     time:hasTime "1945" .
 
 <http://data.odeuropa.eu/experience/8b1cc9b5-03d9-5e4d-bc0c-ed8a88f9943d> a od:L13_Olfactory_Experience ;
@@ -17190,9 +17164,7 @@
     rdfs:comment "night"@en .
 
 <http://data.odeuropa.eu/actor/ab52ce5c-336a-5137-81eb-bb34769e99c3> a crm:E39_Actor ;
-    rdfs:label "mi" ;
-    schema:birthDate <http://data.odeuropa.eu/time/d253d9a2-3190-572a-aa64-636a762ccb71> ;
-    schema:deathDate <http://data.odeuropa.eu/time/d253d9a2-3190-572a-aa64-636a762ccb71> .
+    rdfs:label "mi" .
 
 <http://data.odeuropa.eu/attribute/penetrante_it> a crm:E90_Symbolic_Object ;
     rdfs:label "penetrante"@it .
@@ -18354,9 +18326,7 @@
 <http://data.odeuropa.eu/actor/344a3473-54f6-59f0-a568-b67fb76d3e2f> a crm:E21_Person ;
     rdfs:label "profumiere" ;
     crm:P137_exemplifies <http://data.odeuropa.eu/vocabulary/noses/7> ;
-    reo:readP1 <http://data.odeuropa.eu/vocabulary/noses/7> ;
-    schema:birthDate <http://data.odeuropa.eu/time/d253d9a2-3190-572a-aa64-636a762ccb71> ;
-    schema:deathDate <http://data.odeuropa.eu/time/d253d9a2-3190-572a-aa64-636a762ccb71> .
+    reo:readP1 <http://data.odeuropa.eu/vocabulary/noses/7> .
 
 <http://data.odeuropa.eu/smell/152521c0-8c25-5885-9d97-1a24249e25b0> a od:L11_Smell ;
     rdfs:label "odore"@it .
@@ -18433,8 +18403,6 @@
 
 <http://data.odeuropa.eu/emotion-type/disgust> a <http://www.w3.org/2004/02/skos/core#Concept> ;
     rdfs:label "disgust" .
-
-<http://data.odeuropa.eu/time/d253d9a2-3190-572a-aa64-636a762ccb71> a time:TemporalEntity .
 
 <http://data.odeuropa.eu/sentiment/negative> a <http://www.w3.org/2004/02/skos/core#Concept> ;
     rdfs:label "Negative" .

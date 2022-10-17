@@ -5,7 +5,6 @@
 @prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 @prefix reo: <https://read-it.acc.hum.uu.nl/ontology#> .
-@prefix schema: <https://schema.org/> .
 @prefix time: <http://www.w3.org/2006/time#> .
 
 <http://data.odeuropa.eu/emission/529556d0-64a8-5af4-9dd5-3d732708c38a> a od:L12_Smell_Emission ;
@@ -149,28 +148,28 @@
     rdfs:label "diverses"@fr ;
     crm:P140_assigned_attribute_to <http://data.odeuropa.eu/smell/bdf056a1-cfc4-59e0-829e-7974110c9423> ;
     crm:P141_assigned <http://data.odeuropa.eu/attribute/diverses_fr> ;
-    crm:P14_carried_out_by <http://data.odeuropa.eu/actor/b66919fd-24d6-5be7-8c27-9a1b89bafe1a> ;
+    crm:P14_carried_out_by <http://data.odeuropa.eu/actor/f6c2e273-b3a7-58c2-9404-5a58594ec568> ;
     crm:P17_was_motivated_by <http://data.odeuropa.eu/experience/933f4e94-adab-57b7-85e8-4f5c48e789f7> .
 
 <http://data.odeuropa.eu/experience/933f4e94-adab-57b7-85e8-4f5c48e789f7/assignment/2> a crm:E13_Attribute_Assignment ;
     rdfs:label "qui"@fr ;
     crm:P140_assigned_attribute_to <http://data.odeuropa.eu/smell/bdf056a1-cfc4-59e0-829e-7974110c9423> ;
     crm:P141_assigned <http://data.odeuropa.eu/attribute/qui_fr> ;
-    crm:P14_carried_out_by <http://data.odeuropa.eu/actor/b66919fd-24d6-5be7-8c27-9a1b89bafe1a> ;
+    crm:P14_carried_out_by <http://data.odeuropa.eu/actor/f6c2e273-b3a7-58c2-9404-5a58594ec568> ;
     crm:P17_was_motivated_by <http://data.odeuropa.eu/experience/933f4e94-adab-57b7-85e8-4f5c48e789f7> .
 
 <http://data.odeuropa.eu/experience/933f4e94-adab-57b7-85e8-4f5c48e789f7/assignment/3> a crm:E13_Attribute_Assignment ;
     rdfs:label "dangereuses"@fr ;
     crm:P140_assigned_attribute_to <http://data.odeuropa.eu/smell/bdf056a1-cfc4-59e0-829e-7974110c9423> ;
     crm:P141_assigned <http://data.odeuropa.eu/attribute/dangereuses_fr> ;
-    crm:P14_carried_out_by <http://data.odeuropa.eu/actor/b66919fd-24d6-5be7-8c27-9a1b89bafe1a> ;
+    crm:P14_carried_out_by <http://data.odeuropa.eu/actor/f6c2e273-b3a7-58c2-9404-5a58594ec568> ;
     crm:P17_was_motivated_by <http://data.odeuropa.eu/experience/933f4e94-adab-57b7-85e8-4f5c48e789f7> .
 
 <http://data.odeuropa.eu/experience/933f4e94-adab-57b7-85e8-4f5c48e789f7/assignment/4> a crm:E13_Attribute_Assignment ;
     rdfs:label "utiles"@fr ;
     crm:P140_assigned_attribute_to <http://data.odeuropa.eu/smell/bdf056a1-cfc4-59e0-829e-7974110c9423> ;
     crm:P141_assigned <http://data.odeuropa.eu/attribute/utiles_fr> ;
-    crm:P14_carried_out_by <http://data.odeuropa.eu/actor/b66919fd-24d6-5be7-8c27-9a1b89bafe1a> ;
+    crm:P14_carried_out_by <http://data.odeuropa.eu/actor/f6c2e273-b3a7-58c2-9404-5a58594ec568> ;
     crm:P17_was_motivated_by <http://data.odeuropa.eu/experience/933f4e94-adab-57b7-85e8-4f5c48e789f7> .
 
 <http://data.odeuropa.eu/experience/98894c30-ebff-59b6-8345-a1581cada749/assignment/1> a crm:E13_Attribute_Assignment ;
@@ -598,6 +597,9 @@
 
 <http://data.odeuropa.eu/actor/7b799db0-6ec7-56f5-9e22-c745c6da3ee5> a crm:E21_Person .
 
+<http://data.odeuropa.eu/actor/b66919fd-24d6-5be7-8c27-9a1b89bafe1a> a crm:E39_Actor ;
+    rdfs:label "s'exilaient" .
+
 <http://data.odeuropa.eu/attribute/%C3%A2cre_fr> a crm:E90_Symbolic_Object ;
     rdfs:label "âcre"@fr .
 
@@ -891,29 +893,19 @@
     rdf:value "Ie telaisse à penser, quelle sera la puanteur detant de corps d’homme & de femmes, quiseront vn iour auec les Diables."@fr .
 
 <http://data.odeuropa.eu/actor/0e7c18c2-f31d-5cce-8c9d-58a30a0e0dbc> a crm:E39_Actor ;
-    rdfs:label "les ames dãnées" ;
-    schema:birthDate <http://data.odeuropa.eu/time/d253d9a2-3190-572a-aa64-636a762ccb71> ;
-    schema:deathDate <http://data.odeuropa.eu/time/d253d9a2-3190-572a-aa64-636a762ccb71> .
+    rdfs:label "les ames dãnées" .
 
 <http://data.odeuropa.eu/actor/33281e29-65b0-5ff4-ba61-28585f61610d> a crm:E39_Actor ;
-    rdfs:label "hommes délicats essensuéls" ;
-    schema:birthDate <http://data.odeuropa.eu/time/d253d9a2-3190-572a-aa64-636a762ccb71> ;
-    schema:deathDate <http://data.odeuropa.eu/time/d253d9a2-3190-572a-aa64-636a762ccb71> .
+    rdfs:label "hommes délicats essensuéls" .
 
 <http://data.odeuropa.eu/actor/77b78b11-186c-57b9-bc74-6a6a5564a13e> a crm:E39_Actor ;
-    rdfs:label "voyons-nous" ;
-    schema:birthDate <http://data.odeuropa.eu/time/d253d9a2-3190-572a-aa64-636a762ccb71> ;
-    schema:deathDate <http://data.odeuropa.eu/time/d253d9a2-3190-572a-aa64-636a762ccb71> .
+    rdfs:label "voyons-nous" .
 
 <http://data.odeuropa.eu/actor/7a9320a2-6aed-5135-80f6-ca9ae458b904> a crm:E39_Actor ;
-    rdfs:label "Les anciens" ;
-    schema:birthDate <http://data.odeuropa.eu/time/d253d9a2-3190-572a-aa64-636a762ccb71> ;
-    schema:deathDate <http://data.odeuropa.eu/time/d253d9a2-3190-572a-aa64-636a762ccb71> .
+    rdfs:label "Les anciens" .
 
 <http://data.odeuropa.eu/actor/eae8ef41-9d46-53f4-8550-7a3b70d07bf1> a crm:E39_Actor ;
-    rdfs:label "insectes" ;
-    schema:birthDate <http://data.odeuropa.eu/time/d253d9a2-3190-572a-aa64-636a762ccb71> ;
-    schema:deathDate <http://data.odeuropa.eu/time/d253d9a2-3190-572a-aa64-636a762ccb71> .
+    rdfs:label "insectes" .
 
 <http://data.odeuropa.eu/attribute/utiles_fr> a crm:E90_Symbolic_Object ;
     rdfs:label "utiles"@fr .
@@ -1042,14 +1034,7 @@
     rdfs:label "enfance" .
 
 <http://data.odeuropa.eu/actor/96143710-9df4-500a-a36c-5fc6a4566d31> a crm:E39_Actor ;
-    rdfs:label "vous-obstinéz" ;
-    schema:birthDate <http://data.odeuropa.eu/time/d253d9a2-3190-572a-aa64-636a762ccb71> ;
-    schema:deathDate <http://data.odeuropa.eu/time/d253d9a2-3190-572a-aa64-636a762ccb71> .
-
-<http://data.odeuropa.eu/actor/f6c2e273-b3a7-58c2-9404-5a58594ec568> a crm:E39_Actor ;
-    rdfs:label "nous" ;
-    schema:birthDate <http://data.odeuropa.eu/time/d253d9a2-3190-572a-aa64-636a762ccb71> ;
-    schema:deathDate <http://data.odeuropa.eu/time/d253d9a2-3190-572a-aa64-636a762ccb71> .
+    rdfs:label "vous-obstinéz" .
 
 <http://data.odeuropa.eu/emotion-type/sadness> a <http://www.w3.org/2004/02/skos/core#Concept> ;
     rdfs:label "sadness" .
@@ -1120,9 +1105,7 @@
     rdfs:label "inutiles"@fr .
 
 <http://data.odeuropa.eu/actor/514295fc-1bd3-5161-8d0a-4fc99ea6c2ec> a crm:E39_Actor ;
-    rdfs:label "vous" ;
-    schema:birthDate <http://data.odeuropa.eu/time/d253d9a2-3190-572a-aa64-636a762ccb71> ;
-    schema:deathDate <http://data.odeuropa.eu/time/d253d9a2-3190-572a-aa64-636a762ccb71> .
+    rdfs:label "vous" .
 
 <http://data.odeuropa.eu/experience/1f532cf2-5849-50c5-a1a9-35b9019ee5b7> a od:L13_Olfactory_Experience ;
     od:F2_perceived <http://data.odeuropa.eu/smell/92a65fa2-f599-58c5-9a61-dad46b4a6946> ;
@@ -1162,11 +1145,6 @@
 <http://data.odeuropa.eu/place/aea84c75-e6c1-5a89-88a4-d2b9e361ea9e> a crm:E53_Place ;
     rdfs:label "Enfer" ;
     crm:P137_exemplifies <http://data.odeuropa.eu/vocabulary/fragrant-spaces/101> .
-
-<http://data.odeuropa.eu/actor/b66919fd-24d6-5be7-8c27-9a1b89bafe1a> a crm:E39_Actor ;
-    rdfs:label "s'exilaient" ;
-    schema:birthDate <http://data.odeuropa.eu/time/d253d9a2-3190-572a-aa64-636a762ccb71> ;
-    schema:deathDate <http://data.odeuropa.eu/time/d253d9a2-3190-572a-aa64-636a762ccb71> .
 
 <http://data.odeuropa.eu/smell/0042f86e-a423-5684-a2b1-bd857fe69706> a od:L11_Smell ;
     rdfs:label "parfums"@fr .
@@ -1223,9 +1201,7 @@
     rdfs:label "puanteur"@fr .
 
 <http://data.odeuropa.eu/actor/9d01d134-1a67-559d-b8f0-f13994925351> a crm:E39_Actor ;
-    rdfs:label "notre" ;
-    schema:birthDate <http://data.odeuropa.eu/time/d253d9a2-3190-572a-aa64-636a762ccb71> ;
-    schema:deathDate <http://data.odeuropa.eu/time/d253d9a2-3190-572a-aa64-636a762ccb71> .
+    rdfs:label "notre" .
 
 <http://data.odeuropa.eu/experience/07c95d63-2789-5802-b2ef-ec386e5ea558> a od:L13_Olfactory_Experience ;
     od:F2_perceived <http://data.odeuropa.eu/smell/59da817e-e31a-5eb1-838a-57c631a0dcfc> ;
@@ -1244,6 +1220,9 @@
 <http://data.odeuropa.eu/smell/899b1a0c-2fed-5a0f-978b-0cc2a8df1a49> a od:L11_Smell ;
     rdfs:label "répandent"@fr .
 
+<http://data.odeuropa.eu/actor/f6c2e273-b3a7-58c2-9404-5a58594ec568> a crm:E39_Actor ;
+    rdfs:label "nous" .
+
 <http://data.odeuropa.eu/attribute/_fr> a crm:E90_Symbolic_Object .
 
 <http://data.odeuropa.eu/smell/59da817e-e31a-5eb1-838a-57c631a0dcfc> a od:L11_Smell ;
@@ -1251,8 +1230,6 @@
 
 <http://data.odeuropa.eu/smell/bdf056a1-cfc4-59e0-829e-7974110c9423> a od:L11_Smell ;
     rdfs:label "nous"@fr .
-
-<http://data.odeuropa.eu/time/d253d9a2-3190-572a-aa64-636a762ccb71> a time:TemporalEntity .
 
 <http://data.odeuropa.eu/provenance/11ef5142-7e76-5ffd-8ceb-e303cba33f45> a prov:Activity ;
     rdfs:label "Manual text annotation" ;

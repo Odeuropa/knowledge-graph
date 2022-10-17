@@ -1,28 +1,28 @@
 @prefix dct: <http://purl.org/dc/terms/> .
 @prefix iconclass: <http://iconclass.org/> .
-@prefix olf: <http://data.odeuropa.eu/olfactory_objects/> .
-@prefix olfactory-gestures: <http://data.odeuropa.eu/vocabulary/olfactory-gestures/> .
+@prefix ol: <http://data.odeuropa.eu/olfactory_objects/> .
+@prefix olf: <http://data.odeuropa.eu/vocabulary/olfactory-gestures/> .
 @prefix pav: <http://purl.org/pav/> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 @prefix skos: <http://www.w3.org/2004/02/skos/core#> .
 @prefix voc: <http://data.odeuropa.eu/vocabulary/> .
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 
-olf:145 skos:related olfactory-gestures:8 .
+ol:145 skos:related olf:8 .
 
-olf:166 skos:related olfactory-gestures:6 .
+ol:166 skos:related olf:6 .
 
-olf:211 skos:related olfactory-gestures:10 .
+ol:211 skos:related olf:10 .
 
-olf:269 skos:related olfactory-gestures:21 .
+ol:269 skos:related olf:21 .
 
-olf:44 skos:related olfactory-gestures:30 .
+ol:44 skos:related olf:30 .
 
-olf:65 skos:related olfactory-gestures:28 .
+ol:65 skos:related olf:28 .
 
-olf:77 skos:related olfactory-gestures:26 .
+ol:77 skos:related olf:26 .
 
-olfactory-gestures:14 a skos:Concept ;
+olf:14 a skos:Concept ;
     skos:inScheme voc:olfactory-gestures ;
     skos:prefLabel "Holding something to the nose"@en,
         "Tenir quelque chose sur le nez"@fr,
@@ -30,7 +30,7 @@ olfactory-gestures:14 a skos:Concept ;
         "X bij de neus houden"@nl ;
     skos:topConceptOf voc:olfactory-gestures .
 
-olfactory-gestures:17 a skos:Concept ;
+olf:17 a skos:Concept ;
     skos:altLabel "Cleaning a baby"@en ;
     skos:inScheme voc:olfactory-gestures ;
     skos:prefLabel "Changing diaper"@en,
@@ -38,14 +38,14 @@ olfactory-gestures:17 a skos:Concept ;
         "Cambiare pannolini"@it ;
     skos:topConceptOf voc:olfactory-gestures .
 
-olfactory-gestures:18 a skos:Concept ;
+olf:18 a skos:Concept ;
     skos:inScheme voc:olfactory-gestures ;
     skos:prefLabel "Smoking"@en,
         "Fumer"@fr,
         "Fumare"@it ;
     skos:topConceptOf voc:olfactory-gestures .
 
-olfactory-gestures:27 a skos:Concept ;
+olf:27 a skos:Concept ;
     skos:inScheme voc:olfactory-gestures ;
     skos:prefLabel "Ash collecting"@en,
         "Ramassage des cendres"@fr,
@@ -53,110 +53,110 @@ olfactory-gestures:27 a skos:Concept ;
         "As ophalen"@nl ;
     skos:topConceptOf voc:olfactory-gestures .
 
-olfactory-gestures:29 a skos:Concept ;
+olf:29 a skos:Concept ;
     skos:inScheme voc:olfactory-gestures ;
     skos:prefLabel "Perfuming"@en,
         "Parfumer"@fr,
         "Profumare"@it ;
     skos:topConceptOf voc:olfactory-gestures .
 
-olfactory-gestures:31 a skos:Concept ;
+olf:31 a skos:Concept ;
     skos:inScheme voc:olfactory-gestures ;
     skos:prefLabel "Burnt offering"@en,
         "Offrande brûlée"@fr,
         "Effettuare un sacrificio (sacerdote)"@it ;
     skos:topConceptOf voc:olfactory-gestures .
 
-olfactory-gestures:32 a skos:Concept ;
+olf:32 a skos:Concept ;
     skos:inScheme voc:olfactory-gestures ;
     skos:prefLabel "Womb fumigation"@en,
         "Fumigation de l'utérus"@fr,
         "Fumigare l'utero"@it ;
     skos:topConceptOf voc:olfactory-gestures .
 
-olfactory-gestures:33 a skos:Concept ;
+olf:33 a skos:Concept ;
     skos:inScheme voc:olfactory-gestures ;
     skos:prefLabel "Fumigating (health)"@en,
         "Fumigation (santé)"@fr,
         "Fumigare"@it ;
     skos:topConceptOf voc:olfactory-gestures .
 
-olfactory-gestures:34 a skos:Concept ;
+olf:34 a skos:Concept ;
     skos:inScheme voc:olfactory-gestures ;
     skos:prefLabel "Doctor sniffing cane"@en,
         "Médecin reniflant la canne"@fr ;
     skos:topConceptOf voc:olfactory-gestures .
 
-olfactory-gestures:35 a skos:Concept ;
+olf:35 a skos:Concept ;
     skos:inScheme voc:olfactory-gestures ;
     skos:prefLabel "Rag picking"@en,
         "Accattonaggio"@it,
         "Voddenrapen"@nl ;
     skos:topConceptOf voc:olfactory-gestures .
 
-olfactory-gestures:5 a skos:Concept ;
+olf:5 a skos:Concept ;
     skos:inScheme voc:olfactory-gestures ;
     skos:prefLabel "Hunting"@en,
         "Chasser"@fr,
         "Cacciare"@it ;
     skos:topConceptOf voc:olfactory-gestures .
 
-olfactory-gestures:9 a skos:Concept ;
+olf:9 a skos:Concept ;
     skos:altLabel "Middels rook"@nl ;
     skos:inScheme voc:olfactory-gestures ;
     skos:prefLabel "Per fumum"@en,
         "Parfum"@nl ;
     skos:topConceptOf voc:olfactory-gestures .
 
-iconclass:22E12 skos:closeMatch olfactory-gestures:19 .
+iconclass:22E12 skos:closeMatch olf:19 .
 
-iconclass:31A22111 skos:closeMatch olfactory-gestures:1 .
+iconclass:31A22111 skos:closeMatch olf:1 .
 
-iconclass:31A2535 skos:closeMatch olfactory-gestures:24 .
+iconclass:31A2535 skos:closeMatch olf:24 .
 
-iconclass:31A25351 skos:closeMatch olfactory-gestures:2 .
+iconclass:31A25351 skos:closeMatch olf:2 .
 
-iconclass:31A513 skos:closeMatch olfactory-gestures:28 .
+iconclass:31A513 skos:closeMatch olf:28 .
 
-iconclass:31A5144 skos:closeMatch olfactory-gestures:25 .
+iconclass:31A5144 skos:closeMatch olf:25 .
 
-iconclass:31A61 skos:closeMatch olfactory-gestures:11 .
+iconclass:31A61 skos:closeMatch olf:11 .
 
-iconclass:31A62 skos:closeMatch olfactory-gestures:8 .
+iconclass:31A62 skos:closeMatch olf:8 .
 
-iconclass:31A621 skos:closeMatch olfactory-gestures:4 .
+iconclass:31A621 skos:closeMatch olf:4 .
 
-iconclass:31A63 skos:closeMatch olfactory-gestures:6 .
+iconclass:31A63 skos:closeMatch olf:6 .
 
-iconclass:31B181 skos:closeMatch olfactory-gestures:20 .
+iconclass:31B181 skos:closeMatch olf:20 .
 
-iconclass:31B6222 skos:closeMatch olfactory-gestures:3 .
+iconclass:31B6222 skos:closeMatch olf:3 .
 
-iconclass:41C11 skos:closeMatch olfactory-gestures:15 .
+iconclass:41C11 skos:closeMatch olf:15 .
 
-iconclass:41C112 skos:closeMatch olfactory-gestures:16 .
+iconclass:41C112 skos:closeMatch olf:16 .
 
-iconclass:41D422 skos:closeMatch olfactory-gestures:7 .
+iconclass:41D422 skos:closeMatch olf:7 .
 
-iconclass:44e53 skos:closeMatch olfactory-gestures:13 .
+iconclass:44e53 skos:closeMatch olf:13 .
 
-iconclass:49G311 skos:closeMatch olfactory-gestures:12 .
+iconclass:49G311 skos:closeMatch olf:12 .
 
-olf:366 skos:related olfactory-gestures:11,
-        olfactory-gestures:12 .
+ol:366 skos:related olf:11,
+        olf:12 .
 
-olf:405 skos:related olfactory-gestures:15,
-        olfactory-gestures:16 .
+ol:405 skos:related olf:15,
+        olf:16 .
 
-olfactory-gestures:10 a skos:Concept ;
+olf:10 a skos:Concept ;
     skos:inScheme voc:olfactory-gestures ;
     skos:prefLabel "Embalming"@en,
         "Embaumement"@fr,
         "Imbalasamazione"@it ;
-    skos:related olf:211 ;
+    skos:related ol:211 ;
     skos:topConceptOf voc:olfactory-gestures .
 
-olfactory-gestures:13 a skos:Concept ;
+olf:13 a skos:Concept ;
     skos:altLabel "Pulizia delle strade"@it ;
     skos:closeMatch iconclass:44e53 ;
     skos:inScheme voc:olfactory-gestures ;
@@ -166,7 +166,7 @@ olfactory-gestures:13 a skos:Concept ;
         "Opkorten"@nl ;
     skos:topConceptOf voc:olfactory-gestures .
 
-olfactory-gestures:19 a skos:Concept ;
+olf:19 a skos:Concept ;
     skos:closeMatch iconclass:22E12 ;
     skos:inScheme voc:olfactory-gestures ;
     skos:prefLabel "Burning"@en,
@@ -174,7 +174,7 @@ olfactory-gestures:19 a skos:Concept ;
         "Bruciare"@it ;
     skos:topConceptOf voc:olfactory-gestures .
 
-olfactory-gestures:2 a skos:Concept ;
+olf:2 a skos:Concept ;
     skos:altLabel "Holding the nose"@en ;
     skos:closeMatch iconclass:31A25351 ;
     skos:inScheme voc:olfactory-gestures ;
@@ -184,7 +184,7 @@ olfactory-gestures:2 a skos:Concept ;
         "De neus dichtknijpen"@nl ;
     skos:topConceptOf voc:olfactory-gestures .
 
-olfactory-gestures:20 a skos:Concept ;
+olf:20 a skos:Concept ;
     skos:closeMatch iconclass:31B181 ;
     skos:inScheme voc:olfactory-gestures ;
     skos:prefLabel "Fainting"@en,
@@ -192,24 +192,24 @@ olfactory-gestures:20 a skos:Concept ;
         "Svenire"@it ;
     skos:topConceptOf voc:olfactory-gestures .
 
-olfactory-gestures:22 a skos:Concept ;
-    skos:broader olfactory-gestures:1 ;
+olf:22 a skos:Concept ;
+    skos:broader olf:1 ;
     skos:inScheme voc:olfactory-gestures ;
     skos:prefLabel "Piss smelling"@en,
         "Sentir la pisse"@fr,
         "Annusare la pipí"@it ;
     skos:topConceptOf voc:olfactory-gestures .
 
-olfactory-gestures:23 a skos:Concept ;
+olf:23 a skos:Concept ;
     skos:definition "E.g. incense"@en ;
     skos:inScheme voc:olfactory-gestures ;
-    skos:narrower olfactory-gestures:21 ;
+    skos:narrower olf:21 ;
     skos:prefLabel "Scent distributing"@en,
         "Distribution de parfum"@fr,
         "Spargere un odore"@it ;
     skos:topConceptOf voc:olfactory-gestures .
 
-olfactory-gestures:24 a skos:Concept ;
+olf:24 a skos:Concept ;
     skos:closeMatch iconclass:31A2535 ;
     skos:inScheme voc:olfactory-gestures ;
     skos:prefLabel "Hand towards the nose"@en,
@@ -217,7 +217,7 @@ olfactory-gestures:24 a skos:Concept ;
         "Mano verso il naso"@it ;
     skos:topConceptOf voc:olfactory-gestures .
 
-olfactory-gestures:25 a skos:Concept ;
+olf:25 a skos:Concept ;
     skos:altLabel "Incipriarsi"@it ;
     skos:closeMatch iconclass:31A5144 ;
     skos:inScheme voc:olfactory-gestures ;
@@ -226,17 +226,17 @@ olfactory-gestures:25 a skos:Concept ;
         "Incipriare"@it ;
     skos:topConceptOf voc:olfactory-gestures .
 
-olfactory-gestures:26 a skos:Concept ;
+olf:26 a skos:Concept ;
     skos:altLabel "Raccogliere rifiuti"@it ;
     skos:inScheme voc:olfactory-gestures ;
     skos:prefLabel "Garbage collecting"@en,
         "Ramassage des ordures"@fr,
         "Raccogliere immondizia"@it,
         "Vuilnis ophalen"@nl ;
-    skos:related olf:77 ;
+    skos:related ol:77 ;
     skos:topConceptOf voc:olfactory-gestures .
 
-olfactory-gestures:3 a skos:Concept ;
+olf:3 a skos:Concept ;
     skos:altLabel "Tapparsi il naso"@it,
         "Turare il naso"@it,
         "Turarsi il naso"@it ;
@@ -248,15 +248,15 @@ olfactory-gestures:3 a skos:Concept ;
         "De neus dichthouden"@nl ;
     skos:topConceptOf voc:olfactory-gestures .
 
-olfactory-gestures:30 a skos:Concept ;
+olf:30 a skos:Concept ;
     skos:inScheme voc:olfactory-gestures ;
     skos:prefLabel "Harvesting civet from civet cat"@en,
         "Récolte de la civette du chat civette"@fr,
         "Raccogliere lo zibetto"@it ;
-    skos:related olf:44 ;
+    skos:related ol:44 ;
     skos:topConceptOf voc:olfactory-gestures .
 
-olfactory-gestures:4 a skos:Concept ;
+olf:4 a skos:Concept ;
     skos:altLabel "Flato"@it,
         "Loffa"@it,
         "Peto"@it,
@@ -272,7 +272,7 @@ olfactory-gestures:4 a skos:Concept ;
         "Flatulentie"@nl ;
     skos:topConceptOf voc:olfactory-gestures .
 
-olfactory-gestures:7 a skos:Concept ;
+olf:7 a skos:Concept ;
     skos:closeMatch iconclass:41D422 ;
     skos:inScheme voc:olfactory-gestures ;
     skos:prefLabel "Bleaching"@en,
@@ -280,17 +280,17 @@ olfactory-gestures:7 a skos:Concept ;
         "Bleken"@nl ;
     skos:topConceptOf voc:olfactory-gestures .
 
-olfactory-gestures:1 a skos:Concept ;
+olf:1 a skos:Concept ;
     skos:altLabel "Sniffing"@en ;
     skos:closeMatch iconclass:31A22111 ;
     skos:inScheme voc:olfactory-gestures ;
-    skos:narrower olfactory-gestures:22 ;
+    skos:narrower olf:22 ;
     skos:prefLabel "Smelling"@en,
         "Sentir"@fr,
         "Naso"@it ;
     skos:topConceptOf voc:olfactory-gestures .
 
-olfactory-gestures:11 a skos:Concept ;
+olf:11 a skos:Concept ;
     skos:altLabel "Zeiken"@nl,
         "plassen"@nl ;
     skos:closeMatch iconclass:31A61 ;
@@ -299,10 +299,10 @@ olfactory-gestures:11 a skos:Concept ;
         "Urination"@fr,
         "Urinare"@it,
         "Urineren"@nl ;
-    skos:related olf:366 ;
+    skos:related ol:366 ;
     skos:topConceptOf voc:olfactory-gestures .
 
-olfactory-gestures:12 a skos:Concept ;
+olf:12 a skos:Concept ;
     skos:altLabel "Piskijker"@nl ;
     skos:closeMatch iconclass:49G311 ;
     skos:inScheme voc:olfactory-gestures ;
@@ -310,20 +310,20 @@ olfactory-gestures:12 a skos:Concept ;
         "Examen de l'urine"@fr,
         "Esame delle urine"@it,
         "Piskijken"@nl ;
-    skos:related olf:366 ;
+    skos:related ol:366 ;
     skos:topConceptOf voc:olfactory-gestures .
 
-olfactory-gestures:15 a skos:Concept ;
+olf:15 a skos:Concept ;
     skos:closeMatch iconclass:41C11 ;
     skos:inScheme voc:olfactory-gestures ;
     skos:prefLabel "Eating"@en,
         "Manger"@fr,
         "Mangiare"@it,
         "Eten"@nl ;
-    skos:related olf:405 ;
+    skos:related ol:405 ;
     skos:topConceptOf voc:olfactory-gestures .
 
-olfactory-gestures:16 a skos:Concept ;
+olf:16 a skos:Concept ;
     skos:altLabel "Food trying"@en ;
     skos:closeMatch iconclass:41C112 ;
     skos:inScheme voc:olfactory-gestures ;
@@ -331,19 +331,19 @@ olfactory-gestures:16 a skos:Concept ;
         "Dégustation"@fr,
         "Assaggiare"@it,
         "Proeven (bijv. door een kok)"@nl ;
-    skos:related olf:405 ;
+    skos:related ol:405 ;
     skos:topConceptOf voc:olfactory-gestures .
 
-olfactory-gestures:21 a skos:Concept ;
-    skos:broader olfactory-gestures:23 ;
+olf:21 a skos:Concept ;
+    skos:broader olf:23 ;
     skos:inScheme voc:olfactory-gestures ;
     skos:prefLabel "Censing"@en,
         "Encenser"@fr,
         "Incensare"@it ;
-    skos:related olf:269 ;
+    skos:related ol:269 ;
     skos:topConceptOf voc:olfactory-gestures .
 
-olfactory-gestures:28 a skos:Concept ;
+olf:28 a skos:Concept ;
     skos:altLabel "Using ointments"@en,
         "Using perfumes"@en ;
     skos:closeMatch iconclass:31A513 ;
@@ -351,10 +351,10 @@ olfactory-gestures:28 a skos:Concept ;
     skos:prefLabel "Using scents"@en,
         "Utilisation des odeurs"@fr,
         "Profumarsi"@it ;
-    skos:related olf:65 ;
+    skos:related ol:65 ;
     skos:topConceptOf voc:olfactory-gestures .
 
-olfactory-gestures:6 a skos:Concept ;
+olf:6 a skos:Concept ;
     skos:altLabel "Dare di stomaco"@it,
         "Rigettare"@it,
         "Rigurgitare"@it,
@@ -368,10 +368,10 @@ olfactory-gestures:6 a skos:Concept ;
         "Vomir"@fr,
         "Vomitare"@it,
         "Overgeven"@nl ;
-    skos:related olf:166 ;
+    skos:related ol:166 ;
     skos:topConceptOf voc:olfactory-gestures .
 
-olfactory-gestures:8 a skos:Concept ;
+olf:8 a skos:Concept ;
     skos:altLabel "Defecating"@en,
         "Cacare"@it,
         "Poepen"@nl,
@@ -383,48 +383,48 @@ olfactory-gestures:8 a skos:Concept ;
         "Défécation"@fr,
         "Defecare"@it,
         "Ontslasten"@nl ;
-    skos:related olf:145 ;
+    skos:related ol:145 ;
     skos:topConceptOf voc:olfactory-gestures .
 
 voc:olfactory-gestures a skos:ConceptScheme ;
     rdfs:label "Olfactory gestures" ;
     dct:created "2021-06-01"^^xsd:date ;
-    dct:modified "2022-10-12"^^xsd:date ;
-    pav:createdOn "2022-10-12"^^xsd:date ;
+    dct:modified "2022-10-17"^^xsd:date ;
+    pav:createdOn "2022-10-17"^^xsd:date ;
     pav:version "0.1" ;
-    skos:hasTopConcept olfactory-gestures:1,
-        olfactory-gestures:10,
-        olfactory-gestures:11,
-        olfactory-gestures:12,
-        olfactory-gestures:13,
-        olfactory-gestures:14,
-        olfactory-gestures:15,
-        olfactory-gestures:16,
-        olfactory-gestures:17,
-        olfactory-gestures:18,
-        olfactory-gestures:19,
-        olfactory-gestures:2,
-        olfactory-gestures:20,
-        olfactory-gestures:21,
-        olfactory-gestures:22,
-        olfactory-gestures:23,
-        olfactory-gestures:24,
-        olfactory-gestures:25,
-        olfactory-gestures:26,
-        olfactory-gestures:27,
-        olfactory-gestures:28,
-        olfactory-gestures:29,
-        olfactory-gestures:3,
-        olfactory-gestures:30,
-        olfactory-gestures:31,
-        olfactory-gestures:32,
-        olfactory-gestures:33,
-        olfactory-gestures:34,
-        olfactory-gestures:35,
-        olfactory-gestures:4,
-        olfactory-gestures:5,
-        olfactory-gestures:6,
-        olfactory-gestures:7,
-        olfactory-gestures:8,
-        olfactory-gestures:9 .
+    skos:hasTopConcept olf:1,
+        olf:10,
+        olf:11,
+        olf:12,
+        olf:13,
+        olf:14,
+        olf:15,
+        olf:16,
+        olf:17,
+        olf:18,
+        olf:19,
+        olf:2,
+        olf:20,
+        olf:21,
+        olf:22,
+        olf:23,
+        olf:24,
+        olf:25,
+        olf:26,
+        olf:27,
+        olf:28,
+        olf:29,
+        olf:3,
+        olf:30,
+        olf:31,
+        olf:32,
+        olf:33,
+        olf:34,
+        olf:35,
+        olf:4,
+        olf:5,
+        olf:6,
+        olf:7,
+        olf:8,
+        olf:9 .
 

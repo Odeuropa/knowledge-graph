@@ -5,7 +5,6 @@
 @prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 @prefix reo: <https://read-it.acc.hum.uu.nl/ontology#> .
-@prefix schema: <https://schema.org/> .
 @prefix time: <http://www.w3.org/2006/time#> .
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 
@@ -1698,7 +1697,7 @@
 <http://data.odeuropa.eu/experience/1a9e96b3-a218-58fb-91ff-106ab1ce3b0f/assignment/1> a crm:E13_Attribute_Assignment ;
     crm:P140_assigned_attribute_to <http://data.odeuropa.eu/smell/b2c16839-806c-59ce-b920-f601bfebc197> ;
     crm:P141_assigned <http://data.odeuropa.eu/attribute/_en> ;
-    crm:P14_carried_out_by <http://data.odeuropa.eu/actor/aa12fab2-f485-575d-94cd-9cd9162d8cab> ;
+    crm:P14_carried_out_by <http://data.odeuropa.eu/actor/dc9d3e0d-01f6-5ff4-aee6-6bb24d182aa0> ;
     crm:P17_was_motivated_by <http://data.odeuropa.eu/experience/1a9e96b3-a218-58fb-91ff-106ab1ce3b0f> .
 
 <http://data.odeuropa.eu/experience/1ad43aa1-c93d-5c4b-9408-49dec0a77a71/assignment/1> a crm:E13_Attribute_Assignment ;
@@ -2365,7 +2364,7 @@
 <http://data.odeuropa.eu/experience/38e1b8d1-a789-531a-ba53-fe398793e0de/assignment/1> a crm:E13_Attribute_Assignment ;
     crm:P140_assigned_attribute_to <http://data.odeuropa.eu/smell/a629d5b2-de4e-5ad5-aead-2403296d6a28> ;
     crm:P141_assigned <http://data.odeuropa.eu/attribute/_en> ;
-    crm:P14_carried_out_by <http://data.odeuropa.eu/actor/205091d7-3572-5a41-80df-c8e761e43f63> ;
+    crm:P14_carried_out_by <http://data.odeuropa.eu/actor/f27b1ea2-24c9-5af6-852b-2e77b3be582f> ;
     crm:P17_was_motivated_by <http://data.odeuropa.eu/experience/38e1b8d1-a789-531a-ba53-fe398793e0de> .
 
 <http://data.odeuropa.eu/experience/399ad94f-7026-54ff-88a3-2cdd0a8e65ff/assignment/1> a crm:E13_Attribute_Assignment ;
@@ -2486,7 +2485,7 @@
 <http://data.odeuropa.eu/experience/4243e27d-57f4-5073-959c-3446d303de7f/assignment/1> a crm:E13_Attribute_Assignment ;
     crm:P140_assigned_attribute_to <http://data.odeuropa.eu/smell/33232bde-ccf8-563f-8f8e-95cff1c3efa5> ;
     crm:P141_assigned <http://data.odeuropa.eu/attribute/_en> ;
-    crm:P14_carried_out_by <http://data.odeuropa.eu/actor/a8bccd21-76ed-567e-aeec-a0a6569e941a> ;
+    crm:P14_carried_out_by <http://data.odeuropa.eu/actor/740b30dd-0827-51a2-bb06-9effb6d164b1> ;
     crm:P17_was_motivated_by <http://data.odeuropa.eu/experience/4243e27d-57f4-5073-959c-3446d303de7f> .
 
 <http://data.odeuropa.eu/experience/42a386a8-d0fe-5daa-a794-7b19aa808ea3/assignment/1> a crm:E13_Attribute_Assignment ;
@@ -2929,7 +2928,7 @@
 <http://data.odeuropa.eu/experience/562046a3-852c-5ac6-9dd8-aad455333329/assignment/1> a crm:E13_Attribute_Assignment ;
     crm:P140_assigned_attribute_to <http://data.odeuropa.eu/smell/d5ac0c20-7d66-5767-a0a2-2c8fae93b3bf> ;
     crm:P141_assigned <http://data.odeuropa.eu/attribute/_en> ;
-    crm:P14_carried_out_by <http://data.odeuropa.eu/actor/cc72a975-1cda-52dc-9943-270319337748> ;
+    crm:P14_carried_out_by <http://data.odeuropa.eu/actor/4ddb2efb-c600-5249-8c75-421fdd0e9c10> ;
     crm:P17_was_motivated_by <http://data.odeuropa.eu/experience/562046a3-852c-5ac6-9dd8-aad455333329> .
 
 <http://data.odeuropa.eu/experience/56a2b46b-d1a4-5889-82a1-78179b755ee2/assignment/1> a crm:E13_Attribute_Assignment ;
@@ -3218,7 +3217,7 @@
     rdfs:label "injurious to health"@en ;
     crm:P140_assigned_attribute_to <http://data.odeuropa.eu/smell/31c3d082-3eb1-5664-8819-d7e7b62c3bd0> ;
     crm:P141_assigned <http://data.odeuropa.eu/attribute/injurious%20to%20health_en> ;
-    crm:P14_carried_out_by <http://data.odeuropa.eu/actor/85f085e7-15a2-51bf-bece-6234d520f279> ;
+    crm:P14_carried_out_by <http://data.odeuropa.eu/actor/7c801006-3a13-52ae-a1d0-78aa460ef671> ;
     crm:P17_was_motivated_by <http://data.odeuropa.eu/experience/6576e76c-45f0-51bf-b23f-b091c0ca8898> .
 
 <http://data.odeuropa.eu/experience/659e9e18-f53c-569b-b72a-c79c9aca27b7/assignment/1> a crm:E13_Attribute_Assignment ;
@@ -5120,7 +5119,7 @@
     rdfs:label "sickening"@en ;
     crm:P140_assigned_attribute_to <http://data.odeuropa.eu/smell/be6e7480-50f4-5c94-a400-f55f661d9786> ;
     crm:P141_assigned <http://data.odeuropa.eu/attribute/sickening_en> ;
-    crm:P14_carried_out_by <http://data.odeuropa.eu/actor/6cb55cf3-73c3-58f0-b4b5-c9a2b2cd0234> ;
+    crm:P14_carried_out_by <http://data.odeuropa.eu/actor/7ff74e30-7946-5c8b-844e-c17558de14ed> ;
     crm:P17_was_motivated_by <http://data.odeuropa.eu/experience/c0d51401-8279-5c20-a40f-76d30480074d> .
 
 <http://data.odeuropa.eu/experience/c10ed086-8f2f-5588-9ae3-c85f4b605cf7/assignment/1> a crm:E13_Attribute_Assignment ;
@@ -5715,7 +5714,7 @@
 <http://data.odeuropa.eu/experience/dcb84c09-dd08-5459-9e8c-07373cbb833e/assignment/1> a crm:E13_Attribute_Assignment ;
     crm:P140_assigned_attribute_to <http://data.odeuropa.eu/smell/26692846-ef77-550b-a8e8-d1a4410cb70a> ;
     crm:P141_assigned <http://data.odeuropa.eu/attribute/_en> ;
-    crm:P14_carried_out_by <http://data.odeuropa.eu/actor/319aa7a0-8e46-5433-be50-2aece62b4e4b> ;
+    crm:P14_carried_out_by <http://data.odeuropa.eu/actor/d95d1f93-6ef5-515c-88d9-f8b99090c1bc> ;
     crm:P17_was_motivated_by <http://data.odeuropa.eu/experience/dcb84c09-dd08-5459-9e8c-07373cbb833e> .
 
 <http://data.odeuropa.eu/experience/dd8d4377-10ab-5a95-bcb9-28f46dfe6f30/assignment/1> a crm:E13_Attribute_Assignment ;
@@ -19740,61 +19739,39 @@
 << <http://data.odeuropa.eu/source/ff9bc10f-19a4-5304-a9d5-6dcb903bc65a> crm:P67_refers_to <http://data.odeuropa.eu/smell/6f022f5d-8f3d-5e3d-a8dc-80bc56f33970> >> prov:wasGeneratedBy <http://data.odeuropa.eu/provenance/b4b2f525-459f-5a05-a22f-62f486848e97> .
 
 <http://data.odeuropa.eu/actor/0562af43-46bc-5ea9-ae7c-fba90c3b25fb> a crm:E39_Actor ;
-    rdfs:label "in sensitive individuals" ;
-    schema:birthDate <http://data.odeuropa.eu/time/d253d9a2-3190-572a-aa64-636a762ccb71> ;
-    schema:deathDate <http://data.odeuropa.eu/time/d253d9a2-3190-572a-aa64-636a762ccb71> .
+    rdfs:label "in sensitive individuals" .
 
 <http://data.odeuropa.eu/actor/12632d86-6088-5ad0-8640-c4468c8a49d5> a crm:E39_Actor ;
-    rdfs:label "the Sanitary Committee of the Woolwich garrison" ;
-    schema:birthDate <http://data.odeuropa.eu/time/d253d9a2-3190-572a-aa64-636a762ccb71> ;
-    schema:deathDate <http://data.odeuropa.eu/time/d253d9a2-3190-572a-aa64-636a762ccb71> .
+    rdfs:label "the Sanitary Committee of the Woolwich garrison" .
 
-<http://data.odeuropa.eu/actor/4ddb2efb-c600-5249-8c75-421fdd0e9c10> a crm:E39_Actor ;
-    rdfs:label "Flush's senses" ;
-    schema:birthDate <http://data.odeuropa.eu/time/d253d9a2-3190-572a-aa64-636a762ccb71> ;
-    schema:deathDate <http://data.odeuropa.eu/time/d253d9a2-3190-572a-aa64-636a762ccb71> .
+<http://data.odeuropa.eu/actor/319aa7a0-8e46-5433-be50-2aece62b4e4b> a crm:E39_Actor ;
+    rdfs:label "by owners of property in that district" .
 
 <http://data.odeuropa.eu/actor/5cdfe530-dc24-57dd-8f73-8373d29f580a> a crm:E39_Actor ;
-    rdfs:label "several of my friends" ;
-    schema:birthDate <http://data.odeuropa.eu/time/d253d9a2-3190-572a-aa64-636a762ccb71> ;
-    schema:deathDate <http://data.odeuropa.eu/time/d253d9a2-3190-572a-aa64-636a762ccb71> .
+    rdfs:label "several of my friends" .
 
-<http://data.odeuropa.eu/actor/7c801006-3a13-52ae-a1d0-78aa460ef671> a crm:E39_Actor ;
-    rdfs:label "Finch" ;
-    schema:birthDate <http://data.odeuropa.eu/time/d253d9a2-3190-572a-aa64-636a762ccb71> ;
-    schema:deathDate <http://data.odeuropa.eu/time/d253d9a2-3190-572a-aa64-636a762ccb71> .
-
-<http://data.odeuropa.eu/actor/7ff74e30-7946-5c8b-844e-c17558de14ed> a crm:E39_Actor ;
-    rdfs:label "delicate persons" ;
-    schema:birthDate <http://data.odeuropa.eu/time/d253d9a2-3190-572a-aa64-636a762ccb71> ;
-    schema:deathDate <http://data.odeuropa.eu/time/d253d9a2-3190-572a-aa64-636a762ccb71> .
+<http://data.odeuropa.eu/actor/6cb55cf3-73c3-58f0-b4b5-c9a2b2cd0234> a crm:E39_Actor ;
+    rdfs:label "some healthy persons" .
 
 <http://data.odeuropa.eu/actor/83fa692d-42d3-531c-8d1d-d863084ac465> a crm:E21_Person .
 
+<http://data.odeuropa.eu/actor/85f085e7-15a2-51bf-bece-6234d520f279> a crm:E39_Actor ;
+    rdfs:label "Dr , Wise" .
+
+<http://data.odeuropa.eu/actor/a8bccd21-76ed-567e-aeec-a0a6569e941a> a crm:E39_Actor ;
+    rdfs:label "The thing" .
+
 <http://data.odeuropa.eu/actor/abbd6d4b-4634-5c5a-a181-74494f845747> a crm:E39_Actor ;
-    rdfs:label "The scornful nostril" ;
-    schema:birthDate <http://data.odeuropa.eu/time/d253d9a2-3190-572a-aa64-636a762ccb71> ;
-    schema:deathDate <http://data.odeuropa.eu/time/d253d9a2-3190-572a-aa64-636a762ccb71> .
+    rdfs:label "The scornful nostril" .
 
 <http://data.odeuropa.eu/actor/adfa5916-0af6-5360-9de6-4c0637e6ffd8> a crm:E39_Actor ;
-    rdfs:label "Such persons" ;
-    schema:birthDate <http://data.odeuropa.eu/time/d253d9a2-3190-572a-aa64-636a762ccb71> ;
-    schema:deathDate <http://data.odeuropa.eu/time/d253d9a2-3190-572a-aa64-636a762ccb71> .
+    rdfs:label "Such persons" .
 
-<http://data.odeuropa.eu/actor/d95d1f93-6ef5-515c-88d9-f8b99090c1bc> a crm:E39_Actor ;
-    rdfs:label "by inhabitants of the part of Rotherhithe" ;
-    schema:birthDate <http://data.odeuropa.eu/time/d253d9a2-3190-572a-aa64-636a762ccb71> ;
-    schema:deathDate <http://data.odeuropa.eu/time/d253d9a2-3190-572a-aa64-636a762ccb71> .
-
-<http://data.odeuropa.eu/actor/dc9d3e0d-01f6-5ff4-aee6-6bb24d182aa0> a crm:E39_Actor ;
-    rdfs:label "many of my friends" ;
-    schema:birthDate <http://data.odeuropa.eu/time/d253d9a2-3190-572a-aa64-636a762ccb71> ;
-    schema:deathDate <http://data.odeuropa.eu/time/d253d9a2-3190-572a-aa64-636a762ccb71> .
+<http://data.odeuropa.eu/actor/cc72a975-1cda-52dc-9943-270319337748> a crm:E39_Actor ;
+    rdfs:label "his" .
 
 <http://data.odeuropa.eu/actor/f5679775-dd87-517f-ac72-d8006a479882> a crm:E39_Actor ;
-    rdfs:label "the adjoining parishes" ;
-    schema:birthDate <http://data.odeuropa.eu/time/d253d9a2-3190-572a-aa64-636a762ccb71> ;
-    schema:deathDate <http://data.odeuropa.eu/time/d253d9a2-3190-572a-aa64-636a762ccb71> .
+    rdfs:label "the adjoining parishes" .
 
 <http://data.odeuropa.eu/attribute/Acid_en> a crm:E90_Symbolic_Object ;
     rdfs:label "Acid"@en .
@@ -28202,500 +28179,302 @@
     rdf:value "The young are taken for the sake of their shells; these are made into boxes, which, filled with sweet-smelling roots, the women hang around their persons."@en .
 
 <http://data.odeuropa.eu/actor/0596e426-96d3-510c-9822-ef29012085c6> a crm:E39_Actor ;
-    rdfs:label "Gordon , the principal medical officer of the Woolwich garrison" ;
-    schema:birthDate <http://data.odeuropa.eu/time/d253d9a2-3190-572a-aa64-636a762ccb71> ;
-    schema:deathDate <http://data.odeuropa.eu/time/d253d9a2-3190-572a-aa64-636a762ccb71> .
+    rdfs:label "Gordon , the principal medical officer of the Woolwich garrison" .
 
 <http://data.odeuropa.eu/actor/06f658b0-9bdb-56eb-9eac-d8ba8606a228> a crm:E39_Actor ;
-    rdfs:label "All writers" ;
-    schema:birthDate <http://data.odeuropa.eu/time/d253d9a2-3190-572a-aa64-636a762ccb71> ;
-    schema:deathDate <http://data.odeuropa.eu/time/d253d9a2-3190-572a-aa64-636a762ccb71> .
+    rdfs:label "All writers" .
 
 <http://data.odeuropa.eu/actor/08527cd0-e25c-5fd7-a606-2ba68bcdc0b3> a crm:E39_Actor ;
-    rdfs:label "The family of Mr . Latreille" ;
-    schema:birthDate <http://data.odeuropa.eu/time/d253d9a2-3190-572a-aa64-636a762ccb71> ;
-    schema:deathDate <http://data.odeuropa.eu/time/d253d9a2-3190-572a-aa64-636a762ccb71> .
+    rdfs:label "The family of Mr . Latreille" .
 
 <http://data.odeuropa.eu/actor/088bbeb3-23ef-563c-9b44-0798572f7b9c> a crm:E39_Actor ;
-    rdfs:label "by the inmates" ;
-    schema:birthDate <http://data.odeuropa.eu/time/d253d9a2-3190-572a-aa64-636a762ccb71> ;
-    schema:deathDate <http://data.odeuropa.eu/time/d253d9a2-3190-572a-aa64-636a762ccb71> .
+    rdfs:label "by the inmates" .
 
 <http://data.odeuropa.eu/actor/0cd93453-e4f9-55a0-9b0f-fe0eacb35208> a crm:E39_Actor ;
-    rdfs:label "the organ of" ;
-    schema:birthDate <http://data.odeuropa.eu/time/d253d9a2-3190-572a-aa64-636a762ccb71> ;
-    schema:deathDate <http://data.odeuropa.eu/time/d253d9a2-3190-572a-aa64-636a762ccb71> .
+    rdfs:label "the organ of" .
 
 <http://data.odeuropa.eu/actor/0ebb0061-e07a-5ccb-9e7c-8ff6214553f6> a crm:E39_Actor ;
-    rdfs:label "the vulgar" ;
-    schema:birthDate <http://data.odeuropa.eu/time/d253d9a2-3190-572a-aa64-636a762ccb71> ;
-    schema:deathDate <http://data.odeuropa.eu/time/d253d9a2-3190-572a-aa64-636a762ccb71> .
+    rdfs:label "the vulgar" .
 
 <http://data.odeuropa.eu/actor/1a2a7421-35dc-5137-b890-2f053a598cb7> a crm:E39_Actor ;
-    rdfs:label "whose nostrils" ;
-    schema:birthDate <http://data.odeuropa.eu/time/d253d9a2-3190-572a-aa64-636a762ccb71> ;
-    schema:deathDate <http://data.odeuropa.eu/time/d253d9a2-3190-572a-aa64-636a762ccb71> .
+    rdfs:label "whose nostrils" .
 
 <http://data.odeuropa.eu/actor/1ff316ff-e60d-5dbb-a833-c5f92c5bd5e7> a crm:E39_Actor ;
-    rdfs:label "his setter" ;
-    schema:birthDate <http://data.odeuropa.eu/time/d253d9a2-3190-572a-aa64-636a762ccb71> ;
-    schema:deathDate <http://data.odeuropa.eu/time/d253d9a2-3190-572a-aa64-636a762ccb71> .
+    rdfs:label "his setter" .
 
 <http://data.odeuropa.eu/actor/2359f747-2a83-512a-8484-76893e94f2a7> a crm:E39_Actor ;
-    rdfs:label "all" ;
-    schema:birthDate <http://data.odeuropa.eu/time/d253d9a2-3190-572a-aa64-636a762ccb71> ;
-    schema:deathDate <http://data.odeuropa.eu/time/d253d9a2-3190-572a-aa64-636a762ccb71> .
+    rdfs:label "all" .
 
 <http://data.odeuropa.eu/actor/2616bd33-0d05-5249-bfae-904ec90a4982> a crm:E39_Actor ;
-    rdfs:label "His family" ;
-    schema:birthDate <http://data.odeuropa.eu/time/d253d9a2-3190-572a-aa64-636a762ccb71> ;
-    schema:deathDate <http://data.odeuropa.eu/time/d253d9a2-3190-572a-aa64-636a762ccb71> .
+    rdfs:label "His family" .
 
 <http://data.odeuropa.eu/actor/2a35f9c1-f5aa-5e5e-92c6-fbca85326dea> a crm:E39_Actor ;
-    rdfs:label "the Inspectors of Nusiances" ;
-    schema:birthDate <http://data.odeuropa.eu/time/d253d9a2-3190-572a-aa64-636a762ccb71> ;
-    schema:deathDate <http://data.odeuropa.eu/time/d253d9a2-3190-572a-aa64-636a762ccb71> .
+    rdfs:label "the Inspectors of Nusiances" .
 
 <http://data.odeuropa.eu/actor/2abd112a-3481-5b7f-86e6-800aeb7d1a7f> a crm:E39_Actor ;
-    rdfs:label "the neighbours and passengers" ;
-    schema:birthDate <http://data.odeuropa.eu/time/d253d9a2-3190-572a-aa64-636a762ccb71> ;
-    schema:deathDate <http://data.odeuropa.eu/time/d253d9a2-3190-572a-aa64-636a762ccb71> .
+    rdfs:label "the neighbours and passengers" .
 
 <http://data.odeuropa.eu/actor/2e791f09-e7b8-5d77-a5e1-8ce9d386180e> a crm:E39_Actor ;
-    rdfs:label "the organ" ;
-    schema:birthDate <http://data.odeuropa.eu/time/d253d9a2-3190-572a-aa64-636a762ccb71> ;
-    schema:deathDate <http://data.odeuropa.eu/time/d253d9a2-3190-572a-aa64-636a762ccb71> .
-
-<http://data.odeuropa.eu/actor/319aa7a0-8e46-5433-be50-2aece62b4e4b> a crm:E39_Actor ;
-    rdfs:label "by owners of property in that district" ;
-    schema:birthDate <http://data.odeuropa.eu/time/d253d9a2-3190-572a-aa64-636a762ccb71> ;
-    schema:deathDate <http://data.odeuropa.eu/time/d253d9a2-3190-572a-aa64-636a762ccb71> .
+    rdfs:label "the organ" .
 
 <http://data.odeuropa.eu/actor/329ee9a8-52ff-5c1a-8af1-6fe69a2e9999> a crm:E39_Actor ;
-    rdfs:label "her" ;
-    schema:birthDate <http://data.odeuropa.eu/time/d253d9a2-3190-572a-aa64-636a762ccb71> ;
-    schema:deathDate <http://data.odeuropa.eu/time/d253d9a2-3190-572a-aa64-636a762ccb71> .
+    rdfs:label "her" .
 
 <http://data.odeuropa.eu/actor/35e641f5-f588-5edd-8f0c-92e691189fde> a crm:E39_Actor ;
-    rdfs:label "Louis" ;
-    schema:birthDate <http://data.odeuropa.eu/time/d253d9a2-3190-572a-aa64-636a762ccb71> ;
-    schema:deathDate <http://data.odeuropa.eu/time/d253d9a2-3190-572a-aa64-636a762ccb71> .
+    rdfs:label "Louis" .
 
 <http://data.odeuropa.eu/actor/37ad515d-98b0-58a1-bd0c-affda8f2261c> a crm:E39_Actor ;
-    rdfs:label "To all classes in their out-door recreations" ;
-    schema:birthDate <http://data.odeuropa.eu/time/d253d9a2-3190-572a-aa64-636a762ccb71> ;
-    schema:deathDate <http://data.odeuropa.eu/time/d253d9a2-3190-572a-aa64-636a762ccb71> .
+    rdfs:label "To all classes in their out-door recreations" .
 
 <http://data.odeuropa.eu/actor/37dee984-ca38-539a-ad6a-56365ebfe029> a crm:E39_Actor ;
-    rdfs:label "Persons however in advanced life" ;
-    schema:birthDate <http://data.odeuropa.eu/time/d253d9a2-3190-572a-aa64-636a762ccb71> ;
-    schema:deathDate <http://data.odeuropa.eu/time/d253d9a2-3190-572a-aa64-636a762ccb71> .
+    rdfs:label "Persons however in advanced life" .
 
 <http://data.odeuropa.eu/actor/384658fc-c959-503e-a56d-88841ad604c2> a crm:E39_Actor ;
-    rdfs:label "the Lord" ;
-    schema:birthDate <http://data.odeuropa.eu/time/d253d9a2-3190-572a-aa64-636a762ccb71> ;
-    schema:deathDate <http://data.odeuropa.eu/time/d253d9a2-3190-572a-aa64-636a762ccb71> .
+    rdfs:label "the Lord" .
 
 <http://data.odeuropa.eu/actor/397374ae-fd6e-5293-8ddb-568df2bd5cb3> a crm:E39_Actor ;
-    rdfs:label "the Friar" ;
-    schema:birthDate <http://data.odeuropa.eu/time/d253d9a2-3190-572a-aa64-636a762ccb71> ;
-    schema:deathDate <http://data.odeuropa.eu/time/d253d9a2-3190-572a-aa64-636a762ccb71> .
+    rdfs:label "the Friar" .
 
 <http://data.odeuropa.eu/actor/3b700aa2-d858-5e4d-a9c6-d1f059dcb743> a crm:E39_Actor ;
-    rdfs:label "the inhabitants" ;
-    schema:birthDate <http://data.odeuropa.eu/time/d253d9a2-3190-572a-aa64-636a762ccb71> ;
-    schema:deathDate <http://data.odeuropa.eu/time/d253d9a2-3190-572a-aa64-636a762ccb71> .
+    rdfs:label "the inhabitants" .
 
 <http://data.odeuropa.eu/actor/3d3f1b70-404d-58d6-a270-274490d9ebc3> a crm:E39_Actor ;
-    rdfs:label "me" ;
-    schema:birthDate <http://data.odeuropa.eu/time/d253d9a2-3190-572a-aa64-636a762ccb71> ;
-    schema:deathDate <http://data.odeuropa.eu/time/d253d9a2-3190-572a-aa64-636a762ccb71> .
+    rdfs:label "me" .
 
 <http://data.odeuropa.eu/actor/3ecc3a05-80d5-580e-bd1e-a13a20d9a7e5> a crm:E39_Actor ;
-    rdfs:label "by the nostrills" ;
-    schema:birthDate <http://data.odeuropa.eu/time/d253d9a2-3190-572a-aa64-636a762ccb71> ;
-    schema:deathDate <http://data.odeuropa.eu/time/d253d9a2-3190-572a-aa64-636a762ccb71> .
+    rdfs:label "by the nostrills" .
 
 <http://data.odeuropa.eu/actor/44de2cad-34fe-5163-94a5-9ab64c5a7237> a crm:E39_Actor ;
-    rdfs:label "the families resident in that quarter" ;
-    schema:birthDate <http://data.odeuropa.eu/time/d253d9a2-3190-572a-aa64-636a762ccb71> ;
-    schema:deathDate <http://data.odeuropa.eu/time/d253d9a2-3190-572a-aa64-636a762ccb71> .
+    rdfs:label "the families resident in that quarter" .
 
 <http://data.odeuropa.eu/actor/4786f30b-5317-5a60-af63-45dbbe8fa138> a crm:E39_Actor ;
-    rdfs:label "Robert Walker" ;
-    schema:birthDate <http://data.odeuropa.eu/time/d253d9a2-3190-572a-aa64-636a762ccb71> ;
-    schema:deathDate <http://data.odeuropa.eu/time/d253d9a2-3190-572a-aa64-636a762ccb71> .
+    rdfs:label "Robert Walker" .
 
 <http://data.odeuropa.eu/actor/49b2da8e-2612-5620-a362-c08e6d2a146e> a crm:E39_Actor ;
-    rdfs:label "the internal membrane of the nostrils" ;
-    schema:birthDate <http://data.odeuropa.eu/time/d253d9a2-3190-572a-aa64-636a762ccb71> ;
-    schema:deathDate <http://data.odeuropa.eu/time/d253d9a2-3190-572a-aa64-636a762ccb71> .
+    rdfs:label "the internal membrane of the nostrils" .
+
+<http://data.odeuropa.eu/actor/4ddb2efb-c600-5249-8c75-421fdd0e9c10> a crm:E39_Actor ;
+    rdfs:label "Flush's senses" .
 
 <http://data.odeuropa.eu/actor/52346228-83bd-5b90-b502-e23161b5c4b0> a crm:E39_Actor ;
-    rdfs:label "the Chinese poet" ;
-    schema:birthDate <http://data.odeuropa.eu/time/d253d9a2-3190-572a-aa64-636a762ccb71> ;
-    schema:deathDate <http://data.odeuropa.eu/time/d253d9a2-3190-572a-aa64-636a762ccb71> .
+    rdfs:label "the Chinese poet" .
 
 <http://data.odeuropa.eu/actor/552efc6d-46a1-5dbb-a35f-a444dc4b60b5> a crm:E39_Actor ;
-    rdfs:label "odours" ;
-    schema:birthDate <http://data.odeuropa.eu/time/d253d9a2-3190-572a-aa64-636a762ccb71> ;
-    schema:deathDate <http://data.odeuropa.eu/time/d253d9a2-3190-572a-aa64-636a762ccb71> .
+    rdfs:label "odours" .
 
 <http://data.odeuropa.eu/actor/56048c13-b98e-5da0-b122-e2dd9b7763b0> a crm:E39_Actor ;
-    rdfs:label "Buckram manufacturers" ;
-    schema:birthDate <http://data.odeuropa.eu/time/d253d9a2-3190-572a-aa64-636a762ccb71> ;
-    schema:deathDate <http://data.odeuropa.eu/time/d253d9a2-3190-572a-aa64-636a762ccb71> .
+    rdfs:label "Buckram manufacturers" .
 
 <http://data.odeuropa.eu/actor/5637e9d5-759e-596c-baa4-8a9b20510a81> a crm:E39_Actor ;
-    rdfs:label "in our nostrels" ;
-    schema:birthDate <http://data.odeuropa.eu/time/d253d9a2-3190-572a-aa64-636a762ccb71> ;
-    schema:deathDate <http://data.odeuropa.eu/time/d253d9a2-3190-572a-aa64-636a762ccb71> .
+    rdfs:label "in our nostrels" .
 
 <http://data.odeuropa.eu/actor/57d8595f-4f90-5eb0-b195-3ac5553c7089> a crm:E39_Actor ;
-    rdfs:label "The greatest poets in the world" ;
-    schema:birthDate <http://data.odeuropa.eu/time/d253d9a2-3190-572a-aa64-636a762ccb71> ;
-    schema:deathDate <http://data.odeuropa.eu/time/d253d9a2-3190-572a-aa64-636a762ccb71> .
+    rdfs:label "The greatest poets in the world" .
 
 <http://data.odeuropa.eu/actor/57dbe10d-f4fa-55c0-82e1-9ed9a4abce70> a crm:E39_Actor ;
-    rdfs:label "WILLIAM BENTHAM" ;
-    schema:birthDate <http://data.odeuropa.eu/time/d253d9a2-3190-572a-aa64-636a762ccb71> ;
-    schema:deathDate <http://data.odeuropa.eu/time/d253d9a2-3190-572a-aa64-636a762ccb71> .
+    rdfs:label "WILLIAM BENTHAM" .
 
 <http://data.odeuropa.eu/actor/585db4da-eaaf-56c4-8097-759d8b57c8f8> a crm:E39_Actor ;
-    rdfs:label "the spirituall" ;
-    schema:birthDate <http://data.odeuropa.eu/time/d253d9a2-3190-572a-aa64-636a762ccb71> ;
-    schema:deathDate <http://data.odeuropa.eu/time/d253d9a2-3190-572a-aa64-636a762ccb71> .
+    rdfs:label "the spirituall" .
 
 <http://data.odeuropa.eu/actor/58943de9-bb19-5d6e-bbe9-584248bf0942> a crm:E39_Actor ;
-    rdfs:label "the Organ of Smelling" ;
-    schema:birthDate <http://data.odeuropa.eu/time/d253d9a2-3190-572a-aa64-636a762ccb71> ;
-    schema:deathDate <http://data.odeuropa.eu/time/d253d9a2-3190-572a-aa64-636a762ccb71> .
+    rdfs:label "the Organ of Smelling" .
 
 <http://data.odeuropa.eu/actor/59e60240-e19d-5b4b-8b74-99d398c1ac15> a crm:E39_Actor ;
-    rdfs:label "neighbouring tenants" ;
-    schema:birthDate <http://data.odeuropa.eu/time/d253d9a2-3190-572a-aa64-636a762ccb71> ;
-    schema:deathDate <http://data.odeuropa.eu/time/d253d9a2-3190-572a-aa64-636a762ccb71> .
+    rdfs:label "neighbouring tenants" .
 
 <http://data.odeuropa.eu/actor/5f257a43-031c-5b14-8868-458f30591959> a crm:E39_Actor ;
-    rdfs:label "householders" ;
-    schema:birthDate <http://data.odeuropa.eu/time/d253d9a2-3190-572a-aa64-636a762ccb71> ;
-    schema:deathDate <http://data.odeuropa.eu/time/d253d9a2-3190-572a-aa64-636a762ccb71> .
+    rdfs:label "householders" .
 
 <http://data.odeuropa.eu/actor/6379d311-eb02-509f-b621-b0edf0f44933> a crm:E39_Actor ;
-    rdfs:label "Women of a tender , nice Constitution" ;
-    schema:birthDate <http://data.odeuropa.eu/time/d253d9a2-3190-572a-aa64-636a762ccb71> ;
-    schema:deathDate <http://data.odeuropa.eu/time/d253d9a2-3190-572a-aa64-636a762ccb71> .
+    rdfs:label "Women of a tender , nice Constitution" .
 
 <http://data.odeuropa.eu/actor/666745e8-fe42-5eaf-80c0-3870d47c6f5b> a crm:E39_Actor ;
-    rdfs:label "Families" ;
-    schema:birthDate <http://data.odeuropa.eu/time/d253d9a2-3190-572a-aa64-636a762ccb71> ;
-    schema:deathDate <http://data.odeuropa.eu/time/d253d9a2-3190-572a-aa64-636a762ccb71> .
+    rdfs:label "Families" .
 
 <http://data.odeuropa.eu/actor/696c6c7e-82b6-5beb-a761-76d532e76c57> a crm:E39_Actor ;
-    rdfs:label "the wicked and vngodly sinner" ;
-    schema:birthDate <http://data.odeuropa.eu/time/d253d9a2-3190-572a-aa64-636a762ccb71> ;
-    schema:deathDate <http://data.odeuropa.eu/time/d253d9a2-3190-572a-aa64-636a762ccb71> .
-
-<http://data.odeuropa.eu/actor/6cb55cf3-73c3-58f0-b4b5-c9a2b2cd0234> a crm:E39_Actor ;
-    rdfs:label "some healthy persons" ;
-    schema:birthDate <http://data.odeuropa.eu/time/d253d9a2-3190-572a-aa64-636a762ccb71> ;
-    schema:deathDate <http://data.odeuropa.eu/time/d253d9a2-3190-572a-aa64-636a762ccb71> .
+    rdfs:label "the wicked and vngodly sinner" .
 
 <http://data.odeuropa.eu/actor/6d9e13d6-1710-583f-94bc-e792f3e6d2a6> a crm:E39_Actor ;
-    rdfs:label "STEWART , army agent" ;
-    schema:birthDate <http://data.odeuropa.eu/time/d253d9a2-3190-572a-aa64-636a762ccb71> ;
-    schema:deathDate <http://data.odeuropa.eu/time/d253d9a2-3190-572a-aa64-636a762ccb71> .
+    rdfs:label "STEWART , army agent" .
 
 <http://data.odeuropa.eu/actor/6e922ee5-b43e-599a-86e5-3874a4d9d0b4> a crm:E39_Actor ;
-    rdfs:label "the persons who have been exposed to these" ;
-    schema:birthDate <http://data.odeuropa.eu/time/d253d9a2-3190-572a-aa64-636a762ccb71> ;
-    schema:deathDate <http://data.odeuropa.eu/time/d253d9a2-3190-572a-aa64-636a762ccb71> .
+    rdfs:label "the persons who have been exposed to these" .
 
 <http://data.odeuropa.eu/actor/72a0535c-a108-5d68-b69f-6a77d2204bcf> a crm:E39_Actor ;
-    rdfs:label "people" ;
-    schema:birthDate <http://data.odeuropa.eu/time/d253d9a2-3190-572a-aa64-636a762ccb71> ;
-    schema:deathDate <http://data.odeuropa.eu/time/d253d9a2-3190-572a-aa64-636a762ccb71> .
+    rdfs:label "people" .
 
 <http://data.odeuropa.eu/actor/7334570d-50c5-5fb8-9619-0b49b892dfe8> a crm:E39_Actor ;
-    rdfs:label "Bees" ;
-    schema:birthDate <http://data.odeuropa.eu/time/d253d9a2-3190-572a-aa64-636a762ccb71> ;
-    schema:deathDate <http://data.odeuropa.eu/time/d253d9a2-3190-572a-aa64-636a762ccb71> .
+    rdfs:label "Bees" .
 
 <http://data.odeuropa.eu/actor/73e013a2-fe8e-5258-bc22-651c3a08de7f> a crm:E39_Actor ;
-    rdfs:label "the inhabitants of Rotlierhithe-street" ;
-    schema:birthDate <http://data.odeuropa.eu/time/d253d9a2-3190-572a-aa64-636a762ccb71> ;
-    schema:deathDate <http://data.odeuropa.eu/time/d253d9a2-3190-572a-aa64-636a762ccb71> .
+    rdfs:label "the inhabitants of Rotlierhithe-street" .
 
 <http://data.odeuropa.eu/actor/745319ce-6524-5afc-9cd7-2c564f0569cc> a crm:E39_Actor ;
-    rdfs:label "Grooms and Hostlers" ;
-    schema:birthDate <http://data.odeuropa.eu/time/d253d9a2-3190-572a-aa64-636a762ccb71> ;
-    schema:deathDate <http://data.odeuropa.eu/time/d253d9a2-3190-572a-aa64-636a762ccb71> .
+    rdfs:label "Grooms and Hostlers" .
 
 <http://data.odeuropa.eu/actor/765691c8-0a2e-53b6-bf15-81bfa7419c47> a crm:E39_Actor ;
-    rdfs:label "the subject" ;
-    schema:birthDate <http://data.odeuropa.eu/time/d253d9a2-3190-572a-aa64-636a762ccb71> ;
-    schema:deathDate <http://data.odeuropa.eu/time/d253d9a2-3190-572a-aa64-636a762ccb71> .
+    rdfs:label "the subject" .
 
 <http://data.odeuropa.eu/actor/7c5827a1-dcd1-5ee1-b9d6-2256a46313a1> a crm:E39_Actor ;
-    rdfs:label "Tallow-chandlers" ;
-    schema:birthDate <http://data.odeuropa.eu/time/d253d9a2-3190-572a-aa64-636a762ccb71> ;
-    schema:deathDate <http://data.odeuropa.eu/time/d253d9a2-3190-572a-aa64-636a762ccb71> .
+    rdfs:label "Tallow-chandlers" .
+
+<http://data.odeuropa.eu/actor/7c801006-3a13-52ae-a1d0-78aa460ef671> a crm:E39_Actor ;
+    rdfs:label "Finch" .
+
+<http://data.odeuropa.eu/actor/7ff74e30-7946-5c8b-844e-c17558de14ed> a crm:E39_Actor ;
+    rdfs:label "delicate persons" .
 
 <http://data.odeuropa.eu/actor/803bc6ab-fa5f-588d-ae5f-052b6417f143> a crm:E39_Actor ;
-    rdfs:label "my" ;
-    schema:birthDate <http://data.odeuropa.eu/time/d253d9a2-3190-572a-aa64-636a762ccb71> ;
-    schema:deathDate <http://data.odeuropa.eu/time/d253d9a2-3190-572a-aa64-636a762ccb71> .
+    rdfs:label "my" .
 
 <http://data.odeuropa.eu/actor/81737b15-2186-5792-a51f-bce74c378f33> a crm:E39_Actor ;
-    rdfs:label "Every rank of people" ;
-    schema:birthDate <http://data.odeuropa.eu/time/d253d9a2-3190-572a-aa64-636a762ccb71> ;
-    schema:deathDate <http://data.odeuropa.eu/time/d253d9a2-3190-572a-aa64-636a762ccb71> .
+    rdfs:label "Every rank of people" .
 
 <http://data.odeuropa.eu/actor/849ccd7f-bddf-57d2-b3b0-7824e9e2e461> a crm:E39_Actor ;
-    rdfs:label "the high head" ;
-    schema:birthDate <http://data.odeuropa.eu/time/d253d9a2-3190-572a-aa64-636a762ccb71> ;
-    schema:deathDate <http://data.odeuropa.eu/time/d253d9a2-3190-572a-aa64-636a762ccb71> .
+    rdfs:label "the high head" .
 
 <http://data.odeuropa.eu/actor/8551ce91-ec63-5ac0-8ddb-0b5bcdd81637> a crm:E39_Actor ;
-    rdfs:label "the nostrils" ;
-    schema:birthDate <http://data.odeuropa.eu/time/d253d9a2-3190-572a-aa64-636a762ccb71> ;
-    schema:deathDate <http://data.odeuropa.eu/time/d253d9a2-3190-572a-aa64-636a762ccb71> .
+    rdfs:label "the nostrils" .
 
 <http://data.odeuropa.eu/actor/85dd46fe-ce52-52ae-9836-3007819968fe> a crm:E39_Actor ;
-    rdfs:label "A citizen of Cologne" ;
-    schema:birthDate <http://data.odeuropa.eu/time/d253d9a2-3190-572a-aa64-636a762ccb71> ;
-    schema:deathDate <http://data.odeuropa.eu/time/d253d9a2-3190-572a-aa64-636a762ccb71> .
-
-<http://data.odeuropa.eu/actor/85f085e7-15a2-51bf-bece-6234d520f279> a crm:E39_Actor ;
-    rdfs:label "Dr , Wise" ;
-    schema:birthDate <http://data.odeuropa.eu/time/d253d9a2-3190-572a-aa64-636a762ccb71> ;
-    schema:deathDate <http://data.odeuropa.eu/time/d253d9a2-3190-572a-aa64-636a762ccb71> .
+    rdfs:label "A citizen of Cologne" .
 
 <http://data.odeuropa.eu/actor/8a709637-cc54-5109-a575-364a93be9ce0> a crm:E39_Actor ;
-    rdfs:label "by many of the gentlemen" ;
-    schema:birthDate <http://data.odeuropa.eu/time/d253d9a2-3190-572a-aa64-636a762ccb71> ;
-    schema:deathDate <http://data.odeuropa.eu/time/d253d9a2-3190-572a-aa64-636a762ccb71> .
+    rdfs:label "by many of the gentlemen" .
 
 <http://data.odeuropa.eu/actor/8b79c73e-361b-548f-a300-20be387f2d99> a crm:E39_Actor ;
-    rdfs:label "Kirby" ;
-    schema:birthDate <http://data.odeuropa.eu/time/d253d9a2-3190-572a-aa64-636a762ccb71> ;
-    schema:deathDate <http://data.odeuropa.eu/time/d253d9a2-3190-572a-aa64-636a762ccb71> .
+    rdfs:label "Kirby" .
 
 <http://data.odeuropa.eu/actor/8cb387cb-1e45-5fa1-8c18-2789d9d1cdb6> a crm:E39_Actor ;
-    rdfs:label "you'll" ;
-    schema:birthDate <http://data.odeuropa.eu/time/d253d9a2-3190-572a-aa64-636a762ccb71> ;
-    schema:deathDate <http://data.odeuropa.eu/time/d253d9a2-3190-572a-aa64-636a762ccb71> .
+    rdfs:label "you'll" .
 
 <http://data.odeuropa.eu/actor/8f5eb16c-de40-5bdb-af50-770f96d80fab> a crm:E39_Actor ;
-    rdfs:label "All the members of the family" ;
-    schema:birthDate <http://data.odeuropa.eu/time/d253d9a2-3190-572a-aa64-636a762ccb71> ;
-    schema:deathDate <http://data.odeuropa.eu/time/d253d9a2-3190-572a-aa64-636a762ccb71> .
+    rdfs:label "All the members of the family" .
 
 <http://data.odeuropa.eu/actor/91e6e373-4233-513a-8e41-79ecf10d3968> a crm:E39_Actor ;
-    rdfs:label "My" ;
-    schema:birthDate <http://data.odeuropa.eu/time/d253d9a2-3190-572a-aa64-636a762ccb71> ;
-    schema:deathDate <http://data.odeuropa.eu/time/d253d9a2-3190-572a-aa64-636a762ccb71> .
+    rdfs:label "My" .
 
 <http://data.odeuropa.eu/actor/941d4b70-6ab0-54cb-94ea-dc73295c18cc> a crm:E39_Actor ;
-    rdfs:label "Mr WILLIAM" ;
-    schema:birthDate <http://data.odeuropa.eu/time/d253d9a2-3190-572a-aa64-636a762ccb71> ;
-    schema:deathDate <http://data.odeuropa.eu/time/d253d9a2-3190-572a-aa64-636a762ccb71> .
+    rdfs:label "Mr WILLIAM" .
 
 <http://data.odeuropa.eu/actor/94a1b897-beee-56dc-b86f-1e5a4ece1550> a crm:E39_Actor ;
-    rdfs:label "The passengers" ;
-    schema:birthDate <http://data.odeuropa.eu/time/d253d9a2-3190-572a-aa64-636a762ccb71> ;
-    schema:deathDate <http://data.odeuropa.eu/time/d253d9a2-3190-572a-aa64-636a762ccb71> .
+    rdfs:label "The passengers" .
 
 <http://data.odeuropa.eu/actor/965b0a4b-e4f8-5aea-bfe0-6185d00da8d0> a crm:E39_Actor ;
-    rdfs:label "The philosopher" ;
-    schema:birthDate <http://data.odeuropa.eu/time/d253d9a2-3190-572a-aa64-636a762ccb71> ;
-    schema:deathDate <http://data.odeuropa.eu/time/d253d9a2-3190-572a-aa64-636a762ccb71> .
+    rdfs:label "The philosopher" .
 
 <http://data.odeuropa.eu/actor/9822a1fc-7130-5f45-b4ee-9796c37c6908> a crm:E39_Actor ;
-    rdfs:label "many" ;
-    schema:birthDate <http://data.odeuropa.eu/time/d253d9a2-3190-572a-aa64-636a762ccb71> ;
-    schema:deathDate <http://data.odeuropa.eu/time/d253d9a2-3190-572a-aa64-636a762ccb71> .
+    rdfs:label "many" .
 
 <http://data.odeuropa.eu/actor/9b549984-a830-5361-9777-8aea63ba8c9d> a crm:E39_Actor ;
-    rdfs:label "shoe fetichist" ;
-    schema:birthDate <http://data.odeuropa.eu/time/d253d9a2-3190-572a-aa64-636a762ccb71> ;
-    schema:deathDate <http://data.odeuropa.eu/time/d253d9a2-3190-572a-aa64-636a762ccb71> .
+    rdfs:label "shoe fetichist" .
 
 <http://data.odeuropa.eu/actor/9ba5cba3-6b70-5b3b-b79f-21406c1820fc> a crm:E39_Actor ;
-    rdfs:label "to the Tommies" ;
-    schema:birthDate <http://data.odeuropa.eu/time/d253d9a2-3190-572a-aa64-636a762ccb71> ;
-    schema:deathDate <http://data.odeuropa.eu/time/d253d9a2-3190-572a-aa64-636a762ccb71> .
+    rdfs:label "to the Tommies" .
 
 <http://data.odeuropa.eu/actor/9c437913-005c-5225-9ff2-8beeae75da8f> a crm:E39_Actor ;
-    rdfs:label "the Women" ;
-    schema:birthDate <http://data.odeuropa.eu/time/d253d9a2-3190-572a-aa64-636a762ccb71> ;
-    schema:deathDate <http://data.odeuropa.eu/time/d253d9a2-3190-572a-aa64-636a762ccb71> .
+    rdfs:label "the Women" .
 
 <http://data.odeuropa.eu/actor/9dcee635-fd5d-5924-8759-a06437b1fae8> a crm:E39_Actor ;
-    rdfs:label "the olfactory nerves" ;
-    schema:birthDate <http://data.odeuropa.eu/time/d253d9a2-3190-572a-aa64-636a762ccb71> ;
-    schema:deathDate <http://data.odeuropa.eu/time/d253d9a2-3190-572a-aa64-636a762ccb71> .
+    rdfs:label "the olfactory nerves" .
 
 <http://data.odeuropa.eu/actor/9f01cc13-59ec-55ae-9e13-da3f1cddb94d> a crm:E39_Actor ;
-    rdfs:label "Eestif de la Bretonne" ;
-    schema:birthDate <http://data.odeuropa.eu/time/d253d9a2-3190-572a-aa64-636a762ccb71> ;
-    schema:deathDate <http://data.odeuropa.eu/time/d253d9a2-3190-572a-aa64-636a762ccb71> .
+    rdfs:label "Eestif de la Bretonne" .
 
 <http://data.odeuropa.eu/actor/a08f8515-91dc-5078-a101-72294bb4473e> a crm:E39_Actor ;
-    rdfs:label "an hundred sicke of such feauers" ;
-    schema:birthDate <http://data.odeuropa.eu/time/d253d9a2-3190-572a-aa64-636a762ccb71> ;
-    schema:deathDate <http://data.odeuropa.eu/time/d253d9a2-3190-572a-aa64-636a762ccb71> .
+    rdfs:label "an hundred sicke of such feauers" .
 
 <http://data.odeuropa.eu/actor/a15c86eb-3cd7-5462-9a0b-cdb5316baf55> a crm:E39_Actor ;
-    rdfs:label "at their nostrils" ;
-    schema:birthDate <http://data.odeuropa.eu/time/d253d9a2-3190-572a-aa64-636a762ccb71> ;
-    schema:deathDate <http://data.odeuropa.eu/time/d253d9a2-3190-572a-aa64-636a762ccb71> .
+    rdfs:label "at their nostrils" .
 
 <http://data.odeuropa.eu/actor/a2462eea-32c1-5495-bfc3-7970d39c49bf> a crm:E39_Actor ;
-    rdfs:label "a person" ;
-    schema:birthDate <http://data.odeuropa.eu/time/d253d9a2-3190-572a-aa64-636a762ccb71> ;
-    schema:deathDate <http://data.odeuropa.eu/time/d253d9a2-3190-572a-aa64-636a762ccb71> .
-
-<http://data.odeuropa.eu/actor/a8bccd21-76ed-567e-aeec-a0a6569e941a> a crm:E39_Actor ;
-    rdfs:label "The thing" ;
-    schema:birthDate <http://data.odeuropa.eu/time/d253d9a2-3190-572a-aa64-636a762ccb71> ;
-    schema:deathDate <http://data.odeuropa.eu/time/d253d9a2-3190-572a-aa64-636a762ccb71> .
+    rdfs:label "a person" .
 
 <http://data.odeuropa.eu/actor/a8ff87fd-26f1-59a3-b36a-2eb4010328ab> a crm:E39_Actor ;
-    rdfs:label "by almost every passenger" ;
-    schema:birthDate <http://data.odeuropa.eu/time/d253d9a2-3190-572a-aa64-636a762ccb71> ;
-    schema:deathDate <http://data.odeuropa.eu/time/d253d9a2-3190-572a-aa64-636a762ccb71> .
+    rdfs:label "by almost every passenger" .
 
 <http://data.odeuropa.eu/actor/a977c434-19ed-54c7-ba6c-646fa6f15d3a> a crm:E39_Actor ;
-    rdfs:label "our Army" ;
-    schema:birthDate <http://data.odeuropa.eu/time/d253d9a2-3190-572a-aa64-636a762ccb71> ;
-    schema:deathDate <http://data.odeuropa.eu/time/d253d9a2-3190-572a-aa64-636a762ccb71> .
+    rdfs:label "our Army" .
 
 <http://data.odeuropa.eu/actor/b405d7e0-b6c5-55ca-902c-89ca066e0dcd> a crm:E39_Actor ;
-    rdfs:label "Americans at the Great Eastern Hotel" ;
-    schema:birthDate <http://data.odeuropa.eu/time/d253d9a2-3190-572a-aa64-636a762ccb71> ;
-    schema:deathDate <http://data.odeuropa.eu/time/d253d9a2-3190-572a-aa64-636a762ccb71> .
+    rdfs:label "Americans at the Great Eastern Hotel" .
 
 <http://data.odeuropa.eu/actor/b41d9d41-e04c-5f36-a7b4-ed4802b00699> a crm:E39_Actor ;
-    rdfs:label "to the inmates of the neighbouring houses" ;
-    schema:birthDate <http://data.odeuropa.eu/time/d253d9a2-3190-572a-aa64-636a762ccb71> ;
-    schema:deathDate <http://data.odeuropa.eu/time/d253d9a2-3190-572a-aa64-636a762ccb71> .
+    rdfs:label "to the inmates of the neighbouring houses" .
 
 <http://data.odeuropa.eu/actor/b5cfe742-0211-59bd-9d10-2e4fdd48d155> a crm:E39_Actor ;
-    rdfs:label "the health of persons exposed to them" ;
-    schema:birthDate <http://data.odeuropa.eu/time/d253d9a2-3190-572a-aa64-636a762ccb71> ;
-    schema:deathDate <http://data.odeuropa.eu/time/d253d9a2-3190-572a-aa64-636a762ccb71> .
+    rdfs:label "the health of persons exposed to them" .
 
 <http://data.odeuropa.eu/actor/b9e85123-76e7-5357-bc6a-c4bb5983f1b9> a crm:E39_Actor ;
-    rdfs:label "to an unprejudiced nose" ;
-    schema:birthDate <http://data.odeuropa.eu/time/d253d9a2-3190-572a-aa64-636a762ccb71> ;
-    schema:deathDate <http://data.odeuropa.eu/time/d253d9a2-3190-572a-aa64-636a762ccb71> .
+    rdfs:label "to an unprejudiced nose" .
 
 <http://data.odeuropa.eu/actor/bb6aeb49-1dde-58cd-96e5-743a6101ec08> a crm:E39_Actor ;
-    rdfs:label "The Inspector of Nuisances" ;
-    schema:birthDate <http://data.odeuropa.eu/time/d253d9a2-3190-572a-aa64-636a762ccb71> ;
-    schema:deathDate <http://data.odeuropa.eu/time/d253d9a2-3190-572a-aa64-636a762ccb71> .
+    rdfs:label "The Inspector of Nuisances" .
 
 <http://data.odeuropa.eu/actor/be928b74-2608-527f-826b-2e283e706f80> a crm:E39_Actor ;
-    rdfs:label "upon the nervous system" ;
-    schema:birthDate <http://data.odeuropa.eu/time/d253d9a2-3190-572a-aa64-636a762ccb71> ;
-    schema:deathDate <http://data.odeuropa.eu/time/d253d9a2-3190-572a-aa64-636a762ccb71> .
+    rdfs:label "upon the nervous system" .
 
 <http://data.odeuropa.eu/actor/bf92a53f-ffcc-5603-9d14-b10f4c7168e0> a crm:E39_Actor ;
-    rdfs:label "the party affected" ;
-    schema:birthDate <http://data.odeuropa.eu/time/d253d9a2-3190-572a-aa64-636a762ccb71> ;
-    schema:deathDate <http://data.odeuropa.eu/time/d253d9a2-3190-572a-aa64-636a762ccb71> .
+    rdfs:label "the party affected" .
 
 <http://data.odeuropa.eu/actor/c2e1280f-c51a-5ef5-a598-458f3005adc4> a crm:E39_Actor ;
-    rdfs:label "the infant" ;
-    schema:birthDate <http://data.odeuropa.eu/time/d253d9a2-3190-572a-aa64-636a762ccb71> ;
-    schema:deathDate <http://data.odeuropa.eu/time/d253d9a2-3190-572a-aa64-636a762ccb71> .
-
-<http://data.odeuropa.eu/actor/cc72a975-1cda-52dc-9943-270319337748> a crm:E39_Actor ;
-    rdfs:label "his" ;
-    schema:birthDate <http://data.odeuropa.eu/time/d253d9a2-3190-572a-aa64-636a762ccb71> ;
-    schema:deathDate <http://data.odeuropa.eu/time/d253d9a2-3190-572a-aa64-636a762ccb71> .
+    rdfs:label "the infant" .
 
 <http://data.odeuropa.eu/actor/ccbadc79-f1c7-51e2-8ad9-612863e79b84> a crm:E39_Actor ;
-    rdfs:label "the English public" ;
-    schema:birthDate <http://data.odeuropa.eu/time/d253d9a2-3190-572a-aa64-636a762ccb71> ;
-    schema:deathDate <http://data.odeuropa.eu/time/d253d9a2-3190-572a-aa64-636a762ccb71> .
+    rdfs:label "the English public" .
 
 <http://data.odeuropa.eu/actor/cdb93208-c440-545c-918c-40bd5621d466> a crm:E39_Actor ;
-    rdfs:label "Swine" ;
-    schema:birthDate <http://data.odeuropa.eu/time/d253d9a2-3190-572a-aa64-636a762ccb71> ;
-    schema:deathDate <http://data.odeuropa.eu/time/d253d9a2-3190-572a-aa64-636a762ccb71> .
+    rdfs:label "Swine" .
 
 <http://data.odeuropa.eu/actor/cf839880-62e4-5d75-a2bc-f96c7d208884> a crm:E39_Actor ;
-    rdfs:label "by many" ;
-    schema:birthDate <http://data.odeuropa.eu/time/d253d9a2-3190-572a-aa64-636a762ccb71> ;
-    schema:deathDate <http://data.odeuropa.eu/time/d253d9a2-3190-572a-aa64-636a762ccb71> .
+    rdfs:label "by many" .
 
 <http://data.odeuropa.eu/actor/d0e7239a-d6e3-510b-870b-26dd8da72730> a od:L6_Animal ;
     rdfs:label "dogs" ;
-    crm:P137_exemplifies <http://data.odeuropa.eu/vocabulary/noses/13> ;
-    schema:birthDate <http://data.odeuropa.eu/time/d253d9a2-3190-572a-aa64-636a762ccb71> ;
-    schema:deathDate <http://data.odeuropa.eu/time/d253d9a2-3190-572a-aa64-636a762ccb71> .
+    crm:P137_exemplifies <http://data.odeuropa.eu/vocabulary/noses/13> .
 
 <http://data.odeuropa.eu/actor/d1c66cf7-47c3-59f2-8784-23a739c8ac36> a crm:E39_Actor ;
-    rdfs:label "Lasagne" ;
-    schema:birthDate <http://data.odeuropa.eu/time/d253d9a2-3190-572a-aa64-636a762ccb71> ;
-    schema:deathDate <http://data.odeuropa.eu/time/d253d9a2-3190-572a-aa64-636a762ccb71> .
+    rdfs:label "Lasagne" .
 
 <http://data.odeuropa.eu/actor/d5be7072-03e6-576f-b7cd-c9d97b91bbab> a crm:E39_Actor ;
-    rdfs:label "even to the neighbourhood" ;
-    schema:birthDate <http://data.odeuropa.eu/time/d253d9a2-3190-572a-aa64-636a762ccb71> ;
-    schema:deathDate <http://data.odeuropa.eu/time/d253d9a2-3190-572a-aa64-636a762ccb71> .
+    rdfs:label "even to the neighbourhood" .
+
+<http://data.odeuropa.eu/actor/d95d1f93-6ef5-515c-88d9-f8b99090c1bc> a crm:E39_Actor ;
+    rdfs:label "by inhabitants of the part of Rotherhithe" .
 
 <http://data.odeuropa.eu/actor/d9dd3b06-848d-5cdd-b736-f774a96633f9> a crm:E39_Actor ;
-    rdfs:label "several of her clients" ;
-    schema:birthDate <http://data.odeuropa.eu/time/d253d9a2-3190-572a-aa64-636a762ccb71> ;
-    schema:deathDate <http://data.odeuropa.eu/time/d253d9a2-3190-572a-aa64-636a762ccb71> .
+    rdfs:label "several of her clients" .
+
+<http://data.odeuropa.eu/actor/dc9d3e0d-01f6-5ff4-aee6-6bb24d182aa0> a crm:E39_Actor ;
+    rdfs:label "many of my friends" .
 
 <http://data.odeuropa.eu/actor/e031b93b-ff7f-5cdc-aede-9cdbf8166c80> a crm:E39_Actor ;
-    rdfs:label "to the foetus" ;
-    schema:birthDate <http://data.odeuropa.eu/time/d253d9a2-3190-572a-aa64-636a762ccb71> ;
-    schema:deathDate <http://data.odeuropa.eu/time/d253d9a2-3190-572a-aa64-636a762ccb71> .
+    rdfs:label "to the foetus" .
 
 <http://data.odeuropa.eu/actor/e1c29c43-d76b-500b-9750-689abb3a39dd> a crm:E39_Actor ;
-    rdfs:label "All the inmates of the place" ;
-    schema:birthDate <http://data.odeuropa.eu/time/d253d9a2-3190-572a-aa64-636a762ccb71> ;
-    schema:deathDate <http://data.odeuropa.eu/time/d253d9a2-3190-572a-aa64-636a762ccb71> .
+    rdfs:label "All the inmates of the place" .
 
 <http://data.odeuropa.eu/actor/e6f19bcb-93f9-503f-8ac4-e1a33f2e1255> a crm:E39_Actor ;
-    rdfs:label "the philosopher" ;
-    schema:birthDate <http://data.odeuropa.eu/time/d253d9a2-3190-572a-aa64-636a762ccb71> ;
-    schema:deathDate <http://data.odeuropa.eu/time/d253d9a2-3190-572a-aa64-636a762ccb71> .
+    rdfs:label "the philosopher" .
 
 <http://data.odeuropa.eu/actor/e90bdc7c-9bb3-559f-ae30-a86ac07bf69e> a crm:E39_Actor ;
-    rdfs:label "to mynose" ;
-    schema:birthDate <http://data.odeuropa.eu/time/d253d9a2-3190-572a-aa64-636a762ccb71> ;
-    schema:deathDate <http://data.odeuropa.eu/time/d253d9a2-3190-572a-aa64-636a762ccb71> .
+    rdfs:label "to mynose" .
 
 <http://data.odeuropa.eu/actor/ef553c9c-9bcf-5ec1-984e-0ba55250efdd> a crm:E39_Actor ;
-    rdfs:label "to the dwellers in Berkeley-street and Chester-terrace" ;
-    schema:birthDate <http://data.odeuropa.eu/time/d253d9a2-3190-572a-aa64-636a762ccb71> ;
-    schema:deathDate <http://data.odeuropa.eu/time/d253d9a2-3190-572a-aa64-636a762ccb71> .
+    rdfs:label "to the dwellers in Berkeley-street and Chester-terrace" .
 
 <http://data.odeuropa.eu/actor/f312bb79-5dcb-538c-9471-5cfa3ec9a460> a crm:E39_Actor ;
-    rdfs:label "for his own separate inhalation" ;
-    schema:birthDate <http://data.odeuropa.eu/time/d253d9a2-3190-572a-aa64-636a762ccb71> ;
-    schema:deathDate <http://data.odeuropa.eu/time/d253d9a2-3190-572a-aa64-636a762ccb71> .
+    rdfs:label "for his own separate inhalation" .
 
 <http://data.odeuropa.eu/actor/f3130f1d-9620-5bf7-97eb-9a6810c825ef> a crm:E39_Actor ;
-    rdfs:label "the officers" ;
-    schema:birthDate <http://data.odeuropa.eu/time/d253d9a2-3190-572a-aa64-636a762ccb71> ;
-    schema:deathDate <http://data.odeuropa.eu/time/d253d9a2-3190-572a-aa64-636a762ccb71> .
+    rdfs:label "the officers" .
 
 <http://data.odeuropa.eu/actor/f782529f-5073-5ec0-ba7d-cf1ae65dd759> a crm:E39_Actor ;
-    rdfs:label "an intimate friend of mine" ;
-    schema:birthDate <http://data.odeuropa.eu/time/d253d9a2-3190-572a-aa64-636a762ccb71> ;
-    schema:deathDate <http://data.odeuropa.eu/time/d253d9a2-3190-572a-aa64-636a762ccb71> .
+    rdfs:label "an intimate friend of mine" .
 
 <http://data.odeuropa.eu/actor/f980d51d-84a9-54b1-ae62-988e80424b87> a crm:E39_Actor ;
-    rdfs:label "Laennec" ;
-    schema:birthDate <http://data.odeuropa.eu/time/d253d9a2-3190-572a-aa64-636a762ccb71> ;
-    schema:deathDate <http://data.odeuropa.eu/time/d253d9a2-3190-572a-aa64-636a762ccb71> .
+    rdfs:label "Laennec" .
 
 <http://data.odeuropa.eu/attribute/Acrid_en> a crm:E90_Symbolic_Object ;
     rdfs:label "Acrid"@en .
@@ -33773,36 +33552,24 @@
 <https://sws.geonames.org/8854522/> a crm:E53_Place .
 
 <http://data.odeuropa.eu/actor/15aa0302-9ad7-5537-9655-11275821620e> a crm:E39_Actor ;
-    rdfs:label "by some persons" ;
-    schema:birthDate <http://data.odeuropa.eu/time/d253d9a2-3190-572a-aa64-636a762ccb71> ;
-    schema:deathDate <http://data.odeuropa.eu/time/d253d9a2-3190-572a-aa64-636a762ccb71> .
+    rdfs:label "by some persons" .
 
 <http://data.odeuropa.eu/actor/18730363-ead8-50bf-8d13-f3329bd18d94> a crm:E39_Actor ;
-    rdfs:label "the inhabitants of Charlton" ;
-    schema:birthDate <http://data.odeuropa.eu/time/d253d9a2-3190-572a-aa64-636a762ccb71> ;
-    schema:deathDate <http://data.odeuropa.eu/time/d253d9a2-3190-572a-aa64-636a762ccb71> .
+    rdfs:label "the inhabitants of Charlton" .
+
+<http://data.odeuropa.eu/actor/205091d7-3572-5a41-80df-c8e761e43f63> a crm:E39_Actor ;
+    rdfs:label "the Manager of the Beckton Gas Works" .
 
 <http://data.odeuropa.eu/actor/65bd50c7-6c7e-5144-b7de-17c1fea33fbb> a crm:E39_Actor ;
-    rdfs:label "Galen" ;
-    schema:birthDate <http://data.odeuropa.eu/time/d253d9a2-3190-572a-aa64-636a762ccb71> ;
-    schema:deathDate <http://data.odeuropa.eu/time/d253d9a2-3190-572a-aa64-636a762ccb71> .
+    rdfs:label "Galen" .
 
 <http://data.odeuropa.eu/actor/6d45f9ed-9b30-55b2-8fb2-07ed22084acd> a crm:E39_Actor ;
-    rdfs:label "of our neighbours" ;
-    schema:birthDate <http://data.odeuropa.eu/time/d253d9a2-3190-572a-aa64-636a762ccb71> ;
-    schema:deathDate <http://data.odeuropa.eu/time/d253d9a2-3190-572a-aa64-636a762ccb71> .
+    rdfs:label "of our neighbours" .
 
 <http://data.odeuropa.eu/actor/8914855c-90ff-502a-b76a-a4a9c5f6e5ce> a crm:E21_Person ;
     rdfs:label "perfumers" ;
     crm:P137_exemplifies <http://data.odeuropa.eu/vocabulary/noses/7> ;
-    reo:readP1 <http://data.odeuropa.eu/vocabulary/noses/7> ;
-    schema:birthDate <http://data.odeuropa.eu/time/d253d9a2-3190-572a-aa64-636a762ccb71> ;
-    schema:deathDate <http://data.odeuropa.eu/time/d253d9a2-3190-572a-aa64-636a762ccb71> .
-
-<http://data.odeuropa.eu/actor/f27b1ea2-24c9-5af6-852b-2e77b3be582f> a crm:E39_Actor ;
-    rdfs:label "Gordon" ;
-    schema:birthDate <http://data.odeuropa.eu/time/d253d9a2-3190-572a-aa64-636a762ccb71> ;
-    schema:deathDate <http://data.odeuropa.eu/time/d253d9a2-3190-572a-aa64-636a762ccb71> .
+    reo:readP1 <http://data.odeuropa.eu/vocabulary/noses/7> .
 
 <http://data.odeuropa.eu/attribute/little_en> a crm:E90_Symbolic_Object ;
     rdfs:label "little"@en .
@@ -36511,54 +36278,34 @@
     rdfs:label "Sweet-smelling"@en .
 
 <http://data.odeuropa.eu/actor/00afbde4-6094-5da3-b8b9-4e7563a3e79b> a crm:E39_Actor ;
-    rdfs:label "Tanners" ;
-    schema:birthDate <http://data.odeuropa.eu/time/d253d9a2-3190-572a-aa64-636a762ccb71> ;
-    schema:deathDate <http://data.odeuropa.eu/time/d253d9a2-3190-572a-aa64-636a762ccb71> .
+    rdfs:label "Tanners" .
 
 <http://data.odeuropa.eu/actor/1cf78477-bfbf-50db-b829-fb6c3bd36c20> a crm:E39_Actor ;
-    rdfs:label "to Flush" ;
-    schema:birthDate <http://data.odeuropa.eu/time/d253d9a2-3190-572a-aa64-636a762ccb71> ;
-    schema:deathDate <http://data.odeuropa.eu/time/d253d9a2-3190-572a-aa64-636a762ccb71> .
-
-<http://data.odeuropa.eu/actor/205091d7-3572-5a41-80df-c8e761e43f63> a crm:E39_Actor ;
-    rdfs:label "the Manager of the Beckton Gas Works" ;
-    schema:birthDate <http://data.odeuropa.eu/time/d253d9a2-3190-572a-aa64-636a762ccb71> ;
-    schema:deathDate <http://data.odeuropa.eu/time/d253d9a2-3190-572a-aa64-636a762ccb71> .
+    rdfs:label "to Flush" .
 
 <http://data.odeuropa.eu/actor/25c92665-bee4-5cdc-94b0-15f09735d8ee> a crm:E39_Actor ;
-    rdfs:label "a man" ;
-    schema:birthDate <http://data.odeuropa.eu/time/d253d9a2-3190-572a-aa64-636a762ccb71> ;
-    schema:deathDate <http://data.odeuropa.eu/time/d253d9a2-3190-572a-aa64-636a762ccb71> .
+    rdfs:label "a man" .
 
 <http://data.odeuropa.eu/actor/5454a564-bd44-5115-8766-76155657a571> a crm:E39_Actor ;
-    rdfs:label "the people of Lucerne" ;
-    schema:birthDate <http://data.odeuropa.eu/time/d253d9a2-3190-572a-aa64-636a762ccb71> ;
-    schema:deathDate <http://data.odeuropa.eu/time/d253d9a2-3190-572a-aa64-636a762ccb71> .
+    rdfs:label "the people of Lucerne" .
 
 <http://data.odeuropa.eu/actor/6150ba41-904b-52c8-96b6-b4467d4b172f> a crm:E39_Actor ;
-    rdfs:label "Glue and Size boilers" ;
-    schema:birthDate <http://data.odeuropa.eu/time/d253d9a2-3190-572a-aa64-636a762ccb71> ;
-    schema:deathDate <http://data.odeuropa.eu/time/d253d9a2-3190-572a-aa64-636a762ccb71> .
+    rdfs:label "Glue and Size boilers" .
 
 <http://data.odeuropa.eu/actor/916dd051-2847-591e-ae80-38bbde05e2b5> a crm:E39_Actor ;
-    rdfs:label "Flush" ;
-    schema:birthDate <http://data.odeuropa.eu/time/d253d9a2-3190-572a-aa64-636a762ccb71> ;
-    schema:deathDate <http://data.odeuropa.eu/time/d253d9a2-3190-572a-aa64-636a762ccb71> .
+    rdfs:label "Flush" .
 
 <http://data.odeuropa.eu/actor/d4f3bd6c-2a5d-5056-b6f7-33964e649060> a crm:E39_Actor ;
-    rdfs:label "thou" ;
-    schema:birthDate <http://data.odeuropa.eu/time/d253d9a2-3190-572a-aa64-636a762ccb71> ;
-    schema:deathDate <http://data.odeuropa.eu/time/d253d9a2-3190-572a-aa64-636a762ccb71> .
+    rdfs:label "thou" .
 
 <http://data.odeuropa.eu/actor/eda079d3-efdd-5242-b267-2efd11c38b99> a crm:E39_Actor ;
-    rdfs:label "us" ;
-    schema:birthDate <http://data.odeuropa.eu/time/d253d9a2-3190-572a-aa64-636a762ccb71> ;
-    schema:deathDate <http://data.odeuropa.eu/time/d253d9a2-3190-572a-aa64-636a762ccb71> .
+    rdfs:label "us" .
 
 <http://data.odeuropa.eu/actor/f21622b7-10b7-5514-94ad-60d9ea3d6050> a crm:E39_Actor ;
-    rdfs:label "Colonel Leathom" ;
-    schema:birthDate <http://data.odeuropa.eu/time/d253d9a2-3190-572a-aa64-636a762ccb71> ;
-    schema:deathDate <http://data.odeuropa.eu/time/d253d9a2-3190-572a-aa64-636a762ccb71> .
+    rdfs:label "Colonel Leathom" .
+
+<http://data.odeuropa.eu/actor/f27b1ea2-24c9-5af6-852b-2e77b3be582f> a crm:E39_Actor ;
+    rdfs:label "Gordon" .
 
 <http://data.odeuropa.eu/attribute/acid_en> a crm:E90_Symbolic_Object ;
     rdfs:label "acid"@en .
@@ -39942,14 +39689,10 @@
 
 <http://data.odeuropa.eu/actor/6f6e62d9-23a9-524c-857b-e9698aa22202> a od:L6_Animal ;
     rdfs:label "the dog" ;
-    crm:P137_exemplifies <http://data.odeuropa.eu/vocabulary/noses/13> ;
-    schema:birthDate <http://data.odeuropa.eu/time/d253d9a2-3190-572a-aa64-636a762ccb71> ;
-    schema:deathDate <http://data.odeuropa.eu/time/d253d9a2-3190-572a-aa64-636a762ccb71> .
+    crm:P137_exemplifies <http://data.odeuropa.eu/vocabulary/noses/13> .
 
 <http://data.odeuropa.eu/actor/f6749c14-79c8-5077-bbc0-f2d86fee478a> a crm:E39_Actor ;
-    rdfs:label "We" ;
-    schema:birthDate <http://data.odeuropa.eu/time/d253d9a2-3190-572a-aa64-636a762ccb71> ;
-    schema:deathDate <http://data.odeuropa.eu/time/d253d9a2-3190-572a-aa64-636a762ccb71> .
+    rdfs:label "We" .
 
 <http://data.odeuropa.eu/attribute/bad_en> a crm:E90_Symbolic_Object ;
     rdfs:label "bad"@en .
@@ -40201,14 +39944,10 @@
     rdfs:label "odour"@en .
 
 <http://data.odeuropa.eu/actor/66fbe8b7-6a6d-59d1-b3cd-a7d905f9ee6a> a crm:E39_Actor ;
-    rdfs:label "your" ;
-    schema:birthDate <http://data.odeuropa.eu/time/d253d9a2-3190-572a-aa64-636a762ccb71> ;
-    schema:deathDate <http://data.odeuropa.eu/time/d253d9a2-3190-572a-aa64-636a762ccb71> .
+    rdfs:label "your" .
 
 <http://data.odeuropa.eu/actor/b7a480b5-265a-5cbc-a07e-0426d8499b45> a crm:E39_Actor ;
-    rdfs:label "he" ;
-    schema:birthDate <http://data.odeuropa.eu/time/d253d9a2-3190-572a-aa64-636a762ccb71> ;
-    schema:deathDate <http://data.odeuropa.eu/time/d253d9a2-3190-572a-aa64-636a762ccb71> .
+    rdfs:label "he" .
 
 <http://data.odeuropa.eu/smell/41ea9e26-e959-5fe1-b138-172a761875a0> a od:L11_Smell ;
     rdfs:label "odors"@en .
@@ -40223,9 +39962,7 @@
     rdfs:label "smells"@en .
 
 <http://data.odeuropa.eu/actor/fc971db6-2436-5ecc-85e6-22b77865207e> a crm:E39_Actor ;
-    rdfs:label "we" ;
-    schema:birthDate <http://data.odeuropa.eu/time/d253d9a2-3190-572a-aa64-636a762ccb71> ;
-    schema:deathDate <http://data.odeuropa.eu/time/d253d9a2-3190-572a-aa64-636a762ccb71> .
+    rdfs:label "we" .
 
 <http://data.odeuropa.eu/attribute/Fetid_en> a crm:E90_Symbolic_Object ;
     rdfs:label "Fetid"@en .
@@ -40236,14 +39973,10 @@
 <https://sws.geonames.org/1275004/> a crm:E53_Place .
 
 <http://data.odeuropa.eu/actor/740b30dd-0827-51a2-bb06-9effb6d164b1> a crm:E39_Actor ;
-    rdfs:label "you" ;
-    schema:birthDate <http://data.odeuropa.eu/time/d253d9a2-3190-572a-aa64-636a762ccb71> ;
-    schema:deathDate <http://data.odeuropa.eu/time/d253d9a2-3190-572a-aa64-636a762ccb71> .
+    rdfs:label "you" .
 
 <http://data.odeuropa.eu/actor/c1a8e4ad-110d-5d48-95ef-eb9437cda2b2> a crm:E39_Actor ;
-    rdfs:label "He" ;
-    schema:birthDate <http://data.odeuropa.eu/time/d253d9a2-3190-572a-aa64-636a762ccb71> ;
-    schema:deathDate <http://data.odeuropa.eu/time/d253d9a2-3190-572a-aa64-636a762ccb71> .
+    rdfs:label "He" .
 
 <http://data.odeuropa.eu/attribute/fragrant_en> a crm:E90_Symbolic_Object ;
     rdfs:label "fragrant"@en .
@@ -40266,9 +39999,7 @@
     rdfs:label "fetid"@en .
 
 <http://data.odeuropa.eu/actor/39aa5a8a-9d0c-56fc-852a-4fef7e7dbd4d> a crm:E39_Actor ;
-    rdfs:label "I" ;
-    schema:birthDate <http://data.odeuropa.eu/time/d253d9a2-3190-572a-aa64-636a762ccb71> ;
-    schema:deathDate <http://data.odeuropa.eu/time/d253d9a2-3190-572a-aa64-636a762ccb71> .
+    rdfs:label "I" .
 
 <http://data.odeuropa.eu/attribute-type/intensity> a crm:E55_Type ;
     rdfs:label "intensity" .
@@ -40290,8 +40021,6 @@
 
 <http://data.odeuropa.eu/sentiment/negative> a <http://www.w3.org/2004/02/skos/core#Concept> ;
     rdfs:label "Negative" .
-
-<http://data.odeuropa.eu/time/d253d9a2-3190-572a-aa64-636a762ccb71> a time:TemporalEntity .
 
 <http://data.odeuropa.eu/attribute/_en> a crm:E90_Symbolic_Object .
 

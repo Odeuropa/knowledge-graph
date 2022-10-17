@@ -11,7 +11,7 @@ controller = {}
 
 ARTICLE_REGEX = {
     'en': r'(?i)^(the|an?|some|any|this|that|th[eo]se) ',
-    'it': r"(?i)^((?:le|gli|il?|dei|delle|un[oa]?) |l ?' ?|quest('|[oaei] )|quei|quel( |l ?' ?|l[oaei] ))",
+    'it': r"(?i)^((?:l[ea]|gli|il?|dei|delle|un[oa]?) |l ?' ?|quest('|[oaei] )|quei|quel( |l ?' ?|l[oaei] ))",
     'fr': r"(?i)^((?:les?|la|des?|du|une?) |l ?' ?)",
     'de': r'(?i)^(die|das|de[rnms]?|ein(e[smnr]?)?|eene? ) ',
     'nl': r"(?i)^(de|het|een|' ?t) ",
