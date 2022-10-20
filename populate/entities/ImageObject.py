@@ -24,7 +24,7 @@ class ImageObject(SourceDoc):
         self.physical = PhysicalObject(self.uri)
 
     def add_fragment(self, bbox):
-        frag = MediaFragment(self.uri, bbox, self)
+        frag = MediaFragment(self, bbox, self)
         self.add(MA.hasFragment, frag, self)
         return frag
 
@@ -81,7 +81,9 @@ class PhysicalObject(Entity):
 
 
 class MediaFragment(Entity):
-    def __init__(self, media_uri, bbox, media_obj):
+    def __init__(self, parent, bbox, media_obj):
+        self.parent = parent
+        media_uri = parent.uri
         self.uri = media_uri + '#xywh=' + ','.join([str(x) for x in bbox])
         self.res = URIRef(self.uri)
         self.set_class(MA.MediaFragment)
@@ -94,11 +96,16 @@ class MediaFragment(Entity):
         self.add(NINSUNA.spatialY, str(y))
 
     def add_annotation(self, body, prov, confidence=1):
-        annotation = Annotation(self.uri, body)
-        annotation.add(OA.hasTarget, self)
-        annotation.add(PROV.wasGeneratedBy, prov)
-        annotation.add(RDF.value, confidence, XSD.decimal)
-        Graph.set_prov(self.media.add(CRM.P138_represents, body), prov)
+        if type(body).__name__ in ['Smell', 'SmellEmission', 'OlfactoryExperience']:
+            Graph.set_prov(self.add(CRM.P67_refers_to, body), prov)
+            Graph.set_prov(self.parent.add(CRM.P67_refers_to, body), prov)
+        else:
+            annotation = Annotation(self.uri, body)
+            annotation.add(OA.hasTarget, self)
+            annotation.add(PROV.wasGeneratedBy, prov)
+            annotation.add(RDF.value, confidence, XSD.decimal)
+            Graph.set_prov(self.media.add(CRM.P138_represents, body), prov)
+
 
 
 class Annotation(Entity):

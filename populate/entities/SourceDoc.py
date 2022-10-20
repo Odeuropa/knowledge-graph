@@ -25,7 +25,7 @@ class SourceDoc(Entity):
             t = Time.parse(date)
             self.add(SDO.dateCreated, t)
             date = t.start if t else None
-            self.time = date
+            self.time = t
 
         if author:
             self.author = Actor(author.strip(), lang=lang, alive_in=date)

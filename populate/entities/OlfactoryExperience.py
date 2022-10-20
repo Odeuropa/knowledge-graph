@@ -28,6 +28,8 @@ class OlfactoryExperience(Entity):
         self.add(CRM.P14_carried_out_by, perceiver)
 
     def add_quality(self, adjective, lang):
+        if is_invalid(adjective):
+            return
         self.assignment_id += 1
         attr_uri = path.join(self.uri, 'assignment', str(self.assignment_id))
         assignment = AttributeAssignment(attr_uri, adjective, lang, self.smell, self.perceiver)

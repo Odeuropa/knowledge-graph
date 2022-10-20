@@ -225,6 +225,7 @@ with open('input/image-odor-dataset/annotations.json') as f:
         current.append(cat)
         frag.add_annotation(cat, prov)
 
+
 out = Graph.g.serialize(format='ttl')
 out = out.replace('"<<', '<<').replace('>>"', '>>')
 with open(f"{out_folder}/figs_annotated.ttl", 'w') as outfile:

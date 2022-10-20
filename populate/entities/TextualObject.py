@@ -48,7 +48,6 @@ class TextualObject(SourceDoc):
         self.add(SDO.inLanguage, lang)
         self.add(SDO.locationCreated, Place.from_text(place))
 
-
     def add_fragment(self, text, lang=None):
         frag = TextFragment(self, text, lang or self.lang)
         self.add(CRM.P165_incorporates, frag)
