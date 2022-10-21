@@ -852,6 +852,9 @@
         <http://data.odeuropa.eu/smell/ff5abbd1-ae8e-5683-ac25-379356d09ea2> ;
     rdf:value "Ie telaisse à penser, quelle sera la puanteur detant de corps d’homme & de femmes, quiseront vn iour auec les Diables."@fr .
 
+<http://data.odeuropa.eu/thing/2d52ec41-6c17-5d2a-ac04-e8973e91d39d> a crm:E70_Thing ;
+    rdfs:label "son"@fr .
+
 <http://data.odeuropa.eu/actor/0e7c18c2-f31d-5cce-8c9d-58a30a0e0dbc> a crm:E39_Actor ;
     rdfs:label "les ames dãnées" .
 
@@ -1024,7 +1027,7 @@
 
 <http://data.odeuropa.eu/experience/1f532cf2-5849-50c5-a1a9-35b9019ee5b7> a od:L13_Olfactory_Experience ;
     od:F2_perceived <http://data.odeuropa.eu/smell/92a65fa2-f599-58c5-9a61-dad46b4a6946> ;
-    od:F6_evoked "son"@fr ;
+    od:F6_evoked <http://data.odeuropa.eu/thing/2d52ec41-6c17-5d2a-ac04-e8973e91d39d> ;
     time:hasTime <http://data.odeuropa.eu/time/60090a1f-b50a-598c-9878-e749836b6de5>,
         <http://data.odeuropa.eu/time/c4efcd34-6d68-5aeb-b5c8-ec7d8aeb89c5> .
 

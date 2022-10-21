@@ -124,8 +124,6 @@ def process_metadata(df):
 with open('config.yaml', 'r') as file:
     config = yaml.safe_load(file)
 VocManager.setup(config['vocabularies'])
-objects = VocManager.get('olfactory-objects')
-gestures = VocManager.get('olfactory-gestures')
 art = VocManager.get('visual-art-types')
 
 # convert
@@ -151,13 +149,11 @@ def guess_annotation(body, seed):
 
     if uri is None:
         # no choice, generic
-        annotation = Thing(seed, body['name'])
+        annotation = Thing(seed, body['name'], 'en')
     elif role == 'gesture':
-        annotation = Gesture(seed, body['name'], lemma=uri)
+        annotation = Gesture(seed, body['name'], 'en', lemma=uri)
     else:
-        lemma = objects.get(uri).lemmata[0]
-
-        annotation = SmellSource(seed, body['name'], lang='en', lemma=lemma.id, role=lemma.collection)
+        annotation = SmellSource(seed, body['name'], lang='en', lemma=uri, role=role)
     return annotation
 
 
@@ -187,12 +183,12 @@ with open('input/image-odor-dataset/annotations.json') as f:
 
     for x in res['categories']:
         name = x['name'].replace('other ', '')
-        x['uri'], x['type'] = objects.interlink(name, 'en', fallback=None)
+        x['uri'], x['type'], x['voc'] = VocManager.interlink_multiple(name, 'en',
+                                                                      ['olfactory-objects', 'olfactory-gestures'])
         if x['uri'] is None:
-            x['uri'], x['type'] = gestures.interlink(name, 'en', fallback=None)
+            print('Missing in vocabularies:', x['name'], x['supercategory'])
+        elif x['voc'] == 'olfactory-gestures':
             x['type'] = 'gesture'
-            if x['uri'] is None:
-                print('Missing in vocabularies:', x['name'], x['supercategory'])
         cat_map[x['id']] = x
 
     annotations = res['annotations']
@@ -224,7 +220,9 @@ with open('input/image-odor-dataset/annotations.json') as f:
 
         current.append(cat)
         frag.add_annotation(cat, prov)
-
+        frag.add_annotation(smell, prov)
+        frag.add_annotation(emission, prov)
+        frag.add_annotation(experience, prov)
 
 out = Graph.g.serialize(format='ttl')
 out = out.replace('"<<', '<<').replace('>>"', '>>')

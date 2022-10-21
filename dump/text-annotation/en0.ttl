@@ -1856,7 +1856,7 @@
     rdfs:label "the different intensities"@en ;
     crm:P140_assigned_attribute_to <http://data.odeuropa.eu/smell/0fe96506-af01-552f-b880-dc0f809e6e0a> ;
     crm:P141_assigned <http://data.odeuropa.eu/attribute/the%20different%20intensities_en> ;
-    crm:P14_carried_out_by <http://data.odeuropa.eu/actor/8f5eb16c-de40-5bdb-af50-770f96d80fab> ;
+    crm:P14_carried_out_by <http://data.odeuropa.eu/actor/5cdfe530-dc24-57dd-8f73-8373d29f580a> ;
     crm:P17_was_motivated_by <http://data.odeuropa.eu/experience/37e85cc0-cb3c-55ea-99ec-d01c002c9041> .
 
 <http://data.odeuropa.eu/experience/3a056de2-b871-57f3-9518-a75710b84cbc/assignment/1> a crm:E13_Attribute_Assignment ;
@@ -2283,7 +2283,7 @@
     rdfs:label "injurious to health"@en ;
     crm:P140_assigned_attribute_to <http://data.odeuropa.eu/smell/31c3d082-3eb1-5664-8819-d7e7b62c3bd0> ;
     crm:P141_assigned <http://data.odeuropa.eu/attribute/injurious%20to%20health_en> ;
-    crm:P14_carried_out_by <http://data.odeuropa.eu/actor/85f085e7-15a2-51bf-bece-6234d520f279> ;
+    crm:P14_carried_out_by <http://data.odeuropa.eu/actor/7c801006-3a13-52ae-a1d0-78aa460ef671> ;
     crm:P17_was_motivated_by <http://data.odeuropa.eu/experience/6576e76c-45f0-51bf-b23f-b091c0ca8898> .
 
 <http://data.odeuropa.eu/experience/65bc1c45-8006-5f32-be70-ed7b6f3ce7a8/assignment/1> a crm:E13_Attribute_Assignment ;
@@ -17481,9 +17481,6 @@
 <http://data.odeuropa.eu/actor/59e60240-e19d-5b4b-8b74-99d398c1ac15> a crm:E39_Actor ;
     rdfs:label "neighbouring tenants" .
 
-<http://data.odeuropa.eu/actor/5cdfe530-dc24-57dd-8f73-8373d29f580a> a crm:E39_Actor ;
-    rdfs:label "several of my friends" .
-
 <http://data.odeuropa.eu/actor/6379d311-eb02-509f-b621-b0edf0f44933> a crm:E39_Actor ;
     rdfs:label "Women of a tender , nice Constitution" .
 
@@ -17505,9 +17502,6 @@
 <http://data.odeuropa.eu/actor/765691c8-0a2e-53b6-bf15-81bfa7419c47> a crm:E39_Actor ;
     rdfs:label "the subject" .
 
-<http://data.odeuropa.eu/actor/7c801006-3a13-52ae-a1d0-78aa460ef671> a crm:E39_Actor ;
-    rdfs:label "Finch" .
-
 <http://data.odeuropa.eu/actor/803bc6ab-fa5f-588d-ae5f-052b6417f143> a crm:E39_Actor ;
     rdfs:label "my" .
 
@@ -17525,8 +17519,14 @@
 <http://data.odeuropa.eu/actor/85dd46fe-ce52-52ae-9836-3007819968fe> a crm:E39_Actor ;
     rdfs:label "A citizen of Cologne" .
 
+<http://data.odeuropa.eu/actor/85f085e7-15a2-51bf-bece-6234d520f279> a crm:E39_Actor ;
+    rdfs:label "Dr , Wise" .
+
 <http://data.odeuropa.eu/actor/8cb387cb-1e45-5fa1-8c18-2789d9d1cdb6> a crm:E39_Actor ;
     rdfs:label "you'll" .
+
+<http://data.odeuropa.eu/actor/8f5eb16c-de40-5bdb-af50-770f96d80fab> a crm:E39_Actor ;
+    rdfs:label "All the members of the family" .
 
 <http://data.odeuropa.eu/actor/91e6e373-4233-513a-8e41-79ecf10d3968> a crm:E39_Actor ;
     rdfs:label "My" .
@@ -18294,6 +18294,10 @@
     rdfs:label "Snuff"@en ;
     crm:P137_exemplifies <http://data.odeuropa.eu/vocabulary/olfactory-objects/530> .
 
+<http://data.odeuropa.eu/object/098b3e60-54f6-58a6-9147-02797f9de261> a crmsci:S10_Material_Substantial ;
+    rdfs:label "these plants"@en ;
+    crm:P137_exemplifies <http://data.odeuropa.eu/vocabulary/olfactory-objects/78> .
+
 <http://data.odeuropa.eu/object/0a0550ec-3a2b-5705-9fc1-2d2aa1cc2c74> a crmsci:S10_Material_Substantial ;
     rdfs:label "in Bryony-Roots"@en .
 
@@ -18779,6 +18783,10 @@
     rdfs:label "Snuff"@en ;
     crm:P137_exemplifies <http://data.odeuropa.eu/vocabulary/olfactory-objects/530> .
 
+<http://data.odeuropa.eu/object/31e678e3-1e8c-50e9-851a-8cb7fa13ff3f> a crmsci:S10_Material_Substantial ;
+    rdfs:label "garlick"@en ;
+    crm:P137_exemplifies <http://data.odeuropa.eu/vocabulary/olfactory-objects/79> .
+
 <http://data.odeuropa.eu/object/31ee1dc7-6d8a-530f-b8f7-1feb1050e4ae> a crmsci:S10_Material_Substantial ;
     rdfs:label "from these ponds"@en .
 
@@ -18907,6 +18915,10 @@
 <http://data.odeuropa.eu/object/3e05208d-c73c-5891-916f-1cd45648d80f> a crmsci:S10_Material_Substantial ;
     rdfs:label "Musk"@en ;
     crm:P137_exemplifies <http://data.odeuropa.eu/vocabulary/olfactory-objects/270> .
+
+<http://data.odeuropa.eu/object/3e88b62d-1d71-594b-8e00-31369be70c29> a crmsci:S10_Material_Substantial ;
+    rdfs:label "an apple"@en ;
+    crm:P137_exemplifies <http://data.odeuropa.eu/vocabulary/olfactory-objects/441> .
 
 <http://data.odeuropa.eu/object/3ebb5b16-4e78-52c6-a0ed-d1187e59c8e3> a crmsci:S10_Material_Substantial ;
     rdfs:label "rine"@en ;
@@ -19307,6 +19319,10 @@
 
 <http://data.odeuropa.eu/object/5d3c0a74-10fa-5cda-a1b6-0248a9c274c3> a crmsci:S10_Material_Substantial ;
     rdfs:label "spirits of nitre"@en .
+
+<http://data.odeuropa.eu/object/5dab42f1-9aca-5968-842a-c87c844f1a11> a crmsci:S10_Material_Substantial ;
+    rdfs:label "heliotrope"@en ;
+    crm:P137_exemplifies <http://data.odeuropa.eu/vocabulary/olfactory-objects/105> .
 
 <http://data.odeuropa.eu/object/5db2ff05-4ec2-5f99-92e9-2909c57cd6a7> a crmsci:S10_Material_Substantial ;
     rdfs:label "things"@en .
@@ -20254,6 +20270,10 @@
 <http://data.odeuropa.eu/object/b7d207e6-87b4-54e3-8369-eb8c8b61959b> a crmsci:S10_Material_Substantial ;
     rdfs:label "such cooling scents"@en .
 
+<http://data.odeuropa.eu/object/b7dbbf03-5bfb-5061-8ffe-32496aceaccc> a crmsci:S10_Material_Substantial ;
+    rdfs:label "garlick"@en ;
+    crm:P137_exemplifies <http://data.odeuropa.eu/vocabulary/olfactory-objects/79> .
+
 <http://data.odeuropa.eu/object/b81b154f-5baf-5ff1-b24f-7dc0c2e84b88> a crmsci:S10_Material_Substantial ;
     rdfs:label "the Boxbush"@en .
 
@@ -20649,6 +20669,10 @@
 <http://data.odeuropa.eu/object/dbfb1a9e-da8e-5a24-b7bf-28599308cbfd> a crmsci:S10_Material_Substantial ;
     rdfs:label "sulphur"@en ;
     crm:P137_exemplifies <http://data.odeuropa.eu/vocabulary/olfactory-objects/242> .
+
+<http://data.odeuropa.eu/object/dc47a88a-76f3-53e8-9560-8e22a6233061> a crmsci:S10_Material_Substantial ;
+    rdfs:label "roses"@en ;
+    crm:P137_exemplifies <http://data.odeuropa.eu/vocabulary/olfactory-objects/138> .
 
 <http://data.odeuropa.eu/object/dc8089c2-e575-50a3-a253-61f73ca257c6> a crmsci:S10_Material_Substantial ;
     rdfs:label "Flowers"@en ;
@@ -21094,6 +21118,10 @@
 
 <http://data.odeuropa.eu/object/ffd4071c-b3c0-5507-ac95-8359befbcee0> a crmsci:S10_Material_Substantial ;
     rdfs:label "such as those given off from the works complained of"@en .
+
+<http://data.odeuropa.eu/place/e83e70c9-6897-5e7c-b602-0bc741471dc7> a crm:E53_Place ;
+    rdfs:label "arabia" ;
+    crm:P137_exemplifies <http://data.odeuropa.eu/vocabulary/fragrant-spaces/109> .
 
 <http://data.odeuropa.eu/source/01180aa2-1da4-5240-9af6-78f698ac8bf9/fragment/2a1b58f0-a86d-5c00-9ab6-898eedb8e593> a crm:E33_Linguistic_Object ;
     crm:P67_refers_to <http://data.odeuropa.eu/emission/2f87c95c-7a16-5ba2-a51e-f691f3eaab1b>,
@@ -26048,6 +26076,135 @@
         <http://data.odeuropa.eu/smell/6f022f5d-8f3d-5e3d-a8dc-80bc56f33970> ;
     rdf:value "The young are taken for the sake of their shells; these are made into boxes, which, filled with sweet-smelling roots, the women hang around their persons."@en .
 
+<http://data.odeuropa.eu/thing/0afaac29-8abf-5855-a634-4122b725adcd> a crm:E70_Thing ;
+    rdfs:label "something like sellery roots"@en .
+
+<http://data.odeuropa.eu/thing/1bba689a-d5e9-569d-95b9-1e2b3c3c7f7c> a crm:E70_Thing ;
+    rdfs:label "beauty"@en .
+
+<http://data.odeuropa.eu/thing/3402d6c4-5f40-5854-9d89-f808398f18fb> a crm:E70_Thing ;
+    rdfs:label "the faint suggestion of a garden"@en .
+
+<http://data.odeuropa.eu/thing/342ffe5e-bd70-51ba-b723-943007153b0f> a crm:E70_Thing ;
+    rdfs:label "the sunny hills of provence"@en .
+
+<http://data.odeuropa.eu/thing/3871f894-fa02-5778-b1e7-a18f4140e799> a crm:E70_Thing ;
+    rdfs:label "the gum"@en .
+
+<http://data.odeuropa.eu/thing/3a325984-02b1-547b-a91c-ea7fcea70e4c> a crm:E70_Thing ;
+    rdfs:label "some measure resembles assafaetida"@en .
+
+<http://data.odeuropa.eu/thing/3fb24b13-148a-5d8c-8662-9ceb532db30a> a crm:E70_Thing ;
+    rdfs:label "horse-dung"@en .
+
+<http://data.odeuropa.eu/thing/412fef4c-3210-5341-a1d8-e1cb8ddcdf65> a crm:E70_Thing ;
+    rdfs:label "onions"@en .
+
+<http://data.odeuropa.eu/thing/50c182d9-3dc6-5282-9a35-c1d635fa67db> a crm:E70_Thing ;
+    rdfs:label "shallots"@en .
+
+<http://data.odeuropa.eu/thing/52b83198-9bb4-5a42-b432-7ff794a0f1d7> a crm:E70_Thing ;
+    rdfs:label "a peculiar cabbage-like stench"@en .
+
+<http://data.odeuropa.eu/thing/55023d47-ac99-5242-a69e-b89face39156> a crm:E70_Thing ;
+    rdfs:label "other east india gums"@en .
+
+<http://data.odeuropa.eu/thing/56274564-ece2-567b-814e-fc0ef21acb66> a crm:E70_Thing ;
+    rdfs:label "garlick and onyons"@en .
+
+<http://data.odeuropa.eu/thing/57f06314-592e-59cf-91d9-3f8f5db08009> a crm:E70_Thing ;
+    rdfs:label "that of castoreum"@en .
+
+<http://data.odeuropa.eu/thing/5b7c115e-5426-568e-bb91-d3f90523c1a8> a crm:E70_Thing ;
+    rdfs:label "fasces"@en .
+
+<http://data.odeuropa.eu/thing/5c5434ca-3029-5377-b0e3-2df1683f8a35> a crm:E70_Thing ;
+    rdfs:label "is probably similar in origin to ozaena"@en .
+
+<http://data.odeuropa.eu/thing/5e6d3429-231e-563b-b058-30f3478eb7ed> a crm:E70_Thing ;
+    rdfs:label "any breath of tropic orchid"@en .
+
+<http://data.odeuropa.eu/thing/5f10f199-56f5-59e2-b406-072fc75ca22e> a crm:E70_Thing ;
+    rdfs:label "resembles tlie ferment oil of echium vulgare"@en .
+
+<http://data.odeuropa.eu/thing/61b88807-156a-5d14-8cc5-a98f7e10bc10> a crm:E70_Thing ;
+    rdfs:label "resemblance to the violet"@en .
+
+<http://data.odeuropa.eu/thing/64a2b554-1847-5564-be22-f5843f43cbaa> a crm:E70_Thing ;
+    rdfs:label "onions"@en .
+
+<http://data.odeuropa.eu/thing/68336230-99ff-5bfb-a3e0-c13300d624b3> a crm:E70_Thing ;
+    rdfs:label "a pothecaries shop with drugs and medicines"@en .
+
+<http://data.odeuropa.eu/thing/6a5a7e9a-3f8b-531d-b119-153fa15d451c> a crm:E70_Thing ;
+    rdfs:label "is not like the smell of decomposing pus from ordinary ulcers"@en .
+
+<http://data.odeuropa.eu/thing/6c5fccfa-99b4-5ac4-8897-e45ad06c08f9> a crm:E70_Thing ;
+    rdfs:label "spirit of harts-horn"@en .
+
+<http://data.odeuropa.eu/thing/6dbce0f5-8231-514f-a4d4-937ba1808673> a crm:E70_Thing ;
+    rdfs:label "aegypt"@en .
+
+<http://data.odeuropa.eu/thing/6e8cc28b-ab19-57e2-b178-fbbeeff81364> a crm:E70_Thing ;
+    rdfs:label "resembling camphor"@en .
+
+<http://data.odeuropa.eu/thing/6facb14e-a861-5d79-b29a-18edd16577ff> a crm:E70_Thing ;
+    rdfs:label "the south african hills"@en .
+
+<http://data.odeuropa.eu/thing/72df1b0c-832d-540a-995b-d7755977420a> a crm:E70_Thing ;
+    rdfs:label "that of very decayed and putrid cheese"@en .
+
+<http://data.odeuropa.eu/thing/7bca4f8c-63f5-506b-a257-640d463ec71c> a crm:E70_Thing ;
+    rdfs:label "if it had been recently dipped from a sewer"@en .
+
+<http://data.odeuropa.eu/thing/7d9924b4-66a4-565b-9a01-4451d371f946> a crm:E70_Thing ;
+    rdfs:label "garlick"@en .
+
+<http://data.odeuropa.eu/thing/8b506bac-b220-5cd2-b90d-7a13b7ae27ed> a crm:E70_Thing ;
+    rdfs:label "that of the leaves"@en .
+
+<http://data.odeuropa.eu/thing/9772938e-2b17-57ac-9fc2-2dab3881d202> a crm:E70_Thing ;
+    rdfs:label "garlick"@en .
+
+<http://data.odeuropa.eu/thing/a020cc65-e074-5535-9f22-5f26343092e9> a crm:E70_Thing ;
+    rdfs:label "pickled gherkins"@en .
+
+<http://data.odeuropa.eu/thing/a495d31f-d982-5114-b305-d0b4160d9401> a crm:E70_Thing ;
+    rdfs:label "resembling jamaica pepper"@en .
+
+<http://data.odeuropa.eu/thing/ac30250d-deb5-53fb-ab02-ac913cba64d5> a crm:E70_Thing ;
+    rdfs:label "the ferment oil of tussilago farfara"@en .
+
+<http://data.odeuropa.eu/thing/bd919a58-5129-50bd-b6f4-b1c37904e70f> a crm:E70_Thing ;
+    rdfs:label "some such like coole fume"@en .
+
+<http://data.odeuropa.eu/thing/c0c843b0-ba8c-59dc-825c-affdea9198fe> a crm:E70_Thing ;
+    rdfs:label "wine-flowers and mignonette"@en .
+
+<http://data.odeuropa.eu/thing/cd144113-d156-571a-9aab-2191eb202788> a crm:E70_Thing ;
+    rdfs:label "a manner equall with the oyle of roses"@en .
+
+<http://data.odeuropa.eu/thing/d0790394-e58f-55e9-a436-ca1b8782ce92> a crm:E70_Thing ;
+    rdfs:label "if it had been dipped from a sewer"@en .
+
+<http://data.odeuropa.eu/thing/d115f013-9fe1-55b1-a31c-84bc96bfe7e4> a crm:E70_Thing ;
+    rdfs:label "it is a species of frankincense"@en .
+
+<http://data.odeuropa.eu/thing/e7730b9f-491c-5001-a543-636168805792> a crm:E70_Thing ;
+    rdfs:label "odour"@en .
+
+<http://data.odeuropa.eu/thing/edaf1b66-798c-5a1a-9403-ac960cea64cc> a crm:E70_Thing ;
+    rdfs:label "a compendium of natures sweetest gums and delicacies"@en .
+
+<http://data.odeuropa.eu/thing/eeb43be9-672b-5bb8-b4f1-fe992b5d001d> a crm:E70_Thing ;
+    rdfs:label "artificial musk"@en .
+
+<http://data.odeuropa.eu/thing/f18db000-03e9-5dae-aeb9-56a563c60dea> a crm:E70_Thing ;
+    rdfs:label "resembles that of cheese when very much decomposed"@en .
+
+<http://data.odeuropa.eu/thing/f31a3313-97fe-58ad-8be2-0cdc995f6bc8> a crm:E70_Thing ;
+    rdfs:label "the essence of corruption that has rotted for the second time—the"@en .
+
 <http://data.odeuropa.eu/actor/00afbde4-6094-5da3-b8b9-4e7563a3e79b> a crm:E39_Actor ;
     rdfs:label "Tanners" .
 
@@ -26093,6 +26250,9 @@
 <http://data.odeuropa.eu/actor/5637e9d5-759e-596c-baa4-8a9b20510a81> a crm:E39_Actor ;
     rdfs:label "in our nostrels" .
 
+<http://data.odeuropa.eu/actor/5cdfe530-dc24-57dd-8f73-8373d29f580a> a crm:E39_Actor ;
+    rdfs:label "several of my friends" .
+
 <http://data.odeuropa.eu/actor/5f257a43-031c-5b14-8868-458f30591959> a crm:E39_Actor ;
     rdfs:label "householders" .
 
@@ -26111,20 +26271,17 @@
 <http://data.odeuropa.eu/actor/7c5827a1-dcd1-5ee1-b9d6-2256a46313a1> a crm:E39_Actor ;
     rdfs:label "Tallow-chandlers" .
 
+<http://data.odeuropa.eu/actor/7c801006-3a13-52ae-a1d0-78aa460ef671> a crm:E39_Actor ;
+    rdfs:label "Finch" .
+
 <http://data.odeuropa.eu/actor/7ff74e30-7946-5c8b-844e-c17558de14ed> a crm:E39_Actor ;
     rdfs:label "delicate persons" .
-
-<http://data.odeuropa.eu/actor/85f085e7-15a2-51bf-bece-6234d520f279> a crm:E39_Actor ;
-    rdfs:label "Dr , Wise" .
 
 <http://data.odeuropa.eu/actor/8a709637-cc54-5109-a575-364a93be9ce0> a crm:E39_Actor ;
     rdfs:label "by many of the gentlemen" .
 
 <http://data.odeuropa.eu/actor/8b79c73e-361b-548f-a300-20be387f2d99> a crm:E39_Actor ;
     rdfs:label "Kirby" .
-
-<http://data.odeuropa.eu/actor/8f5eb16c-de40-5bdb-af50-770f96d80fab> a crm:E39_Actor ;
-    rdfs:label "All the members of the family" .
 
 <http://data.odeuropa.eu/actor/916dd051-2847-591e-ae80-38bbde05e2b5> a crm:E39_Actor ;
     rdfs:label "Flush" .
@@ -30663,7 +30820,7 @@
 
 <http://data.odeuropa.eu/experience/02b5d9c7-ded4-5d95-8142-4a0b17918672> a od:L13_Olfactory_Experience ;
     od:F2_perceived <http://data.odeuropa.eu/smell/004e0fe0-9c06-5828-bbd5-8d6c0291d487> ;
-    od:F6_evoked "like Spirit of Harts-Horn"@en ;
+    od:F6_evoked <http://data.odeuropa.eu/thing/6c5fccfa-99b4-5ac4-8897-e45ad06c08f9> ;
     time:hasTime <http://data.odeuropa.eu/time/c348f838-4d5d-50dd-86f5-5068247fa4b8> .
 
 <http://data.odeuropa.eu/experience/02c53b4d-6e22-57ca-a1f8-b3bc049712ac> a od:L13_Olfactory_Experience ;
@@ -30691,7 +30848,7 @@
 
 <http://data.odeuropa.eu/experience/0925b41f-ca61-5924-92e9-a2c97e1b0236> a od:L13_Olfactory_Experience ;
     od:F2_perceived <http://data.odeuropa.eu/smell/0eb80801-61a1-5288-9587-a93cb639a5e2> ;
-    od:F6_evoked "of an apple"@en ;
+    od:F6_evoked <http://data.odeuropa.eu/object/3e88b62d-1d71-594b-8e00-31369be70c29> ;
     crm:P14_carried_out_by <http://data.odeuropa.eu/actor/d4f3bd6c-2a5d-5056-b6f7-33964e649060> ;
     time:hasTime <http://data.odeuropa.eu/time/5e4d21a3-797a-5c71-a571-916753a66b3c> .
 
@@ -30818,7 +30975,7 @@
 
 <http://data.odeuropa.eu/experience/200ad25f-c249-5b61-b9c6-15fb91cf866e> a od:L13_Olfactory_Experience ;
     od:F2_perceived <http://data.odeuropa.eu/smell/4789d72b-7bb9-5dbc-acba-1796d02a3ce2> ;
-    od:F6_evoked "as if it had been recently dipped from a sewer"@en ;
+    od:F6_evoked <http://data.odeuropa.eu/thing/7bca4f8c-63f5-506b-a257-640d463ec71c> ;
     crm:P14_carried_out_by <http://data.odeuropa.eu/actor/c32cc985-c316-53fe-8229-802d9225f78a> ;
     crm:P7_took_place_at <http://data.odeuropa.eu/place/d4ee82d3-b813-592b-9f35-1211729244a2> ;
     time:hasTime <http://data.odeuropa.eu/time/259ee66c-a0d5-5907-a2e6-bb6e4fec47d5>,
@@ -30831,7 +30988,7 @@
 
 <http://data.odeuropa.eu/experience/20d93927-e579-5dc7-9174-0382c69c332f> a od:L13_Olfactory_Experience ;
     od:F2_perceived <http://data.odeuropa.eu/smell/38bf1df4-979c-591e-85a6-922a49154779> ;
-    od:F6_evoked "like Garlick and Onyons"@en ;
+    od:F6_evoked <http://data.odeuropa.eu/thing/56274564-ece2-567b-814e-fc0ef21acb66> ;
     time:hasTime <http://data.odeuropa.eu/time/c348f838-4d5d-50dd-86f5-5068247fa4b8> .
 
 <http://data.odeuropa.eu/experience/217141dc-81b5-5eb9-9752-00b8c8b963b5> a od:L13_Olfactory_Experience ;
@@ -30840,7 +30997,7 @@
 
 <http://data.odeuropa.eu/experience/21e37122-22a7-521f-bc81-e0bf159593f7> a od:L13_Olfactory_Experience ;
     od:F2_perceived <http://data.odeuropa.eu/smell/6fb5c55e-6b73-595e-bddb-9b3dd4b9d944> ;
-    od:F6_evoked "like fasces"@en ;
+    od:F6_evoked <http://data.odeuropa.eu/thing/5b7c115e-5426-568e-bb91-d3f90523c1a8> ;
     time:hasTime <http://data.odeuropa.eu/time/3887b56b-870f-51ba-86cb-8e88a2fe3f24>,
         <http://data.odeuropa.eu/time/a542e627-f336-5fe1-9a93-7690362d75da> .
 
@@ -30943,7 +31100,7 @@
 
 <http://data.odeuropa.eu/experience/38c9aeae-e5d4-59d6-81e6-f95b397dfa2c> a od:L13_Olfactory_Experience ;
     od:F2_perceived <http://data.odeuropa.eu/smell/2a67604d-57e8-5cd4-a463-fe486cde8e1b> ;
-    od:F6_evoked "of pickled gherkins"@en ;
+    od:F6_evoked <http://data.odeuropa.eu/thing/a020cc65-e074-5535-9f22-5f26343092e9> ;
     time:hasTime <http://data.odeuropa.eu/time/df862698-973c-58f0-a534-b7120964a68a> .
 
 <http://data.odeuropa.eu/experience/38e1b8d1-a789-531a-ba53-fe398793e0de> a od:L13_Olfactory_Experience ;
@@ -31020,7 +31177,7 @@
 
 <http://data.odeuropa.eu/experience/47de1ca6-5da5-599d-85e6-5f18cff89486> a od:L13_Olfactory_Experience ;
     od:F2_perceived <http://data.odeuropa.eu/smell/9f93a2eb-1014-5eea-a051-9c8f2e32cb89> ;
-    od:F6_evoked "resembles that of cheese when very much decomposed"@en ;
+    od:F6_evoked <http://data.odeuropa.eu/thing/f18db000-03e9-5dae-aeb9-56a563c60dea> ;
     crm:P7_took_place_at <http://data.odeuropa.eu/place/5d777842-b469-5759-8beb-357d178b61e5>,
         <http://data.odeuropa.eu/place/df757a83-363f-572b-9ce2-082799f981ce> ;
     time:hasTime <http://data.odeuropa.eu/time/f2e47c1b-176d-57cb-a777-0d321ddc08e5> .
@@ -31134,7 +31291,7 @@
 
 <http://data.odeuropa.eu/experience/562046a3-852c-5ac6-9dd8-aad455333329> a od:L13_Olfactory_Experience ;
     od:F2_perceived <http://data.odeuropa.eu/smell/d5ac0c20-7d66-5767-a0a2-2c8fae93b3bf> ;
-    od:F6_evoked "Beauty"@en ;
+    od:F6_evoked <http://data.odeuropa.eu/thing/1bba689a-d5e9-569d-95b9-1e2b3c3c7f7c> ;
     crm:P14_carried_out_by <http://data.odeuropa.eu/actor/4ddb2efb-c600-5249-8c75-421fdd0e9c10>,
         <http://data.odeuropa.eu/actor/cc72a975-1cda-52dc-9943-270319337748> ;
     time:hasTime <http://data.odeuropa.eu/time/4c7f9fab-a11d-5cb2-b384-4594d7451539> .
@@ -31226,7 +31383,7 @@
 
 <http://data.odeuropa.eu/experience/69450dc7-dcd1-5084-a784-809836dfcac5> a od:L13_Olfactory_Experience ;
     od:F2_perceived <http://data.odeuropa.eu/smell/d86d1a27-eb2a-5c67-b7aa-bb39925f6c6b> ;
-    od:F6_evoked "is not like the smell of decomposing pus from ordinary ulcers"@en ;
+    od:F6_evoked <http://data.odeuropa.eu/thing/6a5a7e9a-3f8b-531d-b119-153fa15d451c> ;
     time:hasTime <http://data.odeuropa.eu/time/3887b56b-870f-51ba-86cb-8e88a2fe3f24> .
 
 <http://data.odeuropa.eu/experience/6b6738a3-27ec-5f1b-b18f-14e40b3ddfae> a od:L13_Olfactory_Experience ;
@@ -31270,7 +31427,7 @@
 
 <http://data.odeuropa.eu/experience/71676205-8a0a-57d7-b82c-48b730b6daea> a od:L13_Olfactory_Experience ;
     od:F2_perceived <http://data.odeuropa.eu/smell/8840c8ad-ed60-5785-9810-d42a87b63490> ;
-    od:F6_evoked "that of very decayed and putrid cheese"@en ;
+    od:F6_evoked <http://data.odeuropa.eu/thing/72df1b0c-832d-540a-995b-d7755977420a> ;
     crm:P14_carried_out_by <http://data.odeuropa.eu/actor/f1ce03e2-a532-5727-9cdd-21498b23292c> ;
     time:hasTime <http://data.odeuropa.eu/time/260c497d-a092-5af7-b2cf-cfe26f14f0f6> .
 
@@ -31300,7 +31457,7 @@
 
 <http://data.odeuropa.eu/experience/757273c1-516b-57de-8682-62ce19f02c26> a od:L13_Olfactory_Experience ;
     od:F2_perceived <http://data.odeuropa.eu/smell/20fad7b7-4728-58e9-b9e6-11960e4aaa6f> ;
-    od:F6_evoked "like Garlick"@en ;
+    od:F6_evoked <http://data.odeuropa.eu/object/31e678e3-1e8c-50e9-851a-8cb7fa13ff3f> ;
     time:hasTime <http://data.odeuropa.eu/time/4908bb59-8c21-5456-a659-3060fa65220e>,
         <http://data.odeuropa.eu/time/c348f838-4d5d-50dd-86f5-5068247fa4b8> .
 
@@ -31369,7 +31526,7 @@
 
 <http://data.odeuropa.eu/experience/82bda527-602a-5367-b0d1-4ba09a168f7a> a od:L13_Olfactory_Experience ;
     od:F2_perceived <http://data.odeuropa.eu/smell/0a84048b-c571-5382-8ac0-6026887f525f> ;
-    od:F6_evoked "some such like coole fume"@en ;
+    od:F6_evoked <http://data.odeuropa.eu/thing/bd919a58-5129-50bd-b6f4-b1c37904e70f> ;
     time:hasTime <http://data.odeuropa.eu/time/5d8ee10d-6a5b-5fa6-9fc5-3ec85cb0ca1b> .
 
 <http://data.odeuropa.eu/experience/83305118-c645-5bb1-ade6-4851f1b780ff> a od:L13_Olfactory_Experience ;
@@ -31439,7 +31596,7 @@
 
 <http://data.odeuropa.eu/experience/8ccd982f-1996-5e0e-a12c-ffa87eaaba99> a od:L13_Olfactory_Experience ;
     od:F2_perceived <http://data.odeuropa.eu/smell/92857b12-733f-5bbb-a0ef-05d03478b7a2> ;
-    od:F6_evoked "odour"@en ;
+    od:F6_evoked <http://data.odeuropa.eu/thing/e7730b9f-491c-5001-a543-636168805792> ;
     crm:P14_carried_out_by <http://data.odeuropa.eu/actor/0596e426-96d3-510c-9822-ef29012085c6> ;
     crm:P7_took_place_at <http://data.odeuropa.eu/place/5d1781b6-64fb-5629-b8fb-89cd6c5db46f> ;
     time:hasTime <http://data.odeuropa.eu/time/260c497d-a092-5af7-b2cf-cfe26f14f0f6> .
@@ -31594,7 +31751,9 @@
 
 <http://data.odeuropa.eu/experience/a48364a6-8cd0-51d5-a78c-264ebe2855fa> a od:L13_Olfactory_Experience ;
     od:F2_perceived <http://data.odeuropa.eu/smell/109ca99b-a564-5115-98fe-84a6024f4dad> ;
-    od:F6_evoked "Onions | like Garlick | in some Measure resembles Assafaetida"@en ;
+    od:F6_evoked <http://data.odeuropa.eu/thing/3a325984-02b1-547b-a91c-ea7fcea70e4c>,
+        <http://data.odeuropa.eu/thing/412fef4c-3210-5341-a1d8-e1cb8ddcdf65>,
+        <http://data.odeuropa.eu/thing/9772938e-2b17-57ac-9fc2-2dab3881d202> ;
     time:hasTime <http://data.odeuropa.eu/time/7bafca38-ed08-566e-a58c-bccf06aba6ac> .
 
 <http://data.odeuropa.eu/experience/a49f9b29-965a-5d69-9aa9-cb5d76e1106e> a od:L13_Olfactory_Experience ;
@@ -31810,7 +31969,7 @@
 
 <http://data.odeuropa.eu/experience/cfebb08c-8d0e-587a-ab5a-158bfd9e0ccb> a od:L13_Olfactory_Experience ;
     od:F2_perceived <http://data.odeuropa.eu/smell/8bdd9535-b935-5858-bad7-27a942f4fec1> ;
-    od:F6_evoked "like Garlick"@en ;
+    od:F6_evoked <http://data.odeuropa.eu/object/b7dbbf03-5bfb-5061-8ffe-32496aceaccc> ;
     time:hasTime <http://data.odeuropa.eu/time/c348f838-4d5d-50dd-86f5-5068247fa4b8> .
 
 <http://data.odeuropa.eu/experience/d10c743c-ed82-5752-a910-aed1b9113a89> a od:L13_Olfactory_Experience ;
@@ -31862,7 +32021,7 @@
 
 <http://data.odeuropa.eu/experience/d8aac58c-2f89-5753-a504-18646c5da878> a od:L13_Olfactory_Experience ;
     od:F2_perceived <http://data.odeuropa.eu/smell/948495cc-6987-5702-8efc-0e1393bc0dab> ;
-    od:F6_evoked "like artificial musk"@en ;
+    od:F6_evoked <http://data.odeuropa.eu/thing/eeb43be9-672b-5bb8-b4f1-fe992b5d001d> ;
     time:hasTime <http://data.odeuropa.eu/time/df862698-973c-58f0-a534-b7120964a68a> .
 
 <http://data.odeuropa.eu/experience/d8c95a7a-2b36-58e4-877f-9e6ddb014dce> a od:L13_Olfactory_Experience ;
@@ -31978,7 +32137,7 @@
 
 <http://data.odeuropa.eu/experience/f2233602-9853-5b3e-b7c3-0d1a14a228b3> a od:L13_Olfactory_Experience ;
     od:F2_perceived <http://data.odeuropa.eu/smell/37b5b4b4-34d4-5a48-bb8b-4464f2b438ad> ;
-    od:F6_evoked "of these Plants"@en ;
+    od:F6_evoked <http://data.odeuropa.eu/object/098b3e60-54f6-58a6-9147-02797f9de261> ;
     time:hasTime <http://data.odeuropa.eu/time/c348f838-4d5d-50dd-86f5-5068247fa4b8> .
 
 <http://data.odeuropa.eu/experience/f287a527-3011-5610-879a-b628841c233a> a od:L13_Olfactory_Experience ;
@@ -32023,7 +32182,7 @@
 
 <http://data.odeuropa.eu/experience/f8499d7c-b1c2-515a-933f-d3f3631f3a35> a od:L13_Olfactory_Experience ;
     od:F2_perceived <http://data.odeuropa.eu/smell/87c33fe2-b93e-5bae-a938-102c7b2e6f32> ;
-    od:F6_evoked "as if it had been dipped from a sewer"@en ;
+    od:F6_evoked <http://data.odeuropa.eu/thing/d0790394-e58f-55e9-a436-ca1b8782ce92> ;
     time:hasTime <http://data.odeuropa.eu/time/7e8798c4-5e80-548c-9683-93e77c93c2b0> .
 
 <http://data.odeuropa.eu/experience/f9a2582d-6537-56a9-885f-2fbb595156d4> a od:L13_Olfactory_Experience ;
@@ -32047,7 +32206,8 @@
 
 <http://data.odeuropa.eu/experience/faa0da28-a737-5c89-902b-fe79a2627542> a od:L13_Olfactory_Experience ;
     od:F2_perceived <http://data.odeuropa.eu/smell/6634ae11-d790-5772-a7ab-68c76d0fc990> ;
-    od:F6_evoked "like Garlick | like Horse-dung"@en ;
+    od:F6_evoked <http://data.odeuropa.eu/thing/3fb24b13-148a-5d8c-8662-9ceb532db30a>,
+        <http://data.odeuropa.eu/thing/7d9924b4-66a4-565b-9a01-4451d371f946> ;
     time:hasTime <http://data.odeuropa.eu/time/c348f838-4d5d-50dd-86f5-5068247fa4b8> .
 
 <http://data.odeuropa.eu/experience/fcc781a3-3104-56bc-8ea3-f5a7142a62e1> a od:L13_Olfactory_Experience ;
@@ -32078,7 +32238,7 @@
 
 <http://data.odeuropa.eu/experience/ffb51457-8797-57c9-a68b-c0608b513775> a od:L13_Olfactory_Experience ;
     od:F2_perceived <http://data.odeuropa.eu/smell/3e3cd004-3cb0-540f-8f13-e5279bb0d25b> ;
-    od:F6_evoked "of roses"@en ;
+    od:F6_evoked <http://data.odeuropa.eu/object/dc47a88a-76f3-53e8-9560-8e22a6233061> ;
     time:hasTime <http://data.odeuropa.eu/time/df862698-973c-58f0-a534-b7120964a68a> .
 
 <http://data.odeuropa.eu/place/0059c5fc-e1ad-56c8-9f0c-fd74b5d4deac> a crm:E53_Place ;
@@ -33070,7 +33230,7 @@
 
 <http://data.odeuropa.eu/experience/31b11337-6d4d-58fe-9c97-fe761fbe5733> a od:L13_Olfactory_Experience ;
     od:F2_perceived <http://data.odeuropa.eu/smell/2e718352-6d62-5442-a92d-31566c2a92c1> ;
-    od:F6_evoked "of the gum"@en ;
+    od:F6_evoked <http://data.odeuropa.eu/thing/3871f894-fa02-5778-b1e7-a18f4140e799> ;
     time:hasTime <http://data.odeuropa.eu/time/30dd44fb-3817-5c60-956b-c7e706a9e25b>,
         <http://data.odeuropa.eu/time/b22d8bb6-2929-532b-98e3-37b619c130aa> .
 
@@ -33141,7 +33301,7 @@
 
 <http://data.odeuropa.eu/experience/3ab179a4-f06e-5078-b4a9-c8e263534a0a> a od:L13_Olfactory_Experience ;
     od:F2_perceived <http://data.odeuropa.eu/smell/7cfc8848-452a-554e-b573-01dad4e65141> ;
-    od:F6_evoked "of Arabia"@en ;
+    od:F6_evoked <http://data.odeuropa.eu/place/e83e70c9-6897-5e7c-b602-0bc741471dc7> ;
     time:hasTime <http://data.odeuropa.eu/time/f305400e-87e0-569f-bcf1-085bb3b6eb31> .
 
 <http://data.odeuropa.eu/experience/3bfac94c-9e19-5e85-88e2-97897cd949d7> a od:L13_Olfactory_Experience ;
@@ -33377,7 +33537,7 @@
 
 <http://data.odeuropa.eu/experience/5a4850db-7fb5-5ebb-b40f-66ec01b9235f> a od:L13_Olfactory_Experience ;
     od:F2_perceived <http://data.odeuropa.eu/smell/2cd5fe6a-f7c7-5517-8f6c-4ba85b924ccd> ;
-    od:F6_evoked "like a Pothecaries shop with Drugs and Medicines"@en ;
+    od:F6_evoked <http://data.odeuropa.eu/thing/68336230-99ff-5bfb-a3e0-c13300d624b3> ;
     crm:P14_carried_out_by <http://data.odeuropa.eu/actor/803bc6ab-fa5f-588d-ae5f-052b6417f143> ;
     time:hasTime <http://data.odeuropa.eu/time/bb435cfd-6a15-5442-9bc0-f97078b0b838> .
 
@@ -33439,7 +33599,7 @@
 
 <http://data.odeuropa.eu/experience/60b661c8-ae34-5b09-88d3-6ebe7545c891> a od:L13_Olfactory_Experience ;
     od:F2_perceived <http://data.odeuropa.eu/smell/ce10484d-32d1-58ff-8f4a-c74cb53fffa1> ;
-    od:F6_evoked "resembling Jamaica Pepper"@en ;
+    od:F6_evoked <http://data.odeuropa.eu/thing/a495d31f-d982-5114-b305-d0b4160d9401> ;
     time:hasTime <http://data.odeuropa.eu/time/7bafca38-ed08-566e-a58c-bccf06aba6ac> .
 
 <http://data.odeuropa.eu/experience/610c35ae-7e52-55c7-9bc9-f5d8612400b0> a od:L13_Olfactory_Experience ;
@@ -33495,7 +33655,8 @@
 
 <http://data.odeuropa.eu/experience/66202efe-bba9-51fe-b6d0-0936dbb4ede7> a od:L13_Olfactory_Experience ;
     od:F2_perceived <http://data.odeuropa.eu/smell/11e3edfc-40f9-5ede-ae2c-b9311d652e10> ;
-    od:F6_evoked "of the South African hills | of the sunny hills of Provence"@en ;
+    od:F6_evoked <http://data.odeuropa.eu/thing/342ffe5e-bd70-51ba-b723-943007153b0f>,
+        <http://data.odeuropa.eu/thing/6facb14e-a861-5d79-b29a-18edd16577ff> ;
     crm:P7_took_place_at <http://data.odeuropa.eu/place/2cfc12e3-72bb-5557-ad6c-c676a2151f03> ;
     time:hasTime <http://data.odeuropa.eu/time/37ef26f6-7f0d-572e-9752-94524f8e97ae> .
 
@@ -33517,7 +33678,7 @@
 
 <http://data.odeuropa.eu/experience/6890be14-9f59-5d4b-949b-bb877f4123b2> a od:L13_Olfactory_Experience ;
     od:F2_perceived <http://data.odeuropa.eu/smell/16fdce69-b881-5801-b82e-ebfa021caa5f> ;
-    od:F6_evoked "the faint suggestion of a garden"@en ;
+    od:F6_evoked <http://data.odeuropa.eu/thing/3402d6c4-5f40-5854-9d89-f808398f18fb> ;
     time:hasTime <http://data.odeuropa.eu/time/1b51149d-5707-561c-b9fe-43bb93b72ebb>,
         <http://data.odeuropa.eu/time/e35c8e6f-96ed-5e76-9036-bcc5c4ef3a09> .
 
@@ -33558,7 +33719,7 @@
 
 <http://data.odeuropa.eu/experience/6f0c3566-54e7-5a06-a778-ac201fbd0918> a od:L13_Olfactory_Experience ;
     od:F2_perceived <http://data.odeuropa.eu/smell/8a6545b6-8d6e-58c1-8805-5a4e3bab87b2> ;
-    od:F6_evoked "as any breath of tropic Orchid"@en ;
+    od:F6_evoked <http://data.odeuropa.eu/thing/5e6d3429-231e-563b-b058-30f3478eb7ed> ;
     crm:P14_carried_out_by <http://data.odeuropa.eu/actor/eda079d3-efdd-5242-b267-2efd11c38b99> ;
     time:hasTime <http://data.odeuropa.eu/time/37ef26f6-7f0d-572e-9752-94524f8e97ae> .
 
@@ -33626,7 +33787,7 @@
 
 <http://data.odeuropa.eu/experience/7509aeac-a0c3-543d-aec2-6c0d7cd34a22> a od:L13_Olfactory_Experience ;
     od:F2_perceived <http://data.odeuropa.eu/smell/529a1be4-5fe2-510c-a4fc-47851ddcfc62> ;
-    od:F6_evoked "as it is a Species of Frankincense"@en ;
+    od:F6_evoked <http://data.odeuropa.eu/thing/d115f013-9fe1-55b1-a31c-84bc96bfe7e4> ;
     time:hasTime <http://data.odeuropa.eu/time/7bafca38-ed08-566e-a58c-bccf06aba6ac> .
 
 <http://data.odeuropa.eu/experience/752a4609-3d6b-503e-81fc-4c2ed767dd1d> a od:L13_Olfactory_Experience ;
@@ -33701,7 +33862,7 @@
 
 <http://data.odeuropa.eu/experience/7e0858ec-4e50-5622-9d8c-9300cd813359> a od:L13_Olfactory_Experience ;
     od:F2_perceived <http://data.odeuropa.eu/smell/e6801469-acd3-5f51-8db6-b7075764af11> ;
-    od:F6_evoked "resemblance to the violet"@en ;
+    od:F6_evoked <http://data.odeuropa.eu/thing/61b88807-156a-5d14-8cc5-a98f7e10bc10> ;
     time:hasTime <http://data.odeuropa.eu/time/3887b56b-870f-51ba-86cb-8e88a2fe3f24> .
 
 <http://data.odeuropa.eu/experience/7f55059c-6549-5dda-a4ac-6875584f8987> a od:L13_Olfactory_Experience ;
@@ -33786,7 +33947,7 @@
 
 <http://data.odeuropa.eu/experience/88c3d36a-7023-53ca-a18d-9b785a56731e> a od:L13_Olfactory_Experience ;
     od:F2_perceived <http://data.odeuropa.eu/smell/c4a535cc-7390-54a9-9d4b-35ddb3b27ff5> ;
-    od:F6_evoked "is probably similar in origin to ozaena"@en ;
+    od:F6_evoked <http://data.odeuropa.eu/thing/5c5434ca-3029-5377-b0e3-2df1683f8a35> ;
     crm:P14_carried_out_by <http://data.odeuropa.eu/actor/c3d93662-5456-530d-8812-375ad9d9b9a3> ;
     time:hasTime <http://data.odeuropa.eu/time/3887b56b-870f-51ba-86cb-8e88a2fe3f24> .
 
@@ -34068,7 +34229,7 @@
 
 <http://data.odeuropa.eu/experience/b5557437-54d3-5bfd-9929-20558eacf380> a od:L13_Olfactory_Experience ;
     od:F2_perceived <http://data.odeuropa.eu/smell/9768c3fc-899b-59e1-9497-50cee286cd05> ;
-    od:F6_evoked "resembling Camphor"@en ;
+    od:F6_evoked <http://data.odeuropa.eu/thing/6e8cc28b-ab19-57e2-b178-fbbeeff81364> ;
     time:hasTime <http://data.odeuropa.eu/time/7bafca38-ed08-566e-a58c-bccf06aba6ac> .
 
 <http://data.odeuropa.eu/experience/b5a73cdc-7078-5262-aae1-202cf03efdf8> a od:L13_Olfactory_Experience ;
@@ -34188,7 +34349,7 @@
 
 <http://data.odeuropa.eu/experience/ca67fa29-5206-5dc4-ab13-219aeea2c0cd> a od:L13_Olfactory_Experience ;
     od:F2_perceived <http://data.odeuropa.eu/smell/a14c6a4f-9034-529e-b2f3-600380e0c78c> ;
-    od:F6_evoked "something like Sellery Roots"@en ;
+    od:F6_evoked <http://data.odeuropa.eu/thing/0afaac29-8abf-5855-a634-4122b725adcd> ;
     time:hasTime <http://data.odeuropa.eu/time/7bafca38-ed08-566e-a58c-bccf06aba6ac> .
 
 <http://data.odeuropa.eu/experience/ca993a9f-d2ac-5ed0-8447-2fef63526f90> a od:L13_Olfactory_Experience ;
@@ -34210,12 +34371,12 @@
 
 <http://data.odeuropa.eu/experience/cc691985-6055-5f52-a08a-10e85929c797> a od:L13_Olfactory_Experience ;
     od:F2_perceived <http://data.odeuropa.eu/smell/24d44d1e-c7ec-5fc3-97e2-f59dc1fbbb35> ;
-    od:F6_evoked "like other East India Gums"@en ;
+    od:F6_evoked <http://data.odeuropa.eu/thing/55023d47-ac99-5242-a69e-b89face39156> ;
     time:hasTime <http://data.odeuropa.eu/time/7bafca38-ed08-566e-a58c-bccf06aba6ac> .
 
 <http://data.odeuropa.eu/experience/ccaca400-cc5b-5d9a-bc4a-82c88f9fcb09> a od:L13_Olfactory_Experience ;
     od:F2_perceived <http://data.odeuropa.eu/smell/4088949d-95e5-5c20-8872-ef5187c59388> ;
-    od:F6_evoked "like the ferment oil of Tussilago farfara"@en ;
+    od:F6_evoked <http://data.odeuropa.eu/thing/ac30250d-deb5-53fb-ab02-ac913cba64d5> ;
     time:hasTime <http://data.odeuropa.eu/time/df862698-973c-58f0-a534-b7120964a68a> .
 
 <http://data.odeuropa.eu/experience/cd164044-c595-5915-9a7a-1fcdb37e1423> a od:L13_Olfactory_Experience ;
@@ -34250,7 +34411,7 @@
 
 <http://data.odeuropa.eu/experience/d2730b3c-9299-5334-a371-22a892193990> a od:L13_Olfactory_Experience ;
     od:F2_perceived <http://data.odeuropa.eu/smell/99b23359-d18f-5793-bdfa-eecdecd89eae> ;
-    od:F6_evoked "in a manner equall with the oyle of Roses"@en ;
+    od:F6_evoked <http://data.odeuropa.eu/thing/cd144113-d156-571a-9aab-2191eb202788> ;
     time:hasTime <http://data.odeuropa.eu/time/c8a6c345-989a-58a0-a1b1-39f04ef4248c> .
 
 <http://data.odeuropa.eu/experience/d2788115-76a9-5f6a-a7c7-4c11b2f3e848> a od:L13_Olfactory_Experience ;
@@ -34272,7 +34433,7 @@
 
 <http://data.odeuropa.eu/experience/d5980394-80df-5b18-b8bf-3b712dfa1ed6> a od:L13_Olfactory_Experience ;
     od:F2_perceived <http://data.odeuropa.eu/smell/1621ef71-b897-5204-9cba-da62d117ed87> ;
-    od:F6_evoked "a peculiar cabbage-like stench"@en ;
+    od:F6_evoked <http://data.odeuropa.eu/thing/52b83198-9bb4-5a42-b432-7ff794a0f1d7> ;
     time:hasTime <http://data.odeuropa.eu/time/3887b56b-870f-51ba-86cb-8e88a2fe3f24> .
 
 <http://data.odeuropa.eu/experience/d85a2e0e-0bfd-5ed2-9680-aa0f7cbf6411> a od:L13_Olfactory_Experience ;
@@ -34376,7 +34537,7 @@
 
 <http://data.odeuropa.eu/experience/e3a0b838-d200-516c-a6cf-2ffd02e83c11> a od:L13_Olfactory_Experience ;
     od:F2_perceived <http://data.odeuropa.eu/smell/ce0d6924-2588-55cf-8833-df7db526c3b4> ;
-    od:F6_evoked "a compendium of Natures sweetest gums and delicacies"@en ;
+    od:F6_evoked <http://data.odeuropa.eu/thing/edaf1b66-798c-5a1a-9403-ac960cea64cc> ;
     time:hasTime <http://data.odeuropa.eu/time/b65cd560-f810-53b1-9420-11afa5cedeb8> .
 
 <http://data.odeuropa.eu/experience/e423ddbb-17a3-5663-bc8e-e7aa9ab39236> a od:L13_Olfactory_Experience ;
@@ -34441,7 +34602,7 @@
 
 <http://data.odeuropa.eu/experience/eb8e57bc-d7b7-50ca-9bba-1ccbab1b88d3> a od:L13_Olfactory_Experience ;
     od:F2_perceived <http://data.odeuropa.eu/smell/03feba96-56f3-5598-9751-10824b9fa7c2> ;
-    od:F6_evoked "the essence of corruption that has rotted for the second time—the"@en ;
+    od:F6_evoked <http://data.odeuropa.eu/thing/f31a3313-97fe-58ad-8be2-0cdc995f6bc8> ;
     time:hasTime <http://data.odeuropa.eu/time/72add0cc-1e58-5a2b-8924-76c2aadd8ea4> .
 
 <http://data.odeuropa.eu/experience/ece49bf1-3e4d-5d08-a786-3c0863f73ee6> a od:L13_Olfactory_Experience ;
@@ -34647,7 +34808,8 @@
 
 <http://data.odeuropa.eu/experience/1850952d-12cb-5f69-8817-476ec0bd8684> a od:L13_Olfactory_Experience ;
     od:F2_perceived <http://data.odeuropa.eu/smell/489766a1-3e6e-5a78-b03e-b6927d0a8e18> ;
-    od:F6_evoked "like that of castoreum | like that of the leaves"@en ;
+    od:F6_evoked <http://data.odeuropa.eu/thing/57f06314-592e-59cf-91d9-3f8f5db08009>,
+        <http://data.odeuropa.eu/thing/8b506bac-b220-5cd2-b90d-7a13b7ae27ed> ;
     time:hasTime <http://data.odeuropa.eu/time/df862698-973c-58f0-a534-b7120964a68a> .
 
 <http://data.odeuropa.eu/experience/1883dbb9-6844-5811-9711-8bddf5ff7e15> a od:L13_Olfactory_Experience ;
@@ -34674,7 +34836,7 @@
 
 <http://data.odeuropa.eu/experience/21b16c3c-d3ef-5f16-bdd4-5b365affd5c8> a od:L13_Olfactory_Experience ;
     od:F2_perceived <http://data.odeuropa.eu/smell/313f9830-23d4-5f2d-aa8e-bd91864952e6> ;
-    od:F6_evoked "like wine-flowers and mignonette"@en ;
+    od:F6_evoked <http://data.odeuropa.eu/thing/c0c843b0-ba8c-59dc-825c-affdea9198fe> ;
     time:hasTime <http://data.odeuropa.eu/time/df862698-973c-58f0-a534-b7120964a68a> .
 
 <http://data.odeuropa.eu/experience/22a8e6f3-2ae2-528d-a990-41d3f3581d29> a od:L13_Olfactory_Experience ;
@@ -34689,7 +34851,8 @@
 
 <http://data.odeuropa.eu/experience/28ab7efb-2da6-5e13-87d4-110143acad6b> a od:L13_Olfactory_Experience ;
     od:F2_perceived <http://data.odeuropa.eu/smell/d4426b6c-41cb-5611-aec5-031fb0183ac1> ;
-    od:F6_evoked "Onions | Shallots"@en ;
+    od:F6_evoked <http://data.odeuropa.eu/thing/50c182d9-3dc6-5282-9a35-c1d635fa67db>,
+        <http://data.odeuropa.eu/thing/64a2b554-1847-5564-be22-f5843f43cbaa> ;
     time:hasTime <http://data.odeuropa.eu/time/7bafca38-ed08-566e-a58c-bccf06aba6ac> .
 
 <http://data.odeuropa.eu/experience/2bb16873-596d-57d0-94de-a4303551ab79> a od:L13_Olfactory_Experience ;
@@ -34756,7 +34919,7 @@
 
 <http://data.odeuropa.eu/experience/55830364-b301-5d90-87da-09185a15ea3a> a od:L13_Olfactory_Experience ;
     od:F2_perceived <http://data.odeuropa.eu/smell/d2d0a737-7a2e-544a-a998-457f95ada305> ;
-    od:F6_evoked "of Aegypt"@en ;
+    od:F6_evoked <http://data.odeuropa.eu/thing/6dbce0f5-8231-514f-a4d4-937ba1808673> ;
     time:hasTime <http://data.odeuropa.eu/time/38c61ef4-9905-5e77-a5e4-95a24fb06c5c> .
 
 <http://data.odeuropa.eu/experience/583da4bf-e47f-533b-9c10-04334fc7884f> a od:L13_Olfactory_Experience ;
@@ -36381,7 +36544,7 @@
 
 <http://data.odeuropa.eu/experience/ad644f44-d114-5a70-b94b-0052c37473db> a od:L13_Olfactory_Experience ;
     od:F2_perceived <http://data.odeuropa.eu/smell/1260fbc8-e4f3-5d86-b531-4e2e216d46ca> ;
-    od:F6_evoked "heliotrope"@en ;
+    od:F6_evoked <http://data.odeuropa.eu/object/5dab42f1-9aca-5968-842a-c87c844f1a11> ;
     time:hasTime <http://data.odeuropa.eu/time/49841b18-a5fc-5e94-8e63-6fc733c3f940> .
 
 <http://data.odeuropa.eu/experience/b2fe23a6-7d63-56fa-bd36-2fc935adbc1e> a od:L13_Olfactory_Experience ;
@@ -36396,7 +36559,7 @@
 
 <http://data.odeuropa.eu/experience/d2285674-a343-5b06-aea3-3823cb13608a> a od:L13_Olfactory_Experience ;
     od:F2_perceived <http://data.odeuropa.eu/smell/9346f82e-b188-56d5-84b3-84c0586f2a92> ;
-    od:F6_evoked "resembles tlie ferment oil of Echium vulgare"@en ;
+    od:F6_evoked <http://data.odeuropa.eu/thing/5f10f199-56f5-59e2-b406-072fc75ca22e> ;
     time:hasTime <http://data.odeuropa.eu/time/3aa2c91c-361c-50e7-8d12-c3654182ea46>,
         <http://data.odeuropa.eu/time/77207b2b-742d-5ed1-9bd3-5ae9fb6af5f7>,
         <http://data.odeuropa.eu/time/df862698-973c-58f0-a534-b7120964a68a> .

@@ -5,7 +5,7 @@ from .Entity import Entity
 from .Time import Time
 from .ontologies import CRM, ODEUROPA, REO
 from .utils import wikidata_api
-from .utils.pronouns import Pronouns
+from .utils.pos import Pronouns
 from .vocabularies import VocabularyManager as VocManager
 
 TITLES = {

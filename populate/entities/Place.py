@@ -11,7 +11,7 @@ from .Entity import Entity
 from .Graph import is_invalid
 from .config import GEONAMES, GEONAMES_CACHE
 from .ontologies import CRM
-from .utils.pronouns import Pronouns
+from .utils.pos import Pronouns
 from .vocabularies import VocabularyManager as VocManager
 from .vocabularies.VocabularyManager import ARTICLE_REGEX
 
@@ -59,11 +59,11 @@ def to_geonames_uri(geonames_id):
 class Place(Entity):
     IN_PREFIX = IN_PREFIX
 
-    def __init__(self, name, typ=None):
+    def __init__(self, name, typ=None, lang=None):
         super().__init__(name, 'place')
         self.set_class(CRM.E53_Place)
         if not name.startswith('http'):
-            self.add(RDFS.label, name)
+            self.add(RDFS.label, name, lang)
         self.add(CRM.P137_exemplifies, typ)
         self.interlinked = name.startswith('http')
 

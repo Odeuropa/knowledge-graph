@@ -50,15 +50,15 @@ class SourceDoc(Entity):
 
         lemma, role = VocManager.get('olfactory-objects').interlink(label, lang)
         if lemma:
-            obj = SmellSource(subject, lemma=lemma, role=role)
+            obj = SmellSource(subject, lang=lang, lemma=lemma, role=role)
             subj_map[label] = obj
         else:
             lemma, role = VocManager.get('fragrant-spaces').interlink(label, lang)
             if lemma:
-                obj = Place(subject, typ=lemma)
+                obj = Place(subject, typ=lemma, lang=lang)
             else:
                 # we go generic
-                obj = Thing(subject, subject)
+                obj = Thing(subject, subject, lang)
             subj_map[label] = obj
 
         self.add(SDO.about, obj)

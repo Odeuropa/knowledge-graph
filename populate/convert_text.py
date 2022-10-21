@@ -13,7 +13,7 @@ from rdflib import SDO, RDF, SKOS
 from entities import *
 from entities.vocabularies import VocabularyManager as VocabularyManager
 from entities.utils.smell_words import get_all_smell_words
-from entities.utils.pronouns import Pronouns
+from entities.utils.pos import Pronouns
 
 DEFAULT_ROOT = path.join('./', 'input', 'text-annotation')
 DEFAULT_OUT = path.join('../', 'dump')
@@ -147,7 +147,8 @@ def process_annotation_sheet(df, lang, codename):
 
         for x in r.get('Effect', '').split('|'):
             experience.add_gesture(x, lang=lang)
-        experience.evoked(r.get('Evoked_Odorant', None), lang=lang)
+        for x in r.get('Evoked_Odorant', '').split('|'):
+            experience.evoked(x, lang=lang)
 
         if type(r.get('Location', None)) == str:
             for x in r['Location'].split('|'):
@@ -200,7 +201,9 @@ def process_benchmark_sheet(language, docs_file):
             cont = re.search(r'\((.*?)\)', year)
             year = cont.group(1) if not cont.group(1).startswith('from') else year.replace(cont.group(0), '')
 
-        to = TextualObject(identifier, r['Title'], r['Author'], year,
+        author = r['Author'].replace('\\amp;', '&')
+
+        to = TextualObject(identifier, r['Title'], author, year,
                            r['Place of Publication'], lang, r['Genre'])
         to.add_url(r['Link to source'])
         docs[identifier] = to
@@ -227,6 +230,8 @@ def process_metadata(lang, docs_file, map_file):
         # print(identifier, year)
         to = TextualObject(identifier, title=r['title'], date=year, place='London', lang=lang)
         for author in r['author'].split(splitting):
+            author = author.replace('\\amp;', '&')
+
             m = re.search(r", (\d{4}\??)-(\d{4}\??)", author)
             birth = death = None
             if m is not None:

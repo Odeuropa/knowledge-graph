@@ -10,8 +10,9 @@ nltk.download('omw-1.4')
 controller = {}
 
 ARTICLE_REGEX = {
-    'en': r'(?i)^(the|an?|some|any|this|that|th[eo]se) ',
-    'it': r"(?i)^((?:l[ea]|gli|il?|dei|delle|un[oa]?) |l ?' ?|quest('|[oaei] )|quei|quel( |l ?' ?|l[oaei] ))",
+    'en': r'(?i)^(the|an?|some( of( the)?)?|any|this|that|th[eo]se) ',
+    'it': r"(?i)^((?:l[ea]|gli|il?|dei|delle|un[oa]?) |l ?' ?|quest('|[oaei] )|"
+          r"quei|quel( |l ?' ?|l[oaei] |poco|qualche|un po' di))",
     'fr': r"(?i)^((?:les?|la|des?|du|une?) |l ?' ?)",
     'de': r'(?i)^(die|das|de[rnms]?|ein(e[smnr]?)?|eene? ) ',
     'nl': r"(?i)^(de|het|een|' ?t) ",
@@ -87,3 +88,11 @@ def listing():
 def get(identifier):
     global controller
     return controller[identifier]
+
+
+def interlink_multiple(label, lang, vocs):
+    for x in vocs:
+        uri, type = get(x).interlink(label, lang, fallback=None)
+        if uri is not None:
+            return uri, type, x
+    return None, None, None

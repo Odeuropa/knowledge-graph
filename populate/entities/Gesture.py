@@ -13,7 +13,7 @@ class Gesture(Entity):
 
         self.role = None
         if lemma is None:
-            lemma, role = VocManager.get('olfactory-objects').interlink(label, lang)
+            lemma, role = VocManager.get('olfactory-gestures').interlink(label, lang)
 
         self.interlinked = lemma is not None
         if lemma is not None:

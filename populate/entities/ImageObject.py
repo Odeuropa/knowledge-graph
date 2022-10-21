@@ -107,7 +107,6 @@ class MediaFragment(Entity):
             Graph.set_prov(self.media.add(CRM.P138_represents, body), prov)
 
 
-
 class Annotation(Entity):
     def __init__(self, seed, body):
         super().__init__(seed, 'annotation')

@@ -43,12 +43,12 @@ Upload dumps
 
     python3 scripts/load_dump.py getty
     python3 scripts/load_dump.py geonames
+    python3 scripts/load_dump.py image-annotation
     python3 scripts/load_dump.py text-annotation
     python3 scripts/load_dump.py royal-society-corpus
     python3 scripts/load_dump.py old-bailey-corpus
-    python3 scripts/load_dump.py eebo
     python3 scripts/load_dump.py gutenberg
-    python3 scripts/load_dump.py image-annotation
+    python3 scripts/load_dump.py eebo
 
 ## Apache Configuration and dereferencing
 

@@ -1,11 +1,15 @@
 from os import path
-
+import re
 from rdflib import SKOS
 
 from .AttributeAssignment import AttributeAssignment
 from .Entity import Entity, MiniEntity
+from .Thing import Thing
 from .Gesture import Gesture
+from .Place import Place
+from .SmellSource import SmellSource
 from .Graph import add, is_invalid
+from .utils.pos import Prepositions
 from .ontologies import ODEUROPA, CRM, REO
 from .vocabularies import VocabularyManager as VocManager
 
@@ -37,26 +41,41 @@ class OlfactoryExperience(Entity):
         add(assignment, CRM.P17_was_motivated_by, self)
 
     def add_gesture(self, gesture, lang=''):
-        if isinstance(gesture, Gesture):
-            self.add(ODEUROPA.F5_involved_gesture, gesture)
-
-        # TODO
         if is_invalid(gesture):
             return
-        # self.gesture_id += 1
-        # gest_uri = path.join(self.uri, 'gesture', str(self.gesture_id))
-        # gest = URIRef(gest_uri)
 
-        # if 'vomit' in gesture:
-        #     typ = VocManager.get('olfactory-gestures').interlink_long(gesture, lang, fallback=None)
-        #     print(gesture, typ)
+        if isinstance(gesture, Gesture):
+            self.add(ODEUROPA.F5_involved_gesture, gesture)
+            return
 
-        # add(gest, RDF.type, ODEUROPA.L7_Gesture)
-        # add(gest, RDFS.label, gesture, lang)
-        # self.add(ODEUROPA.F5_involved_gesture, gest)
+        self.gesture_id += 1
+
+        lemma, role = VocManager.get('olfactory-gestures').interlink(gesture, lang)
+        if lemma is not None:
+            print('found!', gesture, lemma.id)
+            gest = Gesture(self.seed + '$' + self.gesture_id, gesture, lang, lemma)
+            self.add(ODEUROPA.F5_involved_gesture, gest)
+
+        # nothing more for now
+        # TODO better strategy: here there are mostly long texts
 
     def evoked(self, what, lang=''):
-        self.add(ODEUROPA.F6_evoked, what, lang)
+        if is_invalid(what):
+            return
+
+        what = re.sub(Prepositions(lang).as_regex(as_start=True), '', what.lower())
+
+        uri, role, voc = VocManager.interlink_multiple(what, lang, ['olfactory-objects', 'fragrant-spaces'])
+        if uri is None:
+            # TODO check if it can be a proper place!
+            # no choice, generic
+            obj = Thing(self.seed + '$' + what, what, lang)
+        elif voc == 'fragrant-spaces':
+            obj = Place(what, typ=uri)
+        else:
+            obj = SmellSource(self.seed + '$' + what, what, lang=lang, lemma=uri, role=role)
+
+        self.add(ODEUROPA.F6_evoked, obj)
 
     def add_emotion(self, label, typ, sentiment):
         typ = [t for t in typ.split(' | ') if t != 'Smell_Word'][0]

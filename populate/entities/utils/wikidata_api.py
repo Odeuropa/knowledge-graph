@@ -39,8 +39,8 @@ def searchperson(name, lang='en', alive_in=None, birth=None, death=None):
     time.sleep(5)
     if birth or death:
         alive_condition = f'FILTER(year(?dateOfBirth) = {birth})' if birth is not None else '' \
-                          f'FILTER(year(?dateOfDeath) = {death})' if death is not None else '' \
-                          f'BIND(1 AS ?alive)' if alive_in is not None else ''
+                                                                                            f'FILTER(year(?dateOfDeath) = {death})' if death is not None else '' \
+                                                                                                                                                              f'BIND(1 AS ?alive)' if alive_in is not None else ''
     else:
         if not re.match(r'\d{3,4}', str(alive_in)):
             alive_in = None
