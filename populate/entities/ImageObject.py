@@ -97,7 +97,6 @@ class MediaFragment(Entity):
 
     def add_annotation(self, body, prov, confidence=1):
         if type(body).__name__ in ['Smell', 'SmellEmission', 'OlfactoryExperience']:
-            Graph.set_prov(self.add(CRM.P67_refers_to, body), prov)
             Graph.set_prov(self.parent.add(CRM.P67_refers_to, body), prov)
         else:
             annotation = Annotation(self.uri, body)
