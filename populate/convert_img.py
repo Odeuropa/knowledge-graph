@@ -177,6 +177,10 @@ with open('input/image-odor-dataset/annotations.json') as f:
         experience = OlfactoryExperience(curid, smell)
         emission.add_time(img.time, inferred=True)
         experience.add_time(img.time, inferred=True)
+        img.add_annotation(smell, prov)
+        img.add_annotation(emission, prov)
+        img.add_annotation(experience, prov)
+
         smell_map[curid] = (smell, emission, experience)
 
     print('Not found', not_found)
@@ -220,9 +224,6 @@ with open('input/image-odor-dataset/annotations.json') as f:
 
         current.append(cat)
         frag.add_annotation(cat, prov)
-        frag.add_annotation(smell, prov)
-        frag.add_annotation(emission, prov)
-        frag.add_annotation(experience, prov)
 
 out = Graph.g.serialize(format='ttl')
 out = out.replace('"<<', '<<').replace('>>"', '>>')

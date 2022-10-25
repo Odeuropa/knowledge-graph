@@ -50,6 +50,9 @@ class ImageObject(SourceDoc):
     def add_identifier(self, identifier):
         self.physical.add(CRM.P1_is_identified_by, identifier)
 
+    def add_annotation(self, body, prov):
+        Graph.set_prov(self.add(CRM.P67_refers_to, body), prov)
+
 
 class PhysicalObject(Entity):
     # The physical part of the image (i.e. the proper painting hosted at the Museum)
