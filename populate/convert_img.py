@@ -172,6 +172,7 @@ with open('input/image-odor-dataset/annotations.json') as f:
         # policy: 1 image = 1 smell
         codename = 'image annotation'
         curid = codename + str(x['id'])
+
         smell = Smell(curid)
         emission = SmellEmission(curid, smell)
         experience = OlfactoryExperience(curid, smell)
@@ -181,7 +182,7 @@ with open('input/image-odor-dataset/annotations.json') as f:
         img.add_annotation(emission, prov)
         img.add_annotation(experience, prov)
 
-        smell_map[curid] = (smell, emission, experience)
+        smell_map[x['id']] = (smell, emission, experience)
 
     print('Not found', not_found)
 
@@ -198,23 +199,16 @@ with open('input/image-odor-dataset/annotations.json') as f:
     annotations = res['annotations']
     sorted(annotations, key=lambda k: k['image_id'])
 
-    cur_id = -1
-    current = []
     for x in tqdm(annotations):
-        if x['image_id'] != cur_id:
-            if cur_id != -1:
-                # print(current)
-                current = []
-            cur_id = x['image_id']
+        image_id = x['image_id']
 
-        if cur_id not in image_map:
+        if image_id not in image_map:
             continue
-        cur_img = image_map[cur_id]
+        cur_img = image_map[image_id]
         frag = cur_img.add_fragment(x['bbox'])
         ann = cat_map[x['category_id']]
         cat = guess_annotation(ann, 'image-annotation' + cur_img.title + str(x['id']))
-
-        smell, emission, experience = smell_map[curid]
+        smell, emission, experience = smell_map[image_id]
         if isinstance(cat, Gesture):
             experience.add_gesture(cat)
         elif cat.role == 'carrier':
@@ -222,7 +216,6 @@ with open('input/image-odor-dataset/annotations.json') as f:
         else:
             emission.add_source(cat)
 
-        current.append(cat)
         frag.add_annotation(cat, prov)
 
 out = Graph.g.serialize(format='ttl')

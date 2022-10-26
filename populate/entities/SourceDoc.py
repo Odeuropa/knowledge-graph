@@ -1,7 +1,7 @@
 # This class is thought to serve as superclass for TextualObject and ImageObject
 import re
 
-from rdflib import RDFS, SDO
+from rdflib import SDO
 
 from . import Actor, Time, Place
 from .Entity import Entity
@@ -10,11 +10,12 @@ from .Thing import Thing
 from .vocabularies import VocabularyManager as VocManager
 
 subj_map = {}
+AUTHOR_DATES = r'\((\d+)-(\d+)\)'
 
 
 class SourceDoc(Entity):
     def __init__(self, _id, title, author=None, date=None, lang=None):
-        super().__init__(str(date) + title + str(author), 'source')
+        super().__init__(str(date) + (title or _id) + str(author), 'source')
         self.author = None
 
         self.title = title
@@ -28,7 +29,15 @@ class SourceDoc(Entity):
             self.time = t
 
         if author:
-            self.author = Actor(author.strip(), lang=lang, alive_in=date)
+            birth = death = None
+            dt = re.search(AUTHOR_DATES, author)
+
+            if dt:
+                author = author.replace(dt.group(0), '')
+
+                birth = dt.group(1)
+                death = dt.group(2)
+            self.author = Actor(author.strip(), lang=lang, alive_in=date, birth=birth, death=death, is_person=True)
             self.add(SDO.author, self.author)
 
     def add_author(self, author, lang=None, birth=None, death=None):

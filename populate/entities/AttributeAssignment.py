@@ -28,6 +28,7 @@ class AttributeAssignment(Entity):
 
         lemma = None
         role = None
+        # TODO link even if contains words as 'very', 'too', ...
         if adjective not in ['very']:
             for role in ['intensity', 'hedonic', 'character']:
                 lemma, _ = VocManager.get(role).interlink(adjective, lang)

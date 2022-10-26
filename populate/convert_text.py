@@ -232,7 +232,7 @@ def process_metadata(lang, docs_file, map_file):
         for author in r['author'].split(splitting):
             author = author.replace('\\amp;', '&')
 
-            m = re.search(r", (\d{4}\??)-(\d{4}\??)", author)
+            m = re.search(r"(, )?\(?(\d{4}\??)-(\d{4}\??)\)?", author)
             birth = death = None
             if m is not None:
                 birth = m.group(1)
@@ -244,6 +244,9 @@ def process_metadata(lang, docs_file, map_file):
 
             to.add_author(author, lang, birth, death)
         to.add_url(r.get('doiLink'))
+        to.add_url(r.get('link'))
+        to.same_as(r.get('sameAs'))
+        to.add_license(r.get('license'))
         to.add(SKOS.editorialNote, r.get('note'))
         to.add(SDO.issn, r.get('issn'))
         if 'royal-society-corpus' in docs_file:

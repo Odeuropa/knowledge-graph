@@ -20,6 +20,7 @@ class Actor(Entity):
         role = None
 
         if not anonymize:
+
             self.add(RDFS.label, name)
 
             lemma = None
