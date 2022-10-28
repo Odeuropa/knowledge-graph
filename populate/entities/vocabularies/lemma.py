@@ -54,8 +54,8 @@ def compute_similarity_score(l, q, accepted, autocomplete, lowerBound):
 
 
 class Lemma:
-    ALT_WEIGHT = 0.8
-    OTHER_LANG_WEIGHT = 0.6
+    ALT_WEIGHT = 0.9
+    OTHER_LANG_WEIGHT = 0.7
     UNMATCHING_START_WEIGHT = 0.9
 
     def __init__(self, data, score=0):
@@ -130,7 +130,6 @@ class Lemma:
 
         altScores = [compute_similarity_score(l, q, lang, autocomplete, lowerBound) for l in self.altLabel]
         altScores = [s * Lemma.ALT_WEIGHT for s in altScores]
-
         return max(scores + altScores)
 
     @classmethod

@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<rdf:RDF xmlns:cc="http://creativecommons.org/ns#" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:foaf="http://xmlns.com/foaf/0.1/" xmlns:gn="http://www.geonames.org/ontology#" xmlns:owl="http://www.w3.org/2002/07/owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:wgs84_pos="http://www.w3.org/2003/01/geo/wgs84_pos#">
+    <gn:Feature rdf:about="https://sws.geonames.org/6691831/">
+        <rdfs:isDefinedBy rdf:resource="https://sws.geonames.org/6691831/about.rdf"/>
+        <gn:name>Vatican City</gn:name>
+        <gn:shortName xml:lang="ko">바티칸</gn:shortName>
+        <gn:alternateName xml:lang="ko">바티칸 시</gn:alternateName>
+        <gn:alternateName xml:lang="it">Città del Vaticano</gn:alternateName>
+        <gn:alternateName xml:lang="es">Ciudad del Vaticano</gn:alternateName>
+        <gn:alternateName xml:lang="fr">État de la Cité du Vatican</gn:alternateName>
+        <gn:alternateName xml:lang="de">Staat der Vatikanstadt</gn:alternateName>
+        <gn:alternateName xml:lang="de">Staat Vatikanstadt</gn:alternateName>
+        <gn:alternateName xml:lang="en">Vatican</gn:alternateName>
+        <gn:officialName xml:lang="fr">Vatican</gn:officialName>
+        <gn:officialName xml:lang="en">Vatican City</gn:officialName>
+        <gn:alternateName xml:lang="en">Vatican City State</gn:alternateName>
+        <gn:alternateName xml:lang="es">Vaticano</gn:alternateName>
+        <gn:alternateName xml:lang="it">Vaticano</gn:alternateName>
+        <gn:alternateName xml:lang="lt">Vatikanas</gn:alternateName>
+        <gn:officialName xml:lang="sv">Vatikanstaden</gn:officialName>
+        <gn:officialName xml:lang="de">Vatikanstadt</gn:officialName>
+        <gn:alternateName xml:lang="ru">Ватикан</gn:alternateName>
+        <gn:featureClass rdf:resource="https://www.geonames.org/ontology#P"/>
+        <gn:featureCode rdf:resource="https://www.geonames.org/ontology#P.PPLC"/>
+        <gn:countryCode>VA</gn:countryCode>
+        <gn:population>829</gn:population>
+        <wgs84_pos:lat>41.90268</wgs84_pos:lat>
+        <wgs84_pos:long>12.45414</wgs84_pos:long>
+        <wgs84_pos:alt>55</wgs84_pos:alt>
+        <gn:parentFeature rdf:resource="https://sws.geonames.org/3164670/"/>
+        <gn:parentCountry rdf:resource="https://sws.geonames.org/3164670/"/>
+        <gn:nearbyFeatures rdf:resource="https://sws.geonames.org/6691831/nearby.rdf"/>
+        <gn:locationMap rdf:resource="https://www.geonames.org/6691831/vatican-city.html"/>
+        <gn:wikipediaArticle rdf:resource="https://en.wikipedia.org/wiki/Vatican_City"/>
+        <rdfs:seeAlso rdf:resource="https://dbpedia.org/resource/Vatican_City"/>
+    </gn:Feature>
+    <foaf:Document rdf:about="https://sws.geonames.org/6691831/about.rdf">
+        <foaf:primaryTopic rdf:resource="https://sws.geonames.org/6691831/"/>
+        <cc:license rdf:resource="https://creativecommons.org/licenses/by/4.0/"/>
+        <cc:attributionURL rdf:resource="https://www.geonames.org"/>
+        <cc:attributionName rdf:datatype="https://www.w3.org/2001/XMLSchema#string">GeoNames</cc:attributionName>
+        <dcterms:created rdf:datatype="https://www.w3.org/2001/XMLSchema#date">2008-04-14</dcterms:created>
+        <dcterms:modified rdf:datatype="https://www.w3.org/2001/XMLSchema#date">2018-08-17</dcterms:modified>
+    </foaf:Document>
+</rdf:RDF>

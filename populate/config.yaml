@@ -1,9 +1,9 @@
 vocabularies:
   endpoint: https://data.odeuropa.eu/repositories/odeuropa # sparql endpoint
   weights: # weights for the similarity measure of not exact matches
-    alternate_labels: 0.7
-    other_languages: 0.6
-    unmatching_start: 0.7
+    alternate_labels: 0.9
+    other_languages: 0.7
+    unmatching_start: 0.9
   vocabularies: # list of vocabularies to include in the API
     plutchik:
       scheme: http://data.odeuropa.eu/vocabulary/plutchik/

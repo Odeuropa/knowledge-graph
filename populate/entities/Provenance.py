@@ -1,4 +1,4 @@
-from rdflib import PROV, RDFS, SDO
+from rdflib import PROV, RDFS, SDO, URIRef
 
 from . import Person
 from .Entity import Entity
@@ -12,8 +12,9 @@ class Provenance(Entity):
         self.add(RDFS.comment, description)
 
         if annotator:
-            annt = Person(annotator, anonymize=True)
-            self.add(PROV.wasAssociatedWith, annt)
+            if not isinstance(annotator, URIRef):
+                annotator = Person(annotator, anonymize=True)
+            self.add(PROV.wasAssociatedWith, annotator)
 
     def add_software(self, name, uri):
         sa = SoftwareAgent(name, uri)

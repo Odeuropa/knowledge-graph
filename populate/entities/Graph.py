@@ -6,6 +6,8 @@ from .Entity import Entity
 
 g = Graph()
 
+ODEUROPA = URIRef('http://data.odeuropa.eu/odeuropa')
+
 
 def set_prefixes(gx):
     gx.bind("od", ODEUROPA)

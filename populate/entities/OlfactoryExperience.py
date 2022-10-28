@@ -78,7 +78,7 @@ class OlfactoryExperience(Entity):
         self.add(ODEUROPA.F6_evoked, obj)
 
     def add_emotion(self, label, typ, sentiment):
-        typ = [t for t in typ.split(' | ') if t != 'Smell_Word'][0]
+        typ = [t for t in typ.split(' | ') if t != 'smell_word'][0]
         em = Emotion(self.seed, label, typ, sentiment)
         # print(label, typ, sentiment)
         em.add(REO.readP27, self)

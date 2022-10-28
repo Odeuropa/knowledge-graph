@@ -54,7 +54,8 @@ def process_metadata(df):
         lang = langs[0]
 
         date = r['Earliest Date'].strip().replace('.0', '').ljust(4, 'X')
-        if 'Latest Date' in r and len(r['Latest Date']) > 0:
+        end_date = r.get(r['Latest Date'], '')
+        if len(end_date) > 0 and end_date != date:
             date += '/' + r['Latest Date'].strip().replace('.0', '').ljust(4, 'X')
         if date == 'XXXX':
             date = None
@@ -211,7 +212,7 @@ with open('input/image-odor-dataset/annotations.json') as f:
         smell, emission, experience = smell_map[image_id]
         if isinstance(cat, Gesture):
             experience.add_gesture(cat)
-        elif cat.role == 'carrier':
+        elif isinstance(cat, SmellSource) and cat.role == 'carrier':
             emission.add_carrier(cat)
         else:
             emission.add_source(cat)

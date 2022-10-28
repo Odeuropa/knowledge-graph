@@ -11,6 +11,7 @@ from tqdm import tqdm
 from rdflib import SDO, RDF, SKOS
 
 from entities import *
+from entities.Graph import ODEUROPA
 from entities.vocabularies import VocabularyManager as VocabularyManager
 from entities.utils.smell_words import get_all_smell_words
 from entities.utils.pos import Pronouns
@@ -94,13 +95,15 @@ def process_annotation_sheet(df, lang, codename):
     doc_map = {}
 
     for i, r in tqdm(df.iterrows(), total=df.shape[0]):
+        sentence = r.get('Sentence', r.get('Full_Sentence'))
+
         # too many spaces = fake sentence
-        if len(re.findall(r"\w", r['Sentence'])) - len(re.findall(r"\W", r['Sentence'])) < 10:
+        if len(re.findall(r"\w", sentence)) - len(re.findall(r"\W", sentence)) < 10:
             continue
 
-        if r['Sentence'] in sentence_archive:
+        if sentence in sentence_archive:
             continue
-        sentence_archive.append(r['Sentence'])
+        sentence_archive.append(sentence)
 
         title = r.get('Title', r.get('Book', None)).replace('.tsv', '.txt')
         if 'annotator1.xmi' in title:
@@ -114,13 +117,14 @@ def process_annotation_sheet(df, lang, codename):
         doc_map[identifier] += 1
 
         txt = doc or TextualObject(identifier, title)
-        frag = txt.add_fragment(r['Sentence'].replace(' | ', ''), lang)
+        frag = txt.add_fragment(sentence.replace(' | ', ''), lang)
 
         if 'Annotator' in r:
             prov = Provenance(codename + r['Annotator'], 'Manual text annotation', PROV_DESCR, r['Annotator'])
         else:
-            prov = Provenance(codename, 'Automatic annotation', 'Automatic Annotation for the PastScent workshop', None)
-            prov.add_software('PastScent', 'https://github.com/Odeuropa/PastScent')
+            prov = Provenance(codename, 'Automatic annotation', 'Automatic Annotation within the Odeuropa project',
+                              ODEUROPA)
+            prov.add_software('SmellClassifier', 'https://github.com/Odeuropa/wp3-information-extraction-system')
 
         curid = codename + identifier + '$' + str(j)
         smell = Smell(curid)
@@ -171,7 +175,7 @@ def process_annotation_sheet(df, lang, codename):
         if emotion:
             for e in np.unique(emotion.split(' | ')):
                 if r['Emotion_Type'] == 'Smell_Word':
-                    return
+                    continue
                 typ = r['Emotion_Other'] if r['Emotion_Type'] == 'Other' else r['Emotion_Type']
                 experience.add_emotion(e, typ.lower(), r['Emotion_Sentiment'])
 

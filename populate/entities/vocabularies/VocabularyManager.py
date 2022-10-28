@@ -45,8 +45,16 @@ class VocabularyController:
             return None, None
         q = word.lower()
         if lang in nlp:
-            tokens = nlp[lang](q)
-            tokens = [x for x in tokens if x.dep_ not in ['det', 'quantmod']]
+            tk = nlp[lang](q)
+            tokens = []
+            root_found = False
+            for x in tk:
+                if not root_found and x.dep_ in ['det', 'quantmod']:
+                    continue
+
+                tokens.append(x)
+                if x.dep_ == 'ROOT':
+                    root_found = True
 
             if len(tokens) == 1 and tokens[0].pos_ == 'PRON' and tokens[0].text != 'aegypt':
                 # TODO detect male and females, detect me and you

@@ -92,6 +92,7 @@ Install skosmos using docker
     python convert_text.py -i ./input/gutenberg --lang en
     python convert_text.py -i ./input/eebo --lang en
     python convert_text.py -i ./input/gallica --lang fr
+    python convert_text.py -i ./input/dbnl --lang nl
     python convert_img.py
 
 
