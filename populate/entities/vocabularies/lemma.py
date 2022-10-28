@@ -1,3 +1,4 @@
+import re
 import Levenshtein
 
 
@@ -8,6 +9,7 @@ def move(array, oldIndex, newIndex):
 
 def lowercasing(l):
     value = (l['@value'] if '@value' in l else l).lower()
+    value = re.sub(r'\(.+\)', '', value).strip()
     if '@value' in l:
         l['@value'] = value
         return l
@@ -28,8 +30,9 @@ DEFAULT_OPTIONS = {
 }
 
 
-def computeSimilarityScore(l, q, accepted, autocomplete, lowerBound):
+def compute_similarity_score(l, q, accepted, autocomplete, lowerBound):
     value = l['@value'] if '@value' in l else l
+
     if not value or not isinstance(value, str):
         return 0
 
@@ -45,15 +48,15 @@ def computeSimilarityScore(l, q, accepted, autocomplete, lowerBound):
         langQuality = 1
 
     score = Levenshtein.ratio(q, value)
-    value_comp = q[0:-1] if (accepted and accepted[0:2]) == 'it' else q
+    value_comp = q[0:min(len(q), len(value), 5)]
     startQual = 1 if value.startswith(value_comp) else Lemma.UNMATCHING_START_WEIGHT
     return score * langQuality * startQual
 
 
 class Lemma:
-    ALT_WEIGHT = 0.7
+    ALT_WEIGHT = 0.8
     OTHER_LANG_WEIGHT = 0.6
-    UNMATCHING_START_WEIGHT = 0.7
+    UNMATCHING_START_WEIGHT = 0.9
 
     def __init__(self, data, score=0):
         self.data = data
@@ -123,9 +126,9 @@ class Lemma:
         q = q
         lowerBound = 0.2
 
-        scores = [computeSimilarityScore(l, q, lang, autocomplete, lowerBound) for l in self.prefLabel]
+        scores = [compute_similarity_score(l, q, lang, autocomplete, lowerBound) for l in self.prefLabel]
 
-        altScores = [computeSimilarityScore(l, q, lang, autocomplete, lowerBound) for l in self.altLabel]
+        altScores = [compute_similarity_score(l, q, lang, autocomplete, lowerBound) for l in self.altLabel]
         altScores = [s * Lemma.ALT_WEIGHT for s in altScores]
 
         return max(scores + altScores)

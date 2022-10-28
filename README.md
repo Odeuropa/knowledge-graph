@@ -49,6 +49,7 @@ Upload dumps
     python3 scripts/load_dump.py old-bailey-corpus
     python3 scripts/load_dump.py gutenberg
     python3 scripts/load_dump.py eebo
+    python3 scripts/load_dump.py gallica
 
 ## Apache Configuration and dereferencing
 
@@ -79,6 +80,11 @@ Install skosmos using docker
 
     cd populate
     pip install -r requirements.txt
+    spacy download en_core_web_sm
+    spacy download fr_core_news_sm
+    spacy download nl_core_news_sm
+    spacy download de_core_news_sm
+    spacy download it_core_news_sm
 
     python convert_text.py -i ./input/text-annotation
     python convert_text.py -i ./input/royal-society-corpus --lang en

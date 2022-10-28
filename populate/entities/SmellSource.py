@@ -23,6 +23,8 @@ class SmellSource(Entity):
             self.set_class(CRMsci.S10_Material_Substantial)
         else:
             self.add(CRM.P137_exemplifies, lemma)
+            if role == 'person':
+                self.set_class(CRM.E21_Person)
             if role and ARTIFACT in role:
                 self.set_class(CRM.E22_HumanMade_Object)
             else:

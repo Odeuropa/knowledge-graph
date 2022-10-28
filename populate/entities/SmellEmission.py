@@ -13,14 +13,14 @@ class SmellEmission(Entity):
 
         self.count_source = 0
 
-        for i, x in enumerate(re.split(r' ?\| ?', source)):
+        for x in re.split(r'(?: ?\| ?)|(?: and )', source):
             if not x or re.match(r'^\W+$', x.strip()):
                 break
             s = re.sub(r'^(of|with) ', '', x.strip()).strip()
 
             self.add_source(s, lang)
 
-        for i, x in enumerate(carrier.split(' | ')):
+        for x in carrier.split(' | '):
             if not x:
                 break
             c = re.sub(r'^of ', '', x).strip()

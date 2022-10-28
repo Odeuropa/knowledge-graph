@@ -147,8 +147,8 @@ def process_annotation_sheet(df, lang, codename):
 
         for x in r.get('Effect', '').split('|'):
             experience.add_gesture(x, lang=lang)
-        for x in r.get('Evoked_Odorant', '').split('|'):
-            experience.evoked(x, lang=lang)
+        for x in re.split(r'(?: ?\| ?)|(?: and )', r.get('Evoked_Odorant', '')):
+            experience.evoked(x.strip(), lang=lang)
 
         if type(r.get('Location', None)) == str:
             for x in r['Location'].split('|'):

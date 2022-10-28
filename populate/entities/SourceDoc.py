@@ -76,6 +76,8 @@ class SourceDoc(Entity):
         self.add(SDO.url, url)
 
     def add_license(self, text):
+        if not text:
+            return
         CC_REGEX = r'CC (.+) (\d\.\d)'
         m = re.match(CC_REGEX, text)
         if m:

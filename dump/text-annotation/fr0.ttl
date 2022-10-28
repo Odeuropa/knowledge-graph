@@ -13,39 +13,39 @@
 
 <http://data.odeuropa.eu/emotion/3f7eb183-e0f0-523b-b2be-c22843c2a3b8> a reo:REO21 ;
     rdfs:label "vn plus grand tourment" ;
-    crm:P137_exemplifies <http://data.odeuropa.eu/emotion-type/sadness> ;
+    crm:P137_exemplifies <http://data.odeuropa.eu/vocabulary/plutchik/sadness> ;
     crm:P2_has_type <http://data.odeuropa.eu/sentiment/negative> ;
     reo:readP27 <http://data.odeuropa.eu/experience/07c95d63-2789-5802-b2ef-ec386e5ea558> .
 
 <http://data.odeuropa.eu/emotion/4831238d-2d33-5aa6-896d-03271472b62e> a reo:REO21 ;
     rdfs:label "importune",
         "indifférente" ;
-    crm:P137_exemplifies <http://data.odeuropa.eu/emotion-type/surprise> ;
+    crm:P137_exemplifies <http://data.odeuropa.eu/vocabulary/plutchik/surprise> ;
     crm:P2_has_type <http://data.odeuropa.eu/sentiment/neutral> ;
     reo:readP27 <http://data.odeuropa.eu/experience/47263590-70f9-5256-b36c-b3838075d0de> .
 
 <http://data.odeuropa.eu/emotion/4d3f27d0-3d1a-5bdf-ab62-c431413a4fa7> a reo:REO21 ;
     rdfs:label "Malheureusement" ;
-    crm:P137_exemplifies <http://data.odeuropa.eu/emotion-type/sadness> ;
+    crm:P137_exemplifies <http://data.odeuropa.eu/vocabulary/plutchik/sadness> ;
     crm:P2_has_type <http://data.odeuropa.eu/sentiment/negative> ;
     reo:readP27 <http://data.odeuropa.eu/experience/557956a4-5df0-5ae1-99a9-54f91002b693> .
 
 <http://data.odeuropa.eu/emotion/6ce6cff9-066d-537e-8967-d5d45d98d8f9> a reo:REO21 ;
     rdfs:label "jouissances" ;
-    crm:P137_exemplifies <http://data.odeuropa.eu/emotion-type/joy> ;
+    crm:P137_exemplifies <http://data.odeuropa.eu/vocabulary/plutchik/joy> ;
     crm:P2_has_type <http://data.odeuropa.eu/sentiment/positive> ;
     reo:readP27 <http://data.odeuropa.eu/experience/7552c71e-b18b-5d07-b01f-b8f8482e69ec> .
 
 <http://data.odeuropa.eu/emotion/a25a5543-2c9c-55f0-9ea2-bd7b26384c2d> a reo:REO21 ;
     rdfs:label "calme",
         "gaîté" ;
-    crm:P137_exemplifies <http://data.odeuropa.eu/emotion-type/joy> ;
+    crm:P137_exemplifies <http://data.odeuropa.eu/vocabulary/plutchik/joy> ;
     crm:P2_has_type <http://data.odeuropa.eu/sentiment/positive> ;
     reo:readP27 <http://data.odeuropa.eu/experience/1f532cf2-5849-50c5-a1a9-35b9019ee5b7> .
 
 <http://data.odeuropa.eu/emotion/e8248b41-66cb-5537-8334-9d9ff2a2565f> a reo:REO21 ;
     rdfs:label "grãd tourment" ;
-    crm:P137_exemplifies <http://data.odeuropa.eu/emotion-type/sadness> ;
+    crm:P137_exemplifies <http://data.odeuropa.eu/vocabulary/plutchik/sadness> ;
     crm:P2_has_type <http://data.odeuropa.eu/sentiment/negative> ;
     reo:readP27 <http://data.odeuropa.eu/experience/d32aab1c-34c8-57f5-92ad-c86e3b127905> .
 
@@ -111,28 +111,28 @@
     rdfs:label "diverses"@fr ;
     crm:P140_assigned_attribute_to <http://data.odeuropa.eu/smell/bdf056a1-cfc4-59e0-829e-7974110c9423> ;
     crm:P141_assigned <http://data.odeuropa.eu/attribute/diverses_fr> ;
-    crm:P14_carried_out_by <http://data.odeuropa.eu/actor/b66919fd-24d6-5be7-8c27-9a1b89bafe1a> ;
+    crm:P14_carried_out_by <http://data.odeuropa.eu/actor/f6c2e273-b3a7-58c2-9404-5a58594ec568> ;
     crm:P17_was_motivated_by <http://data.odeuropa.eu/experience/933f4e94-adab-57b7-85e8-4f5c48e789f7> .
 
 <http://data.odeuropa.eu/experience/933f4e94-adab-57b7-85e8-4f5c48e789f7/assignment/2> a crm:E13_Attribute_Assignment ;
     rdfs:label "qui"@fr ;
     crm:P140_assigned_attribute_to <http://data.odeuropa.eu/smell/bdf056a1-cfc4-59e0-829e-7974110c9423> ;
     crm:P141_assigned <http://data.odeuropa.eu/attribute/qui_fr> ;
-    crm:P14_carried_out_by <http://data.odeuropa.eu/actor/b66919fd-24d6-5be7-8c27-9a1b89bafe1a> ;
+    crm:P14_carried_out_by <http://data.odeuropa.eu/actor/f6c2e273-b3a7-58c2-9404-5a58594ec568> ;
     crm:P17_was_motivated_by <http://data.odeuropa.eu/experience/933f4e94-adab-57b7-85e8-4f5c48e789f7> .
 
 <http://data.odeuropa.eu/experience/933f4e94-adab-57b7-85e8-4f5c48e789f7/assignment/3> a crm:E13_Attribute_Assignment ;
     rdfs:label "dangereuses"@fr ;
     crm:P140_assigned_attribute_to <http://data.odeuropa.eu/smell/bdf056a1-cfc4-59e0-829e-7974110c9423> ;
     crm:P141_assigned <http://data.odeuropa.eu/attribute/dangereuses_fr> ;
-    crm:P14_carried_out_by <http://data.odeuropa.eu/actor/b66919fd-24d6-5be7-8c27-9a1b89bafe1a> ;
+    crm:P14_carried_out_by <http://data.odeuropa.eu/actor/f6c2e273-b3a7-58c2-9404-5a58594ec568> ;
     crm:P17_was_motivated_by <http://data.odeuropa.eu/experience/933f4e94-adab-57b7-85e8-4f5c48e789f7> .
 
 <http://data.odeuropa.eu/experience/933f4e94-adab-57b7-85e8-4f5c48e789f7/assignment/4> a crm:E13_Attribute_Assignment ;
     rdfs:label "utiles"@fr ;
     crm:P140_assigned_attribute_to <http://data.odeuropa.eu/smell/bdf056a1-cfc4-59e0-829e-7974110c9423> ;
     crm:P141_assigned <http://data.odeuropa.eu/attribute/utiles_fr> ;
-    crm:P14_carried_out_by <http://data.odeuropa.eu/actor/b66919fd-24d6-5be7-8c27-9a1b89bafe1a> ;
+    crm:P14_carried_out_by <http://data.odeuropa.eu/actor/f6c2e273-b3a7-58c2-9404-5a58594ec568> ;
     crm:P17_was_motivated_by <http://data.odeuropa.eu/experience/933f4e94-adab-57b7-85e8-4f5c48e789f7> .
 
 <http://data.odeuropa.eu/experience/98894c30-ebff-59b6-8345-a1581cada749/assignment/1> a crm:E13_Attribute_Assignment ;
@@ -560,6 +560,9 @@
 
 <http://data.odeuropa.eu/actor/7b799db0-6ec7-56f5-9e22-c745c6da3ee5> a crm:E21_Person .
 
+<http://data.odeuropa.eu/actor/b66919fd-24d6-5be7-8c27-9a1b89bafe1a> a crm:E39_Actor ;
+    rdfs:label "s'exilaient" .
+
 <http://data.odeuropa.eu/attribute/%C3%A2cre_fr> a crm:E90_Symbolic_Object ;
     rdfs:label "âcre"@fr .
 
@@ -623,9 +626,6 @@
 <http://data.odeuropa.eu/attribute/v%C3%A9n%C3%A9rables_fr> a crm:E90_Symbolic_Object ;
     rdfs:label "vénérables"@fr .
 
-<http://data.odeuropa.eu/emotion-type/surprise> a <http://www.w3.org/2004/02/skos/core#Concept> ;
-    rdfs:label "surprise" .
-
 <http://data.odeuropa.eu/experience/b1608e4a-963c-5156-8fc0-22ceb8ba5592> a od:L13_Olfactory_Experience ;
     od:F2_perceived <http://data.odeuropa.eu/smell/bcee6def-f851-5aaf-89bf-71dafc0345f4> ;
     crm:P14_carried_out_by <http://data.odeuropa.eu/actor/9d01d134-1a67-559d-b8f0-f13994925351> ;
@@ -680,8 +680,7 @@
     rdfs:label "cheveux"@fr .
 
 <http://data.odeuropa.eu/object/bf33ded2-1726-5938-b749-4ca91a4f1991> a crmsci:S10_Material_Substantial ;
-    rdfs:label "leur"@fr ;
-    crm:P137_exemplifies <http://data.odeuropa.eu/vocabulary/olfactory-objects/72> .
+    rdfs:label "leur"@fr .
 
 <http://data.odeuropa.eu/object/d1630584-e3fb-5d90-8da0-0db95c19c9b6> a crmsci:S10_Material_Substantial ;
     rdfs:label "celle"@fr .
@@ -710,9 +709,9 @@
 <http://data.odeuropa.eu/object/f7afbc6f-2469-55b5-87c9-75fcc39a5733> a crmsci:S10_Material_Substantial ;
     rdfs:label "plante Vénéneuse"@fr .
 
-<http://data.odeuropa.eu/object/f8c29c69-5432-5e5a-a415-7526141a21d7> a crmsci:S10_Material_Substantial ;
+<http://data.odeuropa.eu/object/f8c29c69-5432-5e5a-a415-7526141a21d7> a <E22_Human-Made_Object> ;
     rdfs:label "poudre"@fr ;
-    crm:P137_exemplifies <http://data.odeuropa.eu/vocabulary/olfactory-objects/216> .
+    crm:P137_exemplifies <http://data.odeuropa.eu/vocabulary/olfactory-objects/132> .
 
 <http://data.odeuropa.eu/sentiment/neutral> a <http://www.w3.org/2004/02/skos/core#Concept> ;
     rdfs:label "Neutral" .
@@ -987,9 +986,6 @@
     od:F1_generated <http://data.odeuropa.eu/smell/d8866f39-7d12-59ac-af58-1420847e8ac7> ;
     time:hasTime <http://data.odeuropa.eu/time/c4efcd34-6d68-5aeb-b5c8-ec7d8aeb89c5> .
 
-<http://data.odeuropa.eu/emotion-type/joy> a <http://www.w3.org/2004/02/skos/core#Concept> ;
-    rdfs:label "joy" .
-
 <http://data.odeuropa.eu/experience/0ccc9c22-41fb-58f7-af36-697bb5a3ca0e> a od:L13_Olfactory_Experience ;
     od:F2_perceived <http://data.odeuropa.eu/smell/9b808d2e-c2a8-5eb0-9794-3ebbcf73eba5> ;
     time:hasTime <http://data.odeuropa.eu/time/44e98cfe-a64b-5277-af17-4c92fa68e7d3> .
@@ -1018,12 +1014,6 @@
 
 <http://data.odeuropa.eu/actor/96143710-9df4-500a-a36c-5fc6a4566d31> a crm:E39_Actor ;
     rdfs:label "vous-obstinéz" .
-
-<http://data.odeuropa.eu/actor/f6c2e273-b3a7-58c2-9404-5a58594ec568> a crm:E39_Actor ;
-    rdfs:label "nous" .
-
-<http://data.odeuropa.eu/emotion-type/sadness> a <http://www.w3.org/2004/02/skos/core#Concept> ;
-    rdfs:label "sadness" .
 
 <http://data.odeuropa.eu/experience/1f532cf2-5849-50c5-a1a9-35b9019ee5b7> a od:L13_Olfactory_Experience ;
     od:F2_perceived <http://data.odeuropa.eu/smell/92a65fa2-f599-58c5-9a61-dad46b4a6946> ;
@@ -1136,9 +1126,6 @@
 <http://data.odeuropa.eu/actor/9d01d134-1a67-559d-b8f0-f13994925351> a crm:E39_Actor ;
     rdfs:label "notre" .
 
-<http://data.odeuropa.eu/actor/b66919fd-24d6-5be7-8c27-9a1b89bafe1a> a crm:E39_Actor ;
-    rdfs:label "s'exilaient" .
-
 <http://data.odeuropa.eu/smell/0042f86e-a423-5684-a2b1-bd857fe69706> a od:L11_Smell ;
     rdfs:label "parfums"@fr .
 
@@ -1188,6 +1175,9 @@
 
 <http://data.odeuropa.eu/smell/899b1a0c-2fed-5a0f-978b-0cc2a8df1a49> a od:L11_Smell ;
     rdfs:label "répandent"@fr .
+
+<http://data.odeuropa.eu/actor/f6c2e273-b3a7-58c2-9404-5a58594ec568> a crm:E39_Actor ;
+    rdfs:label "nous" .
 
 <http://data.odeuropa.eu/smell/59da817e-e31a-5eb1-838a-57c631a0dcfc> a od:L11_Smell ;
     rdfs:label "puanteur"@fr .
