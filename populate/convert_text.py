@@ -11,7 +11,7 @@ from tqdm import tqdm
 from rdflib import SDO, RDF, SKOS
 
 from entities import *
-from entities.Graph import ODEUROPA
+from entities.Graph import ODEUROPA_PROJECT
 from entities.vocabularies import VocabularyManager as VocabularyManager
 from entities.utils.smell_words import get_all_smell_words
 from entities.utils.pos import Pronouns
@@ -123,7 +123,7 @@ def process_annotation_sheet(df, lang, codename):
             prov = Provenance(codename + r['Annotator'], 'Manual text annotation', PROV_DESCR, r['Annotator'])
         else:
             prov = Provenance(codename, 'Automatic annotation', 'Automatic Annotation within the Odeuropa project',
-                              ODEUROPA)
+                              ODEUROPA_PROJECT)
             prov.add_software('SmellClassifier', 'https://github.com/Odeuropa/wp3-information-extraction-system')
 
         curid = codename + identifier + '$' + str(j)

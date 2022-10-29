@@ -1931,8 +1931,9 @@
 <http://data.odeuropa.eu/experience/2bc33429-2a20-55fc-ad55-40b1aed473ee/assignment/1> a crm:E13_Attribute_Assignment ;
     rdfs:label "leggiero"@it ;
     crm:P140_assigned_attribute_to <http://data.odeuropa.eu/smell/58eb824b-883d-5652-8e0a-e8af35900536> ;
-    crm:P141_assigned <http://data.odeuropa.eu/attribute/leggiero_it> ;
-    crm:P17_was_motivated_by <http://data.odeuropa.eu/experience/2bc33429-2a20-55fc-ad55-40b1aed473ee> .
+    crm:P141_assigned <http://data.odeuropa.eu/vocabulary/vdi-hedonic/05n> ;
+    crm:P17_was_motivated_by <http://data.odeuropa.eu/experience/2bc33429-2a20-55fc-ad55-40b1aed473ee> ;
+    crm:P2_has_type <http://data.odeuropa.eu/attribute-type/hedonic> .
 
 <http://data.odeuropa.eu/experience/2bc33429-2a20-55fc-ad55-40b1aed473ee/assignment/2> a crm:E13_Attribute_Assignment ;
     rdfs:label "farinaceo"@it ;
@@ -1945,8 +1946,7 @@
     crm:P140_assigned_attribute_to <http://data.odeuropa.eu/smell/3465229e-b631-594d-96ba-290af375bc0c> ;
     crm:P141_assigned <http://data.odeuropa.eu/vocabulary/vdi-intensity/0> ;
     crm:P17_was_motivated_by <http://data.odeuropa.eu/experience/2d9ea532-632c-5e16-a0a3-a06393475554> ;
-    crm:P2_has_type <http://data.odeuropa.eu/attribute-type/intensity> ;
-    rdfs:comment "quasi"@it .
+    crm:P2_has_type <http://data.odeuropa.eu/attribute-type/intensity> .
 
 <http://data.odeuropa.eu/experience/2fff962e-24ac-53ed-9522-7b1147535486/assignment/1> a crm:E13_Attribute_Assignment ;
     rdfs:label "forte"@it ;
@@ -2255,8 +2255,9 @@
 <http://data.odeuropa.eu/experience/55ad56de-e1c0-541e-bd00-f8729af2a735/assignment/1> a crm:E13_Attribute_Assignment ;
     rdfs:label "più leggiere"@it ;
     crm:P140_assigned_attribute_to <http://data.odeuropa.eu/smell/deb90e3b-7359-5797-bf5a-9897ac2d6756> ;
-    crm:P141_assigned <http://data.odeuropa.eu/attribute/pi%C3%B9%20leggiere_it> ;
+    crm:P141_assigned <http://data.odeuropa.eu/vocabulary/vdi-hedonic/05n> ;
     crm:P17_was_motivated_by <http://data.odeuropa.eu/experience/55ad56de-e1c0-541e-bd00-f8729af2a735> ;
+    crm:P2_has_type <http://data.odeuropa.eu/attribute-type/hedonic> ;
     rdfs:comment "più"@it .
 
 <http://data.odeuropa.eu/experience/5631b260-9c5c-59b6-89eb-4e1879baf0dc/assignment/1> a crm:E13_Attribute_Assignment ;
@@ -2429,8 +2430,9 @@
 <http://data.odeuropa.eu/experience/6f941897-c998-51e6-afa8-e8d66d180c65/assignment/1> a crm:E13_Attribute_Assignment ;
     rdfs:label "eccitate"@it ;
     crm:P140_assigned_attribute_to <http://data.odeuropa.eu/smell/1594f0f8-13f9-5e04-ac95-25f7a89f52e6> ;
-    crm:P141_assigned <http://data.odeuropa.eu/attribute/eccitate_it> ;
-    crm:P17_was_motivated_by <http://data.odeuropa.eu/experience/6f941897-c998-51e6-afa8-e8d66d180c65> .
+    crm:P141_assigned <http://data.odeuropa.eu/vocabulary/vdi-hedonic/08p> ;
+    crm:P17_was_motivated_by <http://data.odeuropa.eu/experience/6f941897-c998-51e6-afa8-e8d66d180c65> ;
+    crm:P2_has_type <http://data.odeuropa.eu/attribute-type/hedonic> .
 
 <http://data.odeuropa.eu/experience/701f7590-f514-5773-b99b-49ba3b2d6a0c/assignment/1> a crm:E13_Attribute_Assignment ;
     rdfs:label "anormali"@it ;
@@ -2466,8 +2468,9 @@
 <http://data.odeuropa.eu/experience/766d7dd4-bc50-52f6-a343-f67d170cc344/assignment/1> a crm:E13_Attribute_Assignment ;
     rdfs:label "cattivo"@it ;
     crm:P140_assigned_attribute_to <http://data.odeuropa.eu/smell/544f3784-3170-54bc-a1c8-3e8b1f16e91c> ;
-    crm:P141_assigned <http://data.odeuropa.eu/attribute/cattivo_it> ;
-    crm:P17_was_motivated_by <http://data.odeuropa.eu/experience/766d7dd4-bc50-52f6-a343-f67d170cc344> .
+    crm:P141_assigned <http://data.odeuropa.eu/vocabulary/vdi-hedonic/22n> ;
+    crm:P17_was_motivated_by <http://data.odeuropa.eu/experience/766d7dd4-bc50-52f6-a343-f67d170cc344> ;
+    crm:P2_has_type <http://data.odeuropa.eu/attribute-type/hedonic> .
 
 <http://data.odeuropa.eu/experience/76905c59-0949-5470-9131-21a99fdc288e/assignment/1> a crm:E13_Attribute_Assignment ;
     rdfs:label "simile"@it ;
@@ -3183,8 +3186,9 @@
 <http://data.odeuropa.eu/experience/d4831729-de22-5794-bbf2-8344015191eb/assignment/1> a crm:E13_Attribute_Assignment ;
     rdfs:label "leggiero"@it ;
     crm:P140_assigned_attribute_to <http://data.odeuropa.eu/smell/c00ca4f7-98b9-5c56-8ecb-570820d8e12a> ;
-    crm:P141_assigned <http://data.odeuropa.eu/attribute/leggiero_it> ;
-    crm:P17_was_motivated_by <http://data.odeuropa.eu/experience/d4831729-de22-5794-bbf2-8344015191eb> .
+    crm:P141_assigned <http://data.odeuropa.eu/vocabulary/vdi-hedonic/05n> ;
+    crm:P17_was_motivated_by <http://data.odeuropa.eu/experience/d4831729-de22-5794-bbf2-8344015191eb> ;
+    crm:P2_has_type <http://data.odeuropa.eu/attribute-type/hedonic> .
 
 <http://data.odeuropa.eu/experience/d4831729-de22-5794-bbf2-8344015191eb/assignment/2> a crm:E13_Attribute_Assignment ;
     rdfs:label "farinaceo"@it ;
@@ -3445,8 +3449,9 @@
 <http://data.odeuropa.eu/experience/ebf22c30-61e5-5224-ab8c-a85ecba7c8d9/assignment/1> a crm:E13_Attribute_Assignment ;
     rdfs:label "incessante"@it ;
     crm:P140_assigned_attribute_to <http://data.odeuropa.eu/smell/f7d66f1f-7aef-5909-be4f-0fadd9cdc3fe> ;
-    crm:P141_assigned <http://data.odeuropa.eu/attribute/incessante_it> ;
-    crm:P17_was_motivated_by <http://data.odeuropa.eu/experience/ebf22c30-61e5-5224-ab8c-a85ecba7c8d9> .
+    crm:P141_assigned <http://data.odeuropa.eu/vocabulary/vdi-hedonic/12p> ;
+    crm:P17_was_motivated_by <http://data.odeuropa.eu/experience/ebf22c30-61e5-5224-ab8c-a85ecba7c8d9> ;
+    crm:P2_has_type <http://data.odeuropa.eu/attribute-type/hedonic> .
 
 <http://data.odeuropa.eu/experience/ec219448-a612-5556-be7e-02a18db3ac8c/assignment/1> a crm:E13_Attribute_Assignment ;
     rdfs:label "aromatico"@it ;
@@ -16626,9 +16631,6 @@
 <http://data.odeuropa.eu/attribute/casalinga_it> a crm:E90_Symbolic_Object ;
     rdfs:label "casalinga"@it .
 
-<http://data.odeuropa.eu/attribute/cattivo_it> a crm:E90_Symbolic_Object ;
-    rdfs:label "cattivo"@it .
-
 <http://data.odeuropa.eu/attribute/contagiosa_it> a crm:E90_Symbolic_Object ;
     rdfs:label "contagiosa"@it .
 
@@ -16655,9 +16657,6 @@
 
 <http://data.odeuropa.eu/attribute/diverti_it> a crm:E90_Symbolic_Object ;
     rdfs:label "diverti"@it .
-
-<http://data.odeuropa.eu/attribute/eccitate_it> a crm:E90_Symbolic_Object ;
-    rdfs:label "eccitate"@it .
 
 <http://data.odeuropa.eu/attribute/famoso_it> a crm:E90_Symbolic_Object ;
     rdfs:label "famoso"@it .
@@ -16709,9 +16708,6 @@
 
 <http://data.odeuropa.eu/attribute/in%20molto%20pi%C3%B9%20alto%20grado%20del%20legno_it> a crm:E90_Symbolic_Object ;
     rdfs:label "in molto più alto grado del legno"@it .
-
-<http://data.odeuropa.eu/attribute/incessante_it> a crm:E90_Symbolic_Object ;
-    rdfs:label "incessante"@it .
 
 <http://data.odeuropa.eu/attribute/indicati_it> a crm:E90_Symbolic_Object ;
     rdfs:label "indicati"@it .
@@ -16832,9 +16828,6 @@
 
 <http://data.odeuropa.eu/attribute/pi%C3%B9%20intensi_it> a crm:E90_Symbolic_Object ;
     rdfs:label "più intensi"@it .
-
-<http://data.odeuropa.eu/attribute/pi%C3%B9%20leggiere_it> a crm:E90_Symbolic_Object ;
-    rdfs:label "più leggiere"@it .
 
 <http://data.odeuropa.eu/attribute/pi%C3%B9%20o%20meno%20volatili_it> a crm:E90_Symbolic_Object ;
     rdfs:label "più o meno volatili"@it .
@@ -16957,7 +16950,8 @@
     rdfs:label "tisana"@it .
 
 <http://data.odeuropa.eu/object/010bb960-64de-57d5-92d6-e21633e97d7e> a crmsci:S10_Material_Substantial ;
-    rdfs:label "Il bianco di balena"@it .
+    rdfs:label "Il bianco di balena"@it ;
+    crm:P137_exemplifies <http://data.odeuropa.eu/vocabulary/olfactory-objects/375> .
 
 <http://data.odeuropa.eu/object/01137160-0145-5f4d-b06b-d821af4a369a> a crmsci:S10_Material_Substantial ;
     rdfs:label "Ciampim della Cina"@it .
@@ -17003,7 +16997,8 @@
     rdfs:label "una primavera fiorentina"@it .
 
 <http://data.odeuropa.eu/object/06d3d209-493c-575a-bc58-cca5bb2d0ed3> a crmsci:S10_Material_Substantial ;
-    rdfs:label "di trementina"@it .
+    rdfs:label "di trementina"@it ;
+    crm:P137_exemplifies <http://data.odeuropa.eu/vocabulary/olfactory-objects/275> .
 
 <http://data.odeuropa.eu/object/0752c72b-c005-5608-b817-8fa0b40fe28d> a crmsci:S10_Material_Substantial ;
     rdfs:label "olio"@it ;
@@ -17130,7 +17125,8 @@
     rdfs:label "I fiori degli aranci"@it .
 
 <http://data.odeuropa.eu/object/1292f7f8-1a28-54d4-b268-62805be575c5> a crmsci:S10_Material_Substantial ;
-    rdfs:label "di Ginepro"@it .
+    rdfs:label "di Ginepro"@it ;
+    crm:P137_exemplifies <http://data.odeuropa.eu/vocabulary/olfactory-objects/231> .
 
 <http://data.odeuropa.eu/object/12ab625e-7e5b-54e5-b7a9-d95b3b79c581> a crmsci:S10_Material_Substantial ;
     rdfs:label "thè"@it .
@@ -17168,7 +17164,8 @@
     rdfs:label "estate"@it .
 
 <http://data.odeuropa.eu/object/16c42018-a540-5057-9d89-76f03fea8410> a crmsci:S10_Material_Substantial ;
-    rdfs:label "olii essenziali"@it .
+    rdfs:label "olii essenziali"@it ;
+    crm:P137_exemplifies <http://data.odeuropa.eu/vocabulary/olfactory-objects/62> .
 
 <http://data.odeuropa.eu/object/1775a2c3-06b1-5034-b2a2-db0f9394d7d8> a crmsci:S10_Material_Substantial ;
     rdfs:label "muschio"@it ;
@@ -17208,7 +17205,8 @@
     rdfs:label "dagli abissi nascosi"@it .
 
 <http://data.odeuropa.eu/object/1ab5a1af-a5b1-55f5-b689-c73c77b96393> a crmsci:S10_Material_Substantial ;
-    rdfs:label "di trementina"@it .
+    rdfs:label "di trementina"@it ;
+    crm:P137_exemplifies <http://data.odeuropa.eu/vocabulary/olfactory-objects/275> .
 
 <http://data.odeuropa.eu/object/1bf32f18-f598-5fb9-b445-fa59bad30e34> a crmsci:S10_Material_Substantial ;
     rdfs:label "delle maccalube"@it .
@@ -17251,7 +17249,8 @@
     crm:P137_exemplifies <http://data.odeuropa.eu/vocabulary/olfactory-objects/223> .
 
 <http://data.odeuropa.eu/object/1e87e135-f435-545c-a0a9-2e0b59f89830> a crmsci:S10_Material_Substantial ;
-    rdfs:label "olii essenziali"@it .
+    rdfs:label "olii essenziali"@it ;
+    crm:P137_exemplifies <http://data.odeuropa.eu/vocabulary/olfactory-objects/62> .
 
 <http://data.odeuropa.eu/object/1e8c623d-d260-5772-9395-1f3afd5eec6f> a crmsci:S10_Material_Substantial ;
     rdfs:label "l ’ arrosto"@it .
@@ -17288,7 +17287,8 @@
     rdfs:label "Agarico connato"@it .
 
 <http://data.odeuropa.eu/object/21b0cc91-f5c1-5f6f-ab80-99564448939a> a crmsci:S10_Material_Substantial ;
-    rdfs:label "olio aromatico"@it .
+    rdfs:label "olio aromatico"@it ;
+    crm:P137_exemplifies <http://data.odeuropa.eu/vocabulary/olfactory-objects/212> .
 
 <http://data.odeuropa.eu/object/21bfd847-95d6-579a-b735-1a3678903780> a crmsci:S10_Material_Substantial ;
     rdfs:label "botticella"@it .
@@ -17379,7 +17379,8 @@
     crm:P137_exemplifies <http://data.odeuropa.eu/vocabulary/olfactory-objects/351> .
 
 <http://data.odeuropa.eu/object/2a37fc6c-9122-53df-afdf-21228a79399a> a crmsci:S10_Material_Substantial ;
-    rdfs:label "sterco"@it .
+    rdfs:label "sterco"@it ;
+    crm:P137_exemplifies <http://data.odeuropa.eu/vocabulary/olfactory-objects/145> .
 
 <http://data.odeuropa.eu/object/2a8b50a8-f11b-5df5-9733-a056ae3e8188> a crmsci:S10_Material_Substantial ;
     rdfs:label "i Zeffiri vespertini"@it .
@@ -17419,7 +17420,8 @@
     rdfs:label "ultima porzione"@it .
 
 <http://data.odeuropa.eu/object/2e67b553-79b0-58f8-b191-98ce1cba7cc2> a crmsci:S10_Material_Substantial ;
-    rdfs:label "lo zaffèrauo"@it .
+    rdfs:label "lo zaffèrauo"@it ;
+    crm:P137_exemplifies <http://data.odeuropa.eu/vocabulary/olfactory-objects/414> .
 
 <http://data.odeuropa.eu/object/2e68e4cf-f19d-5c1a-bf24-47fd32f01254> a crmsci:S10_Material_Substantial ;
     rdfs:label "I Mcseiìibriantemi"@it .
@@ -17455,7 +17457,8 @@
     rdfs:label "i vini importati direttamente dall ’ Arcipelago"@it .
 
 <http://data.odeuropa.eu/object/305d79f2-c997-500c-bc72-1e6e3ddaaf01> a crmsci:S10_Material_Substantial ;
-    rdfs:label "corteccie"@it .
+    rdfs:label "corteccie"@it ;
+    crm:P137_exemplifies <http://data.odeuropa.eu/vocabulary/olfactory-objects/476> .
 
 <http://data.odeuropa.eu/object/3060974d-e2cc-5452-9290-d4bb1fd03ffc> a crmsci:S10_Material_Substantial ;
     rdfs:label "d ’ avaro"@it .
@@ -17558,7 +17561,8 @@
     crm:P137_exemplifies <http://data.odeuropa.eu/vocabulary/olfactory-objects/78> .
 
 <http://data.odeuropa.eu/object/39e11849-3b80-53e1-be82-606d0a57d736> a crmsci:S10_Material_Substantial ;
-    rdfs:label "di camomilla"@it .
+    rdfs:label "di camomilla"@it ;
+    crm:P137_exemplifies <http://data.odeuropa.eu/vocabulary/olfactory-objects/361> .
 
 <http://data.odeuropa.eu/object/3ab291e0-a5ec-577a-afc6-dea7eb712e8a> a crmsci:S10_Material_Substantial ;
     rdfs:label "le donne rosse"@it .
@@ -17674,7 +17678,8 @@
     crm:P137_exemplifies <http://data.odeuropa.eu/vocabulary/olfactory-objects/72> .
 
 <http://data.odeuropa.eu/object/44604fcc-942b-52e2-8dd5-dbfcfaf73730> a crmsci:S10_Material_Substantial ;
-    rdfs:label "di vainiglia"@it .
+    rdfs:label "di vainiglia"@it ;
+    crm:P137_exemplifies <http://data.odeuropa.eu/vocabulary/olfactory-objects/206> .
 
 <http://data.odeuropa.eu/object/44aeb6b7-6c6d-5283-a0e4-946d4ba7cd2b> a crmsci:S10_Material_Substantial ;
     rdfs:label "cayulacà"@it .
@@ -17754,7 +17759,8 @@
     rdfs:label "Anthoxanthum"@it .
 
 <http://data.odeuropa.eu/object/4e57b5b2-4a20-55be-88bb-ce0154759201> a crmsci:S10_Material_Substantial ;
-    rdfs:label "da ogni pioggia"@it .
+    rdfs:label "da ogni pioggia"@it ;
+    crm:P137_exemplifies <http://data.odeuropa.eu/vocabulary/olfactory-objects/135> .
 
 <http://data.odeuropa.eu/object/4e938f65-31ed-5b0c-bacb-750f9288d12f> a crmsci:S10_Material_Substantial ;
     rdfs:label "ambra nera"@it ;
@@ -17805,7 +17811,8 @@
     rdfs:label "Il balsamo peruviano puro"@it .
 
 <http://data.odeuropa.eu/object/5346dc4e-03bc-5009-8dd2-555926f63feb> a crmsci:S10_Material_Substantial ;
-    rdfs:label "il garòfano"@it .
+    rdfs:label "il garòfano"@it ;
+    crm:P137_exemplifies <http://data.odeuropa.eu/vocabulary/olfactory-objects/27> .
 
 <http://data.odeuropa.eu/object/53c6de4d-448e-5d5b-81d2-da9fd1a7aac6> a crmsci:S10_Material_Substantial ;
     rdfs:label "La Stapelia fturata j la variegata"@it .
@@ -17885,7 +17892,8 @@
     rdfs:label "delle macchine mobili"@it .
 
 <http://data.odeuropa.eu/object/5cd4a694-edcf-5c5b-9e13-d3cccdd00ec2> a crmsci:S10_Material_Substantial ;
-    rdfs:label "di questa pianta"@it .
+    rdfs:label "di questa pianta"@it ;
+    crm:P137_exemplifies <http://data.odeuropa.eu/vocabulary/olfactory-objects/78> .
 
 <http://data.odeuropa.eu/object/5d4eec27-b9a9-5dc8-8e00-d2dc846f21d1> a crmsci:S10_Material_Substantial ;
     rdfs:label "Lattario ranciato"@it .
@@ -17897,13 +17905,15 @@
     rdfs:label "I fiori di questa pianta"@it .
 
 <http://data.odeuropa.eu/object/5e2aa0ed-2311-5ce8-8d55-ab92699234ed> a crmsci:S10_Material_Substantial ;
-    rdfs:label "di sangue"@it .
+    rdfs:label "di sangue"@it ;
+    crm:P137_exemplifies <http://data.odeuropa.eu/vocabulary/olfactory-objects/17> .
 
 <http://data.odeuropa.eu/object/5e39e8f4-a4a0-5763-b681-1e20314907cf> a crmsci:S10_Material_Substantial ;
     rdfs:label "glandule"@it .
 
 <http://data.odeuropa.eu/object/5e6b74c1-5af1-51c7-b4c9-f21a017dbe85> a crmsci:S10_Material_Substantial ;
-    rdfs:label "di noce moscata"@it .
+    rdfs:label "di noce moscata"@it ;
+    crm:P137_exemplifies <http://data.odeuropa.eu/vocabulary/olfactory-objects/406> .
 
 <http://data.odeuropa.eu/object/5e82d02c-cb26-5a95-a90e-2e3e36222eef> a crmsci:S10_Material_Substantial ;
     rdfs:label "Ielle foglie"@it .
@@ -17956,10 +17966,12 @@
     crm:P137_exemplifies <http://data.odeuropa.eu/vocabulary/olfactory-objects/270> .
 
 <http://data.odeuropa.eu/object/62655217-814c-527d-af19-e91374c8235f> a crmsci:S10_Material_Substantial ;
-    rdfs:label "Lo zafferano"@it .
+    rdfs:label "Lo zafferano"@it ;
+    crm:P137_exemplifies <http://data.odeuropa.eu/vocabulary/olfactory-objects/414> .
 
 <http://data.odeuropa.eu/object/62aed67a-f86a-5aa6-a835-f35a5f663312> a crmsci:S10_Material_Substantial ;
-    rdfs:label "di cannella"@it .
+    rdfs:label "di cannella"@it ;
+    crm:P137_exemplifies <http://data.odeuropa.eu/vocabulary/olfactory-objects/215> .
 
 <http://data.odeuropa.eu/object/6342d09d-9c38-514b-8d40-61ea4e83d742> a crmsci:S10_Material_Substantial ;
     rdfs:label "il fiore"@it ;
@@ -18094,7 +18106,8 @@
     rdfs:label "dei geranii"@it .
 
 <http://data.odeuropa.eu/object/6f4c0081-8dd6-5f13-8719-423a7efb2d54> a crmsci:S10_Material_Substantial ;
-    rdfs:label "di sangue"@it .
+    rdfs:label "di sangue"@it ;
+    crm:P137_exemplifies <http://data.odeuropa.eu/vocabulary/olfactory-objects/17> .
 
 <http://data.odeuropa.eu/object/6f7eb61a-b4f3-5f3c-a8a9-8dc3c0e7cfd8> a crmsci:S10_Material_Substantial ;
     rdfs:label "della carne"@it .
@@ -18251,7 +18264,8 @@
     crm:P137_exemplifies <http://data.odeuropa.eu/vocabulary/olfactory-objects/72> .
 
 <http://data.odeuropa.eu/object/7ec9e3a9-a410-50d3-9767-e5c9503b9902> a crmsci:S10_Material_Substantial ;
-    rdfs:label "di noce moscata"@it .
+    rdfs:label "di noce moscata"@it ;
+    crm:P137_exemplifies <http://data.odeuropa.eu/vocabulary/olfactory-objects/406> .
 
 <http://data.odeuropa.eu/object/7f247c76-0257-5de6-969f-5f208846901e> a crmsci:S10_Material_Substantial ;
     rdfs:label "frutto"@it ;
@@ -18340,8 +18354,9 @@
     rdfs:label "latrine"@it ;
     crm:P137_exemplifies <http://data.odeuropa.eu/vocabulary/olfactory-objects/134> .
 
-<http://data.odeuropa.eu/object/8748d1f9-dac0-509d-bd7d-156cc59bd0c5> a crmsci:S10_Material_Substantial ;
-    rdfs:label "le coppie"@it .
+<http://data.odeuropa.eu/object/8748d1f9-dac0-509d-bd7d-156cc59bd0c5> a <E22_Human-Made_Object> ;
+    rdfs:label "le coppie"@it ;
+    crm:P137_exemplifies <http://data.odeuropa.eu/vocabulary/olfactory-objects/453> .
 
 <http://data.odeuropa.eu/object/878ee7aa-ea4e-5c62-b94d-ac8abfd3e21f> a crmsci:S10_Material_Substantial ;
     rdfs:label "tale acqua"@it ;
@@ -18409,7 +18424,8 @@
     rdfs:label "Caggiuyera"@it .
 
 <http://data.odeuropa.eu/object/90e6f71a-5eb9-5138-ab81-06675e2132a0> a crmsci:S10_Material_Substantial ;
-    rdfs:label "corteccia"@it .
+    rdfs:label "corteccia"@it ;
+    crm:P137_exemplifies <http://data.odeuropa.eu/vocabulary/olfactory-objects/476> .
 
 <http://data.odeuropa.eu/object/91050922-285d-5c61-9bcb-71c4a690f875> a crmsci:S10_Material_Substantial ;
     rdfs:label "Réseda"@it .
@@ -18418,7 +18434,8 @@
     rdfs:label "Le bacche"@it .
 
 <http://data.odeuropa.eu/object/91c46496-caef-5c79-b03c-18775d3f2435> a crmsci:S10_Material_Substantial ;
-    rdfs:label "di rosmarino"@it .
+    rdfs:label "di rosmarino"@it ;
+    crm:P137_exemplifies <http://data.odeuropa.eu/vocabulary/olfactory-objects/408> .
 
 <http://data.odeuropa.eu/object/91c8bba7-9bc4-5207-bd79-135a114d63db> a crmsci:S10_Material_Substantial ;
     rdfs:label "la resina"@it ;
@@ -18434,7 +18451,8 @@
     rdfs:label "Neil ' Arum dracunculus"@it .
 
 <http://data.odeuropa.eu/object/93f20a6d-1a54-53e5-84d8-d93790b7423a> a crmsci:S10_Material_Substantial ;
-    rdfs:label "l ' incenso"@it .
+    rdfs:label "l ' incenso"@it ;
+    crm:P137_exemplifies <http://data.odeuropa.eu/vocabulary/olfactory-objects/269> .
 
 <http://data.odeuropa.eu/object/940bb533-49b9-5b84-8b87-519c0d9820dd> a crmsci:S10_Material_Substantial ;
     rdfs:label "dall ’ umidità del luogo"@it .
@@ -18492,7 +18510,8 @@
     rdfs:label "il gaz delle paludi"@it .
 
 <http://data.odeuropa.eu/object/98f943ac-055f-5858-9166-90756b28fa9a> a crmsci:S10_Material_Substantial ;
-    rdfs:label "di questo garofano"@it .
+    rdfs:label "di questo garofano"@it ;
+    crm:P137_exemplifies <http://data.odeuropa.eu/vocabulary/olfactory-objects/27> .
 
 <http://data.odeuropa.eu/object/99b92277-c573-52ef-9583-196f80d8d9d4> a crmsci:S10_Material_Substantial ;
     rdfs:label "di anticaglie"@it .
@@ -18523,7 +18542,8 @@
     rdfs:label "dell ' umana felicità distillata"@it .
 
 <http://data.odeuropa.eu/object/9c0b3b66-0886-5472-9978-f8a6bb55c942> a crmsci:S10_Material_Substantial ;
-    rdfs:label "olii essenziali"@it .
+    rdfs:label "olii essenziali"@it ;
+    crm:P137_exemplifies <http://data.odeuropa.eu/vocabulary/olfactory-objects/62> .
 
 <http://data.odeuropa.eu/object/9c51d9f8-5c64-562d-9991-25fb8abd815d> a crmsci:S10_Material_Substantial ;
     rdfs:label "I petali"@it .
@@ -18779,7 +18799,8 @@
     rdfs:label "di quel candido [ 58 ] Giglio"@it .
 
 <http://data.odeuropa.eu/object/b3f4b1c0-453f-5207-89be-d95fc2c9c073> a crmsci:S10_Material_Substantial ;
-    rdfs:label "corteccie"@it .
+    rdfs:label "corteccie"@it ;
+    crm:P137_exemplifies <http://data.odeuropa.eu/vocabulary/olfactory-objects/476> .
 
 <http://data.odeuropa.eu/object/b4717103-0d88-5ed7-9269-2056278453d2> a crmsci:S10_Material_Substantial ;
     rdfs:label "Cen-ena"@it .
@@ -18810,7 +18831,8 @@
     rdfs:label "essenze"@it .
 
 <http://data.odeuropa.eu/object/b73470bf-82a7-5751-9e65-39b6f746a0c7> a crmsci:S10_Material_Substantial ;
-    rdfs:label "organi"@it .
+    rdfs:label "organi"@it ;
+    crm:P137_exemplifies <http://data.odeuropa.eu/vocabulary/olfactory-objects/322> .
 
 <http://data.odeuropa.eu/object/b762fd4a-d206-50d1-9233-31385b562f72> a crmsci:S10_Material_Substantial ;
     rdfs:label "delle mimose"@it .
@@ -18898,7 +18920,8 @@
     rdfs:label "acque distillate"@it .
 
 <http://data.odeuropa.eu/object/bd745482-e8be-55a2-9128-4674a6ec0905> a crmsci:S10_Material_Substantial ;
-    rdfs:label "olii essenziali"@it .
+    rdfs:label "olii essenziali"@it ;
+    crm:P137_exemplifies <http://data.odeuropa.eu/vocabulary/olfactory-objects/62> .
 
 <http://data.odeuropa.eu/object/be8f450b-6ac4-5394-a14a-a8496101712e> a crmsci:S10_Material_Substantial ;
     rdfs:label "di ferri cozzanti"@it .
@@ -18982,6 +19005,10 @@
 <http://data.odeuropa.eu/object/c92e49bd-87a3-5057-bfb5-191c4c03fc69> a crmsci:S10_Material_Substantial ;
     rdfs:label "carota"@it ;
     crm:P137_exemplifies <http://data.odeuropa.eu/vocabulary/olfactory-objects/297> .
+
+<http://data.odeuropa.eu/object/c9442d10-6608-5cf6-953e-4af796494c9a> a crmsci:S10_Material_Substantial ;
+    rdfs:label "sterco"@it ;
+    crm:P137_exemplifies <http://data.odeuropa.eu/vocabulary/olfactory-objects/145> .
 
 <http://data.odeuropa.eu/object/c9a53a2a-3290-5b10-940c-4ec4ad3d3065> a crmsci:S10_Material_Substantial ;
     rdfs:label "una ovaia elastica"@it .
@@ -19115,7 +19142,8 @@
     rdfs:label "causato dall ’ Acque"@it .
 
 <http://data.odeuropa.eu/object/d62160d1-e1f8-588c-8ca8-0a93749033ce> a crmsci:S10_Material_Substantial ;
-    rdfs:label "olii essenziali"@it .
+    rdfs:label "olii essenziali"@it ;
+    crm:P137_exemplifies <http://data.odeuropa.eu/vocabulary/olfactory-objects/62> .
 
 <http://data.odeuropa.eu/object/d710a3d7-5f43-5e81-9f74-4ea4bff9af5c> a crmsci:S10_Material_Substantial ;
     rdfs:label "automobili"@it .
@@ -19185,7 +19213,8 @@
     rdfs:label "dalla terra inumidita"@it .
 
 <http://data.odeuropa.eu/object/dcfc4f27-ae16-5b76-be75-0ba05cb9ad35> a crmsci:S10_Material_Substantial ;
-    rdfs:label "di noce moscata"@it .
+    rdfs:label "di noce moscata"@it ;
+    crm:P137_exemplifies <http://data.odeuropa.eu/vocabulary/olfactory-objects/406> .
 
 <http://data.odeuropa.eu/object/dd9c0930-4492-5851-a851-61762aa4551d> a crmsci:S10_Material_Substantial ;
     rdfs:label "La Frassinella"@it .
@@ -19307,7 +19336,8 @@
     rdfs:label "nelle dicottioni"@it .
 
 <http://data.odeuropa.eu/object/eaeaa145-11d5-5036-82a1-7e44d1855318> a crmsci:S10_Material_Substantial ;
-    rdfs:label "al gelsomino"@it .
+    rdfs:label "al gelsomino"@it ;
+    crm:P137_exemplifies <http://data.odeuropa.eu/vocabulary/olfactory-objects/258> .
 
 <http://data.odeuropa.eu/object/eaf985cb-e299-5e4d-87e2-c48d3da2dbf4> a crmsci:S10_Material_Substantial ;
     rdfs:label "migliaia di serpenti"@it .
@@ -19344,7 +19374,8 @@
     rdfs:label "pantani putridi"@it .
 
 <http://data.odeuropa.eu/object/f0472c4b-fc75-5c1d-a8da-ab2b2b398ca3> a crmsci:S10_Material_Substantial ;
-    rdfs:label "di camomilla"@it .
+    rdfs:label "di camomilla"@it ;
+    crm:P137_exemplifies <http://data.odeuropa.eu/vocabulary/olfactory-objects/361> .
 
 <http://data.odeuropa.eu/object/f051920c-7884-5fd1-ae77-2256f7262a53> a crmsci:S10_Material_Substantial ;
     rdfs:label "Tricholoma graveolens Pers"@it .
@@ -19381,6 +19412,10 @@
 <http://data.odeuropa.eu/object/f5b9ceb2-a2ce-559d-bd5a-b284fe108728> a crmsci:S10_Material_Substantial ;
     rdfs:label "tutto"@it .
 
+<http://data.odeuropa.eu/object/f5ebb048-6509-528a-9021-dc83e16d7d00> a crmsci:S10_Material_Substantial ;
+    rdfs:label "cirieggie"@it ;
+    crm:P137_exemplifies <http://data.odeuropa.eu/vocabulary/olfactory-objects/442> .
+
 <http://data.odeuropa.eu/object/f5fabb2a-8381-5e68-97ba-cf76dcabaea7> a crmsci:S10_Material_Substantial ;
     rdfs:label "il melampiro ( Melampirum pratense seu arvense )"@it .
 
@@ -19397,7 +19432,8 @@
     rdfs:label "latte degli animali"@it .
 
 <http://data.odeuropa.eu/object/f897e23b-4958-5f70-a6fc-ea9434e548fb> a crmsci:S10_Material_Substantial ;
-    rdfs:label "montone"@it .
+    rdfs:label "montone"@it ;
+    crm:P137_exemplifies <http://data.odeuropa.eu/vocabulary/olfactory-objects/193> .
 
 <http://data.odeuropa.eu/object/f8bef5fd-200e-54e0-bcf3-5f4fb3de16e7> a crmsci:S10_Material_Substantial ;
     rdfs:label "Felengo"@it .
@@ -19450,7 +19486,8 @@
     crm:P137_exemplifies <http://data.odeuropa.eu/vocabulary/olfactory-objects/211> .
 
 <http://data.odeuropa.eu/object/fcc0bf01-a2b5-574b-ad57-874049e17440> a crmsci:S10_Material_Substantial ;
-    rdfs:label "d ’ incenso"@it .
+    rdfs:label "d ’ incenso"@it ;
+    crm:P137_exemplifies <http://data.odeuropa.eu/vocabulary/olfactory-objects/269> .
 
 <http://data.odeuropa.eu/object/fce28a1d-5778-5b94-9599-fb1722442d24> a crmsci:S10_Material_Substantial ;
     rdfs:label "Anthoxanthum"@it .
@@ -19473,7 +19510,8 @@
     rdfs:label "Agaiico terreo"@it .
 
 <http://data.odeuropa.eu/object/fef9dea7-8076-547d-b898-4e94a672050e> a crmsci:S10_Material_Substantial ;
-    rdfs:label "di cannella"@it .
+    rdfs:label "di cannella"@it ;
+    crm:P137_exemplifies <http://data.odeuropa.eu/vocabulary/olfactory-objects/215> .
 
 <http://data.odeuropa.eu/object/ff192849-dbd0-59bf-9aa0-d24259371847> a crmsci:S10_Material_Substantial ;
     rdfs:label "prodotto"@it .
@@ -24343,9 +24381,6 @@ profumo								quando invece ili lellere ai vogliono purificare stanze			1815__R
 <http://data.odeuropa.eu/thing/b10594b5-a507-54c4-a79e-a84fbb3d201b> a crm:E70_Thing ;
     rdfs:label "farina recente"@it .
 
-<http://data.odeuropa.eu/thing/b9706cb4-7df8-58de-86a0-be63543bdd30> a crm:E70_Thing ;
-    rdfs:label "sterco"@it .
-
 <http://data.odeuropa.eu/thing/c3974476-e786-5bf8-ac3b-8d48ce17ab4c> a crm:E70_Thing ;
     rdfs:label "sembrate un mozzicone di sigaro biasciato"@it .
 
@@ -24369,9 +24404,6 @@ profumo								quando invece ili lellere ai vogliono purificare stanze			1815__R
 
 <http://data.odeuropa.eu/thing/e974f679-7b7a-5240-a993-bdc4f6a73aab> a crm:E70_Thing ;
     rdfs:label "la pece"@it .
-
-<http://data.odeuropa.eu/thing/f2afdf04-df42-564b-a2c1-4892465fdb6f> a crm:E70_Thing ;
-    rdfs:label "cirieggie"@it .
 
 <http://data.odeuropa.eu/thing/fdaad865-2500-59b4-aa21-21499496438f> a crm:E70_Thing ;
     rdfs:label "d ’ acqua di rose"@it .
@@ -24459,9 +24491,6 @@ profumo								quando invece ili lellere ai vogliono purificare stanze			1815__R
 
 <http://data.odeuropa.eu/attribute/inodori_it> a crm:E90_Symbolic_Object ;
     rdfs:label "inodori"@it .
-
-<http://data.odeuropa.eu/attribute/leggiero_it> a crm:E90_Symbolic_Object ;
-    rdfs:label "leggiero"@it .
 
 <http://data.odeuropa.eu/attribute/molto%20balsamico_it> a crm:E90_Symbolic_Object ;
     rdfs:label "molto balsamico"@it .
@@ -25604,9 +25633,9 @@ profumo								quando invece ili lellere ai vogliono purificare stanze			1815__R
     od:F1_generated <http://data.odeuropa.eu/smell/7e45277c-c55a-5bc1-a544-ab9f549cb6f9> ;
     od:F3_had_source <http://data.odeuropa.eu/object/14ad24dd-dde5-5086-9ba8-84dc5eb0236a>,
         <http://data.odeuropa.eu/object/659c2cb1-b1e7-54b7-ae92-94927750eec7> ;
-    crm:P7_took_place_at <http://data.odeuropa.eu/place/5a973c2a-a11a-583d-9a01-fb96b9ece1ea>,
-        <http://data.odeuropa.eu/place/5ca916d3-85ca-5f60-ba7b-87e64549fdd3>,
-        <https://sws.geonames.org/202905/> ;
+    crm:P7_took_place_at <http://data.odeuropa.eu/place/2bd9b9a3-63a1-5572-8951-fe060da8e697>,
+        <http://data.odeuropa.eu/place/5a973c2a-a11a-583d-9a01-fb96b9ece1ea>,
+        <http://data.odeuropa.eu/place/5ca916d3-85ca-5f60-ba7b-87e64549fdd3> ;
     time:hasTime <http://data.odeuropa.eu/time/044232f1-3d8c-5cd5-aafe-9b25855e7ebf>,
         <http://data.odeuropa.eu/time/3887b56b-870f-51ba-86cb-8e88a2fe3f24> .
 
@@ -26921,7 +26950,7 @@ profumo								quando invece ili lellere ai vogliono purificare stanze			1815__R
 
 <http://data.odeuropa.eu/emission/9b6b4fab-ba17-5891-b32f-4d45bef3979b> a od:L12_Smell_Emission ;
     od:F1_generated <http://data.odeuropa.eu/smell/70df17aa-c737-5da4-b752-4bf70a93fbb5> ;
-    crm:P7_took_place_at <https://sws.geonames.org/10278225/> ;
+    crm:P7_took_place_at <http://data.odeuropa.eu/place/112d4555-5f6a-5ff4-8a35-b50c9d7e7a6d> ;
     time:hasTime <http://data.odeuropa.eu/time/49bc8ac6-1f93-5afb-9029-a68083581646> .
 
 <http://data.odeuropa.eu/emission/9bc4528c-9134-5172-9149-05c91d681cab> a od:L12_Smell_Emission ;
@@ -27109,7 +27138,7 @@ profumo								quando invece ili lellere ai vogliono purificare stanze			1815__R
 
 <http://data.odeuropa.eu/emission/a70bb04e-486f-5050-89ab-7bc370761177> a od:L12_Smell_Emission ;
     od:F1_generated <http://data.odeuropa.eu/smell/902ad4d5-bc87-521f-925c-a9abf9af83b3> ;
-    crm:P7_took_place_at <https://sws.geonames.org/3181863/> ;
+    crm:P7_took_place_at <https://sws.geonames.org/6541656/> ;
     time:hasTime <http://data.odeuropa.eu/time/9d001fb0-0fcf-545d-bb34-70893ca0ca62> .
 
 <http://data.odeuropa.eu/emission/a74df1de-b7fc-5e1d-847b-54606c06d9f9> a od:L12_Smell_Emission ;
@@ -27632,7 +27661,7 @@ profumo								quando invece ili lellere ai vogliono purificare stanze			1815__R
 <http://data.odeuropa.eu/emission/c0d6bfe7-9cb9-5abe-8919-a19cd4ac1169> a od:L12_Smell_Emission ;
     od:F1_generated <http://data.odeuropa.eu/smell/c8d931d7-4045-50a5-a00f-83dd09363224> ;
     od:F3_had_source <http://data.odeuropa.eu/object/5729c4f9-0ecf-57fe-916d-d56e8b470c51> ;
-    crm:P7_took_place_at <https://sws.geonames.org/3172253/> ;
+    crm:P7_took_place_at <https://sws.geonames.org/6454924/> ;
     time:hasTime <http://data.odeuropa.eu/time/9d001fb0-0fcf-545d-bb34-70893ca0ca62> .
 
 <http://data.odeuropa.eu/emission/c1813d3b-00b3-50f8-97e7-7e46c4e30291> a od:L12_Smell_Emission ;
@@ -28154,7 +28183,7 @@ profumo								quando invece ili lellere ai vogliono purificare stanze			1815__R
 
 <http://data.odeuropa.eu/emission/def7d094-d760-5e1b-9401-1dd8a08607d5> a od:L12_Smell_Emission ;
     od:F1_generated <http://data.odeuropa.eu/smell/e8656363-85f5-5954-9294-04864a2a6a19> ;
-    crm:P7_took_place_at <https://sws.geonames.org/10344715/> ;
+    crm:P7_took_place_at <http://data.odeuropa.eu/place/b6d5a464-01b1-5d23-ac73-14c3063f12ec> ;
     time:hasTime <http://data.odeuropa.eu/time/49bc8ac6-1f93-5afb-9029-a68083581646> .
 
 <http://data.odeuropa.eu/emission/df946b8e-c20b-5fea-a545-80a87d488293> a od:L12_Smell_Emission ;
@@ -28364,8 +28393,8 @@ profumo								quando invece ili lellere ai vogliono purificare stanze			1815__R
 <http://data.odeuropa.eu/emission/f03fd8d4-9eb6-5ade-953b-88f088477e36> a od:L12_Smell_Emission ;
     od:F1_generated <http://data.odeuropa.eu/smell/7e6ce8a1-ec6c-559f-ab5e-4ea42770e386> ;
     od:F4_had_carrier <http://data.odeuropa.eu/object/35eecf95-6e33-57f8-9f80-59463d59122c> ;
-    crm:P7_took_place_at <http://data.odeuropa.eu/place/b45d73fc-0a13-54f8-b3c5-cfd7f94d1bf5>,
-        <https://sws.geonames.org/6269268/> ;
+    crm:P7_took_place_at <https://sws.geonames.org/6269268/>,
+        <https://sws.geonames.org/7302742/> ;
     time:hasTime <http://data.odeuropa.eu/time/2b4142e3-cab5-5314-aac9-e90282b1cb6d>,
         <http://data.odeuropa.eu/time/7a487f48-6511-59a7-bb6b-d1deb946da1b>,
         <http://data.odeuropa.eu/time/cbd70a3f-6140-55ee-9f27-908f8bba341a>,
@@ -28692,7 +28721,7 @@ profumo								quando invece ili lellere ai vogliono purificare stanze			1815__R
 
 <http://data.odeuropa.eu/experience/0744bfa3-75d8-59b1-a4e0-67a4242fcc36> a od:L13_Olfactory_Experience ;
     od:F2_perceived <http://data.odeuropa.eu/smell/c1c9a4ef-581e-588e-84ce-a801cf1c3dcd> ;
-    od:F6_evoked <http://data.odeuropa.eu/thing/f2afdf04-df42-564b-a2c1-4892465fdb6f> ;
+    od:F6_evoked <http://data.odeuropa.eu/object/f5ebb048-6509-528a-9021-dc83e16d7d00> ;
     time:hasTime <http://data.odeuropa.eu/time/d40e837b-a722-589e-9351-6f6e24a98b98> .
 
 <http://data.odeuropa.eu/experience/07cd3963-648f-5aad-a3bd-48ad005fa632> a od:L13_Olfactory_Experience ;
@@ -29823,8 +29852,8 @@ profumo								quando invece ili lellere ai vogliono purificare stanze			1815__R
 
 <http://data.odeuropa.eu/experience/df54dcfd-66b1-542a-be0e-809d870f8e20> a od:L13_Olfactory_Experience ;
     od:F2_perceived <http://data.odeuropa.eu/smell/7e6ce8a1-ec6c-559f-ab5e-4ea42770e386> ;
-    crm:P7_took_place_at <http://data.odeuropa.eu/place/b45d73fc-0a13-54f8-b3c5-cfd7f94d1bf5>,
-        <https://sws.geonames.org/6269268/> ;
+    crm:P7_took_place_at <https://sws.geonames.org/6269268/>,
+        <https://sws.geonames.org/7302742/> ;
     time:hasTime <http://data.odeuropa.eu/time/2b4142e3-cab5-5314-aac9-e90282b1cb6d>,
         <http://data.odeuropa.eu/time/7a487f48-6511-59a7-bb6b-d1deb946da1b>,
         <http://data.odeuropa.eu/time/cbd70a3f-6140-55ee-9f27-908f8bba341a>,
@@ -30028,6 +30057,9 @@ profumo								quando invece ili lellere ai vogliono purificare stanze			1815__R
 <http://data.odeuropa.eu/place/10fa31fd-d573-5cea-bb67-f7c4504d0385> a crm:E53_Place ;
     rdfs:label "le Stufe" .
 
+<http://data.odeuropa.eu/place/112d4555-5f6a-5ff4-8a35-b50c9d7e7a6d> a crm:E53_Place ;
+    rdfs:label "appartamenti" .
+
 <http://data.odeuropa.eu/place/160db400-509d-5c18-8018-fb65be4fda56> a crm:E53_Place ;
     rdfs:label " da ' luoghi segreti" .
 
@@ -30050,7 +30082,8 @@ profumo								quando invece ili lellere ai vogliono purificare stanze			1815__R
     rdfs:label "nel fondo di un vasto e ombroso giardino" .
 
 <http://data.odeuropa.eu/place/1c09795c-de7e-500f-97d1-b7aef41a3d2e> a crm:E53_Place ;
-    rdfs:label "su questa via" .
+    rdfs:label "su questa via" ;
+    crm:P137_exemplifies <http://data.odeuropa.eu/vocabulary/fragrant-spaces/64> .
 
 <http://data.odeuropa.eu/place/24ec2a07-2126-5e81-bfab-c4b7720ff087> a crm:E53_Place ;
     rdfs:label "Rocky-Hill nell ’ Ohio , un miglio e mezzo dal Lago Erie" .
@@ -30058,6 +30091,9 @@ profumo								quando invece ili lellere ai vogliono purificare stanze			1815__R
 <http://data.odeuropa.eu/place/282ff3d3-31b7-5d4e-ae27-29335563b5db> a crm:E53_Place ;
     rdfs:label "nelle strade " ;
     crm:P137_exemplifies <http://data.odeuropa.eu/vocabulary/fragrant-spaces/64> .
+
+<http://data.odeuropa.eu/place/2bd9b9a3-63a1-5572-8951-fe060da8e697> a crm:E53_Place ;
+    rdfs:label " sulle colline " .
 
 <http://data.odeuropa.eu/place/30cd6438-a457-54ea-89d6-2e98674ae2ef> a crm:E53_Place ;
     rdfs:label "di Cazeneuve" .
@@ -30181,7 +30217,8 @@ profumo								quando invece ili lellere ai vogliono purificare stanze			1815__R
     rdfs:label "nella provincia di Reggio Calabria e di Messina" .
 
 <http://data.odeuropa.eu/place/a5e7f0f1-02d6-57f6-a54b-60164202bcc3> a crm:E53_Place ;
-    rdfs:label "un bosco" .
+    rdfs:label "un bosco" ;
+    crm:P137_exemplifies <http://data.odeuropa.eu/vocabulary/fragrant-spaces/19> .
 
 <http://data.odeuropa.eu/place/a9598615-ee73-579a-b027-af43d75fdd30> a crm:E53_Place ;
     rdfs:label "nei luoghi paludosi di tutto il Territorio" .
@@ -30195,11 +30232,11 @@ profumo								quando invece ili lellere ai vogliono purificare stanze			1815__R
 <http://data.odeuropa.eu/place/b324d4d8-0614-5b5d-a049-d0bd6141e113> a crm:E53_Place ;
     rdfs:label "nelle piazze che sembrano dei parchi signorili" .
 
-<http://data.odeuropa.eu/place/b45d73fc-0a13-54f8-b3c5-cfd7f94d1bf5> a crm:E53_Place ;
-    rdfs:label "L ' Augustissimo Tempio di Santa Maria del Fiore " .
-
 <http://data.odeuropa.eu/place/b57aef5e-1d32-551a-84a1-d3c7af0eaf11> a crm:E53_Place ;
     rdfs:label "le vicine stanze" .
+
+<http://data.odeuropa.eu/place/b6d5a464-01b1-5d23-ac73-14c3063f12ec> a crm:E53_Place ;
+    rdfs:label "stanze" .
 
 <http://data.odeuropa.eu/place/b7c5cdb0-1425-5e55-9fb0-d700487a8cd2> a crm:E53_Place ;
     rdfs:label "iu luogo oscuro e fresco" .
@@ -30546,25 +30583,21 @@ profumo								quando invece ili lellere ai vogliono purificare stanze			1815__R
     rdfs:label "nella notte " ;
     rdfs:comment "night"@en .
 
-<https://sws.geonames.org/10278225/> a crm:E53_Place .
-
 <https://sws.geonames.org/10293855/> a crm:E53_Place .
-
-<https://sws.geonames.org/10344715/> a crm:E53_Place .
 
 <https://sws.geonames.org/11550070/> a crm:E53_Place .
 
-<https://sws.geonames.org/202905/> a crm:E53_Place .
-
 <https://sws.geonames.org/2988507/> a crm:E53_Place .
-
-<https://sws.geonames.org/3172253/> a crm:E53_Place .
 
 <https://sws.geonames.org/3176219/> a crm:E53_Place .
 
-<https://sws.geonames.org/3181863/> a crm:E53_Place .
-
 <https://sws.geonames.org/6269268/> a crm:E53_Place .
+
+<https://sws.geonames.org/6454924/> a crm:E53_Place .
+
+<https://sws.geonames.org/6541656/> a crm:E53_Place .
+
+<https://sws.geonames.org/7302742/> a crm:E53_Place .
 
 <http://data.odeuropa.eu/actor/2b759b38-3dfd-577f-8c19-8ac0d0a22fc1> a crm:E39_Actor ;
     rdfs:label "tua" .
@@ -30816,7 +30849,7 @@ profumo								quando invece ili lellere ai vogliono purificare stanze			1815__R
 <http://data.odeuropa.eu/experience/247e2490-76e7-54cf-8c08-fcfb0f605a50> a od:L13_Olfactory_Experience ;
     od:F2_perceived <http://data.odeuropa.eu/smell/e8656363-85f5-5954-9294-04864a2a6a19> ;
     crm:P14_carried_out_by <http://data.odeuropa.eu/actor/0a632074-3474-599a-a8a2-7e64745d3f66> ;
-    crm:P7_took_place_at <https://sws.geonames.org/10344715/> ;
+    crm:P7_took_place_at <http://data.odeuropa.eu/place/b6d5a464-01b1-5d23-ac73-14c3063f12ec> ;
     time:hasTime <http://data.odeuropa.eu/time/49bc8ac6-1f93-5afb-9029-a68083581646> .
 
 <http://data.odeuropa.eu/experience/254792ca-0db4-5a17-af00-cebc23024336> a od:L13_Olfactory_Experience ;
@@ -30973,7 +31006,7 @@ profumo								quando invece ili lellere ai vogliono purificare stanze			1815__R
 
 <http://data.odeuropa.eu/experience/3c4e999a-5252-54b1-a070-4df8c75b5dca> a od:L13_Olfactory_Experience ;
     od:F2_perceived <http://data.odeuropa.eu/smell/c8d931d7-4045-50a5-a00f-83dd09363224> ;
-    crm:P7_took_place_at <https://sws.geonames.org/3172253/> ;
+    crm:P7_took_place_at <https://sws.geonames.org/6454924/> ;
     time:hasTime <http://data.odeuropa.eu/time/9d001fb0-0fcf-545d-bb34-70893ca0ca62> .
 
 <http://data.odeuropa.eu/experience/3c851cc6-1c11-580b-a644-32ac157f7343> a od:L13_Olfactory_Experience ;
@@ -31660,7 +31693,7 @@ profumo								quando invece ili lellere ai vogliono purificare stanze			1815__R
 
 <http://data.odeuropa.eu/experience/95a4c20a-fce3-5c7a-ab4d-d3f24e18a1aa> a od:L13_Olfactory_Experience ;
     od:F2_perceived <http://data.odeuropa.eu/smell/70df17aa-c737-5da4-b752-4bf70a93fbb5> ;
-    crm:P7_took_place_at <https://sws.geonames.org/10278225/> ;
+    crm:P7_took_place_at <http://data.odeuropa.eu/place/112d4555-5f6a-5ff4-8a35-b50c9d7e7a6d> ;
     time:hasTime <http://data.odeuropa.eu/time/49bc8ac6-1f93-5afb-9029-a68083581646> .
 
 <http://data.odeuropa.eu/experience/980effa2-6a89-5f8a-bc27-ce6ffdd063ed> a od:L13_Olfactory_Experience ;
@@ -32054,7 +32087,7 @@ profumo								quando invece ili lellere ai vogliono purificare stanze			1815__R
 
 <http://data.odeuropa.eu/experience/d49deef2-d2bf-5916-a755-b1f1a9556d9a> a od:L13_Olfactory_Experience ;
     od:F2_perceived <http://data.odeuropa.eu/smell/902ad4d5-bc87-521f-925c-a9abf9af83b3> ;
-    crm:P7_took_place_at <https://sws.geonames.org/3181863/> ;
+    crm:P7_took_place_at <https://sws.geonames.org/6541656/> ;
     time:hasTime <http://data.odeuropa.eu/time/9d001fb0-0fcf-545d-bb34-70893ca0ca62> .
 
 <http://data.odeuropa.eu/experience/d4dd7d6f-3a80-5121-9d24-a75b0edeecbb> a od:L13_Olfactory_Experience ;
@@ -32310,9 +32343,9 @@ profumo								quando invece ili lellere ai vogliono purificare stanze			1815__R
 
 <http://data.odeuropa.eu/experience/f3edb062-8f21-5977-afe0-96841e2e4d92> a od:L13_Olfactory_Experience ;
     od:F2_perceived <http://data.odeuropa.eu/smell/7e45277c-c55a-5bc1-a544-ab9f549cb6f9> ;
-    crm:P7_took_place_at <http://data.odeuropa.eu/place/5a973c2a-a11a-583d-9a01-fb96b9ece1ea>,
-        <http://data.odeuropa.eu/place/5ca916d3-85ca-5f60-ba7b-87e64549fdd3>,
-        <https://sws.geonames.org/202905/> ;
+    crm:P7_took_place_at <http://data.odeuropa.eu/place/2bd9b9a3-63a1-5572-8951-fe060da8e697>,
+        <http://data.odeuropa.eu/place/5a973c2a-a11a-583d-9a01-fb96b9ece1ea>,
+        <http://data.odeuropa.eu/place/5ca916d3-85ca-5f60-ba7b-87e64549fdd3> ;
     time:hasTime <http://data.odeuropa.eu/time/044232f1-3d8c-5cd5-aafe-9b25855e7ebf>,
         <http://data.odeuropa.eu/time/3887b56b-870f-51ba-86cb-8e88a2fe3f24> .
 
@@ -32496,7 +32529,7 @@ profumo								quando invece ili lellere ai vogliono purificare stanze			1815__R
 
 <http://data.odeuropa.eu/experience/3a3bb5c1-235e-5caa-a68f-949aade13cfe> a od:L13_Olfactory_Experience ;
     od:F2_perceived <http://data.odeuropa.eu/smell/c6de999c-e75b-5b32-88b4-0f740653dd3e> ;
-    od:F6_evoked <http://data.odeuropa.eu/thing/b9706cb4-7df8-58de-86a0-be63543bdd30> ;
+    od:F6_evoked <http://data.odeuropa.eu/object/c9442d10-6608-5cf6-953e-4af796494c9a> ;
     time:hasTime <http://data.odeuropa.eu/time/02fd1311-9f4c-5c24-9c9a-7680b8bdea69> .
 
 <http://data.odeuropa.eu/experience/3e659aed-1ca9-5917-bbe4-182893f6200d> a od:L13_Olfactory_Experience ;

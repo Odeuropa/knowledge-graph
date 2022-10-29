@@ -11,6 +11,7 @@ from tqdm import tqdm
 
 from convert_text import lang_map
 from entities import *
+from entities.Graph import ODEUROPA_PROJECT
 from entities.vocabularies import VocabularyManager as VocManager
 
 docs_file = path.join('./', 'input', 'image-odor-dataset', 'metadata.csv')
@@ -141,7 +142,7 @@ BASE_OO = 'http://data.odeuropa.eu/vocabulary/olfactory-objects/'
 
 prov = Provenance('D2.4', 'Manual image annotation',
                   'Manual annotation of image resources realised according to the Odeuropa deliverable D2.4 '
-                  '"Annotated image data version 2" ')
+                  '"Annotated image data version 2" ', ODEUROPA_PROJECT)
 
 
 def guess_annotation(body, seed):
