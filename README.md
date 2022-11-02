@@ -50,6 +50,7 @@ Upload dumps
     python3 scripts/load_dump.py gutenberg
     python3 scripts/load_dump.py eebo
     python3 scripts/load_dump.py gallica
+    python3 scripts/load_dump.py dbnl
 
 ## Apache Configuration and dereferencing
 
