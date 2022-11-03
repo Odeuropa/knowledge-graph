@@ -48,9 +48,12 @@ Upload dumps
     python3 scripts/load_dump.py royal-society-corpus
     python3 scripts/load_dump.py old-bailey-corpus
     python3 scripts/load_dump.py gutenberg
+    python3 scripts/load_dump.py gutenberg_it
     python3 scripts/load_dump.py eebo
     python3 scripts/load_dump.py gallica
     python3 scripts/load_dump.py dbnl
+    python3 scripts/load_dump.py liberliber
+    python3 scripts/load_dump.py wikisource
 
 ## Apache Configuration and dereferencing
 
@@ -91,9 +94,12 @@ Install skosmos using docker
     python convert_text.py -i ./input/royal-society-corpus --lang en
     python convert_text.py -i ./input/old-bailey-corpus --lang en
     python convert_text.py -i ./input/gutenberg --lang en
+    python convert_text.py -i ./input/gutenberg_it --lang it
     python convert_text.py -i ./input/eebo --lang en
     python convert_text.py -i ./input/gallica --lang fr
     python convert_text.py -i ./input/dbnl --lang nl
+    python convert_text.py -i ./input/liberliber --lang it
+    python convert_text.py -i ./input/wikisource --lang it
     python convert_img.py
 
 

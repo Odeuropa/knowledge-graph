@@ -1,3 +1,4 @@
+import re
 import os
 from os import path
 import requests
@@ -16,22 +17,30 @@ C_TYPE = {
     'ttl': 'text/turtle'
 }
 
+LANG_FINAL = r"_(it|en|de|nl|sl|fr)$"
+
 
 def load_dump(name):
     main_graph = path.join(BASE_GRAPH, name)
     folder = path.join(ROOT, name)
+    delete_graph = True
+
+    if re.search(LANG_FINAL, main_graph):
+        main_graph = re.sub(LANG_FINAL, '', main_graph)
+        delete_graph = False
 
     # clear graph
     headers = {'Authorization': get_auth()}
     params = (('graph', main_graph),)
 
-    print('Deleting graph...')
-    response = requests.delete(f'{base}/repositories/odeuropa/rdf-graphs/service',
-                               headers=headers, params=params)
-    if response.status_code != 204:
-        print(response.status_code)
-        print(response.content)
-        return
+    if delete_graph:
+        print('Deleting graph...')
+        response = requests.delete(f'{base}/repositories/odeuropa/rdf-graphs/service',
+                                   headers=headers, params=params)
+        if response.status_code != 204:
+            print(response.status_code)
+            print(response.content)
+            return
 
     print('Uploading new resources...')
     # upload new resources
