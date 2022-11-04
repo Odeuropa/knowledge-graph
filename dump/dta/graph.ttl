@@ -2,8 +2,8 @@
 @prefix dcmi: <http://purl.org/dc/dcmitype/> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 
-<http://data.odeuropa.eu/gutenberg> a dcmi:Dataset ;
-  rdfs:label "Gutenberg" ;
-  dc:title "Smell references in the Gutenberg corpus"@en ;
-  dc:language "en", "it" ;
+<http://data.odeuropa.eu/dta> a dcmi:Dataset ;
+  rdfs:label "Deutsches Text Archiv" ;
+  dc:title "Smell references in the Deutsches Text Archiv"@en ;
+  dc:language "de" ;
   dc:creator <http://data.odeuropa.eu/odeuropa> .

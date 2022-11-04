@@ -52,8 +52,12 @@ Upload dumps
     python3 scripts/load_dump.py eebo
     python3 scripts/load_dump.py gallica
     python3 scripts/load_dump.py dbnl
-    python3 scripts/load_dump.py liberliber
+    python3 scripts/load_dump.py dbnl_nl1
+    python3 scripts/load_dump.py dbnl_nl3
+    python3 scripts/load_dump.py dta
+    python3 scripts/load_dump.py dta_de2
     python3 scripts/load_dump.py wikisource
+    python3 scripts/load_dump.py liberliber
 
 ## Apache Configuration and dereferencing
 
