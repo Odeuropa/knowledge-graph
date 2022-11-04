@@ -225,6 +225,16 @@ def process_metadata(lang, docs_file, map_file):
     splitting = ',' if 'old-bailey-corpus' in docs_file else '|'
     for i, r in tqdm(df.iterrows(), total=df.shape[0]):
         identifier = r['id'].replace('.xml', '').replace('.txt', '')
+
+        if intermediate_map is not None:
+            pointer = intermediate_map[intermediate_map['real_id'] == identifier + '.txt']['id']
+            if len(pointer) > 0:
+                real_id = pointer.iloc[0]
+            else:
+                continue
+        else:
+            real_id = identifier
+
         year = r['year'].replace('.0', '')
 
         if 'eebo' in docs_file:
@@ -236,7 +246,7 @@ def process_metadata(lang, docs_file, map_file):
         for author in r['author'].split(splitting):
             author = author.replace('\\amp;', '&')
 
-            m = re.search(r"(, )?\(?(\d{4}\??)-(\d{4}\??)\)?", author)
+            m = re.search(r"(?:, )?\(?(\d{4}\??)-(\d{4}\??)\)?", author)
             birth = death = None
             if m is not None:
                 birth = m.group(1)
@@ -259,11 +269,7 @@ def process_metadata(lang, docs_file, map_file):
         if 'journal' in r:
             to.add(SDO.isPartOf, TextualObject(r['journal'], r['journal'], date=year))
 
-        if intermediate_map is not None:
-            real_id = intermediate_map[intermediate_map['real_id'] == identifier + '.txt']['id'].iloc[0]
-            docs[real_id] = to
-        else:
-            docs[identifier] = to
+        docs[real_id] = to
 
 
 def run(root, output, lang=None):
