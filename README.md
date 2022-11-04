@@ -90,6 +90,7 @@ Install skosmos using docker
     spacy download de_core_news_sm
     spacy download it_core_news_sm
 
+    python convert_img.py
     python convert_text.py -i ./input/text-annotation
     python convert_text.py -i ./input/royal-society-corpus --lang en
     python convert_text.py -i ./input/old-bailey-corpus --lang en
@@ -98,9 +99,12 @@ Install skosmos using docker
     python convert_text.py -i ./input/eebo --lang en
     python convert_text.py -i ./input/gallica --lang fr
     python convert_text.py -i ./input/dbnl --lang nl
+    python convert_text.py -i ./input/dbnl_nl1 --lang nl
+    python convert_text.py -i ./input/dbnl_nl3 --lang nl
     python convert_text.py -i ./input/liberliber --lang it
     python convert_text.py -i ./input/wikisource --lang it
-    python convert_img.py
+    python convert_text.py -i ./input/dta --lang de
+    python convert_text.py -i ./input/dta_de2 --lang de
 
 
 The URI pattern is described in a separate [README](URI-patterns.md)

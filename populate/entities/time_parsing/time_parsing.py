@@ -338,7 +338,7 @@ def parse_date(date, lang='en'):
 
     # cases: 1871, 1920s
     if re.fullmatch(SINGLE_YEAR, date):
-        return date.replace('0s', 'X') + sym
+        return date.rjust(4, '0').replace('0s', 'X') + sym
 
     SEPARATORS_REGEX = "(?:[-=/]| " + " | ".join(lg.SEPARATORS) + " )"
     YEAR_SPAN = r"(?i)(?:(?:" + lg.BETWEEN + r")\s+)?(\d{3,4}s?)(?:\s*(?:[-=\/]|" + \

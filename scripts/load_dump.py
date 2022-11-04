@@ -17,7 +17,7 @@ C_TYPE = {
     'ttl': 'text/turtle'
 }
 
-LANG_FINAL = r"_(it|en|de|nl|sl|fr)$"
+LANG_FINAL = r"_(it|en|de|nl|sl|fr)\d*$"
 
 
 def load_dump(name):

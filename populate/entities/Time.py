@@ -43,6 +43,7 @@ class Time(Entity):
     def set_start(self, date, xsd_type):
         if not date or 'X' in date:
             return
+
         self.start = date
         self.add(TIME.hasBeginning, date, xsd_type)
 
@@ -54,6 +55,7 @@ class Time(Entity):
 
     def compute_rdf_date(self):
         dt = time_parsing.parse_edtf(self.seed)
+
         # todo include info on writing time of the text
         if dt:
             start, end, startType, endType = dt
