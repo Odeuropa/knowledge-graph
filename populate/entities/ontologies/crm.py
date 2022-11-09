@@ -405,7 +405,7 @@ class CRM(DefinedNamespace):
     # Valid non-python identifiers 
     _extras = ['E22_Human-Made_Object', 'E24_Physical_Human-Made_Thing', 'E25_Human-Made_Feature', 'E52_Time-Span',
                'E71_Human-Made_Thing', 'P164i_was_time-span_of', 'P4_has_time-span', 'P4i_is_time-span_of']
-    E22_HumanMade_Object = URIRef('E22_Human-Made_Object')
-    E24_HumanMade_Thing = URIRef('E24_Physical_Human-Made_Thing')
 
     _NS = Namespace("http://erlangen-crm.org/current/")
+    E22_HumanMade_Object = URIRef(_NS + 'E22_Human-Made_Object')
+    E24_HumanMade_Thing = URIRef(_NS + 'E24_Physical_Human-Made_Thing')

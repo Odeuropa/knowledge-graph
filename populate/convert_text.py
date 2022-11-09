@@ -171,13 +171,17 @@ def process_annotation_sheet(df, lang, codename):
             emission.add_time(txt.time)
 
         # emotion
-        emotion = r.get('Emotion', None)
-        if emotion:
-            for e in np.unique(emotion.split(' | ')):
-                if r['Emotion_Type'] == 'Smell_Word':
+        if 'Emotion' in r:
+            emotion = r.get('Emotion', None).split('|')
+            emotion_types = r.get('Emotion_Type', None).split('|')
+            emotion_other = r.get('Emotion_Other', None).split('|')
+            emotion_sentiment = r.get('Emotion_Sentiment', None).split('|')
+            for emot, typ, other, sentiment in zip(emotion, emotion_types, emotion_other, emotion_sentiment):
+                typ = typ.strip()
+                if typ == 'Smell_Word':
                     continue
-                typ = r['Emotion_Other'] if r['Emotion_Type'] == 'Other' else r['Emotion_Type']
-                experience.add_emotion(e, typ.lower(), r['Emotion_Sentiment'])
+                typ = other.strip() if typ == 'Other' else typ
+                experience.add_emotion(emot, typ.lower(), sentiment)
 
         frag.add_annotation(emission, prov)
         frag.add_annotation(smell, prov)
