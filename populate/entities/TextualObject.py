@@ -23,6 +23,70 @@ GENRES = {
     "OTH": "Other"
 }
 
+KEYWORD_TO_GENRE = {
+    "agriculture": "BOT",
+    "alkohol": "PUB",
+    "bukovništvo": "BOT",
+    "cerkev": "REL",
+    "chemistry": "SCIE",
+    "christianity": "REL",
+    "church": "REL",
+    "domača zdravila": "HOUS",
+    "enologija": "BOT",
+    "fitopatologija": "MED",
+    "fizika": "SCIE",
+    "gospodinjstvo": "HOUS",
+    "Humoristični list": "LIT",
+    "povesti": "LIT",
+    "romani": "LIT",
+    "kemija": "SCIE",
+    "kletarstvo": "BOT",
+    "kmetijstvo": "BOT",
+    "književnost": "LIT",
+    "krščans": "REL",
+    "kuhar": "HOUS",
+    "law": "LAW",
+    "leposlovje": "LIT",
+    "literarna": "LIT",
+    "literary": "LIT",
+    "literature": "LIT",
+    "medicina": "MED",
+    "običaji": "TRAV",
+    "teologija": "REL",
+    "pedagogika": "SCIE",
+    "pedagogy": "SCIE",
+    "physics": "SCIE",
+    "poezija": "LIT",
+    "pravo": "LAW",
+    "prirodoslovne vede": "SCIE",
+    "prose": "LIT",
+    "proza": "LIT",
+    "sadj": "BOT",
+    "dramatika": "LIT",
+    "sociologija": "SCIE",
+    "sociology": "SCIE",
+    "technology": "SCIE",
+    "tehnologija": "SCIE",
+    "terminologija": "SCIE",
+    "terminology": "SCIE",
+    "terminološki": "SCIE",
+    "therapy": "MED",
+    "uporabne vede": "SCIE",
+    "verski": "REL",
+    "veterinarstvo": "MED",
+    "vinarstvo": "BOT",
+    "vino": "BOT",
+    "vinogradništvo": "BOT",
+    "vinsk": "BOT",
+    "vrtnarstvo": "BOT",
+    "zdravilne": "MED",
+    "zdravljenje": "MED",
+    "zdravstvo": "MED",
+    "zoologija": "SCIE",
+    "zoology": "SCIE",
+    "čebelarstvo": "BOT"
+}
+
 
 def to_genre(idg):
     if not idg:
@@ -46,12 +110,17 @@ class TextualObject(SourceDoc):
         self.set_class(CRM.E33_Linguistic_Object)
         self.add(SDO.genre, to_genre(genre))
         self.add(SDO.inLanguage, lang)
-        self.add(SDO.locationCreated, Place.from_text(place))
+        self.add_place(place)
 
     def add_fragment(self, text, lang=None):
         frag = TextFragment(self, text, lang or self.lang)
         self.add(CRM.P165_incorporates, frag)
         return frag
+
+    def add_genre_from_keyword(self, keyword):
+        for k in KEYWORD_TO_GENRE:
+            if k in keyword:
+                return self.add(SDO.genre, to_genre(KEYWORD_TO_GENRE[k]))
 
 
 class TextFragment(Entity):

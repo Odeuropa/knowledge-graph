@@ -48,6 +48,11 @@ class SourceDoc(Entity):
             person = Actor(name, lang=lang, alive_in=self.time)
         self.add(SDO.author, person)
 
+    def add_place(self, place):
+        if not isinstance(place, Place):
+            place = Place.from_text(place)
+        self.add(SDO.locationCreated, place)
+
     def add_subject(self, subject, lang=None):
         if subject is None:
             return

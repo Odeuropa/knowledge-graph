@@ -9,6 +9,7 @@ import pandas as pd
 import yaml
 from tqdm import tqdm
 from rdflib import SDO, RDF, SKOS
+import rispy
 
 from entities import *
 from entities.Graph import ODEUROPA_PROJECT
@@ -21,6 +22,7 @@ DEFAULT_OUT = path.join('../', 'dump')
 
 NAN_REGEX = r'(^| )nan( |$)'
 DOC_ID_REGEX = r"\d{3}[A-Z]"
+DLIB_BRACKETS_REGEX = r'\(([^\d]+)(. [\d\--]+)?\)'
 PROV_DESCR = 'Manual annotation of textual resources realised according to the Odeuropa deliverable D3.2 ' \
              '"Multilingual historical corpora and annotated benchmarks" '
 
@@ -35,6 +37,8 @@ lang_map = {
 }
 
 docs = {}
+
+DEFAULT_PLACES = None
 
 
 def get_safe(name, obj):
@@ -193,7 +197,7 @@ def process_benchmark_sheet(language, docs_file):
         df = pd.read_excel(docs_file, sheet_name=language, dtype=str)
     else:
         df = pd.read_csv(docs_file, sep='\t')
-    df.fillna('', inplace=True)
+    df.drop_duplicates(inplace=True).fillna('', inplace=True)
 
     lang = lang_map[language]
 
@@ -217,14 +221,9 @@ def process_benchmark_sheet(language, docs_file):
         docs[identifier] = to
 
 
-def process_metadata(lang, docs_file, map_file):
+def process_metadata(lang, docs_file, intermediate_map, collection):
     df = pd.read_csv(docs_file, dtype=str, sep='\t', encoding='utf-8')
-    df.fillna('', inplace=True)
-    intermediate_map = None
-
-    if path.isfile(map_file):
-        intermediate_map = pd.read_csv(map_file, dtype=str, sep='\t', encoding='utf-8', names=['id', 'filename'])
-        intermediate_map['real_id'] = intermediate_map['filename'].apply(lambda x: x.split('text_')[-1])
+    df.drop_duplicates(inplace=True).fillna('', inplace=True)
 
     splitting = ',' if 'old-bailey-corpus' in docs_file else '|'
     for i, r in tqdm(df.iterrows(), total=df.shape[0]):
@@ -246,7 +245,9 @@ def process_metadata(lang, docs_file, map_file):
             year = re.sub(r'-\??(?!\d)', '.?', year)
 
         # print(identifier, year)
-        to = TextualObject(identifier, title=r['title'], date=year, place='London', lang=lang)
+        to = TextualObject(identifier, title=r['title'], date=year, place=DEFAULT_PLACES[collection], lang=lang)
+
+        # todo editor gallica
         for author in r['author'].split(splitting):
             author = author.replace('\\amp;', '&')
 
@@ -276,10 +277,67 @@ def process_metadata(lang, docs_file, map_file):
         docs[real_id] = to
 
 
-def run(root, output, lang=None):
+def process_metadata_ris(lang, ris_file, intermediate_map, collection):
+    filename = path.split(ris_file)[-1]
+    with open(ris_file) as f:
+        r = rispy.load(f, encoding='utf-8')[0]
+    identifier = filename.replace('.ris', '')
+
+    if intermediate_map is not None:
+        pointer = intermediate_map[intermediate_map['real_id'] == identifier + '.txt']['id']
+        if len(pointer) > 0:
+            real_id = pointer.iloc[0]
+        else:
+            print('not found in map', identifier)
+            return
+    else:
+        real_id = identifier
+
+    date = r['date'].replace(' ', '-')
+
+    jo = None
+    place = None
+    if 'journal_name' in r and r['journal_name'] != r['title']:
+        journal = r['journal_name']
+        m = re.search(DLIB_BRACKETS_REGEX, journal)
+        if m is not None:
+            place = Place.from_text(m.group(1))
+        jo = TextualObject(collection + r.get('id', journal), journal)
+
+    place = place or DEFAULT_PLACES[collection]
+    to = TextualObject(identifier, title=r['title'], date=date, place=place, lang=lang)
+    to.add(SDO.volumeNumber, r.get('volume'))
+    to.add(SDO.issueNumber, r.get('number'))
+    for k in r.get('keywords', []):
+        to.add_genre_from_keyword(k)
+
+    if 'publisher' in r:
+        to.add(SDO.publisher, Actor(r['publisher']))
+
+    if collection == 'dlib':
+        to.add_url('http://www.dlib.si/details/URN:NBN:SI:DOC-' + identifier.split('-')[-1])
+
+    to.add(SDO.isPartOf, jo)
+
+    docs[real_id] = to
+
+
+def run(root, output, lang=None, organised_in_batches=False, metadata_format='tsv', collection=None):
+    global DEFAULT_PLACES
+
+    collection = collection or path.split(root)[-1]
+    if organised_in_batches:
+        for batch in sorted(os.listdir(root)):
+            batch_path = path.join(root, batch)
+            if not path.isdir(batch_path):
+                continue
+            run(batch_path, output, lang, False, metadata_format, collection)
+        return
+
     docs_file = path.join(root, 'metadata.xlsx')
-    codename = root.split('/')[-1]
-    folder_name = path.split(root)[-1]
+    rt = root.replace('/batch-', '_' + lang)
+    codename = rt.split('/')[-1]
+    folder_name = path.split(rt)[-1]
     out_folder = path.join(output, folder_name)
     os.makedirs(out_folder, exist_ok=True)
 
@@ -288,6 +346,22 @@ def run(root, output, lang=None):
         config = yaml.safe_load(file)
     VocabularyManager.setup(config['vocabularies'])
 
+    DEFAULT_PLACES = {
+        'old-bailey-corpus': Place.from_text('London'),
+        'eebo': Place.from_text('UK'),  # missing
+        'dta': Place.from_text('Germany'),  # missing
+        'dta_de2': Place.from_text('Germany'),  # missing
+        'dbnl': Place.from_text('Netherlands'),  # missing,
+        'dbnl_nl1': Place.from_text('Netherlands'),  # missing,
+        'dbnl_nl3': Place.from_text('Netherlands'),  # missing,
+        'liberliber': Place.from_text('Italy'),  # missing
+        'gutenberg': Place.from_text('UK'),  # missing
+        'gutenberg_it': Place.from_text('Italy'),  # missing
+        'wikisource': Place.from_text('Italy'),  # missing,
+        'gallica': Place.from_text('France'),
+        'dlib': Place.from_text('Slovenia')
+    }
+
     # convert
     if lang is None:
         lang_list = ['en', 'fr', 'it', 'de', 'sl', 'nl']
@@ -295,10 +369,23 @@ def run(root, output, lang=None):
             process_benchmark_sheet(lg, docs_file)
     else:
         lang_list = [lang]
-        docs_file = path.join(root, 'metadata.tsv')
         map_file = path.join(root, 'map.tsv')
+        intermediate_map = None
 
-        process_metadata(lang, docs_file, map_file)
+        if path.isfile(map_file):
+            intermediate_map = pd.read_csv(map_file, dtype=str, sep='\t', encoding='utf-8', names=['id', 'filename'])
+            intermediate_map['real_id'] = intermediate_map['filename'].apply(
+                lambda x: x.split('text_')[-1].replace('dlib-', ''))
+
+        if metadata_format == 'tsv':
+            docs_file = path.join(root, 'metadata.tsv')
+            process_metadata(lang, docs_file, intermediate_map, collection)
+        elif metadata_format == 'ris':
+            for file in sorted(os.listdir(path.join(root, 'metadata'))):
+                if file.endswith('.ris'):
+                    process_metadata_ris(lang, path.join(root, 'metadata', file), intermediate_map, collection)
+        else:
+            raise RuntimeError('unrecognized metadata format')
 
     Graph.g.serialize(destination=f"{out_folder}/docs.ttl")
     Graph.reset()
@@ -309,10 +396,10 @@ def run(root, output, lang=None):
 
         if os.path.isfile(em_tsv):
             with open(em_tsv) as file:
-                tsv_data = pd.read_csv(file, sep='\t', index_col=False)
+                tsv_data = pd.read_csv(file, sep='\t', index_col=False).drop_duplicates()
 
         with open(path.join(root, f"{lg}-frame-elements.tsv")) as file:
-            temp = pd.read_csv(file, sep='\t', index_col=False)
+            temp = pd.read_csv(file, sep='\t', index_col=False).drop_duplicates()
             tsv_data = temp if tsv_data is None else pd.concat([tsv_data, temp], ignore_index=True)
             tsv_data.fillna('', inplace=True)
             tsv_data.replace(NAN_REGEX, regex=True, inplace=True)
@@ -343,10 +430,12 @@ def parse_arguments():
     parser.add_argument('--input', '-i', type=dir_path, default=DEFAULT_ROOT)
     parser.add_argument('--output', '-o', type=dir_path, default=DEFAULT_OUT)
     parser.add_argument('--lang', type=str)
+    parser.add_argument('--batch', action='store_true')
+    parser.add_argument('--metadata', type=str, default='tsv')
 
     return parser.parse_args()
 
 
 if __name__ == "__main__":
     args = parse_arguments()
-    run(args.input, args.output, args.lang)
+    run(args.input, args.output, args.lang, args.batch, args.metadata)

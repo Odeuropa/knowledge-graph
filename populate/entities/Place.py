@@ -71,7 +71,8 @@ class Place(Entity):
     def from_text(cls, text, lang='en', only_interlinked=False):
         if is_invalid(text) or re.match(r'\d+(\\.\d+)?', text):
             return None
-        if text.strip() in ['Whereabouts unknown', 'Ubicazione sconosciuta']:
+        text = text.strip()
+        if text in ['Whereabouts unknown', 'Ubicazione sconosciuta']:
             return None
         original_text = text
 
@@ -79,8 +80,7 @@ class Place(Entity):
         text = re.sub(IN_PREFIX.get(lang, IN_PREFIX['en']), '', text.strip(), flags=re.I).strip()
         text = text.strip(string.punctuation).strip()
 
-
-        PRIVATE_COLLECTION_REGEX =\
+        PRIVATE_COLLECTION_REGEX = \
             r'(?i)(Private Collection|Collezione privata|Mercato antiquario|art dealer)[^:,(-]*([:,-]? \(?)?'
         pc = re.match(PRIVATE_COLLECTION_REGEX, text)
         if pc:

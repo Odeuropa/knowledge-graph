@@ -16,12 +16,12 @@ class ImageObject(SourceDoc):
         super().__init__(_id, title, author, date, lang)
 
         self.set_class(CRM.E36_Visual_Item)
-        self.add(SDO.locationCreated, Place.from_text(place))
         self.add(SDO.image, url)
         # internal uri
         self.add(SDO.image, f'https://data.odeuropa.eu/image/{_id}')
 
         self.physical = PhysicalObject(self.uri)
+        self.add_place(place)
 
     def add_fragment(self, bbox):
         frag = MediaFragment(self, bbox, self)
