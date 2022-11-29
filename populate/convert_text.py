@@ -93,6 +93,13 @@ def extract_id(lang, title):
 sentence_archive = []
 
 
+def get_multi(keys, obj):
+    res = []
+    for x in [obj[k].strip() for k in keys if k in obj and obj[k]]:
+        res.extend(x.split('|'))
+    return res
+
+
 def process_annotation_sheet(df, lang, codename):
     print('processing ' + lang)
 
@@ -190,6 +197,8 @@ def process_annotation_sheet(df, lang, codename):
         frag.add_annotation(emission, prov)
         frag.add_annotation(smell, prov)
         frag.add_annotation(experience, prov)
+        prov.add_words(get_multi(('Smell_Word', 'Smell_Source', 'Odour_Carrier', 'Perceiver', 'Quality', 'Effect',
+                                  'Evoked_Odorant', 'Location', 'Time', 'Emotion'), r), lang)
 
 
 def process_benchmark_sheet(language, docs_file):
