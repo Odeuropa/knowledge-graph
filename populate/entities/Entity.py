@@ -40,8 +40,8 @@ class Entity:
     def add_descr(self, text, lang):
         self.add(RDFS.comment, text.strip(), lang)
 
-    def add_place(self, place):
-        self.add(CRM.P7_took_place_at, place)
+    def add_place(self, place, lang=None):
+        self.add(CRM.P7_took_place_at, place, lang=lang)
 
     def add_time(self, time, inferred=False):
         self.time = time

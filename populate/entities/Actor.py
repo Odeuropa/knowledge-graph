@@ -58,3 +58,6 @@ class Actor(Entity):
                 is_person = True
 
         self.set_class(CRM.E21_Person if is_person else ODEUROPA.L6_Animal if is_animal else CRM.E39_Actor)
+
+    def add_place(self, place, lang=None):
+        self.add(CRM.P53_has_former_or_current_location, place)

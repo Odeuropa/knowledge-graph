@@ -232,7 +232,8 @@ def process_benchmark_sheet(language, docs_file):
 
 def process_metadata(lang, docs_file, intermediate_map, collection):
     df = pd.read_csv(docs_file, dtype=str, sep='\t', encoding='utf-8')
-    df.drop_duplicates(inplace=True).fillna('', inplace=True)
+    df.fillna('', inplace=True)
+    df.drop_duplicates(inplace=True)
 
     splitting = ',' if 'old-bailey-corpus' in docs_file else '|'
     for i, r in tqdm(df.iterrows(), total=df.shape[0]):
@@ -253,10 +254,21 @@ def process_metadata(lang, docs_file, intermediate_map, collection):
             identifier = identifier.replace('/', '_')
             year = re.sub(r'-\??(?!\d)', '.?', year)
 
-        # print(identifier, year)
-        to = TextualObject(identifier, title=r['title'], date=year, place=DEFAULT_PLACES[collection], lang=lang)
+        editor = r.get('editor')
+        place = None
+        if editor is not None:
+            m = re.search(DLIB_BRACKETS_REGEX, editor)
+            if m is not None:
+                editor = editor.replace(m.group(0), '')
+                if '[s.n.]' in editor:
+                    editor = None
 
-        # todo editor gallica
+                place = Place.from_text(m.group(1), lang=lang, only_interlinked=True)
+
+        # print(identifier, year)
+        place = place or DEFAULT_PLACES[collection]
+        to = TextualObject(identifier, title=r['title'], date=year, place=place, lang=lang)
+
         for author in r['author'].split(splitting):
             author = author.replace('\\amp;', '&')
 
@@ -271,6 +283,12 @@ def process_metadata(lang, docs_file, intermediate_map, collection):
                 author = f'{parts[1]} {parts[0]}'
 
             to.add_author(author, lang, birth, death)
+
+        if editor == "l'auteur":
+            to.add_publisher(to.authors[0])
+        else:
+            to.add_publisher(editor, lang, place)
+
         to.add_url(r.get('doiLink'))
         to.add_url(r.get('link'))
         to.same_as(r.get('sameAs'))

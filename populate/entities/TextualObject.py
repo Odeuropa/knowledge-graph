@@ -1,10 +1,11 @@
 import uuid
 from os import path
+
 from rdflib import URIRef, RDF, RDFS, SDO, SKOS
 
-from .SourceDoc import SourceDoc
+from . import Graph
 from .Entity import Entity
-from . import Graph, Place
+from .SourceDoc import SourceDoc
 from .config import BASE
 from .ontologies import CRM
 

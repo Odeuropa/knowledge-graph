@@ -16,6 +16,7 @@ AUTHOR_DATES = r'\((\d+)-(\d+)\)'
 class SourceDoc(Entity):
     def __init__(self, _id, title, author=None, date=None, lang=None):
         super().__init__(str(date) + (title or _id) + str(author), 'source')
+        self.authors = []
         self.author = None
 
         self.title = title
@@ -46,11 +47,21 @@ class SourceDoc(Entity):
             person = Actor(name, lang=lang, birth=birth, death=death)
         else:
             person = Actor(name, lang=lang, alive_in=self.time)
+        self.authors.append(person)
         self.add(SDO.author, person)
 
-    def add_place(self, place):
+    def add_publisher(self, publisher, lang=None, place=None):
+        if publisher is None:
+            return
+        name = publisher.strip()
+        pub = Actor(name, lang=lang)
+        pub.add_place(place, lang=lang)
+
+        self.add(SDO.publisher, pub)
+
+    def add_place(self, place, lang=None):
         if not isinstance(place, Place):
-            place = Place.from_text(place)
+            place = Place.from_text(place, lang)
         self.add(SDO.locationCreated, place)
 
     def add_subject(self, subject, lang=None):
