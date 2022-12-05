@@ -58,6 +58,38 @@ Upload dumps
     python3 scripts/load_dump.py dta_de2
     python3 scripts/load_dump.py wikisource
     python3 scripts/load_dump.py liberliber
+    python3 scripts/load_dump.py dlib
+    python3 scripts/load_dump.py dlib_sl0000
+    python3 scripts/load_dump.py dlib_sl0001
+    python3 scripts/load_dump.py dlib_sl0002
+    python3 scripts/load_dump.py dlib_sl0003
+    python3 scripts/load_dump.py dlib_sl0004
+    python3 scripts/load_dump.py dlib_sl0005
+    python3 scripts/load_dump.py dlib_sl0006
+    python3 scripts/load_dump.py dlib_sl0007
+    python3 scripts/load_dump.py dlib_sl0008
+    python3 scripts/load_dump.py dlib_sl0009
+    python3 scripts/load_dump.py dlib_sl0010
+    python3 scripts/load_dump.py dlib_sl0011
+    python3 scripts/load_dump.py dlib_sl0012
+    python3 scripts/load_dump.py dlib_sl0013
+    python3 scripts/load_dump.py dlib_sl0014
+    python3 scripts/load_dump.py dlib_sl0015
+    python3 scripts/load_dump.py dlib_sl0016
+    python3 scripts/load_dump.py dlib_sl0017
+    python3 scripts/load_dump.py dlib_sl0018
+    python3 scripts/load_dump.py dlib_sl0019
+    python3 scripts/load_dump.py dlib_sl0020
+    python3 scripts/load_dump.py dlib_sl0021
+    python3 scripts/load_dump.py dlib_sl0022
+    python3 scripts/load_dump.py dlib_sl0023
+    python3 scripts/load_dump.py dlib_sl0024
+    python3 scripts/load_dump.py dlib_sl0025
+    python3 scripts/load_dump.py dlib_sl0026
+    python3 scripts/load_dump.py dlib_sl0027
+    python3 scripts/load_dump.py dlib_sl0028
+    python3 scripts/load_dump.py dlib_sl0029
+    python3 scripts/load_dump.py dlib_sl0030
 
 ## Apache Configuration and dereferencing
 
@@ -109,6 +141,7 @@ Install skosmos using docker
     python convert_text.py -i ./input/wikisource --lang it
     python convert_text.py -i ./input/dta --lang de
     python convert_text.py -i ./input/dta_de2 --lang de
+    python convert_text.py -i ./input/dlib --lang sl --batch --metadata ris
 
 
-The URI pattern is described in a separate [README](URI-patterns.md)
+The URI pattern is described in a separate [README](URI-patterns.md).

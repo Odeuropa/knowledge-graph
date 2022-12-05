@@ -58,7 +58,7 @@ class VocabularyController:
 
             if len(tokens) == 1 and tokens[0].pos_ == 'PRON' and tokens[0].text != 'aegypt':
                 # TODO detect male and females, detect me and you
-                return None, None
+                return None, 'Pronoun'
                 # return 'http://data.odeuropa.eu/vocabulary/olfactory-objects/539', 'person'
             q = ' '.join([x.lemma_ if x.pos_ == 'NOUN' else x.text for x in tokens])
         lms = self.search(q, lang, 1, False).lemmata

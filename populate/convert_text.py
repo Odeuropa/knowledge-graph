@@ -155,7 +155,7 @@ def process_annotation_sheet(df, lang, codename):
             p = p.replace(Place.IN_PREFIX[lang], '').strip()
             p = p.replace(VocabularyManager.ARTICLE_REGEX[lang], '').strip()
             if len(p) > 0:
-                experience.add_perceiver(Actor(p, lang))
+                experience.add_perceiver(Actor.create(p, lang))
 
         for x in r.get('Quality', '').split('|'):
             experience.add_quality(x.strip(), lang)
@@ -206,7 +206,8 @@ def process_benchmark_sheet(language, docs_file):
         df = pd.read_excel(docs_file, sheet_name=language, dtype=str)
     else:
         df = pd.read_csv(docs_file, sep='\t')
-    df.drop_duplicates(inplace=True).fillna('', inplace=True)
+    df.drop_duplicates(inplace=True)
+    df.fillna('', inplace=True)
 
     lang = lang_map[language]
 
@@ -257,10 +258,11 @@ def process_metadata(lang, docs_file, intermediate_map, collection):
         editor = r.get('editor')
         place = None
         if editor is not None:
+            editor = editor.strip()
             m = re.search(DLIB_BRACKETS_REGEX, editor)
             if m is not None:
-                editor = editor.replace(m.group(0), '')
-                if '[s.n.]' in editor:
+                editor = editor.replace(m.group(0), '').strip()
+                if 's.n.' in editor:
                     editor = None
 
                 place = Place.from_text(m.group(1), lang=lang, only_interlinked=True)
@@ -286,7 +288,7 @@ def process_metadata(lang, docs_file, intermediate_map, collection):
 
         if editor == "l'auteur":
             to.add_publisher(to.authors[0])
-        else:
+        elif editor and 's.n.' not in editor:
             to.add_publisher(editor, lang, place)
 
         to.add_url(r.get('doiLink'))
@@ -362,7 +364,7 @@ def run(root, output, lang=None, organised_in_batches=False, metadata_format='ts
         return
 
     docs_file = path.join(root, 'metadata.xlsx')
-    rt = root.replace('/batch-', '_' + lang)
+    rt = root.replace('/batch-', f'_{lang}')
     codename = rt.split('/')[-1]
     folder_name = path.split(rt)[-1]
     out_folder = path.join(output, folder_name)
@@ -375,6 +377,7 @@ def run(root, output, lang=None, organised_in_batches=False, metadata_format='ts
 
     DEFAULT_PLACES = {
         'old-bailey-corpus': Place.from_text('London'),
+        'royal-society-corpus': Place.from_text('London'),
         'eebo': Place.from_text('UK'),  # missing
         'dta': Place.from_text('Germany'),  # missing
         'dta_de2': Place.from_text('Germany'),  # missing

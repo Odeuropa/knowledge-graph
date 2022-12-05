@@ -36,7 +36,7 @@ def wbsearchentities(query, lang='en'):
 def searchperson(name, lang='en', alive_in=None, birth=None, death=None):
     if name in cache:
         return cache[name]
-    time.sleep(5)
+    time.sleep(3)
     if birth or death:
         alive_condition = f'FILTER(year(?dateOfBirth) = {birth})' \
             if birth is not None else f'FILTER(year(?dateOfDeath) = {death})' \

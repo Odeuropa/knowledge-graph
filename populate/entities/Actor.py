@@ -1,4 +1,5 @@
 import re
+from string import punctuation
 from rdflib import RDFS, OWL, SDO
 
 from .Entity import Entity
@@ -11,6 +12,9 @@ from .vocabularies import VocabularyManager as VocManager
 TITLES = {
     'en': ['Sir', 'Professor', 'The Hon.', 'Prof.', 'Commander', 'Dr.', 'Captain']
 }
+
+ANONYMOUS_REGEX = r'(?i)(\[?s\.n\.?\]?|anonym(e|ous)|anonim[oa]|anoniem|autore non indicato)'
+STOPWORDS_REGEX = r'(?i)(possibly|attributed to|chez|after|\[?puis\]?|\(?attribué\)?|\(.*\)|, attr\.?$)'
 
 
 class Actor(Entity):
@@ -46,7 +50,7 @@ class Actor(Entity):
                 self.add(SDO.deathDate, Time(death, death))
 
             wd = None
-            if lemma is None and len(name) < 40:
+            if lemma is None and role != 'Pronoun' and len(name) < 40:
                 q = re.sub(r", [a-zA-Z]{1,3}\. .+", "", name)
                 ttls = [x.replace('.', '\\.') for x in TITLES.get(lang, [])]
                 q = re.sub(rf"^{'|'.join(ttls)} ", '', q).strip()
@@ -61,3 +65,25 @@ class Actor(Entity):
 
     def add_place(self, place, lang=None):
         self.add(CRM.P53_has_former_or_current_location, place)
+
+    @classmethod
+    def create(cls, name, lang=None, alive_in=None, anonymize=False, is_person=False, birth=None, death=None):
+        if name is None or len(name) < 1:
+            return None
+        if re.search(ANONYMOUS_REGEX, name):
+            return None
+
+        name = re.sub(STOPWORDS_REGEX, '', name).strip(punctuation).strip()
+        if len(name) < 1:
+            return None
+
+        # TODO extract nationality in cases such as:
+        # Anoniem (Duitsland) in of na 1560: null
+        # Anoniem (Frankrijk): null
+        # Anoniem (Haarlem) 1553 gedateerd: null
+        # "Anoniem (Itali\xEB) eerste kwart 17de eeuw": null
+        # Anoniem (Nederland) ca. 1700-1850: null
+        # niederl\xE4ndisch
+        # \xE4gyptisch
+
+        return Actor(name, lang, alive_in, anonymize, is_person, birth, death)

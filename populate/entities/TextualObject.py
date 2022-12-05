@@ -111,7 +111,7 @@ class TextualObject(SourceDoc):
         self.set_class(CRM.E33_Linguistic_Object)
         self.add(SDO.genre, to_genre(genre))
         self.add(SDO.inLanguage, lang)
-        self.add_place(place)
+        self.add_place(place, lang)
 
     def add_fragment(self, text, lang=None):
         frag = TextFragment(self, text, lang or self.lang)

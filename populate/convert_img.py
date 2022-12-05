@@ -62,7 +62,6 @@ def process_metadata(df):
             date = None
 
         author = r['Artist']
-        author = None if author == "Autore non indicato" else author
         if author is not None:
             author = re.sub(r'\[ [A-Z]+ ]', '', author)
             author = re.sub(r'\|', '', author)
@@ -115,8 +114,8 @@ def process_metadata(df):
                     continue
                 to.add_material(m)
 
-        for x in r['Keywords'].split(','):
-            to.add_subject(x, 'en')
+        for k in r['Keywords'].split(','):
+            to.add_subject(k, 'en')
 
         to.add_subject(r['Iconography'])
         docs[idf] = to

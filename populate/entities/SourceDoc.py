@@ -26,7 +26,6 @@ class SourceDoc(Entity):
         if date:
             t = Time.parse(date)
             self.add(SDO.dateCreated, t)
-            date = t.start if t else None
             self.time = t
 
         if author:
@@ -38,26 +37,27 @@ class SourceDoc(Entity):
 
                 birth = dt.group(1)
                 death = dt.group(2)
-            self.author = Actor(author.strip(), lang=lang, alive_in=date, birth=birth, death=death, is_person=True)
-            self.add(SDO.author, self.author)
+            self.author = self.add_author(author, lang=lang, birth=birth, death=death)
 
     def add_author(self, author, lang=None, birth=None, death=None):
         name = author.strip()
         if birth or death:
-            person = Actor(name, lang=lang, birth=birth, death=death)
+            person = Actor.create(name, lang=lang, birth=birth, death=death, is_person=True)
         else:
-            person = Actor(name, lang=lang, alive_in=self.time)
+            t = self.time.start if self.time else None
+            person = Actor.create(name, lang=lang, alive_in=t, is_person=True)
         self.authors.append(person)
         self.add(SDO.author, person)
+        return person
 
     def add_publisher(self, publisher, lang=None, place=None):
         if publisher is None:
             return
-        name = publisher.strip()
-        pub = Actor(name, lang=lang)
-        pub.add_place(place, lang=lang)
 
-        self.add(SDO.publisher, pub)
+        pub = publisher if isinstance(publisher, Actor) else Actor.create(publisher, lang=lang)
+        if pub:
+            pub.add_place(place, lang=lang)
+            self.add(SDO.publisher, pub)
 
     def add_place(self, place, lang=None):
         if not isinstance(place, Place):
