@@ -11,7 +11,7 @@ Series of scripts, procedures and dumps for deploying the EOKG on GraphDB and Do
 ## GraphDB
 
 Download the latest version of GraphDB free by registering on the [product website](https://www.ontotext.com/products/graphdb/graphdb-free/). Place the obtained zip in the `graphdb` folder.
-We will use version 9.8.0.
+We will use version 10.1.1.
 
 If you have the new Mac M1, run:
 
@@ -20,7 +20,7 @@ If you have the new Mac M1, run:
 
 Then, run:
 
-    make free VERSION=9.8.0 -f graphdb/Makefile
+    make free VERSION=10.1.1 -f graphdb/Makefile
 
     docker-compose up -d
 

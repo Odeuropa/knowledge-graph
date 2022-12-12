@@ -1,7 +1,7 @@
-VERSION=9.8.0
+VERSION=10.1.1
 
 free:
-	docker build --no-cache --pull --build-arg edition=free --build-arg version=${VERSION} -t ontotext/graphdb:${VERSION}-free graphdb
+	docker build --no-cache --pull --build-arg edition= --build-arg version=${VERSION} -t ontotext/graphdb:${VERSION} graphdb
 
 ee:
 	docker build --no-cache --pull --build-arg edition=ee --build-arg version=${VERSION} -t ontotext/graphdb:${VERSION}-ee .

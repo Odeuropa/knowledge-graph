@@ -188,6 +188,8 @@ def process_annotation_sheet(df, lang, codename):
             emotion_other = r.get('Emotion_Other', None).split('|')
             emotion_sentiment = r.get('Emotion_Sentiment', None).split('|')
             for emot, typ, other, sentiment in zip(emotion, emotion_types, emotion_other, emotion_sentiment):
+                if emot.strip() == '':
+                    continue
                 typ = typ.strip()
                 if typ == 'Smell_Word':
                     continue

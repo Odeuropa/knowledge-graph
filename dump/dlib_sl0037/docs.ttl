@@ -1,0 +1,1853 @@
+@prefix crm: <http://erlangen-crm.org/current/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <https://schema.org/> .
+@prefix time: <http://www.w3.org/2006/time#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<http://data.odeuropa.eu/source/00e3f9ed-0187-5c8c-a9aa-a9c40cfdf89a> a crm:E33_Linguistic_Object ;
+    rdfs:label "Kmetijske in rokodelske novice"@sl ;
+    schema:dateCreated <http://data.odeuropa.eu/time/67352eb6-8a95-58b2-acc5-c7c6c1ef55f7> ;
+    schema:inLanguage "sl" ;
+    schema:issueNumber "6" ;
+    schema:locationCreated <https://sws.geonames.org/3190538/> ;
+    schema:publisher <http://data.odeuropa.eu/actor/d050bb64-b7ee-5f66-b6b8-9eb0edc63db6> ;
+    schema:url <http://www.dlib.si/details/URN:NBN:SI:DOC-U99G83NG> ;
+    schema:volumeNumber "58" .
+
+<http://data.odeuropa.eu/source/02aae37e-1c4f-5b9c-9682-f3821531f147> a crm:E33_Linguistic_Object ;
+    rdfs:label "Slovenski pravnik"@sl ;
+    schema:dateCreated <http://data.odeuropa.eu/time/af27db4f-9388-583b-8ec8-59553da946ee> ;
+    schema:genre <http://data.odeuropa.eu/genre/LAW> ;
+    schema:inLanguage "sl" ;
+    schema:issueNumber "11/12" ;
+    schema:locationCreated <https://sws.geonames.org/3190538/> ;
+    schema:publisher <http://data.odeuropa.eu/actor/5e59fdf5-a038-5bfa-933f-ad7d90dabfa7> ;
+    schema:url <http://www.dlib.si/details/URN:NBN:SI:DOC-83IZAZN8> ;
+    schema:volumeNumber "16" .
+
+<http://data.odeuropa.eu/source/03107331-24a7-5f4f-987d-ffc9add98b64> a crm:E33_Linguistic_Object ;
+    rdfs:label "Zarja"@sl ;
+    schema:dateCreated <http://data.odeuropa.eu/time/197aaada-6153-577c-8268-4e84cd1dc7a1> ;
+    schema:inLanguage "sl" ;
+    schema:isPartOf <http://data.odeuropa.eu/source/7ade08a7-b4b2-575a-8b37-826488e3fa34> ;
+    schema:issueNumber "283" ;
+    schema:locationCreated <https://sws.geonames.org/3190538/> ;
+    schema:publisher <http://data.odeuropa.eu/actor/345598e9-0abf-549a-832d-cec7d4f2c338> ;
+    schema:url <http://www.dlib.si/details/URN:NBN:SI:DOC-QQITCJHH> ;
+    schema:volumeNumber "2" .
+
+<http://data.odeuropa.eu/source/06021a46-58bc-5633-83c7-ea8453858cd9> a crm:E33_Linguistic_Object ;
+    rdfs:label "Slovenec: političen list za slovenski narod"@sl ;
+    schema:dateCreated <http://data.odeuropa.eu/time/4d07330e-53e2-509c-a867-ab7b8336bf27> ;
+    schema:inLanguage "sl" ;
+    schema:isPartOf <http://data.odeuropa.eu/source/34af02e9-7a60-5701-a2ff-3172663c8024> ;
+    schema:issueNumber "185" ;
+    schema:locationCreated <https://sws.geonames.org/3190538/> ;
+    schema:publisher <http://data.odeuropa.eu/actor/0c02356e-42f3-5914-a464-321a8dc5da86> ;
+    schema:url <http://www.dlib.si/details/URN:NBN:SI:DOC-C6PA99G3> ;
+    schema:volumeNumber "27" .
+
+<http://data.odeuropa.eu/source/06c87d75-df7c-57e1-9d2f-f2f433a7b574> a crm:E33_Linguistic_Object ;
+    rdfs:label "Slovenski narod"@sl ;
+    schema:dateCreated <http://data.odeuropa.eu/time/27099b74-3ae5-56c6-91f8-b5a9ce532cb5> ;
+    schema:inLanguage "sl" ;
+    schema:issueNumber "167" ;
+    schema:locationCreated <https://sws.geonames.org/3190538/> ;
+    schema:publisher <http://data.odeuropa.eu/actor/1fe43f9d-c6a5-5827-abc2-aaefc94be279> ;
+    schema:url <http://www.dlib.si/details/URN:NBN:SI:DOC-M31JMBZ7> ;
+    schema:volumeNumber "33" .
+
+<http://data.odeuropa.eu/source/0aceb7d0-bcac-57d9-849f-b94e9bf944e3> a crm:E33_Linguistic_Object ;
+    rdfs:label "Edinost: glasilo slovenskega političnega društva tržaške okolice"@sl ;
+    schema:dateCreated <http://data.odeuropa.eu/time/772e3304-87f2-5c55-896d-72225cc9f187> ;
+    schema:inLanguage "sl" ;
+    schema:isPartOf <http://data.odeuropa.eu/source/aa6375c5-5864-5639-85ac-24a191e649bf> ;
+    schema:issueNumber "69" ;
+    schema:locationCreated <https://sws.geonames.org/3165185/> ;
+    schema:publisher <http://data.odeuropa.eu/actor/06856835-a657-53a2-b096-c15c41c55d83> ;
+    schema:url <http://www.dlib.si/details/URN:NBN:SI:DOC-YPCAL1WE> ;
+    schema:volumeNumber "14" .
+
+<http://data.odeuropa.eu/source/0d19f483-2654-54cf-a22b-bbe4e24b098e> a crm:E33_Linguistic_Object ;
+    rdfs:label "Glas svobode"@sl ;
+    schema:dateCreated <http://data.odeuropa.eu/time/e9b93c36-dadf-5ddb-a13d-2ea98fd82c73> ;
+    schema:inLanguage "sl" ;
+    schema:isPartOf <http://data.odeuropa.eu/source/54c2a27d-81f2-582b-ba09-e10cff9c1ee6> ;
+    schema:issueNumber "9" ;
+    schema:locationCreated <https://sws.geonames.org/5435464/> ;
+    schema:publisher <http://data.odeuropa.eu/actor/128a59b3-907b-5847-bdcb-3a34ac987908> ;
+    schema:url <http://www.dlib.si/details/URN:NBN:SI:DOC-HKCJTWAB> ;
+    schema:volumeNumber "4" .
+
+<http://data.odeuropa.eu/source/0e31426d-8344-5bb0-8ff7-8568499f57d9> a crm:E33_Linguistic_Object ;
+    rdfs:label "Dolenjske novice"@sl ;
+    schema:dateCreated <http://data.odeuropa.eu/time/7162fa8d-8d74-5ad6-a4d6-fbcc61fd7b6d> ;
+    schema:inLanguage "sl" ;
+    schema:issueNumber "50" ;
+    schema:locationCreated <https://sws.geonames.org/3190538/> ;
+    schema:publisher <http://data.odeuropa.eu/actor/fece030c-bb24-565a-9e32-e8ddff99b79b> ;
+    schema:url <http://www.dlib.si/details/URN:NBN:SI:DOC-OGDQSAGI> .
+
+<http://data.odeuropa.eu/source/13633fed-879c-5818-9a6c-ddeb8011451d> a crm:E33_Linguistic_Object ;
+    rdfs:label "Slovenski gospodar: podučiven list za slovensko ljudstvo"@sl ;
+    schema:dateCreated <http://data.odeuropa.eu/time/c6b8c90b-7592-5d17-b268-66d9f9675bac> ;
+    schema:inLanguage "sl" ;
+    schema:isPartOf <http://data.odeuropa.eu/source/ec83bdbf-646d-562a-9d6d-24553499a329> ;
+    schema:issueNumber "43" ;
+    schema:locationCreated <https://sws.geonames.org/3190538/> ;
+    schema:publisher <http://data.odeuropa.eu/actor/42df8d51-ab83-54d7-8e7f-f1a5e90daa08> ;
+    schema:url <http://www.dlib.si/details/URN:NBN:SI:DOC-KDSBTVEU> ;
+    schema:volumeNumber "51" .
+
+<http://data.odeuropa.eu/source/16a03e11-febd-5aad-a8ea-d6b291b039e5> a crm:E33_Linguistic_Object ;
+    rdfs:label "Ljubljanski zvon"@sl ;
+    schema:dateCreated <http://data.odeuropa.eu/time/dcf54ad6-08b1-5472-9903-49539304a65a> ;
+    schema:genre <http://data.odeuropa.eu/genre/LIT> ;
+    schema:inLanguage "sl" ;
+    schema:issueNumber "2" ;
+    schema:locationCreated <https://sws.geonames.org/3190538/> ;
+    schema:publisher <http://data.odeuropa.eu/actor/e0c17d41-4eb5-5ce4-bc8e-121d58af3d23> ;
+    schema:url <http://www.dlib.si/details/URN:NBN:SI:DOC-LQEP9MCC> ;
+    schema:volumeNumber "35" .
+
+<http://data.odeuropa.eu/source/1d816cbe-78af-5967-aa4e-1dac8dc76aa8> a crm:E33_Linguistic_Object ;
+    rdfs:label "Rodoljub: glasilo Slovenskega društva v Ljubljani"@sl ;
+    schema:dateCreated <http://data.odeuropa.eu/time/598663e5-d307-5c76-b192-903eb612e8fa> ;
+    schema:inLanguage "sl" ;
+    schema:isPartOf <http://data.odeuropa.eu/source/33461d26-b01c-5e18-ac18-6c8cf8f660c6> ;
+    schema:issueNumber "13" ;
+    schema:locationCreated <https://sws.geonames.org/3190538/> ;
+    schema:publisher <http://data.odeuropa.eu/actor/bea2349b-05af-569d-8e31-2d612cb89bb0> ;
+    schema:url <http://www.dlib.si/details/URN:NBN:SI:DOC-3C8FLLCD> ;
+    schema:volumeNumber "7" .
+
+<http://data.odeuropa.eu/source/1e0d59cb-5abe-5ec2-887a-63ac6c132c5c> a crm:E33_Linguistic_Object ;
+    rdfs:label "Zvonček"@sl ;
+    schema:dateCreated <http://data.odeuropa.eu/time/ce52a2e3-74d1-5cc4-a280-20edb6f44c52> ;
+    schema:genre <http://data.odeuropa.eu/genre/LIT> ;
+    schema:inLanguage "sl" ;
+    schema:isPartOf <http://data.odeuropa.eu/source/d386a4bf-f0b7-55f3-89ef-0c8c85b07693> ;
+    schema:issueNumber "6" ;
+    schema:locationCreated <https://sws.geonames.org/3196359/> ;
+    schema:publisher <http://data.odeuropa.eu/actor/c15f773c-2284-567d-89d9-38e8ad55b5e0> ;
+    schema:url <http://www.dlib.si/details/URN:NBN:SI:DOC-ZPTXBJCJ> ;
+    schema:volumeNumber "18" .
+
+<http://data.odeuropa.eu/source/23fd0e70-f371-5fb1-9b63-bcfa76832112> a crm:E33_Linguistic_Object ;
+    rdfs:label "Slovenski narod"@sl ;
+    schema:dateCreated <http://data.odeuropa.eu/time/e228771f-d18e-5d33-b5ec-edb593d38fcf> ;
+    schema:inLanguage "sl" ;
+    schema:issueNumber "189" ;
+    schema:locationCreated <https://sws.geonames.org/3190538/> ;
+    schema:publisher <http://data.odeuropa.eu/actor/1fe43f9d-c6a5-5827-abc2-aaefc94be279> ;
+    schema:url <http://www.dlib.si/details/URN:NBN:SI:DOC-JDCV9NZU> ;
+    schema:volumeNumber "45" .
+
+<http://data.odeuropa.eu/source/273c87cf-6562-5571-a961-2b8e4eb1f198> a crm:E33_Linguistic_Object ;
+    rdfs:label "Zarja"@sl ;
+    schema:dateCreated <http://data.odeuropa.eu/time/e32616b3-d09c-52fc-8f21-7f708cea47cd> ;
+    schema:inLanguage "sl" ;
+    schema:isPartOf <http://data.odeuropa.eu/source/7ade08a7-b4b2-575a-8b37-826488e3fa34> ;
+    schema:issueNumber "786" ;
+    schema:locationCreated <https://sws.geonames.org/3190538/> ;
+    schema:publisher <http://data.odeuropa.eu/actor/345598e9-0abf-549a-832d-cec7d4f2c338> ;
+    schema:url <http://www.dlib.si/details/URN:NBN:SI:DOC-0SLWCOKW> ;
+    schema:volumeNumber "4" .
+
+<http://data.odeuropa.eu/source/29f95819-e684-5ba7-bf9b-b7b9496ac8ee> a crm:E33_Linguistic_Object ;
+    rdfs:label "Slovenski narod"@sl ;
+    schema:dateCreated <http://data.odeuropa.eu/time/1b9c7c6f-71cb-5767-8070-db412a1c94c6> ;
+    schema:inLanguage "sl" ;
+    schema:issueNumber "258" ;
+    schema:locationCreated <https://sws.geonames.org/3190538/> ;
+    schema:publisher <http://data.odeuropa.eu/actor/1fe43f9d-c6a5-5827-abc2-aaefc94be279> ;
+    schema:url <http://www.dlib.si/details/URN:NBN:SI:DOC-MYPRRRYE> ;
+    schema:volumeNumber "17" .
+
+<http://data.odeuropa.eu/source/2ed5691f-1a3f-5c81-87df-5514016ec4e8> a crm:E33_Linguistic_Object ;
+    rdfs:label "Glas svobode"@sl ;
+    schema:dateCreated <http://data.odeuropa.eu/time/2e1bc59b-1fc2-515f-963c-6500f7cab77c> ;
+    schema:inLanguage "sl" ;
+    schema:isPartOf <http://data.odeuropa.eu/source/54c2a27d-81f2-582b-ba09-e10cff9c1ee6> ;
+    schema:issueNumber "35" ;
+    schema:locationCreated <https://sws.geonames.org/5435464/> ;
+    schema:publisher <http://data.odeuropa.eu/actor/128a59b3-907b-5847-bdcb-3a34ac987908> ;
+    schema:url <http://www.dlib.si/details/URN:NBN:SI:DOC-TN4IGSV1> ;
+    schema:volumeNumber "3" .
+
+<http://data.odeuropa.eu/source/318041fd-f6ee-5e06-a10d-b6333c6ce36f> a crm:E33_Linguistic_Object ;
+    rdfs:label "Zvon: leposloven list"@sl ;
+    schema:dateCreated <http://data.odeuropa.eu/time/82568263-99d6-5a46-85dd-402e96fb13f9> ;
+    schema:genre <http://data.odeuropa.eu/genre/LIT> ;
+    schema:inLanguage "sl" ;
+    schema:isPartOf <http://data.odeuropa.eu/source/84171504-d00e-5546-b864-40ca149e5605> ;
+    schema:issueNumber "24" ;
+    schema:locationCreated <https://sws.geonames.org/3190538/> ;
+    schema:publisher <http://data.odeuropa.eu/actor/4058891f-7308-5c42-80e7-862b579ad222> ;
+    schema:url <http://www.dlib.si/details/URN:NBN:SI:DOC-JAXS0T8O> ;
+    schema:volumeNumber "1" .
+
+<http://data.odeuropa.eu/source/35c31e20-bfe8-5475-9dde-770fa7437d02> a crm:E33_Linguistic_Object ;
+    rdfs:label "Gorenjec: političen in gospodarski list"@sl ;
+    schema:dateCreated <http://data.odeuropa.eu/time/7a754d32-b318-5cb3-b5a0-576dd65a11df> ;
+    schema:inLanguage "sl" ;
+    schema:isPartOf <http://data.odeuropa.eu/source/b9b9f057-7f70-53fb-8cb3-8e20b19ade03> ;
+    schema:issueNumber "10" ;
+    schema:locationCreated <https://sws.geonames.org/3190538/> ;
+    schema:publisher <http://data.odeuropa.eu/actor/46568681-7e97-5b1a-b803-912b308d858e> ;
+    schema:url <http://www.dlib.si/details/URN:NBN:SI:DOC-NBDWCIHZ> ;
+    schema:volumeNumber "2" .
+
+<http://data.odeuropa.eu/source/3bc892cb-b875-5e0c-b113-6cf537d106c1> a crm:E33_Linguistic_Object ;
+    rdfs:label "Kmetovalec: gospodarski list s podobami"@sl ;
+    schema:dateCreated <http://data.odeuropa.eu/time/42d38fa8-d4c2-5eab-9642-1735852836bb> ;
+    schema:genre <http://data.odeuropa.eu/genre/BOT> ;
+    schema:inLanguage "sl" ;
+    schema:isPartOf <http://data.odeuropa.eu/source/4aa8a937-65bc-54f2-a225-7e838db82fdc> ;
+    schema:issueNumber "10" ;
+    schema:locationCreated <https://sws.geonames.org/3190538/> ;
+    schema:publisher <http://data.odeuropa.eu/actor/8aeb1293-7397-578f-9b78-d1c1f0b2a233> ;
+    schema:url <http://www.dlib.si/details/URN:NBN:SI:DOC-4PFDLABA> ;
+    schema:volumeNumber "34" .
+
+<http://data.odeuropa.eu/source/3c68a8d5-a1d5-508c-a02e-6279abf1ae60> a crm:E33_Linguistic_Object ;
+    rdfs:label "Slovenski narod"@sl ;
+    schema:dateCreated <http://data.odeuropa.eu/time/f515513d-a52c-59f4-993c-75b2068bc946> ;
+    schema:inLanguage "sl" ;
+    schema:issueNumber "64" ;
+    schema:locationCreated <https://sws.geonames.org/3190538/> ;
+    schema:publisher <http://data.odeuropa.eu/actor/1fe43f9d-c6a5-5827-abc2-aaefc94be279> ;
+    schema:url <http://www.dlib.si/details/URN:NBN:SI:DOC-WL0XESCX> ;
+    schema:volumeNumber "38" .
+
+<http://data.odeuropa.eu/source/3ca69ec6-eef5-54a0-a75d-c8a3a18daaa2> a crm:E33_Linguistic_Object ;
+    rdfs:label "Pad no zdig človeka, ali zagrešenje no odgrešenje človečjega naroda, v' sedmih postnih predgah k' obydenji grešnika na pokoro"@sl ;
+    schema:dateCreated <http://data.odeuropa.eu/time/a3ce40dc-78e6-575a-9725-58159c4076e1> ;
+    schema:inLanguage "sl" ;
+    schema:isPartOf <http://data.odeuropa.eu/source/f48b6c0f-08ed-5a5b-b440-c0065e07ecc0> ;
+    schema:locationCreated <https://sws.geonames.org/3190538/> ;
+    schema:publisher <http://data.odeuropa.eu/actor/dc592c71-0734-5009-b545-46164552993d> ;
+    schema:url <http://www.dlib.si/details/URN:NBN:SI:DOC-OQRIZGDK> .
+
+<http://data.odeuropa.eu/source/43971698-5bd1-5e3b-b092-482d40dba563> a crm:E33_Linguistic_Object ;
+    rdfs:label "Domoljub: slovenskemu ljudstvu v poduk in zabavo"@sl ;
+    schema:dateCreated <http://data.odeuropa.eu/time/c6ec5b82-5f8a-5c0e-bd96-52b8756eba19> ;
+    schema:inLanguage "sl" ;
+    schema:isPartOf <http://data.odeuropa.eu/source/35155e74-64a3-5c2d-bf6e-9a5daa88ac7f> ;
+    schema:issueNumber "52" ;
+    schema:locationCreated <https://sws.geonames.org/3196359/> ;
+    schema:publisher <http://data.odeuropa.eu/actor/b4750cb2-f751-5b93-894d-d5775eb09918> ;
+    schema:url <http://www.dlib.si/details/URN:NBN:SI:DOC-1YJB3SJH> ;
+    schema:volumeNumber "13" .
+
+<http://data.odeuropa.eu/source/498fd315-3d05-5611-9e1c-4e75725ed09d> a crm:E33_Linguistic_Object ;
+    rdfs:label "Slovenski narod"@sl ;
+    schema:dateCreated <http://data.odeuropa.eu/time/263eb387-960a-5b09-92a8-2f6c08f83599> ;
+    schema:inLanguage "sl" ;
+    schema:issueNumber "131" ;
+    schema:locationCreated <https://sws.geonames.org/3190538/> ;
+    schema:publisher <http://data.odeuropa.eu/actor/1fe43f9d-c6a5-5827-abc2-aaefc94be279> ;
+    schema:url <http://www.dlib.si/details/URN:NBN:SI:DOC-HTE4XEKW> ;
+    schema:volumeNumber "37" .
+
+<http://data.odeuropa.eu/source/4fbfa0a4-3e08-5c59-8a3d-fbfd14e34aca> a crm:E33_Linguistic_Object ;
+    rdfs:label "Drugo berilo in slovnica za obče ljudske šole"@sl ;
+    schema:dateCreated <http://data.odeuropa.eu/time/5dbd256e-a390-518d-b174-22e53e66f319> ;
+    schema:inLanguage "sl" ;
+    schema:isPartOf <http://data.odeuropa.eu/source/f48b6c0f-08ed-5a5b-b440-c0065e07ecc0> ;
+    schema:locationCreated <https://sws.geonames.org/3190538/> ;
+    schema:publisher <http://data.odeuropa.eu/actor/76cf45d5-e94c-5c87-be86-545a9af8f8f5> ;
+    schema:url <http://www.dlib.si/details/URN:NBN:SI:DOC-6AIEKNDQ> .
+
+<http://data.odeuropa.eu/source/50e0d62e-7def-55f1-82b3-277e0472e5f4> a crm:E33_Linguistic_Object ;
+    rdfs:label "Bogoljub: cerkveni list za Slovence"@sl ;
+    schema:dateCreated <http://data.odeuropa.eu/time/9d001fb0-0fcf-545d-bb34-70893ca0ca62> ;
+    schema:inLanguage "sl" ;
+    schema:isPartOf <http://data.odeuropa.eu/source/a2e5488f-236e-5e40-9ac1-4c79fed83697> ;
+    schema:issueNumber "6" ;
+    schema:locationCreated <https://sws.geonames.org/3196359/> ;
+    schema:publisher <http://data.odeuropa.eu/actor/91ba5a90-9994-5ea3-a7aa-512da7ca7f17> ;
+    schema:url <http://www.dlib.si/details/URN:NBN:SI:DOC-E8TKTOGN> ;
+    schema:volumeNumber "6" .
+
+<http://data.odeuropa.eu/source/52edc9a8-03cd-5dc4-88e9-51382c18b3f9> a crm:E33_Linguistic_Object ;
+    rdfs:label "Kmetovalec: gospodarski list s podobami"@sl ;
+    schema:dateCreated <http://data.odeuropa.eu/time/448c4689-07ab-5149-b0ea-a358d4706e6e> ;
+    schema:genre <http://data.odeuropa.eu/genre/BOT> ;
+    schema:inLanguage "sl" ;
+    schema:isPartOf <http://data.odeuropa.eu/source/4aa8a937-65bc-54f2-a225-7e838db82fdc> ;
+    schema:issueNumber "19" ;
+    schema:locationCreated <https://sws.geonames.org/3190538/> ;
+    schema:publisher <http://data.odeuropa.eu/actor/8aeb1293-7397-578f-9b78-d1c1f0b2a233> ;
+    schema:url <http://www.dlib.si/details/URN:NBN:SI:DOC-E7JSSA68> ;
+    schema:volumeNumber "17" .
+
+<http://data.odeuropa.eu/source/54de5b45-a093-5eb3-9223-e6fddc1fe38f> a crm:E33_Linguistic_Object ;
+    rdfs:label "Domači prijatelj"@sl ;
+    schema:dateCreated <http://data.odeuropa.eu/time/d3ffe17a-41d6-5ae4-bab2-e4341d8a385b> ;
+    schema:inLanguage "sl" ;
+    schema:isPartOf <http://data.odeuropa.eu/source/1d8856ea-0302-5958-9278-9c9aeb6512d8> ;
+    schema:issueNumber "7" ;
+    schema:locationCreated <https://sws.geonames.org/3067696/> ;
+    schema:publisher <http://data.odeuropa.eu/actor/a56b1a7d-9a69-5eae-b20a-63eec494ee42> ;
+    schema:url <http://www.dlib.si/details/URN:NBN:SI:DOC-PIZZTKJJ> ;
+    schema:volumeNumber "4" .
+
+<http://data.odeuropa.eu/source/5943c098-bd96-59d7-b291-2924a79cccb7> a crm:E33_Linguistic_Object ;
+    rdfs:label "Prosveta"@sl ;
+    schema:dateCreated <http://data.odeuropa.eu/time/ffa4f827-1735-540b-b264-be9268c1b0e8> ;
+    schema:inLanguage "sl" ;
+    schema:isPartOf <http://data.odeuropa.eu/source/bc3cd737-8c02-5ea2-a567-45ab9abaa2c9> ;
+    schema:issueNumber "280" ;
+    schema:locationCreated <http://data.odeuropa.eu/place/5aee7dd0-a476-5df7-986b-8bf3c232688d> ;
+    schema:publisher <http://data.odeuropa.eu/actor/612663c2-869a-5be0-8c59-4c7a95b52d17> ;
+    schema:url <http://www.dlib.si/details/URN:NBN:SI:DOC-JOBQCFOV> ;
+    schema:volumeNumber "11" .
+
+<http://data.odeuropa.eu/source/5a78ff74-8812-5d3d-a938-6a9397e7d333> a crm:E33_Linguistic_Object ;
+    rdfs:label "Glasnik"@sl ;
+    schema:dateCreated <http://data.odeuropa.eu/time/cc56f581-1c80-5884-82fb-91a94e1ec8ad> ;
+    schema:inLanguage "sl" ;
+    schema:isPartOf <http://data.odeuropa.eu/source/4d16b215-2bc5-50e5-97f8-5675c2090f1c> ;
+    schema:issueNumber "7" ;
+    schema:locationCreated <https://sws.geonames.org/5247444/> ;
+    schema:publisher <http://data.odeuropa.eu/actor/f7b7233a-6a42-5cbc-a6b0-9f5b17d2a375> ;
+    schema:url <http://www.dlib.si/details/URN:NBN:SI:DOC-X6TSQ6SS> ;
+    schema:volumeNumber "15" .
+
+<http://data.odeuropa.eu/source/5df3cd56-be5d-532f-8f80-9ac9eb25cd80> a crm:E33_Linguistic_Object ;
+    rdfs:label "Slovenec: političen list za slovenski narod"@sl ;
+    schema:dateCreated <http://data.odeuropa.eu/time/608de0fc-7d35-5d8c-9aac-6a3d8b687ac9> ;
+    schema:inLanguage "sl" ;
+    schema:isPartOf <http://data.odeuropa.eu/source/34af02e9-7a60-5701-a2ff-3172663c8024> ;
+    schema:issueNumber "78" ;
+    schema:locationCreated <https://sws.geonames.org/3190538/> ;
+    schema:publisher <http://data.odeuropa.eu/actor/0c02356e-42f3-5914-a464-321a8dc5da86> ;
+    schema:url <http://www.dlib.si/details/URN:NBN:SI:DOC-XITMUHY7> ;
+    schema:volumeNumber "34" .
+
+<http://data.odeuropa.eu/source/632cbacf-1da8-5c34-9cdb-a6e86176423a> a crm:E33_Linguistic_Object ;
+    rdfs:label "Narodni list: glasilo Narodne stranke za Štajersko"@sl ;
+    schema:dateCreated <http://data.odeuropa.eu/time/f4f0f674-84c2-5031-8d82-baf36c5291e5> ;
+    schema:inLanguage "sl" ;
+    schema:isPartOf <http://data.odeuropa.eu/source/37c3368a-41bf-50ba-9ad0-9b66474dbbc0> ;
+    schema:issueNumber "56" ;
+    schema:locationCreated <https://sws.geonames.org/3202781/> ;
+    schema:publisher <http://data.odeuropa.eu/actor/2d999419-5502-56b5-9dcd-801fdccbc7d4> ;
+    schema:url <http://www.dlib.si/details/URN:NBN:SI:DOC-E9H79A5F> ;
+    schema:volumeNumber "6" .
+
+<http://data.odeuropa.eu/source/6555dd85-2af2-53b8-93a7-6e3af6e090f3> a crm:E33_Linguistic_Object ;
+    rdfs:label "Slovenski dom"@sl ;
+    schema:dateCreated <http://data.odeuropa.eu/time/6126ce67-f72d-5c91-bb68-bb47ecc9f92c> ;
+    schema:inLanguage "sl" ;
+    schema:isPartOf <http://data.odeuropa.eu/source/0fa24400-b161-58a4-9645-8cf3ab772505> ;
+    schema:issueNumber "23" ;
+    schema:locationCreated <https://sws.geonames.org/3190538/> ;
+    schema:publisher <http://data.odeuropa.eu/actor/ea6a7e80-a7f1-580e-9ddd-3797227c1e37> ;
+    schema:url <http://www.dlib.si/details/URN:NBN:SI:DOC-8Y8DGYN3> ;
+    schema:volumeNumber "5" .
+
+<http://data.odeuropa.eu/source/669aa0bc-0b8c-5d09-9db3-35c5e00ba53a> a crm:E33_Linguistic_Object ;
+    rdfs:label "Zvonček"@sl ;
+    schema:dateCreated <http://data.odeuropa.eu/time/53ce8489-cbf9-5a65-a8b4-7b725bf1fd2a> ;
+    schema:genre <http://data.odeuropa.eu/genre/LIT> ;
+    schema:inLanguage "sl" ;
+    schema:isPartOf <http://data.odeuropa.eu/source/d386a4bf-f0b7-55f3-89ef-0c8c85b07693> ;
+    schema:issueNumber "11" ;
+    schema:locationCreated <https://sws.geonames.org/3196359/> ;
+    schema:publisher <http://data.odeuropa.eu/actor/c15f773c-2284-567d-89d9-38e8ad55b5e0> ;
+    schema:url <http://www.dlib.si/details/URN:NBN:SI:DOC-YCYNYPQI> ;
+    schema:volumeNumber "5" .
+
+<http://data.odeuropa.eu/source/6daccbf9-56fe-5ac5-a630-ce845de73d22> a crm:E33_Linguistic_Object ;
+    rdfs:label "Naš kmečki dom: Domoljubova priloga za naše gospodarje, gospodinje, in dekleta"@sl ;
+    schema:dateCreated <http://data.odeuropa.eu/time/e652acb5-63d1-54cc-9124-1e7ac86daa6f> ;
+    schema:inLanguage "sl" ;
+    schema:isPartOf <http://data.odeuropa.eu/source/3fee44a1-ea07-5ee0-8470-b40fadbe4d8a> ;
+    schema:issueNumber "1" ;
+    schema:locationCreated <https://sws.geonames.org/3190538/> ;
+    schema:publisher <http://data.odeuropa.eu/actor/999ede15-954b-51f8-b58f-dcc890176c92> ;
+    schema:url <http://www.dlib.si/details/URN:NBN:SI:DOC-Y85JQ17X> ;
+    schema:volumeNumber "4" .
+
+<http://data.odeuropa.eu/source/706cf30c-dc22-5513-b7e6-705a921172cf> a crm:E33_Linguistic_Object ;
+    rdfs:label "Naš dom"@sl ;
+    schema:dateCreated <http://data.odeuropa.eu/time/6f75d74c-fc7c-56c1-bb3b-9b8ab496dfa0> ;
+    schema:inLanguage "sl" ;
+    schema:isPartOf <http://data.odeuropa.eu/source/f48b6c0f-08ed-5a5b-b440-c0065e07ecc0> ;
+    schema:locationCreated <https://sws.geonames.org/3190538/> ;
+    schema:publisher <http://data.odeuropa.eu/actor/4d3a57d7-fdd0-5b74-a40b-3f9d7266aaf3> ;
+    schema:url <http://www.dlib.si/details/URN:NBN:SI:DOC-EHRSRDIX> .
+
+<http://data.odeuropa.eu/source/72a7957c-09f9-5004-815b-9772d658be2a> a crm:E33_Linguistic_Object ;
+    rdfs:label "Ljubljanski zvon"@sl ;
+    schema:dateCreated <http://data.odeuropa.eu/time/7b1e2825-141c-59bf-8600-d1e37b1ec78e> ;
+    schema:genre <http://data.odeuropa.eu/genre/LIT> ;
+    schema:inLanguage "sl" ;
+    schema:issueNumber "4" ;
+    schema:locationCreated <https://sws.geonames.org/3190538/> ;
+    schema:publisher <http://data.odeuropa.eu/actor/e0c17d41-4eb5-5ce4-bc8e-121d58af3d23> ;
+    schema:url <http://www.dlib.si/details/URN:NBN:SI:DOC-YCOMLHVT> ;
+    schema:volumeNumber "1" .
+
+<http://data.odeuropa.eu/source/7306c835-19c4-5107-9274-0caee78702c2> a crm:E33_Linguistic_Object ;
+    rdfs:label "Zvonček"@sl ;
+    schema:dateCreated <http://data.odeuropa.eu/time/3ebdb1e7-a795-501f-9dbf-394c9f89ce77> ;
+    schema:genre <http://data.odeuropa.eu/genre/LIT> ;
+    schema:inLanguage "sl" ;
+    schema:isPartOf <http://data.odeuropa.eu/source/d386a4bf-f0b7-55f3-89ef-0c8c85b07693> ;
+    schema:issueNumber "1" ;
+    schema:locationCreated <https://sws.geonames.org/3196359/> ;
+    schema:publisher <http://data.odeuropa.eu/actor/c15f773c-2284-567d-89d9-38e8ad55b5e0> ;
+    schema:url <http://www.dlib.si/details/URN:NBN:SI:DOC-BUTFKJRW> ;
+    schema:volumeNumber "16" .
+
+<http://data.odeuropa.eu/source/79f824cf-2e50-5a39-9be7-9e2b73717ffa> a crm:E33_Linguistic_Object ;
+    rdfs:label "Slovenski narod"@sl ;
+    schema:dateCreated <http://data.odeuropa.eu/time/61511185-e20b-5cea-ae7f-0f6acbd84980> ;
+    schema:inLanguage "sl" ;
+    schema:issueNumber "94" ;
+    schema:locationCreated <https://sws.geonames.org/3190538/> ;
+    schema:publisher <http://data.odeuropa.eu/actor/1fe43f9d-c6a5-5827-abc2-aaefc94be279> ;
+    schema:url <http://www.dlib.si/details/URN:NBN:SI:DOC-ZDUIYCA5> ;
+    schema:volumeNumber "38" .
+
+<http://data.odeuropa.eu/source/7e06c3c2-8970-537a-8cc9-60f71287bf57> a crm:E33_Linguistic_Object ;
+    rdfs:label "Glas svobode"@sl ;
+    schema:dateCreated <http://data.odeuropa.eu/time/ffd7b0cc-a5a9-58d2-b586-ab1c6546d1df> ;
+    schema:inLanguage "sl" ;
+    schema:isPartOf <http://data.odeuropa.eu/source/54c2a27d-81f2-582b-ba09-e10cff9c1ee6> ;
+    schema:issueNumber "33" ;
+    schema:locationCreated <https://sws.geonames.org/5435464/> ;
+    schema:publisher <http://data.odeuropa.eu/actor/128a59b3-907b-5847-bdcb-3a34ac987908> ;
+    schema:url <http://www.dlib.si/details/URN:NBN:SI:DOC-OXQBSKWF> ;
+    schema:volumeNumber "7" .
+
+<http://data.odeuropa.eu/source/7e89e034-b100-5b60-aebf-2e461a897232> a crm:E33_Linguistic_Object ;
+    rdfs:label "Noč"@sl ;
+    schema:dateCreated <http://data.odeuropa.eu/time/6c22fc6b-e1d1-57c7-a253-774753518225> ;
+    schema:genre <http://data.odeuropa.eu/genre/LIT> ;
+    schema:inLanguage "sl" ;
+    schema:isPartOf <http://data.odeuropa.eu/source/2dff7073-62c7-5d98-8772-c45d41543ab4> ;
+    schema:issueNumber "1" ;
+    schema:locationCreated <https://sws.geonames.org/3190538/> ;
+    schema:publisher <http://data.odeuropa.eu/actor/e0c17d41-4eb5-5ce4-bc8e-121d58af3d23> ;
+    schema:url <http://www.dlib.si/details/URN:NBN:SI:DOC-NXCVOSQV> ;
+    schema:volumeNumber "22" .
+
+<http://data.odeuropa.eu/source/8030c5f9-6cd1-5089-be47-86e880efe4dc> a crm:E33_Linguistic_Object ;
+    rdfs:label "Slovenski gospodar: podučiven list za slovensko ljudstvo"@sl ;
+    schema:dateCreated <http://data.odeuropa.eu/time/99511bcf-eded-5180-ac31-2031fbc72196> ;
+    schema:inLanguage "sl" ;
+    schema:isPartOf <http://data.odeuropa.eu/source/ec83bdbf-646d-562a-9d6d-24553499a329> ;
+    schema:issueNumber "43" ;
+    schema:locationCreated <https://sws.geonames.org/3190538/> ;
+    schema:publisher <http://data.odeuropa.eu/actor/42df8d51-ab83-54d7-8e7f-f1a5e90daa08> ;
+    schema:url <http://www.dlib.si/details/URN:NBN:SI:DOC-YJHW98U5> ;
+    schema:volumeNumber "21" .
+
+<http://data.odeuropa.eu/source/8568a91f-5dc2-5daf-93d1-d36f034ffeb5> a crm:E33_Linguistic_Object ;
+    rdfs:label "Učiteljski tovariš"@sl ;
+    schema:dateCreated <http://data.odeuropa.eu/time/88a0fc85-3221-53fd-8dda-4eb5f93220ed> ;
+    schema:inLanguage "sl" ;
+    schema:issueNumber "1" ;
+    schema:locationCreated <https://sws.geonames.org/3190538/> ;
+    schema:publisher <http://data.odeuropa.eu/actor/7e11bc85-2e04-57a7-9058-4645e7a90c54> ;
+    schema:url <http://www.dlib.si/details/URN:NBN:SI:DOC-HXV0KXHY> ;
+    schema:volumeNumber "51" .
+
+<http://data.odeuropa.eu/source/89500e85-dead-5673-8e99-0583ce585b4e> a crm:E33_Linguistic_Object ;
+    rdfs:label "Glas svobode"@sl ;
+    schema:dateCreated <http://data.odeuropa.eu/time/b11efd3b-614f-510f-b7ac-c756d318e77f> ;
+    schema:inLanguage "sl" ;
+    schema:isPartOf <http://data.odeuropa.eu/source/54c2a27d-81f2-582b-ba09-e10cff9c1ee6> ;
+    schema:issueNumber "52" ;
+    schema:locationCreated <https://sws.geonames.org/5435464/> ;
+    schema:publisher <http://data.odeuropa.eu/actor/128a59b3-907b-5847-bdcb-3a34ac987908> ;
+    schema:url <http://www.dlib.si/details/URN:NBN:SI:DOC-EVMEZSMI> ;
+    schema:volumeNumber "3" .
+
+<http://data.odeuropa.eu/source/8a33590f-c2db-531b-a310-bcb00a9642ef> a crm:E33_Linguistic_Object ;
+    rdfs:label "Zvesti sin"@sl ;
+    schema:dateCreated <http://data.odeuropa.eu/time/d3ffe17a-41d6-5ae4-bab2-e4341d8a385b> ;
+    schema:inLanguage "sl" ;
+    schema:isPartOf <http://data.odeuropa.eu/source/f48b6c0f-08ed-5a5b-b440-c0065e07ecc0> ;
+    schema:locationCreated <https://sws.geonames.org/3190538/> ;
+    schema:publisher <http://data.odeuropa.eu/actor/4c684ee1-0502-5341-9510-414a1e850a9a> ;
+    schema:url <http://www.dlib.si/details/URN:NBN:SI:DOC-TBCA4YGH> .
+
+<http://data.odeuropa.eu/source/8a4d217a-1ee7-5ed8-a1c4-0cd1f8684d69> a crm:E33_Linguistic_Object ;
+    rdfs:label "Čas"@sl ;
+    schema:dateCreated <http://data.odeuropa.eu/time/d3ffe17a-41d6-5ae4-bab2-e4341d8a385b> ;
+    schema:inLanguage "sl" ;
+    schema:isPartOf <http://data.odeuropa.eu/source/e76c3c54-1e2b-55e9-80d2-c4d95199cb3a> ;
+    schema:issueNumber "6" ;
+    schema:locationCreated <https://sws.geonames.org/3196359/> ;
+    schema:publisher <http://data.odeuropa.eu/actor/8e5a3d0b-ac48-513c-bdea-c7e5f368556b> ;
+    schema:url <http://www.dlib.si/details/URN:NBN:SI:DOC-UHI15WX4> ;
+    schema:volumeNumber "1" .
+
+<http://data.odeuropa.eu/source/8e362896-ce2a-5eea-a36d-53c725b77554> a crm:E33_Linguistic_Object ;
+    rdfs:label "Obravnave deželnega zbora kranjskega v Ljubljani ..."@sl ;
+    schema:dateCreated <http://data.odeuropa.eu/time/7fc2e1b0-56e9-5a23-bdfa-7f4971102f68> ;
+    schema:inLanguage "sl" ;
+    schema:isPartOf <http://data.odeuropa.eu/source/46583346-fe36-5133-a217-a75d07abf090> ;
+    schema:issueNumber "2" ;
+    schema:locationCreated <https://sws.geonames.org/3190538/> ;
+    schema:publisher <http://data.odeuropa.eu/actor/a3deee62-fab6-5e14-af30-fbd36d7c7478> ;
+    schema:url <http://www.dlib.si/details/URN:NBN:SI:DOC-6E1KUIY3> ;
+    schema:volumeNumber "29" .
+
+<http://data.odeuropa.eu/source/8fe1a86d-71c5-550e-8f4a-52f82a4e4080> a crm:E33_Linguistic_Object ;
+    rdfs:label "Sava"@sl ;
+    schema:dateCreated <http://data.odeuropa.eu/time/fa88c28d-cae7-58fc-a5af-4ea6ac212b25> ;
+    schema:inLanguage "sl" ;
+    schema:isPartOf <http://data.odeuropa.eu/source/7d03d280-eeeb-59b2-94c1-c04bb68292e3> ;
+    schema:issueNumber "25" ;
+    schema:locationCreated <https://sws.geonames.org/3197378/> ;
+    schema:publisher <http://data.odeuropa.eu/actor/78a3b700-1afd-5814-96f0-7f4c9143f50d> ;
+    schema:url <http://www.dlib.si/details/URN:NBN:SI:DOC-GLN24SC9> ;
+    schema:volumeNumber "2" .
+
+<http://data.odeuropa.eu/source/90bd715c-f853-5a9f-9469-e11c2b76c466> a crm:E33_Linguistic_Object ;
+    rdfs:label "Slovenski narod"@sl ;
+    schema:dateCreated <http://data.odeuropa.eu/time/f02c9524-f814-59fd-b418-610f61444345> ;
+    schema:inLanguage "sl" ;
+    schema:issueNumber "255" ;
+    schema:locationCreated <https://sws.geonames.org/3190538/> ;
+    schema:publisher <http://data.odeuropa.eu/actor/1fe43f9d-c6a5-5827-abc2-aaefc94be279> ;
+    schema:url <http://www.dlib.si/details/URN:NBN:SI:DOC-LF463UHN> ;
+    schema:volumeNumber "33" .
+
+<http://data.odeuropa.eu/source/93d6b1fb-4b71-5e09-8418-6ef7e77e96e0> a crm:E33_Linguistic_Object ;
+    rdfs:label "Slovenski narod"@sl ;
+    schema:dateCreated <http://data.odeuropa.eu/time/b1d28406-3ea0-5a1b-80da-3bb3bbb80529> ;
+    schema:inLanguage "sl" ;
+    schema:issueNumber "54" ;
+    schema:locationCreated <https://sws.geonames.org/3190538/> ;
+    schema:publisher <http://data.odeuropa.eu/actor/1fe43f9d-c6a5-5827-abc2-aaefc94be279> ;
+    schema:url <http://www.dlib.si/details/URN:NBN:SI:DOC-IM7EWMIJ> ;
+    schema:volumeNumber "25" .
+
+<http://data.odeuropa.eu/source/95661eb8-0d42-5602-9f6d-b4d7f62b6ffa> a crm:E33_Linguistic_Object ;
+    rdfs:label "Slovan: mesečnik za književnost, umetnost in prosveto"@sl ;
+    schema:dateCreated <http://data.odeuropa.eu/time/72082e32-e83d-5d5c-9219-9f39b9101eb3> ;
+    schema:genre <http://data.odeuropa.eu/genre/LIT> ;
+    schema:inLanguage "sl" ;
+    schema:isPartOf <http://data.odeuropa.eu/source/b77df8f9-48e6-56f7-8b29-610f21717451> ;
+    schema:issueNumber "5" ;
+    schema:locationCreated <https://sws.geonames.org/3196359/> ;
+    schema:publisher <http://data.odeuropa.eu/actor/a283fdaf-38d1-5793-b98a-a20d2942ec2e> ;
+    schema:url <http://www.dlib.si/details/URN:NBN:SI:DOC-PTX652ZN> ;
+    schema:volumeNumber "3" .
+
+<http://data.odeuropa.eu/source/9964a4fc-98e9-5605-9db2-f91d6561471f> a crm:E33_Linguistic_Object ;
+    rdfs:label "Fischer-jeva najnovejša in popolna, ilustrovana sanjska knjiga"@sl ;
+    schema:dateCreated <http://data.odeuropa.eu/time/6148c211-a434-5a5c-8f37-748f517a0ef8> ;
+    schema:inLanguage "sl" ;
+    schema:locationCreated <https://sws.geonames.org/3190538/> ;
+    schema:publisher <http://data.odeuropa.eu/actor/f23b1ec2-b515-5613-872e-f69bfab4e935> ;
+    schema:url <http://www.dlib.si/details/URN:NBN:SI:DOC-XVIB9V3S> .
+
+<http://data.odeuropa.eu/source/9cc58a25-3bb7-58f9-87d6-c7bb030ebf34> a crm:E33_Linguistic_Object ;
+    rdfs:label "Prosveta"@sl ;
+    schema:dateCreated <http://data.odeuropa.eu/time/c1033d22-35db-5cd8-abf9-d388ce7ffb0f> ;
+    schema:inLanguage "sl" ;
+    schema:isPartOf <http://data.odeuropa.eu/source/bc3cd737-8c02-5ea2-a567-45ab9abaa2c9> ;
+    schema:issueNumber "17" ;
+    schema:locationCreated <http://data.odeuropa.eu/place/5aee7dd0-a476-5df7-986b-8bf3c232688d> ;
+    schema:publisher <http://data.odeuropa.eu/actor/612663c2-869a-5be0-8c59-4c7a95b52d17> ;
+    schema:url <http://www.dlib.si/details/URN:NBN:SI:DOC-7UN8ADLZ> ;
+    schema:volumeNumber "10" .
+
+<http://data.odeuropa.eu/source/9d00f6f4-a03b-5792-9288-f1a403c97fee> a crm:E33_Linguistic_Object ;
+    rdfs:label "Slovenski narod"@sl ;
+    schema:dateCreated <http://data.odeuropa.eu/time/724d6693-147a-5cb1-b065-a27f9db4b082> ;
+    schema:inLanguage "sl" ;
+    schema:issueNumber "226" ;
+    schema:locationCreated <https://sws.geonames.org/3190538/> ;
+    schema:publisher <http://data.odeuropa.eu/actor/1fe43f9d-c6a5-5827-abc2-aaefc94be279> ;
+    schema:url <http://www.dlib.si/details/URN:NBN:SI:DOC-HZ8NSPRK> ;
+    schema:volumeNumber "37" .
+
+<http://data.odeuropa.eu/source/9eb00b11-e4f0-54af-a014-47a7d5045fa3> a crm:E33_Linguistic_Object ;
+    rdfs:label "Prosveta"@sl ;
+    schema:dateCreated <http://data.odeuropa.eu/time/9abf8358-22a2-5bb6-9f50-f24f43054cbf> ;
+    schema:inLanguage "sl" ;
+    schema:isPartOf <http://data.odeuropa.eu/source/bc3cd737-8c02-5ea2-a567-45ab9abaa2c9> ;
+    schema:issueNumber "108" ;
+    schema:locationCreated <http://data.odeuropa.eu/place/5aee7dd0-a476-5df7-986b-8bf3c232688d> ;
+    schema:publisher <http://data.odeuropa.eu/actor/612663c2-869a-5be0-8c59-4c7a95b52d17> ;
+    schema:url <http://www.dlib.si/details/URN:NBN:SI:DOC-TAGRJMPZ> ;
+    schema:volumeNumber "11" .
+
+<http://data.odeuropa.eu/source/a0475918-dbae-59d6-8ab6-60c385c6d70d> a crm:E33_Linguistic_Object ;
+    rdfs:label "Zvonček"@sl ;
+    schema:dateCreated <http://data.odeuropa.eu/time/a9998fc8-c6e2-51f7-b0f5-e4dc04862734> ;
+    schema:genre <http://data.odeuropa.eu/genre/LIT> ;
+    schema:inLanguage "sl" ;
+    schema:isPartOf <http://data.odeuropa.eu/source/d386a4bf-f0b7-55f3-89ef-0c8c85b07693> ;
+    schema:issueNumber "4" ;
+    schema:locationCreated <https://sws.geonames.org/3196359/> ;
+    schema:publisher <http://data.odeuropa.eu/actor/c15f773c-2284-567d-89d9-38e8ad55b5e0> ;
+    schema:url <http://www.dlib.si/details/URN:NBN:SI:DOC-L7FFPKGH> ;
+    schema:volumeNumber "10" .
+
+<http://data.odeuropa.eu/source/a1a927cf-e68c-5872-b12d-a28399561004> a crm:E33_Linguistic_Object ;
+    rdfs:label "Prosveta"@sl ;
+    schema:dateCreated <http://data.odeuropa.eu/time/c2ae6b74-f5ae-5f28-85b8-db93abed785b> ;
+    schema:inLanguage "sl" ;
+    schema:isPartOf <http://data.odeuropa.eu/source/bc3cd737-8c02-5ea2-a567-45ab9abaa2c9> ;
+    schema:issueNumber "171" ;
+    schema:locationCreated <http://data.odeuropa.eu/place/5aee7dd0-a476-5df7-986b-8bf3c232688d> ;
+    schema:publisher <http://data.odeuropa.eu/actor/612663c2-869a-5be0-8c59-4c7a95b52d17> ;
+    schema:url <http://www.dlib.si/details/URN:NBN:SI:DOC-UOEHRTHK> ;
+    schema:volumeNumber "11" .
+
+<http://data.odeuropa.eu/source/a8a6603d-75bc-5450-a67e-143f2d5d1947> a crm:E33_Linguistic_Object ;
+    rdfs:label "Razne novice"@sl ;
+    schema:dateCreated <http://data.odeuropa.eu/time/86f3d4bd-3bdf-5cbf-a7d6-56dfea875f86> ;
+    schema:inLanguage "sl" ;
+    schema:isPartOf <http://data.odeuropa.eu/source/ec83bdbf-646d-562a-9d6d-24553499a329> ;
+    schema:issueNumber "21" ;
+    schema:locationCreated <https://sws.geonames.org/3190538/> ;
+    schema:publisher <http://data.odeuropa.eu/actor/42df8d51-ab83-54d7-8e7f-f1a5e90daa08> ;
+    schema:url <http://www.dlib.si/details/URN:NBN:SI:DOC-7C2HWXED> ;
+    schema:volumeNumber "47" .
+
+<http://data.odeuropa.eu/source/aeadb18c-71e7-5b70-81e8-db74741e745a> a crm:E33_Linguistic_Object ;
+    rdfs:label "Soča"@sl ;
+    schema:dateCreated <http://data.odeuropa.eu/time/f9def8ac-91cc-5efc-bfc0-0e8dcc16a2c5> ;
+    schema:inLanguage "sl" ;
+    schema:issueNumber "51" ;
+    schema:locationCreated <https://sws.geonames.org/3190538/> ;
+    schema:publisher <http://data.odeuropa.eu/actor/c51836df-3f3d-5f84-8475-735807716b5e> ;
+    schema:url <http://www.dlib.si/details/URN:NBN:SI:DOC-W0ZJ1B1M> .
+
+<http://data.odeuropa.eu/source/b0667ae4-4a2a-5735-bb2b-f6583320277e> a crm:E33_Linguistic_Object ;
+    rdfs:label "Edinost: glasilo slovenskega političnega društva tržaške okolice"@sl ;
+    schema:dateCreated <http://data.odeuropa.eu/time/13292b11-c2c0-5167-a1b1-c5af1b3dfbad> ;
+    schema:inLanguage "sl" ;
+    schema:isPartOf <http://data.odeuropa.eu/source/aa6375c5-5864-5639-85ac-24a191e649bf> ;
+    schema:issueNumber "207" ;
+    schema:locationCreated <https://sws.geonames.org/3165185/> ;
+    schema:publisher <http://data.odeuropa.eu/actor/06856835-a657-53a2-b096-c15c41c55d83> ;
+    schema:url <http://www.dlib.si/details/URN:NBN:SI:DOC-RFE88F9M> ;
+    schema:volumeNumber "30" .
+
+<http://data.odeuropa.eu/source/b0bdf272-6157-59f0-a935-c385dabb8f41> a crm:E33_Linguistic_Object ;
+    rdfs:label "Edinost: glasilo slovenskega političnega društva tržaške okolice"@sl ;
+    schema:dateCreated <http://data.odeuropa.eu/time/ed853ab1-8cb8-599c-802d-6bcfd4ad4023> ;
+    schema:inLanguage "sl" ;
+    schema:isPartOf <http://data.odeuropa.eu/source/aa6375c5-5864-5639-85ac-24a191e649bf> ;
+    schema:issueNumber "52" ;
+    schema:locationCreated <https://sws.geonames.org/3165185/> ;
+    schema:publisher <http://data.odeuropa.eu/actor/06856835-a657-53a2-b096-c15c41c55d83> ;
+    schema:url <http://www.dlib.si/details/URN:NBN:SI:DOC-AHD417KB> ;
+    schema:volumeNumber "10" .
+
+<http://data.odeuropa.eu/source/b0dd8a7d-1663-5358-8cd7-6b31772fdbb5> a crm:E33_Linguistic_Object ;
+    rdfs:label "Slovenec: političen list za slovenski narod"@sl ;
+    schema:dateCreated <http://data.odeuropa.eu/time/3e454b14-320c-55df-b3d3-3773b071ecc0> ;
+    schema:inLanguage "sl" ;
+    schema:isPartOf <http://data.odeuropa.eu/source/34af02e9-7a60-5701-a2ff-3172663c8024> ;
+    schema:issueNumber "167" ;
+    schema:locationCreated <https://sws.geonames.org/3190538/> ;
+    schema:publisher <http://data.odeuropa.eu/actor/0c02356e-42f3-5914-a464-321a8dc5da86> ;
+    schema:url <http://www.dlib.si/details/URN:NBN:SI:DOC-KX7HM21Q> ;
+    schema:volumeNumber "19" .
+
+<http://data.odeuropa.eu/source/b1535186-0ad0-5607-9724-2eff054b84fe> a crm:E33_Linguistic_Object ;
+    rdfs:label "Edinost: glasilo slovenskega političnega društva tržaške okolice"@sl ;
+    schema:dateCreated <http://data.odeuropa.eu/time/3957982e-66a8-50c0-8efc-322de95d69e4> ;
+    schema:inLanguage "sl" ;
+    schema:isPartOf <http://data.odeuropa.eu/source/aa6375c5-5864-5639-85ac-24a191e649bf> ;
+    schema:issueNumber "20" ;
+    schema:locationCreated <https://sws.geonames.org/3165185/> ;
+    schema:publisher <http://data.odeuropa.eu/actor/06856835-a657-53a2-b096-c15c41c55d83> ;
+    schema:url <http://www.dlib.si/details/URN:NBN:SI:DOC-M76YKDOT> ;
+    schema:volumeNumber "12" .
+
+<http://data.odeuropa.eu/source/b20790f2-823d-5673-8ac4-a6abfde9f4ec> a crm:E33_Linguistic_Object ;
+    rdfs:label "Edinost"@sl ;
+    schema:dateCreated <http://data.odeuropa.eu/time/d7a76d89-de3e-5b01-94c9-3e62f8c200a0> ;
+    schema:inLanguage "sl" ;
+    schema:isPartOf <http://data.odeuropa.eu/source/aec623da-ebca-5939-aec3-9428440be8ba> ;
+    schema:issueNumber "25" ;
+    schema:locationCreated <https://sws.geonames.org/3190538/> ;
+    schema:publisher <http://data.odeuropa.eu/actor/ecf37172-a1b7-5ee6-9ea5-e3224d8aaae0> ;
+    schema:url <http://www.dlib.si/details/URN:NBN:SI:DOC-2EWYIVC9> ;
+    schema:volumeNumber "2" .
+
+<http://data.odeuropa.eu/source/b2099ef4-4f65-5df2-988d-202db6ee0a99> a crm:E33_Linguistic_Object ;
+    rdfs:label "Mir"@sl ;
+    schema:dateCreated <http://data.odeuropa.eu/time/1bc325ca-8872-5c8d-9d2c-fe74f6cc4fa8> ;
+    schema:inLanguage "sl" ;
+    schema:isPartOf <http://data.odeuropa.eu/source/e30b8e38-01b8-576c-afb0-d87e2a864ef3> ;
+    schema:issueNumber "7" ;
+    schema:locationCreated <https://sws.geonames.org/2774326/> ;
+    schema:publisher <http://data.odeuropa.eu/actor/8ebc4b65-90eb-51bf-b532-14f0b9473e57> ;
+    schema:url <http://www.dlib.si/details/URN:NBN:SI:DOC-LGIVBBW8> ;
+    schema:volumeNumber "29" .
+
+<http://data.odeuropa.eu/source/b4fa70ec-f113-54ac-90fe-cd48326baf19> a crm:E33_Linguistic_Object ;
+    rdfs:label "Glas naroda: najstarejši list slovenskih delavcev v Ameriki"@sl ;
+    schema:dateCreated <http://data.odeuropa.eu/time/86f41c14-9348-5642-a898-dc4d70b481ef> ;
+    schema:inLanguage "sl" ;
+    schema:isPartOf <http://data.odeuropa.eu/source/c547f7da-56d1-5dc9-ac7c-658d5b95a9e8> ;
+    schema:issueNumber "169" ;
+    schema:locationCreated <https://sws.geonames.org/5128581/> ;
+    schema:publisher <http://data.odeuropa.eu/actor/afd6c713-ce31-5e3b-b0b6-ab034a85b719> ;
+    schema:url <http://www.dlib.si/details/URN:NBN:SI:DOC-K6AT3AQE> ;
+    schema:volumeNumber "23" .
+
+<http://data.odeuropa.eu/source/b61d22ab-df01-53ae-9008-6433b6a65d58> a crm:E33_Linguistic_Object ;
+    rdfs:label "Primorski list"@sl ;
+    schema:dateCreated <http://data.odeuropa.eu/time/068f896c-e600-59ea-b7cc-22bbfb0da327> ;
+    schema:inLanguage "sl" ;
+    schema:isPartOf <http://data.odeuropa.eu/source/0aa33ccf-5524-5732-90b9-ad533110e8a7> ;
+    schema:issueNumber "7" ;
+    schema:locationCreated <https://sws.geonames.org/3175986/> ;
+    schema:publisher <http://data.odeuropa.eu/actor/6b46c10e-3fa8-57b9-9f18-d3f09d5a2d0a> ;
+    schema:url <http://www.dlib.si/details/URN:NBN:SI:DOC-XWPCFBGT> ;
+    schema:volumeNumber "19" .
+
+<http://data.odeuropa.eu/source/b928bffc-8a95-527a-b397-2d4a22d72067> a crm:E33_Linguistic_Object ;
+    rdfs:label "Slovenski narod"@sl ;
+    schema:dateCreated <http://data.odeuropa.eu/time/d390dbb4-5597-58f6-b2ea-606bddcfd8a9> ;
+    schema:inLanguage "sl" ;
+    schema:issueNumber "194" ;
+    schema:locationCreated <https://sws.geonames.org/3190538/> ;
+    schema:publisher <http://data.odeuropa.eu/actor/1fe43f9d-c6a5-5827-abc2-aaefc94be279> ;
+    schema:url <http://www.dlib.si/details/URN:NBN:SI:DOC-73YERSFS> ;
+    schema:volumeNumber "35" .
+
+<http://data.odeuropa.eu/source/c2f7234f-15d8-5591-9d05-f061a7803be9> a crm:E33_Linguistic_Object ;
+    rdfs:label "Nova nada"@sl ;
+    schema:dateCreated <http://data.odeuropa.eu/time/5dbd256e-a390-518d-b174-22e53e66f319> ;
+    schema:genre <http://data.odeuropa.eu/genre/LIT> ;
+    schema:inLanguage "sl" ;
+    schema:issueNumber "4/5" ;
+    schema:locationCreated <https://sws.geonames.org/3190538/> ;
+    schema:publisher <http://data.odeuropa.eu/actor/78313277-4358-5187-9a79-7a7dbd32513b> ;
+    schema:url <http://www.dlib.si/details/URN:NBN:SI:DOC-O13MWXEH> ;
+    schema:volumeNumber "3" .
+
+<http://data.odeuropa.eu/source/c3c11e85-540e-527e-958e-73aae963434a> a crm:E33_Linguistic_Object ;
+    rdfs:label "Dolenjske novice"@sl ;
+    schema:dateCreated <http://data.odeuropa.eu/time/5e3b3d30-fa64-5b3e-956b-7ef68f053fcc> ;
+    schema:inLanguage "sl" ;
+    schema:issueNumber "20" ;
+    schema:locationCreated <https://sws.geonames.org/3190538/> ;
+    schema:publisher <http://data.odeuropa.eu/actor/fece030c-bb24-565a-9e32-e8ddff99b79b> ;
+    schema:url <http://www.dlib.si/details/URN:NBN:SI:DOC-ON2VWQ6C> .
+
+<http://data.odeuropa.eu/source/c53f6c7d-f684-5c35-8f00-73e48cb6ff8c> a crm:E33_Linguistic_Object ;
+    rdfs:label "Domoljub: slovenskemu ljudstvu v poduk in zabavo"@sl ;
+    schema:dateCreated <http://data.odeuropa.eu/time/bbb5d9b6-6161-5790-9932-42dfc86e5ecf> ;
+    schema:inLanguage "sl" ;
+    schema:isPartOf <http://data.odeuropa.eu/source/35155e74-64a3-5c2d-bf6e-9a5daa88ac7f> ;
+    schema:issueNumber "29" ;
+    schema:locationCreated <https://sws.geonames.org/3196359/> ;
+    schema:publisher <http://data.odeuropa.eu/actor/b4750cb2-f751-5b93-894d-d5775eb09918> ;
+    schema:url <http://www.dlib.si/details/URN:NBN:SI:DOC-F9H0SHVP> ;
+    schema:volumeNumber "29" .
+
+<http://data.odeuropa.eu/source/c61f9c0d-be65-5053-8000-ff3a8de6feb1> a crm:E33_Linguistic_Object ;
+    rdfs:label "Glas naroda: najstarejši list slovenskih delavcev v Ameriki"@sl ;
+    schema:dateCreated <http://data.odeuropa.eu/time/1e2385ad-1ce8-59fa-ae1f-a0e9f16ad062> ;
+    schema:inLanguage "sl" ;
+    schema:isPartOf <http://data.odeuropa.eu/source/c547f7da-56d1-5dc9-ac7c-658d5b95a9e8> ;
+    schema:issueNumber "154" ;
+    schema:locationCreated <https://sws.geonames.org/5128581/> ;
+    schema:publisher <http://data.odeuropa.eu/actor/afd6c713-ce31-5e3b-b0b6-ab034a85b719> ;
+    schema:url <http://www.dlib.si/details/URN:NBN:SI:DOC-JMIMISYW> ;
+    schema:volumeNumber "25" .
+
+<http://data.odeuropa.eu/source/c6e69c0b-d9a5-583d-8e75-15eef9546711> a crm:E33_Linguistic_Object ;
+    rdfs:label "Slovenski narod"@sl ;
+    schema:dateCreated <http://data.odeuropa.eu/time/0e75f164-db50-5ace-a805-212cb3e9300e> ;
+    schema:inLanguage "sl" ;
+    schema:issueNumber "214" ;
+    schema:locationCreated <https://sws.geonames.org/3190538/> ;
+    schema:publisher <http://data.odeuropa.eu/actor/1fe43f9d-c6a5-5827-abc2-aaefc94be279> ;
+    schema:url <http://www.dlib.si/details/URN:NBN:SI:DOC-L8FGHQW4> ;
+    schema:volumeNumber "43" .
+
+<http://data.odeuropa.eu/source/c830d959-c463-5b52-97d4-ec7dbd13b470> a crm:E33_Linguistic_Object ;
+    rdfs:label "Edinost: glasilo slovenskega političnega društva tržaške okolice"@sl ;
+    schema:dateCreated <http://data.odeuropa.eu/time/a0149578-ca54-53e5-a2e0-53cb1e5e1de0> ;
+    schema:inLanguage "sl" ;
+    schema:isPartOf <http://data.odeuropa.eu/source/aa6375c5-5864-5639-85ac-24a191e649bf> ;
+    schema:issueNumber "59" ;
+    schema:locationCreated <https://sws.geonames.org/3165185/> ;
+    schema:publisher <http://data.odeuropa.eu/actor/06856835-a657-53a2-b096-c15c41c55d83> ;
+    schema:url <http://www.dlib.si/details/URN:NBN:SI:DOC-LI72KVAE> ;
+    schema:volumeNumber "14" .
+
+<http://data.odeuropa.eu/source/c8c64736-4987-5fbb-b577-a139faabd13c> a crm:E33_Linguistic_Object ;
+    rdfs:label "Kres"@sl ;
+    schema:dateCreated <http://data.odeuropa.eu/time/260c497d-a092-5af7-b2cf-cfe26f14f0f6> ;
+    schema:genre <http://data.odeuropa.eu/genre/LIT> ;
+    schema:inLanguage "sl" ;
+    schema:isPartOf <http://data.odeuropa.eu/source/20312d3d-7522-5d07-aba6-23995f2102ec> ;
+    schema:issueNumber "6" ;
+    schema:locationCreated <https://sws.geonames.org/2774326/> ;
+    schema:publisher <http://data.odeuropa.eu/actor/c2506d84-da5b-5d6a-8f29-71878a8a2bc3> ;
+    schema:url <http://www.dlib.si/details/URN:NBN:SI:DOC-5HML1NO6> ;
+    schema:volumeNumber "2" .
+
+<http://data.odeuropa.eu/source/cad714c7-aa8c-5a17-8a5c-5bf842721ccf> a crm:E33_Linguistic_Object ;
+    rdfs:label "Jutro"@sl ;
+    schema:dateCreated <http://data.odeuropa.eu/time/c868ef20-4142-54ba-912b-42b25c2f3343> ;
+    schema:inLanguage "sl" ;
+    schema:isPartOf <http://data.odeuropa.eu/source/7ee96a8b-5cfd-53a6-9cce-d41c51548d6d> ;
+    schema:issueNumber "73" ;
+    schema:locationCreated <https://sws.geonames.org/3190538/> ;
+    schema:publisher <http://data.odeuropa.eu/actor/6e9a5c79-33c9-5e0f-8f52-2e53399bcd35> ;
+    schema:url <http://www.dlib.si/details/URN:NBN:SI:DOC-AXCPWW7K> ;
+    schema:volumeNumber "1" .
+
+<http://data.odeuropa.eu/source/cb6faf08-985c-5aaa-9e7e-9e8c251cd686> a crm:E33_Linguistic_Object ;
+    rdfs:label "Soča"@sl ;
+    schema:dateCreated <http://data.odeuropa.eu/time/58a2b5cb-77cc-5091-a86a-206479873173> ;
+    schema:inLanguage "sl" ;
+    schema:issueNumber "25" ;
+    schema:locationCreated <https://sws.geonames.org/3190538/> ;
+    schema:publisher <http://data.odeuropa.eu/actor/c51836df-3f3d-5f84-8475-735807716b5e> ;
+    schema:url <http://www.dlib.si/details/URN:NBN:SI:DOC-JC746NT5> .
+
+<http://data.odeuropa.eu/source/cc090247-4566-5c3d-9fdd-284ed060994e> a crm:E33_Linguistic_Object ;
+    rdfs:label "Kmetijske in rokodelske novice"@sl ;
+    schema:dateCreated <http://data.odeuropa.eu/time/ce8c1979-1d4b-5d90-bfc2-2cc091ac7a15> ;
+    schema:inLanguage "sl" ;
+    schema:issueNumber "47" ;
+    schema:locationCreated <https://sws.geonames.org/3190538/> ;
+    schema:publisher <http://data.odeuropa.eu/actor/d050bb64-b7ee-5f66-b6b8-9eb0edc63db6> ;
+    schema:url <http://www.dlib.si/details/URN:NBN:SI:DOC-2HHGYJTZ> ;
+    schema:volumeNumber "56" .
+
+<http://data.odeuropa.eu/source/cc3fd9ee-5e2c-5f57-b3ae-ac9e66f8a1f5> a crm:E33_Linguistic_Object ;
+    rdfs:label "Slovan: mesečnik za književnost, umetnost in prosveto"@sl ;
+    schema:dateCreated <http://data.odeuropa.eu/time/408f372a-d1dc-5b7d-8028-ec4ac69246b8> ;
+    schema:genre <http://data.odeuropa.eu/genre/LIT> ;
+    schema:inLanguage "sl" ;
+    schema:isPartOf <http://data.odeuropa.eu/source/b77df8f9-48e6-56f7-8b29-610f21717451> ;
+    schema:issueNumber "2/3" ;
+    schema:locationCreated <https://sws.geonames.org/3196359/> ;
+    schema:publisher <http://data.odeuropa.eu/actor/a283fdaf-38d1-5793-b98a-a20d2942ec2e> ;
+    schema:url <http://www.dlib.si/details/URN:NBN:SI:DOC-YJVNIHSD> ;
+    schema:volumeNumber "15" .
+
+<http://data.odeuropa.eu/source/cc82e498-4869-5a0b-9cc8-44afcfb80516> a crm:E33_Linguistic_Object ;
+    rdfs:label "Domači prijatelj"@sl ;
+    schema:dateCreated <http://data.odeuropa.eu/time/f5b0a0f0-ba64-5e68-8930-5b07c4e72a9d> ;
+    schema:inLanguage "sl" ;
+    schema:isPartOf <http://data.odeuropa.eu/source/1d8856ea-0302-5958-9278-9c9aeb6512d8> ;
+    schema:issueNumber "6" ;
+    schema:locationCreated <https://sws.geonames.org/3067696/> ;
+    schema:publisher <http://data.odeuropa.eu/actor/a56b1a7d-9a69-5eae-b20a-63eec494ee42> ;
+    schema:url <http://www.dlib.si/details/URN:NBN:SI:DOC-ZHCDCF0O> ;
+    schema:volumeNumber "11" .
+
+<http://data.odeuropa.eu/source/d1717b76-f9ec-5324-88fb-131a91885a53> a crm:E33_Linguistic_Object ;
+    rdfs:label "Društvenik"@sl ;
+    schema:dateCreated <http://data.odeuropa.eu/time/3f344fdd-8da4-506d-b0e8-55eed522e7e9> ;
+    schema:inLanguage "sl" ;
+    schema:isPartOf <http://data.odeuropa.eu/source/aff811a9-8b35-56ea-9f78-802e011874f9> ;
+    schema:issueNumber "11" ;
+    schema:locationCreated <https://sws.geonames.org/3196359/> ;
+    schema:publisher <http://data.odeuropa.eu/actor/999ede15-954b-51f8-b58f-dcc890176c92> ;
+    schema:url <http://www.dlib.si/details/URN:NBN:SI:DOC-PGSBY8K3> ;
+    schema:volumeNumber "3" .
+
+<http://data.odeuropa.eu/source/d29b7cb0-30e1-50e3-a4c6-8448349c938b> a crm:E33_Linguistic_Object ;
+    rdfs:label "Glas naroda: najstarejši list slovenskih delavcev v Ameriki"@sl ;
+    schema:dateCreated <http://data.odeuropa.eu/time/1799d127-dea1-56b9-9915-046d06d7ba12> ;
+    schema:inLanguage "sl" ;
+    schema:isPartOf <http://data.odeuropa.eu/source/c547f7da-56d1-5dc9-ac7c-658d5b95a9e8> ;
+    schema:issueNumber "90" ;
+    schema:locationCreated <https://sws.geonames.org/5128581/> ;
+    schema:publisher <http://data.odeuropa.eu/actor/afd6c713-ce31-5e3b-b0b6-ab034a85b719> ;
+    schema:url <http://www.dlib.si/details/URN:NBN:SI:DOC-37WAFDZA> ;
+    schema:volumeNumber "10" .
+
+<http://data.odeuropa.eu/source/d345645d-c730-5761-88c1-19b7d42a97a2> a crm:E33_Linguistic_Object ;
+    rdfs:label "Edinost: glasilo slovenskega političnega društva tržaške okolice"@sl ;
+    schema:dateCreated <http://data.odeuropa.eu/time/f878161e-6236-5ef7-85e4-fee5a35d1060> ;
+    schema:inLanguage "sl" ;
+    schema:isPartOf <http://data.odeuropa.eu/source/aa6375c5-5864-5639-85ac-24a191e649bf> ;
+    schema:issueNumber "216" ;
+    schema:locationCreated <https://sws.geonames.org/3165185/> ;
+    schema:publisher <http://data.odeuropa.eu/actor/06856835-a657-53a2-b096-c15c41c55d83> ;
+    schema:url <http://www.dlib.si/details/URN:NBN:SI:DOC-GCDS7ATJ> ;
+    schema:volumeNumber "29" .
+
+<http://data.odeuropa.eu/source/d5f94a44-97c7-5469-922a-87a51d92cfe3> a crm:E33_Linguistic_Object ;
+    rdfs:label "Slovenski narod"@sl ;
+    schema:dateCreated <http://data.odeuropa.eu/time/592a5d43-50ef-52b9-86c6-0999bd33f5c9> ;
+    schema:inLanguage "sl" ;
+    schema:issueNumber "185" ;
+    schema:locationCreated <https://sws.geonames.org/3190538/> ;
+    schema:publisher <http://data.odeuropa.eu/actor/1fe43f9d-c6a5-5827-abc2-aaefc94be279> ;
+    schema:url <http://www.dlib.si/details/URN:NBN:SI:DOC-BGG9G323> ;
+    schema:volumeNumber "33" .
+
+<http://data.odeuropa.eu/source/d6d5d58c-293f-5c72-a2a2-894d308884b5> a crm:E33_Linguistic_Object ;
+    rdfs:label "Proletarec: list za interese delavskega ljudstva"@sl ;
+    schema:dateCreated <http://data.odeuropa.eu/time/7fbb7175-7e45-553d-8d4e-02ae1d875f19> ;
+    schema:inLanguage "sl" ;
+    schema:isPartOf <http://data.odeuropa.eu/source/94c4d0de-7150-5755-b363-7472644a5d22> ;
+    schema:issueNumber "76" ;
+    schema:locationCreated <https://sws.geonames.org/4887398/> ;
+    schema:publisher <http://data.odeuropa.eu/actor/70a4862f-b526-5294-a0f8-fe22427868d1> ;
+    schema:url <http://www.dlib.si/details/URN:NBN:SI:DOC-TVQEJKJU> ;
+    schema:volumeNumber "4" .
+
+<http://data.odeuropa.eu/source/d9890e4e-d1cb-53ac-8e50-90b50701ac8e> a crm:E33_Linguistic_Object ;
+    rdfs:label "Slovenski narod"@sl ;
+    schema:dateCreated <http://data.odeuropa.eu/time/cccc6791-e1ba-5584-98c6-516b939df3cd> ;
+    schema:inLanguage "sl" ;
+    schema:issueNumber "282" ;
+    schema:locationCreated <https://sws.geonames.org/3190538/> ;
+    schema:publisher <http://data.odeuropa.eu/actor/1fe43f9d-c6a5-5827-abc2-aaefc94be279> ;
+    schema:url <http://www.dlib.si/details/URN:NBN:SI:DOC-E8VVQSLY> ;
+    schema:volumeNumber "67" .
+
+<http://data.odeuropa.eu/source/d9b7db8b-7bda-5a62-b4e0-8eb7c5fa8a82> a crm:E33_Linguistic_Object ;
+    rdfs:label "Državni zakonik za kraljevine in dežele v državnem zboru zastopane"@sl ;
+    schema:dateCreated <http://data.odeuropa.eu/time/c74364a0-cf01-5784-8687-98e0e5f4efc8> ;
+    schema:inLanguage "sl" ;
+    schema:issueNumber "23" ;
+    schema:locationCreated <https://sws.geonames.org/3190538/> ;
+    schema:publisher <http://data.odeuropa.eu/actor/3ea53e40-4fae-50bb-92ba-700dd6d2d8da> ;
+    schema:url <http://www.dlib.si/details/URN:NBN:SI:DOC-ZZ5W92GX> ;
+    schema:volumeNumber "10" .
+
+<http://data.odeuropa.eu/source/db81e6b4-866f-56bc-af96-487fd657771b> a crm:E33_Linguistic_Object ;
+    rdfs:label "Najcenejša in najhitrejša obnovitev opustošenih vinogradov"@sl ;
+    schema:dateCreated <http://data.odeuropa.eu/time/9b29f9a9-44e6-53db-a132-322e536a2c4a> ;
+    schema:genre <http://data.odeuropa.eu/genre/BOT> ;
+    schema:inLanguage "sl" ;
+    schema:isPartOf <http://data.odeuropa.eu/source/f48b6c0f-08ed-5a5b-b440-c0065e07ecc0> ;
+    schema:locationCreated <https://sws.geonames.org/3190538/> ;
+    schema:publisher <http://data.odeuropa.eu/actor/a3deee62-fab6-5e14-af30-fbd36d7c7478> ;
+    schema:url <http://www.dlib.si/details/URN:NBN:SI:DOC-MEH9JWSV> .
+
+<http://data.odeuropa.eu/source/dc79e471-5d55-5472-8f12-20956ad28dcb> a crm:E33_Linguistic_Object ;
+    rdfs:label "Slovenski narod"@sl ;
+    schema:dateCreated <http://data.odeuropa.eu/time/d2fcba02-90c7-5602-8ac6-2fe1dae7c9ef> ;
+    schema:inLanguage "sl" ;
+    schema:issueNumber "297" ;
+    schema:locationCreated <https://sws.geonames.org/3190538/> ;
+    schema:publisher <http://data.odeuropa.eu/actor/1fe43f9d-c6a5-5827-abc2-aaefc94be279> ;
+    schema:url <http://www.dlib.si/details/URN:NBN:SI:DOC-DF1XOJDC> ;
+    schema:volumeNumber "32" .
+
+<http://data.odeuropa.eu/source/dd69b0b2-6001-59f4-a97b-7a333befde7a> a crm:E33_Linguistic_Object ;
+    rdfs:label "Glas naroda: najstarejši list slovenskih delavcev v Ameriki"@sl ;
+    schema:dateCreated <http://data.odeuropa.eu/time/2eede174-5f54-5af1-97d9-19807ed7f30c> ;
+    schema:inLanguage "sl" ;
+    schema:isPartOf <http://data.odeuropa.eu/source/c547f7da-56d1-5dc9-ac7c-658d5b95a9e8> ;
+    schema:issueNumber "133" ;
+    schema:locationCreated <https://sws.geonames.org/5128581/> ;
+    schema:publisher <http://data.odeuropa.eu/actor/afd6c713-ce31-5e3b-b0b6-ab034a85b719> ;
+    schema:url <http://www.dlib.si/details/URN:NBN:SI:DOC-EK1JIIID> ;
+    schema:volumeNumber "14" .
+
+<http://data.odeuropa.eu/source/df930d6a-ed1a-51c9-b250-4d4bffaf2f7c> a crm:E33_Linguistic_Object ;
+    rdfs:label "Kmetovalec: gospodarski list s podobami"@sl ;
+    schema:dateCreated <http://data.odeuropa.eu/time/7f07df0b-227e-50f2-a64d-ddf8a7be65b5> ;
+    schema:genre <http://data.odeuropa.eu/genre/BOT> ;
+    schema:inLanguage "sl" ;
+    schema:isPartOf <http://data.odeuropa.eu/source/4aa8a937-65bc-54f2-a225-7e838db82fdc> ;
+    schema:issueNumber "18" ;
+    schema:locationCreated <https://sws.geonames.org/3190538/> ;
+    schema:publisher <http://data.odeuropa.eu/actor/8aeb1293-7397-578f-9b78-d1c1f0b2a233> ;
+    schema:url <http://www.dlib.si/details/URN:NBN:SI:DOC-M94Y3X9F> ;
+    schema:volumeNumber "15" .
+
+<http://data.odeuropa.eu/source/dfd69bc7-a839-55f2-9e0c-317e5db13588> a crm:E33_Linguistic_Object ;
+    rdfs:label "Dan"@sl ;
+    schema:dateCreated <http://data.odeuropa.eu/time/4232d745-0858-5b5d-ab50-f536e232e559> ;
+    schema:inLanguage "sl" ;
+    schema:isPartOf <http://data.odeuropa.eu/source/3b017c6e-7ac3-5166-a485-eff6da6c3803> ;
+    schema:issueNumber "750" ;
+    schema:locationCreated <https://sws.geonames.org/3190538/> ;
+    schema:publisher <http://data.odeuropa.eu/actor/ac7d1af3-5610-5f63-b0dd-dd2c85ba966e> ;
+    schema:url <http://www.dlib.si/details/URN:NBN:SI:DOC-LVKREXXG> ;
+    schema:volumeNumber "3" .
+
+<http://data.odeuropa.eu/source/e430cc76-788c-5b0d-af66-9f1c96602859> a crm:E33_Linguistic_Object ;
+    rdfs:label "Slovenski prijatel: časopis za cerkev, šolo in dom"@sl ;
+    schema:dateCreated <http://data.odeuropa.eu/time/9dddf3a0-6064-5899-bc95-3651057d86df> ;
+    schema:genre <http://data.odeuropa.eu/genre/LIT> ;
+    schema:inLanguage "sl" ;
+    schema:isPartOf <http://data.odeuropa.eu/source/51c2ce3b-99a5-513c-a607-258ed000ee38> ;
+    schema:issueNumber "11" ;
+    schema:locationCreated <https://sws.geonames.org/3190538/> ;
+    schema:publisher <http://data.odeuropa.eu/actor/e368c0b0-28dd-5c4f-a952-3a9a22e893f7> ;
+    schema:url <http://www.dlib.si/details/URN:NBN:SI:DOC-DG2JI6W9> ;
+    schema:volumeNumber "31" .
+
+<http://data.odeuropa.eu/source/e5cc3160-970d-5a68-a469-9e90ee05b90d> a crm:E33_Linguistic_Object ;
+    rdfs:label "Slovenec"@sl ;
+    schema:dateCreated <http://data.odeuropa.eu/time/865e29fa-8b73-5090-86df-16e6746f6e4c> ;
+    schema:inLanguage "sl" ;
+    schema:isPartOf <http://data.odeuropa.eu/source/34af02e9-7a60-5701-a2ff-3172663c8024> ;
+    schema:issueNumber "101" ;
+    schema:locationCreated <https://sws.geonames.org/3190538/> ;
+    schema:publisher <http://data.odeuropa.eu/actor/0c02356e-42f3-5914-a464-321a8dc5da86> ;
+    schema:url <http://www.dlib.si/details/URN:NBN:SI:DOC-JOKPKFRJ> ;
+    schema:volumeNumber "11" .
+
+<http://data.odeuropa.eu/source/e7018f2c-55ab-584e-9718-541bfcc6ab0d> a crm:E33_Linguistic_Object ;
+    rdfs:label "Cvetje z vertov sv. Frančiška"@sl ;
+    schema:dateCreated <http://data.odeuropa.eu/time/94f1e857-d79e-53d9-b8dd-ee641f0f9310> ;
+    schema:inLanguage "sl" ;
+    schema:issueNumber "3" ;
+    schema:locationCreated <https://sws.geonames.org/3190538/> ;
+    schema:publisher <http://data.odeuropa.eu/actor/9def43e8-222a-5b49-bd34-da67fee190ca> ;
+    schema:url <http://www.dlib.si/details/URN:NBN:SI:DOC-J5FZGBSG> ;
+    schema:volumeNumber "1" .
+
+<http://data.odeuropa.eu/source/f31d0724-9085-5fe2-ba4d-b3b1954443e3> a crm:E33_Linguistic_Object ;
+    rdfs:label "Zgodnja Danica: katoliški cerkveni list"@sl ;
+    schema:dateCreated <http://data.odeuropa.eu/time/4304515b-19eb-50f7-aa05-55d61383ed48> ;
+    schema:inLanguage "sl" ;
+    schema:isPartOf <http://data.odeuropa.eu/source/1951b7ac-1eef-52d5-b912-a404c08c8531> ;
+    schema:issueNumber "53" ;
+    schema:locationCreated <https://sws.geonames.org/3190538/> ;
+    schema:publisher <http://data.odeuropa.eu/actor/c19e273a-65dc-5bd5-8d8b-8dbf36cd032e> ;
+    schema:url <http://www.dlib.si/details/URN:NBN:SI:DOC-SIQBGUP0> ;
+    schema:volumeNumber "28" .
+
+<http://data.odeuropa.eu/source/f611e2ec-ea23-5c2d-99ac-34b8be61c90a> a crm:E33_Linguistic_Object ;
+    rdfs:label "Slovenski narod"@sl ;
+    schema:dateCreated <http://data.odeuropa.eu/time/dee8bd57-5de0-5323-8419-34139d7391ff> ;
+    schema:inLanguage "sl" ;
+    schema:issueNumber "156" ;
+    schema:locationCreated <https://sws.geonames.org/3190538/> ;
+    schema:publisher <http://data.odeuropa.eu/actor/1fe43f9d-c6a5-5827-abc2-aaefc94be279> ;
+    schema:url <http://www.dlib.si/details/URN:NBN:SI:DOC-35GDU0ZW> ;
+    schema:volumeNumber "44" .
+
+<http://data.odeuropa.eu/source/f779f3fe-d2e5-5e0b-bbe5-10054a090150> a crm:E33_Linguistic_Object ;
+    rdfs:label "Slovan: mesečnik za književnost, umetnost in prosveto"@sl ;
+    schema:dateCreated <http://data.odeuropa.eu/time/08d78d7b-da9b-5eb6-adb7-ed731b7b0357> ;
+    schema:genre <http://data.odeuropa.eu/genre/LIT> ;
+    schema:inLanguage "sl" ;
+    schema:isPartOf <http://data.odeuropa.eu/source/b77df8f9-48e6-56f7-8b29-610f21717451> ;
+    schema:issueNumber "1" ;
+    schema:locationCreated <https://sws.geonames.org/3196359/> ;
+    schema:publisher <http://data.odeuropa.eu/actor/a283fdaf-38d1-5793-b98a-a20d2942ec2e> ;
+    schema:url <http://www.dlib.si/details/URN:NBN:SI:DOC-IBWYPDME> ;
+    schema:volumeNumber "8" .
+
+<http://data.odeuropa.eu/source/fb9c2f49-affb-5aa9-92fd-206755e02d4e> a crm:E33_Linguistic_Object ;
+    rdfs:label "Primorski gospodar: list za povspeševanje kmetijstva v slovenskem Primorju"@sl ;
+    schema:dateCreated <http://data.odeuropa.eu/time/20674612-46dc-579d-9a0c-1b8eaeddda1e> ;
+    schema:genre <http://data.odeuropa.eu/genre/BOT> ;
+    schema:inLanguage "sl" ;
+    schema:isPartOf <http://data.odeuropa.eu/source/4239cae6-f809-52bf-b827-b391dcdb2417> ;
+    schema:issueNumber "8/9" ;
+    schema:locationCreated <https://sws.geonames.org/3190538/> ;
+    schema:publisher <http://data.odeuropa.eu/actor/7e20e902-8a6d-5a74-a545-49b7d1730957> ;
+    schema:url <http://www.dlib.si/details/URN:NBN:SI:DOC-VZKQBCOT> ;
+    schema:volumeNumber "4" .
+
+<http://data.odeuropa.eu/source/ff1ac15b-50bf-5142-88e8-a61df55bcb7e> a crm:E33_Linguistic_Object ;
+    rdfs:label "Slovenka"@sl ;
+    schema:dateCreated <http://data.odeuropa.eu/time/04d21ff6-8db1-52f6-a4b9-35bfa8259f42> ;
+    schema:genre <http://data.odeuropa.eu/genre/LIT> ;
+    schema:inLanguage "sl" ;
+    schema:issueNumber "20" ;
+    schema:locationCreated <https://sws.geonames.org/3190538/> ;
+    schema:publisher <http://data.odeuropa.eu/actor/cc000782-f04d-5cf4-9cc5-7c7d925cbc70> ;
+    schema:url <http://www.dlib.si/details/URN:NBN:SI:DOC-4808T1D5> ;
+    schema:volumeNumber "3" .
+
+<https://sws.geonames.org/2635167/> a crm:E53_Place .
+
+<https://sws.geonames.org/2643743/> a crm:E53_Place .
+
+<https://sws.geonames.org/2750405/> a crm:E53_Place .
+
+<https://sws.geonames.org/2921044/> a crm:E53_Place .
+
+<https://sws.geonames.org/3175395/> a crm:E53_Place .
+
+<https://sws.geonames.org/3570675/> a crm:E53_Place .
+
+<http://data.odeuropa.eu/actor/2d999419-5502-56b5-9dcd-801fdccbc7d4> a crm:E39_Actor ;
+    rdfs:label "Narodna založba" .
+
+<http://data.odeuropa.eu/actor/3ea53e40-4fae-50bb-92ba-700dd6d2d8da> a crm:E39_Actor ;
+    rdfs:label "s. n." .
+
+<http://data.odeuropa.eu/actor/4058891f-7308-5c42-80e7-862b579ad222> a crm:E39_Actor ;
+    rdfs:label "Josip Stritar" .
+
+<http://data.odeuropa.eu/actor/46568681-7e97-5b1a-b803-912b308d858e> a crm:E39_Actor ;
+    rdfs:label "Konzorcij Gorenjca" .
+
+<http://data.odeuropa.eu/actor/4c684ee1-0502-5341-9510-414a1e850a9a> a crm:E39_Actor ;
+    rdfs:label "Katol. bukvarna" .
+
+<http://data.odeuropa.eu/actor/4d3a57d7-fdd0-5b74-a40b-3f9d7266aaf3> a crm:E39_Actor ;
+    rdfs:label "Dragotin Hribar" .
+
+<http://data.odeuropa.eu/actor/5e59fdf5-a038-5bfa-933f-ad7d90dabfa7> a crm:E39_Actor ;
+    rdfs:label "Društvo Pravnik" .
+
+<http://data.odeuropa.eu/actor/6b46c10e-3fa8-57b9-9f18-d3f09d5a2d0a> a crm:E39_Actor ;
+    rdfs:label "I. Slavec" .
+
+<http://data.odeuropa.eu/actor/6e9a5c79-33c9-5e0f-8f52-2e53399bcd35> a crm:E39_Actor ;
+    rdfs:label "Milan Plut" .
+
+<http://data.odeuropa.eu/actor/70a4862f-b526-5294-a0f8-fe22427868d1> a crm:E39_Actor ;
+    rdfs:label "Jugoslovanska delavska tiskovna družba" .
+
+<http://data.odeuropa.eu/actor/76cf45d5-e94c-5c87-be86-545a9af8f8f5> a crm:E39_Actor ;
+    rdfs:label "I. pl. Kleinmayr & F. Bamberg" .
+
+<http://data.odeuropa.eu/actor/78313277-4358-5187-9a79-7a7dbd32513b> a crm:E39_Actor ;
+    rdfs:label "Vladimir J. Teharski" .
+
+<http://data.odeuropa.eu/actor/78a3b700-1afd-5814-96f0-7f4c9143f50d> a crm:E39_Actor ;
+    rdfs:label "Tiskarna Sava" .
+
+<http://data.odeuropa.eu/actor/7e11bc85-2e04-57a7-9058-4645e7a90c54> a crm:E39_Actor ;
+    rdfs:label "J.U.U.-sekcija za dravsko banovino" .
+
+<http://data.odeuropa.eu/actor/7e20e902-8a6d-5a74-a545-49b7d1730957> a crm:E39_Actor ;
+    rdfs:label "Goriško kmetijsko društvo" .
+
+<http://data.odeuropa.eu/actor/8e5a3d0b-ac48-513c-bdea-c7e5f368556b> a crm:E39_Actor ;
+    rdfs:label "Leonova družba" .
+
+<http://data.odeuropa.eu/actor/8ebc4b65-90eb-51bf-b532-14f0b9473e57> a crm:E39_Actor ;
+    rdfs:label "F. Haderlap" .
+
+<http://data.odeuropa.eu/actor/91ba5a90-9994-5ea3-a7aa-512da7ca7f17> a crm:E39_Actor ;
+    rdfs:label "Katoliška bukvarna" .
+
+<http://data.odeuropa.eu/actor/9def43e8-222a-5b49-bd34-da67fee190ca> a crm:E39_Actor ;
+    rdfs:label "s.n." .
+
+<http://data.odeuropa.eu/actor/ac7d1af3-5610-5f63-b0dd-dd2c85ba966e> a crm:E39_Actor ;
+    rdfs:label "Učiteljske tiskarne" .
+
+<http://data.odeuropa.eu/actor/bea2349b-05af-569d-8e31-2d612cb89bb0> a crm:E39_Actor ;
+    rdfs:label "Slovensko društvo" .
+
+<http://data.odeuropa.eu/actor/c19e273a-65dc-5bd5-8d8b-8dbf36cd032e> a crm:E39_Actor ;
+    rdfs:label "Janez Krizostom Pogačar" .
+
+<http://data.odeuropa.eu/actor/c2506d84-da5b-5d6a-8f29-71878a8a2bc3> a crm:E39_Actor ;
+    rdfs:label "Tiskarna Družbe sv. Mohorja" .
+
+<http://data.odeuropa.eu/actor/cc000782-f04d-5cf4-9cc5-7c7d925cbc70> a crm:E39_Actor ;
+    rdfs:label "Konzorcij Edinosti" .
+
+<http://data.odeuropa.eu/actor/dc592c71-0734-5009-b545-46164552993d> a crm:E39_Actor ;
+    rdfs:label "v' Alojz Wajcinger'ovem knižiši" .
+
+<http://data.odeuropa.eu/actor/e368c0b0-28dd-5c4f-a952-3a9a22e893f7> a crm:E39_Actor ;
+    rdfs:label "A. Einšpieler" .
+
+<http://data.odeuropa.eu/actor/ea6a7e80-a7f1-580e-9ddd-3797227c1e37> a crm:E39_Actor ;
+    rdfs:label "Rasto Pustoslemšek" .
+
+<http://data.odeuropa.eu/actor/ecf37172-a1b7-5ee6-9ea5-e3224d8aaae0> a crm:E39_Actor ;
+    rdfs:label "Rudolf F. Gregorič" .
+
+<http://data.odeuropa.eu/actor/f23b1ec2-b515-5613-872e-f69bfab4e935> a crm:E39_Actor ;
+    rdfs:label "Založba Otona Fischerja" .
+
+<http://data.odeuropa.eu/actor/f7b7233a-6a42-5cbc-a6b0-9f5b17d2a375> a crm:E39_Actor ;
+    rdfs:label "Slovensko tiskovno društvo" .
+
+<http://data.odeuropa.eu/genre/LAW> a <http://www.w3.org/2004/02/skos/core#Concept> ;
+    rdfs:label "Legal / criminal texts"@en .
+
+<http://data.odeuropa.eu/source/0aa33ccf-5524-5732-90b9-ad533110e8a7> a crm:E33_Linguistic_Object ;
+    rdfs:label "Primorski list (Gorica)" .
+
+<http://data.odeuropa.eu/source/0fa24400-b161-58a4-9645-8cf3ab772505> a crm:E33_Linguistic_Object ;
+    rdfs:label "Slovenski dom (1909-1914)" .
+
+<http://data.odeuropa.eu/source/1951b7ac-1eef-52d5-b912-a404c08c8531> a crm:E33_Linguistic_Object ;
+    rdfs:label "Zgodnja Danica" .
+
+<http://data.odeuropa.eu/source/20312d3d-7522-5d07-aba6-23995f2102ec> a crm:E33_Linguistic_Object ;
+    rdfs:label "Kres (Celovec)" .
+
+<http://data.odeuropa.eu/source/2dff7073-62c7-5d98-8772-c45d41543ab4> a crm:E33_Linguistic_Object ;
+    rdfs:label "Ljubljanski zvon" .
+
+<http://data.odeuropa.eu/source/33461d26-b01c-5e18-ac18-6c8cf8f660c6> a crm:E33_Linguistic_Object ;
+    rdfs:label "Rodoljub" .
+
+<http://data.odeuropa.eu/source/37c3368a-41bf-50ba-9ad0-9b66474dbbc0> a crm:E33_Linguistic_Object ;
+    rdfs:label "Narodni list (Celje)" .
+
+<http://data.odeuropa.eu/source/3b017c6e-7ac3-5166-a485-eff6da6c3803> a crm:E33_Linguistic_Object ;
+    rdfs:label "Dan (1912)" .
+
+<http://data.odeuropa.eu/source/3fee44a1-ea07-5ee0-8470-b40fadbe4d8a> a crm:E33_Linguistic_Object ;
+    rdfs:label "Naš kmečki dom" .
+
+<http://data.odeuropa.eu/source/4239cae6-f809-52bf-b827-b391dcdb2417> a crm:E33_Linguistic_Object ;
+    rdfs:label "Primorski gospodar" .
+
+<http://data.odeuropa.eu/source/46583346-fe36-5133-a217-a75d07abf090> a crm:E33_Linguistic_Object ;
+    rdfs:label "Obravnave deželnega zbora kranjskega v Ljubljani" .
+
+<http://data.odeuropa.eu/source/4d16b215-2bc5-50e5-97f8-5675c2090f1c> a crm:E33_Linguistic_Object ;
+    rdfs:label "Glasnik (Calumet)" .
+
+<http://data.odeuropa.eu/source/51c2ce3b-99a5-513c-a607-258ed000ee38> a crm:E33_Linguistic_Object ;
+    rdfs:label "Šolski prijatel: časopis za šolo in dom" .
+
+<http://data.odeuropa.eu/source/7d03d280-eeeb-59b2-94c1-c04bb68292e3> a crm:E33_Linguistic_Object ;
+    rdfs:label "Sava (Kranj)" .
+
+<http://data.odeuropa.eu/source/7ee96a8b-5cfd-53a6-9cce-d41c51548d6d> a crm:E33_Linguistic_Object ;
+    rdfs:label "Jutro (1910)" .
+
+<http://data.odeuropa.eu/source/84171504-d00e-5546-b864-40ca149e5605> a crm:E33_Linguistic_Object ;
+    rdfs:label "Zvon (1870)" .
+
+<http://data.odeuropa.eu/source/94c4d0de-7150-5755-b363-7472644a5d22> a crm:E33_Linguistic_Object ;
+    rdfs:label "Proletarec (Chicago)" .
+
+<http://data.odeuropa.eu/source/a2e5488f-236e-5e40-9ac1-4c79fed83697> a crm:E33_Linguistic_Object ;
+    rdfs:label "Bogoljub (Ljubljana)" .
+
+<http://data.odeuropa.eu/source/aec623da-ebca-5939-aec3-9428440be8ba> a crm:E33_Linguistic_Object ;
+    rdfs:label "Edinost-Unity" .
+
+<http://data.odeuropa.eu/source/aff811a9-8b35-56ea-9f78-802e011874f9> a crm:E33_Linguistic_Object ;
+    rdfs:label "Društvenik (Ljubljana)" .
+
+<http://data.odeuropa.eu/source/b9b9f057-7f70-53fb-8cb3-8e20b19ade03> a crm:E33_Linguistic_Object ;
+    rdfs:label "Gorenjec (1900-1941)" .
+
+<http://data.odeuropa.eu/source/e30b8e38-01b8-576c-afb0-d87e2a864ef3> a crm:E33_Linguistic_Object ;
+    rdfs:label "Mir (Celovec)" .
+
+<http://data.odeuropa.eu/source/e76c3c54-1e2b-55e9-80d2-c4d95199cb3a> a crm:E33_Linguistic_Object ;
+    rdfs:label "Čas (Ljubljana)" .
+
+<http://data.odeuropa.eu/time/04d21ff6-8db1-52f6-a4b9-35bfa8259f42> a time:TemporalEntity ;
+    rdfs:label "1899-10-07" ;
+    time:hasBeginning "1899-10-07"^^xsd:date ;
+    time:hasEnd "1899-10-07"^^xsd:date .
+
+<http://data.odeuropa.eu/time/068f896c-e600-59ea-b7cc-22bbfb0da327> a time:TemporalEntity ;
+    rdfs:label "1911-02-16" ;
+    time:hasBeginning "1911-02-16"^^xsd:date ;
+    time:hasEnd "1911-02-16"^^xsd:date .
+
+<http://data.odeuropa.eu/time/08d78d7b-da9b-5eb6-adb7-ed731b7b0357> a time:TemporalEntity ;
+    rdfs:label "1910" ;
+    time:hasBeginning "1910"^^xsd:gYear ;
+    time:hasEnd "1910"^^xsd:gYear .
+
+<http://data.odeuropa.eu/time/0e75f164-db50-5ace-a805-212cb3e9300e> a time:TemporalEntity ;
+    rdfs:label "1910-08-06" ;
+    time:hasBeginning "1910-08-06"^^xsd:date ;
+    time:hasEnd "1910-08-06"^^xsd:date .
+
+<http://data.odeuropa.eu/time/13292b11-c2c0-5167-a1b1-c5af1b3dfbad> a time:TemporalEntity ;
+    rdfs:label "1905-07-29" ;
+    time:hasBeginning "1905-07-29"^^xsd:date ;
+    time:hasEnd "1905-07-29"^^xsd:date .
+
+<http://data.odeuropa.eu/time/1799d127-dea1-56b9-9915-046d06d7ba12> a time:TemporalEntity ;
+    rdfs:label "1902-07-29" ;
+    time:hasBeginning "1902-07-29"^^xsd:date ;
+    time:hasEnd "1902-07-29"^^xsd:date .
+
+<http://data.odeuropa.eu/time/197aaada-6153-577c-8268-4e84cd1dc7a1> a time:TemporalEntity ;
+    rdfs:label "1912-05-15" ;
+    time:hasBeginning "1912-05-15"^^xsd:date ;
+    time:hasEnd "1912-05-15"^^xsd:date .
+
+<http://data.odeuropa.eu/time/1b9c7c6f-71cb-5767-8070-db412a1c94c6> a time:TemporalEntity ;
+    rdfs:label "1884-11-08" ;
+    time:hasBeginning "1884-11-08"^^xsd:date ;
+    time:hasEnd "1884-11-08"^^xsd:date .
+
+<http://data.odeuropa.eu/time/1bc325ca-8872-5c8d-9d2c-fe74f6cc4fa8> a time:TemporalEntity ;
+    rdfs:label "1910-02-12" ;
+    time:hasBeginning "1910-02-12"^^xsd:date ;
+    time:hasEnd "1910-02-12"^^xsd:date .
+
+<http://data.odeuropa.eu/time/1e2385ad-1ce8-59fa-ae1f-a0e9f16ad062> a time:TemporalEntity ;
+    rdfs:label "1917-07-02" ;
+    time:hasBeginning "1917-07-02"^^xsd:date ;
+    time:hasEnd "1917-07-02"^^xsd:date .
+
+<http://data.odeuropa.eu/time/20674612-46dc-579d-9a0c-1b8eaeddda1e> a time:TemporalEntity ;
+    rdfs:label "1908-06-05" ;
+    time:hasBeginning "1908-06-05"^^xsd:date ;
+    time:hasEnd "1908-06-05"^^xsd:date .
+
+<http://data.odeuropa.eu/time/260c497d-a092-5af7-b2cf-cfe26f14f0f6> a time:TemporalEntity ;
+    rdfs:label "1882" ;
+    time:hasBeginning "1882"^^xsd:gYear ;
+    time:hasEnd "1882"^^xsd:gYear .
+
+<http://data.odeuropa.eu/time/263eb387-960a-5b09-92a8-2f6c08f83599> a time:TemporalEntity ;
+    rdfs:label "1904-06-11" ;
+    time:hasBeginning "1904-06-11"^^xsd:date ;
+    time:hasEnd "1904-06-11"^^xsd:date .
+
+<http://data.odeuropa.eu/time/27099b74-3ae5-56c6-91f8-b5a9ce532cb5> a time:TemporalEntity ;
+    rdfs:label "1900-07-24" ;
+    time:hasBeginning "1900-07-24"^^xsd:date ;
+    time:hasEnd "1900-07-24"^^xsd:date .
+
+<http://data.odeuropa.eu/time/2e1bc59b-1fc2-515f-963c-6500f7cab77c> a time:TemporalEntity ;
+    rdfs:label "1904-08-26" ;
+    time:hasBeginning "1904-08-26"^^xsd:date ;
+    time:hasEnd "1904-08-26"^^xsd:date .
+
+<http://data.odeuropa.eu/time/2eede174-5f54-5af1-97d9-19807ed7f30c> a time:TemporalEntity ;
+    rdfs:label "1906-06-07" ;
+    time:hasBeginning "1906-06-07"^^xsd:date ;
+    time:hasEnd "1906-06-07"^^xsd:date .
+
+<http://data.odeuropa.eu/time/3957982e-66a8-50c0-8efc-322de95d69e4> a time:TemporalEntity ;
+    rdfs:label "1887-03-09" ;
+    time:hasBeginning "1887-03-09"^^xsd:date ;
+    time:hasEnd "1887-03-09"^^xsd:date .
+
+<http://data.odeuropa.eu/time/3e454b14-320c-55df-b3d3-3773b071ecc0> a time:TemporalEntity ;
+    rdfs:label "1891-07-25" ;
+    time:hasBeginning "1891-07-25"^^xsd:date ;
+    time:hasEnd "1891-07-25"^^xsd:date .
+
+<http://data.odeuropa.eu/time/3ebdb1e7-a795-501f-9dbf-394c9f89ce77> a time:TemporalEntity ;
+    rdfs:label "1915-01-01" ;
+    time:hasBeginning "1915-01-01"^^xsd:date ;
+    time:hasEnd "1915-01-01"^^xsd:date .
+
+<http://data.odeuropa.eu/time/3f344fdd-8da4-506d-b0e8-55eed522e7e9> a time:TemporalEntity ;
+    rdfs:label "1911-11-16" ;
+    time:hasBeginning "1911-11-16"^^xsd:date ;
+    time:hasEnd "1911-11-16"^^xsd:date .
+
+<http://data.odeuropa.eu/time/408f372a-d1dc-5b7d-8028-ec4ac69246b8> a time:TemporalEntity ;
+    rdfs:label "1917" ;
+    time:hasBeginning "1917"^^xsd:gYear ;
+    time:hasEnd "1917"^^xsd:gYear .
+
+<http://data.odeuropa.eu/time/4232d745-0858-5b5d-ab50-f536e232e559> a time:TemporalEntity ;
+    rdfs:label "1914-01-18" ;
+    time:hasBeginning "1914-01-18"^^xsd:date ;
+    time:hasEnd "1914-01-18"^^xsd:date .
+
+<http://data.odeuropa.eu/time/42d38fa8-d4c2-5eab-9642-1735852836bb> a time:TemporalEntity ;
+    rdfs:label "1917-05-31" ;
+    time:hasBeginning "1917-05-31"^^xsd:date ;
+    time:hasEnd "1917-05-31"^^xsd:date .
+
+<http://data.odeuropa.eu/time/4304515b-19eb-50f7-aa05-55d61383ed48> a time:TemporalEntity ;
+    rdfs:label "1875-12-31" ;
+    time:hasBeginning "1875-12-31"^^xsd:date ;
+    time:hasEnd "1875-12-31"^^xsd:date .
+
+<http://data.odeuropa.eu/time/448c4689-07ab-5149-b0ea-a358d4706e6e> a time:TemporalEntity ;
+    rdfs:label "1900-10-15" ;
+    time:hasBeginning "1900-10-15"^^xsd:date ;
+    time:hasEnd "1900-10-15"^^xsd:date .
+
+<http://data.odeuropa.eu/time/4d07330e-53e2-509c-a867-ab7b8336bf27> a time:TemporalEntity ;
+    rdfs:label "1899-08-14" ;
+    time:hasBeginning "1899-08-14"^^xsd:date ;
+    time:hasEnd "1899-08-14"^^xsd:date .
+
+<http://data.odeuropa.eu/time/53ce8489-cbf9-5a65-a8b4-7b725bf1fd2a> a time:TemporalEntity ;
+    rdfs:label "1904-11-01" ;
+    time:hasBeginning "1904-11-01"^^xsd:date ;
+    time:hasEnd "1904-11-01"^^xsd:date .
+
+<http://data.odeuropa.eu/time/58a2b5cb-77cc-5091-a86a-206479873173> a time:TemporalEntity ;
+    rdfs:label "1887-06-17" ;
+    time:hasBeginning "1887-06-17"^^xsd:date ;
+    time:hasEnd "1887-06-17"^^xsd:date .
+
+<http://data.odeuropa.eu/time/592a5d43-50ef-52b9-86c6-0999bd33f5c9> a time:TemporalEntity ;
+    rdfs:label "1900-08-13" ;
+    time:hasBeginning "1900-08-13"^^xsd:date ;
+    time:hasEnd "1900-08-13"^^xsd:date .
+
+<http://data.odeuropa.eu/time/598663e5-d307-5c76-b192-903eb612e8fa> a time:TemporalEntity ;
+    rdfs:label "1897-07-03" ;
+    time:hasBeginning "1897-07-03"^^xsd:date ;
+    time:hasEnd "1897-07-03"^^xsd:date .
+
+<http://data.odeuropa.eu/time/5e3b3d30-fa64-5b3e-956b-7ef68f053fcc> a time:TemporalEntity ;
+    rdfs:label "1915-08-13" ;
+    time:hasBeginning "1915-08-13"^^xsd:date ;
+    time:hasEnd "1915-08-13"^^xsd:date .
+
+<http://data.odeuropa.eu/time/608de0fc-7d35-5d8c-9aac-6a3d8b687ac9> a time:TemporalEntity ;
+    rdfs:label "1906-04-05" ;
+    time:hasBeginning "1906-04-05"^^xsd:date ;
+    time:hasEnd "1906-04-05"^^xsd:date .
+
+<http://data.odeuropa.eu/time/6126ce67-f72d-5c91-bb68-bb47ecc9f92c> a time:TemporalEntity ;
+    rdfs:label "1913-06-07" ;
+    time:hasBeginning "1913-06-07"^^xsd:date ;
+    time:hasEnd "1913-06-07"^^xsd:date .
+
+<http://data.odeuropa.eu/time/6148c211-a434-5a5c-8f37-748f517a0ef8> a time:TemporalEntity ;
+    rdfs:label "1901/1904" ;
+    time:hasBeginning "1901"^^xsd:gYear ;
+    time:hasEnd "1904"^^xsd:gYear .
+
+<http://data.odeuropa.eu/time/61511185-e20b-5cea-ae7f-0f6acbd84980> a time:TemporalEntity ;
+    rdfs:label "1905-04-25" ;
+    time:hasBeginning "1905-04-25"^^xsd:date ;
+    time:hasEnd "1905-04-25"^^xsd:date .
+
+<http://data.odeuropa.eu/time/67352eb6-8a95-58b2-acc5-c7c6c1ef55f7> a time:TemporalEntity ;
+    rdfs:label "1900-02-09" ;
+    time:hasBeginning "1900-02-09"^^xsd:date ;
+    time:hasEnd "1900-02-09"^^xsd:date .
+
+<http://data.odeuropa.eu/time/6c22fc6b-e1d1-57c7-a253-774753518225> a time:TemporalEntity ;
+    rdfs:label "1902" ;
+    time:hasBeginning "1902"^^xsd:gYear ;
+    time:hasEnd "1902"^^xsd:gYear .
+
+<http://data.odeuropa.eu/time/6f75d74c-fc7c-56c1-bb3b-9b8ab496dfa0> a time:TemporalEntity ;
+    rdfs:label "1900" ;
+    time:hasBeginning "1900"^^xsd:gYear ;
+    time:hasEnd "1900"^^xsd:gYear .
+
+<http://data.odeuropa.eu/time/7162fa8d-8d74-5ad6-a4d6-fbcc61fd7b6d> a time:TemporalEntity ;
+    rdfs:label "1917-03-08" ;
+    time:hasBeginning "1917-03-08"^^xsd:date ;
+    time:hasEnd "1917-03-08"^^xsd:date .
+
+<http://data.odeuropa.eu/time/72082e32-e83d-5d5c-9219-9f39b9101eb3> a time:TemporalEntity ;
+    rdfs:label "1905" ;
+    time:hasBeginning "1905"^^xsd:gYear ;
+    time:hasEnd "1905"^^xsd:gYear .
+
+<http://data.odeuropa.eu/time/724d6693-147a-5cb1-b065-a27f9db4b082> a time:TemporalEntity ;
+    rdfs:label "1904-10-04" ;
+    time:hasBeginning "1904-10-04"^^xsd:date ;
+    time:hasEnd "1904-10-04"^^xsd:date .
+
+<http://data.odeuropa.eu/time/772e3304-87f2-5c55-896d-72225cc9f187> a time:TemporalEntity ;
+    rdfs:label "1889-08-28" ;
+    time:hasBeginning "1889-08-28"^^xsd:date ;
+    time:hasEnd "1889-08-28"^^xsd:date .
+
+<http://data.odeuropa.eu/time/7a754d32-b318-5cb3-b5a0-576dd65a11df> a time:TemporalEntity ;
+    rdfs:label "1901-03-09" ;
+    time:hasBeginning "1901-03-09"^^xsd:date ;
+    time:hasEnd "1901-03-09"^^xsd:date .
+
+<http://data.odeuropa.eu/time/7b1e2825-141c-59bf-8600-d1e37b1ec78e> a time:TemporalEntity ;
+    rdfs:label "1881" ;
+    time:hasBeginning "1881"^^xsd:gYear ;
+    time:hasEnd "1881"^^xsd:gYear .
+
+<http://data.odeuropa.eu/time/7f07df0b-227e-50f2-a64d-ddf8a7be65b5> a time:TemporalEntity ;
+    rdfs:label "1898-09-30" ;
+    time:hasBeginning "1898-09-30"^^xsd:date ;
+    time:hasEnd "1898-09-30"^^xsd:date .
+
+<http://data.odeuropa.eu/time/7fbb7175-7e45-553d-8d4e-02ae1d875f19> a time:TemporalEntity ;
+    rdfs:label "1909-02-23" ;
+    time:hasBeginning "1909-02-23"^^xsd:date ;
+    time:hasEnd "1909-02-23"^^xsd:date .
+
+<http://data.odeuropa.eu/time/7fc2e1b0-56e9-5a23-bdfa-7f4971102f68> a time:TemporalEntity ;
+    rdfs:label "1888-09-13" ;
+    time:hasBeginning "1888-09-13"^^xsd:date ;
+    time:hasEnd "1888-09-13"^^xsd:date .
+
+<http://data.odeuropa.eu/time/82568263-99d6-5a46-85dd-402e96fb13f9> a time:TemporalEntity ;
+    rdfs:label "1870-12-15" ;
+    time:hasBeginning "1870-12-15"^^xsd:date ;
+    time:hasEnd "1870-12-15"^^xsd:date .
+
+<http://data.odeuropa.eu/time/865e29fa-8b73-5090-86df-16e6746f6e4c> a time:TemporalEntity ;
+    rdfs:label "1883-08-03" ;
+    time:hasBeginning "1883-08-03"^^xsd:date ;
+    time:hasEnd "1883-08-03"^^xsd:date .
+
+<http://data.odeuropa.eu/time/86f3d4bd-3bdf-5cbf-a7d6-56dfea875f86> a time:TemporalEntity ;
+    rdfs:label "1913-05-22" ;
+    time:hasBeginning "1913-05-22"^^xsd:date ;
+    time:hasEnd "1913-05-22"^^xsd:date .
+
+<http://data.odeuropa.eu/time/86f41c14-9348-5642-a898-dc4d70b481ef> a time:TemporalEntity ;
+    rdfs:label "1915-07-20" ;
+    time:hasBeginning "1915-07-20"^^xsd:date ;
+    time:hasEnd "1915-07-20"^^xsd:date .
+
+<http://data.odeuropa.eu/time/88a0fc85-3221-53fd-8dda-4eb5f93220ed> a time:TemporalEntity ;
+    rdfs:label "1911-01-06" ;
+    time:hasBeginning "1911-01-06"^^xsd:date ;
+    time:hasEnd "1911-01-06"^^xsd:date .
+
+<http://data.odeuropa.eu/time/94f1e857-d79e-53d9-b8dd-ee641f0f9310> a time:TemporalEntity ;
+    rdfs:label "1880" ;
+    time:hasBeginning "1880"^^xsd:gYear ;
+    time:hasEnd "1880"^^xsd:gYear .
+
+<http://data.odeuropa.eu/time/99511bcf-eded-5180-ac31-2031fbc72196> a time:TemporalEntity ;
+    rdfs:label "1887-10-27" ;
+    time:hasBeginning "1887-10-27"^^xsd:date ;
+    time:hasEnd "1887-10-27"^^xsd:date .
+
+<http://data.odeuropa.eu/time/9abf8358-22a2-5bb6-9f50-f24f43054cbf> a time:TemporalEntity ;
+    rdfs:label "1918-05-08" ;
+    time:hasBeginning "1918-05-08"^^xsd:date ;
+    time:hasEnd "1918-05-08"^^xsd:date .
+
+<http://data.odeuropa.eu/time/9b29f9a9-44e6-53db-a132-322e536a2c4a> a time:TemporalEntity ;
+    rdfs:label "1896" ;
+    time:hasBeginning "1896"^^xsd:gYear ;
+    time:hasEnd "1896"^^xsd:gYear .
+
+<http://data.odeuropa.eu/time/9d001fb0-0fcf-545d-bb34-70893ca0ca62> a time:TemporalEntity ;
+    rdfs:label "1908" ;
+    time:hasBeginning "1908"^^xsd:gYear ;
+    time:hasEnd "1908"^^xsd:gYear .
+
+<http://data.odeuropa.eu/time/9dddf3a0-6064-5899-bc95-3651057d86df> a time:TemporalEntity ;
+    rdfs:label "1882-11-15" ;
+    time:hasBeginning "1882-11-15"^^xsd:date ;
+    time:hasEnd "1882-11-15"^^xsd:date .
+
+<http://data.odeuropa.eu/time/a0149578-ca54-53e5-a2e0-53cb1e5e1de0> a time:TemporalEntity ;
+    rdfs:label "1889-07-24" ;
+    time:hasBeginning "1889-07-24"^^xsd:date ;
+    time:hasEnd "1889-07-24"^^xsd:date .
+
+<http://data.odeuropa.eu/time/a3ce40dc-78e6-575a-9725-58159c4076e1> a time:TemporalEntity ;
+    rdfs:label "1832" ;
+    time:hasBeginning "1832"^^xsd:gYear ;
+    time:hasEnd "1832"^^xsd:gYear .
+
+<http://data.odeuropa.eu/time/a9998fc8-c6e2-51f7-b0f5-e4dc04862734> a time:TemporalEntity ;
+    rdfs:label "1909-04-01" ;
+    time:hasBeginning "1909-04-01"^^xsd:date ;
+    time:hasEnd "1909-04-01"^^xsd:date .
+
+<http://data.odeuropa.eu/time/af27db4f-9388-583b-8ec8-59553da946ee> a time:TemporalEntity ;
+    rdfs:label "1900-11-15" ;
+    time:hasBeginning "1900-11-15"^^xsd:date ;
+    time:hasEnd "1900-11-15"^^xsd:date .
+
+<http://data.odeuropa.eu/time/b11efd3b-614f-510f-b7ac-c756d318e77f> a time:TemporalEntity ;
+    rdfs:label "1904-12-23" ;
+    time:hasBeginning "1904-12-23"^^xsd:date ;
+    time:hasEnd "1904-12-23"^^xsd:date .
+
+<http://data.odeuropa.eu/time/b1d28406-3ea0-5a1b-80da-3bb3bbb80529> a time:TemporalEntity ;
+    rdfs:label "1892-03-07" ;
+    time:hasBeginning "1892-03-07"^^xsd:date ;
+    time:hasEnd "1892-03-07"^^xsd:date .
+
+<http://data.odeuropa.eu/time/bbb5d9b6-6161-5790-9932-42dfc86e5ecf> a time:TemporalEntity ;
+    rdfs:label "1916-07-20" ;
+    time:hasBeginning "1916-07-20"^^xsd:date ;
+    time:hasEnd "1916-07-20"^^xsd:date .
+
+<http://data.odeuropa.eu/time/c1033d22-35db-5cd8-abf9-d388ce7ffb0f> a time:TemporalEntity ;
+    rdfs:label "1917-01-20" ;
+    time:hasBeginning "1917-01-20"^^xsd:date ;
+    time:hasEnd "1917-01-20"^^xsd:date .
+
+<http://data.odeuropa.eu/time/c2ae6b74-f5ae-5f28-85b8-db93abed785b> a time:TemporalEntity ;
+    rdfs:label "1918-07-23" ;
+    time:hasBeginning "1918-07-23"^^xsd:date ;
+    time:hasEnd "1918-07-23"^^xsd:date .
+
+<http://data.odeuropa.eu/time/c6b8c90b-7592-5d17-b268-66d9f9675bac> a time:TemporalEntity ;
+    rdfs:label "1917-10-25" ;
+    time:hasBeginning "1917-10-25"^^xsd:date ;
+    time:hasEnd "1917-10-25"^^xsd:date .
+
+<http://data.odeuropa.eu/time/c6ec5b82-5f8a-5c0e-bd96-52b8756eba19> a time:TemporalEntity ;
+    rdfs:label "1910-12-29" ;
+    time:hasBeginning "1910-12-29"^^xsd:date ;
+    time:hasEnd "1910-12-29"^^xsd:date .
+
+<http://data.odeuropa.eu/time/c74364a0-cf01-5784-8687-98e0e5f4efc8> a time:TemporalEntity ;
+    rdfs:label "1894-04-10" ;
+    time:hasBeginning "1894-04-10"^^xsd:date ;
+    time:hasEnd "1894-04-10"^^xsd:date .
+
+<http://data.odeuropa.eu/time/c868ef20-4142-54ba-912b-42b25c2f3343> a time:TemporalEntity ;
+    rdfs:label "1910-05-14" ;
+    time:hasBeginning "1910-05-14"^^xsd:date ;
+    time:hasEnd "1910-05-14"^^xsd:date .
+
+<http://data.odeuropa.eu/time/cc56f581-1c80-5884-82fb-91a94e1ec8ad> a time:TemporalEntity ;
+    rdfs:label "1915-02-12" ;
+    time:hasBeginning "1915-02-12"^^xsd:date ;
+    time:hasEnd "1915-02-12"^^xsd:date .
+
+<http://data.odeuropa.eu/time/cccc6791-e1ba-5584-98c6-516b939df3cd> a time:TemporalEntity ;
+    rdfs:label "1914-11-27" ;
+    time:hasBeginning "1914-11-27"^^xsd:date ;
+    time:hasEnd "1914-11-27"^^xsd:date .
+
+<http://data.odeuropa.eu/time/ce52a2e3-74d1-5cc4-a280-20edb6f44c52> a time:TemporalEntity ;
+    rdfs:label "1917-06-01" ;
+    time:hasBeginning "1917-06-01"^^xsd:date ;
+    time:hasEnd "1917-06-01"^^xsd:date .
+
+<http://data.odeuropa.eu/time/ce8c1979-1d4b-5d90-bfc2-2cc091ac7a15> a time:TemporalEntity ;
+    rdfs:label "1898-11-25" ;
+    time:hasBeginning "1898-11-25"^^xsd:date ;
+    time:hasEnd "1898-11-25"^^xsd:date .
+
+<http://data.odeuropa.eu/time/d2fcba02-90c7-5602-8ac6-2fe1dae7c9ef> a time:TemporalEntity ;
+    rdfs:label "1899-12-29" ;
+    time:hasBeginning "1899-12-29"^^xsd:date ;
+    time:hasEnd "1899-12-29"^^xsd:date .
+
+<http://data.odeuropa.eu/time/d390dbb4-5597-58f6-b2ea-606bddcfd8a9> a time:TemporalEntity ;
+    rdfs:label "1902-08-25" ;
+    time:hasBeginning "1902-08-25"^^xsd:date ;
+    time:hasEnd "1902-08-25"^^xsd:date .
+
+<http://data.odeuropa.eu/time/d7a76d89-de3e-5b01-94c9-3e62f8c200a0> a time:TemporalEntity ;
+    rdfs:label "1912-07-20" ;
+    time:hasBeginning "1912-07-20"^^xsd:date ;
+    time:hasEnd "1912-07-20"^^xsd:date .
+
+<http://data.odeuropa.eu/time/dcf54ad6-08b1-5472-9903-49539304a65a> a time:TemporalEntity ;
+    rdfs:label "1915" ;
+    time:hasBeginning "1915"^^xsd:gYear ;
+    time:hasEnd "1915"^^xsd:gYear .
+
+<http://data.odeuropa.eu/time/dee8bd57-5de0-5323-8419-34139d7391ff> a time:TemporalEntity ;
+    rdfs:label "1911-07-10" ;
+    time:hasBeginning "1911-07-10"^^xsd:date ;
+    time:hasEnd "1911-07-10"^^xsd:date .
+
+<http://data.odeuropa.eu/time/e228771f-d18e-5d33-b5ec-edb593d38fcf> a time:TemporalEntity ;
+    rdfs:label "1912-08-20" ;
+    time:hasBeginning "1912-08-20"^^xsd:date ;
+    time:hasEnd "1912-08-20"^^xsd:date .
+
+<http://data.odeuropa.eu/time/e32616b3-d09c-52fc-8f21-7f708cea47cd> a time:TemporalEntity ;
+    rdfs:label "1914-01-20" ;
+    time:hasBeginning "1914-01-20"^^xsd:date ;
+    time:hasEnd "1914-01-20"^^xsd:date .
+
+<http://data.odeuropa.eu/time/e652acb5-63d1-54cc-9124-1e7ac86daa6f> a time:TemporalEntity ;
+    rdfs:label "1912-01-04" ;
+    time:hasBeginning "1912-01-04"^^xsd:date ;
+    time:hasEnd "1912-01-04"^^xsd:date .
+
+<http://data.odeuropa.eu/time/e9b93c36-dadf-5ddb-a13d-2ea98fd82c73> a time:TemporalEntity ;
+    rdfs:label "1905-03-03" ;
+    time:hasBeginning "1905-03-03"^^xsd:date ;
+    time:hasEnd "1905-03-03"^^xsd:date .
+
+<http://data.odeuropa.eu/time/ed853ab1-8cb8-599c-802d-6bcfd4ad4023> a time:TemporalEntity ;
+    rdfs:label "1885-07-01" ;
+    time:hasBeginning "1885-07-01"^^xsd:date ;
+    time:hasEnd "1885-07-01"^^xsd:date .
+
+<http://data.odeuropa.eu/time/f02c9524-f814-59fd-b418-610f61444345> a time:TemporalEntity ;
+    rdfs:label "1900-11-06" ;
+    time:hasBeginning "1900-11-06"^^xsd:date ;
+    time:hasEnd "1900-11-06"^^xsd:date .
+
+<http://data.odeuropa.eu/time/f4f0f674-84c2-5031-8d82-baf36c5291e5> a time:TemporalEntity ;
+    rdfs:label "1911-12-28" ;
+    time:hasBeginning "1911-12-28"^^xsd:date ;
+    time:hasEnd "1911-12-28"^^xsd:date .
+
+<http://data.odeuropa.eu/time/f515513d-a52c-59f4-993c-75b2068bc946> a time:TemporalEntity ;
+    rdfs:label "1905-03-18" ;
+    time:hasBeginning "1905-03-18"^^xsd:date ;
+    time:hasEnd "1905-03-18"^^xsd:date .
+
+<http://data.odeuropa.eu/time/f5b0a0f0-ba64-5e68-8930-5b07c4e72a9d> a time:TemporalEntity ;
+    rdfs:label "1914" ;
+    time:hasBeginning "1914"^^xsd:gYear ;
+    time:hasEnd "1914"^^xsd:gYear .
+
+<http://data.odeuropa.eu/time/f878161e-6236-5ef7-85e4-fee5a35d1060> a time:TemporalEntity ;
+    rdfs:label "1904-08-05" ;
+    time:hasBeginning "1904-08-05"^^xsd:date ;
+    time:hasEnd "1904-08-05"^^xsd:date .
+
+<http://data.odeuropa.eu/time/f9def8ac-91cc-5efc-bfc0-0e8dcc16a2c5> a time:TemporalEntity ;
+    rdfs:label "1907-05-04" ;
+    time:hasBeginning "1907-05-04"^^xsd:date ;
+    time:hasEnd "1907-05-04"^^xsd:date .
+
+<http://data.odeuropa.eu/time/fa88c28d-cae7-58fc-a5af-4ea6ac212b25> a time:TemporalEntity ;
+    rdfs:label "1914-06-20" ;
+    time:hasBeginning "1914-06-20"^^xsd:date ;
+    time:hasEnd "1914-06-20"^^xsd:date .
+
+<http://data.odeuropa.eu/time/ffa4f827-1735-540b-b264-be9268c1b0e8> a time:TemporalEntity ;
+    rdfs:label "1918-11-30" ;
+    time:hasBeginning "1918-11-30"^^xsd:date ;
+    time:hasEnd "1918-11-30"^^xsd:date .
+
+<http://data.odeuropa.eu/time/ffd7b0cc-a5a9-58d2-b586-ab1c6546d1df> a time:TemporalEntity ;
+    rdfs:label "1908-08-14" ;
+    time:hasBeginning "1908-08-14"^^xsd:date ;
+    time:hasEnd "1908-08-14"^^xsd:date .
+
+<https://sws.geonames.org/3175986/> a crm:E53_Place .
+
+<https://sws.geonames.org/3197378/> a crm:E53_Place .
+
+<https://sws.geonames.org/3202781/> a crm:E53_Place .
+
+<https://sws.geonames.org/4887398/> a crm:E53_Place .
+
+<https://sws.geonames.org/5247444/> a crm:E53_Place .
+
+<http://data.odeuropa.eu/actor/345598e9-0abf-549a-832d-cec7d4f2c338> a crm:E39_Actor ;
+    rdfs:label "Fran Bartl" .
+
+<http://data.odeuropa.eu/actor/999ede15-954b-51f8-b58f-dcc890176c92> a crm:E39_Actor ;
+    rdfs:label "M. Kolar" .
+
+<http://data.odeuropa.eu/actor/a3deee62-fab6-5e14-af30-fbd36d7c7478> a crm:E39_Actor ;
+    rdfs:label "Deželni odbor kranjski" .
+
+<http://data.odeuropa.eu/actor/a56b1a7d-9a69-5eae-b20a-63eec494ee42> a crm:E39_Actor ;
+    rdfs:label "Vydrova tovarna žitne kave" .
+
+<http://data.odeuropa.eu/actor/b4750cb2-f751-5b93-894d-d5775eb09918> a crm:E39_Actor ;
+    rdfs:label "M. Kolar, Ljubljana" .
+
+<http://data.odeuropa.eu/actor/c51836df-3f3d-5f84-8475-735807716b5e> a crm:E39_Actor ;
+    rdfs:label "Viktor Dolenc" .
+
+<http://data.odeuropa.eu/actor/d050bb64-b7ee-5f66-b6b8-9eb0edc63db6> a crm:E39_Actor ;
+    rdfs:label "Jožef Blaznik" .
+
+<http://data.odeuropa.eu/actor/fece030c-bb24-565a-9e32-e8ddff99b79b> a crm:E39_Actor ;
+    rdfs:label "J. Krajec" .
+
+<http://data.odeuropa.eu/source/1d8856ea-0302-5958-9278-9c9aeb6512d8> a crm:E33_Linguistic_Object ;
+    rdfs:label "Domači prijatelj (Praga)" .
+
+<http://data.odeuropa.eu/source/35155e74-64a3-5c2d-bf6e-9a5daa88ac7f> a crm:E33_Linguistic_Object ;
+    rdfs:label "Domoljub (Ljubljana)" .
+
+<http://data.odeuropa.eu/source/7ade08a7-b4b2-575a-8b37-826488e3fa34> a crm:E33_Linguistic_Object ;
+    rdfs:label "Zarja (1911)" .
+
+<http://data.odeuropa.eu/time/5dbd256e-a390-518d-b174-22e53e66f319> a time:TemporalEntity ;
+    rdfs:label "1898" ;
+    time:hasBeginning "1898"^^xsd:gYear ;
+    time:hasEnd "1898"^^xsd:gYear .
+
+<https://sws.geonames.org/2774326/> a crm:E53_Place .
+
+<https://sws.geonames.org/3067696/> a crm:E53_Place .
+
+<http://data.odeuropa.eu/actor/42df8d51-ab83-54d7-8e7f-f1a5e90daa08> a crm:E39_Actor ;
+    rdfs:label "Tiskarna sv. Cirila" .
+
+<http://data.odeuropa.eu/actor/8aeb1293-7397-578f-9b78-d1c1f0b2a233> a crm:E39_Actor ;
+    rdfs:label "Kmetijska družba za Slovenijo" .
+
+<http://data.odeuropa.eu/actor/a283fdaf-38d1-5793-b98a-a20d2942ec2e> a crm:E39_Actor ;
+    rdfs:label "Zvezna tiskarna" .
+
+<http://data.odeuropa.eu/actor/e0c17d41-4eb5-5ce4-bc8e-121d58af3d23> a crm:E39_Actor ;
+    rdfs:label "Tiskovna zadruga" .
+
+<http://data.odeuropa.eu/source/4aa8a937-65bc-54f2-a225-7e838db82fdc> a crm:E33_Linguistic_Object ;
+    rdfs:label "Kmetovalec" .
+
+<http://data.odeuropa.eu/source/b77df8f9-48e6-56f7-8b29-610f21717451> a crm:E33_Linguistic_Object ;
+    rdfs:label "Slovan (Ljubljana. 1902)" .
+
+<http://data.odeuropa.eu/source/ec83bdbf-646d-562a-9d6d-24553499a329> a crm:E33_Linguistic_Object ;
+    rdfs:label "Slovenski gospodar" .
+
+<http://data.odeuropa.eu/time/d3ffe17a-41d6-5ae4-bab2-e4341d8a385b> a time:TemporalEntity ;
+    rdfs:label "1907" ;
+    time:hasBeginning "1907"^^xsd:gYear ;
+    time:hasEnd "1907"^^xsd:gYear .
+
+<http://data.odeuropa.eu/actor/0c02356e-42f3-5914-a464-321a8dc5da86> a crm:E39_Actor ;
+    rdfs:label "Ljudska tiskarna" .
+
+<http://data.odeuropa.eu/actor/128a59b3-907b-5847-bdcb-3a34ac987908> a crm:E39_Actor ;
+    rdfs:label "Martin Konda" .
+
+<http://data.odeuropa.eu/actor/612663c2-869a-5be0-8c59-4c7a95b52d17> a crm:E39_Actor ;
+    rdfs:label "Slovenska narodna podporna jednota" .
+
+<http://data.odeuropa.eu/actor/afd6c713-ce31-5e3b-b0b6-ab034a85b719> a crm:E39_Actor ;
+    rdfs:label "Glas naroda" .
+
+<http://data.odeuropa.eu/actor/c15f773c-2284-567d-89d9-38e8ad55b5e0> a crm:E39_Actor ;
+    rdfs:label "Konzorcij" .
+
+<http://data.odeuropa.eu/place/5aee7dd0-a476-5df7-986b-8bf3c232688d> a crm:E53_Place ;
+    rdfs:label "ZDA" .
+
+<http://data.odeuropa.eu/source/34af02e9-7a60-5701-a2ff-3172663c8024> a crm:E33_Linguistic_Object ;
+    rdfs:label "Slovenec (1873)" .
+
+<http://data.odeuropa.eu/source/54c2a27d-81f2-582b-ba09-e10cff9c1ee6> a crm:E33_Linguistic_Object ;
+    rdfs:label "Glas svobode (Pueblo (Col.))" .
+
+<http://data.odeuropa.eu/source/bc3cd737-8c02-5ea2-a567-45ab9abaa2c9> a crm:E33_Linguistic_Object ;
+    rdfs:label "Prosveta (ZDA)" .
+
+<http://data.odeuropa.eu/source/c547f7da-56d1-5dc9-ac7c-658d5b95a9e8> a crm:E33_Linguistic_Object ;
+    rdfs:label "Glas naroda (New York)" .
+
+<http://data.odeuropa.eu/source/d386a4bf-f0b7-55f3-89ef-0c8c85b07693> a crm:E33_Linguistic_Object ;
+    rdfs:label "Zvonček (Ljubljana)" .
+
+<https://sws.geonames.org/5128581/> a crm:E53_Place .
+
+<https://sws.geonames.org/5435464/> a crm:E53_Place .
+
+<http://data.odeuropa.eu/genre/BOT> a <http://www.w3.org/2004/02/skos/core#Concept> ;
+    rdfs:label "Botany"@en .
+
+<http://data.odeuropa.eu/source/f48b6c0f-08ed-5a5b-b440-c0065e07ecc0> a crm:E33_Linguistic_Object ;
+    rdfs:label "knjige" .
+
+<http://data.odeuropa.eu/actor/06856835-a657-53a2-b096-c15c41c55d83> a crm:E39_Actor ;
+    rdfs:label "Ivan Dolinar" .
+
+<http://data.odeuropa.eu/source/aa6375c5-5864-5639-85ac-24a191e649bf> a crm:E33_Linguistic_Object ;
+    rdfs:label "Edinost (Trst)" .
+
+<https://sws.geonames.org/3165185/> a crm:E53_Place .
+
+<https://sws.geonames.org/3196359/> a crm:E53_Place .
+
+<http://data.odeuropa.eu/actor/1fe43f9d-c6a5-5827-abc2-aaefc94be279> a crm:E39_Actor ;
+    rdfs:label "Narodna tiskarna" .
+
+<http://data.odeuropa.eu/genre/LIT> a <http://www.w3.org/2004/02/skos/core#Concept> ;
+    rdfs:label "Novels & poetry"@en .
+
+<https://sws.geonames.org/3190538/> a crm:E53_Place .
+

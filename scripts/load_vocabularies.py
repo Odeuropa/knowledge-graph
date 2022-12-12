@@ -44,8 +44,10 @@ def upload_in(file_path, content_type, graph_name):
         print(response.content)
 
 
-for filename in os.listdir(VOCAB):
+for filename in sorted(os.listdir(VOCAB)):
     name, ext = filename.rsplit('.')
+    if ext == 'DS_Store':
+        continue
     print('- ' + name)
     if C_TYPE[ext]:
         upload_in(path.join(VOCAB, filename), C_TYPE[ext], path.join(VOCAB_GRAPH, name))

@@ -1,3 +1,4 @@
+import time
 import re
 import os
 from os import path
@@ -21,6 +22,7 @@ LANG_FINAL = r"_(it|en|de|nl|sl|fr)\d*$"
 
 
 def load_dump(name):
+    start = time.time()
     main_graph = path.join(BASE_GRAPH, name)
     folder = path.join(ROOT, name)
     delete_graph = True
@@ -41,10 +43,13 @@ def load_dump(name):
             print(response.status_code)
             print(response.content)
             return
+        end = time.time()
+        print('Graph Deleted | Elapsed time:', end - start)
+        start = end
 
     print('Uploading new resources...')
     # upload new resources
-    for filename in os.listdir(folder):
+    for filename in sorted(os.listdir(folder)):
         if not '.' in filename:
             continue
         name, ext = filename.rsplit('.', 2)
@@ -60,7 +65,9 @@ def load_dump(name):
             if response.status_code != 204:
                 print(response.status_code)
                 print(response.content)
-
+            end = time.time()
+            print('   dump loaded | Elapsed time:', end - start)
+            start = end
         else:
             continue
     print('completed')
