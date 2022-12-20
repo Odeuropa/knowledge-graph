@@ -24,8 +24,9 @@ class Time(Entity):
         edtf = time_parsing.parse_date(x, lang)
         part_day = time_parsing.get_parts_of_the_day(x, lang)
 
+
         if edtf is None:
-            # print(x, "=>", edtf, part_day)
+            print(x, "=>", edtf, part_day)
             if fallback == 'text':
                 t = Time(x, x)
             else:

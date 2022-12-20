@@ -71,6 +71,8 @@ def searchperson(name, lang='en', alive_in=None, birth=None, death=None):
     r = requests.get(SPARQL_ENDPOINT, params=params)
     if r.status_code != 200:
         print(query, r.status_code, r.text)
+        return None
+
     res = r.json()['results']['bindings']
 
     if res and len(res) > 0:

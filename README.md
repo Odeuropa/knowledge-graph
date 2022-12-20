@@ -90,6 +90,35 @@ Upload dumps
     python3 scripts/load_dump.py dlib_sl0028
     python3 scripts/load_dump.py dlib_sl0029
     python3 scripts/load_dump.py dlib_sl0030
+    python3 scripts/load_dump.py dlib_sl0031
+    python3 scripts/load_dump.py dlib_sl0032
+    python3 scripts/load_dump.py dlib_sl0033
+    python3 scripts/load_dump.py dlib_sl0034
+    python3 scripts/load_dump.py dlib_sl0035
+    python3 scripts/load_dump.py dlib_sl0036
+    python3 scripts/load_dump.py dlib_sl0037
+    python3 scripts/load_dump.py dlib_sl0038
+    python3 scripts/load_dump.py dlib_sl0039
+    python3 scripts/load_dump.py dlib_sl0040
+    python3 scripts/load_dump.py dlib_sl0041
+    python3 scripts/load_dump.py dlib_sl0042
+    python3 scripts/load_dump.py dlib_sl0043
+    python3 scripts/load_dump.py dlib_sl0044
+    python3 scripts/load_dump.py dlib_sl0045
+    python3 scripts/load_dump.py dlib_sl0046
+    python3 scripts/load_dump.py dlib_sl0047
+    python3 scripts/load_dump.py dlib_sl0048
+    python3 scripts/load_dump.py dlib_sl0049
+    python3 scripts/load_dump.py dlib_sl0050
+    python3 scripts/load_dump.py dlib_sl0051
+    python3 scripts/load_dump.py dlib_sl0052
+    python3 scripts/load_dump.py dlib_sl0053
+    python3 scripts/load_dump.py dlib_sl0054
+    python3 scripts/load_dump.py dlib_sl0055
+    python3 scripts/load_dump.py dlib_sl0056
+    python3 scripts/load_dump.py dlib_sl0057
+    python3 scripts/load_dump.py dlib_sl0058
+    python3 scripts/load_dump.py dlib_sl0059
 
 ## Apache Configuration and dereferencing
 
@@ -134,6 +163,8 @@ Install skosmos using docker
     python convert_text.py -i ./input/gutenberg_it --lang it
     python convert_text.py -i ./input/eebo --lang en
     python convert_text.py -i ./input/gallica --lang fr
+    python convert_text.py -i ./input/grimm --lang fr
+    python convert_text.py -i ./input/bibbleue --lang fr
     python convert_text.py -i ./input/dbnl --lang nl
     python convert_text.py -i ./input/dbnl_nl1 --lang nl
     python convert_text.py -i ./input/dbnl_nl3 --lang nl
@@ -145,3 +176,9 @@ Install skosmos using docker
 
 
 The URI pattern is described in a separate [README](URI-patterns.md).
+
+## Funding acknowledgement
+
+<img src="https://github.com/Odeuropa/explorer/blob/main/public/images/eu-logo.png?raw=true" width="80" height="54" align="left" alt="EU logo" />
+This work has been realised in the context of [Odeuropa](https://odeuropa.eu/), a research project that has received funding from the European Union’s Horizon 2020 research and innovation programme under grant agreement No. 101004469.
+

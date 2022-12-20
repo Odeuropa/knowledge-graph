@@ -233,14 +233,36 @@ def process_benchmark_sheet(language, docs_file):
         docs[identifier] = to
 
 
+def parse_editor(editor, lang):
+    place = None
+    if editor is not None:
+        editor = editor.strip()
+        m = re.search(DLIB_BRACKETS_REGEX, editor)
+        if m is not None:
+            editor = editor.replace(m.group(0), '').strip()
+            if 's.n.' in editor:
+                editor = None
+
+            place = Place.from_text(m.group(1), lang=lang, only_interlinked=True)
+    return editor, place
+
+
 def process_metadata(lang, docs_file, intermediate_map, collection):
     df = pd.read_csv(docs_file, dtype=str, sep='\t', encoding='utf-8')
     df.fillna('', inplace=True)
     df.drop_duplicates(inplace=True)
 
     splitting = ',' if 'old-bailey-corpus' in docs_file else '|'
+
     for i, r in tqdm(df.iterrows(), total=df.shape[0]):
         identifier = r['id'].replace('.xml', '').replace('.txt', '')
+
+        year = r['year'].replace('.0', '')
+
+        if 'eebo' in docs_file:
+            identifier = identifier.replace('/', '_')
+            year = re.sub(r'[\[\]]', '.?', year)
+            year = re.sub(r'-\??(?!\d)', '.', year)
 
         if intermediate_map is not None:
             pointer = intermediate_map[intermediate_map['real_id'] == identifier + '.txt']['id']
@@ -251,26 +273,18 @@ def process_metadata(lang, docs_file, intermediate_map, collection):
         else:
             real_id = identifier
 
-        year = r['year'].replace('.0', '')
+        editor, edPlace = parse_editor(r.get('editor'), lang)
+        publisher, place = parse_editor(r.get('publisher'), lang)
+        place = r.get('pub_place', place)
 
-        if 'eebo' in docs_file:
-            identifier = identifier.replace('/', '_')
-            year = re.sub(r'-\??(?!\d)', '.?', year)
-
-        editor = r.get('editor')
-        place = None
-        if editor is not None:
-            editor = editor.strip()
-            m = re.search(DLIB_BRACKETS_REGEX, editor)
-            if m is not None:
-                editor = editor.replace(m.group(0), '').strip()
-                if 's.n.' in editor:
-                    editor = None
-
-                place = Place.from_text(m.group(1), lang=lang, only_interlinked=True)
+        if collection == 'grimm':
+            pt = re.split('[,;.]', r['head'])
+            if len(pt) > 1:
+                place = pt[0].replace('A ', '')
+                year = pt[1]
 
         # print(identifier, year)
-        place = place or DEFAULT_PLACES[collection]
+        place = r.get('archive') or place or DEFAULT_PLACES[collection]
         to = TextualObject(identifier, title=r['title'], date=year, place=place, lang=lang)
 
         for author in r['author'].split(splitting):
@@ -288,10 +302,23 @@ def process_metadata(lang, docs_file, intermediate_map, collection):
 
             to.add_author(author, lang, birth, death)
 
-        if editor == "l'auteur":
-            to.add_publisher(to.authors[0])
-        elif editor and 's.n.' not in editor:
-            to.add_publisher(editor, lang, place)
+        if editor:
+            if editor == "l'auteur":
+                to.add_editor(to.authors[0])
+            elif ';' in editor:
+                for ed in editor.split(';'):
+                    to.add_editor(ed, lang, edPlace)
+            else:
+                to.add_editor(editor, lang, edPlace)
+
+        if publisher:
+            if publisher == "l'auteur":
+                to.add_publisher(to.authors[0])
+            elif ';' in publisher:
+                for ed in publisher.split(';'):
+                    to.add_publisher(ed, lang, place)
+            else:
+                to.add_publisher(publisher, lang, place)
 
         to.add_url(r.get('doiLink'))
         to.add_url(r.get('link'))
@@ -299,6 +326,7 @@ def process_metadata(lang, docs_file, intermediate_map, collection):
         to.add_license(r.get('license'))
         to.add(SKOS.editorialNote, r.get('note'))
         to.add(SDO.issn, r.get('issn'))
+        to.add_pub_date(r.get('pub_date', year))
         if 'royal-society-corpus' in docs_file:
             to.add(RDF.type, SDO.ScholarlyArticle)
         to.add(SDO.about, r.get('primaryTopic'))

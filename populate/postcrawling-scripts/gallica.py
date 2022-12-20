@@ -21,7 +21,7 @@ for root, dirs, files in os.walk(root, topdown=False):
             'sameAs': 'https://data.bnf.fr/' + data['Identifiant'],
             'author': re.sub(r'\. Auteur du texte(.+)?', '', data.get('Auteur', '')),
             'license': data['Droits'],
-            'editor': data.get('\xC9diteur'),
+            'publisher': data.get('\xC9diteur'),
             'type': data['Type'],
             'archive': data['Conservation num\xE9rique'],
             'link': 'https://gallica.bnf.fr/' + data['Identifiant']

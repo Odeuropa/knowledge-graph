@@ -198,6 +198,7 @@ def pack_edtf_list(parsed, sym):
 def parse_date(date, lang='en'):
     lg = langs.get(lang, langs['en'])
 
+    date = date.strip()
     date, uncertain = detect_approximation(date, lg.UNCERTAIN_REGEX)
     date, approximate = detect_approximation(date, lg.APPROXIMATE_REGEX)
 
