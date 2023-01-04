@@ -120,7 +120,8 @@ def process_annotation_sheet(df, lang, codename):
         if 'annotator1.xmi' in title:
             continue
 
-        identifier, doc = extract_id(lang, title)
+        identifier, pack = extract_id(lang, title)
+        doc, frag_uri = pack
         if identifier not in doc_map:
             doc_map[identifier] = 0
 
@@ -128,7 +129,7 @@ def process_annotation_sheet(df, lang, codename):
         doc_map[identifier] += 1
 
         txt = doc or TextualObject(identifier, title)
-        frag = txt.add_fragment(sentence.replace(' | ', ''), lang)
+        frag = txt.add_fragment(sentence.replace(' | ', ''), lang, frag_uri)
 
         if 'Annotator' in r:
             prov = Provenance(codename + r['Annotator'], 'Manual text annotation', PROV_DESCR, r['Annotator'])
@@ -253,16 +254,11 @@ def process_metadata(lang, docs_file, intermediate_map, collection):
     df.drop_duplicates(inplace=True)
 
     splitting = ',' if 'old-bailey-corpus' in docs_file else '|'
+    internals = {}
 
     for i, r in tqdm(df.iterrows(), total=df.shape[0]):
         identifier = r['id'].replace('.xml', '').replace('.txt', '')
-
-        year = r['year'].replace('.0', '')
-
-        if 'eebo' in docs_file:
-            identifier = identifier.replace('/', '_')
-            year = re.sub(r'[\[\]]', '.?', year)
-            year = re.sub(r'-\??(?!\d)', '.', year)
+        internal_id = r.get('identifiers', identifier)
 
         if intermediate_map is not None:
             pointer = intermediate_map[intermediate_map['real_id'] == identifier + '.txt']['id']
@@ -272,6 +268,20 @@ def process_metadata(lang, docs_file, intermediate_map, collection):
                 continue
         else:
             real_id = identifier
+
+
+        if internal_id in internals:
+            docs[real_id] = internals[internal_id]
+            continue
+
+        year_orig = r['year']
+        year = year_orig.replace('.0', '')
+
+        if 'eebo' in docs_file:
+            identifier = identifier.replace('/', '_')
+            year = re.sub(r'[\[\]]', '.?', year)
+            year = re.sub(r'-\??(?!\d)', '.', year)
+
 
         editor, edPlace = parse_editor(r.get('editor'), lang)
         publisher, place = parse_editor(r.get('publisher'), lang)
@@ -283,9 +293,11 @@ def process_metadata(lang, docs_file, intermediate_map, collection):
                 place = pt[0].replace('A ', '')
                 year = pt[1]
 
-        # print(identifier, year)
+        date = Time.parse(year, lang=lang)
+
+        # print(identifier, year, date.label)
         place = r.get('archive') or place or DEFAULT_PLACES[collection]
-        to = TextualObject(identifier, title=r['title'], date=year, place=place, lang=lang)
+        to = TextualObject(identifier, title=r['title'], date=date, place=place, lang=lang)
 
         for author in r['author'].split(splitting):
             author = author.replace('\\amp;', '&')
@@ -320,21 +332,26 @@ def process_metadata(lang, docs_file, intermediate_map, collection):
             else:
                 to.add_publisher(publisher, lang, place)
 
+        link = r.get('link')
         to.add_url(r.get('doiLink'))
-        to.add_url(r.get('link'))
+        to.add_url(link)
         to.same_as(r.get('sameAs'))
         to.add_license(r.get('license'))
         to.add(SKOS.editorialNote, r.get('note'))
         to.add(SDO.issn, r.get('issn'))
-        to.add_pub_date(r.get('pub_date', year))
+        if 'pub_date' in r:
+            pub_date = date
+            if r['pub_date'] != year_orig:
+                pub_date = Time.parse(r.get('pub_date', date), lang=lang)
+            to.add_pub_date(pub_date)
         if 'royal-society-corpus' in docs_file:
             to.add(RDF.type, SDO.ScholarlyArticle)
         to.add(SDO.about, r.get('primaryTopic'))
         if 'journal' in r:
-            to.add(SDO.isPartOf, TextualObject(r['journal'], r['journal'], date=year))
+            to.add(SDO.isPartOf, TextualObject(r['journal'], r['journal'], date=date))
 
-        docs[real_id] = to
-
+        docs[real_id] = (to, link)
+        internals[internal_id] = (to, link)
 
 def process_metadata_ris(lang, ris_file, intermediate_map, collection):
     filename = path.split(ris_file)[-1]
@@ -373,12 +390,14 @@ def process_metadata_ris(lang, ris_file, intermediate_map, collection):
     if 'publisher' in r:
         to.add(SDO.publisher, Actor(r['publisher']))
 
+    link = None
     if collection == 'dlib':
-        to.add_url('http://www.dlib.si/details/URN:NBN:SI:DOC-' + identifier.split('-')[-1])
+        link = 'http://www.dlib.si/details/URN:NBN:SI:DOC-' + identifier.split('-')[-1]
+        to.add_url(link)
 
     to.add(SDO.isPartOf, jo)
 
-    docs[real_id] = to
+    docs[real_id] = (to, link)
 
 
 def run(root, output, lang=None, organised_in_batches=False, metadata_format='tsv', collection=None):
@@ -419,7 +438,8 @@ def run(root, output, lang=None, organised_in_batches=False, metadata_format='ts
         'gutenberg_it': Place.from_text('Italy'),  # missing
         'wikisource': Place.from_text('Italy'),  # missing,
         'gallica': Place.from_text('France'),
-        'dlib': Place.from_text('Slovenia')
+        'dlib': Place.from_text('Slovenia'),
+        'bibbleue': Place.from_text('Troyes')
     }
 
     # convert

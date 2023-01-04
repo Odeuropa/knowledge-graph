@@ -37,15 +37,17 @@ class SourceDoc(Entity):
             self.author = self.add_author(author, lang=lang, birth=birth, death=death)
 
     def add_creation_date(self, date, lang='en'):
-        if date:
-            t = Time.parse(date, lang)
-            self.add(SDO.dateCreated, t)
-            self.time = t
+        if not date:
+            return
+        t = date if isinstance(date, Time) else Time.parse(date, lang)
+        self.add(SDO.dateCreated, t)
+        self.time = t
 
     def add_pub_date(self, date, lang='en'):
-        if date:
-            t = Time.parse(date, lang)
-            self.add(SDO.datePublished, t)
+        if not date:
+            return
+        t = date if isinstance(date, Time) else Time.parse(date, lang)
+        self.add(SDO.datePublished, t)
 
     def add_author(self, author, lang=None, birth=None, death=None):
         name = author.strip()

@@ -2,8 +2,8 @@
 @prefix dcmi: <http://purl.org/dc/dcmitype/> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 
-<http://data.odeuropa.eu/liberliber> a dcmi:Dataset ;
-  rdfs:label "LiberLiber" ;
-  dc:title "Smell references in the LiberLiber corpus"@en ;
-  dc:language "it" ;
+<http://data.odeuropa.eu/bibbleue> a dcmi:Dataset ;
+  rdfs:label "Bibliothèque Bleue" ;
+  dc:title "Smell references in the Bibliothèque bleue de Troyes"@en ;
+  dc:language "fr" ;
   dc:creator <http://data.odeuropa.eu/odeuropa> .

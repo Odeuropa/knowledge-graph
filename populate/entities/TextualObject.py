@@ -113,8 +113,9 @@ class TextualObject(SourceDoc):
         self.add(SDO.inLanguage, lang)
         self.add_place(place, lang)
 
-    def add_fragment(self, text, lang=None):
+    def add_fragment(self, text, lang=None, url=None):
         frag = TextFragment(self, text, lang or self.lang)
+        frag.add(SDO.url, url)
         self.add(CRM.P165_incorporates, frag)
         return frag
 

@@ -4,6 +4,7 @@ from rdflib import RDFS, OWL, SDO
 
 from .Entity import Entity
 from .Time import Time
+from .Place import Place
 from .ontologies import CRM, ODEUROPA, REO
 from .utils import wikidata_api
 from .utils.pos import Pronouns
@@ -64,6 +65,8 @@ class Actor(Entity):
         self.set_class(CRM.E21_Person if is_person else ODEUROPA.L6_Animal if is_animal else CRM.E39_Actor)
 
     def add_place(self, place, lang=None):
+        if not isinstance(place, Place):
+            place = Place.from_text(place, lang)
         self.add(CRM.P53_has_former_or_current_location, place)
 
     @classmethod

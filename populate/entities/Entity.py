@@ -21,6 +21,8 @@ class Entity:
         self.res = URIRef(self.uri)
 
         self.time = None
+        self.label = None
+
 
     def set_class(self, cls):
         return self.add(RDF.type, cls)
@@ -36,6 +38,7 @@ class Entity:
 
     def add_label(self, label, lang=None):
         self.add(RDFS.label, label.strip(), lang)
+        self.label = label
 
     def add_descr(self, text, lang):
         self.add(RDFS.comment, text.strip(), lang)
@@ -48,7 +51,6 @@ class Entity:
         statement = self.add(TIME.hasTime, time)
         if inferred:
             Graph.add_rdfstar(statement, CRM.P2_has_type, 'inferred')
-
 
     def same_as(self, entity):
         self.add(OWL.sameAs, entity)

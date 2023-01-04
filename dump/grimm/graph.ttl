@@ -1,0 +1,9 @@
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
+@prefix dcmi: <http://purl.org/dc/dcmitype/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+<http://data.odeuropa.eu/grimm> a dcmi:Dataset ;
+  rdfs:label "Grimm's Correspondance littéraire" ;
+  dc:title "Smell references in Grimm's Correspondance littéraire, philosophique et critique corpus"@en ;
+  dc:language "fr" ;
+  dc:creator <http://data.odeuropa.eu/odeuropa> .

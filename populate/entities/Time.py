@@ -9,7 +9,7 @@ class Time(Entity):
         super().__init__(str(seed), 'time')
         self.seed = seed
         self.set_class(TIME.TemporalEntity)
-        self.add(RDFS.label, label)
+        self.add_label(label)
         self.start = None
         self.end = None
 

@@ -2,6 +2,7 @@ import re
 from rdflib import XSD
 from datetime import datetime
 import roman
+from text_to_num import alpha2digit
 from . import en, es, it, fr, nl, de, sl
 
 ISO_DATE_FORMAT = "yyyy-MM-dd"
@@ -15,7 +16,7 @@ SQUARE_BRACKETS_REGEX = r"\[.*]"
 ANY_BRACKETS_REGEX = r"[(\[\])]"
 
 CIRCA_REGEX = r"(^ca | ca$)"
-SINGLE_YEAR = r"\d{3,4}s?"
+SINGLE_YEAR = r"^\d{3,4}s?$"
 
 FULL_DATE_MULTI = r"(3[01]|[012]?[0-9]|\d{3,4})[-/ .](1[012]|0?\d)[-/ .](\d{2,4})"
 MONTH_DATE_REGEX = r"(?:(\d{2})/(\d{4}))(?:-(\d{2})/(\d{4}))?"
@@ -196,6 +197,11 @@ def pack_edtf_list(parsed, sym):
 
 
 def parse_date(date, lang='en'):
+    if not date:
+        return None
+    if date == 's.d':
+        return None
+
     lg = langs.get(lang, langs['en'])
 
     date = date.strip()
@@ -273,6 +279,21 @@ def parse_date(date, lang='en'):
     except roman.InvalidRomanNumeralError:
         pass
 
+    # French revolutionary calendar years
+    # cases: an III, an IIIe, an deuxième
+    if lang == 'fr' and date.lower().startswith('an '):
+        y = re.sub('(?i)an ', '', date)
+
+        try:
+            d = roman.fromRoman(y.rstrip('e'))
+            date = str(d + 1792)
+        except roman.InvalidRomanNumeralError:
+            try:
+                d = int(re.sub(r'(ème|er)','', alpha2digit(y, lang='fr', ordinal_threshold=0)))
+                date = str(d + 1792)
+            except ValueError as e:
+                pass
+
     # cases: 18th century, secolo XVI
     if lg.CENTURY_STANDARD in date:
         d = re.sub(lg.CENTURY_STANDARD, '', date).strip()
@@ -338,10 +359,9 @@ def parse_date(date, lang='en'):
     # }
 
     # cases: 1871, 1920s
-    if re.fullmatch(SINGLE_YEAR, date):
+    if re.match(SINGLE_YEAR, date):
         return date.rjust(4, '0').replace('0s', 'X') + sym
 
-    SEPARATORS_REGEX = "(?:[-=/]| " + " | ".join(lg.SEPARATORS) + " )"
     YEAR_SPAN = r"(?i)(?:(?:" + lg.BETWEEN + r")\s+)?(\d{3,4}s?)(?:\s*(?:[-=\/]|" + \
                 "|".join(lg.SEPARATORS) + r")\s*|[-=\/])(\d{2,4}s?)"
 

@@ -71,7 +71,7 @@ class Place(Entity):
     def from_text(cls, text, lang='en', only_interlinked=False):
         if is_invalid(text) or re.match(r'\d+(\\.\d+)?', text):
             return None
-        text = text.strip()
+        text = text.strip('?').strip()
         if text in ['Whereabouts unknown', 'Ubicazione sconosciuta']:
             return None
         original_text = text
