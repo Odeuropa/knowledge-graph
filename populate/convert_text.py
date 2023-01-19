@@ -200,8 +200,9 @@ def process_annotation_sheet(df, lang, codename):
         frag.add_annotation(emission, prov)
         frag.add_annotation(smell, prov)
         frag.add_annotation(experience, prov)
-        prov.add_words(get_multi(('Smell_Word', 'Smell_Source', 'Odour_Carrier', 'Perceiver', 'Quality', 'Effect',
-                                  'Evoked_Odorant', 'Location', 'Time', 'Emotion'), r), lang)
+        # useless as been implemented
+        # prov.add_words(get_multi(('Smell_Word', 'Smell_Source', 'Odour_Carrier', 'Perceiver', 'Quality', 'Effect',
+        #                           'Evoked_Odorant', 'Location', 'Time', 'Emotion'), r), lang)
 
 
 def process_benchmark_sheet(language, docs_file):

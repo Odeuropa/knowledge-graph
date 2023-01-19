@@ -1,0 +1,121 @@
+@prefix crm: <http://erlangen-crm.org/current/> .
+@prefix crmsci: <http://www.ics.forth.gr/isl/CRMsci/> .
+@prefix od: <http://data.odeuropa.eu/ontology/> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <https://schema.org/> .
+@prefix time: <http://www.w3.org/2006/time#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+
+<http://data.odeuropa.eu/source/ea90e761-3f4e-5cb2-b97f-a73fcf8ba97a/fragment/2870691e-e336-5a74-8a6a-ab79fcea9014> a crm:E33_Linguistic_Object ;
+    crm:P67_refers_to <http://data.odeuropa.eu/emission/560046e2-f667-5c4b-b5bd-f0c2170fd82d>,
+        <http://data.odeuropa.eu/experience/d2f27bca-cdd8-57c6-8669-5d957795a83d>,
+        <http://data.odeuropa.eu/smell/30f9398b-ecc1-550a-94b0-160c41322fa1> ;
+    rdf:value "Who is this that commeth out of the will dernesse like pillars of smoake , perfumed with myrrhe and frankincense , with all powders of the merchant ? Oh who is this ? how admirable ? how lovely ? who but my Church , that ascendeth thus gloriously out of the wildernesse of the world , wherein shee hath thus long wandered , into the blessed mansions of my Fathers house , all perfumed with the graces of perfect sanctification , mounting right upward into her glory , like some straight pillar of smoake , that ariseth from the most rich and pleasant composition of odours that can be devised."@en .
+
+<http://data.odeuropa.eu/smell/30f9398b-ecc1-550a-94b0-160c41322fa1> a od:L11_Smell ;
+    rdfs:label "composition"@en, "perfumed"@en .
+
+<http://data.odeuropa.eu/emission/560046e2-f667-5c4b-b5bd-f0c2170fd82d> a od:L12_Smell_Emission ;
+    od:F1_generated <http://data.odeuropa.eu/smell/30f9398b-ecc1-550a-94b0-160c41322fa1> ;
+    od:F3_had_source <http://data.odeuropa.eu/object/0272fec7-aa1f-5f7c-8ddc-f680f2dd8d0c>,
+        <http://data.odeuropa.eu/object/6a328371-2e30-5f5a-ad77-e14dac83258c>,
+        <http://data.odeuropa.eu/object/8e856fd9-1392-54fc-9d5d-f31e54b6298a>;
+    time:hasTime <http://data.odeuropa.eu/time/bff26943-3c11-54c4-9690-e8e07a560ed1> .
+
+<http://data.odeuropa.eu/object/0272fec7-aa1f-5f7c-8ddc-f680f2dd8d0c> a crmsci:S10_Material_Substantial ;
+    rdfs:label "frankincense"@en ;
+    crm:P137_exemplifies <http://data.odeuropa.eu/vocabulary/olfactory-objects/267> .
+
+<http://data.odeuropa.eu/object/6a328371-2e30-5f5a-ad77-e14dac83258c> a crmsci:S10_Material_Substantial ;
+    rdfs:label "all powders of the merchant"@en .
+
+<http://data.odeuropa.eu/object/8e856fd9-1392-54fc-9d5d-f31e54b6298a> a crmsci:S10_Material_Substantial ;
+    rdfs:label "myrrhe"@en ;
+    crm:P137_exemplifies <http://data.odeuropa.eu/vocabulary/olfactory-objects/103> .
+
+<http://data.odeuropa.eu/time/bff26943-3c11-54c4-9690-e8e07a560ed1> a time:TemporalEntity ;
+  rdfs:label "1633" ;
+  time:hasBeginning "1633"^^xsd:gYear;
+  time:hasEnd "1633"^^xsd:gYear .
+
+<http://data.odeuropa.eu/experience/d2f27bca-cdd8-57c6-8669-5d957795a83d> a od:L13_Olfactory_Experience ;
+    od:F2_perceived <http://data.odeuropa.eu/smell/30f9398b-ecc1-550a-94b0-160c41322fa1> ;
+    time:hasTime <http://data.odeuropa.eu/time/bff26943-3c11-54c4-9690-e8e07a560ed1> .
+
+
+<http://data.odeuropa.eu/experience/d2f27bca-cdd8-57c6-8669-5d957795a83d/assignment/1> a crm:E13_Attribute_Assignment ;
+    rdfs:label "rich"@en ;
+    crm:P140_assigned_attribute_to <http://data.odeuropa.eu/smell/30f9398b-ecc1-550a-94b0-160c41322fa1> ;
+    crm:P141_assigned <http://data.odeuropa.eu/attribute/rich_en> ;
+    crm:P17_was_motivated_by <http://data.odeuropa.eu/experience/d2f27bca-cdd8-57c6-8669-5d957795a83d> .
+
+<http://data.odeuropa.eu/attribute/Rich_en> a crm:E90_Symbolic_Object ;
+    rdfs:label "Rich"@en .
+
+<http://data.odeuropa.eu/source/ea90e761-3f4e-5cb2-b97f-a73fcf8ba97a> crm:P165_incorporates <http://data.odeuropa.eu/source/ea90e761-3f4e-5cb2-b97f-a73fcf8ba97a/fragment/2870691e-e336-5a74-8a6a-ab79fcea9014> ;
+    crm:P67_refers_to <http://data.odeuropa.eu/emission/560046e2-f667-5c4b-b5bd-f0c2170fd82d>,
+        <http://data.odeuropa.eu/experience/d2f27bca-cdd8-57c6-8669-5d957795a83d>,
+        <http://data.odeuropa.eu/smell/30f9398b-ecc1-550a-94b0-160c41322fa1>.
+
+
+<< <http://data.odeuropa.eu/source/ea90e761-3f4e-5cb2-b97f-a73fcf8ba97a/fragment/2870691e-e336-5a74-8a6a-ab79fcea9014> crm:P67_refers_to <http://data.odeuropa.eu/smell/30f9398b-ecc1-550a-94b0-160c41322fa1> >> prov:wasGeneratedBy <http://data.odeuropa.eu/provenance/4f4b12a8-ce69-586d-8769-96ae9dd7cc71> .
+
+<< <http://data.odeuropa.eu/source/ea90e761-3f4e-5cb2-b97f-a73fcf8ba97a/fragment/2870691e-e336-5a74-8a6a-ab79fcea9014> crm:P67_refers_to <http://data.odeuropa.eu/emission/560046e2-f667-5c4b-b5bd-f0c2170fd82d> >> prov:wasGeneratedBy <http://data.odeuropa.eu/provenance/4f4b12a8-ce69-586d-8769-96ae9dd7cc71> .
+
+<< <http://data.odeuropa.eu/source/ea90e761-3f4e-5cb2-b97f-a73fcf8ba97a/fragment/2870691e-e336-5a74-8a6a-ab79fcea9014> crm:P67_refers_to <http://data.odeuropa.eu/experience/d2f27bca-cdd8-57c6-8669-5d957795a83d> >> prov:wasGeneratedBy <http://data.odeuropa.eu/provenance/4f4b12a8-ce69-586d-8769-96ae9dd7cc71> .
+
+<< <http://data.odeuropa.eu/source/ea90e761-3f4e-5cb2-b97f-a73fcf8ba97a> crm:P67_refers_to <http://data.odeuropa.eu/smell/30f9398b-ecc1-550a-94b0-160c41322fa1> >> prov:wasGeneratedBy <http://data.odeuropa.eu/provenance/4f4b12a8-ce69-586d-8769-96ae9dd7cc71> .
+
+<< <http://data.odeuropa.eu/source/ea90e761-3f4e-5cb2-b97f-a73fcf8ba97a> crm:P67_refers_to <http://data.odeuropa.eu/emission/560046e2-f667-5c4b-b5bd-f0c2170fd82d> >> prov:wasGeneratedBy <http://data.odeuropa.eu/provenance/4f4b12a8-ce69-586d-8769-96ae9dd7cc71> .
+
+<< <http://data.odeuropa.eu/source/ea90e761-3f4e-5cb2-b97f-a73fcf8ba97a> crm:P67_refers_to <http://data.odeuropa.eu/experience/d2f27bca-cdd8-57c6-8669-5d957795a83d> >> prov:wasGeneratedBy <http://data.odeuropa.eu/provenance/4f4b12a8-ce69-586d-8769-96ae9dd7cc71> .
+
+<http://data.odeuropa.eu/provenance/4f4b12a8-ce69-586d-8769-96ae9dd7cc71> a prov:Activity ;
+    rdfs:label "Automatic annotation" ;
+    rdfs:comment "Automatic Annotation within the Odeuropa project"  ;
+    prov:wasAssociatedWith <http://data.odeuropa.eu/odeuropa>,
+        <http://data.odeuropa.eu/software/d3c92f59-a7e7-5f3a-9ddf-d3c898ebc59e> .
+
+<http://data.odeuropa.eu/software/d3c92f59-a7e7-5f3a-9ddf-d3c898ebc59e> a prov:SoftwareAgent ;
+    rdfs:label "SmellClassifier" ;
+    schema:url <https://github.com/Odeuropa/wp3-information-extraction-system> .
+
+<http://data.odeuropa.eu/odeuropa> a foaf:Group ;
+        rdfs:label "Odeuropa";
+        rdfs:description "Consortium working for Odeuropa, a European research project which bundles expertise in sensory mining and olfactory heritage. We develop novel methods to collect information about smell from (digital) text and image collections."@en.
+
+
+<http://data.odeuropa.eu/source/ea90e761-3f4e-5cb2-b97f-a73fcf8ba97a> a crm:E33_Linguistic_Object ;
+    rdfs:label "A plaine and familiar explication (by way of paraphrase) of all the hard texts of the whole divine Scripture of the Old and Nevv Testament. By Ios. Exon"@en ;
+    schema:author <http://data.odeuropa.eu/actor/48f2472c-5172-5b6c-adb8-6d7a02e3c077> ;
+    schema:dateCreated <http://data.odeuropa.eu/time/bff26943-3c11-54c4-9690-e8e07a560ed1> ;
+    schema:datePublished <http://data.odeuropa.eu/time/bff26943-3c11-54c4-9690-e8e07a560ed1> ;
+    schema:inLanguage "en" ;
+    schema:locationCreated <https://sws.geonames.org/2635167/> ;
+    schema:url <https://quod.lib.umich.edu/e/eebo/B13871> .
+
+    <http://data.odeuropa.eu/actor/48f2472c-5172-5b6c-adb8-6d7a02e3c077> a crm:E21_Person ;
+    rdfs:label "Joseph Hall" ;
+    owl:sameAs <http://www.wikidata.org/entity/Q4499080> ;
+    schema:birthDate <http://data.odeuropa.eu/time/927cdf3c-ca37-5d0e-af62-d6fac7a14de8> ;
+    schema:deathDate <http://data.odeuropa.eu/time/8edab975-6791-54b5-8469-44cc0579cae9> .
+
+<http://data.odeuropa.eu/time/927cdf3c-ca37-5d0e-af62-d6fac7a14de8> a time:TemporalEntity ;
+    rdfs:label "1574" ;
+    time:hasBeginning "1574"^^xsd:gYear ;
+    time:hasEnd "1574"^^xsd:gYear .
+
+<http://data.odeuropa.eu/time/8edab975-6791-54b5-8469-44cc0579cae9> a time:TemporalEntity ;
+    rdfs:label "1656" ;
+    time:hasBeginning "1656"^^xsd:gYear ;
+    time:hasEnd "1656"^^xsd:gYear .
+
+<https://sws.geonames.org/2635167/> a crm:E53_Place,
+    <http://www.geonames.org/ontology#Feature>;
+  <http://www.geonames.org/ontology#featureCode> <https://www.geonames.org/ontology#A.PCLI>;
+  <http://www.geonames.org/ontology#name> "United Kingdom";
+  <http://www.w3.org/2003/01/geo/wgs84_pos#lat> "54.75844";
+  <http://www.w3.org/2003/01/geo/wgs84_pos#long> "-2.69531" .

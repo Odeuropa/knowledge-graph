@@ -1,0 +1,77 @@
+@prefix crm: <http://erlangen-crm.org/current/> .
+@prefix crmsci: <http://www.ics.forth.gr/isl/CRMsci/> .
+@prefix od: <http://data.odeuropa.eu/ontology/> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <https://schema.org/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+
+<http://data.odeuropa.eu/source/f1eb1694-c1ce-5fb4-8261-6b5a4869f5c6/fragment/c3a6e4a5-9866-5fff-983c-473cc11e561a> a crm:E33_Linguistic_Object ;
+    crm:P67_refers_to <http://data.odeuropa.eu/emission/7f32ba3f-2120-519a-95d6-70c42b2fd8e6>,
+        <http://data.odeuropa.eu/experience/ce47d943-d63d-5dc0-8bb5-07b302c848a8>,
+        <http://data.odeuropa.eu/smell/bc9a4232-eacf-593d-b97b-f894a8304edb> ;
+    rdf:value "Nu rijzen geur ' ge wijrookdampen Voor hem , als God gevierd , omhoog : Die rook verbergt der volken rampen Voor ' s woestaards grimmig vonk ' lend oog ; De Dichtlier laat zich schat ' rend horen En streelt , tot eigen smaad , zijne oren Met logenzang , voor goud gekocht ; De beitel moet dien zang herhalen En schenkt met kunst aan keurmetalen En marmerblokken ademtogt ."@nl .
+
+<http://data.odeuropa.eu/smell/bc9a4232-eacf-593d-b97b-f894a8304edb> a od:L11_Smell ;
+    rdfs:label "ge"@nl,
+        "geur"@nl .
+
+
+<http://data.odeuropa.eu/emission/7f32ba3f-2120-519a-95d6-70c42b2fd8e6> a od:L12_Smell_Emission ;
+    od:F1_generated <http://data.odeuropa.eu/smell/bc9a4232-eacf-593d-b97b-f894a8304edb> ;
+    od:F3_had_source <http://data.odeuropa.eu/object/d153e0bb-4839-5422-8411-cd73ecaa0587> ;
+    time:hasTime <http://data.odeuropa.eu/time/448a4c96-0a6e-5598-a790-a51e59afe2d9> .
+
+<http://data.odeuropa.eu/object/d153e0bb-4839-5422-8411-cd73ecaa0587> a crmsci:S10_Material_Substantial ;
+    rdfs:label "wijrookdampen"@nl ;
+    crm:P137_exemplifies <http://data.odeuropa.eu/vocabulary/olfactory-objects/267> .
+
+<http://data.odeuropa.eu/time/448a4c96-0a6e-5598-a790-a51e59afe2d9> a time:TemporalEntity ;
+    rdfs:label "1815" ;
+    time:hasBeginning "1815"^^xsd:gYear ;
+    time:hasEnd "1815"^^xsd:gYear .
+
+<http://data.odeuropa.eu/experience/ce47d943-d63d-5dc0-8bb5-07b302c848a8> a od:L13_Olfactory_Experience ;
+    od:F2_perceived <http://data.odeuropa.eu/smell/bc9a4232-eacf-593d-b97b-f894a8304edb> ;
+    time:hasTime <http://data.odeuropa.eu/time/448a4c96-0a6e-5598-a790-a51e59afe2d9> .
+
+
+<http://data.odeuropa.eu/source/f1eb1694-c1ce-5fb4-8261-6b5a4869f5c6> crm:P165_incorporates        <http://data.odeuropa.eu/source/f1eb1694-c1ce-5fb4-8261-6b5a4869f5c6/fragment/c3a6e4a5-9866-5fff-983c-473cc11e561a> ;
+    crm:P67_refers_to        <http://data.odeuropa.eu/emission/7f32ba3f-2120-519a-95d6-70c42b2fd8e6>,
+        <http://data.odeuropa.eu/experience/ce47d943-d63d-5dc0-8bb5-07b302c848a8>,
+        <http://data.odeuropa.eu/smell/bc9a4232-eacf-593d-b97b-f894a8304edb> .
+
+
+<< <http://data.odeuropa.eu/source/f1eb1694-c1ce-5fb4-8261-6b5a4869f5c6/fragment/c3a6e4a5-9866-5fff-983c-473cc11e561a> crm:P67_refers_to <http://data.odeuropa.eu/emission/7f32ba3f-2120-519a-95d6-70c42b2fd8e6> >> prov:wasGeneratedBy <http://data.odeuropa.eu/provenance/d0b53ca6-ed66-5f96-9231-a7cc1c6dcd9b> .
+
+<< <http://data.odeuropa.eu/source/f1eb1694-c1ce-5fb4-8261-6b5a4869f5c6/fragment/c3a6e4a5-9866-5fff-983c-473cc11e561a> crm:P67_refers_to <http://data.odeuropa.eu/experience/ce47d943-d63d-5dc0-8bb5-07b302c848a8> >> prov:wasGeneratedBy <http://data.odeuropa.eu/provenance/d0b53ca6-ed66-5f96-9231-a7cc1c6dcd9b> .
+
+<< <http://data.odeuropa.eu/source/f1eb1694-c1ce-5fb4-8261-6b5a4869f5c6/fragment/c3a6e4a5-9866-5fff-983c-473cc11e561a> crm:P67_refers_to <http://data.odeuropa.eu/smell/bc9a4232-eacf-593d-b97b-f894a8304edb> >> prov:wasGeneratedBy <http://data.odeuropa.eu/provenance/d0b53ca6-ed66-5f96-9231-a7cc1c6dcd9b> .
+
+<< <http://data.odeuropa.eu/source/f1eb1694-c1ce-5fb4-8261-6b5a4869f5c6> crm:P67_refers_to <http://data.odeuropa.eu/smell/bc9a4232-eacf-593d-b97b-f894a8304edb> >> prov:wasGeneratedBy <http://data.odeuropa.eu/provenance/d0b53ca6-ed66-5f96-9231-a7cc1c6dcd9b> .
+
+<< <http://data.odeuropa.eu/source/f1eb1694-c1ce-5fb4-8261-6b5a4869f5c6> crm:P67_refers_to <http://data.odeuropa.eu/emission/7f32ba3f-2120-519a-95d6-70c42b2fd8e6> >> prov:wasGeneratedBy <http://data.odeuropa.eu/provenance/d0b53ca6-ed66-5f96-9231-a7cc1c6dcd9b> .
+
+<< <http://data.odeuropa.eu/source/f1eb1694-c1ce-5fb4-8261-6b5a4869f5c6> crm:P67_refers_to <http://data.odeuropa.eu/experience/ce47d943-d63d-5dc0-8bb5-07b302c848a8> >> prov:wasGeneratedBy <http://data.odeuropa.eu/provenance/d0b53ca6-ed66-5f96-9231-a7cc1c6dcd9b> .
+
+<http://data.odeuropa.eu/provenance/d0b53ca6-ed66-5f96-9231-a7cc1c6dcd9b> a prov:Activity ;
+    rdfs:label "Automatic annotation" ;
+    rdfs:comment "Automatic Annotation within the Odeuropa project" ;
+    prov:wasAssociatedWith <http://data.odeuropa.eu/odeuropa>,
+        <http://data.odeuropa.eu/software/d3c92f59-a7e7-5f3a-9ddf-d3c898ebc59e> .
+
+<http://data.odeuropa.eu/odeuropa> a foaf:Group ;
+        rdfs:label "Odeuropa";
+        rdfs:description "Consortium working for Odeuropa, a European research project which bundles expertise in sensory mining and olfactory heritage. We develop novel methods to collect information about smell from (digital) text and image collections."@en.
+
+<http://data.odeuropa.eu/source/f1eb1694-c1ce-5fb4-8261-6b5a4869f5c6> a crm:E33_Linguistic_Object ;
+    rdfs:label "vaderlandsche letteroefeningen. jaargang 1815"@nl ;
+    schema:author <http://data.odeuropa.eu/actor/07805b61-f9a3-5d58-bc6a-6dfa6e440293> ;
+    schema:dateCreated <http://data.odeuropa.eu/time/448a4c96-0a6e-5598-a790-a51e59afe2d9> ;
+    schema:inLanguage "nl" ;
+    schema:url <https://www.dbnl.org/titels/titel.php?id=_vad003181501> .
+
+    <http://data.odeuropa.eu/actor/07805b61-f9a3-5d58-bc6a-6dfa6e440293> a crm:E21_Person ;
+    rdfs:label "vaderlandsche letteroefeningen" .
