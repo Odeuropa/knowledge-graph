@@ -20,10 +20,6 @@ class Provenance(Entity):
         sa = SoftwareAgent(name, uri)
         self.add(PROV.wasAssociatedWith, sa)
 
-    def add_words(self, words, lang):
-        for w in words:
-            self.add(PROV.used, w, lang=lang)
-
 
 class SoftwareAgent(Entity):
     def __init__(self, name, uri):

@@ -134,6 +134,10 @@ class TextFragment(Entity):
         self.set_class(CRM.E33_Linguistic_Object)
         self.add(RDF.value, text, lang)
 
+    def add_words(self, words=None, lang='en'):
+        for w in (words or []):
+            self.add(CRM.P106_is_composed_of, w, lang)
+
     def add_annotation(self, what, prov):
-        Graph.set_prov(self.add(CRM.P67_refers_to, what), prov)
         Graph.set_prov(self.parent.add(CRM.P67_refers_to, what), prov)
+        Graph.set_prov(self.add(CRM.P67_refers_to, what), prov)

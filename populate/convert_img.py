@@ -67,10 +67,11 @@ def process_metadata(df):
             author = re.sub(r'\|', '', author)
             author = re.sub(r'(,? )?\(?\?\)?', '', author).strip()
 
-        to = ImageObject(idf, r['Title'].strip(), author, date, r['Original Location'], r['Image Credits'], lang)
+        to = ImageObject(idf, r['Title'].strip(), author, date, r.get('Original Location'), r.get('Image Credits'),
+                         lang)
 
         # parse locations
-        loc = r['Current Location']
+        loc = r.get('Current Location', '')
         splitting = r'(; | - )'
         if re.match("^(.{1,15}) ;", loc):
             splitting = r'\$'  # no split
@@ -85,7 +86,7 @@ def process_metadata(df):
             if len(m) > 1 and not m.startswith('seen'):
                 to.add_location(m, lang)
 
-        to.add_identifier(r['Repository Number'])
+        to.add_identifier(r.get('Repository Number'))
         to.add_url(r['Details URL'])
         to.add_descr(r['Additional Information'], lang)
         to.add_descr(r['Description'], lang)
@@ -94,6 +95,8 @@ def process_metadata(df):
         genre = r['Genre']
         if genre != 'unknown':
             for g in genre.split(','):
+                if ">" in g:
+                    g = g.split('>')[0]
                 g = g.strip()
                 match, role = art.interlink(g, None, fallback=None)
                 if match is None:
@@ -109,6 +112,9 @@ def process_metadata(df):
             material = re.sub(r'\((.+)\)', '', material)
             material = re.sub(r': .+', '', material)
             for m in material.split(r','):
+                if ">" in m:
+                    m = m.split('>')[0]
+
                 m = m.strip()
                 if len(m) == 0:
                     continue

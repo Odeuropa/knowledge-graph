@@ -26,7 +26,7 @@ class Time(Entity):
 
 
         if edtf is None:
-            print(x, "=>", edtf, part_day)
+            # print(x, "=>", edtf, part_day)
             if fallback == 'text':
                 t = Time(x, x)
             else:

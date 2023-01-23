@@ -149,7 +149,7 @@ def process_annotation_sheet(df, lang, codename):
         experience = OlfactoryExperience(curid, smell)
         for p in perceiver:
             if p.lower() in Pronouns.myself(lang) and identifier in docs:  # fixme
-                doc = docs[identifier]
+                doc, url = docs[identifier]
                 if doc.genre not in ['LIT', 'THE']:
                     experience.add_perceiver(doc.author)
                     continue
@@ -197,12 +197,12 @@ def process_annotation_sheet(df, lang, codename):
                 typ = other.strip() if typ == 'Other' else typ
                 experience.add_emotion(emot, typ.lower(), sentiment)
 
+        used_words = get_multi(('Smell_Word', 'Smell_Source', 'Odour_Carrier', 'Perceiver', 'Quality', 'Effect',
+                                  'Evoked_Odorant', 'Location', 'Time', 'Emotion'), r)
+        frag.add_words(used_words, lang)
         frag.add_annotation(emission, prov)
         frag.add_annotation(smell, prov)
         frag.add_annotation(experience, prov)
-        # useless as been implemented
-        # prov.add_words(get_multi(('Smell_Word', 'Smell_Source', 'Odour_Carrier', 'Perceiver', 'Quality', 'Effect',
-        #                           'Evoked_Odorant', 'Location', 'Time', 'Emotion'), r), lang)
 
 
 def process_benchmark_sheet(language, docs_file):
@@ -231,8 +231,9 @@ def process_benchmark_sheet(language, docs_file):
 
         to = TextualObject(identifier, r['Title'], author, year,
                            r['Place of Publication'], lang, r['Genre'])
-        to.add_url(r['Link to source'])
-        docs[identifier] = to
+        url = r['Link to source']
+        to.add_url(url)
+        docs[identifier] = to, url
 
 
 def parse_editor(editor, lang):
