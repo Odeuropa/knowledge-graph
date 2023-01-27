@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<rdf:RDF xmlns:cc="http://creativecommons.org/ns#" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:foaf="http://xmlns.com/foaf/0.1/" xmlns:gn="http://www.geonames.org/ontology#" xmlns:owl="http://www.w3.org/2002/07/owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:wgs84_pos="http://www.w3.org/2003/01/geo/wgs84_pos#">
+    <gn:Feature rdf:about="https://sws.geonames.org/2756685/">
+        <rdfs:isDefinedBy rdf:resource="https://sws.geonames.org/2756685/about.rdf"/>
+        <gn:name>Gemeente Utrechtse Heuvelrug</gn:name>
+        <gn:shortName xml:lang="nl">Utrechtse Heuvelrug</gn:shortName>
+        <gn:shortName>Utrechtse Heuvelrug</gn:shortName>
+        <gn:featureClass rdf:resource="https://www.geonames.org/ontology#A"/>
+        <gn:featureCode rdf:resource="https://www.geonames.org/ontology#A.ADM2"/>
+        <gn:countryCode>NL</gn:countryCode>
+        <gn:population>49314</gn:population>
+        <wgs84_pos:lat>52.03486</wgs84_pos:lat>
+        <wgs84_pos:long>5.35738</wgs84_pos:long>
+        <gn:parentFeature rdf:resource="https://sws.geonames.org/2745909/"/>
+        <gn:parentCountry rdf:resource="https://sws.geonames.org/2750405/"/>
+        <gn:parentADM1 rdf:resource="https://sws.geonames.org/2745909/"/>
+        <gn:childrenFeatures rdf:resource="https://sws.geonames.org/2756685/contains.rdf"/>
+        <gn:locationMap rdf:resource="https://www.geonames.org/2756685/gemeente-utrechtse-heuvelrug.html"/>
+        <gn:wikipediaArticle rdf:resource="https://en.wikipedia.org/wiki/Utrechtse_Heuvelrug"/>
+        <rdfs:seeAlso rdf:resource="https://dbpedia.org/resource/Utrechtse_Heuvelrug"/>
+    </gn:Feature>
+    <foaf:Document rdf:about="https://sws.geonames.org/2756685/about.rdf">
+        <foaf:primaryTopic rdf:resource="https://sws.geonames.org/2756685/"/>
+        <cc:license rdf:resource="https://creativecommons.org/licenses/by/4.0/"/>
+        <cc:attributionURL rdf:resource="https://www.geonames.org"/>
+        <cc:attributionName rdf:datatype="https://www.w3.org/2001/XMLSchema#string">GeoNames</cc:attributionName>
+        <dcterms:created rdf:datatype="https://www.w3.org/2001/XMLSchema#date">2006-01-15</dcterms:created>
+        <dcterms:modified rdf:datatype="https://www.w3.org/2001/XMLSchema#date">2019-01-19</dcterms:modified>
+    </foaf:Document>
+</rdf:RDF>

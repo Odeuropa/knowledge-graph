@@ -1,3 +1,4 @@
+import re
 import uuid
 from os import path
 
@@ -58,7 +59,8 @@ class Entity:
 
 class MiniEntity(Entity):
     def __init__(self, group, id, label, clas):
-        self.uri = path.join(BASE, group, id.replace(' ', '_'))
+        safe_id = re.sub(r'[à`|"]','',id.replace(' ', '_'))
+        self.uri = path.join(BASE, group, safe_id)
         self.res = URIRef(self.uri)
         self.add_label(label)
         self.set_class(clas)

@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<rdf:RDF xmlns:cc="http://creativecommons.org/ns#" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:foaf="http://xmlns.com/foaf/0.1/" xmlns:gn="http://www.geonames.org/ontology#" xmlns:owl="http://www.w3.org/2002/07/owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:wgs84_pos="http://www.w3.org/2003/01/geo/wgs84_pos#">
+    <gn:Feature rdf:about="https://sws.geonames.org/6944093/">
+        <rdfs:isDefinedBy rdf:resource="https://sws.geonames.org/6944093/about.rdf"/>
+        <gn:name>Schloss Charlottenburg</gn:name>
+        <gn:featureClass rdf:resource="https://www.geonames.org/ontology#S"/>
+        <gn:featureCode rdf:resource="https://www.geonames.org/ontology#S.PAL"/>
+        <gn:countryCode>DE</gn:countryCode>
+        <wgs84_pos:lat>52.5199</wgs84_pos:lat>
+        <wgs84_pos:long>13.2962</wgs84_pos:long>
+        <gn:parentFeature rdf:resource="https://sws.geonames.org/3336294/"/>
+        <gn:parentCountry rdf:resource="https://sws.geonames.org/2921044/"/>
+        <gn:parentADM1 rdf:resource="https://sws.geonames.org/2950157/"/>
+        <gn:parentADM3 rdf:resource="https://sws.geonames.org/6547383/"/>
+        <gn:parentADM4 rdf:resource="https://sws.geonames.org/6547539/"/>
+        <gn:nearbyFeatures rdf:resource="https://sws.geonames.org/6944093/nearby.rdf"/>
+        <gn:locationMap rdf:resource="https://www.geonames.org/6944093/schloss-charlottenburg.html"/>
+    </gn:Feature>
+    <foaf:Document rdf:about="https://sws.geonames.org/6944093/about.rdf">
+        <foaf:primaryTopic rdf:resource="https://sws.geonames.org/6944093/"/>
+        <cc:license rdf:resource="https://creativecommons.org/licenses/by/4.0/"/>
+        <cc:attributionURL rdf:resource="https://www.geonames.org"/>
+        <cc:attributionName rdf:datatype="https://www.w3.org/2001/XMLSchema#string">GeoNames</cc:attributionName>
+        <dcterms:created rdf:datatype="https://www.w3.org/2001/XMLSchema#date">2009-07-30</dcterms:created>
+        <dcterms:modified rdf:datatype="https://www.w3.org/2001/XMLSchema#date">2012-06-08</dcterms:modified>
+    </foaf:Document>
+</rdf:RDF>

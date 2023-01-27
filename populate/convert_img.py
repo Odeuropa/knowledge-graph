@@ -5,6 +5,7 @@ from math import isnan
 from os import path
 from urllib.parse import urlparse
 
+from SPARQLTransformer import sparqlTransformer
 import pandas as pd
 import yaml
 from tqdm import tqdm
@@ -87,7 +88,27 @@ def process_metadata(df):
                 to.add_location(m, lang)
 
         to.add_identifier(r.get('Repository Number'))
-        to.add_url(r['Details URL'])
+        url = r['Details URL']
+        if 'beniculturali' in url:
+            q = {
+                "proto": {
+                    "id": "?id",
+                    "depiction": "$foaf:depiction$required$var:dep"
+                },
+                "$where": [
+                    "?id a arco:HistoricOrArtisticProperty"
+                ],
+                "$values": {
+                    "?dep": f"http://www.sigecweb.beniculturali.it/images/fullsize/ICCD1004087/ICCD10023739_185047.JPG"
+                }
+            }
+            qres = sparqlTransformer(q, {
+                'endpoint': 'https://dati.cultura.gov.it/sparql'
+            })
+            url = qres[0]['id']
+            to.same_as(url)
+
+        to.add_url(url)
         to.add_descr(r['Additional Information'], lang)
         to.add_descr(r['Description'], lang)
         to.add_license(r['License'])
