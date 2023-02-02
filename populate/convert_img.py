@@ -27,13 +27,6 @@ docs = {}
 # COMPOSED_LOCATION_REGEX = r'([^(\n]+), ([^0-9\n(]+) \(([^0-9\n()]+)\)'
 
 
-def get_safe(label, obj):
-    r = obj[label]
-    if type(r) == float and isnan(r):
-        return ''
-    return r
-
-
 def process_metadata(df):
     df.fillna('', inplace=True)
 
@@ -68,8 +61,8 @@ def process_metadata(df):
             author = re.sub(r'\|', '', author)
             author = re.sub(r'(,? )?\(?\?\)?', '', author).strip()
 
-        to = ImageObject(idf, r['Title'].strip(), author, date, r.get('Original Location'), r.get('Image Credits'),
-                         lang)
+        loc = r.get('Original Location', "").replace('|', '')
+        to = ImageObject(idf, r['Title'].strip(), author, date, loc, r.get('Image Credits'), lang)
 
         # parse locations
         loc = r.get('Current Location', '')
@@ -83,7 +76,7 @@ def process_metadata(df):
             m = re.sub(r'\d{4}-\d{2}(-\d{2})?', "", m)
             m = re.sub(r'((\d{2}-)?\d{2}-)?\d{4}', "", m)
             m = re.sub(r'donated to (the )?', "", m)
-            m = re.sub(r'[-.,;]$', "", m.strip()).strip()
+            m = re.sub(r'[-.,;]$', "", m.strip()).replace('|', '').strip()
             if len(m) > 1 and not m.startswith('seen'):
                 to.add_location(m, lang)
 
@@ -118,7 +111,7 @@ def process_metadata(df):
             for g in genre.split(','):
                 if ">" in g:
                     g = g.split('>')[0]
-                g = g.strip()
+                g = g.replace('|', '').strip()
                 match, role = art.interlink(g, None, fallback=None)
                 if match is None:
                     to.add_subject(g)
@@ -127,7 +120,7 @@ def process_metadata(df):
 
         material = r['Material']
         if material:
-            material = material.replace(' su ', ', ').lower()
+            material = material.replace('|', '').replace(' su ', ', ').lower()
             material = material.replace(' auf ', ', ')
             material = material.replace('(bis)', '')
             material = re.sub(r'\((.+)\)', '', material)
@@ -142,7 +135,7 @@ def process_metadata(df):
                 to.add_material(m)
 
         for k in r['Keywords'].split(','):
-            to.add_subject(k, 'en')
+            to.add_subject(k.replace('|', ''), 'en')
 
         to.add_subject(r['Iconography'])
         docs[idf] = to

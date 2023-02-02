@@ -24,7 +24,6 @@ class Entity:
         self.time = None
         self.label = None
 
-
     def set_class(self, cls):
         return self.add(RDF.type, cls)
 
@@ -59,7 +58,7 @@ class Entity:
 
 class MiniEntity(Entity):
     def __init__(self, group, id, label, clas):
-        safe_id = re.sub(r'[à`|"]','',id.replace(' ', '_'))
+        safe_id = re.sub(r'[à`|."]', '', re.sub(r'\s+', '_', id))[0:20]
         self.uri = path.join(BASE, group, safe_id)
         self.res = URIRef(self.uri)
         self.add_label(label)
