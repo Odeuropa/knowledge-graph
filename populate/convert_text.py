@@ -28,12 +28,18 @@ PROV_DESCR = 'Manual annotation of textual resources realised according to the O
 
 lang_map = {
     'English': 'en',
+    'en':'en',
     'French': 'fr',
+    'fr': 'fr',
     'German': 'de',
     'Deutsch': 'de',
+    'de': 'de',
     'Slovenian': 'sl',
+    'sl': 'sl',
     'Dutch': 'nl',
-    'Italian': 'it'
+    'nl': 'nl',
+    'Italian': 'it',
+    'it': 'it'
 }
 
 docs = {}

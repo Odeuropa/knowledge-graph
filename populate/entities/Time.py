@@ -18,12 +18,11 @@ class Time(Entity):
 
     @classmethod
     def parse(cls, x, lang='en', fallback=None):
-        if not x:
+        if not x or x.lower() in ['s. d.']:
             return None
 
         edtf = time_parsing.parse_date(x, lang)
         part_day = time_parsing.get_parts_of_the_day(x, lang)
-
 
         if edtf is None:
             # print(x, "=>", edtf, part_day)

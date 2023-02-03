@@ -101,7 +101,7 @@ class Place(Entity):
         feature_class, text = extract_feature(text)
 
         text_clean = text
-        pron_regex = Pronouns(lang).as_regex()
+        pron_regex = Pronouns(lang or 'en').as_regex()
         disambiguate = True
         if re.match(pron_regex, text):
             text_clean = re.sub(pron_regex, '', text)

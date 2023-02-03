@@ -16,7 +16,7 @@ SQUARE_BRACKETS_REGEX = r"\[.*]"
 ANY_BRACKETS_REGEX = r"[(\[\])]"
 
 CIRCA_REGEX = r"(^ca | ca$)"
-SINGLE_YEAR = r"^\d{3,4}s?$"
+SINGLE_YEAR = r"^\d{3,4}(s|er Jahre)?$"
 
 FULL_DATE_MULTI = r"(3[01]|[012]?[0-9]|\d{3,4})[-/ .](1[012]|0?\d)[-/ .](\d{2,4})"
 MONTH_DATE_REGEX = r"(?:(\d{2})/(\d{4}))(?:-(\d{2})/(\d{4}))?"
@@ -102,10 +102,10 @@ def parse_edtf(edtf):
     else:
         end = end.replace('XX', '99').replace('X', '9')
 
-    dashS = start.count('-')
-    dashE = end.count('-')
-    startType = XSD.date if dashS == 2 else XSD.gMonth if dashS == 1 else XSD.gYear
-    endType = XSD.date if dashE == 2 else XSD.gMonth if dashE == 1 else XSD.gYear
+    dashS = start[1:].count('-')
+    dashE = end[1:].count('-')
+    startType = XSD.date if dashS == 2 else XSD.gYearMonth if dashS == 1 else XSD.gYear
+    endType = XSD.date if dashE == 2 else XSD.gYearMonth if dashE == 1 else XSD.gYear
 
     return start, end, startType, endType
 
@@ -289,7 +289,7 @@ def parse_date(date, lang='en'):
             date = str(d + 1792)
         except roman.InvalidRomanNumeralError:
             try:
-                d = int(re.sub(r'(ème|er)','', alpha2digit(y, lang='fr', ordinal_threshold=0)))
+                d = int(re.sub(r'(ème|er)', '', alpha2digit(y, lang='fr', ordinal_threshold=0)))
                 date = str(d + 1792)
             except ValueError as e:
                 pass
@@ -318,52 +318,27 @@ def parse_date(date, lang='en'):
     # // case 'early 18th century'
     # double[] itSpan = getItSpanFromModifier(modifier);
 
-    # // case '1st half of the 18th century'
-    # for (Pattern pat : CENTURY_PART_PATTERNS) {
-    #   matcher = pat.matcher(date);
-    #   if (!matcher.find()) continue;
-    #   String itString = matcher.group(1);
-    #   String partString = matcher.group(2);
-    #   String centuryString = matcher.group(3);
-    #   itSpan = getItSpanFromCentParts(itString, partString);
-    #   if (centuryString.matches("\d{2}00s")) {
-    #     century = getCenturyURI(centuryString.substring(0, 2) + "01");
-    #   } else {
-    #     if (RomanConverter.isRoman(centuryString)) centuryString += " secolo";
-    #     century = VocabularyManager.searchInCategory(centuryString, null, "dates", false);
-    #     if (century == null) { // this is a part, but of what?
-    #       //System.out.println("Century not found: " + centuryString);
-    #       return;
-    #     }
-    #   }
-    # }
-    # double it = itSpan[0];
-    # double span = itSpan[1];
-    #
-    # if (century != null) {
-    #   int cent = CENTURY_URI_MAP.inverseBidiMap().get(century) - 1;
-    #
-    #   int end = (int) Math.round(cent * 100 + span * it);
-    #
-    #   if (startYear == null) {
-    #     it--;
-    #     int start = (int) Math.round(cent * 100 + span * it + 1);
-    #     startDate = startYear = padYear(start);
-    #     startType = XSDDateType.XSDgYear;
-    #   }
-    #
-    #   endDate = endYear = padYear(end);
-    #   endType = XSDDateType.XSDgYear;
-    #
-    #   return;
-    # }
+    # case '1st half of the 18th century'
+    matcher = re.search(lg.CENTURY_PART + '(.+) ' + lg.CENTURY_STANDARD, date)
+    if matcher is not None:
+        iter = matcher.group(1)
+        part = matcher.group(2)
+        century = matcher.group(3)
+        (it, span) = get_span_from_cent_parts(iter, part)
+
+        cent = ordinal2int(century) - 1
+        end = round(cent * 100 + span * it)
+        it -= 1
+        start = round(cent * 100 + span * it + 1)
+
+        return pad_year(start) + '/' + pad_year(end)
 
     # cases: 1871, 1920s
     if re.match(SINGLE_YEAR, date):
-        return date.rjust(4, '0').replace('0s', 'X') + sym
+        return date.rjust(4, '0').replace('0er Jahre', 'X').replace('0s', 'X') + sym
 
-    YEAR_SPAN = r"(?i)(?:(?:" + lg.BETWEEN + r")\s+)?(\d{3,4}s?)(?:\s*(?:[-=\/]|" + \
-                "|".join(lg.SEPARATORS) + r")\s*|[-=\/])(\d{2,4}s?)"
+    YEAR_SPAN = r"(?i)(?:(?:" + lg.BETWEEN + r")\s+)?([X0-9]{3,4}s?)(?:\s*(?:[-=\/]|" + \
+                "|".join(lg.SEPARATORS) + r")\s*|[-=\/])([X0-9]{2,4}s?)"
 
     # cases: 1741-1754,  1960s to 1970s, ...
     if re.fullmatch(YEAR_SPAN, date):
@@ -481,28 +456,30 @@ def get_parts_of_the_day(date, lang='en'):
             found.append(langs['en'].PART_OF_DAY[i].replace("(^| )", ""))
     return found
 
-# private static double[] getItSpanFromCentParts(String itString, String partString) {
-#   double it = ordinalToInt(itString);
-#   if (it == 0) {
-#     return new double[]{-1, -1};
-#   }
-#   double span = 50; // half century
-#   if (partString.matches("(third|tercio|1/3)")) {
-#     span = 33.3;
-#     if (it == -1) it = 3;
-#   }
-#   if (partString.matches("[qc]uart(o|er)?")) {
-#     span = 25;
-#     if (it == -1) it = 4;
-#   }
-#   if (partString.matches("ventennio")) {
-#     span = 20;
-#     if (it == -1) it = 5;
-#   }
-#   if (it == -1) it = 2;
-#   return new double[]{it, span};
-# }
-#
+
+def get_span_from_cent_parts(iter, part):
+    it = ordinal2int(iter)
+    if it == 0:
+        return -1, -1
+
+    span = 50  # half century
+    if re.match("(third|tercio|1/3)", part):
+        span = 33.3
+        if it == -1:
+            it = 3
+    elif re.match("[qc]uart(o|er)?", part):
+        span = 25
+        if it == -1:
+            it = 4
+    elif re.match("ventennio", part):
+        span = 20
+        if it == -1:
+            it = 5
+    if it == -1:
+        it = 2
+    return it, span
+
+
 # private static double[] getItSpanFromModifier(int modifier) {
 #   double it = 1;
 #   double span = 100;
@@ -531,15 +508,6 @@ def get_parts_of_the_day(date, lang='en'):
 #   private static final String ES_CENTURY_SPAN = "(?i)s[ie]gl[oe]s? (\d{1,2})(?:-(\d{1,2}))?";
 #   private static final Pattern ES_CENTURY_SPAN_PATTERN = Pattern.compile(ES_CENTURY_SPAN);
 #
-#   private static final String CENTURY_PART_EN = "(?i)((?:fir|1)st|(?:2|seco)nd|(?:3|thi)rd|fourth|last) (quarter|half|third),?(?: of(?: the)?)?";
-#   private static final String CENTURY_PART_IT = "(?i)(?:(prim|second|terz|ultim|I+)[oa]?) (ventennio|quarto|metAAA)(?: del)?";
-#   private static final String CENTURY_PART_ES = "(?i)([1234][]|pr?i[mn]era?|segund[oa]|segon|tercer|UUUltimo?) (cuarto|quart|mitad|meitat|tercio|1/3)(?: del)?";
-#   private static final String CENTURY_PART_FR = "(?i)(1[EEEe]re?|[234]d?e) (quart|moitiEE)(?: du)?";
-#   private static final Pattern CENTURY_PART_EN_PATTERN = Pattern.compile(CENTURY_PART_EN + " (.+)");
-#   private static final Pattern CENTURY_PART_IT_PATTERN = Pattern.compile(CENTURY_PART_IT + " (.+)");
-#   private static final Pattern CENTURY_PART_ES_PATTERN = Pattern.compile(CENTURY_PART_ES + " (.+)");
-#   private static final Pattern CENTURY_PART_FR_PATTERN = Pattern.compile(CENTURY_PART_FR + " (.+)");
-#   private static final Pattern[] CENTURY_PART_PATTERNS = {CENTURY_PART_EN_PATTERN, CENTURY_PART_ES_PATTERN, CENTURY_PART_IT_PATTERN, CENTURY_PART_FR_PATTERN};
 #   private static final String EARLY_REGEX = "(?i)(inizio?|dEEEbut|early|(?:p[ri]+n?cipi|inici?)o(?:s)?)(?: del?| du)?";
 #   private static final String LATE_REGEX = "(?i)(?:very )?(late|fin(?:e|ale?s)?)(?: del?| du)?";
 #   private static final String MID_REGEX = "(?i)(mid(-| |dle)|milieu|^metAAAA|second or third quarter of|^mitad|to mid-twentieth century|(?:a )?m+ediados|a mitjan)(?: del?| du)?";
@@ -733,41 +701,36 @@ def get_parts_of_the_day(date, lang='en'):
 #
 
 
-#
-#
-#
-#   /**
-#    * Convert ordinal literals (e.g. first, second, ...) in related int.
-#    * Four langs: EN, ES, IT, FR
-#    *
-#    * @param ordinal number (e.g. "primo", "first", "1st")
-#    * @return related integer, -1 if ordinal is "last", 0 if not recognised
-#    */
-#   private static int ordinalToInt(@NotNull String ordinal) {
-#     String ordinalMin = ordinal.replaceAll("[oa]", "").toUpperCase();
-#     ordinal = ordinal.toLowerCase();
-#
-#     if (RomanConverter.isRoman(ordinalMin)) {
-#       return RomanConverter.toNumerical(ordinalMin);
-#     }
-#     if (ordinal.equals("first") || ordinal.startsWith("pri") || ordinal.startsWith("pimer"))
-#       return 1;
-#     if (ordinal.matches("(se(co|gu)nd[oa]?|segon)"))
-#       return 2;
-#     if (ordinal.matches("(third|terz|tercer)"))
-#       return 3;
-#     if (ordinal.equals("fourth"))
-#       return 4;
-#     if (ordinal.matches("(last|[UUUu]ltimo?)"))
-#       return -1;
-#     ordinal = ordinal.replaceAll("\D+", ""); // replace all non-digits
-#     try {
-#       return parseInt(ordinal);
-#     } catch (NumberFormatException e) {
-#       return 0;
-#     }
-#   }
-#
+#  Convert ordinal literals (e.g. first, second, ...) in related int.
+#  Four langs: EN, ES, IT, FR
+#  @param ordinal number (e.g. "primo", "first", "1st")
+#  @return related integer, -1 if ordinal is "last", 0 if not recognised
+def ordinal2int(ordinal):
+    ordinal = re.sub(r'[oa]', '', ordinal)
+
+    try:
+        return roman.fromRoman(ordinal.upper())
+    except roman.InvalidRomanNumeralError:
+        pass
+
+    ordinal = ordinal.lower()
+
+    if re.fullmatch(r'first|pri(mer)?.*', ordinal):
+        return 1
+    if re.fullmatch(r'(se(co|gu)nd[oa]?|segon)', ordinal):
+        return 2
+    if re.fullmatch(r'(third|terz|tercer)', ordinal):
+        return 3
+    if re.fullmatch(r'"fourth', ordinal):
+        return 4
+    if re.fullmatch(r'"(last|[Uu]ltimo?)', ordinal):
+        return -1
+
+    ordinal = re.sub(r"\D+", "", ordinal)  # replace all non-digits
+    if ordinal:
+        return int(ordinal)
+    return 0  # not recognised
+
 #   private static Resource getCenturyURI(String year) {
 #     if (year == null) return null;
 #     int x = (parseInt(year) + 99) / 100;

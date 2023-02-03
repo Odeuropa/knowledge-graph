@@ -1,4 +1,4 @@
-APPROXIMATE_REGEX = r'(?i)(ongeveer)'
+APPROXIMATE_REGEX = r'(?i)(ongeveer|^ca.? )'
 UNCERTAIN_REGEX = r"(?i)(misschien)"
 PREPOSITION_REGEX = r"(?i)^(tot|in|op|door)? ?(den?|het|een)? "
 AD_REGEX = r"( A.?D.?|CE$|CE-)"
@@ -12,3 +12,4 @@ MONTHS = ["januari", "februari ", "maart ", "april", "mei ", "juni ", "juli", "a
 PART_OF_DAY = ["zonsopgang", "dag", "ochtend|morgen", "middag", "zonsondergang", "avon[dt]", "nacht"]
 DAYS_OF_WEEK = ["maandag", "dinsdag", "woensdag", "donderdag", "vrijdag", "zaterdag", "zondag"]
 SEASON = "seizoen"
+CENTURY_PART = "(?i)((?:fir|1)st|(?:2|seco)nd|(?:3|thi)rd|fourth|last) (quarter|half|third),?(?: of(?: the)?)?"

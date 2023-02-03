@@ -12,3 +12,4 @@ MONTHS = ["gennaio", "febbra[ji]o", "marzo", "aprile", "maggio", "giugno", "lugl
 PART_OF_DAY = ["alba", "giorno|dí|diurn.", "mattina", "pomeriggio", "tramonto", "sera", "notte"]
 DAYS_OF_WEEK = ["luned[ií]", "marted[ií]", "mercoled[ií]", "gioved[ií]", "venerd[ií]", "sabato", "domenica"]
 SEASON = "stagione"
+CENTURY_PART = "(?i)(?:(prim|second|terz|ultim|I+)[oa]?) (ventennio|quarto|metAAA)(?: del)?"

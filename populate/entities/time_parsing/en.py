@@ -12,3 +12,4 @@ MONTHS = ["january", "february", "march", "april", "may", "june", "july", "augus
 PART_OF_DAY = ["sunrise", "(^| )day", "morning", "afternoon", "sunset", "evening", "night"]
 DAYS_OF_WEEK = ["monday", "tuesday", "wednesday", "thursday", "friday", "saturday", "sunday"]
 SEASON = "session|season"
+CENTURY_PART = "(?i)((?:fir|1)st|(?:2|seco)nd|(?:3|thi)rd|fourth|last) (quarter|half|third),?(?: of(?: the)?)?"

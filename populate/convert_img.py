@@ -1,13 +1,13 @@
 import json
 import os
 import re
-from math import isnan
 from os import path
 from urllib.parse import urlparse
 
-from SPARQLTransformer import sparqlTransformer
+import numpy as np
 import pandas as pd
 import yaml
+from SPARQLTransformer import sparqlTransformer
 from tqdm import tqdm
 
 from convert_text import lang_map
@@ -28,30 +28,26 @@ docs = {}
 
 
 def process_metadata(df):
-    df.fillna('', inplace=True)
-
     for i, r in tqdm(df.iterrows(), total=df.shape[0]):
         idf = r['File Name']
         if idf == '':
             continue
 
-        langs = [lang_map.get(l, 'en') for l in r['Language'].split(',')]
-        if len(langs) == 0:
+        if r['Language']:
+            lang = lang_map.get(r['Language'], 'en')
+        else:
             tld = str(urlparse(r['Photo Archive']).hostname).split('.')[-1]
             if tld in lang_map.values():
-                langs = [tld, tld]
+                lang = tld
             elif tld in ['gov', 'edu']:
-                langs = ['en', 'en']
+                lang = 'en'
             else:
-                langs = [None, None]
-        elif len(langs) == 1:
-            langs.append(langs[0])
-        lang = langs[0]
+                lang = None
 
         date = r['Earliest Date'].strip().replace('.0', '').ljust(4, 'X')
         end_date = r.get(r['Latest Date'], '')
         if len(end_date) > 0 and end_date != date:
-            date += '/' + r['Latest Date'].strip().replace('.0', '').ljust(4, 'X')
+            date += '/' + end_date.strip().replace('.0', '').ljust(4, 'X')
         if date == 'XXXX':
             date = None
 
@@ -148,10 +144,19 @@ VocManager.setup(config['vocabularies'])
 art = VocManager.get('visual-art-types')
 
 # convert
-process_metadata(pd.read_csv(docs_file, dtype=str))
+raw_metadata = pd.read_csv(docs_file, dtype=str)
+raw_metadata.fillna('', inplace=True)
 
-Graph.g.serialize(destination=f"{out_folder}/figs.ttl")
-Graph.reset()
+batch_dim = 10000
+batches = np.arange(0, len(raw_metadata), batch_dim)
+for i, batch_start in enumerate(batches):
+    print(f'Batch {i+1}/{len(batches)}')
+    batch = raw_metadata.iloc[batch_start:batch_start + batch_dim, :]
+
+    process_metadata(batch)
+
+    Graph.g.serialize(destination=f"{out_folder}/figs_{i}.ttl")
+    Graph.reset()
 
 image_map = {}
 smell_map = {}

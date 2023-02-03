@@ -1,5 +1,6 @@
 import re
 import uuid
+import urllib.parse
 from os import path
 
 from rdflib import URIRef, RDF, RDFS, TIME, OWL
@@ -58,7 +59,7 @@ class Entity:
 
 class MiniEntity(Entity):
     def __init__(self, group, id, label, clas):
-        safe_id = re.sub(r'[à`|."]', '', re.sub(r'\s+', '_', id))[0:20]
+        safe_id = urllib.parse.quote(re.sub(r'\s+', '_', id)[0:40])
         self.uri = path.join(BASE, group, safe_id)
         self.res = URIRef(self.uri)
         self.add_label(label)

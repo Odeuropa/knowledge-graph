@@ -12,3 +12,4 @@ MONTHS = ["januar", "februar", "marec", "april", "maj", "junij", "julij", "avgus
 PART_OF_DAY = ["sončni vzhod", "dan", "jutro", "popoldne", "sončni zahod", "večer", "noč"]
 DAYS_OF_WEEK = ["ponedeljek", "torek", "sreda", "četrtek", "petek", "sobota", "nedelja"]
 SEASON = "sezona"
+CENTURY_PART = "(?i)((?:fir|1)st|(?:2|seco)nd|(?:3|thi)rd|fourth|last) (quarter|half|third),?(?: of(?: the)?)?"
