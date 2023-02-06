@@ -28,7 +28,7 @@ PROV_DESCR = 'Manual annotation of textual resources realised according to the O
 
 lang_map = {
     'English': 'en',
-    'en':'en',
+    'en': 'en',
     'French': 'fr',
     'fr': 'fr',
     'German': 'de',
@@ -204,7 +204,7 @@ def process_annotation_sheet(df, lang, codename):
                 experience.add_emotion(emot, typ.lower(), sentiment)
 
         used_words = get_multi(('Smell_Word', 'Smell_Source', 'Odour_Carrier', 'Perceiver', 'Quality', 'Effect',
-                                  'Evoked_Odorant', 'Location', 'Time', 'Emotion'), r)
+                                'Evoked_Odorant', 'Location', 'Time', 'Emotion'), r)
         frag.add_words(used_words, lang)
         frag.add_annotation(emission, prov)
         frag.add_annotation(smell, prov)
@@ -266,6 +266,8 @@ def process_metadata(lang, docs_file, intermediate_map, collection):
 
     for i, r in tqdm(df.iterrows(), total=df.shape[0]):
         identifier = r['id'].replace('.xml', '').replace('.txt', '')
+        if collection == 'eebo':
+            identifier = identifier.replace('/', '_')
         internal_id = r.get('identifiers', identifier)
 
         if intermediate_map is not None:
@@ -276,7 +278,6 @@ def process_metadata(lang, docs_file, intermediate_map, collection):
                 continue
         else:
             real_id = identifier
-
 
         if internal_id in internals:
             docs[real_id] = internals[internal_id]
@@ -289,7 +290,6 @@ def process_metadata(lang, docs_file, intermediate_map, collection):
             identifier = identifier.replace('/', '_')
             year = re.sub(r'[\[\]]', '.?', year)
             year = re.sub(r'-\??(?!\d)', '.', year)
-
 
         editor, edPlace = parse_editor(r.get('editor'), lang)
         publisher, place = parse_editor(r.get('publisher'), lang)
@@ -360,6 +360,7 @@ def process_metadata(lang, docs_file, intermediate_map, collection):
 
         docs[real_id] = (to, link)
         internals[internal_id] = (to, link)
+
 
 def process_metadata_ris(lang, ris_file, intermediate_map, collection):
     filename = path.split(ris_file)[-1]
