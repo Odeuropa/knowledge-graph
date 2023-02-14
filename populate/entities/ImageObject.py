@@ -18,7 +18,8 @@ class ImageObject(SourceDoc):
         self.set_class(CRM.E36_Visual_Item)
         self.add(SDO.image, url)
         # internal uri
-        self.add(SDO.image, f'https://data.odeuropa.eu/image/{_id}')
+        uri = re.sub(r'^imgs', '', _id)
+        self.add(SDO.image, f'https://data.odeuropa.eu/image/{uri}')
 
         self.physical = PhysicalObject(self.uri)
         self.add_place(place)
