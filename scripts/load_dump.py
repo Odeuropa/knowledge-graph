@@ -21,7 +21,7 @@ C_TYPE = {
 LANG_FINAL = r"_(it|en|de|nl|sl|fr)\d*$"
 
 
-def load_dump(name):
+def load_dump(name, keep_data=False):
     start = time.time()
     main_graph = path.join(BASE_GRAPH, name)
     folder = path.join(ROOT, name)
@@ -36,16 +36,17 @@ def load_dump(name):
     params = (('graph', main_graph),)
 
     if delete_graph:
-        print('Deleting graph...')
-        response = requests.delete(f'{base}/repositories/odeuropa/rdf-graphs/service',
-                                   headers=headers, params=params)
-        if response.status_code != 204:
-            print(response.status_code)
-            print(response.content)
-            return
-        end = time.time()
-        print('Graph Deleted | Elapsed time:', end - start)
-        start = end
+        if not keep_data:
+            print('Deleting graph...')
+            response = requests.delete(f'{base}/repositories/odeuropa/rdf-graphs/service',
+                                       headers=headers, params=params)
+            if response.status_code != 204:
+                print(response.status_code)
+                print(response.content)
+                return
+            end = time.time()
+            print('Graph Deleted | Elapsed time:', end - start)
+            start = end
 
     print('Uploading new resources...')
     # upload new resources
@@ -75,5 +76,6 @@ def load_dump(name):
 
 parser = argparse.ArgumentParser(description='Load dump in a graph.')
 parser.add_argument('name')
+parser.add_argument('-k', '--keep_data', description='Skip the deletion of the graph', action='store_true')
 args = parser.parse_args()
-load_dump(args.name)
+load_dump(args.name, args.keep_data)
