@@ -58,6 +58,6 @@ def load_vocabularies(keep_data=False):
 
 
 parser = argparse.ArgumentParser(description='Load dump in a graph.')
-parser.add_argument('-k', '--keep_data', description='Skip the deletion of the graph', action='store_true')
+parser.add_argument('-k', '--keep_data', help='Skip the deletion of the graph', action='store_true')
 args = parser.parse_args()
 load_vocabularies(args.keep_data)
