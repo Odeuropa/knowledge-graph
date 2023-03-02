@@ -1,4 +1,5 @@
 import json
+import math
 import os
 import re
 from os import path
@@ -15,7 +16,8 @@ from entities import *
 from entities.Graph import ODEUROPA_PROJECT
 from entities.vocabularies import VocabularyManager as VocManager
 
-docs_file = path.join('./', 'input', 'image-odor-dataset', 'metadata.csv')
+source_folder = path.join('./', 'input', 'image-odor-dataset')
+docs_file = path.join(source_folder, 'metadata.csv')
 out_folder = '../dump/image-annotation'
 os.makedirs(out_folder, exist_ok=True)
 
@@ -150,7 +152,7 @@ raw_metadata.fillna('', inplace=True)
 batch_dim = 10000
 batches = np.arange(0, len(raw_metadata), batch_dim)
 for i, batch_start in enumerate(batches):
-    print(f'Batch {i+1}/{len(batches)}')
+    print(f'Batch {i + 1}/{len(batches)}')
     batch = raw_metadata.iloc[batch_start:batch_start + batch_dim, :]
 
     process_metadata(batch)
@@ -158,8 +160,6 @@ for i, batch_start in enumerate(batches):
     Graph.g.serialize(destination=f"{out_folder}/figs_{i}.ttl")
     Graph.reset()
 
-image_map = {}
-smell_map = {}
 cat_map = {}
 
 BASE_OO = 'http://data.odeuropa.eu/vocabulary/olfactory-objects/'
@@ -167,6 +167,11 @@ BASE_OO = 'http://data.odeuropa.eu/vocabulary/olfactory-objects/'
 prov = Provenance('D2.4', 'Manual image annotation',
                   'Manual annotation of image resources realised according to the Odeuropa deliverable D2.4 '
                   '"Annotated image data version 2" ', ODEUROPA_PROJECT)
+prov_automatic = Provenance('D2.3', 'Automatic image annotation',
+                            'Automatic annotation of image resources realised according to the Odeuropa deliverable D2.3 '
+                            '"Object Detection/Image analysis version 1" ', ODEUROPA_PROJECT)
+prov_automatic.add_software('Detrex fork for the application on the ODOR dataset',
+                            'https://github.com/mathiaszinnen/detrex')
 
 
 def guess_annotation(body, seed):
@@ -184,57 +189,52 @@ def guess_annotation(body, seed):
 
 
 not_found = []
-with open('input/image-odor-dataset/annotations.json') as f:
-    res = json.load(f)
+done = []
 
-    for x in res['images']:
-        if x['file_name'] not in docs:
-            not_found.append(x['file_name'])
-            continue
-        img = docs[x['file_name']]
-        image_map[x['id']] = img
 
-        # init basic smell entities
-        # policy: 1 image = 1 smell
-        codename = 'image annotation'
-        curid = codename + str(x['id'])
+def init_base_smell_entities(id, img, smell_map, _prov):
+    # init basic smell entities
+    # policy: 1 image = 1 smell
+    codename = 'image annotation'
+    curid = codename + str(id)
 
-        smell = Smell(curid)
-        emission = SmellEmission(curid, smell)
-        experience = OlfactoryExperience(curid, smell)
-        emission.add_time(img.time, inferred=True)
-        experience.add_time(img.time, inferred=True)
-        img.add_annotation(smell, prov)
-        img.add_annotation(emission, prov)
-        img.add_annotation(experience, prov)
+    smell = Smell(curid)
+    emission = SmellEmission(curid, smell)
+    experience = OlfactoryExperience(curid, smell)
+    emission.add_time(img.time, inferred=True)
+    experience.add_time(img.time, inferred=True)
+    img.add_annotation(smell, _prov)
+    img.add_annotation(emission, _prov)
+    img.add_annotation(experience, _prov)
 
-        smell_map[x['id']] = (smell, emission, experience)
+    smell_map[id] = (smell, emission, experience)
+    return smell, emission, experience
 
-    print('Not found', not_found)
 
-    for x in res['categories']:
-        name = x['name'].replace('other ', '')
-        x['uri'], x['type'], x['voc'] = VocManager.interlink_multiple(name, 'en',
-                                                                      ['olfactory-objects', 'olfactory-gestures'])
-        if x['uri'] is None:
-            print('Missing in vocabularies:', x['name'], x['supercategory'])
-        elif x['voc'] == 'olfactory-gestures':
-            x['type'] = 'gesture'
-        cat_map[x['id']] = x
-
-    annotations = res['annotations']
-    sorted(annotations, key=lambda k: k['image_id'])
-
+def process_annotations(annotations, image_map, smell_map, automatic, _prov):
     for x in tqdm(annotations):
         image_id = x['image_id']
 
         if image_id not in image_map:
             continue
+
         cur_img = image_map[image_id]
+
+        # if an image has manual annotations, I ignore the automatic ones
+        # if an image miss manual annotations, I take the automatic
+        if automatic:
+            if cur_img.has_manual_annotations:
+                continue
+            if x['score'] < 0.3:
+                continue  # just to remove some noise
+        else:
+            cur_img.has_manual_annotations = True
+
         frag = cur_img.add_fragment(x['bbox'])
         ann = cat_map[x['category_id']]
         cat = guess_annotation(ann, 'image-annotation' + cur_img.title + str(x['id']))
-        smell, emission, experience = smell_map[image_id]
+        smell, emission, experience = init_base_smell_entities(x['id'], cur_img, smell_map, _prov)
+
         if isinstance(cat, Gesture):
             experience.add_gesture(cat)
         elif isinstance(cat, SmellSource) and cat.role == 'carrier':
@@ -242,9 +242,63 @@ with open('input/image-odor-dataset/annotations.json') as f:
         else:
             emission.add_source(cat)
 
-        frag.add_annotation(cat, prov)
+        frag.add_annotation(cat, _prov, x.get('score', 1))
 
-out = Graph.g.serialize(format='ttl')
-out = out.replace('"<<', '<<').replace('>>"', '>>')
-with open(f"{out_folder}/figs_annotated.ttl", 'w') as outfile:
-    outfile.write(out)
+
+iterator = 0
+
+
+def parse_annotations_file(json_file):
+    global iterator
+
+    automatic = 'automatic' in json_file
+    image_map = {}
+    smell_map = {}
+    _prov = prov_automatic if automatic else prov
+
+    with open(json_file) as f:
+        res = json.load(f)
+
+        for x in res['images']:
+            fname = x['file_name'].replace('/media/prathmeshmadhu/myhdd/odeuropa/annotations-nightly/mmodor_imgs/', '')
+            if fname not in docs:
+                not_found.append(fname)
+                continue
+
+            if x['id'] in image_map:
+                continue
+
+            img = docs[fname]
+            image_map[x['id']] = img
+
+        print('Eventual not found images: ', not_found)
+
+        for x in res['categories']:
+            name = x['name'].replace('other ', '')
+            x['uri'], x['type'], x['voc'] = VocManager.interlink_multiple(name, 'en',
+                                                                          ['olfactory-objects', 'olfactory-gestures'])
+            if x['uri'] is None:
+                print('Missing in vocabularies:', x['name'], x['supercategory'])
+            elif x['voc'] == 'olfactory-gestures':
+                x['type'] = 'gesture'
+            cat_map[x['id']] = x
+
+        annotations = res['annotations']
+        sorted(annotations, key=lambda k: k['image_id'])
+
+        # dividing in batches of 20K annotations
+        step = 20000
+        for i in np.arange(0, len(annotations) - 1, step):
+            print(f'Batch {int(i/step + 1)}/{math.ceil(len(annotations)/step)}')
+            process_annotations(annotations[i:i + step], image_map, smell_map, automatic, _prov)
+            out = Graph.g.serialize(format='ttl')
+            out = out.replace('"<<', '<<').replace('>>"', '>>')
+            with open(f"{out_folder}/figs_annotated_{iterator}.ttl", 'w') as outfile:
+                outfile.write(out)
+                iterator += 1
+            Graph.reset()
+
+
+for i, f in enumerate(['annotations.json', 'annotations_automatic.json']):
+    print('Parse ', f)
+    parse_annotations_file(path.join(source_folder, f))

@@ -3,7 +3,7 @@ import re
 import yaml
 import pandas as pd
 
-root = '/data/odeuropa/FR/gallica/'
+root = '/Users/pasquale/git/text_crawlers/gallica/gallica'
 
 meta = []
 for root, dirs, files in os.walk(root, topdown=False):

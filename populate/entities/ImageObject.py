@@ -24,6 +24,8 @@ class ImageObject(SourceDoc):
         self.physical = PhysicalObject(self.uri)
         self.add_place(place)
 
+        self.has_manual_annotations = False
+
     def add_fragment(self, bbox):
         frag = MediaFragment(self, bbox, self)
         self.add(MA.hasFragment, frag, self)
