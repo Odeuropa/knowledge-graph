@@ -193,8 +193,11 @@ done = []
 
 
 def init_base_smell_entities(id, img, smell_map, _prov):
-    # init basic smell entities
     # policy: 1 image = 1 smell
+    if id in smell_map:
+        return smell_map[id]
+
+    # init basic smell entities
     codename = 'image annotation'
     curid = codename + str(id)
 
@@ -233,7 +236,7 @@ def process_annotations(annotations, image_map, smell_map, automatic, _prov):
         frag = cur_img.add_fragment(x['bbox'])
         ann = cat_map[x['category_id']]
         cat = guess_annotation(ann, 'image-annotation' + cur_img.title + str(x['id']))
-        smell, emission, experience = init_base_smell_entities(x['id'], cur_img, smell_map, _prov)
+        smell, emission, experience = init_base_smell_entities(image_id, cur_img, smell_map, _prov)
 
         if isinstance(cat, Gesture):
             experience.add_gesture(cat)
@@ -286,10 +289,10 @@ def parse_annotations_file(json_file):
         annotations = res['annotations']
         sorted(annotations, key=lambda k: k['image_id'])
 
-        # dividing in batches of 20K annotations
-        step = 20000
+        # dividing in batches of 50K annotations
+        step = 50000
         for i in np.arange(0, len(annotations) - 1, step):
-            print(f'Batch {int(i/step + 1)}/{math.ceil(len(annotations)/step)}')
+            print(f'Batch {int(i / step + 1)}/{math.ceil(len(annotations) / step)}')
             process_annotations(annotations[i:i + step], image_map, smell_map, automatic, _prov)
             out = Graph.g.serialize(format='ttl')
             out = out.replace('"<<', '<<').replace('>>"', '>>')
