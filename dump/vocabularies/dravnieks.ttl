@@ -1,0 +1,782 @@
+@prefix dct: <http://purl.org/dc/terms/>.
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#>.
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#>.
+@prefix skos: <http://www.w3.org/2004/02/skos/core#>.
+@prefix dr: <http://data.odeuropa.eu/vocabulary/dravnieks/>.
+
+dr:
+    a skos:ConceptScheme;
+    dct:bibliographicCitation
+    "Andrew Dravnieks. Atlas of Odor Character Profiles, ASTM (1985)";
+    dct:created "1985"^^xsd:gYear;
+    dct:creator "Andrew Dravnieks";
+    rdfs:label "Dravnieks' decriptors"@en.
+dr:1
+    a skos:Concept;
+    skos:altLabel "Citrus"@en;
+    skos:inScheme dr:;
+    skos:prefLabel "Fruity, citrus"@en;
+    skos:topConceptOf dr: .
+dr:10
+    a skos:Concept;
+    skos:inScheme dr:;
+    skos:prefLabel "Pear"@en;
+    skos:topConceptOf dr: .
+dr:100
+    a skos:Concept;
+    skos:inScheme dr:;
+    skos:prefLabel "Creosote"@en;
+    skos:topConceptOf dr: .
+dr:101
+    a skos:Concept;
+    skos:altLabel "Carbolic"@en;
+    skos:inScheme dr:;
+    skos:prefLabel "Disinfectant"@en;
+    skos:topConceptOf dr: .
+dr:102
+    a skos:Concept;
+    skos:inScheme dr:;
+    skos:prefLabel "Medicinal"@en;
+    skos:topConceptOf dr: .
+dr:103
+    a skos:Concept;
+    skos:inScheme dr:;
+    skos:prefLabel "Chemical"@en;
+    skos:topConceptOf dr: .
+dr:104
+    a skos:Concept;
+    skos:inScheme dr:;
+    skos:prefLabel "Bitter"@en;
+    skos:topConceptOf dr: .
+dr:105
+    a skos:Concept;
+    skos:altLabel "Acid"@en, "Pungent"@en;
+    skos:inScheme dr:;
+    skos:prefLabel "Sharp"@en;
+    skos:topConceptOf dr: .
+dr:106
+    a skos:Concept;
+    skos:altLabel "Vinegar"@en;
+    skos:inScheme dr:;
+    skos:prefLabel "Sour"@en;
+    skos:topConceptOf dr: .
+dr:107
+    a skos:Concept;
+    skos:inScheme dr:;
+    skos:prefLabel "Sauerkraut"@en;
+    skos:topConceptOf dr: .
+dr:108
+    a skos:Concept;
+    skos:inScheme dr:;
+    skos:prefLabel "Ammonia"@en;
+    skos:topConceptOf dr: .
+dr:109
+    a skos:Concept;
+    skos:inScheme dr:;
+    skos:prefLabel "Urine"@en;
+    skos:topConceptOf dr: .
+dr:11
+    a skos:Concept;
+    skos:altLabel "Honey dew melon"@en;
+    skos:inScheme dr:;
+    skos:prefLabel "Cantaloupe"@en;
+    skos:topConceptOf dr: .
+dr:110
+    a skos:Concept;
+    skos:inScheme dr:;
+    skos:prefLabel "Cat urine"@en;
+    skos:topConceptOf dr: .
+dr:111
+    a skos:Concept;
+    skos:inScheme dr:;
+    skos:prefLabel "Fishy"@en;
+    skos:topConceptOf dr: .
+dr:112
+    a skos:Concept;
+    skos:altLabel "Smoked fish"@en;
+    skos:inScheme dr:;
+    skos:prefLabel "Kippery"@en;
+    skos:topConceptOf dr: .
+dr:113
+    a skos:Concept;
+    skos:altLabel "Sperm-like"@en;
+    skos:inScheme dr:;
+    skos:prefLabel "Seminal"@en;
+    skos:topConceptOf dr: .
+dr:114
+    a skos:Concept;
+    skos:inScheme dr:;
+    skos:prefLabel "New rubber"@en;
+    skos:topConceptOf dr: .
+dr:115
+    a skos:Concept;
+    skos:inScheme dr:;
+    skos:prefLabel "Sooty"@en;
+    skos:topConceptOf dr: .
+dr:116
+    a skos:Concept;
+    skos:inScheme dr:;
+    skos:prefLabel "Burnt"@en;
+    skos:topConceptOf dr: .
+dr:117
+    a skos:Concept;
+    skos:inScheme dr:;
+    skos:prefLabel "Kerosene"@en;
+    skos:topConceptOf dr: .
+dr:118
+    a skos:Concept;
+    skos:altLabel "Fatty"@en;
+    skos:inScheme dr:;
+    skos:prefLabel "Oily"@en;
+    skos:topConceptOf dr: .
+dr:119
+    a skos:Concept;
+    skos:altLabel "Fresh butter"@en;
+    skos:inScheme dr:;
+    skos:prefLabel "Buttery"@en;
+    skos:topConceptOf dr: .
+dr:12
+    a skos:Concept;
+    skos:definition "Fruit"@en;
+    skos:inScheme dr:;
+    skos:prefLabel "Peach"@en;
+    skos:topConceptOf dr: .
+dr:120
+    a skos:Concept;
+    skos:inScheme dr:;
+    skos:prefLabel "Paint"@en;
+    skos:topConceptOf dr: .
+dr:121
+    a skos:Concept;
+    skos:inScheme dr:;
+    skos:prefLabel "Varnish"@en;
+    skos:topConceptOf dr: .
+dr:122
+    a skos:Concept;
+    skos:inScheme dr:;
+    skos:prefLabel "Popcorn"@en;
+    skos:topConceptOf dr: .
+dr:123
+    a skos:Concept;
+    skos:inScheme dr:;
+    skos:prefLabel "Fried chicken"@en;
+    skos:topConceptOf dr: .
+dr:124
+    a skos:Concept;
+    skos:definition "cooked, good"@en;
+    skos:inScheme dr:;
+    skos:prefLabel "Meaty"@en;
+    skos:topConceptOf dr: .
+dr:125
+    a skos:Concept;
+    skos:inScheme dr:;
+    skos:prefLabel "Soupy"@en;
+    skos:topConceptOf dr: .
+dr:126
+    a skos:Concept;
+    skos:inScheme dr:;
+    skos:prefLabel "Cooked vegetables"@en;
+    skos:topConceptOf dr: .
+dr:127
+    a skos:Concept;
+    skos:inScheme dr:;
+    skos:prefLabel "Rancid"@en;
+    skos:topConceptOf dr: .
+dr:128
+    a skos:Concept;
+    skos:inScheme dr:;
+    skos:prefLabel "Sweaty"@en;
+    skos:topConceptOf dr: .
+dr:129
+    a skos:Concept;
+    skos:inScheme dr:;
+    skos:prefLabel "Cheesy"@en;
+    skos:topConceptOf dr: .
+dr:13
+    a skos:Concept;
+    skos:inScheme dr:;
+    skos:prefLabel "Banana"@en;
+    skos:topConceptOf dr: .
+dr:130
+    a skos:Concept;
+    skos:inScheme dr:;
+    skos:prefLabel "Household gas"@en;
+    skos:topConceptOf dr: .
+dr:131
+    a skos:Concept;
+    skos:inScheme dr:;
+    skos:prefLabel "Sulfidic"@en;
+    skos:topConceptOf dr: .
+dr:132
+    a skos:Concept;
+    skos:altLabel "Onion"@en;
+    skos:inScheme dr:;
+    skos:prefLabel "Garlic"@en;
+    skos:topConceptOf dr: .
+dr:133
+    a skos:Concept;
+    skos:inScheme dr:;
+    skos:prefLabel "Metallic"@en;
+    skos:topConceptOf dr: .
+dr:134
+    a skos:Concept;
+    skos:altLabel "Raw meat"@en;
+    skos:inScheme dr:;
+    skos:prefLabel "Blood"@en;
+    skos:topConceptOf dr: .
+dr:135
+    a skos:Concept;
+    skos:inScheme dr:;
+    skos:prefLabel "Animal"@en;
+    skos:topConceptOf dr: .
+dr:136
+    a skos:Concept;
+    skos:inScheme dr:;
+    skos:prefLabel "Sewer"@en;
+    skos:topConceptOf dr: .
+dr:137
+    a skos:Concept;
+    skos:altLabel "Decayed"@en, "Foul"@en;
+    skos:inScheme dr:;
+    skos:prefLabel "Putrid"@en;
+    skos:topConceptOf dr: .
+dr:138
+    a skos:Concept;
+    skos:definition "like manure"@en;
+    skos:inScheme dr:;
+    skos:prefLabel "Fecal"@en;
+    skos:topConceptOf dr: .
+dr:139
+    a skos:Concept;
+    skos:altLabel "Dead animal"@en;
+    skos:inScheme dr:;
+    skos:prefLabel "Cadaverous"@en;
+    skos:topConceptOf dr: .
+dr:14
+    a skos:Concept;
+    skos:inScheme dr:;
+    skos:prefLabel "Floral"@en;
+    skos:topConceptOf dr: .
+dr:140
+    a skos:Concept;
+    skos:inScheme dr:;
+    skos:prefLabel "Sickening"@en;
+    skos:topConceptOf dr: .
+dr:141
+    a skos:Concept;
+    skos:altLabel "Powdery"@en;
+    skos:inScheme dr:;
+    skos:prefLabel "Dry"@en;
+    skos:topConceptOf dr: .
+dr:142
+    a skos:Concept;
+    skos:inScheme dr:;
+    skos:prefLabel "Chalky"@en;
+    skos:topConceptOf dr: .
+dr:143
+    a skos:Concept;
+    skos:inScheme dr:;
+    skos:prefLabel "Light"@en;
+    skos:topConceptOf dr: .
+dr:144
+    a skos:Concept;
+    skos:inScheme dr:;
+    skos:prefLabel "Heavy"@en;
+    skos:topConceptOf dr: .
+dr:145
+    a skos:Concept;
+    skos:altLabel "Cooling"@en;
+    skos:inScheme dr:;
+    skos:prefLabel "Cool"@en;
+    skos:topConceptOf dr: .
+dr:146
+    a skos:Concept;
+    skos:inScheme dr:;
+    skos:prefLabel "Warm"@en;
+    skos:topConceptOf dr: .
+dr:15
+    a skos:Concept;
+    skos:inScheme dr:;
+    skos:prefLabel "Rose"@en;
+    skos:topConceptOf dr: .
+dr:16
+    a skos:Concept;
+    skos:inScheme dr:;
+    skos:prefLabel "Violets"@en;
+    skos:topConceptOf dr: .
+dr:17
+    a skos:Concept;
+    skos:inScheme dr:;
+    skos:prefLabel "Lavender"@en;
+    skos:topConceptOf dr: .
+dr:18
+    a skos:Concept;
+    skos:inScheme dr:;
+    skos:prefLabel "Cologne"@en;
+    skos:topConceptOf dr: .
+dr:19
+    a skos:Concept;
+    skos:inScheme dr:;
+    skos:prefLabel "Musk"@en;
+    skos:topConceptOf dr: .
+dr:2
+    a skos:Concept;
+    skos:inScheme dr:;
+    skos:prefLabel "Lemon"@en;
+    skos:topConceptOf dr: .
+dr:20
+    a skos:Concept;
+    skos:inScheme dr:;
+    skos:prefLabel "Perfumery"@en;
+    skos:topConceptOf dr: .
+dr:21
+    a skos:Concept;
+    skos:inScheme dr:;
+    skos:prefLabel "Fragrant"@en;
+    skos:topConceptOf dr: .
+dr:22
+    a skos:Concept;
+    skos:inScheme dr:;
+    skos:prefLabel "Aromatic"@en;
+    skos:topConceptOf dr: .
+dr:23
+    a skos:Concept;
+    skos:inScheme dr:;
+    skos:prefLabel "Honey"@en;
+    skos:topConceptOf dr: .
+dr:24
+    a skos:Concept;
+    skos:definition "Berry"@en;
+    skos:inScheme dr:;
+    skos:prefLabel "Cherry"@en;
+    skos:topConceptOf dr: .
+dr:25
+    a skos:Concept;
+    skos:inScheme dr:;
+    skos:prefLabel "Almond"@en;
+    skos:topConceptOf dr: .
+dr:26
+    a skos:Concept;
+    skos:inScheme dr:;
+    skos:prefLabel "Nail polish remover"@en;
+    skos:topConceptOf dr: .
+dr:27
+    a skos:Concept;
+    skos:definition "Walnut, etc."@en;
+    skos:inScheme dr:;
+    skos:prefLabel "Nutty"@en;
+    skos:topConceptOf dr: .
+dr:28
+    a skos:Concept;
+    skos:inScheme dr:;
+    skos:prefLabel "Spicy"@en;
+    skos:topConceptOf dr: .
+dr:29
+    a skos:Concept;
+    skos:inScheme dr:;
+    skos:prefLabel "Clove"@en;
+    skos:topConceptOf dr: .
+dr:3
+    a skos:Concept;
+    skos:inScheme dr:;
+    skos:prefLabel "Grapefruit"@en;
+    skos:topConceptOf dr: .
+dr:30
+    a skos:Concept;
+    skos:inScheme dr:;
+    skos:prefLabel "Cinnamon"@en;
+    skos:topConceptOf dr: .
+dr:31
+    a skos:Concept;
+    skos:inScheme dr:;
+    skos:prefLabel "Laurel leaves"@en;
+    skos:topConceptOf dr: .
+dr:32
+    a skos:Concept;
+    skos:inScheme dr:;
+    skos:prefLabel "Tea leaves"@en;
+    skos:topConceptOf dr: .
+dr:33
+    a skos:Concept;
+    skos:definition "For meat"@en;
+    skos:inScheme dr:;
+    skos:prefLabel "Seasoning"@en;
+    skos:topConceptOf dr: .
+dr:34
+    a skos:Concept;
+    skos:inScheme dr:;
+    skos:prefLabel "Black pepper"@en;
+    skos:topConceptOf dr: .
+dr:35
+    a skos:Concept;
+    skos:inScheme dr:;
+    skos:prefLabel "Green pepper"@en;
+    skos:topConceptOf dr: .
+dr:36
+    a skos:Concept;
+    skos:inScheme dr:;
+    skos:prefLabel "Dill"@en;
+    skos:topConceptOf dr: .
+dr:37
+    a skos:Concept;
+    skos:inScheme dr:;
+    skos:prefLabel "Caraway"@en;
+    skos:topConceptOf dr: .
+dr:38
+    a skos:Concept;
+    skos:altLabel "Cognac"@en;
+    skos:inScheme dr:;
+    skos:prefLabel "Oak wood"@en;
+    skos:topConceptOf dr: .
+dr:39
+    a skos:Concept;
+    skos:altLabel "Resinous"@en;
+    skos:inScheme dr:;
+    skos:prefLabel "Woody"@en;
+    skos:topConceptOf dr: .
+dr:4
+    a skos:Concept;
+    skos:inScheme dr:;
+    skos:prefLabel "Orange"@en;
+    skos:topConceptOf dr: .
+dr:40
+    a skos:Concept;
+    skos:inScheme dr:;
+    skos:prefLabel "Cedarwood"@en;
+    skos:topConceptOf dr: .
+dr:41
+    a skos:Concept;
+    skos:inScheme dr:;
+    skos:prefLabel "Mothballs"@en;
+    skos:topConceptOf dr: .
+dr:42
+    a skos:Concept;
+    skos:altLabel "Peppermint"@en;
+    skos:inScheme dr:;
+    skos:prefLabel "Minty"@en;
+    skos:topConceptOf dr: .
+dr:43
+    a skos:Concept;
+    skos:inScheme dr:;
+    skos:prefLabel "Camphor"@en;
+    skos:topConceptOf dr: .
+dr:44
+    a skos:Concept;
+    skos:inScheme dr:;
+    skos:prefLabel "Eucaliptus"@en;
+    skos:topConceptOf dr: .
+dr:45
+    a skos:Concept;
+    skos:inScheme dr:;
+    skos:prefLabel "Chocolate"@en;
+    skos:topConceptOf dr: .
+dr:46
+    a skos:Concept;
+    skos:inScheme dr:;
+    skos:prefLabel "Vanilla"@en;
+    skos:topConceptOf dr: .
+dr:47
+    a skos:Concept;
+    skos:inScheme dr:;
+    skos:prefLabel "Sweet"@en;
+    skos:topConceptOf dr: .
+dr:48
+    a skos:Concept;
+    skos:inScheme dr:;
+    skos:prefLabel "Maple syrup"@en;
+    skos:topConceptOf dr: .
+dr:49
+    a skos:Concept;
+    skos:inScheme dr:;
+    skos:prefLabel "Caramel"@en;
+    skos:topConceptOf dr: .
+dr:5
+    a skos:Concept;
+    skos:altLabel "Fruity"@en;
+    skos:inScheme dr:;
+    skos:prefLabel "Fruity, other than citrus"@en;
+    skos:topConceptOf dr: .
+dr:50
+    a skos:Concept;
+    skos:inScheme dr:;
+    skos:prefLabel "Malty"@en;
+    skos:topConceptOf dr: .
+dr:51
+    a skos:Concept;
+    skos:inScheme dr:;
+    skos:prefLabel "Raisins"@en;
+    skos:topConceptOf dr: .
+dr:52
+    a skos:Concept;
+    skos:inScheme dr:;
+    skos:prefLabel "Molasses"@en;
+    skos:topConceptOf dr: .
+dr:53
+    a skos:Concept;
+    skos:inScheme dr:;
+    skos:prefLabel "Coconut"@en;
+    skos:topConceptOf dr: .
+dr:54
+    a skos:Concept;
+    skos:altLabel "Licorice"@en;
+    skos:inScheme dr:;
+    skos:prefLabel "Anise"@en;
+    skos:topConceptOf dr: .
+dr:55
+    a skos:Concept;
+    skos:inScheme dr:;
+    skos:prefLabel "Alcoholic"@en;
+    skos:topConceptOf dr: .
+dr:56
+    a skos:Concept;
+    skos:altLabel "Anaesthetic"@en;
+    skos:inScheme dr:;
+    skos:prefLabel "Etherish"@en;
+    skos:topConceptOf dr: .
+dr:57
+    a skos:Concept;
+    skos:inScheme dr:;
+    skos:prefLabel "Cleaning fluid"@en;
+    skos:topConceptOf dr: .
+dr:58
+    a skos:Concept;
+    skos:altLabel "Solvent"@en;
+    skos:inScheme dr:;
+    skos:prefLabel "Gasoline"@en;
+    skos:topConceptOf dr: .
+dr:59
+    a skos:Concept;
+    skos:altLabel "Pine oil"@en;
+    skos:inScheme dr:;
+    skos:prefLabel "Turpentine"@en;
+    skos:topConceptOf dr: .
+dr:6
+    a skos:Concept;
+    skos:inScheme dr:;
+    skos:prefLabel "Pineapple"@en;
+    skos:topConceptOf dr: .
+dr:60
+    a skos:Concept;
+    skos:inScheme dr:;
+    skos:prefLabel "Geranium leaves"@en;
+    skos:topConceptOf dr: .
+dr:61
+    a skos:Concept;
+    skos:inScheme dr:;
+    skos:prefLabel "Celery"@en;
+    skos:topConceptOf dr: .
+dr:62
+    a skos:Concept;
+    skos:inScheme dr:;
+    skos:prefLabel "Fresh green vegetables"@en;
+    skos:topConceptOf dr: .
+dr:63
+    a skos:Concept;
+    skos:inScheme dr:;
+    skos:prefLabel "Crushed weeds"@en;
+    skos:topConceptOf dr: .
+dr:64
+    a skos:Concept;
+    skos:inScheme dr:;
+    skos:prefLabel "Crushed grass"@en;
+    skos:topConceptOf dr: .
+dr:65
+    a skos:Concept;
+    skos:altLabel "Cut grass"@en, "Green"@en;
+    skos:inScheme dr:;
+    skos:prefLabel "Herbal"@en;
+    skos:topConceptOf dr: .
+dr:66
+    a skos:Concept;
+    skos:inScheme dr:;
+    skos:prefLabel "Raw cucumber"@en;
+    skos:topConceptOf dr: .
+dr:67
+    a skos:Concept;
+    skos:inScheme dr:;
+    skos:prefLabel "Hay"@en;
+    skos:topConceptOf dr: .
+dr:68
+    a skos:Concept;
+    skos:definition "As grain"@en;
+    skos:inScheme dr:;
+    skos:prefLabel "Grainy"@en;
+    skos:topConceptOf dr: .
+dr:69
+    a skos:Concept;
+    skos:inScheme dr:;
+    skos:prefLabel "Yeasty"@en;
+    skos:topConceptOf dr: .
+dr:7
+    a skos:Concept;
+    skos:inScheme dr:;
+    skos:prefLabel "Grape juice"@en;
+    skos:topConceptOf dr: .
+dr:70
+    a skos:Concept;
+    skos:altLabel "Fresh bread"@en;
+    skos:inScheme dr:;
+    skos:prefLabel "Bakery"@en;
+    skos:topConceptOf dr: .
+dr:71
+    a skos:Concept;
+    skos:inScheme dr:;
+    skos:prefLabel "Sour milk"@en;
+    skos:topConceptOf dr: .
+dr:72
+    a skos:Concept;
+    skos:altLabel "Rotten fruit"@en;
+    skos:inScheme dr:;
+    skos:prefLabel "Fermented fruit"@en;
+    skos:topConceptOf dr: .
+dr:73
+    a skos:Concept;
+    skos:inScheme dr:;
+    skos:prefLabel "Beery"@en;
+    skos:topConceptOf dr: .
+dr:74
+    a skos:Concept;
+    skos:inScheme dr:;
+    skos:prefLabel "Soapy"@en;
+    skos:topConceptOf dr: .
+dr:75
+    a skos:Concept;
+    skos:inScheme dr:;
+    skos:prefLabel "Leather"@en;
+    skos:topConceptOf dr: .
+dr:76
+    a skos:Concept;
+    skos:inScheme dr:;
+    skos:prefLabel "Cardboard"@en;
+    skos:topConceptOf dr: .
+dr:77
+    a skos:Concept;
+    skos:inScheme dr:;
+    skos:prefLabel "Rope"@en;
+    skos:topConceptOf dr: .
+dr:78
+    a skos:Concept;
+    skos:inScheme dr:;
+    skos:prefLabel "Wet paper"@en;
+    skos:topConceptOf dr: .
+dr:79
+    a skos:Concept;
+    skos:altLabel "Wet dog"@en;
+    skos:inScheme dr:;
+    skos:prefLabel "Wet wool"@en;
+    skos:topConceptOf dr: .
+dr:8
+    a skos:Concept;
+    skos:inScheme dr:;
+    skos:prefLabel "Strawberry"@en;
+    skos:topConceptOf dr: .
+dr:80
+    a skos:Concept;
+    skos:inScheme dr:;
+    skos:prefLabel "Dirty linen"@en;
+    skos:topConceptOf dr: .
+dr:81
+    a skos:Concept;
+    skos:inScheme dr:;
+    skos:prefLabel "Stale"@en;
+    skos:topConceptOf dr: .
+dr:82
+    a skos:Concept;
+    skos:altLabel "Earthy"@en, "Moldy"@en;
+    skos:inScheme dr:;
+    skos:prefLabel "Musty"@en;
+    skos:topConceptOf dr: .
+dr:83
+    a skos:Concept;
+    skos:inScheme dr:;
+    skos:prefLabel "Raw potato"@en;
+    skos:topConceptOf dr: .
+dr:84
+    a skos:Concept;
+    skos:inScheme dr:;
+    skos:prefLabel "Mouse"@en;
+    skos:topConceptOf dr: .
+dr:85
+    a skos:Concept;
+    skos:inScheme dr:;
+    skos:prefLabel "Mushroom"@en;
+    skos:topConceptOf dr: .
+dr:86
+    a skos:Concept;
+    skos:inScheme dr:;
+    skos:prefLabel "Peanut butter"@en;
+    skos:topConceptOf dr: .
+dr:87
+    a skos:Concept;
+    skos:inScheme dr:;
+    skos:prefLabel "Beany"@en;
+    skos:topConceptOf dr: .
+dr:88
+    a skos:Concept;
+    skos:altLabel "Fresh eggs"@en;
+    skos:inScheme dr:;
+    skos:prefLabel "Eggy"@en;
+    skos:topConceptOf dr: .
+dr:89
+    a skos:Concept;
+    skos:altLabel "Birch bark"@en;
+    skos:inScheme dr:;
+    skos:prefLabel "Bark"@en;
+    skos:topConceptOf dr: .
+dr:9
+    a skos:Concept;
+    skos:definition "Fruit"@en;
+    skos:inScheme dr:;
+    skos:prefLabel "Apple"@en;
+    skos:topConceptOf dr: .
+dr:90
+    a skos:Concept;
+    skos:inScheme dr:;
+    skos:prefLabel "Cork"@en;
+    skos:topConceptOf dr: .
+dr:91
+    a skos:Concept;
+    skos:altLabel "Smoky"@en;
+    skos:inScheme dr:;
+    skos:prefLabel "Burnt"@en;
+    skos:topConceptOf dr: .
+dr:92
+    a skos:Concept;
+    skos:inScheme dr:;
+    skos:prefLabel "Fresh tobacco smoke"@en;
+    skos:topConceptOf dr: .
+dr:93
+    a skos:Concept;
+    skos:inScheme dr:;
+    skos:prefLabel "Incense"@en;
+    skos:topConceptOf dr: .
+dr:94
+    a skos:Concept;
+    skos:inScheme dr:;
+    skos:prefLabel "Coffee"@en;
+    skos:topConceptOf dr: .
+dr:95
+    a skos:Concept;
+    skos:inScheme dr:;
+    skos:prefLabel "Stale tobacco smoke"@en;
+    skos:topConceptOf dr: .
+dr:96
+    a skos:Concept;
+    skos:inScheme dr:;
+    skos:prefLabel "Burnt paper"@en;
+    skos:topConceptOf dr: .
+dr:97
+    a skos:Concept;
+    skos:inScheme dr:;
+    skos:prefLabel "Burnt milk"@en;
+    skos:topConceptOf dr: .
+dr:98
+    a skos:Concept;
+    skos:inScheme dr:;
+    skos:prefLabel "Burnt rubber"@en;
+    skos:topConceptOf dr: .
+dr:99
+    a skos:Concept;
+    skos:inScheme dr:;
+    skos:prefLabel "Tar"@en;
+    skos:topConceptOf dr: .

@@ -1,17 +1,22 @@
 import os
 import re
 import yaml
+from tqdm import tqdm
 import pandas as pd
 
-root = '/Users/pasquale/git/text_crawlers/gallica/gallica'
+root = '/data/odeuropa/FR/gallica'
 
 meta = []
+to_process = []
 for root, dirs, files in os.walk(root, topdown=False):
     for name in files:
         if not name.endswith('yaml'):
             continue
         id = name.replace('yaml', 'txt')
-        print(id)
+        # print(id)
+        to_process.append((name, id))
+
+for name, id in tqdm(to_process):
         with open(os.path.join(root, name), 'r') as f:
             data = yaml.load(f, Loader=yaml.CLoader)
         out = {
