@@ -362,6 +362,28 @@
         void:dataDump <https://github.com/Odeuropa/vocabularies/blob/main/vocabularies/vdi-intensity.ttl> ;
         skosmos:sparqlGraph <http://data.odeuropa.eu/vocabulary/vdi-intensity> .
 
+:dravnieks a skosmos:Vocabulary, void:Dataset ;
+        dc:title "Dravnieks' Atlas of Odors descriptors" ;
+        dc:subject :classification ;
+        dc:type mdrtype:THESAURUS ;
+        void:uriSpace "http://data.odeuropa.eu/vocabulary/dravnieks/";
+        skosmos:language "en";
+        skosmos:fallbackLanguages "en";
+        skosmos:defaultLanguage "en" ;
+        skosmos:groupClass skos:Collection ;
+        skosmos:hasMultiLingualProperty dc:bibliographicCitation, skos:definition ;
+        skosmos:showDeprecated "true" ;
+        skosmos:shortName "Dravnieks' descriptors";
+        skosmos:showChangeList "false" ;
+        skosmos:showNotation "true" ;
+        skosmos:loadExternalResources "true" ;
+        skosmos:showTopConcepts "true" ;
+        skosmos:externalProperty owl:sameAs, skos:closeMatch, skos:exactMatch;
+        skosmos:mainConceptScheme <http://data.odeuropa.eu/vocabulary/dravnieks> ;
+        void:sparqlEndpoint <https://data.odeuropa.eu/repositories/odeuropa> ;
+        void:dataDump <https://github.com/Odeuropa/vocabularies/blob/main/vocabularies/dravnieks.ttl> ;
+        skosmos:sparqlGraph <http://data.odeuropa.eu/vocabulary/dravnieks> .
+
 :cat_general a skos:Concept;
   skos:prefLabel "Vocabularies"@en, "Vocabulaires"@fr, "Vocabulari"@it,
           "Vocabulaires"@nl, "Vokabularien"@de, "Slovarji"@sl.
