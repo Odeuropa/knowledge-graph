@@ -679,7 +679,8 @@ olf:139 a skos:Concept ;
     skos:prefLabel "Organic waste"@en,
         "Déchets organiques"@fr,
         "Rifiuti organici"@it,
-        "Groen afval"@nl ;
+        "Groen afval"@nl,
+        "Organski odpadki"@sl ;
     skos:topConceptOf voc:olfactory-objects .
 
 olf:18 a skos:Concept ;
@@ -703,10 +704,12 @@ olf:18 a skos:Concept ;
     schema:image <https://commons.wikimedia.org/wiki/Special:FilePath/Nlm%20nlmuid-101704898-img%20%2825392882207%29.jpg> .
 
 olf:426 a skos:Concept ;
+    skos:altLabel "Agarwood"@sl ;
     skos:definition "Tropische houtsoort. Arendshout. Is een vast, hard, zwaer, graeuw, bruin of zwart, en harstachtig hout, dat een' lieflyken … reuk van zich geeft, als men het by 't vuur houd of brand,   lemery-v. putten, Wdb. d. Droogeryen 397 b [1743]."@nl ;
     skos:inScheme voc:olfactory-objects ;
     skos:prefLabel "Lignum Aquilae"@en,
-        "Arendshout"@nl ;
+        "Arendshout"@nl,
+        "Agarski les"@sl ;
     skos:topConceptOf voc:olfactory-objects .
 
 olf:434 a skos:Concept ;
@@ -726,25 +729,29 @@ olf:434 a skos:Concept ;
 
 olf:537 a skos:Concept ;
     owl:sameAs wd:Q13428325 ;
+    skos:altLabel "Dah"@sl ;
     skos:broader olf:533 ;
     skos:inScheme voc:olfactory-objects ;
     skos:prefLabel "Breath"@en,
         "Haleine"@fr,
         "Respiro"@it,
-        "Adem"@nl ;
+        "Adem"@nl,
+        "Sapa"@sl ;
     skos:topConceptOf voc:olfactory-objects .
 
 olf:576 a skos:Concept ;
     owl:sameAs wd:Q1412822 ;
     skos:altLabel "Stein"@en,
-        "Schoppe"@fr ;
+        "Schoppe"@fr,
+        "Pivski vrč"@sl ;
     skos:broader olf:448 ;
     skos:inScheme voc:olfactory-objects ;
     skos:prefLabel "Humpen"@de,
         "Beer stein"@en,
         "Chope"@fr,
         "Boccale"@it,
-        "Bierpul"@nl ;
+        "Bierpul"@nl,
+        "Vrč za pivo"@sl ;
     skos:topConceptOf voc:olfactory-objects ;
     schema:image <https://commons.wikimedia.org/wiki/Special:FilePath/Pot%20à%20bière%20allemand%201895%20adieux%20à%20la%20soubrette.jpg> .
 
@@ -756,7 +763,8 @@ olf:74 a skos:Concept ;
     skos:prefLabel "Oakmoss"@en,
         "Mousse de chêne"@fr,
         "Muschio di quercia"@it,
-        "Eikenmos"@nl ;
+        "Eikenmos"@nl,
+        "Evernia prunastri"@sl ;
     skos:topConceptOf voc:olfactory-objects ;
     schema:image <https://data.odeuropa.eu/image/ss/74.Oakmoss_COllecieNederland_imageproxy.ashx.jpeg> .
 
@@ -776,19 +784,6 @@ olf:12 a skos:Concept ;
         "Lekcije anatomije"@sl ;
     skos:related olf:23 ;
     skos:topConceptOf voc:olfactory-objects .
-
-olf:144 a skos:Concept ;
-    skos:broader olf:554 ;
-    skos:inScheme voc:olfactory-objects ;
-    skos:narrower olf:179 ;
-    skos:prefLabel "Lamp"@en .
-
-olf:158 a skos:Concept ;
-    dct:bibliographicCitation "Tobacco-packaging"@en ;
-    skos:broader olf:554 ;
-    skos:inScheme voc:olfactory-objects ;
-    skos:prefLabel "Tobacco packaging"@en ;
-    skos:related olf:227 .
 
 olf:173 a skos:Concept ;
     skos:altLabel "Scent trail"@en,
@@ -1264,7 +1259,8 @@ olf:402 a skos:Concept ;
         olf:560 ;
     skos:inScheme voc:olfactory-objects ;
     skos:prefLabel "Nitre plant"@en,
-        "Salpeterfabriek"@nl ;
+        "Salpeterfabriek"@nl,
+        "Nitraria"@sl ;
     skos:topConceptOf voc:olfactory-objects .
 
 olf:411 a skos:Concept ;
@@ -1292,25 +1288,30 @@ olf:411 a skos:Concept ;
     schema:image <https://commons.wikimedia.org/wiki/Special:FilePath/Cinnamomum%20aromaticum%20-%20Köhler–s%20Medizinal-Pflanzen-039%20cropped.jpg> .
 
 olf:413 a skos:Concept ;
+    skos:altLabel "Zadah"@sl,
+        "zaudarjanje"@sl ;
     skos:broader olf:563 ;
     skos:inScheme voc:olfactory-objects ;
     skos:narrower olf:238 ;
     skos:prefLabel "Malodor"@en,
         "Mauvais odeur"@fr,
         "Cattivo odore"@it,
-        "Stank"@nl ;
+        "Stank"@nl,
+        "Smrad"@sl ;
     skos:topConceptOf voc:olfactory-objects .
 
 olf:424 a skos:Concept ;
     owl:sameAs wd:Q4087 ;
-    skos:altLabel "Ammonia"@nl ;
+    skos:altLabel "Ammonia"@nl,
+        "Amoniak"@sl ;
     skos:broader olf:562 ;
     skos:definition "Ammonia … NHᴅ, is een kleurloos gas, van een zeer prikkelenden reuk, hetwelk rood lakmoespapier blauw kleurt,;  De ammoniak is een gas, dat gemakkelijk te herkennen is aan zijnen uitermate prikkelenden, eigendommelijken reuk; Door rotting van organische stoffen (faeces, urine, e.a.) ontstaat ammoniak"@nl ;
     skos:inScheme voc:olfactory-objects ;
     skos:prefLabel "Ammonia"@en,
         "Ammoniac"@fr,
         "Ammoniaca"@it,
-        "Ammoniak"@nl ;
+        "Ammoniak"@nl,
+        "Amonijak"@sl ;
     skos:topConceptOf voc:olfactory-objects ;
     schema:image <https://data.odeuropa.eu/image/ss/424.Ammonia.jpeg> .
 
@@ -1322,7 +1323,8 @@ olf:425 a skos:Concept ;
     skos:prefLabel "Magnolia"@en,
         "Magnolia"@fr,
         "Magnolia"@it,
-        "Magnolia"@nl ;
+        "Magnolia"@nl,
+        "Magnolija"@sl ;
     skos:topConceptOf voc:olfactory-objects ;
     schema:image <https://commons.wikimedia.org/wiki/Special:FilePath/Magnolia%20wieseneri.jpg> .
 
@@ -1342,7 +1344,8 @@ olf:435 a skos:Concept ;
         "Water mint"@en,
         "Menthe aquatique"@fr,
         "Menta d'acqua"@it,
-        "Bruinheilig"@nl ;
+        "Bruinheilig"@nl,
+        "Vodna meta"@sl ;
     skos:topConceptOf voc:olfactory-objects ;
     schema:image <https://commons.wikimedia.org/wiki/Special:FilePath/Mentha%20aquatica%2002.jpg> .
 
@@ -1380,7 +1383,8 @@ olf:482 a skos:Concept ;
     skos:prefLabel "Dahlia"@en,
         "Dahlia"@fr,
         "Dalia"@it,
-        "Dahlia"@nl ;
+        "Dahlia"@nl,
+        "Dalija"@sl ;
     skos:topConceptOf voc:olfactory-objects ;
     schema:image <https://commons.wikimedia.org/wiki/Special:FilePath/DahliaDahlstarSunsetPink.jpg> .
 
@@ -1392,31 +1396,36 @@ olf:483 a skos:Concept ;
     skos:prefLabel "Orange"@en,
         "Orange"@fr,
         "Arancia"@it,
-        "Sinaasappel"@nl ;
+        "Sinaasappel"@nl,
+        "Pomaranča"@sl ;
     skos:topConceptOf voc:olfactory-objects ;
     schema:image <https://commons.wikimedia.org/wiki/Special:FilePath/Color%20icon%20orange.svg> .
 
 olf:484 a skos:Concept ;
     owl:sameAs wd:Q161040 ;
+    skos:altLabel "Robidnica"@sl ;
     skos:broader olf:405,
         olf:75 ;
     skos:inScheme voc:olfactory-objects ;
     skos:prefLabel "Blackberry"@en,
         "Mûre"@fr,
         "Mora"@it,
-        "Blauwe bes"@nl ;
+        "Blauwe bes"@nl,
+        "Robida"@sl ;
     skos:topConceptOf voc:olfactory-objects ;
     schema:image <https://commons.wikimedia.org/wiki/Special:FilePath/Illustration%20Morus%20nigra0.jpg> .
 
 olf:485 a skos:Concept ;
     owl:sameAs wd:Q33669098 ;
+    skos:altLabel "Redkev"@sl ;
     skos:broader olf:403,
         olf:405 ;
     skos:inScheme voc:olfactory-objects ;
     skos:prefLabel "Radish"@en,
         "Radis"@fr,
         "Ravanello"@it,
-        "Radijs"@nl ;
+        "Radijs"@nl,
+        "Redkvica"@sl ;
     skos:topConceptOf voc:olfactory-objects .
 
 olf:486 a skos:Concept ;
@@ -1427,7 +1436,8 @@ olf:486 a skos:Concept ;
     skos:prefLabel "Matthiola"@en,
         "Mattthiola"@fr,
         "Matthiola"@it,
-        "Matthiola"@nl ;
+        "Matthiola"@nl,
+        "Matthiola"@sl ;
     skos:topConceptOf voc:olfactory-objects ;
     schema:image <https://commons.wikimedia.org/wiki/Special:FilePath/Matthiola%20crassifolia.jpg> .
 
@@ -1441,7 +1451,8 @@ olf:487 a skos:Concept ;
     skos:prefLabel "Forget-me-not"@en,
         "Grémillet"@fr,
         "Nontiscordardimé"@it,
-        "Vergeet-me-nietje"@nl ;
+        "Vergeet-me-nietje"@nl,
+        "Spominčica"@sl ;
     skos:topConceptOf voc:olfactory-objects ;
     schema:image <https://commons.wikimedia.org/wiki/Special:FilePath/Myosotis%20arvensis%20ois.JPG> .
 
@@ -1453,7 +1464,8 @@ olf:488 a skos:Concept ;
     skos:prefLabel "Snail"@en,
         "Escargot"@fr,
         "Lumaca"@it,
-        "Slak"@nl ;
+        "Slak"@nl,
+        "Polž"@sl ;
     skos:topConceptOf voc:olfactory-objects ;
     schema:image <https://commons.wikimedia.org/wiki/Special:FilePath/Helix%20aspersa-Nl.jpg> .
 
@@ -1465,19 +1477,23 @@ olf:489 a skos:Concept ;
     skos:prefLabel "Crab"@en,
         "Crabe"@fr,
         "Granchio"@it,
-        "Krab"@nl ;
+        "Krab"@nl,
+        "Rak"@sl ;
     skos:topConceptOf voc:olfactory-objects ;
     schema:image <https://commons.wikimedia.org/wiki/Special:FilePath/Liocarcinus%20vernalis.jpg> .
 
 olf:490 a skos:Concept ;
     owl:sameAs wd:Q7386 ;
+    skos:altLabel "Mravljinec"@sl,
+        "mravlje"@sl ;
     skos:broader olf:471,
         olf:555 ;
     skos:inScheme voc:olfactory-objects ;
     skos:prefLabel "Ant"@en,
         "Fourmi"@fr,
         "Formica"@it,
-        "Mier"@nl ;
+        "Mier"@nl,
+        "Mravlja"@sl ;
     skos:topConceptOf voc:olfactory-objects ;
     schema:image <https://data.odeuropa.eu/image/ss/490.Ant_RIjksmuseum_RP-T-BR-2017-1-7-30.png> .
 
@@ -1489,7 +1505,8 @@ olf:491 a skos:Concept ;
     skos:prefLabel "Dragonfly"@en,
         "Libellule"@fr,
         "Libellula"@it,
-        "Libelle"@nl ;
+        "Libelle"@nl,
+        "Kačji pastir"@sl ;
     skos:topConceptOf voc:olfactory-objects ;
     schema:image <https://commons.wikimedia.org/wiki/Special:FilePath/Dragonfly%20emerging.JPG> .
 
@@ -1501,7 +1518,8 @@ olf:494 a skos:Concept ;
     skos:prefLabel "Cauliflower"@en,
         "Chou-fleur"@fr,
         "Cavolfiore"@it,
-        "Bloemkool"@nl ;
+        "Bloemkool"@nl,
+        "Cvetača"@sl ;
     skos:topConceptOf voc:olfactory-objects ;
     schema:image <https://commons.wikimedia.org/wiki/Special:FilePath/Woolworths-cauliflower.jpg> .
 
@@ -1513,7 +1531,8 @@ olf:495 a skos:Concept ;
     skos:prefLabel "Avocado"@en,
         "Avocat"@fr,
         "Avocado"@it,
-        "Avocado"@nl ;
+        "Avocado"@nl,
+        "Avokado"@sl ;
     skos:topConceptOf voc:olfactory-objects ;
     schema:image <https://commons.wikimedia.org/wiki/Special:FilePath/Persea%20americana%20fruit%202.JPG> .
 
@@ -1525,7 +1544,8 @@ olf:497 a skos:Concept ;
     skos:prefLabel "Delphinium"@en,
         "Delphinium"@fr,
         "Delphinium"@it,
-        "Delphinium"@nl ;
+        "Delphinium"@nl,
+        "Ostrožnik"@sl ;
     skos:topConceptOf voc:olfactory-objects ;
     schema:image <https://commons.wikimedia.org/wiki/Special:FilePath/Delphinium%20officinale%20-%20Köhler–s%20Medizinal-Pflanzen-052.jpg> .
 
@@ -1537,7 +1557,8 @@ olf:498 a skos:Concept ;
     skos:prefLabel "Pomegranate"@en,
         "Grenade"@fr,
         "Melograno"@it,
-        "Granaatappel"@nl ;
+        "Granaatappel"@nl,
+        "Granatno jabolko"@sl ;
     skos:topConceptOf voc:olfactory-objects ;
     schema:image <https://commons.wikimedia.org/wiki/Special:FilePath/Pomegranate%20fruit%20-%20whole%20and%20piece%20with%20arils.jpg> .
 
@@ -1549,7 +1570,8 @@ olf:499 a skos:Concept ;
     skos:prefLabel "Monkey"@en,
         "Singe"@fr,
         "Scimmia"@it,
-        "Aap"@nl ;
+        "Aap"@nl,
+        "Opica"@sl ;
     skos:topConceptOf voc:olfactory-objects ;
     schema:image <https://data.odeuropa.eu/image/ss/499.Monkey_Perfume%20bottle%20in%20the%20shape%20of%20a%20baboon_322_Museu_ProvidedCHO_Mus_es_Royaux_d_Art_et_d_Histoire_82688.jpeg> .
 
@@ -1561,7 +1583,8 @@ olf:500 a skos:Concept ;
     skos:prefLabel "Rat"@en,
         "Rat"@fr,
         "Ratto"@it,
-        "Rat"@nl ;
+        "Rat"@nl,
+        "Podgana"@sl ;
     skos:topConceptOf voc:olfactory-objects ;
     schema:image <https://commons.wikimedia.org/wiki/Special:FilePath/Rattus%20norvegicus%201.jpg> .
 
@@ -1573,7 +1596,8 @@ olf:501 a skos:Concept ;
     skos:prefLabel "Rabbit"@en,
         "Lapin"@fr,
         "Coniglio"@it,
-        "Konijn"@nl ;
+        "Konijn"@nl,
+        "Zajec"@sl ;
     skos:topConceptOf voc:olfactory-objects ;
     schema:image <https://commons.wikimedia.org/wiki/Special:FilePath/Ikesbunny.jpg> .
 
@@ -1585,7 +1609,8 @@ olf:502 a skos:Concept ;
     skos:prefLabel "Lion"@en,
         "Lion"@fr,
         "Leone"@it,
-        "Leeuw"@nl ;
+        "Leeuw"@nl,
+        "Lev"@sl ;
     skos:topConceptOf voc:olfactory-objects ;
     schema:image <https://commons.wikimedia.org/wiki/Special:FilePath/Lion%20waiting%20in%20Namibia.jpg> .
 
@@ -1597,7 +1622,8 @@ olf:503 a skos:Concept ;
     skos:prefLabel "Deer"@en,
         "Cerf"@fr,
         "Cervo"@it,
-        "Hert"@nl ;
+        "Hert"@nl,
+        "Jelen"@sl ;
     skos:topConceptOf voc:olfactory-objects ;
     schema:image <https://commons.wikimedia.org/wiki/Special:FilePath/Red%20deer%20stag%202009%20denmark.jpg> .
 
@@ -1609,7 +1635,8 @@ olf:504 a skos:Concept ;
     skos:prefLabel "Grasshopper"@en,
         "Sauterelle"@fr,
         "Cavalletta"@it,
-        "Sprinkhaan"@nl ;
+        "Sprinkhaan"@nl,
+        "Kobilica"@sl ;
     skos:topConceptOf voc:olfactory-objects .
 
 olf:506 a skos:Concept ;
@@ -1620,7 +1647,8 @@ olf:506 a skos:Concept ;
     skos:prefLabel "Lizard"@en,
         "Lézard"@fr,
         "Lucertola"@it,
-        "Hagedis"@nl ;
+        "Hagedis"@nl,
+        "Kuščar"@sl ;
     skos:topConceptOf voc:olfactory-objects ;
     schema:image <https://commons.wikimedia.org/wiki/Special:FilePath/Brown%20Anole%20Lizard%20ARPT-LZ-BA-1.jpg> .
 
@@ -1632,7 +1660,8 @@ olf:507 a skos:Concept ;
     skos:prefLabel "Salad"@en,
         "Salade"@fr,
         "Insalata"@it,
-        "Salade"@nl ;
+        "Salade"@nl,
+        "Solata"@sl ;
     skos:topConceptOf voc:olfactory-objects ;
     schema:image <https://commons.wikimedia.org/wiki/Special:FilePath/Salad%20platter.jpg> .
 
@@ -1644,31 +1673,36 @@ olf:508 a skos:Concept ;
     skos:prefLabel "Camel"@en,
         "Chameau"@fr,
         "Cammello"@it,
-        "Kameel"@nl ;
+        "Kameel"@nl,
+        "Kamela"@sl ;
     skos:topConceptOf voc:olfactory-objects ;
     schema:image <https://commons.wikimedia.org/wiki/Special:FilePath/07.%20Camel%20Profile,%20near%20Silverton,%20NSW,%2007.07.2007.jpg> .
 
 olf:509 a skos:Concept ;
     owl:sameAs wd:Q83310 ;
+    skos:altLabel "Miška"@sl ;
     skos:broader olf:480,
         olf:555 ;
     skos:inScheme voc:olfactory-objects ;
     skos:prefLabel "Mouse"@en,
         "Souris"@fr,
         "Topo"@it,
-        "Muis"@nl ;
+        "Muis"@nl,
+        "Miš"@sl ;
     skos:topConceptOf voc:olfactory-objects ;
     schema:image <https://commons.wikimedia.org/wiki/Special:FilePath/Verletzte%20Hausmaus.JPG> .
 
 olf:510 a skos:Concept ;
     owl:sameAs wd:Q79803 ;
+    skos:altLabel "Budra"@sl ;
     skos:broader olf:480,
         olf:555 ;
     skos:inScheme voc:olfactory-objects ;
     skos:prefLabel "Guinea pig"@en,
         "Cochon d'Inde"@fr,
         "Porcellino d'India"@it,
-        "Cavia"@nl ;
+        "Cavia"@nl,
+        "Morski prašiček"@sl ;
     skos:topConceptOf voc:olfactory-objects ;
     schema:image <https://commons.wikimedia.org/wiki/Special:FilePath/Two%20adult%20Guinea%20Pigs%20%28Cavia%20porcellus%29.jpg> .
 
@@ -1680,7 +1714,8 @@ olf:511 a skos:Concept ;
     skos:prefLabel "Apricot"@en,
         "Abricot"@fr,
         "Albicocca"@it,
-        "Abrikoos"@nl ;
+        "Abrikoos"@nl,
+        "Marelica"@sl ;
     skos:topConceptOf voc:olfactory-objects ;
     schema:image <https://commons.wikimedia.org/wiki/Special:FilePath/Apricots.jpg> .
 
@@ -1692,7 +1727,8 @@ olf:512 a skos:Concept ;
     skos:prefLabel "Tiger"@en,
         "Tigre"@fr,
         "Tigre"@it,
-        "Tijger"@nl ;
+        "Tijger"@nl,
+        "Tiger"@sl ;
     skos:topConceptOf voc:olfactory-objects ;
     schema:image <https://commons.wikimedia.org/wiki/Special:FilePath/Adult%20male%20Royal%20Bengal%20tiger.jpg> .
 
@@ -1704,7 +1740,8 @@ olf:513 a skos:Concept ;
     skos:prefLabel "Wolf"@en,
         "Loup"@fr,
         "Lupo"@it,
-        "Wolf"@nl ;
+        "Wolf"@nl,
+        "Volk"@sl ;
     skos:topConceptOf voc:olfactory-objects ;
     schema:image <https://commons.wikimedia.org/wiki/Special:FilePath/Eurasian%20wolf%202.jpg> .
 
@@ -1716,7 +1753,8 @@ olf:514 a skos:Concept ;
     skos:prefLabel "Bear"@en,
         "Ours"@fr,
         "Orso"@it,
-        "Beer"@nl ;
+        "Beer"@nl,
+        "Medved"@sl ;
     skos:topConceptOf voc:olfactory-objects ;
     schema:image <https://commons.wikimedia.org/wiki/Special:FilePath/Antwerp%20Zoo%20%2814549678449%29.jpg> .
 
@@ -1728,7 +1766,8 @@ olf:515 a skos:Concept ;
     skos:prefLabel "Leopard"@en,
         "Léopard"@fr,
         "Leopardo"@it,
-        "Luipaard"@nl ;
+        "Luipaard"@nl,
+        "Leopard"@sl ;
     skos:topConceptOf voc:olfactory-objects ;
     schema:image <https://commons.wikimedia.org/wiki/Special:FilePath/African%20leopard,%20Panthera%20pardus%20pardus,%20near%20Lake%20Panic,%20Kruger%20National%20Park,%20South%20Africa%20%2819448654130%29.jpg> .
 
@@ -1740,19 +1779,22 @@ olf:516 a skos:Concept ;
     skos:prefLabel "Snake"@en,
         "Serpent"@fr,
         "Serpente"@it,
-        "Slang"@nl ;
+        "Slang"@nl,
+        "Kača"@sl ;
     skos:topConceptOf voc:olfactory-objects ;
     schema:image <https://commons.wikimedia.org/wiki/Special:FilePath/Bird-eating%20snake%20%287607449358%29.jpg> .
 
 olf:518 a skos:Concept ;
     owl:sameAs wd:Q747071 ;
+    skos:altLabel "Buba"@sl ;
     skos:broader olf:471,
         olf:555 ;
     skos:inScheme voc:olfactory-objects ;
     skos:prefLabel "Cocoon"@en,
         "Cocon"@fr,
         "Bozzolo"@it,
-        "Cocon"@nl ;
+        "Cocon"@nl,
+        "Kokon"@sl ;
     skos:topConceptOf voc:olfactory-objects ;
     schema:image <https://commons.wikimedia.org/wiki/Special:FilePath/Ipek-kozasi.jpg> .
 
@@ -1765,18 +1807,21 @@ olf:521 a skos:Concept ;
     skos:prefLabel "Chestnut"@en,
         "Châtaigne"@fr,
         "Noce"@it,
-        "Walnoot"@nl ;
+        "Walnoot"@nl,
+        "Kostanj"@sl ;
     skos:topConceptOf voc:olfactory-objects ;
     schema:image <https://commons.wikimedia.org/wiki/Special:FilePath/Wildlife%20%28Horses%20in%20France%29.jpg> .
 
 olf:523 a skos:Concept ;
     owl:sameAs wd:Q158663 ;
+    skos:altLabel "Fizalis"@sl ;
     skos:broader olf:560,
         olf:75 ;
     skos:inScheme voc:olfactory-objects ;
     skos:prefLabel "Physalis"@en,
         "Physalis"@fr,
-        "Fysalis"@nl ;
+        "Fysalis"@nl,
+        "Physalis"@sl ;
     skos:topConceptOf voc:olfactory-objects ;
     schema:image <https://commons.wikimedia.org/wiki/Special:FilePath/Starr%20061225-2955%20Physalis%20peruviana.jpg> .
 
@@ -1788,7 +1833,8 @@ olf:524 a skos:Concept ;
     skos:prefLabel "Frog"@en,
         "Grenouille"@fr,
         "Rana"@it,
-        "Kikker"@nl ;
+        "Kikker"@nl,
+        "Žaba"@sl ;
     skos:topConceptOf voc:olfactory-objects ;
     schema:image <https://commons.wikimedia.org/wiki/Special:FilePath/Haeckel%20Batrachia.jpg> .
 
@@ -1800,7 +1846,8 @@ olf:525 a skos:Concept ;
     skos:prefLabel "Moth"@en,
         "Papillon"@fr,
         "Falena"@it,
-        "Mot"@nl ;
+        "Mot"@nl,
+        "Molj"@sl ;
     skos:topConceptOf voc:olfactory-objects ;
     schema:image <https://commons.wikimedia.org/wiki/Special:FilePath/Opodiphthera%20eucalypti%20male.jpg> .
 
@@ -1812,7 +1859,8 @@ olf:526 a skos:Concept ;
     skos:prefLabel "Spider"@en,
         "Araignée"@fr,
         "Ragno"@it,
-        "Spin"@nl ;
+        "Spin"@nl,
+        "Pajek"@sl ;
     skos:topConceptOf voc:olfactory-objects ;
     schema:image <https://data.odeuropa.eu/image/ss/526.Spider_Rijksmuseum.jpg> .
 
@@ -1824,7 +1872,8 @@ olf:527 a skos:Concept ;
     skos:prefLabel "Gooseberry"@en,
         "Groseille à maquereau"@fr,
         "Uva spina"@it,
-        "Kruisbes"@nl ;
+        "Kruisbes"@nl,
+        "Kosmulja"@sl ;
     skos:topConceptOf voc:olfactory-objects ;
     schema:image <https://commons.wikimedia.org/wiki/Special:FilePath/Stachelbeeren.jpg> .
 
@@ -1836,7 +1885,8 @@ olf:528 a skos:Concept ;
     skos:prefLabel "Quince"@en,
         "Coing"@fr,
         "Cotogna"@it,
-        "Kweepeer"@nl ;
+        "Kweepeer"@nl,
+        "Kutina"@sl ;
     skos:topConceptOf voc:olfactory-objects ;
     schema:image <https://commons.wikimedia.org/wiki/Special:FilePath/Quince%20flowers.jpg> .
 
@@ -1848,31 +1898,36 @@ olf:529 a skos:Concept ;
     skos:prefLabel "Rosehip"@en,
         "Rosée"@fr,
         "Cinorrodo"@it,
-        "Rozenbottel"@nl ;
+        "Rozenbottel"@nl,
+        "Šipek"@sl ;
     skos:topConceptOf voc:olfactory-objects ;
     schema:image <https://data.odeuropa.eu/image/ss/529.Rosehip_Rijksmuseum_RP-T-2018-108.jpg> .
 
 olf:530 a skos:Concept ;
     owl:sameAs wd:Q212894 ;
+    skos:altLabel "Njuhanec"@sl ;
     skos:broader olf:227,
         olf:560 ;
     skos:inScheme voc:olfactory-objects ;
     skos:prefLabel "Snuff"@en,
         "Tabac à priser"@fr,
         "Tabacco da fiuto"@it,
-        "Snuiftabak"@nl ;
+        "Snuiftabak"@nl,
+        "Tobak"@sl ;
     skos:topConceptOf voc:olfactory-objects ;
     schema:image <https://data.odeuropa.eu/image/ss/530.Snuff_Wellcome%20colelctions_arthenware%20snuff%20jar,%20England,%201750-1800.jpeg> .
 
 olf:532 a skos:Concept ;
-    skos:altLabel "Butt"@en ;
+    skos:altLabel "Butt"@en,
+        "Ogorek"@sl ;
     skos:broader olf:39,
         olf:560 ;
     skos:inScheme voc:olfactory-objects ;
     skos:prefLabel "Cigar butt"@en,
         "Mégot"@fr,
         "Mozzicone"@it,
-        "Sigaarpeuk"@nl ;
+        "Sigaarpeuk"@nl,
+        "Čik"@sl ;
     skos:topConceptOf voc:olfactory-objects .
 
 olf:542 a skos:Concept ;
@@ -1882,7 +1937,8 @@ olf:542 a skos:Concept ;
     skos:inScheme voc:olfactory-objects ;
     skos:prefLabel "Worm"@en,
         "Ver"@fr,
-        "Verme"@it ;
+        "Verme"@it,
+        "Črv"@sl ;
     skos:topConceptOf voc:olfactory-objects ;
     schema:image <https://commons.wikimedia.org/wiki/Special:FilePath/Regenwurm1.jpg> .
 
@@ -1892,7 +1948,8 @@ olf:543 a skos:Concept ;
     skos:broader olf:560 ;
     skos:inScheme voc:olfactory-objects ;
     skos:prefLabel "Algae"@en,
-        "Alga"@it ;
+        "Alga"@it,
+        "Alge"@sl ;
     skos:topConceptOf voc:olfactory-objects ;
     schema:image <https://data.odeuropa.eu/image/ss/543.Algae_WEllcome_9200579_edv3es9n.jpeg> .
 
@@ -1902,7 +1959,8 @@ olf:550 a skos:Concept ;
     skos:inScheme voc:olfactory-objects ;
     skos:prefLabel "Reseda"@en,
         "Mignonette"@fr,
-        "Reseda"@it ;
+        "Reseda"@it,
+        "Reseda"@sl ;
     skos:topConceptOf voc:olfactory-objects .
 
 olf:551 a skos:Concept ;
@@ -1912,7 +1970,8 @@ olf:551 a skos:Concept ;
     skos:inScheme voc:olfactory-objects ;
     skos:prefLabel "Orange blossom"@en,
         "Fleur d'oranger"@fr,
-        "Fiore d'arancio"@it ;
+        "Fiore d'arancio"@it,
+        "Pomarančni cvet"@sl ;
     skos:topConceptOf voc:olfactory-objects ;
     schema:image <https://data.odeuropa.eu/image/ss/551.Orange%20blossom_Eau%20de%20fleur%20d_oranger_Europeana.jpeg> .
 
@@ -1922,7 +1981,8 @@ olf:552 a skos:Concept ;
     skos:inScheme voc:olfactory-objects ;
     skos:prefLabel "Heliotropium"@en,
         "Héliotrope"@fr,
-        "Heliotropium"@it ;
+        "Heliotropium"@it,
+        "Heliotropium"@sl ;
     skos:topConceptOf voc:olfactory-objects ;
     schema:image <https://data.odeuropa.eu/image/ss/552.Héliotropium_Savon%20à%20l_Heliotrope%20Parfum%20Naturel_2021651_https___hdl_handle_net_21_12122_14296213.jpeg> .
 
@@ -1933,16 +1993,19 @@ olf:557 a skos:Concept ;
         olf:9 ;
     skos:prefLabel "Practice"@en,
         "Pratique"@fr,
-        "Pratica"@it ;
+        "Pratica"@it,
+        "Praksa"@sl ;
     skos:topConceptOf voc:olfactory-objects .
 
 olf:566 a skos:Concept ;
     owl:sameAs wd:Q638199 ;
+    skos:altLabel "Bobrov klobuk"@sl ;
     skos:broader olf:554,
         olf:85 ;
     skos:inScheme voc:olfactory-objects ;
     skos:prefLabel "Kastorhut"@de,
-        "Beaver hat"@en ;
+        "Beaver hat"@en,
+        "Cilinder"@sl ;
     skos:topConceptOf voc:olfactory-objects ;
     schema:image <https://data.odeuropa.eu/image/ss/566.Beaver%20hat_2048202_europeana_fashion_DE_MUS_018313_877126.jpeg> .
 
@@ -2028,7 +2091,8 @@ olf:570 a skos:Concept ;
         "Snowflake"@en,
         "Nivéole"@fr,
         "Campanella"@it,
-        "Narcisklokje"@nl ;
+        "Narcisklokje"@nl,
+        "Snežinka"@sl ;
     skos:topConceptOf voc:olfactory-objects ;
     schema:image <https://commons.wikimedia.org/wiki/Special:FilePath/Leucojum%20aestivum02.jpg> .
 
@@ -2055,17 +2119,10 @@ olf:573 a skos:Concept ;
         "Bellflower"@en,
         "Campanule"@fr,
         "Campanula"@it,
-        "Klokje"@nl ;
+        "Klokje"@nl,
+        "Zvončnica"@sl ;
     skos:topConceptOf voc:olfactory-objects ;
     schema:image <https://commons.wikimedia.org/wiki/Special:FilePath/Campanula%20persicifolia%20Tehumardi%20Saaremaa.jpg> .
-
-olf:574 a skos:Concept ;
-    owl:sameAs wd:Q60310748 ;
-    skos:broader olf:448 ;
-    skos:inScheme voc:olfactory-objects ;
-    skos:narrower olf:457,
-        olf:458 ;
-    skos:prefLabel "Pot"@en .
 
 olf:575 a skos:Concept ;
     owl:sameAs wd:Q26158 ;
@@ -2275,6 +2332,17 @@ olf:140 a skos:Concept ;
     skos:topConceptOf voc:olfactory-objects ;
     schema:image <https://commons.wikimedia.org/wiki/Special:FilePath/Sachets%20variés%20Viktualienmarkt%20Munich.jpg> .
 
+olf:144 a skos:Concept ;
+    skos:altLabel "Luč"@sl,
+        "svetilnica"@sl,
+        "žaromet"@sl ;
+    skos:broader olf:554 ;
+    skos:inScheme voc:olfactory-objects ;
+    skos:narrower olf:179 ;
+    skos:prefLabel "Lamp"@en,
+        "Svetilka"@sl ;
+    skos:topConceptOf voc:olfactory-objects .
+
 olf:149 a skos:Concept ;
     skos:altLabel "Geurdoos"@nl ;
     skos:broader olf:554 ;
@@ -2315,6 +2383,15 @@ olf:154 a skos:Concept ;
         "Narda"@sl ;
     skos:topConceptOf voc:olfactory-objects ;
     schema:image <https://commons.wikimedia.org/wiki/Special:FilePath/Flacon%20with%20nards%20perfume.jpg> .
+
+olf:158 a skos:Concept ;
+    dct:bibliographicCitation "Tobacco-packaging"@en ;
+    skos:broader olf:554 ;
+    skos:inScheme voc:olfactory-objects ;
+    skos:prefLabel "Tobacco packaging"@en,
+        "Embalaža tobačnih izdelkov"@sl ;
+    skos:related olf:227 ;
+    skos:topConceptOf voc:olfactory-objects .
 
 olf:160 a skos:Concept ;
     owl:sameAs wd:Q863266 ;
@@ -2795,7 +2872,8 @@ olf:266 a skos:Concept ;
     skos:prefLabel "Idoform"@en,
         "Iodoforme"@fr,
         "Iodoformio"@it,
-        "Jodoform"@nl ;
+        "Jodoform"@nl,
+        "Idoform"@sl ;
     skos:related olf:248 ;
     skos:topConceptOf voc:olfactory-objects .
 
@@ -3523,7 +3601,8 @@ olf:394 a skos:Concept ;
     skos:inScheme voc:olfactory-objects ;
     skos:prefLabel "Spéculoos"@fr,
         "Speculoos"@it,
-        "Speculaas"@nl ;
+        "Speculaas"@nl,
+        "Spekulumi"@sl ;
     skos:topConceptOf voc:olfactory-objects .
 
 olf:395 a skos:Concept ;
@@ -3563,18 +3642,21 @@ olf:398 a skos:Concept ;
     skos:prefLabel "Vetiver"@en,
         "Vétiver"@fr,
         "Vetiver"@it,
-        "Vetiver"@nl ;
+        "Vetiver"@nl,
+        "Vetiver"@sl ;
     skos:topConceptOf voc:olfactory-objects .
 
 olf:418 a skos:Concept ;
     owl:sameAs wd:Q23925154 ;
-    skos:altLabel "Boue"@fr ;
+    skos:altLabel "Boue"@fr,
+        "Gnojevka"@sl ;
     skos:broader olf:533,
         olf:565 ;
     skos:inScheme voc:olfactory-objects ;
     skos:prefLabel "Slurry"@en,
         "Slurry"@fr,
-        "Tabaksrasp"@nl ;
+        "Tabaksrasp"@nl,
+        "Brozga"@sl ;
     skos:topConceptOf voc:olfactory-objects ;
     schema:image <https://commons.wikimedia.org/wiki/Special:FilePath/Potato%20starch%20slurry.jpg> .
 
@@ -3587,7 +3669,8 @@ olf:419 a skos:Concept ;
     skos:prefLabel "Stapelia"@en,
         "Stapelia"@fr,
         "Stapelia"@it,
-        "Reukgoed"@nl ;
+        "Reukgoed"@nl,
+        "Stapelia"@sl ;
     skos:topConceptOf voc:olfactory-objects ;
     schema:image <https://commons.wikimedia.org/wiki/Special:FilePath/Aasblume%20Aug%202005.jpg> .
 
@@ -3598,7 +3681,8 @@ olf:420 a skos:Concept ;
         "Is een kleurloos, vergiftig gas met onaangenamen reuk"@nl ;
     skos:inScheme voc:olfactory-objects ;
     skos:prefLabel "Aceltene"@en,
-        "Acetyleen"@nl ;
+        "Acetyleen"@nl,
+        "Aceton?"@sl ;
     skos:topConceptOf voc:olfactory-objects .
 
 olf:421 a skos:Concept ;
@@ -3611,13 +3695,15 @@ olf:421 a skos:Concept ;
     skos:inScheme voc:olfactory-objects ;
     skos:prefLabel "Tagetes"@en,
         "Tagètes"@fr,
-        "Afrikaantje"@nl ;
+        "Afrikaantje"@nl,
+        "Meseček"@sl ;
     skos:topConceptOf voc:olfactory-objects ;
     schema:image <https://commons.wikimedia.org/wiki/Special:FilePath/Tagetes%20x%20erecta1.jpg> .
 
 olf:427 a skos:Concept ;
     skos:altLabel "Assa fetida"@it,
-        "Asant"@nl ;
+        "Asant"@nl,
+        "Asafoetida"@sl ;
     skos:broader olf:177,
         olf:405 ;
     skos:definition "WNT"@nl ;
@@ -3626,7 +3712,8 @@ olf:427 a skos:Concept ;
         "Asa Foetida"@en,
         "Ase fétide"@fr,
         "Assafetida"@it,
-        "Duivelsdrek"@nl ;
+        "Duivelsdrek"@nl,
+        "Asafetida"@sl ;
     skos:topConceptOf voc:olfactory-objects .
 
 olf:429 a skos:Concept ;
@@ -3971,7 +4058,8 @@ olf:48 a skos:Concept ;
     skos:prefLabel "Geosmin"@en,
         "Géosmine"@fr,
         "Geosmina"@it,
-        "Geosmine"@nl ;
+        "Geosmine"@nl,
+        "Geosmin"@sl ;
     skos:related olf:245 ;
     skos:topConceptOf voc:olfactory-objects ;
     schema:image <https://data.odeuropa.eu/image/ss/48.Geosmin_Structural_Formulae.png> .
@@ -3981,7 +4069,8 @@ olf:505 a skos:Concept ;
         olf:554 ;
     skos:inScheme voc:olfactory-objects ;
     skos:prefLabel "Match"@en,
-        "Lucifer"@nl ;
+        "Lucifer"@nl,
+        "Vžigalica"@sl ;
     skos:topConceptOf voc:olfactory-objects .
 
 olf:51 a skos:Concept ;
@@ -4018,13 +4107,15 @@ olf:536 a skos:Concept ;
     owl:sameAs wd:Q4004659 ;
     skos:altLabel "Oyntment"@en,
         "Salve"@en,
-        "Unguent"@en ;
+        "Unguent"@en,
+        "Krema"@sl ;
     skos:broader olf:558 ;
     skos:inScheme voc:olfactory-objects ;
     skos:prefLabel "Ointment"@en,
         "Pommade"@fr,
         "Unguento"@it,
-        "Zalf"@nl ;
+        "Zalf"@nl,
+        "Mazilo"@sl ;
     skos:related olf:111,
         olf:28 ;
     skos:topConceptOf voc:olfactory-objects ;
@@ -4047,25 +4138,30 @@ olf:538 a skos:Concept ;
 
 olf:540 a skos:Concept ;
     owl:sameAs wd:Q84048850 ;
-    skos:altLabel "Male"@en ;
+    skos:altLabel "Male"@en,
+        "Mož"@sl,
+        "človek"@sl ;
     skos:broader olf:539,
         olf:555 ;
     skos:inScheme voc:olfactory-objects ;
     skos:prefLabel "Man"@en,
         "Homme"@fr,
         "Uomo"@it,
-        "Man"@nl ;
+        "Man"@nl,
+        "Moški"@sl ;
     skos:topConceptOf voc:olfactory-objects .
 
 olf:544 a skos:Concept ;
     owl:sameAs wd:Q13266 ;
-    skos:altLabel "Biscuit"@en ;
+    skos:altLabel "Biscuit"@en,
+        "Keks"@sl ;
     skos:broader olf:405 ;
     skos:inScheme voc:olfactory-objects ;
     skos:narrower olf:394 ;
     skos:prefLabel "Cookie"@en,
         "Biscuit"@fr,
-        "Biscotto"@it ;
+        "Biscotto"@it,
+        "Piškot"@sl ;
     skos:topConceptOf voc:olfactory-objects ;
     schema:image <https://data.odeuropa.eu/image/ss/544.Biscuits_Louvre_AGO549903-000_PE.jpg> .
 
@@ -4077,24 +4173,18 @@ olf:545 a skos:Concept ;
     skos:inScheme voc:olfactory-objects ;
     skos:prefLabel "Mimosa"@en,
         "Mimosa"@fr,
-        "Mimosa"@it ;
+        "Mimosa"@it,
+        "Mimoza"@sl ;
     skos:topConceptOf voc:olfactory-objects ;
     schema:image <https://data.odeuropa.eu/image/ss/545.Mimosa_Rijksmuseum_RP-T-1914-18-9.jpg> .
-
-olf:546 a skos:Concept ;
-    owl:sameAs wd:Q831477 ;
-    skos:broader olf:554,
-        olf:564 ;
-    skos:inScheme voc:olfactory-objects ;
-    skos:prefLabel "Prayer nut"@en ;
-    schema:image <https://data.odeuropa.eu/image/ss/546.Prayer%20nut_Europeana_0001123773_OG.JPG> .
 
 olf:547 a skos:Concept ;
     skos:broader olf:554,
         olf:558 ;
     skos:inScheme voc:olfactory-objects ;
     skos:prefLabel "Ammonia soap"@en,
-        "Sapone all'ammoniaca"@it ;
+        "Sapone all'ammoniaca"@it,
+        "Milo z amonijakom"@sl ;
     skos:topConceptOf voc:olfactory-objects .
 
 olf:548 a skos:Concept ;
@@ -4119,7 +4209,8 @@ olf:553 a skos:Concept ;
     skos:inScheme voc:olfactory-objects ;
     skos:prefLabel "Spermaceti"@en,
         "Spermaceti"@fr,
-        "Spermaceti"@it ;
+        "Spermaceti"@it,
+        "Spermaceti"@sl ;
     skos:topConceptOf voc:olfactory-objects ;
     schema:image <https://data.odeuropa.eu/image/ss/553.Spermaceti_Wellcome%20collection_9200579_wfbhe4hv.jpeg> .
 
@@ -4146,6 +4237,16 @@ olf:571 a skos:Concept ;
         "Fauve"@fr,
         "Grande felino"@it,
         "Velike mačke"@sl ;
+    skos:topConceptOf voc:olfactory-objects .
+
+olf:574 a skos:Concept ;
+    owl:sameAs wd:Q60310748 ;
+    skos:broader olf:448 ;
+    skos:inScheme voc:olfactory-objects ;
+    skos:narrower olf:457,
+        olf:458 ;
+    skos:prefLabel "Pot"@en,
+        "Lonec"@sl ;
     skos:topConceptOf voc:olfactory-objects .
 
 olf:6 a skos:Concept ;
@@ -4887,13 +4988,16 @@ olf:451 a skos:Concept ;
         olf:554 ;
     skos:inScheme voc:olfactory-objects ;
     skos:prefLabel "Glass without stem"@en,
-        "Gobelet"@fr ;
+        "Gobelet"@fr,
+        "Kozarci brez pecljev"@sl ;
     skos:topConceptOf voc:olfactory-objects .
 
 olf:453 a skos:Concept ;
     owl:sameAs wd:Q81727 ;
     skos:altLabel "Tasse"@fr,
-        "Tazza"@it ;
+        "Tazza"@it,
+        "Kozarec"@sl,
+        "kelih"@sl ;
     skos:broader olf:448,
         olf:554 ;
     skos:inScheme voc:olfactory-objects ;
@@ -4901,7 +5005,8 @@ olf:453 a skos:Concept ;
         "Cup"@en,
         "Coupe"@fr,
         "Coppa"@it,
-        "Bokaal"@nl ;
+        "Bokaal"@nl,
+        "Skodelica"@sl ;
     skos:topConceptOf voc:olfactory-objects ;
     schema:image <https://commons.wikimedia.org/wiki/Special:FilePath/Five%20Piece%20Tea%20Service%20with%20Chrysanthemum%20Design%20LACMA%20M.2006.132.10a-i.jpg> .
 
@@ -4998,12 +5103,14 @@ olf:474 a skos:Concept ;
 
 olf:481 a skos:Concept ;
     owl:sameAs wd:Q11419301 ;
+    skos:altLabel "Kadilne naprave"@sl ;
     skos:broader olf:554 ;
     skos:inScheme voc:olfactory-objects ;
     skos:prefLabel "Smoking equipment"@en,
         "Équipement fumeurs"@fr,
         "Utensili per fumare"@it,
-        "Rookgerij"@nl ;
+        "Rookgerij"@nl,
+        "Opremi za kajenje"@sl ;
     skos:related olf:227 ;
     skos:topConceptOf voc:olfactory-objects ;
     schema:image <https://commons.wikimedia.org/wiki/Special:FilePath/Smoking%20equipment.jpg> .
@@ -5016,12 +5123,14 @@ olf:493 a skos:Concept ;
     skos:prefLabel "Earring"@en,
         "Boucle d'oreille"@fr,
         "Orecchino"@it,
-        "Oorbel"@nl ;
+        "Oorbel"@nl,
+        "Uhan"@sl ;
     skos:topConceptOf voc:olfactory-objects ;
     schema:image <https://commons.wikimedia.org/wiki/Special:FilePath/Navel%20Curve%20As%20Earring.jpg> .
 
 olf:517 a skos:Concept ;
     owl:sameAs wd:Q131557 ;
+    skos:altLabel "Talisman"@sl ;
     skos:broader olf:4,
         olf:554 ;
     skos:inScheme voc:olfactory-objects ;
@@ -5029,7 +5138,8 @@ olf:517 a skos:Concept ;
     skos:prefLabel "Amulet"@en,
         "Amulette"@fr,
         "Amuleto"@it,
-        "Amulet"@nl ;
+        "Amulet"@nl,
+        "Amulet"@sl ;
     skos:topConceptOf voc:olfactory-objects ;
     schema:image <https://commons.wikimedia.org/wiki/Special:FilePath/Amuletter%20i%20brons%20-%20Hallwylska%20museet%20-%2098636.tif> .
 
@@ -5039,7 +5149,8 @@ olf:519 a skos:Concept ;
     skos:inScheme voc:olfactory-objects ;
     skos:prefLabel "Rope tobacco"@en,
         "Tabac à corde"@fr,
-        "Touw tabak"@nl ;
+        "Touw tabak"@nl,
+        "Tobačna vrv"@sl ;
     skos:related olf:227 ;
     skos:topConceptOf voc:olfactory-objects .
 
@@ -5051,24 +5162,38 @@ olf:522 a skos:Concept ;
     skos:prefLabel "Barrel"@en,
         "Baril"@fr,
         "Barile"@it,
-        "Vat"@nl ;
+        "Vat"@nl,
+        "Sod"@sl ;
     skos:topConceptOf voc:olfactory-objects ;
     schema:image <https://commons.wikimedia.org/wiki/Special:FilePath/Large%20botti%20size%20oak%20barrels%20in%20Chianti.jpg> .
 
 olf:541 a skos:Concept ;
     owl:sameAs wd:Q84048852 ;
-    skos:altLabel "Female"@en ;
+    skos:altLabel "Female"@en,
+        "Žena"@sl ;
     skos:broader olf:539,
         olf:555 ;
     skos:inScheme voc:olfactory-objects ;
     skos:prefLabel "Woman"@en,
         "Femme"@fr,
-        "Donna"@it ;
+        "Donna"@it,
+        "Ženska"@sl ;
     skos:related olf:107 ;
     skos:topConceptOf voc:olfactory-objects ;
     schema:image <https://data.odeuropa.eu/image/ss/541.Woman_Oude%20vrouw%20maakt%20haar%20toilet_Rijksmuseum_RP_P_OB_33_326.jpeg> .
 
+olf:546 a skos:Concept ;
+    owl:sameAs wd:Q831477 ;
+    skos:broader olf:554,
+        olf:564 ;
+    skos:inScheme voc:olfactory-objects ;
+    skos:prefLabel "Prayer nut"@en,
+        "Orešček za molitev"@sl ;
+    skos:topConceptOf voc:olfactory-objects ;
+    schema:image <https://data.odeuropa.eu/image/ss/546.Prayer%20nut_Europeana_0001123773_OG.JPG> .
+
 olf:556 a skos:Concept ;
+    skos:altLabel "Proizvod živalskega izvora"@sl ;
     skos:inScheme voc:olfactory-objects ;
     skos:narrower olf:207,
         olf:270,
@@ -5076,17 +5201,20 @@ olf:556 a skos:Concept ;
         olf:44 ;
     skos:prefLabel "Animal product"@en,
         "Produit animal"@fr,
-        "Prodotto animale"@it ;
+        "Prodotto animale"@it,
+        "Živalski proizvod"@sl ;
     skos:topConceptOf voc:olfactory-objects .
 
 olf:561 a skos:Concept ;
+    skos:altLabel "Blago"@sl ;
     skos:broader olf:554 ;
     skos:inScheme voc:olfactory-objects ;
     skos:narrower olf:260,
         olf:95 ;
     skos:prefLabel "Cloth"@en,
         "Chiffon"@fr,
-        "Tessuto"@it ;
+        "Tessuto"@it,
+        "Tkanina"@sl ;
     skos:topConceptOf voc:olfactory-objects .
 
 olf:564 a skos:Concept ;
@@ -5097,7 +5225,8 @@ olf:564 a skos:Concept ;
         olf:546 ;
     skos:prefLabel "Religion"@en,
         "Religion"@fr,
-        "Religione"@it ;
+        "Religione"@it,
+        "Religija"@sl ;
     skos:topConceptOf voc:olfactory-objects .
 
 olf:59 a skos:Concept ;
@@ -5479,7 +5608,8 @@ olf:450 a skos:Concept ;
     skos:prefLabel "Kelch"@de,
         "Glass with stem"@en,
         "Calice"@it,
-        "Kelk"@nl ;
+        "Kelk"@nl,
+        "Kozarce s peclji"@sl ;
     skos:topConceptOf voc:olfactory-objects ;
     schema:image <https://commons.wikimedia.org/wiki/Special:FilePath/Beerglass%20orval.jpg> .
 
@@ -5500,6 +5630,8 @@ olf:455 a skos:Concept ;
 
 olf:456 a skos:Concept ;
     owl:sameAs wd:Q1104430 ;
+    skos:altLabel "Brušena steklenica"@sl,
+        "vinska steklenica"@sl ;
     skos:broader olf:448,
         olf:554 ;
     skos:inScheme voc:olfactory-objects ;
@@ -5507,7 +5639,8 @@ olf:456 a skos:Concept ;
         "Carafe"@en,
         "Carafe"@fr,
         "Caraffa"@it,
-        "Karaf"@nl ;
+        "Karaf"@nl,
+        "Karafa"@sl ;
     skos:related olf:452 ;
     skos:topConceptOf voc:olfactory-objects ;
     schema:image <https://commons.wikimedia.org/wiki/Special:FilePath/Bleikristall%20Karaffe.jpg> .
@@ -5556,7 +5689,8 @@ olf:477 a skos:Concept ;
     skos:prefLabel "Reptile/Amphibia"@en,
         "Reptile / amphibien"@fr,
         "Rettile/Anfibio"@it,
-        "Reptiel / Amfibie"@nl ;
+        "Reptiel / Amfibie"@nl,
+        "Plazilci/dvoživke"@sl ;
     skos:topConceptOf voc:olfactory-objects .
 
 olf:479 a skos:Concept ;
@@ -5569,12 +5703,14 @@ olf:479 a skos:Concept ;
     skos:prefLabel "Amphibia"@en,
         "Amphibien"@fr,
         "Anfibio"@it,
-        "Amfibie"@nl ;
+        "Amfibie"@nl,
+        "Dvoživke"@sl ;
     skos:topConceptOf voc:olfactory-objects ;
     schema:image <https://data.odeuropa.eu/image/ss/479.Amphibia_Museum%20of%20Natural%20science%20Barcelona_MZB%2082-5300.jpeg> .
 
 olf:492 a skos:Concept ;
     owl:sameAs wd:Q189299 ;
+    skos:altLabel "Verižica"@sl ;
     skos:broader olf:4,
         olf:554 ;
     skos:inScheme voc:olfactory-objects ;
@@ -5582,13 +5718,15 @@ olf:492 a skos:Concept ;
     skos:prefLabel "Necklace"@en,
         "Collier"@fr,
         "Collana"@it,
-        "Ketting"@nl ;
+        "Ketting"@nl,
+        "Ogrlica"@sl ;
     skos:topConceptOf voc:olfactory-objects ;
     schema:image <https://commons.wikimedia.org/wiki/Special:FilePath/Captured%20Pearls%20Necklace.jpg> .
 
 olf:539 a skos:Concept ;
     owl:sameAs wd:Q5 ;
-    skos:altLabel "Human"@en ;
+    skos:altLabel "Human"@en,
+        "Človek"@sl ;
     skos:broader olf:555 ;
     skos:inScheme voc:olfactory-objects ;
     skos:narrower olf:540,
@@ -5596,7 +5734,8 @@ olf:539 a skos:Concept ;
     skos:prefLabel "Person"@en,
         "Personne"@fr,
         "Persona"@it,
-        "Persoon"@nl ;
+        "Persoon"@nl,
+        "Oseba"@sl ;
     skos:related olf:533 ;
     skos:topConceptOf voc:olfactory-objects ;
     schema:image <https://commons.wikimedia.org/wiki/Special:FilePath/Anterior%20view%20of%20human%20female%20and%20male,%20with%20labels.svg> .
@@ -5882,7 +6021,9 @@ olf:410 a skos:Concept ;
 
 olf:457 a skos:Concept ;
     owl:sameAs wd:Q1721055 ;
-    skos:altLabel "Koffiepot"@nl ;
+    skos:altLabel "Koffiepot"@nl,
+        "Kavni lonček"@sl,
+        "kavna ročka"@sl ;
     skos:broader olf:448,
         olf:554,
         olf:574 ;
@@ -5891,7 +6032,8 @@ olf:457 a skos:Concept ;
         "Coffeepot"@en,
         "Cafetière"@fr,
         "Caffettiera"@it,
-        "Koffiekan"@nl ;
+        "Koffiekan"@nl,
+        "Kavnik"@sl ;
     skos:related olf:50 ;
     skos:topConceptOf voc:olfactory-objects ;
     schema:image <https://commons.wikimedia.org/wiki/Special:FilePath/Sas%20Cofee%20pot%20hand%20holding%20pot.JPG> .
@@ -5906,7 +6048,8 @@ olf:458 a skos:Concept ;
         "Teapot"@en,
         "Théière"@fr,
         "Teiera"@it,
-        "Theepot"@nl ;
+        "Theepot"@nl,
+        "Čajnik"@sl ;
     skos:related olf:161 ;
     skos:topConceptOf voc:olfactory-objects ;
     schema:image <https://commons.wikimedia.org/wiki/Special:FilePath/Teapot%202010%20G1.jpg> .
@@ -5922,12 +6065,14 @@ olf:478 a skos:Concept ;
     skos:prefLabel "Reptile"@en,
         "Reptile"@fr,
         "Rettile"@it,
-        "Reptiel"@nl ;
+        "Reptiel"@nl,
+        "Plazilec"@sl ;
     skos:topConceptOf voc:olfactory-objects ;
     schema:image <https://commons.wikimedia.org/wiki/Special:FilePath/Smaug%20giganteus%20head.jpg> .
 
 olf:496 a skos:Concept ;
     owl:sameAs wd:Q55630103 ;
+    skos:altLabel "Vrč za mleko"@sl ;
     skos:broader olf:448,
         olf:452,
         olf:554 ;
@@ -5935,7 +6080,8 @@ olf:496 a skos:Concept ;
     skos:prefLabel "Milk Jug"@en,
         "Pot à lait"@fr,
         "Tazza"@it,
-        "Melkkan"@nl ;
+        "Melkkan"@nl,
+        "Bokal mleka"@sl ;
     skos:related olf:338 ;
     skos:topConceptOf voc:olfactory-objects ;
     schema:image <https://commons.wikimedia.org/wiki/Special:FilePath/Bottle%20of%20milk.jpg> .
@@ -5968,7 +6114,8 @@ olf:531 a skos:Concept ;
     skos:prefLabel "Leaf"@en,
         "Feuille"@fr,
         "Foglia"@it,
-        "Blad"@nl ;
+        "Blad"@nl,
+        "List"@sl ;
     skos:related olf:200 ;
     skos:topConceptOf voc:olfactory-objects ;
     schema:image <https://data.odeuropa.eu/image/ss/531.Leaf_WEllcome%20Collection%2022952i_Leaf%20of%20Japanese%20horse%20chestnut%20%28Aesculus%20turbinata%29.jpeg> .
@@ -5984,7 +6131,8 @@ olf:534 a skos:Concept ;
     skos:prefLabel "Drink"@en,
         "Boisson"@fr,
         "Bevanda"@it,
-        "Drankje"@nl ;
+        "Drankje"@nl,
+        "Pijača"@sl ;
     skos:related olf:448,
         olf:449 ;
     skos:topConceptOf voc:olfactory-objects ;
@@ -6003,7 +6151,8 @@ olf:565 a skos:Concept ;
         "Bodily fluid"@en,
         "Liquide corporel"@fr,
         "Fluido corporeo"@it,
-        "Lichaamsvocht"@nl ;
+        "Lichaamsvocht"@nl,
+        "Telesna tekočina"@sl ;
     skos:topConceptOf voc:olfactory-objects .
 
 olf:77 a skos:Concept ;
@@ -6442,7 +6591,8 @@ olf:386 a skos:Concept ;
         iconclass:C ;
     skos:definition "A combination of aromatics meant for pomanders and to protect oneself from miasmas and diseases"@en ;
     skos:inScheme voc:olfactory-objects ;
-    skos:prefLabel "Schalg"@nl ;
+    skos:prefLabel "Schalg"@nl,
+        "Šlag"@sl ;
     skos:related olf:125 ;
     skos:topConceptOf voc:olfactory-objects .
 
@@ -6461,7 +6611,8 @@ olf:422 a skos:Concept ;
     skos:prefLabel "Mandrake"@en,
         "Mandragora"@fr,
         "Mandragora"@it,
-        "Alruin"@nl ;
+        "Alruin"@nl,
+        "Mandragora"@sl ;
     skos:topConceptOf voc:olfactory-objects ;
     schema:image <https://commons.wikimedia.org/wiki/Special:FilePath/Mandragora%20officinarum%20002.JPG> .
 
@@ -6487,6 +6638,7 @@ olf:449 a skos:Concept ;
 
 olf:452 a skos:Concept ;
     owl:sameAs wd:Q2413314 ;
+    skos:altLabel "Vrč"@sl ;
     skos:broader olf:448,
         olf:554 ;
     skos:inScheme voc:olfactory-objects ;
@@ -6494,7 +6646,8 @@ olf:452 a skos:Concept ;
         olf:572 ;
     skos:prefLabel "Jug"@en,
         "Broc"@fr,
-        "Brocca"@it ;
+        "Brocca"@it,
+        "Bokal"@sl ;
     skos:related olf:456 ;
     skos:topConceptOf voc:olfactory-objects ;
     schema:image <https://commons.wikimedia.org/wiki/Special:FilePath/Voller%20grüner%20Weinkranz%20Krug%200,8l.jpg> .
@@ -6536,7 +6689,8 @@ olf:473 a skos:Concept ;
 
 olf:520 a skos:Concept ;
     owl:sameAs wd:Q11009 ;
-    skos:altLabel "Noce"@it ;
+    skos:altLabel "Noce"@it,
+        "Orešek"@sl ;
     skos:broader olf:405,
         olf:75 ;
     skos:inScheme voc:olfactory-objects ;
@@ -6548,7 +6702,8 @@ olf:520 a skos:Concept ;
     skos:prefLabel "Nut"@en,
         "Noix"@fr,
         "Frutta secca"@it,
-        "Noot"@nl ;
+        "Noot"@nl,
+        "Oreh"@sl ;
     skos:topConceptOf voc:olfactory-objects ;
     schema:image <https://commons.wikimedia.org/wiki/Special:FilePath/Fancy%20raw%20mixed%20nuts%20macro.jpg> .
 
@@ -6565,7 +6720,8 @@ olf:535 a skos:Concept ;
     skos:prefLabel "Alcoholic drink"@en,
         "Boisson alcoolique"@fr,
         "Bevanda alcolica"@it,
-        "Alcoholische drank"@nl ;
+        "Alcoholische drank"@nl,
+        "Alkoholna pijača"@sl ;
     skos:topConceptOf voc:olfactory-objects ;
     schema:image <https://data.odeuropa.eu/image/ss/535.Alcoholic%20drink_embed.europeana.eu_9200579_ehyhjf9m.png> .
 
@@ -7960,6 +8116,8 @@ olf:50 a skos:Concept ;
     schema:image <https://data.odeuropa.eu/image/ss/50.Coffee_WEllcome%20collection_9200579_q8jrrt3c.jpeg> .
 
 olf:563 a skos:Concept ;
+    skos:altLabel "Abstrakcija"@sl,
+        "abstraktnost"@sl ;
     skos:inScheme voc:olfactory-objects ;
     skos:narrower olf:108,
         olf:173,
@@ -7972,7 +8130,8 @@ olf:563 a skos:Concept ;
         olf:413 ;
     skos:prefLabel "Abstract"@en,
         "Abstract"@fr,
-        "Astratto"@it ;
+        "Astratto"@it,
+        "Abstrakten"@sl ;
     skos:topConceptOf voc:olfactory-objects .
 
 olf:70 a skos:Concept ;
@@ -8726,6 +8885,7 @@ olf:416 a skos:Concept ;
 
 olf:423 a skos:Concept ;
     owl:sameAs wd:Q25686 ;
+    skos:altLabel "Grenkoba"@sl ;
     skos:broader olf:405,
         olf:535 ;
     skos:closeMatch <http://iconclass.org/(>,
@@ -8741,7 +8901,8 @@ olf:423 a skos:Concept ;
     skos:prefLabel "Wormwood"@en,
         "Absinthe"@fr,
         "Assenzio"@it,
-        "Alsem"@nl ;
+        "Alsem"@nl,
+        "Pelin"@sl ;
     skos:topConceptOf voc:olfactory-objects ;
     schema:image <https://commons.wikimedia.org/wiki/Special:FilePath/Artemisia%20absinthium%20P1210748.jpg> .
 
@@ -9324,7 +9485,8 @@ olf:85 a skos:Concept ;
     skos:prefLabel "Accessory"@en,
         "Accessoire"@fr,
         "Accessorio"@it,
-        "Accessoire"@nl ;
+        "Accessoire"@nl,
+        "Dodatek"@sl ;
     skos:topConceptOf voc:olfactory-objects ;
     schema:image <https://data.odeuropa.eu/image/ss/85.Acessory_Konstplym,%20dekoration_Koninklijk%20Wapenkamer%20van%20Zweden,%20Sweden%20-%20CC0.%20https_www.europeana.eu_item_2064105_Museu_ProvidedCHO_Livrustkammaren_50186.jpeg> .
 
@@ -9698,7 +9860,8 @@ olf:78 a skos:Concept ;
     skos:prefLabel "Plant"@en,
         "Plante"@fr,
         "Pianta"@it,
-        "Tuin"@nl ;
+        "Tuin"@nl,
+        "Rastlina"@sl ;
     skos:topConceptOf voc:olfactory-objects ;
     schema:image <https://commons.wikimedia.org/wiki/Special:FilePath/Thanh%20Long%20ở%20Ninh%20Thuận.jpg> .
 
@@ -9727,6 +9890,7 @@ olf:412 a skos:Concept ;
     schema:image <https://commons.wikimedia.org/wiki/Special:FilePath/Bouteille%20nb.jpg> .
 
 olf:562 a skos:Concept ;
+    skos:altLabel "Sestavina"@sl ;
     skos:inScheme voc:olfactory-objects ;
     skos:narrower olf:208,
         olf:230,
@@ -9745,7 +9909,8 @@ olf:562 a skos:Concept ;
         olf:66 ;
     skos:prefLabel "Element"@en,
         "Élément"@fr,
-        "Elemento"@it ;
+        "Elemento"@it,
+        "Element"@sl ;
     skos:topConceptOf voc:olfactory-objects .
 
 iconclass:B skos:closeMatch olf:109,
@@ -9814,7 +9979,8 @@ olf:448 a skos:Concept ;
         "Vessel"@en,
         "Récipient"@fr,
         "Recipiente"@it,
-        "Vat"@nl ;
+        "Vat"@nl,
+        "Posoda"@sl ;
     skos:related olf:534 ;
     skos:topConceptOf voc:olfactory-objects ;
     schema:image <https://commons.wikimedia.org/wiki/Special:FilePath/Danske%20Lerkar%20fra%20Stenalderen.jpg> .
@@ -9961,7 +10127,8 @@ olf:559 a skos:Concept ;
         olf:538 ;
     skos:prefLabel "Nature"@en,
         "Nature"@fr,
-        "Natura"@it ;
+        "Natura"@it,
+        "Narava"@sl ;
     skos:topConceptOf voc:olfactory-objects .
 
 olf:13 a skos:Concept ;
@@ -10031,6 +10198,7 @@ olf:259 a skos:Concept ;
 olf:65 a skos:Concept ;
     dct:bibliographicCitation "WordNet"@en ;
     owl:sameAs wd:Q131746 ;
+    skos:altLabel "Dišava"@sl ;
     skos:broader olf:558 ;
     skos:closeMatch iconclass:1,
         iconclass:2,
@@ -10053,7 +10221,8 @@ olf:65 a skos:Concept ;
     skos:prefLabel "Perfume"@en,
         "Perfume"@fr,
         "Profumo"@it,
-        "Parfum"@nl ;
+        "Parfum"@nl,
+        "Parfum"@sl ;
     skos:related olf:116,
         olf:117,
         olf:118,
@@ -10092,7 +10261,8 @@ olf:533 a skos:Concept ;
     skos:prefLabel "Body"@en,
         "Corps"@fr,
         "Corpo"@it,
-        "Lichaam"@nl ;
+        "Lichaam"@nl,
+        "Telo"@sl ;
     skos:related olf:23,
         olf:539 ;
     skos:topConceptOf voc:olfactory-objects ;
@@ -10199,7 +10369,8 @@ olf:480 a skos:Concept ;
     skos:prefLabel "Mammal"@en,
         "Mammifère"@fr,
         "Mammifero"@it,
-        "Zoogdier"@nl ;
+        "Zoogdier"@nl,
+        "Sesalci"@sl ;
     skos:topConceptOf voc:olfactory-objects ;
     schema:image <https://commons.wikimedia.org/wiki/Special:FilePath/Mammal%20Diversity%202011.png> .
 
@@ -10339,6 +10510,8 @@ iconclass:7 skos:closeMatch olf:122,
         olf:95 .
 
 olf:558 a skos:Concept ;
+    skos:altLabel "Vonj"@sl,
+        "dišava"@sl ;
     skos:inScheme voc:olfactory-objects ;
     skos:narrower olf:100,
         olf:103,
@@ -10388,7 +10561,8 @@ olf:558 a skos:Concept ;
         olf:71 ;
     skos:prefLabel "Fragrance"@en,
         "Fragrance"@fr,
-        "Fragranza"@it ;
+        "Fragranza"@it,
+        "Vonjava"@sl ;
     skos:topConceptOf voc:olfactory-objects .
 
 iconclass:C skos:closeMatch olf:112,
@@ -10918,7 +11092,8 @@ olf:555 a skos:Concept ;
         olf:68 ;
     skos:prefLabel "Being"@en,
         "Créature"@fr,
-        "Creatura"@it ;
+        "Creatura"@it,
+        "Bitje"@sl ;
     skos:topConceptOf voc:olfactory-objects .
 
 iconclass:5 skos:closeMatch olf:101,
@@ -11014,6 +11189,7 @@ iconclass:5 skos:closeMatch olf:101,
         olf:92 .
 
 olf:560 a skos:Concept ;
+    skos:altLabel "Rastlinstvo"@sl ;
     skos:inScheme voc:olfactory-objects ;
     skos:narrower olf:104,
         olf:105,
@@ -11129,7 +11305,8 @@ olf:560 a skos:Concept ;
         olf:93 ;
     skos:prefLabel "Flora"@en,
         "Flore"@fr,
-        "Flora"@it ;
+        "Flora"@it,
+        "Flora"@sl ;
     skos:topConceptOf voc:olfactory-objects .
 
 iconclass:4 skos:closeMatch olf:10,
@@ -11658,7 +11835,8 @@ olf:554 a skos:Concept ;
         olf:99 ;
     skos:prefLabel "Artefact"@en,
         "Artefact"@fr,
-        "Artefatto"@it ;
+        "Artefatto"@it,
+        "Artefakt"@sl ;
     skos:topConceptOf voc:olfactory-objects .
 
 olf:405 a skos:Concept ;
@@ -11869,6 +12047,7 @@ voc:olfactory-objects a skos:ConceptScheme ;
         olf:141,
         olf:142,
         olf:143,
+        olf:144,
         olf:145,
         olf:146,
         olf:147,
@@ -11883,6 +12062,7 @@ voc:olfactory-objects a skos:ConceptScheme ;
         olf:155,
         olf:156,
         olf:157,
+        olf:158,
         olf:159,
         olf:16,
         olf:160,
@@ -12313,6 +12493,7 @@ voc:olfactory-objects a skos:ConceptScheme ;
         olf:543,
         olf:544,
         olf:545,
+        olf:546,
         olf:547,
         olf:548,
         olf:549,
@@ -12343,6 +12524,7 @@ voc:olfactory-objects a skos:ConceptScheme ;
         olf:571,
         olf:572,
         olf:573,
+        olf:574,
         olf:575,
         olf:576,
         olf:577,

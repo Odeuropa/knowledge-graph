@@ -4,6 +4,7 @@
 @prefix owl: <http://www.w3.org/2002/07/owl#> .
 @prefix pav: <http://purl.org/pav/> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <https://schema.org/> .
 @prefix skos: <http://www.w3.org/2004/02/skos/core#> .
 @prefix voc: <http://data.odeuropa.eu/vocabulary/> .
 @prefix wd: <http://www.wikidata.org/entity/> .
@@ -51,7 +52,8 @@ noses:10 a skos:Concept ;
     skos:prefLabel "Smeller"@en,
         "Renifleur"@fr,
         "Annusatore"@it,
-        "Ruiker"@nl ;
+        "Ruiker"@nl,
+        "Vonjalec"@sl ;
     skos:topConceptOf voc:noses .
 
 noses:12 a skos:Concept ;
@@ -66,7 +68,8 @@ noses:12 a skos:Concept ;
         "Médecin"@fr,
         "Medico"@it,
         "Zdravnik"@sl ;
-    skos:topConceptOf voc:noses .
+    skos:topConceptOf voc:noses ;
+    schema:image <https://commons.wikimedia.org/wiki/Special:FilePath/The%20Doctor%20Luke%20Fildes%20crop.jpg> .
 
 noses:2 a skos:Concept ;
     dct:bibliographicCitation "WNT: Men blinddoeke een ervaren Chimist, Drogist of Apothekar, en legge hem duizend verschillende drogerijen voor, hij zal dezelve door den reuk onderkennen, berkhey, N.H.5, 349 [1805]."@nl ;
@@ -79,7 +82,8 @@ noses:2 a skos:Concept ;
         "Chimico"@it,
         "Chemist"@nl,
         "Kemik"@sl ;
-    skos:topConceptOf voc:noses .
+    skos:topConceptOf voc:noses ;
+    schema:image <https://commons.wikimedia.org/wiki/Special:FilePath/Julie%20Perkins%20at%20LLNL.jpg> .
 
 noses:404 skos:related noses:3,
         noses:4 .
@@ -112,7 +116,8 @@ noses:1 a skos:Concept ;
         "Cane da caccia"@it,
         "Jachthond"@nl,
         "Lovski pes"@sl ;
-    skos:topConceptOf voc:noses .
+    skos:topConceptOf voc:noses ;
+    schema:image <https://commons.wikimedia.org/wiki/Special:FilePath/Courbet%20-%20L'Hallali%20du%20cerf.jpg> .
 
 noses:11 a skos:Concept ;
     dct:bibliographicCitation "WNT: De Portugaler zend zyn Kielen … derwaert (t.w. naar Brazilië) … Om Amber, Balsemgeur, Saffraen' Brasilhout, Suiker En Boomwol en Tabak voor Rooker en voor Ruiker, f. de haes, Port. 19."@nl ;
@@ -163,7 +168,8 @@ noses:5 a skos:Concept ;
         "Airone"@it,
         "Reiger"@nl,
         "Čaplje"@sl ;
-    skos:topConceptOf voc:noses .
+    skos:topConceptOf voc:noses ;
+    schema:image <https://commons.wikimedia.org/wiki/Special:FilePath/Ardea%20cinerea%20EM1A2714%20%2827349354381%29.jpg> .
 
 noses:6 a skos:Concept ;
     dct:bibliographicCitation "WNT: De Salf-verkooper bereyt den wellustigen parfuymen (ruyckwerck), wel rieckende seep-balletjes en roock-werck, met het welcke sylieden overgooten zijnde, lieffelijck ruycken, Comenius, Deure d. Taalen 137 [1666]."@nl ;
@@ -190,7 +196,8 @@ noses:3 a skos:Concept ;
         "Drogist"@nl,
         "Farmacevt"@sl ;
     skos:related noses:404 ;
-    skos:topConceptOf voc:noses .
+    skos:topConceptOf voc:noses ;
+    schema:image <https://commons.wikimedia.org/wiki/Special:FilePath/Bundesarchiv%20Bild%20183-W0129-0019,%20Leipzig,%20Apothekerin%20mit%20Feinwaage.jpg> .
 
 noses:4 a skos:Concept ;
     dct:bibliographicCitation "WNT: Men blinddoeke een ervaren Chimist, Drogist of Apothekar, en legge hem duizend verschillende drogerijen voor, hij zal dezelve door den reuk onderkennen, berkhey, N.H.5, 349 [1805]."@nl ;
@@ -204,7 +211,8 @@ noses:4 a skos:Concept ;
         "Apotheker"@nl,
         "Lekarnar"@sl ;
     skos:related noses:404 ;
-    skos:topConceptOf voc:noses .
+    skos:topConceptOf voc:noses ;
+    schema:image <https://commons.wikimedia.org/wiki/Special:FilePath/ApotekerHjorten.jpg> .
 
 noses:7 a skos:Concept ;
     dct:bibliographicCitation "WNT: Het rook er zo lekker als bij een' parfumeur, Wolff en deken, Wildsch. 1, 84 [1793]."@nl ;
@@ -219,7 +227,8 @@ noses:7 a skos:Concept ;
         "Parfumer"@sl ;
     skos:related olf:65,
         noses:9 ;
-    skos:topConceptOf voc:noses .
+    skos:topConceptOf voc:noses ;
+    schema:image <https://commons.wikimedia.org/wiki/Special:FilePath/Perfume%20formulas%201910.jpg> .
 
 noses:9 a skos:Concept ;
     dct:bibliographicCitation "WNT: Tuyteschiksters, krolle-schikkers, Reuk-verkoopers …, Ik en wét niet, welken bras Hier al niet en kómt te pas, v. daele, Tydv. 39, 14 [1806]."@nl ;
@@ -237,8 +246,8 @@ noses:9 a skos:Concept ;
 voc:noses a skos:ConceptScheme ;
     rdfs:label "Noses" ;
     dct:created "2021-06-01"^^xsd:date ;
-    dct:modified "2022-07-01"^^xsd:date ;
-    pav:createdOn "2022-07-01"^^xsd:date ;
+    dct:modified "2023-03-13"^^xsd:date ;
+    pav:createdOn "2023-03-13"^^xsd:date ;
     pav:version "0.1" ;
     skos:hasTopConcept noses:1,
         noses:10,
