@@ -59,7 +59,7 @@ class Vocabulary:
                     exm = x['exactMatch']
                     if not isinstance(exm, list):
                         exm = [exm]
-                    x.exactMatch = [search_id(ex) for ex in exm]
+                    x['exactMatch'] = [search_id(ex) for ex in exm]
 
         voc = Vocabulary(result, schema)
         Vocabulary.add(name, voc)
