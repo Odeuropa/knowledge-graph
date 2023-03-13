@@ -7133,8 +7133,10 @@
 <http://data.odeuropa.eu/object/2916ecee-80c9-5f05-b1a0-17d5efd91044> a crmsci:S10_Material_Substantial ;
     rdfs:label "živim apnom"@sl .
 
-<http://data.odeuropa.eu/object/29241171-2d8a-506c-a175-47aed8318752> a crmsci:S10_Material_Substantial ;
-    rdfs:label "kantilena"@sl .
+<http://data.odeuropa.eu/object/29241171-2d8a-506c-a175-47aed8318752> a crm:E53_Place,
+        crmsci:S10_Material_Substantial ;
+    rdfs:label "kantilena"@sl ;
+    crm:P137_exemplifies <http://data.odeuropa.eu/vocabulary/fragrant-spaces/16> .
 
 <http://data.odeuropa.eu/object/294d6132-f9e2-5646-9edb-07d783c02853> a crmsci:S10_Material_Substantial ;
     rdfs:label "Mrcvareno meso"@sl .
@@ -7366,7 +7368,8 @@
     rdfs:label "trat"@sl .
 
 <http://data.odeuropa.eu/object/633341dd-6b9e-54c3-b246-1ccb8995b83b> a crmsci:S10_Material_Substantial ;
-    rdfs:label "naravnoat"@sl .
+    rdfs:label "naravnoat"@sl ;
+    crm:P137_exemplifies <http://data.odeuropa.eu/vocabulary/olfactory-objects/559> .
 
 <http://data.odeuropa.eu/object/65d2c620-f10f-59a7-927c-212e9f8241ec> a crmsci:S10_Material_Substantial ;
     rdfs:label "po težkem delu"@sl .
@@ -7496,7 +7499,8 @@
     rdfs:label "smodke"@sl .
 
 <http://data.odeuropa.eu/object/84dd70f5-0fee-5548-8581-0d270bac956e> a crmsci:S10_Material_Substantial ;
-    rdfs:label "rastlin"@sl .
+    rdfs:label "rastlin"@sl ;
+    crm:P137_exemplifies <http://data.odeuropa.eu/vocabulary/olfactory-objects/78> .
 
 <http://data.odeuropa.eu/object/85039d32-46c7-5d4a-a305-49a27eef0af7> a crmsci:S10_Material_Substantial ;
     rdfs:label "Sol"@sl .
@@ -7803,7 +7807,7 @@
 
 <http://data.odeuropa.eu/object/d21ef023-fac7-56bf-8bfa-d8d3eba0acde> a crmsci:S10_Material_Substantial ;
     rdfs:label "tobak"@sl ;
-    crm:P137_exemplifies <http://data.odeuropa.eu/vocabulary/olfactory-objects/227> .
+    crm:P137_exemplifies <http://data.odeuropa.eu/vocabulary/olfactory-objects/530> .
 
 <http://data.odeuropa.eu/object/d2d7ec31-0ed7-5fca-b42f-455f19be4c19> a crmsci:S10_Material_Substantial ;
     rdfs:label "blatom"@sl .
@@ -7924,7 +7928,8 @@
     rdfs:label "kakao"@sl .
 
 <http://data.odeuropa.eu/object/f04a572d-a616-515d-885e-c29c2777908e> a crmsci:S10_Material_Substantial ;
-    rdfs:label "rastlinami"@sl .
+    rdfs:label "rastlinami"@sl ;
+    crm:P137_exemplifies <http://data.odeuropa.eu/vocabulary/olfactory-objects/78> .
 
 <http://data.odeuropa.eu/object/f05a0a51-b447-57a9-9257-53c6cc266db8> a crmsci:S10_Material_Substantial ;
     rdfs:label "Vijolice"@sl ;

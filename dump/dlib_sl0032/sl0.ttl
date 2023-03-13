@@ -8486,8 +8486,10 @@
 <http://data.odeuropa.eu/object/0715319b-e039-5566-9116-ed1d4ad4ced2> a crmsci:S10_Material_Substantial ;
     rdfs:label "ozračje"@sl .
 
-<http://data.odeuropa.eu/object/071e98cf-bc94-5ef0-86be-3a71c19794eb> a crmsci:S10_Material_Substantial ;
-    rdfs:label "jedila"@sl .
+<http://data.odeuropa.eu/object/071e98cf-bc94-5ef0-86be-3a71c19794eb> a crm:E53_Place,
+        crmsci:S10_Material_Substantial ;
+    rdfs:label "jedila"@sl ;
+    crm:P137_exemplifies <http://data.odeuropa.eu/vocabulary/fragrant-spaces/15> .
 
 <http://data.odeuropa.eu/object/073d3a79-411c-5632-9f94-9ea2f31a418b> a crmsci:S10_Material_Substantial ;
     rdfs:label "kadite Camele"@sl .
@@ -8706,10 +8708,12 @@
     rdfs:label "kosmate gosenice"@sl .
 
 <http://data.odeuropa.eu/object/3ac8e295-a084-51db-876a-c9c24f5dd41e> a crmsci:S10_Material_Substantial ;
-    rdfs:label "kostanja"@sl .
+    rdfs:label "kostanja"@sl ;
+    crm:P137_exemplifies <http://data.odeuropa.eu/vocabulary/olfactory-objects/521> .
 
 <http://data.odeuropa.eu/object/3cc22375-f247-5703-85d4-ce2ec5b86809> a crmsci:S10_Material_Substantial ;
-    rdfs:label "dišav"@sl .
+    rdfs:label "dišav"@sl ;
+    crm:P137_exemplifies <http://data.odeuropa.eu/vocabulary/olfactory-objects/65> .
 
 <http://data.odeuropa.eu/object/3d93f5c8-c54d-5d92-babb-9e7d0a4f28fc> a crmsci:S10_Material_Substantial ;
     rdfs:label "cvetlic"@sl ;
@@ -8772,7 +8776,8 @@
     rdfs:label "cvetje"@sl .
 
 <http://data.odeuropa.eu/object/4eeb3e74-44ea-5789-b5d3-4f9f11079981> a crmsci:S10_Material_Substantial ;
-    rdfs:label "rastlinstvo"@sl .
+    rdfs:label "rastlinstvo"@sl ;
+    crm:P137_exemplifies <http://data.odeuropa.eu/vocabulary/olfactory-objects/560> .
 
 <http://data.odeuropa.eu/object/4f248456-32c8-5e3c-a0b1-4d427a9af74c> a crmsci:S10_Material_Substantial ;
     rdfs:label "bezga"@sl .
@@ -8839,10 +8844,12 @@
     crm:P137_exemplifies <http://data.odeuropa.eu/vocabulary/olfactory-objects/72> .
 
 <http://data.odeuropa.eu/object/555cf1c2-4fc1-5398-9e25-d6857c81777f> a crmsci:S10_Material_Substantial ;
-    rdfs:label "pelin"@sl .
+    rdfs:label "pelin"@sl ;
+    crm:P137_exemplifies <http://data.odeuropa.eu/vocabulary/olfactory-objects/423> .
 
 <http://data.odeuropa.eu/object/5997307e-c541-584b-8bb2-d72cc89f74ad> a crmsci:S10_Material_Substantial ;
-    rdfs:label "rastlinje"@sl .
+    rdfs:label "rastlinje"@sl ;
+    crm:P137_exemplifies <http://data.odeuropa.eu/vocabulary/olfactory-objects/78> .
 
 <http://data.odeuropa.eu/object/59c6f8e9-0543-544a-945e-df2d3619beab> a crmsci:S10_Material_Substantial ;
     rdfs:label "cvetličnjak"@sl .
@@ -8856,8 +8863,10 @@
 <http://data.odeuropa.eu/object/5a94adae-7559-587a-9ba1-df87c54a0078> a crmsci:S10_Material_Substantial ;
     rdfs:label "po klinč - j kih"@sl .
 
-<http://data.odeuropa.eu/object/5ac63140-6f7d-533e-9235-1fe42778eabd> a crmsci:S10_Material_Substantial ;
-    rdfs:label "travniki"@sl .
+<http://data.odeuropa.eu/object/5ac63140-6f7d-533e-9235-1fe42778eabd> a crm:E53_Place,
+        crmsci:S10_Material_Substantial ;
+    rdfs:label "travniki"@sl ;
+    crm:P137_exemplifies <http://data.odeuropa.eu/vocabulary/fragrant-spaces/30> .
 
 <http://data.odeuropa.eu/object/5c3277ac-3e77-50df-bafa-133945594756> a crmsci:S10_Material_Substantial ;
     rdfs:label "Bczek"@sl .
@@ -8874,7 +8883,7 @@
 
 <http://data.odeuropa.eu/object/6081d95b-b970-5f3e-bcb6-d3b878f23915> a crmsci:S10_Material_Substantial ;
     rdfs:label "tobaka"@sl ;
-    crm:P137_exemplifies <http://data.odeuropa.eu/vocabulary/olfactory-objects/227> .
+    crm:P137_exemplifies <http://data.odeuropa.eu/vocabulary/olfactory-objects/530> .
 
 <http://data.odeuropa.eu/object/61915fe2-e24b-5747-9925-0e5aba6fc582> a crmsci:S10_Material_Substantial ;
     rdfs:label "cveteče rože"@sl .
@@ -8886,7 +8895,8 @@
     rdfs:label "kukavica"@sl .
 
 <http://data.odeuropa.eu/object/62d3beaa-8771-5fd4-a614-05a672f5a2cd> a crmsci:S10_Material_Substantial ;
-    rdfs:label "sapa"@sl .
+    rdfs:label "sapa"@sl ;
+    crm:P137_exemplifies <http://data.odeuropa.eu/vocabulary/olfactory-objects/537> .
 
 <http://data.odeuropa.eu/object/6420232f-2c1f-5183-9832-2e8d1862227a> a crmsci:S10_Material_Substantial ;
     rdfs:label "po ogareUh"@sl .
@@ -8948,7 +8958,8 @@
     rdfs:label "vinski cvet"@sl .
 
 <http://data.odeuropa.eu/object/6feaf846-e7b6-538e-8e55-33bc1c7efd5e> a crmsci:S10_Material_Substantial ;
-    rdfs:label "marelic"@sl .
+    rdfs:label "marelic"@sl ;
+    crm:P137_exemplifies <http://data.odeuropa.eu/vocabulary/olfactory-objects/511> .
 
 <http://data.odeuropa.eu/object/728f5e11-a61b-52e9-a575-5cda4ab47237> a crmsci:S10_Material_Substantial ;
     rdfs:label "parfem"@sl .
@@ -8970,7 +8981,8 @@
     rdfs:label "velikonočnih potic"@sl .
 
 <http://data.odeuropa.eu/object/78e6fa82-582c-59b6-aaf3-a8ff08d3165e> a crmsci:S10_Material_Substantial ;
-    rdfs:label "grenkoslad"@sl .
+    rdfs:label "grenkoslad"@sl ;
+    crm:P137_exemplifies <http://data.odeuropa.eu/vocabulary/olfactory-objects/423> .
 
 <http://data.odeuropa.eu/object/7a227d6a-c2c9-5276-a8a5-bbe6d45a24db> a crmsci:S10_Material_Substantial ;
     rdfs:label "breskev"@sl ;
@@ -9008,7 +9020,8 @@
     rdfs:label "kranjskih klobas"@sl .
 
 <http://data.odeuropa.eu/object/813376a7-74f3-5e08-a26c-e48e82868efb> a crmsci:S10_Material_Substantial ;
-    rdfs:label "mazilo"@sl .
+    rdfs:label "mazilo"@sl ;
+    crm:P137_exemplifies <http://data.odeuropa.eu/vocabulary/olfactory-objects/536> .
 
 <http://data.odeuropa.eu/object/8194ab8e-fee7-5db0-8fc9-bc228bae5cc2> a crmsci:S10_Material_Substantial ;
     rdfs:label "jagode"@sl ;
@@ -9129,7 +9142,8 @@
     crm:P137_exemplifies <http://data.odeuropa.eu/vocabulary/olfactory-objects/98> .
 
 <http://data.odeuropa.eu/object/97c778ff-5879-52ab-a1e3-5b3c6dc4e907> a crmsci:S10_Material_Substantial ;
-    rdfs:label "Konjski odpadki"@sl .
+    rdfs:label "Konjski odpadki"@sl ;
+    crm:P137_exemplifies <http://data.odeuropa.eu/vocabulary/olfactory-objects/139> .
 
 <http://data.odeuropa.eu/object/98176e4c-3d5c-5beb-a8f2-326857559b00> a crmsci:S10_Material_Substantial ;
     rdfs:label "vodo"@sl .
@@ -9142,7 +9156,8 @@
     rdfs:label "po kavi"@sl .
 
 <http://data.odeuropa.eu/object/99c1d980-33ea-5b82-89d0-8e67b45738a9> a crmsci:S10_Material_Substantial ;
-    rdfs:label "list"@sl .
+    rdfs:label "list"@sl ;
+    crm:P137_exemplifies <http://data.odeuropa.eu/vocabulary/olfactory-objects/531> .
 
 <http://data.odeuropa.eu/object/99ff94ba-7ff9-5e97-b2de-2737f8d8f5bd> a crmsci:S10_Material_Substantial ;
     rdfs:label "Rinkenb"@sl .
@@ -9260,8 +9275,10 @@
 <http://data.odeuropa.eu/object/b0654ee4-13a9-55c4-9970-5366b81832b3> a crmsci:S10_Material_Substantial ;
     rdfs:label "nodeljske"@sl .
 
-<http://data.odeuropa.eu/object/b099c4ce-1ed7-54ae-a958-1a0aaece0e86> a crmsci:S10_Material_Substantial ;
-    rdfs:label "pekel"@sl .
+<http://data.odeuropa.eu/object/b099c4ce-1ed7-54ae-a958-1a0aaece0e86> a crm:E53_Place,
+        crmsci:S10_Material_Substantial ;
+    rdfs:label "pekel"@sl ;
+    crm:P137_exemplifies <http://data.odeuropa.eu/vocabulary/fragrant-spaces/101> .
 
 <http://data.odeuropa.eu/object/b14ca857-4ded-566a-95bb-5566f04dc582> a crmsci:S10_Material_Substantial ;
     rdfs:label "plinov"@sl .
@@ -9404,7 +9421,8 @@
     rdfs:label "cvetice"@sl .
 
 <http://data.odeuropa.eu/object/c6fbd470-eea9-55c1-b09f-d3029f3af395> a crmsci:S10_Material_Substantial ;
-    rdfs:label "rastlina"@sl .
+    rdfs:label "rastlina"@sl ;
+    crm:P137_exemplifies <http://data.odeuropa.eu/vocabulary/olfactory-objects/78> .
 
 <http://data.odeuropa.eu/object/c7254dac-3d7b-53d9-8100-3f81342de78f> a crmsci:S10_Material_Substantial ;
     rdfs:label "snov"@sl .
@@ -9422,8 +9440,9 @@
 <http://data.odeuropa.eu/object/cbbfa04e-e352-56e9-be6c-229dfd9fdadf> a crmsci:S10_Material_Substantial ;
     rdfs:label "perla"@sl .
 
-<http://data.odeuropa.eu/object/ccab081d-e7cf-53a4-8a52-44b64c4ecf2f> a crmsci:S10_Material_Substantial ;
-    rdfs:label "sodu"@sl .
+<http://data.odeuropa.eu/object/ccab081d-e7cf-53a4-8a52-44b64c4ecf2f> a crm:E22_Human-Made_Object ;
+    rdfs:label "sodu"@sl ;
+    crm:P137_exemplifies <http://data.odeuropa.eu/vocabulary/olfactory-objects/522> .
 
 <http://data.odeuropa.eu/object/ccd9d7c3-d55c-551f-b9c0-cfbfb80345df> a crmsci:S10_Material_Substantial ;
     rdfs:label "žival"@sl ;
@@ -9498,7 +9517,7 @@
 
 <http://data.odeuropa.eu/object/df8a680e-71bf-54da-8cc1-24e96c83a546> a crmsci:S10_Material_Substantial ;
     rdfs:label "tobak"@sl ;
-    crm:P137_exemplifies <http://data.odeuropa.eu/vocabulary/olfactory-objects/227> .
+    crm:P137_exemplifies <http://data.odeuropa.eu/vocabulary/olfactory-objects/530> .
 
 <http://data.odeuropa.eu/object/dfffbc7e-aa80-5970-94e2-7fa66bcf50f4> a crmsci:S10_Material_Substantial ;
     rdfs:label "cvetlic"@sl ;
@@ -9590,7 +9609,7 @@
 
 <http://data.odeuropa.eu/object/f0f86cb8-1aa2-5bcb-ad46-23561e550012> a crmsci:S10_Material_Substantial ;
     rdfs:label "tobak"@sl ;
-    crm:P137_exemplifies <http://data.odeuropa.eu/vocabulary/olfactory-objects/227> .
+    crm:P137_exemplifies <http://data.odeuropa.eu/vocabulary/olfactory-objects/530> .
 
 <http://data.odeuropa.eu/object/f22c8de9-45ee-5bae-9d3b-bfee29c8f4ce> a crmsci:S10_Material_Substantial ;
     rdfs:label "vijolice"@sl ;
