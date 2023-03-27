@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<rdf:RDF xmlns:cc="http://creativecommons.org/ns#" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:foaf="http://xmlns.com/foaf/0.1/" xmlns:gn="http://www.geonames.org/ontology#" xmlns:owl="http://www.w3.org/2002/07/owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:wgs84_pos="http://www.w3.org/2003/01/geo/wgs84_pos#">
+    <gn:Feature rdf:about="https://sws.geonames.org/108241/">
+        <rdfs:isDefinedBy rdf:resource="https://sws.geonames.org/108241/about.rdf"/>
+        <gn:name>Eastern Province</gn:name>
+        <gn:alternateName xml:lang="fr">Ach-Charqiya</gn:alternateName>
+        <gn:alternateName>Al Ahsa</gn:alternateName>
+        <gn:alternateName>Al Hasa</gn:alternateName>
+        <gn:alternateName xml:lang="ar">Al Minţaqah ash Sharqīyah</gn:alternateName>
+        <gn:alternateName xml:lang="ar">Ash Sharqīyah</gn:alternateName>
+        <gn:shortName>Eastern</gn:shortName>
+        <gn:alternateName xml:lang="en">Eastern District</gn:alternateName>
+        <gn:officialName xml:lang="en">Eastern Province</gn:officialName>
+        <gn:alternateName xml:lang="en">Eastern Region</gn:alternateName>
+        <gn:alternateName>El Ha’sa</gn:alternateName>
+        <gn:alternateName>Hasa</gn:alternateName>
+        <gn:alternateName xml:lang="ar">الشرقية</gn:alternateName>
+        <gn:alternateName xml:lang="ar">المنطقة الشرقية</gn:alternateName>
+        <gn:featureClass rdf:resource="https://www.geonames.org/ontology#A"/>
+        <gn:featureCode rdf:resource="https://www.geonames.org/ontology#A.ADM1"/>
+        <gn:countryCode>SA</gn:countryCode>
+        <gn:population>4900325</gn:population>
+        <wgs84_pos:lat>24</wgs84_pos:lat>
+        <wgs84_pos:long>49.75</wgs84_pos:long>
+        <gn:parentFeature rdf:resource="https://sws.geonames.org/102358/"/>
+        <gn:parentCountry rdf:resource="https://sws.geonames.org/102358/"/>
+        <gn:childrenFeatures rdf:resource="https://sws.geonames.org/108241/contains.rdf"/>
+        <gn:locationMap rdf:resource="https://www.geonames.org/108241/eastern-province.html"/>
+        <gn:wikipediaArticle rdf:resource="https://en.wikipedia.org/wiki/Eastern_Province%2C_Saudi_Arabia"/>
+        <rdfs:seeAlso rdf:resource="https://dbpedia.org/resource/Eastern_Province%2C_Saudi_Arabia"/>
+    </gn:Feature>
+    <foaf:Document rdf:about="https://sws.geonames.org/108241/about.rdf">
+        <foaf:primaryTopic rdf:resource="https://sws.geonames.org/108241/"/>
+        <cc:license rdf:resource="https://creativecommons.org/licenses/by/4.0/"/>
+        <cc:attributionURL rdf:resource="https://www.geonames.org"/>
+        <cc:attributionName rdf:datatype="https://www.w3.org/2001/XMLSchema#string">GeoNames</cc:attributionName>
+        <dcterms:created rdf:datatype="https://www.w3.org/2001/XMLSchema#date">2006-01-15</dcterms:created>
+        <dcterms:modified rdf:datatype="https://www.w3.org/2001/XMLSchema#date">2022-10-23</dcterms:modified>
+    </foaf:Document>
+</rdf:RDF>

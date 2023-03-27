@@ -112,7 +112,9 @@ def process_annotation_sheet(df, lang, codename):
     doc_map = {}
 
     for i, r in tqdm(df.iterrows(), total=df.shape[0]):
-        sentence = r.get('Sentence', r.get('Full_Sentence'))
+        sentence = r.get('SentenceBefore', '') + \
+                   r.get('Sentence', r.get('Full_Sentence')) + \
+                   r.get('SentenceAfter', '')
 
         # too many spaces = fake sentence
         if len(re.findall(r"\w", sentence)) - len(re.findall(r"\W", sentence)) < 10:
@@ -271,7 +273,8 @@ def process_metadata(lang, docs_file, intermediate_map, collection):
         internal_id = r.get('identifiers', identifier)
 
         if intermediate_map is not None:
-            pointer = intermediate_map[intermediate_map['real_id'] == identifier + '.txt']['id']
+            post = '' if collection == 'british-library' else '.txt'
+            pointer = intermediate_map[intermediate_map['real_id'] == identifier + post]['id']
             if len(pointer) > 0:
                 real_id = pointer.iloc[0]
             else:
@@ -434,6 +437,7 @@ def run(root, output, lang=None, organised_in_batches=False, metadata_format='ts
     VocabularyManager.setup(config['vocabularies'])
 
     DEFAULT_PLACES = {
+        'british-library': Place.from_text('UK'), # missing
         'old-bailey-corpus': Place.from_text('London'),
         'royal-society-corpus': Place.from_text('London'),
         'eebo': Place.from_text('UK'),  # missing
@@ -456,6 +460,32 @@ def run(root, output, lang=None, organised_in_batches=False, metadata_format='ts
         lang_list = ['en', 'fr', 'it', 'de', 'sl', 'nl']
         for lg in ['English', 'Italian', 'Dutch', 'French', 'German', 'Slovenian', 'Dutch']:
             process_benchmark_sheet(lg, docs_file)
+    elif collection == 'british-library':
+        batches = [x for x in os.listdir(root) if x.endswith('frames.tsv')]
+        for i, b in enumerate(batches):
+            print(b)
+            frames = path.join(root, b)
+            map_file = frames.replace('frames.tsv', 'mapping.tsv')
+            metadata = frames.replace('frames.tsv', 'metadata.tsv')
+
+            intermediate_map = pd.read_csv(map_file, dtype=str, sep='\t', encoding='utf-8', names=['id', 'filename'])
+            intermediate_map['real_id'] = intermediate_map['filename'].apply(lambda x: x.split('_')[0])
+            process_metadata(lang, metadata, intermediate_map, collection)
+
+            Graph.g.serialize(destination=f"{out_folder}/docs{i}.ttl")
+            Graph.reset()
+
+            tsv_data = pd.read_csv(frames, sep='\t', index_col=False).drop_duplicates().replace(np.nan, '', regex=True)
+
+            process_annotation_sheet(tsv_data, lang='en', codename=codename)
+            out = Graph.g.serialize(format='ttl')
+            out = out.replace('"<<', '<<').replace('>>"', '>>')
+            with open(f"{out_folder}/en{i}.ttl", 'w') as outfile:
+                outfile.write(out)
+            Graph.reset()
+            return
+
+
     else:
         lang_list = [lang]
         map_file = path.join(root, 'map.tsv')

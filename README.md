@@ -160,6 +160,7 @@ Install skosmos using docker
     python convert_img.py
     python convert_text.py -i ./input/text-annotation
     python convert_text.py -i ./input/royal-society-corpus --lang en
+    python convert_text.py -i ./input/british-library --lang en
     python convert_text.py -i ./input/old-bailey-corpus --lang en
     python convert_text.py -i ./input/gutenberg --lang en
     python convert_text.py -i ./input/gutenberg_it --lang it
