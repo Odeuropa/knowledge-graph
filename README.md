@@ -45,6 +45,7 @@ Upload dumps
     python3 scripts/load_dump.py geonames
     python3 scripts/load_dump.py image-annotation
     python3 scripts/load_dump.py text-annotation
+    python3 scripts/load_dump.py british-library
     python3 scripts/load_dump.py royal-society-corpus
     python3 scripts/load_dump.py old-bailey-corpus
     python3 scripts/load_dump.py gutenberg

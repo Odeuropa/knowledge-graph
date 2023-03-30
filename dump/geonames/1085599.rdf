@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<rdf:RDF xmlns:cc="http://creativecommons.org/ns#" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:foaf="http://xmlns.com/foaf/0.1/" xmlns:gn="http://www.geonames.org/ontology#" xmlns:owl="http://www.w3.org/2002/07/owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:wgs84_pos="http://www.w3.org/2003/01/geo/wgs84_pos#">
+    <gn:Feature rdf:about="https://sws.geonames.org/1085599/">
+        <rdfs:isDefinedBy rdf:resource="https://sws.geonames.org/1085599/about.rdf"/>
+        <gn:name>Western Cape</gn:name>
+        <gn:alternateName xml:lang="pt">Cabo Ocidental</gn:alternateName>
+        <gn:alternateName xml:lang="xh">Ntshona Koloni</gn:alternateName>
+        <gn:alternateName xml:lang="eo">Okcidenta Kablando</gn:alternateName>
+        <gn:alternateName>Province of the Western Cape</gn:alternateName>
+        <gn:alternateName xml:lang="sv">Västra Kapprovinsen</gn:alternateName>
+        <gn:alternateName xml:lang="af">Wes-Kaap</gn:alternateName>
+        <gn:officialName>Western Cape</gn:officialName>
+        <gn:featureClass rdf:resource="https://www.geonames.org/ontology#A"/>
+        <gn:featureCode rdf:resource="https://www.geonames.org/ontology#A.ADM1"/>
+        <gn:countryCode>ZA</gn:countryCode>
+        <gn:population>7113776</gn:population>
+        <wgs84_pos:lat>-34</wgs84_pos:lat>
+        <wgs84_pos:long>20</wgs84_pos:long>
+        <gn:parentFeature rdf:resource="https://sws.geonames.org/953987/"/>
+        <gn:parentCountry rdf:resource="https://sws.geonames.org/953987/"/>
+        <gn:childrenFeatures rdf:resource="https://sws.geonames.org/1085599/contains.rdf"/>
+        <gn:locationMap rdf:resource="https://www.geonames.org/1085599/western-cape.html"/>
+        <gn:wikipediaArticle rdf:resource="https://en.wikipedia.org/wiki/Western_Cape"/>
+        <rdfs:seeAlso rdf:resource="https://dbpedia.org/resource/Western_Cape"/>
+    </gn:Feature>
+    <foaf:Document rdf:about="https://sws.geonames.org/1085599/about.rdf">
+        <foaf:primaryTopic rdf:resource="https://sws.geonames.org/1085599/"/>
+        <cc:license rdf:resource="https://creativecommons.org/licenses/by/4.0/"/>
+        <cc:attributionURL rdf:resource="https://www.geonames.org"/>
+        <cc:attributionName rdf:datatype="https://www.w3.org/2001/XMLSchema#string">GeoNames</cc:attributionName>
+        <dcterms:created rdf:datatype="https://www.w3.org/2001/XMLSchema#date">2006-01-15</dcterms:created>
+        <dcterms:modified rdf:datatype="https://www.w3.org/2001/XMLSchema#date">2022-10-22</dcterms:modified>
+    </foaf:Document>
+</rdf:RDF>

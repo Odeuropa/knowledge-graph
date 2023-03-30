@@ -129,6 +129,9 @@ def process_annotation_sheet(df, lang, codename):
             continue
 
         identifier, pack = extract_id(lang, title)
+        if pack is None:
+            not_found.append(lang + ' | ' + title + f' ({identifier})')
+            continue
         doc, frag_uri = pack
         if identifier not in doc_map:
             doc_map[identifier] = 0
