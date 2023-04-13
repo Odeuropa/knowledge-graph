@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<rdf:RDF xmlns:cc="http://creativecommons.org/ns#" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:foaf="http://xmlns.com/foaf/0.1/" xmlns:gn="http://www.geonames.org/ontology#" xmlns:owl="http://www.w3.org/2002/07/owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:wgs84_pos="http://www.w3.org/2003/01/geo/wgs84_pos#">
+    <gn:Feature rdf:about="https://sws.geonames.org/1013904/">
+        <rdfs:isDefinedBy rdf:resource="https://sws.geonames.org/1013904/about.rdf"/>
+        <gn:name>Cathedral Peak</gn:name>
+        <gn:alternateName>Cathedral Peak</gn:alternateName>
+        <gn:featureClass rdf:resource="https://www.geonames.org/ontology#T"/>
+        <gn:featureCode rdf:resource="https://www.geonames.org/ontology#T.MT"/>
+        <gn:countryCode>ZA</gn:countryCode>
+        <wgs84_pos:lat>-28.92415</wgs84_pos:lat>
+        <wgs84_pos:long>29.13377</wgs84_pos:long>
+        <wgs84_pos:alt>3004</wgs84_pos:alt>
+        <gn:parentFeature rdf:resource="https://sws.geonames.org/8347621/"/>
+        <gn:parentCountry rdf:resource="https://sws.geonames.org/953987/"/>
+        <gn:parentADM1 rdf:resource="https://sws.geonames.org/972062/"/>
+        <gn:parentADM2 rdf:resource="https://sws.geonames.org/8347365/"/>
+        <gn:parentADM3 rdf:resource="https://sws.geonames.org/8347621/"/>
+        <gn:nearbyFeatures rdf:resource="https://sws.geonames.org/1013904/nearby.rdf"/>
+        <gn:locationMap rdf:resource="https://www.geonames.org/1013904/cathedral-peak.html"/>
+        <gn:wikipediaArticle rdf:resource="https://en.wikipedia.org/wiki/Cathedral_Peak_%28South_Africa%29"/>
+        <rdfs:seeAlso rdf:resource="https://dbpedia.org/resource/Cathedral_Peak_%28South_Africa%29"/>
+    </gn:Feature>
+    <foaf:Document rdf:about="https://sws.geonames.org/1013904/about.rdf">
+        <foaf:primaryTopic rdf:resource="https://sws.geonames.org/1013904/"/>
+        <cc:license rdf:resource="https://creativecommons.org/licenses/by/4.0/"/>
+        <cc:attributionURL rdf:resource="https://www.geonames.org"/>
+        <cc:attributionName rdf:datatype="https://www.w3.org/2001/XMLSchema#string">GeoNames</cc:attributionName>
+        <dcterms:created rdf:datatype="https://www.w3.org/2001/XMLSchema#date">2006-01-15</dcterms:created>
+        <dcterms:modified rdf:datatype="https://www.w3.org/2001/XMLSchema#date">2015-03-24</dcterms:modified>
+    </foaf:Document>
+</rdf:RDF>

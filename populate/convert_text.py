@@ -458,14 +458,15 @@ def run(root, output, lang=None, organised_in_batches=False, metadata_format='ts
         'bibbleue': Place.from_text('Troyes')
     }
 
+
     # convert
     if lang is None:
         lang_list = ['en', 'fr', 'it', 'de', 'sl', 'nl']
         for lg in ['English', 'Italian', 'Dutch', 'French', 'German', 'Slovenian', 'Dutch']:
             process_benchmark_sheet(lg, docs_file)
     elif collection == 'british-library':
-        batches = [x for x in os.listdir(root) if x.endswith('frames.tsv')]
-        for i, b in enumerate(batches):
+        periods = [x for x in os.listdir(root) if x.endswith('frames.tsv')]
+        for i, b in enumerate(periods):
             print(b)
             frames = path.join(root, b)
             map_file = frames.replace('frames.tsv', 'mapping.tsv')
@@ -480,13 +481,17 @@ def run(root, output, lang=None, organised_in_batches=False, metadata_format='ts
 
             tsv_data = pd.read_csv(frames, sep='\t', index_col=False).drop_duplicates().replace(np.nan, '', regex=True)
 
-            process_annotation_sheet(tsv_data, lang='en', codename=codename)
-            out = Graph.g.serialize(format='ttl')
-            out = out.replace('"<<', '<<').replace('>>"', '>>')
-            with open(f"{out_folder}/en{i}.ttl", 'w') as outfile:
-                outfile.write(out)
-            Graph.reset()
-            return
+            # dividing in batches of 10K rows
+            step = 10000
+            for j in tqdm(np.arange(0, len(tsv_data) - 1, step), desc="Batches: "):
+                process_annotation_sheet(tsv_data[i:i + step], lang='en', codename=codename)
+                out = Graph.g.serialize(format='ttl')
+                out = out.replace('"<<', '<<').replace('>>"', '>>')
+                with open(f"{out_folder}/en{i}_{j}.ttl", 'w') as outfile:
+                    outfile.write(out)
+                Graph.reset()
+
+        return
 
 
     else:

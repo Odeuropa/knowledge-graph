@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<rdf:RDF xmlns:cc="http://creativecommons.org/ns#" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:foaf="http://xmlns.com/foaf/0.1/" xmlns:gn="http://www.geonames.org/ontology#" xmlns:owl="http://www.w3.org/2002/07/owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:wgs84_pos="http://www.w3.org/2003/01/geo/wgs84_pos#">
+    <gn:Feature rdf:about="https://sws.geonames.org/9972533/">
+        <rdfs:isDefinedBy rdf:resource="https://sws.geonames.org/9972533/about.rdf"/>
+        <gn:name>George's Street Arcade</gn:name>
+        <gn:featureClass rdf:resource="https://www.geonames.org/ontology#S"/>
+        <gn:featureCode rdf:resource="https://www.geonames.org/ontology#S.MALL"/>
+        <gn:countryCode>IE</gn:countryCode>
+        <wgs84_pos:lat>53.34381</wgs84_pos:lat>
+        <wgs84_pos:long>-6.26446</wgs84_pos:long>
+        <gn:parentFeature rdf:resource="https://sws.geonames.org/7778677/"/>
+        <gn:parentCountry rdf:resource="https://sws.geonames.org/2963597/"/>
+        <gn:parentADM1 rdf:resource="https://sws.geonames.org/7521314/"/>
+        <gn:parentADM2 rdf:resource="https://sws.geonames.org/7778677/"/>
+        <gn:nearbyFeatures rdf:resource="https://sws.geonames.org/9972533/nearby.rdf"/>
+        <gn:locationMap rdf:resource="https://www.geonames.org/9972533/george-s-street-arcade.html"/>
+        <gn:wikipediaArticle rdf:resource="https://en.wikipedia.org/wiki/George%27s_Street_Arcade"/>
+        <rdfs:seeAlso rdf:resource="https://dbpedia.org/resource/George%27s_Street_Arcade"/>
+    </gn:Feature>
+    <foaf:Document rdf:about="https://sws.geonames.org/9972533/about.rdf">
+        <foaf:primaryTopic rdf:resource="https://sws.geonames.org/9972533/"/>
+        <cc:license rdf:resource="https://creativecommons.org/licenses/by/4.0/"/>
+        <cc:attributionURL rdf:resource="https://www.geonames.org"/>
+        <cc:attributionName rdf:datatype="https://www.w3.org/2001/XMLSchema#string">GeoNames</cc:attributionName>
+        <dcterms:created rdf:datatype="https://www.w3.org/2001/XMLSchema#date">2015-01-27</dcterms:created>
+        <dcterms:modified rdf:datatype="https://www.w3.org/2001/XMLSchema#date">2017-07-25</dcterms:modified>
+    </foaf:Document>
+</rdf:RDF>

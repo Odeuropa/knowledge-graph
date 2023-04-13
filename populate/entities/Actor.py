@@ -57,7 +57,7 @@ class Actor(Entity):
                 q = re.sub(rf"^{'|'.join(ttls)} ", '', q).strip()
                 q = re.sub(r"[.,:]$", '', q)  # trailing punctuation
                 # print(q, ' <= ', name)
-                wd = wikidata_api.searchperson(q.strip(), lang=lang, alive_in=alive_in, birth=b, death=d)
+                # wd = wikidata_api.searchperson(q.strip(), lang=lang, alive_in=alive_in, birth=b, death=d)
             if wd is not None:
                 self.add(OWL.sameAs, wd)
                 is_person = True
