@@ -51,6 +51,8 @@ Upload dumps
     python3 scripts/load_dump.py gutenberg
     python3 scripts/load_dump.py gutenberg_it
     python3 scripts/load_dump.py eebo
+    python3 scripts/load_dump.py ecco
+    python3 scripts/load_dump.py pulse
     python3 scripts/load_dump.py gallica
     python3 scripts/load_dump.py grimm
     python3 scripts/load_dump.py bibbleue
@@ -166,6 +168,8 @@ Install skosmos using docker
     python convert_text.py -i ./input/gutenberg --lang en
     python convert_text.py -i ./input/gutenberg_it --lang it
     python convert_text.py -i ./input/eebo --lang en
+    python convert_text.py -i ./input/pulse --lang en
+    python convert_text.py -i ./input/ecco --lang en
     python convert_text.py -i ./input/gallica --lang fr
     python convert_text.py -i ./input/grimm --lang fr
     python convert_text.py -i ./input/bibbleue --lang fr

@@ -276,8 +276,9 @@ def process_metadata(lang, docs_file, intermediate_map, collection):
         internal_id = r.get('identifiers', identifier)
 
         if intermediate_map is not None:
-            post = '' if collection == 'british-library' else '.txt'
+            post = '' if collection in ['ecco', 'british-library'] else '.txt'
             pointer = intermediate_map[intermediate_map['real_id'] == identifier + post]['id']
+
             if len(pointer) > 0:
                 real_id = pointer.iloc[0]
             else:
@@ -440,6 +441,8 @@ def run(root, output, lang=None, organised_in_batches=False, metadata_format='ts
     VocabularyManager.setup(config['vocabularies'])
 
     DEFAULT_PLACES = {
+        'ecco': Place.from_text('UK'), # missing
+        'pulse': Place.from_text('UK'), # missing
         'british-library': Place.from_text('UK'), # missing
         'old-bailey-corpus': Place.from_text('London'),
         'royal-society-corpus': Place.from_text('London'),
