@@ -9,7 +9,7 @@ BASE_GRAPH = 'http://data.odeuropa.eu'
 VOCAB_GRAPH = path.join(BASE_GRAPH, 'vocabulary')
 
 ROOT = './dump'
-VOCAB = path.join(ROOT, 'vocabularies')
+VOCAB = path.join(ROOT, 'vocabularies', 'vocabularies')
 INTERNAL_ROOT = '/opt/graphdb/home/graphdb-import'
 
 C_TYPE = {
