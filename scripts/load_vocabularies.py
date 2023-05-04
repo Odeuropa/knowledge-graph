@@ -45,13 +45,14 @@ def upload_in(file_path, content_type, graph_name, keep_data=False):
 
 
 def load_vocabularies(keep_data=False):
-    for filename in sorted(os.listdir(VOCAB)):
+    # Note: reverse is here so that '-alignments' are after the vocabularies
+    for filename in sorted(os.listdir(VOCAB), reverse=True):
         name, ext = filename.rsplit('.')
         if ext == 'DS_Store':
             continue
         print('- ' + name)
         if C_TYPE[ext]:
-            upload_in(path.join(VOCAB, filename), C_TYPE[ext], path.join(VOCAB_GRAPH, name), keep_data)
+            upload_in(path.join(VOCAB, filename), C_TYPE[ext], path.join(VOCAB_GRAPH, name), keep_data or '-alignments' in name)
         else:
             continue
     print('completed')
