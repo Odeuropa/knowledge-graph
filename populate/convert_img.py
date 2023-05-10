@@ -35,6 +35,8 @@ def process_metadata(df):
         if idf == '':
             continue
 
+        url = r['Details URL']
+
         if r['Language']:
             lang = lang_map.get(r['Language'], 'en')
         else:
@@ -46,8 +48,22 @@ def process_metadata(df):
             else:
                 lang = None
 
-        date = r['Earliest Date'].strip().replace('.0', '').ljust(4, 'X')
-        end_date = r.get(r['Latest Date'], '')
+        date = r['Earliest Date'].strip().replace('.0', '')
+        end_date = r.get('Latest Date', '').strip().replace('.0', '')
+
+        if len(date) < 3:
+            # This is a bad crawling of the metadata:
+            if len(end_date) == 4:
+                # I use this as date!
+                date = end_date
+                end_date = ''
+            elif len(date) == 2 and ('rkd.nl' in url or 'sammlung.staedelmuseum' in url or 'nga.gov' in url):
+                # it is the century
+                date = date.ljust(4, 'X')
+            # elif len(date) != 0:
+            #     print(date, end_date, len(end_date), r['Details URL'])
+
+        date = date.ljust(4, 'X')
         if len(end_date) > 0 and end_date != date:
             date += '/' + end_date.strip().replace('.0', '').ljust(4, 'X')
         if date == 'XXXX':
@@ -79,7 +95,6 @@ def process_metadata(df):
                 to.add_location(m, lang)
 
         to.add_identifier(r.get('Repository Number'))
-        url = r['Details URL']
         if 'beniculturali' in url:
             q = {
                 "proto": {
@@ -269,6 +284,7 @@ def parse_annotations_file(json_file):
                 continue
 
             if x['id'] in image_map:
+                print('duplicate!', x['id'])
                 continue
 
             img = docs[fname]
