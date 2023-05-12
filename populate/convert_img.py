@@ -231,7 +231,7 @@ def init_base_smell_entities(id, img, smell_map, _prov):
 
 def process_annotations(annotations, image_map, smell_map, automatic, _prov):
     for x in tqdm(annotations):
-        image_id = x['image_id']
+        image_id = x.get('image_id', x.get('iid'))
 
         if image_id not in image_map:
             continue
@@ -249,7 +249,7 @@ def process_annotations(annotations, image_map, smell_map, automatic, _prov):
             cur_img.has_manual_annotations = True
 
         frag = cur_img.add_fragment(x['bbox'])
-        ann = cat_map[x['category_id']]
+        ann = cat_map[x.get('category_id', x.get('cid'))]
         cat = guess_annotation(ann, 'image-annotation' + cur_img.title + str(x['id']))
         smell, emission, experience = init_base_smell_entities(image_id, cur_img, smell_map, _prov)
 
@@ -303,7 +303,7 @@ def parse_annotations_file(json_file):
             cat_map[x['id']] = x
 
         annotations = res['annotations']
-        sorted(annotations, key=lambda k: k['image_id'])
+        sorted(annotations, key=lambda k: k.get('image_id', k.get('iid')))
 
         # dividing in batches of 50K annotations
         step = 50000
