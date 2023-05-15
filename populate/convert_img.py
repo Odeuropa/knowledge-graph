@@ -209,6 +209,7 @@ done = []
 
 def init_base_smell_entities(id, img, smell_map, _prov):
     # policy: 1 image = 1 smell
+    print(id)
     if id in smell_map:
         return smell_map[id]
 
@@ -232,7 +233,6 @@ def init_base_smell_entities(id, img, smell_map, _prov):
 def process_annotations(annotations, image_map, smell_map, automatic, _prov):
     for x in tqdm(annotations):
         image_id = x.get('image_id', x.get('iid'))
-
         if image_id not in image_map:
             continue
 
@@ -251,7 +251,7 @@ def process_annotations(annotations, image_map, smell_map, automatic, _prov):
         frag = cur_img.add_fragment(x['bbox'])
         ann = cat_map[x.get('category_id', x.get('cid'))]
         cat = guess_annotation(ann, 'image-annotation' + cur_img.title + str(x['id']))
-        smell, emission, experience = init_base_smell_entities(image_id, cur_img, smell_map, _prov)
+        smell, emission, experience = init_base_smell_entities(cur_img.internal_id, cur_img, smell_map, _prov)
 
         if isinstance(cat, Gesture):
             experience.add_gesture(cat)
