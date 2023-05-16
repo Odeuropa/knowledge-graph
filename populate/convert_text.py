@@ -327,11 +327,11 @@ def process_metadata(lang, docs_file, intermediate_map, collection):
                 parts = re.sub(r'\.$', '', author).split(',')
                 author = f'{parts[1]} {parts[0]}'
 
-            to.add_author(author, lang, birth, death)
+            to.add_creator(author, lang, birth, death)
 
         if editor:
             if editor == "l'auteur":
-                to.add_editor(to.authors[0])
+                to.add_editor(to.creators[0])
             elif ';' in editor:
                 for ed in editor.split(';'):
                     to.add_editor(ed, lang, edPlace)
@@ -340,7 +340,7 @@ def process_metadata(lang, docs_file, intermediate_map, collection):
 
         if publisher:
             if publisher == "l'auteur":
-                to.add_publisher(to.authors[0])
+                to.add_publisher(to.creators[0])
             elif ';' in publisher:
                 for ed in publisher.split(';'):
                     to.add_publisher(ed, lang, place)

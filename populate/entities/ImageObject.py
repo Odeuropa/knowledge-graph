@@ -12,8 +12,8 @@ CM_REGEX = r'cm (\d+(?:\.\d+)?) × (\d+(?:\.\d+)?)'
 
 
 class ImageObject(SourceDoc):
-    def __init__(self, _id, title, author=None, date=None, place=None, url=None, lang=None):
-        super().__init__(_id, title, author, date, lang)
+    def __init__(self, _id, title, creator=None, date=None, place=None, url=None, lang=None):
+        super().__init__(_id, title, creator, date, lang, creator_property=SDO.artist)
         self.internal_id = _id
 
         self.set_class(CRM.E36_Visual_Item)

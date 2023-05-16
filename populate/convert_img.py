@@ -69,14 +69,14 @@ def process_metadata(df):
         if date == 'XXXX':
             date = None
 
-        author = r['Artist']
-        if author is not None:
-            author = re.sub(r'\[ [A-Z]+ ]', '', author)
-            author = re.sub(r'\|', '', author)
-            author = re.sub(r'(,? )?\(?\?\)?', '', author).strip()
+        creator = r['Artist']
+        if creator is not None:
+            creator = re.sub(r'\[ [A-Z]+ ]', '', creator)
+            creator = re.sub(r'\|', '', creator)
+            creator = re.sub(r'(,? )?\(?\?\)?', '', creator).strip()
 
         loc = r.get('Original Location', "").replace('|', '')
-        to = ImageObject(idf, r['Title'].strip(), author, date, loc, r.get('Image Credits'), lang)
+        to = ImageObject(idf, r['Title'].strip(), creator, date, loc, r.get('Image Credits'), lang)
 
         # parse locations
         loc = r.get('Current Location', '')

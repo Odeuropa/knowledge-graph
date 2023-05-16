@@ -14,9 +14,9 @@ AUTHOR_DATES = r'\((\d+)-(\d+)\)'
 
 
 class SourceDoc(Entity):
-    def __init__(self, _id, title, author=None, date=None, lang=None):
+    def __init__(self, _id, title, author=None, date=None, lang=None, creator_property=SDO.author):
         super().__init__(str(date) + (title or _id) + str(author), 'source')
-        self.authors = []
+        self.creators = []
         self.author = None
 
         self.title = title
@@ -34,7 +34,8 @@ class SourceDoc(Entity):
 
                 birth = dt.group(1)
                 death = dt.group(2)
-            self.author = self.add_author(author, lang=lang, birth=birth, death=death)
+
+            self.author = self.add_creator(author, lang=lang, birth=birth, death=death, property=creator_property)
 
     def add_creation_date(self, date, lang='en'):
         if not date:
@@ -49,15 +50,15 @@ class SourceDoc(Entity):
         t = date if isinstance(date, Time) else Time.parse(date, lang)
         self.add(SDO.datePublished, t)
 
-    def add_author(self, author, lang=None, birth=None, death=None):
+    def add_creator(self, author, lang=None, birth=None, death=None, property=SDO.author):
         name = author.strip()
         if birth or death:
             person = Actor.create(name, lang=lang, birth=birth, death=death, is_person=True)
         else:
             t = self.time.start if self.time else None
             person = Actor.create(name, lang=lang, alive_in=t, is_person=True)
-        self.authors.append(person)
-        self.add(SDO.author, person)
+        self.creators.append(person)
+        self.add(property, person)
         return person
 
     def add_actor(self, role, actor, lang=None, place=None):
