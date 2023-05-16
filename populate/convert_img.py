@@ -24,9 +24,18 @@ os.makedirs(out_folder, exist_ok=True)
 DOC_ID_REGEX = r"\d{3}[A-Z]"
 
 docs = {}
+# in the source metadata there are duplicates, with different filenames and same url
+# the following map is needed for resolve those duplicates
+url_file_map = {}
 
 
 # COMPOSED_LOCATION_REGEX = r'([^(\n]+), ([^0-9\n(]+) \(([^0-9\n()]+)\)'
+
+def normalized_fname(fname):
+    for urls in url_file_map.values():
+        if fname in urls:
+            return urls[0]
+    return None
 
 
 def process_metadata(df):
@@ -36,6 +45,11 @@ def process_metadata(df):
             continue
 
         url = r['Details URL']
+
+        url_file_map[url] = url_file_map.get(url, []) + [idf]
+        if len(url_file_map[url]) > 1:
+            # already done! It is a duplicate!
+            continue
 
         if r['Language']:
             lang = lang_map.get(r['Language'], 'en')
@@ -209,7 +223,6 @@ done = []
 
 def init_base_smell_entities(id, img, smell_map, _prov):
     # policy: 1 image = 1 smell
-    print(id)
     if id in smell_map:
         return smell_map[id]
 
@@ -279,6 +292,8 @@ def parse_annotations_file(json_file):
 
         for x in res['images']:
             fname = x['file_name'].replace('/media/prathmeshmadhu/myhdd/odeuropa/annotations-nightly/mmodor_imgs/', '')
+            fname = normalized_fname(fname)
+
             if fname not in docs:
                 not_found.append(fname)
                 continue
