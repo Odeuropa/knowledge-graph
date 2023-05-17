@@ -14,8 +14,9 @@ AUTHOR_DATES = r'\((\d+)-(\d+)\)'
 
 
 class SourceDoc(Entity):
-    def __init__(self, _id, title, author=None, date=None, lang=None, creator_property=SDO.author):
-        super().__init__(str(date) + (title or _id) + str(author), 'source')
+    def __init__(self, _id, title, author=None, date=None, lang=None, creator_property=SDO.author, risk_of_homonyms=False):
+        seed = _id if risk_of_homonyms else str(date) + (title or _id) + str(author)
+        super().__init__(seed, 'source')
         self.creators = []
         self.author = None
 

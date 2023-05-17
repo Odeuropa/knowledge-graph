@@ -90,7 +90,7 @@ def process_metadata(df):
             creator = re.sub(r'(,? )?\(?\?\)?', '', creator).strip()
 
         loc = r.get('Original Location', "").replace('|', '')
-        to = ImageObject(idf, r['Title'].strip(), creator, date, loc, r.get('Image Credits'), lang)
+        to = ImageObject(idf, r['Title'].strip(), creator, date, loc, r.get('Image Credits'), lang, risk_of_homonyms=True)
 
         # parse locations
         loc = r.get('Current Location', '')
@@ -243,6 +243,7 @@ def init_base_smell_entities(id, img, smell_map, _prov):
     return smell, emission, experience
 
 
+annotations_done = []
 def process_annotations(annotations, image_map, smell_map, automatic, _prov):
     for x in tqdm(annotations):
         image_id = x.get('image_id', x.get('iid'))
@@ -260,6 +261,11 @@ def process_annotations(annotations, image_map, smell_map, automatic, _prov):
                 continue  # just to remove some noise
         else:
             cur_img.has_manual_annotations = True
+
+        frag_id =  cur_img.internal_id + '#' + ','.join([str(x) for x in x['bbox']])
+        if frag_id in annotations_done:
+            continue
+        annotations_done.append(frag_id)
 
         frag = cur_img.add_fragment(x['bbox'])
         ann = cat_map[x.get('category_id', x.get('cid'))]
@@ -318,7 +324,7 @@ def parse_annotations_file(json_file):
             cat_map[x['id']] = x
 
         annotations = res['annotations']
-        sorted(annotations, key=lambda k: k.get('image_id', k.get('iid')))
+        sorted(annotations, key=lambda k: (k.get('image_id', k.get('iid')), -k.get('score', 1)))
 
         # dividing in batches of 50K annotations
         step = 50000
