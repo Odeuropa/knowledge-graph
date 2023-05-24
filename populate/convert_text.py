@@ -487,7 +487,7 @@ def run(root, output, lang=None, organised_in_batches=False, metadata_format='ts
             # dividing in batches of 10K rows
             step = 10000
             for j in tqdm(np.arange(0, len(tsv_data) - 1, step), desc="Batches: "):
-                process_annotation_sheet(tsv_data[i:i + step], lang='en', codename=codename)
+                process_annotation_sheet(tsv_data[j:j + step], lang='en', codename=codename)
                 out = Graph.g.serialize(format='ttl')
                 out = out.replace('"<<', '<<').replace('>>"', '>>')
                 with open(f"{out_folder}/en{i}_{j}.ttl", 'w') as outfile:

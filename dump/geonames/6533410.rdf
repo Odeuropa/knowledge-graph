@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<rdf:RDF xmlns:cc="http://creativecommons.org/ns#" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:foaf="http://xmlns.com/foaf/0.1/" xmlns:gn="http://www.geonames.org/ontology#" xmlns:owl="http://www.w3.org/2002/07/owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:wgs84_pos="http://www.w3.org/2003/01/geo/wgs84_pos#">
+    <gn:Feature rdf:about="https://sws.geonames.org/6533410/">
+        <rdfs:isDefinedBy rdf:resource="https://sws.geonames.org/6533410/about.rdf"/>
+        <gn:name>Place of the Republic</gn:name>
+        <gn:officialName xml:lang="cs">Náměstí Republiky</gn:officialName>
+        <gn:officialName xml:lang="fr">Place de la République</gn:officialName>
+        <gn:officialName xml:lang="en">Place of the Republic</gn:officialName>
+        <gn:officialName xml:lang="de">Platz der Republik</gn:officialName>
+        <gn:featureClass rdf:resource="https://www.geonames.org/ontology#S"/>
+        <gn:featureCode rdf:resource="https://www.geonames.org/ontology#S.SQR"/>
+        <gn:countryCode>CZ</gn:countryCode>
+        <wgs84_pos:lat>50.0883</wgs84_pos:lat>
+        <wgs84_pos:long>14.42885</wgs84_pos:long>
+        <gn:parentFeature rdf:resource="https://sws.geonames.org/11951252/"/>
+        <gn:parentCountry rdf:resource="https://sws.geonames.org/3077311/"/>
+        <gn:parentADM1 rdf:resource="https://sws.geonames.org/3067695/"/>
+        <gn:parentADM2 rdf:resource="https://sws.geonames.org/8378769/"/>
+        <gn:parentADM3 rdf:resource="https://sws.geonames.org/11951252/"/>
+        <gn:nearbyFeatures rdf:resource="https://sws.geonames.org/6533410/nearby.rdf"/>
+        <gn:locationMap rdf:resource="https://www.geonames.org/6533410/namesti-republiky.html"/>
+        <gn:wikipediaArticle rdf:resource="https://en.wikipedia.org/wiki/N%C3%A1m%C4%9Bst%C3%AD_Republiky_%28Prague_Metro%29"/>
+        <rdfs:seeAlso rdf:resource="https://dbpedia.org/resource/N%C3%A1m%C4%9Bst%C3%AD_Republiky_%28Prague_Metro%29"/>
+    </gn:Feature>
+    <foaf:Document rdf:about="https://sws.geonames.org/6533410/about.rdf">
+        <foaf:primaryTopic rdf:resource="https://sws.geonames.org/6533410/"/>
+        <cc:license rdf:resource="https://creativecommons.org/licenses/by/4.0/"/>
+        <cc:attributionURL rdf:resource="https://www.geonames.org"/>
+        <cc:attributionName rdf:datatype="https://www.w3.org/2001/XMLSchema#string">GeoNames</cc:attributionName>
+        <dcterms:created rdf:datatype="https://www.w3.org/2001/XMLSchema#date">2007-04-30</dcterms:created>
+        <dcterms:modified rdf:datatype="https://www.w3.org/2001/XMLSchema#date">2018-09-13</dcterms:modified>
+    </foaf:Document>
+</rdf:RDF>
