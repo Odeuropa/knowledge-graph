@@ -1,90 +1,47 @@
-<?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<rdf:RDF xmlns:cc="http://creativecommons.org/ns#" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:foaf="http://xmlns.com/foaf/0.1/" xmlns:gn="http://www.geonames.org/ontology#" xmlns:owl="http://www.w3.org/2002/07/owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:wgs84_pos="http://www.w3.org/2003/01/geo/wgs84_pos#">
-    <gn:Feature rdf:about="https://sws.geonames.org/2523920/">
-        <rdfs:isDefinedBy rdf:resource="https://sws.geonames.org/2523920/about.rdf"/>
-        <gn:name>Palermo</gn:name>
-        <gn:alternateName xml:lang="ko">팔레르모</gn:alternateName>
-        <gn:alternateName xml:lang="ca">Palerm</gn:alternateName>
-        <gn:alternateName xml:lang="lt">Palermas</gn:alternateName>
-        <gn:alternateName xml:lang="fr">Palerme</gn:alternateName>
-        <gn:alternateName xml:lang="af">Palermo</gn:alternateName>
-        <gn:alternateName xml:lang="als">Palermo</gn:alternateName>
-        <gn:alternateName xml:lang="an">Palermo</gn:alternateName>
-        <gn:alternateName xml:lang="ast">Palermo</gn:alternateName>
-        <gn:alternateName xml:lang="bs">Palermo</gn:alternateName>
-        <gn:alternateName xml:lang="cs">Palermo</gn:alternateName>
-        <gn:alternateName xml:lang="cy">Palermo</gn:alternateName>
-        <gn:alternateName xml:lang="da">Palermo</gn:alternateName>
-        <gn:alternateName xml:lang="de">Palermo</gn:alternateName>
-        <gn:alternateName xml:lang="en">Palermo</gn:alternateName>
-        <gn:alternateName xml:lang="eo">Palermo</gn:alternateName>
-        <gn:alternateName xml:lang="es">Palermo</gn:alternateName>
-        <gn:alternateName xml:lang="et">Palermo</gn:alternateName>
-        <gn:alternateName xml:lang="eu">Palermo</gn:alternateName>
-        <gn:alternateName xml:lang="fi">Palermo</gn:alternateName>
-        <gn:alternateName xml:lang="gl">Palermo</gn:alternateName>
-        <gn:alternateName xml:lang="hr">Palermo</gn:alternateName>
-        <gn:alternateName xml:lang="hu">Palermo</gn:alternateName>
-        <gn:alternateName xml:lang="id">Palermo</gn:alternateName>
-        <gn:officialName xml:lang="it">Palermo</gn:officialName>
-        <gn:alternateName xml:lang="lb">Palermo</gn:alternateName>
-        <gn:alternateName xml:lang="lv">Palermo</gn:alternateName>
-        <gn:alternateName xml:lang="nap">Palermo</gn:alternateName>
-        <gn:alternateName xml:lang="nl">Palermo</gn:alternateName>
-        <gn:alternateName xml:lang="nn">Palermo</gn:alternateName>
-        <gn:alternateName xml:lang="no">Palermo</gn:alternateName>
-        <gn:alternateName xml:lang="pl">Palermo</gn:alternateName>
-        <gn:alternateName xml:lang="pt">Palermo</gn:alternateName>
-        <gn:alternateName xml:lang="ro">Palermo</gn:alternateName>
-        <gn:alternateName xml:lang="sv">Palermo</gn:alternateName>
-        <gn:alternateName xml:lang="tr">Palermo</gn:alternateName>
-        <gn:alternateName xml:lang="vec">Pałermo</gn:alternateName>
-        <gn:alternateName xml:lang="co">Palermu</gn:alternateName>
-        <gn:alternateName xml:lang="it">Palermu</gn:alternateName>
-        <gn:alternateName xml:lang="scn">Palermu</gn:alternateName>
-        <gn:alternateName xml:lang="la">Panormus</gn:alternateName>
-        <gn:alternateName xml:lang="be">Палерма</gn:alternateName>
-        <gn:alternateName xml:lang="bg">Палермо</gn:alternateName>
-        <gn:alternateName xml:lang="ru">Палермо</gn:alternateName>
-        <gn:alternateName xml:lang="sr">Палермо</gn:alternateName>
-        <gn:alternateName xml:lang="he">פלרמו</gn:alternateName>
-        <gn:alternateName xml:lang="ar">بالرمو</gn:alternateName>
-        <gn:alternateName xml:lang="ar">باليرمو</gn:alternateName>
-        <gn:officialName xml:lang="ar">بلرم</gn:officialName>
-        <gn:alternateName xml:lang="ar">بَلَرْم</gn:alternateName>
-        <gn:alternateName xml:lang="ar">بلرمة</gn:alternateName>
-        <gn:alternateName xml:lang="azb">پالرمو</gn:alternateName>
-        <gn:alternateName xml:lang="fa">پالرمو</gn:alternateName>
-        <gn:alternateName xml:lang="arz">پاليرمو</gn:alternateName>
-        <gn:alternateName xml:lang="ur">پالیرمو</gn:alternateName>
-        <gn:alternateName xml:lang="pnb">پلرمو</gn:alternateName>
-        <gn:alternateName xml:lang="hi">पलेर्मो</gn:alternateName>
-        <gn:alternateName xml:lang="ja">パレルモ</gn:alternateName>
-        <gn:alternateName xml:lang="zh">巴勒莫市</gn:alternateName>
-        <gn:featureClass rdf:resource="https://www.geonames.org/ontology#P"/>
-        <gn:featureCode rdf:resource="https://www.geonames.org/ontology#P.PPLA"/>
-        <gn:countryCode>IT</gn:countryCode>
-        <gn:population>648260</gn:population>
-        <wgs84_pos:lat>38.1166</wgs84_pos:lat>
-        <wgs84_pos:long>13.3636</wgs84_pos:long>
-        <wgs84_pos:alt>14</wgs84_pos:alt>
-        <gn:parentFeature rdf:resource="https://sws.geonames.org/6542127/"/>
-        <gn:parentCountry rdf:resource="https://sws.geonames.org/3175395/"/>
-        <gn:parentADM1 rdf:resource="https://sws.geonames.org/2523119/"/>
-        <gn:parentADM2 rdf:resource="https://sws.geonames.org/2523918/"/>
-        <gn:parentADM3 rdf:resource="https://sws.geonames.org/6542127/"/>
-        <gn:nearbyFeatures rdf:resource="https://sws.geonames.org/2523920/nearby.rdf"/>
-        <gn:locationMap rdf:resource="https://www.geonames.org/2523920/palermo.html"/>
-        <gn:wikipediaArticle rdf:resource="https://en.wikipedia.org/wiki/Palermo"/>
-        <rdfs:seeAlso rdf:resource="https://dbpedia.org/resource/Palermo"/>
-        <gn:wikipediaArticle rdf:resource="https://ru.wikipedia.org/wiki/%D0%9F%D0%B0%D0%BB%D0%B5%D1%80%D0%BC%D0%BE"/>
-    </gn:Feature>
-    <foaf:Document rdf:about="https://sws.geonames.org/2523920/about.rdf">
-        <foaf:primaryTopic rdf:resource="https://sws.geonames.org/2523920/"/>
-        <cc:license rdf:resource="https://creativecommons.org/licenses/by/4.0/"/>
-        <cc:attributionURL rdf:resource="https://www.geonames.org"/>
-        <cc:attributionName rdf:datatype="https://www.w3.org/2001/XMLSchema#string">GeoNames</cc:attributionName>
-        <dcterms:created rdf:datatype="https://www.w3.org/2001/XMLSchema#date">2006-01-15</dcterms:created>
-        <dcterms:modified rdf:datatype="https://www.w3.org/2001/XMLSchema#date">2022-12-16</dcterms:modified>
-    </foaf:Document>
-</rdf:RDF>
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd ">
+<html>
+<head>
+<title>GeoNames</title>
+<link rel="search" type="application/opensearchdescription+xml" title="geonames" href="https://www.geonames.org/opensearch-description.xml">
+<link href="/geonames.ico" rel="shortcut icon" >
+<link rel="StyleSheet" href="/geonames.css" type="text/css" >
+</head>
+<body>
+<table id="topmenutable" cellpadding="0" cellspacing="0"><tr>
+<td class="topmenu">&nbsp;<a href="/" title="GeoName Home">&nbsp;GeoNames Home</a>&nbsp;|&nbsp;<a href="/postal-codes/" title="Postal Codes">Postal Codes</a>&nbsp;|&nbsp;<a href="/export/" title="Database Dump and Webservice API">Download / Webservice</a>&nbsp;|&nbsp;<a href="/about.html" title="About GeoNames">About</a>&nbsp;</td>
+<td class="topsearch">
+   <form class="topsearch" name="searchForm" method="get" action="/servlet/geonames" >
+
+      search <input class="topmenu" name="q" size="20" value="" type="text">
+     <input type="hidden" name="srv" value="1">
+   </form>
+
+   <span id="topmenulogin">
+<a href="https://www.geonames.org/login" title="login or create new user account">login</a>
+   </span>
+</td></tr>
+</table>
+
+<br><br><br><br>
+<div style="margin:auto; width:500px; padding:40px; text-align:left" class="formTemplateClass">
+Connection to localhost:5432 refused. Check that the hostname and port are correct and that the postmaster is accepting TCP/IP connections.
+</div>
+
+
+<p>&nbsp;</p><p>&nbsp;</p><p>&nbsp;</p><p>&nbsp;</p>
+<div id="pageFooter">
+info@geonames.org  <img src="/img/smallant.gif" alt="ant" align="middle" hspace="40" border="0">
+<p>
+<a href="/">GeoNames Home</a>
+<span class="separator">&#8226;</span>
+<a href="/postal-codes/">Postal Codes</a>
+<span class="separator">&#8226;</span>
+<a href="/export/">Download / Webservice</a>
+<span class="separator">&#8226;</span>
+<a href="http://forum.geonames.org">Forum</a>
+<span class="separator">&#8226;</span>
+<a href="http://geonames.wordpress.com">Blog</a>
+<span class="separator">&#8226;</span>
+<a href="/sitemap.html">Sitemap</a>
+</div>
+</body></html>

@@ -1,7 +1,6 @@
 @prefix crm: <http://erlangen-crm.org/current/> .
 @prefix crmsci: <http://www.ics.forth.gr/isl/CRMsci/> .
 @prefix od: <http://data.odeuropa.eu/ontology/> .
-@prefix owl: <http://www.w3.org/2002/07/owl#> .
 @prefix prov: <http://www.w3.org/ns/prov#> .
 @prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
@@ -11,151 +10,151 @@
 
 <http://data.odeuropa.eu/emotion/00507153-2aa7-544e-aa84-7677a6ea5e48> a reo:REO21 ;
     rdfs:label "ammorbanti" ;
-    crm:P137_exemplifies <http://data.odeuropa.eu/emotion-type/disgust> ;
+    crm:P137_exemplifies <http://data.odeuropa.eu/vocabulary/plutchik/disgust> ;
     crm:P2_has_type <http://data.odeuropa.eu/sentiment/negative> ;
     reo:readP27 <http://data.odeuropa.eu/experience/509ad248-cba4-5dd7-aee1-2f0841291600> .
 
 <http://data.odeuropa.eu/emotion/00937548-eaff-5818-869c-69137446a25c> a reo:REO21 ;
     rdfs:label "soave" ;
-    crm:P137_exemplifies <http://data.odeuropa.eu/emotion-type/trust> ;
+    crm:P137_exemplifies <http://data.odeuropa.eu/vocabulary/plutchik/trust> ;
     crm:P2_has_type <http://data.odeuropa.eu/sentiment/positive> ;
     reo:readP27 <http://data.odeuropa.eu/experience/9114bf92-2725-50af-89e1-0d1a63adea51> .
 
 <http://data.odeuropa.eu/emotion/00e7fc97-2dab-5689-b812-8be5d149cb73> a reo:REO21 ;
     rdfs:label "gratissimo" ;
-    crm:P137_exemplifies <http://data.odeuropa.eu/emotion-type/trust> ;
+    crm:P137_exemplifies <http://data.odeuropa.eu/vocabulary/plutchik/trust> ;
     crm:P2_has_type <http://data.odeuropa.eu/sentiment/positive> ;
     reo:readP27 <http://data.odeuropa.eu/experience/e68be9ec-1fd9-52da-97d6-9b09f59aceb7> .
 
 <http://data.odeuropa.eu/emotion/03672b87-63db-5e09-bd02-731a30aa14ac> a reo:REO21 ;
     rdfs:label "molto grato" ;
-    crm:P137_exemplifies <http://data.odeuropa.eu/emotion-type/trust> ;
+    crm:P137_exemplifies <http://data.odeuropa.eu/vocabulary/plutchik/trust> ;
     crm:P2_has_type <http://data.odeuropa.eu/sentiment/positive> ;
     reo:readP27 <http://data.odeuropa.eu/experience/574bebfc-88d4-5468-abb2-12a0e7423fd2> .
 
 <http://data.odeuropa.eu/emotion/04648e2e-c84c-5cbc-8bf3-6293bbeba51b> a reo:REO21 ;
     rdfs:label "assai piacevole" ;
-    crm:P137_exemplifies <http://data.odeuropa.eu/emotion-type/trust> ;
+    crm:P137_exemplifies <http://data.odeuropa.eu/vocabulary/plutchik/trust> ;
     crm:P2_has_type <http://data.odeuropa.eu/sentiment/positive> ;
     reo:readP27 <http://data.odeuropa.eu/experience/c9dc089b-a634-501f-97ff-ea1121f2330c> .
 
 <http://data.odeuropa.eu/emotion/0616f4b0-bf34-5252-85f2-67ff938c3955> a reo:REO21 ;
     rdfs:label "profumato" ;
-    crm:P137_exemplifies <http://data.odeuropa.eu/emotion-type/trust> ;
+    crm:P137_exemplifies <http://data.odeuropa.eu/vocabulary/plutchik/trust> ;
     crm:P2_has_type <http://data.odeuropa.eu/sentiment/positive> ;
     reo:readP27 <http://data.odeuropa.eu/experience/cbda0a02-11dd-5f0a-8f18-f6adebfd2f09> .
 
 <http://data.odeuropa.eu/emotion/06e2c2fe-4a9b-5832-a2c4-679b61f5082c> a reo:REO21 ;
     rdfs:label "fetore" ;
-    crm:P137_exemplifies <http://data.odeuropa.eu/emotion-type/disgust> ;
+    crm:P137_exemplifies <http://data.odeuropa.eu/vocabulary/plutchik/disgust> ;
     crm:P2_has_type <http://data.odeuropa.eu/sentiment/negative> ;
     reo:readP27 <http://data.odeuropa.eu/experience/247e2490-76e7-54cf-8c08-fcfb0f605a50> .
 
 <http://data.odeuropa.eu/emotion/0ac68ff0-85b1-53cc-941d-bc9b86209002> a reo:REO21 ;
     rdfs:label "fetido" ;
-    crm:P137_exemplifies <http://data.odeuropa.eu/emotion-type/disgust> ;
+    crm:P137_exemplifies <http://data.odeuropa.eu/vocabulary/plutchik/disgust> ;
     crm:P2_has_type <http://data.odeuropa.eu/sentiment/negative> ;
     reo:readP27 <http://data.odeuropa.eu/experience/2dcdd841-a89e-5a4a-9b08-9e4e8af7780e> .
 
 <http://data.odeuropa.eu/emotion/0b72e590-f4f3-58d5-880f-000c0f757b94> a reo:REO21 ;
     rdfs:label "e noi seguitavamo a girare e a fiutare , e la fantasia lavorava , lavorava ." ;
-    crm:P137_exemplifies <http://data.odeuropa.eu/emotion-type/joy> ;
+    crm:P137_exemplifies <http://data.odeuropa.eu/vocabulary/plutchik/joy> ;
     crm:P2_has_type <http://data.odeuropa.eu/sentiment/positive> ;
     reo:readP27 <http://data.odeuropa.eu/experience/2ab0b62b-2c33-54b5-8198-b21bd9f59243> .
 
 <http://data.odeuropa.eu/emotion/0bf287ec-076f-55a9-8cbd-649c05337735> a reo:REO21 ;
     rdfs:label "nauseante" ;
-    crm:P137_exemplifies <http://data.odeuropa.eu/emotion-type/disgust> ;
+    crm:P137_exemplifies <http://data.odeuropa.eu/vocabulary/plutchik/disgust> ;
     crm:P2_has_type <http://data.odeuropa.eu/sentiment/negative> ;
     reo:readP27 <http://data.odeuropa.eu/experience/26044d00-efdd-52fa-8d58-5f619b9d6135> .
 
 <http://data.odeuropa.eu/emotion/0c5d8142-8dc9-5b1d-9d94-5760073913aa> a reo:REO21 ;
     rdfs:label "circolava per l ’ aria ad acuire le tinte della omerica scena ." ;
-    crm:P137_exemplifies <http://data.odeuropa.eu/emotion-type/fear> ;
+    crm:P137_exemplifies <http://data.odeuropa.eu/vocabulary/plutchik/fear> ;
     crm:P2_has_type <http://data.odeuropa.eu/sentiment/negative> ;
     reo:readP27 <http://data.odeuropa.eu/experience/d7187944-5095-51fe-8e6d-21b66a43ade6> .
 
 <http://data.odeuropa.eu/emotion/0d2e7e2f-e9da-5ea9-9d2a-71c2d167d115> a reo:REO21 ;
     rdfs:label "diedero per qualche momento una specie di ebbrezza taciturna e fantastica , durante la quale ognuno di noi credette di sentirsi il turbante sul capo e la testa d ’ una sultana sul cuore" ;
-    crm:P137_exemplifies <http://data.odeuropa.eu/emotion-type/joy> ;
+    crm:P137_exemplifies <http://data.odeuropa.eu/vocabulary/plutchik/joy> ;
     crm:P2_has_type <http://data.odeuropa.eu/sentiment/positive> ;
     reo:readP27 <http://data.odeuropa.eu/experience/0b56a497-86df-54a1-9575-da5ad0992774> .
 
 <http://data.odeuropa.eu/emotion/0d2fc88d-f5fa-5070-895d-ba90fc3d97f4> a reo:REO21 ;
     rdfs:label "ch ' evaporavano co ' miei sospiri , e colle mie lagrime si struggevano ." ;
-    crm:P137_exemplifies <http://data.odeuropa.eu/emotion-type/sadness> ;
+    crm:P137_exemplifies <http://data.odeuropa.eu/vocabulary/plutchik/sadness> ;
     crm:P2_has_type <http://data.odeuropa.eu/sentiment/negative> ;
     reo:readP27 <http://data.odeuropa.eu/experience/1de6b22d-3596-523c-b86c-88ac0b9d22eb> .
 
 <http://data.odeuropa.eu/emotion/0d7367b6-2d92-504d-9186-681b0e0abeaf> a reo:REO21 ;
     rdfs:label "soave" ;
-    crm:P137_exemplifies <http://data.odeuropa.eu/emotion-type/trust> ;
+    crm:P137_exemplifies <http://data.odeuropa.eu/vocabulary/plutchik/trust> ;
     crm:P2_has_type <http://data.odeuropa.eu/sentiment/positive> ;
     reo:readP27 <http://data.odeuropa.eu/experience/525876e1-f30e-5900-86e8-6352eeae5544> .
 
 <http://data.odeuropa.eu/emotion/0e97c014-43a9-5d91-83d2-1788b26e7096> a reo:REO21 ;
     rdfs:label "cattivo" ;
-    crm:P137_exemplifies <http://data.odeuropa.eu/emotion-type/disgust> ;
+    crm:P137_exemplifies <http://data.odeuropa.eu/vocabulary/plutchik/disgust> ;
     crm:P2_has_type <http://data.odeuropa.eu/sentiment/negative> ;
     reo:readP27 <http://data.odeuropa.eu/experience/f00fc6b9-b59b-5403-80fe-6ac16ec975fb> .
 
 <http://data.odeuropa.eu/emotion/0f1e829c-9895-5193-ac16-cf00dc698c27> a reo:REO21 ;
     rdfs:label "li troviamo maggiormente gustati dalla donna" ;
-    crm:P137_exemplifies <http://data.odeuropa.eu/emotion-type/trust> ;
+    crm:P137_exemplifies <http://data.odeuropa.eu/vocabulary/plutchik/trust> ;
     crm:P2_has_type <http://data.odeuropa.eu/sentiment/positive> ;
     reo:readP27 <http://data.odeuropa.eu/experience/a76bc5b8-3fe4-5700-8bd3-f5859324fa71> .
 
 <http://data.odeuropa.eu/emotion/0fd20482-2e7a-5554-99ae-b41f52dd728a> a reo:REO21 ;
     rdfs:label "gradevoli" ;
-    crm:P137_exemplifies <http://data.odeuropa.eu/emotion-type/trust> ;
+    crm:P137_exemplifies <http://data.odeuropa.eu/vocabulary/plutchik/trust> ;
     crm:P2_has_type <http://data.odeuropa.eu/sentiment/positive> ;
     reo:readP27 <http://data.odeuropa.eu/experience/de78d1c4-1b12-53a4-9495-5b5641cfaf06> .
 
 <http://data.odeuropa.eu/emotion/103914d0-b6b8-552e-a97d-24a8db756959> a reo:REO21 ;
     rdfs:label "profumato" ;
-    crm:P137_exemplifies <http://data.odeuropa.eu/emotion-type/trust> ;
+    crm:P137_exemplifies <http://data.odeuropa.eu/vocabulary/plutchik/trust> ;
     crm:P2_has_type <http://data.odeuropa.eu/sentiment/positive> ;
     reo:readP27 <http://data.odeuropa.eu/experience/914dc782-fb96-53bd-90cd-a728f82e9786> .
 
 <http://data.odeuropa.eu/emotion/10575108-9a22-5706-b8ba-f2f952e3c65a> a reo:REO21 ;
     rdfs:label "delizioso in grado superlativo" ;
-    crm:P137_exemplifies <http://data.odeuropa.eu/emotion-type/trust> ;
+    crm:P137_exemplifies <http://data.odeuropa.eu/vocabulary/plutchik/trust> ;
     crm:P2_has_type <http://data.odeuropa.eu/sentiment/positive> ;
     reo:readP27 <http://data.odeuropa.eu/experience/c5d8b961-896e-5ac8-b96a-6780d83c51f1> .
 
 <http://data.odeuropa.eu/emotion/12cffc8d-50c0-5928-a3ef-fbe7ed439c80> a reo:REO21 ;
     rdfs:label "fetido" ;
-    crm:P137_exemplifies <http://data.odeuropa.eu/emotion-type/disgust> ;
+    crm:P137_exemplifies <http://data.odeuropa.eu/vocabulary/plutchik/disgust> ;
     crm:P2_has_type <http://data.odeuropa.eu/sentiment/negative> ;
     reo:readP27 <http://data.odeuropa.eu/experience/a8d2b8b3-0a62-593d-9520-8114107d48ea> .
 
 <http://data.odeuropa.eu/emotion/1339bb63-a1a2-5fde-a101-d90168ab0cdb> a reo:REO21 ;
     rdfs:label "fetidissimo" ;
-    crm:P137_exemplifies <http://data.odeuropa.eu/emotion-type/disgust> ;
+    crm:P137_exemplifies <http://data.odeuropa.eu/vocabulary/plutchik/disgust> ;
     crm:P2_has_type <http://data.odeuropa.eu/sentiment/negative> ;
     reo:readP27 <http://data.odeuropa.eu/experience/a8fbe1b8-bc9d-5791-af5c-e0aa582a6b3c> .
 
 <http://data.odeuropa.eu/emotion/13600f19-6885-5f3c-a6d7-e963cf1ee048> a reo:REO21 ;
     rdfs:label "godranno" ;
-    crm:P137_exemplifies <http://data.odeuropa.eu/emotion-type/joy> ;
+    crm:P137_exemplifies <http://data.odeuropa.eu/vocabulary/plutchik/joy> ;
     crm:P2_has_type <http://data.odeuropa.eu/sentiment/positive> ;
     reo:readP27 <http://data.odeuropa.eu/experience/920e5150-6014-55b7-a951-1ea994c8d878> .
 
 <http://data.odeuropa.eu/emotion/13a703ed-239c-5cbc-8563-8c7d7d9cfaea> a reo:REO21 ;
     rdfs:label "soave" ;
-    crm:P137_exemplifies <http://data.odeuropa.eu/emotion-type/trust> ;
+    crm:P137_exemplifies <http://data.odeuropa.eu/vocabulary/plutchik/trust> ;
     crm:P2_has_type <http://data.odeuropa.eu/sentiment/positive> ;
     reo:readP27 <http://data.odeuropa.eu/experience/75c7c448-f9c4-598b-b9d4-79b1a155ae5a> .
 
 <http://data.odeuropa.eu/emotion/152bd475-34ab-5096-b4a8-7f954da06b6d> a reo:REO21 ;
     rdfs:label "Puzar" ;
-    crm:P137_exemplifies <http://data.odeuropa.eu/emotion-type/disgust> ;
+    crm:P137_exemplifies <http://data.odeuropa.eu/vocabulary/plutchik/disgust> ;
     crm:P2_has_type <http://data.odeuropa.eu/sentiment/negative> ;
     reo:readP27 <http://data.odeuropa.eu/experience/39cb1af6-0f65-50af-9e86-668015be489e> .
 
 <http://data.odeuropa.eu/emotion/15b7c1d7-b4ce-5ff1-8039-97bcfaab706b> a reo:REO21 ;
     rdfs:label "grato" ;
-    crm:P137_exemplifies <http://data.odeuropa.eu/emotion-type/trust> ;
+    crm:P137_exemplifies <http://data.odeuropa.eu/vocabulary/plutchik/trust> ;
     crm:P2_has_type <http://data.odeuropa.eu/sentiment/positive> ;
     reo:readP27 <http://data.odeuropa.eu/experience/0a795213-aa70-5e49-8c9e-cbdb96aefcf6> .
 
@@ -167,49 +166,49 @@
 
 <http://data.odeuropa.eu/emotion/1618a3b3-7af0-5a24-9d1e-63773769fc9a> a reo:REO21 ;
     rdfs:label "tanto caro alla cucina dei nostri antichi ." ;
-    crm:P137_exemplifies <http://data.odeuropa.eu/emotion-type/trust> ;
+    crm:P137_exemplifies <http://data.odeuropa.eu/vocabulary/plutchik/trust> ;
     crm:P2_has_type <http://data.odeuropa.eu/sentiment/positive> ;
     reo:readP27 <http://data.odeuropa.eu/experience/d5bcf306-747f-5800-ac65-62a0ba66667b> .
 
 <http://data.odeuropa.eu/emotion/171aa281-db3e-5d52-b8b4-4dc18ed581b2> a reo:REO21 ;
     rdfs:label "grato" ;
-    crm:P137_exemplifies <http://data.odeuropa.eu/emotion-type/trust> ;
+    crm:P137_exemplifies <http://data.odeuropa.eu/vocabulary/plutchik/trust> ;
     crm:P2_has_type <http://data.odeuropa.eu/sentiment/positive> ;
     reo:readP27 <http://data.odeuropa.eu/experience/4a027622-8689-5008-b656-523eb3915226> .
 
 <http://data.odeuropa.eu/emotion/176b6f60-21be-53db-9ad9-3322c2df4b1d> a reo:REO21 ;
     rdfs:label "Non ci fu verso di tenere a casa i due più grandicelli" ;
-    crm:P137_exemplifies <http://data.odeuropa.eu/emotion-type/fear> ;
+    crm:P137_exemplifies <http://data.odeuropa.eu/vocabulary/plutchik/fear> ;
     crm:P2_has_type <http://data.odeuropa.eu/sentiment/negative> ;
     reo:readP27 <http://data.odeuropa.eu/experience/3ec6b0d7-0cfd-51a0-aba2-fa7a41f5c3a4> .
 
 <http://data.odeuropa.eu/emotion/187709ab-cad0-5a3d-9579-3f2c4f048db9> a reo:REO21 ;
     rdfs:label "si meritano la preferenza" ;
-    crm:P137_exemplifies <http://data.odeuropa.eu/emotion-type/trust> ;
+    crm:P137_exemplifies <http://data.odeuropa.eu/vocabulary/plutchik/trust> ;
     crm:P2_has_type <http://data.odeuropa.eu/sentiment/positive> ;
     reo:readP27 <http://data.odeuropa.eu/experience/0ebaf6d9-66ec-58c8-b063-613daffda05d> .
 
 <http://data.odeuropa.eu/emotion/18963154-bea2-5d35-b7e0-77fb8cdacf1b> a reo:REO21 ;
     rdfs:label "così più belli , così più fragranti , così più ricchi di petali , così più vivi di colore" ;
-    crm:P137_exemplifies <http://data.odeuropa.eu/emotion-type/trust> ;
+    crm:P137_exemplifies <http://data.odeuropa.eu/vocabulary/plutchik/trust> ;
     crm:P2_has_type <http://data.odeuropa.eu/sentiment/positive> ;
     reo:readP27 <http://data.odeuropa.eu/experience/5ba57874-18f4-5e5b-bd62-0b1657852cd8> .
 
 <http://data.odeuropa.eu/emotion/19d09c46-7be2-569c-b042-63322ee01e4e> a reo:REO21 ;
     rdfs:label "soave" ;
-    crm:P137_exemplifies <http://data.odeuropa.eu/emotion-type/trust> ;
+    crm:P137_exemplifies <http://data.odeuropa.eu/vocabulary/plutchik/trust> ;
     crm:P2_has_type <http://data.odeuropa.eu/sentiment/positive> ;
     reo:readP27 <http://data.odeuropa.eu/experience/9685e789-9742-55f2-aad9-d492ea0959fc> .
 
 <http://data.odeuropa.eu/emotion/1a1cfaa6-9454-5641-b544-81f0bc03abb7> a reo:REO21 ;
     rdfs:label "fragrante" ;
-    crm:P137_exemplifies <http://data.odeuropa.eu/emotion-type/trust> ;
+    crm:P137_exemplifies <http://data.odeuropa.eu/vocabulary/plutchik/trust> ;
     crm:P2_has_type <http://data.odeuropa.eu/sentiment/positive> ;
     reo:readP27 <http://data.odeuropa.eu/experience/4c1e3f0b-7cb0-5ef2-85f3-bc1f8fef217a> .
 
 <http://data.odeuropa.eu/emotion/1a389d22-2edf-5067-a0d3-2665610a0a5c> a reo:REO21 ;
     rdfs:label "gratissimo" ;
-    crm:P137_exemplifies <http://data.odeuropa.eu/emotion-type/trust> ;
+    crm:P137_exemplifies <http://data.odeuropa.eu/vocabulary/plutchik/trust> ;
     crm:P2_has_type <http://data.odeuropa.eu/sentiment/positive> ;
     reo:readP27 <http://data.odeuropa.eu/experience/b97aae5d-c193-59cd-a17b-72982ba346bd> .
 
@@ -221,508 +220,508 @@
 
 <http://data.odeuropa.eu/emotion/1d3f675e-5b64-59c1-980f-dfbb0bc8bb56> a reo:REO21 ;
     rdfs:label "spiacevole" ;
-    crm:P137_exemplifies <http://data.odeuropa.eu/emotion-type/disgust> ;
+    crm:P137_exemplifies <http://data.odeuropa.eu/vocabulary/plutchik/disgust> ;
     crm:P2_has_type <http://data.odeuropa.eu/sentiment/negative> ;
     reo:readP27 <http://data.odeuropa.eu/experience/b474d516-c776-578b-8ccb-aaac78fab8c9> .
 
 <http://data.odeuropa.eu/emotion/1d4812a8-2b5f-5d73-9e08-6ca69594cb50> a reo:REO21 ;
     rdfs:label "schifoso , puzzolente , e pestifero" ;
-    crm:P137_exemplifies <http://data.odeuropa.eu/emotion-type/disgust> ;
+    crm:P137_exemplifies <http://data.odeuropa.eu/vocabulary/plutchik/disgust> ;
     crm:P2_has_type <http://data.odeuropa.eu/sentiment/negative> ;
     reo:readP27 <http://data.odeuropa.eu/experience/1ea39d9f-7597-5dea-93f0-e126172ca3af> .
 
 <http://data.odeuropa.eu/emotion/1f20f7c0-d8bb-5cdf-a260-e29870abf17d> a reo:REO21 ;
     rdfs:label "non tanto gradito" ;
-    crm:P137_exemplifies <http://data.odeuropa.eu/emotion-type/disgust> ;
+    crm:P137_exemplifies <http://data.odeuropa.eu/vocabulary/plutchik/disgust> ;
     crm:P2_has_type <http://data.odeuropa.eu/sentiment/negative> ;
     reo:readP27 <http://data.odeuropa.eu/experience/5e8602d3-03a7-52d1-b95e-ba0daddd668f> .
 
 <http://data.odeuropa.eu/emotion/1fbf839f-251c-5067-82a8-d6f121b4995d> a reo:REO21 ;
     rdfs:label "sono assai offensive al sistema nervoso delle persone molto sensibili" ;
-    crm:P137_exemplifies <http://data.odeuropa.eu/emotion-type/fear> ;
+    crm:P137_exemplifies <http://data.odeuropa.eu/vocabulary/plutchik/fear> ;
     crm:P2_has_type <http://data.odeuropa.eu/sentiment/negative> ;
     reo:readP27 <http://data.odeuropa.eu/experience/3ed83e84-633c-5cc4-8d73-936f278a997b> .
 
 <http://data.odeuropa.eu/emotion/214f9a40-2a6e-5ab5-b317-b7fc9351f5e3> a reo:REO21 ;
     rdfs:label "puzzolenti" ;
-    crm:P137_exemplifies <http://data.odeuropa.eu/emotion-type/disgust> ;
+    crm:P137_exemplifies <http://data.odeuropa.eu/vocabulary/plutchik/disgust> ;
     crm:P2_has_type <http://data.odeuropa.eu/sentiment/negative> ;
     reo:readP27 <http://data.odeuropa.eu/experience/6b5ae583-1143-5420-a846-2e6cf1088e9c> .
 
 <http://data.odeuropa.eu/emotion/22f39c96-e76a-5bbd-9f23-ef95e5ea20c0> a reo:REO21 ;
     rdfs:label "si fetente" ;
-    crm:P137_exemplifies <http://data.odeuropa.eu/emotion-type/disgust> ;
+    crm:P137_exemplifies <http://data.odeuropa.eu/vocabulary/plutchik/disgust> ;
     crm:P2_has_type <http://data.odeuropa.eu/sentiment/negative> ;
     reo:readP27 <http://data.odeuropa.eu/experience/1d7ed246-be35-5e0e-8263-fc7fc2d3afe2> .
 
 <http://data.odeuropa.eu/emotion/230898b0-684f-5f3d-83b4-96cc529cb8ce> a reo:REO21 ;
     rdfs:label "putride" ;
-    crm:P137_exemplifies <http://data.odeuropa.eu/emotion-type/disgust> ;
+    crm:P137_exemplifies <http://data.odeuropa.eu/vocabulary/plutchik/disgust> ;
     crm:P2_has_type <http://data.odeuropa.eu/sentiment/negative> ;
     reo:readP27 <http://data.odeuropa.eu/experience/ad82e127-09b5-50d1-8cfc-b79bd8d9e6ef> .
 
 <http://data.odeuropa.eu/emotion/269f17dd-3dc5-56e5-b999-f6ef38e55da8> a reo:REO21 ;
     rdfs:label "regalmente" ;
-    crm:P137_exemplifies <http://data.odeuropa.eu/emotion-type/trust> ;
+    crm:P137_exemplifies <http://data.odeuropa.eu/vocabulary/plutchik/trust> ;
     crm:P2_has_type <http://data.odeuropa.eu/sentiment/positive> ;
     reo:readP27 <http://data.odeuropa.eu/experience/d49deef2-d2bf-5916-a755-b1f1a9556d9a> .
 
 <http://data.odeuropa.eu/emotion/2729f121-5055-5dbf-ba24-0142ffb848a4> a reo:REO21 ;
     rdfs:label "si ricorse a varii mezzi per impedirla ." ;
-    crm:P137_exemplifies <http://data.odeuropa.eu/emotion-type/anticipation> ;
+    crm:P137_exemplifies <http://data.odeuropa.eu/vocabulary/plutchik/anticipation> ;
     reo:readP27 <http://data.odeuropa.eu/experience/b45e8d62-dbbc-5232-9baf-bfea07ce4962> .
 
 <http://data.odeuropa.eu/emotion/27c4e477-1604-593a-9489-f898afe4884d> a reo:REO21 ;
     rdfs:label "gradevole" ;
-    crm:P137_exemplifies <http://data.odeuropa.eu/emotion-type/trust> ;
+    crm:P137_exemplifies <http://data.odeuropa.eu/vocabulary/plutchik/trust> ;
     crm:P2_has_type <http://data.odeuropa.eu/sentiment/positive> ;
     reo:readP27 <http://data.odeuropa.eu/experience/7d8861ea-34a3-5774-b89e-46d046c84570> .
 
 <http://data.odeuropa.eu/emotion/27fd9d38-6b55-5b21-8cfe-52d9060e228e> a reo:REO21 ;
     rdfs:label "Non pare compiuta la gioja di una festa , nè abbastanza gioconda la veglia fra i canti e le danze" ;
-    crm:P137_exemplifies <http://data.odeuropa.eu/emotion-type/joy> ;
+    crm:P137_exemplifies <http://data.odeuropa.eu/vocabulary/plutchik/joy> ;
     crm:P2_has_type <http://data.odeuropa.eu/sentiment/negative> ;
     reo:readP27 <http://data.odeuropa.eu/experience/ec403ffd-c605-5120-9e9c-d0d9cc0c8da9> .
 
 <http://data.odeuropa.eu/emotion/286a0b4c-e6d7-5be1-9d57-75561bcc5261> a reo:REO21 ;
     rdfs:label "spiacevole" ;
-    crm:P137_exemplifies <http://data.odeuropa.eu/emotion-type/disgust> ;
+    crm:P137_exemplifies <http://data.odeuropa.eu/vocabulary/plutchik/disgust> ;
     crm:P2_has_type <http://data.odeuropa.eu/sentiment/negative> ;
     reo:readP27 <http://data.odeuropa.eu/experience/3fd513f2-c38a-51c9-818c-251f99acfad1> .
 
 <http://data.odeuropa.eu/emotion/2889fe7d-7bbf-5b91-b669-fab81ec974ba> a reo:REO21 ;
     rdfs:label "forte" ;
-    crm:P137_exemplifies <http://data.odeuropa.eu/emotion-type/trust> ;
+    crm:P137_exemplifies <http://data.odeuropa.eu/vocabulary/plutchik/trust> ;
     crm:P2_has_type <http://data.odeuropa.eu/sentiment/positive> ;
     reo:readP27 <http://data.odeuropa.eu/experience/71d26e03-bb28-54d7-a516-ef3f0d131ace> .
 
 <http://data.odeuropa.eu/emotion/288e27a6-6a7e-57a2-9a3e-d3cf0b906400> a reo:REO21 ;
     rdfs:label "Chi non conosce l ’ esperienza oramai già vecchia , di un grano di muschio , che , esalando per venti anni acutissimo odore , riposato non aveva sensibilmente diminuito per nulla ?" ;
-    crm:P137_exemplifies <http://data.odeuropa.eu/emotion-type/surprise> ;
+    crm:P137_exemplifies <http://data.odeuropa.eu/vocabulary/plutchik/surprise> ;
     reo:readP27 <http://data.odeuropa.eu/experience/d7556920-9f6f-503a-b30f-9cbe8d7ac232> .
 
 <http://data.odeuropa.eu/emotion/2a74c04d-cd6a-5318-8cfe-aafac35a71f9> a reo:REO21 ;
     rdfs:label "non è più nè penetrante , nè molto grato" ;
-    crm:P137_exemplifies <http://data.odeuropa.eu/emotion-type/trust> ;
+    crm:P137_exemplifies <http://data.odeuropa.eu/vocabulary/plutchik/trust> ;
     crm:P2_has_type <http://data.odeuropa.eu/sentiment/negative> ;
     reo:readP27 <http://data.odeuropa.eu/experience/c0db4dc8-13bd-5e3d-8245-dbabbc8dff51> .
 
 <http://data.odeuropa.eu/emotion/2bc2c23e-d0ed-58df-9954-a88d34ccfb11> a reo:REO21 ;
     rdfs:label "molto grato" ;
-    crm:P137_exemplifies <http://data.odeuropa.eu/emotion-type/trust> ;
+    crm:P137_exemplifies <http://data.odeuropa.eu/vocabulary/plutchik/trust> ;
     crm:P2_has_type <http://data.odeuropa.eu/sentiment/positive> ;
     reo:readP27 <http://data.odeuropa.eu/experience/6cd1bfd1-6052-5be7-8b93-80beb9bc2daa> .
 
 <http://data.odeuropa.eu/emotion/2cdc6e06-28c2-5ddc-8641-9856d8d09fa3> a reo:REO21 ;
     rdfs:label "miasma" ;
-    crm:P137_exemplifies <http://data.odeuropa.eu/emotion-type/disgust> ;
+    crm:P137_exemplifies <http://data.odeuropa.eu/vocabulary/plutchik/disgust> ;
     crm:P2_has_type <http://data.odeuropa.eu/sentiment/negative> ;
     reo:readP27 <http://data.odeuropa.eu/experience/87e12cba-99a7-58cc-9878-fc65bb99df19> .
 
 <http://data.odeuropa.eu/emotion/2d60dbfc-263d-5159-adca-ae270401351a> a reo:REO21 ;
     rdfs:label "soave" ;
-    crm:P137_exemplifies <http://data.odeuropa.eu/emotion-type/trust> ;
+    crm:P137_exemplifies <http://data.odeuropa.eu/vocabulary/plutchik/trust> ;
     crm:P2_has_type <http://data.odeuropa.eu/sentiment/positive> ;
     reo:readP27 <http://data.odeuropa.eu/experience/947930e3-741e-56b6-87d2-48fef2a4bfe0> .
 
 <http://data.odeuropa.eu/emotion/2de45923-6ba2-5e4f-adce-4220f4530b7e> a reo:REO21 ;
     rdfs:label "faccia sognare senza bisogno di bevande alcooliche ." ;
-    crm:P137_exemplifies <http://data.odeuropa.eu/emotion-type/joy> ;
+    crm:P137_exemplifies <http://data.odeuropa.eu/vocabulary/plutchik/joy> ;
     crm:P2_has_type <http://data.odeuropa.eu/sentiment/positive> ;
     reo:readP27 <http://data.odeuropa.eu/experience/dcb66067-870d-58ac-b3b3-480c0e8ba6cc> .
 
 <http://data.odeuropa.eu/emotion/2e012ff4-0804-5689-ac1c-9a6aa4ac1557> a reo:REO21 ;
     rdfs:label "soavissimo" ;
-    crm:P137_exemplifies <http://data.odeuropa.eu/emotion-type/trust> ;
+    crm:P137_exemplifies <http://data.odeuropa.eu/vocabulary/plutchik/trust> ;
     crm:P2_has_type <http://data.odeuropa.eu/sentiment/positive> ;
     reo:readP27 <http://data.odeuropa.eu/experience/e591aea3-4228-59e0-86b6-1bb028455d68> .
 
 <http://data.odeuropa.eu/emotion/2f20720a-ec0d-5008-8dc2-0170479b8e3b> a reo:REO21 ;
     rdfs:label "fetente" ;
-    crm:P137_exemplifies <http://data.odeuropa.eu/emotion-type/disgust> ;
+    crm:P137_exemplifies <http://data.odeuropa.eu/vocabulary/plutchik/disgust> ;
     crm:P2_has_type <http://data.odeuropa.eu/sentiment/neutral> ;
     reo:readP27 <http://data.odeuropa.eu/experience/60eb0554-6d05-5676-99bd-3ebd94cb321f> .
 
 <http://data.odeuropa.eu/emotion/32e40d95-7d7e-5bee-b3b6-12c0a1053e13> a reo:REO21 ;
     rdfs:label "cattivo" ;
-    crm:P137_exemplifies <http://data.odeuropa.eu/emotion-type/disgust> ;
+    crm:P137_exemplifies <http://data.odeuropa.eu/vocabulary/plutchik/disgust> ;
     crm:P2_has_type <http://data.odeuropa.eu/sentiment/negative> ;
     reo:readP27 <http://data.odeuropa.eu/experience/e0c9dbaf-5dce-54c7-ba26-e53944308097> .
 
 <http://data.odeuropa.eu/emotion/32fcdc16-7444-534e-84d8-63b9804346b4> a reo:REO21 ;
     rdfs:label "sommamente piacevole" ;
-    crm:P137_exemplifies <http://data.odeuropa.eu/emotion-type/trust> ;
+    crm:P137_exemplifies <http://data.odeuropa.eu/vocabulary/plutchik/trust> ;
     crm:P2_has_type <http://data.odeuropa.eu/sentiment/positive> ;
     reo:readP27 <http://data.odeuropa.eu/experience/6831105b-5053-52c8-891e-336dfde96f8d> .
 
 <http://data.odeuropa.eu/emotion/33239ab3-7f4a-59bb-a148-a636bf5c4c2a> a reo:REO21 ;
     rdfs:label "sgradevole" ;
-    crm:P137_exemplifies <http://data.odeuropa.eu/emotion-type/disgust> ;
+    crm:P137_exemplifies <http://data.odeuropa.eu/vocabulary/plutchik/disgust> ;
     crm:P2_has_type <http://data.odeuropa.eu/sentiment/negative> ;
     reo:readP27 <http://data.odeuropa.eu/experience/171f79ad-43cf-5926-870e-ab2661c13778> .
 
 <http://data.odeuropa.eu/emotion/335a283c-b6dd-544e-828d-f1cedd10b56f> a reo:REO21 ;
     rdfs:label "penetrante" ;
-    crm:P137_exemplifies <http://data.odeuropa.eu/emotion-type/trust> ;
+    crm:P137_exemplifies <http://data.odeuropa.eu/vocabulary/plutchik/trust> ;
     crm:P2_has_type <http://data.odeuropa.eu/sentiment/positive> ;
     reo:readP27 <http://data.odeuropa.eu/experience/d7ee757d-2d86-536b-824c-9a0e8a721cb7> .
 
 <http://data.odeuropa.eu/emotion/33cf584d-a4a1-5e8f-b160-b5169368522a> a reo:REO21 ;
     rdfs:label "grato ai gatti" ;
-    crm:P137_exemplifies <http://data.odeuropa.eu/emotion-type/trust> ;
+    crm:P137_exemplifies <http://data.odeuropa.eu/vocabulary/plutchik/trust> ;
     crm:P2_has_type <http://data.odeuropa.eu/sentiment/positive> ;
     reo:readP27 <http://data.odeuropa.eu/experience/56720abf-f0cf-5496-ae23-254f78f1abbf> .
 
 <http://data.odeuropa.eu/emotion/3404ccd0-6069-5fe5-9e17-50b3dac03e2d> a reo:REO21 ;
     rdfs:label "fetente" ;
-    crm:P137_exemplifies <http://data.odeuropa.eu/emotion-type/disgust> ;
+    crm:P137_exemplifies <http://data.odeuropa.eu/vocabulary/plutchik/disgust> ;
     crm:P2_has_type <http://data.odeuropa.eu/sentiment/negative> ;
     reo:readP27 <http://data.odeuropa.eu/experience/42f2dafb-2f44-5f0f-93cd-db7e18023faf> .
 
 <http://data.odeuropa.eu/emotion/340823e3-1a59-54a9-9eb5-21b48808e7dd> a reo:REO21 ;
     rdfs:label "sclamai scappando indispettito" ;
-    crm:P137_exemplifies <http://data.odeuropa.eu/emotion-type/anger> ;
+    crm:P137_exemplifies <http://data.odeuropa.eu/vocabulary/plutchik/anger> ;
     crm:P2_has_type <http://data.odeuropa.eu/sentiment/negative> ;
     reo:readP27 <http://data.odeuropa.eu/experience/5197fd0a-6c7b-55b4-8849-cb0e44f0871b> .
 
 <http://data.odeuropa.eu/emotion/347bf846-ed0d-599c-ab69-af977082e7d0> a reo:REO21 ;
     rdfs:label "cattivo" ;
-    crm:P137_exemplifies <http://data.odeuropa.eu/emotion-type/disgust> ;
+    crm:P137_exemplifies <http://data.odeuropa.eu/vocabulary/plutchik/disgust> ;
     crm:P2_has_type <http://data.odeuropa.eu/sentiment/negative> ;
     reo:readP27 <http://data.odeuropa.eu/experience/8e230ef0-eb15-5205-be09-129e7e26e30a> .
 
 <http://data.odeuropa.eu/emotion/352d2487-d72e-5a25-92e7-f3b7a9522592> a reo:REO21 ;
     rdfs:label "seuna puzza" ;
-    crm:P137_exemplifies <http://data.odeuropa.eu/emotion-type/disgust> ;
+    crm:P137_exemplifies <http://data.odeuropa.eu/vocabulary/plutchik/disgust> ;
     crm:P2_has_type <http://data.odeuropa.eu/sentiment/positive> ;
     reo:readP27 <http://data.odeuropa.eu/experience/70fa905f-eb63-5085-b922-3a890b3c337d> .
 
 <http://data.odeuropa.eu/emotion/3662b201-d7f5-5051-9c5a-bdb5a017addc> a reo:REO21 ;
     rdfs:label "grato" ;
-    crm:P137_exemplifies <http://data.odeuropa.eu/emotion-type/trust> ;
+    crm:P137_exemplifies <http://data.odeuropa.eu/vocabulary/plutchik/trust> ;
     crm:P2_has_type <http://data.odeuropa.eu/sentiment/positive> ;
     reo:readP27 <http://data.odeuropa.eu/experience/b4dbfea9-aa60-5ef0-9fb7-3a15c8d4bb26> .
 
 <http://data.odeuropa.eu/emotion/36894d3d-0870-595c-ad0b-3555b3265d4f> a reo:REO21 ;
     rdfs:label "grati" ;
-    crm:P137_exemplifies <http://data.odeuropa.eu/emotion-type/trust> ;
+    crm:P137_exemplifies <http://data.odeuropa.eu/vocabulary/plutchik/trust> ;
     crm:P2_has_type <http://data.odeuropa.eu/sentiment/positive> ;
     reo:readP27 <http://data.odeuropa.eu/experience/2912961d-91a8-599e-8193-ffa9fb71f6c6> .
 
 <http://data.odeuropa.eu/emotion/3735b6c4-dc30-535e-a025-f3949447c894> a reo:REO21 ;
     rdfs:label "cadaveroso" ;
-    crm:P137_exemplifies <http://data.odeuropa.eu/emotion-type/disgust> ;
+    crm:P137_exemplifies <http://data.odeuropa.eu/vocabulary/plutchik/disgust> ;
     crm:P2_has_type <http://data.odeuropa.eu/sentiment/negative> ;
     reo:readP27 <http://data.odeuropa.eu/experience/fa54b2c6-a004-5f3e-b48e-9993bc7a3606> .
 
 <http://data.odeuropa.eu/emotion/383a6331-c4ea-595d-bf41-cf6887d66e76> a reo:REO21 ;
     rdfs:label "fetore" ;
-    crm:P137_exemplifies <http://data.odeuropa.eu/emotion-type/disgust> ;
+    crm:P137_exemplifies <http://data.odeuropa.eu/vocabulary/plutchik/disgust> ;
     crm:P2_has_type <http://data.odeuropa.eu/sentiment/negative> ;
     reo:readP27 <http://data.odeuropa.eu/experience/84f1e6c3-f098-5398-af3a-a4cefa2b8878> .
 
 <http://data.odeuropa.eu/emotion/3886e26c-63ed-5525-808d-e967b0bd8e7f> a reo:REO21 ;
     rdfs:label "m" ;
-    crm:P137_exemplifies <http://data.odeuropa.eu/emotion-type/joy> ;
+    crm:P137_exemplifies <http://data.odeuropa.eu/vocabulary/plutchik/joy> ;
     crm:P2_has_type <http://data.odeuropa.eu/sentiment/positive> ;
     reo:readP27 <http://data.odeuropa.eu/experience/5d4499a3-e6f3-522c-bfcb-b19ccee52ff6> .
 
 <http://data.odeuropa.eu/emotion/39317c75-e734-505d-82cf-d83c2ef5f7c7> a reo:REO21 ;
     rdfs:label "dolce e possente come quello di un vino prelibato ." ;
-    crm:P137_exemplifies <http://data.odeuropa.eu/emotion-type/trust> ;
+    crm:P137_exemplifies <http://data.odeuropa.eu/vocabulary/plutchik/trust> ;
     crm:P2_has_type <http://data.odeuropa.eu/sentiment/positive> ;
     reo:readP27 <http://data.odeuropa.eu/experience/cf5ecf29-4555-5947-a9cb-a8fc04a5b000> .
 
 <http://data.odeuropa.eu/emotion/39bf9896-c829-5ee1-bdd6-2c61924e7687> a reo:REO21 ;
     rdfs:label "soave" ;
-    crm:P137_exemplifies <http://data.odeuropa.eu/emotion-type/trust> ;
+    crm:P137_exemplifies <http://data.odeuropa.eu/vocabulary/plutchik/trust> ;
     crm:P2_has_type <http://data.odeuropa.eu/sentiment/positive> ;
     reo:readP27 <http://data.odeuropa.eu/experience/1c07e185-c246-5a3d-affe-67c42c354481> .
 
 <http://data.odeuropa.eu/emotion/39d67f65-b9a5-5cce-859b-a00d0eaeb091> a reo:REO21 ;
     rdfs:label "gratissimo" ;
-    crm:P137_exemplifies <http://data.odeuropa.eu/emotion-type/trust> ;
+    crm:P137_exemplifies <http://data.odeuropa.eu/vocabulary/plutchik/trust> ;
     crm:P2_has_type <http://data.odeuropa.eu/sentiment/positive> ;
     reo:readP27 <http://data.odeuropa.eu/experience/b5169f76-a4ea-52d1-985d-91757c8b367b> .
 
 <http://data.odeuropa.eu/emotion/3af4b8b5-b913-53f0-a46e-ce50c0d5648e> a reo:REO21 ;
     rdfs:label "fetore" ;
-    crm:P137_exemplifies <http://data.odeuropa.eu/emotion-type/disgust> ;
+    crm:P137_exemplifies <http://data.odeuropa.eu/vocabulary/plutchik/disgust> ;
     crm:P2_has_type <http://data.odeuropa.eu/sentiment/negative> ;
     reo:readP27 <http://data.odeuropa.eu/experience/45b02062-8571-544d-91ed-e673ae906a4d> .
 
 <http://data.odeuropa.eu/emotion/3b72983f-20fc-5d80-92ed-7e99ae89c4ff> a reo:REO21 ;
     rdfs:label "cattivo" ;
-    crm:P137_exemplifies <http://data.odeuropa.eu/emotion-type/disgust> ;
+    crm:P137_exemplifies <http://data.odeuropa.eu/vocabulary/plutchik/disgust> ;
     crm:P2_has_type <http://data.odeuropa.eu/sentiment/negative> ;
     reo:readP27 <http://data.odeuropa.eu/experience/b1f680a3-2701-5f57-92ca-4fcb5b67c637> .
 
 <http://data.odeuropa.eu/emotion/3e812493-69f6-5203-b612-915e8d3d64ed> a reo:REO21 ;
     rdfs:label "fetore" ;
-    crm:P137_exemplifies <http://data.odeuropa.eu/emotion-type/disgust> ;
+    crm:P137_exemplifies <http://data.odeuropa.eu/vocabulary/plutchik/disgust> ;
     crm:P2_has_type <http://data.odeuropa.eu/sentiment/negative> ;
     reo:readP27 <http://data.odeuropa.eu/experience/d9b7e339-e311-5acf-83fc-93d546a57327> .
 
 <http://data.odeuropa.eu/emotion/3ec576ed-c718-5f98-a94b-f941736e96c4> a reo:REO21 ;
     rdfs:label "fetore" ;
-    crm:P137_exemplifies <http://data.odeuropa.eu/emotion-type/disgust> ;
+    crm:P137_exemplifies <http://data.odeuropa.eu/vocabulary/plutchik/disgust> ;
     crm:P2_has_type <http://data.odeuropa.eu/sentiment/negative> ;
     reo:readP27 <http://data.odeuropa.eu/experience/8b5f6278-ed9a-5c10-9876-b5c13002834a> .
 
 <http://data.odeuropa.eu/emotion/4184abd5-2373-54fd-a0f2-5424aaf5dcc7> a reo:REO21 ;
     rdfs:label "molto grato",
         "sono i migliori" ;
-    crm:P137_exemplifies <http://data.odeuropa.eu/emotion-type/trust> ;
+    crm:P137_exemplifies <http://data.odeuropa.eu/vocabulary/plutchik/trust> ;
     crm:P2_has_type <http://data.odeuropa.eu/sentiment/positive> ;
     reo:readP27 <http://data.odeuropa.eu/experience/af6da577-0f58-5b4e-8783-6de8b1c975b0> .
 
 <http://data.odeuropa.eu/emotion/429cd7b7-1f0f-5cc9-b66b-0803d9f7dde1> a reo:REO21 ;
     rdfs:label "profumata" ;
-    crm:P137_exemplifies <http://data.odeuropa.eu/emotion-type/trust> ;
+    crm:P137_exemplifies <http://data.odeuropa.eu/vocabulary/plutchik/trust> ;
     crm:P2_has_type <http://data.odeuropa.eu/sentiment/positive> ;
     reo:readP27 <http://data.odeuropa.eu/experience/f0681262-d09d-584c-b534-be847f16d743> .
 
 <http://data.odeuropa.eu/emotion/450edd3c-04d9-50d6-a3b3-f21f9c41fa20> a reo:REO21 ;
     rdfs:label "sensazione gradevole" ;
-    crm:P137_exemplifies <http://data.odeuropa.eu/emotion-type/trust> ;
+    crm:P137_exemplifies <http://data.odeuropa.eu/vocabulary/plutchik/trust> ;
     crm:P2_has_type <http://data.odeuropa.eu/sentiment/positive> ;
     reo:readP27 <http://data.odeuropa.eu/experience/8c10f59d-97b7-57f5-9643-ae3b1e00df14> .
 
 <http://data.odeuropa.eu/emotion/452aee5d-adfe-57f3-9d1f-cda029a8da46> a reo:REO21 ;
     rdfs:label "miasma" ;
-    crm:P137_exemplifies <http://data.odeuropa.eu/emotion-type/disgust> ;
+    crm:P137_exemplifies <http://data.odeuropa.eu/vocabulary/plutchik/disgust> ;
     crm:P2_has_type <http://data.odeuropa.eu/sentiment/negative> ;
     reo:readP27 <http://data.odeuropa.eu/experience/f40db961-acbb-5a56-96b0-4a1cc10f6655> .
 
 <http://data.odeuropa.eu/emotion/460502bc-b284-5db8-8ae6-4c908914b5c4> a reo:REO21 ;
     rdfs:label "È in un pomeriggio tiepido e odoroso di primavera , nel fondo di un vasto e ombroso giardino , tranquillo , al sole" ;
-    crm:P137_exemplifies <http://data.odeuropa.eu/emotion-type/joy> ;
+    crm:P137_exemplifies <http://data.odeuropa.eu/vocabulary/plutchik/joy> ;
     crm:P2_has_type <http://data.odeuropa.eu/sentiment/positive> ;
     reo:readP27 <http://data.odeuropa.eu/experience/57835681-1498-55af-9449-86550872ed76> .
 
 <http://data.odeuropa.eu/emotion/47100a34-10ae-571d-9979-39aae7e57567> a reo:REO21 ;
     rdfs:label "di pelli sudanti" ;
-    crm:P137_exemplifies <http://data.odeuropa.eu/emotion-type/disgust> ;
+    crm:P137_exemplifies <http://data.odeuropa.eu/vocabulary/plutchik/disgust> ;
     crm:P2_has_type <http://data.odeuropa.eu/sentiment/negative> ;
     reo:readP27 <http://data.odeuropa.eu/experience/fbe8af03-b7dc-5efc-9136-7dc1ac925404> .
 
 <http://data.odeuropa.eu/emotion/47218d3a-2da5-55dd-8bd6-493260965dd5> a reo:REO21 ;
     rdfs:label "spiacevole" ;
-    crm:P137_exemplifies <http://data.odeuropa.eu/emotion-type/disgust> ;
+    crm:P137_exemplifies <http://data.odeuropa.eu/vocabulary/plutchik/disgust> ;
     crm:P2_has_type <http://data.odeuropa.eu/sentiment/negative> ;
     reo:readP27 <http://data.odeuropa.eu/experience/3c851cc6-1c11-580b-a644-32ac157f7343> .
 
 <http://data.odeuropa.eu/emotion/4781f3cc-91ca-5aef-b275-f0c52511d033> a reo:REO21 ;
     rdfs:label "arcisoavissimo" ;
-    crm:P137_exemplifies <http://data.odeuropa.eu/emotion-type/trust> ;
+    crm:P137_exemplifies <http://data.odeuropa.eu/vocabulary/plutchik/trust> ;
     crm:P2_has_type <http://data.odeuropa.eu/sentiment/positive> ;
     reo:readP27 <http://data.odeuropa.eu/experience/3f0ebf55-7e11-589b-a691-038ed85fd772> .
 
 <http://data.odeuropa.eu/emotion/48a8b900-7faa-5e4d-9d6a-2246c892f74e> a reo:REO21 ;
     rdfs:label "fetido" ;
-    crm:P137_exemplifies <http://data.odeuropa.eu/emotion-type/disgust> ;
+    crm:P137_exemplifies <http://data.odeuropa.eu/vocabulary/plutchik/disgust> ;
     crm:P2_has_type <http://data.odeuropa.eu/sentiment/negative> ;
     reo:readP27 <http://data.odeuropa.eu/experience/f89e779c-77f0-5e1b-b451-f410eab6a258> .
 
 <http://data.odeuropa.eu/emotion/49c3c2c3-0e31-5fb9-b2aa-b4b26c627392> a reo:REO21 ;
     rdfs:label "hannoci manifestato di essere sodisfatti",
         "senza puzza" ;
-    crm:P137_exemplifies <http://data.odeuropa.eu/emotion-type/disgust>,
-        <http://data.odeuropa.eu/emotion-type/trust> ;
+    crm:P137_exemplifies <http://data.odeuropa.eu/vocabulary/plutchik/disgust>,
+        <http://data.odeuropa.eu/vocabulary/plutchik/trust> ;
     crm:P2_has_type <http://data.odeuropa.eu/sentiment/positive> ;
     reo:readP27 <http://data.odeuropa.eu/experience/4bb9c077-7d4f-5c8a-8640-e87fa546d9ac> .
 
 <http://data.odeuropa.eu/emotion/4a8ade45-fe26-5b35-b16a-f846efc54239> a reo:REO21 ;
     rdfs:label "imparadisato chiusi gli occhi e credetti d ' essere volato all ' olimpo di Maometto , in mezzo alle urì , sulla sponda d ' un lago d ' acqua di rosa" ;
-    crm:P137_exemplifies <http://data.odeuropa.eu/emotion-type/joy> ;
+    crm:P137_exemplifies <http://data.odeuropa.eu/vocabulary/plutchik/joy> ;
     crm:P2_has_type <http://data.odeuropa.eu/sentiment/positive> ;
     reo:readP27 <http://data.odeuropa.eu/experience/feb0b667-58a9-547f-8896-5b856c711359> .
 
 <http://data.odeuropa.eu/emotion/4ca5c9b2-eb9e-5d71-b929-8a341389d45b> a reo:REO21 ;
     rdfs:label "cattivo" ;
-    crm:P137_exemplifies <http://data.odeuropa.eu/emotion-type/disgust> ;
+    crm:P137_exemplifies <http://data.odeuropa.eu/vocabulary/plutchik/disgust> ;
     crm:P2_has_type <http://data.odeuropa.eu/sentiment/negative> ;
     reo:readP27 <http://data.odeuropa.eu/experience/4dfa8841-efa5-563e-8e45-86a9bcc2e5b4> .
 
 <http://data.odeuropa.eu/emotion/4cfb0102-a156-50ae-817d-2bd27287f8e7> a reo:REO21 ;
     rdfs:label "Oppressi d ' una maniera incòmoda e spiacevole",
         "cattiva" ;
-    crm:P137_exemplifies <http://data.odeuropa.eu/emotion-type/anger>,
-        <http://data.odeuropa.eu/emotion-type/disgust> ;
+    crm:P137_exemplifies <http://data.odeuropa.eu/vocabulary/plutchik/anger>,
+        <http://data.odeuropa.eu/vocabulary/plutchik/disgust> ;
     crm:P2_has_type <http://data.odeuropa.eu/sentiment/negative> ;
     reo:readP27 <http://data.odeuropa.eu/experience/b6aec9ed-b67b-59f9-a8a9-6fadd5d101d5> .
 
 <http://data.odeuropa.eu/emotion/4d4047f2-8e6d-581f-abac-c07d3c4125c8> a reo:REO21 ;
     rdfs:label "lo corrompe alcun poco" ;
-    crm:P137_exemplifies <http://data.odeuropa.eu/emotion-type/anger> ;
+    crm:P137_exemplifies <http://data.odeuropa.eu/vocabulary/plutchik/anger> ;
     crm:P2_has_type <http://data.odeuropa.eu/sentiment/positive> ;
     reo:readP27 <http://data.odeuropa.eu/experience/761648ca-b938-5aa6-b7ea-998066d45784> .
 
 <http://data.odeuropa.eu/emotion/4db08378-a3fd-59e7-b97b-cc64a2d6ffb5> a reo:REO21 ;
     rdfs:label "grato" ;
-    crm:P137_exemplifies <http://data.odeuropa.eu/emotion-type/trust> ;
+    crm:P137_exemplifies <http://data.odeuropa.eu/vocabulary/plutchik/trust> ;
     crm:P2_has_type <http://data.odeuropa.eu/sentiment/positive> ;
     reo:readP27 <http://data.odeuropa.eu/experience/173b1899-93a1-5df7-b5b2-662b6bcd89ec> .
 
 <http://data.odeuropa.eu/emotion/52055e16-2ad3-5407-84e0-2081451a9822> a reo:REO21 ;
     rdfs:label "Vicino a te Mabima profuma l ’ aria" ;
-    crm:P137_exemplifies <http://data.odeuropa.eu/emotion-type/love> ;
+    crm:P137_exemplifies <http://data.odeuropa.eu/vocabulary/plutchik/love> ;
     crm:P2_has_type <http://data.odeuropa.eu/sentiment/positive> ;
     reo:readP27 <http://data.odeuropa.eu/experience/528598fa-c0ed-5111-9974-3990cde0b906> .
 
 <http://data.odeuropa.eu/emotion/526efa5c-1e1f-542c-ad5a-e1bfc73a8c6c> a reo:REO21 ;
     rdfs:label "grato" ;
-    crm:P137_exemplifies <http://data.odeuropa.eu/emotion-type/trust> ;
+    crm:P137_exemplifies <http://data.odeuropa.eu/vocabulary/plutchik/trust> ;
     crm:P2_has_type <http://data.odeuropa.eu/sentiment/positive> ;
     reo:readP27 <http://data.odeuropa.eu/experience/e1c80bcd-81b8-5c4a-b093-bd9975efe910> .
 
 <http://data.odeuropa.eu/emotion/52ec9712-a95d-5f9e-9d7d-7246d8df554a> a reo:REO21 ;
     rdfs:label "che atterrisce l ’ vdito , e scaccia l ’ odorato , non che il guardo" ;
-    crm:P137_exemplifies <http://data.odeuropa.eu/emotion-type/disgust> ;
+    crm:P137_exemplifies <http://data.odeuropa.eu/vocabulary/plutchik/disgust> ;
     crm:P2_has_type <http://data.odeuropa.eu/sentiment/negative> ;
     reo:readP27 <http://data.odeuropa.eu/experience/ac6fdd36-6150-5eab-8926-b1b800fd139f> .
 
 <http://data.odeuropa.eu/emotion/57ba794d-e168-5b13-8665-9b4cc5d1402e> a reo:REO21 ;
     rdfs:label "fetidi" ;
-    crm:P137_exemplifies <http://data.odeuropa.eu/emotion-type/disgust>,
-        <http://data.odeuropa.eu/emotion-type/fear> ;
+    crm:P137_exemplifies <http://data.odeuropa.eu/vocabulary/plutchik/disgust>,
+        <http://data.odeuropa.eu/vocabulary/plutchik/fear> ;
     crm:P2_has_type <http://data.odeuropa.eu/sentiment/negative> ;
     reo:readP27 <http://data.odeuropa.eu/experience/5ff9027d-55b9-53ab-ba1c-5abd95ba0069> .
 
 <http://data.odeuropa.eu/emotion/587a9a59-f0cd-5ebb-b65b-f8c52d0a4da7> a reo:REO21 ;
     rdfs:label "dal naso arricciato" ;
-    crm:P137_exemplifies <http://data.odeuropa.eu/emotion-type/disgust> ;
+    crm:P137_exemplifies <http://data.odeuropa.eu/vocabulary/plutchik/disgust> ;
     crm:P2_has_type <http://data.odeuropa.eu/sentiment/negative> ;
     reo:readP27 <http://data.odeuropa.eu/experience/1f1676d4-4142-5caa-a500-8a4f3666013c> .
 
 <http://data.odeuropa.eu/emotion/5a77fcdf-9840-520e-96b8-042c2cc650e8> a reo:REO21 ;
     rdfs:label "dalla più stomachevole mendicità" ;
-    crm:P137_exemplifies <http://data.odeuropa.eu/emotion-type/disgust> ;
+    crm:P137_exemplifies <http://data.odeuropa.eu/vocabulary/plutchik/disgust> ;
     crm:P2_has_type <http://data.odeuropa.eu/sentiment/negative> ;
     reo:readP27 <http://data.odeuropa.eu/experience/47b50ba9-c274-517a-a2ba-050864f2302d> .
 
 <http://data.odeuropa.eu/emotion/5de07e48-128c-58a2-87d3-c225bd0e16d8> a reo:REO21 ;
     rdfs:label "placidissimi" ;
-    crm:P137_exemplifies <http://data.odeuropa.eu/emotion-type/joy> ;
+    crm:P137_exemplifies <http://data.odeuropa.eu/vocabulary/plutchik/joy> ;
     crm:P2_has_type <http://data.odeuropa.eu/sentiment/positive> ;
     reo:readP27 <http://data.odeuropa.eu/experience/468c38c7-8fff-5b7e-92ca-4c282335fab0> .
 
 <http://data.odeuropa.eu/emotion/5e87fd9d-212b-5156-8cf9-c46a9bce3547> a reo:REO21 ;
     rdfs:label "più delicato e più fragrante d ’ un ingegno sul meriggio" ;
-    crm:P137_exemplifies <http://data.odeuropa.eu/emotion-type/trust> ;
+    crm:P137_exemplifies <http://data.odeuropa.eu/vocabulary/plutchik/trust> ;
     crm:P2_has_type <http://data.odeuropa.eu/sentiment/positive> ;
     reo:readP27 <http://data.odeuropa.eu/experience/725c2240-f6ce-58c2-89b2-cd04ff8d7766> .
 
 <http://data.odeuropa.eu/emotion/5ea774d8-8f8c-5506-9944-743f42b7b994> a reo:REO21 ;
     rdfs:label "sommamente penetrante" ;
-    crm:P137_exemplifies <http://data.odeuropa.eu/emotion-type/trust> ;
+    crm:P137_exemplifies <http://data.odeuropa.eu/vocabulary/plutchik/trust> ;
     crm:P2_has_type <http://data.odeuropa.eu/sentiment/positive> ;
     reo:readP27 <http://data.odeuropa.eu/experience/5a845a3c-abd2-5f37-b3af-cf1e86512736> .
 
 <http://data.odeuropa.eu/emotion/5fb75e8a-efb8-5f7b-948a-80c507097b6c> a reo:REO21 ;
     rdfs:label "assai grato" ;
-    crm:P137_exemplifies <http://data.odeuropa.eu/emotion-type/trust> ;
+    crm:P137_exemplifies <http://data.odeuropa.eu/vocabulary/plutchik/trust> ;
     crm:P2_has_type <http://data.odeuropa.eu/sentiment/positive> ;
     reo:readP27 <http://data.odeuropa.eu/experience/120d0d5d-f36c-5b9a-95ae-b2000f3dea73> .
 
 <http://data.odeuropa.eu/emotion/5fbaf35e-36e2-5bc0-a347-f46a79246b6c> a reo:REO21 ;
     rdfs:label "queste meravigliose violette di Nizza",
         "rimarrà nel cervello , nella memoria , e sarà , domani , il brivido della nostalgia per i lontani" ;
-    crm:P137_exemplifies <http://data.odeuropa.eu/emotion-type/anticipation>,
-        <http://data.odeuropa.eu/emotion-type/trust> ;
+    crm:P137_exemplifies <http://data.odeuropa.eu/vocabulary/plutchik/anticipation>,
+        <http://data.odeuropa.eu/vocabulary/plutchik/trust> ;
     crm:P2_has_type <http://data.odeuropa.eu/sentiment/positive> ;
     reo:readP27 <http://data.odeuropa.eu/experience/8669d058-c0a7-5ab9-ae95-0e8fdf038175> .
 
 <http://data.odeuropa.eu/emotion/601b0939-3fac-5627-bf58-3e59fcbc834b> a reo:REO21 ;
     rdfs:label "fetido" ;
-    crm:P137_exemplifies <http://data.odeuropa.eu/emotion-type/disgust> ;
+    crm:P137_exemplifies <http://data.odeuropa.eu/vocabulary/plutchik/disgust> ;
     crm:P2_has_type <http://data.odeuropa.eu/sentiment/negative> ;
     reo:readP27 <http://data.odeuropa.eu/experience/593ba914-e8c2-5cc0-a2db-26966f3617ee> .
 
 <http://data.odeuropa.eu/emotion/60fe31eb-88ea-579d-a48e-8ccaeb472766> a reo:REO21 ;
     rdfs:label "piacevoli all ’ odorato" ;
-    crm:P137_exemplifies <http://data.odeuropa.eu/emotion-type/trust> ;
+    crm:P137_exemplifies <http://data.odeuropa.eu/vocabulary/plutchik/trust> ;
     crm:P2_has_type <http://data.odeuropa.eu/sentiment/positive> ;
     reo:readP27 <http://data.odeuropa.eu/experience/9bd3e876-8dc1-5574-ab12-ca194bf4f093> .
 
 <http://data.odeuropa.eu/emotion/610a950a-1bfd-5678-9448-9c820cd9fd01> a reo:REO21 ;
     rdfs:label "preparano il giocondo e virile stato d ’ animo indispensabile per il pomeriggio e per la notte" ;
-    crm:P137_exemplifies <http://data.odeuropa.eu/emotion-type/anticipation> ;
+    crm:P137_exemplifies <http://data.odeuropa.eu/vocabulary/plutchik/anticipation> ;
     crm:P2_has_type <http://data.odeuropa.eu/sentiment/positive> ;
     reo:readP27 <http://data.odeuropa.eu/experience/417c9004-60b4-5535-8dc9-cf9a397c8d45> .
 
 <http://data.odeuropa.eu/emotion/61bfdb27-4cab-56f5-88d2-d43e316880b9> a reo:REO21 ;
     rdfs:label "sono cercati , combinati , usati comunemente" ;
-    crm:P137_exemplifies <http://data.odeuropa.eu/emotion-type/anticipation> ;
+    crm:P137_exemplifies <http://data.odeuropa.eu/vocabulary/plutchik/anticipation> ;
     crm:P2_has_type <http://data.odeuropa.eu/sentiment/positive> ;
     reo:readP27 <http://data.odeuropa.eu/experience/14bba330-5fbd-5e64-8fdd-02d558faf066> .
 
 <http://data.odeuropa.eu/emotion/63eefe26-c95d-5f40-aa8f-d5a5a68c052e> a reo:REO21 ;
     rdfs:label "sgradevoli" ;
-    crm:P137_exemplifies <http://data.odeuropa.eu/emotion-type/disgust> ;
+    crm:P137_exemplifies <http://data.odeuropa.eu/vocabulary/plutchik/disgust> ;
     crm:P2_has_type <http://data.odeuropa.eu/sentiment/negative> ;
     reo:readP27 <http://data.odeuropa.eu/experience/edf4641b-53f0-58d7-9711-59b0922cf829> .
 
 <http://data.odeuropa.eu/emotion/65a078ea-8f7d-5df0-9ae9-0e6693fc874e> a reo:REO21 ;
     rdfs:label "per non sentire il lezzo di simili porcherie",
         "profumato" ;
-    crm:P137_exemplifies <http://data.odeuropa.eu/emotion-type/disgust>,
-        <http://data.odeuropa.eu/emotion-type/trust> ;
+    crm:P137_exemplifies <http://data.odeuropa.eu/vocabulary/plutchik/disgust>,
+        <http://data.odeuropa.eu/vocabulary/plutchik/trust> ;
     crm:P2_has_type <http://data.odeuropa.eu/sentiment/negative>,
         <http://data.odeuropa.eu/sentiment/positive> ;
     reo:readP27 <http://data.odeuropa.eu/experience/e31805d6-17c8-5a71-971b-a7fb3f756bc0> .
 
 <http://data.odeuropa.eu/emotion/67a44cba-8db3-5c45-bf48-9ef24287f333> a reo:REO21 ;
     rdfs:label "nauseabondo" ;
-    crm:P137_exemplifies <http://data.odeuropa.eu/emotion-type/disgust> ;
+    crm:P137_exemplifies <http://data.odeuropa.eu/vocabulary/plutchik/disgust> ;
     crm:P2_has_type <http://data.odeuropa.eu/sentiment/negative> ;
     reo:readP27 <http://data.odeuropa.eu/experience/c5c35fba-60a7-5334-b259-3b0f764b1b64> .
 
 <http://data.odeuropa.eu/emotion/691674eb-04e3-5274-9d3d-90fca86caaa7> a reo:REO21 ;
     rdfs:label "spirito dell ' umana felicità distillata" ;
-    crm:P137_exemplifies <http://data.odeuropa.eu/emotion-type/joy> ;
+    crm:P137_exemplifies <http://data.odeuropa.eu/vocabulary/plutchik/joy> ;
     crm:P2_has_type <http://data.odeuropa.eu/sentiment/positive> ;
     reo:readP27 <http://data.odeuropa.eu/experience/84085220-09d6-54c4-ab87-4f4c12dc8474> .
 
 <http://data.odeuropa.eu/emotion/69be5d6d-f330-55e4-9427-6cd2e4ddc55e> a reo:REO21 ;
     rdfs:label "molto grato" ;
-    crm:P137_exemplifies <http://data.odeuropa.eu/emotion-type/trust> ;
+    crm:P137_exemplifies <http://data.odeuropa.eu/vocabulary/plutchik/trust> ;
     crm:P2_has_type <http://data.odeuropa.eu/sentiment/positive> ;
     reo:readP27 <http://data.odeuropa.eu/experience/c1d8e727-2487-5ed5-929a-43babd92741b> .
 
 <http://data.odeuropa.eu/emotion/6a777b6a-f11e-5264-b622-13c1f5250dd2> a reo:REO21 ;
     rdfs:label "molto piacevole" ;
-    crm:P137_exemplifies <http://data.odeuropa.eu/emotion-type/trust> ;
+    crm:P137_exemplifies <http://data.odeuropa.eu/vocabulary/plutchik/trust> ;
     crm:P2_has_type <http://data.odeuropa.eu/sentiment/positive> ;
     reo:readP27 <http://data.odeuropa.eu/experience/d86498f8-c7ba-5e04-b30e-768d3e96eab9> .
 
 <http://data.odeuropa.eu/emotion/6abb8563-0985-53e0-876b-6dda94d55e62> a reo:REO21 ;
     rdfs:label "che atterrisce l ’ udito , e scaccia l ’ odorato , non che il guardo" ;
-    crm:P137_exemplifies <http://data.odeuropa.eu/emotion-type/disgust> ;
+    crm:P137_exemplifies <http://data.odeuropa.eu/vocabulary/plutchik/disgust> ;
     crm:P2_has_type <http://data.odeuropa.eu/sentiment/negative> ;
     reo:readP27 <http://data.odeuropa.eu/experience/748e9871-732e-5dbf-9a78-b77e6dbf207b> .
 
 <http://data.odeuropa.eu/emotion/6d5b0697-b19b-57dd-8e4b-41cdc1cbff0b> a reo:REO21 ;
     rdfs:label "poser pensiero a ripararle dalla insalubrità" ;
-    crm:P137_exemplifies <http://data.odeuropa.eu/emotion-type/fear> ;
+    crm:P137_exemplifies <http://data.odeuropa.eu/vocabulary/plutchik/fear> ;
     crm:P2_has_type <http://data.odeuropa.eu/sentiment/negative> ;
     reo:readP27 <http://data.odeuropa.eu/experience/1cd4cf85-ba94-56c4-8c3e-a1d80c615160> .
 
 <http://data.odeuropa.eu/emotion/6f10f727-1282-51ef-9257-fe16e0ab5200> a reo:REO21 ;
     rdfs:label "più grato" ;
-    crm:P137_exemplifies <http://data.odeuropa.eu/emotion-type/trust> ;
+    crm:P137_exemplifies <http://data.odeuropa.eu/vocabulary/plutchik/trust> ;
     crm:P2_has_type <http://data.odeuropa.eu/sentiment/positive> ;
     reo:readP27 <http://data.odeuropa.eu/experience/1350907d-c0e3-5b5c-ac6f-27937a4b1dc1> .
 
 <http://data.odeuropa.eu/emotion/6f1a7cb3-2cb1-5319-b573-73f32fa90545> a reo:REO21 ;
     rdfs:label "garantisce maggio ri nenie la distruzione de '" ;
-    crm:P137_exemplifies <http://data.odeuropa.eu/emotion-type/anticipation> ;
+    crm:P137_exemplifies <http://data.odeuropa.eu/vocabulary/plutchik/anticipation> ;
     crm:P2_has_type <http://data.odeuropa.eu/sentiment/positive> ;
     reo:readP27 <http://data.odeuropa.eu/experience/36bb4ffe-1dcf-5925-ac88-096f2c8ccaf6> .
 
 <http://data.odeuropa.eu/emotion/702ba0c3-b716-5d7e-adcc-4b17e62c1028> a reo:REO21 ;
     rdfs:label "senza puzza" ;
-    crm:P137_exemplifies <http://data.odeuropa.eu/emotion-type/disgust> ;
+    crm:P137_exemplifies <http://data.odeuropa.eu/vocabulary/plutchik/disgust> ;
     crm:P2_has_type <http://data.odeuropa.eu/sentiment/positive> ;
     reo:readP27 <http://data.odeuropa.eu/experience/4f668fa1-5ff8-5437-b1be-eee7744d6817> .
 
@@ -732,37 +731,37 @@
 
 <http://data.odeuropa.eu/emotion/719910eb-ca0a-5acf-8d29-db0e4f9f1c01> a reo:REO21 ;
     rdfs:label "insoffribile" ;
-    crm:P137_exemplifies <http://data.odeuropa.eu/emotion-type/disgust> ;
+    crm:P137_exemplifies <http://data.odeuropa.eu/vocabulary/plutchik/disgust> ;
     crm:P2_has_type <http://data.odeuropa.eu/sentiment/negative> ;
     reo:readP27 <http://data.odeuropa.eu/experience/5a35f0b7-6769-5ff4-8a35-b4e3d1d67314> .
 
 <http://data.odeuropa.eu/emotion/72754819-8fa3-5651-b4c7-846add48250f> a reo:REO21 ;
     rdfs:label "cattivo" ;
-    crm:P137_exemplifies <http://data.odeuropa.eu/emotion-type/disgust> ;
+    crm:P137_exemplifies <http://data.odeuropa.eu/vocabulary/plutchik/disgust> ;
     crm:P2_has_type <http://data.odeuropa.eu/sentiment/negative> ;
     reo:readP27 <http://data.odeuropa.eu/experience/66d2425b-b9f9-5488-a98f-ff793bfda095> .
 
 <http://data.odeuropa.eu/emotion/729a80c7-4a5b-58b9-99c4-011afc8987b3> a reo:REO21 ;
     rdfs:label "molto piacevole" ;
-    crm:P137_exemplifies <http://data.odeuropa.eu/emotion-type/trust> ;
+    crm:P137_exemplifies <http://data.odeuropa.eu/vocabulary/plutchik/trust> ;
     crm:P2_has_type <http://data.odeuropa.eu/sentiment/positive> ;
     reo:readP27 <http://data.odeuropa.eu/experience/b3de4839-6a80-52fe-8e25-d022a7fa2a0c> .
 
 <http://data.odeuropa.eu/emotion/7362f947-be0b-51b4-b867-fe8fb6ee9466> a reo:REO21 ;
     rdfs:label "cattivo" ;
-    crm:P137_exemplifies <http://data.odeuropa.eu/emotion-type/disgust> ;
+    crm:P137_exemplifies <http://data.odeuropa.eu/vocabulary/plutchik/disgust> ;
     crm:P2_has_type <http://data.odeuropa.eu/sentiment/negative> ;
     reo:readP27 <http://data.odeuropa.eu/experience/3a3bb5c1-235e-5caa-a68f-949aade13cfe> .
 
 <http://data.odeuropa.eu/emotion/764f6fea-8afd-5f2d-922c-c25e2773039b> a reo:REO21 ;
     rdfs:label "tutto nuotante in salse abbominevoli , tutto unto , profumato , impomatato ," ;
-    crm:P137_exemplifies <http://data.odeuropa.eu/emotion-type/disgust> ;
+    crm:P137_exemplifies <http://data.odeuropa.eu/vocabulary/plutchik/disgust> ;
     crm:P2_has_type <http://data.odeuropa.eu/sentiment/negative> ;
     reo:readP27 <http://data.odeuropa.eu/experience/cdf8b078-e934-5b10-b54b-d8beb099bfce> .
 
 <http://data.odeuropa.eu/emotion/78d3ccf5-9da6-5303-8722-25984e3705ff> a reo:REO21 ;
     rdfs:label "apprezzando i profumi sopraffini" ;
-    crm:P137_exemplifies <http://data.odeuropa.eu/emotion-type/trust> ;
+    crm:P137_exemplifies <http://data.odeuropa.eu/vocabulary/plutchik/trust> ;
     crm:P2_has_type <http://data.odeuropa.eu/sentiment/positive> ;
     reo:readP27 <http://data.odeuropa.eu/experience/559a6fcc-e56a-5f0d-b9e1-1cae9a63f5b3> .
 
@@ -774,94 +773,94 @@
 
 <http://data.odeuropa.eu/emotion/78fbef4b-f061-5b48-921d-91235485fb27> a reo:REO21 ;
     rdfs:label "di fumo , di puzza" ;
-    crm:P137_exemplifies <http://data.odeuropa.eu/emotion-type/disgust> ;
+    crm:P137_exemplifies <http://data.odeuropa.eu/vocabulary/plutchik/disgust> ;
     crm:P2_has_type <http://data.odeuropa.eu/sentiment/negative> ;
     reo:readP27 <http://data.odeuropa.eu/experience/d26cd0ee-1c19-56ca-bdb3-af9bf6eae5de> .
 
 <http://data.odeuropa.eu/emotion/7bb36f2e-e277-5323-a7e9-8f29ec7629f8> a reo:REO21 ;
     rdfs:label "troppo gradevole" ;
-    crm:P137_exemplifies <http://data.odeuropa.eu/emotion-type/trust> ;
+    crm:P137_exemplifies <http://data.odeuropa.eu/vocabulary/plutchik/trust> ;
     crm:P2_has_type <http://data.odeuropa.eu/sentiment/positive> ;
     reo:readP27 <http://data.odeuropa.eu/experience/2d9e20b2-1a81-57a1-9f01-29e3003d6285> .
 
 <http://data.odeuropa.eu/emotion/7c7a4d54-cc92-51eb-83f2-3d93eb287e1c> a reo:REO21 ;
     rdfs:label "fr.acidi" ;
-    crm:P137_exemplifies <http://data.odeuropa.eu/emotion-type/disgust> ;
+    crm:P137_exemplifies <http://data.odeuropa.eu/vocabulary/plutchik/disgust> ;
     crm:P2_has_type <http://data.odeuropa.eu/sentiment/negative> ;
     reo:readP27 <http://data.odeuropa.eu/experience/d99f3592-fd7c-5153-a24d-53173bfbc4dd> .
 
 <http://data.odeuropa.eu/emotion/7c954cf7-6913-5fa7-9929-034ad88c88f2> a reo:REO21 ;
     rdfs:label "profumata" ;
-    crm:P137_exemplifies <http://data.odeuropa.eu/emotion-type/trust> ;
+    crm:P137_exemplifies <http://data.odeuropa.eu/vocabulary/plutchik/trust> ;
     crm:P2_has_type <http://data.odeuropa.eu/sentiment/positive> ;
     reo:readP27 <http://data.odeuropa.eu/experience/055991e0-d7a1-5f5c-816a-529daa9090e5> .
 
 <http://data.odeuropa.eu/emotion/7d08738c-4226-599e-b8d5-3d03a1e0c955> a reo:REO21 ;
     rdfs:label "fetidi" ;
-    crm:P137_exemplifies <http://data.odeuropa.eu/emotion-type/disgust> ;
+    crm:P137_exemplifies <http://data.odeuropa.eu/vocabulary/plutchik/disgust> ;
     crm:P2_has_type <http://data.odeuropa.eu/sentiment/negative> ;
     reo:readP27 <http://data.odeuropa.eu/experience/1452314f-93fb-5aea-a251-bbd169a7e78d> .
 
 <http://data.odeuropa.eu/emotion/7e44602a-abf1-56dc-9560-a6209d435383> a reo:REO21 ;
     rdfs:label "soave" ;
-    crm:P137_exemplifies <http://data.odeuropa.eu/emotion-type/trust> ;
+    crm:P137_exemplifies <http://data.odeuropa.eu/vocabulary/plutchik/trust> ;
     crm:P2_has_type <http://data.odeuropa.eu/sentiment/positive> ;
     reo:readP27 <http://data.odeuropa.eu/experience/c74d0768-e982-558f-a947-d81769f52aff> .
 
 <http://data.odeuropa.eu/emotion/7f514d6b-b9f7-5ed3-b137-70d0dd387d95> a reo:REO21 ;
     rdfs:label "per lo più sgradevoli" ;
-    crm:P137_exemplifies <http://data.odeuropa.eu/emotion-type/disgust> ;
+    crm:P137_exemplifies <http://data.odeuropa.eu/vocabulary/plutchik/disgust> ;
     crm:P2_has_type <http://data.odeuropa.eu/sentiment/negative> ;
     reo:readP27 <http://data.odeuropa.eu/experience/fcfb1a6e-9167-562f-b6bf-899ee5b2431b> .
 
 <http://data.odeuropa.eu/emotion/80240a44-9f59-565b-a07f-491ea24c26ef> a reo:REO21 ;
     rdfs:label "miasmi" ;
-    crm:P137_exemplifies <http://data.odeuropa.eu/emotion-type/disgust> ;
+    crm:P137_exemplifies <http://data.odeuropa.eu/vocabulary/plutchik/disgust> ;
     crm:P2_has_type <http://data.odeuropa.eu/sentiment/negative> ;
     reo:readP27 <http://data.odeuropa.eu/experience/4bfa7894-0af8-52a2-b9ca-f1928cdb837c> .
 
 <http://data.odeuropa.eu/emotion/80e5e030-a81e-53f2-b4d5-575c35112ede> a reo:REO21 ;
     rdfs:label "Più grati ai nostri vecchi" ;
-    crm:P137_exemplifies <http://data.odeuropa.eu/emotion-type/trust> ;
+    crm:P137_exemplifies <http://data.odeuropa.eu/vocabulary/plutchik/trust> ;
     crm:P2_has_type <http://data.odeuropa.eu/sentiment/positive> ;
     reo:readP27 <http://data.odeuropa.eu/experience/6310afc3-e9cf-5188-b347-a38521579cb0> .
 
 <http://data.odeuropa.eu/emotion/82e1b2d0-208b-582c-aee5-2e8188a69cac> a reo:REO21 ;
     rdfs:label "gradevole",
         "sgradevolissimo" ;
-    crm:P137_exemplifies <http://data.odeuropa.eu/emotion-type/disgust>,
-        <http://data.odeuropa.eu/emotion-type/trust> ;
+    crm:P137_exemplifies <http://data.odeuropa.eu/vocabulary/plutchik/disgust>,
+        <http://data.odeuropa.eu/vocabulary/plutchik/trust> ;
     crm:P2_has_type <http://data.odeuropa.eu/sentiment/negative>,
         <http://data.odeuropa.eu/sentiment/positive> ;
     reo:readP27 <http://data.odeuropa.eu/experience/107129a6-0527-5318-a597-dae1306025f8> .
 
 <http://data.odeuropa.eu/emotion/8361e7b7-956c-53ef-ae60-c5f6f842c155> a reo:REO21 ;
     rdfs:label "soavissimo" ;
-    crm:P137_exemplifies <http://data.odeuropa.eu/emotion-type/trust> ;
+    crm:P137_exemplifies <http://data.odeuropa.eu/vocabulary/plutchik/trust> ;
     crm:P2_has_type <http://data.odeuropa.eu/sentiment/positive> ;
     reo:readP27 <http://data.odeuropa.eu/experience/e1cd5a93-ad88-5536-b110-01a50885cc39> .
 
 <http://data.odeuropa.eu/emotion/841a13e3-d324-5bd7-b351-aad04e48e066> a reo:REO21 ;
     rdfs:label "cattivo" ;
-    crm:P137_exemplifies <http://data.odeuropa.eu/emotion-type/disgust> ;
+    crm:P137_exemplifies <http://data.odeuropa.eu/vocabulary/plutchik/disgust> ;
     crm:P2_has_type <http://data.odeuropa.eu/sentiment/negative> ;
     reo:readP27 <http://data.odeuropa.eu/experience/df735b0b-e1b7-56f4-8c17-d10ad8967382> .
 
 <http://data.odeuropa.eu/emotion/848886d4-3ead-5b88-b37b-c6a6b1371fd6> a reo:REO21 ;
     rdfs:label "odoroso" ;
-    crm:P137_exemplifies <http://data.odeuropa.eu/emotion-type/trust> ;
+    crm:P137_exemplifies <http://data.odeuropa.eu/vocabulary/plutchik/trust> ;
     crm:P2_has_type <http://data.odeuropa.eu/sentiment/positive> ;
     reo:readP27 <http://data.odeuropa.eu/experience/6abce12d-6f8b-5cf5-826c-76a855f7bbe8> .
 
 <http://data.odeuropa.eu/emotion/852b6c20-708f-571d-b9a2-f7e76543b0f7> a reo:REO21 ;
     rdfs:label "respirate deliziavano come un sorso d ’ acqua ." ;
-    crm:P137_exemplifies <http://data.odeuropa.eu/emotion-type/joy> ;
+    crm:P137_exemplifies <http://data.odeuropa.eu/vocabulary/plutchik/joy> ;
     crm:P2_has_type <http://data.odeuropa.eu/sentiment/positive> ;
     reo:readP27 <http://data.odeuropa.eu/experience/2121f414-cac6-5e28-9a77-90fb9554a9cd> .
 
 <http://data.odeuropa.eu/emotion/853f2ea2-11a6-5fcf-9947-14c0c16f5a2a> a reo:REO21 ;
     rdfs:label "miasma" ;
-    crm:P137_exemplifies <http://data.odeuropa.eu/emotion-type/disgust> ;
+    crm:P137_exemplifies <http://data.odeuropa.eu/vocabulary/plutchik/disgust> ;
     crm:P2_has_type <http://data.odeuropa.eu/sentiment/negative> ;
     reo:readP27 <http://data.odeuropa.eu/experience/69dcb02b-5d59-5c58-b235-2fcd393a0ad4> .
 
@@ -873,121 +872,121 @@
 
 <http://data.odeuropa.eu/emotion/87160ad5-91e0-50ad-8782-0ee11b6d8c2b> a reo:REO21 ;
     rdfs:label "per Esserne venuta a noia" ;
-    crm:P137_exemplifies <http://data.odeuropa.eu/emotion-type/anger> ;
+    crm:P137_exemplifies <http://data.odeuropa.eu/vocabulary/plutchik/anger> ;
     crm:P2_has_type <http://data.odeuropa.eu/sentiment/negative> ;
     reo:readP27 <http://data.odeuropa.eu/experience/2bf40136-bede-5212-a39c-53724b3f38f5> .
 
 <http://data.odeuropa.eu/emotion/89dc885a-a8ab-5941-812a-ef1e1859465f> a reo:REO21 ;
     rdfs:label "uno de ’ piaceri" ;
-    crm:P137_exemplifies <http://data.odeuropa.eu/emotion-type/trust> ;
+    crm:P137_exemplifies <http://data.odeuropa.eu/vocabulary/plutchik/trust> ;
     crm:P2_has_type <http://data.odeuropa.eu/sentiment/positive> ;
     reo:readP27 <http://data.odeuropa.eu/experience/704a748b-a98e-5ed8-8f47-acd56971d676> .
 
 <http://data.odeuropa.eu/emotion/8ab3b23a-7cb4-54d3-a7c0-a800fd6ec289> a reo:REO21 ;
     rdfs:label "soavissima" ;
-    crm:P137_exemplifies <http://data.odeuropa.eu/emotion-type/trust> ;
+    crm:P137_exemplifies <http://data.odeuropa.eu/vocabulary/plutchik/trust> ;
     crm:P2_has_type <http://data.odeuropa.eu/sentiment/positive> ;
     reo:readP27 <http://data.odeuropa.eu/experience/3e05a8af-99a5-57d0-aee1-899fcf0ada97> .
 
 <http://data.odeuropa.eu/emotion/8bb474ff-8380-547d-bdc1-fd7c73b0265c> a reo:REO21 ;
     rdfs:label "leggiere nausee le salivano alla gola" ;
-    crm:P137_exemplifies <http://data.odeuropa.eu/emotion-type/sadness> ;
+    crm:P137_exemplifies <http://data.odeuropa.eu/vocabulary/plutchik/sadness> ;
     crm:P2_has_type <http://data.odeuropa.eu/sentiment/negative> ;
     reo:readP27 <http://data.odeuropa.eu/experience/9c5e83cf-90a6-5a39-a161-4bb5845bb093> .
 
 <http://data.odeuropa.eu/emotion/8bb97c76-d6f5-5a8b-9955-b3a2f592d60d> a reo:REO21 ;
     rdfs:label "cadaverico" ;
-    crm:P137_exemplifies <http://data.odeuropa.eu/emotion-type/disgust> ;
+    crm:P137_exemplifies <http://data.odeuropa.eu/vocabulary/plutchik/disgust> ;
     crm:P2_has_type <http://data.odeuropa.eu/sentiment/negative> ;
     reo:readP27 <http://data.odeuropa.eu/experience/426876fa-4f57-5247-87e8-491c802a1e50> .
 
 <http://data.odeuropa.eu/emotion/8bd0e26a-1d59-5e35-a15a-613addadd70f> a reo:REO21 ;
     rdfs:label "chi non sa che basta l ’ inconcepibile emanazione d ’ un fiore od un altro odore qualunque per far cadere in isvenimento" ;
-    crm:P137_exemplifies <http://data.odeuropa.eu/emotion-type/surprise> ;
+    crm:P137_exemplifies <http://data.odeuropa.eu/vocabulary/plutchik/surprise> ;
     crm:P2_has_type <http://data.odeuropa.eu/sentiment/neutral> ;
     reo:readP27 <http://data.odeuropa.eu/experience/bccd69c1-2f69-5ebf-bf55-fe73e9b2916a> .
 
 <http://data.odeuropa.eu/emotion/8edf271e-843e-5198-a3da-401b41b10346> a reo:REO21 ;
     rdfs:label "fetida" ;
-    crm:P137_exemplifies <http://data.odeuropa.eu/emotion-type/disgust> ;
+    crm:P137_exemplifies <http://data.odeuropa.eu/vocabulary/plutchik/disgust> ;
     crm:P2_has_type <http://data.odeuropa.eu/sentiment/negative> ;
     reo:readP27 <http://data.odeuropa.eu/experience/5acef1f2-131b-5621-901c-122724608f92> .
 
 <http://data.odeuropa.eu/emotion/8f02d9bd-c167-5151-81f4-c59dc85966fe> a reo:REO21 ;
     rdfs:label "puzzolenti" ;
-    crm:P137_exemplifies <http://data.odeuropa.eu/emotion-type/disgust> ;
+    crm:P137_exemplifies <http://data.odeuropa.eu/vocabulary/plutchik/disgust> ;
     crm:P2_has_type <http://data.odeuropa.eu/sentiment/negative> ;
     reo:readP27 <http://data.odeuropa.eu/experience/afce6172-d5b9-5e07-87a1-847237bf0857> .
 
 <http://data.odeuropa.eu/emotion/8f05ff43-c268-53bd-9ce3-97442432096e> a reo:REO21 ;
     rdfs:label "tutte gioconde" ;
-    crm:P137_exemplifies <http://data.odeuropa.eu/emotion-type/joy> ;
+    crm:P137_exemplifies <http://data.odeuropa.eu/vocabulary/plutchik/joy> ;
     crm:P2_has_type <http://data.odeuropa.eu/sentiment/positive> ;
     reo:readP27 <http://data.odeuropa.eu/experience/69a84d1e-26df-5ccb-9b07-45ae2ecfc7dc> .
 
 <http://data.odeuropa.eu/emotion/8f3dc6d1-5976-586a-9dc2-e97633a545a8> a reo:REO21 ;
     rdfs:label "di muffa" ;
-    crm:P137_exemplifies <http://data.odeuropa.eu/emotion-type/disgust> ;
+    crm:P137_exemplifies <http://data.odeuropa.eu/vocabulary/plutchik/disgust> ;
     crm:P2_has_type <http://data.odeuropa.eu/sentiment/negative> ;
     reo:readP27 <http://data.odeuropa.eu/experience/de57746e-d7c8-5be3-981b-6d16cfdeb506> .
 
 <http://data.odeuropa.eu/emotion/90f7db2a-5bbc-56c8-9466-32320e32de7a> a reo:REO21 ;
     rdfs:label "soave" ;
-    crm:P137_exemplifies <http://data.odeuropa.eu/emotion-type/trust> ;
+    crm:P137_exemplifies <http://data.odeuropa.eu/vocabulary/plutchik/trust> ;
     crm:P2_has_type <http://data.odeuropa.eu/sentiment/positive> ;
     reo:readP27 <http://data.odeuropa.eu/experience/b2f18795-a80c-568c-96e1-076f9ddfd588> .
 
 <http://data.odeuropa.eu/emotion/91bf2b08-5fbd-51d0-9614-fbdb47df3725> a reo:REO21 ;
     rdfs:label "diventava irresistibilmente odorosa" ;
-    crm:P137_exemplifies <http://data.odeuropa.eu/emotion-type/trust> ;
+    crm:P137_exemplifies <http://data.odeuropa.eu/vocabulary/plutchik/trust> ;
     crm:P2_has_type <http://data.odeuropa.eu/sentiment/positive> ;
     reo:readP27 <http://data.odeuropa.eu/experience/9327743e-67f3-5e94-be24-82393d675a93> .
 
 <http://data.odeuropa.eu/emotion/92c88531-071e-55aa-8b10-c22eed9feaaa> a reo:REO21 ;
     rdfs:label "potei soddisfare il mio desiderio di studiare un po ’" ;
-    crm:P137_exemplifies <http://data.odeuropa.eu/emotion-type/anticipation> ;
+    crm:P137_exemplifies <http://data.odeuropa.eu/vocabulary/plutchik/anticipation> ;
     crm:P2_has_type <http://data.odeuropa.eu/sentiment/positive> ;
     reo:readP27 <http://data.odeuropa.eu/experience/54263fad-1a97-538c-a436-a5c29d7f1703> .
 
 <http://data.odeuropa.eu/emotion/93a6cac8-5e4b-5f6e-8199-ccf33e0a0ffe> a reo:REO21 ;
     rdfs:label "puzzolentissimo" ;
-    crm:P137_exemplifies <http://data.odeuropa.eu/emotion-type/disgust> ;
+    crm:P137_exemplifies <http://data.odeuropa.eu/vocabulary/plutchik/disgust> ;
     crm:P2_has_type <http://data.odeuropa.eu/sentiment/negative> ;
     reo:readP27 <http://data.odeuropa.eu/experience/26ad71c0-8533-58a5-bca3-e81153158958> .
 
 <http://data.odeuropa.eu/emotion/94035cb9-cdc0-5d99-bc4e-ece6781b5e18> a reo:REO21 ;
     rdfs:label "aromatico" ;
-    crm:P137_exemplifies <http://data.odeuropa.eu/emotion-type/disgust> ;
+    crm:P137_exemplifies <http://data.odeuropa.eu/vocabulary/plutchik/disgust> ;
     crm:P2_has_type <http://data.odeuropa.eu/sentiment/positive> ;
     reo:readP27 <http://data.odeuropa.eu/experience/53afa2c1-589c-5a0d-a490-4d58cea054bb> .
 
 <http://data.odeuropa.eu/emotion/940b7f23-8cfe-5aa6-9122-25e8648085bf> a reo:REO21 ;
     rdfs:label "atti a creare sul mangiatore uno stato d ’ animo ottimista" ;
-    crm:P137_exemplifies <http://data.odeuropa.eu/emotion-type/anticipation> ;
+    crm:P137_exemplifies <http://data.odeuropa.eu/vocabulary/plutchik/anticipation> ;
     crm:P2_has_type <http://data.odeuropa.eu/sentiment/positive> ;
     reo:readP27 <http://data.odeuropa.eu/experience/d2949a51-dff4-5003-b0e1-396622aabe8a> .
 
 <http://data.odeuropa.eu/emotion/95e4cc68-69fe-5234-b8e6-dc315a434fd8> a reo:REO21 ;
     rdfs:label "Puzzo" ;
-    crm:P137_exemplifies <http://data.odeuropa.eu/emotion-type/disgust> ;
+    crm:P137_exemplifies <http://data.odeuropa.eu/vocabulary/plutchik/disgust> ;
     crm:P2_has_type <http://data.odeuropa.eu/sentiment/negative> ;
     reo:readP27 <http://data.odeuropa.eu/experience/0fe3a014-d661-55c0-b45a-84be991bdb52> .
 
 <http://data.odeuropa.eu/emotion/976f3fd2-1033-59ef-8a63-4f9c994e7675> a reo:REO21 ;
     rdfs:label "grave lamento , rimprovero , Farne molto rumore" ;
-    crm:P137_exemplifies <http://data.odeuropa.eu/emotion-type/anger> ;
+    crm:P137_exemplifies <http://data.odeuropa.eu/vocabulary/plutchik/anger> ;
     crm:P2_has_type <http://data.odeuropa.eu/sentiment/negative> ;
     reo:readP27 <http://data.odeuropa.eu/experience/d6a1bc5d-3203-5393-bc33-fe861a7c5dc1> .
 
 <http://data.odeuropa.eu/emotion/9c7f9466-b7fc-5e72-9e44-8926b84f512a> a reo:REO21 ;
     rdfs:label "fetidissimo" ;
-    crm:P137_exemplifies <http://data.odeuropa.eu/emotion-type/disgust> ;
+    crm:P137_exemplifies <http://data.odeuropa.eu/vocabulary/plutchik/disgust> ;
     crm:P2_has_type <http://data.odeuropa.eu/sentiment/negative> ;
     reo:readP27 <http://data.odeuropa.eu/experience/0fb652a0-ba6b-5550-a93d-3c0045e0f792> .
 
 <http://data.odeuropa.eu/emotion/9c92fffd-227c-5c5f-815e-988cfee2c568> a reo:REO21 ;
     rdfs:label "molto grato" ;
-    crm:P137_exemplifies <http://data.odeuropa.eu/emotion-type/trust> ;
+    crm:P137_exemplifies <http://data.odeuropa.eu/vocabulary/plutchik/trust> ;
     crm:P2_has_type <http://data.odeuropa.eu/sentiment/positive> ;
     reo:readP27 <http://data.odeuropa.eu/experience/4d4f72a0-5373-5550-a4f6-788cd9b0e0b8> .
 
@@ -999,19 +998,19 @@
 
 <http://data.odeuropa.eu/emotion/9e9af4b9-43b0-58b2-8b67-35cb3d8a5a6a> a reo:REO21 ;
     rdfs:label "in una certa compiacenza esagerata dei colori e dei profumi" ;
-    crm:P137_exemplifies <http://data.odeuropa.eu/emotion-type/trust> ;
+    crm:P137_exemplifies <http://data.odeuropa.eu/vocabulary/plutchik/trust> ;
     crm:P2_has_type <http://data.odeuropa.eu/sentiment/positive> ;
     reo:readP27 <http://data.odeuropa.eu/experience/31a7fe18-9c51-5d97-b5b8-26ee5a0af848> .
 
 <http://data.odeuropa.eu/emotion/a0212fb8-0f6b-520b-be5d-a192cf207b19> a reo:REO21 ;
     rdfs:label "È di somma importanza che esse siano completamente inodore" ;
-    crm:P137_exemplifies <http://data.odeuropa.eu/emotion-type/anticipation> ;
+    crm:P137_exemplifies <http://data.odeuropa.eu/vocabulary/plutchik/anticipation> ;
     crm:P2_has_type <http://data.odeuropa.eu/sentiment/neutral> ;
     reo:readP27 <http://data.odeuropa.eu/experience/90a8d086-25c5-5c00-a3e3-f98380b23a3f> .
 
 <http://data.odeuropa.eu/emotion/a1c4539b-32de-525b-bbeb-941be374295f> a reo:REO21 ;
     rdfs:label "sì grato" ;
-    crm:P137_exemplifies <http://data.odeuropa.eu/emotion-type/trust> ;
+    crm:P137_exemplifies <http://data.odeuropa.eu/vocabulary/plutchik/trust> ;
     crm:P2_has_type <http://data.odeuropa.eu/sentiment/positive> ;
     reo:readP27 <http://data.odeuropa.eu/experience/43e22a32-d946-51c7-a47d-63604d51eb76> .
 
@@ -1019,63 +1018,63 @@
     rdfs:label "bruciante",
         "mi" ;
     crm:P137_exemplifies <http://data.odeuropa.eu/emotion-type/desire>,
-        <http://data.odeuropa.eu/emotion-type/love> ;
+        <http://data.odeuropa.eu/vocabulary/plutchik/love> ;
     crm:P2_has_type <http://data.odeuropa.eu/sentiment/positive> ;
     reo:readP27 <http://data.odeuropa.eu/experience/a12cfbfd-316f-5701-9d8b-2eb8e0e62951> .
 
 <http://data.odeuropa.eu/emotion/a3f3a22e-387c-5020-8e4f-668e7b7207d4> a reo:REO21 ;
     rdfs:label "instituirono gli esperimenti per neutra lizzarli , e distruggerli",
         "putridi" ;
-    crm:P137_exemplifies <http://data.odeuropa.eu/emotion-type/disgust>,
-        <http://data.odeuropa.eu/emotion-type/fear> ;
+    crm:P137_exemplifies <http://data.odeuropa.eu/vocabulary/plutchik/disgust>,
+        <http://data.odeuropa.eu/vocabulary/plutchik/fear> ;
     crm:P2_has_type <http://data.odeuropa.eu/sentiment/negative> ;
     reo:readP27 <http://data.odeuropa.eu/experience/53af47bc-a388-5ee9-bba6-0c0f46bd5491> .
 
 <http://data.odeuropa.eu/emotion/a538029b-a6ee-5f90-b333-81f89d8d2e92> a reo:REO21 ;
     rdfs:label "grave" ;
-    crm:P137_exemplifies <http://data.odeuropa.eu/emotion-type/anger> ;
+    crm:P137_exemplifies <http://data.odeuropa.eu/vocabulary/plutchik/anger> ;
     crm:P2_has_type <http://data.odeuropa.eu/sentiment/negative> ;
     reo:readP27 <http://data.odeuropa.eu/experience/1a779276-c401-5ac8-9cad-fbd33f07f2fa> .
 
 <http://data.odeuropa.eu/emotion/a5910fb6-fbee-572b-bdd3-995998dede08> a reo:REO21 ;
     rdfs:label "gradevole" ;
-    crm:P137_exemplifies <http://data.odeuropa.eu/emotion-type/trust> ;
+    crm:P137_exemplifies <http://data.odeuropa.eu/vocabulary/plutchik/trust> ;
     crm:P2_has_type <http://data.odeuropa.eu/sentiment/positive> ;
     reo:readP27 <http://data.odeuropa.eu/experience/37c12375-4c2d-598e-8809-dc3b4aa53f40> .
 
 <http://data.odeuropa.eu/emotion/a88eccd2-7b6c-550c-b414-762b9525623c> a reo:REO21 ;
     rdfs:label "Spuza" ;
-    crm:P137_exemplifies <http://data.odeuropa.eu/emotion-type/disgust> ;
+    crm:P137_exemplifies <http://data.odeuropa.eu/vocabulary/plutchik/disgust> ;
     crm:P2_has_type <http://data.odeuropa.eu/sentiment/negative> ;
     reo:readP27 <http://data.odeuropa.eu/experience/790d0b7f-9ea5-54e4-a067-39a4d87c784b> .
 
 <http://data.odeuropa.eu/emotion/a8a4cf64-f686-5b3f-806f-e5643fcb65e9> a reo:REO21 ;
     rdfs:label "sgradevole" ;
-    crm:P137_exemplifies <http://data.odeuropa.eu/emotion-type/disgust> ;
+    crm:P137_exemplifies <http://data.odeuropa.eu/vocabulary/plutchik/disgust> ;
     crm:P2_has_type <http://data.odeuropa.eu/sentiment/negative> ;
     reo:readP27 <http://data.odeuropa.eu/experience/980effa2-6a89-5f8a-bc27-ce6ffdd063ed> .
 
 <http://data.odeuropa.eu/emotion/a90d08de-83fb-5eb7-80b6-1074829cb4a1> a reo:REO21 ;
     rdfs:label "grato" ;
-    crm:P137_exemplifies <http://data.odeuropa.eu/emotion-type/trust> ;
+    crm:P137_exemplifies <http://data.odeuropa.eu/vocabulary/plutchik/trust> ;
     crm:P2_has_type <http://data.odeuropa.eu/sentiment/positive> ;
     reo:readP27 <http://data.odeuropa.eu/experience/9f9d068c-3a55-5d3c-86a6-007a628644c8> .
 
 <http://data.odeuropa.eu/emotion/ab1cb517-c505-5786-b65c-9435e8f6d9ac> a reo:REO21 ;
     rdfs:label "la primavera" ;
-    crm:P137_exemplifies <http://data.odeuropa.eu/emotion-type/joy> ;
+    crm:P137_exemplifies <http://data.odeuropa.eu/vocabulary/plutchik/joy> ;
     crm:P2_has_type <http://data.odeuropa.eu/sentiment/positive> ;
     reo:readP27 <http://data.odeuropa.eu/experience/823cd709-81a8-5809-87cf-ae388321ead2> .
 
 <http://data.odeuropa.eu/emotion/af57835f-2eec-56f7-a9d3-f26a4349c9a4> a reo:REO21 ;
     rdfs:label "profumo" ;
-    crm:P137_exemplifies <http://data.odeuropa.eu/emotion-type/trust> ;
+    crm:P137_exemplifies <http://data.odeuropa.eu/vocabulary/plutchik/trust> ;
     crm:P2_has_type <http://data.odeuropa.eu/sentiment/positive> ;
     reo:readP27 <http://data.odeuropa.eu/experience/df352d68-d5fd-59df-bdc0-b2da8da9f17e> .
 
 <http://data.odeuropa.eu/emotion/b06e1aa5-83e8-5cb2-9b68-28eca4e2bb09> a reo:REO21 ;
     rdfs:label "puzzerello" ;
-    crm:P137_exemplifies <http://data.odeuropa.eu/emotion-type/disgust> ;
+    crm:P137_exemplifies <http://data.odeuropa.eu/vocabulary/plutchik/disgust> ;
     crm:P2_has_type <http://data.odeuropa.eu/sentiment/negative> ;
     reo:readP27 <http://data.odeuropa.eu/experience/e4e2bbb8-be5f-5904-881e-ef262ae31ba9> .
 
@@ -1087,37 +1086,37 @@
 
 <http://data.odeuropa.eu/emotion/b33e4ad3-885c-54b0-b7d9-f73389b1f214> a reo:REO21 ;
     rdfs:label "Parmi che nessuna valida obbiezione" ;
-    crm:P137_exemplifies <http://data.odeuropa.eu/emotion-type/trust> ;
+    crm:P137_exemplifies <http://data.odeuropa.eu/vocabulary/plutchik/trust> ;
     crm:P2_has_type <http://data.odeuropa.eu/sentiment/positive> ;
     reo:readP27 <http://data.odeuropa.eu/experience/66abf5a2-aae8-58fd-b504-d3ab39cd43ad> .
 
 <http://data.odeuropa.eu/emotion/b623f63e-db50-5852-b38e-2bdf36ef8c98> a reo:REO21 ;
     rdfs:label "fetide" ;
-    crm:P137_exemplifies <http://data.odeuropa.eu/emotion-type/disgust> ;
+    crm:P137_exemplifies <http://data.odeuropa.eu/vocabulary/plutchik/disgust> ;
     crm:P2_has_type <http://data.odeuropa.eu/sentiment/negative> ;
     reo:readP27 <http://data.odeuropa.eu/experience/6fac8bf3-f3fe-54a5-a811-36224ad1ebf9> .
 
 <http://data.odeuropa.eu/emotion/b9734bd9-8e8b-5125-8162-15548884f4dc> a reo:REO21 ;
     rdfs:label "basta a fugare i serpenti" ;
-    crm:P137_exemplifies <http://data.odeuropa.eu/emotion-type/fear> ;
+    crm:P137_exemplifies <http://data.odeuropa.eu/vocabulary/plutchik/fear> ;
     crm:P2_has_type <http://data.odeuropa.eu/sentiment/negative> ;
     reo:readP27 <http://data.odeuropa.eu/experience/72804296-1a7c-540f-80f6-34d34534024f> .
 
 <http://data.odeuropa.eu/emotion/bacfb5d4-0530-593e-9e38-b154c2fb28af> a reo:REO21 ;
     rdfs:label "si rifletta che questi furono sempre da noi prefetti a quelli altri ," ;
-    crm:P137_exemplifies <http://data.odeuropa.eu/emotion-type/trust> ;
+    crm:P137_exemplifies <http://data.odeuropa.eu/vocabulary/plutchik/trust> ;
     crm:P2_has_type <http://data.odeuropa.eu/sentiment/positive> ;
     reo:readP27 <http://data.odeuropa.eu/experience/b0b03f01-2a48-5692-97b0-af122cac10a0> .
 
 <http://data.odeuropa.eu/emotion/bb6895a0-e970-5f58-b192-7c03a34134fb> a reo:REO21 ;
     rdfs:label "grato" ;
-    crm:P137_exemplifies <http://data.odeuropa.eu/emotion-type/trust> ;
+    crm:P137_exemplifies <http://data.odeuropa.eu/vocabulary/plutchik/trust> ;
     crm:P2_has_type <http://data.odeuropa.eu/sentiment/positive> ;
     reo:readP27 <http://data.odeuropa.eu/experience/e719be4d-fb42-52b0-b39a-307c2c706131> .
 
 <http://data.odeuropa.eu/emotion/bcadd4db-e077-55fe-8c6f-c789b2009e48> a reo:REO21 ;
     rdfs:label "fetido" ;
-    crm:P137_exemplifies <http://data.odeuropa.eu/emotion-type/disgust> ;
+    crm:P137_exemplifies <http://data.odeuropa.eu/vocabulary/plutchik/disgust> ;
     crm:P2_has_type <http://data.odeuropa.eu/sentiment/negative> ;
     reo:readP27 <http://data.odeuropa.eu/experience/e03ce1ae-9f21-5915-8ca2-311cf8504fd0> .
 
@@ -1129,7 +1128,7 @@
 
 <http://data.odeuropa.eu/emotion/c09bffc8-086a-535a-978b-0b5345b83810> a reo:REO21 ;
     rdfs:label "molto aggradevole" ;
-    crm:P137_exemplifies <http://data.odeuropa.eu/emotion-type/trust> ;
+    crm:P137_exemplifies <http://data.odeuropa.eu/vocabulary/plutchik/trust> ;
     crm:P2_has_type <http://data.odeuropa.eu/sentiment/positive> ;
     reo:readP27 <http://data.odeuropa.eu/experience/b7d9a48b-e056-54d7-b0a9-f0e34053f1a8> .
 
@@ -1141,101 +1140,101 @@
 
 <http://data.odeuropa.eu/emotion/c267f65b-e1c4-5d60-b531-3339a0af28b2> a reo:REO21 ;
     rdfs:label "pestilenti" ;
-    crm:P137_exemplifies <http://data.odeuropa.eu/emotion-type/disgust> ;
+    crm:P137_exemplifies <http://data.odeuropa.eu/vocabulary/plutchik/disgust> ;
     crm:P2_has_type <http://data.odeuropa.eu/sentiment/negative> ;
     reo:readP27 <http://data.odeuropa.eu/experience/7a32146b-4ad0-54b6-aa8d-38ea1493983b> .
 
 <http://data.odeuropa.eu/emotion/c3a0d7c8-d515-56c8-8844-7aee491bbf3e> a reo:REO21 ;
     rdfs:label "il più inebriante profumo" ;
-    crm:P137_exemplifies <http://data.odeuropa.eu/emotion-type/trust> ;
+    crm:P137_exemplifies <http://data.odeuropa.eu/vocabulary/plutchik/trust> ;
     crm:P2_has_type <http://data.odeuropa.eu/sentiment/positive> ;
     reo:readP27 <http://data.odeuropa.eu/experience/8841a09d-9981-5b86-a012-32622af295ca> .
 
 <http://data.odeuropa.eu/emotion/c4105482-157e-59fc-a5b3-c53bfc71ef0e> a reo:REO21 ;
     rdfs:label "contagiosa" ;
-    crm:P137_exemplifies <http://data.odeuropa.eu/emotion-type/fear> ;
+    crm:P137_exemplifies <http://data.odeuropa.eu/vocabulary/plutchik/fear> ;
     crm:P2_has_type <http://data.odeuropa.eu/sentiment/negative> ;
     reo:readP27 <http://data.odeuropa.eu/experience/2749641d-254e-525d-881a-af47fc9548cb> .
 
 <http://data.odeuropa.eu/emotion/c6ce4d38-3bdb-5021-92d7-95f614a0d7a9> a reo:REO21 ;
     rdfs:label "grato" ;
-    crm:P137_exemplifies <http://data.odeuropa.eu/emotion-type/trust> ;
+    crm:P137_exemplifies <http://data.odeuropa.eu/vocabulary/plutchik/trust> ;
     crm:P2_has_type <http://data.odeuropa.eu/sentiment/positive> ;
     reo:readP27 <http://data.odeuropa.eu/experience/f10de7d8-a007-5e59-a64d-2ffc22ed7271> .
 
 <http://data.odeuropa.eu/emotion/c6f5f1fb-8d67-57ec-96d8-8afb8809e432> a reo:REO21 ;
     rdfs:label "putrido" ;
-    crm:P137_exemplifies <http://data.odeuropa.eu/emotion-type/disgust> ;
+    crm:P137_exemplifies <http://data.odeuropa.eu/vocabulary/plutchik/disgust> ;
     crm:P2_has_type <http://data.odeuropa.eu/sentiment/negative> ;
     reo:readP27 <http://data.odeuropa.eu/experience/4c8258bb-85ee-5df3-9d73-d0d437476e6f> .
 
 <http://data.odeuropa.eu/emotion/c74f0d02-b728-524d-9401-452db34d9802> a reo:REO21 ;
     rdfs:label "E ’ più soave" ;
-    crm:P137_exemplifies <http://data.odeuropa.eu/emotion-type/trust> ;
+    crm:P137_exemplifies <http://data.odeuropa.eu/vocabulary/plutchik/trust> ;
     crm:P2_has_type <http://data.odeuropa.eu/sentiment/positive> ;
     reo:readP27 <http://data.odeuropa.eu/experience/4a22ea17-c57b-5d91-998d-57808e1ad483> .
 
 <http://data.odeuropa.eu/emotion/cb344dbd-0e93-5ee7-9425-5b06f927ca5f> a reo:REO21 ;
     rdfs:label "forse è stato l ' uso sao ristretto ad espurgare bastimenti e stanze abitate da ' qua r.in renanti" ;
-    crm:P137_exemplifies <http://data.odeuropa.eu/emotion-type/anticipation> ;
+    crm:P137_exemplifies <http://data.odeuropa.eu/vocabulary/plutchik/anticipation> ;
     crm:P2_has_type <http://data.odeuropa.eu/sentiment/positive> ;
     reo:readP27 <http://data.odeuropa.eu/experience/76905c59-0949-5470-9131-21a99fdc288e> .
 
 <http://data.odeuropa.eu/emotion/cb62eb9d-3f4e-5d96-8d62-2dc031677f74> a reo:REO21 ;
     rdfs:label "profumato" ;
-    crm:P137_exemplifies <http://data.odeuropa.eu/emotion-type/trust> ;
+    crm:P137_exemplifies <http://data.odeuropa.eu/vocabulary/plutchik/trust> ;
     crm:P2_has_type <http://data.odeuropa.eu/sentiment/positive> ;
     reo:readP27 <http://data.odeuropa.eu/experience/e0507b1d-615a-5fda-930d-089d40b03359> .
 
 <http://data.odeuropa.eu/emotion/cca03cb1-5717-56ad-9e78-1392a624ce60> a reo:REO21 ;
     rdfs:label "soavissimo" ;
-    crm:P137_exemplifies <http://data.odeuropa.eu/emotion-type/trust> ;
+    crm:P137_exemplifies <http://data.odeuropa.eu/vocabulary/plutchik/trust> ;
     crm:P2_has_type <http://data.odeuropa.eu/sentiment/positive> ;
     reo:readP27 <http://data.odeuropa.eu/experience/ee54455d-8893-5660-9b0f-6260b1ed7170> .
 
 <http://data.odeuropa.eu/emotion/cd9da46b-3936-5d92-80dd-c3d8c198717e> a reo:REO21 ;
     rdfs:label "Non poco ancora mi ha sorpreso",
         "soavissima" ;
-    crm:P137_exemplifies <http://data.odeuropa.eu/emotion-type/surprise>,
-        <http://data.odeuropa.eu/emotion-type/trust> ;
+    crm:P137_exemplifies <http://data.odeuropa.eu/vocabulary/plutchik/surprise>,
+        <http://data.odeuropa.eu/vocabulary/plutchik/trust> ;
     crm:P2_has_type <http://data.odeuropa.eu/sentiment/positive> ;
     reo:readP27 <http://data.odeuropa.eu/experience/14a2cd28-1754-5ce7-bd4a-67a452394660> .
 
 <http://data.odeuropa.eu/emotion/ce43db0e-0001-555e-a846-4e41f899582e> a reo:REO21 ;
     rdfs:label "fetido" ;
-    crm:P137_exemplifies <http://data.odeuropa.eu/emotion-type/disgust> ;
+    crm:P137_exemplifies <http://data.odeuropa.eu/vocabulary/plutchik/disgust> ;
     crm:P2_has_type <http://data.odeuropa.eu/sentiment/negative> ;
     reo:readP27 <http://data.odeuropa.eu/experience/51d3a8ee-465b-5678-842c-d4376451ecbf> .
 
 <http://data.odeuropa.eu/emotion/ce93a600-0afe-59e9-bbec-6072f3d543c3> a reo:REO21 ;
     rdfs:label "per evitare che essa acquisti quel particolare odore di rifritto" ;
-    crm:P137_exemplifies <http://data.odeuropa.eu/emotion-type/anticipation> ;
+    crm:P137_exemplifies <http://data.odeuropa.eu/vocabulary/plutchik/anticipation> ;
     crm:P2_has_type <http://data.odeuropa.eu/sentiment/neutral> ;
     reo:readP27 <http://data.odeuropa.eu/experience/404b8432-bfb0-5e3c-9f20-814715f8d462> .
 
 <http://data.odeuropa.eu/emotion/d0c38ec6-95ee-5419-9825-e76272ebc43a> a reo:REO21 ;
     rdfs:label "senza puzza" ;
-    crm:P137_exemplifies <http://data.odeuropa.eu/emotion-type/disgust> ;
+    crm:P137_exemplifies <http://data.odeuropa.eu/vocabulary/plutchik/disgust> ;
     crm:P2_has_type <http://data.odeuropa.eu/sentiment/positive> ;
     reo:readP27 <http://data.odeuropa.eu/experience/fcc9223b-299d-54da-9e41-e22f368c9457> .
 
 <http://data.odeuropa.eu/emotion/d0ea1714-ed70-5f38-9d9f-da90319824f5> a reo:REO21 ;
     rdfs:label "destata la nostra meraviglia",
         "senza puzza" ;
-    crm:P137_exemplifies <http://data.odeuropa.eu/emotion-type/disgust>,
-        <http://data.odeuropa.eu/emotion-type/surprise> ;
+    crm:P137_exemplifies <http://data.odeuropa.eu/vocabulary/plutchik/disgust>,
+        <http://data.odeuropa.eu/vocabulary/plutchik/surprise> ;
     crm:P2_has_type <http://data.odeuropa.eu/sentiment/positive> ;
     reo:readP27 <http://data.odeuropa.eu/experience/230761fd-4412-5bbf-963c-048c444a4970> .
 
 <http://data.odeuropa.eu/emotion/d278c1ca-4573-5ec4-8968-354ae1760cd9> a reo:REO21 ;
     rdfs:label "nauseabondo" ;
-    crm:P137_exemplifies <http://data.odeuropa.eu/emotion-type/disgust> ;
+    crm:P137_exemplifies <http://data.odeuropa.eu/vocabulary/plutchik/disgust> ;
     crm:P2_has_type <http://data.odeuropa.eu/sentiment/negative> ;
     reo:readP27 <http://data.odeuropa.eu/experience/13f56845-94ab-54bc-9d88-84065ce6b4e4> .
 
 <http://data.odeuropa.eu/emotion/d32af6b3-21c4-559e-aa9d-a66757e8932f> a reo:REO21 ;
     rdfs:label "soavemente" ;
-    crm:P137_exemplifies <http://data.odeuropa.eu/emotion-type/trust> ;
+    crm:P137_exemplifies <http://data.odeuropa.eu/vocabulary/plutchik/trust> ;
     crm:P2_has_type <http://data.odeuropa.eu/sentiment/positive> ;
     reo:readP27 <http://data.odeuropa.eu/experience/b9dcc3aa-fbba-5988-abb8-9fa7de4c6643> .
 
@@ -1247,13 +1246,13 @@
 
 <http://data.odeuropa.eu/emotion/dac554d0-a775-5af6-9716-697ce1ed7f14> a reo:REO21 ;
     rdfs:label "assai più soave" ;
-    crm:P137_exemplifies <http://data.odeuropa.eu/emotion-type/trust> ;
+    crm:P137_exemplifies <http://data.odeuropa.eu/vocabulary/plutchik/trust> ;
     crm:P2_has_type <http://data.odeuropa.eu/sentiment/positive> ;
     reo:readP27 <http://data.odeuropa.eu/experience/0412d0de-8144-574e-9f20-a7d45ce194cb> .
 
 <http://data.odeuropa.eu/emotion/dd00a9e5-e3bd-524b-a106-a904cdb85740> a reo:REO21 ;
     rdfs:label "ripugnanza" ;
-    crm:P137_exemplifies <http://data.odeuropa.eu/emotion-type/disgust> ;
+    crm:P137_exemplifies <http://data.odeuropa.eu/vocabulary/plutchik/disgust> ;
     crm:P2_has_type <http://data.odeuropa.eu/sentiment/negative> ;
     reo:readP27 <http://data.odeuropa.eu/experience/88239671-cea8-5afd-b501-e314ae5b06a6> .
 
@@ -1265,13 +1264,13 @@
 
 <http://data.odeuropa.eu/emotion/df08e97a-1aa1-568a-a84d-7d5e69b29672> a reo:REO21 ;
     rdfs:label "molto grato" ;
-    crm:P137_exemplifies <http://data.odeuropa.eu/emotion-type/trust> ;
+    crm:P137_exemplifies <http://data.odeuropa.eu/vocabulary/plutchik/trust> ;
     crm:P2_has_type <http://data.odeuropa.eu/sentiment/positive> ;
     reo:readP27 <http://data.odeuropa.eu/experience/8f6c6082-e149-5eed-b916-e45a9df587da> .
 
 <http://data.odeuropa.eu/emotion/dfe0c549-7acb-53f5-a5ed-ae223a507ff4> a reo:REO21 ;
     rdfs:label "irrancidito , amaro o con altri sapori od odori anormali , ammuffito , azzurro o sudicio" ;
-    crm:P137_exemplifies <http://data.odeuropa.eu/emotion-type/disgust> ;
+    crm:P137_exemplifies <http://data.odeuropa.eu/vocabulary/plutchik/disgust> ;
     crm:P2_has_type <http://data.odeuropa.eu/sentiment/negative> ;
     reo:readP27 <http://data.odeuropa.eu/experience/701f7590-f514-5773-b99b-49ba3b2d6a0c> .
 
@@ -1283,148 +1282,148 @@
 
 <http://data.odeuropa.eu/emotion/e0c31401-e6ef-5cc8-aa9d-5dccdc1ec9f3> a reo:REO21 ;
     rdfs:label "cattivo" ;
-    crm:P137_exemplifies <http://data.odeuropa.eu/emotion-type/disgust> ;
+    crm:P137_exemplifies <http://data.odeuropa.eu/vocabulary/plutchik/disgust> ;
     crm:P2_has_type <http://data.odeuropa.eu/sentiment/negative> ;
     reo:readP27 <http://data.odeuropa.eu/experience/ce7cb447-da4c-53cf-8161-09790654ee50> .
 
 <http://data.odeuropa.eu/emotion/e1edcabe-ebad-502e-b403-5f9bc8889bfd> a reo:REO21 ;
     rdfs:label "piacevole" ;
-    crm:P137_exemplifies <http://data.odeuropa.eu/emotion-type/trust> ;
+    crm:P137_exemplifies <http://data.odeuropa.eu/vocabulary/plutchik/trust> ;
     crm:P2_has_type <http://data.odeuropa.eu/sentiment/positive> ;
     reo:readP27 <http://data.odeuropa.eu/experience/8831b415-26e7-5de8-915a-e8810b24af38> .
 
 <http://data.odeuropa.eu/emotion/e32cf598-a02b-5f90-abf5-92c79d03b851> a reo:REO21 ;
     rdfs:label "grave" ;
-    crm:P137_exemplifies <http://data.odeuropa.eu/emotion-type/disgust> ;
+    crm:P137_exemplifies <http://data.odeuropa.eu/vocabulary/plutchik/disgust> ;
     crm:P2_has_type <http://data.odeuropa.eu/sentiment/negative> ;
     reo:readP27 <http://data.odeuropa.eu/experience/d6f509e3-608d-52a3-8e13-612d675dea80> .
 
 <http://data.odeuropa.eu/emotion/e40fc6b9-7b76-56e5-bbe2-1e10da4b2bde> a reo:REO21 ;
     rdfs:label "Peggio ancora deve avvenire" ;
-    crm:P137_exemplifies <http://data.odeuropa.eu/emotion-type/anticipation> ;
+    crm:P137_exemplifies <http://data.odeuropa.eu/vocabulary/plutchik/anticipation> ;
     crm:P2_has_type <http://data.odeuropa.eu/sentiment/negative> ;
     reo:readP27 <http://data.odeuropa.eu/experience/7b6e1572-cd79-5a19-b3a4-eb7be94a0ef6> .
 
 <http://data.odeuropa.eu/emotion/e452f536-f84b-59c2-ba44-331eeb95b75c> a reo:REO21 ;
     rdfs:label "veramente soavissimo" ;
-    crm:P137_exemplifies <http://data.odeuropa.eu/emotion-type/trust> ;
+    crm:P137_exemplifies <http://data.odeuropa.eu/vocabulary/plutchik/trust> ;
     crm:P2_has_type <http://data.odeuropa.eu/sentiment/positive> ;
     reo:readP27 <http://data.odeuropa.eu/experience/73e4d39b-98f5-59f2-8e64-c1880bdbe6a7> .
 
 <http://data.odeuropa.eu/emotion/e560842a-68e6-5530-a1c8-94ed9bb7947b> a reo:REO21 ;
     rdfs:label "miasma" ;
-    crm:P137_exemplifies <http://data.odeuropa.eu/emotion-type/disgust> ;
+    crm:P137_exemplifies <http://data.odeuropa.eu/vocabulary/plutchik/disgust> ;
     crm:P2_has_type <http://data.odeuropa.eu/sentiment/negative> ;
     reo:readP27 <http://data.odeuropa.eu/experience/bf97e467-bf9f-5cae-97df-45f46e668ee5> .
 
 <http://data.odeuropa.eu/emotion/e6aee423-4cb2-5ac5-8b2f-074453b47c5d> a reo:REO21 ;
     rdfs:label "non dovrebbe aver forza di sollevar mai tanta quantità d ' esalazioni" ;
-    crm:P137_exemplifies <http://data.odeuropa.eu/emotion-type/anticipation> ;
+    crm:P137_exemplifies <http://data.odeuropa.eu/vocabulary/plutchik/anticipation> ;
     crm:P2_has_type <http://data.odeuropa.eu/sentiment/neutral> ;
     reo:readP27 <http://data.odeuropa.eu/experience/0d978960-1126-5602-a621-7fc9854db508> .
 
 <http://data.odeuropa.eu/emotion/e70d81a7-a7d6-5b77-8176-46bf8c82e015> a reo:REO21 ;
     rdfs:label "spianerà in breve il caro visetto ch ' era dianzi sì contratto dagli spasimi" ;
-    crm:P137_exemplifies <http://data.odeuropa.eu/emotion-type/anticipation> ;
+    crm:P137_exemplifies <http://data.odeuropa.eu/vocabulary/plutchik/anticipation> ;
     crm:P2_has_type <http://data.odeuropa.eu/sentiment/positive> ;
     reo:readP27 <http://data.odeuropa.eu/experience/491871af-004e-57bb-a451-b8b8db3ab960> .
 
 <http://data.odeuropa.eu/emotion/e85388ef-1ab2-5614-a01a-a29303489ed5> a reo:REO21 ;
     rdfs:label "grato",
         "ingrato" ;
-    crm:P137_exemplifies <http://data.odeuropa.eu/emotion-type/disgust>,
-        <http://data.odeuropa.eu/emotion-type/trust> ;
+    crm:P137_exemplifies <http://data.odeuropa.eu/vocabulary/plutchik/disgust>,
+        <http://data.odeuropa.eu/vocabulary/plutchik/trust> ;
     crm:P2_has_type <http://data.odeuropa.eu/sentiment/negative>,
         <http://data.odeuropa.eu/sentiment/positive> ;
     reo:readP27 <http://data.odeuropa.eu/experience/80d74ebc-090d-59f4-8a49-d714de81448a> .
 
 <http://data.odeuropa.eu/emotion/ea875ac7-7d8e-5dfb-8b34-c50a81fe8e12> a reo:REO21 ;
     rdfs:label "Come puzzate" ;
-    crm:P137_exemplifies <http://data.odeuropa.eu/emotion-type/disgust> ;
+    crm:P137_exemplifies <http://data.odeuropa.eu/vocabulary/plutchik/disgust> ;
     crm:P2_has_type <http://data.odeuropa.eu/sentiment/negative> ;
     reo:readP27 <http://data.odeuropa.eu/experience/8f4f70da-997b-56e6-af8f-706e3eba861c> .
 
 <http://data.odeuropa.eu/emotion/ecc5832e-8fd3-5584-94a3-6f30df0c0b85> a reo:REO21 ;
     rdfs:label "Ne dirò quanto sian stimate" ;
-    crm:P137_exemplifies <http://data.odeuropa.eu/emotion-type/trust> ;
+    crm:P137_exemplifies <http://data.odeuropa.eu/vocabulary/plutchik/trust> ;
     crm:P2_has_type <http://data.odeuropa.eu/sentiment/positive> ;
     reo:readP27 <http://data.odeuropa.eu/experience/4a75b34c-8d73-576d-b3b2-e734832e8501> .
 
 <http://data.odeuropa.eu/emotion/f1e38fe8-779f-5d4b-ad86-2c2c4237670a> a reo:REO21 ;
     rdfs:label "non ha così soave" ;
-    crm:P137_exemplifies <http://data.odeuropa.eu/emotion-type/trust> ;
+    crm:P137_exemplifies <http://data.odeuropa.eu/vocabulary/plutchik/trust> ;
     crm:P2_has_type <http://data.odeuropa.eu/sentiment/negative> ;
     reo:readP27 <http://data.odeuropa.eu/experience/aa229348-739f-59ea-81c0-3909cdf4079c> .
 
 <http://data.odeuropa.eu/emotion/f31de25f-0290-5c62-a35e-9ca3addd54cf> a reo:REO21 ;
     rdfs:label "sommamente grato" ;
-    crm:P137_exemplifies <http://data.odeuropa.eu/emotion-type/trust> ;
+    crm:P137_exemplifies <http://data.odeuropa.eu/vocabulary/plutchik/trust> ;
     crm:P2_has_type <http://data.odeuropa.eu/sentiment/positive> ;
     reo:readP27 <http://data.odeuropa.eu/experience/bc87abca-2f13-5cea-b257-32e38ffd9cdb> .
 
 <http://data.odeuropa.eu/emotion/f39419eb-f728-59c0-bfc8-268328df6252> a reo:REO21 ;
     rdfs:label "fragrante" ;
-    crm:P137_exemplifies <http://data.odeuropa.eu/emotion-type/trust> ;
+    crm:P137_exemplifies <http://data.odeuropa.eu/vocabulary/plutchik/trust> ;
     crm:P2_has_type <http://data.odeuropa.eu/sentiment/positive> ;
     reo:readP27 <http://data.odeuropa.eu/experience/f3edb062-8f21-5977-afe0-96841e2e4d92> .
 
 <http://data.odeuropa.eu/emotion/f4977b1c-2d6d-5159-a779-d74016174d04> a reo:REO21 ;
     rdfs:label "piacevole" ;
-    crm:P137_exemplifies <http://data.odeuropa.eu/emotion-type/trust> ;
+    crm:P137_exemplifies <http://data.odeuropa.eu/vocabulary/plutchik/trust> ;
     crm:P2_has_type <http://data.odeuropa.eu/sentiment/positive> ;
     reo:readP27 <http://data.odeuropa.eu/experience/3e659aed-1ca9-5917-bbe4-182893f6200d> .
 
 <http://data.odeuropa.eu/emotion/f6e66da6-5aa6-52d4-86fb-36909252473e> a reo:REO21 ;
     rdfs:label "soave" ;
-    crm:P137_exemplifies <http://data.odeuropa.eu/emotion-type/trust> ;
+    crm:P137_exemplifies <http://data.odeuropa.eu/vocabulary/plutchik/trust> ;
     crm:P2_has_type <http://data.odeuropa.eu/sentiment/positive> ;
     reo:readP27 <http://data.odeuropa.eu/experience/7000c981-e76f-5284-81a5-abfe0c727816> .
 
 <http://data.odeuropa.eu/emotion/f79ee6b3-1ff2-5c0f-8644-1d2a247435f4> a reo:REO21 ;
     rdfs:label "profuma" ;
-    crm:P137_exemplifies <http://data.odeuropa.eu/emotion-type/trust> ;
+    crm:P137_exemplifies <http://data.odeuropa.eu/vocabulary/plutchik/trust> ;
     crm:P2_has_type <http://data.odeuropa.eu/sentiment/positive> ;
     reo:readP27 <http://data.odeuropa.eu/experience/2a3423a5-e2e1-5717-88a2-bda9d5fc3ba6> .
 
 <http://data.odeuropa.eu/emotion/f7d96f18-a15e-5d7a-b298-7e4e406539af> a reo:REO21 ;
     rdfs:label "cattivo" ;
-    crm:P137_exemplifies <http://data.odeuropa.eu/emotion-type/disgust> ;
+    crm:P137_exemplifies <http://data.odeuropa.eu/vocabulary/plutchik/disgust> ;
     crm:P2_has_type <http://data.odeuropa.eu/sentiment/negative> ;
     reo:readP27 <http://data.odeuropa.eu/experience/c168b229-13eb-5907-8129-e367d99249ba> .
 
 <http://data.odeuropa.eu/emotion/f82c1825-9722-5ca7-8277-8234bf52fd8d> a reo:REO21 ;
     rdfs:label "fu in alcun modo oppresso d ' aria cattiva" ;
-    crm:P137_exemplifies <http://data.odeuropa.eu/emotion-type/disgust> ;
+    crm:P137_exemplifies <http://data.odeuropa.eu/vocabulary/plutchik/disgust> ;
     crm:P2_has_type <http://data.odeuropa.eu/sentiment/positive> ;
     reo:readP27 <http://data.odeuropa.eu/experience/ed802052-4fe4-5187-ac34-56f0286aa20a> .
 
 <http://data.odeuropa.eu/emotion/f88f0d5c-50d8-587d-9399-f6f18a809eff> a reo:REO21 ;
     rdfs:label "Io" ;
-    crm:P137_exemplifies <http://data.odeuropa.eu/emotion-type/anticipation> ;
+    crm:P137_exemplifies <http://data.odeuropa.eu/vocabulary/plutchik/anticipation> ;
     crm:P2_has_type <http://data.odeuropa.eu/sentiment/neutral> ;
     reo:readP27 <http://data.odeuropa.eu/experience/21172e9d-4f1d-5145-976f-3ed07409ffd8> .
 
 <http://data.odeuropa.eu/emotion/fd3b9149-fea6-5dad-9459-d6db2d165aab> a reo:REO21 ;
     rdfs:label "cattivo" ;
-    crm:P137_exemplifies <http://data.odeuropa.eu/emotion-type/disgust> ;
+    crm:P137_exemplifies <http://data.odeuropa.eu/vocabulary/plutchik/disgust> ;
     crm:P2_has_type <http://data.odeuropa.eu/sentiment/negative> ;
     reo:readP27 <http://data.odeuropa.eu/experience/0e18b044-6b22-5ec3-bb9a-0c5d7c638c14> .
 
 <http://data.odeuropa.eu/emotion/fd3d5bf6-49d3-5110-8e78-97ade1683bf3> a reo:REO21 ;
     rdfs:label "soavissimi" ;
-    crm:P137_exemplifies <http://data.odeuropa.eu/emotion-type/trust> ;
+    crm:P137_exemplifies <http://data.odeuropa.eu/vocabulary/plutchik/trust> ;
     crm:P2_has_type <http://data.odeuropa.eu/sentiment/positive> ;
     reo:readP27 <http://data.odeuropa.eu/experience/dfc5393c-f7ac-5fce-88b0-be1665b4e00d> .
 
 <http://data.odeuropa.eu/emotion/fd702ed4-32dd-526c-b248-d6f8545fd81b> a reo:REO21 ;
     rdfs:label "mi solletica piacevolmente il palato" ;
-    crm:P137_exemplifies <http://data.odeuropa.eu/emotion-type/trust> ;
+    crm:P137_exemplifies <http://data.odeuropa.eu/vocabulary/plutchik/trust> ;
     crm:P2_has_type <http://data.odeuropa.eu/sentiment/positive> ;
     reo:readP27 <http://data.odeuropa.eu/experience/175124b6-068f-5a3d-8e85-36f2980ea0aa> .
 
 <http://data.odeuropa.eu/emotion/ffab4ebb-ba7a-54d5-a849-000245fc90a3> a reo:REO21 ;
     rdfs:label "nauseante" ;
-    crm:P137_exemplifies <http://data.odeuropa.eu/emotion-type/disgust> ;
+    crm:P137_exemplifies <http://data.odeuropa.eu/vocabulary/plutchik/disgust> ;
     crm:P2_has_type <http://data.odeuropa.eu/sentiment/negative> ;
     reo:readP27 <http://data.odeuropa.eu/experience/7c9f0e5d-90ed-51d9-84fd-8a4b1bf04faa> .
 
@@ -16319,9 +16318,8 @@
 <http://data.odeuropa.eu/actor/093def1d-58e4-55e4-8eb5-8fe5cd70f112> a crm:E39_Actor ;
     rdfs:label "quelle Dame" .
 
-<http://data.odeuropa.eu/actor/0bf84473-addf-557a-8518-3b9df3a4b6b5> a crm:E21_Person ;
-    rdfs:label "m" ;
-    owl:sameAs <http://www.wikidata.org/entity/Q212388> .
+<http://data.odeuropa.eu/actor/0bf84473-addf-557a-8518-3b9df3a4b6b5> a crm:E39_Actor ;
+    rdfs:label "m" .
 
 <http://data.odeuropa.eu/actor/14e1b6a5-ed9f-5e8a-9061-076d1243d6d0> a crm:E39_Actor ;
     rdfs:label "veruno di noi , di otto ch ' eravamo" .
@@ -16329,9 +16327,8 @@
 <http://data.odeuropa.eu/actor/1ba0ceb4-0f88-5be8-8b14-58c4f1b35413> a crm:E39_Actor ;
     rdfs:label "dalle gentilissime Madame" .
 
-<http://data.odeuropa.eu/actor/1c9ff779-2966-59eb-b642-0a1e0cd8cfc5> a crm:E21_Person ;
-    rdfs:label "mangiatore" ;
-    owl:sameAs <http://www.wikidata.org/entity/Q97166380> .
+<http://data.odeuropa.eu/actor/1c9ff779-2966-59eb-b642-0a1e0cd8cfc5> a crm:E39_Actor ;
+    rdfs:label "mangiatore" .
 
 <http://data.odeuropa.eu/actor/303c305a-b548-54e4-9c4e-cbd814d6b1d5> a crm:E39_Actor ;
     rdfs:label "Sua moglie" .
@@ -16377,15 +16374,13 @@
 <http://data.odeuropa.eu/actor/847efa29-1135-5d5c-8046-e550cb47e2f1> a crm:E39_Actor ;
     rdfs:label "te" .
 
-<http://data.odeuropa.eu/actor/8daa1854-7732-53f6-8cb1-2743983fcf22> a crm:E21_Person ;
-    rdfs:label "Fouqué" ;
-    owl:sameAs <http://www.wikidata.org/entity/Q3079965> .
+<http://data.odeuropa.eu/actor/8daa1854-7732-53f6-8cb1-2743983fcf22> a crm:E39_Actor ;
+    rdfs:label "Fouqué" .
 
 <http://data.odeuropa.eu/actor/9c49ddb8-887d-5bc0-b0b3-000a646d8344> a crm:E21_Person .
 
-<http://data.odeuropa.eu/actor/9f9d4e4f-c195-5969-8f7c-f0293a13f999> a crm:E21_Person ;
-    rdfs:label "c" ;
-    owl:sameAs <http://www.wikidata.org/entity/Q57469252> .
+<http://data.odeuropa.eu/actor/9f9d4e4f-c195-5969-8f7c-f0293a13f999> a crm:E39_Actor ;
+    rdfs:label "c" .
 
 <http://data.odeuropa.eu/actor/a15242c2-0cac-51e6-bdec-0c70ce489986> a crm:E39_Actor ;
     rdfs:label "La fiera dama" .
@@ -16402,9 +16397,8 @@
 <http://data.odeuropa.eu/actor/ade50649-5d86-5ecb-87c8-57f49666f2cc> a crm:E39_Actor ;
     rdfs:label "loro" .
 
-<http://data.odeuropa.eu/actor/b16a9d00-0473-5752-be2a-1355252669c3> a crm:E21_Person ;
-    rdfs:label "la madre" ;
-    owl:sameAs <http://www.wikidata.org/entity/Q7229> .
+<http://data.odeuropa.eu/actor/b16a9d00-0473-5752-be2a-1355252669c3> a crm:E39_Actor ;
+    rdfs:label "la madre" .
 
 <http://data.odeuropa.eu/actor/b20321fd-eb4c-5718-84ac-d8a31c905442> a crm:E39_Actor ;
     rdfs:label "le mie narici" .
@@ -16451,9 +16445,8 @@
 <http://data.odeuropa.eu/actor/f518a904-0092-538b-83ad-8e76acaea218> a crm:E39_Actor ;
     rdfs:label "tu" .
 
-<http://data.odeuropa.eu/actor/f70d3d08-ec5b-5df0-ab75-61d11c25bd87> a crm:E21_Person ;
-    rdfs:label "Eleonora Duse" ;
-    owl:sameAs <http://www.wikidata.org/entity/Q275970> .
+<http://data.odeuropa.eu/actor/f70d3d08-ec5b-5df0-ab75-61d11c25bd87> a crm:E39_Actor ;
+    rdfs:label "Eleonora Duse" .
 
 <http://data.odeuropa.eu/attribute/Tale%20potenza_it> a crm:E90_Symbolic_Object ;
     rdfs:label "Tale potenza"@it .
@@ -18341,8 +18334,10 @@
 <http://data.odeuropa.eu/object/91f175c1-ce84-5831-9660-8af6358ab722> a crmsci:S10_Material_Substantial ;
     rdfs:label "di quest ' oro"@it .
 
-<http://data.odeuropa.eu/object/923184e7-9d6c-5938-9963-5d3d5e976fc4> a crmsci:S10_Material_Substantial ;
-    rdfs:label "le carni degli animali"@it .
+<http://data.odeuropa.eu/object/923184e7-9d6c-5938-9963-5d3d5e976fc4> a crm:E53_Place,
+        crmsci:S10_Material_Substantial ;
+    rdfs:label "le carni degli animali"@it ;
+    crm:P137_exemplifies <http://data.odeuropa.eu/vocabulary/fragrant-spaces/2> .
 
 <http://data.odeuropa.eu/object/92813982-2624-5ffd-ada5-e2c1c5525680> a crmsci:S10_Material_Substantial ;
     rdfs:label "Neil ' Arum dracunculus"@it .
@@ -27411,9 +27406,8 @@ profumo								quando invece ili lellere ai vogliono purificare stanze			1815__R
 <http://data.odeuropa.eu/actor/11e03fad-dc36-517f-9c6d-8e540697ef06> a crm:E39_Actor ;
     rdfs:label "compratori" .
 
-<http://data.odeuropa.eu/actor/14fa914b-dfb7-5104-9187-a949cddb6a51> a crm:E21_Person ;
-    rdfs:label "io" ;
-    owl:sameAs <http://www.wikidata.org/entity/Q855> .
+<http://data.odeuropa.eu/actor/14fa914b-dfb7-5104-9187-a949cddb6a51> a crm:E39_Actor ;
+    rdfs:label "io" .
 
 <http://data.odeuropa.eu/actor/1d155ef1-9b74-57ba-9b06-ce210fc5ad46> a crm:E39_Actor ;
     rdfs:label "missionario Imbert" .
@@ -27427,9 +27421,8 @@ profumo								quando invece ili lellere ai vogliono purificare stanze			1815__R
 <http://data.odeuropa.eu/actor/a5db560c-a725-5240-bee2-f6d7c10e7823> a crm:E39_Actor ;
     rdfs:label "sul naso" .
 
-<http://data.odeuropa.eu/actor/aeb64f6b-79e1-5ec4-800c-2d0c542f590e> a crm:E21_Person ;
-    rdfs:label "Fourcroy" ;
-    owl:sameAs <http://www.wikidata.org/entity/Q446875> .
+<http://data.odeuropa.eu/actor/aeb64f6b-79e1-5ec4-800c-2d0c542f590e> a crm:E39_Actor ;
+    rdfs:label "Fourcroy" .
 
 <http://data.odeuropa.eu/actor/dd50b3a9-032c-57a5-ac80-aabf33bac7d8> a crm:E39_Actor ;
     rdfs:label "il naso" .
@@ -27443,9 +27436,8 @@ profumo								quando invece ili lellere ai vogliono purificare stanze			1815__R
 <http://data.odeuropa.eu/actor/eca67ffc-48bb-569c-8d94-ca10c3fa9dbe> a crm:E39_Actor ;
     rdfs:label "Tu" .
 
-<http://data.odeuropa.eu/actor/f2b9d67f-c668-5895-b62f-6213e4b3714a> a crm:E21_Person ;
-    rdfs:label "ìo" ;
-    owl:sameAs <http://www.wikidata.org/entity/Q855> .
+<http://data.odeuropa.eu/actor/f2b9d67f-c668-5895-b62f-6213e4b3714a> a crm:E39_Actor ;
+    rdfs:label "ìo" .
 
 <http://data.odeuropa.eu/actor/f39b85da-8ae7-5bb0-b869-ea7d6194d0d4> a crm:E39_Actor ;
     rdfs:label "le gran dame di Vienna" .
@@ -27603,7 +27595,7 @@ profumo								quando invece ili lellere ai vogliono purificare stanze			1815__R
 <http://data.odeuropa.eu/emission/038de35e-0d24-5361-a7c8-815c218b5d24> a od:L12_Smell_Emission ;
     od:F1_generated <http://data.odeuropa.eu/smell/f096d803-f1e3-569f-907c-b1eb9ae679e3> ;
     od:F3_had_source <http://data.odeuropa.eu/object/d710a3d7-5f43-5e81-9f74-4ea4bff9af5c> ;
-    crm:P7_took_place_at <http://data.odeuropa.eu/place/e648d389-5579-531d-bb8c-a9796cc25ee2> ;
+    crm:P7_took_place_at <https://sws.geonames.org/6628674/> ;
     time:hasTime <http://data.odeuropa.eu/time/9d001fb0-0fcf-545d-bb34-70893ca0ca62> .
 
 <http://data.odeuropa.eu/emission/03f2239a-6cdf-56e8-9f92-e52d02e59b36> a od:L12_Smell_Emission ;
@@ -28629,7 +28621,7 @@ profumo								quando invece ili lellere ai vogliono purificare stanze			1815__R
         <http://data.odeuropa.eu/object/659c2cb1-b1e7-54b7-ae92-94927750eec7> ;
     crm:P7_took_place_at <http://data.odeuropa.eu/place/36fa90f1-7805-5dfc-9539-665269dd045f>,
         <http://data.odeuropa.eu/place/3e78000b-4bd1-5d5e-a9e3-c16de98849a6>,
-        <http://data.odeuropa.eu/place/6c5f77a7-d751-5a5a-8bc9-fd048262271b> ;
+        <https://sws.geonames.org/202905/> ;
     time:hasTime <http://data.odeuropa.eu/time/044232f1-3d8c-5cd5-aafe-9b25855e7ebf>,
         <http://data.odeuropa.eu/time/3887b56b-870f-51ba-86cb-8e88a2fe3f24> .
 
@@ -29944,7 +29936,7 @@ profumo								quando invece ili lellere ai vogliono purificare stanze			1815__R
 
 <http://data.odeuropa.eu/emission/9b6b4fab-ba17-5891-b32f-4d45bef3979b> a od:L12_Smell_Emission ;
     od:F1_generated <http://data.odeuropa.eu/smell/70df17aa-c737-5da4-b752-4bf70a93fbb5> ;
-    crm:P7_took_place_at <http://data.odeuropa.eu/place/112d4555-5f6a-5ff4-8a35-b50c9d7e7a6d> ;
+    crm:P7_took_place_at <https://sws.geonames.org/9173392/> ;
     time:hasTime <http://data.odeuropa.eu/time/49bc8ac6-1f93-5afb-9029-a68083581646> .
 
 <http://data.odeuropa.eu/emission/9bc4528c-9134-5172-9149-05c91d681cab> a od:L12_Smell_Emission ;
@@ -30132,7 +30124,7 @@ profumo								quando invece ili lellere ai vogliono purificare stanze			1815__R
 
 <http://data.odeuropa.eu/emission/a70bb04e-486f-5050-89ab-7bc370761177> a od:L12_Smell_Emission ;
     od:F1_generated <http://data.odeuropa.eu/smell/902ad4d5-bc87-521f-925c-a9abf9af83b3> ;
-    crm:P7_took_place_at <https://sws.geonames.org/6541656/> ;
+    crm:P7_took_place_at <https://sws.geonames.org/3181863/> ;
     time:hasTime <http://data.odeuropa.eu/time/9d001fb0-0fcf-545d-bb34-70893ca0ca62> .
 
 <http://data.odeuropa.eu/emission/a74df1de-b7fc-5e1d-847b-54606c06d9f9> a od:L12_Smell_Emission ;
@@ -30180,7 +30172,7 @@ profumo								quando invece ili lellere ai vogliono purificare stanze			1815__R
 <http://data.odeuropa.eu/emission/aae624df-c092-5fe7-8171-d43fe17f3e6d> a od:L12_Smell_Emission ;
     od:F1_generated <http://data.odeuropa.eu/smell/3b964e61-e75e-5fa6-a97a-e1e0dc850680> ;
     od:F4_had_carrier <http://data.odeuropa.eu/object/e138155d-7c64-50d9-a759-44ba6b9b13ea> ;
-    crm:P7_took_place_at <http://data.odeuropa.eu/place/69d2f3c9-bc6f-5dad-8e8c-90d9b7e0b02c> ;
+    crm:P7_took_place_at <https://sws.geonames.org/7288727/> ;
     time:hasTime <http://data.odeuropa.eu/time/9d001fb0-0fcf-545d-bb34-70893ca0ca62> .
 
 <http://data.odeuropa.eu/emission/aae7cbcf-3b3f-540a-a8ac-3a0b19b312be> a od:L12_Smell_Emission ;
@@ -30655,7 +30647,7 @@ profumo								quando invece ili lellere ai vogliono purificare stanze			1815__R
 <http://data.odeuropa.eu/emission/c0d6bfe7-9cb9-5abe-8919-a19cd4ac1169> a od:L12_Smell_Emission ;
     od:F1_generated <http://data.odeuropa.eu/smell/c8d931d7-4045-50a5-a00f-83dd09363224> ;
     od:F3_had_source <http://data.odeuropa.eu/object/5729c4f9-0ecf-57fe-916d-d56e8b470c51> ;
-    crm:P7_took_place_at <https://sws.geonames.org/6454924/> ;
+    crm:P7_took_place_at <https://sws.geonames.org/3172253/> ;
     time:hasTime <http://data.odeuropa.eu/time/9d001fb0-0fcf-545d-bb34-70893ca0ca62> .
 
 <http://data.odeuropa.eu/emission/c1813d3b-00b3-50f8-97e7-7e46c4e30291> a od:L12_Smell_Emission ;
@@ -31109,7 +31101,7 @@ profumo								quando invece ili lellere ai vogliono purificare stanze			1815__R
 <http://data.odeuropa.eu/emission/db82a823-d0cb-557e-b8ab-3b37ab552da9> a od:L12_Smell_Emission ;
     od:F1_generated <http://data.odeuropa.eu/smell/5d4025e2-1025-5042-b986-774789f4b15e> ;
     od:F3_had_source <http://data.odeuropa.eu/object/77a11f74-2951-582c-a309-a7764f054cee> ;
-    crm:P7_took_place_at <http://data.odeuropa.eu/place/16fbbcd2-c736-5927-a9c2-7f9385f7126d> ;
+    crm:P7_took_place_at <https://sws.geonames.org/6295630/> ;
     time:hasTime <http://data.odeuropa.eu/time/610134b8-e193-5223-a4d8-bdd59bb302af>,
         <http://data.odeuropa.eu/time/7a487f48-6511-59a7-bb6b-d1deb946da1b> .
 
@@ -31177,7 +31169,7 @@ profumo								quando invece ili lellere ai vogliono purificare stanze			1815__R
 
 <http://data.odeuropa.eu/emission/def7d094-d760-5e1b-9401-1dd8a08607d5> a od:L12_Smell_Emission ;
     od:F1_generated <http://data.odeuropa.eu/smell/e8656363-85f5-5954-9294-04864a2a6a19> ;
-    crm:P7_took_place_at <http://data.odeuropa.eu/place/b6d5a464-01b1-5d23-ac73-14c3063f12ec> ;
+    crm:P7_took_place_at <https://sws.geonames.org/10344715/> ;
     time:hasTime <http://data.odeuropa.eu/time/49bc8ac6-1f93-5afb-9029-a68083581646> .
 
 <http://data.odeuropa.eu/emission/df946b8e-c20b-5fea-a545-80a87d488293> a od:L12_Smell_Emission ;
@@ -31387,8 +31379,8 @@ profumo								quando invece ili lellere ai vogliono purificare stanze			1815__R
 <http://data.odeuropa.eu/emission/f03fd8d4-9eb6-5ade-953b-88f088477e36> a od:L12_Smell_Emission ;
     od:F1_generated <http://data.odeuropa.eu/smell/7e6ce8a1-ec6c-559f-ab5e-4ea42770e386> ;
     od:F4_had_carrier <http://data.odeuropa.eu/object/35eecf95-6e33-57f8-9f80-59463d59122c> ;
-    crm:P7_took_place_at <https://sws.geonames.org/6269268/>,
-        <https://sws.geonames.org/7302742/> ;
+    crm:P7_took_place_at <http://data.odeuropa.eu/place/c180591e-cff7-5421-aede-5e07257cdaf6>,
+        <http://data.odeuropa.eu/place/f2daac9f-af76-5aa0-b9f7-dbd5854e7656> ;
     time:hasTime <http://data.odeuropa.eu/time/2b4142e3-cab5-5314-aac9-e90282b1cb6d>,
         <http://data.odeuropa.eu/time/7a487f48-6511-59a7-bb6b-d1deb946da1b>,
         <http://data.odeuropa.eu/time/cbd70a3f-6140-55ee-9f27-908f8bba341a>,
@@ -31675,12 +31667,6 @@ profumo								quando invece ili lellere ai vogliono purificare stanze			1815__R
     od:F3_had_source <http://data.odeuropa.eu/object/1bf32f18-f598-5fb9-b445-fa59bad30e34> ;
     time:hasTime <http://data.odeuropa.eu/time/9bc75c91-6c9d-528e-be31-b75f36697ed4> .
 
-<http://data.odeuropa.eu/emotion-type/love> a <http://www.w3.org/2004/02/skos/core#Concept> ;
-    rdfs:label "love" .
-
-<http://data.odeuropa.eu/emotion-type/sadness> a <http://www.w3.org/2004/02/skos/core#Concept> ;
-    rdfs:label "sadness" .
-
 <http://data.odeuropa.eu/experience/00c66c44-ec61-54d3-8c77-c6bf34881d1d> a od:L13_Olfactory_Experience ;
     od:F2_perceived <http://data.odeuropa.eu/smell/570e0113-2aab-593f-82de-9aee9ada0190> ;
     crm:P7_took_place_at <http://data.odeuropa.eu/place/8dedfbdd-9c07-5552-bb88-4738517ac083> ;
@@ -31712,7 +31698,7 @@ profumo								quando invece ili lellere ai vogliono purificare stanze			1815__R
 
 <http://data.odeuropa.eu/experience/05954ec8-4ed0-57a6-9090-33f8f45667aa> a od:L13_Olfactory_Experience ;
     od:F2_perceived <http://data.odeuropa.eu/smell/5d4025e2-1025-5042-b986-774789f4b15e> ;
-    crm:P7_took_place_at <http://data.odeuropa.eu/place/16fbbcd2-c736-5927-a9c2-7f9385f7126d> ;
+    crm:P7_took_place_at <https://sws.geonames.org/6295630/> ;
     time:hasTime <http://data.odeuropa.eu/time/610134b8-e193-5223-a4d8-bdd59bb302af>,
         <http://data.odeuropa.eu/time/7a487f48-6511-59a7-bb6b-d1deb946da1b> .
 
@@ -32500,7 +32486,7 @@ profumo								quando invece ili lellere ai vogliono purificare stanze			1815__R
 
 <http://data.odeuropa.eu/experience/95a4c20a-fce3-5c7a-ab4d-d3f24e18a1aa> a od:L13_Olfactory_Experience ;
     od:F2_perceived <http://data.odeuropa.eu/smell/70df17aa-c737-5da4-b752-4bf70a93fbb5> ;
-    crm:P7_took_place_at <http://data.odeuropa.eu/place/112d4555-5f6a-5ff4-8a35-b50c9d7e7a6d> ;
+    crm:P7_took_place_at <https://sws.geonames.org/9173392/> ;
     time:hasTime <http://data.odeuropa.eu/time/49bc8ac6-1f93-5afb-9029-a68083581646> .
 
 <http://data.odeuropa.eu/experience/95bee25d-2a03-528b-88ea-1b9f5ba84385> a od:L13_Olfactory_Experience ;
@@ -32928,8 +32914,8 @@ profumo								quando invece ili lellere ai vogliono purificare stanze			1815__R
 
 <http://data.odeuropa.eu/experience/df54dcfd-66b1-542a-be0e-809d870f8e20> a od:L13_Olfactory_Experience ;
     od:F2_perceived <http://data.odeuropa.eu/smell/7e6ce8a1-ec6c-559f-ab5e-4ea42770e386> ;
-    crm:P7_took_place_at <https://sws.geonames.org/6269268/>,
-        <https://sws.geonames.org/7302742/> ;
+    crm:P7_took_place_at <http://data.odeuropa.eu/place/c180591e-cff7-5421-aede-5e07257cdaf6>,
+        <http://data.odeuropa.eu/place/f2daac9f-af76-5aa0-b9f7-dbd5854e7656> ;
     time:hasTime <http://data.odeuropa.eu/time/2b4142e3-cab5-5314-aac9-e90282b1cb6d>,
         <http://data.odeuropa.eu/time/7a487f48-6511-59a7-bb6b-d1deb946da1b>,
         <http://data.odeuropa.eu/time/cbd70a3f-6140-55ee-9f27-908f8bba341a>,
@@ -33136,17 +33122,11 @@ profumo								quando invece ili lellere ai vogliono purificare stanze			1815__R
 <http://data.odeuropa.eu/place/10fa31fd-d573-5cea-bb67-f7c4504d0385> a crm:E53_Place ;
     rdfs:label "le Stufe" .
 
-<http://data.odeuropa.eu/place/112d4555-5f6a-5ff4-8a35-b50c9d7e7a6d> a crm:E53_Place ;
-    rdfs:label "appartamenti" .
-
 <http://data.odeuropa.eu/place/168b69d6-54d0-5919-a6a3-7c2a7d1812a9> a crm:E53_Place ;
     rdfs:label "Nelle maccalube" .
 
 <http://data.odeuropa.eu/place/169d08b7-86a8-5e13-a3c4-89044303616d> a crm:E53_Place ;
     rdfs:label "dell ' interior gabinetto" .
-
-<http://data.odeuropa.eu/place/16fbbcd2-c736-5927-a9c2-7f9385f7126d> a crm:E53_Place ;
-    rdfs:label "dalla terra" .
 
 <http://data.odeuropa.eu/place/1824ab09-4195-51e4-8506-635db806c91b> a crm:E53_Place ;
     rdfs:label "le casse , nelle quali si conservano" .
@@ -33213,9 +33193,6 @@ profumo								quando invece ili lellere ai vogliono purificare stanze			1815__R
 <http://data.odeuropa.eu/place/63517973-a2f3-5f06-ab06-cb6a284cc2d8> a crm:E53_Place ;
     rdfs:label "in prossimità dei paduli" .
 
-<http://data.odeuropa.eu/place/69d2f3c9-bc6f-5dad-8e8c-90d9b7e0b02c> a crm:E53_Place ;
-    rdfs:label "il cortile" .
-
 <http://data.odeuropa.eu/place/6a747a2f-7ed3-5bd9-ae68-d3ea6af4562a> a crm:E53_Place ;
     rdfs:label "Di quel limpido rio" .
 
@@ -33224,9 +33201,6 @@ profumo								quando invece ili lellere ai vogliono purificare stanze			1815__R
 
 <http://data.odeuropa.eu/place/6afe68a6-6b6d-55c7-906e-1677b6803431> a crm:E53_Place ;
     rdfs:label "delle sorgenti di San Biagio" .
-
-<http://data.odeuropa.eu/place/6c5f77a7-d751-5a5a-8bc9-fd048262271b> a crm:E53_Place ;
-    rdfs:label "sulle colline" .
 
 <http://data.odeuropa.eu/place/6c604ac8-37a8-560d-b2fa-4016821052b3> a crm:E53_Place ;
     rdfs:label "in questi vulcanetti" .
@@ -33311,9 +33285,6 @@ profumo								quando invece ili lellere ai vogliono purificare stanze			1815__R
 <http://data.odeuropa.eu/place/b63ec6d3-7a92-5389-ac9f-9754e1cf1fd8> a crm:E53_Place ;
     rdfs:label "ai vaporanti altari" .
 
-<http://data.odeuropa.eu/place/b6d5a464-01b1-5d23-ac73-14c3063f12ec> a crm:E53_Place ;
-    rdfs:label "stanze" .
-
 <http://data.odeuropa.eu/place/b7c5cdb0-1425-5e55-9fb0-d700487a8cd2> a crm:E53_Place ;
     rdfs:label "iu luogo oscuro e fresco" .
 
@@ -33322,6 +33293,9 @@ profumo								quando invece ili lellere ai vogliono purificare stanze			1815__R
 
 <http://data.odeuropa.eu/place/c01953a6-92b5-5bbe-831d-0f288096e67f> a crm:E53_Place ;
     rdfs:label "dalla cucina di sotto" .
+
+<http://data.odeuropa.eu/place/c180591e-cff7-5421-aede-5e07257cdaf6> a crm:E53_Place ;
+    rdfs:label "la maggior Basilica di Roma" .
 
 <http://data.odeuropa.eu/place/c27fce1c-a279-5f1e-bbf0-55de382323b6> a crm:E53_Place ;
     rdfs:label "della Salinella di Paternò" .
@@ -33357,9 +33331,6 @@ profumo								quando invece ili lellere ai vogliono purificare stanze			1815__R
 <http://data.odeuropa.eu/place/e623aaa4-d45d-582c-b6f6-ce3e33024416> a crm:E53_Place ;
     rdfs:label "de ' d orni itoj" .
 
-<http://data.odeuropa.eu/place/e648d389-5579-531d-bb8c-a9796cc25ee2> a crm:E53_Place ;
-    rdfs:label "nella promenade" .
-
 <http://data.odeuropa.eu/place/e7d1e65b-62fb-5ca1-81c7-d5d10c5bf371> a crm:E53_Place ;
     rdfs:label "nei prati umidi in tutto il Territorio" .
 
@@ -33369,6 +33340,9 @@ profumo								quando invece ili lellere ai vogliono purificare stanze			1815__R
 <http://data.odeuropa.eu/place/ed7a416a-e289-59b2-8d50-c4d7a635659e> a crm:E53_Place ;
     rdfs:label "nelle strade" ;
     crm:P137_exemplifies <http://data.odeuropa.eu/vocabulary/fragrant-spaces/64> .
+
+<http://data.odeuropa.eu/place/f2daac9f-af76-5aa0-b9f7-dbd5854e7656> a crm:E53_Place ;
+    rdfs:label "L ' Augustissimo Tempio di Santa Maria del Fiore" .
 
 <http://data.odeuropa.eu/place/f40f4db4-e882-5041-83be-e0d3441c8b5d> a crm:E53_Place ;
     rdfs:label "Teatro" ;
@@ -33650,30 +33624,36 @@ profumo								quando invece ili lellere ai vogliono purificare stanze			1815__R
 
 <https://sws.geonames.org/10293855/> a crm:E53_Place .
 
+<https://sws.geonames.org/10344715/> a crm:E53_Place .
+
 <https://sws.geonames.org/11550070/> a crm:E53_Place .
+
+<https://sws.geonames.org/202905/> a crm:E53_Place .
 
 <https://sws.geonames.org/2988507/> a crm:E53_Place .
 
+<https://sws.geonames.org/3172253/> a crm:E53_Place .
+
 <https://sws.geonames.org/3176219/> a crm:E53_Place .
 
-<https://sws.geonames.org/6269268/> a crm:E53_Place .
+<https://sws.geonames.org/3181863/> a crm:E53_Place .
 
-<https://sws.geonames.org/6454924/> a crm:E53_Place .
+<https://sws.geonames.org/6295630/> a crm:E53_Place .
 
-<https://sws.geonames.org/6541656/> a crm:E53_Place .
+<https://sws.geonames.org/6628674/> a crm:E53_Place .
 
-<https://sws.geonames.org/7302742/> a crm:E53_Place .
+<https://sws.geonames.org/7288727/> a crm:E53_Place .
 
-<http://data.odeuropa.eu/actor/2b759b38-3dfd-577f-8c19-8ac0d0a22fc1> a crm:E21_Person ;
-    rdfs:label "tua" ;
-    owl:sameAs <http://www.wikidata.org/entity/Q4000086> .
+<https://sws.geonames.org/9173392/> a crm:E53_Place .
+
+<http://data.odeuropa.eu/actor/2b759b38-3dfd-577f-8c19-8ac0d0a22fc1> a crm:E39_Actor ;
+    rdfs:label "tua" .
 
 <http://data.odeuropa.eu/actor/865fe0d5-3de2-5e45-8666-52edabb65e3c> a crm:E39_Actor ;
     rdfs:label "alle nari" .
 
-<http://data.odeuropa.eu/actor/b688866a-5d8b-59ae-9b0b-bf3c98e4e7f7> a crm:E21_Person ;
-    rdfs:label "vi" ;
-    owl:sameAs <http://www.wikidata.org/entity/Q5582> .
+<http://data.odeuropa.eu/actor/b688866a-5d8b-59ae-9b0b-bf3c98e4e7f7> a crm:E39_Actor ;
+    rdfs:label "vi" .
 
 <http://data.odeuropa.eu/actor/cb51bf02-7f21-51fc-a49f-59fc64f8f2c5> a crm:E39_Actor ;
     rdfs:label "tutti" .
@@ -33898,7 +33878,7 @@ profumo								quando invece ili lellere ai vogliono purificare stanze			1815__R
 <http://data.odeuropa.eu/experience/247e2490-76e7-54cf-8c08-fcfb0f605a50> a od:L13_Olfactory_Experience ;
     od:F2_perceived <http://data.odeuropa.eu/smell/e8656363-85f5-5954-9294-04864a2a6a19> ;
     crm:P14_carried_out_by <http://data.odeuropa.eu/actor/0a632074-3474-599a-a8a2-7e64745d3f66> ;
-    crm:P7_took_place_at <http://data.odeuropa.eu/place/b6d5a464-01b1-5d23-ac73-14c3063f12ec> ;
+    crm:P7_took_place_at <https://sws.geonames.org/10344715/> ;
     time:hasTime <http://data.odeuropa.eu/time/49bc8ac6-1f93-5afb-9029-a68083581646> .
 
 <http://data.odeuropa.eu/experience/254792ca-0db4-5a17-af00-cebc23024336> a od:L13_Olfactory_Experience ;
@@ -34051,7 +34031,7 @@ profumo								quando invece ili lellere ai vogliono purificare stanze			1815__R
 
 <http://data.odeuropa.eu/experience/3c4e999a-5252-54b1-a070-4df8c75b5dca> a od:L13_Olfactory_Experience ;
     od:F2_perceived <http://data.odeuropa.eu/smell/c8d931d7-4045-50a5-a00f-83dd09363224> ;
-    crm:P7_took_place_at <https://sws.geonames.org/6454924/> ;
+    crm:P7_took_place_at <https://sws.geonames.org/3172253/> ;
     time:hasTime <http://data.odeuropa.eu/time/9d001fb0-0fcf-545d-bb34-70893ca0ca62> .
 
 <http://data.odeuropa.eu/experience/3c851cc6-1c11-580b-a644-32ac157f7343> a od:L13_Olfactory_Experience ;
@@ -34821,7 +34801,7 @@ profumo								quando invece ili lellere ai vogliono purificare stanze			1815__R
 
 <http://data.odeuropa.eu/experience/afce6172-d5b9-5e07-87a1-847237bf0857> a od:L13_Olfactory_Experience ;
     od:F2_perceived <http://data.odeuropa.eu/smell/f096d803-f1e3-569f-907c-b1eb9ae679e3> ;
-    crm:P7_took_place_at <http://data.odeuropa.eu/place/e648d389-5579-531d-bb8c-a9796cc25ee2> ;
+    crm:P7_took_place_at <https://sws.geonames.org/6628674/> ;
     time:hasTime <http://data.odeuropa.eu/time/9d001fb0-0fcf-545d-bb34-70893ca0ca62> .
 
 <http://data.odeuropa.eu/experience/b1534f44-a5d0-5a8d-810a-9d835fbd61f2> a od:L13_Olfactory_Experience ;
@@ -35058,7 +35038,7 @@ profumo								quando invece ili lellere ai vogliono purificare stanze			1815__R
 
 <http://data.odeuropa.eu/experience/d26cd0ee-1c19-56ca-bdb3-af9bf6eae5de> a od:L13_Olfactory_Experience ;
     od:F2_perceived <http://data.odeuropa.eu/smell/3b964e61-e75e-5fa6-a97a-e1e0dc850680> ;
-    crm:P7_took_place_at <http://data.odeuropa.eu/place/69d2f3c9-bc6f-5dad-8e8c-90d9b7e0b02c> ;
+    crm:P7_took_place_at <https://sws.geonames.org/7288727/> ;
     time:hasTime <http://data.odeuropa.eu/time/9d001fb0-0fcf-545d-bb34-70893ca0ca62> .
 
 <http://data.odeuropa.eu/experience/d2949a51-dff4-5003-b0e1-396622aabe8a> a od:L13_Olfactory_Experience ;
@@ -35086,7 +35066,7 @@ profumo								quando invece ili lellere ai vogliono purificare stanze			1815__R
 
 <http://data.odeuropa.eu/experience/d49deef2-d2bf-5916-a755-b1f1a9556d9a> a od:L13_Olfactory_Experience ;
     od:F2_perceived <http://data.odeuropa.eu/smell/902ad4d5-bc87-521f-925c-a9abf9af83b3> ;
-    crm:P7_took_place_at <https://sws.geonames.org/6541656/> ;
+    crm:P7_took_place_at <https://sws.geonames.org/3181863/> ;
     time:hasTime <http://data.odeuropa.eu/time/9d001fb0-0fcf-545d-bb34-70893ca0ca62> .
 
 <http://data.odeuropa.eu/experience/d4dd7d6f-3a80-5121-9d24-a75b0edeecbb> a od:L13_Olfactory_Experience ;
@@ -35343,7 +35323,7 @@ profumo								quando invece ili lellere ai vogliono purificare stanze			1815__R
     od:F2_perceived <http://data.odeuropa.eu/smell/7e45277c-c55a-5bc1-a544-ab9f549cb6f9> ;
     crm:P7_took_place_at <http://data.odeuropa.eu/place/36fa90f1-7805-5dfc-9539-665269dd045f>,
         <http://data.odeuropa.eu/place/3e78000b-4bd1-5d5e-a9e3-c16de98849a6>,
-        <http://data.odeuropa.eu/place/6c5f77a7-d751-5a5a-8bc9-fd048262271b> ;
+        <https://sws.geonames.org/202905/> ;
     time:hasTime <http://data.odeuropa.eu/time/044232f1-3d8c-5cd5-aafe-9b25855e7ebf>,
         <http://data.odeuropa.eu/time/3887b56b-870f-51ba-86cb-8e88a2fe3f24> .
 
@@ -35459,9 +35439,6 @@ profumo								quando invece ili lellere ai vogliono purificare stanze			1815__R
 
 <http://data.odeuropa.eu/emotion-type/desire> a <http://www.w3.org/2004/02/skos/core#Concept> ;
     rdfs:label "desire" .
-
-<http://data.odeuropa.eu/emotion-type/surprise> a <http://www.w3.org/2004/02/skos/core#Concept> ;
-    rdfs:label "surprise" .
 
 <http://data.odeuropa.eu/experience/05936eb6-e05c-5952-b176-6e641b3e42c5> a od:L13_Olfactory_Experience ;
     od:F2_perceived <http://data.odeuropa.eu/smell/ccb195b9-230f-5e05-9ce8-bcfa75ea162c> ;
@@ -38130,9 +38107,6 @@ profumo								quando invece ili lellere ai vogliono purificare stanze			1815__R
 <http://data.odeuropa.eu/attribute/penetrante_it> a crm:E90_Symbolic_Object ;
     rdfs:label "penetrante"@it .
 
-<http://data.odeuropa.eu/emotion-type/anger> a <http://www.w3.org/2004/02/skos/core#Concept> ;
-    rdfs:label "anger" .
-
 <http://data.odeuropa.eu/place/8cb8c3f5-c9f3-5001-b5cc-449522fadc1d> a crm:E53_Place ;
     rdfs:label "da ' luoghi segreti" .
 
@@ -38246,9 +38220,6 @@ profumo								quando invece ili lellere ai vogliono purificare stanze			1815__R
 <http://data.odeuropa.eu/actor/be5a8f88-f603-5303-a0e5-87721b3442c9> a crm:E39_Actor ;
     rdfs:label "egli" .
 
-<http://data.odeuropa.eu/emotion-type/fear> a <http://www.w3.org/2004/02/skos/core#Concept> ;
-    rdfs:label "fear" .
-
 <http://data.odeuropa.eu/emotion-type/nostalgia> a <http://www.w3.org/2004/02/skos/core#Concept> ;
     rdfs:label "nostalgia" .
 
@@ -38268,26 +38239,14 @@ profumo								quando invece ili lellere ai vogliono purificare stanze			1815__R
 <http://data.odeuropa.eu/actor/ab52ce5c-336a-5137-81eb-bb34769e99c3> a crm:E39_Actor ;
     rdfs:label "mi" .
 
-<http://data.odeuropa.eu/emotion-type/joy> a <http://www.w3.org/2004/02/skos/core#Concept> ;
-    rdfs:label "joy" .
-
 <http://data.odeuropa.eu/sentiment/neutral> a <http://www.w3.org/2004/02/skos/core#Concept> ;
     rdfs:label "Neutral" .
 
 <http://data.odeuropa.eu/attribute/odorosi_it> a crm:E90_Symbolic_Object ;
     rdfs:label "odorosi"@it .
 
-<http://data.odeuropa.eu/emotion-type/anticipation> a <http://www.w3.org/2004/02/skos/core#Concept> ;
-    rdfs:label "anticipation" .
-
 <http://data.odeuropa.eu/attribute/odorose_it> a crm:E90_Symbolic_Object ;
     rdfs:label "odorose"@it .
-
-<http://data.odeuropa.eu/emotion-type/disgust> a <http://www.w3.org/2004/02/skos/core#Concept> ;
-    rdfs:label "disgust" .
-
-<http://data.odeuropa.eu/emotion-type/trust> a <http://www.w3.org/2004/02/skos/core#Concept> ;
-    rdfs:label "trust" .
 
 <http://data.odeuropa.eu/sentiment/negative> a <http://www.w3.org/2004/02/skos/core#Concept> ;
     rdfs:label "Negative" .
