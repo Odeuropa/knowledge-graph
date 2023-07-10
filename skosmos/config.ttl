@@ -203,7 +203,7 @@
         skosmos:mainConceptScheme <http://data.odeuropa.eu/vocabulary/flavornet/odors/> ;
         void:sparqlEndpoint <https://data.odeuropa.eu/repositories/odeuropa> ;
         void:dataDump <https://github.com/Odeuropa/vocabularies/blob/main/vocabularies/flavornet-odors.ttl> ;
-        skosmos:sparqlGraph <http://data.odeuropa.eu/vocabulary/flavornet/odors> .
+        skosmos:sparqlGraph <http://data.odeuropa.eu/vocabulary/flavornet-odors> .
 
 :flavornet-odorants a skosmos:Vocabulary, void:Dataset ;
         dc:title "Flavornet and human odor space - odorants" ;
@@ -225,7 +225,7 @@
         skosmos:mainConceptScheme <http://data.odeuropa.eu/vocabulary/flavornet/odorants/> ;
         void:sparqlEndpoint <https://data.odeuropa.eu/repositories/odeuropa> ;
         void:dataDump <https://github.com/Odeuropa/vocabularies/blob/main/vocabularies/flavornet-odorants.ttl> ;
-        skosmos:sparqlGraph <http://data.odeuropa.eu/vocabulary/flavornet/odorants> .
+        skosmos:sparqlGraph <http://data.odeuropa.eu/vocabulary/flavornet-odorants> .
 
 :historical-scent a skosmos:Vocabulary, void:Dataset ;
         dc:title "A nose first classification system of iconographies, allegories and artefacts" ;
@@ -404,7 +404,7 @@
         skosmos:mainConceptScheme <http://data.odeuropa.eu/vocabulary/dravnieks/descriptors/> ;
         void:sparqlEndpoint <https://data.odeuropa.eu/repositories/odeuropa> ;
         void:dataDump <https://github.com/Odeuropa/vocabularies/blob/main/vocabularies/dravnieks-descriptors.ttl> ;
-        skosmos:sparqlGraph <http://data.odeuropa.eu/vocabulary/dravnieks/descriptors> .
+        skosmos:sparqlGraph <http://data.odeuropa.eu/vocabulary/dravnieks-descriptors> .
 
 :dravnieks-odorants a skosmos:Vocabulary, void:Dataset ;
         dc:title "Dravnieks' Atlas of Odors descriptors - odorants" ;
@@ -426,7 +426,7 @@
         skosmos:mainConceptScheme <http://data.odeuropa.eu/vocabulary/dravnieks/odorants/> ;
         void:sparqlEndpoint <https://data.odeuropa.eu/repositories/odeuropa> ;
         void:dataDump <https://github.com/Odeuropa/vocabularies/blob/main/vocabularies/dravnieks-odorants.ttl> ;
-        skosmos:sparqlGraph <http://data.odeuropa.eu/vocabulary/dravnieks/odorants> .
+        skosmos:sparqlGraph <http://data.odeuropa.eu/vocabulary/dravnieks-odorants> .
 
 :cat_general a skos:Concept;
   skos:prefLabel "Vocabularies"@en, "Vocabulaires"@fr, "Vocabulari"@it,
