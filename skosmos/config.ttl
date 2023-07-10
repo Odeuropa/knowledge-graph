@@ -183,8 +183,8 @@
         skosmos:sparqlGraph <http://data.odeuropa.eu/vocabulary/edwards> .
 
 
-:flavornet a skosmos:Vocabulary, void:Dataset ;
-        dc:title "Flavornet and human odor space" ;
+:flavornet-odors a skosmos:Vocabulary, void:Dataset ;
+        dc:title "Flavornet and human odor space - odors" ;
         dc:subject :classification ;
         dc:type mdrtype:THESAURUS ;
         void:uriSpace "http://data.odeuropa.eu/vocabulary/flavornet/odors/";
@@ -205,7 +205,7 @@
         void:dataDump <https://github.com/Odeuropa/vocabularies/blob/main/vocabularies/flavornet-odors.ttl> ;
         skosmos:sparqlGraph <http://data.odeuropa.eu/vocabulary/flavornet/odors> .
 
-:flavornet a skosmos:Vocabulary, void:Dataset ;
+:flavornet-odorants a skosmos:Vocabulary, void:Dataset ;
         dc:title "Flavornet and human odor space - odorants" ;
         dc:subject :odorants ;
         dc:type mdrtype:THESAURUS ;
@@ -408,7 +408,7 @@
 
 :dravnieks-odorants a skosmos:Vocabulary, void:Dataset ;
         dc:title "Dravnieks' Atlas of Odors descriptors - odorants" ;
-        dc:subject :classification ;
+        dc:subject :odorants ;
         dc:type mdrtype:THESAURUS ;
         void:uriSpace "http://data.odeuropa.eu/vocabulary/dravnieks/odorants/";
         skosmos:language "en";
