@@ -187,7 +187,7 @@
         dc:title "Flavornet and human odor space" ;
         dc:subject :classification ;
         dc:type mdrtype:THESAURUS ;
-        void:uriSpace "http://data.odeuropa.eu/vocabulary/flavornet/";
+        void:uriSpace "http://data.odeuropa.eu/vocabulary/flavornet/odors/";
         skosmos:language "en";
         skosmos:fallbackLanguages "en";
         skosmos:defaultLanguage "en" ;
@@ -200,10 +200,32 @@
         skosmos:loadExternalResources "true" ;
         skosmos:showTopConcepts "true" ;
         skosmos:externalProperty owl:sameAs, skos:closeMatch, skos:exactMatch;
-        skosmos:mainConceptScheme <http://data.odeuropa.eu/vocabulary/flavornet/> ;
+        skosmos:mainConceptScheme <http://data.odeuropa.eu/vocabulary/flavornet/odors/> ;
         void:sparqlEndpoint <https://data.odeuropa.eu/repositories/odeuropa> ;
-        void:dataDump <https://github.com/Odeuropa/vocabularies/blob/main/vocabularies/flavornet.ttl> ;
-        skosmos:sparqlGraph <http://data.odeuropa.eu/vocabulary/flavornet> .
+        void:dataDump <https://github.com/Odeuropa/vocabularies/blob/main/vocabularies/flavornet-odors.ttl> ;
+        skosmos:sparqlGraph <http://data.odeuropa.eu/vocabulary/flavornet/odors> .
+
+:flavornet a skosmos:Vocabulary, void:Dataset ;
+        dc:title "Flavornet and human odor space - odorants" ;
+        dc:subject :odorants ;
+        dc:type mdrtype:THESAURUS ;
+        void:uriSpace "http://data.odeuropa.eu/vocabulary/flavornet/odorants/";
+        skosmos:language "en";
+        skosmos:fallbackLanguages "en";
+        skosmos:defaultLanguage "en" ;
+        skosmos:groupClass skos:Collection ;
+        skosmos:hasMultiLingualProperty dc:bibliographicCitation, skos:definition ;
+        skosmos:showDeprecated "true" ;
+        skosmos:shortName "Flavornet odor space";
+        skosmos:showChangeList "false" ;
+        skosmos:showNotation "true" ;
+        skosmos:loadExternalResources "true" ;
+        skosmos:showTopConcepts "true" ;
+        skosmos:externalProperty owl:sameAs, skos:closeMatch, skos:exactMatch;
+        skosmos:mainConceptScheme <http://data.odeuropa.eu/vocabulary/flavornet/odorants/> ;
+        void:sparqlEndpoint <https://data.odeuropa.eu/repositories/odeuropa> ;
+        void:dataDump <https://github.com/Odeuropa/vocabularies/blob/main/vocabularies/flavornet-odorants.ttl> ;
+        skosmos:sparqlGraph <http://data.odeuropa.eu/vocabulary/flavornet/odorants> .
 
 :historical-scent a skosmos:Vocabulary, void:Dataset ;
         dc:title "A nose first classification system of iconographies, allegories and artefacts" ;
@@ -363,10 +385,10 @@
         skosmos:sparqlGraph <http://data.odeuropa.eu/vocabulary/vdi-intensity> .
 
 :dravnieks a skosmos:Vocabulary, void:Dataset ;
-        dc:title "Dravnieks' Atlas of Odors descriptors" ;
+        dc:title "Dravnieks' Atlas of Odors descriptors - descriptors" ;
         dc:subject :classification ;
         dc:type mdrtype:THESAURUS ;
-        void:uriSpace "http://data.odeuropa.eu/vocabulary/dravnieks/";
+        void:uriSpace "http://data.odeuropa.eu/vocabulary/dravnieks/descriptors/";
         skosmos:language "en";
         skosmos:fallbackLanguages "en";
         skosmos:defaultLanguage "en" ;
@@ -379,10 +401,32 @@
         skosmos:loadExternalResources "true" ;
         skosmos:showTopConcepts "true" ;
         skosmos:externalProperty owl:sameAs, skos:closeMatch, skos:exactMatch;
-        skosmos:mainConceptScheme <http://data.odeuropa.eu/vocabulary/dravnieks> ;
+        skosmos:mainConceptScheme <http://data.odeuropa.eu/vocabulary/dravnieks/descriptors/> ;
         void:sparqlEndpoint <https://data.odeuropa.eu/repositories/odeuropa> ;
-        void:dataDump <https://github.com/Odeuropa/vocabularies/blob/main/vocabularies/dravnieks.ttl> ;
-        skosmos:sparqlGraph <http://data.odeuropa.eu/vocabulary/dravnieks> .
+        void:dataDump <https://github.com/Odeuropa/vocabularies/blob/main/vocabularies/dravnieks-descriptors.ttl> ;
+        skosmos:sparqlGraph <http://data.odeuropa.eu/vocabulary/dravnieks/descriptors> .
+
+:dravnieks-odorants a skosmos:Vocabulary, void:Dataset ;
+        dc:title "Dravnieks' Atlas of Odors descriptors - odorants" ;
+        dc:subject :classification ;
+        dc:type mdrtype:THESAURUS ;
+        void:uriSpace "http://data.odeuropa.eu/vocabulary/dravnieks/odorants/";
+        skosmos:language "en";
+        skosmos:fallbackLanguages "en";
+        skosmos:defaultLanguage "en" ;
+        skosmos:groupClass skos:Collection ;
+        skosmos:hasMultiLingualProperty dc:bibliographicCitation, skos:definition ;
+        skosmos:showDeprecated "true" ;
+        skosmos:shortName "Dravnieks' odorants";
+        skosmos:showChangeList "false" ;
+        skosmos:showNotation "true" ;
+        skosmos:loadExternalResources "true" ;
+        skosmos:showTopConcepts "true" ;
+        skosmos:externalProperty owl:sameAs, skos:closeMatch, skos:exactMatch;
+        skosmos:mainConceptScheme <http://data.odeuropa.eu/vocabulary/dravnieks/odorants/> ;
+        void:sparqlEndpoint <https://data.odeuropa.eu/repositories/odeuropa> ;
+        void:dataDump <https://github.com/Odeuropa/vocabularies/blob/main/vocabularies/dravnieks-odorants.ttl> ;
+        skosmos:sparqlGraph <http://data.odeuropa.eu/vocabulary/dravnieks/odorants> .
 
 :cat_general a skos:Concept;
   skos:prefLabel "Vocabularies"@en, "Vocabulaires"@fr, "Vocabulari"@it,
@@ -395,3 +439,7 @@
 :classification a skos:Concept;
   skos:prefLabel "Smell Classification"@en, "Classification des odeurs"@fr, "Classificazione degli odori"@it,
           "Scent Wheel"@nl, "Scent Wheel"@de, "Scent Wheel"@sl.
+
+:odorants a skos:Concept;
+  skos:prefLabel "Odorants"@en, "Odorants"@fr, "Sostanze odoranti"@it,
+          "Scent Wheel"@nl, "Geruchsstoff"@de, "Odorants"@sl.

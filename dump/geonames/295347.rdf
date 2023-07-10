@@ -1,47 +1,160 @@
-<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd ">
-<html>
-<head>
-<title>GeoNames</title>
-<link rel="search" type="application/opensearchdescription+xml" title="geonames" href="https://www.geonames.org/opensearch-description.xml">
-<link href="/geonames.ico" rel="shortcut icon" >
-<link rel="StyleSheet" href="/geonames.css" type="text/css" >
-</head>
-<body>
-<table id="topmenutable" cellpadding="0" cellspacing="0"><tr>
-<td class="topmenu">&nbsp;<a href="/" title="GeoName Home">&nbsp;GeoNames Home</a>&nbsp;|&nbsp;<a href="/postal-codes/" title="Postal Codes">Postal Codes</a>&nbsp;|&nbsp;<a href="/export/" title="Database Dump and Webservice API">Download / Webservice</a>&nbsp;|&nbsp;<a href="/about.html" title="About GeoNames">About</a>&nbsp;</td>
-<td class="topsearch">
-   <form class="topsearch" name="searchForm" method="get" action="/servlet/geonames" >
-
-      search <input class="topmenu" name="q" size="20" value="" type="text">
-     <input type="hidden" name="srv" value="1">
-   </form>
-
-   <span id="topmenulogin">
-<a href="https://www.geonames.org/login" title="login or create new user account">login</a>
-   </span>
-</td></tr>
-</table>
-
-<br><br><br><br>
-<div style="margin:auto; width:500px; padding:40px; text-align:left" class="formTemplateClass">
-Connection to localhost:5432 refused. Check that the hostname and port are correct and that the postmaster is accepting TCP/IP connections.
-</div>
-
-
-<p>&nbsp;</p><p>&nbsp;</p><p>&nbsp;</p><p>&nbsp;</p>
-<div id="pageFooter">
-info@geonames.org  <img src="/img/smallant.gif" alt="ant" align="middle" hspace="40" border="0">
-<p>
-<a href="/">GeoNames Home</a>
-<span class="separator">&#8226;</span>
-<a href="/postal-codes/">Postal Codes</a>
-<span class="separator">&#8226;</span>
-<a href="/export/">Download / Webservice</a>
-<span class="separator">&#8226;</span>
-<a href="http://forum.geonames.org">Forum</a>
-<span class="separator">&#8226;</span>
-<a href="http://geonames.wordpress.com">Blog</a>
-<span class="separator">&#8226;</span>
-<a href="/sitemap.html">Sitemap</a>
-</div>
-</body></html>
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<rdf:RDF xmlns:cc="http://creativecommons.org/ns#" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:foaf="http://xmlns.com/foaf/0.1/" xmlns:gn="http://www.geonames.org/ontology#" xmlns:owl="http://www.w3.org/2002/07/owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:wgs84_pos="http://www.w3.org/2003/01/geo/wgs84_pos#">
+    <gn:Feature rdf:about="https://sws.geonames.org/295347/">
+        <rdfs:isDefinedBy rdf:resource="https://sws.geonames.org/295347/about.rdf"/>
+        <gn:name>Dead Sea</gn:name>
+        <gn:alternateName xml:lang="ko">사해</gn:alternateName>
+        <gn:alternateName>Al Baḩr al Mayyit</gn:alternateName>
+        <gn:alternateName xml:lang="ga">An Mhuir Mharbh</gn:alternateName>
+        <gn:alternateName xml:lang="sw">Bahari ya Chumvi</gn:alternateName>
+        <gn:alternateName xml:lang="vi">Biển Chết</gn:alternateName>
+        <gn:alternateName>Buḩayrat Lūţ</gn:alternateName>
+        <gn:alternateName xml:lang="war">Dagat nga patay</gn:alternateName>
+        <gn:alternateName xml:lang="tl">Dagat Patay</gn:alternateName>
+        <gn:alternateName xml:lang="is">Dauðahaf</gn:alternateName>
+        <gn:alternateName xml:lang="nn">Daudehavet</gn:alternateName>
+        <gn:alternateName xml:lang="fy">Deade See</gn:alternateName>
+        <gn:alternateName xml:lang="en">Dead Sea</gn:alternateName>
+        <gn:alternateName xml:lang="ku">Deryaya Mirî</gn:alternateName>
+        <gn:alternateName xml:lang="da">Det Døde Hav</gn:alternateName>
+        <gn:alternateName xml:lang="sq">Deti i Vdekur</gn:alternateName>
+        <gn:alternateName xml:lang="fo">Deyðahav</gn:alternateName>
+        <gn:alternateName xml:lang="sv">Döda havet</gn:alternateName>
+        <gn:alternateName xml:lang="no">Dødehavet</gn:alternateName>
+        <gn:alternateName xml:lang="nl">Dode Zee</gn:alternateName>
+        <gn:alternateName xml:lang="af">Dooie See</gn:alternateName>
+        <gn:alternateName xml:lang="lb">Doudegt Mier</gn:alternateName>
+        <gn:alternateName xml:lang="ksh">Duud Meer</gn:alternateName>
+        <gn:alternateName>East Sea</gn:alternateName>
+        <gn:alternateName xml:lang="za">Haijdai</gn:alternateName>
+        <gn:alternateName>HaMelaẖ Yam</gn:alternateName>
+        <gn:alternateName xml:lang="hu">Holt-tenger</gn:alternateName>
+        <gn:alternateName xml:lang="eu">Itsaso Hila</gn:alternateName>
+        <gn:alternateName xml:lang="fi">Kuollutmeri</gn:alternateName>
+        <gn:alternateName>Lacus Asphaltites</gn:alternateName>
+        <gn:alternateName xml:lang="en">Lake Amora</gn:alternateName>
+        <gn:alternateName xml:lang="id">Laut Mati</gn:alternateName>
+        <gn:alternateName xml:lang="jv">Laut Mati</gn:alternateName>
+        <gn:alternateName xml:lang="ms">Laut Mati</gn:alternateName>
+        <gn:alternateName xml:lang="tr">Lut Gölü</gn:alternateName>
+        <gn:alternateName xml:lang="ro">Marea Moartă</gn:alternateName>
+        <gn:alternateName xml:lang="la">mare Asphalticum</gn:alternateName>
+        <gn:alternateName xml:lang="sc">Mare Mortu</gn:alternateName>
+        <gn:alternateName xml:lang="la">Mare Mortuum</gn:alternateName>
+        <gn:alternateName xml:lang="co">Mari Mortu</gn:alternateName>
+        <gn:alternateName xml:lang="scn">Mari Mortu</gn:alternateName>
+        <gn:alternateName xml:lang="pms">Mar Mòrt</gn:alternateName>
+        <gn:alternateName xml:lang="ca">Mar Morta</gn:alternateName>
+        <gn:alternateName xml:lang="oc">Mar Mòrta</gn:alternateName>
+        <gn:alternateName xml:lang="ia">Mar Morte</gn:alternateName>
+        <gn:alternateName xml:lang="gl">Mar Morto</gn:alternateName>
+        <gn:alternateName xml:lang="it">Mar Morto</gn:alternateName>
+        <gn:alternateName xml:lang="pt">Mar Morto</gn:alternateName>
+        <gn:alternateName>Mar Morto</gn:alternateName>
+        <gn:alternateName xml:lang="an">Mar Muerta</gn:alternateName>
+        <gn:alternateName xml:lang="ast">Mar Muerta</gn:alternateName>
+        <gn:alternateName xml:lang="es">Mar Muerto</gn:alternateName>
+        <gn:alternateName xml:lang="ast">Mar Muertu</gn:alternateName>
+        <gn:alternateName xml:lang="csb">Martwé Mòrze</gn:alternateName>
+        <gn:alternateName xml:lang="fr">Mer Morte</gn:alternateName>
+        <gn:alternateName>Mer Morte</gn:alternateName>
+        <gn:alternateName xml:lang="kw">Mor Marow</gn:alternateName>
+        <gn:alternateName xml:lang="br">Mor Marv</gn:alternateName>
+        <gn:alternateName xml:lang="cy">Môr Marw</gn:alternateName>
+        <gn:alternateName xml:lang="eo">Morta Maro</gn:alternateName>
+        <gn:alternateName xml:lang="hsb">Mortwe morjo</gn:alternateName>
+        <gn:alternateName xml:lang="pl">Morze Martwe</gn:alternateName>
+        <gn:alternateName xml:lang="cs">Mrtvé moře</gn:alternateName>
+        <gn:alternateName xml:lang="sk">Mŕtve more</gn:alternateName>
+        <gn:alternateName xml:lang="bs">Mrtvo more</gn:alternateName>
+        <gn:alternateName xml:lang="hbs">Mrtvo more</gn:alternateName>
+        <gn:alternateName xml:lang="hr">Mrtvo more</gn:alternateName>
+        <gn:alternateName xml:lang="sl">Mrtvo morje</gn:alternateName>
+        <gn:alternateName xml:lang="lv">Nāves jūra</gn:alternateName>
+        <gn:alternateName xml:lang="lt">Negyvoji jūra</gn:alternateName>
+        <gn:alternateName xml:lang="uz">Oʻlik dengiz</gn:alternateName>
+        <gn:alternateName xml:lang="tk">Öli deňiz</gn:alternateName>
+        <gn:alternateName xml:lang="az">Ölü dəniz</gn:alternateName>
+        <gn:alternateName>Sea of Lot</gn:alternateName>
+        <gn:alternateName>Sea of the Plain</gn:alternateName>
+        <gn:alternateName>Sea of the Plains</gn:alternateName>
+        <gn:alternateName xml:lang="nan">Sí-hái</gn:alternateName>
+        <gn:alternateName xml:lang="cdo">Sī-hāi</gn:alternateName>
+        <gn:alternateName xml:lang="sgs">Smertėis jūra</gn:alternateName>
+        <gn:alternateName xml:lang="et">Surnumeri</gn:alternateName>
+        <gn:alternateName>The Salt Sea</gn:alternateName>
+        <gn:alternateName xml:lang="de">Totes Meer</gn:alternateName>
+        <gn:alternateName>Totes Meer</gn:alternateName>
+        <gn:alternateName xml:lang="qu">Wañusqa Qucha</gn:alternateName>
+        <gn:alternateName xml:lang="dsb">Wumarłe mórjo</gn:alternateName>
+        <gn:alternateName>Yam HaMelaẖ</gn:alternateName>
+        <gn:alternateName>Yam Ham Melah</gn:alternateName>
+        <gn:alternateName xml:lang="el">Νεκρά θάλασσα</gn:alternateName>
+        <gn:alternateName xml:lang="cv">Вилĕ тинĕс</gn:alternateName>
+        <gn:alternateName xml:lang="ky">Жансыз деңиз</gn:alternateName>
+        <gn:alternateName xml:lang="mhr">Колышо теҥыз</gn:alternateName>
+        <gn:alternateName xml:lang="be">Мёртвае мора</gn:alternateName>
+        <gn:alternateName xml:lang="rue">Мертве море</gn:alternateName>
+        <gn:alternateName xml:lang="uk">Мертве море</gn:alternateName>
+        <gn:alternateName xml:lang="ru">Мёртвое море</gn:alternateName>
+        <gn:alternateName xml:lang="sr">Мртво море</gn:alternateName>
+        <gn:alternateName xml:lang="mk">Мртво Море</gn:alternateName>
+        <gn:alternateName xml:lang="bg">Мъртво море</gn:alternateName>
+        <gn:alternateName xml:lang="kk">Өлі теңізі</gn:alternateName>
+        <gn:alternateName xml:lang="mn">Сөнөсөн тэнгис</gn:alternateName>
+        <gn:alternateName xml:lang="tt">Үле диңгез</gn:alternateName>
+        <gn:alternateName xml:lang="ka">მკვდარი ზღვა</gn:alternateName>
+        <gn:alternateName xml:lang="xmf">ღურელი ზუღა</gn:alternateName>
+        <gn:alternateName xml:lang="hy">Մեռյալ ծով</gn:alternateName>
+        <gn:alternateName xml:lang="he">ים המלח</gn:alternateName>
+        <gn:alternateName xml:lang="yi">ים המלח</gn:alternateName>
+        <gn:alternateName xml:lang="ar">البحر الميت</gn:alternateName>
+        <gn:alternateName xml:lang="arz">البحر الميت</gn:alternateName>
+        <gn:alternateName xml:lang="azb">اولو دنیز</gn:alternateName>
+        <gn:alternateName xml:lang="ur">بحیرہ مردار</gn:alternateName>
+        <gn:alternateName xml:lang="fa">دریای مرده</gn:alternateName>
+        <gn:alternateName xml:lang="ckb">دەریای مردوو</gn:alternateName>
+        <gn:alternateName xml:lang="pnb">مریا سمندر</gn:alternateName>
+        <gn:alternateName xml:lang="arc">ܝܡܐ ܕܡܠܚܐ</gn:alternateName>
+        <gn:alternateName xml:lang="dv">ޑެޑްސީ</gn:alternateName>
+        <gn:alternateName xml:lang="mr">मृत समुद्र</gn:alternateName>
+        <gn:alternateName xml:lang="hi">मृत सागर</gn:alternateName>
+        <gn:alternateName xml:lang="new">मृत सागर</gn:alternateName>
+        <gn:alternateName xml:lang="sa">मृतसागरः</gn:alternateName>
+        <gn:alternateName xml:lang="as">ডেড ছী</gn:alternateName>
+        <gn:alternateName xml:lang="bn">মৃত সাগর</gn:alternateName>
+        <gn:alternateName xml:lang="pa">ਮੁਰਦਾ ਸਮੁੰਦਰ</gn:alternateName>
+        <gn:alternateName xml:lang="ta">சாக்கடல்</gn:alternateName>
+        <gn:alternateName xml:lang="te">మృత సముద్రము</gn:alternateName>
+        <gn:alternateName xml:lang="kn">ಡೆಡ್ ಸೀ</gn:alternateName>
+        <gn:alternateName xml:lang="ml">ചാവുകടൽ</gn:alternateName>
+        <gn:alternateName xml:lang="th">ทะเลเดดซี</gn:alternateName>
+        <gn:alternateName xml:lang="my">ပင်လယ်သေ</gn:alternateName>
+        <gn:alternateName xml:lang="ja">死海</gn:alternateName>
+        <gn:alternateName xml:lang="wuu">死海</gn:alternateName>
+        <gn:alternateName xml:lang="yue">死海</gn:alternateName>
+        <gn:alternateName xml:lang="zh">死海</gn:alternateName>
+        <gn:featureClass rdf:resource="https://www.geonames.org/ontology#H"/>
+        <gn:featureCode rdf:resource="https://www.geonames.org/ontology#H.LK"/>
+        <gn:countryCode>JO</gn:countryCode>
+        <wgs84_pos:lat>31.55747</wgs84_pos:lat>
+        <wgs84_pos:long>35.49545</wgs84_pos:long>
+        <gn:parentFeature rdf:resource="https://sws.geonames.org/250439/"/>
+        <gn:parentCountry rdf:resource="https://sws.geonames.org/248816/"/>
+        <gn:parentADM1 rdf:resource="https://sws.geonames.org/250439/"/>
+        <gn:nearbyFeatures rdf:resource="https://sws.geonames.org/295347/nearby.rdf"/>
+        <gn:locationMap rdf:resource="https://www.geonames.org/295347/dead-sea.html"/>
+        <gn:wikipediaArticle rdf:resource="https://en.wikipedia.org/wiki/Dead_Sea"/>
+        <rdfs:seeAlso rdf:resource="https://dbpedia.org/resource/Dead_Sea"/>
+        <gn:wikipediaArticle rdf:resource="https://ru.wikipedia.org/wiki/%D0%9C%D1%91%D1%80%D1%82%D0%B2%D0%BE%D0%B5_%D0%BC%D0%BE%D1%80%D0%B5"/>
+        <gn:wikipediaArticle rdf:resource="https://uk.wikipedia.org/wiki/%D0%9C%D0%B5%D1%80%D1%82%D0%B2%D0%B5_%D0%BC%D0%BE%D1%80%D0%B5"/>
+    </gn:Feature>
+    <foaf:Document rdf:about="https://sws.geonames.org/295347/about.rdf">
+        <foaf:primaryTopic rdf:resource="https://sws.geonames.org/295347/"/>
+        <cc:license rdf:resource="https://creativecommons.org/licenses/by/4.0/"/>
+        <cc:attributionURL rdf:resource="https://www.geonames.org"/>
+        <cc:attributionName rdf:datatype="https://www.w3.org/2001/XMLSchema#string">GeoNames</cc:attributionName>
+        <dcterms:created rdf:datatype="https://www.w3.org/2001/XMLSchema#date">2006-01-15</dcterms:created>
+        <dcterms:modified rdf:datatype="https://www.w3.org/2001/XMLSchema#date">2022-01-25</dcterms:modified>
+    </foaf:Document>
+</rdf:RDF>

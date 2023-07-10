@@ -1,47 +1,243 @@
-<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd ">
-<html>
-<head>
-<title>GeoNames</title>
-<link rel="search" type="application/opensearchdescription+xml" title="geonames" href="https://www.geonames.org/opensearch-description.xml">
-<link href="/geonames.ico" rel="shortcut icon" >
-<link rel="StyleSheet" href="/geonames.css" type="text/css" >
-</head>
-<body>
-<table id="topmenutable" cellpadding="0" cellspacing="0"><tr>
-<td class="topmenu">&nbsp;<a href="/" title="GeoName Home">&nbsp;GeoNames Home</a>&nbsp;|&nbsp;<a href="/postal-codes/" title="Postal Codes">Postal Codes</a>&nbsp;|&nbsp;<a href="/export/" title="Database Dump and Webservice API">Download / Webservice</a>&nbsp;|&nbsp;<a href="/about.html" title="About GeoNames">About</a>&nbsp;</td>
-<td class="topsearch">
-   <form class="topsearch" name="searchForm" method="get" action="/servlet/geonames" >
-
-      search <input class="topmenu" name="q" size="20" value="" type="text">
-     <input type="hidden" name="srv" value="1">
-   </form>
-
-   <span id="topmenulogin">
-<a href="https://www.geonames.org/login" title="login or create new user account">login</a>
-   </span>
-</td></tr>
-</table>
-
-<br><br><br><br>
-<div style="margin:auto; width:500px; padding:40px; text-align:left" class="formTemplateClass">
-Connection to localhost:5432 refused. Check that the hostname and port are correct and that the postmaster is accepting TCP/IP connections.
-</div>
-
-
-<p>&nbsp;</p><p>&nbsp;</p><p>&nbsp;</p><p>&nbsp;</p>
-<div id="pageFooter">
-info@geonames.org  <img src="/img/smallant.gif" alt="ant" align="middle" hspace="40" border="0">
-<p>
-<a href="/">GeoNames Home</a>
-<span class="separator">&#8226;</span>
-<a href="/postal-codes/">Postal Codes</a>
-<span class="separator">&#8226;</span>
-<a href="/export/">Download / Webservice</a>
-<span class="separator">&#8226;</span>
-<a href="http://forum.geonames.org">Forum</a>
-<span class="separator">&#8226;</span>
-<a href="http://geonames.wordpress.com">Blog</a>
-<span class="separator">&#8226;</span>
-<a href="/sitemap.html">Sitemap</a>
-</div>
-</body></html>
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<rdf:RDF xmlns:cc="http://creativecommons.org/ns#" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:foaf="http://xmlns.com/foaf/0.1/" xmlns:gn="http://www.geonames.org/ontology#" xmlns:owl="http://www.w3.org/2002/07/owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:wgs84_pos="http://www.w3.org/2003/01/geo/wgs84_pos#">
+    <gn:Feature rdf:about="https://sws.geonames.org/1814991/">
+        <rdfs:isDefinedBy rdf:resource="https://sws.geonames.org/1814991/about.rdf"/>
+        <gn:name>China</gn:name>
+        <gn:officialName xml:lang="ko">중국</gn:officialName>
+        <gn:alternateName xml:lang="ko">중화인민공화국</gn:alternateName>
+        <gn:officialName xml:lang="gl">A China</gn:officialName>
+        <gn:alternateName xml:lang="is">Alþýðulýðveldið Kína</gn:alternateName>
+        <gn:officialName xml:lang="ga">an tSín</gn:officialName>
+        <gn:officialName xml:lang="gd">An t-Sìn</gn:officialName>
+        <gn:officialName xml:lang="ki">Caina</gn:officialName>
+        <gn:officialName xml:lang="lg">Cayina</gn:officialName>
+        <gn:officialName xml:lang="aa">China</gn:officialName>
+        <gn:officialName xml:lang="af">China</gn:officialName>
+        <gn:officialName xml:lang="de">China</gn:officialName>
+        <gn:officialName xml:lang="en">China</gn:officialName>
+        <gn:officialName xml:lang="es">China</gn:officialName>
+        <gn:alternateName xml:lang="gl">China</gn:alternateName>
+        <gn:officialName xml:lang="ia">China</gn:officialName>
+        <gn:officialName xml:lang="ig">China</gn:officialName>
+        <gn:officialName xml:lang="kw">China</gn:officialName>
+        <gn:officialName xml:lang="lb">China</gn:officialName>
+        <gn:officialName xml:lang="ms">China</gn:officialName>
+        <gn:alternateName xml:lang="nah">China</gn:alternateName>
+        <gn:officialName xml:lang="nd">China</gn:officialName>
+        <gn:officialName xml:lang="nl">China</gn:officialName>
+        <gn:officialName xml:lang="oc">China</gn:officialName>
+        <gn:officialName xml:lang="om">China</gn:officialName>
+        <gn:officialName xml:lang="pt">China</gn:officialName>
+        <gn:officialName xml:lang="qu">China</gn:officialName>
+        <gn:officialName xml:lang="rm">China</gn:officialName>
+        <gn:officialName xml:lang="ro">China</gn:officialName>
+        <gn:officialName xml:lang="sn">China</gn:officialName>
+        <gn:officialName xml:lang="fr">Chine</gn:officialName>
+        <gn:alternateName xml:lang="nrm">Chinne</gn:alternateName>
+        <gn:alternateName xml:lang="pl">Chińska Republika Ludowa</gn:alternateName>
+        <gn:officialName xml:lang="pl">Chiny</gn:officialName>
+        <gn:alternateName>Chung-hua Jen-min-kung-ho-kuo</gn:alternateName>
+        <gn:alternateName xml:lang="qu">Chunwa</gn:alternateName>
+        <gn:alternateName xml:lang="nl">Chyna</gn:alternateName>
+        <gn:officialName xml:lang="az">Çin</gn:officialName>
+        <gn:officialName xml:lang="tr">Çin</gn:officialName>
+        <gn:officialName xml:lang="ku">Çîn</gn:officialName>
+        <gn:officialName xml:lang="it">Cina</gn:officialName>
+        <gn:alternateName xml:lang="ang">Cīna</gn:alternateName>
+        <gn:officialName xml:lang="cs">Čína</gn:officialName>
+        <gn:officialName xml:lang="sk">Čína</gn:officialName>
+        <gn:alternateName xml:lang="eo">Ĉina Popola Respubliko</gn:alternateName>
+        <gn:alternateName xml:lang="tr">Çin Halk Cumhuriyeti</gn:alternateName>
+        <gn:alternateName xml:lang="eo">Ĉinio</gn:alternateName>
+        <gn:alternateName xml:lang="cs">Čínská lidová republika</gn:alternateName>
+        <gn:alternateName xml:lang="sk">Čínska ľudová republika</gn:alternateName>
+        <gn:officialName xml:lang="eo">Ĉinujo</gn:officialName>
+        <gn:alternateName xml:lang="vi">Cộng hòa Nhân dân Trung Hoa</gn:alternateName>
+        <gn:alternateName xml:lang="za">Cunghvaz Yinzminz Gunghozgoz</gn:alternateName>
+        <gn:alternateName xml:lang="da">Folkerepublikken Kina</gn:alternateName>
+        <gn:alternateName xml:lang="nn">Folkerepublikken Kina</gn:alternateName>
+        <gn:alternateName xml:lang="cy">Gweriniaeth Pobl Tsieina</gn:alternateName>
+        <gn:officialName xml:lang="mi">Haina</gn:officialName>
+        <gn:officialName xml:lang="et">Hiina</gn:officialName>
+        <gn:alternateName xml:lang="et">Hiina Rahvavabariik</gn:alternateName>
+        <gn:officialName xml:lang="tk">Hytaý</gn:officialName>
+        <gn:alternateName xml:lang="tk">Hytaý Halk Respublikasy</gn:alternateName>
+        <gn:officialName xml:lang="mt">iċ-Ċina</gn:officialName>
+        <gn:officialName xml:lang="zu">i-China</gn:officialName>
+        <gn:alternateName xml:lang="jbo">jugygue</gn:alternateName>
+        <gn:officialName xml:lang="fi">Kiina</gn:officialName>
+        <gn:alternateName xml:lang="fi">Kiinan kansantasavalta</gn:alternateName>
+        <gn:officialName xml:lang="se">Kiinná</gn:officialName>
+        <gn:officialName xml:lang="bs">Kina</gn:officialName>
+        <gn:officialName xml:lang="da">Kina</gn:officialName>
+        <gn:officialName xml:lang="fo">Kina</gn:officialName>
+        <gn:officialName xml:lang="hr">Kina</gn:officialName>
+        <gn:officialName xml:lang="kl">Kina</gn:officialName>
+        <gn:officialName xml:lang="nb">Kina</gn:officialName>
+        <gn:officialName xml:lang="nn">Kina</gn:officialName>
+        <gn:officialName xml:lang="no">Kina</gn:officialName>
+        <gn:officialName xml:lang="sv">Kina</gn:officialName>
+        <gn:officialName xml:lang="hu">Kína</gn:officialName>
+        <gn:officialName xml:lang="is">Kína</gn:officialName>
+        <gn:officialName xml:lang="lv">Ķīna</gn:officialName>
+        <gn:officialName xml:lang="sq">Kinë</gn:officialName>
+        <gn:officialName xml:lang="lt">Kinija</gn:officialName>
+        <gn:alternateName xml:lang="olo">Kitai</gn:alternateName>
+        <gn:officialName xml:lang="sl">Kitajska</gn:officialName>
+        <gn:officialName xml:lang="ak">Kyaena</gn:officialName>
+        <gn:alternateName xml:lang="pam">Maldang Republika ning Tsina</gn:alternateName>
+        <gn:alternateName xml:lang="bs">Narodna Republika Kina</gn:alternateName>
+        <gn:alternateName xml:lang="tpi">Ol Manmeri Ripablik bilong Saina</gn:alternateName>
+        <gn:alternateName xml:lang="en">People's Republic of China</gn:alternateName>
+        <gn:alternateName xml:lang="en">People’s Republic of China</gn:alternateName>
+        <gn:alternateName xml:lang="io">Populala Republiko di Chinia</gn:alternateName>
+        <gn:alternateName xml:lang="it">Repubblica Popolare Cinese</gn:alternateName>
+        <gn:alternateName xml:lang="ro">Republica Populară Chineză</gn:alternateName>
+        <gn:alternateName xml:lang="oc">Republica Populara de China</gn:alternateName>
+        <gn:alternateName xml:lang="ast">República Popular China</gn:alternateName>
+        <gn:officialName xml:lang="es">República Popular China</gn:officialName>
+        <gn:alternateName xml:lang="gl">República Popular da China</gn:alternateName>
+        <gn:alternateName xml:lang="pt">República Popular da China</gn:alternateName>
+        <gn:alternateName xml:lang="ia">Republica Popular de China</gn:alternateName>
+        <gn:alternateName xml:lang="ca">República Popular de la Xina</gn:alternateName>
+        <gn:alternateName xml:lang="ceb">Republikang Popular sa Tsina</gn:alternateName>
+        <gn:alternateName xml:lang="br">Republik Pobl Sina</gn:alternateName>
+        <gn:alternateName xml:lang="ms">Republik Rakyat China</gn:alternateName>
+        <gn:alternateName xml:lang="id">Republik Rakyat Tiongkok</gn:alternateName>
+        <gn:alternateName xml:lang="fr">République populaire de Chine</gn:alternateName>
+        <gn:alternateName xml:lang="la">Res publica popularis Sinarum</gn:alternateName>
+        <gn:officialName xml:lang="yo">Ṣáínà</gn:officialName>
+        <gn:officialName xml:lang="so">Shiinaha</gn:officialName>
+        <gn:officialName xml:lang="sg">Shîna</gn:officialName>
+        <gn:officialName xml:lang="lu">Shine</gn:officialName>
+        <gn:officialName xml:lang="to">Siaina</gn:officialName>
+        <gn:officialName xml:lang="ff">Siin</gn:officialName>
+        <gn:officialName xml:lang="wo">Siin</gn:officialName>
+        <gn:officialName xml:lang="ha">Sin</gn:officialName>
+        <gn:officialName xml:lang="br">Sina</gn:officialName>
+        <gn:officialName xml:lang="fy">Sina</gn:officialName>
+        <gn:alternateName xml:lang="kg">Sina</gn:alternateName>
+        <gn:officialName xml:lang="mg">Sina</gn:officialName>
+        <gn:officialName xml:lang="ln">Sinɛ</gn:officialName>
+        <gn:officialName xml:lang="bm">Siniwajamana</gn:officialName>
+        <gn:officialName xml:lang="id">Tiongkok</gn:officialName>
+        <gn:officialName xml:lang="su">Tiongkok</gn:officialName>
+        <gn:officialName xml:lang="vi">Trung Hoa</gn:officialName>
+        <gn:officialName xml:lang="vi">Trung Quốc</gn:officialName>
+        <gn:officialName xml:lang="ee">Tsaina nutome</gn:officialName>
+        <gn:officialName xml:lang="cy">Tsieina</gn:officialName>
+        <gn:alternateName xml:lang="ilo">Tsina</gn:alternateName>
+        <gn:alternateName xml:lang="tl">Tsina</gn:alternateName>
+        <gn:officialName xml:lang="eu">Txina</gn:officialName>
+        <gn:alternateName xml:lang="eu">Txinako Herri Errepublika</gn:alternateName>
+        <gn:officialName xml:lang="jv">Tyongkok</gn:officialName>
+        <gn:officialName xml:lang="rn">Ubushinwa</gn:officialName>
+        <gn:officialName xml:lang="sw">Uchina</gn:officialName>
+        <gn:alternateName xml:lang="nds">Volksrepubliek China</gn:alternateName>
+        <gn:alternateName xml:lang="nl">Volksrepubliek China</gn:alternateName>
+        <gn:alternateName xml:lang="af">Volksrepubliek van Sjina</gn:alternateName>
+        <gn:alternateName xml:lang="de">Volksrepublik China</gn:alternateName>
+        <gn:alternateName xml:lang="lb">Volleksrepublik China</gn:alternateName>
+        <gn:officialName xml:lang="ca">Xina</gn:officialName>
+        <gn:alternateName xml:lang="nah">Xina</gn:alternateName>
+        <gn:officialName xml:lang="uz">Xitoy</gn:officialName>
+        <gn:alternateName>Zhongguo</gn:alternateName>
+        <gn:alternateName>Zhonghua Renmin Gongheguo</gn:alternateName>
+        <gn:officialName xml:lang="el">Κίνα</gn:officialName>
+        <gn:alternateName xml:lang="el">Λαϊκή Δημοκρατία της Κίνας</gn:alternateName>
+        <gn:officialName xml:lang="mk">Кина</gn:officialName>
+        <gn:officialName xml:lang="sr">Кина</gn:officialName>
+        <gn:officialName xml:lang="bg">Китай</gn:officialName>
+        <gn:officialName xml:lang="os">Китай</gn:officialName>
+        <gn:officialName xml:lang="ru">Китай</gn:officialName>
+        <gn:officialName xml:lang="uk">Китай</gn:officialName>
+        <gn:alternateName xml:lang="bg">Китайска народна република</gn:alternateName>
+        <gn:alternateName xml:lang="uk">Китайська Народна Республіка</gn:alternateName>
+        <gn:alternateName xml:lang="cv">Китай Халăх Республики</gn:alternateName>
+        <gn:officialName xml:lang="be">Кітай</gn:officialName>
+        <gn:officialName xml:lang="ky">Кытай</gn:officialName>
+        <gn:officialName xml:lang="tt">Кытай</gn:officialName>
+        <gn:officialName xml:lang="kk">Қытай</gn:officialName>
+        <gn:alternateName xml:lang="kk">Қытай Халық Республикасы</gn:alternateName>
+        <gn:alternateName xml:lang="sr">Народна република Кина</gn:alternateName>
+        <gn:alternateName xml:lang="sr">Народна Република Кина</gn:alternateName>
+        <gn:officialName xml:lang="tg">Хитой</gn:officialName>
+        <gn:officialName xml:lang="mn">Хятад</gn:officialName>
+        <gn:alternateName xml:lang="mn">Хятад улс</gn:alternateName>
+        <gn:officialName xml:lang="ce">Цийчоь</gn:officialName>
+        <gn:officialName xml:lang="ka">ჩინეთი</gn:officialName>
+        <gn:officialName xml:lang="hy">Չինաստան</gn:officialName>
+        <gn:alternateName xml:lang="he">הרפובליקה העממית של סין</gn:alternateName>
+        <gn:officialName xml:lang="yi">כינע</gn:officialName>
+        <gn:officialName xml:lang="he">סין</gn:officialName>
+        <gn:officialName xml:lang="ar">الصين</gn:officialName>
+        <gn:alternateName xml:lang="ar">جمهورية الصين الشعبية</gn:alternateName>
+        <gn:alternateName xml:lang="ug">جۇڭخۇا خەلق جۇمھۇرىيىتى</gn:alternateName>
+        <gn:officialName xml:lang="ug">جۇڭگو</gn:officialName>
+        <gn:officialName xml:lang="sd">چين</gn:officialName>
+        <gn:officialName xml:lang="fa">چین</gn:officialName>
+        <gn:officialName xml:lang="ku">چین</gn:officialName>
+        <gn:officialName xml:lang="ps">چین</gn:officialName>
+        <gn:officialName xml:lang="ur">چین</gn:officialName>
+        <gn:officialName xml:lang="ks">چیٖن</gn:officialName>
+        <gn:alternateName xml:lang="ar">صين</gn:alternateName>
+        <gn:officialName xml:lang="am">ቻይና</gn:officialName>
+        <gn:officialName xml:lang="ti">ቻይና</gn:officialName>
+        <gn:officialName xml:lang="hi">चीन</gn:officialName>
+        <gn:officialName xml:lang="mr">चीन</gn:officialName>
+        <gn:officialName xml:lang="ne">चीन</gn:officialName>
+        <gn:officialName xml:lang="sa">चीन:</gn:officialName>
+        <gn:officialName xml:lang="as">চীন</gn:officialName>
+        <gn:officialName xml:lang="bn">চীন</gn:officialName>
+        <gn:officialName xml:lang="pa">ਚੀਨ</gn:officialName>
+        <gn:officialName xml:lang="gu">ચીન</gn:officialName>
+        <gn:officialName xml:lang="or">ଚିନ୍</gn:officialName>
+        <gn:alternateName xml:lang="ta">சீன மக்கள் குடியரசு</gn:alternateName>
+        <gn:officialName xml:lang="ta">சீனா</gn:officialName>
+        <gn:officialName xml:lang="te">చైనా</gn:officialName>
+        <gn:alternateName xml:lang="kn">ಚೀನ</gn:alternateName>
+        <gn:officialName xml:lang="kn">ಚೀನಾ</gn:officialName>
+        <gn:officialName xml:lang="ml">ചൈന</gn:officialName>
+        <gn:officialName xml:lang="si">චීනය</gn:officialName>
+        <gn:officialName xml:lang="th">จีน</gn:officialName>
+        <gn:alternateName xml:lang="th">ประเทศจีน</gn:alternateName>
+        <gn:officialName xml:lang="lo">ຈີນ</gn:officialName>
+        <gn:officialName xml:lang="bo">རྒྱ་ནག</gn:officialName>
+        <gn:officialName xml:lang="dz">རྒྱ་ནག</gn:officialName>
+        <gn:officialName xml:lang="my">တရုတ်</gn:officialName>
+        <gn:officialName xml:lang="km">ចិន</gn:officialName>
+        <gn:alternateName xml:lang="chr">ᏓᎶᏂᎨᏍᏛ</gn:alternateName>
+        <gn:officialName xml:lang="ii">ꍏꇩ</gn:officialName>
+        <gn:alternateName xml:lang="wuu">中华人民共和国</gn:alternateName>
+        <gn:alternateName xml:lang="zh">中华人民共和国</gn:alternateName>
+        <gn:alternateName>中华人民共和国</gn:alternateName>
+        <gn:officialName xml:lang="ja">中国</gn:officialName>
+        <gn:officialName xml:lang="zh">中国</gn:officialName>
+        <gn:alternateName>中国</gn:alternateName>
+        <gn:alternateName xml:lang="ja">中華人民共和国</gn:alternateName>
+        <gn:alternateName xml:lang="zh">中華人民共和國</gn:alternateName>
+        <gn:featureClass rdf:resource="https://www.geonames.org/ontology#A"/>
+        <gn:featureCode rdf:resource="https://www.geonames.org/ontology#A.PCLI"/>
+        <gn:countryCode>CN</gn:countryCode>
+        <gn:population>1411778724</gn:population>
+        <wgs84_pos:lat>35</wgs84_pos:lat>
+        <wgs84_pos:long>105</wgs84_pos:long>
+        <gn:parentFeature rdf:resource="https://sws.geonames.org/12217089/"/>
+        <gn:parentFeature rdf:resource="https://sws.geonames.org/7729894/"/>
+        <gn:childrenFeatures rdf:resource="https://sws.geonames.org/1814991/contains.rdf"/>
+        <gn:neighbouringFeatures rdf:resource="https://sws.geonames.org/1814991/neighbours.rdf"/>
+        <gn:locationMap rdf:resource="https://www.geonames.org/1814991/people-s-republic-of-china.html"/>
+        <gn:wikipediaArticle rdf:resource="https://en.wikipedia.org/wiki/China"/>
+        <rdfs:seeAlso rdf:resource="https://dbpedia.org/resource/China"/>
+        <gn:wikipediaArticle rdf:resource="https://ru.wikipedia.org/wiki/%D0%9A%D0%B8%D1%82%D0%B0%D0%B9"/>
+        <gn:wikipediaArticle rdf:resource="https://ru.wikipedia.org/wiki/%D0%9A%D0%B8%D1%82%D0%B0%D0%B9_%28%D1%86%D0%B8%D0%B2%D0%B8%D0%BB%D0%B8%D0%B7%D0%B0%D1%86%D0%B8%D1%8F%29"/>
+    </gn:Feature>
+    <foaf:Document rdf:about="https://sws.geonames.org/1814991/about.rdf">
+        <foaf:primaryTopic rdf:resource="https://sws.geonames.org/1814991/"/>
+        <cc:license rdf:resource="https://creativecommons.org/licenses/by/4.0/"/>
+        <cc:attributionURL rdf:resource="https://www.geonames.org"/>
+        <cc:attributionName rdf:datatype="https://www.w3.org/2001/XMLSchema#string">GeoNames</cc:attributionName>
+        <dcterms:created rdf:datatype="https://www.w3.org/2001/XMLSchema#date">2006-01-15</dcterms:created>
+        <dcterms:modified rdf:datatype="https://www.w3.org/2001/XMLSchema#date">2022-12-05</dcterms:modified>
+    </foaf:Document>
+</rdf:RDF>
