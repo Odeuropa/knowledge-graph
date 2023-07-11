@@ -155,7 +155,7 @@
         skosmos:loadExternalResources "true" ;
         skosmos:showTopConcepts "true" ;
         skosmos:externalProperty owl:sameAs, skos:closeMatch, skos:exactMatch;
-        skosmos:mainConceptScheme <http://data.odeuropa.eu/vocabulary/drom> ;
+        skosmos:mainConceptScheme <http://data.odeuropa.eu/vocabulary/drom/> ;
         void:sparqlEndpoint <https://data.odeuropa.eu/repositories/odeuropa> ;
         void:dataDump <https://github.com/Odeuropa/vocabularies/blob/main/vocabularies/drom.ttl> ;
         skosmos:sparqlGraph <http://data.odeuropa.eu/vocabulary/drom> .
