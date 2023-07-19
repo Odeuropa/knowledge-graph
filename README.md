@@ -185,6 +185,7 @@ Install skosmos using docker
     python convert_text.py -i ./input/dlib --lang sl --batch --metadata ris
 
 
+
 The URI pattern is described in a separate [README](URI-patterns.md).
 
 ## Funding acknowledgement
