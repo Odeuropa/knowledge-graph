@@ -21,7 +21,7 @@ with open(GEONAMES_CACHE, 'r') as _f:
         cache = {}
 
 IN_PREFIX = {
-    'en': r'(?i)^(at|in(to)?|upon|near|throughout|even( in)?|of|on|along|from|to|before) ',
+    'en': r'(?i)^(all )?(at|in(to)?|upon|between|down ([oi]n)?|every|about|above|across|his|her|our|out(side)?( in| of)?|near|throughout|even( in)?|of|on|along|from|to|before) ',
     'it': r"(?i)^(d'|a |in |(da|ne|su|a)(gl)?i |presso |per |(da|ne|su|a)(l(l[aoe])?)? |(da|ne|su)ll ?')",
     'fr': r"(?i)^((en|dans|à|aux?|sur) |d')",
     'nl': r'(?i)^(by|te|op|in) ',

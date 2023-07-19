@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<rdf:RDF xmlns:cc="http://creativecommons.org/ns#" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:foaf="http://xmlns.com/foaf/0.1/" xmlns:gn="http://www.geonames.org/ontology#" xmlns:owl="http://www.w3.org/2002/07/owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:wgs84_pos="http://www.w3.org/2003/01/geo/wgs84_pos#">
+    <gn:Feature rdf:about="https://sws.geonames.org/6697805/">
+        <rdfs:isDefinedBy rdf:resource="https://sws.geonames.org/6697805/about.rdf"/>
+        <gn:name>Ionian Islands</gn:name>
+        <gn:officialName xml:lang="ko">이오니아 제도 주</gn:officialName>
+        <gn:officialName xml:lang="fr">Îles Ioniennes</gn:officialName>
+        <gn:officialName xml:lang="en">Ionian Islands</gn:officialName>
+        <gn:officialName xml:lang="de">Ionische Inseln</gn:officialName>
+        <gn:officialName xml:lang="it">Isole Ionie</gn:officialName>
+        <gn:officialName xml:lang="el">Ιόνια Νησιά</gn:officialName>
+        <gn:featureClass rdf:resource="https://www.geonames.org/ontology#A"/>
+        <gn:featureCode rdf:resource="https://www.geonames.org/ontology#A.ADM1"/>
+        <gn:countryCode>GR</gn:countryCode>
+        <gn:population>200726</gn:population>
+        <wgs84_pos:lat>37.79299</wgs84_pos:lat>
+        <wgs84_pos:long>20.78305</wgs84_pos:long>
+        <gn:parentFeature rdf:resource="https://sws.geonames.org/390903/"/>
+        <gn:parentCountry rdf:resource="https://sws.geonames.org/390903/"/>
+        <gn:childrenFeatures rdf:resource="https://sws.geonames.org/6697805/contains.rdf"/>
+        <gn:locationMap rdf:resource="https://www.geonames.org/6697805/ionian-islands.html"/>
+        <gn:wikipediaArticle rdf:resource="https://en.wikipedia.org/wiki/Ionian_Islands_%28region%29"/>
+        <rdfs:seeAlso rdf:resource="https://dbpedia.org/resource/Ionian_Islands_%28region%29"/>
+    </gn:Feature>
+    <foaf:Document rdf:about="https://sws.geonames.org/6697805/about.rdf">
+        <foaf:primaryTopic rdf:resource="https://sws.geonames.org/6697805/"/>
+        <cc:license rdf:resource="https://creativecommons.org/licenses/by/4.0/"/>
+        <cc:attributionURL rdf:resource="https://www.geonames.org"/>
+        <cc:attributionName rdf:datatype="https://www.w3.org/2001/XMLSchema#string">GeoNames</cc:attributionName>
+        <dcterms:created rdf:datatype="https://www.w3.org/2001/XMLSchema#date">2008-11-11</dcterms:created>
+        <dcterms:modified rdf:datatype="https://www.w3.org/2001/XMLSchema#date">2022-12-25</dcterms:modified>
+    </foaf:Document>
+</rdf:RDF>

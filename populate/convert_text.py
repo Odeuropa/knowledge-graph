@@ -456,6 +456,7 @@ def run(root, output, lang=None, organised_in_batches=False, metadata_format='ts
         'gutenberg': Place.from_text('UK'),  # missing
         'gutenberg_it': Place.from_text('Italy'),  # missing
         'wikisource': Place.from_text('Italy'),  # missing,
+        'wikisource_en': Place.from_text('UK'),  # missing,
         'gallica': Place.from_text('France'),
         'dlib': Place.from_text('Slovenia'),
         'bibbleue': Place.from_text('Troyes')

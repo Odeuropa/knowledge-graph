@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<rdf:RDF xmlns:cc="http://creativecommons.org/ns#" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:foaf="http://xmlns.com/foaf/0.1/" xmlns:gn="http://www.geonames.org/ontology#" xmlns:owl="http://www.w3.org/2002/07/owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:wgs84_pos="http://www.w3.org/2003/01/geo/wgs84_pos#">
+    <gn:Feature rdf:about="https://sws.geonames.org/146189/">
+        <rdfs:isDefinedBy rdf:resource="https://sws.geonames.org/146189/about.rdf"/>
+        <gn:name>Pergamos</gn:name>
+        <gn:alternateName>Beyarmudu</gn:alternateName>
+        <gn:alternateName>Pergama</gn:alternateName>
+        <gn:alternateName xml:lang="en">Pergamos</gn:alternateName>
+        <gn:alternateName xml:lang="el">Pérgamos</gn:alternateName>
+        <gn:alternateName xml:lang="el">Πέργαμος</gn:alternateName>
+        <gn:officialName xml:lang="ru">Пергамос</gn:officialName>
+        <gn:featureClass rdf:resource="https://www.geonames.org/ontology#P"/>
+        <gn:featureCode rdf:resource="https://www.geonames.org/ontology#P.PPLA2"/>
+        <gn:countryCode>CY</gn:countryCode>
+        <gn:population>15000</gn:population>
+        <wgs84_pos:lat>35.04167</wgs84_pos:lat>
+        <wgs84_pos:long>33.70833</wgs84_pos:long>
+        <gn:parentFeature rdf:resource="https://sws.geonames.org/10346897/"/>
+        <gn:parentCountry rdf:resource="https://sws.geonames.org/146669/"/>
+        <gn:parentADM1 rdf:resource="https://sws.geonames.org/146398/"/>
+        <gn:parentADM2 rdf:resource="https://sws.geonames.org/10346897/"/>
+        <gn:nearbyFeatures rdf:resource="https://sws.geonames.org/146189/nearby.rdf"/>
+        <gn:locationMap rdf:resource="https://www.geonames.org/146189/pergamos.html"/>
+        <gn:wikipediaArticle rdf:resource="https://en.wikipedia.org/wiki/Pergamos%2C_Cyprus"/>
+        <rdfs:seeAlso rdf:resource="https://dbpedia.org/resource/Pergamos%2C_Cyprus"/>
+    </gn:Feature>
+    <foaf:Document rdf:about="https://sws.geonames.org/146189/about.rdf">
+        <foaf:primaryTopic rdf:resource="https://sws.geonames.org/146189/"/>
+        <cc:license rdf:resource="https://creativecommons.org/licenses/by/4.0/"/>
+        <cc:attributionURL rdf:resource="https://www.geonames.org"/>
+        <cc:attributionName rdf:datatype="https://www.w3.org/2001/XMLSchema#string">GeoNames</cc:attributionName>
+        <dcterms:created rdf:datatype="https://www.w3.org/2001/XMLSchema#date">2006-01-15</dcterms:created>
+        <dcterms:modified rdf:datatype="https://www.w3.org/2001/XMLSchema#date">2021-01-30</dcterms:modified>
+    </foaf:Document>
+</rdf:RDF>

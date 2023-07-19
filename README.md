@@ -62,6 +62,7 @@ Upload dumps
     python3 scripts/load_dump.py dta
     python3 scripts/load_dump.py dta_de2
     python3 scripts/load_dump.py wikisource
+    python3 scripts/load_dump.py wikisource_en
     python3 scripts/load_dump.py liberliber
     python3 scripts/load_dump.py dlib
     python3 scripts/load_dump.py dlib_sl0000
@@ -178,6 +179,7 @@ Install skosmos using docker
     python convert_text.py -i ./input/dbnl_nl3 --lang nl
     python convert_text.py -i ./input/liberliber --lang it
     python convert_text.py -i ./input/wikisource --lang it
+    python convert_text.py -i ./input/wikisource_en --lang en
     python convert_text.py -i ./input/dta --lang de
     python convert_text.py -i ./input/dta_de2 --lang de
     python convert_text.py -i ./input/dlib --lang sl --batch --metadata ris
