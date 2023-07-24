@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<rdf:RDF xmlns:cc="http://creativecommons.org/ns#" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:foaf="http://xmlns.com/foaf/0.1/" xmlns:gn="http://www.geonames.org/ontology#" xmlns:owl="http://www.w3.org/2002/07/owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:wgs84_pos="http://www.w3.org/2003/01/geo/wgs84_pos#">
+    <gn:Feature rdf:about="https://sws.geonames.org/4996884/">
+        <rdfs:isDefinedBy rdf:resource="https://sws.geonames.org/4996884/about.rdf"/>
+        <gn:name>Lake Huron</gn:name>
+        <gn:alternateName>Great Lake of the Hurons</gn:alternateName>
+        <gn:alternateName>Karegnondi</gn:alternateName>
+        <gn:alternateName>Lac des Hurons</gn:alternateName>
+        <gn:alternateName>Lac D'Orleans</gn:alternateName>
+        <gn:alternateName>Lago Huron</gn:alternateName>
+        <gn:officialName xml:lang="en">Lake Huron</gn:officialName>
+        <gn:alternateName>Lake Hurons</gn:alternateName>
+        <gn:alternateName>Lake of Hurons</gn:alternateName>
+        <gn:alternateName>La Mer Dulce</gn:alternateName>
+        <gn:alternateName>Mer Douce</gn:alternateName>
+        <gn:alternateName>Michigane Lac</gn:alternateName>
+        <gn:featureClass rdf:resource="https://www.geonames.org/ontology#H"/>
+        <gn:featureCode rdf:resource="https://www.geonames.org/ontology#H.LK"/>
+        <gn:countryCode>US</gn:countryCode>
+        <wgs84_pos:lat>44.73449</wgs84_pos:lat>
+        <wgs84_pos:long>-83.12187</wgs84_pos:long>
+        <wgs84_pos:alt>176</wgs84_pos:alt>
+        <gn:parentFeature rdf:resource="https://sws.geonames.org/4983917/"/>
+        <gn:parentCountry rdf:resource="https://sws.geonames.org/6252001/"/>
+        <gn:parentADM1 rdf:resource="https://sws.geonames.org/5001836/"/>
+        <gn:parentADM2 rdf:resource="https://sws.geonames.org/4983917/"/>
+        <gn:nearbyFeatures rdf:resource="https://sws.geonames.org/4996884/nearby.rdf"/>
+        <gn:locationMap rdf:resource="https://www.geonames.org/4996884/lake-huron.html"/>
+    </gn:Feature>
+    <foaf:Document rdf:about="https://sws.geonames.org/4996884/about.rdf">
+        <foaf:primaryTopic rdf:resource="https://sws.geonames.org/4996884/"/>
+        <cc:license rdf:resource="https://creativecommons.org/licenses/by/4.0/"/>
+        <cc:attributionURL rdf:resource="https://www.geonames.org"/>
+        <cc:attributionName rdf:datatype="https://www.w3.org/2001/XMLSchema#string">GeoNames</cc:attributionName>
+        <dcterms:created rdf:datatype="https://www.w3.org/2001/XMLSchema#date">2006-01-15</dcterms:created>
+        <dcterms:modified rdf:datatype="https://www.w3.org/2001/XMLSchema#date">2016-12-07</dcterms:modified>
+    </foaf:Document>
+</rdf:RDF>

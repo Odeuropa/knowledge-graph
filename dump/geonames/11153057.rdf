@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<rdf:RDF xmlns:cc="http://creativecommons.org/ns#" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:foaf="http://xmlns.com/foaf/0.1/" xmlns:gn="http://www.geonames.org/ontology#" xmlns:owl="http://www.w3.org/2002/07/owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:wgs84_pos="http://www.w3.org/2003/01/geo/wgs84_pos#">
+    <gn:Feature rdf:about="https://sws.geonames.org/11153057/">
+        <rdfs:isDefinedBy rdf:resource="https://sws.geonames.org/11153057/about.rdf"/>
+        <gn:name>Lagunes</gn:name>
+        <gn:featureClass rdf:resource="https://www.geonames.org/ontology#A"/>
+        <gn:featureCode rdf:resource="https://www.geonames.org/ontology#A.ADM1"/>
+        <gn:countryCode>CI</gn:countryCode>
+        <gn:population>2042623</gn:population>
+        <wgs84_pos:lat>5.87068</wgs84_pos:lat>
+        <wgs84_pos:long>-4.29862</wgs84_pos:long>
+        <gn:parentFeature rdf:resource="https://sws.geonames.org/2287781/"/>
+        <gn:parentCountry rdf:resource="https://sws.geonames.org/2287781/"/>
+        <gn:childrenFeatures rdf:resource="https://sws.geonames.org/11153057/contains.rdf"/>
+        <gn:locationMap rdf:resource="https://www.geonames.org/11153057/lagunes.html"/>
+        <gn:wikipediaArticle rdf:resource="https://en.wikipedia.org/wiki/Lagunes_District"/>
+        <rdfs:seeAlso rdf:resource="https://dbpedia.org/resource/Lagunes_District"/>
+    </gn:Feature>
+    <foaf:Document rdf:about="https://sws.geonames.org/11153057/about.rdf">
+        <foaf:primaryTopic rdf:resource="https://sws.geonames.org/11153057/"/>
+        <cc:license rdf:resource="https://creativecommons.org/licenses/by/4.0/"/>
+        <cc:attributionURL rdf:resource="https://www.geonames.org"/>
+        <cc:attributionName rdf:datatype="https://www.w3.org/2001/XMLSchema#string">GeoNames</cc:attributionName>
+        <dcterms:created rdf:datatype="https://www.w3.org/2001/XMLSchema#date">2016-05-17</dcterms:created>
+        <dcterms:modified rdf:datatype="https://www.w3.org/2001/XMLSchema#date">2022-12-11</dcterms:modified>
+    </foaf:Document>
+</rdf:RDF>

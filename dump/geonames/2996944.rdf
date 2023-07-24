@@ -1,47 +1,379 @@
-<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd ">
-<html>
-<head>
-<title>GeoNames</title>
-<link rel="search" type="application/opensearchdescription+xml" title="geonames" href="https://www.geonames.org/opensearch-description.xml">
-<link href="/geonames.ico" rel="shortcut icon" >
-<link rel="StyleSheet" href="/geonames.css" type="text/css" >
-</head>
-<body>
-<table id="topmenutable" cellpadding="0" cellspacing="0"><tr>
-<td class="topmenu">&nbsp;<a href="/" title="GeoName Home">&nbsp;GeoNames Home</a>&nbsp;|&nbsp;<a href="/postal-codes/" title="Postal Codes">Postal Codes</a>&nbsp;|&nbsp;<a href="/export/" title="Database Dump and Webservice API">Download / Webservice</a>&nbsp;|&nbsp;<a href="/about.html" title="About GeoNames">About</a>&nbsp;</td>
-<td class="topsearch">
-   <form class="topsearch" name="searchForm" method="get" action="/servlet/geonames" >
-
-      search <input class="topmenu" name="q" size="20" value="" type="text">
-     <input type="hidden" name="srv" value="1">
-   </form>
-
-   <span id="topmenulogin">
-<a href="https://www.geonames.org/login" title="login or create new user account">login</a>
-   </span>
-</td></tr>
-</table>
-
-<br><br><br><br>
-<div style="margin:auto; width:500px; padding:40px; text-align:left" class="formTemplateClass">
-Connection to localhost:5432 refused. Check that the hostname and port are correct and that the postmaster is accepting TCP/IP connections.
-</div>
-
-
-<p>&nbsp;</p><p>&nbsp;</p><p>&nbsp;</p><p>&nbsp;</p>
-<div id="pageFooter">
-info@geonames.org  <img src="/img/smallant.gif" alt="ant" align="middle" hspace="40" border="0">
-<p>
-<a href="/">GeoNames Home</a>
-<span class="separator">&#8226;</span>
-<a href="/postal-codes/">Postal Codes</a>
-<span class="separator">&#8226;</span>
-<a href="/export/">Download / Webservice</a>
-<span class="separator">&#8226;</span>
-<a href="http://forum.geonames.org">Forum</a>
-<span class="separator">&#8226;</span>
-<a href="http://geonames.wordpress.com">Blog</a>
-<span class="separator">&#8226;</span>
-<a href="/sitemap.html">Sitemap</a>
-</div>
-</body></html>
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<rdf:RDF xmlns:cc="http://creativecommons.org/ns#" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:foaf="http://xmlns.com/foaf/0.1/" xmlns:gn="http://www.geonames.org/ontology#" xmlns:owl="http://www.w3.org/2002/07/owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:wgs84_pos="http://www.w3.org/2003/01/geo/wgs84_pos#">
+    <gn:Feature rdf:about="https://sws.geonames.org/2996944/">
+        <rdfs:isDefinedBy rdf:resource="https://sws.geonames.org/2996944/about.rdf"/>
+        <gn:name>Lyon</gn:name>
+        <gn:alternateName xml:lang="ko">리옹</gn:alternateName>
+        <gn:alternateName xml:lang="an">León do Roine</gn:alternateName>
+        <gn:alternateName xml:lang="ca">Lió</gn:alternateName>
+        <gn:alternateName xml:lang="jbo">lion</gn:alternateName>
+        <gn:alternateName xml:lang="az">Lion</gn:alternateName>
+        <gn:alternateName xml:lang="lij">Lion</gn:alternateName>
+        <gn:alternateName xml:lang="oc">Lion</gn:alternateName>
+        <gn:alternateName xml:lang="pms">Lion</gn:alternateName>
+        <gn:alternateName xml:lang="sq">Lion</gn:alternateName>
+        <gn:alternateName xml:lang="ug">Lion</gn:alternateName>
+        <gn:alternateName xml:lang="uz">Lion</gn:alternateName>
+        <gn:alternateName xml:lang="vec">Lion</gn:alternateName>
+        <gn:alternateName xml:lang="vep">Lion</gn:alternateName>
+        <gn:alternateName xml:lang="gl">Lión</gn:alternateName>
+        <gn:alternateName xml:lang="lv">Liona</gn:alternateName>
+        <gn:alternateName xml:lang="lt">Lionas</gn:alternateName>
+        <gn:alternateName xml:lang="it">Lione</gn:alternateName>
+        <gn:alternateName xml:lang="nap">Lione</gn:alternateName>
+        <gn:alternateName xml:lang="sc">Lione</gn:alternateName>
+        <gn:alternateName xml:lang="scn">Lioni</gn:alternateName>
+        <gn:alternateName xml:lang="eo">Liono</gn:alternateName>
+        <gn:alternateName xml:lang="lmo">Liun</gn:alternateName>
+        <gn:alternateName xml:lang="frp">Liyon</gn:alternateName>
+        <gn:alternateName xml:lang="ku">Liyon</gn:alternateName>
+        <gn:alternateName xml:lang="la">Lugdunum</gn:alternateName>
+        <gn:alternateName xml:lang="af">Lyon</gn:alternateName>
+        <gn:alternateName xml:lang="cs">Lyon</gn:alternateName>
+        <gn:alternateName xml:lang="da">Lyon</gn:alternateName>
+        <gn:alternateName xml:lang="de">Lyon</gn:alternateName>
+        <gn:alternateName xml:lang="en">Lyon</gn:alternateName>
+        <gn:alternateName xml:lang="es">Lyon</gn:alternateName>
+        <gn:alternateName xml:lang="et">Lyon</gn:alternateName>
+        <gn:alternateName xml:lang="eu">Lyon</gn:alternateName>
+        <gn:alternateName xml:lang="fi">Lyon</gn:alternateName>
+        <gn:alternateName xml:lang="fr">Lyon</gn:alternateName>
+        <gn:alternateName xml:lang="hr">Lyon</gn:alternateName>
+        <gn:alternateName xml:lang="hu">Lyon</gn:alternateName>
+        <gn:alternateName xml:lang="ia">Lyon</gn:alternateName>
+        <gn:alternateName xml:lang="id">Lyon</gn:alternateName>
+        <gn:alternateName xml:lang="is">Lyon</gn:alternateName>
+        <gn:alternateName xml:lang="lad">Lyon</gn:alternateName>
+        <gn:alternateName xml:lang="li">Lyon</gn:alternateName>
+        <gn:alternateName xml:lang="nl">Lyon</gn:alternateName>
+        <gn:alternateName xml:lang="no">Lyon</gn:alternateName>
+        <gn:alternateName xml:lang="pl">Lyon</gn:alternateName>
+        <gn:alternateName xml:lang="pt">Lyon</gn:alternateName>
+        <gn:alternateName xml:lang="qu">Lyon</gn:alternateName>
+        <gn:alternateName xml:lang="ro">Lyon</gn:alternateName>
+        <gn:alternateName xml:lang="sk">Lyon</gn:alternateName>
+        <gn:alternateName xml:lang="sl">Lyon</gn:alternateName>
+        <gn:alternateName xml:lang="sv">Lyon</gn:alternateName>
+        <gn:alternateName xml:lang="sw">Lyon</gn:alternateName>
+        <gn:alternateName xml:lang="tr">Lyon</gn:alternateName>
+        <gn:alternateName>Lyon</gn:alternateName>
+        <gn:alternateName>Lyons</gn:alternateName>
+        <gn:officialName xml:lang="el">Λυών</gn:officialName>
+        <gn:alternateName xml:lang="bg">Лион</gn:alternateName>
+        <gn:alternateName xml:lang="ce">Лион</gn:alternateName>
+        <gn:alternateName xml:lang="kk">Лион</gn:alternateName>
+        <gn:alternateName xml:lang="mk">Лион</gn:alternateName>
+        <gn:alternateName xml:lang="os">Лион</gn:alternateName>
+        <gn:alternateName xml:lang="ru">Лион</gn:alternateName>
+        <gn:alternateName xml:lang="sr">Лион</gn:alternateName>
+        <gn:alternateName xml:lang="be">Ліён</gn:alternateName>
+        <gn:alternateName xml:lang="uk">Ліон</gn:alternateName>
+        <gn:alternateName xml:lang="ka">ლიონი</gn:alternateName>
+        <gn:alternateName xml:lang="xmf">ლიონი</gn:alternateName>
+        <gn:alternateName xml:lang="hy">Լիոն</gn:alternateName>
+        <gn:alternateName xml:lang="yi">ליאן</gn:alternateName>
+        <gn:alternateName xml:lang="he">ליון</gn:alternateName>
+        <gn:alternateName xml:lang="ar">ليون</gn:alternateName>
+        <gn:alternateName xml:lang="fa">لیون</gn:alternateName>
+        <gn:alternateName xml:lang="mzn">لیون</gn:alternateName>
+        <gn:alternateName xml:lang="pnb">لیون</gn:alternateName>
+        <gn:alternateName xml:lang="ur">لیون</gn:alternateName>
+        <gn:alternateName xml:lang="ckb">لیۆن</gn:alternateName>
+        <gn:alternateName xml:lang="am">ልዮን</gn:alternateName>
+        <gn:alternateName xml:lang="hi">ल्यों</gn:alternateName>
+        <gn:alternateName xml:lang="mr">ल्यों</gn:alternateName>
+        <gn:alternateName xml:lang="pa">ਲਿਓਂ</gn:alternateName>
+        <gn:alternateName xml:lang="or">ଲିଓନ</gn:alternateName>
+        <gn:alternateName xml:lang="ta">லியோன்</gn:alternateName>
+        <gn:alternateName xml:lang="th">ลียง</gn:alternateName>
+        <gn:alternateName xml:lang="bo">ལི་ཡོང་།</gn:alternateName>
+        <gn:alternateName xml:lang="my">လီယွန်းမြို့</gn:alternateName>
+        <gn:alternateName xml:lang="ja">リヨン</gn:alternateName>
+        <gn:alternateName xml:lang="wuu">里昂</gn:alternateName>
+        <gn:alternateName xml:lang="yue">里昂</gn:alternateName>
+        <gn:alternateName xml:lang="zh">里昂</gn:alternateName>
+        <gn:featureClass rdf:resource="https://www.geonames.org/ontology#P"/>
+        <gn:featureCode rdf:resource="https://www.geonames.org/ontology#P.PPLA"/>
+        <gn:countryCode>FR</gn:countryCode>
+        <gn:population>522969</gn:population>
+        <gn:postalCode>69000</gn:postalCode>
+        <gn:postalCode>69001</gn:postalCode>
+        <gn:postalCode>69002</gn:postalCode>
+        <gn:postalCode>69003</gn:postalCode>
+        <gn:postalCode>69004</gn:postalCode>
+        <gn:postalCode>69005</gn:postalCode>
+        <gn:postalCode>69006</gn:postalCode>
+        <gn:postalCode>69007</gn:postalCode>
+        <gn:postalCode>69008</gn:postalCode>
+        <gn:postalCode>69009</gn:postalCode>
+        <gn:postalCode>69061 CEDEX 06</gn:postalCode>
+        <gn:postalCode>69062 CEDEX 06</gn:postalCode>
+        <gn:postalCode>69064 CEDEX 06</gn:postalCode>
+        <gn:postalCode>69129 CEDEX 08</gn:postalCode>
+        <gn:postalCode>69201 CEDEX 01</gn:postalCode>
+        <gn:postalCode>69202 CEDEX 01</gn:postalCode>
+        <gn:postalCode>69203 CEDEX 01</gn:postalCode>
+        <gn:postalCode>69204 CEDEX 01</gn:postalCode>
+        <gn:postalCode>69205 CEDEX 01</gn:postalCode>
+        <gn:postalCode>69206 CEDEX 01</gn:postalCode>
+        <gn:postalCode>69207 CEDEX 01</gn:postalCode>
+        <gn:postalCode>69208 CEDEX 01</gn:postalCode>
+        <gn:postalCode>69209 CEDEX 01</gn:postalCode>
+        <gn:postalCode>69211 CEDEX 03</gn:postalCode>
+        <gn:postalCode>69212 CEDEX 03</gn:postalCode>
+        <gn:postalCode>69213 CEDEX 02</gn:postalCode>
+        <gn:postalCode>69214 CEDEX 02</gn:postalCode>
+        <gn:postalCode>69215 CEDEX 02</gn:postalCode>
+        <gn:postalCode>69216 CEDEX 02</gn:postalCode>
+        <gn:postalCode>69217 CEDEX 02</gn:postalCode>
+        <gn:postalCode>69218 CEDEX 02</gn:postalCode>
+        <gn:postalCode>69219 CEDEX 02</gn:postalCode>
+        <gn:postalCode>69225 CEDEX 02</gn:postalCode>
+        <gn:postalCode>69226 CEDEX 02</gn:postalCode>
+        <gn:postalCode>69227 CEDEX 02</gn:postalCode>
+        <gn:postalCode>69228 CEDEX 02</gn:postalCode>
+        <gn:postalCode>69229 CEDEX 02</gn:postalCode>
+        <gn:postalCode>69232 CEDEX 02</gn:postalCode>
+        <gn:postalCode>69237 CEDEX 02</gn:postalCode>
+        <gn:postalCode>69239 CEDEX 02</gn:postalCode>
+        <gn:postalCode>69241 CEDEX 04</gn:postalCode>
+        <gn:postalCode>69242 CEDEX 04</gn:postalCode>
+        <gn:postalCode>69243 CEDEX 04</gn:postalCode>
+        <gn:postalCode>69244 CEDEX 04</gn:postalCode>
+        <gn:postalCode>69245 CEDEX 05</gn:postalCode>
+        <gn:postalCode>69246 CEDEX 05</gn:postalCode>
+        <gn:postalCode>69247 CEDEX 05</gn:postalCode>
+        <gn:postalCode>69251 CEDEX 09</gn:postalCode>
+        <gn:postalCode>69252 CEDEX 09</gn:postalCode>
+        <gn:postalCode>69253 CEDEX 09</gn:postalCode>
+        <gn:postalCode>69255 CEDEX 09</gn:postalCode>
+        <gn:postalCode>69256 CEDEX 09</gn:postalCode>
+        <gn:postalCode>69257 CEDEX 09</gn:postalCode>
+        <gn:postalCode>69258 CEDEX 09</gn:postalCode>
+        <gn:postalCode>69259 CEDEX 09</gn:postalCode>
+        <gn:postalCode>69261 CEDEX 09</gn:postalCode>
+        <gn:postalCode>69262 CEDEX 09</gn:postalCode>
+        <gn:postalCode>69263 CEDEX 09</gn:postalCode>
+        <gn:postalCode>69264 CEDEX 09</gn:postalCode>
+        <gn:postalCode>69265 CEDEX 09</gn:postalCode>
+        <gn:postalCode>69266 CEDEX 09</gn:postalCode>
+        <gn:postalCode>69267 CEDEX 02</gn:postalCode>
+        <gn:postalCode>69268 CEDEX 02</gn:postalCode>
+        <gn:postalCode>69269 CEDEX 02</gn:postalCode>
+        <gn:postalCode>69271 CEDEX 02</gn:postalCode>
+        <gn:postalCode>69272 CEDEX 02</gn:postalCode>
+        <gn:postalCode>69275 CEDEX 03</gn:postalCode>
+        <gn:postalCode>69276 CEDEX 04</gn:postalCode>
+        <gn:postalCode>69279 CEDEX 09</gn:postalCode>
+        <gn:postalCode>69281 CEDEX 01</gn:postalCode>
+        <gn:postalCode>69282 CEDEX 01</gn:postalCode>
+        <gn:postalCode>69283 CEDEX 01</gn:postalCode>
+        <gn:postalCode>69284 CEDEX 02</gn:postalCode>
+        <gn:postalCode>69285 CEDEX 02</gn:postalCode>
+        <gn:postalCode>69286 CEDEX 02</gn:postalCode>
+        <gn:postalCode>69287 CEDEX 02</gn:postalCode>
+        <gn:postalCode>69288 CEDEX 02</gn:postalCode>
+        <gn:postalCode>69289 CEDEX 02</gn:postalCode>
+        <gn:postalCode>69291 CEDEX 02</gn:postalCode>
+        <gn:postalCode>69292 CEDEX 02</gn:postalCode>
+        <gn:postalCode>69293 CEDEX 02</gn:postalCode>
+        <gn:postalCode>69294 CEDEX 02</gn:postalCode>
+        <gn:postalCode>69301 CEDEX 07</gn:postalCode>
+        <gn:postalCode>69302 CEDEX 07</gn:postalCode>
+        <gn:postalCode>69303 CEDEX 07</gn:postalCode>
+        <gn:postalCode>69307 CEDEX 07</gn:postalCode>
+        <gn:postalCode>69309 CEDEX 07</gn:postalCode>
+        <gn:postalCode>69316 CEDEX 04</gn:postalCode>
+        <gn:postalCode>69317 CEDEX 04</gn:postalCode>
+        <gn:postalCode>69319 CEDEX 04</gn:postalCode>
+        <gn:postalCode>69321 CEDEX 05</gn:postalCode>
+        <gn:postalCode>69322 CEDEX 05</gn:postalCode>
+        <gn:postalCode>69326 CEDEX 03</gn:postalCode>
+        <gn:postalCode>69327 CEDEX 03</gn:postalCode>
+        <gn:postalCode>69328 CEDEX 03</gn:postalCode>
+        <gn:postalCode>69329 CEDEX 03</gn:postalCode>
+        <gn:postalCode>69336 CEDEX 09</gn:postalCode>
+        <gn:postalCode>69337 CEDEX 09</gn:postalCode>
+        <gn:postalCode>69338 CEDEX 09</gn:postalCode>
+        <gn:postalCode>69339 CEDEX 02</gn:postalCode>
+        <gn:postalCode>69341 CEDEX 07</gn:postalCode>
+        <gn:postalCode>69342 CEDEX 07</gn:postalCode>
+        <gn:postalCode>69343 CEDEX 07</gn:postalCode>
+        <gn:postalCode>69344 CEDEX 07</gn:postalCode>
+        <gn:postalCode>69345 CEDEX 07</gn:postalCode>
+        <gn:postalCode>69346 CEDEX 07</gn:postalCode>
+        <gn:postalCode>69347 CEDEX 07</gn:postalCode>
+        <gn:postalCode>69348 CEDEX 07</gn:postalCode>
+        <gn:postalCode>69349 CEDEX 07</gn:postalCode>
+        <gn:postalCode>69351 CEDEX 08</gn:postalCode>
+        <gn:postalCode>69352 CEDEX 08</gn:postalCode>
+        <gn:postalCode>69353 CEDEX 07</gn:postalCode>
+        <gn:postalCode>69354 CEDEX 07</gn:postalCode>
+        <gn:postalCode>69355 CEDEX 08</gn:postalCode>
+        <gn:postalCode>69356 CEDEX 08</gn:postalCode>
+        <gn:postalCode>69357 CEDEX 07</gn:postalCode>
+        <gn:postalCode>69358 CEDEX 07</gn:postalCode>
+        <gn:postalCode>69359 CEDEX 08</gn:postalCode>
+        <gn:postalCode>69361 CEDEX 07</gn:postalCode>
+        <gn:postalCode>69362 CEDEX 07</gn:postalCode>
+        <gn:postalCode>69363 CEDEX 07</gn:postalCode>
+        <gn:postalCode>69364 CEDEX 07</gn:postalCode>
+        <gn:postalCode>69365 CEDEX 07</gn:postalCode>
+        <gn:postalCode>69366 CEDEX 07</gn:postalCode>
+        <gn:postalCode>69367 CEDEX 07</gn:postalCode>
+        <gn:postalCode>69369 CEDEX 07</gn:postalCode>
+        <gn:postalCode>69371 CEDEX 08</gn:postalCode>
+        <gn:postalCode>69372 CEDEX 08</gn:postalCode>
+        <gn:postalCode>69373 CEDEX 08</gn:postalCode>
+        <gn:postalCode>69376 CEDEX 08</gn:postalCode>
+        <gn:postalCode>69377 CEDEX 08</gn:postalCode>
+        <gn:postalCode>69379 CEDEX 08</gn:postalCode>
+        <gn:postalCode>69384 CEDEX 08</gn:postalCode>
+        <gn:postalCode>69385 CEDEX 08</gn:postalCode>
+        <gn:postalCode>69389 CEDEX 07</gn:postalCode>
+        <gn:postalCode>69391 CEDEX 03</gn:postalCode>
+        <gn:postalCode>69392 CEDEX 03</gn:postalCode>
+        <gn:postalCode>69393 CEDEX 03</gn:postalCode>
+        <gn:postalCode>69394 CEDEX 03</gn:postalCode>
+        <gn:postalCode>69395 CEDEX 03</gn:postalCode>
+        <gn:postalCode>69396 CEDEX 03</gn:postalCode>
+        <gn:postalCode>69397 CEDEX 03</gn:postalCode>
+        <gn:postalCode>69398 CEDEX 03</gn:postalCode>
+        <gn:postalCode>69399 CEDEX 03</gn:postalCode>
+        <gn:postalCode>69401 CEDEX 03</gn:postalCode>
+        <gn:postalCode>69402 CEDEX 03</gn:postalCode>
+        <gn:postalCode>69403 CEDEX 03</gn:postalCode>
+        <gn:postalCode>69404 CEDEX 03</gn:postalCode>
+        <gn:postalCode>69405 CEDEX 03</gn:postalCode>
+        <gn:postalCode>69406 CEDEX 03</gn:postalCode>
+        <gn:postalCode>69408 CEDEX 03</gn:postalCode>
+        <gn:postalCode>69409 CEDEX 03</gn:postalCode>
+        <gn:postalCode>69411 CEDEX 06</gn:postalCode>
+        <gn:postalCode>69412 CEDEX 06</gn:postalCode>
+        <gn:postalCode>69413 CEDEX 06</gn:postalCode>
+        <gn:postalCode>69414 CEDEX 06</gn:postalCode>
+        <gn:postalCode>69415 CEDEX 06</gn:postalCode>
+        <gn:postalCode>69416 CEDEX 03</gn:postalCode>
+        <gn:postalCode>69417 CEDEX 03</gn:postalCode>
+        <gn:postalCode>69418 CEDEX 03</gn:postalCode>
+        <gn:postalCode>69419 CEDEX 03</gn:postalCode>
+        <gn:postalCode>69421 CEDEX 03</gn:postalCode>
+        <gn:postalCode>69422 CEDEX 03</gn:postalCode>
+        <gn:postalCode>69423 CEDEX 03</gn:postalCode>
+        <gn:postalCode>69424 CEDEX 03</gn:postalCode>
+        <gn:postalCode>69425 CEDEX 03</gn:postalCode>
+        <gn:postalCode>69426 CEDEX 03</gn:postalCode>
+        <gn:postalCode>69427 CEDEX 03</gn:postalCode>
+        <gn:postalCode>69428 CEDEX 03</gn:postalCode>
+        <gn:postalCode>69429 CEDEX 03</gn:postalCode>
+        <gn:postalCode>69431 CEDEX 03</gn:postalCode>
+        <gn:postalCode>69432 CEDEX 03</gn:postalCode>
+        <gn:postalCode>69433 CEDEX 03</gn:postalCode>
+        <gn:postalCode>69434 CEDEX 03</gn:postalCode>
+        <gn:postalCode>69435 CEDEX 03</gn:postalCode>
+        <gn:postalCode>69436 CEDEX 03</gn:postalCode>
+        <gn:postalCode>69437 CEDEX 03</gn:postalCode>
+        <gn:postalCode>69438 CEDEX 03</gn:postalCode>
+        <gn:postalCode>69439 CEDEX 03</gn:postalCode>
+        <gn:postalCode>69441 CEDEX 03</gn:postalCode>
+        <gn:postalCode>69442 CEDEX 03</gn:postalCode>
+        <gn:postalCode>69443 CEDEX 03</gn:postalCode>
+        <gn:postalCode>69444 CEDEX 03</gn:postalCode>
+        <gn:postalCode>69445 CEDEX 03</gn:postalCode>
+        <gn:postalCode>69446 CEDEX 03</gn:postalCode>
+        <gn:postalCode>69447 CEDEX 03</gn:postalCode>
+        <gn:postalCode>69448 CEDEX 03</gn:postalCode>
+        <gn:postalCode>69449 CEDEX 03</gn:postalCode>
+        <gn:postalCode>69451 CEDEX 06</gn:postalCode>
+        <gn:postalCode>69452 CEDEX 06</gn:postalCode>
+        <gn:postalCode>69453 CEDEX 06</gn:postalCode>
+        <gn:postalCode>69454 CEDEX 06</gn:postalCode>
+        <gn:postalCode>69455 CEDEX 06</gn:postalCode>
+        <gn:postalCode>69456 CEDEX 06</gn:postalCode>
+        <gn:postalCode>69457 CEDEX 06</gn:postalCode>
+        <gn:postalCode>69458 CEDEX 06</gn:postalCode>
+        <gn:postalCode>69459 CEDEX 06</gn:postalCode>
+        <gn:postalCode>69461 CEDEX 06</gn:postalCode>
+        <gn:postalCode>69463 CEDEX 06</gn:postalCode>
+        <gn:postalCode>69464 CEDEX 06</gn:postalCode>
+        <gn:postalCode>69465 CEDEX 06</gn:postalCode>
+        <gn:postalCode>69466 CEDEX 06</gn:postalCode>
+        <gn:postalCode>69467 CEDEX 06</gn:postalCode>
+        <gn:postalCode>69468 CEDEX 06</gn:postalCode>
+        <gn:postalCode>69469 CEDEX 06</gn:postalCode>
+        <gn:postalCode>69472 CEDEX 06</gn:postalCode>
+        <gn:postalCode>69474 CEDEX 06</gn:postalCode>
+        <gn:postalCode>69475 CEDEX 06</gn:postalCode>
+        <gn:postalCode>69476 CEDEX 06</gn:postalCode>
+        <gn:postalCode>69477 CEDEX 06</gn:postalCode>
+        <gn:postalCode>69478 CEDEX 06</gn:postalCode>
+        <gn:postalCode>69479 CEDEX 06</gn:postalCode>
+        <gn:postalCode>69481 CEDEX 03</gn:postalCode>
+        <gn:postalCode>69482 CEDEX 03</gn:postalCode>
+        <gn:postalCode>69483 CEDEX 03</gn:postalCode>
+        <gn:postalCode>69484 CEDEX 03</gn:postalCode>
+        <gn:postalCode>69485 CEDEX 03</gn:postalCode>
+        <gn:postalCode>69486 CEDEX 03</gn:postalCode>
+        <gn:postalCode>69487 CEDEX 03</gn:postalCode>
+        <gn:postalCode>69488 CEDEX 03</gn:postalCode>
+        <gn:postalCode>69489 CEDEX 03</gn:postalCode>
+        <gn:postalCode>69501 CEDEX 03</gn:postalCode>
+        <gn:postalCode>69502 CEDEX 03</gn:postalCode>
+        <gn:postalCode>69503 CEDEX 03</gn:postalCode>
+        <gn:postalCode>69505 CEDEX 03</gn:postalCode>
+        <gn:postalCode>69509 CEDEX 03</gn:postalCode>
+        <gn:postalCode>69841 CEDEX 20</gn:postalCode>
+        <gn:postalCode>69900 CEDEX 20</gn:postalCode>
+        <gn:postalCode>69901 CEDEX 20</gn:postalCode>
+        <gn:postalCode>69902 CEDEX 20</gn:postalCode>
+        <gn:postalCode>69903 CEDEX 20</gn:postalCode>
+        <gn:postalCode>69904 CEDEX 20</gn:postalCode>
+        <gn:postalCode>69905 CEDEX 20</gn:postalCode>
+        <gn:postalCode>69906 CEDEX 20</gn:postalCode>
+        <gn:postalCode>69907 CEDEX 20</gn:postalCode>
+        <gn:postalCode>69908 CEDEX 20</gn:postalCode>
+        <gn:postalCode>69931 CEDEX 20</gn:postalCode>
+        <gn:postalCode>69932 CEDEX 20</gn:postalCode>
+        <gn:postalCode>69933 CEDEX 20</gn:postalCode>
+        <gn:postalCode>69934 CEDEX 20</gn:postalCode>
+        <gn:postalCode>69935 CEDEX 20</gn:postalCode>
+        <gn:postalCode>69936 CEDEX 20</gn:postalCode>
+        <gn:postalCode>69937 CEDEX 20</gn:postalCode>
+        <gn:postalCode>69938 CEDEX 20</gn:postalCode>
+        <gn:postalCode>69939 CEDEX 20</gn:postalCode>
+        <gn:postalCode>69942 CEDEX 20</gn:postalCode>
+        <gn:postalCode>69945 CEDEX 20</gn:postalCode>
+        <gn:postalCode>69946 CEDEX 20</gn:postalCode>
+        <gn:postalCode>69947 CEDEX 20</gn:postalCode>
+        <gn:postalCode>69948 CEDEX 20</gn:postalCode>
+        <gn:postalCode>69949 CEDEX 20</gn:postalCode>
+        <gn:postalCode>69951 CEDEX 20</gn:postalCode>
+        <gn:postalCode>69952 CEDEX 20</gn:postalCode>
+        <gn:postalCode>69953 CEDEX 20</gn:postalCode>
+        <gn:postalCode>69954 CEDEX 20</gn:postalCode>
+        <gn:postalCode>69955 CEDEX 20</gn:postalCode>
+        <gn:postalCode>69957 CEDEX 20</gn:postalCode>
+        <gn:postalCode>69998 CEDEX 07</gn:postalCode>
+        <wgs84_pos:lat>45.74846</wgs84_pos:lat>
+        <wgs84_pos:long>4.84671</wgs84_pos:long>
+        <gn:parentFeature rdf:resource="https://sws.geonames.org/6454573/"/>
+        <gn:parentCountry rdf:resource="https://sws.geonames.org/3017382/"/>
+        <gn:parentADM1 rdf:resource="https://sws.geonames.org/11071625/"/>
+        <gn:parentADM2 rdf:resource="https://sws.geonames.org/2987410/"/>
+        <gn:parentADM3 rdf:resource="https://sws.geonames.org/2996943/"/>
+        <gn:parentADM4 rdf:resource="https://sws.geonames.org/6454573/"/>
+        <gn:nearbyFeatures rdf:resource="https://sws.geonames.org/2996944/nearby.rdf"/>
+        <gn:locationMap rdf:resource="https://www.geonames.org/2996944/lyon.html"/>
+        <gn:wikipediaArticle rdf:resource="https://en.wikipedia.org/wiki/Lyon"/>
+        <rdfs:seeAlso rdf:resource="https://dbpedia.org/resource/Lyon"/>
+        <gn:wikipediaArticle rdf:resource="https://ru.wikipedia.org/wiki/%D0%9B%D0%B8%D0%BE%D0%BD"/>
+    </gn:Feature>
+    <foaf:Document rdf:about="https://sws.geonames.org/2996944/about.rdf">
+        <foaf:primaryTopic rdf:resource="https://sws.geonames.org/2996944/"/>
+        <cc:license rdf:resource="https://creativecommons.org/licenses/by/4.0/"/>
+        <cc:attributionURL rdf:resource="https://www.geonames.org"/>
+        <cc:attributionName rdf:datatype="https://www.w3.org/2001/XMLSchema#string">GeoNames</cc:attributionName>
+        <dcterms:created rdf:datatype="https://www.w3.org/2001/XMLSchema#date">2006-01-15</dcterms:created>
+        <dcterms:modified rdf:datatype="https://www.w3.org/2001/XMLSchema#date">2022-12-27</dcterms:modified>
+    </foaf:Document>
+</rdf:RDF>

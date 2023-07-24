@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<rdf:RDF xmlns:cc="http://creativecommons.org/ns#" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:foaf="http://xmlns.com/foaf/0.1/" xmlns:gn="http://www.geonames.org/ontology#" xmlns:owl="http://www.w3.org/2002/07/owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:wgs84_pos="http://www.w3.org/2003/01/geo/wgs84_pos#">
+    <gn:Feature rdf:about="https://sws.geonames.org/1807482/">
+        <rdfs:isDefinedBy rdf:resource="https://sws.geonames.org/1807482/about.rdf"/>
+        <gn:name>Yellow River</gn:name>
+        <gn:alternateName xml:lang="fr">Fleuve Jaune</gn:alternateName>
+        <gn:alternateName>Hoang Ho</gn:alternateName>
+        <gn:alternateName>Huang He</gn:alternateName>
+        <gn:alternateName>Huang Ho</gn:alternateName>
+        <gn:alternateName>Hwang Ho</gn:alternateName>
+        <gn:alternateName>Hwang-ho River</gn:alternateName>
+        <gn:alternateName>Hwang River</gn:alternateName>
+        <gn:alternateName xml:lang="en">Yellow River</gn:alternateName>
+        <gn:alternateName>Yellow River</gn:alternateName>
+        <gn:alternateName xml:lang="zh">黄河</gn:alternateName>
+        <gn:featureClass rdf:resource="https://www.geonames.org/ontology#H"/>
+        <gn:featureCode rdf:resource="https://www.geonames.org/ontology#H.STM"/>
+        <gn:countryCode>CN</gn:countryCode>
+        <wgs84_pos:lat>37.76158</wgs84_pos:lat>
+        <wgs84_pos:long>119.09834</wgs84_pos:long>
+        <gn:parentFeature rdf:resource="https://sws.geonames.org/1796328/"/>
+        <gn:parentCountry rdf:resource="https://sws.geonames.org/1814991/"/>
+        <gn:parentADM1 rdf:resource="https://sws.geonames.org/1796328/"/>
+        <gn:nearbyFeatures rdf:resource="https://sws.geonames.org/1807482/nearby.rdf"/>
+        <gn:locationMap rdf:resource="https://www.geonames.org/1807482/yellow-river.html"/>
+        <gn:wikipediaArticle rdf:resource="https://en.wikipedia.org/wiki/Yellow_River"/>
+        <rdfs:seeAlso rdf:resource="https://dbpedia.org/resource/Yellow_River"/>
+    </gn:Feature>
+    <foaf:Document rdf:about="https://sws.geonames.org/1807482/about.rdf">
+        <foaf:primaryTopic rdf:resource="https://sws.geonames.org/1807482/"/>
+        <cc:license rdf:resource="https://creativecommons.org/licenses/by/4.0/"/>
+        <cc:attributionURL rdf:resource="https://www.geonames.org"/>
+        <cc:attributionName rdf:datatype="https://www.w3.org/2001/XMLSchema#string">GeoNames</cc:attributionName>
+        <dcterms:created rdf:datatype="https://www.w3.org/2001/XMLSchema#date">2006-01-15</dcterms:created>
+        <dcterms:modified rdf:datatype="https://www.w3.org/2001/XMLSchema#date">2020-03-07</dcterms:modified>
+    </foaf:Document>
+</rdf:RDF>

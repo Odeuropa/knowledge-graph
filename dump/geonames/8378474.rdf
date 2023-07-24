@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<rdf:RDF xmlns:cc="http://creativecommons.org/ns#" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:foaf="http://xmlns.com/foaf/0.1/" xmlns:gn="http://www.geonames.org/ontology#" xmlns:owl="http://www.w3.org/2002/07/owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:wgs84_pos="http://www.w3.org/2003/01/geo/wgs84_pos#">
+    <gn:Feature rdf:about="https://sws.geonames.org/8378474/">
+        <rdfs:isDefinedBy rdf:resource="https://sws.geonames.org/8378474/about.rdf"/>
+        <gn:name>Achaea (Roman province)</gn:name>
+        <gn:alternateName xml:lang="it">Acaia (provincia romana)</gn:alternateName>
+        <gn:alternateName xml:lang="es">Acaya (provincia romana)</gn:alternateName>
+        <gn:alternateName xml:lang="de">Achäa (römische Provinz)</gn:alternateName>
+        <gn:alternateName xml:lang="en">Achaea (Roman province)</gn:alternateName>
+        <gn:alternateName xml:lang="la">Achaia</gn:alternateName>
+        <gn:alternateName xml:lang="fr">Achaïe (province romaine)</gn:alternateName>
+        <gn:alternateName xml:lang="grc">Ἀχαία</gn:alternateName>
+        <gn:featureClass rdf:resource="https://www.geonames.org/ontology#A"/>
+        <gn:featureCode rdf:resource="https://www.geonames.org/ontology#A.ADM1H"/>
+        <gn:countryCode>GR</gn:countryCode>
+        <wgs84_pos:lat>37.93445</wgs84_pos:lat>
+        <wgs84_pos:long>22.92615</wgs84_pos:long>
+        <gn:parentFeature rdf:resource="https://sws.geonames.org/8354456/"/>
+        <gn:parentCountry rdf:resource="https://sws.geonames.org/390903/"/>
+        <gn:parentADM1 rdf:resource="https://sws.geonames.org/6697807/"/>
+        <gn:parentADM2 rdf:resource="https://sws.geonames.org/259290/"/>
+        <gn:parentADM3 rdf:resource="https://sws.geonames.org/8133673/"/>
+        <gn:childrenFeatures rdf:resource="https://sws.geonames.org/8378474/contains.rdf"/>
+        <gn:locationMap rdf:resource="https://www.geonames.org/8378474/achaea.html"/>
+        <gn:wikipediaArticle rdf:resource="https://en.wikipedia.org/wiki/Achaea_Province"/>
+        <rdfs:seeAlso rdf:resource="https://dbpedia.org/resource/Achaea_Province"/>
+    </gn:Feature>
+    <foaf:Document rdf:about="https://sws.geonames.org/8378474/about.rdf">
+        <foaf:primaryTopic rdf:resource="https://sws.geonames.org/8378474/"/>
+        <cc:license rdf:resource="https://creativecommons.org/licenses/by/4.0/"/>
+        <cc:attributionURL rdf:resource="https://www.geonames.org"/>
+        <cc:attributionName rdf:datatype="https://www.w3.org/2001/XMLSchema#string">GeoNames</cc:attributionName>
+        <dcterms:created rdf:datatype="https://www.w3.org/2001/XMLSchema#date">2012-08-06</dcterms:created>
+        <dcterms:modified rdf:datatype="https://www.w3.org/2001/XMLSchema#date">2012-10-24</dcterms:modified>
+    </foaf:Document>
+</rdf:RDF>

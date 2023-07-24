@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<rdf:RDF xmlns:cc="http://creativecommons.org/ns#" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:foaf="http://xmlns.com/foaf/0.1/" xmlns:gn="http://www.geonames.org/ontology#" xmlns:owl="http://www.w3.org/2002/07/owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:wgs84_pos="http://www.w3.org/2003/01/geo/wgs84_pos#">
+    <gn:Feature rdf:about="https://sws.geonames.org/4320922/">
+        <rdfs:isDefinedBy rdf:resource="https://sws.geonames.org/4320922/about.rdf"/>
+        <gn:name>Coulee Michel</gn:name>
+        <gn:featureClass rdf:resource="https://www.geonames.org/ontology#H"/>
+        <gn:featureCode rdf:resource="https://www.geonames.org/ontology#H.STM"/>
+        <gn:countryCode>US</gn:countryCode>
+        <wgs84_pos:lat>29.92326</wgs84_pos:lat>
+        <wgs84_pos:long>-90.87815</wgs84_pos:long>
+        <wgs84_pos:alt>0</wgs84_pos:alt>
+        <gn:parentFeature rdf:resource="https://sws.geonames.org/4339793/"/>
+        <gn:parentCountry rdf:resource="https://sws.geonames.org/6252001/"/>
+        <gn:parentADM1 rdf:resource="https://sws.geonames.org/4331987/"/>
+        <gn:parentADM2 rdf:resource="https://sws.geonames.org/4339793/"/>
+        <gn:nearbyFeatures rdf:resource="https://sws.geonames.org/4320922/nearby.rdf"/>
+        <gn:locationMap rdf:resource="https://www.geonames.org/4320922/coulee-michel.html"/>
+    </gn:Feature>
+    <foaf:Document rdf:about="https://sws.geonames.org/4320922/about.rdf">
+        <foaf:primaryTopic rdf:resource="https://sws.geonames.org/4320922/"/>
+        <cc:license rdf:resource="https://creativecommons.org/licenses/by/4.0/"/>
+        <cc:attributionURL rdf:resource="https://www.geonames.org"/>
+        <cc:attributionName rdf:datatype="https://www.w3.org/2001/XMLSchema#string">GeoNames</cc:attributionName>
+        <dcterms:created rdf:datatype="https://www.w3.org/2001/XMLSchema#date">2006-01-15</dcterms:created>
+    </foaf:Document>
+</rdf:RDF>

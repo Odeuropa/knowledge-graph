@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<rdf:RDF xmlns:cc="http://creativecommons.org/ns#" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:foaf="http://xmlns.com/foaf/0.1/" xmlns:gn="http://www.geonames.org/ontology#" xmlns:owl="http://www.w3.org/2002/07/owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:wgs84_pos="http://www.w3.org/2003/01/geo/wgs84_pos#">
+    <gn:Feature rdf:about="https://sws.geonames.org/6365062/">
+        <rdfs:isDefinedBy rdf:resource="https://sws.geonames.org/6365062/about.rdf"/>
+        <gn:name>Tusol-san</gn:name>
+        <gn:alternateName xml:lang="ko">두솔산</gn:alternateName>
+        <gn:alternateName xml:lang="ko">Dusol-san</gn:alternateName>
+        <gn:alternateName xml:lang="ko">Tusol-san</gn:alternateName>
+        <gn:featureClass rdf:resource="https://www.geonames.org/ontology#T"/>
+        <gn:featureCode rdf:resource="https://www.geonames.org/ontology#T.MT"/>
+        <gn:countryCode>KR</gn:countryCode>
+        <wgs84_pos:lat>38.23972</wgs84_pos:lat>
+        <wgs84_pos:long>128.09639</wgs84_pos:long>
+        <gn:parentFeature rdf:resource="https://sws.geonames.org/8691252/"/>
+        <gn:parentCountry rdf:resource="https://sws.geonames.org/1835841/"/>
+        <gn:parentADM1 rdf:resource="https://sws.geonames.org/1843125/"/>
+        <gn:parentADM2 rdf:resource="https://sws.geonames.org/1832908/"/>
+        <gn:parentADM3 rdf:resource="https://sws.geonames.org/8691252/"/>
+        <gn:nearbyFeatures rdf:resource="https://sws.geonames.org/6365062/nearby.rdf"/>
+        <gn:locationMap rdf:resource="https://www.geonames.org/6365062/tusol-san.html"/>
+    </gn:Feature>
+    <foaf:Document rdf:about="https://sws.geonames.org/6365062/about.rdf">
+        <foaf:primaryTopic rdf:resource="https://sws.geonames.org/6365062/"/>
+        <cc:license rdf:resource="https://creativecommons.org/licenses/by/4.0/"/>
+        <cc:attributionURL rdf:resource="https://www.geonames.org"/>
+        <cc:attributionName rdf:datatype="https://www.w3.org/2001/XMLSchema#string">GeoNames</cc:attributionName>
+        <dcterms:created rdf:datatype="https://www.w3.org/2001/XMLSchema#date">2007-03-19</dcterms:created>
+        <dcterms:modified rdf:datatype="https://www.w3.org/2001/XMLSchema#date">2023-06-21</dcterms:modified>
+    </foaf:Document>
+</rdf:RDF>

@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<rdf:RDF xmlns:cc="http://creativecommons.org/ns#" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:foaf="http://xmlns.com/foaf/0.1/" xmlns:gn="http://www.geonames.org/ontology#" xmlns:owl="http://www.w3.org/2002/07/owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:wgs84_pos="http://www.w3.org/2003/01/geo/wgs84_pos#">
+    <gn:Feature rdf:about="https://sws.geonames.org/7269033/">
+        <rdfs:isDefinedBy rdf:resource="https://sws.geonames.org/7269033/about.rdf"/>
+        <gn:name>Terranova Barrio</gn:name>
+        <gn:featureClass rdf:resource="https://www.geonames.org/ontology#A"/>
+        <gn:featureCode rdf:resource="https://www.geonames.org/ontology#A.ADM2"/>
+        <gn:countryCode>PR</gn:countryCode>
+        <wgs84_pos:lat>18.48011</wgs84_pos:lat>
+        <wgs84_pos:long>-66.93167</wgs84_pos:long>
+        <wgs84_pos:alt>115</wgs84_pos:alt>
+        <gn:parentFeature rdf:resource="https://sws.geonames.org/4567734/"/>
+        <gn:parentCountry rdf:resource="https://sws.geonames.org/4566966/"/>
+        <gn:parentADM1 rdf:resource="https://sws.geonames.org/4567734/"/>
+        <gn:childrenFeatures rdf:resource="https://sws.geonames.org/7269033/contains.rdf"/>
+        <gn:locationMap rdf:resource="https://www.geonames.org/7269033/terranova-barrio.html"/>
+        <gn:wikipediaArticle rdf:resource="https://en.wikipedia.org/wiki/Terranova,_Quebradillas,_Puerto_Rico"/>
+        <rdfs:seeAlso rdf:resource="https://dbpedia.org/resource/Terranova%2C_Quebradillas%2C_Puerto_Rico"/>
+    </gn:Feature>
+    <foaf:Document rdf:about="https://sws.geonames.org/7269033/about.rdf">
+        <foaf:primaryTopic rdf:resource="https://sws.geonames.org/7269033/"/>
+        <cc:license rdf:resource="https://creativecommons.org/licenses/by/4.0/"/>
+        <cc:attributionURL rdf:resource="https://www.geonames.org"/>
+        <cc:attributionName rdf:datatype="https://www.w3.org/2001/XMLSchema#string">GeoNames</cc:attributionName>
+        <dcterms:created rdf:datatype="https://www.w3.org/2001/XMLSchema#date">2010-02-07</dcterms:created>
+        <dcterms:modified rdf:datatype="https://www.w3.org/2001/XMLSchema#date">2019-10-09</dcterms:modified>
+    </foaf:Document>
+</rdf:RDF>

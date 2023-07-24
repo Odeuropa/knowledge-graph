@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<rdf:RDF xmlns:cc="http://creativecommons.org/ns#" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:foaf="http://xmlns.com/foaf/0.1/" xmlns:gn="http://www.geonames.org/ontology#" xmlns:owl="http://www.w3.org/2002/07/owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:wgs84_pos="http://www.w3.org/2003/01/geo/wgs84_pos#">
+    <gn:Feature rdf:about="https://sws.geonames.org/11750206/">
+        <rdfs:isDefinedBy rdf:resource="https://sws.geonames.org/11750206/about.rdf"/>
+        <gn:name>Eglise Saint-Germain-l'Auxerrois</gn:name>
+        <gn:alternateName xml:lang="fr">Église de St. Germain L'Auxerrois</gn:alternateName>
+        <gn:featureClass rdf:resource="https://www.geonames.org/ontology#S"/>
+        <gn:featureCode rdf:resource="https://www.geonames.org/ontology#S.CH"/>
+        <gn:countryCode>FR</gn:countryCode>
+        <wgs84_pos:lat>48.85972</wgs84_pos:lat>
+        <wgs84_pos:long>2.34092</wgs84_pos:long>
+        <gn:parentFeature rdf:resource="https://sws.geonames.org/6455259/"/>
+        <gn:parentCountry rdf:resource="https://sws.geonames.org/3017382/"/>
+        <gn:parentADM1 rdf:resource="https://sws.geonames.org/3012874/"/>
+        <gn:parentADM2 rdf:resource="https://sws.geonames.org/2968815/"/>
+        <gn:parentADM3 rdf:resource="https://sws.geonames.org/2988506/"/>
+        <gn:parentADM4 rdf:resource="https://sws.geonames.org/6455259/"/>
+        <gn:nearbyFeatures rdf:resource="https://sws.geonames.org/11750206/nearby.rdf"/>
+        <gn:locationMap rdf:resource="https://www.geonames.org/11750206/eglise-saint-germain-l-auxerrois.html"/>
+        <gn:wikipediaArticle rdf:resource="https://en.wikipedia.org/wiki/Saint-Germain_l%27Auxerrois"/>
+        <rdfs:seeAlso rdf:resource="https://dbpedia.org/resource/Saint-Germain_l%27Auxerrois"/>
+        <gn:wikipediaArticle rdf:resource="https://fr.wikipedia.org/wiki/%C3%89glise_Saint-Germain-l%27Auxerrois_de_Paris"/>
+    </gn:Feature>
+    <foaf:Document rdf:about="https://sws.geonames.org/11750206/about.rdf">
+        <foaf:primaryTopic rdf:resource="https://sws.geonames.org/11750206/"/>
+        <cc:license rdf:resource="https://creativecommons.org/licenses/by/4.0/"/>
+        <cc:attributionURL rdf:resource="https://www.geonames.org"/>
+        <cc:attributionName rdf:datatype="https://www.w3.org/2001/XMLSchema#string">GeoNames</cc:attributionName>
+        <dcterms:created rdf:datatype="https://www.w3.org/2001/XMLSchema#date">2017-11-09</dcterms:created>
+        <dcterms:modified rdf:datatype="https://www.w3.org/2001/XMLSchema#date">2023-02-09</dcterms:modified>
+    </foaf:Document>
+</rdf:RDF>

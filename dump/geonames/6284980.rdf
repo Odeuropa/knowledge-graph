@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<rdf:RDF xmlns:cc="http://creativecommons.org/ns#" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:foaf="http://xmlns.com/foaf/0.1/" xmlns:gn="http://www.geonames.org/ontology#" xmlns:owl="http://www.w3.org/2002/07/owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:wgs84_pos="http://www.w3.org/2003/01/geo/wgs84_pos#">
+    <gn:Feature rdf:about="https://sws.geonames.org/6284980/">
+        <rdfs:isDefinedBy rdf:resource="https://sws.geonames.org/6284980/about.rdf"/>
+        <gn:name>Palace of Versailles</gn:name>
+        <gn:officialName xml:lang="fr">Château de Versailles</gn:officialName>
+        <gn:alternateName xml:lang="en">Palace of Versailles</gn:alternateName>
+        <gn:alternateName xml:lang="pt">Palácio de Versailles</gn:alternateName>
+        <gn:alternateName xml:lang="es">Palacio de Versalles</gn:alternateName>
+        <gn:alternateName xml:lang="de">Schloss Versailles</gn:alternateName>
+        <gn:alternateName xml:lang="ja">ヴェルサイユ宮殿</gn:alternateName>
+        <gn:alternateName xml:lang="zh">凡尔赛宫</gn:alternateName>
+        <gn:featureClass rdf:resource="https://www.geonames.org/ontology#S"/>
+        <gn:featureCode rdf:resource="https://www.geonames.org/ontology#S.PAL"/>
+        <gn:countryCode>FR</gn:countryCode>
+        <wgs84_pos:lat>48.80494</wgs84_pos:lat>
+        <wgs84_pos:long>2.12131</wgs84_pos:long>
+        <gn:parentFeature rdf:resource="https://sws.geonames.org/6444096/"/>
+        <gn:parentCountry rdf:resource="https://sws.geonames.org/3017382/"/>
+        <gn:parentADM1 rdf:resource="https://sws.geonames.org/3012874/"/>
+        <gn:parentADM2 rdf:resource="https://sws.geonames.org/2967196/"/>
+        <gn:parentADM3 rdf:resource="https://sws.geonames.org/2969678/"/>
+        <gn:parentADM4 rdf:resource="https://sws.geonames.org/6444096/"/>
+        <gn:nearbyFeatures rdf:resource="https://sws.geonames.org/6284980/nearby.rdf"/>
+        <gn:locationMap rdf:resource="https://www.geonames.org/6284980/chateau-de-versailles.html"/>
+        <gn:wikipediaArticle rdf:resource="https://en.wikipedia.org/wiki/Palace_of_Versailles"/>
+        <rdfs:seeAlso rdf:resource="https://dbpedia.org/resource/Palace_of_Versailles"/>
+    </gn:Feature>
+    <foaf:Document rdf:about="https://sws.geonames.org/6284980/about.rdf">
+        <foaf:primaryTopic rdf:resource="https://sws.geonames.org/6284980/"/>
+        <cc:license rdf:resource="https://creativecommons.org/licenses/by/4.0/"/>
+        <cc:attributionURL rdf:resource="https://www.geonames.org"/>
+        <cc:attributionName rdf:datatype="https://www.w3.org/2001/XMLSchema#string">GeoNames</cc:attributionName>
+        <dcterms:created rdf:datatype="https://www.w3.org/2001/XMLSchema#date">2006-09-07</dcterms:created>
+        <dcterms:modified rdf:datatype="https://www.w3.org/2001/XMLSchema#date">2023-02-09</dcterms:modified>
+    </foaf:Document>
+</rdf:RDF>

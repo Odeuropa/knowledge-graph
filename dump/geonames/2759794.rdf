@@ -1,47 +1,237 @@
-<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd ">
-<html>
-<head>
-<title>GeoNames</title>
-<link rel="search" type="application/opensearchdescription+xml" title="geonames" href="https://www.geonames.org/opensearch-description.xml">
-<link href="/geonames.ico" rel="shortcut icon" >
-<link rel="StyleSheet" href="/geonames.css" type="text/css" >
-</head>
-<body>
-<table id="topmenutable" cellpadding="0" cellspacing="0"><tr>
-<td class="topmenu">&nbsp;<a href="/" title="GeoName Home">&nbsp;GeoNames Home</a>&nbsp;|&nbsp;<a href="/postal-codes/" title="Postal Codes">Postal Codes</a>&nbsp;|&nbsp;<a href="/export/" title="Database Dump and Webservice API">Download / Webservice</a>&nbsp;|&nbsp;<a href="/about.html" title="About GeoNames">About</a>&nbsp;</td>
-<td class="topsearch">
-   <form class="topsearch" name="searchForm" method="get" action="/servlet/geonames" >
-
-      search <input class="topmenu" name="q" size="20" value="" type="text">
-     <input type="hidden" name="srv" value="1">
-   </form>
-
-   <span id="topmenulogin">
-<a href="https://www.geonames.org/login" title="login or create new user account">login</a>
-   </span>
-</td></tr>
-</table>
-
-<br><br><br><br>
-<div style="margin:auto; width:500px; padding:40px; text-align:left" class="formTemplateClass">
-Connection to localhost:5432 refused. Check that the hostname and port are correct and that the postmaster is accepting TCP/IP connections.
-</div>
-
-
-<p>&nbsp;</p><p>&nbsp;</p><p>&nbsp;</p><p>&nbsp;</p>
-<div id="pageFooter">
-info@geonames.org  <img src="/img/smallant.gif" alt="ant" align="middle" hspace="40" border="0">
-<p>
-<a href="/">GeoNames Home</a>
-<span class="separator">&#8226;</span>
-<a href="/postal-codes/">Postal Codes</a>
-<span class="separator">&#8226;</span>
-<a href="/export/">Download / Webservice</a>
-<span class="separator">&#8226;</span>
-<a href="http://forum.geonames.org">Forum</a>
-<span class="separator">&#8226;</span>
-<a href="http://geonames.wordpress.com">Blog</a>
-<span class="separator">&#8226;</span>
-<a href="/sitemap.html">Sitemap</a>
-</div>
-</body></html>
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<rdf:RDF xmlns:cc="http://creativecommons.org/ns#" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:foaf="http://xmlns.com/foaf/0.1/" xmlns:gn="http://www.geonames.org/ontology#" xmlns:owl="http://www.w3.org/2002/07/owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:wgs84_pos="http://www.w3.org/2003/01/geo/wgs84_pos#">
+    <gn:Feature rdf:about="https://sws.geonames.org/2759794/">
+        <rdfs:isDefinedBy rdf:resource="https://sws.geonames.org/2759794/about.rdf"/>
+        <gn:name>Amsterdam</gn:name>
+        <gn:alternateName xml:lang="ko">암스테르담</gn:alternateName>
+        <gn:alternateName xml:lang="nl">Aemstelredamme</gn:alternateName>
+        <gn:alternateName xml:lang="nl">Aemsterdam</gn:alternateName>
+        <gn:alternateName xml:lang="la">Amestelledamme</gn:alternateName>
+        <gn:alternateName xml:lang="pt">Amesterdã</gn:alternateName>
+        <gn:alternateName xml:lang="fa">Âmesterdâm</gn:alternateName>
+        <gn:alternateName xml:lang="pt">Amesterdão</gn:alternateName>
+        <gn:alternateName xml:lang="so">Amistardam</gn:alternateName>
+        <gn:alternateName xml:lang="ko">Amseutereudam</gn:alternateName>
+        <gn:alternateName xml:lang="tpi">Amstadem</gn:alternateName>
+        <gn:alternateName xml:lang="ga">Amstardam</gn:alternateName>
+        <gn:alternateName xml:lang="ar">Amstardām</gn:alternateName>
+        <gn:alternateName xml:lang="ht">Amstèdam</gn:alternateName>
+        <gn:alternateName xml:lang="la">Amsteladamum</gn:alternateName>
+        <gn:alternateName xml:lang="la">Amstelodamum</gn:alternateName>
+        <gn:alternateName xml:lang="grc">Amstelodhámon</gn:alternateName>
+        <gn:alternateName xml:lang="pt">Amsterdã</gn:alternateName>
+        <gn:alternateName xml:lang="ca">Amsterdam</gn:alternateName>
+        <gn:alternateName xml:lang="de">Amsterdam</gn:alternateName>
+        <gn:alternateName xml:lang="en">Amsterdam</gn:alternateName>
+        <gn:alternateName xml:lang="fi">Amsterdam</gn:alternateName>
+        <gn:alternateName xml:lang="fr">Amsterdam</gn:alternateName>
+        <gn:alternateName xml:lang="hr">Amsterdam</gn:alternateName>
+        <gn:alternateName xml:lang="ia">Amsterdam</gn:alternateName>
+        <gn:alternateName xml:lang="id">Amsterdam</gn:alternateName>
+        <gn:alternateName xml:lang="io">Amsterdam</gn:alternateName>
+        <gn:alternateName xml:lang="is">Amsterdam</gn:alternateName>
+        <gn:alternateName xml:lang="lb">Amsterdam</gn:alternateName>
+        <gn:alternateName xml:lang="li">Amsterdam</gn:alternateName>
+        <gn:alternateName xml:lang="ms">Amsterdam</gn:alternateName>
+        <gn:alternateName xml:lang="nds">Amsterdam</gn:alternateName>
+        <gn:officialName xml:lang="nl">Amsterdam</gn:officialName>
+        <gn:alternateName xml:lang="nn">Amsterdam</gn:alternateName>
+        <gn:alternateName xml:lang="no">Amsterdam</gn:alternateName>
+        <gn:alternateName xml:lang="oc">Amsterdam</gn:alternateName>
+        <gn:alternateName xml:lang="ro">Amsterdam</gn:alternateName>
+        <gn:alternateName xml:lang="tr">Amsterdam</gn:alternateName>
+        <gn:alternateName xml:lang="vi">Amsterdam</gn:alternateName>
+        <gn:alternateName xml:lang="ug">Amstérdam</gn:alternateName>
+        <gn:alternateName xml:lang="ast">Ámsterdam</gn:alternateName>
+        <gn:alternateName xml:lang="el">Ámsterdam</gn:alternateName>
+        <gn:officialName xml:lang="es">Ámsterdam</gn:officialName>
+        <gn:alternateName xml:lang="ext">Ámsterdam</gn:alternateName>
+        <gn:alternateName xml:lang="gl">Ámsterdam</gn:alternateName>
+        <gn:alternateName xml:lang="pms">Àmsterdam</gn:alternateName>
+        <gn:alternateName xml:lang="ltg">Amsterdama</gn:alternateName>
+        <gn:alternateName xml:lang="lv">Amsterdama</gn:alternateName>
+        <gn:alternateName xml:lang="lt">Amsterdamas</gn:alternateName>
+        <gn:alternateName xml:lang="frp">Amstèrdame</gn:alternateName>
+        <gn:alternateName xml:lang="sq">Amsterdami</gn:alternateName>
+        <gn:alternateName xml:lang="eo">Amsterdamo</gn:alternateName>
+        <gn:alternateName xml:lang="it">Amsterdamo</gn:alternateName>
+        <gn:alternateName xml:lang="sgs">Amsterdams</gn:alternateName>
+        <gn:alternateName xml:lang="olo">Amsterdamu</gn:alternateName>
+        <gn:alternateName xml:lang="gl">Ámsterdan</gn:alternateName>
+        <gn:alternateName xml:lang="cs">Amsterodam</gn:alternateName>
+        <gn:alternateName xml:lang="kbp">Amstɛrɩdam</gn:alternateName>
+        <gn:alternateName xml:lang="be">Amstyerdam</gn:alternateName>
+        <gn:alternateName xml:lang="ko">Amsŭt'erŭdam</gn:alternateName>
+        <gn:alternateName xml:lang="hu">Amszterdam</gn:alternateName>
+        <gn:alternateName xml:lang="zh">Āmǔsītèdān</gn:alternateName>
+        <gn:alternateName xml:lang="ja">Amusuterudamu</gn:alternateName>
+        <gn:alternateName xml:lang="srn">Damsko</gn:alternateName>
+        <gn:alternateName xml:lang="zu">I-Amsterdami</gn:alternateName>
+        <gn:alternateName xml:lang="nl">Mokum</gn:alternateName>
+        <gn:alternateName xml:lang="yi">Mokum</gn:alternateName>
+        <gn:alternateName xml:lang="yi">Mokum Aleph</gn:alternateName>
+        <gn:alternateName xml:lang="el">Άμστερνταμ</gn:alternateName>
+        <gn:alternateName xml:lang="ba">Амстердам</gn:alternateName>
+        <gn:alternateName xml:lang="bg">Амстердам</gn:alternateName>
+        <gn:alternateName xml:lang="ce">Амстердам</gn:alternateName>
+        <gn:alternateName xml:lang="cv">Амстердам</gn:alternateName>
+        <gn:alternateName xml:lang="kk">Амстердам</gn:alternateName>
+        <gn:alternateName xml:lang="koi">Амстердам</gn:alternateName>
+        <gn:alternateName xml:lang="krc">Амстердам</gn:alternateName>
+        <gn:alternateName xml:lang="kv">Амстердам</gn:alternateName>
+        <gn:alternateName xml:lang="ky">Амстердам</gn:alternateName>
+        <gn:alternateName xml:lang="lez">Амстердам</gn:alternateName>
+        <gn:alternateName xml:lang="mdf">Амстердам</gn:alternateName>
+        <gn:alternateName xml:lang="mk">Амстердам</gn:alternateName>
+        <gn:alternateName xml:lang="mn">Амстердам</gn:alternateName>
+        <gn:alternateName xml:lang="mrj">Амстердам</gn:alternateName>
+        <gn:alternateName xml:lang="os">Амстердам</gn:alternateName>
+        <gn:alternateName xml:lang="ru">Амстердам</gn:alternateName>
+        <gn:alternateName xml:lang="rue">Амстердам</gn:alternateName>
+        <gn:alternateName xml:lang="sah">Амстердам</gn:alternateName>
+        <gn:alternateName xml:lang="sr">Амстердам</gn:alternateName>
+        <gn:alternateName xml:lang="tg">Амстердам</gn:alternateName>
+        <gn:alternateName xml:lang="tt">Амстердам</gn:alternateName>
+        <gn:alternateName xml:lang="udm">Амстердам</gn:alternateName>
+        <gn:alternateName xml:lang="uk">Амстердам</gn:alternateName>
+        <gn:alternateName xml:lang="be">Амстэрдам</gn:alternateName>
+        <gn:alternateName xml:lang="ka">ამსტერდამი</gn:alternateName>
+        <gn:alternateName xml:lang="hy">Ամստերդամ</gn:alternateName>
+        <gn:alternateName xml:lang="yi">אמסטערדאם</gn:alternateName>
+        <gn:alternateName xml:lang="he">אמסטרדם</gn:alternateName>
+        <gn:alternateName xml:lang="fa">آمستردام</gn:alternateName>
+        <gn:alternateName xml:lang="ar">أمستردام</gn:alternateName>
+        <gn:alternateName xml:lang="ug">ئامستېردام</gn:alternateName>
+        <gn:alternateName xml:lang="ckb">ئەمستەردام</gn:alternateName>
+        <gn:alternateName xml:lang="arz">امستردام</gn:alternateName>
+        <gn:alternateName xml:lang="ps">امسټرډام</gn:alternateName>
+        <gn:alternateName xml:lang="pnb">ایمسٹرڈیم</gn:alternateName>
+        <gn:alternateName xml:lang="ur">ایمسٹرڈیم</gn:alternateName>
+        <gn:alternateName xml:lang="arc">ܐܡܣܛܪܕܐܡ</gn:alternateName>
+        <gn:alternateName xml:lang="am">አምስተርዳም</gn:alternateName>
+        <gn:alternateName xml:lang="mr">अ‍ॅम्स्टरडॅम</gn:alternateName>
+        <gn:alternateName xml:lang="ne">आम्स्टर्डम</gn:alternateName>
+        <gn:alternateName xml:lang="new">एम्स्तरद्याम</gn:alternateName>
+        <gn:alternateName xml:lang="hi">ऐम्स्टर्डैम</gn:alternateName>
+        <gn:alternateName xml:lang="bn">আমস্টারডাম</gn:alternateName>
+        <gn:alternateName xml:lang="pa">ਅਮਸਤਰਦਮ</gn:alternateName>
+        <gn:alternateName xml:lang="or">ଆମଷ୍ଟରଡ଼୍ୟାମ</gn:alternateName>
+        <gn:alternateName xml:lang="ta">ஆம்ஸ்டர்டம்</gn:alternateName>
+        <gn:alternateName xml:lang="kn">ಆಂಸ್ಟರ್ಡ್ಯಾಮ್</gn:alternateName>
+        <gn:alternateName xml:lang="ml">ആംസ്റ്റർഡാം</gn:alternateName>
+        <gn:alternateName xml:lang="si">ඈම්ස්ටර්ඩෑම්</gn:alternateName>
+        <gn:alternateName xml:lang="th">อัมสเตอร์ดัม</gn:alternateName>
+        <gn:alternateName xml:lang="bo">ཨེམ་སི་ཊར་ཌམ།</gn:alternateName>
+        <gn:alternateName xml:lang="my">အမ်စတာဒမ်မြို့</gn:alternateName>
+        <gn:alternateName xml:lang="ja">アムステルダム</gn:alternateName>
+        <gn:alternateName xml:lang="lzh">阿姆斯特丹</gn:alternateName>
+        <gn:alternateName xml:lang="yue">阿姆斯特丹</gn:alternateName>
+        <gn:alternateName xml:lang="zh">阿姆斯特丹</gn:alternateName>
+        <gn:featureClass rdf:resource="https://www.geonames.org/ontology#P"/>
+        <gn:featureCode rdf:resource="https://www.geonames.org/ontology#P.PPLC"/>
+        <gn:countryCode>NL</gn:countryCode>
+        <gn:population>741636</gn:population>
+        <gn:postalCode>1011</gn:postalCode>
+        <gn:postalCode>1012</gn:postalCode>
+        <gn:postalCode>1013</gn:postalCode>
+        <gn:postalCode>1014</gn:postalCode>
+        <gn:postalCode>1015</gn:postalCode>
+        <gn:postalCode>1016</gn:postalCode>
+        <gn:postalCode>1017</gn:postalCode>
+        <gn:postalCode>1018</gn:postalCode>
+        <gn:postalCode>1019</gn:postalCode>
+        <gn:postalCode>1021</gn:postalCode>
+        <gn:postalCode>1022</gn:postalCode>
+        <gn:postalCode>1023</gn:postalCode>
+        <gn:postalCode>1024</gn:postalCode>
+        <gn:postalCode>1025</gn:postalCode>
+        <gn:postalCode>1026</gn:postalCode>
+        <gn:postalCode>1027</gn:postalCode>
+        <gn:postalCode>1028</gn:postalCode>
+        <gn:postalCode>1031</gn:postalCode>
+        <gn:postalCode>1032</gn:postalCode>
+        <gn:postalCode>1033</gn:postalCode>
+        <gn:postalCode>1034</gn:postalCode>
+        <gn:postalCode>1035</gn:postalCode>
+        <gn:postalCode>1036</gn:postalCode>
+        <gn:postalCode>1037</gn:postalCode>
+        <gn:postalCode>1041</gn:postalCode>
+        <gn:postalCode>1042</gn:postalCode>
+        <gn:postalCode>1043</gn:postalCode>
+        <gn:postalCode>1044</gn:postalCode>
+        <gn:postalCode>1045</gn:postalCode>
+        <gn:postalCode>1046</gn:postalCode>
+        <gn:postalCode>1047</gn:postalCode>
+        <gn:postalCode>1051</gn:postalCode>
+        <gn:postalCode>1052</gn:postalCode>
+        <gn:postalCode>1053</gn:postalCode>
+        <gn:postalCode>1054</gn:postalCode>
+        <gn:postalCode>1055</gn:postalCode>
+        <gn:postalCode>1056</gn:postalCode>
+        <gn:postalCode>1057</gn:postalCode>
+        <gn:postalCode>1058</gn:postalCode>
+        <gn:postalCode>1059</gn:postalCode>
+        <gn:postalCode>1060</gn:postalCode>
+        <gn:postalCode>1061</gn:postalCode>
+        <gn:postalCode>1062</gn:postalCode>
+        <gn:postalCode>1063</gn:postalCode>
+        <gn:postalCode>1064</gn:postalCode>
+        <gn:postalCode>1065</gn:postalCode>
+        <gn:postalCode>1066</gn:postalCode>
+        <gn:postalCode>1067</gn:postalCode>
+        <gn:postalCode>1068</gn:postalCode>
+        <gn:postalCode>1069</gn:postalCode>
+        <gn:postalCode>1071</gn:postalCode>
+        <gn:postalCode>1072</gn:postalCode>
+        <gn:postalCode>1073</gn:postalCode>
+        <gn:postalCode>1074</gn:postalCode>
+        <gn:postalCode>1075</gn:postalCode>
+        <gn:postalCode>1076</gn:postalCode>
+        <gn:postalCode>1077</gn:postalCode>
+        <gn:postalCode>1078</gn:postalCode>
+        <gn:postalCode>1079</gn:postalCode>
+        <gn:postalCode>1081</gn:postalCode>
+        <gn:postalCode>1082</gn:postalCode>
+        <gn:postalCode>1083</gn:postalCode>
+        <gn:postalCode>1086</gn:postalCode>
+        <gn:postalCode>1087</gn:postalCode>
+        <gn:postalCode>1091</gn:postalCode>
+        <gn:postalCode>1092</gn:postalCode>
+        <gn:postalCode>1093</gn:postalCode>
+        <gn:postalCode>1094</gn:postalCode>
+        <gn:postalCode>1095</gn:postalCode>
+        <gn:postalCode>1096</gn:postalCode>
+        <gn:postalCode>1097</gn:postalCode>
+        <gn:postalCode>1098</gn:postalCode>
+        <gn:postalCode>1101</gn:postalCode>
+        <gn:postalCode>1102</gn:postalCode>
+        <gn:postalCode>1103</gn:postalCode>
+        <gn:postalCode>1104</gn:postalCode>
+        <gn:postalCode>1105</gn:postalCode>
+        <gn:postalCode>1106</gn:postalCode>
+        <gn:postalCode>1107</gn:postalCode>
+        <gn:postalCode>1108</gn:postalCode>
+        <gn:postalCode>1109</gn:postalCode>
+        <wgs84_pos:lat>52.37403</wgs84_pos:lat>
+        <wgs84_pos:long>4.88969</wgs84_pos:long>
+        <gn:parentFeature rdf:resource="https://sws.geonames.org/2759793/"/>
+        <gn:parentCountry rdf:resource="https://sws.geonames.org/2750405/"/>
+        <gn:parentADM1 rdf:resource="https://sws.geonames.org/2749879/"/>
+        <gn:parentADM2 rdf:resource="https://sws.geonames.org/2759793/"/>
+        <gn:nearbyFeatures rdf:resource="https://sws.geonames.org/2759794/nearby.rdf"/>
+        <gn:locationMap rdf:resource="https://www.geonames.org/2759794/amsterdam.html"/>
+        <gn:wikipediaArticle rdf:resource="https://en.wikipedia.org/wiki/Amsterdam"/>
+        <rdfs:seeAlso rdf:resource="https://dbpedia.org/resource/Amsterdam"/>
+        <gn:wikipediaArticle rdf:resource="https://en.wikipedia.org/wiki/Government_of_Amsterdam"/>
+        <rdfs:seeAlso rdf:resource="https://dbpedia.org/resource/Government_of_Amsterdam"/>
+        <gn:wikipediaArticle rdf:resource="https://ru.wikipedia.org/wiki/%D0%90%D0%BC%D1%81%D1%82%D0%B5%D1%80%D0%B4%D0%B0%D0%BC"/>
+    </gn:Feature>
+    <foaf:Document rdf:about="https://sws.geonames.org/2759794/about.rdf">
+        <foaf:primaryTopic rdf:resource="https://sws.geonames.org/2759794/"/>
+        <cc:license rdf:resource="https://creativecommons.org/licenses/by/4.0/"/>
+        <cc:attributionURL rdf:resource="https://www.geonames.org"/>
+        <cc:attributionName rdf:datatype="https://www.w3.org/2001/XMLSchema#string">GeoNames</cc:attributionName>
+        <dcterms:created rdf:datatype="https://www.w3.org/2001/XMLSchema#date">2006-01-15</dcterms:created>
+        <dcterms:modified rdf:datatype="https://www.w3.org/2001/XMLSchema#date">2023-03-07</dcterms:modified>
+    </foaf:Document>
+</rdf:RDF>

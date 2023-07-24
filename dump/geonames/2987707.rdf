@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<rdf:RDF xmlns:cc="http://creativecommons.org/ns#" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:foaf="http://xmlns.com/foaf/0.1/" xmlns:gn="http://www.geonames.org/ontology#" xmlns:owl="http://www.w3.org/2002/07/owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:wgs84_pos="http://www.w3.org/2003/01/geo/wgs84_pos#">
+    <gn:Feature rdf:about="https://sws.geonames.org/2987707/">
+        <rdfs:isDefinedBy rdf:resource="https://sws.geonames.org/2987707/about.rdf"/>
+        <gn:name>Inner Road</gn:name>
+        <gn:alternateName xml:lang="en">Inner Road</gn:alternateName>
+        <gn:alternateName>Petite Rade</gn:alternateName>
+        <gn:alternateName>Petite Rade de Toulon</gn:alternateName>
+        <gn:featureClass rdf:resource="https://www.geonames.org/ontology#H"/>
+        <gn:featureCode rdf:resource="https://www.geonames.org/ontology#H.RDST"/>
+        <gn:countryCode>FR</gn:countryCode>
+        <wgs84_pos:lat>43.10896</wgs84_pos:lat>
+        <wgs84_pos:long>5.91874</wgs84_pos:long>
+        <gn:parentFeature rdf:resource="https://sws.geonames.org/6612862/"/>
+        <gn:parentCountry rdf:resource="https://sws.geonames.org/3017382/"/>
+        <gn:parentADM1 rdf:resource="https://sws.geonames.org/2985244/"/>
+        <gn:parentADM2 rdf:resource="https://sws.geonames.org/2970749/"/>
+        <gn:parentADM3 rdf:resource="https://sws.geonames.org/2972326/"/>
+        <gn:parentADM4 rdf:resource="https://sws.geonames.org/6612862/"/>
+        <gn:nearbyFeatures rdf:resource="https://sws.geonames.org/2987707/nearby.rdf"/>
+        <gn:locationMap rdf:resource="https://www.geonames.org/2987707/petite-rade.html"/>
+    </gn:Feature>
+    <foaf:Document rdf:about="https://sws.geonames.org/2987707/about.rdf">
+        <foaf:primaryTopic rdf:resource="https://sws.geonames.org/2987707/"/>
+        <cc:license rdf:resource="https://creativecommons.org/licenses/by/4.0/"/>
+        <cc:attributionURL rdf:resource="https://www.geonames.org"/>
+        <cc:attributionName rdf:datatype="https://www.w3.org/2001/XMLSchema#string">GeoNames</cc:attributionName>
+        <dcterms:created rdf:datatype="https://www.w3.org/2001/XMLSchema#date">2006-01-15</dcterms:created>
+        <dcterms:modified rdf:datatype="https://www.w3.org/2001/XMLSchema#date">2019-10-30</dcterms:modified>
+    </foaf:Document>
+</rdf:RDF>

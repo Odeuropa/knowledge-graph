@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<rdf:RDF xmlns:cc="http://creativecommons.org/ns#" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:foaf="http://xmlns.com/foaf/0.1/" xmlns:gn="http://www.geonames.org/ontology#" xmlns:owl="http://www.w3.org/2002/07/owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:wgs84_pos="http://www.w3.org/2003/01/geo/wgs84_pos#">
+    <gn:Feature rdf:about="https://sws.geonames.org/241447/">
+        <rdfs:isDefinedBy rdf:resource="https://sws.geonames.org/241447/about.rdf"/>
+        <gn:name>Anse Etoile</gn:name>
+        <gn:alternateName>Anse Etoile</gn:alternateName>
+        <gn:alternateName xml:lang="fr">Anse Étoile</gn:alternateName>
+        <gn:alternateName xml:lang="ro">Districtul Anse Etoile</gn:alternateName>
+        <gn:alternateName xml:lang="nb">Saint George Basseterre</gn:alternateName>
+        <gn:alternateName xml:lang="nn">Saint George Basseterre</gn:alternateName>
+        <gn:alternateName xml:lang="zh">安塞艾托瓦區</gn:alternateName>
+        <gn:featureClass rdf:resource="https://www.geonames.org/ontology#A"/>
+        <gn:featureCode rdf:resource="https://www.geonames.org/ontology#A.ADM1"/>
+        <gn:countryCode>SC</gn:countryCode>
+        <gn:population>4633</gn:population>
+        <wgs84_pos:lat>-4.59167</wgs84_pos:lat>
+        <wgs84_pos:long>55.45</wgs84_pos:long>
+        <gn:parentFeature rdf:resource="https://sws.geonames.org/241170/"/>
+        <gn:parentCountry rdf:resource="https://sws.geonames.org/241170/"/>
+        <gn:childrenFeatures rdf:resource="https://sws.geonames.org/241447/contains.rdf"/>
+        <gn:locationMap rdf:resource="https://www.geonames.org/241447/anse-etoile.html"/>
+        <gn:wikipediaArticle rdf:resource="https://en.wikipedia.org/wiki/Anse_Etoile"/>
+        <rdfs:seeAlso rdf:resource="https://dbpedia.org/resource/Anse_Etoile"/>
+    </gn:Feature>
+    <foaf:Document rdf:about="https://sws.geonames.org/241447/about.rdf">
+        <foaf:primaryTopic rdf:resource="https://sws.geonames.org/241447/"/>
+        <cc:license rdf:resource="https://creativecommons.org/licenses/by/4.0/"/>
+        <cc:attributionURL rdf:resource="https://www.geonames.org"/>
+        <cc:attributionName rdf:datatype="https://www.w3.org/2001/XMLSchema#string">GeoNames</cc:attributionName>
+        <dcterms:created rdf:datatype="https://www.w3.org/2001/XMLSchema#date">2006-01-15</dcterms:created>
+        <dcterms:modified rdf:datatype="https://www.w3.org/2001/XMLSchema#date">2012-01-16</dcterms:modified>
+    </foaf:Document>
+</rdf:RDF>

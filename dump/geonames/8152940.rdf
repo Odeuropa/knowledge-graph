@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<rdf:RDF xmlns:cc="http://creativecommons.org/ns#" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:foaf="http://xmlns.com/foaf/0.1/" xmlns:gn="http://www.geonames.org/ontology#" xmlns:owl="http://www.w3.org/2002/07/owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:wgs84_pos="http://www.w3.org/2003/01/geo/wgs84_pos#">
+    <gn:Feature rdf:about="https://sws.geonames.org/8152940/">
+        <rdfs:isDefinedBy rdf:resource="https://sws.geonames.org/8152940/about.rdf"/>
+        <gn:name>Family Islands National Park</gn:name>
+        <gn:alternateName xml:lang="de">Family-Islands-Nationalpark</gn:alternateName>
+        <gn:alternateName xml:lang="en">Family Islands National Park</gn:alternateName>
+        <gn:alternateName xml:lang="es">Parque nacional Islas Familia</gn:alternateName>
+        <gn:featureClass rdf:resource="https://www.geonames.org/ontology#L"/>
+        <gn:featureCode rdf:resource="https://www.geonames.org/ontology#L.PRK"/>
+        <gn:countryCode>AU</gn:countryCode>
+        <wgs84_pos:lat>-17.94929</wgs84_pos:lat>
+        <wgs84_pos:long>146.15999</wgs84_pos:long>
+        <gn:parentFeature rdf:resource="https://sws.geonames.org/7839350/"/>
+        <gn:parentCountry rdf:resource="https://sws.geonames.org/2077456/"/>
+        <gn:parentADM1 rdf:resource="https://sws.geonames.org/2152274/"/>
+        <gn:parentADM2 rdf:resource="https://sws.geonames.org/7839350/"/>
+        <gn:nearbyFeatures rdf:resource="https://sws.geonames.org/8152940/nearby.rdf"/>
+        <gn:locationMap rdf:resource="https://www.geonames.org/8152940/family-islands-national-park.html"/>
+        <gn:wikipediaArticle rdf:resource="https://en.wikipedia.org/wiki/Family_Islands_National_Park"/>
+        <rdfs:seeAlso rdf:resource="https://dbpedia.org/resource/Family_Islands_National_Park"/>
+    </gn:Feature>
+    <foaf:Document rdf:about="https://sws.geonames.org/8152940/about.rdf">
+        <foaf:primaryTopic rdf:resource="https://sws.geonames.org/8152940/"/>
+        <cc:license rdf:resource="https://creativecommons.org/licenses/by/4.0/"/>
+        <cc:attributionURL rdf:resource="https://www.geonames.org"/>
+        <cc:attributionName rdf:datatype="https://www.w3.org/2001/XMLSchema#string">GeoNames</cc:attributionName>
+        <dcterms:created rdf:datatype="https://www.w3.org/2001/XMLSchema#date">2012-01-22</dcterms:created>
+        <dcterms:modified rdf:datatype="https://www.w3.org/2001/XMLSchema#date">2013-05-24</dcterms:modified>
+    </foaf:Document>
+</rdf:RDF>

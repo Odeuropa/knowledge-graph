@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<rdf:RDF xmlns:cc="http://creativecommons.org/ns#" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:foaf="http://xmlns.com/foaf/0.1/" xmlns:gn="http://www.geonames.org/ontology#" xmlns:owl="http://www.w3.org/2002/07/owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:wgs84_pos="http://www.w3.org/2003/01/geo/wgs84_pos#">
+    <gn:Feature rdf:about="https://sws.geonames.org/3831546/">
+        <rdfs:isDefinedBy rdf:resource="https://sws.geonames.org/3831546/about.rdf"/>
+        <gn:name>Gulf of Saint Lawrence</gn:name>
+        <gn:alternateName xml:lang="fr">Golfe du Saint-Laurent</gn:alternateName>
+        <gn:featureClass rdf:resource="https://www.geonames.org/ontology#H"/>
+        <gn:featureCode rdf:resource="https://www.geonames.org/ontology#H.GULF"/>
+        <wgs84_pos:lat>47</wgs84_pos:lat>
+        <wgs84_pos:long>-62</wgs84_pos:long>
+        <gn:parentFeature rdf:resource="https://sws.geonames.org/6295630/"/>
+        <gn:nearbyFeatures rdf:resource="https://sws.geonames.org/3831546/nearby.rdf"/>
+        <gn:locationMap rdf:resource="https://www.geonames.org/3831546/gulf-of-saint-lawrence.html"/>
+        <gn:wikipediaArticle rdf:resource="https://en.wikipedia.org/wiki/Gulf_of_St_Lawrence"/>
+        <rdfs:seeAlso rdf:resource="https://dbpedia.org/resource/Gulf_of_St_Lawrence"/>
+    </gn:Feature>
+    <foaf:Document rdf:about="https://sws.geonames.org/3831546/about.rdf">
+        <foaf:primaryTopic rdf:resource="https://sws.geonames.org/3831546/"/>
+        <cc:license rdf:resource="https://creativecommons.org/licenses/by/4.0/"/>
+        <cc:attributionURL rdf:resource="https://www.geonames.org"/>
+        <cc:attributionName rdf:datatype="https://www.w3.org/2001/XMLSchema#string">GeoNames</cc:attributionName>
+        <dcterms:created rdf:datatype="https://www.w3.org/2001/XMLSchema#date">2006-01-15</dcterms:created>
+        <dcterms:modified rdf:datatype="https://www.w3.org/2001/XMLSchema#date">2013-09-24</dcterms:modified>
+    </foaf:Document>
+</rdf:RDF>

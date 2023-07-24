@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<rdf:RDF xmlns:cc="http://creativecommons.org/ns#" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:foaf="http://xmlns.com/foaf/0.1/" xmlns:gn="http://www.geonames.org/ontology#" xmlns:owl="http://www.w3.org/2002/07/owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:wgs84_pos="http://www.w3.org/2003/01/geo/wgs84_pos#">
+    <gn:Feature rdf:about="https://sws.geonames.org/3013726/">
+        <rdfs:isDefinedBy rdf:resource="https://sws.geonames.org/3013726/about.rdf"/>
+        <gn:name>Hautes-Pyrénées</gn:name>
+        <gn:officialName xml:lang="it">Alti Pirenei</gn:officialName>
+        <gn:officialName xml:lang="es">Altos Pirineos</gn:officialName>
+        <gn:officialName xml:lang="pt">Altos Pirineus</gn:officialName>
+        <gn:alternateName>Département des Hautes-Pyrénées</gn:alternateName>
+        <gn:officialName xml:lang="de">Hautes-Pyrénées</gn:officialName>
+        <gn:officialName xml:lang="en">Hautes-Pyrénées</gn:officialName>
+        <gn:officialName xml:lang="fr">Hautes-Pyrénées</gn:officialName>
+        <gn:featureClass rdf:resource="https://www.geonames.org/ontology#A"/>
+        <gn:featureCode rdf:resource="https://www.geonames.org/ontology#A.ADM2"/>
+        <gn:countryCode>FR</gn:countryCode>
+        <gn:population>229191</gn:population>
+        <wgs84_pos:lat>43.03686</wgs84_pos:lat>
+        <wgs84_pos:long>0.18632</wgs84_pos:long>
+        <gn:parentFeature rdf:resource="https://sws.geonames.org/3016565/"/>
+        <gn:parentCountry rdf:resource="https://sws.geonames.org/3017382/"/>
+        <gn:parentADM1 rdf:resource="https://sws.geonames.org/11071623/"/>
+        <gn:childrenFeatures rdf:resource="https://sws.geonames.org/3013726/contains.rdf"/>
+        <gn:locationMap rdf:resource="https://www.geonames.org/3013726/hautes-pyrenees.html"/>
+        <gn:wikipediaArticle rdf:resource="https://en.wikipedia.org/wiki/Hautes-Pyr%C3%A9n%C3%A9es"/>
+        <rdfs:seeAlso rdf:resource="https://dbpedia.org/resource/Hautes-Pyr%C3%A9n%C3%A9es"/>
+        <owl:sameAs rdf:resource="http://id.insee.fr/geo/departement/65"/>
+    </gn:Feature>
+    <foaf:Document rdf:about="https://sws.geonames.org/3013726/about.rdf">
+        <foaf:primaryTopic rdf:resource="https://sws.geonames.org/3013726/"/>
+        <cc:license rdf:resource="https://creativecommons.org/licenses/by/4.0/"/>
+        <cc:attributionURL rdf:resource="https://www.geonames.org"/>
+        <cc:attributionName rdf:datatype="https://www.w3.org/2001/XMLSchema#string">GeoNames</cc:attributionName>
+        <dcterms:created rdf:datatype="https://www.w3.org/2001/XMLSchema#date">2006-01-15</dcterms:created>
+        <dcterms:modified rdf:datatype="https://www.w3.org/2001/XMLSchema#date">2022-03-08</dcterms:modified>
+    </foaf:Document>
+</rdf:RDF>

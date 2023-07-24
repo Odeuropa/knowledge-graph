@@ -1,47 +1,234 @@
-<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd ">
-<html>
-<head>
-<title>GeoNames</title>
-<link rel="search" type="application/opensearchdescription+xml" title="geonames" href="https://www.geonames.org/opensearch-description.xml">
-<link href="/geonames.ico" rel="shortcut icon" >
-<link rel="StyleSheet" href="/geonames.css" type="text/css" >
-</head>
-<body>
-<table id="topmenutable" cellpadding="0" cellspacing="0"><tr>
-<td class="topmenu">&nbsp;<a href="/" title="GeoName Home">&nbsp;GeoNames Home</a>&nbsp;|&nbsp;<a href="/postal-codes/" title="Postal Codes">Postal Codes</a>&nbsp;|&nbsp;<a href="/export/" title="Database Dump and Webservice API">Download / Webservice</a>&nbsp;|&nbsp;<a href="/about.html" title="About GeoNames">About</a>&nbsp;</td>
-<td class="topsearch">
-   <form class="topsearch" name="searchForm" method="get" action="/servlet/geonames" >
-
-      search <input class="topmenu" name="q" size="20" value="" type="text">
-     <input type="hidden" name="srv" value="1">
-   </form>
-
-   <span id="topmenulogin">
-<a href="https://www.geonames.org/login" title="login or create new user account">login</a>
-   </span>
-</td></tr>
-</table>
-
-<br><br><br><br>
-<div style="margin:auto; width:500px; padding:40px; text-align:left" class="formTemplateClass">
-Connection to localhost:5432 refused. Check that the hostname and port are correct and that the postmaster is accepting TCP/IP connections.
-</div>
-
-
-<p>&nbsp;</p><p>&nbsp;</p><p>&nbsp;</p><p>&nbsp;</p>
-<div id="pageFooter">
-info@geonames.org  <img src="/img/smallant.gif" alt="ant" align="middle" hspace="40" border="0">
-<p>
-<a href="/">GeoNames Home</a>
-<span class="separator">&#8226;</span>
-<a href="/postal-codes/">Postal Codes</a>
-<span class="separator">&#8226;</span>
-<a href="/export/">Download / Webservice</a>
-<span class="separator">&#8226;</span>
-<a href="http://forum.geonames.org">Forum</a>
-<span class="separator">&#8226;</span>
-<a href="http://geonames.wordpress.com">Blog</a>
-<span class="separator">&#8226;</span>
-<a href="/sitemap.html">Sitemap</a>
-</div>
-</body></html>
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<rdf:RDF xmlns:cc="http://creativecommons.org/ns#" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:foaf="http://xmlns.com/foaf/0.1/" xmlns:gn="http://www.geonames.org/ontology#" xmlns:owl="http://www.w3.org/2002/07/owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:wgs84_pos="http://www.w3.org/2003/01/geo/wgs84_pos#">
+    <gn:Feature rdf:about="https://sws.geonames.org/2992166/">
+        <rdfs:isDefinedBy rdf:resource="https://sws.geonames.org/2992166/about.rdf"/>
+        <gn:name>Montpellier</gn:name>
+        <gn:alternateName xml:lang="ko">몽펠리에</gn:alternateName>
+        <gn:alternateName xml:lang="lt">Monpeljė</gn:alternateName>
+        <gn:alternateName xml:lang="lv">Monpeljē</gn:alternateName>
+        <gn:alternateName xml:lang="eo">Monpeljeo</gn:alternateName>
+        <gn:alternateName xml:lang="az">Monpelye</gn:alternateName>
+        <gn:alternateName xml:lang="la">Monspessulanus</gn:alternateName>
+        <gn:alternateName xml:lang="br">Montpelhièr</gn:alternateName>
+        <gn:alternateName xml:lang="oc">Montpelhièr</gn:alternateName>
+        <gn:alternateName xml:lang="an">Montpeller</gn:alternateName>
+        <gn:alternateName xml:lang="ca">Montpeller</gn:alternateName>
+        <gn:alternateName xml:lang="af">Montpellier</gn:alternateName>
+        <gn:alternateName xml:lang="cs">Montpellier</gn:alternateName>
+        <gn:alternateName xml:lang="da">Montpellier</gn:alternateName>
+        <gn:alternateName xml:lang="de">Montpellier</gn:alternateName>
+        <gn:alternateName xml:lang="en">Montpellier</gn:alternateName>
+        <gn:alternateName xml:lang="eo">Montpellier</gn:alternateName>
+        <gn:alternateName xml:lang="es">Montpellier</gn:alternateName>
+        <gn:alternateName xml:lang="eu">Montpellier</gn:alternateName>
+        <gn:alternateName xml:lang="fi">Montpellier</gn:alternateName>
+        <gn:alternateName xml:lang="fr">Montpellier</gn:alternateName>
+        <gn:alternateName xml:lang="gl">Montpellier</gn:alternateName>
+        <gn:alternateName xml:lang="id">Montpellier</gn:alternateName>
+        <gn:alternateName xml:lang="it">Montpellier</gn:alternateName>
+        <gn:alternateName xml:lang="nl">Montpellier</gn:alternateName>
+        <gn:alternateName xml:lang="no">Montpellier</gn:alternateName>
+        <gn:alternateName xml:lang="pl">Montpellier</gn:alternateName>
+        <gn:alternateName xml:lang="pt">Montpellier</gn:alternateName>
+        <gn:alternateName xml:lang="qu">Montpellier</gn:alternateName>
+        <gn:alternateName xml:lang="ro">Montpellier</gn:alternateName>
+        <gn:alternateName xml:lang="scn">Montpellier</gn:alternateName>
+        <gn:alternateName xml:lang="sl">Montpellier</gn:alternateName>
+        <gn:alternateName xml:lang="sv">Montpellier</gn:alternateName>
+        <gn:alternateName>Montpellier</gn:alternateName>
+        <gn:alternateName xml:lang="frp">Montpelyiér</gn:alternateName>
+        <gn:alternateName xml:lang="el">Μονπελιέ</gn:alternateName>
+        <gn:alternateName xml:lang="be">Манпелье</gn:alternateName>
+        <gn:alternateName xml:lang="bg">Монпелие</gn:alternateName>
+        <gn:alternateName xml:lang="mk">Монпелје</gn:alternateName>
+        <gn:alternateName xml:lang="cv">Монпелье</gn:alternateName>
+        <gn:alternateName xml:lang="kk">Монпелье</gn:alternateName>
+        <gn:alternateName xml:lang="os">Монпелье</gn:alternateName>
+        <gn:alternateName xml:lang="ru">Монпелье</gn:alternateName>
+        <gn:alternateName xml:lang="uk">Монпельє</gn:alternateName>
+        <gn:alternateName xml:lang="sr">Монпеље</gn:alternateName>
+        <gn:alternateName xml:lang="ka">მონპელიე</gn:alternateName>
+        <gn:alternateName xml:lang="hy">Մոնպելիե</gn:alternateName>
+        <gn:alternateName xml:lang="he">מונפלייה</gn:alternateName>
+        <gn:alternateName xml:lang="ar">مونبلييه</gn:alternateName>
+        <gn:alternateName xml:lang="fa">مون‌پلیه</gn:alternateName>
+        <gn:alternateName xml:lang="mzn">مونپلیه</gn:alternateName>
+        <gn:alternateName xml:lang="ur">مونپیلیے</gn:alternateName>
+        <gn:alternateName xml:lang="pnb">مونٹپلائیر</gn:alternateName>
+        <gn:alternateName xml:lang="mr">माँतपेलिए</gn:alternateName>
+        <gn:alternateName xml:lang="th">มงเปอลีเย</gn:alternateName>
+        <gn:alternateName xml:lang="ja">モンペリエ</gn:alternateName>
+        <gn:alternateName xml:lang="yue">夢比利耶</gn:alternateName>
+        <gn:alternateName xml:lang="lzh">蒙庇利埃</gn:alternateName>
+        <gn:alternateName xml:lang="gan">蒙彼利埃</gn:alternateName>
+        <gn:alternateName xml:lang="wuu">蒙彼利埃</gn:alternateName>
+        <gn:alternateName xml:lang="zh">蒙彼利埃</gn:alternateName>
+        <gn:featureClass rdf:resource="https://www.geonames.org/ontology#P"/>
+        <gn:featureCode rdf:resource="https://www.geonames.org/ontology#P.PPLA2"/>
+        <gn:countryCode>FR</gn:countryCode>
+        <gn:population>248252</gn:population>
+        <gn:postalCode>34000</gn:postalCode>
+        <gn:postalCode>34001 CEDEX 1</gn:postalCode>
+        <gn:postalCode>34002 CEDEX 1</gn:postalCode>
+        <gn:postalCode>34003 CEDEX 1</gn:postalCode>
+        <gn:postalCode>34004 CEDEX 1</gn:postalCode>
+        <gn:postalCode>34006 CEDEX 1</gn:postalCode>
+        <gn:postalCode>34007 CEDEX 1</gn:postalCode>
+        <gn:postalCode>34008 CEDEX 1</gn:postalCode>
+        <gn:postalCode>34009 CEDEX 1</gn:postalCode>
+        <gn:postalCode>34010 CEDEX 1</gn:postalCode>
+        <gn:postalCode>34011 CEDEX 1</gn:postalCode>
+        <gn:postalCode>34012 CEDEX 1</gn:postalCode>
+        <gn:postalCode>34023 CEDEX 1</gn:postalCode>
+        <gn:postalCode>34024 CEDEX 1</gn:postalCode>
+        <gn:postalCode>34025 CEDEX 1</gn:postalCode>
+        <gn:postalCode>34026 CEDEX 1</gn:postalCode>
+        <gn:postalCode>34027 CEDEX 1</gn:postalCode>
+        <gn:postalCode>34028 CEDEX 1</gn:postalCode>
+        <gn:postalCode>34030 CEDEX 1</gn:postalCode>
+        <gn:postalCode>34032 CEDEX 1</gn:postalCode>
+        <gn:postalCode>34033 CEDEX 1</gn:postalCode>
+        <gn:postalCode>34034 CEDEX 1</gn:postalCode>
+        <gn:postalCode>34035 CEDEX 1</gn:postalCode>
+        <gn:postalCode>34037 CEDEX 1</gn:postalCode>
+        <gn:postalCode>34038 CEDEX 1</gn:postalCode>
+        <gn:postalCode>34039 CEDEX 1</gn:postalCode>
+        <gn:postalCode>34040 CEDEX 1</gn:postalCode>
+        <gn:postalCode>34041 CEDEX 1</gn:postalCode>
+        <gn:postalCode>34042 CEDEX 1</gn:postalCode>
+        <gn:postalCode>34043 CEDEX 1</gn:postalCode>
+        <gn:postalCode>34045 CEDEX 1</gn:postalCode>
+        <gn:postalCode>34046 CEDEX 1</gn:postalCode>
+        <gn:postalCode>34048 CEDEX 1</gn:postalCode>
+        <gn:postalCode>34049 CEDEX 1</gn:postalCode>
+        <gn:postalCode>34051 CEDEX 1</gn:postalCode>
+        <gn:postalCode>34053 CEDEX 1</gn:postalCode>
+        <gn:postalCode>34054 CEDEX 1</gn:postalCode>
+        <gn:postalCode>34055 CEDEX 1</gn:postalCode>
+        <gn:postalCode>34056 CEDEX 1</gn:postalCode>
+        <gn:postalCode>34058 CEDEX 1</gn:postalCode>
+        <gn:postalCode>34060 CEDEX 2</gn:postalCode>
+        <gn:postalCode>34061 CEDEX 2</gn:postalCode>
+        <gn:postalCode>34062 CEDEX 2</gn:postalCode>
+        <gn:postalCode>34063 CEDEX 2</gn:postalCode>
+        <gn:postalCode>34064 CEDEX 2</gn:postalCode>
+        <gn:postalCode>34065 CEDEX 2</gn:postalCode>
+        <gn:postalCode>34066 CEDEX 2</gn:postalCode>
+        <gn:postalCode>34067 CEDEX 2</gn:postalCode>
+        <gn:postalCode>34068 CEDEX 2</gn:postalCode>
+        <gn:postalCode>34070</gn:postalCode>
+        <gn:postalCode>34071 CEDEX 3</gn:postalCode>
+        <gn:postalCode>34072 CEDEX 3</gn:postalCode>
+        <gn:postalCode>34073 CEDEX 3</gn:postalCode>
+        <gn:postalCode>34074 CEDEX 3</gn:postalCode>
+        <gn:postalCode>34075 CEDEX 3</gn:postalCode>
+        <gn:postalCode>34076 CEDEX 3</gn:postalCode>
+        <gn:postalCode>34077 CEDEX 3</gn:postalCode>
+        <gn:postalCode>34078 CEDEX 3</gn:postalCode>
+        <gn:postalCode>34079 CEDEX 3</gn:postalCode>
+        <gn:postalCode>34080</gn:postalCode>
+        <gn:postalCode>34082 CEDEX 4</gn:postalCode>
+        <gn:postalCode>34083 CEDEX 4</gn:postalCode>
+        <gn:postalCode>34085 CEDEX 4</gn:postalCode>
+        <gn:postalCode>34086 CEDEX 4</gn:postalCode>
+        <gn:postalCode>34087 CEDEX 4</gn:postalCode>
+        <gn:postalCode>34089 CEDEX 4</gn:postalCode>
+        <gn:postalCode>34090</gn:postalCode>
+        <gn:postalCode>34091 CEDEX 5</gn:postalCode>
+        <gn:postalCode>34092 CEDEX 5</gn:postalCode>
+        <gn:postalCode>34093 CEDEX 5</gn:postalCode>
+        <gn:postalCode>34094 CEDEX 5</gn:postalCode>
+        <gn:postalCode>34095 CEDEX 5</gn:postalCode>
+        <gn:postalCode>34096 CEDEX 5</gn:postalCode>
+        <gn:postalCode>34097 CEDEX 5</gn:postalCode>
+        <gn:postalCode>34098 CEDEX 5</gn:postalCode>
+        <gn:postalCode>34099 CEDEX 5</gn:postalCode>
+        <gn:postalCode>34181 CEDEX 4</gn:postalCode>
+        <gn:postalCode>34183 CEDEX 4</gn:postalCode>
+        <gn:postalCode>34184 CEDEX 4</gn:postalCode>
+        <gn:postalCode>34186 CEDEX 4</gn:postalCode>
+        <gn:postalCode>34187 CEDEX 4</gn:postalCode>
+        <gn:postalCode>34191 CEDEX 5</gn:postalCode>
+        <gn:postalCode>34192 CEDEX 5</gn:postalCode>
+        <gn:postalCode>34193 CEDEX 5</gn:postalCode>
+        <gn:postalCode>34194 CEDEX 5</gn:postalCode>
+        <gn:postalCode>34195 CEDEX 5</gn:postalCode>
+        <gn:postalCode>34196 CEDEX 5</gn:postalCode>
+        <gn:postalCode>34197 CEDEX 5</gn:postalCode>
+        <gn:postalCode>34198 CEDEX 5</gn:postalCode>
+        <gn:postalCode>34199 CEDEX 5</gn:postalCode>
+        <gn:postalCode>34261 CEDEX 2</gn:postalCode>
+        <gn:postalCode>34262 CEDEX 2</gn:postalCode>
+        <gn:postalCode>34263 CEDEX 2</gn:postalCode>
+        <gn:postalCode>34264 CEDEX 2</gn:postalCode>
+        <gn:postalCode>34265 CEDEX 2</gn:postalCode>
+        <gn:postalCode>34266 CEDEX 2</gn:postalCode>
+        <gn:postalCode>34267 CEDEX 2</gn:postalCode>
+        <gn:postalCode>34274 CEDEX 3</gn:postalCode>
+        <gn:postalCode>34293 CEDEX 5</gn:postalCode>
+        <gn:postalCode>34294 CEDEX 5</gn:postalCode>
+        <gn:postalCode>34295 CEDEX 5</gn:postalCode>
+        <gn:postalCode>34296 CEDEX 5</gn:postalCode>
+        <gn:postalCode>34297 CEDEX 5</gn:postalCode>
+        <gn:postalCode>34298 CEDEX 5</gn:postalCode>
+        <gn:postalCode>34299 CEDEX 5</gn:postalCode>
+        <gn:postalCode>34391 CEDEX 5</gn:postalCode>
+        <gn:postalCode>34392 CEDEX 5</gn:postalCode>
+        <gn:postalCode>34393 CEDEX 5</gn:postalCode>
+        <gn:postalCode>34394 CEDEX 5</gn:postalCode>
+        <gn:postalCode>34396 CEDEX 5</gn:postalCode>
+        <gn:postalCode>34397 CEDEX 5</gn:postalCode>
+        <gn:postalCode>34398 CEDEX 5</gn:postalCode>
+        <gn:postalCode>34399 CEDEX 5</gn:postalCode>
+        <gn:postalCode>34900 CEDEX 9</gn:postalCode>
+        <gn:postalCode>34923 CEDEX 9</gn:postalCode>
+        <gn:postalCode>34925 CEDEX 9</gn:postalCode>
+        <gn:postalCode>34926 CEDEX 9</gn:postalCode>
+        <gn:postalCode>34932 CEDEX 9</gn:postalCode>
+        <gn:postalCode>34933 CEDEX 9</gn:postalCode>
+        <gn:postalCode>34934 CEDEX 9</gn:postalCode>
+        <gn:postalCode>34935 CEDEX 9</gn:postalCode>
+        <gn:postalCode>34937 CEDEX 9</gn:postalCode>
+        <gn:postalCode>34938 CEDEX 9</gn:postalCode>
+        <gn:postalCode>34939 CEDEX 9</gn:postalCode>
+        <gn:postalCode>34940 CEDEX 9</gn:postalCode>
+        <gn:postalCode>34942 CEDEX 9</gn:postalCode>
+        <gn:postalCode>34943 CEDEX 9</gn:postalCode>
+        <gn:postalCode>34944 CEDEX 9</gn:postalCode>
+        <gn:postalCode>34948 CEDEX 9</gn:postalCode>
+        <gn:postalCode>34949 CEDEX 9</gn:postalCode>
+        <gn:postalCode>34954 CEDEX 2</gn:postalCode>
+        <gn:postalCode>34955 CEDEX 2</gn:postalCode>
+        <gn:postalCode>34956 CEDEX 2</gn:postalCode>
+        <gn:postalCode>34957 CEDEX 2</gn:postalCode>
+        <gn:postalCode>34958 CEDEX 2</gn:postalCode>
+        <gn:postalCode>34959 CEDEX 9</gn:postalCode>
+        <gn:postalCode>34960 CEDEX 2</gn:postalCode>
+        <gn:postalCode>34961 CEDEX 2</gn:postalCode>
+        <gn:postalCode>34962 CEDEX 2</gn:postalCode>
+        <gn:postalCode>34964 CEDEX 2</gn:postalCode>
+        <gn:postalCode>34965 CEDEX 2</gn:postalCode>
+        <gn:postalCode>34967 CEDEX 2</gn:postalCode>
+        <wgs84_pos:lat>43.61093</wgs84_pos:lat>
+        <wgs84_pos:long>3.87635</wgs84_pos:long>
+        <gn:parentFeature rdf:resource="https://sws.geonames.org/6454034/"/>
+        <gn:parentCountry rdf:resource="https://sws.geonames.org/3017382/"/>
+        <gn:parentADM1 rdf:resource="https://sws.geonames.org/11071623/"/>
+        <gn:parentADM2 rdf:resource="https://sws.geonames.org/3013500/"/>
+        <gn:parentADM3 rdf:resource="https://sws.geonames.org/2992165/"/>
+        <gn:parentADM4 rdf:resource="https://sws.geonames.org/6454034/"/>
+        <gn:nearbyFeatures rdf:resource="https://sws.geonames.org/2992166/nearby.rdf"/>
+        <gn:locationMap rdf:resource="https://www.geonames.org/2992166/montpellier.html"/>
+        <gn:wikipediaArticle rdf:resource="https://en.wikipedia.org/wiki/Montpellier"/>
+        <rdfs:seeAlso rdf:resource="https://dbpedia.org/resource/Montpellier"/>
+        <gn:wikipediaArticle rdf:resource="https://ru.wikipedia.org/wiki/%D0%9C%D0%BE%D0%BD%D0%BF%D0%B5%D0%BB%D1%8C%D0%B5"/>
+    </gn:Feature>
+    <foaf:Document rdf:about="https://sws.geonames.org/2992166/about.rdf">
+        <foaf:primaryTopic rdf:resource="https://sws.geonames.org/2992166/"/>
+        <cc:license rdf:resource="https://creativecommons.org/licenses/by/4.0/"/>
+        <cc:attributionURL rdf:resource="https://www.geonames.org"/>
+        <cc:attributionName rdf:datatype="https://www.w3.org/2001/XMLSchema#string">GeoNames</cc:attributionName>
+        <dcterms:created rdf:datatype="https://www.w3.org/2001/XMLSchema#date">2006-01-15</dcterms:created>
+        <dcterms:modified rdf:datatype="https://www.w3.org/2001/XMLSchema#date">2021-08-03</dcterms:modified>
+    </foaf:Document>
+</rdf:RDF>

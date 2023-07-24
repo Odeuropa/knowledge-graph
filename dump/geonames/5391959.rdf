@@ -1,47 +1,185 @@
-<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd ">
-<html>
-<head>
-<title>GeoNames</title>
-<link rel="search" type="application/opensearchdescription+xml" title="geonames" href="https://www.geonames.org/opensearch-description.xml">
-<link href="/geonames.ico" rel="shortcut icon" >
-<link rel="StyleSheet" href="/geonames.css" type="text/css" >
-</head>
-<body>
-<table id="topmenutable" cellpadding="0" cellspacing="0"><tr>
-<td class="topmenu">&nbsp;<a href="/" title="GeoName Home">&nbsp;GeoNames Home</a>&nbsp;|&nbsp;<a href="/postal-codes/" title="Postal Codes">Postal Codes</a>&nbsp;|&nbsp;<a href="/export/" title="Database Dump and Webservice API">Download / Webservice</a>&nbsp;|&nbsp;<a href="/about.html" title="About GeoNames">About</a>&nbsp;</td>
-<td class="topsearch">
-   <form class="topsearch" name="searchForm" method="get" action="/servlet/geonames" >
-
-      search <input class="topmenu" name="q" size="20" value="" type="text">
-     <input type="hidden" name="srv" value="1">
-   </form>
-
-   <span id="topmenulogin">
-<a href="https://www.geonames.org/login" title="login or create new user account">login</a>
-   </span>
-</td></tr>
-</table>
-
-<br><br><br><br>
-<div style="margin:auto; width:500px; padding:40px; text-align:left" class="formTemplateClass">
-Connection to localhost:5432 refused. Check that the hostname and port are correct and that the postmaster is accepting TCP/IP connections.
-</div>
-
-
-<p>&nbsp;</p><p>&nbsp;</p><p>&nbsp;</p><p>&nbsp;</p>
-<div id="pageFooter">
-info@geonames.org  <img src="/img/smallant.gif" alt="ant" align="middle" hspace="40" border="0">
-<p>
-<a href="/">GeoNames Home</a>
-<span class="separator">&#8226;</span>
-<a href="/postal-codes/">Postal Codes</a>
-<span class="separator">&#8226;</span>
-<a href="/export/">Download / Webservice</a>
-<span class="separator">&#8226;</span>
-<a href="http://forum.geonames.org">Forum</a>
-<span class="separator">&#8226;</span>
-<a href="http://geonames.wordpress.com">Blog</a>
-<span class="separator">&#8226;</span>
-<a href="/sitemap.html">Sitemap</a>
-</div>
-</body></html>
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<rdf:RDF xmlns:cc="http://creativecommons.org/ns#" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:foaf="http://xmlns.com/foaf/0.1/" xmlns:gn="http://www.geonames.org/ontology#" xmlns:owl="http://www.w3.org/2002/07/owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:wgs84_pos="http://www.w3.org/2003/01/geo/wgs84_pos#">
+    <gn:Feature rdf:about="https://sws.geonames.org/5391959/">
+        <rdfs:isDefinedBy rdf:resource="https://sws.geonames.org/5391959/about.rdf"/>
+        <gn:name>San Francisco</gn:name>
+        <gn:shortName xml:lang="ko">샌프란</gn:shortName>
+        <gn:officialName xml:lang="ko">샌프란시스코</gn:officialName>
+        <gn:alternateName xml:lang="la">Franciscopolis</gn:alternateName>
+        <gn:alternateName xml:lang="en">Frisco</gn:alternateName>
+        <gn:alternateName xml:lang="haw">Kapalakiko</gn:alternateName>
+        <gn:alternateName xml:lang="hak">Khiu-kîm-sân</gn:alternateName>
+        <gn:alternateName xml:lang="tl">Lungsod ng San Francisco</gn:alternateName>
+        <gn:alternateName>New Albion</gn:alternateName>
+        <gn:alternateName xml:lang="af">San Francisco</gn:alternateName>
+        <gn:alternateName xml:lang="ast">San Francisco</gn:alternateName>
+        <gn:alternateName xml:lang="bs">San Francisco</gn:alternateName>
+        <gn:alternateName xml:lang="ca">San Francisco</gn:alternateName>
+        <gn:alternateName xml:lang="cs">San Francisco</gn:alternateName>
+        <gn:alternateName xml:lang="cy">San Francisco</gn:alternateName>
+        <gn:alternateName xml:lang="da">San Francisco</gn:alternateName>
+        <gn:alternateName xml:lang="de">San Francisco</gn:alternateName>
+        <gn:officialName xml:lang="en">San Francisco</gn:officialName>
+        <gn:alternateName xml:lang="eo">San Francisco</gn:alternateName>
+        <gn:alternateName xml:lang="es">San Francisco</gn:alternateName>
+        <gn:alternateName xml:lang="et">San Francisco</gn:alternateName>
+        <gn:alternateName xml:lang="fi">San Francisco</gn:alternateName>
+        <gn:alternateName xml:lang="fr">San Francisco</gn:alternateName>
+        <gn:alternateName xml:lang="ga">San Francisco</gn:alternateName>
+        <gn:alternateName xml:lang="gd">San Francisco</gn:alternateName>
+        <gn:alternateName xml:lang="gl">San Francisco</gn:alternateName>
+        <gn:alternateName xml:lang="hbs">San Francisco</gn:alternateName>
+        <gn:alternateName xml:lang="hu">San Francisco</gn:alternateName>
+        <gn:alternateName xml:lang="id">San Francisco</gn:alternateName>
+        <gn:alternateName xml:lang="is">San Francisco</gn:alternateName>
+        <gn:alternateName xml:lang="it">San Francisco</gn:alternateName>
+        <gn:alternateName xml:lang="nds">San Francisco</gn:alternateName>
+        <gn:alternateName xml:lang="nl">San Francisco</gn:alternateName>
+        <gn:alternateName xml:lang="nn">San Francisco</gn:alternateName>
+        <gn:alternateName xml:lang="no">San Francisco</gn:alternateName>
+        <gn:alternateName xml:lang="pl">San Francisco</gn:alternateName>
+        <gn:alternateName xml:lang="ro">San Francisco</gn:alternateName>
+        <gn:alternateName xml:lang="sk">San Francisco</gn:alternateName>
+        <gn:alternateName xml:lang="sl">San Francisco</gn:alternateName>
+        <gn:alternateName xml:lang="sq">San Francisco</gn:alternateName>
+        <gn:alternateName xml:lang="sv">San Francisco</gn:alternateName>
+        <gn:alternateName xml:lang="tl">San Francisco</gn:alternateName>
+        <gn:alternateName xml:lang="tr">San Francisco</gn:alternateName>
+        <gn:alternateName xml:lang="vi">San Francisco</gn:alternateName>
+        <gn:alternateName xml:lang="ext">San Franciscu</gn:alternateName>
+        <gn:alternateName xml:lang="scn">San Franciscu</gn:alternateName>
+        <gn:alternateName xml:lang="eo">Sanfrancisko</gn:alternateName>
+        <gn:alternateName xml:lang="lv">Sanfrancisko</gn:alternateName>
+        <gn:alternateName xml:lang="vep">San Francisko</gn:alternateName>
+        <gn:officialName xml:lang="eo">San-Francisko</gn:officialName>
+        <gn:alternateName>San Fransisco</gn:alternateName>
+        <gn:alternateName xml:lang="lt">San Fransiskas</gn:alternateName>
+        <gn:alternateName xml:lang="fy">San Fransisko</gn:alternateName>
+        <gn:alternateName xml:lang="ug">San Fransisko</gn:alternateName>
+        <gn:alternateName xml:lang="uz">San Fransisko</gn:alternateName>
+        <gn:alternateName xml:lang="az">San-Fransisko</gn:alternateName>
+        <gn:alternateName xml:lang="eu">San Frantzisko</gn:alternateName>
+        <gn:alternateName xml:lang="pt">São Francisco</gn:alternateName>
+        <gn:alternateName>Yerba Buena</gn:alternateName>
+        <gn:alternateName xml:lang="el">Σαν Φρανσίσκο</gn:alternateName>
+        <gn:alternateName xml:lang="kk">Сан Франсиско</gn:alternateName>
+        <gn:alternateName xml:lang="sah">Сан Франсиско</gn:alternateName>
+        <gn:alternateName xml:lang="bg">Сан Франциско</gn:alternateName>
+        <gn:alternateName xml:lang="mk">Сан Франциско</gn:alternateName>
+        <gn:alternateName xml:lang="ro">Сан Франциско</gn:alternateName>
+        <gn:alternateName xml:lang="sr">Сан Франциско</gn:alternateName>
+        <gn:alternateName xml:lang="ce">Сан-Франциско</gn:alternateName>
+        <gn:alternateName xml:lang="cv">Сан-Франциско</gn:alternateName>
+        <gn:alternateName xml:lang="krc">Сан-Франциско</gn:alternateName>
+        <gn:alternateName xml:lang="mhr">Сан-Франциско</gn:alternateName>
+        <gn:alternateName xml:lang="mn">Сан-Франциско</gn:alternateName>
+        <gn:alternateName xml:lang="os">Сан-Франциско</gn:alternateName>
+        <gn:alternateName xml:lang="ru">Сан-Франциско</gn:alternateName>
+        <gn:alternateName xml:lang="tt">Сан-Франциско</gn:alternateName>
+        <gn:alternateName xml:lang="uk">Сан-Франциско</gn:alternateName>
+        <gn:alternateName xml:lang="uk">Сан-Франціско</gn:alternateName>
+        <gn:alternateName xml:lang="be">Сан-Францыска</gn:alternateName>
+        <gn:alternateName xml:lang="ka">სან-ფრანცისკო</gn:alternateName>
+        <gn:alternateName xml:lang="xmf">სან-ფრანცისკო</gn:alternateName>
+        <gn:alternateName xml:lang="hy">Սան Ֆրանցիսկո</gn:alternateName>
+        <gn:alternateName xml:lang="yi">סאן פראנציסקא</gn:alternateName>
+        <gn:alternateName xml:lang="he">סן פרנסיסקו</gn:alternateName>
+        <gn:alternateName xml:lang="pnb">سان فرانسسکو</gn:alternateName>
+        <gn:alternateName xml:lang="ur">سان فرانسسکو</gn:alternateName>
+        <gn:alternateName xml:lang="ar">سان فرانسيسكو</gn:alternateName>
+        <gn:alternateName xml:lang="arz">سان فرانسيسكو</gn:alternateName>
+        <gn:alternateName xml:lang="fa">سان فرانسیسکو</gn:alternateName>
+        <gn:alternateName xml:lang="ckb">سان فرانسیسکۆ</gn:alternateName>
+        <gn:alternateName xml:lang="mr">सॅन फ्रान्सिस्को</gn:alternateName>
+        <gn:alternateName xml:lang="hi">सैन फ्रांसिस्को</gn:alternateName>
+        <gn:alternateName xml:lang="new">स्यान फ्रान्सिस्को</gn:alternateName>
+        <gn:alternateName xml:lang="bpy">সান ফ্রান্সিসকো কাউন্টি</gn:alternateName>
+        <gn:alternateName xml:lang="bn">সান ফ্রান্সিস্কো</gn:alternateName>
+        <gn:alternateName xml:lang="pa">ਸੈਨ ਫਰਾਂਸਿਸਕੋ</gn:alternateName>
+        <gn:alternateName xml:lang="ta">சான் பிரான்சிஸ்கோ</gn:alternateName>
+        <gn:alternateName xml:lang="te">శాన్ ఫ్రాన్సిస్కో</gn:alternateName>
+        <gn:alternateName xml:lang="ml">സാൻ ഫ്രാൻസിസ്കോ</gn:alternateName>
+        <gn:alternateName xml:lang="si">සැන් ෆ්‍රැන්සිස්කෝ</gn:alternateName>
+        <gn:alternateName xml:lang="th">ซานฟรานซิสโก</gn:alternateName>
+        <gn:alternateName xml:lang="bo">སན་ཧྥུ་རན་སིས་ཁོ</gn:alternateName>
+        <gn:alternateName xml:lang="my">ဆန်ဖရန်စစ္စကိုမြို့</gn:alternateName>
+        <gn:alternateName xml:lang="ja">サンフランシスコ</gn:alternateName>
+        <gn:alternateName xml:lang="yue">三藩市</gn:alternateName>
+        <gn:alternateName xml:lang="wuu">旧金山</gn:alternateName>
+        <gn:alternateName xml:lang="zh">旧金山</gn:alternateName>
+        <gn:alternateName xml:lang="gan">舊金山</gn:alternateName>
+        <gn:featureClass rdf:resource="https://www.geonames.org/ontology#P"/>
+        <gn:featureCode rdf:resource="https://www.geonames.org/ontology#P.PPLA2"/>
+        <gn:countryCode>US</gn:countryCode>
+        <gn:population>864816</gn:population>
+        <gn:postalCode>94102</gn:postalCode>
+        <gn:postalCode>94103</gn:postalCode>
+        <gn:postalCode>94104</gn:postalCode>
+        <gn:postalCode>94105</gn:postalCode>
+        <gn:postalCode>94107</gn:postalCode>
+        <gn:postalCode>94108</gn:postalCode>
+        <gn:postalCode>94109</gn:postalCode>
+        <gn:postalCode>94110</gn:postalCode>
+        <gn:postalCode>94111</gn:postalCode>
+        <gn:postalCode>94112</gn:postalCode>
+        <gn:postalCode>94114</gn:postalCode>
+        <gn:postalCode>94115</gn:postalCode>
+        <gn:postalCode>94116</gn:postalCode>
+        <gn:postalCode>94117</gn:postalCode>
+        <gn:postalCode>94118</gn:postalCode>
+        <gn:postalCode>94119</gn:postalCode>
+        <gn:postalCode>94120</gn:postalCode>
+        <gn:postalCode>94121</gn:postalCode>
+        <gn:postalCode>94122</gn:postalCode>
+        <gn:postalCode>94123</gn:postalCode>
+        <gn:postalCode>94124</gn:postalCode>
+        <gn:postalCode>94125</gn:postalCode>
+        <gn:postalCode>94126</gn:postalCode>
+        <gn:postalCode>94127</gn:postalCode>
+        <gn:postalCode>94129</gn:postalCode>
+        <gn:postalCode>94130</gn:postalCode>
+        <gn:postalCode>94131</gn:postalCode>
+        <gn:postalCode>94132</gn:postalCode>
+        <gn:postalCode>94133</gn:postalCode>
+        <gn:postalCode>94134</gn:postalCode>
+        <gn:postalCode>94137</gn:postalCode>
+        <gn:postalCode>94139</gn:postalCode>
+        <gn:postalCode>94140</gn:postalCode>
+        <gn:postalCode>94141</gn:postalCode>
+        <gn:postalCode>94142</gn:postalCode>
+        <gn:postalCode>94143</gn:postalCode>
+        <gn:postalCode>94144</gn:postalCode>
+        <gn:postalCode>94145</gn:postalCode>
+        <gn:postalCode>94146</gn:postalCode>
+        <gn:postalCode>94147</gn:postalCode>
+        <gn:postalCode>94151</gn:postalCode>
+        <gn:postalCode>94159</gn:postalCode>
+        <gn:postalCode>94160</gn:postalCode>
+        <gn:postalCode>94161</gn:postalCode>
+        <gn:postalCode>94163</gn:postalCode>
+        <gn:postalCode>94164</gn:postalCode>
+        <gn:postalCode>94172</gn:postalCode>
+        <gn:postalCode>94177</gn:postalCode>
+        <gn:postalCode>94188</gn:postalCode>
+        <wgs84_pos:lat>37.77493</wgs84_pos:lat>
+        <wgs84_pos:long>-122.41942</wgs84_pos:long>
+        <wgs84_pos:alt>16</wgs84_pos:alt>
+        <gn:parentFeature rdf:resource="https://sws.geonames.org/5391997/"/>
+        <gn:parentCountry rdf:resource="https://sws.geonames.org/6252001/"/>
+        <gn:parentADM1 rdf:resource="https://sws.geonames.org/5332921/"/>
+        <gn:parentADM2 rdf:resource="https://sws.geonames.org/5391997/"/>
+        <gn:nearbyFeatures rdf:resource="https://sws.geonames.org/5391959/nearby.rdf"/>
+        <gn:locationMap rdf:resource="https://www.geonames.org/5391959/san-francisco.html"/>
+        <gn:wikipediaArticle rdf:resource="https://en.wikipedia.org/wiki/San_Francisco"/>
+        <rdfs:seeAlso rdf:resource="https://dbpedia.org/resource/San_Francisco"/>
+        <gn:wikipediaArticle rdf:resource="https://ru.wikipedia.org/wiki/%D0%A1%D0%B0%D0%BD-%D0%A4%D1%80%D0%B0%D0%BD%D1%86%D0%B8%D1%81%D0%BA%D0%BE"/>
+    </gn:Feature>
+    <foaf:Document rdf:about="https://sws.geonames.org/5391959/about.rdf">
+        <foaf:primaryTopic rdf:resource="https://sws.geonames.org/5391959/"/>
+        <cc:license rdf:resource="https://creativecommons.org/licenses/by/4.0/"/>
+        <cc:attributionURL rdf:resource="https://www.geonames.org"/>
+        <cc:attributionName rdf:datatype="https://www.w3.org/2001/XMLSchema#string">GeoNames</cc:attributionName>
+        <dcterms:created rdf:datatype="https://www.w3.org/2001/XMLSchema#date">2006-01-15</dcterms:created>
+        <dcterms:modified rdf:datatype="https://www.w3.org/2001/XMLSchema#date">2022-03-09</dcterms:modified>
+    </foaf:Document>
+</rdf:RDF>

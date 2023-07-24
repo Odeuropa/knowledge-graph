@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<rdf:RDF xmlns:cc="http://creativecommons.org/ns#" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:foaf="http://xmlns.com/foaf/0.1/" xmlns:gn="http://www.geonames.org/ontology#" xmlns:owl="http://www.w3.org/2002/07/owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:wgs84_pos="http://www.w3.org/2003/01/geo/wgs84_pos#">
+    <gn:Feature rdf:about="https://sws.geonames.org/3488700/">
+        <rdfs:isDefinedBy rdf:resource="https://sws.geonames.org/3488700/about.rdf"/>
+        <gn:name>Saint James</gn:name>
+        <gn:alternateName>Parish of Saint James</gn:alternateName>
+        <gn:officialName>Saint James</gn:officialName>
+        <gn:alternateName>Saint James Parish</gn:alternateName>
+        <gn:shortName>St. James</gn:shortName>
+        <gn:featureClass rdf:resource="https://www.geonames.org/ontology#A"/>
+        <gn:featureCode rdf:resource="https://www.geonames.org/ontology#A.ADM1"/>
+        <gn:countryCode>JM</gn:countryCode>
+        <gn:population>180498</gn:population>
+        <wgs84_pos:lat>18.38333</wgs84_pos:lat>
+        <wgs84_pos:long>-77.88333</wgs84_pos:long>
+        <gn:parentFeature rdf:resource="https://sws.geonames.org/3489940/"/>
+        <gn:parentCountry rdf:resource="https://sws.geonames.org/3489940/"/>
+        <gn:childrenFeatures rdf:resource="https://sws.geonames.org/3488700/contains.rdf"/>
+        <gn:locationMap rdf:resource="https://www.geonames.org/3488700/saint-james.html"/>
+        <gn:wikipediaArticle rdf:resource="https://en.wikipedia.org/wiki/Saint_James_Parish%2C_Jamaica"/>
+        <rdfs:seeAlso rdf:resource="https://dbpedia.org/resource/Saint_James_Parish%2C_Jamaica"/>
+    </gn:Feature>
+    <foaf:Document rdf:about="https://sws.geonames.org/3488700/about.rdf">
+        <foaf:primaryTopic rdf:resource="https://sws.geonames.org/3488700/"/>
+        <cc:license rdf:resource="https://creativecommons.org/licenses/by/4.0/"/>
+        <cc:attributionURL rdf:resource="https://www.geonames.org"/>
+        <cc:attributionName rdf:datatype="https://www.w3.org/2001/XMLSchema#string">GeoNames</cc:attributionName>
+        <dcterms:created rdf:datatype="https://www.w3.org/2001/XMLSchema#date">2006-01-15</dcterms:created>
+        <dcterms:modified rdf:datatype="https://www.w3.org/2001/XMLSchema#date">2016-09-02</dcterms:modified>
+    </foaf:Document>
+</rdf:RDF>

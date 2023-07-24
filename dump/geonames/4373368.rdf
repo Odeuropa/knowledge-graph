@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<rdf:RDF xmlns:cc="http://creativecommons.org/ns#" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:foaf="http://xmlns.com/foaf/0.1/" xmlns:gn="http://www.geonames.org/ontology#" xmlns:owl="http://www.w3.org/2002/07/owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:wgs84_pos="http://www.w3.org/2003/01/geo/wgs84_pos#">
+    <gn:Feature rdf:about="https://sws.geonames.org/4373368/">
+        <rdfs:isDefinedBy rdf:resource="https://sws.geonames.org/4373368/about.rdf"/>
+        <gn:name>4th District Station</gn:name>
+        <gn:shortName xml:lang="en">4th District Station</gn:shortName>
+        <gn:alternateName xml:lang="en">Montgomery County Department of Police 4th District Wheaton</gn:alternateName>
+        <gn:alternateName xml:lang="en">Montgomery County Police Department 4th District Station</gn:alternateName>
+        <gn:alternateName xml:lang="en">Montgomery County Police Department, 4th District Station</gn:alternateName>
+        <gn:alternateName xml:lang="en">Montgomery County Police Department - Wheaton District</gn:alternateName>
+        <gn:alternateName xml:lang="en">Wheaton-Glenmont Police Station</gn:alternateName>
+        <gn:alternateName xml:lang="en">Wheaton Police Department District 4</gn:alternateName>
+        <gn:featureClass rdf:resource="https://www.geonames.org/ontology#S"/>
+        <gn:featureCode rdf:resource="https://www.geonames.org/ontology#S.PP"/>
+        <gn:countryCode>US</gn:countryCode>
+        <gn:postalCode>20902</gn:postalCode>
+        <wgs84_pos:lat>39.05844</wgs84_pos:lat>
+        <wgs84_pos:long>-77.04887</wgs84_pos:long>
+        <wgs84_pos:alt>134</wgs84_pos:alt>
+        <gn:parentFeature rdf:resource="https://sws.geonames.org/4362716/"/>
+        <gn:parentCountry rdf:resource="https://sws.geonames.org/6252001/"/>
+        <gn:parentADM1 rdf:resource="https://sws.geonames.org/4361885/"/>
+        <gn:parentADM2 rdf:resource="https://sws.geonames.org/4362716/"/>
+        <gn:nearbyFeatures rdf:resource="https://sws.geonames.org/4373368/nearby.rdf"/>
+        <gn:locationMap rdf:resource="https://www.geonames.org/4373368/wheaton-glenmont-police-station.html"/>
+    </gn:Feature>
+    <foaf:Document rdf:about="https://sws.geonames.org/4373368/about.rdf">
+        <foaf:primaryTopic rdf:resource="https://sws.geonames.org/4373368/"/>
+        <cc:license rdf:resource="https://creativecommons.org/licenses/by/4.0/"/>
+        <cc:attributionURL rdf:resource="https://www.geonames.org"/>
+        <cc:attributionName rdf:datatype="https://www.w3.org/2001/XMLSchema#string">GeoNames</cc:attributionName>
+        <dcterms:created rdf:datatype="https://www.w3.org/2001/XMLSchema#date">2006-01-15</dcterms:created>
+        <dcterms:modified rdf:datatype="https://www.w3.org/2001/XMLSchema#date">2019-03-03</dcterms:modified>
+    </foaf:Document>
+</rdf:RDF>

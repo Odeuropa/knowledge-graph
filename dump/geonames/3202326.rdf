@@ -26,7 +26,7 @@
         <gn:alternateName xml:lang="pms">Croassia</gn:alternateName>
         <gn:alternateName xml:lang="pam">Croasya</gn:alternateName>
         <gn:officialName xml:lang="cy">Croatia</gn:officialName>
-        <gn:officialName xml:lang="en">Croatia</gn:officialName>
+        <gn:shortName xml:lang="en">Croatia</gn:shortName>
         <gn:officialName xml:lang="ia">Croatia</gn:officialName>
         <gn:officialName xml:lang="ig">Croatia</gn:officialName>
         <gn:alternateName xml:lang="la">Croatia</gn:alternateName>
@@ -50,7 +50,7 @@
         <gn:officialName xml:lang="sl">Hrvaška</gn:officialName>
         <gn:officialName xml:lang="bs">Hrvatska</gn:officialName>
         <gn:alternateName xml:lang="hbs">Hrvatska</gn:alternateName>
-        <gn:officialName xml:lang="hr">Hrvatska</gn:officialName>
+        <gn:shortName xml:lang="hr">Hrvatska</gn:shortName>
         <gn:alternateName>Hrvatska</gn:alternateName>
         <gn:alternateName xml:lang="qu">Hurwatsuyu</gn:alternateName>
         <gn:officialName xml:lang="zu">i-Croatia</gn:officialName>
@@ -111,7 +111,7 @@
         <gn:alternateName>Narodna Republika Hrvatska</gn:alternateName>
         <gn:alternateName>Peoples Republic of Croatia</gn:alternateName>
         <gn:alternateName xml:lang="en">Republic of Croatia</gn:alternateName>
-        <gn:alternateName xml:lang="hr">Republika Hrvatska</gn:alternateName>
+        <gn:officialName xml:lang="hr">Republika Hrvatska</gn:officialName>
         <gn:alternateName>Republika Hrvatska</gn:alternateName>
         <gn:alternateName>Socialist Republic of Croatia</gn:alternateName>
         <gn:alternateName>Socijalistička Republika Hrvatska</gn:alternateName>
@@ -178,10 +178,11 @@
         <gn:featureClass rdf:resource="https://www.geonames.org/ontology#A"/>
         <gn:featureCode rdf:resource="https://www.geonames.org/ontology#A.PCLI"/>
         <gn:countryCode>HR</gn:countryCode>
-        <gn:population>4089400</gn:population>
+        <gn:population>3871833</gn:population>
         <wgs84_pos:lat>45.16667</wgs84_pos:lat>
         <wgs84_pos:long>15.5</wgs84_pos:long>
         <gn:parentFeature rdf:resource="https://sws.geonames.org/6695072/"/>
+        <gn:parentFeature rdf:resource="https://sws.geonames.org/12503661/"/>
         <gn:parentFeature rdf:resource="https://sws.geonames.org/12216908/"/>
         <gn:parentFeature rdf:resource="https://sws.geonames.org/12217088/"/>
         <gn:parentFeature rdf:resource="https://sws.geonames.org/9408658/"/>
@@ -198,6 +199,6 @@
         <cc:attributionURL rdf:resource="https://www.geonames.org"/>
         <cc:attributionName rdf:datatype="https://www.w3.org/2001/XMLSchema#string">GeoNames</cc:attributionName>
         <dcterms:created rdf:datatype="https://www.w3.org/2001/XMLSchema#date">2006-01-15</dcterms:created>
-        <dcterms:modified rdf:datatype="https://www.w3.org/2001/XMLSchema#date">2021-11-13</dcterms:modified>
+        <dcterms:modified rdf:datatype="https://www.w3.org/2001/XMLSchema#date">2023-03-13</dcterms:modified>
     </foaf:Document>
 </rdf:RDF>

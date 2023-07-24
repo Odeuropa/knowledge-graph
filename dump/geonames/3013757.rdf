@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<rdf:RDF xmlns:cc="http://creativecommons.org/ns#" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:foaf="http://xmlns.com/foaf/0.1/" xmlns:gn="http://www.geonames.org/ontology#" xmlns:owl="http://www.w3.org/2002/07/owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:wgs84_pos="http://www.w3.org/2003/01/geo/wgs84_pos#">
+    <gn:Feature rdf:about="https://sws.geonames.org/3013757/">
+        <rdfs:isDefinedBy rdf:resource="https://sws.geonames.org/3013757/about.rdf"/>
+        <gn:name>Haute-Marne</gn:name>
+        <gn:officialName xml:lang="it">Alta Marna</gn:officialName>
+        <gn:officialName xml:lang="es">Alto Marne</gn:officialName>
+        <gn:officialName xml:lang="fr">Département de la Haute-Marne</gn:officialName>
+        <gn:alternateName>Département de la Haute-Marne</gn:alternateName>
+        <gn:officialName xml:lang="de">Haute-Marne</gn:officialName>
+        <gn:officialName xml:lang="en">Haute-Marne</gn:officialName>
+        <gn:officialName xml:lang="fr">Haute-Marne</gn:officialName>
+        <gn:featureClass rdf:resource="https://www.geonames.org/ontology#A"/>
+        <gn:featureCode rdf:resource="https://www.geonames.org/ontology#A.ADM2"/>
+        <gn:countryCode>FR</gn:countryCode>
+        <gn:population>174069</gn:population>
+        <wgs84_pos:lat>48.12019</wgs84_pos:lat>
+        <wgs84_pos:long>5.24038</wgs84_pos:long>
+        <gn:parentFeature rdf:resource="https://sws.geonames.org/3027258/"/>
+        <gn:parentCountry rdf:resource="https://sws.geonames.org/3017382/"/>
+        <gn:parentADM1 rdf:resource="https://sws.geonames.org/11071622/"/>
+        <gn:childrenFeatures rdf:resource="https://sws.geonames.org/3013757/contains.rdf"/>
+        <gn:locationMap rdf:resource="https://www.geonames.org/3013757/haute-marne.html"/>
+        <gn:wikipediaArticle rdf:resource="https://en.wikipedia.org/wiki/Haute-Marne"/>
+        <rdfs:seeAlso rdf:resource="https://dbpedia.org/resource/Haute-Marne"/>
+        <owl:sameAs rdf:resource="http://id.insee.fr/geo/departement/52"/>
+    </gn:Feature>
+    <foaf:Document rdf:about="https://sws.geonames.org/3013757/about.rdf">
+        <foaf:primaryTopic rdf:resource="https://sws.geonames.org/3013757/"/>
+        <cc:license rdf:resource="https://creativecommons.org/licenses/by/4.0/"/>
+        <cc:attributionURL rdf:resource="https://www.geonames.org"/>
+        <cc:attributionName rdf:datatype="https://www.w3.org/2001/XMLSchema#string">GeoNames</cc:attributionName>
+        <dcterms:created rdf:datatype="https://www.w3.org/2001/XMLSchema#date">2006-01-15</dcterms:created>
+        <dcterms:modified rdf:datatype="https://www.w3.org/2001/XMLSchema#date">2022-03-10</dcterms:modified>
+    </foaf:Document>
+</rdf:RDF>

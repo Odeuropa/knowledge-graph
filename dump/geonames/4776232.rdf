@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<rdf:RDF xmlns:cc="http://creativecommons.org/ns#" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:foaf="http://xmlns.com/foaf/0.1/" xmlns:gn="http://www.geonames.org/ontology#" xmlns:owl="http://www.w3.org/2002/07/owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:wgs84_pos="http://www.w3.org/2003/01/geo/wgs84_pos#">
+    <gn:Feature rdf:about="https://sws.geonames.org/4776232/">
+        <rdfs:isDefinedBy rdf:resource="https://sws.geonames.org/4776232/about.rdf"/>
+        <gn:name>Sentara Norfolk General Hospital Airport</gn:name>
+        <gn:alternateName>Norfolk General Hospital Airport</gn:alternateName>
+        <gn:officialName xml:lang="en">Sentara Norfolk General Hospital Airport</gn:officialName>
+        <gn:featureClass rdf:resource="https://www.geonames.org/ontology#S"/>
+        <gn:featureCode rdf:resource="https://www.geonames.org/ontology#S.AIRP"/>
+        <gn:countryCode>US</gn:countryCode>
+        <wgs84_pos:lat>36.86164</wgs84_pos:lat>
+        <wgs84_pos:long>-76.30467</wgs84_pos:long>
+        <wgs84_pos:alt>3</wgs84_pos:alt>
+        <gn:parentFeature rdf:resource="https://sws.geonames.org/4776242/"/>
+        <gn:parentCountry rdf:resource="https://sws.geonames.org/6252001/"/>
+        <gn:parentADM1 rdf:resource="https://sws.geonames.org/6254928/"/>
+        <gn:parentADM2 rdf:resource="https://sws.geonames.org/4776242/"/>
+        <gn:nearbyFeatures rdf:resource="https://sws.geonames.org/4776232/nearby.rdf"/>
+        <gn:locationMap rdf:resource="https://www.geonames.org/4776232/sentara-norfolk-general-hospital-airport.html"/>
+    </gn:Feature>
+    <foaf:Document rdf:about="https://sws.geonames.org/4776232/about.rdf">
+        <foaf:primaryTopic rdf:resource="https://sws.geonames.org/4776232/"/>
+        <cc:license rdf:resource="https://creativecommons.org/licenses/by/4.0/"/>
+        <cc:attributionURL rdf:resource="https://www.geonames.org"/>
+        <cc:attributionName rdf:datatype="https://www.w3.org/2001/XMLSchema#string">GeoNames</cc:attributionName>
+        <dcterms:created rdf:datatype="https://www.w3.org/2001/XMLSchema#date">2006-01-15</dcterms:created>
+        <dcterms:modified rdf:datatype="https://www.w3.org/2001/XMLSchema#date">2013-03-08</dcterms:modified>
+    </foaf:Document>
+</rdf:RDF>

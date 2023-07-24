@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<rdf:RDF xmlns:cc="http://creativecommons.org/ns#" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:foaf="http://xmlns.com/foaf/0.1/" xmlns:gn="http://www.geonames.org/ontology#" xmlns:owl="http://www.w3.org/2002/07/owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:wgs84_pos="http://www.w3.org/2003/01/geo/wgs84_pos#">
+    <gn:Feature rdf:about="https://sws.geonames.org/264637/">
+        <rdfs:isDefinedBy rdf:resource="https://sws.geonames.org/264637/about.rdf"/>
+        <gn:name>Olympia</gn:name>
+        <gn:alternateName xml:lang="en">Ancient Olympia</gn:alternateName>
+        <gn:alternateName xml:lang="de">Archaía Olympía</gn:alternateName>
+        <gn:alternateName>Arkhaía Olimbía</gn:alternateName>
+        <gn:alternateName>Olimbía Arkhaía</gn:alternateName>
+        <gn:alternateName>Olymbía</gn:alternateName>
+        <gn:officialName xml:lang="en">Olympia</gn:officialName>
+        <gn:officialName xml:lang="fr">Olympie</gn:officialName>
+        <gn:officialName xml:lang="el">Αρχαία Ολυμπία</gn:officialName>
+        <gn:alternateName xml:lang="el">Ολυμπια</gn:alternateName>
+        <gn:officialName xml:lang="ru">Олимпия</gn:officialName>
+        <gn:featureClass rdf:resource="https://www.geonames.org/ontology#P"/>
+        <gn:featureCode rdf:resource="https://www.geonames.org/ontology#P.PPL"/>
+        <gn:countryCode>GR</gn:countryCode>
+        <gn:population>1208</gn:population>
+        <wgs84_pos:lat>37.64788</wgs84_pos:lat>
+        <wgs84_pos:long>21.6271</wgs84_pos:long>
+        <gn:parentFeature rdf:resource="https://sws.geonames.org/8133692/"/>
+        <gn:parentCountry rdf:resource="https://sws.geonames.org/390903/"/>
+        <gn:parentADM1 rdf:resource="https://sws.geonames.org/6697810/"/>
+        <gn:parentADM2 rdf:resource="https://sws.geonames.org/261797/"/>
+        <gn:parentADM3 rdf:resource="https://sws.geonames.org/8133692/"/>
+        <gn:nearbyFeatures rdf:resource="https://sws.geonames.org/264637/nearby.rdf"/>
+        <gn:locationMap rdf:resource="https://www.geonames.org/264637/archaia-olympia.html"/>
+        <gn:wikipediaArticle rdf:resource="https://en.wikipedia.org/wiki/Olympia%2C_Greece"/>
+        <rdfs:seeAlso rdf:resource="https://dbpedia.org/resource/Olympia%2C_Greece"/>
+    </gn:Feature>
+    <foaf:Document rdf:about="https://sws.geonames.org/264637/about.rdf">
+        <foaf:primaryTopic rdf:resource="https://sws.geonames.org/264637/"/>
+        <cc:license rdf:resource="https://creativecommons.org/licenses/by/4.0/"/>
+        <cc:attributionURL rdf:resource="https://www.geonames.org"/>
+        <cc:attributionName rdf:datatype="https://www.w3.org/2001/XMLSchema#string">GeoNames</cc:attributionName>
+        <dcterms:created rdf:datatype="https://www.w3.org/2001/XMLSchema#date">2006-01-15</dcterms:created>
+        <dcterms:modified rdf:datatype="https://www.w3.org/2001/XMLSchema#date">2019-10-21</dcterms:modified>
+    </foaf:Document>
+</rdf:RDF>

@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<rdf:RDF xmlns:cc="http://creativecommons.org/ns#" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:foaf="http://xmlns.com/foaf/0.1/" xmlns:gn="http://www.geonames.org/ontology#" xmlns:owl="http://www.w3.org/2002/07/owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:wgs84_pos="http://www.w3.org/2003/01/geo/wgs84_pos#">
+    <gn:Feature rdf:about="https://sws.geonames.org/1904996/">
+        <rdfs:isDefinedBy rdf:resource="https://sws.geonames.org/1904996/about.rdf"/>
+        <gn:name>Bến Lức District</gn:name>
+        <gn:alternateName xml:lang="en">Bến Lức District</gn:alternateName>
+        <gn:alternateName xml:lang="vi">Huyện Bến Lức</gn:alternateName>
+        <gn:featureClass rdf:resource="https://www.geonames.org/ontology#A"/>
+        <gn:featureCode rdf:resource="https://www.geonames.org/ontology#A.ADM2"/>
+        <gn:countryCode>VN</gn:countryCode>
+        <gn:population>128849</gn:population>
+        <wgs84_pos:lat>10.68858</wgs84_pos:lat>
+        <wgs84_pos:long>106.45484</wgs84_pos:long>
+        <gn:parentFeature rdf:resource="https://sws.geonames.org/1575788/"/>
+        <gn:parentCountry rdf:resource="https://sws.geonames.org/1562822/"/>
+        <gn:parentADM1 rdf:resource="https://sws.geonames.org/1575788/"/>
+        <gn:childrenFeatures rdf:resource="https://sws.geonames.org/1904996/contains.rdf"/>
+        <gn:locationMap rdf:resource="https://www.geonames.org/1904996/huyen-ben-luc.html"/>
+        <gn:wikipediaArticle rdf:resource="https://en.wikipedia.org/wiki/B%E1%BA%BFn_L%E1%BB%A9c_District"/>
+        <rdfs:seeAlso rdf:resource="https://dbpedia.org/resource/B%E1%BA%BFn_L%E1%BB%A9c_District"/>
+    </gn:Feature>
+    <foaf:Document rdf:about="https://sws.geonames.org/1904996/about.rdf">
+        <foaf:primaryTopic rdf:resource="https://sws.geonames.org/1904996/"/>
+        <cc:license rdf:resource="https://creativecommons.org/licenses/by/4.0/"/>
+        <cc:attributionURL rdf:resource="https://www.geonames.org"/>
+        <cc:attributionName rdf:datatype="https://www.w3.org/2001/XMLSchema#string">GeoNames</cc:attributionName>
+        <dcterms:created rdf:datatype="https://www.w3.org/2001/XMLSchema#date">2006-01-15</dcterms:created>
+        <dcterms:modified rdf:datatype="https://www.w3.org/2001/XMLSchema#date">2017-04-04</dcterms:modified>
+    </foaf:Document>
+</rdf:RDF>

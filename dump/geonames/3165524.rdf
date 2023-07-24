@@ -1,47 +1,122 @@
-<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd ">
-<html>
-<head>
-<title>GeoNames</title>
-<link rel="search" type="application/opensearchdescription+xml" title="geonames" href="https://www.geonames.org/opensearch-description.xml">
-<link href="/geonames.ico" rel="shortcut icon" >
-<link rel="StyleSheet" href="/geonames.css" type="text/css" >
-</head>
-<body>
-<table id="topmenutable" cellpadding="0" cellspacing="0"><tr>
-<td class="topmenu">&nbsp;<a href="/" title="GeoName Home">&nbsp;GeoNames Home</a>&nbsp;|&nbsp;<a href="/postal-codes/" title="Postal Codes">Postal Codes</a>&nbsp;|&nbsp;<a href="/export/" title="Database Dump and Webservice API">Download / Webservice</a>&nbsp;|&nbsp;<a href="/about.html" title="About GeoNames">About</a>&nbsp;</td>
-<td class="topsearch">
-   <form class="topsearch" name="searchForm" method="get" action="/servlet/geonames" >
-
-      search <input class="topmenu" name="q" size="20" value="" type="text">
-     <input type="hidden" name="srv" value="1">
-   </form>
-
-   <span id="topmenulogin">
-<a href="https://www.geonames.org/login" title="login or create new user account">login</a>
-   </span>
-</td></tr>
-</table>
-
-<br><br><br><br>
-<div style="margin:auto; width:500px; padding:40px; text-align:left" class="formTemplateClass">
-Connection to localhost:5432 refused. Check that the hostname and port are correct and that the postmaster is accepting TCP/IP connections.
-</div>
-
-
-<p>&nbsp;</p><p>&nbsp;</p><p>&nbsp;</p><p>&nbsp;</p>
-<div id="pageFooter">
-info@geonames.org  <img src="/img/smallant.gif" alt="ant" align="middle" hspace="40" border="0">
-<p>
-<a href="/">GeoNames Home</a>
-<span class="separator">&#8226;</span>
-<a href="/postal-codes/">Postal Codes</a>
-<span class="separator">&#8226;</span>
-<a href="/export/">Download / Webservice</a>
-<span class="separator">&#8226;</span>
-<a href="http://forum.geonames.org">Forum</a>
-<span class="separator">&#8226;</span>
-<a href="http://geonames.wordpress.com">Blog</a>
-<span class="separator">&#8226;</span>
-<a href="/sitemap.html">Sitemap</a>
-</div>
-</body></html>
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<rdf:RDF xmlns:cc="http://creativecommons.org/ns#" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:foaf="http://xmlns.com/foaf/0.1/" xmlns:gn="http://www.geonames.org/ontology#" xmlns:owl="http://www.w3.org/2002/07/owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:wgs84_pos="http://www.w3.org/2003/01/geo/wgs84_pos#">
+    <gn:Feature rdf:about="https://sws.geonames.org/3165524/">
+        <rdfs:isDefinedBy rdf:resource="https://sws.geonames.org/3165524/about.rdf"/>
+        <gn:name>Turin</gn:name>
+        <gn:officialName xml:lang="ko">투린</gn:officialName>
+        <gn:alternateName xml:lang="ko">토리노</gn:alternateName>
+        <gn:alternateName xml:lang="la">Augusta Taurinorum</gn:alternateName>
+        <gn:alternateName xml:lang="la">Julia Augusta Taurinorum</gn:alternateName>
+        <gn:alternateName xml:lang="tl">Lungsod ng Turino</gn:alternateName>
+        <gn:alternateName xml:lang="ca">Torí</gn:alternateName>
+        <gn:alternateName xml:lang="lij">Torin</gn:alternateName>
+        <gn:alternateName xml:lang="br">Torino</gn:alternateName>
+        <gn:alternateName xml:lang="bs">Torino</gn:alternateName>
+        <gn:alternateName xml:lang="cy">Torino</gn:alternateName>
+        <gn:alternateName xml:lang="da">Torino</gn:alternateName>
+        <gn:alternateName xml:lang="eo">Torino</gn:alternateName>
+        <gn:alternateName xml:lang="et">Torino</gn:alternateName>
+        <gn:alternateName xml:lang="fi">Torino</gn:alternateName>
+        <gn:alternateName xml:lang="hbs">Torino</gn:alternateName>
+        <gn:alternateName xml:lang="hr">Torino</gn:alternateName>
+        <gn:alternateName xml:lang="hu">Torino</gn:alternateName>
+        <gn:alternateName xml:lang="id">Torino</gn:alternateName>
+        <gn:alternateName xml:lang="it">Torino</gn:alternateName>
+        <gn:alternateName xml:lang="nn">Torino</gn:alternateName>
+        <gn:alternateName xml:lang="no">Torino</gn:alternateName>
+        <gn:alternateName xml:lang="ro">Torino</gn:alternateName>
+        <gn:alternateName xml:lang="sl">Torino</gn:alternateName>
+        <gn:alternateName xml:lang="tr">Torino</gn:alternateName>
+        <gn:alternateName xml:lang="vi">Torino</gn:alternateName>
+        <gn:alternateName>Torino</gn:alternateName>
+        <gn:alternateName xml:lang="is">Tórínó</gn:alternateName>
+        <gn:alternateName xml:lang="sc">Torinu</gn:alternateName>
+        <gn:alternateName xml:lang="rgn">Turén</gn:alternateName>
+        <gn:alternateName xml:lang="lmo">Türì</gn:alternateName>
+        <gn:alternateName xml:lang="nl">Turijn</gn:alternateName>
+        <gn:alternateName xml:lang="pt">Turim</gn:alternateName>
+        <gn:alternateName xml:lang="az">Turin</gn:alternateName>
+        <gn:alternateName xml:lang="de">Turin</gn:alternateName>
+        <gn:officialName xml:lang="en">Turin</gn:officialName>
+        <gn:alternateName xml:lang="eu">Turin</gn:alternateName>
+        <gn:alternateName xml:lang="fr">Turin</gn:alternateName>
+        <gn:alternateName xml:lang="frp">Turin</gn:alternateName>
+        <gn:alternateName xml:lang="fur">Turin</gn:alternateName>
+        <gn:alternateName xml:lang="lb">Turin</gn:alternateName>
+        <gn:alternateName xml:lang="ms">Turin</gn:alternateName>
+        <gn:alternateName xml:lang="nds">Turin</gn:alternateName>
+        <gn:alternateName xml:lang="oc">Turin</gn:alternateName>
+        <gn:alternateName xml:lang="pms">Turin</gn:alternateName>
+        <gn:alternateName xml:lang="sco">Turin</gn:alternateName>
+        <gn:alternateName xml:lang="sv">Turin</gn:alternateName>
+        <gn:alternateName xml:lang="ug">Turin</gn:alternateName>
+        <gn:alternateName xml:lang="war">Turin</gn:alternateName>
+        <gn:alternateName xml:lang="cs">Turín</gn:alternateName>
+        <gn:alternateName xml:lang="es">Turín</gn:alternateName>
+        <gn:alternateName xml:lang="ext">Turín</gn:alternateName>
+        <gn:alternateName xml:lang="gl">Turín</gn:alternateName>
+        <gn:alternateName xml:lang="sk">Turín</gn:alternateName>
+        <gn:alternateName xml:lang="vec">Turìn</gn:alternateName>
+        <gn:alternateName xml:lang="lv">Turīna</gn:alternateName>
+        <gn:alternateName xml:lang="lt">Turinas</gn:alternateName>
+        <gn:alternateName xml:lang="nap">Turino</gn:alternateName>
+        <gn:alternateName xml:lang="co">Turinu</gn:alternateName>
+        <gn:alternateName xml:lang="scn">Turinu</gn:alternateName>
+        <gn:alternateName xml:lang="af">Turyn</gn:alternateName>
+        <gn:alternateName xml:lang="fy">Turyn</gn:alternateName>
+        <gn:alternateName xml:lang="pl">Turyn</gn:alternateName>
+        <gn:alternateName xml:lang="szl">Turyn</gn:alternateName>
+        <gn:alternateName xml:lang="el">Τορίνο</gn:alternateName>
+        <gn:alternateName xml:lang="bg">Торино</gn:alternateName>
+        <gn:alternateName xml:lang="mk">Торино</gn:alternateName>
+        <gn:alternateName xml:lang="sr">Торино</gn:alternateName>
+        <gn:alternateName xml:lang="cv">Турин</gn:alternateName>
+        <gn:alternateName xml:lang="kk">Турин</gn:alternateName>
+        <gn:alternateName xml:lang="kv">Турин</gn:alternateName>
+        <gn:alternateName xml:lang="mn">Турин</gn:alternateName>
+        <gn:alternateName xml:lang="os">Турин</gn:alternateName>
+        <gn:alternateName xml:lang="ru">Турин</gn:alternateName>
+        <gn:alternateName xml:lang="uk">Турин</gn:alternateName>
+        <gn:alternateName xml:lang="be">Турын</gn:alternateName>
+        <gn:alternateName xml:lang="ka">ტურინი</gn:alternateName>
+        <gn:alternateName xml:lang="hy">Թուրին</gn:alternateName>
+        <gn:alternateName xml:lang="yi">טורין</gn:alternateName>
+        <gn:alternateName xml:lang="he">טורינו</gn:alternateName>
+        <gn:alternateName xml:lang="ar">تورينو</gn:alternateName>
+        <gn:alternateName xml:lang="fa">تورین</gn:alternateName>
+        <gn:alternateName xml:lang="hi">टोरीनो</gn:alternateName>
+        <gn:alternateName xml:lang="mr">तोरिनो</gn:alternateName>
+        <gn:alternateName xml:lang="bn">তুরিন</gn:alternateName>
+        <gn:alternateName xml:lang="ta">துரின்</gn:alternateName>
+        <gn:alternateName xml:lang="th">ตูริน</gn:alternateName>
+        <gn:alternateName xml:lang="bo">ཊུ་རིན།</gn:alternateName>
+        <gn:alternateName xml:lang="ja">トリノ</gn:alternateName>
+        <gn:featureClass rdf:resource="https://www.geonames.org/ontology#P"/>
+        <gn:featureCode rdf:resource="https://www.geonames.org/ontology#P.PPLA"/>
+        <gn:countryCode>IT</gn:countryCode>
+        <gn:population>847287</gn:population>
+        <gn:postalCode>10121</gn:postalCode>
+        <wgs84_pos:lat>45.07049</wgs84_pos:lat>
+        <wgs84_pos:long>7.68682</wgs84_pos:long>
+        <wgs84_pos:alt>239</wgs84_pos:alt>
+        <gn:parentFeature rdf:resource="https://sws.geonames.org/11352097/"/>
+        <gn:parentCountry rdf:resource="https://sws.geonames.org/3175395/"/>
+        <gn:parentADM1 rdf:resource="https://sws.geonames.org/3170831/"/>
+        <gn:parentADM2 rdf:resource="https://sws.geonames.org/3165523/"/>
+        <gn:parentADM3 rdf:resource="https://sws.geonames.org/3165525/"/>
+        <gn:parentADM4 rdf:resource="https://sws.geonames.org/11352097/"/>
+        <gn:nearbyFeatures rdf:resource="https://sws.geonames.org/3165524/nearby.rdf"/>
+        <gn:locationMap rdf:resource="https://www.geonames.org/3165524/turin.html"/>
+        <gn:wikipediaArticle rdf:resource="https://en.wikipedia.org/wiki/Turin"/>
+        <rdfs:seeAlso rdf:resource="https://dbpedia.org/resource/Turin"/>
+        <gn:wikipediaArticle rdf:resource="https://ru.wikipedia.org/wiki/%D0%A2%D1%83%D1%80%D0%B8%D0%BD"/>
+    </gn:Feature>
+    <foaf:Document rdf:about="https://sws.geonames.org/3165524/about.rdf">
+        <foaf:primaryTopic rdf:resource="https://sws.geonames.org/3165524/"/>
+        <cc:license rdf:resource="https://creativecommons.org/licenses/by/4.0/"/>
+        <cc:attributionURL rdf:resource="https://www.geonames.org"/>
+        <cc:attributionName rdf:datatype="https://www.w3.org/2001/XMLSchema#string">GeoNames</cc:attributionName>
+        <dcterms:created rdf:datatype="https://www.w3.org/2001/XMLSchema#date">2006-01-15</dcterms:created>
+        <dcterms:modified rdf:datatype="https://www.w3.org/2001/XMLSchema#date">2022-08-14</dcterms:modified>
+    </foaf:Document>
+</rdf:RDF>

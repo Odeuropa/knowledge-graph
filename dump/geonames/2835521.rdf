@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<rdf:RDF xmlns:cc="http://creativecommons.org/ns#" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:foaf="http://xmlns.com/foaf/0.1/" xmlns:gn="http://www.geonames.org/ontology#" xmlns:owl="http://www.w3.org/2002/07/owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:wgs84_pos="http://www.w3.org/2003/01/geo/wgs84_pos#">
+    <gn:Feature rdf:about="https://sws.geonames.org/2835521/">
+        <rdfs:isDefinedBy rdf:resource="https://sws.geonames.org/2835521/about.rdf"/>
+        <gn:name>Swabia</gn:name>
+        <gn:officialName xml:lang="de">Regierungsbezirk Schwaben</gn:officialName>
+        <gn:shortName xml:lang="de">Schwaben</gn:shortName>
+        <gn:shortName xml:lang="fr">Souabe</gn:shortName>
+        <gn:shortName xml:lang="it">Svevia</gn:shortName>
+        <gn:featureClass rdf:resource="https://www.geonames.org/ontology#A"/>
+        <gn:featureCode rdf:resource="https://www.geonames.org/ontology#A.ADM2"/>
+        <gn:countryCode>DE</gn:countryCode>
+        <gn:population>1917979</gn:population>
+        <wgs84_pos:lat>48.33333</wgs84_pos:lat>
+        <wgs84_pos:long>10.5</wgs84_pos:long>
+        <gn:parentFeature rdf:resource="https://sws.geonames.org/2824481/"/>
+        <gn:parentCountry rdf:resource="https://sws.geonames.org/2921044/"/>
+        <gn:parentADM1 rdf:resource="https://sws.geonames.org/2951839/"/>
+        <gn:childrenFeatures rdf:resource="https://sws.geonames.org/2835521/contains.rdf"/>
+        <gn:locationMap rdf:resource="https://www.geonames.org/2835521/swabia.html"/>
+        <gn:wikipediaArticle rdf:resource="https://en.wikipedia.org/wiki/Swabia_%28Bavaria%29"/>
+        <rdfs:seeAlso rdf:resource="https://dbpedia.org/resource/Swabia_%28Bavaria%29"/>
+        <gn:wikipediaArticle rdf:resource="https://fr.wikipedia.org/wiki/Souabe"/>
+    </gn:Feature>
+    <foaf:Document rdf:about="https://sws.geonames.org/2835521/about.rdf">
+        <foaf:primaryTopic rdf:resource="https://sws.geonames.org/2835521/"/>
+        <cc:license rdf:resource="https://creativecommons.org/licenses/by/4.0/"/>
+        <cc:attributionURL rdf:resource="https://www.geonames.org"/>
+        <cc:attributionName rdf:datatype="https://www.w3.org/2001/XMLSchema#string">GeoNames</cc:attributionName>
+        <dcterms:created rdf:datatype="https://www.w3.org/2001/XMLSchema#date">2006-01-15</dcterms:created>
+        <dcterms:modified rdf:datatype="https://www.w3.org/2001/XMLSchema#date">2022-10-25</dcterms:modified>
+    </foaf:Document>
+</rdf:RDF>

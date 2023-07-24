@@ -1,47 +1,375 @@
-<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd ">
-<html>
-<head>
-<title>GeoNames</title>
-<link rel="search" type="application/opensearchdescription+xml" title="geonames" href="https://www.geonames.org/opensearch-description.xml">
-<link href="/geonames.ico" rel="shortcut icon" >
-<link rel="StyleSheet" href="/geonames.css" type="text/css" >
-</head>
-<body>
-<table id="topmenutable" cellpadding="0" cellspacing="0"><tr>
-<td class="topmenu">&nbsp;<a href="/" title="GeoName Home">&nbsp;GeoNames Home</a>&nbsp;|&nbsp;<a href="/postal-codes/" title="Postal Codes">Postal Codes</a>&nbsp;|&nbsp;<a href="/export/" title="Database Dump and Webservice API">Download / Webservice</a>&nbsp;|&nbsp;<a href="/about.html" title="About GeoNames">About</a>&nbsp;</td>
-<td class="topsearch">
-   <form class="topsearch" name="searchForm" method="get" action="/servlet/geonames" >
-
-      search <input class="topmenu" name="q" size="20" value="" type="text">
-     <input type="hidden" name="srv" value="1">
-   </form>
-
-   <span id="topmenulogin">
-<a href="https://www.geonames.org/login" title="login or create new user account">login</a>
-   </span>
-</td></tr>
-</table>
-
-<br><br><br><br>
-<div style="margin:auto; width:500px; padding:40px; text-align:left" class="formTemplateClass">
-Connection to localhost:5432 refused. Check that the hostname and port are correct and that the postmaster is accepting TCP/IP connections.
-</div>
-
-
-<p>&nbsp;</p><p>&nbsp;</p><p>&nbsp;</p><p>&nbsp;</p>
-<div id="pageFooter">
-info@geonames.org  <img src="/img/smallant.gif" alt="ant" align="middle" hspace="40" border="0">
-<p>
-<a href="/">GeoNames Home</a>
-<span class="separator">&#8226;</span>
-<a href="/postal-codes/">Postal Codes</a>
-<span class="separator">&#8226;</span>
-<a href="/export/">Download / Webservice</a>
-<span class="separator">&#8226;</span>
-<a href="http://forum.geonames.org">Forum</a>
-<span class="separator">&#8226;</span>
-<a href="http://geonames.wordpress.com">Blog</a>
-<span class="separator">&#8226;</span>
-<a href="/sitemap.html">Sitemap</a>
-</div>
-</body></html>
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<rdf:RDF xmlns:cc="http://creativecommons.org/ns#" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:foaf="http://xmlns.com/foaf/0.1/" xmlns:gn="http://www.geonames.org/ontology#" xmlns:owl="http://www.w3.org/2002/07/owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:wgs84_pos="http://www.w3.org/2003/01/geo/wgs84_pos#">
+    <gn:Feature rdf:about="https://sws.geonames.org/2995469/">
+        <rdfs:isDefinedBy rdf:resource="https://sws.geonames.org/2995469/about.rdf"/>
+        <gn:name>Marseille</gn:name>
+        <gn:alternateName xml:lang="ko">마르세유</gn:alternateName>
+        <gn:alternateName xml:lang="lij">Marseggia</gn:alternateName>
+        <gn:alternateName xml:lang="vec">Marsegia</gn:alternateName>
+        <gn:alternateName xml:lang="co">Marseglia</gn:alternateName>
+        <gn:alternateName xml:lang="eu">Marseilla</gn:alternateName>
+        <gn:alternateName xml:lang="af">Marseille</gn:alternateName>
+        <gn:alternateName xml:lang="bs">Marseille</gn:alternateName>
+        <gn:alternateName xml:lang="ceb">Marseille</gn:alternateName>
+        <gn:alternateName xml:lang="cs">Marseille</gn:alternateName>
+        <gn:alternateName xml:lang="da">Marseille</gn:alternateName>
+        <gn:alternateName xml:lang="de">Marseille</gn:alternateName>
+        <gn:alternateName xml:lang="en">Marseille</gn:alternateName>
+        <gn:alternateName xml:lang="et">Marseille</gn:alternateName>
+        <gn:alternateName xml:lang="fi">Marseille</gn:alternateName>
+        <gn:officialName xml:lang="fr">Marseille</gn:officialName>
+        <gn:alternateName xml:lang="hr">Marseille</gn:alternateName>
+        <gn:alternateName xml:lang="hu">Marseille</gn:alternateName>
+        <gn:alternateName xml:lang="id">Marseille</gn:alternateName>
+        <gn:alternateName xml:lang="io">Marseille</gn:alternateName>
+        <gn:alternateName xml:lang="lb">Marseille</gn:alternateName>
+        <gn:alternateName xml:lang="nds">Marseille</gn:alternateName>
+        <gn:alternateName xml:lang="nl">Marseille</gn:alternateName>
+        <gn:alternateName xml:lang="no">Marseille</gn:alternateName>
+        <gn:alternateName xml:lang="qu">Marseille</gn:alternateName>
+        <gn:alternateName xml:lang="sk">Marseille</gn:alternateName>
+        <gn:alternateName xml:lang="sl">Marseille</gn:alternateName>
+        <gn:alternateName xml:lang="sv">Marseille</gn:alternateName>
+        <gn:alternateName xml:lang="vi">Marseille</gn:alternateName>
+        <gn:alternateName xml:lang="vls">Marseille</gn:alternateName>
+        <gn:alternateName>Marseille</gn:alternateName>
+        <gn:alternateName>Marseilles</gn:alternateName>
+        <gn:alternateName xml:lang="lmo">Marseja</gn:alternateName>
+        <gn:alternateName xml:lang="pms">Marsèja</gn:alternateName>
+        <gn:alternateName xml:lang="eo">Marsejlo</gn:alternateName>
+        <gn:alternateName xml:lang="lv">Marseļa</gn:alternateName>
+        <gn:alternateName xml:lang="nrm">Marsêle</gn:alternateName>
+        <gn:alternateName xml:lang="oc">Marselha</gn:alternateName>
+        <gn:alternateName xml:lang="pt">Marselha</gn:alternateName>
+        <gn:alternateName xml:lang="lt">Marselis</gn:alternateName>
+        <gn:alternateName xml:lang="ca">Marsella</gn:alternateName>
+        <gn:alternateName xml:lang="es">Marsella</gn:alternateName>
+        <gn:alternateName>Marsella</gn:alternateName>
+        <gn:alternateName xml:lang="gl">Marsella - Marseille</gn:alternateName>
+        <gn:alternateName xml:lang="frp">Marselye</gn:alternateName>
+        <gn:alternateName xml:lang="az">Marsey</gn:alternateName>
+        <gn:alternateName xml:lang="ku">Marsêy</gn:alternateName>
+        <gn:alternateName xml:lang="lad">Marseya</gn:alternateName>
+        <gn:alternateName xml:lang="an">Marsiella</gn:alternateName>
+        <gn:alternateName xml:lang="scn">Marsigghia</gn:alternateName>
+        <gn:alternateName xml:lang="it">Marsiglia</gn:alternateName>
+        <gn:alternateName>Marsiglia</gn:alternateName>
+        <gn:alternateName xml:lang="oc">Marsiho</gn:alternateName>
+        <gn:officialName xml:lang="br">Marsilha</gn:officialName>
+        <gn:alternateName xml:lang="oc">Marsilha</gn:alternateName>
+        <gn:alternateName xml:lang="ro">Marsilia</gn:alternateName>
+        <gn:alternateName xml:lang="tr">Marsilya</gn:alternateName>
+        <gn:alternateName xml:lang="pl">Marsylia</gn:alternateName>
+        <gn:alternateName xml:lang="szl">Marsylijo</gn:alternateName>
+        <gn:alternateName xml:lang="grc">Massalia</gn:alternateName>
+        <gn:alternateName xml:lang="la">Massilia</gn:alternateName>
+        <gn:alternateName xml:lang="el">Μασσαλία</gn:alternateName>
+        <gn:alternateName xml:lang="grc">Μασσαλία</gn:alternateName>
+        <gn:alternateName xml:lang="mk">Марсеј</gn:alternateName>
+        <gn:alternateName xml:lang="be">Марсель</gn:alternateName>
+        <gn:alternateName xml:lang="cv">Марсель</gn:alternateName>
+        <gn:alternateName xml:lang="kk">Марсель</gn:alternateName>
+        <gn:alternateName xml:lang="mn">Марсель</gn:alternateName>
+        <gn:alternateName xml:lang="os">Марсель</gn:alternateName>
+        <gn:alternateName xml:lang="ru">Марсель</gn:alternateName>
+        <gn:alternateName xml:lang="tt">Марсель</gn:alternateName>
+        <gn:alternateName xml:lang="uk">Марсель</gn:alternateName>
+        <gn:alternateName xml:lang="sr">Марсељ</gn:alternateName>
+        <gn:alternateName xml:lang="bg">Марсилия</gn:alternateName>
+        <gn:alternateName xml:lang="ka">მარსელი</gn:alternateName>
+        <gn:alternateName xml:lang="xmf">მარსელი</gn:alternateName>
+        <gn:alternateName xml:lang="hy">Մարսել</gn:alternateName>
+        <gn:alternateName xml:lang="yi">מארסיי</gn:alternateName>
+        <gn:alternateName xml:lang="he">מרסיי</gn:alternateName>
+        <gn:alternateName xml:lang="ar">مارساي</gn:alternateName>
+        <gn:alternateName xml:lang="ar">مارسيليا</gn:alternateName>
+        <gn:alternateName xml:lang="fa">مارسی</gn:alternateName>
+        <gn:alternateName xml:lang="mzn">مارسی</gn:alternateName>
+        <gn:alternateName xml:lang="pnb">مارسیلز</gn:alternateName>
+        <gn:alternateName xml:lang="ur">مارسیلز</gn:alternateName>
+        <gn:alternateName xml:lang="ckb">مارسێی</gn:alternateName>
+        <gn:officialName xml:lang="ar">مرسيليا</gn:officialName>
+        <gn:alternateName xml:lang="arz">مرسيليا</gn:alternateName>
+        <gn:alternateName xml:lang="ar">مرسيلية</gn:alternateName>
+        <gn:alternateName xml:lang="am">ማርሴ</gn:alternateName>
+        <gn:alternateName xml:lang="mr">मार्सेल</gn:alternateName>
+        <gn:alternateName xml:lang="hi">मार्सैय</gn:alternateName>
+        <gn:alternateName xml:lang="ta">மர்சேய்</gn:alternateName>
+        <gn:alternateName xml:lang="th">มาร์เซ</gn:alternateName>
+        <gn:alternateName xml:lang="th">มาร์แซย์</gn:alternateName>
+        <gn:alternateName xml:lang="my">မာဆေးမြို့</gn:alternateName>
+        <gn:alternateName xml:lang="ja">マルセイユ</gn:alternateName>
+        <gn:alternateName xml:lang="wuu">马赛</gn:alternateName>
+        <gn:alternateName xml:lang="zh">马赛</gn:alternateName>
+        <gn:featureClass rdf:resource="https://www.geonames.org/ontology#P"/>
+        <gn:featureCode rdf:resource="https://www.geonames.org/ontology#P.PPLA"/>
+        <gn:countryCode>FR</gn:countryCode>
+        <gn:population>870731</gn:population>
+        <gn:postalCode>13000</gn:postalCode>
+        <gn:postalCode>13001</gn:postalCode>
+        <gn:postalCode>13020 CEDEX 20</gn:postalCode>
+        <gn:postalCode>13177 CEDEX 20</gn:postalCode>
+        <gn:postalCode>13178 CEDEX 20</gn:postalCode>
+        <gn:postalCode>13191 CEDEX 20</gn:postalCode>
+        <gn:postalCode>13192 CEDEX 20</gn:postalCode>
+        <gn:postalCode>13196 CEDEX 20</gn:postalCode>
+        <gn:postalCode>13201 CEDEX 01</gn:postalCode>
+        <gn:postalCode>13202 CEDEX 02</gn:postalCode>
+        <gn:postalCode>13203 CEDEX 01</gn:postalCode>
+        <gn:postalCode>13205 CEDEX 01</gn:postalCode>
+        <gn:postalCode>13207 CEDEX 01</gn:postalCode>
+        <gn:postalCode>13209 CEDEX 20</gn:postalCode>
+        <gn:postalCode>13211 CEDEX 01</gn:postalCode>
+        <gn:postalCode>13213 CEDEX 02</gn:postalCode>
+        <gn:postalCode>13214 CEDEX 02</gn:postalCode>
+        <gn:postalCode>13215 CEDEX 02</gn:postalCode>
+        <gn:postalCode>13216 CEDEX 02</gn:postalCode>
+        <gn:postalCode>13217 CEDEX 02</gn:postalCode>
+        <gn:postalCode>13218 CEDEX 02</gn:postalCode>
+        <gn:postalCode>13219 CEDEX 02</gn:postalCode>
+        <gn:postalCode>13221 CEDEX 01</gn:postalCode>
+        <gn:postalCode>13222 CEDEX 01</gn:postalCode>
+        <gn:postalCode>13223 CEDEX 04</gn:postalCode>
+        <gn:postalCode>13224 CEDEX 01</gn:postalCode>
+        <gn:postalCode>13225 CEDEX 02</gn:postalCode>
+        <gn:postalCode>13226 CEDEX 02</gn:postalCode>
+        <gn:postalCode>13227 CEDEX 01</gn:postalCode>
+        <gn:postalCode>13228 CEDEX 04</gn:postalCode>
+        <gn:postalCode>13231 CEDEX 01</gn:postalCode>
+        <gn:postalCode>13232 CEDEX 01</gn:postalCode>
+        <gn:postalCode>13233 CEDEX 20</gn:postalCode>
+        <gn:postalCode>13234 CEDEX 04</gn:postalCode>
+        <gn:postalCode>13235 CEDEX 02</gn:postalCode>
+        <gn:postalCode>13236 CEDEX 02</gn:postalCode>
+        <gn:postalCode>13239 CEDEX 04</gn:postalCode>
+        <gn:postalCode>13241 CEDEX 01</gn:postalCode>
+        <gn:postalCode>13242 CEDEX 20</gn:postalCode>
+        <gn:postalCode>13243 CEDEX 01</gn:postalCode>
+        <gn:postalCode>13244 CEDEX 01</gn:postalCode>
+        <gn:postalCode>13245 CEDEX 04</gn:postalCode>
+        <gn:postalCode>13248 CEDEX 04</gn:postalCode>
+        <gn:postalCode>13249 CEDEX 01</gn:postalCode>
+        <gn:postalCode>13251 CEDEX 20</gn:postalCode>
+        <gn:postalCode>13252 CEDEX 20</gn:postalCode>
+        <gn:postalCode>13253 CEDEX 06</gn:postalCode>
+        <gn:postalCode>13254 CEDEX 06</gn:postalCode>
+        <gn:postalCode>13255 CEDEX 06</gn:postalCode>
+        <gn:postalCode>13256 CEDEX 20</gn:postalCode>
+        <gn:postalCode>13257 CEDEX 08</gn:postalCode>
+        <gn:postalCode>13258 CEDEX 09</gn:postalCode>
+        <gn:postalCode>13259 CEDEX 20</gn:postalCode>
+        <gn:postalCode>13261 CEDEX 07</gn:postalCode>
+        <gn:postalCode>13262 CEDEX 07</gn:postalCode>
+        <gn:postalCode>13263 CEDEX 07</gn:postalCode>
+        <gn:postalCode>13264 CEDEX 07</gn:postalCode>
+        <gn:postalCode>13265 CEDEX 20</gn:postalCode>
+        <gn:postalCode>13266 CEDEX 08</gn:postalCode>
+        <gn:postalCode>13267 CEDEX 08</gn:postalCode>
+        <gn:postalCode>13268 CEDEX 08</gn:postalCode>
+        <gn:postalCode>13269 CEDEX 08</gn:postalCode>
+        <gn:postalCode>13271 CEDEX 08</gn:postalCode>
+        <gn:postalCode>13272 CEDEX 08</gn:postalCode>
+        <gn:postalCode>13273 CEDEX 09</gn:postalCode>
+        <gn:postalCode>13274 CEDEX 09</gn:postalCode>
+        <gn:postalCode>13275 CEDEX 09</gn:postalCode>
+        <gn:postalCode>13276 CEDEX 09</gn:postalCode>
+        <gn:postalCode>13277 CEDEX 09</gn:postalCode>
+        <gn:postalCode>13278 CEDEX 08</gn:postalCode>
+        <gn:postalCode>13279 CEDEX 07</gn:postalCode>
+        <gn:postalCode>13281 CEDEX 06</gn:postalCode>
+        <gn:postalCode>13282 CEDEX 20</gn:postalCode>
+        <gn:postalCode>13284 CEDEX 07</gn:postalCode>
+        <gn:postalCode>13285 CEDEX 08</gn:postalCode>
+        <gn:postalCode>13286 CEDEX 06</gn:postalCode>
+        <gn:postalCode>13287 CEDEX 09</gn:postalCode>
+        <gn:postalCode>13288 CEDEX 09</gn:postalCode>
+        <gn:postalCode>13289 CEDEX 06</gn:postalCode>
+        <gn:postalCode>13291 CEDEX 06</gn:postalCode>
+        <gn:postalCode>13292 CEDEX 06</gn:postalCode>
+        <gn:postalCode>13293 CEDEX 08</gn:postalCode>
+        <gn:postalCode>13294 CEDEX 06</gn:postalCode>
+        <gn:postalCode>13295 CEDEX 08</gn:postalCode>
+        <gn:postalCode>13296 CEDEX 04</gn:postalCode>
+        <gn:postalCode>13297 CEDEX 09</gn:postalCode>
+        <gn:postalCode>13298 CEDEX 20</gn:postalCode>
+        <gn:postalCode>13299 CEDEX 20</gn:postalCode>
+        <gn:postalCode>13301 CEDEX 03</gn:postalCode>
+        <gn:postalCode>13302 CEDEX 03</gn:postalCode>
+        <gn:postalCode>13303 CEDEX 03</gn:postalCode>
+        <gn:postalCode>13304 CEDEX 02</gn:postalCode>
+        <gn:postalCode>13306 CEDEX 03</gn:postalCode>
+        <gn:postalCode>13307 CEDEX 14</gn:postalCode>
+        <gn:postalCode>13308 CEDEX 14</gn:postalCode>
+        <gn:postalCode>13309 CEDEX 14</gn:postalCode>
+        <gn:postalCode>13311 CEDEX 14</gn:postalCode>
+        <gn:postalCode>13312 CEDEX 14</gn:postalCode>
+        <gn:postalCode>13313 CEDEX 14</gn:postalCode>
+        <gn:postalCode>13314 CEDEX 15</gn:postalCode>
+        <gn:postalCode>13315 CEDEX 15</gn:postalCode>
+        <gn:postalCode>13316 CEDEX 15</gn:postalCode>
+        <gn:postalCode>13317 CEDEX 15</gn:postalCode>
+        <gn:postalCode>13318 CEDEX 15</gn:postalCode>
+        <gn:postalCode>13319 CEDEX 06</gn:postalCode>
+        <gn:postalCode>13321 CEDEX 16</gn:postalCode>
+        <gn:postalCode>13322 CEDEX 16</gn:postalCode>
+        <gn:postalCode>13323 CEDEX 14</gn:postalCode>
+        <gn:postalCode>13324 CEDEX 20</gn:postalCode>
+        <gn:postalCode>13325 CEDEX 20</gn:postalCode>
+        <gn:postalCode>13326 CEDEX 15</gn:postalCode>
+        <gn:postalCode>13327 CEDEX 15</gn:postalCode>
+        <gn:postalCode>13328 CEDEX 03</gn:postalCode>
+        <gn:postalCode>13331 CEDEX 03</gn:postalCode>
+        <gn:postalCode>13332 CEDEX 03</gn:postalCode>
+        <gn:postalCode>13333 CEDEX 14</gn:postalCode>
+        <gn:postalCode>13334 CEDEX 16</gn:postalCode>
+        <gn:postalCode>13335 CEDEX 15</gn:postalCode>
+        <gn:postalCode>13338 CEDEX 14</gn:postalCode>
+        <gn:postalCode>13339 CEDEX 03</gn:postalCode>
+        <gn:postalCode>13342 CEDEX 15</gn:postalCode>
+        <gn:postalCode>13343 CEDEX 15</gn:postalCode>
+        <gn:postalCode>13344 CEDEX 15</gn:postalCode>
+        <gn:postalCode>13345 CEDEX 20</gn:postalCode>
+        <gn:postalCode>13346 CEDEX 20</gn:postalCode>
+        <gn:postalCode>13347 CEDEX 20</gn:postalCode>
+        <gn:postalCode>13348 CEDEX 20</gn:postalCode>
+        <gn:postalCode>13351 CEDEX 05</gn:postalCode>
+        <gn:postalCode>13352 CEDEX 05</gn:postalCode>
+        <gn:postalCode>13354 CEDEX 05</gn:postalCode>
+        <gn:postalCode>13355 CEDEX 05</gn:postalCode>
+        <gn:postalCode>13356 CEDEX 03</gn:postalCode>
+        <gn:postalCode>13357 CEDEX 20</gn:postalCode>
+        <gn:postalCode>13359 CEDEX 10</gn:postalCode>
+        <gn:postalCode>13361 CEDEX 10</gn:postalCode>
+        <gn:postalCode>13362 CEDEX 10</gn:postalCode>
+        <gn:postalCode>13363 CEDEX 10</gn:postalCode>
+        <gn:postalCode>13364 CEDEX 10</gn:postalCode>
+        <gn:postalCode>13366 CEDEX 11</gn:postalCode>
+        <gn:postalCode>13367 CEDEX 11</gn:postalCode>
+        <gn:postalCode>13368 CEDEX 11</gn:postalCode>
+        <gn:postalCode>13369 CEDEX 11</gn:postalCode>
+        <gn:postalCode>13371 CEDEX 11</gn:postalCode>
+        <gn:postalCode>13372 CEDEX 11</gn:postalCode>
+        <gn:postalCode>13374 CEDEX 11</gn:postalCode>
+        <gn:postalCode>13375 CEDEX 12</gn:postalCode>
+        <gn:postalCode>13376 CEDEX 12</gn:postalCode>
+        <gn:postalCode>13377 CEDEX 12</gn:postalCode>
+        <gn:postalCode>13378 CEDEX 12</gn:postalCode>
+        <gn:postalCode>13379 CEDEX 12</gn:postalCode>
+        <gn:postalCode>13381 CEDEX 13</gn:postalCode>
+        <gn:postalCode>13382 CEDEX 13</gn:postalCode>
+        <gn:postalCode>13383 CEDEX 13</gn:postalCode>
+        <gn:postalCode>13384 CEDEX 13</gn:postalCode>
+        <gn:postalCode>13385 CEDEX 05</gn:postalCode>
+        <gn:postalCode>13386 CEDEX 20</gn:postalCode>
+        <gn:postalCode>13387 CEDEX 10</gn:postalCode>
+        <gn:postalCode>13388 CEDEX 13</gn:postalCode>
+        <gn:postalCode>13389 CEDEX 13</gn:postalCode>
+        <gn:postalCode>13391 CEDEX 11</gn:postalCode>
+        <gn:postalCode>13392 CEDEX 05</gn:postalCode>
+        <gn:postalCode>13393 CEDEX 13</gn:postalCode>
+        <gn:postalCode>13394 CEDEX 20</gn:postalCode>
+        <gn:postalCode>13395 CEDEX 10</gn:postalCode>
+        <gn:postalCode>13396 CEDEX 11</gn:postalCode>
+        <gn:postalCode>13397 CEDEX 20</gn:postalCode>
+        <gn:postalCode>13399 CEDEX 05</gn:postalCode>
+        <gn:postalCode>13401 CEDEX 20</gn:postalCode>
+        <gn:postalCode>13402 CEDEX 20</gn:postalCode>
+        <gn:postalCode>13403 CEDEX 09</gn:postalCode>
+        <gn:postalCode>13404 CEDEX 09</gn:postalCode>
+        <gn:postalCode>13406 CEDEX 09</gn:postalCode>
+        <gn:postalCode>13411 CEDEX 20</gn:postalCode>
+        <gn:postalCode>13412 CEDEX 20</gn:postalCode>
+        <gn:postalCode>13413 CEDEX 20</gn:postalCode>
+        <gn:postalCode>13414 CEDEX 08</gn:postalCode>
+        <gn:postalCode>13415 CEDEX 20</gn:postalCode>
+        <gn:postalCode>13416 CEDEX 20</gn:postalCode>
+        <gn:postalCode>13417 CEDEX 08</gn:postalCode>
+        <gn:postalCode>13421 CEDEX 20</gn:postalCode>
+        <gn:postalCode>13424 CEDEX 12</gn:postalCode>
+        <gn:postalCode>13425 CEDEX 12</gn:postalCode>
+        <gn:postalCode>13426 CEDEX 12</gn:postalCode>
+        <gn:postalCode>13428 CEDEX 12</gn:postalCode>
+        <gn:postalCode>13431 CEDEX 06</gn:postalCode>
+        <gn:postalCode>13432 CEDEX 06</gn:postalCode>
+        <gn:postalCode>13434 CEDEX 20</gn:postalCode>
+        <gn:postalCode>13435 CEDEX 20</gn:postalCode>
+        <gn:postalCode>13441 CEDEX 06</gn:postalCode>
+        <gn:postalCode>13442 CEDEX 06</gn:postalCode>
+        <gn:postalCode>13443 CEDEX 06</gn:postalCode>
+        <gn:postalCode>13444 CEDEX 06</gn:postalCode>
+        <gn:postalCode>13445 CEDEX 06</gn:postalCode>
+        <gn:postalCode>13446 CEDEX 06</gn:postalCode>
+        <gn:postalCode>13447 CEDEX 06</gn:postalCode>
+        <gn:postalCode>13448 CEDEX 06</gn:postalCode>
+        <gn:postalCode>13451 CEDEX 13</gn:postalCode>
+        <gn:postalCode>13452 CEDEX 13</gn:postalCode>
+        <gn:postalCode>13453 CEDEX 13</gn:postalCode>
+        <gn:postalCode>13454 CEDEX 13</gn:postalCode>
+        <gn:postalCode>13455 CEDEX 13</gn:postalCode>
+        <gn:postalCode>13456 CEDEX 13</gn:postalCode>
+        <gn:postalCode>13457 CEDEX 13</gn:postalCode>
+        <gn:postalCode>13458 CEDEX 13</gn:postalCode>
+        <gn:postalCode>13462 CEDEX 20</gn:postalCode>
+        <gn:postalCode>13463 CEDEX 16</gn:postalCode>
+        <gn:postalCode>13464 CEDEX 16</gn:postalCode>
+        <gn:postalCode>13467 CEDEX 16</gn:postalCode>
+        <gn:postalCode>13471 CEDEX 02</gn:postalCode>
+        <gn:postalCode>13472 CEDEX 02</gn:postalCode>
+        <gn:postalCode>13473 CEDEX 02</gn:postalCode>
+        <gn:postalCode>13474 CEDEX 02</gn:postalCode>
+        <gn:postalCode>13478 CEDEX 02</gn:postalCode>
+        <gn:postalCode>13481 CEDEX 20</gn:postalCode>
+        <gn:postalCode>13482 CEDEX 20</gn:postalCode>
+        <gn:postalCode>13483 CEDEX 20</gn:postalCode>
+        <gn:postalCode>13484 CEDEX 20</gn:postalCode>
+        <gn:postalCode>13489 CEDEX 02</gn:postalCode>
+        <gn:postalCode>13493 CEDEX 04</gn:postalCode>
+        <gn:postalCode>13566 CEDEX 02</gn:postalCode>
+        <gn:postalCode>13567 CEDEX 02</gn:postalCode>
+        <gn:postalCode>13568 CEDEX 02</gn:postalCode>
+        <gn:postalCode>13572 CEDEX 02</gn:postalCode>
+        <gn:postalCode>13581 CEDEX 20</gn:postalCode>
+        <gn:postalCode>13583 CEDEX 20</gn:postalCode>
+        <gn:postalCode>13599 CEDEX 20</gn:postalCode>
+        <gn:postalCode>13900 CEDEX 20</gn:postalCode>
+        <gn:postalCode>13902 CEDEX 20</gn:postalCode>
+        <gn:postalCode>13904 CEDEX 15</gn:postalCode>
+        <gn:postalCode>13905 CEDEX 15</gn:postalCode>
+        <gn:postalCode>13906 CEDEX 20</gn:postalCode>
+        <gn:postalCode>13907 CEDEX 20</gn:postalCode>
+        <gn:postalCode>13908 CEDEX 20</gn:postalCode>
+        <gn:postalCode>13911 CEDEX 20</gn:postalCode>
+        <gn:postalCode>13921 CEDEX 11</gn:postalCode>
+        <gn:postalCode>13922 CEDEX 11</gn:postalCode>
+        <gn:postalCode>13923 CEDEX 11</gn:postalCode>
+        <gn:postalCode>13924 CEDEX 11</gn:postalCode>
+        <gn:postalCode>13931 CEDEX 20</gn:postalCode>
+        <gn:postalCode>13932 CEDEX 20</gn:postalCode>
+        <gn:postalCode>13933 CEDEX 20</gn:postalCode>
+        <gn:postalCode>13937 CEDEX 20</gn:postalCode>
+        <gn:postalCode>13941 CEDEX 20</gn:postalCode>
+        <gn:postalCode>13942 CEDEX 20</gn:postalCode>
+        <wgs84_pos:lat>43.29695</wgs84_pos:lat>
+        <wgs84_pos:long>5.38107</wgs84_pos:long>
+        <gn:parentFeature rdf:resource="https://sws.geonames.org/6447142/"/>
+        <gn:parentCountry rdf:resource="https://sws.geonames.org/3017382/"/>
+        <gn:parentADM1 rdf:resource="https://sws.geonames.org/2985244/"/>
+        <gn:parentADM2 rdf:resource="https://sws.geonames.org/3031359/"/>
+        <gn:parentADM3 rdf:resource="https://sws.geonames.org/2995468/"/>
+        <gn:parentADM4 rdf:resource="https://sws.geonames.org/6447142/"/>
+        <gn:parentADM4 rdf:resource="https://sws.geonames.org/6447142/"/>
+        <gn:nearbyFeatures rdf:resource="https://sws.geonames.org/2995469/nearby.rdf"/>
+        <gn:locationMap rdf:resource="https://www.geonames.org/2995469/marseille.html"/>
+        <gn:wikipediaArticle rdf:resource="https://en.wikipedia.org/wiki/Marseille"/>
+        <rdfs:seeAlso rdf:resource="https://dbpedia.org/resource/Marseille"/>
+        <gn:wikipediaArticle rdf:resource="https://ru.wikipedia.org/wiki/%D0%9C%D0%B0%D1%80%D1%81%D0%B5%D0%BB%D1%8C"/>
+    </gn:Feature>
+    <foaf:Document rdf:about="https://sws.geonames.org/2995469/about.rdf">
+        <foaf:primaryTopic rdf:resource="https://sws.geonames.org/2995469/"/>
+        <cc:license rdf:resource="https://creativecommons.org/licenses/by/4.0/"/>
+        <cc:attributionURL rdf:resource="https://www.geonames.org"/>
+        <cc:attributionName rdf:datatype="https://www.w3.org/2001/XMLSchema#string">GeoNames</cc:attributionName>
+        <dcterms:created rdf:datatype="https://www.w3.org/2001/XMLSchema#date">2006-01-15</dcterms:created>
+        <dcterms:modified rdf:datatype="https://www.w3.org/2001/XMLSchema#date">2022-08-14</dcterms:modified>
+    </foaf:Document>
+</rdf:RDF>

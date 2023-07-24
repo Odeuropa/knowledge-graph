@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<rdf:RDF xmlns:cc="http://creativecommons.org/ns#" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:foaf="http://xmlns.com/foaf/0.1/" xmlns:gn="http://www.geonames.org/ontology#" xmlns:owl="http://www.w3.org/2002/07/owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:wgs84_pos="http://www.w3.org/2003/01/geo/wgs84_pos#">
+    <gn:Feature rdf:about="https://sws.geonames.org/3208383/">
+        <rdfs:isDefinedBy rdf:resource="https://sws.geonames.org/3208383/about.rdf"/>
+        <gn:name>Augsburg Airport</gn:name>
+        <gn:officialName xml:lang="fr">Aéroport d'Augsbourg</gn:officialName>
+        <gn:alternateName>Augsburg</gn:alternateName>
+        <gn:officialName xml:lang="en">Augsburg Airport</gn:officialName>
+        <gn:alternateName xml:lang="tr">Augsburg Havalimanı</gn:alternateName>
+        <gn:alternateName xml:lang="de">Flughafen Augsburg</gn:alternateName>
+        <gn:alternateName xml:lang="bar">Flughofm Augschburg</gn:alternateName>
+        <gn:alternateName xml:lang="ms">Lapangan Terbang Augsburg</gn:alternateName>
+        <gn:alternateName xml:lang="pl">Port lotniczy Augsburg</gn:alternateName>
+        <gn:alternateName xml:lang="tg">Фурудгоҳи овгсбург</gn:alternateName>
+        <gn:alternateName xml:lang="fa">فرودگاه آوگسبورگ</gn:alternateName>
+        <gn:alternateName xml:lang="zh">奧格斯堡機場</gn:alternateName>
+        <gn:featureClass rdf:resource="https://www.geonames.org/ontology#S"/>
+        <gn:featureCode rdf:resource="https://www.geonames.org/ontology#S.AIRP"/>
+        <gn:countryCode>DE</gn:countryCode>
+        <wgs84_pos:lat>48.42516</wgs84_pos:lat>
+        <wgs84_pos:long>10.93176</wgs84_pos:long>
+        <wgs84_pos:alt>461</wgs84_pos:alt>
+        <gn:parentFeature rdf:resource="https://sws.geonames.org/6557111/"/>
+        <gn:parentCountry rdf:resource="https://sws.geonames.org/2921044/"/>
+        <gn:parentADM1 rdf:resource="https://sws.geonames.org/2951839/"/>
+        <gn:parentADM2 rdf:resource="https://sws.geonames.org/2835521/"/>
+        <gn:parentADM3 rdf:resource="https://sws.geonames.org/2803463/"/>
+        <gn:parentADM4 rdf:resource="https://sws.geonames.org/6557111/"/>
+        <gn:nearbyFeatures rdf:resource="https://sws.geonames.org/3208383/nearby.rdf"/>
+        <gn:locationMap rdf:resource="https://www.geonames.org/3208383/augsburg-airport.html"/>
+        <gn:wikipediaArticle rdf:resource="https://en.wikipedia.org/wiki/Augsburg_Airport"/>
+        <rdfs:seeAlso rdf:resource="https://dbpedia.org/resource/Augsburg_Airport"/>
+    </gn:Feature>
+    <foaf:Document rdf:about="https://sws.geonames.org/3208383/about.rdf">
+        <foaf:primaryTopic rdf:resource="https://sws.geonames.org/3208383/"/>
+        <cc:license rdf:resource="https://creativecommons.org/licenses/by/4.0/"/>
+        <cc:attributionURL rdf:resource="https://www.geonames.org"/>
+        <cc:attributionName rdf:datatype="https://www.w3.org/2001/XMLSchema#string">GeoNames</cc:attributionName>
+        <dcterms:created rdf:datatype="https://www.w3.org/2001/XMLSchema#date">2006-01-15</dcterms:created>
+        <dcterms:modified rdf:datatype="https://www.w3.org/2001/XMLSchema#date">2014-08-04</dcterms:modified>
+    </foaf:Document>
+</rdf:RDF>

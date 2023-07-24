@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<rdf:RDF xmlns:cc="http://creativecommons.org/ns#" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:foaf="http://xmlns.com/foaf/0.1/" xmlns:gn="http://www.geonames.org/ontology#" xmlns:owl="http://www.w3.org/2002/07/owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:wgs84_pos="http://www.w3.org/2003/01/geo/wgs84_pos#">
+    <gn:Feature rdf:about="https://sws.geonames.org/8354410/">
+        <rdfs:isDefinedBy rdf:resource="https://sws.geonames.org/8354410/about.rdf"/>
+        <gn:name>East Germany</gn:name>
+        <gn:alternateName xml:lang="fr">Allemagne de l'Est</gn:alternateName>
+        <gn:officialName xml:lang="de">DDR</gn:officialName>
+        <gn:alternateName xml:lang="de">Deutsche Demokratische Republik</gn:alternateName>
+        <gn:shortName xml:lang="en">East Germany</gn:shortName>
+        <gn:officialName xml:lang="en">German Democratic Republic</gn:officialName>
+        <gn:alternateName xml:lang="pl">Niemiecka Republika Demokratyczna</gn:alternateName>
+        <gn:shortName xml:lang="pl">NRD</gn:shortName>
+        <gn:shortName xml:lang="fr">RDA</gn:shortName>
+        <gn:alternateName xml:lang="it">Repubblica Democratica Tedesca</gn:alternateName>
+        <gn:alternateName xml:lang="fr">République démocratique allemande</gn:alternateName>
+        <gn:shortName xml:lang="de">SBZ</gn:shortName>
+        <gn:officialName xml:lang="de">Sowjetische Besatzungszone</gn:officialName>
+        <gn:shortName xml:lang="ru">ГДР</gn:shortName>
+        <gn:officialName xml:lang="ru">Германская Демократическая Республика</gn:officialName>
+        <gn:featureClass rdf:resource="https://www.geonames.org/ontology#A"/>
+        <gn:featureCode rdf:resource="https://www.geonames.org/ontology#A.PCLH"/>
+        <gn:countryCode>DE</gn:countryCode>
+        <wgs84_pos:lat>52.19498</wgs84_pos:lat>
+        <wgs84_pos:long>12.51559</wgs84_pos:long>
+        <gn:parentFeature rdf:resource="https://sws.geonames.org/2921044/"/>
+        <gn:parentCountry rdf:resource="https://sws.geonames.org/2921044/"/>
+        <gn:childrenFeatures rdf:resource="https://sws.geonames.org/8354410/contains.rdf"/>
+        <gn:neighbouringFeatures rdf:resource="https://sws.geonames.org/8354410/neighbours.rdf"/>
+        <gn:locationMap rdf:resource="https://www.geonames.org/8354410/german-democratic-republic.html"/>
+        <gn:wikipediaArticle rdf:resource="https://de.wikipedia.org/wiki/Deutsche_Demokratische_Republik"/>
+        <gn:wikipediaArticle rdf:resource="https://en.wikipedia.org/wiki/East_Germany"/>
+        <rdfs:seeAlso rdf:resource="https://dbpedia.org/resource/East_Germany"/>
+        <gn:wikipediaArticle rdf:resource="https://pl.wikipedia.org/wiki/Niemiecka_Republika_Demokratyczna"/>
+    </gn:Feature>
+    <foaf:Document rdf:about="https://sws.geonames.org/8354410/about.rdf">
+        <foaf:primaryTopic rdf:resource="https://sws.geonames.org/8354410/"/>
+        <cc:license rdf:resource="https://creativecommons.org/licenses/by/4.0/"/>
+        <cc:attributionURL rdf:resource="https://www.geonames.org"/>
+        <cc:attributionName rdf:datatype="https://www.w3.org/2001/XMLSchema#string">GeoNames</cc:attributionName>
+        <dcterms:created rdf:datatype="https://www.w3.org/2001/XMLSchema#date">2012-07-21</dcterms:created>
+        <dcterms:modified rdf:datatype="https://www.w3.org/2001/XMLSchema#date">2023-04-26</dcterms:modified>
+    </foaf:Document>
+</rdf:RDF>

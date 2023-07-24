@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<rdf:RDF xmlns:cc="http://creativecommons.org/ns#" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:foaf="http://xmlns.com/foaf/0.1/" xmlns:gn="http://www.geonames.org/ontology#" xmlns:owl="http://www.w3.org/2002/07/owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:wgs84_pos="http://www.w3.org/2003/01/geo/wgs84_pos#">
+    <gn:Feature rdf:about="https://sws.geonames.org/2990371/">
+        <rdfs:isDefinedBy rdf:resource="https://sws.geonames.org/2990371/about.rdf"/>
+        <gn:name>Nièvre</gn:name>
+        <gn:alternateName>Département de la Nièvre</gn:alternateName>
+        <gn:officialName xml:lang="es">Nievre</gn:officialName>
+        <gn:officialName xml:lang="de">Nièvre</gn:officialName>
+        <gn:officialName xml:lang="en">Nièvre</gn:officialName>
+        <gn:officialName xml:lang="fr">Nièvre</gn:officialName>
+        <gn:featureClass rdf:resource="https://www.geonames.org/ontology#A"/>
+        <gn:featureCode rdf:resource="https://www.geonames.org/ontology#A.ADM2"/>
+        <gn:countryCode>FR</gn:countryCode>
+        <gn:population>205828</gn:population>
+        <wgs84_pos:lat>47.11695</wgs84_pos:lat>
+        <wgs84_pos:long>3.49192</wgs84_pos:long>
+        <gn:parentFeature rdf:resource="https://sws.geonames.org/11071619/"/>
+        <gn:parentCountry rdf:resource="https://sws.geonames.org/3017382/"/>
+        <gn:parentADM1 rdf:resource="https://sws.geonames.org/11071619/"/>
+        <gn:childrenFeatures rdf:resource="https://sws.geonames.org/2990371/contains.rdf"/>
+        <gn:locationMap rdf:resource="https://www.geonames.org/2990371/nievre.html"/>
+        <gn:wikipediaArticle rdf:resource="https://en.wikipedia.org/wiki/Ni%C3%A8vre"/>
+        <rdfs:seeAlso rdf:resource="https://dbpedia.org/resource/Ni%C3%A8vre"/>
+        <gn:wikipediaArticle rdf:resource="https://ru.wikipedia.org/wiki/%D0%9D%D1%8C%D0%B5%D0%B2%D1%80"/>
+        <owl:sameAs rdf:resource="http://id.insee.fr/geo/departement/58"/>
+    </gn:Feature>
+    <foaf:Document rdf:about="https://sws.geonames.org/2990371/about.rdf">
+        <foaf:primaryTopic rdf:resource="https://sws.geonames.org/2990371/"/>
+        <cc:license rdf:resource="https://creativecommons.org/licenses/by/4.0/"/>
+        <cc:attributionURL rdf:resource="https://www.geonames.org"/>
+        <cc:attributionName rdf:datatype="https://www.w3.org/2001/XMLSchema#string">GeoNames</cc:attributionName>
+        <dcterms:created rdf:datatype="https://www.w3.org/2001/XMLSchema#date">2006-01-15</dcterms:created>
+        <dcterms:modified rdf:datatype="https://www.w3.org/2001/XMLSchema#date">2022-03-09</dcterms:modified>
+    </foaf:Document>
+</rdf:RDF>

@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<rdf:RDF xmlns:cc="http://creativecommons.org/ns#" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:foaf="http://xmlns.com/foaf/0.1/" xmlns:gn="http://www.geonames.org/ontology#" xmlns:owl="http://www.w3.org/2002/07/owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:wgs84_pos="http://www.w3.org/2003/01/geo/wgs84_pos#">
+    <gn:Feature rdf:about="https://sws.geonames.org/6299435/">
+        <rdfs:isDefinedBy rdf:resource="https://sws.geonames.org/6299435/about.rdf"/>
+        <gn:name>Rouen Airport</gn:name>
+        <gn:officialName xml:lang="fr">Aéroport de Rouen-Vallée de Seine</gn:officialName>
+        <gn:officialName xml:lang="de">Flughafen Rouen</gn:officialName>
+        <gn:officialName xml:lang="en">Rouen Airport</gn:officialName>
+        <gn:officialName>Rouen Airport</gn:officialName>
+        <gn:alternateName>Rouen-Vallée de Seine</gn:alternateName>
+        <gn:featureClass rdf:resource="https://www.geonames.org/ontology#S"/>
+        <gn:featureCode rdf:resource="https://www.geonames.org/ontology#S.AIRP"/>
+        <gn:countryCode>FR</gn:countryCode>
+        <wgs84_pos:lat>49.38417</wgs84_pos:lat>
+        <wgs84_pos:long>1.1748</wgs84_pos:long>
+        <wgs84_pos:alt>156</wgs84_pos:alt>
+        <gn:parentFeature rdf:resource="https://sws.geonames.org/6443099/"/>
+        <gn:parentCountry rdf:resource="https://sws.geonames.org/3017382/"/>
+        <gn:parentADM1 rdf:resource="https://sws.geonames.org/11071621/"/>
+        <gn:parentADM2 rdf:resource="https://sws.geonames.org/2975248/"/>
+        <gn:parentADM3 rdf:resource="https://sws.geonames.org/2982651/"/>
+        <gn:parentADM4 rdf:resource="https://sws.geonames.org/6443099/"/>
+        <gn:nearbyFeatures rdf:resource="https://sws.geonames.org/6299435/nearby.rdf"/>
+        <gn:locationMap rdf:resource="https://www.geonames.org/6299435/rouen-airport.html"/>
+        <gn:wikipediaArticle rdf:resource="https://en.wikipedia.org/wiki/Rouen_Airport"/>
+        <rdfs:seeAlso rdf:resource="https://dbpedia.org/resource/Rouen_Airport"/>
+    </gn:Feature>
+    <foaf:Document rdf:about="https://sws.geonames.org/6299435/about.rdf">
+        <foaf:primaryTopic rdf:resource="https://sws.geonames.org/6299435/"/>
+        <cc:license rdf:resource="https://creativecommons.org/licenses/by/4.0/"/>
+        <cc:attributionURL rdf:resource="https://www.geonames.org"/>
+        <cc:attributionName rdf:datatype="https://www.w3.org/2001/XMLSchema#string">GeoNames</cc:attributionName>
+        <dcterms:created rdf:datatype="https://www.w3.org/2001/XMLSchema#date">2006-10-28</dcterms:created>
+        <dcterms:modified rdf:datatype="https://www.w3.org/2001/XMLSchema#date">2016-12-10</dcterms:modified>
+    </foaf:Document>
+</rdf:RDF>

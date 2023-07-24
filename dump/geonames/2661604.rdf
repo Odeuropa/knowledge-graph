@@ -1,47 +1,113 @@
-<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd ">
-<html>
-<head>
-<title>GeoNames</title>
-<link rel="search" type="application/opensearchdescription+xml" title="geonames" href="https://www.geonames.org/opensearch-description.xml">
-<link href="/geonames.ico" rel="shortcut icon" >
-<link rel="StyleSheet" href="/geonames.css" type="text/css" >
-</head>
-<body>
-<table id="topmenutable" cellpadding="0" cellspacing="0"><tr>
-<td class="topmenu">&nbsp;<a href="/" title="GeoName Home">&nbsp;GeoNames Home</a>&nbsp;|&nbsp;<a href="/postal-codes/" title="Postal Codes">Postal Codes</a>&nbsp;|&nbsp;<a href="/export/" title="Database Dump and Webservice API">Download / Webservice</a>&nbsp;|&nbsp;<a href="/about.html" title="About GeoNames">About</a>&nbsp;</td>
-<td class="topsearch">
-   <form class="topsearch" name="searchForm" method="get" action="/servlet/geonames" >
-
-      search <input class="topmenu" name="q" size="20" value="" type="text">
-     <input type="hidden" name="srv" value="1">
-   </form>
-
-   <span id="topmenulogin">
-<a href="https://www.geonames.org/login" title="login or create new user account">login</a>
-   </span>
-</td></tr>
-</table>
-
-<br><br><br><br>
-<div style="margin:auto; width:500px; padding:40px; text-align:left" class="formTemplateClass">
-Connection to localhost:5432 refused. Check that the hostname and port are correct and that the postmaster is accepting TCP/IP connections.
-</div>
-
-
-<p>&nbsp;</p><p>&nbsp;</p><p>&nbsp;</p><p>&nbsp;</p>
-<div id="pageFooter">
-info@geonames.org  <img src="/img/smallant.gif" alt="ant" align="middle" hspace="40" border="0">
-<p>
-<a href="/">GeoNames Home</a>
-<span class="separator">&#8226;</span>
-<a href="/postal-codes/">Postal Codes</a>
-<span class="separator">&#8226;</span>
-<a href="/export/">Download / Webservice</a>
-<span class="separator">&#8226;</span>
-<a href="http://forum.geonames.org">Forum</a>
-<span class="separator">&#8226;</span>
-<a href="http://geonames.wordpress.com">Blog</a>
-<span class="separator">&#8226;</span>
-<a href="/sitemap.html">Sitemap</a>
-</div>
-</body></html>
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<rdf:RDF xmlns:cc="http://creativecommons.org/ns#" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:foaf="http://xmlns.com/foaf/0.1/" xmlns:gn="http://www.geonames.org/ontology#" xmlns:owl="http://www.w3.org/2002/07/owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:wgs84_pos="http://www.w3.org/2003/01/geo/wgs84_pos#">
+    <gn:Feature rdf:about="https://sws.geonames.org/2661604/">
+        <rdfs:isDefinedBy rdf:resource="https://sws.geonames.org/2661604/about.rdf"/>
+        <gn:name>Basel</gn:name>
+        <gn:alternateName xml:lang="ko">바젤</gn:alternateName>
+        <gn:alternateName xml:lang="frp">Bâla</gn:alternateName>
+        <gn:alternateName xml:lang="fr">Bâle</gn:alternateName>
+        <gn:alternateName>Bâle</gn:alternateName>
+        <gn:alternateName xml:lang="als">Basel</gn:alternateName>
+        <gn:alternateName xml:lang="bs">Basel</gn:alternateName>
+        <gn:alternateName xml:lang="da">Basel</gn:alternateName>
+        <gn:alternateName xml:lang="de">Basel</gn:alternateName>
+        <gn:alternateName xml:lang="en">Basel</gn:alternateName>
+        <gn:alternateName xml:lang="fi">Basel</gn:alternateName>
+        <gn:alternateName xml:lang="id">Basel</gn:alternateName>
+        <gn:alternateName xml:lang="nn">Basel</gn:alternateName>
+        <gn:alternateName xml:lang="no">Basel</gn:alternateName>
+        <gn:alternateName xml:lang="ro">Basel</gn:alternateName>
+        <gn:alternateName xml:lang="sl">Basel</gn:alternateName>
+        <gn:alternateName xml:lang="sv">Basel</gn:alternateName>
+        <gn:alternateName xml:lang="tr">Basel</gn:alternateName>
+        <gn:alternateName>Basel</gn:alternateName>
+        <gn:alternateName xml:lang="frr">Bāsel</gn:alternateName>
+        <gn:alternateName xml:lang="ca">Basilea</gn:alternateName>
+        <gn:alternateName xml:lang="es">Basilea</gn:alternateName>
+        <gn:alternateName xml:lang="it">Basilea</gn:alternateName>
+        <gn:alternateName xml:lang="rm">Basilea</gn:alternateName>
+        <gn:alternateName>Basilea</gn:alternateName>
+        <gn:alternateName xml:lang="oc">Basilèa</gn:alternateName>
+        <gn:alternateName xml:lang="pt">Basileia</gn:alternateName>
+        <gn:alternateName xml:lang="cs">Basilej</gn:alternateName>
+        <gn:alternateName xml:lang="la">Basilia</gn:alternateName>
+        <gn:alternateName>Basle</gn:alternateName>
+        <gn:alternateName xml:lang="vec">Baxiłea</gn:alternateName>
+        <gn:alternateName xml:lang="nl">Bazel</gn:alternateName>
+        <gn:alternateName xml:lang="hu">Bázel</gn:alternateName>
+        <gn:alternateName xml:lang="lv">Bāzele</gn:alternateName>
+        <gn:alternateName xml:lang="sq">Bazeli</gn:alternateName>
+        <gn:alternateName xml:lang="lt">Bazelis</gn:alternateName>
+        <gn:alternateName xml:lang="eo">Bazelo</gn:alternateName>
+        <gn:alternateName xml:lang="sk">Bazilej</gn:alternateName>
+        <gn:alternateName xml:lang="pl">Bazylea</gn:alternateName>
+        <gn:alternateName xml:lang="la">Robur</gn:alternateName>
+        <gn:alternateName xml:lang="el">Βασιλεία</gn:alternateName>
+        <gn:alternateName xml:lang="bg">Базел</gn:alternateName>
+        <gn:alternateName xml:lang="mk">Базел</gn:alternateName>
+        <gn:alternateName xml:lang="sr">Базел</gn:alternateName>
+        <gn:alternateName xml:lang="be">Базель</gn:alternateName>
+        <gn:alternateName xml:lang="ce">Базель</gn:alternateName>
+        <gn:alternateName xml:lang="cv">Базель</gn:alternateName>
+        <gn:alternateName xml:lang="kk">Базель</gn:alternateName>
+        <gn:alternateName xml:lang="os">Базель</gn:alternateName>
+        <gn:alternateName xml:lang="ru">Базель</gn:alternateName>
+        <gn:alternateName xml:lang="uk">Базель</gn:alternateName>
+        <gn:alternateName xml:lang="mn">Базель хот</gn:alternateName>
+        <gn:alternateName xml:lang="ka">ბაზელი</gn:alternateName>
+        <gn:alternateName xml:lang="hy">Բազել</gn:alternateName>
+        <gn:alternateName xml:lang="yi">באזעל</gn:alternateName>
+        <gn:alternateName xml:lang="he">בזל</gn:alternateName>
+        <gn:alternateName xml:lang="ar">بازل</gn:alternateName>
+        <gn:alternateName xml:lang="arz">بازل</gn:alternateName>
+        <gn:alternateName xml:lang="azb">بازل</gn:alternateName>
+        <gn:alternateName xml:lang="ckb">بازل</gn:alternateName>
+        <gn:alternateName xml:lang="fa">بازل</gn:alternateName>
+        <gn:alternateName xml:lang="ur">بازل</gn:alternateName>
+        <gn:alternateName xml:lang="am">ባዝል</gn:alternateName>
+        <gn:alternateName xml:lang="mr">बासल</gn:alternateName>
+        <gn:alternateName xml:lang="bn">বাজেল</gn:alternateName>
+        <gn:alternateName xml:lang="ta">பேசெல்</gn:alternateName>
+        <gn:alternateName xml:lang="th">บาเซิล</gn:alternateName>
+        <gn:alternateName xml:lang="bo">པ་སེལ།</gn:alternateName>
+        <gn:alternateName xml:lang="ja">バーゼル</gn:alternateName>
+        <gn:alternateName xml:lang="zh">巴塞尔</gn:alternateName>
+        <gn:alternateName xml:lang="yue">巴塞爾</gn:alternateName>
+        <gn:alternateName xml:lang="wuu">白才尔</gn:alternateName>
+        <gn:featureClass rdf:resource="https://www.geonames.org/ontology#P"/>
+        <gn:featureCode rdf:resource="https://www.geonames.org/ontology#P.PPLA"/>
+        <gn:countryCode>CH</gn:countryCode>
+        <gn:population>164488</gn:population>
+        <gn:postalCode>4000</gn:postalCode>
+        <gn:postalCode>4001</gn:postalCode>
+        <gn:postalCode>4031</gn:postalCode>
+        <gn:postalCode>4051</gn:postalCode>
+        <gn:postalCode>4052</gn:postalCode>
+        <gn:postalCode>4053</gn:postalCode>
+        <gn:postalCode>4054</gn:postalCode>
+        <gn:postalCode>4055</gn:postalCode>
+        <gn:postalCode>4056</gn:postalCode>
+        <gn:postalCode>4057</gn:postalCode>
+        <gn:postalCode>4058</gn:postalCode>
+        <gn:postalCode>4059</gn:postalCode>
+        <wgs84_pos:lat>47.55839</wgs84_pos:lat>
+        <wgs84_pos:long>7.57327</wgs84_pos:long>
+        <gn:parentFeature rdf:resource="https://sws.geonames.org/7285161/"/>
+        <gn:parentCountry rdf:resource="https://sws.geonames.org/2658434/"/>
+        <gn:parentADM1 rdf:resource="https://sws.geonames.org/2661602/"/>
+        <gn:parentADM2 rdf:resource="https://sws.geonames.org/6458763/"/>
+        <gn:parentADM3 rdf:resource="https://sws.geonames.org/7285161/"/>
+        <gn:nearbyFeatures rdf:resource="https://sws.geonames.org/2661604/nearby.rdf"/>
+        <gn:locationMap rdf:resource="https://www.geonames.org/2661604/basel.html"/>
+        <gn:wikipediaArticle rdf:resource="https://en.wikipedia.org/wiki/Basel"/>
+        <rdfs:seeAlso rdf:resource="https://dbpedia.org/resource/Basel"/>
+    </gn:Feature>
+    <foaf:Document rdf:about="https://sws.geonames.org/2661604/about.rdf">
+        <foaf:primaryTopic rdf:resource="https://sws.geonames.org/2661604/"/>
+        <cc:license rdf:resource="https://creativecommons.org/licenses/by/4.0/"/>
+        <cc:attributionURL rdf:resource="https://www.geonames.org"/>
+        <cc:attributionName rdf:datatype="https://www.w3.org/2001/XMLSchema#string">GeoNames</cc:attributionName>
+        <dcterms:created rdf:datatype="https://www.w3.org/2001/XMLSchema#date">2006-01-15</dcterms:created>
+        <dcterms:modified rdf:datatype="https://www.w3.org/2001/XMLSchema#date">2020-03-21</dcterms:modified>
+    </foaf:Document>
+</rdf:RDF>

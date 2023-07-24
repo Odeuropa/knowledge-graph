@@ -1,47 +1,152 @@
-<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd ">
-<html>
-<head>
-<title>GeoNames</title>
-<link rel="search" type="application/opensearchdescription+xml" title="geonames" href="https://www.geonames.org/opensearch-description.xml">
-<link href="/geonames.ico" rel="shortcut icon" >
-<link rel="StyleSheet" href="/geonames.css" type="text/css" >
-</head>
-<body>
-<table id="topmenutable" cellpadding="0" cellspacing="0"><tr>
-<td class="topmenu">&nbsp;<a href="/" title="GeoName Home">&nbsp;GeoNames Home</a>&nbsp;|&nbsp;<a href="/postal-codes/" title="Postal Codes">Postal Codes</a>&nbsp;|&nbsp;<a href="/export/" title="Database Dump and Webservice API">Download / Webservice</a>&nbsp;|&nbsp;<a href="/about.html" title="About GeoNames">About</a>&nbsp;</td>
-<td class="topsearch">
-   <form class="topsearch" name="searchForm" method="get" action="/servlet/geonames" >
-
-      search <input class="topmenu" name="q" size="20" value="" type="text">
-     <input type="hidden" name="srv" value="1">
-   </form>
-
-   <span id="topmenulogin">
-<a href="https://www.geonames.org/login" title="login or create new user account">login</a>
-   </span>
-</td></tr>
-</table>
-
-<br><br><br><br>
-<div style="margin:auto; width:500px; padding:40px; text-align:left" class="formTemplateClass">
-Connection to localhost:5432 refused. Check that the hostname and port are correct and that the postmaster is accepting TCP/IP connections.
-</div>
-
-
-<p>&nbsp;</p><p>&nbsp;</p><p>&nbsp;</p><p>&nbsp;</p>
-<div id="pageFooter">
-info@geonames.org  <img src="/img/smallant.gif" alt="ant" align="middle" hspace="40" border="0">
-<p>
-<a href="/">GeoNames Home</a>
-<span class="separator">&#8226;</span>
-<a href="/postal-codes/">Postal Codes</a>
-<span class="separator">&#8226;</span>
-<a href="/export/">Download / Webservice</a>
-<span class="separator">&#8226;</span>
-<a href="http://forum.geonames.org">Forum</a>
-<span class="separator">&#8226;</span>
-<a href="http://geonames.wordpress.com">Blog</a>
-<span class="separator">&#8226;</span>
-<a href="/sitemap.html">Sitemap</a>
-</div>
-</body></html>
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<rdf:RDF xmlns:cc="http://creativecommons.org/ns#" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:foaf="http://xmlns.com/foaf/0.1/" xmlns:gn="http://www.geonames.org/ontology#" xmlns:owl="http://www.w3.org/2002/07/owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:wgs84_pos="http://www.w3.org/2003/01/geo/wgs84_pos#">
+    <gn:Feature rdf:about="https://sws.geonames.org/3578421/">
+        <rdfs:isDefinedBy rdf:resource="https://sws.geonames.org/3578421/about.rdf"/>
+        <gn:name>Saint Martin</gn:name>
+        <gn:officialName xml:lang="ko">생마르탱</gn:officialName>
+        <gn:alternateName xml:lang="fr">Collectivité de Saint-Martin</gn:alternateName>
+        <gn:alternateName xml:lang="nl">Eilandgebied Sint Maarten</gn:alternateName>
+        <gn:officialName xml:lang="kl">Frankrigi Saint Martin</gn:officialName>
+        <gn:officialName xml:lang="se">Frankriikka Saint Martin</gn:officialName>
+        <gn:officialName xml:lang="zu">i-Saint Martin</gn:officialName>
+        <gn:alternateName xml:lang="es">Isla de San Martín</gn:alternateName>
+        <gn:officialName xml:lang="ig">Martin Dị nsọ</gn:officialName>
+        <gn:officialName xml:lang="gd">Naomh Màrtainn</gn:officialName>
+        <gn:officialName xml:lang="br">Saint Martin</gn:officialName>
+        <gn:officialName xml:lang="ca">Saint Martin</gn:officialName>
+        <gn:officialName xml:lang="cy">Saint Martin</gn:officialName>
+        <gn:officialName xml:lang="da">Saint Martin</gn:officialName>
+        <gn:officialName xml:lang="en">Saint Martin</gn:officialName>
+        <gn:officialName xml:lang="gl">Saint Martin</gn:officialName>
+        <gn:officialName xml:lang="hr">Saint Martin</gn:officialName>
+        <gn:officialName xml:lang="hu">Saint Martin</gn:officialName>
+        <gn:officialName xml:lang="id">Saint Martin</gn:officialName>
+        <gn:officialName xml:lang="it">Saint Martin</gn:officialName>
+        <gn:officialName xml:lang="ms">Saint Martin</gn:officialName>
+        <gn:officialName xml:lang="mt">Saint Martin</gn:officialName>
+        <gn:officialName xml:lang="nb">Saint Martin</gn:officialName>
+        <gn:officialName xml:lang="nn">Saint Martin</gn:officialName>
+        <gn:officialName xml:lang="rm">Saint Martin</gn:officialName>
+        <gn:officialName xml:lang="sl">Saint Martin</gn:officialName>
+        <gn:officialName xml:lang="tr">Saint Martin</gn:officialName>
+        <gn:alternateName xml:lang="de">Saint-Martin</gn:alternateName>
+        <gn:officialName xml:lang="et">Saint-Martin</gn:officialName>
+        <gn:officialName xml:lang="fi">Saint-Martin</gn:officialName>
+        <gn:officialName xml:lang="fr">Saint-Martin</gn:officialName>
+        <gn:officialName xml:lang="fy">Saint-Martin</gn:officialName>
+        <gn:officialName xml:lang="ga">Saint-Martin</gn:officialName>
+        <gn:officialName xml:lang="is">Saint-Martin</gn:officialName>
+        <gn:alternateName xml:lang="it">Saint-Martin</gn:alternateName>
+        <gn:officialName xml:lang="nl">Saint-Martin</gn:officialName>
+        <gn:officialName xml:lang="no">Saint-Martin</gn:officialName>
+        <gn:officialName xml:lang="pl">Saint-Martin</gn:officialName>
+        <gn:officialName xml:lang="sv">Saint-Martin</gn:officialName>
+        <gn:officialName xml:lang="fr">Saint-Martin (Antilles françaises)</gn:officialName>
+        <gn:alternateName xml:lang="en">Saint-Martin Collectivity</gn:alternateName>
+        <gn:alternateName xml:lang="en">Saint Martin (French Part)</gn:alternateName>
+        <gn:officialName xml:lang="ee">Saint Martin nutome</gn:officialName>
+        <gn:officialName xml:lang="to">Sā Mātini (fakafalanisē)</gn:officialName>
+        <gn:officialName xml:lang="eu">San Martin</gn:officialName>
+        <gn:officialName xml:lang="ha">San Martin</gn:officialName>
+        <gn:officialName xml:lang="es">San Martín</gn:officialName>
+        <gn:officialName xml:lang="qu">San Martín</gn:officialName>
+        <gn:officialName xml:lang="jv">Santa Martin</gn:officialName>
+        <gn:officialName xml:lang="ln">Sántu Martin</gn:officialName>
+        <gn:officialName xml:lang="wo">Saŋ Marteŋ</gn:officialName>
+        <gn:officialName xml:lang="pt">São Martinho</gn:officialName>
+        <gn:officialName xml:lang="sq">Sen-Marten</gn:officialName>
+        <gn:officialName xml:lang="tk">Sen-Marten</gn:officialName>
+        <gn:officialName xml:lang="lv">Senmartēna</gn:officialName>
+        <gn:officialName xml:lang="lt">Sen Martenas</gn:officialName>
+        <gn:officialName xml:lang="az">Sent Martin</gn:officialName>
+        <gn:officialName xml:lang="uz">Sent-Martin</gn:officialName>
+        <gn:officialName xml:lang="ro">Sfântul Martin</gn:officialName>
+        <gn:alternateName xml:lang="pl">Sint Maarten</gn:alternateName>
+        <gn:officialName xml:lang="af">Sint Martin</gn:officialName>
+        <gn:officialName xml:lang="so">St. Maartin</gn:officialName>
+        <gn:alternateName xml:lang="en">St Martin</gn:alternateName>
+        <gn:officialName xml:lang="fo">St-Martin</gn:officialName>
+        <gn:officialName xml:lang="de">St. Martin</gn:officialName>
+        <gn:alternateName xml:lang="en">St. Martin</gn:alternateName>
+        <gn:officialName xml:lang="lb">St. Martin</gn:officialName>
+        <gn:officialName xml:lang="sw">St. Martin</gn:officialName>
+        <gn:officialName xml:lang="vi">St. Martin</gn:officialName>
+        <gn:officialName xml:lang="yo">St. Martin</gn:officialName>
+        <gn:alternateName xml:lang="en">St. Martin (French Part)</gn:alternateName>
+        <gn:officialName xml:lang="sk">Svätý Martin (fr.)</gn:officialName>
+        <gn:officialName xml:lang="cs">Svatý Martin (Francie)</gn:officialName>
+        <gn:officialName xml:lang="bs">Sveti Martin</gn:officialName>
+        <gn:officialName xml:lang="el">Άγιος Μαρτίνος (Γαλλικό τμήμα)</gn:officialName>
+        <gn:officialName xml:lang="uk">Острів Святого Мартіна</gn:officialName>
+        <gn:officialName xml:lang="ru">Остров Святого Мартина</gn:officialName>
+        <gn:officialName xml:lang="sr">Свети Мартин (Француска)</gn:officialName>
+        <gn:officialName xml:lang="bg">Сейнт Мартин</gn:officialName>
+        <gn:officialName xml:lang="bg">Сен Мартен</gn:officialName>
+        <gn:officialName xml:lang="ce">Сен-Мартен</gn:officialName>
+        <gn:officialName xml:lang="kk">Сен-Мартен</gn:officialName>
+        <gn:officialName xml:lang="ru">Сен-Мартен</gn:officialName>
+        <gn:officialName xml:lang="uk">Сен-Мартен</gn:officialName>
+        <gn:officialName xml:lang="be">Сен-Мартэн</gn:officialName>
+        <gn:officialName xml:lang="mk">Сент Мартин</gn:officialName>
+        <gn:officialName xml:lang="ky">Сент-Мартин</gn:officialName>
+        <gn:officialName xml:lang="mn">Сент-Мартин</gn:officialName>
+        <gn:officialName xml:lang="tt">Сент-Мартин</gn:officialName>
+        <gn:officialName xml:lang="tg">Ҷазираи Сент-Мартин</gn:officialName>
+        <gn:officialName xml:lang="ka">სენ-მარტენი</gn:officialName>
+        <gn:officialName xml:lang="hy">Սեն Մարտեն</gn:officialName>
+        <gn:officialName xml:lang="he">סן מרטן</gn:officialName>
+        <gn:alternateName xml:lang="ar">سانت مارتن</gn:alternateName>
+        <gn:officialName xml:lang="ar">سان مارتن</gn:officialName>
+        <gn:officialName xml:lang="ug">ساينت مارتىن</gn:officialName>
+        <gn:officialName xml:lang="fa">سنت مارتین</gn:officialName>
+        <gn:officialName xml:lang="sd">سينٽ مارٽن</gn:officialName>
+        <gn:officialName xml:lang="ur">سینٹ مارٹن</gn:officialName>
+        <gn:officialName xml:lang="ks">سینٹ مارٹِن</gn:officialName>
+        <gn:officialName xml:lang="ps">سینټ مارټن</gn:officialName>
+        <gn:officialName xml:lang="am">ሴንት ማርቲን</gn:officialName>
+        <gn:officialName xml:lang="ti">ሴንት ማርቲን</gn:officialName>
+        <gn:officialName xml:lang="hi">सेंट मार्टिन</gn:officialName>
+        <gn:officialName xml:lang="mr">सेंट मार्टिन</gn:officialName>
+        <gn:officialName xml:lang="ne">सेन्ट मार्टिन</gn:officialName>
+        <gn:officialName xml:lang="as">ছেইণ্ট মাৰ্টিন</gn:officialName>
+        <gn:officialName xml:lang="bn">সেন্ট মার্টিন</gn:officialName>
+        <gn:officialName xml:lang="pa">ਸੇਂਟ ਮਾਰਟਿਨ</gn:officialName>
+        <gn:officialName xml:lang="gu">સેંટ માર્ટિન</gn:officialName>
+        <gn:officialName xml:lang="or">ସେଣ୍ଟ ମାର୍ଟିନ୍</gn:officialName>
+        <gn:officialName xml:lang="ta">செயின்ட் மார்ட்டீன்</gn:officialName>
+        <gn:officialName xml:lang="te">సెయింట్ మార్టిన్</gn:officialName>
+        <gn:officialName xml:lang="kn">ಸೇಂಟ್ ಮಾರ್ಟಿನ್</gn:officialName>
+        <gn:officialName xml:lang="ml">സെന്റ് മാർട്ടിൻ</gn:officialName>
+        <gn:officialName xml:lang="si">ශාන්ත මාර්ටින්</gn:officialName>
+        <gn:officialName xml:lang="th">เซนต์มาร์ติน</gn:officialName>
+        <gn:officialName xml:lang="lo">ເຊນ ມາທິນ</gn:officialName>
+        <gn:officialName xml:lang="dz">སེནཊ་ མཱར་ཊིན</gn:officialName>
+        <gn:officialName xml:lang="my">စိန့်မာတင်</gn:officialName>
+        <gn:officialName xml:lang="km">សាំង​ម៉ាទីន</gn:officialName>
+        <gn:officialName xml:lang="ja">サン・マルタン</gn:officialName>
+        <gn:officialName xml:lang="zh">法属圣马丁</gn:officialName>
+        <gn:featureClass rdf:resource="https://www.geonames.org/ontology#A"/>
+        <gn:featureCode rdf:resource="https://www.geonames.org/ontology#A.PCLIX"/>
+        <gn:countryCode>MF</gn:countryCode>
+        <gn:population>37264</gn:population>
+        <gn:postalCode>97150</gn:postalCode>
+        <wgs84_pos:lat>18.06667</wgs84_pos:lat>
+        <wgs84_pos:long>-63.06667</wgs84_pos:long>
+        <gn:parentFeature rdf:resource="https://sws.geonames.org/3579306/"/>
+        <gn:parentFeature rdf:resource="https://sws.geonames.org/7729891/"/>
+        <gn:parentFeature rdf:resource="https://sws.geonames.org/3017382/"/>
+        <gn:childrenFeatures rdf:resource="https://sws.geonames.org/3578421/contains.rdf"/>
+        <gn:neighbouringFeatures rdf:resource="https://sws.geonames.org/3578421/neighbours.rdf"/>
+        <gn:locationMap rdf:resource="https://www.geonames.org/3578421/saint-martin.html"/>
+        <gn:wikipediaArticle rdf:resource="https://en.wikipedia.org/wiki/Saint_Martin_(France)"/>
+        <rdfs:seeAlso rdf:resource="https://dbpedia.org/resource/Saint_Martin_%28France%29"/>
+    </gn:Feature>
+    <foaf:Document rdf:about="https://sws.geonames.org/3578421/about.rdf">
+        <foaf:primaryTopic rdf:resource="https://sws.geonames.org/3578421/"/>
+        <cc:license rdf:resource="https://creativecommons.org/licenses/by/4.0/"/>
+        <cc:attributionURL rdf:resource="https://www.geonames.org"/>
+        <cc:attributionName rdf:datatype="https://www.w3.org/2001/XMLSchema#string">GeoNames</cc:attributionName>
+        <dcterms:created rdf:datatype="https://www.w3.org/2001/XMLSchema#date">2006-01-15</dcterms:created>
+        <dcterms:modified rdf:datatype="https://www.w3.org/2001/XMLSchema#date">2021-08-23</dcterms:modified>
+    </foaf:Document>
+</rdf:RDF>
