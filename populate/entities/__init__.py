@@ -1,4 +1,4 @@
-from .Graph import add, set_prov
+from .Graph import add, set_prov, set_score
 from .Smell import Smell
 from .SmellEmission import SmellEmission
 from .SmellSource import SmellSource

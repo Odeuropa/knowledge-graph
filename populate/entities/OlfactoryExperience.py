@@ -19,6 +19,7 @@ class OlfactoryExperience(Entity):
         super().__init__(seed, 'experience')
         self.assignment_id = 0
         self.gesture_id = 0
+        self.emotion_id = 0
 
         self.smell = smell
         self.perceiver = None
@@ -77,11 +78,12 @@ class OlfactoryExperience(Entity):
 
         self.add(ODEUROPA.F6_evoked, obj)
 
-    def add_emotion(self, label, typ, sentiment):
+    def add_emotion(self, label, typ, sentiment=None):
         typ = [t for t in typ.split(' | ') if t != 'smell_word'][0]
-        em = Emotion(self.seed, label.strip(), typ.strip(), sentiment.strip())
-        # print(label, typ, sentiment)
-        em.add(REO.readP27, self)
+        self.emotion_id += 1
+
+        em = Emotion(self.seed + '$' + str(self.emotion_id), label.strip(), typ.strip(), sentiment)
+        return em.add(REO.readP27, self)
 
 
 class Emotion(Entity):
@@ -90,8 +92,8 @@ class Emotion(Entity):
 
         self.set_class(REO.REO21)
         self.add_label(label)
-        if sentiment:
-            self.add(CRM.P2_has_type, MiniEntity('sentiment', sentiment.lower(), sentiment, SKOS.Concept))
+        if sentiment and sentiment.strip():
+            self.add(CRM.P2_has_type, MiniEntity('sentiment', sentiment.strip().lower(), sentiment, SKOS.Concept))
 
         if typ and typ.strip():
             typ = typ.strip()

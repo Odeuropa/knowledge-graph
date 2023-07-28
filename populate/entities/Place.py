@@ -23,7 +23,7 @@ with open(GEONAMES_CACHE, 'r') as _f:
 IN_PREFIX = {
     'en': r'(?i)^(all )?(at|in(to)?|upon|between|down ([oi]n)?|every|about|above|across|his|her|our|out(side)?( in| of)?|near|throughout|even( in)?|of|on|along|from|to|before) ',
     'it': r"(?i)^(d'|a |in |(da|ne|su|a)(gl)?i |presso |per |(da|ne|su|a)(l(l[aoe])?)? |(da|ne|su)ll ?')",
-    'fr': r"(?i)^((en|dans|à|aux?|sur) |d')",
+    'fr': r"(?i)^((en|dans|à|aux?|sur|autur du?) |d')",
     'nl': r'(?i)^(by|te|op|in) ',
     'de': r'(?i)^(by|te|op|in|im|von|au[sß]|auff?) ',
     'sl': r'(?i)^(v|pod?|o[bd]|na|iz) '

@@ -3,6 +3,7 @@ import os
 from os import path
 from math import isnan
 import re
+import json
 
 import numpy as np
 import pandas as pd
@@ -25,6 +26,8 @@ DOC_ID_REGEX = r"\d{3}[A-Z]"
 DLIB_BRACKETS_REGEX = r'\(([^\d]+)(. [\d\--]+)?\)'
 PROV_DESCR = 'Manual annotation of textual resources realised according to the Odeuropa deliverable D3.2 ' \
              '"Multilingual historical corpora and annotated benchmarks" '
+EMOTION_PREDICTION_SCORE = 0.5
+emotion_prov = None
 
 lang_map = {
     'English': 'en',
@@ -106,14 +109,22 @@ def get_multi(keys, obj):
     return res
 
 
-def process_annotation_sheet(df, lang, codename):
+def get_emotion(identifier, sentence, sw, emotions):
+    res = [x for x in emotions if x['Book'] == identifier and x['Sentence'] == sentence and x['Smell_Word'] == sw]
+    if len(res) == 0:
+        return None
+    return res.pop()
+
+
+def process_annotation_sheet(df, lang, codename, emotions):
     print('processing ' + lang)
 
     doc_map = {}
 
     for i, r in tqdm(df.iterrows(), total=df.shape[0]):
+        sent = r.get('Sentence', r.get('Full_Sentence'))
         sentence = r.get('SentenceBefore', '') + \
-                   r.get('Sentence', r.get('Full_Sentence')) + \
+                   sent + \
                    r.get('SentenceAfter', '')
 
         # too many spaces = fake sentence
@@ -207,6 +218,17 @@ def process_annotation_sheet(df, lang, codename):
                     continue
                 typ = other.strip() if typ == 'Other' else typ
                 experience.add_emotion(emot, typ.lower(), sentiment)
+
+        emot = get_emotion(identifier, sent, r['Smell_Word'], emotions)
+        if emot is not None:
+            for pred in emot['Predictions']:
+                score = pred['score']
+                if score < EMOTION_PREDICTION_SCORE:
+                    continue
+                label = pred['label']
+                em_statement = experience.add_emotion(label, typ=label)
+                set_prov(em_statement, emotion_prov)
+                set_score(em_statement, score)
 
         used_words = get_multi(('Smell_Word', 'Smell_Source', 'Odour_Carrier', 'Perceiver', 'Quality', 'Effect',
                                 'Evoked_Odorant', 'Location', 'Time', 'Emotion'), r)
@@ -441,9 +463,9 @@ def run(root, output, lang=None, organised_in_batches=False, metadata_format='ts
     VocabularyManager.setup(config['vocabularies'])
 
     DEFAULT_PLACES = {
-        'ecco': Place.from_text('UK'), # missing
-        'pulse': Place.from_text('UK'), # missing
-        'british-library': Place.from_text('UK'), # missing
+        'ecco': Place.from_text('UK'),  # missing
+        'pulse': Place.from_text('UK'),  # missing
+        'british-library': Place.from_text('UK'),  # missing
         'old-bailey-corpus': Place.from_text('London'),
         'royal-society-corpus': Place.from_text('London'),
         'eebo': Place.from_text('UK'),  # missing
@@ -462,7 +484,6 @@ def run(root, output, lang=None, organised_in_batches=False, metadata_format='ts
         'bibbleue': Place.from_text('Troyes')
     }
 
-
     # convert
     if lang is None:
         lang_list = ['en', 'fr', 'it', 'de', 'sl', 'nl']
@@ -470,6 +491,7 @@ def run(root, output, lang=None, organised_in_batches=False, metadata_format='ts
             process_benchmark_sheet(lg, docs_file)
     elif collection == 'british-library':
         periods = [x for x in os.listdir(root) if x.endswith('frames.tsv')]
+
         for i, b in enumerate(periods):
             print(b)
             frames = path.join(root, b)
@@ -483,12 +505,24 @@ def run(root, output, lang=None, organised_in_batches=False, metadata_format='ts
             Graph.g.serialize(destination=f"{out_folder}/docs{i}.ttl")
             Graph.reset()
 
+            emotion_file =  frames.replace('BritishLibrary-', 'emotions-BritishLibrary-').replace('-frames.tsv', '.jsonl')
+            emotions = []
+            if path.isfile(emotion_file):
+                print('Loading emotions')
+                emotion_prov = Provenance(codename, 'Automatic emotion extraction',
+                                          'Automatic emotion extraction within the Odeuropa project',
+                                          ODEUROPA_PROJECT)
+                emotion_prov.add_software('EMOLIT', 'https://doi.org/10.5281/zenodo.8114516')
+
+                with open(emotion_file) as f:
+                    emotions = [json.loads(l) for l in f.read().splitlines()]
+
             tsv_data = pd.read_csv(frames, sep='\t', index_col=False).drop_duplicates().replace(np.nan, '', regex=True)
 
             # dividing in batches of 10K rows
             step = 10000
             for j in tqdm(np.arange(0, len(tsv_data) - 1, step), desc="Batches: "):
-                process_annotation_sheet(tsv_data[j:j + step], lang='en', codename=codename)
+                process_annotation_sheet(tsv_data[j:j + step], lang='en', codename=codename, emotions=emotions)
                 out = Graph.g.serialize(format='ttl')
                 out = out.replace('"<<', '<<').replace('>>"', '>>')
                 with open(f"{out_folder}/en{i}_{j}.ttl", 'w') as outfile:
@@ -496,8 +530,6 @@ def run(root, output, lang=None, organised_in_batches=False, metadata_format='ts
                 Graph.reset()
 
         return
-
-
     else:
         lang_list = [lang]
         map_file = path.join(root, 'map.tsv')
@@ -521,6 +553,18 @@ def run(root, output, lang=None, organised_in_batches=False, metadata_format='ts
     Graph.g.serialize(destination=f"{out_folder}/docs.ttl")
     Graph.reset()
 
+    emotion_file = path.join(root, 'emotions.jsonl')
+    emotions = []
+    if path.isfile(emotion_file):
+        print('Loading emotions')
+        emotion_prov = Provenance(codename, 'Automatic emotion extraction',
+                                  'Automatic emotion extraction within the Odeuropa project',
+                                  ODEUROPA_PROJECT)
+        emotion_prov.add_software('EMOLIT', 'https://doi.org/10.5281/zenodo.8114516')
+
+        with open(emotion_file) as f:
+            emotions = [json.loads(l) for l in f.read().splitlines()]
+
     for lg in lang_list:
         em_tsv = path.join(root, f"{lg}-frame-elements-emotion.tsv")
         tsv_data = None
@@ -539,7 +583,7 @@ def run(root, output, lang=None, organised_in_batches=False, metadata_format='ts
             # dividing in batches of 10K rows
             step = 10000
             for i in tqdm(np.arange(0, len(tsv_data) - 1, step), desc="Batches: "):
-                process_annotation_sheet(tsv_data[i:i + step], lang=lg, codename=codename)
+                process_annotation_sheet(tsv_data[i:i + step], lang=lg, codename=codename, emotions=emotions)
                 out = Graph.g.serialize(format='ttl')
                 out = out.replace('"<<', '<<').replace('>>"', '>>')
                 with open(f"{out_folder}/{lg}{i}.ttl", 'w') as outfile:

@@ -1,6 +1,7 @@
+import rdflib.plugins.parsers.notation3
 import validators
 import numpy as np
-from rdflib import Graph, URIRef, Literal, TIME, SDO, OWL, PROV
+from rdflib import Graph, URIRef, Literal, TIME, SDO, OWL, PROV, RDF, XSD
 from .ontologies import *
 from .Entity import Entity
 
@@ -42,7 +43,9 @@ def add(subj, pred, obj, lang=''):
         statement = (subj, pred, Literal(obj, datatype=lang))
     elif isinstance(obj, URIRef) or isinstance(obj, Literal):
         statement = (subj, pred, obj)
-    elif validators.url(obj):
+    elif type(obj) == float:
+        statement = (subj, pred, Literal(str(obj), datatype=XSD.float))
+    elif validators.url(str(obj)):
         statement = (subj, pred, URIRef(obj))
     else:
         statement = (subj, pred, Literal(obj, lang=lang))
@@ -68,6 +71,14 @@ def set_prov(statement, prov):
     pass
 
 
+def set_score(statement, score):
+    if not statement or not score:
+        return
+    # under development in rdflib https://github.com/RDFLib/rdflib/discussions/1554
+    # workaround = use a string and then re-convert afterwords
+    add_rdfstar(statement, RDF.value, score)
+    pass
+
 def add_rdfstar(s, p, o):
     if type(s) == tuple:
         s = wrap_statement(s)
@@ -81,3 +92,4 @@ def is_invalid(what):
 
 
 reset()
+
