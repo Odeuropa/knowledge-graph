@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<rdf:RDF xmlns:cc="http://creativecommons.org/ns#" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:foaf="http://xmlns.com/foaf/0.1/" xmlns:gn="http://www.geonames.org/ontology#" xmlns:owl="http://www.w3.org/2002/07/owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:wgs84_pos="http://www.w3.org/2003/01/geo/wgs84_pos#">
+    <gn:Feature rdf:about="https://sws.geonames.org/5410438/">
+        <rdfs:isDefinedBy rdf:resource="https://sws.geonames.org/5410438/about.rdf"/>
+        <gn:name>Woodland Hills</gn:name>
+        <gn:alternateName>Girad</gn:alternateName>
+        <gn:alternateName>Girard</gn:alternateName>
+        <gn:officialName xml:lang="en">Woodland Hills</gn:officialName>
+        <gn:featureClass rdf:resource="https://www.geonames.org/ontology#P"/>
+        <gn:featureCode rdf:resource="https://www.geonames.org/ontology#P.PPLX"/>
+        <gn:countryCode>US</gn:countryCode>
+        <gn:population>70000</gn:population>
+        <gn:postalCode>91364</gn:postalCode>
+        <gn:postalCode>91365</gn:postalCode>
+        <gn:postalCode>91367</gn:postalCode>
+        <gn:postalCode>91371</gn:postalCode>
+        <wgs84_pos:lat>34.16834</wgs84_pos:lat>
+        <wgs84_pos:long>-118.60592</wgs84_pos:long>
+        <wgs84_pos:alt>273</wgs84_pos:alt>
+        <gn:parentFeature rdf:resource="https://sws.geonames.org/5368361/"/>
+        <gn:parentCountry rdf:resource="https://sws.geonames.org/6252001/"/>
+        <gn:parentADM1 rdf:resource="https://sws.geonames.org/5332921/"/>
+        <gn:parentADM2 rdf:resource="https://sws.geonames.org/5368381/"/>
+        <gn:nearbyFeatures rdf:resource="https://sws.geonames.org/5410438/nearby.rdf"/>
+        <gn:locationMap rdf:resource="https://www.geonames.org/5410438/woodland-hills.html"/>
+        <gn:wikipediaArticle rdf:resource="https://en.wikipedia.org/wiki/Woodland_Hills%2C_Los_Angeles"/>
+        <rdfs:seeAlso rdf:resource="https://dbpedia.org/resource/Woodland_Hills%2C_Los_Angeles"/>
+    </gn:Feature>
+    <foaf:Document rdf:about="https://sws.geonames.org/5410438/about.rdf">
+        <foaf:primaryTopic rdf:resource="https://sws.geonames.org/5410438/"/>
+        <cc:license rdf:resource="https://creativecommons.org/licenses/by/4.0/"/>
+        <cc:attributionURL rdf:resource="https://www.geonames.org"/>
+        <cc:attributionName rdf:datatype="https://www.w3.org/2001/XMLSchema#string">GeoNames</cc:attributionName>
+        <dcterms:created rdf:datatype="https://www.w3.org/2001/XMLSchema#date">2006-01-15</dcterms:created>
+        <dcterms:modified rdf:datatype="https://www.w3.org/2001/XMLSchema#date">2018-04-18</dcterms:modified>
+    </foaf:Document>
+</rdf:RDF>

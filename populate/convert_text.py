@@ -298,7 +298,7 @@ def process_metadata(lang, docs_file, intermediate_map, collection):
         internal_id = r.get('identifiers', identifier)
 
         if intermediate_map is not None:
-            post = '' if collection in ['ecco', 'british-library'] else '.txt'
+            post = '' if collection in ['ecco', 'british-library', 'medical-heritage'] else '.txt'
             pointer = intermediate_map[intermediate_map['real_id'] == identifier + post]['id']
 
             if len(pointer) > 0:
@@ -466,6 +466,7 @@ def run(root, output, lang=None, organised_in_batches=False, metadata_format='ts
         'ecco': Place.from_text('UK'),  # missing
         'pulse': Place.from_text('UK'),  # missing
         'british-library': Place.from_text('UK'),  # missing
+        'medical-heritage': Place.from_text('UK'),
         'old-bailey-corpus': Place.from_text('London'),
         'royal-society-corpus': Place.from_text('London'),
         'eebo': Place.from_text('UK'),  # missing
@@ -489,7 +490,7 @@ def run(root, output, lang=None, organised_in_batches=False, metadata_format='ts
         lang_list = ['en', 'fr', 'it', 'de', 'sl', 'nl']
         for lg in ['English', 'Italian', 'Dutch', 'French', 'German', 'Slovenian', 'Dutch']:
             process_benchmark_sheet(lg, docs_file)
-    elif collection == 'british-library':
+    elif collection in ['british-library', 'medical-heritage']:
         periods = [x for x in os.listdir(root) if x.endswith('frames.tsv')]
 
         for i, b in enumerate(periods):
@@ -505,7 +506,8 @@ def run(root, output, lang=None, organised_in_batches=False, metadata_format='ts
             Graph.g.serialize(destination=f"{out_folder}/docs{i}.ttl")
             Graph.reset()
 
-            emotion_file =  frames.replace('BritishLibrary-', 'emotions-BritishLibrary-').replace('-frames.tsv', '.jsonl')
+            emotion_file = frames.replace('BritishLibrary-', 'emotions-BritishLibrary-').replace('-frames.tsv',
+                                                                                                 '.jsonl')
             emotions = []
             if path.isfile(emotion_file):
                 print('Loading emotions')
