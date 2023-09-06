@@ -19,7 +19,7 @@
 
             owlim:base-URL "http://data.odeuropa.eu/" ;
             owlim:defaultNS "" ;
-            owlim:entity-index-size "200000" ;
+            owlim:entity-index-size "10000000" ;
             owlim:entity-id-size  "32" ;
             owlim:imports "" ;
             owlim:repository-type "file-repository" ;
@@ -30,7 +30,7 @@
             owlim:cache-memory "80m" ;
             owlim:tuple-index-memory "80m" ;
 
-            owlim:enablePredicateList "false" ;
+            owlim:enablePredicateList "true" ;
             owlim:predicate-memory "0%" ;
 
             owlim:fts-memory "0%" ;
@@ -46,9 +46,9 @@
             owlim:enable-optimization  "true" ;
             owlim:transaction-mode "safe" ;
             owlim:transaction-isolation "true" ;
-            owlim:query-timeout  "0" ;
+            owlim:query-timeout  "60" ;
             owlim:query-limit-results  "0" ;
-            owlim:throw-QueryEvaluationException-on-timeout "false" ;
+            owlim:throw-QueryEvaluationException-on-timeout "true" ;
             owlim:useShutdownHooks  "true" ;
             owlim:read-only "false" ;
             owlim:nonInterpretablePredicates "http://www.w3.org/2000/01/rdf-schema#label;http://www.w3.org/1999/02/22-rdf-syntax-ns#type;http://www.ontotext.com/owlim/ces#gazetteerConfig;http://www.ontotext.com/owlim/ces#metadataConfig" ;
