@@ -274,7 +274,7 @@
 
 :dhsv-sw a skosmos:Vocabulary, void:Dataset ;
         dc:title "Dutch Historical Smell Vocabulary (DHSV) - Smell Words" ;
-        dc:subject :cat_general ;
+        dc:subject :classification ;
         dc:type mdrtype:THESAURUS ;
         void:uriSpace "http://data.odeuropa.eu/vocabulary/dhsv-sw/";
         skosmos:language "nl";
@@ -433,25 +433,25 @@
           "Vocabulaires"@nl, "Vokabularien"@de, "Slovarji"@sl.
 
 :wheel a skos:Concept;
-  skos:prefLabel "Scent Wheel"@en, "Scent Wheel"@fr, "Scent Wheel"@it,
-          "Scent Wheel"@nl, "Scent Wheel"@de, "Scent Wheel"@sl.
+  skos:prefLabel "2. Scent Wheels"@en, "2. Scent Wheels"@fr, "2. Scent Wheels"@it,
+          "2. Scent Wheels"@nl, "2. Scent Wheels"@de, "2. Scent Wheels"@sl.
 
 :classification a skos:Concept;
-  skos:prefLabel "Smell Classification"@en, "Classification des odeurs"@fr, "Classificazione degli odori"@it,
-          "Scent Wheel"@nl, "Scent Wheel"@de, "Scent Wheel"@sl.
+  skos:prefLabel "5. Smell Classification"@en, "5. Classification des odeurs"@fr, "5. Classificazione degli odori"@it,
+          "5. Smell Classification"@nl, "5. Smell Classification"@de, "5. Smell Classification"@sl.
 
 :odorants a skos:Concept;
-  skos:prefLabel "Odorants"@en, "Odorants"@fr, "Sostanze odoranti"@it,
-          "Scent Wheel"@nl, "Geruchsstoff"@de, "Odorants"@sl.
+  skos:prefLabel "6. Odorants"@en, "6. Odorants"@fr, "6. Sostanze odoranti"@it,
+          "6. Odorants"@nl, "6. Geruchsstoff"@de, "6. Odorants"@sl.
 
 :odeuropa_vocs a skos:Concept;
-  skos:prefLabel "Odeuropa vocabularies"@en, "Odeuropa vocabularies"@fr, "Odeuropa vocabularies"@it,
-          "Odeuropa vocabularies"@nl, "Odeuropa vocabularies"@de, "Odeuropa vocabularies"@sl.
+  skos:prefLabel "1. Odeuropa vocabularies"@en, "1. Odeuropa vocabularies"@fr, "1. Odeuropa vocabularies"@it,
+          "1. Odeuropa vocabularies"@nl, "1. Odeuropa vocabularies"@de, "1. Odeuropa vocabularies"@sl.
 
 :emotion a skos:Concept;
-  skos:prefLabel "Emotion"@en, "Emotion"@fr, "Emotion"@it,
-          "Emotion"@nl, "Emotion"@de, "Emotion"@sl.
+  skos:prefLabel "3. Emotion"@en, "3. Emotion"@fr, "3. Emotion"@it,
+          "3. Emotion"@nl, "3. Emotion"@de, "3. Emotion"@sl.
 
 :agents a skos:Concept;
-  skos:prefLabel "Agents"@en, "Agents"@fr, "Agents"@it,
-          "Agents"@nl, "Agents"@de, "Agents"@sl.
+  skos:prefLabel "4. Agents"@en, "4. Agents"@fr, "4. Agents"@it,
+          "4. Agents"@nl, "4. Agents"@de, "4. Agents"@sl.
