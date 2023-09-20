@@ -48,7 +48,7 @@
 
 :olfactory_objects a skosmos:Vocabulary, void:Dataset ;
     dc:title "Olfactory Objects" ;
-    dc:subject :cat_general ;
+    dc:subject :odeuropa_vocs ;
     dc:type mdrtype:THESAURUS ;
     void:uriSpace "http://data.odeuropa.eu/vocabulary/olfactory-objects/";
     skosmos:language "en", "fr", "it" , "nl", "de", "sl";
@@ -71,7 +71,7 @@
 
 :fragrant-spaces a skosmos:Vocabulary, void:Dataset ;
     dc:title "Fragrant Spaces" ;
-    dc:subject :cat_general ;
+    dc:subject :odeuropa_vocs ;
     dc:type mdrtype:THESAURUS ;
     void:uriSpace "http://data.odeuropa.eu/vocabulary/fragrant-spaces/";
     skosmos:language "en", "fr", "it" , "nl", "de", "sl";
@@ -94,7 +94,7 @@
 
 :olfactory-gestures a skosmos:Vocabulary, void:Dataset ;
         dc:title "Olfactory Gestures" ;
-        dc:subject :cat_general ;
+        dc:subject :odeuropa_vocs ;
         dc:type mdrtype:THESAURUS ;
         void:uriSpace "http://data.odeuropa.eu/vocabulary/olfactory-gestures/";
         skosmos:language "en", "fr", "it" , "nl", "de", "sl";
@@ -296,7 +296,7 @@
 
 :noses a skosmos:Vocabulary, void:Dataset ;
         dc:title "Noses" ;
-        dc:subject :cat_general ;
+        dc:subject :agents ;
         dc:type mdrtype:THESAURUS ;
         void:uriSpace "http://data.odeuropa.eu/vocabulary/noses/";
         skosmos:language "en";
@@ -319,7 +319,7 @@
 
 :plutchik a skosmos:Vocabulary, void:Dataset ;
         dc:title "Plutchik’s Wheel of Emotions" ;
-        dc:subject :cat_general ;
+        dc:subject :emotion ;
         dc:type mdrtype:THESAURUS ;
         void:uriSpace "http://data.odeuropa.eu/vocabulary/plutchik/";
         skosmos:language "en";
@@ -443,3 +443,15 @@
 :odorants a skos:Concept;
   skos:prefLabel "Odorants"@en, "Odorants"@fr, "Sostanze odoranti"@it,
           "Scent Wheel"@nl, "Geruchsstoff"@de, "Odorants"@sl.
+
+:odeuropa_vocs a skos:Concept;
+  skos:prefLabel "Odeuropa vocabularies"@en, "Odeuropa vocabularies"@fr, "Odeuropa vocabularies"@it,
+          "Odeuropa vocabularies"@nl, "Odeuropa vocabularies"@de, "Odeuropa vocabularies"@sl.
+
+:emotion a skos:Concept;
+  skos:prefLabel "Emotion"@en, "Emotion"@fr, "Emotion"@it,
+          "Emotion"@nl, "Emotion"@de, "Emotion"@sl.
+
+:agents a skos:Concept;
+  skos:prefLabel "Agents"@en, "Agents"@fr, "Agents"@it,
+          "Agents"@nl, "Agents"@de, "Agents"@sl.
