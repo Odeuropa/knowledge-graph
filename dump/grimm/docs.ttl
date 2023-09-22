@@ -1,132 +1,10 @@
 @prefix crm: <http://erlangen-crm.org/current/> .
-@prefix owl: <http://www.w3.org/2002/07/owl#> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 @prefix schema: <https://schema.org/> .
 @prefix time: <http://www.w3.org/2006/time#> .
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 
-<http://data.odeuropa.eu/source/0005bfe8-738a-5045-b1c4-1bd98811a265> a crm:E33_Linguistic_Object ;
-    rdfs:label "Correspondance littéraire, philosophique et critique de Grimm et de Diderot depuis 1753 jusqu'en 1790. Tome 13"@fr ;
-    schema:author <http://data.odeuropa.eu/actor/75f0f955-4f38-5ad4-b7b5-f0d82fe2ad81> ;
-    schema:dateCreated <http://data.odeuropa.eu/time/e814b3f7-5514-5e17-ac49-d91ba83ba309> ;
-    schema:datePublished <http://data.odeuropa.eu/time/823cc5e3-258c-5bb8-a625-cc4e229fe501> ;
-    schema:editor <http://data.odeuropa.eu/actor/08a1ceeb-2a8a-5341-a7c1-d935ce51469f>,
-        <http://data.odeuropa.eu/actor/e830993b-79da-53d1-931a-90060321f2d3> ;
-    schema:inLanguage "fr" ;
-    schema:locationCreated <https://sws.geonames.org/2988507/> ;
-    schema:publisher <http://data.odeuropa.eu/actor/f6fb3c3c-12f4-5c66-8098-5bc2c8b1368d> .
-
-<http://data.odeuropa.eu/source/0db2dc4a-cfa1-5cd7-9274-c4b2ae7a946d> a crm:E33_Linguistic_Object ;
-    rdfs:label "Correspondance littéraire, philosophique et critique de Grimm et de Diderot depuis 1753 jusqu'en 1790. Tome 03"@fr ;
-    schema:author <http://data.odeuropa.eu/actor/75f0f955-4f38-5ad4-b7b5-f0d82fe2ad81> ;
-    schema:dateCreated <http://data.odeuropa.eu/time/d8cf9069-90eb-5a5a-9e18-7f4afa92978f> ;
-    schema:datePublished <http://data.odeuropa.eu/time/823cc5e3-258c-5bb8-a625-cc4e229fe501> ;
-    schema:editor <http://data.odeuropa.eu/actor/08a1ceeb-2a8a-5341-a7c1-d935ce51469f>,
-        <http://data.odeuropa.eu/actor/e830993b-79da-53d1-931a-90060321f2d3> ;
-    schema:inLanguage "fr" ;
-    schema:locationCreated <https://sws.geonames.org/2988507/> ;
-    schema:publisher <http://data.odeuropa.eu/actor/f6fb3c3c-12f4-5c66-8098-5bc2c8b1368d> .
-
-<http://data.odeuropa.eu/source/1179b1fe-e06c-533c-a976-2d3ddf246642> a crm:E33_Linguistic_Object ;
-    rdfs:label "Correspondance littéraire, philosophique et critique de Grimm et de Diderot depuis 1753 jusqu'en 1790. Tome 11"@fr ;
-    schema:author <http://data.odeuropa.eu/actor/75f0f955-4f38-5ad4-b7b5-f0d82fe2ad81> ;
-    schema:dateCreated <http://data.odeuropa.eu/time/ea4e773a-2e05-542b-91dc-ea9e69fbec16> ;
-    schema:datePublished <http://data.odeuropa.eu/time/823cc5e3-258c-5bb8-a625-cc4e229fe501> ;
-    schema:editor <http://data.odeuropa.eu/actor/08a1ceeb-2a8a-5341-a7c1-d935ce51469f>,
-        <http://data.odeuropa.eu/actor/e830993b-79da-53d1-931a-90060321f2d3> ;
-    schema:inLanguage "fr" ;
-    schema:locationCreated <https://sws.geonames.org/2988507/> ;
-    schema:publisher <http://data.odeuropa.eu/actor/f6fb3c3c-12f4-5c66-8098-5bc2c8b1368d> .
-
-<http://data.odeuropa.eu/source/19b0f55e-cff0-59c4-8016-178dfd00c22b> a crm:E33_Linguistic_Object ;
-    rdfs:label "Correspondance littéraire, philosophique et critique de Grimm et de Diderot depuis 1753 jusqu'en 1790. Tome 06"@fr ;
-    schema:author <http://data.odeuropa.eu/actor/75f0f955-4f38-5ad4-b7b5-f0d82fe2ad81> ;
-    schema:dateCreated <http://data.odeuropa.eu/time/6f06f08a-2f09-5cc3-9ee0-084984345aed> ;
-    schema:datePublished <http://data.odeuropa.eu/time/823cc5e3-258c-5bb8-a625-cc4e229fe501> ;
-    schema:editor <http://data.odeuropa.eu/actor/08a1ceeb-2a8a-5341-a7c1-d935ce51469f>,
-        <http://data.odeuropa.eu/actor/e830993b-79da-53d1-931a-90060321f2d3> ;
-    schema:inLanguage "fr" ;
-    schema:locationCreated <https://sws.geonames.org/2988507/> ;
-    schema:publisher <http://data.odeuropa.eu/actor/f6fb3c3c-12f4-5c66-8098-5bc2c8b1368d> .
-
-<http://data.odeuropa.eu/source/240f30e6-2031-57b4-abec-98b49dba33e2> a crm:E33_Linguistic_Object ;
-    rdfs:label "Correspondance littéraire, philosophique et critique de Grimm et de Diderot depuis 1753 jusqu'en 1790. Tome 02"@fr ;
-    schema:author <http://data.odeuropa.eu/actor/75f0f955-4f38-5ad4-b7b5-f0d82fe2ad81> ;
-    schema:dateCreated <http://data.odeuropa.eu/time/e7edcafd-7c3c-5d7c-8c60-8fe860a8f557> ;
-    schema:datePublished <http://data.odeuropa.eu/time/823cc5e3-258c-5bb8-a625-cc4e229fe501> ;
-    schema:editor <http://data.odeuropa.eu/actor/08a1ceeb-2a8a-5341-a7c1-d935ce51469f>,
-        <http://data.odeuropa.eu/actor/e830993b-79da-53d1-931a-90060321f2d3> ;
-    schema:inLanguage "fr" ;
-    schema:locationCreated <https://sws.geonames.org/2988507/> ;
-    schema:publisher <http://data.odeuropa.eu/actor/f6fb3c3c-12f4-5c66-8098-5bc2c8b1368d> .
-
-<http://data.odeuropa.eu/source/2f7818ef-e1e7-5646-8b72-75fee1d1663e> a crm:E33_Linguistic_Object ;
-    rdfs:label "Correspondance littéraire, philosophique et critique de Grimm et de Diderot depuis 1753 jusqu'en 1790. Tome 12"@fr ;
-    schema:author <http://data.odeuropa.eu/actor/75f0f955-4f38-5ad4-b7b5-f0d82fe2ad81> ;
-    schema:dateCreated <http://data.odeuropa.eu/time/b4fb4614-5026-576d-9d94-f85fb85c744e> ;
-    schema:datePublished <http://data.odeuropa.eu/time/823cc5e3-258c-5bb8-a625-cc4e229fe501> ;
-    schema:editor <http://data.odeuropa.eu/actor/08a1ceeb-2a8a-5341-a7c1-d935ce51469f>,
-        <http://data.odeuropa.eu/actor/e830993b-79da-53d1-931a-90060321f2d3> ;
-    schema:inLanguage "fr" ;
-    schema:locationCreated <https://sws.geonames.org/2988507/> ;
-    schema:publisher <http://data.odeuropa.eu/actor/f6fb3c3c-12f4-5c66-8098-5bc2c8b1368d> .
-
-<http://data.odeuropa.eu/source/490efc94-5bc3-5a08-a78e-4b74a8762648> a crm:E33_Linguistic_Object ;
-    rdfs:label "Correspondance littéraire, philosophique et critique de Grimm et de Diderot depuis 1753 jusqu'en 1790. Tome 16"@fr ;
-    schema:author <http://data.odeuropa.eu/actor/75f0f955-4f38-5ad4-b7b5-f0d82fe2ad81> ;
-    schema:dateCreated <http://data.odeuropa.eu/time/9993e95e-bdee-58d6-bc7d-de7fdb11110f> ;
-    schema:datePublished <http://data.odeuropa.eu/time/823cc5e3-258c-5bb8-a625-cc4e229fe501> ;
-    schema:editor <http://data.odeuropa.eu/actor/08a1ceeb-2a8a-5341-a7c1-d935ce51469f>,
-        <http://data.odeuropa.eu/actor/e830993b-79da-53d1-931a-90060321f2d3> ;
-    schema:inLanguage "fr" ;
-    schema:locationCreated <https://sws.geonames.org/2988507/> ;
-    schema:publisher <http://data.odeuropa.eu/actor/f6fb3c3c-12f4-5c66-8098-5bc2c8b1368d> .
-
-<http://data.odeuropa.eu/source/49d0d3c0-db01-589b-9091-5782ece9fca4> a crm:E33_Linguistic_Object ;
-    rdfs:label "Correspondance littéraire, philosophique et critique de Grimm et de Diderot depuis 1753 jusqu'en 1790. Tome 05"@fr ;
-    schema:author <http://data.odeuropa.eu/actor/75f0f955-4f38-5ad4-b7b5-f0d82fe2ad81> ;
-    schema:dateCreated <http://data.odeuropa.eu/time/e1dd9f0b-9cb3-5c59-828c-a0b4f1a131f3> ;
-    schema:datePublished <http://data.odeuropa.eu/time/823cc5e3-258c-5bb8-a625-cc4e229fe501> ;
-    schema:editor <http://data.odeuropa.eu/actor/08a1ceeb-2a8a-5341-a7c1-d935ce51469f>,
-        <http://data.odeuropa.eu/actor/e830993b-79da-53d1-931a-90060321f2d3> ;
-    schema:inLanguage "fr" ;
-    schema:locationCreated <https://sws.geonames.org/2988507/> ;
-    schema:publisher <http://data.odeuropa.eu/actor/f6fb3c3c-12f4-5c66-8098-5bc2c8b1368d> .
-
-<http://data.odeuropa.eu/source/4cba8b92-0e67-5b81-8b9c-18c0928348ff> a crm:E33_Linguistic_Object ;
-    rdfs:label "Correspondance littéraire, philosophique et critique de Grimm et de Diderot depuis 1753 jusqu'en 1790. Tome 07"@fr ;
-    schema:author <http://data.odeuropa.eu/actor/75f0f955-4f38-5ad4-b7b5-f0d82fe2ad81> ;
-    schema:dateCreated <http://data.odeuropa.eu/time/502a6c5a-665b-5a88-a58b-4e682c062f2c> ;
-    schema:datePublished <http://data.odeuropa.eu/time/823cc5e3-258c-5bb8-a625-cc4e229fe501> ;
-    schema:editor <http://data.odeuropa.eu/actor/08a1ceeb-2a8a-5341-a7c1-d935ce51469f>,
-        <http://data.odeuropa.eu/actor/e830993b-79da-53d1-931a-90060321f2d3> ;
-    schema:inLanguage "fr" ;
-    schema:locationCreated <https://sws.geonames.org/2988507/> ;
-    schema:publisher <http://data.odeuropa.eu/actor/f6fb3c3c-12f4-5c66-8098-5bc2c8b1368d> .
-
-<http://data.odeuropa.eu/source/4ff72867-ae9d-5145-9fa3-5550f68e4dcc> a crm:E33_Linguistic_Object ;
-    rdfs:label "Correspondance littéraire, philosophique et critique de Grimm et de Diderot depuis 1753 jusqu'en 1790. Tome 10"@fr ;
-    schema:author <http://data.odeuropa.eu/actor/75f0f955-4f38-5ad4-b7b5-f0d82fe2ad81> ;
-    schema:dateCreated <http://data.odeuropa.eu/time/79c06d65-d81c-5e50-a4eb-462f194c1bdd> ;
-    schema:datePublished <http://data.odeuropa.eu/time/823cc5e3-258c-5bb8-a625-cc4e229fe501> ;
-    schema:editor <http://data.odeuropa.eu/actor/08a1ceeb-2a8a-5341-a7c1-d935ce51469f>,
-        <http://data.odeuropa.eu/actor/e830993b-79da-53d1-931a-90060321f2d3> ;
-    schema:inLanguage "fr" ;
-    schema:locationCreated <https://sws.geonames.org/2988507/> ;
-    schema:publisher <http://data.odeuropa.eu/actor/f6fb3c3c-12f4-5c66-8098-5bc2c8b1368d> .
-
-<http://data.odeuropa.eu/source/71560d6d-6df2-5bbd-8f3c-42c733a8822c> a crm:E33_Linguistic_Object ;
-    rdfs:label "Correspondance littéraire, philosophique et critique de Grimm et de Diderot depuis 1753 jusqu'en 1790. Tome 14"@fr ;
-    schema:author <http://data.odeuropa.eu/actor/75f0f955-4f38-5ad4-b7b5-f0d82fe2ad81> ;
-    schema:dateCreated <http://data.odeuropa.eu/time/82025508-f3a5-5348-9d8b-0159164febfc> ;
-    schema:datePublished <http://data.odeuropa.eu/time/823cc5e3-258c-5bb8-a625-cc4e229fe501> ;
-    schema:editor <http://data.odeuropa.eu/actor/08a1ceeb-2a8a-5341-a7c1-d935ce51469f>,
-        <http://data.odeuropa.eu/actor/e830993b-79da-53d1-931a-90060321f2d3> ;
-    schema:inLanguage "fr" ;
-    schema:locationCreated <https://sws.geonames.org/2988507/> ;
-    schema:publisher <http://data.odeuropa.eu/actor/f6fb3c3c-12f4-5c66-8098-5bc2c8b1368d> .
-
-<http://data.odeuropa.eu/source/7ce67ce8-5533-5612-9857-a6a58ab9f936> a crm:E33_Linguistic_Object ;
+<http://data.odeuropa.eu/source/02842839-39b8-5970-afb2-d3bd816907fd> a crm:E33_Linguistic_Object ;
     rdfs:label "Correspondance littéraire, philosophique et critique de Grimm et de Diderot depuis 1753 jusqu'en 1790. Tome 15"@fr ;
     schema:author <http://data.odeuropa.eu/actor/75f0f955-4f38-5ad4-b7b5-f0d82fe2ad81> ;
     schema:dateCreated <http://data.odeuropa.eu/time/c0c558a6-8d4b-55a1-8e50-12cd053f3661> ;
@@ -137,29 +15,7 @@
     schema:locationCreated <https://sws.geonames.org/2988507/> ;
     schema:publisher <http://data.odeuropa.eu/actor/f6fb3c3c-12f4-5c66-8098-5bc2c8b1368d> .
 
-<http://data.odeuropa.eu/source/8c84c5e1-e2e2-539e-ba34-6bab826ddf70> a crm:E33_Linguistic_Object ;
-    rdfs:label "Correspondance littéraire, philosophique et critique de Grimm et de Diderot depuis 1753 jusqu'en 1790. Tome 04"@fr ;
-    schema:author <http://data.odeuropa.eu/actor/75f0f955-4f38-5ad4-b7b5-f0d82fe2ad81> ;
-    schema:dateCreated <http://data.odeuropa.eu/time/adabc6a2-b0ef-5857-819d-2e4f789b1d45> ;
-    schema:datePublished <http://data.odeuropa.eu/time/823cc5e3-258c-5bb8-a625-cc4e229fe501> ;
-    schema:editor <http://data.odeuropa.eu/actor/08a1ceeb-2a8a-5341-a7c1-d935ce51469f>,
-        <http://data.odeuropa.eu/actor/e830993b-79da-53d1-931a-90060321f2d3> ;
-    schema:inLanguage "fr" ;
-    schema:locationCreated <https://sws.geonames.org/2988507/> ;
-    schema:publisher <http://data.odeuropa.eu/actor/f6fb3c3c-12f4-5c66-8098-5bc2c8b1368d> .
-
-<http://data.odeuropa.eu/source/c5821206-93a5-5aa2-9ccf-70b9fc7f5fb6> a crm:E33_Linguistic_Object ;
-    rdfs:label "Correspondance littéraire, philosophique et critique de Grimm et de Diderot depuis 1753 jusqu'en 1790. Tome 08"@fr ;
-    schema:author <http://data.odeuropa.eu/actor/75f0f955-4f38-5ad4-b7b5-f0d82fe2ad81> ;
-    schema:dateCreated <http://data.odeuropa.eu/time/a237ac97-0047-50f3-8848-eddc07503478> ;
-    schema:datePublished <http://data.odeuropa.eu/time/823cc5e3-258c-5bb8-a625-cc4e229fe501> ;
-    schema:editor <http://data.odeuropa.eu/actor/08a1ceeb-2a8a-5341-a7c1-d935ce51469f>,
-        <http://data.odeuropa.eu/actor/e830993b-79da-53d1-931a-90060321f2d3> ;
-    schema:inLanguage "fr" ;
-    schema:locationCreated <https://sws.geonames.org/2988507/> ;
-    schema:publisher <http://data.odeuropa.eu/actor/f6fb3c3c-12f4-5c66-8098-5bc2c8b1368d> .
-
-<http://data.odeuropa.eu/source/c7f1a1eb-6463-55e4-994d-b589003a1cf8> a crm:E33_Linguistic_Object ;
+<http://data.odeuropa.eu/source/0b4ac431-ac8c-5520-8279-8c50d8a34c83> a crm:E33_Linguistic_Object ;
     rdfs:label "Correspondance littéraire, philosophique et critique de Grimm et de Diderot depuis 1753 jusqu'en 1790. Tome 01"@fr ;
     schema:author <http://data.odeuropa.eu/actor/75f0f955-4f38-5ad4-b7b5-f0d82fe2ad81> ;
     schema:dateCreated <http://data.odeuropa.eu/time/c413ab05-aea6-5db6-977c-eb80f3c361e5> ;
@@ -170,7 +26,150 @@
     schema:locationCreated <https://sws.geonames.org/2988507/> ;
     schema:publisher <http://data.odeuropa.eu/actor/f6fb3c3c-12f4-5c66-8098-5bc2c8b1368d> .
 
-<http://data.odeuropa.eu/source/d467cbdd-ad5c-51bf-ba9f-53e5a71fc4f4> a crm:E33_Linguistic_Object ;
+<http://data.odeuropa.eu/source/16654747-6ab9-54b3-97d7-426e257a4f66> a crm:E33_Linguistic_Object ;
+    rdfs:label "Correspondance littéraire, philosophique et critique de Grimm et de Diderot depuis 1753 jusqu'en 1790. Tome 06"@fr ;
+    schema:author <http://data.odeuropa.eu/actor/75f0f955-4f38-5ad4-b7b5-f0d82fe2ad81> ;
+    schema:dateCreated <http://data.odeuropa.eu/time/6f06f08a-2f09-5cc3-9ee0-084984345aed> ;
+    schema:datePublished <http://data.odeuropa.eu/time/823cc5e3-258c-5bb8-a625-cc4e229fe501> ;
+    schema:editor <http://data.odeuropa.eu/actor/08a1ceeb-2a8a-5341-a7c1-d935ce51469f>,
+        <http://data.odeuropa.eu/actor/e830993b-79da-53d1-931a-90060321f2d3> ;
+    schema:inLanguage "fr" ;
+    schema:locationCreated <https://sws.geonames.org/2988507/> ;
+    schema:publisher <http://data.odeuropa.eu/actor/f6fb3c3c-12f4-5c66-8098-5bc2c8b1368d> .
+
+<http://data.odeuropa.eu/source/1e7b9ad5-9b7e-5c24-b8bb-9048371b72ea> a crm:E33_Linguistic_Object ;
+    rdfs:label "Correspondance littéraire, philosophique et critique de Grimm et de Diderot depuis 1753 jusqu'en 1790. Tome 05"@fr ;
+    schema:author <http://data.odeuropa.eu/actor/75f0f955-4f38-5ad4-b7b5-f0d82fe2ad81> ;
+    schema:dateCreated <http://data.odeuropa.eu/time/e1dd9f0b-9cb3-5c59-828c-a0b4f1a131f3> ;
+    schema:datePublished <http://data.odeuropa.eu/time/823cc5e3-258c-5bb8-a625-cc4e229fe501> ;
+    schema:editor <http://data.odeuropa.eu/actor/08a1ceeb-2a8a-5341-a7c1-d935ce51469f>,
+        <http://data.odeuropa.eu/actor/e830993b-79da-53d1-931a-90060321f2d3> ;
+    schema:inLanguage "fr" ;
+    schema:locationCreated <https://sws.geonames.org/2988507/> ;
+    schema:publisher <http://data.odeuropa.eu/actor/f6fb3c3c-12f4-5c66-8098-5bc2c8b1368d> .
+
+<http://data.odeuropa.eu/source/330a4e8e-f118-5e8b-8cd0-afc11c1997f2> a crm:E33_Linguistic_Object ;
+    rdfs:label "Correspondance littéraire, philosophique et critique de Grimm et de Diderot depuis 1753 jusqu'en 1790. Tome 07"@fr ;
+    schema:author <http://data.odeuropa.eu/actor/75f0f955-4f38-5ad4-b7b5-f0d82fe2ad81> ;
+    schema:dateCreated <http://data.odeuropa.eu/time/502a6c5a-665b-5a88-a58b-4e682c062f2c> ;
+    schema:datePublished <http://data.odeuropa.eu/time/823cc5e3-258c-5bb8-a625-cc4e229fe501> ;
+    schema:editor <http://data.odeuropa.eu/actor/08a1ceeb-2a8a-5341-a7c1-d935ce51469f>,
+        <http://data.odeuropa.eu/actor/e830993b-79da-53d1-931a-90060321f2d3> ;
+    schema:inLanguage "fr" ;
+    schema:locationCreated <https://sws.geonames.org/2988507/> ;
+    schema:publisher <http://data.odeuropa.eu/actor/f6fb3c3c-12f4-5c66-8098-5bc2c8b1368d> .
+
+<http://data.odeuropa.eu/source/3ba33204-6c6c-5f41-becf-b4517fcba786> a crm:E33_Linguistic_Object ;
+    rdfs:label "Correspondance littéraire, philosophique et critique de Grimm et de Diderot depuis 1753 jusqu'en 1790. Tome 02"@fr ;
+    schema:author <http://data.odeuropa.eu/actor/75f0f955-4f38-5ad4-b7b5-f0d82fe2ad81> ;
+    schema:dateCreated <http://data.odeuropa.eu/time/e7edcafd-7c3c-5d7c-8c60-8fe860a8f557> ;
+    schema:datePublished <http://data.odeuropa.eu/time/823cc5e3-258c-5bb8-a625-cc4e229fe501> ;
+    schema:editor <http://data.odeuropa.eu/actor/08a1ceeb-2a8a-5341-a7c1-d935ce51469f>,
+        <http://data.odeuropa.eu/actor/e830993b-79da-53d1-931a-90060321f2d3> ;
+    schema:inLanguage "fr" ;
+    schema:locationCreated <https://sws.geonames.org/2988507/> ;
+    schema:publisher <http://data.odeuropa.eu/actor/f6fb3c3c-12f4-5c66-8098-5bc2c8b1368d> .
+
+<http://data.odeuropa.eu/source/524161f7-5dd9-5fe7-bab1-0d3bd052c286> a crm:E33_Linguistic_Object ;
+    rdfs:label "Correspondance littéraire, philosophique et critique de Grimm et de Diderot depuis 1753 jusqu'en 1790. Tome 03"@fr ;
+    schema:author <http://data.odeuropa.eu/actor/75f0f955-4f38-5ad4-b7b5-f0d82fe2ad81> ;
+    schema:dateCreated <http://data.odeuropa.eu/time/d8cf9069-90eb-5a5a-9e18-7f4afa92978f> ;
+    schema:datePublished <http://data.odeuropa.eu/time/823cc5e3-258c-5bb8-a625-cc4e229fe501> ;
+    schema:editor <http://data.odeuropa.eu/actor/08a1ceeb-2a8a-5341-a7c1-d935ce51469f>,
+        <http://data.odeuropa.eu/actor/e830993b-79da-53d1-931a-90060321f2d3> ;
+    schema:inLanguage "fr" ;
+    schema:locationCreated <https://sws.geonames.org/2988507/> ;
+    schema:publisher <http://data.odeuropa.eu/actor/f6fb3c3c-12f4-5c66-8098-5bc2c8b1368d> .
+
+<http://data.odeuropa.eu/source/672f55a7-285b-58b4-b862-890962947487> a crm:E33_Linguistic_Object ;
+    rdfs:label "Correspondance littéraire, philosophique et critique de Grimm et de Diderot depuis 1753 jusqu'en 1790. Tome 13"@fr ;
+    schema:author <http://data.odeuropa.eu/actor/75f0f955-4f38-5ad4-b7b5-f0d82fe2ad81> ;
+    schema:dateCreated <http://data.odeuropa.eu/time/e814b3f7-5514-5e17-ac49-d91ba83ba309> ;
+    schema:datePublished <http://data.odeuropa.eu/time/823cc5e3-258c-5bb8-a625-cc4e229fe501> ;
+    schema:editor <http://data.odeuropa.eu/actor/08a1ceeb-2a8a-5341-a7c1-d935ce51469f>,
+        <http://data.odeuropa.eu/actor/e830993b-79da-53d1-931a-90060321f2d3> ;
+    schema:inLanguage "fr" ;
+    schema:locationCreated <https://sws.geonames.org/2988507/> ;
+    schema:publisher <http://data.odeuropa.eu/actor/f6fb3c3c-12f4-5c66-8098-5bc2c8b1368d> .
+
+<http://data.odeuropa.eu/source/75008ce6-9996-5a92-b8b9-9174027e5866> a crm:E33_Linguistic_Object ;
+    rdfs:label "Correspondance littéraire, philosophique et critique de Grimm et de Diderot depuis 1753 jusqu'en 1790. Tome 04"@fr ;
+    schema:author <http://data.odeuropa.eu/actor/75f0f955-4f38-5ad4-b7b5-f0d82fe2ad81> ;
+    schema:dateCreated <http://data.odeuropa.eu/time/adabc6a2-b0ef-5857-819d-2e4f789b1d45> ;
+    schema:datePublished <http://data.odeuropa.eu/time/823cc5e3-258c-5bb8-a625-cc4e229fe501> ;
+    schema:editor <http://data.odeuropa.eu/actor/08a1ceeb-2a8a-5341-a7c1-d935ce51469f>,
+        <http://data.odeuropa.eu/actor/e830993b-79da-53d1-931a-90060321f2d3> ;
+    schema:inLanguage "fr" ;
+    schema:locationCreated <https://sws.geonames.org/2988507/> ;
+    schema:publisher <http://data.odeuropa.eu/actor/f6fb3c3c-12f4-5c66-8098-5bc2c8b1368d> .
+
+<http://data.odeuropa.eu/source/7eca1bb7-b61c-5657-b856-186ed8f89b80> a crm:E33_Linguistic_Object ;
+    rdfs:label "Correspondance littéraire, philosophique et critique de Grimm et de Diderot depuis 1753 jusqu'en 1790. Tome 11"@fr ;
+    schema:author <http://data.odeuropa.eu/actor/75f0f955-4f38-5ad4-b7b5-f0d82fe2ad81> ;
+    schema:dateCreated <http://data.odeuropa.eu/time/ea4e773a-2e05-542b-91dc-ea9e69fbec16> ;
+    schema:datePublished <http://data.odeuropa.eu/time/823cc5e3-258c-5bb8-a625-cc4e229fe501> ;
+    schema:editor <http://data.odeuropa.eu/actor/08a1ceeb-2a8a-5341-a7c1-d935ce51469f>,
+        <http://data.odeuropa.eu/actor/e830993b-79da-53d1-931a-90060321f2d3> ;
+    schema:inLanguage "fr" ;
+    schema:locationCreated <https://sws.geonames.org/2988507/> ;
+    schema:publisher <http://data.odeuropa.eu/actor/f6fb3c3c-12f4-5c66-8098-5bc2c8b1368d> .
+
+<http://data.odeuropa.eu/source/8c6258ba-dd56-5cb2-89cd-3187dae4d4ee> a crm:E33_Linguistic_Object ;
+    rdfs:label "Correspondance littéraire, philosophique et critique de Grimm et de Diderot depuis 1753 jusqu'en 1790. Tome 14"@fr ;
+    schema:author <http://data.odeuropa.eu/actor/75f0f955-4f38-5ad4-b7b5-f0d82fe2ad81> ;
+    schema:dateCreated <http://data.odeuropa.eu/time/82025508-f3a5-5348-9d8b-0159164febfc> ;
+    schema:datePublished <http://data.odeuropa.eu/time/823cc5e3-258c-5bb8-a625-cc4e229fe501> ;
+    schema:editor <http://data.odeuropa.eu/actor/08a1ceeb-2a8a-5341-a7c1-d935ce51469f>,
+        <http://data.odeuropa.eu/actor/e830993b-79da-53d1-931a-90060321f2d3> ;
+    schema:inLanguage "fr" ;
+    schema:locationCreated <https://sws.geonames.org/2988507/> ;
+    schema:publisher <http://data.odeuropa.eu/actor/f6fb3c3c-12f4-5c66-8098-5bc2c8b1368d> .
+
+<http://data.odeuropa.eu/source/97f1b40a-d005-58f1-9bf1-4c6137500450> a crm:E33_Linguistic_Object ;
+    rdfs:label "Correspondance littéraire, philosophique et critique de Grimm et de Diderot depuis 1753 jusqu'en 1790. Tome 16"@fr ;
+    schema:author <http://data.odeuropa.eu/actor/75f0f955-4f38-5ad4-b7b5-f0d82fe2ad81> ;
+    schema:dateCreated <http://data.odeuropa.eu/time/9993e95e-bdee-58d6-bc7d-de7fdb11110f> ;
+    schema:datePublished <http://data.odeuropa.eu/time/823cc5e3-258c-5bb8-a625-cc4e229fe501> ;
+    schema:editor <http://data.odeuropa.eu/actor/08a1ceeb-2a8a-5341-a7c1-d935ce51469f>,
+        <http://data.odeuropa.eu/actor/e830993b-79da-53d1-931a-90060321f2d3> ;
+    schema:inLanguage "fr" ;
+    schema:locationCreated <https://sws.geonames.org/2988507/> ;
+    schema:publisher <http://data.odeuropa.eu/actor/f6fb3c3c-12f4-5c66-8098-5bc2c8b1368d> .
+
+<http://data.odeuropa.eu/source/aab1d8fd-0a94-5cfe-87ff-252d9fcd18d5> a crm:E33_Linguistic_Object ;
+    rdfs:label "Correspondance littéraire, philosophique et critique de Grimm et de Diderot depuis 1753 jusqu'en 1790. Tome 10"@fr ;
+    schema:author <http://data.odeuropa.eu/actor/75f0f955-4f38-5ad4-b7b5-f0d82fe2ad81> ;
+    schema:dateCreated <http://data.odeuropa.eu/time/79c06d65-d81c-5e50-a4eb-462f194c1bdd> ;
+    schema:datePublished <http://data.odeuropa.eu/time/823cc5e3-258c-5bb8-a625-cc4e229fe501> ;
+    schema:editor <http://data.odeuropa.eu/actor/08a1ceeb-2a8a-5341-a7c1-d935ce51469f>,
+        <http://data.odeuropa.eu/actor/e830993b-79da-53d1-931a-90060321f2d3> ;
+    schema:inLanguage "fr" ;
+    schema:locationCreated <https://sws.geonames.org/2988507/> ;
+    schema:publisher <http://data.odeuropa.eu/actor/f6fb3c3c-12f4-5c66-8098-5bc2c8b1368d> .
+
+<http://data.odeuropa.eu/source/b20d81a2-59ad-50ba-a6fa-30b0eb6f2db1> a crm:E33_Linguistic_Object ;
+    rdfs:label "Correspondance littéraire, philosophique et critique de Grimm et de Diderot depuis 1753 jusqu'en 1790. Tome 08"@fr ;
+    schema:author <http://data.odeuropa.eu/actor/75f0f955-4f38-5ad4-b7b5-f0d82fe2ad81> ;
+    schema:dateCreated <http://data.odeuropa.eu/time/a237ac97-0047-50f3-8848-eddc07503478> ;
+    schema:datePublished <http://data.odeuropa.eu/time/823cc5e3-258c-5bb8-a625-cc4e229fe501> ;
+    schema:editor <http://data.odeuropa.eu/actor/08a1ceeb-2a8a-5341-a7c1-d935ce51469f>,
+        <http://data.odeuropa.eu/actor/e830993b-79da-53d1-931a-90060321f2d3> ;
+    schema:inLanguage "fr" ;
+    schema:locationCreated <https://sws.geonames.org/2988507/> ;
+    schema:publisher <http://data.odeuropa.eu/actor/f6fb3c3c-12f4-5c66-8098-5bc2c8b1368d> .
+
+<http://data.odeuropa.eu/source/bd74a6f9-7ae5-5385-aad3-3530815a7bb5> a crm:E33_Linguistic_Object ;
+    rdfs:label "Correspondance littéraire, philosophique et critique de Grimm et de Diderot depuis 1753 jusqu'en 1790. Tome 12"@fr ;
+    schema:author <http://data.odeuropa.eu/actor/75f0f955-4f38-5ad4-b7b5-f0d82fe2ad81> ;
+    schema:dateCreated <http://data.odeuropa.eu/time/b4fb4614-5026-576d-9d94-f85fb85c744e> ;
+    schema:datePublished <http://data.odeuropa.eu/time/823cc5e3-258c-5bb8-a625-cc4e229fe501> ;
+    schema:editor <http://data.odeuropa.eu/actor/08a1ceeb-2a8a-5341-a7c1-d935ce51469f>,
+        <http://data.odeuropa.eu/actor/e830993b-79da-53d1-931a-90060321f2d3> ;
+    schema:inLanguage "fr" ;
+    schema:locationCreated <https://sws.geonames.org/2988507/> ;
+    schema:publisher <http://data.odeuropa.eu/actor/f6fb3c3c-12f4-5c66-8098-5bc2c8b1368d> .
+
+<http://data.odeuropa.eu/source/f63aaaa8-bf9f-5aa3-9400-a5e848538321> a crm:E33_Linguistic_Object ;
     rdfs:label "Correspondance littéraire, philosophique et critique de Grimm et de Diderot depuis 1753 jusqu'en 1790. Tome 09"@fr ;
     schema:author <http://data.odeuropa.eu/actor/75f0f955-4f38-5ad4-b7b5-f0d82fe2ad81> ;
     schema:dateCreated <http://data.odeuropa.eu/time/76f68b20-e03c-5cc5-b3b4-4ddb0a859941> ;
@@ -291,10 +290,9 @@
 <http://data.odeuropa.eu/actor/e830993b-79da-53d1-931a-90060321f2d3> a crm:E39_Actor ;
     rdfs:label "Taschereau, Jules-Antoine" .
 
-<http://data.odeuropa.eu/actor/f6fb3c3c-12f4-5c66-8098-5bc2c8b1368d> a crm:E21_Person ;
+<http://data.odeuropa.eu/actor/f6fb3c3c-12f4-5c66-8098-5bc2c8b1368d> a crm:E39_Actor ;
     rdfs:label "Furne" ;
-    crm:P53_has_former_or_current_location <https://sws.geonames.org/2988507/> ;
-    owl:sameAs <http://www.wikidata.org/entity/Q2959144> .
+    crm:P53_has_former_or_current_location <https://sws.geonames.org/2988507/> .
 
 <http://data.odeuropa.eu/time/823cc5e3-258c-5bb8-a625-cc4e229fe501> a time:TemporalEntity ;
     rdfs:label "1829/1831" ;
