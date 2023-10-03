@@ -1,7 +1,7 @@
 # short script to reduce the dimension of the annotation file
 import re
 
-with open('odeuropa_29k_nms_005.json') as f:
+with open('odeuropa_29k_right_fn.json') as f:
     data = f.read()
 
 data = data.replace('/media/prathmeshmadhu/myhdd/odeuropa/annotations-nightly/mmodor_imgs/', '')
