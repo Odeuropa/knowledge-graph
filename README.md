@@ -41,9 +41,10 @@ Upload ontologies (Odeuropa + CRM + CRMsci + REO)
 
 Upload dumps
 
+    python3 scripts/load_dump.py odor
+    python3 scripts/load_dump.py europeana
     python3 scripts/load_dump.py getty
     python3 scripts/load_dump.py geonames
-    python3 scripts/load_dump.py image-annotation
     python3 scripts/load_dump.py text-annotation
     python3 scripts/load_dump.py british-library
     python3 scripts/load_dump.py royal-society-corpus
@@ -162,7 +163,10 @@ Install skosmos using docker
     spacy download de_core_news_sm
     spacy download it_core_news_sm
 
-    python convert_img.py
+    python convert_img.py -i ./input/odor
+    python convert_img.py -i ./input/nuk
+    python convert_img.py -i ./input/europeana
+    python convert_img.py -i ./input/rijksmuseum
     python convert_text.py -i ./input/text-annotation
     python convert_text.py -i ./input/royal-society-corpus --lang en
     python convert_text.py -i ./input/british-library --lang en
@@ -177,8 +181,6 @@ Install skosmos using docker
     python convert_text.py -i ./input/grimm --lang fr
     python convert_text.py -i ./input/bibbleue --lang fr
     python convert_text.py -i ./input/dbnl --lang nl
-    python convert_text.py -i ./input/dbnl_nl1 --lang nl
-    python convert_text.py -i ./input/dbnl_nl3 --lang nl
     python convert_text.py -i ./input/liberliber --lang it
     python convert_text.py -i ./input/wikisource --lang it
     python convert_text.py -i ./input/wikisource_en --lang en
