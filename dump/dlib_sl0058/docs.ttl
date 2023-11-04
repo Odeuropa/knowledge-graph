@@ -4,6 +4,12 @@
 @prefix time: <http://www.w3.org/2006/time#> .
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 
+<http://data.odeuropa.eu/place/c9476c61-f9da-5b76-9cb7-083c002fd478> a crm:E53_Place ;
+    rdfs:label "UK" .
+
+<http://data.odeuropa.eu/place/df63c1d0-5e69-583a-81c2-c4295b7a9426> a crm:E53_Place ;
+    rdfs:label "Italy" .
+
 <http://data.odeuropa.eu/source/08d9b75d-7e32-5754-ac0e-440cdb472b2b> a crm:E33_Linguistic_Object ;
     rdfs:label "Slovenec: političen list za slovenski narod"@sl ;
     schema:dateCreated <http://data.odeuropa.eu/time/a21e04cd-fea7-5222-a5f8-e54f97b0e7d5> ;
@@ -742,7 +748,7 @@
     schema:inLanguage "sl" ;
     schema:isPartOf <http://data.odeuropa.eu/source/94c4d0de-7150-5755-b363-7472644a5d22> ;
     schema:issueNumber "433" ;
-    schema:locationCreated <https://sws.geonames.org/4887398/> ;
+    schema:locationCreated <https://sws.geonames.org/4887539/> ;
     schema:publisher <http://data.odeuropa.eu/actor/70a4862f-b526-5294-a0f8-fe22427868d1> ;
     schema:url <http://www.dlib.si/details/URN:NBN:SI:DOC-UZXI2TBS> ;
     schema:volumeNumber "10" .
@@ -928,7 +934,7 @@
     schema:inLanguage "sl" ;
     schema:isPartOf <http://data.odeuropa.eu/source/54c2a27d-81f2-582b-ba09-e10cff9c1ee6> ;
     schema:issueNumber "17" ;
-    schema:locationCreated <https://sws.geonames.org/5435464/> ;
+    schema:locationCreated <https://sws.geonames.org/4001515/> ;
     schema:publisher <http://data.odeuropa.eu/actor/128a59b3-907b-5847-bdcb-3a34ac987908> ;
     schema:url <http://www.dlib.si/details/URN:NBN:SI:DOC-OHS4YXWG> ;
     schema:volumeNumber "7" .
@@ -1007,8 +1013,6 @@
     schema:url <http://www.dlib.si/details/URN:NBN:SI:DOC-O42DM52G> ;
     schema:volumeNumber "7" .
 
-<https://sws.geonames.org/2635167/> a crm:E53_Place .
-
 <https://sws.geonames.org/2643743/> a crm:E53_Place .
 
 <https://sws.geonames.org/2750405/> a crm:E53_Place .
@@ -1016,8 +1020,6 @@
 <https://sws.geonames.org/2921044/> a crm:E53_Place .
 
 <https://sws.geonames.org/2971549/> a crm:E53_Place .
-
-<https://sws.geonames.org/3175395/> a crm:E53_Place .
 
 <https://sws.geonames.org/3570675/> a crm:E53_Place .
 
@@ -1581,9 +1583,9 @@
 
 <https://sws.geonames.org/3197378/> a crm:E53_Place .
 
-<https://sws.geonames.org/4887398/> a crm:E53_Place .
+<https://sws.geonames.org/4001515/> a crm:E53_Place .
 
-<https://sws.geonames.org/5435464/> a crm:E53_Place .
+<https://sws.geonames.org/4887539/> a crm:E53_Place .
 
 <http://data.odeuropa.eu/actor/2a82a14b-c832-590f-a6c0-767fc80b365c> a crm:E39_Actor ;
     rdfs:label "'Goriška tiskarna' A. Gabršček" .

@@ -4,6 +4,12 @@
 @prefix time: <http://www.w3.org/2006/time#> .
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 
+<http://data.odeuropa.eu/place/c9476c61-f9da-5b76-9cb7-083c002fd478> a crm:E53_Place ;
+    rdfs:label "UK" .
+
+<http://data.odeuropa.eu/place/df63c1d0-5e69-583a-81c2-c4295b7a9426> a crm:E53_Place ;
+    rdfs:label "Italy" .
+
 <http://data.odeuropa.eu/source/0239980d-f4ce-5250-927b-e25c0acdcfea> a crm:E33_Linguistic_Object ;
     rdfs:label "Slovenski gospodar: podučiven list za slovensko ljudstvo"@sl ;
     schema:dateCreated <http://data.odeuropa.eu/time/dce82181-9324-5448-bde8-f74c28922d81> ;
@@ -118,7 +124,7 @@
     schema:inLanguage "sl" ;
     schema:isPartOf <http://data.odeuropa.eu/source/94c4d0de-7150-5755-b363-7472644a5d22> ;
     schema:issueNumber "241" ;
-    schema:locationCreated <https://sws.geonames.org/4887398/> ;
+    schema:locationCreated <https://sws.geonames.org/4887539/> ;
     schema:publisher <http://data.odeuropa.eu/actor/70a4862f-b526-5294-a0f8-fe22427868d1> ;
     schema:url <http://www.dlib.si/details/URN:NBN:SI:DOC-YNW5LEUO> ;
     schema:volumeNumber "7" .
@@ -151,7 +157,7 @@
     schema:inLanguage "sl" ;
     schema:isPartOf <http://data.odeuropa.eu/source/94c4d0de-7150-5755-b363-7472644a5d22> ;
     schema:issueNumber "316" ;
-    schema:locationCreated <https://sws.geonames.org/4887398/> ;
+    schema:locationCreated <https://sws.geonames.org/4887539/> ;
     schema:publisher <http://data.odeuropa.eu/actor/70a4862f-b526-5294-a0f8-fe22427868d1> ;
     schema:url <http://www.dlib.si/details/URN:NBN:SI:DOC-M8HTMJNP> ;
     schema:volumeNumber "8" .
@@ -238,7 +244,7 @@
     schema:inLanguage "sl" ;
     schema:isPartOf <http://data.odeuropa.eu/source/94c4d0de-7150-5755-b363-7472644a5d22> ;
     schema:issueNumber "138" ;
-    schema:locationCreated <https://sws.geonames.org/4887398/> ;
+    schema:locationCreated <https://sws.geonames.org/4887539/> ;
     schema:publisher <http://data.odeuropa.eu/actor/70a4862f-b526-5294-a0f8-fe22427868d1> ;
     schema:url <http://www.dlib.si/details/URN:NBN:SI:DOC-1URHNGRJ> ;
     schema:volumeNumber "5" .
@@ -757,7 +763,7 @@
     schema:inLanguage "sl" ;
     schema:isPartOf <http://data.odeuropa.eu/source/54c2a27d-81f2-582b-ba09-e10cff9c1ee6> ;
     schema:issueNumber "33" ;
-    schema:locationCreated <https://sws.geonames.org/5435464/> ;
+    schema:locationCreated <https://sws.geonames.org/4001515/> ;
     schema:publisher <http://data.odeuropa.eu/actor/128a59b3-907b-5847-bdcb-3a34ac987908> ;
     schema:url <http://www.dlib.si/details/URN:NBN:SI:DOC-LNP3OZT2> ;
     schema:volumeNumber "3" .
@@ -1053,7 +1059,7 @@
     schema:inLanguage "sl" ;
     schema:isPartOf <http://data.odeuropa.eu/source/bc3cd737-8c02-5ea2-a567-45ab9abaa2c9> ;
     schema:issueNumber "184" ;
-    schema:locationCreated <http://data.odeuropa.eu/place/5aee7dd0-a476-5df7-986b-8bf3c232688d> ;
+    schema:locationCreated <https://sws.geonames.org/2661881/> ;
     schema:publisher <http://data.odeuropa.eu/actor/612663c2-869a-5be0-8c59-4c7a95b52d17> ;
     schema:url <http://www.dlib.si/details/URN:NBN:SI:DOC-QM8DSCCQ> ;
     schema:volumeNumber "10" .
@@ -1068,8 +1074,6 @@
     schema:url <http://www.dlib.si/details/URN:NBN:SI:DOC-6UVTONWU> ;
     schema:volumeNumber "16" .
 
-<https://sws.geonames.org/2635167/> a crm:E53_Place .
-
 <https://sws.geonames.org/2643743/> a crm:E53_Place .
 
 <https://sws.geonames.org/2750405/> a crm:E53_Place .
@@ -1077,8 +1081,6 @@
 <https://sws.geonames.org/2921044/> a crm:E53_Place .
 
 <https://sws.geonames.org/2971549/> a crm:E53_Place .
-
-<https://sws.geonames.org/3175395/> a crm:E53_Place .
 
 <https://sws.geonames.org/3570675/> a crm:E53_Place .
 
@@ -1129,9 +1131,6 @@
 
 <http://data.odeuropa.eu/place/2d8b3940-915c-5f95-b1f6-26451ebb85c6> a crm:E53_Place ;
     rdfs:label "glasilo JSDS" .
-
-<http://data.odeuropa.eu/place/5aee7dd0-a476-5df7-986b-8bf3c232688d> a crm:E53_Place ;
-    rdfs:label "ZDA" .
 
 <http://data.odeuropa.eu/source/1d8856ea-0302-5958-9278-9c9aeb6512d8> a crm:E33_Linguistic_Object ;
     rdfs:label "Domači prijatelj (Praga)" .
@@ -1642,11 +1641,13 @@
     time:hasBeginning "1914-05-08"^^xsd:date ;
     time:hasEnd "1914-05-08"^^xsd:date .
 
+<https://sws.geonames.org/2661881/> a crm:E53_Place .
+
 <https://sws.geonames.org/3067696/> a crm:E53_Place .
 
-<https://sws.geonames.org/5247444/> a crm:E53_Place .
+<https://sws.geonames.org/4001515/> a crm:E53_Place .
 
-<https://sws.geonames.org/5435464/> a crm:E53_Place .
+<https://sws.geonames.org/5247444/> a crm:E53_Place .
 
 <http://data.odeuropa.eu/actor/345598e9-0abf-549a-832d-cec7d4f2c338> a crm:E39_Actor ;
     rdfs:label "Fran Bartl" .
@@ -1755,7 +1756,7 @@
 
 <https://sws.geonames.org/3195506/> a crm:E53_Place .
 
-<https://sws.geonames.org/4887398/> a crm:E53_Place .
+<https://sws.geonames.org/4887539/> a crm:E53_Place .
 
 <http://data.odeuropa.eu/actor/c15f773c-2284-567d-89d9-38e8ad55b5e0> a crm:E39_Actor ;
     rdfs:label "Konzorcij" .

@@ -4,6 +4,12 @@
 @prefix time: <http://www.w3.org/2006/time#> .
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 
+<http://data.odeuropa.eu/place/c9476c61-f9da-5b76-9cb7-083c002fd478> a crm:E53_Place ;
+    rdfs:label "UK" .
+
+<http://data.odeuropa.eu/place/df63c1d0-5e69-583a-81c2-c4295b7a9426> a crm:E53_Place ;
+    rdfs:label "Italy" .
+
 <http://data.odeuropa.eu/source/0225cc46-5a03-50da-b785-b2d5112a3e19> a crm:E33_Linguistic_Object ;
     rdfs:label "Slovan"@sl ;
     schema:dateCreated <http://data.odeuropa.eu/time/6804bb14-6ee4-5ee6-821a-7d9fb0855b47> ;
@@ -22,7 +28,7 @@
     schema:inLanguage "sl" ;
     schema:isPartOf <http://data.odeuropa.eu/source/bc3cd737-8c02-5ea2-a567-45ab9abaa2c9> ;
     schema:issueNumber "159" ;
-    schema:locationCreated <http://data.odeuropa.eu/place/5aee7dd0-a476-5df7-986b-8bf3c232688d> ;
+    schema:locationCreated <https://sws.geonames.org/2661881/> ;
     schema:publisher <http://data.odeuropa.eu/actor/612663c2-869a-5be0-8c59-4c7a95b52d17> ;
     schema:url <http://www.dlib.si/details/URN:NBN:SI:DOC-LGCJSVJ5> ;
     schema:volumeNumber "12" .
@@ -45,7 +51,7 @@
     schema:inLanguage "sl" ;
     schema:isPartOf <http://data.odeuropa.eu/source/bc3cd737-8c02-5ea2-a567-45ab9abaa2c9> ;
     schema:issueNumber "143" ;
-    schema:locationCreated <http://data.odeuropa.eu/place/5aee7dd0-a476-5df7-986b-8bf3c232688d> ;
+    schema:locationCreated <https://sws.geonames.org/2661881/> ;
     schema:publisher <http://data.odeuropa.eu/actor/612663c2-869a-5be0-8c59-4c7a95b52d17> ;
     schema:url <http://www.dlib.si/details/URN:NBN:SI:DOC-F37IFEZ0> ;
     schema:volumeNumber "9" .
@@ -290,7 +296,7 @@
     schema:inLanguage "sl" ;
     schema:isPartOf <http://data.odeuropa.eu/source/0aa33ccf-5524-5732-90b9-ad533110e8a7> ;
     schema:issueNumber "14" ;
-    schema:locationCreated <https://sws.geonames.org/3175986/> ;
+    schema:locationCreated <https://sws.geonames.org/3239191/> ;
     schema:publisher <http://data.odeuropa.eu/actor/6b46c10e-3fa8-57b9-9f18-d3f09d5a2d0a> ;
     schema:url <http://www.dlib.si/details/URN:NBN:SI:DOC-7LMAAUNA> ;
     schema:volumeNumber "15" .
@@ -310,7 +316,7 @@
     schema:inLanguage "sl" ;
     schema:isPartOf <http://data.odeuropa.eu/source/bc3cd737-8c02-5ea2-a567-45ab9abaa2c9> ;
     schema:issueNumber "95" ;
-    schema:locationCreated <http://data.odeuropa.eu/place/5aee7dd0-a476-5df7-986b-8bf3c232688d> ;
+    schema:locationCreated <https://sws.geonames.org/2661881/> ;
     schema:publisher <http://data.odeuropa.eu/actor/612663c2-869a-5be0-8c59-4c7a95b52d17> ;
     schema:url <http://www.dlib.si/details/URN:NBN:SI:DOC-ACJYTMKQ> ;
     schema:volumeNumber "12" .
@@ -434,7 +440,7 @@
     schema:inLanguage "sl" ;
     schema:isPartOf <http://data.odeuropa.eu/source/bc3cd737-8c02-5ea2-a567-45ab9abaa2c9> ;
     schema:issueNumber "34" ;
-    schema:locationCreated <http://data.odeuropa.eu/place/5aee7dd0-a476-5df7-986b-8bf3c232688d> ;
+    schema:locationCreated <https://sws.geonames.org/2661881/> ;
     schema:publisher <http://data.odeuropa.eu/actor/612663c2-869a-5be0-8c59-4c7a95b52d17> ;
     schema:url <http://www.dlib.si/details/URN:NBN:SI:DOC-X8UNAHUT> ;
     schema:volumeNumber "9" .
@@ -455,7 +461,7 @@
     schema:inLanguage "sl" ;
     schema:isPartOf <http://data.odeuropa.eu/source/94c4d0de-7150-5755-b363-7472644a5d22> ;
     schema:issueNumber "230" ;
-    schema:locationCreated <https://sws.geonames.org/4887398/> ;
+    schema:locationCreated <https://sws.geonames.org/4887539/> ;
     schema:publisher <http://data.odeuropa.eu/actor/70a4862f-b526-5294-a0f8-fe22427868d1> ;
     schema:url <http://www.dlib.si/details/URN:NBN:SI:DOC-WT0WDORE> ;
     schema:volumeNumber "7" .
@@ -579,7 +585,7 @@
     schema:inLanguage "sl" ;
     schema:isPartOf <http://data.odeuropa.eu/source/e8605631-09c5-5201-85cf-dddbdba47c19> ;
     schema:issueNumber "26" ;
-    schema:locationCreated <https://sws.geonames.org/5435464/> ;
+    schema:locationCreated <https://sws.geonames.org/4001515/> ;
     schema:publisher <http://data.odeuropa.eu/actor/3470e4bc-2e7b-587f-83df-800b6bbc9802> ;
     schema:url <http://www.dlib.si/details/URN:NBN:SI:DOC-O1K7PF6I> ;
     schema:volumeNumber "9" .
@@ -621,7 +627,7 @@
     schema:inLanguage "sl" ;
     schema:isPartOf <http://data.odeuropa.eu/source/bc3cd737-8c02-5ea2-a567-45ab9abaa2c9> ;
     schema:issueNumber "216" ;
-    schema:locationCreated <http://data.odeuropa.eu/place/5aee7dd0-a476-5df7-986b-8bf3c232688d> ;
+    schema:locationCreated <https://sws.geonames.org/2661881/> ;
     schema:publisher <http://data.odeuropa.eu/actor/612663c2-869a-5be0-8c59-4c7a95b52d17> ;
     schema:url <http://www.dlib.si/details/URN:NBN:SI:DOC-IHZTRRGT> ;
     schema:volumeNumber "11" .
@@ -664,7 +670,7 @@
     schema:inLanguage "sl" ;
     schema:isPartOf <http://data.odeuropa.eu/source/bc3cd737-8c02-5ea2-a567-45ab9abaa2c9> ;
     schema:issueNumber "112" ;
-    schema:locationCreated <http://data.odeuropa.eu/place/5aee7dd0-a476-5df7-986b-8bf3c232688d> ;
+    schema:locationCreated <https://sws.geonames.org/2661881/> ;
     schema:publisher <http://data.odeuropa.eu/actor/612663c2-869a-5be0-8c59-4c7a95b52d17> ;
     schema:url <http://www.dlib.si/details/URN:NBN:SI:DOC-D9EGTRPA> ;
     schema:volumeNumber "10" .
@@ -686,7 +692,7 @@
     schema:inLanguage "sl" ;
     schema:isPartOf <http://data.odeuropa.eu/source/0aa33ccf-5524-5732-90b9-ad533110e8a7> ;
     schema:issueNumber "42" ;
-    schema:locationCreated <https://sws.geonames.org/3175986/> ;
+    schema:locationCreated <https://sws.geonames.org/3239191/> ;
     schema:publisher <http://data.odeuropa.eu/actor/6b46c10e-3fa8-57b9-9f18-d3f09d5a2d0a> ;
     schema:url <http://www.dlib.si/details/URN:NBN:SI:DOC-X5D5ARPP> ;
     schema:volumeNumber "17" .
@@ -709,7 +715,7 @@
     schema:inLanguage "sl" ;
     schema:isPartOf <http://data.odeuropa.eu/source/95149ca6-347c-5c39-8009-41aeb8ef72ee> ;
     schema:issueNumber "4" ;
-    schema:locationCreated <https://sws.geonames.org/4899581/> ;
+    schema:locationCreated <http://data.odeuropa.eu/place/3260b572-51db-5589-8716-08fd9ada9684> ;
     schema:publisher <http://data.odeuropa.eu/actor/26e88688-0f0b-5df2-8146-6822fde797b7> ;
     schema:url <http://www.dlib.si/details/URN:NBN:SI:DOC-OFEDS4SY> ;
     schema:volumeNumber "5" .
@@ -731,7 +737,7 @@
     schema:inLanguage "sl" ;
     schema:isPartOf <http://data.odeuropa.eu/source/54c2a27d-81f2-582b-ba09-e10cff9c1ee6> ;
     schema:issueNumber "12" ;
-    schema:locationCreated <https://sws.geonames.org/5435464/> ;
+    schema:locationCreated <https://sws.geonames.org/4001515/> ;
     schema:publisher <http://data.odeuropa.eu/actor/128a59b3-907b-5847-bdcb-3a34ac987908> ;
     schema:url <http://www.dlib.si/details/URN:NBN:SI:DOC-9YSQK37H> ;
     schema:volumeNumber "5" .
@@ -913,7 +919,7 @@
     schema:inLanguage "sl" ;
     schema:isPartOf <http://data.odeuropa.eu/source/54c2a27d-81f2-582b-ba09-e10cff9c1ee6> ;
     schema:issueNumber "38" ;
-    schema:locationCreated <https://sws.geonames.org/5435464/> ;
+    schema:locationCreated <https://sws.geonames.org/4001515/> ;
     schema:publisher <http://data.odeuropa.eu/actor/128a59b3-907b-5847-bdcb-3a34ac987908> ;
     schema:url <http://www.dlib.si/details/URN:NBN:SI:DOC-ORATZDG2> .
 
@@ -1037,7 +1043,7 @@
     schema:inLanguage "sl" ;
     schema:isPartOf <http://data.odeuropa.eu/source/0aa33ccf-5524-5732-90b9-ad533110e8a7> ;
     schema:issueNumber "16" ;
-    schema:locationCreated <https://sws.geonames.org/3175986/> ;
+    schema:locationCreated <https://sws.geonames.org/3239191/> ;
     schema:publisher <http://data.odeuropa.eu/actor/6b46c10e-3fa8-57b9-9f18-d3f09d5a2d0a> ;
     schema:url <http://www.dlib.si/details/URN:NBN:SI:DOC-YDK4Y7RZ> ;
     schema:volumeNumber "15" .
@@ -1059,12 +1065,10 @@
     schema:inLanguage "sl" ;
     schema:isPartOf <http://data.odeuropa.eu/source/bc3cd737-8c02-5ea2-a567-45ab9abaa2c9> ;
     schema:issueNumber "150" ;
-    schema:locationCreated <http://data.odeuropa.eu/place/5aee7dd0-a476-5df7-986b-8bf3c232688d> ;
+    schema:locationCreated <https://sws.geonames.org/2661881/> ;
     schema:publisher <http://data.odeuropa.eu/actor/612663c2-869a-5be0-8c59-4c7a95b52d17> ;
     schema:url <http://www.dlib.si/details/URN:NBN:SI:DOC-HAEVXTIU> ;
     schema:volumeNumber "12" .
-
-<https://sws.geonames.org/2635167/> a crm:E53_Place .
 
 <https://sws.geonames.org/2643743/> a crm:E53_Place .
 
@@ -1073,8 +1077,6 @@
 <https://sws.geonames.org/2921044/> a crm:E53_Place .
 
 <https://sws.geonames.org/2971549/> a crm:E53_Place .
-
-<https://sws.geonames.org/3175395/> a crm:E53_Place .
 
 <https://sws.geonames.org/3570675/> a crm:E53_Place .
 
@@ -1128,6 +1130,9 @@
 
 <http://data.odeuropa.eu/genre/REL> a <http://www.w3.org/2004/02/skos/core#Concept> ;
     rdfs:label "Religion"@en .
+
+<http://data.odeuropa.eu/place/3260b572-51db-5589-8716-08fd9ada9684> a crm:E53_Place ;
+    rdfs:label "Lemont, Ill." .
 
 <http://data.odeuropa.eu/source/05e4ac1e-81fe-5305-929d-ce1376a0cac1> a crm:E33_Linguistic_Object ;
     rdfs:label "Straža (Maribor)" .
@@ -1630,9 +1635,7 @@
 
 <https://sws.geonames.org/3195506/> a crm:E53_Place .
 
-<https://sws.geonames.org/4887398/> a crm:E53_Place .
-
-<https://sws.geonames.org/4899581/> a crm:E53_Place .
+<https://sws.geonames.org/4887539/> a crm:E53_Place .
 
 <http://data.odeuropa.eu/actor/128a59b3-907b-5847-bdcb-3a34ac987908> a crm:E39_Actor ;
     rdfs:label "Martin Konda" .
@@ -1719,9 +1722,9 @@
 <http://data.odeuropa.eu/source/0fa24400-b161-58a4-9645-8cf3ab772505> a crm:E33_Linguistic_Object ;
     rdfs:label "Slovenski dom (1909-1914)" .
 
-<https://sws.geonames.org/3175986/> a crm:E53_Place .
+<https://sws.geonames.org/3239191/> a crm:E53_Place .
 
-<https://sws.geonames.org/5435464/> a crm:E53_Place .
+<https://sws.geonames.org/4001515/> a crm:E53_Place .
 
 <http://data.odeuropa.eu/actor/0c02356e-42f3-5914-a464-321a8dc5da86> a crm:E39_Actor ;
     rdfs:label "Ljudska tiskarna" .
@@ -1766,11 +1769,10 @@
 
 <https://sws.geonames.org/5128581/> a crm:E53_Place .
 
-<http://data.odeuropa.eu/place/5aee7dd0-a476-5df7-986b-8bf3c232688d> a crm:E53_Place ;
-    rdfs:label "ZDA" .
-
 <http://data.odeuropa.eu/source/bc3cd737-8c02-5ea2-a567-45ab9abaa2c9> a crm:E33_Linguistic_Object ;
     rdfs:label "Prosveta (ZDA)" .
+
+<https://sws.geonames.org/2661881/> a crm:E53_Place .
 
 <http://data.odeuropa.eu/actor/612663c2-869a-5be0-8c59-4c7a95b52d17> a crm:E39_Actor ;
     rdfs:label "Slovenska narodna podporna jednota" .

@@ -4,6 +4,12 @@
 @prefix time: <http://www.w3.org/2006/time#> .
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 
+<http://data.odeuropa.eu/place/c9476c61-f9da-5b76-9cb7-083c002fd478> a crm:E53_Place ;
+    rdfs:label "UK" .
+
+<http://data.odeuropa.eu/place/df63c1d0-5e69-583a-81c2-c4295b7a9426> a crm:E53_Place ;
+    rdfs:label "Italy" .
+
 <http://data.odeuropa.eu/source/04d2ecfd-c6ec-5ab1-b31e-9b281ce617eb> a crm:E33_Linguistic_Object ;
     rdfs:label "Dolenjske novice"@sl ;
     schema:dateCreated <http://data.odeuropa.eu/time/67653b49-713b-52a8-9416-8ccc6b95c2dc> ;
@@ -84,7 +90,7 @@
     schema:inLanguage "sl" ;
     schema:isPartOf <http://data.odeuropa.eu/source/94c4d0de-7150-5755-b363-7472644a5d22> ;
     schema:issueNumber "130" ;
-    schema:locationCreated <https://sws.geonames.org/4887398/> ;
+    schema:locationCreated <https://sws.geonames.org/4887539/> ;
     schema:publisher <http://data.odeuropa.eu/actor/70a4862f-b526-5294-a0f8-fe22427868d1> ;
     schema:url <http://www.dlib.si/details/URN:NBN:SI:DOC-185JNHAM> ;
     schema:volumeNumber "5" .
@@ -578,7 +584,7 @@
     schema:inLanguage "sl" ;
     schema:isPartOf <http://data.odeuropa.eu/source/94c4d0de-7150-5755-b363-7472644a5d22> ;
     schema:issueNumber "252" ;
-    schema:locationCreated <https://sws.geonames.org/4887398/> ;
+    schema:locationCreated <https://sws.geonames.org/4887539/> ;
     schema:publisher <http://data.odeuropa.eu/actor/70a4862f-b526-5294-a0f8-fe22427868d1> ;
     schema:url <http://www.dlib.si/details/URN:NBN:SI:DOC-CGWHWEEV> ;
     schema:volumeNumber "7" .
@@ -631,7 +637,7 @@
     schema:inLanguage "sl" ;
     schema:isPartOf <http://data.odeuropa.eu/source/0aa33ccf-5524-5732-90b9-ad533110e8a7> ;
     schema:issueNumber "28" ;
-    schema:locationCreated <https://sws.geonames.org/3175986/> ;
+    schema:locationCreated <https://sws.geonames.org/3239191/> ;
     schema:publisher <http://data.odeuropa.eu/actor/6b46c10e-3fa8-57b9-9f18-d3f09d5a2d0a> ;
     schema:url <http://www.dlib.si/details/URN:NBN:SI:DOC-MQ3M5AA6> ;
     schema:volumeNumber "18" .
@@ -654,7 +660,7 @@
     schema:inLanguage "sl" ;
     schema:isPartOf <http://data.odeuropa.eu/source/95149ca6-347c-5c39-8009-41aeb8ef72ee> ;
     schema:issueNumber "1" ;
-    schema:locationCreated <https://sws.geonames.org/4899581/> ;
+    schema:locationCreated <http://data.odeuropa.eu/place/3260b572-51db-5589-8716-08fd9ada9684> ;
     schema:publisher <http://data.odeuropa.eu/actor/26e88688-0f0b-5df2-8146-6822fde797b7> ;
     schema:url <http://www.dlib.si/details/URN:NBN:SI:DOC-RTFMDL4P> ;
     schema:volumeNumber "6" .
@@ -706,7 +712,7 @@
     schema:inLanguage "sl" ;
     schema:isPartOf <http://data.odeuropa.eu/source/54c2a27d-81f2-582b-ba09-e10cff9c1ee6> ;
     schema:issueNumber "28" ;
-    schema:locationCreated <https://sws.geonames.org/5435464/> ;
+    schema:locationCreated <https://sws.geonames.org/4001515/> ;
     schema:publisher <http://data.odeuropa.eu/actor/128a59b3-907b-5847-bdcb-3a34ac987908> ;
     schema:url <http://www.dlib.si/details/URN:NBN:SI:DOC-D058FBV6> ;
     schema:volumeNumber "4" .
@@ -821,7 +827,7 @@
     schema:inLanguage "sl" ;
     schema:isPartOf <http://data.odeuropa.eu/source/54c2a27d-81f2-582b-ba09-e10cff9c1ee6> ;
     schema:issueNumber "36" ;
-    schema:locationCreated <https://sws.geonames.org/5435464/> ;
+    schema:locationCreated <https://sws.geonames.org/4001515/> ;
     schema:publisher <http://data.odeuropa.eu/actor/128a59b3-907b-5847-bdcb-3a34ac987908> ;
     schema:url <http://www.dlib.si/details/URN:NBN:SI:DOC-RULDSIFO> ;
     schema:volumeNumber "5" .
@@ -1061,8 +1067,6 @@
     schema:url <http://www.dlib.si/details/URN:NBN:SI:DOC-XSOM4KPM> ;
     schema:volumeNumber "1" .
 
-<https://sws.geonames.org/2635167/> a crm:E53_Place .
-
 <https://sws.geonames.org/2643743/> a crm:E53_Place .
 
 <https://sws.geonames.org/2750405/> a crm:E53_Place .
@@ -1070,8 +1074,6 @@
 <https://sws.geonames.org/2921044/> a crm:E53_Place .
 
 <https://sws.geonames.org/2971549/> a crm:E53_Place .
-
-<https://sws.geonames.org/3175395/> a crm:E53_Place .
 
 <https://sws.geonames.org/3570675/> a crm:E53_Place .
 
@@ -1152,6 +1154,9 @@
 
 <http://data.odeuropa.eu/genre/TRAV> a <http://www.w3.org/2004/02/skos/core#Concept> ;
     rdfs:label "Travel literature / ethnography"@en .
+
+<http://data.odeuropa.eu/place/3260b572-51db-5589-8716-08fd9ada9684> a crm:E53_Place ;
+    rdfs:label "Lemont, Ill." .
 
 <http://data.odeuropa.eu/source/0aa33ccf-5524-5732-90b9-ad533110e8a7> a crm:E33_Linguistic_Object ;
     rdfs:label "Primorski list (Gorica)" .
@@ -1661,9 +1666,7 @@
 
 <https://sws.geonames.org/3067696/> a crm:E53_Place .
 
-<https://sws.geonames.org/3175986/> a crm:E53_Place .
-
-<https://sws.geonames.org/4899581/> a crm:E53_Place .
+<https://sws.geonames.org/3239191/> a crm:E53_Place .
 
 <http://data.odeuropa.eu/actor/128a59b3-907b-5847-bdcb-3a34ac987908> a crm:E39_Actor ;
     rdfs:label "Martin Konda" .
@@ -1732,9 +1735,9 @@
 
 <https://sws.geonames.org/3202781/> a crm:E53_Place .
 
-<https://sws.geonames.org/4887398/> a crm:E53_Place .
+<https://sws.geonames.org/4001515/> a crm:E53_Place .
 
-<https://sws.geonames.org/5435464/> a crm:E53_Place .
+<https://sws.geonames.org/4887539/> a crm:E53_Place .
 
 <http://data.odeuropa.eu/actor/10676c07-e44d-5387-8e0b-5bd98d4b7c09> a crm:E39_Actor ;
     rdfs:label "Konzorcij Večernega lista" .

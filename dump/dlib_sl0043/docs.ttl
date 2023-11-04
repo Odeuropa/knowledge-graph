@@ -4,6 +4,12 @@
 @prefix time: <http://www.w3.org/2006/time#> .
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 
+<http://data.odeuropa.eu/place/c9476c61-f9da-5b76-9cb7-083c002fd478> a crm:E53_Place ;
+    rdfs:label "UK" .
+
+<http://data.odeuropa.eu/place/df63c1d0-5e69-583a-81c2-c4295b7a9426> a crm:E53_Place ;
+    rdfs:label "Italy" .
+
 <http://data.odeuropa.eu/source/049f1f9f-2e8d-513d-b5fa-d617c5436355> a crm:E33_Linguistic_Object ;
     rdfs:label "Slovenski gospodar: podučiven list za slovensko ljudstvo"@sl ;
     schema:dateCreated <http://data.odeuropa.eu/time/e5bec2a9-eb74-5b9d-a706-303ae6591548> ;
@@ -503,7 +509,7 @@
     schema:inLanguage "sl" ;
     schema:isPartOf <http://data.odeuropa.eu/source/bc3cd737-8c02-5ea2-a567-45ab9abaa2c9> ;
     schema:issueNumber "218" ;
-    schema:locationCreated <http://data.odeuropa.eu/place/5aee7dd0-a476-5df7-986b-8bf3c232688d> ;
+    schema:locationCreated <https://sws.geonames.org/2661881/> ;
     schema:publisher <http://data.odeuropa.eu/actor/612663c2-869a-5be0-8c59-4c7a95b52d17> ;
     schema:url <http://www.dlib.si/details/URN:NBN:SI:DOC-BON3Z8U8> ;
     schema:volumeNumber "10" .
@@ -546,7 +552,7 @@
     schema:inLanguage "sl" ;
     schema:isPartOf <http://data.odeuropa.eu/source/95149ca6-347c-5c39-8009-41aeb8ef72ee> ;
     schema:issueNumber "8" ;
-    schema:locationCreated <https://sws.geonames.org/4899581/> ;
+    schema:locationCreated <http://data.odeuropa.eu/place/3260b572-51db-5589-8716-08fd9ada9684> ;
     schema:publisher <http://data.odeuropa.eu/actor/26e88688-0f0b-5df2-8146-6822fde797b7> ;
     schema:url <http://www.dlib.si/details/URN:NBN:SI:DOC-9EG6KFLJ> ;
     schema:volumeNumber "6" .
@@ -627,7 +633,7 @@
     schema:inLanguage "sl" ;
     schema:isPartOf <http://data.odeuropa.eu/source/54c2a27d-81f2-582b-ba09-e10cff9c1ee6> ;
     schema:issueNumber "29" ;
-    schema:locationCreated <https://sws.geonames.org/5435464/> ;
+    schema:locationCreated <https://sws.geonames.org/4001515/> ;
     schema:publisher <http://data.odeuropa.eu/actor/128a59b3-907b-5847-bdcb-3a34ac987908> ;
     schema:url <http://www.dlib.si/details/URN:NBN:SI:DOC-IVJI0E3U> .
 
@@ -1059,8 +1065,6 @@
     schema:url <http://www.dlib.si/details/URN:NBN:SI:DOC-K2Z7JOE5> ;
     schema:volumeNumber "20" .
 
-<https://sws.geonames.org/2635167/> a crm:E53_Place .
-
 <https://sws.geonames.org/2643743/> a crm:E53_Place .
 
 <https://sws.geonames.org/2750405/> a crm:E53_Place .
@@ -1068,8 +1072,6 @@
 <https://sws.geonames.org/2921044/> a crm:E53_Place .
 
 <https://sws.geonames.org/2971549/> a crm:E53_Place .
-
-<https://sws.geonames.org/3175395/> a crm:E53_Place .
 
 <https://sws.geonames.org/3570675/> a crm:E53_Place .
 
@@ -1136,8 +1138,8 @@
 <http://data.odeuropa.eu/genre/REL> a <http://www.w3.org/2004/02/skos/core#Concept> ;
     rdfs:label "Religion"@en .
 
-<http://data.odeuropa.eu/place/5aee7dd0-a476-5df7-986b-8bf3c232688d> a crm:E53_Place ;
-    rdfs:label "ZDA" .
+<http://data.odeuropa.eu/place/3260b572-51db-5589-8716-08fd9ada9684> a crm:E53_Place ;
+    rdfs:label "Lemont, Ill." .
 
 <http://data.odeuropa.eu/source/03ed2316-fef7-569f-8dcd-392a00594766> a crm:E33_Linguistic_Object ;
     rdfs:label "Sloga (Cleveland)" .
@@ -1675,13 +1677,13 @@
     time:hasBeginning "1916"^^xsd:gYear ;
     time:hasEnd "1916"^^xsd:gYear .
 
+<https://sws.geonames.org/2661881/> a crm:E53_Place .
+
 <https://sws.geonames.org/3202781/> a crm:E53_Place .
 
-<https://sws.geonames.org/4899581/> a crm:E53_Place .
+<https://sws.geonames.org/4001515/> a crm:E53_Place .
 
 <https://sws.geonames.org/5150529/> a crm:E53_Place .
-
-<https://sws.geonames.org/5435464/> a crm:E53_Place .
 
 <http://data.odeuropa.eu/actor/0fb9f510-deb0-5d38-adde-6f82f944fac9> a crm:E39_Actor ;
     rdfs:label "C.k. kmetijska družba za Štajersko" .

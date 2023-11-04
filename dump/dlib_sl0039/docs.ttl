@@ -4,13 +4,19 @@
 @prefix time: <http://www.w3.org/2006/time#> .
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 
+<http://data.odeuropa.eu/place/c9476c61-f9da-5b76-9cb7-083c002fd478> a crm:E53_Place ;
+    rdfs:label "UK" .
+
+<http://data.odeuropa.eu/place/df63c1d0-5e69-583a-81c2-c4295b7a9426> a crm:E53_Place ;
+    rdfs:label "Italy" .
+
 <http://data.odeuropa.eu/source/029b84bb-eff9-511e-9039-c0e370608946> a crm:E33_Linguistic_Object ;
     rdfs:label "Prosveta"@sl ;
     schema:dateCreated <http://data.odeuropa.eu/time/f6914386-b3b8-5987-afce-ceb4ee9f25f2> ;
     schema:inLanguage "sl" ;
     schema:isPartOf <http://data.odeuropa.eu/source/bc3cd737-8c02-5ea2-a567-45ab9abaa2c9> ;
     schema:issueNumber "244" ;
-    schema:locationCreated <http://data.odeuropa.eu/place/5aee7dd0-a476-5df7-986b-8bf3c232688d> ;
+    schema:locationCreated <https://sws.geonames.org/2661881/> ;
     schema:publisher <http://data.odeuropa.eu/actor/612663c2-869a-5be0-8c59-4c7a95b52d17> ;
     schema:url <http://www.dlib.si/details/URN:NBN:SI:DOC-6FH1Z83A> ;
     schema:volumeNumber "11" .
@@ -557,7 +563,7 @@
     schema:inLanguage "sl" ;
     schema:isPartOf <http://data.odeuropa.eu/source/0aa33ccf-5524-5732-90b9-ad533110e8a7> ;
     schema:issueNumber "42" ;
-    schema:locationCreated <https://sws.geonames.org/3175986/> ;
+    schema:locationCreated <https://sws.geonames.org/3239191/> ;
     schema:publisher <http://data.odeuropa.eu/actor/6b46c10e-3fa8-57b9-9f18-d3f09d5a2d0a> ;
     schema:url <http://www.dlib.si/details/URN:NBN:SI:DOC-KDOGK66I> ;
     schema:volumeNumber "21" .
@@ -714,7 +720,7 @@
     schema:inLanguage "sl" ;
     schema:isPartOf <http://data.odeuropa.eu/source/0aa33ccf-5524-5732-90b9-ad533110e8a7> ;
     schema:issueNumber "11" ;
-    schema:locationCreated <https://sws.geonames.org/3175986/> ;
+    schema:locationCreated <https://sws.geonames.org/3239191/> ;
     schema:publisher <http://data.odeuropa.eu/actor/6b46c10e-3fa8-57b9-9f18-d3f09d5a2d0a> ;
     schema:url <http://www.dlib.si/details/URN:NBN:SI:DOC-TEFK7Y07> ;
     schema:volumeNumber "19" .
@@ -811,7 +817,7 @@
     schema:inLanguage "sl" ;
     schema:isPartOf <http://data.odeuropa.eu/source/bc3cd737-8c02-5ea2-a567-45ab9abaa2c9> ;
     schema:issueNumber "275" ;
-    schema:locationCreated <http://data.odeuropa.eu/place/5aee7dd0-a476-5df7-986b-8bf3c232688d> ;
+    schema:locationCreated <https://sws.geonames.org/2661881/> ;
     schema:publisher <http://data.odeuropa.eu/actor/612663c2-869a-5be0-8c59-4c7a95b52d17> ;
     schema:url <http://www.dlib.si/details/URN:NBN:SI:DOC-Z4CMHRFC> ;
     schema:volumeNumber "11" .
@@ -1045,12 +1051,10 @@
     schema:inLanguage "sl" ;
     schema:isPartOf <http://data.odeuropa.eu/source/0aa33ccf-5524-5732-90b9-ad533110e8a7> ;
     schema:issueNumber "11" ;
-    schema:locationCreated <https://sws.geonames.org/3175986/> ;
+    schema:locationCreated <https://sws.geonames.org/3239191/> ;
     schema:publisher <http://data.odeuropa.eu/actor/6b46c10e-3fa8-57b9-9f18-d3f09d5a2d0a> ;
     schema:url <http://www.dlib.si/details/URN:NBN:SI:DOC-DU9XF0YL> ;
     schema:volumeNumber "18" .
-
-<https://sws.geonames.org/2635167/> a crm:E53_Place .
 
 <https://sws.geonames.org/2643743/> a crm:E53_Place .
 
@@ -1059,8 +1063,6 @@
 <https://sws.geonames.org/2921044/> a crm:E53_Place .
 
 <https://sws.geonames.org/2971549/> a crm:E53_Place .
-
-<https://sws.geonames.org/3175395/> a crm:E53_Place .
 
 <https://sws.geonames.org/3570675/> a crm:E53_Place .
 
@@ -1680,9 +1682,6 @@
 <http://data.odeuropa.eu/genre/BOT> a <http://www.w3.org/2004/02/skos/core#Concept> ;
     rdfs:label "Botany"@en .
 
-<http://data.odeuropa.eu/place/5aee7dd0-a476-5df7-986b-8bf3c232688d> a crm:E53_Place ;
-    rdfs:label "ZDA" .
-
 <http://data.odeuropa.eu/source/1d8856ea-0302-5958-9278-9c9aeb6512d8> a crm:E33_Linguistic_Object ;
     rdfs:label "Domači prijatelj (Praga)" .
 
@@ -1700,6 +1699,8 @@
 
 <http://data.odeuropa.eu/source/e30b8e38-01b8-576c-afb0-d87e2a864ef3> a crm:E33_Linguistic_Object ;
     rdfs:label "Mir (Celovec)" .
+
+<https://sws.geonames.org/2661881/> a crm:E53_Place .
 
 <https://sws.geonames.org/2774326/> a crm:E53_Place .
 
@@ -1734,7 +1735,7 @@
     time:hasBeginning "1908"^^xsd:gYear ;
     time:hasEnd "1908"^^xsd:gYear .
 
-<https://sws.geonames.org/3175986/> a crm:E53_Place .
+<https://sws.geonames.org/3239191/> a crm:E53_Place .
 
 <http://data.odeuropa.eu/actor/ac7d1af3-5610-5f63-b0dd-dd2c85ba966e> a crm:E39_Actor ;
     rdfs:label "Učiteljske tiskarne" .
