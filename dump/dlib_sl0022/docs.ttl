@@ -4,6 +4,12 @@
 @prefix time: <http://www.w3.org/2006/time#> .
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 
+<http://data.odeuropa.eu/place/c9476c61-f9da-5b76-9cb7-083c002fd478> a crm:E53_Place ;
+    rdfs:label "UK" .
+
+<http://data.odeuropa.eu/place/df63c1d0-5e69-583a-81c2-c4295b7a9426> a crm:E53_Place ;
+    rdfs:label "Italy" .
+
 <http://data.odeuropa.eu/source/00e4a33a-912e-5359-ba49-b2cf7352db16> a crm:E33_Linguistic_Object ;
     rdfs:label "Rdeči prapor: glasilo jugoslovanske socialne demokracije"@sl ;
     schema:dateCreated <http://data.odeuropa.eu/time/d2814b18-75dc-5810-9b40-bd67bb88da33> ;
@@ -55,7 +61,7 @@
     schema:inLanguage "sl" ;
     schema:isPartOf <http://data.odeuropa.eu/source/e8605631-09c5-5201-85cf-dddbdba47c19> ;
     schema:issueNumber "39" ;
-    schema:locationCreated <https://sws.geonames.org/5435464/> ;
+    schema:locationCreated <https://sws.geonames.org/4001515/> ;
     schema:publisher <http://data.odeuropa.eu/actor/3470e4bc-2e7b-587f-83df-800b6bbc9802> ;
     schema:url <http://www.dlib.si/details/URN:NBN:SI:DOC-DNKUQB61> ;
     schema:volumeNumber "8" .
@@ -172,7 +178,7 @@
     schema:inLanguage "sl" ;
     schema:isPartOf <http://data.odeuropa.eu/source/0aa33ccf-5524-5732-90b9-ad533110e8a7> ;
     schema:issueNumber "12" ;
-    schema:locationCreated <https://sws.geonames.org/3175986/> ;
+    schema:locationCreated <https://sws.geonames.org/3239191/> ;
     schema:publisher <http://data.odeuropa.eu/actor/6b46c10e-3fa8-57b9-9f18-d3f09d5a2d0a> ;
     schema:url <http://www.dlib.si/details/URN:NBN:SI:DOC-FGGONYY4> ;
     schema:volumeNumber "8" .
@@ -628,7 +634,7 @@
     schema:inLanguage "sl" ;
     schema:isPartOf <http://data.odeuropa.eu/source/0aa33ccf-5524-5732-90b9-ad533110e8a7> ;
     schema:issueNumber "34" ;
-    schema:locationCreated <https://sws.geonames.org/3175986/> ;
+    schema:locationCreated <https://sws.geonames.org/3239191/> ;
     schema:publisher <http://data.odeuropa.eu/actor/6b46c10e-3fa8-57b9-9f18-d3f09d5a2d0a> ;
     schema:url <http://www.dlib.si/details/URN:NBN:SI:DOC-MM9BPCYW> ;
     schema:volumeNumber "16" .
@@ -702,7 +708,7 @@
     schema:inLanguage "sl" ;
     schema:isPartOf <http://data.odeuropa.eu/source/94c4d0de-7150-5755-b363-7472644a5d22> ;
     schema:issueNumber "43" ;
-    schema:locationCreated <https://sws.geonames.org/4887398/> ;
+    schema:locationCreated <https://sws.geonames.org/4887539/> ;
     schema:publisher <http://data.odeuropa.eu/actor/70a4862f-b526-5294-a0f8-fe22427868d1> ;
     schema:url <http://www.dlib.si/details/URN:NBN:SI:DOC-CKYOWSPY> ;
     schema:volumeNumber "3" .
@@ -1015,7 +1021,7 @@
     schema:inLanguage "sl" ;
     schema:isPartOf <http://data.odeuropa.eu/source/e8605631-09c5-5201-85cf-dddbdba47c19> ;
     schema:issueNumber "38" ;
-    schema:locationCreated <https://sws.geonames.org/5435464/> ;
+    schema:locationCreated <https://sws.geonames.org/4001515/> ;
     schema:publisher <http://data.odeuropa.eu/actor/3470e4bc-2e7b-587f-83df-800b6bbc9802> ;
     schema:url <http://www.dlib.si/details/URN:NBN:SI:DOC-UJQ3EOI1> ;
     schema:volumeNumber "8" .
@@ -1053,8 +1059,6 @@
     schema:url <http://www.dlib.si/details/URN:NBN:SI:DOC-EKWIF8W4> ;
     schema:volumeNumber "6" .
 
-<https://sws.geonames.org/2635167/> a crm:E53_Place .
-
 <https://sws.geonames.org/2643743/> a crm:E53_Place .
 
 <https://sws.geonames.org/2750405/> a crm:E53_Place .
@@ -1062,8 +1066,6 @@
 <https://sws.geonames.org/2921044/> a crm:E53_Place .
 
 <https://sws.geonames.org/2971549/> a crm:E53_Place .
-
-<https://sws.geonames.org/3175395/> a crm:E53_Place .
 
 <https://sws.geonames.org/3570675/> a crm:E53_Place .
 
@@ -1607,7 +1609,7 @@
 
 <https://sws.geonames.org/2774326/> a crm:E53_Place .
 
-<https://sws.geonames.org/4887398/> a crm:E53_Place .
+<https://sws.geonames.org/4887539/> a crm:E53_Place .
 
 <https://sws.geonames.org/5128581/> a crm:E53_Place .
 
@@ -1679,9 +1681,9 @@
 
 <https://sws.geonames.org/3067696/> a crm:E53_Place .
 
-<https://sws.geonames.org/3175986/> a crm:E53_Place .
+<https://sws.geonames.org/3239191/> a crm:E53_Place .
 
-<https://sws.geonames.org/5435464/> a crm:E53_Place .
+<https://sws.geonames.org/4001515/> a crm:E53_Place .
 
 <http://data.odeuropa.eu/actor/1fe43f9d-c6a5-5827-abc2-aaefc94be279> a crm:E39_Actor ;
     rdfs:label "Narodna tiskarna" .

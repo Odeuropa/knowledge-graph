@@ -4,6 +4,12 @@
 @prefix time: <http://www.w3.org/2006/time#> .
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 
+<http://data.odeuropa.eu/place/c9476c61-f9da-5b76-9cb7-083c002fd478> a crm:E53_Place ;
+    rdfs:label "UK" .
+
+<http://data.odeuropa.eu/place/df63c1d0-5e69-583a-81c2-c4295b7a9426> a crm:E53_Place ;
+    rdfs:label "Italy" .
+
 <http://data.odeuropa.eu/source/0000969a-71a1-57e9-8046-d824d1684959> a crm:E33_Linguistic_Object ;
     rdfs:label "Slovenski gospodar: podučiven list za slovensko ljudstvo"@sl ;
     schema:dateCreated <http://data.odeuropa.eu/time/c69750cb-0a86-5fc5-9f05-a4c0dc03020e> ;
@@ -106,7 +112,7 @@
     schema:inLanguage "sl" ;
     schema:isPartOf <http://data.odeuropa.eu/source/e8605631-09c5-5201-85cf-dddbdba47c19> ;
     schema:issueNumber "5" ;
-    schema:locationCreated <https://sws.geonames.org/5435464/> ;
+    schema:locationCreated <https://sws.geonames.org/4001515/> ;
     schema:publisher <http://data.odeuropa.eu/actor/3470e4bc-2e7b-587f-83df-800b6bbc9802> ;
     schema:url <http://www.dlib.si/details/URN:NBN:SI:DOC-Y39NL4AO> ;
     schema:volumeNumber "9" .
@@ -325,7 +331,7 @@
     schema:inLanguage "sl" ;
     schema:isPartOf <http://data.odeuropa.eu/source/0aa33ccf-5524-5732-90b9-ad533110e8a7> ;
     schema:issueNumber "31" ;
-    schema:locationCreated <https://sws.geonames.org/3175986/> ;
+    schema:locationCreated <https://sws.geonames.org/3239191/> ;
     schema:publisher <http://data.odeuropa.eu/actor/6b46c10e-3fa8-57b9-9f18-d3f09d5a2d0a> ;
     schema:url <http://www.dlib.si/details/URN:NBN:SI:DOC-Y4YL87JD> ;
     schema:volumeNumber "14" .
@@ -469,7 +475,7 @@
     schema:inLanguage "sl" ;
     schema:isPartOf <http://data.odeuropa.eu/source/0aa33ccf-5524-5732-90b9-ad533110e8a7> ;
     schema:issueNumber "43" ;
-    schema:locationCreated <https://sws.geonames.org/3175986/> ;
+    schema:locationCreated <https://sws.geonames.org/3239191/> ;
     schema:publisher <http://data.odeuropa.eu/actor/6b46c10e-3fa8-57b9-9f18-d3f09d5a2d0a> ;
     schema:url <http://www.dlib.si/details/URN:NBN:SI:DOC-OP7KD75M> ;
     schema:volumeNumber "19" .
@@ -1043,8 +1049,6 @@
     schema:locationCreated <https://sws.geonames.org/3190538/> ;
     schema:url <http://www.dlib.si/details/URN:NBN:SI:DOC-ENJNGZGK> .
 
-<https://sws.geonames.org/2635167/> a crm:E53_Place .
-
 <https://sws.geonames.org/2643743/> a crm:E53_Place .
 
 <https://sws.geonames.org/2750405/> a crm:E53_Place .
@@ -1052,8 +1056,6 @@
 <https://sws.geonames.org/2921044/> a crm:E53_Place .
 
 <https://sws.geonames.org/2971549/> a crm:E53_Place .
-
-<https://sws.geonames.org/3175395/> a crm:E53_Place .
 
 <https://sws.geonames.org/3570675/> a crm:E53_Place .
 
@@ -1642,9 +1644,9 @@
 
 <https://sws.geonames.org/3202781/> a crm:E53_Place .
 
-<https://sws.geonames.org/5128581/> a crm:E53_Place .
+<https://sws.geonames.org/4001515/> a crm:E53_Place .
 
-<https://sws.geonames.org/5435464/> a crm:E53_Place .
+<https://sws.geonames.org/5128581/> a crm:E53_Place .
 
 <http://data.odeuropa.eu/actor/06856835-a657-53a2-b096-c15c41c55d83> a crm:E39_Actor ;
     rdfs:label "Ivan Dolinar" .
@@ -1694,7 +1696,7 @@
     time:hasBeginning "1912"^^xsd:gYear ;
     time:hasEnd "1912"^^xsd:gYear .
 
-<https://sws.geonames.org/3175986/> a crm:E53_Place .
+<https://sws.geonames.org/3239191/> a crm:E53_Place .
 
 <http://data.odeuropa.eu/actor/42df8d51-ab83-54d7-8e7f-f1a5e90daa08> a crm:E39_Actor ;
     rdfs:label "Tiskarna sv. Cirila" .

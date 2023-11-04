@@ -4,6 +4,12 @@
 @prefix time: <http://www.w3.org/2006/time#> .
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 
+<http://data.odeuropa.eu/place/c9476c61-f9da-5b76-9cb7-083c002fd478> a crm:E53_Place ;
+    rdfs:label "UK" .
+
+<http://data.odeuropa.eu/place/df63c1d0-5e69-583a-81c2-c4295b7a9426> a crm:E53_Place ;
+    rdfs:label "Italy" .
+
 <http://data.odeuropa.eu/source/006dcdf0-bf39-575f-abfa-b0392fa94a7c> a crm:E33_Linguistic_Object ;
     rdfs:label "Učiteljski tovariš"@sl ;
     schema:dateCreated <http://data.odeuropa.eu/time/107528b9-8034-5a38-9e53-34ef689ae8cc> ;
@@ -1065,8 +1071,6 @@
     schema:url <http://www.dlib.si/details/URN:NBN:SI:DOC-Q9EY6NJN> ;
     schema:volumeNumber "13" .
 
-<https://sws.geonames.org/2635167/> a crm:E53_Place .
-
 <https://sws.geonames.org/2643743/> a crm:E53_Place .
 
 <https://sws.geonames.org/2750405/> a crm:E53_Place .
@@ -1074,8 +1078,6 @@
 <https://sws.geonames.org/2921044/> a crm:E53_Place .
 
 <https://sws.geonames.org/2971549/> a crm:E53_Place .
-
-<https://sws.geonames.org/3175395/> a crm:E53_Place .
 
 <https://sws.geonames.org/3570675/> a crm:E53_Place .
 

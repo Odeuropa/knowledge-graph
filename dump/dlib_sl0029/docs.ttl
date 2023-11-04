@@ -4,6 +4,12 @@
 @prefix time: <http://www.w3.org/2006/time#> .
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 
+<http://data.odeuropa.eu/place/c9476c61-f9da-5b76-9cb7-083c002fd478> a crm:E53_Place ;
+    rdfs:label "UK" .
+
+<http://data.odeuropa.eu/place/df63c1d0-5e69-583a-81c2-c4295b7a9426> a crm:E53_Place ;
+    rdfs:label "Italy" .
+
 <http://data.odeuropa.eu/source/00f811d0-6fee-5bf1-8367-3af43a05a5e7> a crm:E33_Linguistic_Object ;
     rdfs:label "Glas naroda: najstarejši list slovenskih delavcev v Ameriki"@sl ;
     schema:dateCreated <http://data.odeuropa.eu/time/72efed5d-b457-52b9-b478-9e38347d9258> ;
@@ -352,7 +358,7 @@
     schema:inLanguage "sl" ;
     schema:isPartOf <http://data.odeuropa.eu/source/bc3cd737-8c02-5ea2-a567-45ab9abaa2c9> ;
     schema:issueNumber "190" ;
-    schema:locationCreated <http://data.odeuropa.eu/place/5aee7dd0-a476-5df7-986b-8bf3c232688d> ;
+    schema:locationCreated <https://sws.geonames.org/2661881/> ;
     schema:publisher <http://data.odeuropa.eu/actor/612663c2-869a-5be0-8c59-4c7a95b52d17> ;
     schema:url <http://www.dlib.si/details/URN:NBN:SI:DOC-HGOLRKTQ> ;
     schema:volumeNumber "11" .
@@ -542,7 +548,7 @@
     schema:inLanguage "sl" ;
     schema:isPartOf <http://data.odeuropa.eu/source/bc3cd737-8c02-5ea2-a567-45ab9abaa2c9> ;
     schema:issueNumber "27" ;
-    schema:locationCreated <http://data.odeuropa.eu/place/5aee7dd0-a476-5df7-986b-8bf3c232688d> ;
+    schema:locationCreated <https://sws.geonames.org/2661881/> ;
     schema:publisher <http://data.odeuropa.eu/actor/612663c2-869a-5be0-8c59-4c7a95b52d17> ;
     schema:url <http://www.dlib.si/details/URN:NBN:SI:DOC-VGDPZYJT> ;
     schema:volumeNumber "12" .
@@ -838,7 +844,7 @@
     schema:inLanguage "sl" ;
     schema:isPartOf <http://data.odeuropa.eu/source/54c2a27d-81f2-582b-ba09-e10cff9c1ee6> ;
     schema:issueNumber "10" ;
-    schema:locationCreated <https://sws.geonames.org/5435464/> ;
+    schema:locationCreated <https://sws.geonames.org/4001515/> ;
     schema:publisher <http://data.odeuropa.eu/actor/128a59b3-907b-5847-bdcb-3a34ac987908> ;
     schema:url <http://www.dlib.si/details/URN:NBN:SI:DOC-VSJ2NZJN> ;
     schema:volumeNumber "4" .
@@ -990,7 +996,7 @@
     schema:inLanguage "sl" ;
     schema:isPartOf <http://data.odeuropa.eu/source/54c2a27d-81f2-582b-ba09-e10cff9c1ee6> ;
     schema:issueNumber "43" ;
-    schema:locationCreated <https://sws.geonames.org/5435464/> ;
+    schema:locationCreated <https://sws.geonames.org/4001515/> ;
     schema:publisher <http://data.odeuropa.eu/actor/128a59b3-907b-5847-bdcb-3a34ac987908> ;
     schema:url <http://www.dlib.si/details/URN:NBN:SI:DOC-2ECGMI8E> ;
     schema:volumeNumber "9" .
@@ -1052,8 +1058,6 @@
     schema:url <http://www.dlib.si/details/URN:NBN:SI:DOC-WOTYL7ZV> ;
     schema:volumeNumber "9" .
 
-<https://sws.geonames.org/2635167/> a crm:E53_Place .
-
 <https://sws.geonames.org/2643743/> a crm:E53_Place .
 
 <https://sws.geonames.org/2750405/> a crm:E53_Place .
@@ -1061,8 +1065,6 @@
 <https://sws.geonames.org/2921044/> a crm:E53_Place .
 
 <https://sws.geonames.org/2971549/> a crm:E53_Place .
-
-<https://sws.geonames.org/3175395/> a crm:E53_Place .
 
 <https://sws.geonames.org/3570675/> a crm:E53_Place .
 
@@ -1664,9 +1666,6 @@
 <http://data.odeuropa.eu/actor/b4750cb2-f751-5b93-894d-d5775eb09918> a crm:E39_Actor ;
     rdfs:label "M. Kolar, Ljubljana" .
 
-<http://data.odeuropa.eu/place/5aee7dd0-a476-5df7-986b-8bf3c232688d> a crm:E53_Place ;
-    rdfs:label "ZDA" .
-
 <http://data.odeuropa.eu/source/1d8856ea-0302-5958-9278-9c9aeb6512d8> a crm:E33_Linguistic_Object ;
     rdfs:label "Domači prijatelj (Praga)" .
 
@@ -1702,9 +1701,11 @@
     time:hasBeginning "1912"^^xsd:gYear ;
     time:hasEnd "1912"^^xsd:gYear .
 
+<https://sws.geonames.org/2661881/> a crm:E53_Place .
+
 <https://sws.geonames.org/3067696/> a crm:E53_Place .
 
-<https://sws.geonames.org/5435464/> a crm:E53_Place .
+<https://sws.geonames.org/4001515/> a crm:E53_Place .
 
 <http://data.odeuropa.eu/actor/4d3a57d7-fdd0-5b74-a40b-3f9d7266aaf3> a crm:E39_Actor ;
     rdfs:label "Dragotin Hribar" .
