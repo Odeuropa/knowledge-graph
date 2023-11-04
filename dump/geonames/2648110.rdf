@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<rdf:RDF xmlns:cc="http://creativecommons.org/ns#" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:foaf="http://xmlns.com/foaf/0.1/" xmlns:gn="http://www.geonames.org/ontology#" xmlns:owl="http://www.w3.org/2002/07/owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:wgs84_pos="http://www.w3.org/2003/01/geo/wgs84_pos#">
+    <gn:Feature rdf:about="https://sws.geonames.org/2648110/">
+        <rdfs:isDefinedBy rdf:resource="https://sws.geonames.org/2648110/about.rdf"/>
+        <gn:name>Greater London</gn:name>
+        <gn:alternateName xml:lang="fr">Grand Londres</gn:alternateName>
+        <gn:officialName xml:lang="en">Greater London</gn:officialName>
+        <gn:alternateName>Greater London</gn:alternateName>
+        <gn:officialName xml:lang="it">Londra</gn:officialName>
+        <gn:officialName xml:lang="es">Londres</gn:officialName>
+        <gn:officialName xml:lang="no">Stor-London</gn:officialName>
+        <gn:featureClass rdf:resource="https://www.geonames.org/ontology#A"/>
+        <gn:featureCode rdf:resource="https://www.geonames.org/ontology#A.ADM2"/>
+        <gn:countryCode>GB</gn:countryCode>
+        <gn:population>7504800</gn:population>
+        <wgs84_pos:lat>51.5</wgs84_pos:lat>
+        <wgs84_pos:long>-0.16667</wgs84_pos:long>
+        <gn:parentFeature rdf:resource="https://sws.geonames.org/11609024/"/>
+        <gn:parentCountry rdf:resource="https://sws.geonames.org/2635167/"/>
+        <gn:parentADM1 rdf:resource="https://sws.geonames.org/6269131/"/>
+        <gn:childrenFeatures rdf:resource="https://sws.geonames.org/2648110/contains.rdf"/>
+        <gn:locationMap rdf:resource="https://www.geonames.org/2648110/greater-london.html"/>
+        <gn:wikipediaArticle rdf:resource="https://en.wikipedia.org/wiki/Greater_London"/>
+        <rdfs:seeAlso rdf:resource="https://dbpedia.org/resource/Greater_London"/>
+    </gn:Feature>
+    <foaf:Document rdf:about="https://sws.geonames.org/2648110/about.rdf">
+        <foaf:primaryTopic rdf:resource="https://sws.geonames.org/2648110/"/>
+        <cc:license rdf:resource="https://creativecommons.org/licenses/by/4.0/"/>
+        <cc:attributionURL rdf:resource="https://www.geonames.org"/>
+        <cc:attributionName rdf:datatype="https://www.w3.org/2001/XMLSchema#string">GeoNames</cc:attributionName>
+        <dcterms:created rdf:datatype="https://www.w3.org/2001/XMLSchema#date">2006-01-15</dcterms:created>
+        <dcterms:modified rdf:datatype="https://www.w3.org/2001/XMLSchema#date">2021-04-29</dcterms:modified>
+    </foaf:Document>
+</rdf:RDF>

@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<rdf:RDF xmlns:cc="http://creativecommons.org/ns#" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:foaf="http://xmlns.com/foaf/0.1/" xmlns:gn="http://www.geonames.org/ontology#" xmlns:owl="http://www.w3.org/2002/07/owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:wgs84_pos="http://www.w3.org/2003/01/geo/wgs84_pos#">
+    <gn:Feature rdf:about="https://sws.geonames.org/6450804/">
+        <rdfs:isDefinedBy rdf:resource="https://sws.geonames.org/6450804/about.rdf"/>
+        <gn:name>Bassigney</gn:name>
+        <gn:shortName xml:lang="fr">Bassigney</gn:shortName>
+        <gn:shortName>Bassigney</gn:shortName>
+        <gn:alternateName xml:lang="ru">Басинье</gn:alternateName>
+        <gn:alternateName xml:lang="sr">Басиње</gn:alternateName>
+        <gn:alternateName xml:lang="uk">Бассіньє</gn:alternateName>
+        <gn:featureClass rdf:resource="https://www.geonames.org/ontology#A"/>
+        <gn:featureCode rdf:resource="https://www.geonames.org/ontology#A.ADM4"/>
+        <gn:countryCode>FR</gn:countryCode>
+        <gn:population>132</gn:population>
+        <wgs84_pos:lat>47.81639</wgs84_pos:lat>
+        <wgs84_pos:long>6.18111</wgs84_pos:long>
+        <gn:parentFeature rdf:resource="https://sws.geonames.org/2997075/"/>
+        <gn:parentCountry rdf:resource="https://sws.geonames.org/3017382/"/>
+        <gn:parentADM1 rdf:resource="https://sws.geonames.org/11071619/"/>
+        <gn:parentADM2 rdf:resource="https://sws.geonames.org/3013737/"/>
+        <gn:parentADM3 rdf:resource="https://sws.geonames.org/2997075/"/>
+        <gn:childrenFeatures rdf:resource="https://sws.geonames.org/6450804/contains.rdf"/>
+        <gn:locationMap rdf:resource="https://www.geonames.org/6450804/bassigney.html"/>
+        <gn:wikipediaArticle rdf:resource="https://en.wikipedia.org/wiki/Bassigney"/>
+        <rdfs:seeAlso rdf:resource="https://dbpedia.org/resource/Bassigney"/>
+        <owl:sameAs rdf:resource="http://id.insee.fr/geo/commune/70052"/>
+    </gn:Feature>
+    <foaf:Document rdf:about="https://sws.geonames.org/6450804/about.rdf">
+        <foaf:primaryTopic rdf:resource="https://sws.geonames.org/6450804/"/>
+        <cc:license rdf:resource="https://creativecommons.org/licenses/by/4.0/"/>
+        <cc:attributionURL rdf:resource="https://www.geonames.org"/>
+        <cc:attributionName rdf:datatype="https://www.w3.org/2001/XMLSchema#string">GeoNames</cc:attributionName>
+        <dcterms:created rdf:datatype="https://www.w3.org/2001/XMLSchema#date">2007-03-22</dcterms:created>
+        <dcterms:modified rdf:datatype="https://www.w3.org/2001/XMLSchema#date">2019-03-29</dcterms:modified>
+    </foaf:Document>
+</rdf:RDF>
