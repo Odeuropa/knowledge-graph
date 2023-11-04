@@ -1,7 +1,7 @@
 import uuid
 from os import path
 
-from rdflib import URIRef, RDF, RDFS, SDO, SKOS
+from rdflib import URIRef, RDF, RDFS, SDO, SKOS, XSD
 
 from . import Graph
 from .Entity import Entity
@@ -141,3 +141,6 @@ class TextFragment(Entity):
     def add_annotation(self, what, prov):
         Graph.set_prov(self.parent.add(CRM.P67_refers_to, what), prov)
         Graph.set_prov(self.add(CRM.P67_refers_to, what), prov)
+
+    def set_position(self, pos):
+        self.add(SDO.position, pos, XSD.integer)

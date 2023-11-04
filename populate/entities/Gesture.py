@@ -17,4 +17,5 @@ class Gesture(Entity):
 
         self.interlinked = lemma is not None
         if lemma is not None:
-            self.add(CRM.P137_exemplifies, lemma)
+            self.uri = lemma
+            # self.add(CRM.P137_exemplifies, lemma)

@@ -10,14 +10,12 @@ class SmellEmission(Entity):
         super().__init__(seed, 'emission')
         self.set_class(ODEUROPA.L12_Smell_Emission)
         self.add(ODEUROPA.F1_generated, smell)
-
         self.count_source = 0
 
         for x in re.split(r'(?: ?\| ?)|(?: and )', source):
             if not x or re.match(r'^\W+$', x.strip()):
                 break
             s = re.sub(r'^(of|with) ', '', x.strip()).strip()
-
             self.add_source(s, lang)
 
         for x in carrier.split(' | '):

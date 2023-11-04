@@ -34,11 +34,11 @@ class Actor(Entity):
 
             if lemma is not None:
                 # print(name, lemma)
-                if 'Animal' in role:
+                if role is not None and 'Animal' in role:
                     is_animal = True
                 else:
                     is_person = True
-                    if 'Occupation' in role:
+                    if role is not None and 'Occupation' in role:
                         self.add(REO.readP1, lemma)
 
             self.add(CRM.P137_exemplifies, lemma)

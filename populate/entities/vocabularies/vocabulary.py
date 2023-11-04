@@ -28,6 +28,7 @@ class Vocabulary:
                 'inScheme': '?namespace',
                 'collection': '$skos:member$reverse'
             }],
+            '$from': 'http://www.ontotext.com/explicit',
             '$where': '{ ?id skos:inScheme|skos:topConceptOf ?namespace } UNION { ?namespace skos:member ?id}',
             '$values': {
                 'namespace': schema,
@@ -94,8 +95,14 @@ class Vocabulary:
     def autocomplete(self, q, lang, n=10):
         return self.search(q, lang, n, True)
 
+    search_cache = {}
+
     def search(self, q, lang, n=10, autocomplete=False):
+        if q in self.search_cache:
+            return self.search_cache[q]
         matches = [Lemma(l.data, l.similar_to(q, lang, autocomplete)) for l in self.lemmata]
         matches.sort(key=lambda a: -a.score)
         matches = [a for a in matches if a.score][0:n]
-        return Vocabulary(matches)
+        res = Vocabulary(matches)
+        self.search_cache[q] = res
+        return res

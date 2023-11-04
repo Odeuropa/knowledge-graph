@@ -1,4 +1,5 @@
 from rdflib import TIME, RDFS
+from isodate import ISO8601Error
 
 from .Entity import Entity
 from .time_parsing import time_parsing

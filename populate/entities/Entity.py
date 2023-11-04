@@ -42,6 +42,8 @@ class Entity:
         self.label = label
 
     def add_descr(self, text, lang):
+        if text is None or not text:
+            return
         self.add(RDFS.comment, text.strip(), lang)
 
     def add_place(self, place, lang=None):

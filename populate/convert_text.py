@@ -12,6 +12,7 @@ from tqdm import tqdm
 from rdflib import SDO, RDF, SKOS
 import rispy
 
+
 from entities import *
 from entities.Graph import ODEUROPA_PROJECT
 from entities.vocabularies import VocabularyManager as VocabularyManager
@@ -152,6 +153,7 @@ def process_annotation_sheet(df, lang, codename, emotions):
 
         txt = doc or TextualObject(identifier, title)
         frag = txt.add_fragment(sentence.replace(' | ', ''), lang, frag_uri)
+        frag.set_position(doc_map[identifier])
 
         if 'Annotator' in r:
             prov = Provenance(codename + r['Annotator'], 'Manual text annotation', PROV_DESCR, r['Annotator'])
@@ -164,6 +166,7 @@ def process_annotation_sheet(df, lang, codename, emotions):
         smell = Smell(curid)
         for x in r['Smell_Word'].split('|'):
             smell.add_label(x, lang)
+
         emission = SmellEmission(curid, smell, get_safe('Smell_Source', r), get_safe('Odour_Carrier', r), lang=lang)
 
         perceiver = set([p for p in r.get('Perceiver', '').split(' | ') if p not in get_all_smell_words(lang)])
@@ -288,19 +291,23 @@ def process_metadata(lang, docs_file, intermediate_map, collection):
     df.fillna('', inplace=True)
     df.drop_duplicates(inplace=True)
 
-    splitting = ',' if 'old-bailey-corpus' in docs_file else '|'
+    splitting = '|'
     internals = {}
 
     for i, r in tqdm(df.iterrows(), total=df.shape[0]):
-        identifier = r['id'].replace('.xml', '').replace('.txt', '')
+        if 'old-bailey-corpus' in docs_file:
+            identifier = r['id']
+        else:
+            identifier = r['id'].replace('.xml', '').replace('.txt', '')
+
         if collection == 'eebo':
             identifier = identifier.replace('/', '_')
         internal_id = r.get('identifiers', identifier)
 
         if intermediate_map is not None:
-            post = '' if collection in ['ecco', 'british-library', 'medical-heritage'] else '.txt'
+            post = '' if collection in ['ecco', 'british-library', 'medical-heritage', 'old-bailey-corpus',
+                                        'royal-society-corpus'] else '.txt'
             pointer = intermediate_map[intermediate_map['real_id'] == identifier + post]['id']
-
             if len(pointer) > 0:
                 real_id = pointer.iloc[0]
             else:
@@ -491,7 +498,7 @@ def run(root, output, lang=None, organised_in_batches=False, metadata_format='ts
         for lg in ['English', 'Italian', 'Dutch', 'French', 'German', 'Slovenian', 'Dutch']:
             process_benchmark_sheet(lg, docs_file)
     elif collection in ['british-library', 'medical-heritage']:
-        periods = [x for x in os.listdir(root) if x.endswith('frames.tsv')]
+        periods = sorted([x for x in os.listdir(root) if x.endswith('frames.tsv')])
 
         for i, b in enumerate(periods):
             print(b)
@@ -506,8 +513,11 @@ def run(root, output, lang=None, organised_in_batches=False, metadata_format='ts
             Graph.g.serialize(destination=f"{out_folder}/docs{i}.ttl")
             Graph.reset()
 
-            emotion_file = frames.replace('BritishLibrary-', 'emotions-BritishLibrary-').replace('-frames.tsv',
-                                                                                                 '.jsonl')
+            emotion_file = (
+                re.sub(r"UK-Medical-Heritage-Library-(\d)_(\d)-frames.tsv", r"emotions-UK-MH-\1-\2-p1", frames)
+                .replace('BritishLibrary-', 'emotions-BritishLibrary-')
+                .replace('-frames.tsv', '.jsonl'))
+
             emotions = []
             if path.isfile(emotion_file):
                 print('Loading emotions')

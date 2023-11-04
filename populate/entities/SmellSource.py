@@ -12,7 +12,6 @@ class SmellSource(Entity):
         super().__init__(seed, 'object')
         if label is None:
             label = seed
-        self.add_label(label, lang)
 
         self.role = None
         if lemma is None:
@@ -25,16 +24,18 @@ class SmellSource(Entity):
         self.interlinked = lemma is not None
         if lemma is None:
             self.set_class(CRMsci.S10_Material_Substantial)
+            self.add_label(label, lang)
         else:
-            self.add(CRM.P137_exemplifies, lemma)
-            if role == 'place':
-                self.set_class(CRM.E53_Place)
-            if role == 'person':
-                    self.set_class(CRM.E21_Person)
-            if role and ARTIFACT in role:
-                self.set_class(CRM.E22_HumanMade_Object)
-            else:
-                self.set_class(CRMsci.S10_Material_Substantial)
+            self.uri = lemma
+            # self.add(CRM.P137_exemplifies, lemma)
+            # if role == 'place':
+            #     self.set_class(CRM.E53_Place)
+            # if role == 'person':
+            #         self.set_class(CRM.E21_Person)
+            # if role and ARTIFACT in role:
+            #     self.set_class(CRM.E22_HumanMade_Object)
+            # else:
+            #     self.set_class(CRMsci.S10_Material_Substantial)
 
             if role:
                 if CARRIER in role:

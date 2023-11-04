@@ -86,9 +86,9 @@ class OlfactoryExperience(Entity):
         return em.add(REO.readP27, self)
 
 
-class Emotion(Entity):
+class Emotion(MiniEntity):
     def __init__(self, seed, label, typ, sentiment):
-        super().__init__(seed, 'emotion')
+        super().__init__('emotion-type', typ, typ, SKOS.Concept)
 
         self.set_class(REO.REO21)
         self.add_label(label)
@@ -99,6 +99,7 @@ class Emotion(Entity):
             typ = typ.strip()
             match = VocManager.get('emotion').search(typ)
             if len(match.lemmata) and match.lemmata[0].score == 1:
-                self.add(CRM.P137_exemplifies, match.lemmata[0].id)
-            else:
-                self.add(CRM.P137_exemplifies, MiniEntity('emotion-type', typ, typ, SKOS.Concept))
+                self.uri = match.lemmata[0].id
+                # self.add(CRM.P137_exemplifies, match.lemmata[0].id)
+            # else:
+            #     self.add(CRM.P137_exemplifies, MiniEntity('emotion-type', typ, typ, SKOS.Concept))

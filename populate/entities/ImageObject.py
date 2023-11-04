@@ -26,6 +26,7 @@ class ImageObject(SourceDoc):
         self.add_place(place)
 
         self.has_manual_annotations = False
+        self.has_manual_gest_annotations = False
 
     def add_fragment(self, bbox):
         frag = MediaFragment(self, bbox, self)

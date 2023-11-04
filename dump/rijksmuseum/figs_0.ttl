@@ -1,0 +1,887 @@
+@prefix crm: <http://erlangen-crm.org/current/> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <https://schema.org/> .
+@prefix time: <http://www.w3.org/2006/time#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<http://data.odeuropa.eu/provenance/9353c0bc-1e0b-5a83-9ec3-24b82faf8a56> a prov:Activity ;
+    rdfs:label "Manual image annotation" ;
+    rdfs:comment "Manual annotation of image resources realised according to the Odeuropa deliverable D2.4 \"Annotated image data version 2\" " ;
+    prov:wasAssociatedWith <http://data.odeuropa.eu/odeuropa> .
+
+<http://data.odeuropa.eu/provenance/db29c010-6542-531f-aea4-8d066a16ad70> a prov:Activity ;
+    rdfs:label "Automatic image annotation" ;
+    rdfs:comment "Automatic annotation of image resources realised according to the Odeuropa deliverable D2.3 \"Object Detection/Image analysis version 1\" " ;
+    prov:wasAssociatedWith <http://data.odeuropa.eu/odeuropa>,
+        <http://data.odeuropa.eu/software/7d269fd1-03f0-5e88-b0fb-bb0f887cddfe> .
+
+<http://data.odeuropa.eu/source/056648b5-5be6-56e7-a27d-aa920caf6de0> a crm:E36_Visual_Item ;
+    rdfs:label "De nachtwacht" ;
+    schema:artist <http://data.odeuropa.eu/actor/2d84d936-3af4-5654-9626-deee9ce1e5fb> ;
+    schema:dateCreated <http://data.odeuropa.eu/time/0f402117-6b6d-5110-93f0-21c367abc9d9> ;
+    schema:image <https://data.odeuropa.eu/image/8a7f9446-7a90-42fb-868f-558d6e871582.jpg>,
+        <https://lh4.ggpht.com/yqFq1K_DVYPbz3x1F7itDj8YFqfdVc--DZcMD4LE16TQUPqgO-vqDZMTv24WLbOAyHUZPd4wlRHULxOq9-UAoepajwI=s0> ;
+    schema:url <http://www.rijksmuseum.nl/nl/collectie/RP-P-OB-67.589> .
+
+<http://data.odeuropa.eu/source/0650c115-1a59-5f3a-9f0a-921d37e67c99> a crm:E36_Visual_Item ;
+    rdfs:label "Nachtwacht" ;
+    schema:artist <http://data.odeuropa.eu/actor/e3494ae4-31fd-5f37-8551-ccdf3da488c2> ;
+    schema:dateCreated <http://data.odeuropa.eu/time/6cc10647-22b3-59a8-a5b7-49b35a2a923e> ;
+    schema:image <https://data.odeuropa.eu/image/d7463308-4b27-40b6-98ac-9cde2d9d620a.jpg>,
+        <https://lh3.ggpht.com/7pvxEc66pGW7LghH-FQvW6WeAd9wQQZL4usKNYtBQtyi1kYVjFJl0-jVzilPu8CC4JqdABMvA57WXw56eFyV1-Z6F7sz=s0> ;
+    schema:url <http://www.rijksmuseum.nl/nl/collectie/BK-NM-11177-293> .
+
+<http://data.odeuropa.eu/source/0fed1d5b-7be8-5127-b451-a8265f500f93> a crm:E36_Visual_Item ;
+    rdfs:label "De Emmaüsgangers" ;
+    schema:artist <http://data.odeuropa.eu/actor/e9c33dfb-b796-5d66-8dff-416584a1229d> ;
+    schema:dateCreated <http://data.odeuropa.eu/time/15447008-a4fb-5e6b-a785-a623d02b2ff4> ;
+    schema:image <https://data.odeuropa.eu/image/2b46da25-ecc2-4319-b774-870427a8b4a1.jpg>,
+        <https://lh3.googleusercontent.com/_wODvOKAVEy_wio8yFOnuBm0puF2lqxygdZriy6Wdg5hNTL13RQOWsrDNNP59Nnjv705l9vUy2_ZrtTFe1duAODKuWk=s0> ;
+    schema:url <http://www.rijksmuseum.nl/nl/collectie/SK-A-1932> .
+
+<http://data.odeuropa.eu/source/100fd54a-561a-5f87-8e7d-4e502240e409> a crm:E36_Visual_Item ;
+    rdfs:label "Bosgezicht" ;
+    schema:artist <http://data.odeuropa.eu/actor/6acd2747-b3d4-558d-9184-a753f7e72d76> ;
+    schema:dateCreated <http://data.odeuropa.eu/time/83a240cf-3de6-5593-b1c7-c577d0c7b819> ;
+    schema:image <https://data.odeuropa.eu/image/4ada7627-8c96-48b4-a85e-e402588ee90a.jpg>,
+        <https://lh3.googleusercontent.com/NqUXm0KUD2jV-jRHYayiqus_vt7-vA8rNPMjLoxnkIVKZB2FjBTEG7GrHWaFi4ddVCw_JUuhWW-Q8s5eAtNQyOAzr14=s0> ;
+    schema:url <http://www.rijksmuseum.nl/nl/collectie/SK-A-350> .
+
+<http://data.odeuropa.eu/source/23fb836c-7918-58b9-897d-74712a4dae60> a crm:E36_Visual_Item ;
+    rdfs:label "Maria Magdalena" ;
+    schema:artist <http://data.odeuropa.eu/actor/f2b211bd-5ece-53be-b208-59ebf708bfa0> ;
+    schema:dateCreated <http://data.odeuropa.eu/time/18525c99-22b8-54f8-aa3b-50b4285eb47b> ;
+    schema:image <https://data.odeuropa.eu/image/f1cda91e-4d37-4056-8979-028c4cd3da49.jpg>,
+        <https://lh3.googleusercontent.com/moxL3z7zz5j_5gQCgvRGcmLD-RDhVgZvA2NGREYgkLTkYUbGa4Ts-57UaQ4ilN38xWX6w_gb_eU6hkMZcC-wfMg5NQ=s0> ;
+    schema:url <http://www.rijksmuseum.nl/nl/collectie/SK-A-372> .
+
+<http://data.odeuropa.eu/source/26f6a1bf-fcb8-55bb-aac7-da0342e2e62c> a crm:E36_Visual_Item ;
+    rdfs:label "Portret van Maritge Claesdr Vooght" ;
+    schema:artist <http://data.odeuropa.eu/actor/73fbb429-a040-55fa-985e-24d8f62e6960> ;
+    schema:dateCreated <http://data.odeuropa.eu/time/88ec35ff-9ac3-5a5a-a50f-0624eb83adc0> ;
+    schema:image <https://data.odeuropa.eu/image/2f1ae23f-2fdc-40c8-afb0-4aa0fe5f6361.jpg>,
+        <https://lh3.googleusercontent.com/Lj1gbiiCOTsWyfYP-7FIzbXWpvJZGFffZ4OLDKE6OauUezaf87kUxlCNm9ADH5H0LGhWkdjE2amdMFHknZSGGK5pVbrERfVlkHs0WqEF=s0> ;
+    schema:url <http://www.rijksmuseum.nl/nl/collectie/SK-C-139> .
+
+<http://data.odeuropa.eu/source/289e7c18-a513-5581-a0ba-51ecad91f70b> a crm:E36_Visual_Item ;
+    rdfs:label "Cimon en Pero" ;
+    schema:artist <http://data.odeuropa.eu/actor/56229f44-3587-52d1-851a-71a886df8171> ;
+    schema:dateCreated <http://data.odeuropa.eu/time/27a02c7e-466c-5064-bf61-bf9b503d625e> ;
+    schema:image <https://data.odeuropa.eu/image/6d93e47c-62eb-4abc-b657-23aaf76b55d6.jpg>,
+        <https://lh3.googleusercontent.com/hEdGHTlP0Kt9vjQ5Je_30upPT5IA4keehlQYBhAsDj0Hexd9VLnnDdXfWS7zDWYaNcKChaaE8gQKYERrF6_E8wxWqjpwdr5vrXa4OTY=s0> ;
+    schema:url <http://www.rijksmuseum.nl/nl/collectie/SK-C-1802> .
+
+<http://data.odeuropa.eu/source/2ba2a8b6-75d9-5f19-bc25-1d422ab159dc> a crm:E36_Visual_Item ;
+    rdfs:label "Winterlandschap" ;
+    schema:artist <http://data.odeuropa.eu/actor/6acd2747-b3d4-558d-9184-a753f7e72d76> ;
+    schema:dateCreated <http://data.odeuropa.eu/time/96842583-3e63-541b-88e3-1a025f127e91> ;
+    schema:image <https://data.odeuropa.eu/image/12b4e4da-0d2b-43b2-9e98-105fb9bc359d.jpg>,
+        <https://lh3.googleusercontent.com/qM1Sd56ix9k-IH8v97c7M-flQ60hWBs8LfFgw6ByBhU477MTH0jyFJyjbwK6CDaRZujQuS83nSroKCOvJL_tgU2xF7E=s0> ;
+    schema:url <http://www.rijksmuseum.nl/nl/collectie/SK-A-349> .
+
+<http://data.odeuropa.eu/source/3bc8e628-91fb-50d8-a145-ab59db20181e> a crm:E36_Visual_Item ;
+    rdfs:label "Bloemstilleven met een keizerskroon in een stenen nis" ;
+    schema:artist <http://data.odeuropa.eu/actor/c14ad1e5-12be-52fa-8d5c-219173517c19> ;
+    schema:dateCreated <http://data.odeuropa.eu/time/d195e3ee-73df-5d9b-9ed2-bc4133e981c7> ;
+    schema:image <https://data.odeuropa.eu/image/b984e0ef-5651-4e09-9b47-68e75ab65436.jpg>,
+        <https://lh3.googleusercontent.com/oBdHYIWmiIL9bLZ3wp78D2mObyNrq9isThJ79q1qr0fp0gIjl-fwBNFUrALVcw4TDbHVVUzhgr2nPnxpci3aWn_helLvcDXMdWg9lbYb=s0> ;
+    schema:url <http://www.rijksmuseum.nl/nl/collectie/SK-A-5069> .
+
+<http://data.odeuropa.eu/source/40575e65-113c-50ae-8e11-79de72d54bdd> a crm:E36_Visual_Item ;
+    rdfs:label "De nachtwacht" ;
+    schema:artist <http://data.odeuropa.eu/actor/2d84d936-3af4-5654-9626-deee9ce1e5fb> ;
+    schema:dateCreated <http://data.odeuropa.eu/time/0f402117-6b6d-5110-93f0-21c367abc9d9> ;
+    schema:image <https://data.odeuropa.eu/image/ac7350df-5c5e-47e0-9bc3-0d64b8b963f9.jpg>,
+        <https://lh5.ggpht.com/gFkHPOtqsO04FNCerefNQEQejHeCB1xVd9QhoflqCPt1BWP433H7N8YTSK_9bkhB0bCmidvmUMi0PU_8r1FAzqpd79Y=s0> ;
+    schema:url <http://www.rijksmuseum.nl/nl/collectie/RP-P-1913-667> .
+
+<http://data.odeuropa.eu/source/41335278-5411-5d9a-82c1-ce5c55045c58> a crm:E36_Visual_Item ;
+    rdfs:label "Het vrolijke huisgezin" ;
+    schema:artist <http://data.odeuropa.eu/actor/e9c33dfb-b796-5d66-8dff-416584a1229d> ;
+    schema:dateCreated <http://data.odeuropa.eu/time/b011bfca-8e1d-57dc-8d2f-74074bf302be> ;
+    schema:image <https://data.odeuropa.eu/image/b66932b3-9c0c-4962-b2aa-3e4e48163417.jpg>,
+        <https://lh3.googleusercontent.com/7JF0tll1eAfY8XgFHJ6Iq_e1xux4xgcT8_LxMfVbZdRMC5CX5KsXLH1DLlMEfuTfKX8kehtmhJyzJSBFEBDPFmeB6Y8=s0> ;
+    schema:url <http://www.rijksmuseum.nl/nl/collectie/SK-C-229> .
+
+<http://data.odeuropa.eu/source/47e6fdd4-8ce6-5141-975e-978fdc9ad788> a crm:E36_Visual_Item ;
+    rdfs:label "Het middenschip en koor van de Mariakerk in Utrecht" ;
+    schema:artist <http://data.odeuropa.eu/actor/2316d992-b867-5bfc-80e2-d0362f2a420f> ;
+    schema:dateCreated <http://data.odeuropa.eu/time/8f792a8c-404b-59c7-ad34-a445522b2d37> ;
+    schema:image <https://data.odeuropa.eu/image/3f585116-c25b-4d14-b93b-5ef5d9df6c63.jpg>,
+        <https://lh3.googleusercontent.com/O-pXdMqwSGdMf_CEpSYHWC9oVCjFo_FFf0hXOKcy4e7GL9h2A_aWeKOanuw-JcT6j62ym38uRZzhozqN1tYwpJOd9aKPl2SQm10sXWJg=s0> ;
+    schema:url <http://www.rijksmuseum.nl/nl/collectie/SK-A-851> .
+
+<http://data.odeuropa.eu/source/495d9043-2fe7-51c5-a82e-c56ff415b65d> a crm:E36_Visual_Item ;
+    rdfs:label "De serenade" ;
+    schema:artist <http://data.odeuropa.eu/actor/d1c7b860-242a-50ce-922a-700c85069d30> ;
+    schema:dateCreated <http://data.odeuropa.eu/time/cdaaf983-f0e7-5ad4-a164-09bb9475cc01> ;
+    schema:image <https://data.odeuropa.eu/image/c47c9686-3d7a-4c6d-add6-48b789c0c6c2.jpg>,
+        <https://lh3.googleusercontent.com/Ra2qCGtt9lLef2-gp4j4ZGj5IKBb-MT7agxFezRNZoSuwYUZ2dpA_KjiF2_gUeRwWXJmPTznSz5aL2GAbJ-vmeXrAiZjLYEnKY4vqO9e=s0> ;
+    schema:url <http://www.rijksmuseum.nl/nl/collectie/SK-A-2326> .
+
+<http://data.odeuropa.eu/source/54240ff7-b6dc-51f0-bca5-f02af0abafe8> a crm:E36_Visual_Item ;
+    rdfs:label "De nachtwacht" ;
+    schema:artist <http://data.odeuropa.eu/actor/2d84d936-3af4-5654-9626-deee9ce1e5fb> ;
+    schema:dateCreated <http://data.odeuropa.eu/time/0f402117-6b6d-5110-93f0-21c367abc9d9> ;
+    schema:image <https://data.odeuropa.eu/image/a555ee47-d4a2-4f0a-a856-c44628218b7d.jpg>,
+        <https://lh4.ggpht.com/UtP6N1S0zTXyvaBvl5ChkIVOVD0rakX1lKYWXILN4loCxaQUSUbeXwim0oHrGcNBz8bvVffi3q6k3CsyMG2YrrKhOAI=s0> ;
+    schema:url <http://www.rijksmuseum.nl/nl/collectie/RP-P-OB-67.590> .
+
+<http://data.odeuropa.eu/source/581a2ca7-2686-5936-8043-4c3683d71c65> a crm:E36_Visual_Item ;
+    rdfs:label "Gezicht op een dorp aan een rivier" ;
+    schema:artist <http://data.odeuropa.eu/actor/61984274-395b-5c00-bb9a-8727f9fdc5e7> ;
+    schema:dateCreated <http://data.odeuropa.eu/time/3abeaf14-bed2-57d1-afbc-aa69b6a1aa2e> ;
+    schema:image <https://data.odeuropa.eu/image/0f891dc2-bcd2-4301-b54c-068ff41bd013.jpg>,
+        <https://lh3.googleusercontent.com/HCe9C_ljjuWDqtkpqGzSLKhu9_VTMsrkdiW86SF7YbNhiOCsVLh14opzbXwZU_XI07f47yC9-PXtB3pVtchZsWO4sJDOsBTzZG2jaKvD=s0> ;
+    schema:url <http://www.rijksmuseum.nl/nl/collectie/SK-A-120> .
+
+<http://data.odeuropa.eu/source/587fcc58-b18a-5e08-9d66-4ee0485589dd> a crm:E36_Visual_Item ;
+    rdfs:label "Portret van Lucas de Clercq" ;
+    schema:artist <http://data.odeuropa.eu/actor/73fbb429-a040-55fa-985e-24d8f62e6960> ;
+    schema:dateCreated <http://data.odeuropa.eu/time/20e2df93-ee1d-559f-9427-281f1c99f500> ;
+    schema:image <https://data.odeuropa.eu/image/a27ce026-774f-40c2-a74e-f205270d4828.jpg>,
+        <https://lh3.googleusercontent.com/xZh3RnT2zMoGP0tw2lxbi05H_ovUjCt8sdokb9yCcRwco3zAOOOcM5uSVs5mBaXiMZk9EDhb_i-TmAYaOK83FctQ_vU2INw6_KZ1ZR8=s0> ;
+    schema:url <http://www.rijksmuseum.nl/nl/collectie/SK-C-556> .
+
+<http://data.odeuropa.eu/source/5b19316c-3dba-5470-a2cc-e586ad824986> a crm:E36_Visual_Item ;
+    rdfs:label "Marten Soolmans" ;
+    schema:artist <http://data.odeuropa.eu/actor/f51166c2-d49a-5256-adab-37c25a7dcd64> ;
+    schema:dateCreated <http://data.odeuropa.eu/time/5b1da705-6588-5dbb-967a-5c6ff2197f78> ;
+    schema:image <https://data.odeuropa.eu/image/974d1c9c-befa-4e1a-9926-ebd7f89557b5.jpg>,
+        <https://lh3.googleusercontent.com/hDN8_JS4BbbksBXkxIDUldJvooejHBfQjgD3b_Jr73HjVOAs8thpnvCJA3WUtQFxlbjx-QB1-IyqhgEiM4dFLFk1Sg=s0> ;
+    schema:url <http://www.rijksmuseum.nl/nl/collectie/SK-A-5033> .
+
+<http://data.odeuropa.eu/source/5e8dbcba-b98b-5ef9-ac6e-a22b29540ba3> a crm:E36_Visual_Item ;
+    rdfs:label "Een watermolen" ;
+    schema:artist <http://data.odeuropa.eu/actor/6e6d16fa-8a65-51fd-899f-a52ca84125c2> ;
+    schema:dateCreated <http://data.odeuropa.eu/time/ed9a7192-1c65-5201-a243-62c75e6b755a> ;
+    schema:image <https://data.odeuropa.eu/image/ef8f6ff8-f367-4f11-8040-1a3c917684eb.jpg>,
+        <https://lh3.googleusercontent.com/MeenbCsBOS4D_EFg9wKVhsbk-NpoP00Bx-BSch3uLzRRIqG1wxf-mYPLSXUsCCNjjVlYx6VRJfYXR8jOGEZncLQcFb8=s0> ;
+    schema:url <http://www.rijksmuseum.nl/nl/collectie/SK-A-156> .
+
+<http://data.odeuropa.eu/source/5ed92e6a-d001-5fbf-b1ba-34d6ec45167f> a crm:E36_Visual_Item ;
+    rdfs:label "Nachtwacht" ;
+    schema:artist <http://data.odeuropa.eu/actor/e1715b7a-ddd8-50e8-ac94-3b7cca753b2b> ;
+    schema:dateCreated <http://data.odeuropa.eu/time/01ebfd7a-4d01-52b0-9408-b9555f8c5221> ;
+    schema:image <https://data.odeuropa.eu/image/5beafc0f-82e8-452a-b773-c9bfc2768866.jpg>,
+        <https://lh3.ggpht.com/PM64a_AUmi4KJjnhw6qcQ_nEAm9SIssfWZANi-a0-dm_Zmm9evH0v-xI5mWmbJX-pbs_3DXWkmatdrJhwHfYkEjklA=s0> ;
+    schema:url <http://www.rijksmuseum.nl/nl/collectie/BK-NM-11177-289> .
+
+<http://data.odeuropa.eu/source/60d0d9d6-439d-5206-af92-a99eca1adf7c> a crm:E36_Visual_Item ;
+    rdfs:label "Oopjen Coppit" ;
+    schema:artist <http://data.odeuropa.eu/actor/f51166c2-d49a-5256-adab-37c25a7dcd64> ;
+    schema:dateCreated <http://data.odeuropa.eu/time/5b1da705-6588-5dbb-967a-5c6ff2197f78> ;
+    schema:image <https://data.odeuropa.eu/image/6dd85188-6e00-45f5-a749-b0d6f7bf373b.jpg>,
+        <https://lh3.googleusercontent.com/ib8SNTK2Qk-z64UYuu-_mI3FswMpYmmNU871wu5diDEPyjxmYJcNI4qRtqxlvKkVnrXTAxAFkuHX7DAN9ZwPFzS5fGE=s0> ;
+    schema:url <http://www.rijksmuseum.nl/nl/collectie/SK-C-1768> .
+
+<http://data.odeuropa.eu/source/63502083-b476-57fd-a7bb-aa9036cfa467> a crm:E36_Visual_Item ;
+    rdfs:label "Het melkmeisje" ;
+    schema:artist <http://data.odeuropa.eu/actor/15eea052-2c45-5673-8547-55763d8dfa26> ;
+    schema:dateCreated <http://data.odeuropa.eu/time/9c660807-48ad-5e15-a221-6b4455561558> ;
+    schema:image <https://data.odeuropa.eu/image/e4e3005c-dd9e-4db6-b466-50b17a9a52cd.jpg>,
+        <https://lh3.googleusercontent.com/cRtF3WdYfRQEraAcQz8dWDJOq3XsRX-h244rOw6zwkHtxy7NHjJOany7u4I2EG_uMAfNwBLHkFyLMENzpmfBTSYXIH_F=s0> ;
+    schema:url <http://www.rijksmuseum.nl/nl/collectie/SK-A-2344> .
+
+<http://data.odeuropa.eu/source/6ef5ee14-8002-54cf-a34d-fc5d71435a30> a crm:E36_Visual_Item ;
+    rdfs:label "De nachtwacht" ;
+    schema:artist <http://data.odeuropa.eu/actor/2d84d936-3af4-5654-9626-deee9ce1e5fb> ;
+    schema:dateCreated <http://data.odeuropa.eu/time/0f402117-6b6d-5110-93f0-21c367abc9d9> ;
+    schema:image <https://data.odeuropa.eu/image/ade50b2f-3165-4cc3-9a1b-958b6e617391.jpg>,
+        <https://lh4.ggpht.com/JxCghY_vUmbKtiH-K6VL-EXkPo-mQAT3HeD78Jc071TgWpOXQh6jG4hIxTuugrdix2cb3gm7wNk49Gba1I0cukwH0A8=s0> ;
+    schema:url <http://www.rijksmuseum.nl/nl/collectie/RP-P-1883-A-7355> .
+
+<http://data.odeuropa.eu/source/7307584c-0820-59a5-bfe5-0cce8d76abf8> a crm:E36_Visual_Item ;
+    rdfs:label "Maria Magdalena" ;
+    schema:artist <http://data.odeuropa.eu/actor/40fa8181-9061-581d-835d-931e26472b14> ;
+    schema:dateCreated <http://data.odeuropa.eu/time/77c98409-2ae7-50f4-af47-83f8c40d830f> ;
+    schema:image <https://data.odeuropa.eu/image/7b5e3128-9088-492a-8933-2141cce920db.jpg>,
+        <https://lh5.ggpht.com/3Lzr65Kfl8593gaB-2iqHm4n96-7zjLv_d3pra3Ozn0w4sCkc-v5iRagMFU6GL_w-wCKvzFTmPskmbEi8cJv-oxFq-Q=s0> ;
+    schema:url <http://www.rijksmuseum.nl/nl/collectie/RP-P-1965-432> .
+
+<http://data.odeuropa.eu/source/7467a43d-be59-51d6-ba5e-5b1e9935d7e8> a crm:E36_Visual_Item ;
+    rdfs:label "Stilleven met kalkoenpastei" ;
+    schema:artist <http://data.odeuropa.eu/actor/5dc2dc2e-8eef-508e-a7a3-dfbb48d34dc9> ;
+    schema:dateCreated <http://data.odeuropa.eu/time/85f9aa6c-10cd-59d9-9b47-2e07667c9061> ;
+    schema:image <https://data.odeuropa.eu/image/65fe9517-a79f-4d16-b8fd-0c4d1fca67b3.jpg>,
+        <https://lh3.googleusercontent.com/rnrW52Z0YetEODlHWIXqFLVc3MgyNbEeTiO8dmfuPo3AW8JxSnOOWBtAAMBUwkqgFacwdtQ33_a0ymu8KyXYioNhgswVcyNcS7rq3aCkbA=s0> ;
+    schema:url <http://www.rijksmuseum.nl/nl/collectie/SK-A-4646> .
+
+<http://data.odeuropa.eu/source/74a1dc14-90b4-5cc5-aeee-231f1cbb016e> a crm:E36_Visual_Item ;
+    rdfs:label "Gezicht op huizen in Delft, bekend als ‘Het straatje’" ;
+    schema:artist <http://data.odeuropa.eu/actor/15eea052-2c45-5673-8547-55763d8dfa26> ;
+    schema:dateCreated <http://data.odeuropa.eu/time/0349b964-3521-5b08-92ba-1e5ac38a72a3> ;
+    schema:image <https://data.odeuropa.eu/image/861e23e9-2147-46f4-9a0c-6069b8919e47.jpg>,
+        <https://lh3.googleusercontent.com/N-coqwrkCI2zYd6nTtGEpLPwB4nOKJVxcXmCCKg0WrcEp4gDj44NdWZy_DoI5yPrWzTX7qZQrc9I1UlB-zBdMNrZWLYh4A1FtX1eimZ5=s0> ;
+    schema:url <http://www.rijksmuseum.nl/nl/collectie/SK-A-2860> .
+
+<http://data.odeuropa.eu/source/783316cd-0b51-5c56-a980-57e76d75618c> a crm:E36_Visual_Item ;
+    rdfs:label "De nachtwacht" ;
+    schema:artist <http://data.odeuropa.eu/actor/2d84d936-3af4-5654-9626-deee9ce1e5fb> ;
+    schema:dateCreated <http://data.odeuropa.eu/time/0f402117-6b6d-5110-93f0-21c367abc9d9> ;
+    schema:image <https://data.odeuropa.eu/image/0e0ed7c3-dd95-4407-8f84-4d54bcb6366f.jpg>,
+        <https://lh6.ggpht.com/cOIdeB7DFg5-CajEqbQOYppJCiFzqYJWUi6EmwgVgffM-dAHiQyTQVk3CY_4EuaZeE7tS3O1_f52c8Ga4lEUZiJmLv2c=s0> ;
+    schema:url <http://www.rijksmuseum.nl/nl/collectie/RP-P-1918-2158> .
+
+<http://data.odeuropa.eu/source/7ac9d1fb-0fe3-5973-a469-5ba8e50377e4> a crm:E36_Visual_Item ;
+    rdfs:label "Rivierlandschap met ruiters" ;
+    schema:artist <http://data.odeuropa.eu/actor/416e134b-67ab-5e9f-b5e1-93716f477c58> ;
+    schema:dateCreated <http://data.odeuropa.eu/time/3ccf5183-57ec-546f-ac4b-a434e6368d4a> ;
+    schema:image <https://data.odeuropa.eu/image/f490d22f-7110-435f-bce1-fc257b677814.jpg>,
+        <https://lh3.googleusercontent.com/X7_CHCjksOZYu4gIGa45Edj1tMymdiz2o3pbL6HqqVEszWvPzrM6iIwHzaWNqgsWLcm7VmHCQyuQowWSSImQYLF8qW48zmZ-rx309F3c=s0> ;
+    schema:url <http://www.rijksmuseum.nl/nl/collectie/SK-A-4118> .
+
+<http://data.odeuropa.eu/source/7b1e8895-c1fd-56db-bf85-a8184310e892> a crm:E36_Visual_Item ;
+    rdfs:label "Vanitasstilleven met de Doornuittrekker" ;
+    schema:artist <http://data.odeuropa.eu/actor/5dc2dc2e-8eef-508e-a7a3-dfbb48d34dc9> ;
+    schema:dateCreated <http://data.odeuropa.eu/time/d0950ea2-5986-52c9-ac56-913987a062ad> ;
+    schema:image <https://data.odeuropa.eu/image/f665becf-dff7-408f-b219-38ee8e3b38c4.jpg>,
+        <https://lh3.googleusercontent.com/w8tHIkFL6F-E-Nmlk7oSa8LVyx_GU8nL1vcANl9ywW2O0PX7F8USrIuedT6m-4P_1e6mX-QKZQE3gKBA5msLqAxCBRwz2Yk1zhYqyf8=s0> ;
+    schema:url <http://www.rijksmuseum.nl/nl/collectie/SK-A-3930> .
+
+<http://data.odeuropa.eu/source/7d628c82-1eeb-5a16-bb79-f17f046053f2> a crm:E36_Visual_Item ;
+    rdfs:label "De Nachtwacht" ;
+    schema:artist <http://data.odeuropa.eu/actor/f51166c2-d49a-5256-adab-37c25a7dcd64> ;
+    schema:dateCreated <http://data.odeuropa.eu/time/aaa663f5-0f48-579c-8f30-3ecb6480a40e> ;
+    schema:image <https://data.odeuropa.eu/image/bbd1fae8-4023-4859-8ed1-d38616aec96c.jpg>,
+        <https://lh3.googleusercontent.com/SsEIJWka3_cYRXXSE8VD3XNOgtOxoZhqW1uB6UFj78eg8gq3G4jAqL4Z_5KwA12aD7Leqp27F653aBkYkRBkEQyeKxfaZPyDx0O8CzWg=s0> ;
+    schema:url <http://www.rijksmuseum.nl/nl/collectie/SK-C-5> .
+
+<http://data.odeuropa.eu/source/825cf203-60f2-58d7-8834-e5547786455e> a crm:E36_Visual_Item ;
+    rdfs:label "De waardijns van het Amsterdamse lakenbereidersgilde, bekend als ‘De Staalmeesters’" ;
+    schema:artist <http://data.odeuropa.eu/actor/f51166c2-d49a-5256-adab-37c25a7dcd64> ;
+    schema:dateCreated <http://data.odeuropa.eu/time/31014051-a43d-5db2-9938-a66b99007163> ;
+    schema:image <https://data.odeuropa.eu/image/2c1ac367-9b11-4266-bb08-eea14ca0bb76.jpg>,
+        <https://lh3.googleusercontent.com/gShVRyvLLbwVB8jeIPghCXgr96wxTHaM4zqfmxIWRsUpMhMn38PwuUU13o1mXQzLMt5HFqX761u8Tgo4L_JG1XLATvw=s0> ;
+    schema:url <http://www.rijksmuseum.nl/nl/collectie/SK-C-6> .
+
+<http://data.odeuropa.eu/source/84ca206f-9c26-5b12-90be-1b4a619f3b6f> a crm:E36_Visual_Item ;
+    rdfs:label "Maria Magdalena" ;
+    schema:artist <http://data.odeuropa.eu/actor/82f0368d-30ca-5588-a9b6-7488fa199ba3> ;
+    schema:dateCreated <http://data.odeuropa.eu/time/c2cee7ea-2a1d-5183-a866-448ea1f51285> ;
+    schema:image <https://data.odeuropa.eu/image/45b8b3a6-d019-4884-bd65-e4e3a8ca6e76.jpg>,
+        <https://lh4.ggpht.com/0grwIDz8deinKMeqg4wmqx0fZhGcyMoFDCZ1ugF9R4m-Ujsnt-nwvzZSaAjZntRsLtF7cyS_VCQ6cXROcWuisFRYJuE=s0> ;
+    schema:url <http://www.rijksmuseum.nl/nl/collectie/RP-P-OB-5140> .
+
+<http://data.odeuropa.eu/source/8552deb0-880f-589b-8e62-9da2b8e10db1> a crm:E36_Visual_Item ;
+    rdfs:label "Een gezelschap op de plaats achter een huis" ;
+    schema:artist <http://data.odeuropa.eu/actor/5c0c7138-bafa-55fb-8554-cc7b55300bfd> ;
+    schema:dateCreated <http://data.odeuropa.eu/time/54c9636d-9708-5d78-bd4c-507a8ff44b59> ;
+    schema:image <https://data.odeuropa.eu/image/bf6a5cd4-3de8-427a-9e62-cc5589f8cc28.jpg>,
+        <https://lh3.googleusercontent.com/f3HX2jRy9r_W96ERQvKdFFIX85cb7dnmQDEn2JMWHWJXc98RQmnw-Ekpbc0ZllrLRRjGIt-RFUNBWJRofeDnhf65k02q=s0> ;
+    schema:url <http://www.rijksmuseum.nl/nl/collectie/SK-C-150> .
+
+<http://data.odeuropa.eu/source/8998ea06-1e3d-5ce4-90fe-85a7c8f653fc> a crm:E36_Visual_Item ;
+    rdfs:label "Het Sint-Nicolaasfeest" ;
+    schema:artist <http://data.odeuropa.eu/actor/e9c33dfb-b796-5d66-8dff-416584a1229d> ;
+    schema:dateCreated <http://data.odeuropa.eu/time/15447008-a4fb-5e6b-a785-a623d02b2ff4> ;
+    schema:image <https://data.odeuropa.eu/image/89f09729-f5bf-481c-b90f-38edbace60a1.jpg>,
+        <https://lh3.googleusercontent.com/5AA_BNey03ZDae2iAmr521pe3WGem57AmjPFwy22a5375Dfjp9lt0WhVm9slUcVyC3wIP0cB4qZvS7LC24YLug9581g=s0> ;
+    schema:url <http://www.rijksmuseum.nl/nl/collectie/SK-A-385> .
+
+<http://data.odeuropa.eu/source/8ef110a0-4329-5900-9a15-57ea520a3f45> a crm:E36_Visual_Item ;
+    rdfs:label "Het oude stadhuis in Amsterdam" ;
+    schema:artist <http://data.odeuropa.eu/actor/2316d992-b867-5bfc-80e2-d0362f2a420f> ;
+    schema:dateCreated <http://data.odeuropa.eu/time/9eed2791-f291-55c7-b47f-f0d7166bc876> ;
+    schema:image <https://data.odeuropa.eu/image/9c6d0083-4ad5-48e2-a542-5858ad657ae4.jpg>,
+        <https://lh3.googleusercontent.com/4sXqduLWWNyBbGT8P-2SYMQKh2loADqzO_Xn1-yIQPLJJSEOKCkMd1otBBT3eCceV8PtHQBIuBLGlSujSFwPsj70yGC8f3VfMBtJZD2u=s0> ;
+    schema:url <http://www.rijksmuseum.nl/nl/collectie/SK-C-1409> .
+
+<http://data.odeuropa.eu/source/8fd3a5df-14e4-50cb-915d-8aebf2dee42f> a crm:E36_Visual_Item ;
+    rdfs:label "De liefdesbrief" ;
+    schema:artist <http://data.odeuropa.eu/actor/15eea052-2c45-5673-8547-55763d8dfa26> ;
+    schema:dateCreated <http://data.odeuropa.eu/time/b141c5a9-d203-53a5-bac1-d75034b4dff5> ;
+    schema:image <https://data.odeuropa.eu/image/5fc57e61-cedf-4087-b0b0-c96f8f1dab61.jpg>,
+        <https://lh3.googleusercontent.com/GQkZDpSbiMBU8tVbuYw_n8M4HOV5Q7ftA_ywibsh3718_ZrVPssGTtVC5spGM9OJyFOnoncB2u3I3DfuR_-9cdduDRMIbEN-Hzgf9AvDyA=s0> ;
+    schema:url <http://www.rijksmuseum.nl/nl/collectie/SK-A-1595> .
+
+<http://data.odeuropa.eu/source/90150c30-f22f-5257-959f-0fae563c34d6> a crm:E36_Visual_Item ;
+    rdfs:label "Interieur van de Sint-Bavokerk in Haarlem" ;
+    schema:artist <http://data.odeuropa.eu/actor/2316d992-b867-5bfc-80e2-d0362f2a420f> ;
+    schema:dateCreated <http://data.odeuropa.eu/time/5d8ee10d-6a5b-5fa6-9fc5-3ec85cb0ca1b> ;
+    schema:image <https://data.odeuropa.eu/image/30cb4512-586f-40fb-93dc-cc78c7a5d4a4.jpg>,
+        <https://lh3.googleusercontent.com/fa9VTMnwgKSmj4F-syS8TkjKWIe53zoExEkF-BySEctW7Cf4WpFm1DEQJ4s9y1NU0MeAyNyvUwAyerL_ofR6PWJHYzDu_g67JEaYeiGykg=s0> ;
+    schema:url <http://www.rijksmuseum.nl/nl/collectie/SK-A-359> .
+
+<http://data.odeuropa.eu/source/932ad845-67e2-56c7-a552-cf3b99ebdb74> a crm:E36_Visual_Item ;
+    rdfs:label "De zieke vrouw" ;
+    schema:artist <http://data.odeuropa.eu/actor/e9c33dfb-b796-5d66-8dff-416584a1229d> ;
+    schema:dateCreated <http://data.odeuropa.eu/time/5303844e-d5a3-5589-a83e-dde22492a1dd> ;
+    schema:image <https://data.odeuropa.eu/image/d1cb50bd-d3b7-424f-ad7d-6f815a749761.jpg>,
+        <https://lh3.googleusercontent.com/GFRfu3RlXmUidpjPAsCfSocljTqJvOTRu_nNaNsZCZ4814rMzybV2bFIXV7uq4VgC-Eou2CrWmM8dCTUN1n80wsYdRl3=s0> ;
+    schema:url <http://www.rijksmuseum.nl/nl/collectie/SK-C-230> .
+
+<http://data.odeuropa.eu/source/999ea91e-9334-578f-a096-de13dd77cd78> a crm:E36_Visual_Item ;
+    rdfs:label "Landschap met waterval" ;
+    schema:artist <http://data.odeuropa.eu/actor/6acd2747-b3d4-558d-9184-a753f7e72d76> ;
+    schema:dateCreated <http://data.odeuropa.eu/time/b011bfca-8e1d-57dc-8d2f-74074bf302be> ;
+    schema:image <https://data.odeuropa.eu/image/a4b30520-2296-47d3-ac10-93907280fc5b.jpg>,
+        <https://lh3.googleusercontent.com/FcDBx2AP6veDpiC4HhvrSBTC8Oldvs_kvk1hlIrEflOnEUiTiUzhqw6OgFKVa5XBjC3Aisinrut_Xp2K2TxFq7pfzQ=s0> ;
+    schema:url <http://www.rijksmuseum.nl/nl/collectie/SK-C-210> .
+
+<http://data.odeuropa.eu/source/9ba5790f-e723-5e49-9052-5830c3e15ecc> a crm:E36_Visual_Item ;
+    rdfs:label "De bedreigde zwaan" ;
+    schema:artist <http://data.odeuropa.eu/actor/6f2e8fc8-1082-5caa-bad4-59dafa9d2cee> ;
+    schema:dateCreated <http://data.odeuropa.eu/time/942e6506-2d37-5f12-8ed8-439cebcdc8c6> ;
+    schema:image <https://data.odeuropa.eu/image/2f3951aa-bbde-4e10-bbf8-0fcb2c0ed08a.jpg>,
+        <https://lh3.googleusercontent.com/tm1DbZrAP0uBM-OJhLwvKir1Le5LglRF_bvbaNi6m-F_pIyttsWQz040soRY9pWA9PgNEYFA_fBkg_keYixRXCAjz9Q=s0> ;
+    schema:url <http://www.rijksmuseum.nl/nl/collectie/SK-A-4> .
+
+<http://data.odeuropa.eu/source/a069a3b2-60c8-57fd-acb7-52f68e2738e2> a crm:E36_Visual_Item ;
+    rdfs:label "Stilleven met zilveren kan en porseleinen kom" ;
+    schema:artist <http://data.odeuropa.eu/actor/30329709-919d-56b9-9d70-c088dd6212fd> ;
+    schema:dateCreated <http://data.odeuropa.eu/time/1cc28daa-0f54-57a0-9118-8d0d34f0cd3b> ;
+    schema:image <https://data.odeuropa.eu/image/e8c04aef-f94a-48c1-8ab8-7cfc868e42fc.jpg>,
+        <https://lh3.googleusercontent.com/B7qhYTP1s_5HEhs34gXA-WK5M-1E7fwSh_HC_DhSVV6lHcexGHpDdl3nZsppT5gIdvC5As2y4eVP9xfUTbFUIuZWhHw=s0> ;
+    schema:url <http://www.rijksmuseum.nl/nl/collectie/SK-A-199> .
+
+<http://data.odeuropa.eu/source/a5c5751e-4940-5632-ad90-2a7d7d9bb2ac> a crm:E36_Visual_Item ;
+    rdfs:label "Brieflezende vrouw" ;
+    schema:artist <http://data.odeuropa.eu/actor/15eea052-2c45-5673-8547-55763d8dfa26> ;
+    schema:dateCreated <http://data.odeuropa.eu/time/47fbc949-1970-5d82-86c5-5a681dcf935b> ;
+    schema:image <https://data.odeuropa.eu/image/4d2a72e4-eb25-461c-86ae-889bc3c0699c.jpg>,
+        <https://lh3.googleusercontent.com/cgJpNZ47yAU-Ttf6SF4vdBBxAiiZW_w_-DsA1Xchet3eDJN-8EyoA24xgNR9Wl1fTLwGAhENkTkMZu1qULcXOQdgF2K1qDbdWSwic1POVg=s0> ;
+    schema:url <http://www.rijksmuseum.nl/nl/collectie/SK-C-251> .
+
+<http://data.odeuropa.eu/source/a7066426-2b21-5c03-a7c5-cdcdc95a2f36> a crm:E36_Visual_Item ;
+    rdfs:label "Nachtwacht" ;
+    schema:artist <http://data.odeuropa.eu/actor/e1715b7a-ddd8-50e8-ac94-3b7cca753b2b> ;
+    schema:dateCreated <http://data.odeuropa.eu/time/7bafca38-ed08-566e-a58c-bccf06aba6ac> ;
+    schema:image <https://data.odeuropa.eu/image/e47a201a-8ec3-45ef-a40b-4aa9d9305172.jpg>,
+        <https://lh5.ggpht.com/nOqkK65Cek53Dli8pcnzKuZYzg4GlUeN5qiYglq4lgX5-GHWY2VgueYadz06pACH2-ty26m0mxgDIVFOAqBNaeazhg=s0> ;
+    schema:url <http://www.rijksmuseum.nl/nl/collectie/BK-1977-67> .
+
+<http://data.odeuropa.eu/source/a759b5ad-ade9-5a20-b565-6c87543d4153> a crm:E36_Visual_Item ;
+    rdfs:label "Maria Magdalena" ;
+    schema:artist <http://data.odeuropa.eu/actor/0e4dc531-17f6-57b4-9f52-ac5bd66e87b4> ;
+    schema:dateCreated <http://data.odeuropa.eu/time/457a2e40-cbe6-5d19-9ed9-144082134fb5> ;
+    schema:image <https://data.odeuropa.eu/image/eb71d14a-c082-4ceb-aadf-35c61d22d380.jpg>,
+        <https://lh4.ggpht.com/-8y2vCl1LS77J3TnOgl4zITBbRm1ddQzh3s31-C_Hb0Bf_BaqkCg34XzvvTlDlZv0J4cZpUqY-fHOSKgrSOAihlAa2QQ=s0> ;
+    schema:url <http://www.rijksmuseum.nl/nl/collectie/RP-P-BI-6822> .
+
+<http://data.odeuropa.eu/source/ab3fec37-8e5e-5a93-bc5e-789d289f7c6c> a crm:E36_Visual_Item ;
+    rdfs:label "Hollandse schepen op een kalme zee" ;
+    schema:artist <http://data.odeuropa.eu/actor/1b371c2d-ecac-55e6-99c5-0adc60475d4a> ;
+    schema:dateCreated <http://data.odeuropa.eu/time/96842583-3e63-541b-88e3-1a025f127e91> ;
+    schema:image <https://data.odeuropa.eu/image/3ccbd7a9-0f47-4bc6-b8e1-fc0552a8d9b1.jpg>,
+        <https://lh3.googleusercontent.com/F7NS5JeqvRMBw_cOC_OljlCep7mpeZt7EeDHAziFsGwX_TI7XNm4stA8ILPiYKhY8p2PUtcr8Ig9eIKq53OdqyjU_Mc=s0> ;
+    schema:url <http://www.rijksmuseum.nl/nl/collectie/SK-C-1707> .
+
+<http://data.odeuropa.eu/source/abb43a5d-a3bd-56a2-8858-fd1edc27013b> a crm:E36_Visual_Item ;
+    rdfs:label "Portret van Feyntje van Steenkiste" ;
+    schema:artist <http://data.odeuropa.eu/actor/73fbb429-a040-55fa-985e-24d8f62e6960> ;
+    schema:dateCreated <http://data.odeuropa.eu/time/20e2df93-ee1d-559f-9427-281f1c99f500> ;
+    schema:image <https://data.odeuropa.eu/image/f247e9f4-ca64-41a3-945a-7b2132acd261.jpg>,
+        <https://lh3.googleusercontent.com/6h0s0P2IKgWIINFOHYhIVYowrMakAaQBpriZkQmN7BwDkX4oUWvHCj6ZQyEBWvgD08bkQkc33ZwfIA6uVqefSZPzFPKbkKHj3VHUgIs=s0> ;
+    schema:url <http://www.rijksmuseum.nl/nl/collectie/SK-C-557> .
+
+<http://data.odeuropa.eu/source/aca37c11-6695-5285-a09a-af416d6ad5b5> a crm:E36_Visual_Item ;
+    rdfs:label "Stilleven met bloemen in een glazen vaas" ;
+    schema:artist <http://data.odeuropa.eu/actor/a7278382-ee5a-50f6-9f27-ff031a4026c3> ;
+    schema:dateCreated <http://data.odeuropa.eu/time/d71221da-5d6d-5818-8c17-1f9439730807> ;
+    schema:image <https://data.odeuropa.eu/image/cc818371-348b-4a19-93d3-6f0e26633be8.jpg>,
+        <https://lh5.ggpht.com/2HbgsE1Od79YS0fGVbIBCp4dMAAMVZtmzT_w_lgqEM7zqkxzoZdypQht1Kpzqb5EkRE_5ASyCYoWJfho4daav635DySM=s0> ;
+    schema:url <http://www.rijksmuseum.nl/nl/collectie/SK-A-354> .
+
+<http://data.odeuropa.eu/source/af7bd321-1390-5d6f-96ce-c1f283dd5ba6> a crm:E36_Visual_Item ;
+    rdfs:label "Stilleven met vergulde bokaal" ;
+    schema:artist <http://data.odeuropa.eu/actor/0505ffb8-a112-5057-8cf4-3ccbd1ce1640> ;
+    schema:dateCreated <http://data.odeuropa.eu/time/20e2df93-ee1d-559f-9427-281f1c99f500> ;
+    schema:image <https://data.odeuropa.eu/image/958cbf50-5232-4378-a410-7d9573dfb718.jpg>,
+        <https://lh3.googleusercontent.com/mZj-trnVh6jeUDsl1o0a3xNXPat_UOZtKecS4LaZdTLcNoIqtd_yf6beJKCUVzk3NT5SSFeQ-hOzJEOOSV9sg8dHE6VjFjUrGfxwe5Sg=s0> ;
+    schema:url <http://www.rijksmuseum.nl/nl/collectie/SK-A-4830> .
+
+<http://data.odeuropa.eu/source/b32b4472-0043-5490-86f1-e029e8d4b625> a crm:E36_Visual_Item ;
+    rdfs:label "Maria Magdalena" ;
+    schema:dateCreated <http://data.odeuropa.eu/time/05938014-6a9a-51bd-8ddd-6799d35395d4> ;
+    schema:image <https://data.odeuropa.eu/image/6b5c79d4-9e6a-4632-9f27-eb1b71d11f84.jpg>,
+        <https://lh3.googleusercontent.com/E7zKhlVpkx773av32Pndbh0UFdRaQVEYiYYGHhyxCkZZ-UxIbQgRZMDPlsf8VpDAhqFdueSWDgIj7vA8H83OXMEHwuE=s0> ;
+    schema:url <http://www.rijksmuseum.nl/nl/collectie/RP-P-2009-965(V)> .
+
+<http://data.odeuropa.eu/source/bd2057c7-4226-520b-b040-6ae80e39f036> a crm:E36_Visual_Item ;
+    rdfs:label "Isaak en Rebekka, bekend als ‘Het Joodse bruidje’" ;
+    schema:artist <http://data.odeuropa.eu/actor/f51166c2-d49a-5256-adab-37c25a7dcd64> ;
+    schema:dateCreated <http://data.odeuropa.eu/time/a2d575d7-3ce9-5264-acbb-4e6a13405fcf> ;
+    schema:image <https://data.odeuropa.eu/image/2fe159d5-619a-46d3-b3d2-9412e6f6bdd8.jpg>,
+        <https://lh3.googleusercontent.com/mAyAjvYjIeAIlByhJx1Huctgeb58y7519XYP38oL1FXarhVlcXW7kxuwayOCFdnwtOp6B6F0HJmmws-Ceo5b_pNSSQs=s0> ;
+    schema:url <http://www.rijksmuseum.nl/nl/collectie/SK-C-216> .
+
+<http://data.odeuropa.eu/source/c6bfcb17-79ce-5cd5-80de-f65fd875b4d0> a crm:E36_Visual_Item ;
+    rdfs:label "Een vrouw met een kind in een kelderkamer" ;
+    schema:artist <http://data.odeuropa.eu/actor/5c0c7138-bafa-55fb-8554-cc7b55300bfd> ;
+    schema:dateCreated <http://data.odeuropa.eu/time/09b61a3e-11af-5816-81c2-6c2ade7973d7> ;
+    schema:image <https://data.odeuropa.eu/image/8254c6e8-b924-4a1b-9c88-9dfe876ca077.jpg>,
+        <https://lh3.googleusercontent.com/5HyCvI9V8cj41z9iLdosXvrriM9Nf-UHAvlqYjGswdPIR26J76pjjUvsLI0K2OWLeV5jEu1mW9h2kuEn1W-xdWnqWg=s0> ;
+    schema:url <http://www.rijksmuseum.nl/nl/collectie/SK-A-182> .
+
+<http://data.odeuropa.eu/source/c8aa8109-5b0d-52b8-9b77-088448aae71b> a crm:E36_Visual_Item ;
+    rdfs:label "De molen bij Wijk bij Duurstede" ;
+    schema:artist <http://data.odeuropa.eu/actor/6acd2747-b3d4-558d-9184-a753f7e72d76> ;
+    schema:dateCreated <http://data.odeuropa.eu/time/f3822f1c-15ad-5d94-a1b5-0790e23967ef> ;
+    schema:image <https://data.odeuropa.eu/image/bbb79014-8ebd-4922-ad48-fd4ee8c61bd2.jpg>,
+        <https://lh3.googleusercontent.com/3EDrQy1jW6akN2k8eAeCECHJ1FmvM1f2pb9a-de51ErcQcghh7cbpzFIh-QYdcGfpi3FjxH1AP6C_FvPNR-I9n8I4No=s0> ;
+    schema:url <http://www.rijksmuseum.nl/nl/collectie/SK-C-211> .
+
+<http://data.odeuropa.eu/source/cc08f1ef-d6f9-5227-bd14-d3f4d646be18> a crm:E36_Visual_Item ;
+    rdfs:label "Rembrandts zoon Titus in monniksdracht" ;
+    schema:artist <http://data.odeuropa.eu/actor/f51166c2-d49a-5256-adab-37c25a7dcd64> ;
+    schema:dateCreated <http://data.odeuropa.eu/time/9c660807-48ad-5e15-a221-6b4455561558> ;
+    schema:image <https://data.odeuropa.eu/image/53d78378-c81a-4520-a878-438c029bf130.jpg>,
+        <https://lh3.googleusercontent.com/N9vZO35XvXWcJJLuOP7oFnH2a5SdkQSTqaSY_aXgO_ZRLpDJZW-uJLcMESuRahxxTmsh7mEpeOp5RgXvOr4jzkkRcFY=s0> ;
+    schema:url <http://www.rijksmuseum.nl/nl/collectie/SK-A-3138> .
+
+<http://data.odeuropa.eu/source/cc669b39-6c41-533c-bea1-47bf5fbdd778> a crm:E36_Visual_Item ;
+    rdfs:label "Binnenhuis met vrouwen bij een linnenkast" ;
+    schema:artist <http://data.odeuropa.eu/actor/5c0c7138-bafa-55fb-8554-cc7b55300bfd> ;
+    schema:dateCreated <http://data.odeuropa.eu/time/47fbc949-1970-5d82-86c5-5a681dcf935b> ;
+    schema:image <https://data.odeuropa.eu/image/bc61e83d-6cba-4779-9379-0b9d77c90a89.jpg>,
+        <https://lh3.googleusercontent.com/7aWk-x_VNb_Y1-X8C38nVnZAgmyAGUWDmOIAYiHKVtZG55xUggHFjQ-8l49nCuF_VJFFh2W57yMJrRq2SVNctSFYL7o=s0> ;
+    schema:url <http://www.rijksmuseum.nl/nl/collectie/SK-C-1191> .
+
+<http://data.odeuropa.eu/source/cc8206d6-57cb-5d8c-b548-43b524ac347f> a crm:E36_Visual_Item ;
+    rdfs:label "Zelfportret" ;
+    schema:artist <http://data.odeuropa.eu/actor/e9c33dfb-b796-5d66-8dff-416584a1229d> ;
+    schema:dateCreated <http://data.odeuropa.eu/time/aeb19448-eff2-5ec7-81f0-fec34bddbbe3> ;
+    schema:image <https://data.odeuropa.eu/image/52063391-0278-4e2f-b73d-96165f8e0ebf.jpg>,
+        <https://lh3.googleusercontent.com/GVIL4z8-zb4iicaLy6yTkANAdQFrhrekjQBXS-hRZd6a7WO3AswhwwymmnAGHnMJTh428-8NomtZ4gOU9Bqa5mTT-g=s0> ;
+    schema:url <http://www.rijksmuseum.nl/nl/collectie/SK-A-383> .
+
+<http://data.odeuropa.eu/source/d059413a-8f71-5c9c-bc55-e00d3c4c6215> a crm:E36_Visual_Item ;
+    rdfs:label "Maria Magdalena" ;
+    schema:artist <http://data.odeuropa.eu/actor/befedfb0-a2bd-5a26-ad72-47ca1bc5b7a1> ;
+    schema:dateCreated <http://data.odeuropa.eu/time/8fa1b8fb-1bca-5ce3-84a7-03baf16e7519> ;
+    schema:image <https://data.odeuropa.eu/image/90052488-7154-4405-a295-b3434ef73f96.jpg>,
+        <https://lh3.googleusercontent.com/bw3AAu-df_XINPIkTNTdtW-aOoJv_PBf8NhMcfojNUaZOB5wf6Tn4TqbJrgWYdSGEO5xWw-uuvTSIR16_wtuAxhJPO7y3QQBEI1dObY=s0> ;
+    schema:url <http://www.rijksmuseum.nl/nl/collectie/RP-P-1977-155-26-1> .
+
+<http://data.odeuropa.eu/source/d26a7ade-7439-5b10-a00b-de6487814353> a crm:E36_Visual_Item ;
+    rdfs:label "Portret van een meisje in het blauw" ;
+    schema:artist <http://data.odeuropa.eu/actor/0f4827dd-80ce-582f-877a-4a3567dfa12e> ;
+    schema:dateCreated <http://data.odeuropa.eu/time/8f792a8c-404b-59c7-ad34-a445522b2d37> ;
+    schema:image <https://data.odeuropa.eu/image/93b43a4a-dadc-4cd9-b368-c0a579e06eff.jpg>,
+        <https://lh3.googleusercontent.com/XOEEpiJxvnbvetJvG7wbpPL9trO3nAAJuPztTOFxS2jtpHgqIkRGFfFJgkkS00bLCs6Ezkg0qRMOMZUMnBP3mbmQ-rJh_gFiffSIhyWX=s0> ;
+    schema:url <http://www.rijksmuseum.nl/nl/collectie/SK-A-3064> .
+
+<http://data.odeuropa.eu/source/d70f77fe-a64f-52f8-b42f-ed09e217e82a> a crm:E36_Visual_Item ;
+    rdfs:label "De Vaandeldrager" ;
+    schema:artist <http://data.odeuropa.eu/actor/f51166c2-d49a-5256-adab-37c25a7dcd64> ;
+    schema:dateCreated <http://data.odeuropa.eu/time/5d8ee10d-6a5b-5fa6-9fc5-3ec85cb0ca1b> ;
+    schema:image <https://data.odeuropa.eu/image/7602ba6b-e7c8-45b5-8e74-c42e6b632d8f.jpg>,
+        <https://lh3.googleusercontent.com/Bq9YPknJ3GutK3HiIDBKSZ9q7NAjwjk657b63shO9qnWSoPuTTQ2R9YsF0vBY2X4_FjMvIXWtAismYR7Xi6_rA4lsEvoaN9y8gljEntw=s0> ;
+    schema:url <http://www.rijksmuseum.nl/nl/collectie/SK-A-5092> .
+
+<http://data.odeuropa.eu/source/d73b0298-fd58-510d-bc17-8e6cd68e4a63> a crm:E36_Visual_Item ;
+    rdfs:label "Maria Magdalena" ;
+    schema:artist <http://data.odeuropa.eu/actor/33140386-bda0-5968-8d14-ef630facfee9> ;
+    schema:dateCreated <http://data.odeuropa.eu/time/97dfb535-7eb2-52af-86fb-636ff6616eaf> ;
+    schema:image <https://data.odeuropa.eu/image/7ac10021-9ab4-4308-a578-579d1dea3bf8.jpg>,
+        <https://lh3.googleusercontent.com/75kJggvqXXXL9QMMx-lMltZSnzGhfZlucIZR4W8j4bFE49q9ZRq_nx6Pzpvss9rnR3OOiKouF_1qKu_OmB4YsOJbtw=s0> ;
+    schema:url <http://www.rijksmuseum.nl/nl/collectie/BK-1986-40> .
+
+<http://data.odeuropa.eu/source/db71814e-e4a2-5da2-810a-afb031d0c524> a crm:E36_Visual_Item ;
+    rdfs:label "Salmacis en Hermaphroditus" ;
+    schema:artist <http://data.odeuropa.eu/actor/73471ebd-0cb6-5c8e-87b6-d989f5068c55> ;
+    schema:dateCreated <http://data.odeuropa.eu/time/f0137c84-7eae-5397-a961-6c78d83badc1> ;
+    schema:image <https://data.odeuropa.eu/image/fb624513-6787-41b8-ad30-7c2eb70a89fa.jpg>,
+        <https://lh3.ggpht.com/vYmPXbvuMBWwc0ccsYAYOaOZB1NkYxJpYB2764NoAe9Bm8qWkWTT2P-y13BhTPUQiouS1MCVOUB_8tgq41yX1S2CYV0K=s0> ;
+    schema:url <http://www.rijksmuseum.nl/nl/collectie/RP-P-OB-15.828> .
+
+<http://data.odeuropa.eu/source/dcc5e35f-bb24-5d6a-8caf-abed6aaa8176> a crm:E36_Visual_Item ;
+    rdfs:label "De aanbidding der herders" ;
+    schema:artist <http://data.odeuropa.eu/actor/e9c33dfb-b796-5d66-8dff-416584a1229d> ;
+    schema:dateCreated <http://data.odeuropa.eu/time/91a9b06f-83b1-51b3-8d9a-95ae4b36db9b> ;
+    schema:image <https://data.odeuropa.eu/image/34194e11-00ac-4f7f-be9f-c6f0a7b689fd.jpg>,
+        <https://lh4.ggpht.com/zgIcfcroz7EHi9SX2cnorZjfSEYfs1Hsc0khoIhbUSgp7SGgBRBPeW7Igy39Gd8y6RlGvMDWpu3jkdQmp_tl2Qe50Q=s0> ;
+    schema:url <http://www.rijksmuseum.nl/nl/collectie/SK-A-3509> .
+
+<http://data.odeuropa.eu/source/e2b3ccc6-19e5-55bb-81ba-9690cb8870af> a crm:E36_Visual_Item ;
+    rdfs:label "Zelfportret als de apostel Paulus" ;
+    schema:artist <http://data.odeuropa.eu/actor/f51166c2-d49a-5256-adab-37c25a7dcd64> ;
+    schema:dateCreated <http://data.odeuropa.eu/time/d8bc46b4-1fe0-51a0-a4f0-7450fbb989f3> ;
+    schema:image <https://data.odeuropa.eu/image/58f00619-2e35-4d7d-a46d-0dcc6618f4ec.jpg>,
+        <https://lh3.googleusercontent.com/NrCcfeY0r2F3M2hIQe5SLDRofR2tVzeOH18VjflOYGj88v4clb4v2H_VgCZR4nJhYsxxH9ATzfkL2tRqOWEK5-gPVEE=s0> ;
+    schema:url <http://www.rijksmuseum.nl/nl/collectie/SK-A-4050> .
+
+<http://data.odeuropa.eu/source/e34f78ba-70ae-52c3-afa7-6f742daf4865> a crm:E36_Visual_Item ;
+    rdfs:label "Bakker Arent Oostwaard en zijn vrouw Catharina Keizerswaard" ;
+    schema:artist <http://data.odeuropa.eu/actor/e9c33dfb-b796-5d66-8dff-416584a1229d> ;
+    schema:dateCreated <http://data.odeuropa.eu/time/0349b964-3521-5b08-92ba-1e5ac38a72a3> ;
+    schema:image <https://data.odeuropa.eu/image/5e250177-2fbe-4a3f-9e09-f923b5a6b361.jpg>,
+        <https://lh3.googleusercontent.com/b13IuigD3pepqXqk2K1ggj01N2rTymj_c0gw-AIXrXRHoXfsXCkRiHgo4vY2ddrarhfDWUR1DWoqzcRpbzqMjDZeeg=s0> ;
+    schema:url <http://www.rijksmuseum.nl/nl/collectie/SK-A-390> .
+
+<http://data.odeuropa.eu/source/f7a4844a-f1c0-5c45-96b3-1b12c6eabab8> a crm:E36_Visual_Item ;
+    rdfs:label "Boslandschap met een vrolijk gezelschap in een wagen" ;
+    schema:artist <http://data.odeuropa.eu/actor/6e6d16fa-8a65-51fd-899f-a52ca84125c2> ;
+    schema:dateCreated <http://data.odeuropa.eu/time/96842583-3e63-541b-88e3-1a025f127e91> ;
+    schema:image <https://data.odeuropa.eu/image/3faf7c5a-0398-4776-827c-f48435a190df.jpg>,
+        <https://lh6.ggpht.com/QhzBZh5S3yTO759KglmhjU3e3PjGoBNhRfOlK7_nzTLW_ILT3rjP7kzRwyBD5nlaFVa0lLq8eG0Dv3C856S-gJxJSF4=s0> ;
+    schema:url <http://www.rijksmuseum.nl/nl/collectie/SK-A-5026> .
+
+<http://data.odeuropa.eu/source/f90b336b-c8d1-5a6b-b4ce-07c73769e70c> a crm:E36_Visual_Item ;
+    rdfs:label "De nachtwacht" ;
+    schema:artist <http://data.odeuropa.eu/actor/2d84d936-3af4-5654-9626-deee9ce1e5fb> ;
+    schema:dateCreated <http://data.odeuropa.eu/time/0f402117-6b6d-5110-93f0-21c367abc9d9> ;
+    schema:image <https://data.odeuropa.eu/image/31b7c4fc-0b26-4ab2-9dea-770797e6a6d8.jpg>,
+        <https://lh6.ggpht.com/s5p92TkEhJ3nLn9tL0ffZv8-NAOdKZWsMJMiBejSGHr91zORZ0PtTbv_54LD5Ie5_9AipWSzsH_7mJCFzdMkk3W1a7n4=s0> ;
+    schema:url <http://www.rijksmuseum.nl/nl/collectie/RP-P-OB-67.591> .
+
+<http://data.odeuropa.eu/source/fa059b52-6f46-5d99-9fe5-b28bd58ec967> a crm:E36_Visual_Item ;
+    rdfs:label "Salmacis en Hermaphroditus" ;
+    schema:artist <http://data.odeuropa.eu/actor/73471ebd-0cb6-5c8e-87b6-d989f5068c55> ;
+    schema:dateCreated <http://data.odeuropa.eu/time/45ed09b8-3d65-58a9-a216-cd83287e0872> ;
+    schema:image <https://data.odeuropa.eu/image/8177d767-f0d1-4e21-9259-ba4718becba0.jpg>,
+        <https://lh3.googleusercontent.com/we8rB4CuAs6vNIUwkRtgpZD7YykbBgN9i1FVoqpIYswkzlG7z570lVpKA6ipvUMqCUPF9j0zhDvGcFOEitw44K7ZwaQ=s0> ;
+    schema:url <http://www.rijksmuseum.nl/nl/collectie/RP-P-2014-34-34> .
+
+<http://data.odeuropa.eu/source/fe84e625-7fb7-59d0-aee3-36abb073ac94> a crm:E36_Visual_Item ;
+    rdfs:label "Stilleven met kazen" ;
+    schema:artist <http://data.odeuropa.eu/actor/1f86274c-1abf-5f1a-ac1b-0aa24c56c78d> ;
+    schema:dateCreated <http://data.odeuropa.eu/time/6a36b6d8-faa2-5b29-b331-122cc7b9caf7> ;
+    schema:image <https://data.odeuropa.eu/image/8b800a76-4ea3-46cb-bcaa-a3ed2635e966.jpg>,
+        <https://lh3.googleusercontent.com/O6IfrxhVOGXdcw9-nOkenQqx3svNJtgJFjF_tON1HG_ASu1Uy6IAwOzH7MIOJ3jVBnAZhqyTlw0N1CIILKjtuv0aLLGwvZH3XbSD9pk4=s0> ;
+    schema:url <http://www.rijksmuseum.nl/nl/collectie/SK-A-4821> .
+
+<http://data.odeuropa.eu/actor/0505ffb8-a112-5057-8cf4-3ccbd1ce1640> a crm:E21_Person ;
+    rdfs:label "Willem Claesz. Heda" .
+
+<http://data.odeuropa.eu/actor/0e4dc531-17f6-57b4-9f52-ac5bd66e87b4> a crm:E21_Person ;
+    rdfs:label "Hendrick Danckerts" .
+
+<http://data.odeuropa.eu/actor/0f4827dd-80ce-582f-877a-4a3567dfa12e> a crm:E21_Person ;
+    rdfs:label "Johannes Cornelisz. Verspronck" .
+
+<http://data.odeuropa.eu/actor/1b371c2d-ecac-55e6-99c5-0adc60475d4a> a crm:E21_Person ;
+    rdfs:label "Willem van de Velde" .
+
+<http://data.odeuropa.eu/actor/1f86274c-1abf-5f1a-ac1b-0aa24c56c78d> a crm:E21_Person ;
+    rdfs:label "Floris Claesz. van Dijck" .
+
+<http://data.odeuropa.eu/actor/30329709-919d-56b9-9d70-c088dd6212fd> a crm:E21_Person ;
+    rdfs:label "Willem Kalf" .
+
+<http://data.odeuropa.eu/actor/33140386-bda0-5968-8d14-ef630facfee9> a crm:E21_Person ;
+    rdfs:label "Meester van de Emmerikse Heiligen" .
+
+<http://data.odeuropa.eu/actor/40fa8181-9061-581d-835d-931e26472b14> a crm:E21_Person ;
+    rdfs:label "Philips Galle" .
+
+<http://data.odeuropa.eu/actor/416e134b-67ab-5e9f-b5e1-93716f477c58> a crm:E21_Person ;
+    rdfs:label "Aelbert Cuyp" .
+
+<http://data.odeuropa.eu/actor/56229f44-3587-52d1-851a-71a886df8171> a crm:E21_Person ;
+    rdfs:label "Willem Drost" .
+
+<http://data.odeuropa.eu/actor/61984274-395b-5c00-bb9a-8727f9fdc5e7> a crm:E21_Person ;
+    rdfs:label "Jan van Goyen" .
+
+<http://data.odeuropa.eu/actor/6f2e8fc8-1082-5caa-bad4-59dafa9d2cee> a crm:E21_Person ;
+    rdfs:label "Jan Asselijn" .
+
+<http://data.odeuropa.eu/actor/82f0368d-30ca-5588-a9b6-7488fa199ba3> a crm:E21_Person ;
+    rdfs:label "Aegidius Sadeler" .
+
+<http://data.odeuropa.eu/actor/a7278382-ee5a-50f6-9f27-ff031a4026c3> a crm:E21_Person ;
+    rdfs:label "Rachel Ruysch" .
+
+<http://data.odeuropa.eu/actor/befedfb0-a2bd-5a26-ad72-47ca1bc5b7a1> a crm:E21_Person ;
+    rdfs:label "Carl Friedrich Holtzmann" .
+
+<http://data.odeuropa.eu/actor/c14ad1e5-12be-52fa-8d5c-219173517c19> a crm:E21_Person ;
+    rdfs:label "Jacob Vosmaer" .
+
+<http://data.odeuropa.eu/actor/d1c7b860-242a-50ce-922a-700c85069d30> a crm:E21_Person ;
+    rdfs:label "Judith Leyster" .
+
+<http://data.odeuropa.eu/actor/e3494ae4-31fd-5f37-8551-ccdf3da488c2> a crm:E21_Person ;
+    rdfs:label "Arnoldus van Geffen" .
+
+<http://data.odeuropa.eu/actor/f2b211bd-5ece-53be-b208-59ebf708bfa0> a crm:E21_Person ;
+    rdfs:label "Jan van Scorel" .
+
+<http://data.odeuropa.eu/software/7d269fd1-03f0-5e88-b0fb-bb0f887cddfe> a prov:SoftwareAgent ;
+    rdfs:label "Detrex fork for the application on the ODOR dataset" ;
+    schema:url <https://github.com/mathiaszinnen/detrex> .
+
+<http://data.odeuropa.eu/time/01ebfd7a-4d01-52b0-9408-b9555f8c5221> a time:TemporalEntity ;
+    rdfs:label "1791" ;
+    time:hasBeginning "1791"^^xsd:gYear ;
+    time:hasEnd "1791"^^xsd:gYear .
+
+<http://data.odeuropa.eu/time/05938014-6a9a-51bd-8ddd-6799d35395d4> a time:TemporalEntity ;
+    rdfs:label "1600" ;
+    time:hasBeginning "1600"^^xsd:gYear ;
+    time:hasEnd "1600"^^xsd:gYear .
+
+<http://data.odeuropa.eu/time/09b61a3e-11af-5816-81c2-6c2ade7973d7> a time:TemporalEntity ;
+    rdfs:label "1656/1660" ;
+    time:hasBeginning "1656"^^xsd:gYear ;
+    time:hasEnd "1660"^^xsd:gYear .
+
+<http://data.odeuropa.eu/time/18525c99-22b8-54f8-aa3b-50b4285eb47b> a time:TemporalEntity ;
+    rdfs:label "1530" ;
+    time:hasBeginning "1530"^^xsd:gYear ;
+    time:hasEnd "1530"^^xsd:gYear .
+
+<http://data.odeuropa.eu/time/1cc28daa-0f54-57a0-9118-8d0d34f0cd3b> a time:TemporalEntity ;
+    rdfs:label "1655/1660" ;
+    time:hasBeginning "1655"^^xsd:gYear ;
+    time:hasEnd "1660"^^xsd:gYear .
+
+<http://data.odeuropa.eu/time/27a02c7e-466c-5064-bf61-bf9b503d625e> a time:TemporalEntity ;
+    rdfs:label "1655/1657" ;
+    time:hasBeginning "1655"^^xsd:gYear ;
+    time:hasEnd "1657"^^xsd:gYear .
+
+<http://data.odeuropa.eu/time/31014051-a43d-5db2-9938-a66b99007163> a time:TemporalEntity ;
+    rdfs:label "1662" ;
+    time:hasBeginning "1662"^^xsd:gYear ;
+    time:hasEnd "1662"^^xsd:gYear .
+
+<http://data.odeuropa.eu/time/3abeaf14-bed2-57d1-afbc-aa69b6a1aa2e> a time:TemporalEntity ;
+    rdfs:label "1645" ;
+    time:hasBeginning "1645"^^xsd:gYear ;
+    time:hasEnd "1645"^^xsd:gYear .
+
+<http://data.odeuropa.eu/time/3ccf5183-57ec-546f-ac4b-a434e6368d4a> a time:TemporalEntity ;
+    rdfs:label "1653/1657" ;
+    time:hasBeginning "1653"^^xsd:gYear ;
+    time:hasEnd "1657"^^xsd:gYear .
+
+<http://data.odeuropa.eu/time/457a2e40-cbe6-5d19-9ed9-144082134fb5> a time:TemporalEntity ;
+    rdfs:label "1635/1679" ;
+    time:hasBeginning "1635"^^xsd:gYear ;
+    time:hasEnd "1679"^^xsd:gYear .
+
+<http://data.odeuropa.eu/time/45ed09b8-3d65-58a9-a216-cd83287e0872> a time:TemporalEntity ;
+    rdfs:label "1636/1670" ;
+    time:hasBeginning "1636"^^xsd:gYear ;
+    time:hasEnd "1670"^^xsd:gYear .
+
+<http://data.odeuropa.eu/time/5303844e-d5a3-5589-a83e-dde22492a1dd> a time:TemporalEntity ;
+    rdfs:label "1663/1666" ;
+    time:hasBeginning "1663"^^xsd:gYear ;
+    time:hasEnd "1666"^^xsd:gYear .
+
+<http://data.odeuropa.eu/time/54c9636d-9708-5d78-bd4c-507a8ff44b59> a time:TemporalEntity ;
+    rdfs:label "1663/1665" ;
+    time:hasBeginning "1663"^^xsd:gYear ;
+    time:hasEnd "1665"^^xsd:gYear .
+
+<http://data.odeuropa.eu/time/6a36b6d8-faa2-5b29-b331-122cc7b9caf7> a time:TemporalEntity ;
+    rdfs:label "1615" ;
+    time:hasBeginning "1615"^^xsd:gYear ;
+    time:hasEnd "1615"^^xsd:gYear .
+
+<http://data.odeuropa.eu/time/6cc10647-22b3-59a8-a5b7-49b35a2a923e> a time:TemporalEntity ;
+    rdfs:label "1769" ;
+    time:hasBeginning "1769"^^xsd:gYear ;
+    time:hasEnd "1769"^^xsd:gYear .
+
+<http://data.odeuropa.eu/time/77c98409-2ae7-50f4-af47-83f8c40d830f> a time:TemporalEntity ;
+    rdfs:label "1560/1570" ;
+    time:hasBeginning "1560"^^xsd:gYear ;
+    time:hasEnd "1570"^^xsd:gYear .
+
+<http://data.odeuropa.eu/time/7bafca38-ed08-566e-a58c-bccf06aba6ac> a time:TemporalEntity ;
+    rdfs:label "1779" ;
+    time:hasBeginning "1779"^^xsd:gYear ;
+    time:hasEnd "1779"^^xsd:gYear .
+
+<http://data.odeuropa.eu/time/83a240cf-3de6-5593-b1c7-c577d0c7b819> a time:TemporalEntity ;
+    rdfs:label "1653" ;
+    time:hasBeginning "1653"^^xsd:gYear ;
+    time:hasEnd "1653"^^xsd:gYear .
+
+<http://data.odeuropa.eu/time/85f9aa6c-10cd-59d9-9b47-2e07667c9061> a time:TemporalEntity ;
+    rdfs:label "1627" ;
+    time:hasBeginning "1627"^^xsd:gYear ;
+    time:hasEnd "1627"^^xsd:gYear .
+
+<http://data.odeuropa.eu/time/88ec35ff-9ac3-5a5a-a50f-0624eb83adc0> a time:TemporalEntity ;
+    rdfs:label "1639" ;
+    time:hasBeginning "1639"^^xsd:gYear ;
+    time:hasEnd "1639"^^xsd:gYear .
+
+<http://data.odeuropa.eu/time/8fa1b8fb-1bca-5ce3-84a7-03baf16e7519> a time:TemporalEntity ;
+    rdfs:label "1750/1811" ;
+    time:hasBeginning "1750"^^xsd:gYear ;
+    time:hasEnd "1811"^^xsd:gYear .
+
+<http://data.odeuropa.eu/time/91a9b06f-83b1-51b3-8d9a-95ae4b36db9b> a time:TemporalEntity ;
+    rdfs:label "1660/1679" ;
+    time:hasBeginning "1660"^^xsd:gYear ;
+    time:hasEnd "1679"^^xsd:gYear .
+
+<http://data.odeuropa.eu/time/942e6506-2d37-5f12-8ed8-439cebcdc8c6> a time:TemporalEntity ;
+    rdfs:label "1650" ;
+    time:hasBeginning "1650"^^xsd:gYear ;
+    time:hasEnd "1650"^^xsd:gYear .
+
+<http://data.odeuropa.eu/time/97dfb535-7eb2-52af-86fb-636ff6616eaf> a time:TemporalEntity ;
+    rdfs:label "1480/1500" ;
+    time:hasBeginning "1480"^^xsd:gYear ;
+    time:hasEnd "1500"^^xsd:gYear .
+
+<http://data.odeuropa.eu/time/9eed2791-f291-55c7-b47f-f0d7166bc876> a time:TemporalEntity ;
+    rdfs:label "1657" ;
+    time:hasBeginning "1657"^^xsd:gYear ;
+    time:hasEnd "1657"^^xsd:gYear .
+
+<http://data.odeuropa.eu/time/a2d575d7-3ce9-5264-acbb-4e6a13405fcf> a time:TemporalEntity ;
+    rdfs:label "1665/1669" ;
+    time:hasBeginning "1665"^^xsd:gYear ;
+    time:hasEnd "1669"^^xsd:gYear .
+
+<http://data.odeuropa.eu/time/aaa663f5-0f48-579c-8f30-3ecb6480a40e> a time:TemporalEntity ;
+    rdfs:label "1642" ;
+    time:hasBeginning "1642"^^xsd:gYear ;
+    time:hasEnd "1642"^^xsd:gYear .
+
+<http://data.odeuropa.eu/time/aeb19448-eff2-5ec7-81f0-fec34bddbbe3> a time:TemporalEntity ;
+    rdfs:label "1670" ;
+    time:hasBeginning "1670"^^xsd:gYear ;
+    time:hasEnd "1670"^^xsd:gYear .
+
+<http://data.odeuropa.eu/time/b141c5a9-d203-53a5-bac1-d75034b4dff5> a time:TemporalEntity ;
+    rdfs:label "1669/1670" ;
+    time:hasBeginning "1669"^^xsd:gYear ;
+    time:hasEnd "1670"^^xsd:gYear .
+
+<http://data.odeuropa.eu/time/c2cee7ea-2a1d-5183-a866-448ea1f51285> a time:TemporalEntity ;
+    rdfs:label "1610/1629" ;
+    time:hasBeginning "1610"^^xsd:gYear ;
+    time:hasEnd "1629"^^xsd:gYear .
+
+<http://data.odeuropa.eu/time/cdaaf983-f0e7-5ad4-a164-09bb9475cc01> a time:TemporalEntity ;
+    rdfs:label "1629" ;
+    time:hasBeginning "1629"^^xsd:gYear ;
+    time:hasEnd "1629"^^xsd:gYear .
+
+<http://data.odeuropa.eu/time/d0950ea2-5986-52c9-ac56-913987a062ad> a time:TemporalEntity ;
+    rdfs:label "1628" ;
+    time:hasBeginning "1628"^^xsd:gYear ;
+    time:hasEnd "1628"^^xsd:gYear .
+
+<http://data.odeuropa.eu/time/d195e3ee-73df-5d9b-9ed2-bc4133e981c7> a time:TemporalEntity ;
+    rdfs:label "1613" ;
+    time:hasBeginning "1613"^^xsd:gYear ;
+    time:hasEnd "1613"^^xsd:gYear .
+
+<http://data.odeuropa.eu/time/d71221da-5d6d-5818-8c17-1f9439730807> a time:TemporalEntity ;
+    rdfs:label "1690/1720" ;
+    time:hasBeginning "1690"^^xsd:gYear ;
+    time:hasEnd "1720"^^xsd:gYear .
+
+<http://data.odeuropa.eu/time/d8bc46b4-1fe0-51a0-a4f0-7450fbb989f3> a time:TemporalEntity ;
+    rdfs:label "1661" ;
+    time:hasBeginning "1661"^^xsd:gYear ;
+    time:hasEnd "1661"^^xsd:gYear .
+
+<http://data.odeuropa.eu/time/ed9a7192-1c65-5201-a243-62c75e6b755a> a time:TemporalEntity ;
+    rdfs:label "1664" ;
+    time:hasBeginning "1664"^^xsd:gYear ;
+    time:hasEnd "1664"^^xsd:gYear .
+
+<http://data.odeuropa.eu/time/f0137c84-7eae-5397-a961-6c78d83badc1> a time:TemporalEntity ;
+    rdfs:label "1623" ;
+    time:hasBeginning "1623"^^xsd:gYear ;
+    time:hasEnd "1623"^^xsd:gYear .
+
+<http://data.odeuropa.eu/time/f3822f1c-15ad-5d94-a1b5-0790e23967ef> a time:TemporalEntity ;
+    rdfs:label "1668/1670" ;
+    time:hasBeginning "1668"^^xsd:gYear ;
+    time:hasEnd "1670"^^xsd:gYear .
+
+<http://data.odeuropa.eu/actor/5dc2dc2e-8eef-508e-a7a3-dfbb48d34dc9> a crm:E21_Person ;
+    rdfs:label "Pieter Claesz" .
+
+<http://data.odeuropa.eu/actor/6e6d16fa-8a65-51fd-899f-a52ca84125c2> a crm:E21_Person ;
+    rdfs:label "Meindert Hobbema" .
+
+<http://data.odeuropa.eu/actor/73471ebd-0cb6-5c8e-87b6-d989f5068c55> a crm:E21_Person ;
+    rdfs:label "Magdalena van de Passe" .
+
+<http://data.odeuropa.eu/actor/e1715b7a-ddd8-50e8-ac94-3b7cca753b2b> a crm:E21_Person ;
+    rdfs:label "Johannes Adrianus van Geffen" .
+
+<http://data.odeuropa.eu/time/0349b964-3521-5b08-92ba-1e5ac38a72a3> a time:TemporalEntity ;
+    rdfs:label "1658" ;
+    time:hasBeginning "1658"^^xsd:gYear ;
+    time:hasEnd "1658"^^xsd:gYear .
+
+<http://data.odeuropa.eu/time/15447008-a4fb-5e6b-a785-a623d02b2ff4> a time:TemporalEntity ;
+    rdfs:label "1665/1668" ;
+    time:hasBeginning "1665"^^xsd:gYear ;
+    time:hasEnd "1668"^^xsd:gYear .
+
+<http://data.odeuropa.eu/time/47fbc949-1970-5d82-86c5-5a681dcf935b> a time:TemporalEntity ;
+    rdfs:label "1663" ;
+    time:hasBeginning "1663"^^xsd:gYear ;
+    time:hasEnd "1663"^^xsd:gYear .
+
+<http://data.odeuropa.eu/time/5b1da705-6588-5dbb-967a-5c6ff2197f78> a time:TemporalEntity ;
+    rdfs:label "1634" ;
+    time:hasBeginning "1634"^^xsd:gYear ;
+    time:hasEnd "1634"^^xsd:gYear .
+
+<http://data.odeuropa.eu/time/5d8ee10d-6a5b-5fa6-9fc5-3ec85cb0ca1b> a time:TemporalEntity ;
+    rdfs:label "1636" ;
+    time:hasBeginning "1636"^^xsd:gYear ;
+    time:hasEnd "1636"^^xsd:gYear .
+
+<http://data.odeuropa.eu/time/8f792a8c-404b-59c7-ad34-a445522b2d37> a time:TemporalEntity ;
+    rdfs:label "1641" ;
+    time:hasBeginning "1641"^^xsd:gYear ;
+    time:hasEnd "1641"^^xsd:gYear .
+
+<http://data.odeuropa.eu/time/9c660807-48ad-5e15-a221-6b4455561558> a time:TemporalEntity ;
+    rdfs:label "1660" ;
+    time:hasBeginning "1660"^^xsd:gYear ;
+    time:hasEnd "1660"^^xsd:gYear .
+
+<http://data.odeuropa.eu/time/b011bfca-8e1d-57dc-8d2f-74074bf302be> a time:TemporalEntity ;
+    rdfs:label "1668" ;
+    time:hasBeginning "1668"^^xsd:gYear ;
+    time:hasEnd "1668"^^xsd:gYear .
+
+<http://data.odeuropa.eu/actor/2316d992-b867-5bfc-80e2-d0362f2a420f> a crm:E21_Person ;
+    rdfs:label "Pieter Jansz. Saenredam" .
+
+<http://data.odeuropa.eu/actor/5c0c7138-bafa-55fb-8554-cc7b55300bfd> a crm:E21_Person ;
+    rdfs:label "Pieter de Hooch" .
+
+<http://data.odeuropa.eu/actor/73fbb429-a040-55fa-985e-24d8f62e6960> a crm:E21_Person ;
+    rdfs:label "Frans Hals" .
+
+<http://data.odeuropa.eu/time/20e2df93-ee1d-559f-9427-281f1c99f500> a time:TemporalEntity ;
+    rdfs:label "1635" ;
+    time:hasBeginning "1635"^^xsd:gYear ;
+    time:hasEnd "1635"^^xsd:gYear .
+
+<http://data.odeuropa.eu/time/96842583-3e63-541b-88e3-1a025f127e91> a time:TemporalEntity ;
+    rdfs:label "1665" ;
+    time:hasBeginning "1665"^^xsd:gYear ;
+    time:hasEnd "1665"^^xsd:gYear .
+
+<http://data.odeuropa.eu/actor/15eea052-2c45-5673-8547-55763d8dfa26> a crm:E21_Person ;
+    rdfs:label "Johannes Vermeer" .
+
+<http://data.odeuropa.eu/actor/6acd2747-b3d4-558d-9184-a753f7e72d76> a crm:E21_Person ;
+    rdfs:label "Jacob Isaacksz van Ruisdael" .
+
+<http://data.odeuropa.eu/actor/2d84d936-3af4-5654-9626-deee9ce1e5fb> a crm:E21_Person ;
+    rdfs:label "Lambertus Antonius Claessens" .
+
+<http://data.odeuropa.eu/time/0f402117-6b6d-5110-93f0-21c367abc9d9> a time:TemporalEntity ;
+    rdfs:label "1797" ;
+    time:hasBeginning "1797"^^xsd:gYear ;
+    time:hasEnd "1797"^^xsd:gYear .
+
+<http://data.odeuropa.eu/actor/e9c33dfb-b796-5d66-8dff-416584a1229d> a crm:E21_Person ;
+    rdfs:label "Jan Havicksz. Steen" .
+
+<http://data.odeuropa.eu/actor/f51166c2-d49a-5256-adab-37c25a7dcd64> a crm:E21_Person ;
+    rdfs:label "Rembrandt van Rijn" .
+

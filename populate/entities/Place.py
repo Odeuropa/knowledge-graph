@@ -21,9 +21,9 @@ with open(GEONAMES_CACHE, 'r') as _f:
         cache = {}
 
 IN_PREFIX = {
-    'en': r'(?i)^(all )?(at|in(to)?|upon|between|down ([oi]n)?|every|about|above|across|his|her|our|out(side)?( in| of)?|near|throughout|even( in)?|of|on|along|from|to|before) ',
-    'it': r"(?i)^(d'|a |in |(da|ne|su|a)(gl)?i |presso |per |(da|ne|su|a)(l(l[aoe])?)? |(da|ne|su)ll ?')",
-    'fr': r"(?i)^((en|dans|à|aux?|sur|autur du?) |d')",
+    'en': r'(?i)^(all |anywhere |certain (parts )?)?(at|i[un](to)?|hot|upon|between|down ([oi]n)?|every|all|the whole|many|about|above|across|his|her|our|out(side)?( in| of)?|near|throughout|even( in)?|of|on|along|from|to|before|over) ',
+    'it': r"(?i)^(d ?'|a |i[un] |(da|ne|su|a)(gl)?i |presso |per |(da|ne|su|a)(l(l[aoe])?)? |(da|ne|su)ll ?')",
+    'fr': r"(?i)^((de|en|dans|à|aux?|sur|autur du?) |d')",
     'nl': r'(?i)^(by|te|op|in) ',
     'de': r'(?i)^(by|te|op|in|im|von|au[sß]|auff?) ',
     'sl': r'(?i)^(v|pod?|o[bd]|na|iz) '
@@ -45,6 +45,7 @@ def extract_feature(text):
 
 def add_to_cache(text, geonames_id):
     if geonames_id is not None:
+        print(text, geonames_id)
         request.urlretrieve(f'https://sws.geonames.org/{geonames_id}/about.rdf', f'../dump/geonames/{geonames_id}.rdf')
     cache[text] = geonames_id
 
@@ -133,7 +134,9 @@ class Place(Entity):
                 return Place(to_geonames_uri(geonames_id))
 
         else:  # search
-            res = geocoder.geonames(text, key=GEONAMES, featureClass=feature_class, orderby='relevance',
+            res = False
+            if text != 'station': #workaround
+                res = geocoder.geonames(text, key=GEONAMES, featureClass=feature_class, orderby='relevance',
                                     isNameRequired=True, searchlang=lang, lang=lang)
             if res:  # found
                 add_to_cache(text, res.geonames_id)

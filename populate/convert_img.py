@@ -1,3 +1,5 @@
+import argparse
+
 import json
 import math
 import os
@@ -16,20 +18,36 @@ from entities import *
 from entities.Graph import ODEUROPA_PROJECT
 from entities.vocabularies import VocabularyManager as VocManager
 
-source_folder = path.join('./', 'input', 'image-odor-dataset')
-docs_file = path.join(source_folder, 'metadata.csv')
-out_folder = '../dump/image-annotation'
-os.makedirs(out_folder, exist_ok=True)
+DEFAULT_ROOT = path.join('./', 'input', 'odor')
+DEFAULT_OUT = '../dump'
 
 DOC_ID_REGEX = r"\d{3}[A-Z]"
+
+# COMPOSED_LOCATION_REGEX = r'([^(\n]+), ([^0-9\n(]+) \(([^0-9\n()]+)\)'
 
 docs = {}
 # in the source metadata there are duplicates, with different filenames and same url
 # the following map is needed for resolve those duplicates
 url_file_map = {}
 
+cat_map = {}
 
-# COMPOSED_LOCATION_REGEX = r'([^(\n]+), ([^0-9\n(]+) \(([^0-9\n()]+)\)'
+BASE_OO = 'http://data.odeuropa.eu/vocabulary/olfactory-objects/'
+
+prov = Provenance('D2.4', 'Manual image annotation',
+                  'Manual annotation of image resources realised according to the Odeuropa deliverable D2.4 '
+                  '"Annotated image data version 2" ', ODEUROPA_PROJECT)
+prov_automatic = Provenance('D2.3', 'Automatic image annotation',
+                            'Automatic annotation of image resources realised according to the Odeuropa deliverable D2.3 '
+                            '"Object Detection/Image analysis version 1" ', ODEUROPA_PROJECT)
+prov_automatic.add_software('Detrex fork for the application on the ODOR dataset',
+                            'https://github.com/mathiaszinnen/detrex')
+
+not_found = []
+done = []
+annotations_done = []
+iterator = 0
+
 
 def normalized_fname(fname):
     for urls in url_file_map.values():
@@ -51,7 +69,7 @@ def process_metadata(df):
             # already done! It is a duplicate!
             continue
 
-        if r['Language']:
+        if r.get('Language'):
             lang = lang_map.get(r['Language'], 'en')
         else:
             tld = str(urlparse(r['Photo Archive']).hostname).split('.')[-1]
@@ -90,7 +108,8 @@ def process_metadata(df):
             creator = re.sub(r'(,? )?\(?\?\)?', '', creator).strip()
 
         loc = r.get('Original Location', "").replace('|', '')
-        to = ImageObject(idf, r['Title'].strip(), creator, date, loc, r.get('Image Credits'), lang, risk_of_homonyms=True)
+        to = ImageObject(idf, r['Title'].strip(), creator, date, loc, r.get('Image Credits'), lang,
+                         risk_of_homonyms=True)
 
         # parse locations
         loc = r.get('Current Location', '')
@@ -129,78 +148,43 @@ def process_metadata(df):
             to.same_as(url)
 
         to.add_url(url)
-        to.add_descr(r['Additional Information'], lang)
-        to.add_descr(r['Description'], lang)
-        to.add_license(r['License'])
+        to.add_descr(r.get('Additional Information'), lang)
+        to.add_descr(r.get('Description'), lang)
+        to.add_license(r.get('License'))
 
-        genre = r['Genre']
-        if genre != 'unknown':
-            for g in genre.split(','):
-                if ">" in g:
-                    g = g.split('>')[0]
-                g = g.replace('|', '').strip()
-                match, role = art.interlink(g, None, fallback=None)
-                if match is None:
-                    to.add_subject(g)
-                else:
-                    to.add_type(match)
+        # genre = r['Genre']
+        # if genre != 'unknown':
+        #     for g in genre.split(','):
+        #         if ">" in g:
+        #             g = g.split('>')[0]
+        #         g = g.replace('|', '').strip()
+        #         match, role = art.interlink(g, None, fallback=None)
+        #         if match is None:
+        #             to.add_subject(g)
+        #         else:
+        #             to.add_type(match)
 
-        material = r['Material']
-        if material:
-            material = material.replace('|', '').replace(' su ', ', ').lower()
-            material = material.replace(' auf ', ', ')
-            material = material.replace('(bis)', '')
-            material = re.sub(r'\((.+)\)', '', material)
-            material = re.sub(r': .+', '', material)
-            for m in material.split(r','):
-                if ">" in m:
-                    m = m.split('>')[0]
+        # material = r['Material']
+        # if material:
+        #     material = material.replace('|', '').replace(' su ', ', ').lower()
+        #     material = material.replace(' auf ', ', ')
+        #     material = material.replace('(bis)', '')
+        #     material = re.sub(r'\((.+)\)', '', material)
+        #     material = re.sub(r': .+', '', material)
+        #     for m in material.split(r','):
+        #         if ">" in m:
+        #             m = m.split('>')[0]
+        #
+        #         m = m.strip()
+        #         if len(m) == 0:
+        #             continue
+        #         to.add_material(m)
+        #
+        # for k in r['Keywords'].split(','):
+        #     to.add_subject(k.replace('|', ''), 'en')
 
-                m = m.strip()
-                if len(m) == 0:
-                    continue
-                to.add_material(m)
-
-        for k in r['Keywords'].split(','):
-            to.add_subject(k.replace('|', ''), 'en')
-
-        to.add_subject(r['Iconography'])
+        to.add_subject(r.get('Iconography'))
         docs[idf] = to
-
-
-# init
-with open('config.yaml', 'r') as file:
-    config = yaml.safe_load(file)
-VocManager.setup(config['vocabularies'])
-art = VocManager.get('visual-art-types')
-
-# convert
-raw_metadata = pd.read_csv(docs_file, dtype=str)
-raw_metadata.fillna('', inplace=True)
-
-batch_dim = 10000
-batches = np.arange(0, len(raw_metadata), batch_dim)
-for i, batch_start in enumerate(batches):
-    print(f'Batch {i + 1}/{len(batches)}')
-    batch = raw_metadata.iloc[batch_start:batch_start + batch_dim, :]
-
-    process_metadata(batch)
-
-    Graph.g.serialize(destination=f"{out_folder}/figs_{i}.ttl")
-    Graph.reset()
-
-cat_map = {}
-
-BASE_OO = 'http://data.odeuropa.eu/vocabulary/olfactory-objects/'
-
-prov = Provenance('D2.4', 'Manual image annotation',
-                  'Manual annotation of image resources realised according to the Odeuropa deliverable D2.4 '
-                  '"Annotated image data version 2" ', ODEUROPA_PROJECT)
-prov_automatic = Provenance('D2.3', 'Automatic image annotation',
-                            'Automatic annotation of image resources realised according to the Odeuropa deliverable D2.3 '
-                            '"Object Detection/Image analysis version 1" ', ODEUROPA_PROJECT)
-prov_automatic.add_software('Detrex fork for the application on the ODOR dataset',
-                            'https://github.com/mathiaszinnen/detrex')
 
 
 def guess_annotation(body, seed):
@@ -215,10 +199,6 @@ def guess_annotation(body, seed):
     else:
         annotation = SmellSource(seed, body['name'], lang='en', lemma=uri, role=role)
     return annotation
-
-
-not_found = []
-done = []
 
 
 def init_base_smell_entities(id, img, smell_map, _prov):
@@ -243,8 +223,7 @@ def init_base_smell_entities(id, img, smell_map, _prov):
     return smell, emission, experience
 
 
-annotations_done = []
-def process_annotations(annotations, image_map, smell_map, automatic, _prov):
+def process_annotations(annotations, image_map, smell_map, automatic, gesture, _prov):
     for x in tqdm(annotations):
         image_id = x.get('image_id', x.get('iid'))
         if image_id not in image_map:
@@ -257,12 +236,14 @@ def process_annotations(annotations, image_map, smell_map, automatic, _prov):
         if automatic:
             if cur_img.has_manual_annotations:
                 continue
-            if x['score'] < 0.3:
+            if x['score'] < 0.4:
                 continue  # just to remove some noise
-        else:
+        elif not gesture:
             cur_img.has_manual_annotations = True
+        else:
+            cur_img.has_manual_gest_annotations = True
 
-        frag_id =  cur_img.internal_id + '#' + ','.join([str(x) for x in x['bbox']])
+        frag_id = cur_img.internal_id + '#' + ','.join([str(x) for x in x['bbox']])
         if frag_id in annotations_done:
             continue
         annotations_done.append(frag_id)
@@ -273,7 +254,8 @@ def process_annotations(annotations, image_map, smell_map, automatic, _prov):
         smell, emission, experience = init_base_smell_entities(cur_img.internal_id, cur_img, smell_map, _prov)
 
         if isinstance(cat, Gesture):
-            experience.add_gesture(cat)
+            if gesture or not cur_img.has_manual_gest_annotations:
+                experience.add_gesture(cat)
         elif isinstance(cat, SmellSource) and cat.role == 'carrier':
             emission.add_carrier(cat)
         else:
@@ -282,10 +264,7 @@ def process_annotations(annotations, image_map, smell_map, automatic, _prov):
         frag.add_annotation(cat, _prov, x.get('score', 1))
 
 
-iterator = 0
-
-
-def parse_annotations_file(json_file):
+def parse_annotations_file(json_file, out_folder):
     global iterator
 
     automatic = 'automatic' in json_file
@@ -330,7 +309,7 @@ def parse_annotations_file(json_file):
         step = 50000
         for i in np.arange(0, len(annotations) - 1, step):
             print(f'Batch {int(i / step + 1)}/{math.ceil(len(annotations) / step)}')
-            process_annotations(annotations[i:i + step], image_map, smell_map, automatic, _prov)
+            process_annotations(annotations[i:i + step], image_map, smell_map, automatic, 'gesture' in json_file, _prov)
             out = Graph.g.serialize(format='ttl')
             out = out.replace('"<<', '<<').replace('>>"', '>>')
             with open(f"{out_folder}/figs_annotated_{iterator}.ttl", 'w') as outfile:
@@ -339,6 +318,55 @@ def parse_annotations_file(json_file):
             Graph.reset()
 
 
-for i, f in enumerate(['annotations.json', 'annotations_automatic.json']):
-    print('Parse ', f)
-    parse_annotations_file(path.join(source_folder, f))
+def run(source_folder, out_folder):
+    docs_file = path.join(source_folder, 'metadata.csv')
+    out_folder = path.join(out_folder, source_folder.split('/')[-1])
+    os.makedirs(out_folder, exist_ok=True)
+
+    # init
+    with open('config.yaml', 'r') as file:
+        config = yaml.safe_load(file)
+    VocManager.setup(config['vocabularies'])
+    # art = VocManager.get('visual-art-types')
+
+    # convert
+    raw_metadata = pd.read_csv(docs_file, dtype=str)
+    raw_metadata.fillna('', inplace=True)
+
+    batch_dim = 10000
+    batches = np.arange(0, len(raw_metadata), batch_dim)
+    for i, batch_start in enumerate(batches):
+        print(f'Batch {i + 1}/{len(batches)}')
+        batch = raw_metadata.iloc[batch_start:batch_start + batch_dim, :]
+
+        process_metadata(batch)
+
+        Graph.g.serialize(destination=f"{out_folder}/figs_{i}.ttl")
+        Graph.reset()
+
+    for i, f in enumerate(['annotations_gesture.json', 'annotations.json', 'annotations_automatic.json']):
+        file_path = path.join(source_folder, f)
+        if not path.isfile(file_path):
+            continue
+        print('Parse ', f)
+        parse_annotations_file(file_path, out_folder)
+
+
+def dir_path(string):
+    if os.path.isdir(string):
+        return string
+    else:
+        raise NotADirectoryError(string)
+
+
+def parse_arguments():
+    parser = argparse.ArgumentParser(description='Convert csv from text into the Odeuropa Model.')
+    parser.add_argument('--input', '-i', type=dir_path, default=DEFAULT_ROOT)
+    parser.add_argument('--output', '-o', type=dir_path, default=DEFAULT_OUT)
+
+    return parser.parse_args()
+
+
+if __name__ == "__main__":
+    args = parse_arguments()
+    run(args.input, args.output)
