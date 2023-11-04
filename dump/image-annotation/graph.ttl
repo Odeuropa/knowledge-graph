@@ -1,9 +1,0 @@
-@prefix dc: <http://purl.org/dc/elements/1.1/> .
-@prefix dcmi: <http://purl.org/dc/dcmitype/> .
-@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
-
-<http://data.odeuropa.eu/image-annotation> a dcmi:Dataset ;
-  rdfs:label "ODOR Dataset" ;
-  dc:title "Odeuropa Dataset of Smell-Related Objects"@en ;
-  dc:language "en" ;
-  dc:creator <http://data.odeuropa.eu/odeuropa> .
