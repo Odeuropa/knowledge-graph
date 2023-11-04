@@ -1,47 +1,27 @@
-<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd ">
-<html>
-<head>
-<title>GeoNames</title>
-<link rel="search" type="application/opensearchdescription+xml" title="geonames" href="https://www.geonames.org/opensearch-description.xml">
-<link href="/geonames.ico" rel="shortcut icon" >
-<link rel="StyleSheet" href="/geonames.css" type="text/css" >
-</head>
-<body>
-<table id="topmenutable" cellpadding="0" cellspacing="0"><tr>
-<td class="topmenu">&nbsp;<a href="/" title="GeoName Home">&nbsp;GeoNames Home</a>&nbsp;|&nbsp;<a href="/postal-codes/" title="Postal Codes">Postal Codes</a>&nbsp;|&nbsp;<a href="/export/" title="Database Dump and Webservice API">Download / Webservice</a>&nbsp;|&nbsp;<a href="/about.html" title="About GeoNames">About</a>&nbsp;</td>
-<td class="topsearch">
-   <form class="topsearch" name="searchForm" method="get" action="/servlet/geonames" >
-
-      search <input class="topmenu" name="q" size="20" value="" type="text">
-     <input type="hidden" name="srv" value="1">
-   </form>
-
-   <span id="topmenulogin">
-<a href="https://www.geonames.org/login" title="login or create new user account">login</a>
-   </span>
-</td></tr>
-</table>
-
-<br><br><br><br>
-<div style="margin:auto; width:500px; padding:40px; text-align:left" class="formTemplateClass">
-Connection to localhost:5432 refused. Check that the hostname and port are correct and that the postmaster is accepting TCP/IP connections.
-</div>
-
-
-<p>&nbsp;</p><p>&nbsp;</p><p>&nbsp;</p><p>&nbsp;</p>
-<div id="pageFooter">
-info@geonames.org  <img src="/img/smallant.gif" alt="ant" align="middle" hspace="40" border="0">
-<p>
-<a href="/">GeoNames Home</a>
-<span class="separator">&#8226;</span>
-<a href="/postal-codes/">Postal Codes</a>
-<span class="separator">&#8226;</span>
-<a href="/export/">Download / Webservice</a>
-<span class="separator">&#8226;</span>
-<a href="http://forum.geonames.org">Forum</a>
-<span class="separator">&#8226;</span>
-<a href="http://geonames.wordpress.com">Blog</a>
-<span class="separator">&#8226;</span>
-<a href="/sitemap.html">Sitemap</a>
-</div>
-</body></html>
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<rdf:RDF xmlns:cc="http://creativecommons.org/ns#" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:foaf="http://xmlns.com/foaf/0.1/" xmlns:gn="http://www.geonames.org/ontology#" xmlns:owl="http://www.w3.org/2002/07/owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:wgs84_pos="http://www.w3.org/2003/01/geo/wgs84_pos#">
+    <gn:Feature rdf:about="https://sws.geonames.org/11550070/">
+        <rdfs:isDefinedBy rdf:resource="https://sws.geonames.org/11550070/about.rdf"/>
+        <gn:name>Terre Roveresche</gn:name>
+        <gn:featureClass rdf:resource="https://www.geonames.org/ontology#A"/>
+        <gn:featureCode rdf:resource="https://www.geonames.org/ontology#A.ADM3"/>
+        <gn:countryCode>IT</gn:countryCode>
+        <gn:population>5238</gn:population>
+        <wgs84_pos:lat>43.7054</wgs84_pos:lat>
+        <wgs84_pos:long>12.9592</wgs84_pos:long>
+        <gn:parentFeature rdf:resource="https://sws.geonames.org/3171172/"/>
+        <gn:parentCountry rdf:resource="https://sws.geonames.org/3175395/"/>
+        <gn:parentADM1 rdf:resource="https://sws.geonames.org/3174004/"/>
+        <gn:parentADM2 rdf:resource="https://sws.geonames.org/3171172/"/>
+        <gn:childrenFeatures rdf:resource="https://sws.geonames.org/11550070/contains.rdf"/>
+        <gn:locationMap rdf:resource="https://www.geonames.org/11550070/terre-roveresche.html"/>
+    </gn:Feature>
+    <foaf:Document rdf:about="https://sws.geonames.org/11550070/about.rdf">
+        <foaf:primaryTopic rdf:resource="https://sws.geonames.org/11550070/"/>
+        <cc:license rdf:resource="https://creativecommons.org/licenses/by/4.0/"/>
+        <cc:attributionURL rdf:resource="https://www.geonames.org"/>
+        <cc:attributionName rdf:datatype="https://www.w3.org/2001/XMLSchema#string">GeoNames</cc:attributionName>
+        <dcterms:created rdf:datatype="https://www.w3.org/2001/XMLSchema#date">2017-05-25</dcterms:created>
+        <dcterms:modified rdf:datatype="https://www.w3.org/2001/XMLSchema#date">2020-06-07</dcterms:modified>
+    </foaf:Document>
+</rdf:RDF>

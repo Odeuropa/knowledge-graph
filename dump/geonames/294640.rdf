@@ -1,47 +1,205 @@
-<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd ">
-<html>
-<head>
-<title>GeoNames</title>
-<link rel="search" type="application/opensearchdescription+xml" title="geonames" href="https://www.geonames.org/opensearch-description.xml">
-<link href="/geonames.ico" rel="shortcut icon" >
-<link rel="StyleSheet" href="/geonames.css" type="text/css" >
-</head>
-<body>
-<table id="topmenutable" cellpadding="0" cellspacing="0"><tr>
-<td class="topmenu">&nbsp;<a href="/" title="GeoName Home">&nbsp;GeoNames Home</a>&nbsp;|&nbsp;<a href="/postal-codes/" title="Postal Codes">Postal Codes</a>&nbsp;|&nbsp;<a href="/export/" title="Database Dump and Webservice API">Download / Webservice</a>&nbsp;|&nbsp;<a href="/about.html" title="About GeoNames">About</a>&nbsp;</td>
-<td class="topsearch">
-   <form class="topsearch" name="searchForm" method="get" action="/servlet/geonames" >
-
-      search <input class="topmenu" name="q" size="20" value="" type="text">
-     <input type="hidden" name="srv" value="1">
-   </form>
-
-   <span id="topmenulogin">
-<a href="https://www.geonames.org/login" title="login or create new user account">login</a>
-   </span>
-</td></tr>
-</table>
-
-<br><br><br><br>
-<div style="margin:auto; width:500px; padding:40px; text-align:left" class="formTemplateClass">
-the hourly limit of 1000 credits for 176.145.110.165 has been exceeded. Please throttle your requests or use the commercial service.
-</div>
-
-
-<p>&nbsp;</p><p>&nbsp;</p><p>&nbsp;</p><p>&nbsp;</p>
-<div id="pageFooter">
-info@geonames.org  <img src="/img/smallant.gif" alt="ant" align="middle" hspace="40" border="0">
-<p>
-<a href="/">GeoNames Home</a>
-<span class="separator">&#8226;</span>
-<a href="/postal-codes/">Postal Codes</a>
-<span class="separator">&#8226;</span>
-<a href="/export/">Download / Webservice</a>
-<span class="separator">&#8226;</span>
-<a href="http://forum.geonames.org">Forum</a>
-<span class="separator">&#8226;</span>
-<a href="http://geonames.wordpress.com">Blog</a>
-<span class="separator">&#8226;</span>
-<a href="/sitemap.html">Sitemap</a>
-</div>
-</body></html>
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<rdf:RDF xmlns:cc="http://creativecommons.org/ns#" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:foaf="http://xmlns.com/foaf/0.1/" xmlns:gn="http://www.geonames.org/ontology#" xmlns:owl="http://www.w3.org/2002/07/owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:wgs84_pos="http://www.w3.org/2003/01/geo/wgs84_pos#">
+    <gn:Feature rdf:about="https://sws.geonames.org/294640/">
+        <rdfs:isDefinedBy rdf:resource="https://sws.geonames.org/294640/about.rdf"/>
+        <gn:name>Israel</gn:name>
+        <gn:officialName xml:lang="ko">이스라엘</gn:officialName>
+        <gn:alternateName>Dawlat Isrā’īl</gn:alternateName>
+        <gn:alternateName>Eretz Yisrael</gn:alternateName>
+        <gn:alternateName xml:lang="he">Ereẕ Yisra’el</gn:alternateName>
+        <gn:alternateName>Ereẕ Yisra’el</gn:alternateName>
+        <gn:officialName xml:lang="to">ʻIsileli</gn:officialName>
+        <gn:officialName xml:lang="et">Iisrael</gn:officialName>
+        <gn:officialName xml:lang="ga">Iosrael</gn:officialName>
+        <gn:officialName xml:lang="gd">Iosrael</gn:officialName>
+        <gn:officialName xml:lang="yo">Iserẹli</gn:officialName>
+        <gn:officialName xml:lang="rn">Isiraheli</gn:officialName>
+        <gn:officialName xml:lang="lu">Isirayele</gn:officialName>
+        <gn:officialName xml:lang="ln">Isirayelɛ</gn:officialName>
+        <gn:officialName xml:lang="bm">Isirayeli</gn:officialName>
+        <gn:alternateName xml:lang="fj">Isireli</gn:alternateName>
+        <gn:officialName xml:lang="ff">Israa’iila</gn:officialName>
+        <gn:officialName xml:lang="so">Israaʼiil</gn:officialName>
+        <gn:officialName xml:lang="af">Israel</gn:officialName>
+        <gn:officialName xml:lang="ak">Israel</gn:officialName>
+        <gn:alternateName xml:lang="an">Israel</gn:alternateName>
+        <gn:alternateName xml:lang="ast">Israel</gn:alternateName>
+        <gn:officialName xml:lang="br">Israel</gn:officialName>
+        <gn:officialName xml:lang="ca">Israel</gn:officialName>
+        <gn:officialName xml:lang="cy">Israel</gn:officialName>
+        <gn:officialName xml:lang="da">Israel</gn:officialName>
+        <gn:officialName xml:lang="de">Israel</gn:officialName>
+        <gn:officialName xml:lang="en">Israel</gn:officialName>
+        <gn:officialName xml:lang="es">Israel</gn:officialName>
+        <gn:officialName xml:lang="eu">Israel</gn:officialName>
+        <gn:officialName xml:lang="fi">Israel</gn:officialName>
+        <gn:alternateName xml:lang="fy">Israel</gn:alternateName>
+        <gn:alternateName xml:lang="gd">Israel</gn:alternateName>
+        <gn:officialName xml:lang="gl">Israel</gn:officialName>
+        <gn:alternateName xml:lang="hsb">Israel</gn:alternateName>
+        <gn:officialName xml:lang="ia">Israel</gn:officialName>
+        <gn:officialName xml:lang="id">Israel</gn:officialName>
+        <gn:officialName xml:lang="ig">Israel</gn:officialName>
+        <gn:alternateName xml:lang="ilo">Israel</gn:alternateName>
+        <gn:alternateName xml:lang="io">Israel</gn:alternateName>
+        <gn:officialName xml:lang="kl">Israel</gn:officialName>
+        <gn:alternateName xml:lang="la">Israel</gn:alternateName>
+        <gn:officialName xml:lang="lb">Israel</gn:officialName>
+        <gn:officialName xml:lang="ms">Israel</gn:officialName>
+        <gn:alternateName xml:lang="na">Israel</gn:alternateName>
+        <gn:officialName xml:lang="nb">Israel</gn:officialName>
+        <gn:alternateName xml:lang="nds">Israel</gn:alternateName>
+        <gn:alternateName xml:lang="nn">Israel</gn:alternateName>
+        <gn:officialName xml:lang="no">Israel</gn:officialName>
+        <gn:alternateName xml:lang="pam">Israel</gn:alternateName>
+        <gn:officialName xml:lang="pt">Israel</gn:officialName>
+        <gn:officialName xml:lang="qu">Israel</gn:officialName>
+        <gn:officialName xml:lang="rm">Israel</gn:officialName>
+        <gn:officialName xml:lang="ro">Israel</gn:officialName>
+        <gn:officialName xml:lang="se">Israel</gn:officialName>
+        <gn:officialName xml:lang="sv">Israel</gn:officialName>
+        <gn:alternateName xml:lang="tl">Israel</gn:alternateName>
+        <gn:alternateName xml:lang="tpi">Israel</gn:alternateName>
+        <gn:officialName xml:lang="vi">Israel</gn:officialName>
+        <gn:alternateName xml:lang="yo">Israel</gn:alternateName>
+        <gn:alternateName>Israel</gn:alternateName>
+        <gn:officialName xml:lang="jv">Israèl</gn:officialName>
+        <gn:officialName xml:lang="oc">Israèl</gn:officialName>
+        <gn:officialName xml:lang="fr">Israël</gn:officialName>
+        <gn:officialName xml:lang="fy">Israël</gn:officialName>
+        <gn:alternateName xml:lang="li">Israël</gn:alternateName>
+        <gn:officialName xml:lang="nl">Israël</gn:officialName>
+        <gn:officialName xml:lang="fo">Ísrael</gn:officialName>
+        <gn:officialName xml:lang="is">Ísrael</gn:officialName>
+        <gn:officialName xml:lang="ku">Îsraêl</gn:officialName>
+        <gn:officialName xml:lang="vi">Israel (Do Thái)</gn:officialName>
+        <gn:officialName xml:lang="it">Israele</gn:officialName>
+        <gn:officialName xml:lang="ki">Israeli</gn:officialName>
+        <gn:alternateName xml:lang="scn">Israeli</gn:alternateName>
+        <gn:officialName xml:lang="sw">Israeli</gn:officialName>
+        <gn:officialName xml:lang="sg">Israëli</gn:officialName>
+        <gn:officialName xml:lang="ee">Israel nutome</gn:officialName>
+        <gn:officialName xml:lang="eo">Israelo</gn:officialName>
+        <gn:officialName xml:lang="mg">Israely</gn:officialName>
+        <gn:alternateName xml:lang="gl">Israel - ישראל</gn:alternateName>
+        <gn:alternateName xml:lang="ang">Israhēl</gn:alternateName>
+        <gn:alternateName>Isrā’īl</gn:alternateName>
+        <gn:alternateName xml:lang="ku">Îsraîl</gn:alternateName>
+        <gn:officialName xml:lang="az">İsrail</gn:officialName>
+        <gn:officialName xml:lang="tr">İsrail</gn:officialName>
+        <gn:officialName xml:lang="wo">Israyel</gn:officialName>
+        <gn:officialName xml:lang="ha">Israʼila</gn:officialName>
+        <gn:officialName xml:lang="uz">Isroil</gn:officialName>
+        <gn:officialName xml:lang="nd">Isuraeli</gn:officialName>
+        <gn:alternateName xml:lang="vi">I-xra-en</gn:alternateName>
+        <gn:officialName xml:lang="bs">Izrael</gn:officialName>
+        <gn:officialName xml:lang="cs">Izrael</gn:officialName>
+        <gn:alternateName xml:lang="hbs">Izrael</gn:alternateName>
+        <gn:officialName xml:lang="hr">Izrael</gn:officialName>
+        <gn:officialName xml:lang="hu">Izrael</gn:officialName>
+        <gn:officialName xml:lang="pl">Izrael</gn:officialName>
+        <gn:officialName xml:lang="sk">Izrael</gn:officialName>
+        <gn:officialName xml:lang="sl">Izrael</gn:officialName>
+        <gn:officialName xml:lang="sq">Izrael</gn:officialName>
+        <gn:officialName xml:lang="mt">Iżrael</gn:officialName>
+        <gn:officialName xml:lang="lv">Izraēla</gn:officialName>
+        <gn:alternateName xml:lang="sq">Izraeli</gn:alternateName>
+        <gn:officialName xml:lang="lt">Izraelis</gn:officialName>
+        <gn:alternateName xml:lang="ht">Izrayèl</gn:alternateName>
+        <gn:officialName xml:lang="sn">Izuraeri</gn:officialName>
+        <gn:officialName xml:lang="zu">kwa-Israel</gn:officialName>
+        <gn:alternateName xml:lang="he">Medinat Yisra’el</gn:alternateName>
+        <gn:alternateName xml:lang="lad">Medinat Yisrael</gn:alternateName>
+        <gn:alternateName xml:lang="en">State of Israel</gn:alternateName>
+        <gn:officialName xml:lang="lg">Yisirayeri</gn:officialName>
+        <gn:alternateName>Yisra’el</gn:alternateName>
+        <gn:alternateName xml:lang="kw">Ysrael</gn:alternateName>
+        <gn:officialName xml:lang="tk">Ysraýyl</gn:officialName>
+        <gn:officialName xml:lang="el">Ισραήλ</gn:officialName>
+        <gn:officialName xml:lang="bg">Израел</gn:officialName>
+        <gn:officialName xml:lang="mk">Израел</gn:officialName>
+        <gn:officialName xml:lang="sr">Израел</gn:officialName>
+        <gn:officialName xml:lang="ce">Израиль</gn:officialName>
+        <gn:officialName xml:lang="kk">Израиль</gn:officialName>
+        <gn:officialName xml:lang="ky">Израиль</gn:officialName>
+        <gn:officialName xml:lang="mn">Израиль</gn:officialName>
+        <gn:alternateName xml:lang="os">Израиль</gn:alternateName>
+        <gn:officialName xml:lang="ru">Израиль</gn:officialName>
+        <gn:officialName xml:lang="tt">Израиль</gn:officialName>
+        <gn:officialName xml:lang="tg">Исроил</gn:officialName>
+        <gn:alternateName xml:lang="cu">Їздраил҄ь</gn:alternateName>
+        <gn:officialName xml:lang="be">Ізраіль</gn:officialName>
+        <gn:officialName xml:lang="uk">Ізраїль</gn:officialName>
+        <gn:officialName xml:lang="ka">ისრაელი</gn:officialName>
+        <gn:alternateName xml:lang="hy">Իզրաել</gn:alternateName>
+        <gn:officialName xml:lang="hy">Իսրայել</gn:officialName>
+        <gn:officialName xml:lang="he">ישראל</gn:officialName>
+        <gn:officialName xml:lang="yi">ישראל</gn:officialName>
+        <gn:alternateName xml:lang="he">מדינת ישראל</gn:alternateName>
+        <gn:alternateName xml:lang="yi">מדינת ישראל</gn:alternateName>
+        <gn:officialName xml:lang="ar">إسرائيل</gn:officialName>
+        <gn:officialName xml:lang="ug">ئىسرائىلىيە</gn:officialName>
+        <gn:alternateName xml:lang="ar">اسرائيل</gn:alternateName>
+        <gn:officialName xml:lang="sd">اسرائيل</gn:officialName>
+        <gn:officialName xml:lang="fa">اسرائیل</gn:officialName>
+        <gn:officialName xml:lang="ur">اسرائیل</gn:officialName>
+        <gn:alternateName xml:lang="ps">اسرايل</gn:alternateName>
+        <gn:officialName xml:lang="ps">اسراييل</gn:officialName>
+        <gn:officialName xml:lang="ks">اِسرایٖل</gn:officialName>
+        <gn:officialName xml:lang="fa">اسراییل</gn:officialName>
+        <gn:alternateName xml:lang="ar">دولة إسرائيل</gn:alternateName>
+        <gn:officialName xml:lang="am">እስራኤል</gn:officialName>
+        <gn:officialName xml:lang="ti">እስራኤል</gn:officialName>
+        <gn:officialName xml:lang="hi">इजराइल</gn:officialName>
+        <gn:officialName xml:lang="ne">इजरायल</gn:officialName>
+        <gn:alternateName xml:lang="hi">इसराइल</gn:alternateName>
+        <gn:officialName xml:lang="mr">इस्त्राइल</gn:officialName>
+        <gn:alternateName xml:lang="mr">इस्रायल</gn:alternateName>
+        <gn:officialName xml:lang="as">ইজৰাইল</gn:officialName>
+        <gn:officialName xml:lang="bn">ইসরায়েল</gn:officialName>
+        <gn:alternateName xml:lang="bn">ইস্রায়েল</gn:alternateName>
+        <gn:officialName xml:lang="pa">ਇਜ਼ਰਾਈਲ</gn:officialName>
+        <gn:officialName xml:lang="gu">ઇઝરાઇલ</gn:officialName>
+        <gn:officialName xml:lang="or">ଇସ୍ରାଏଲ୍</gn:officialName>
+        <gn:alternateName xml:lang="ta">இசுரேல்</gn:alternateName>
+        <gn:officialName xml:lang="ta">இஸ்ரேல்</gn:officialName>
+        <gn:officialName xml:lang="te">ఇజ్రాయెల్</gn:officialName>
+        <gn:officialName xml:lang="kn">ಇಸ್ರೇಲ್</gn:officialName>
+        <gn:officialName xml:lang="ml">ഇസ്രായേൽ</gn:officialName>
+        <gn:officialName xml:lang="si">ඊශ්‍රායලය</gn:officialName>
+        <gn:alternateName xml:lang="th">ประเทศอิสราเอล</gn:alternateName>
+        <gn:officialName xml:lang="th">อิสราเอล</gn:officialName>
+        <gn:officialName xml:lang="lo">ອິສຣາເອວ</gn:officialName>
+        <gn:officialName xml:lang="bo">ཨི་ཛ྄་རེལ།</gn:officialName>
+        <gn:officialName xml:lang="dz">ཨིས་ར་ཡེལ</gn:officialName>
+        <gn:officialName xml:lang="my">အစ္စရေး</gn:officialName>
+        <gn:officialName xml:lang="km">អ៊ីស្រាអែល</gn:officialName>
+        <gn:officialName xml:lang="ja">イスラエル</gn:officialName>
+        <gn:officialName xml:lang="ja">イスラエル国</gn:officialName>
+        <gn:officialName xml:lang="zh">以色列</gn:officialName>
+        <gn:featureClass rdf:resource="https://www.geonames.org/ontology#A"/>
+        <gn:featureCode rdf:resource="https://www.geonames.org/ontology#A.PCLI"/>
+        <gn:countryCode>IL</gn:countryCode>
+        <gn:population>8883800</gn:population>
+        <wgs84_pos:lat>31.5</wgs84_pos:lat>
+        <wgs84_pos:long>34.75</wgs84_pos:long>
+        <gn:parentFeature rdf:resource="https://sws.geonames.org/305104/"/>
+        <gn:parentFeature rdf:resource="https://sws.geonames.org/6269133/"/>
+        <gn:parentFeature rdf:resource="https://sws.geonames.org/12217088/"/>
+        <gn:parentFeature rdf:resource="https://sws.geonames.org/7729897/"/>
+        <gn:childrenFeatures rdf:resource="https://sws.geonames.org/294640/contains.rdf"/>
+        <gn:neighbouringFeatures rdf:resource="https://sws.geonames.org/294640/neighbours.rdf"/>
+        <gn:locationMap rdf:resource="https://www.geonames.org/294640/state-of-israel.html"/>
+        <gn:wikipediaArticle rdf:resource="https://en.wikipedia.org/wiki/Israel"/>
+        <rdfs:seeAlso rdf:resource="https://dbpedia.org/resource/Israel"/>
+        <gn:wikipediaArticle rdf:resource="https://ru.wikipedia.org/wiki/%D0%98%D0%B7%D1%80%D0%B0%D0%B8%D0%BB%D1%8C"/>
+    </gn:Feature>
+    <foaf:Document rdf:about="https://sws.geonames.org/294640/about.rdf">
+        <foaf:primaryTopic rdf:resource="https://sws.geonames.org/294640/"/>
+        <cc:license rdf:resource="https://creativecommons.org/licenses/by/4.0/"/>
+        <cc:attributionURL rdf:resource="https://www.geonames.org"/>
+        <cc:attributionName rdf:datatype="https://www.w3.org/2001/XMLSchema#string">GeoNames</cc:attributionName>
+        <dcterms:created rdf:datatype="https://www.w3.org/2001/XMLSchema#date">2006-01-15</dcterms:created>
+        <dcterms:modified rdf:datatype="https://www.w3.org/2001/XMLSchema#date">2021-08-16</dcterms:modified>
+    </foaf:Document>
+</rdf:RDF>

@@ -1,47 +1,165 @@
-<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd ">
-<html>
-<head>
-<title>GeoNames</title>
-<link rel="search" type="application/opensearchdescription+xml" title="geonames" href="https://www.geonames.org/opensearch-description.xml">
-<link href="/geonames.ico" rel="shortcut icon" >
-<link rel="StyleSheet" href="/geonames.css" type="text/css" >
-</head>
-<body>
-<table id="topmenutable" cellpadding="0" cellspacing="0"><tr>
-<td class="topmenu">&nbsp;<a href="/" title="GeoName Home">&nbsp;GeoNames Home</a>&nbsp;|&nbsp;<a href="/postal-codes/" title="Postal Codes">Postal Codes</a>&nbsp;|&nbsp;<a href="/export/" title="Database Dump and Webservice API">Download / Webservice</a>&nbsp;|&nbsp;<a href="/about.html" title="About GeoNames">About</a>&nbsp;</td>
-<td class="topsearch">
-   <form class="topsearch" name="searchForm" method="get" action="/servlet/geonames" >
-
-      search <input class="topmenu" name="q" size="20" value="" type="text">
-     <input type="hidden" name="srv" value="1">
-   </form>
-
-   <span id="topmenulogin">
-<a href="https://www.geonames.org/login" title="login or create new user account">login</a>
-   </span>
-</td></tr>
-</table>
-
-<br><br><br><br>
-<div style="margin:auto; width:500px; padding:40px; text-align:left" class="formTemplateClass">
-Connection to localhost:5432 refused. Check that the hostname and port are correct and that the postmaster is accepting TCP/IP connections.
-</div>
-
-
-<p>&nbsp;</p><p>&nbsp;</p><p>&nbsp;</p><p>&nbsp;</p>
-<div id="pageFooter">
-info@geonames.org  <img src="/img/smallant.gif" alt="ant" align="middle" hspace="40" border="0">
-<p>
-<a href="/">GeoNames Home</a>
-<span class="separator">&#8226;</span>
-<a href="/postal-codes/">Postal Codes</a>
-<span class="separator">&#8226;</span>
-<a href="/export/">Download / Webservice</a>
-<span class="separator">&#8226;</span>
-<a href="http://forum.geonames.org">Forum</a>
-<span class="separator">&#8226;</span>
-<a href="http://geonames.wordpress.com">Blog</a>
-<span class="separator">&#8226;</span>
-<a href="/sitemap.html">Sitemap</a>
-</div>
-</body></html>
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<rdf:RDF xmlns:cc="http://creativecommons.org/ns#" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:foaf="http://xmlns.com/foaf/0.1/" xmlns:gn="http://www.geonames.org/ontology#" xmlns:owl="http://www.w3.org/2002/07/owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:wgs84_pos="http://www.w3.org/2003/01/geo/wgs84_pos#">
+    <gn:Feature rdf:about="https://sws.geonames.org/3037854/">
+        <rdfs:isDefinedBy rdf:resource="https://sws.geonames.org/3037854/about.rdf"/>
+        <gn:name>Amiens</gn:name>
+        <gn:alternateName xml:lang="ko">아미앵</gn:alternateName>
+        <gn:alternateName xml:lang="oc">Amians</gn:alternateName>
+        <gn:alternateName xml:lang="ca">Amiens</gn:alternateName>
+        <gn:alternateName xml:lang="cs">Amiens</gn:alternateName>
+        <gn:alternateName xml:lang="da">Amiens</gn:alternateName>
+        <gn:alternateName xml:lang="de">Amiens</gn:alternateName>
+        <gn:alternateName xml:lang="en">Amiens</gn:alternateName>
+        <gn:alternateName xml:lang="es">Amiens</gn:alternateName>
+        <gn:alternateName xml:lang="et">Amiens</gn:alternateName>
+        <gn:alternateName xml:lang="fi">Amiens</gn:alternateName>
+        <gn:alternateName xml:lang="fr">Amiens</gn:alternateName>
+        <gn:alternateName xml:lang="frp">Amiens</gn:alternateName>
+        <gn:alternateName xml:lang="gl">Amiens</gn:alternateName>
+        <gn:alternateName xml:lang="io">Amiens</gn:alternateName>
+        <gn:alternateName xml:lang="it">Amiens</gn:alternateName>
+        <gn:alternateName xml:lang="lb">Amiens</gn:alternateName>
+        <gn:alternateName xml:lang="nds">Amiens</gn:alternateName>
+        <gn:alternateName xml:lang="nl">Amiens</gn:alternateName>
+        <gn:alternateName xml:lang="no">Amiens</gn:alternateName>
+        <gn:alternateName xml:lang="pl">Amiens</gn:alternateName>
+        <gn:alternateName xml:lang="pt">Amiens</gn:alternateName>
+        <gn:alternateName xml:lang="ro">Amiens</gn:alternateName>
+        <gn:alternateName xml:lang="sl">Amiens</gn:alternateName>
+        <gn:alternateName xml:lang="sr">Amiens</gn:alternateName>
+        <gn:alternateName xml:lang="sv">Amiens</gn:alternateName>
+        <gn:alternateName xml:lang="vi">Amiens</gn:alternateName>
+        <gn:alternateName>Amiens</gn:alternateName>
+        <gn:alternateName xml:lang="lv">Amjēna</gn:alternateName>
+        <gn:alternateName xml:lang="lt">Amjenas</gn:alternateName>
+        <gn:alternateName xml:lang="eo">Amjenso</gn:alternateName>
+        <gn:alternateName xml:lang="pcd">Anmyin</gn:alternateName>
+        <gn:alternateName xml:lang="la">Samarobriva</gn:alternateName>
+        <gn:alternateName xml:lang="el">Αμιάν</gn:alternateName>
+        <gn:alternateName xml:lang="be">Амен</gn:alternateName>
+        <gn:alternateName xml:lang="uk">Амєн</gn:alternateName>
+        <gn:alternateName xml:lang="bg">Амиен</gn:alternateName>
+        <gn:alternateName xml:lang="sr">Амијен</gn:alternateName>
+        <gn:alternateName xml:lang="sr">Амјен</gn:alternateName>
+        <gn:alternateName xml:lang="ce">Амьен</gn:alternateName>
+        <gn:alternateName xml:lang="ru">Амьен</gn:alternateName>
+        <gn:alternateName xml:lang="ka">ამიენი</gn:alternateName>
+        <gn:alternateName xml:lang="hy">Ամյեն</gn:alternateName>
+        <gn:alternateName xml:lang="he">אמיין</gn:alternateName>
+        <gn:alternateName xml:lang="pnb">آمیاں</gn:alternateName>
+        <gn:alternateName xml:lang="ar">أميان</gn:alternateName>
+        <gn:alternateName xml:lang="fa">امیان</gn:alternateName>
+        <gn:alternateName xml:lang="mzn">امیان</gn:alternateName>
+        <gn:alternateName xml:lang="ur">امیان</gn:alternateName>
+        <gn:alternateName xml:lang="mr">आमियां</gn:alternateName>
+        <gn:alternateName xml:lang="th">อาเมียง</gn:alternateName>
+        <gn:alternateName xml:lang="ja">アミアン</gn:alternateName>
+        <gn:alternateName xml:lang="zh">亞眠</gn:alternateName>
+        <gn:featureClass rdf:resource="https://www.geonames.org/ontology#P"/>
+        <gn:featureCode rdf:resource="https://www.geonames.org/ontology#P.PPLA2"/>
+        <gn:countryCode>FR</gn:countryCode>
+        <gn:population>143086</gn:population>
+        <gn:postalCode>80000</gn:postalCode>
+        <gn:postalCode>80001 CEDEX 1</gn:postalCode>
+        <gn:postalCode>80002 CEDEX 1</gn:postalCode>
+        <gn:postalCode>80003 CEDEX 1</gn:postalCode>
+        <gn:postalCode>80004 CEDEX 1</gn:postalCode>
+        <gn:postalCode>80005 CEDEX 1</gn:postalCode>
+        <gn:postalCode>80006 CEDEX 1</gn:postalCode>
+        <gn:postalCode>80007 CEDEX 1</gn:postalCode>
+        <gn:postalCode>80008 CEDEX 1</gn:postalCode>
+        <gn:postalCode>80009 CEDEX 1</gn:postalCode>
+        <gn:postalCode>80010 CEDEX 1</gn:postalCode>
+        <gn:postalCode>80011 CEDEX 1</gn:postalCode>
+        <gn:postalCode>80012 CEDEX 1</gn:postalCode>
+        <gn:postalCode>80013 CEDEX 2</gn:postalCode>
+        <gn:postalCode>80014 CEDEX 1</gn:postalCode>
+        <gn:postalCode>80015 CEDEX 2</gn:postalCode>
+        <gn:postalCode>80016 CEDEX 1</gn:postalCode>
+        <gn:postalCode>80017 CEDEX 1</gn:postalCode>
+        <gn:postalCode>80019 CEDEX 9</gn:postalCode>
+        <gn:postalCode>80020 CEDEX 9</gn:postalCode>
+        <gn:postalCode>80021 CEDEX 1</gn:postalCode>
+        <gn:postalCode>80022 CEDEX 9</gn:postalCode>
+        <gn:postalCode>80023 CEDEX 3</gn:postalCode>
+        <gn:postalCode>80025 CEDEX 1</gn:postalCode>
+        <gn:postalCode>80026 CEDEX 1</gn:postalCode>
+        <gn:postalCode>80027 CEDEX 1</gn:postalCode>
+        <gn:postalCode>80028 CEDEX 3</gn:postalCode>
+        <gn:postalCode>80029 CEDEX 1</gn:postalCode>
+        <gn:postalCode>80030 CEDEX 1</gn:postalCode>
+        <gn:postalCode>80031 CEDEX 1</gn:postalCode>
+        <gn:postalCode>80032 CEDEX 1</gn:postalCode>
+        <gn:postalCode>80033 CEDEX 3</gn:postalCode>
+        <gn:postalCode>80034 CEDEX 1</gn:postalCode>
+        <gn:postalCode>80036 CEDEX 1</gn:postalCode>
+        <gn:postalCode>80037 CEDEX 1</gn:postalCode>
+        <gn:postalCode>80038 CEDEX 1</gn:postalCode>
+        <gn:postalCode>80039 CEDEX 1</gn:postalCode>
+        <gn:postalCode>80040 CEDEX 1</gn:postalCode>
+        <gn:postalCode>80041 CEDEX 1</gn:postalCode>
+        <gn:postalCode>80042 CEDEX 1</gn:postalCode>
+        <gn:postalCode>80043 CEDEX 1</gn:postalCode>
+        <gn:postalCode>80044 CEDEX 1</gn:postalCode>
+        <gn:postalCode>80046 CEDEX 2</gn:postalCode>
+        <gn:postalCode>80047 CEDEX 1</gn:postalCode>
+        <gn:postalCode>80048 CEDEX 1</gn:postalCode>
+        <gn:postalCode>80049 CEDEX 1</gn:postalCode>
+        <gn:postalCode>80050 CEDEX 1</gn:postalCode>
+        <gn:postalCode>80051 CEDEX 1</gn:postalCode>
+        <gn:postalCode>80054 CEDEX 1</gn:postalCode>
+        <gn:postalCode>80055 CEDEX 1</gn:postalCode>
+        <gn:postalCode>80056 CEDEX 1</gn:postalCode>
+        <gn:postalCode>80057 CEDEX 1</gn:postalCode>
+        <gn:postalCode>80060 CEDEX 9</gn:postalCode>
+        <gn:postalCode>80061 CEDEX 9</gn:postalCode>
+        <gn:postalCode>80062 CEDEX 9</gn:postalCode>
+        <gn:postalCode>80063 CEDEX 9</gn:postalCode>
+        <gn:postalCode>80064 CEDEX 9</gn:postalCode>
+        <gn:postalCode>80068 CEDEX 9</gn:postalCode>
+        <gn:postalCode>80069 CEDEX 9</gn:postalCode>
+        <gn:postalCode>80075 CEDEX 1</gn:postalCode>
+        <gn:postalCode>80080</gn:postalCode>
+        <gn:postalCode>80081 CEDEX 2</gn:postalCode>
+        <gn:postalCode>80082 CEDEX 2</gn:postalCode>
+        <gn:postalCode>80083 CEDEX 2</gn:postalCode>
+        <gn:postalCode>80084 CEDEX 2</gn:postalCode>
+        <gn:postalCode>80085 CEDEX 2</gn:postalCode>
+        <gn:postalCode>80086 CEDEX 2</gn:postalCode>
+        <gn:postalCode>80087 CEDEX 2</gn:postalCode>
+        <gn:postalCode>80088 CEDEX 2</gn:postalCode>
+        <gn:postalCode>80089 CEDEX 2</gn:postalCode>
+        <gn:postalCode>80090</gn:postalCode>
+        <gn:postalCode>80091 CEDEX 3</gn:postalCode>
+        <gn:postalCode>80092 CEDEX 3</gn:postalCode>
+        <gn:postalCode>80093 CEDEX 3</gn:postalCode>
+        <gn:postalCode>80094 CEDEX 3</gn:postalCode>
+        <gn:postalCode>80095 CEDEX 3</gn:postalCode>
+        <gn:postalCode>80096 CEDEX 3</gn:postalCode>
+        <gn:postalCode>80097 CEDEX 3</gn:postalCode>
+        <gn:postalCode>80099 CEDEX 3</gn:postalCode>
+        <gn:postalCode>80891 CEDEX 3</gn:postalCode>
+        <gn:postalCode>80919 CEDEX 9</gn:postalCode>
+        <wgs84_pos:lat>49.9</wgs84_pos:lat>
+        <wgs84_pos:long>2.3</wgs84_pos:long>
+        <gn:parentFeature rdf:resource="https://sws.geonames.org/6455273/"/>
+        <gn:parentCountry rdf:resource="https://sws.geonames.org/3017382/"/>
+        <gn:parentADM1 rdf:resource="https://sws.geonames.org/11071624/"/>
+        <gn:parentADM2 rdf:resource="https://sws.geonames.org/2974304/"/>
+        <gn:parentADM3 rdf:resource="https://sws.geonames.org/3037853/"/>
+        <gn:parentADM4 rdf:resource="https://sws.geonames.org/6455273/"/>
+        <gn:nearbyFeatures rdf:resource="https://sws.geonames.org/3037854/nearby.rdf"/>
+        <gn:locationMap rdf:resource="https://www.geonames.org/3037854/amiens.html"/>
+        <gn:wikipediaArticle rdf:resource="https://en.wikipedia.org/wiki/Amiens"/>
+        <rdfs:seeAlso rdf:resource="https://dbpedia.org/resource/Amiens"/>
+        <gn:wikipediaArticle rdf:resource="https://ru.wikipedia.org/wiki/%D0%90%D0%BC%D1%8C%D0%B5%D0%BD"/>
+    </gn:Feature>
+    <foaf:Document rdf:about="https://sws.geonames.org/3037854/about.rdf">
+        <foaf:primaryTopic rdf:resource="https://sws.geonames.org/3037854/"/>
+        <cc:license rdf:resource="https://creativecommons.org/licenses/by/4.0/"/>
+        <cc:attributionURL rdf:resource="https://www.geonames.org"/>
+        <cc:attributionName rdf:datatype="https://www.w3.org/2001/XMLSchema#string">GeoNames</cc:attributionName>
+        <dcterms:created rdf:datatype="https://www.w3.org/2001/XMLSchema#date">2006-01-15</dcterms:created>
+        <dcterms:modified rdf:datatype="https://www.w3.org/2001/XMLSchema#date">2021-08-03</dcterms:modified>
+    </foaf:Document>
+</rdf:RDF>

@@ -1,47 +1,199 @@
-<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd ">
-<html>
-<head>
-<title>GeoNames</title>
-<link rel="search" type="application/opensearchdescription+xml" title="geonames" href="https://www.geonames.org/opensearch-description.xml">
-<link href="/geonames.ico" rel="shortcut icon" >
-<link rel="StyleSheet" href="/geonames.css" type="text/css" >
-</head>
-<body>
-<table id="topmenutable" cellpadding="0" cellspacing="0"><tr>
-<td class="topmenu">&nbsp;<a href="/" title="GeoName Home">&nbsp;GeoNames Home</a>&nbsp;|&nbsp;<a href="/postal-codes/" title="Postal Codes">Postal Codes</a>&nbsp;|&nbsp;<a href="/export/" title="Database Dump and Webservice API">Download / Webservice</a>&nbsp;|&nbsp;<a href="/about.html" title="About GeoNames">About</a>&nbsp;</td>
-<td class="topsearch">
-   <form class="topsearch" name="searchForm" method="get" action="/servlet/geonames" >
-
-      search <input class="topmenu" name="q" size="20" value="" type="text">
-     <input type="hidden" name="srv" value="1">
-   </form>
-
-   <span id="topmenulogin">
-<a href="https://www.geonames.org/login" title="login or create new user account">login</a>
-   </span>
-</td></tr>
-</table>
-
-<br><br><br><br>
-<div style="margin:auto; width:500px; padding:40px; text-align:left" class="formTemplateClass">
-Connection to localhost:5432 refused. Check that the hostname and port are correct and that the postmaster is accepting TCP/IP connections.
-</div>
-
-
-<p>&nbsp;</p><p>&nbsp;</p><p>&nbsp;</p><p>&nbsp;</p>
-<div id="pageFooter">
-info@geonames.org  <img src="/img/smallant.gif" alt="ant" align="middle" hspace="40" border="0">
-<p>
-<a href="/">GeoNames Home</a>
-<span class="separator">&#8226;</span>
-<a href="/postal-codes/">Postal Codes</a>
-<span class="separator">&#8226;</span>
-<a href="/export/">Download / Webservice</a>
-<span class="separator">&#8226;</span>
-<a href="http://forum.geonames.org">Forum</a>
-<span class="separator">&#8226;</span>
-<a href="http://geonames.wordpress.com">Blog</a>
-<span class="separator">&#8226;</span>
-<a href="/sitemap.html">Sitemap</a>
-</div>
-</body></html>
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<rdf:RDF xmlns:cc="http://creativecommons.org/ns#" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:foaf="http://xmlns.com/foaf/0.1/" xmlns:gn="http://www.geonames.org/ontology#" xmlns:owl="http://www.w3.org/2002/07/owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:wgs84_pos="http://www.w3.org/2003/01/geo/wgs84_pos#">
+    <gn:Feature rdf:about="https://sws.geonames.org/3190538/">
+        <rdfs:isDefinedBy rdf:resource="https://sws.geonames.org/3190538/about.rdf"/>
+        <gn:name>Slovenia</gn:name>
+        <gn:officialName xml:lang="ko">슬로베니아</gn:officialName>
+        <gn:officialName xml:lang="gd">An t-Slòbhain</gn:officialName>
+        <gn:officialName xml:lang="ga">an tSlóivéin</gn:officialName>
+        <gn:alternateName xml:lang="ilo">Eslobenia</gn:alternateName>
+        <gn:alternateName xml:lang="tl">Eslobenya</gn:alternateName>
+        <gn:alternateName xml:lang="an">Eslovenia</gn:alternateName>
+        <gn:alternateName xml:lang="ast">Eslovenia</gn:alternateName>
+        <gn:officialName xml:lang="es">Eslovenia</gn:officialName>
+        <gn:officialName xml:lang="eu">Eslovenia</gn:officialName>
+        <gn:officialName xml:lang="gl">Eslovenia</gn:officialName>
+        <gn:officialName xml:lang="qu">Eslovenia</gn:officialName>
+        <gn:alternateName xml:lang="pt">Eslovénia</gn:alternateName>
+        <gn:alternateName xml:lang="tet">Eslovénia</gn:alternateName>
+        <gn:officialName xml:lang="ca">Eslovènia</gn:officialName>
+        <gn:alternateName xml:lang="oc">Eslovènia</gn:alternateName>
+        <gn:officialName xml:lang="pt">Eslovênia</gn:officialName>
+        <gn:alternateName xml:lang="gl">Eslovenia - Slovenija</gn:alternateName>
+        <gn:alternateName xml:lang="war">Eslovenya</gn:alternateName>
+        <gn:officialName xml:lang="wo">Esloweni</gn:officialName>
+        <gn:officialName xml:lang="so">Islofeeniya</gn:officialName>
+        <gn:officialName xml:lang="zu">i-Slovenia</gn:officialName>
+        <gn:alternateName xml:lang="qu">Isluwiniya</gn:alternateName>
+        <gn:alternateName xml:lang="qu">Isluwinya</gn:alternateName>
+        <gn:officialName xml:lang="mt">is-Slovenja</gn:officialName>
+        <gn:alternateName>Narodna Republika Slovenija</gn:alternateName>
+        <gn:alternateName>Peoples Republic of Slovenia</gn:alternateName>
+        <gn:alternateName xml:lang="en">Republic of Slovenia</gn:alternateName>
+        <gn:alternateName xml:lang="sl">Republika Slovenija</gn:alternateName>
+        <gn:alternateName>Republika Slovenija</gn:alternateName>
+        <gn:officialName xml:lang="yo">Silofania</gn:officialName>
+        <gn:officialName xml:lang="ln">Siloveni</gn:officialName>
+        <gn:officialName xml:lang="lu">Siloveni</gn:officialName>
+        <gn:officialName xml:lang="to">Silōvenia</gn:officialName>
+        <gn:officialName xml:lang="rn">Siloveniya</gn:officialName>
+        <gn:officialName xml:lang="lg">Sirovenya</gn:officialName>
+        <gn:officialName xml:lang="sq">Slloveni</gn:officialName>
+        <gn:alternateName xml:lang="sq">Sllovenia</gn:alternateName>
+        <gn:officialName xml:lang="cy">Slofenia</gn:officialName>
+        <gn:officialName xml:lang="et">Sloveenia</gn:officialName>
+        <gn:alternateName xml:lang="fy">Sloveenje</gn:alternateName>
+        <gn:officialName xml:lang="bm">Sloveni</gn:officialName>
+        <gn:alternateName xml:lang="kw">Sloveni</gn:alternateName>
+        <gn:officialName xml:lang="br">Slovenia</gn:officialName>
+        <gn:officialName xml:lang="en">Slovenia</gn:officialName>
+        <gn:officialName xml:lang="fi">Slovenia</gn:officialName>
+        <gn:officialName xml:lang="fo">Slovenia</gn:officialName>
+        <gn:officialName xml:lang="ia">Slovenia</gn:officialName>
+        <gn:officialName xml:lang="id">Slovenia</gn:officialName>
+        <gn:officialName xml:lang="ig">Slovenia</gn:officialName>
+        <gn:alternateName xml:lang="io">Slovenia</gn:alternateName>
+        <gn:officialName xml:lang="it">Slovenia</gn:officialName>
+        <gn:officialName xml:lang="ki">Slovenia</gn:officialName>
+        <gn:officialName xml:lang="kl">Slovenia</gn:officialName>
+        <gn:alternateName xml:lang="la">Slovenia</gn:alternateName>
+        <gn:officialName xml:lang="mg">Slovenia</gn:officialName>
+        <gn:officialName xml:lang="ms">Slovenia</gn:officialName>
+        <gn:officialName xml:lang="nb">Slovenia</gn:officialName>
+        <gn:officialName xml:lang="nd">Slovenia</gn:officialName>
+        <gn:alternateName xml:lang="nn">Slovenia</gn:alternateName>
+        <gn:officialName xml:lang="no">Slovenia</gn:officialName>
+        <gn:alternateName xml:lang="pam">Slovenia</gn:alternateName>
+        <gn:alternateName xml:lang="pms">Slovenia</gn:alternateName>
+        <gn:officialName xml:lang="rm">Slovenia</gn:officialName>
+        <gn:officialName xml:lang="ro">Slovenia</gn:officialName>
+        <gn:officialName xml:lang="se">Slovenia</gn:officialName>
+        <gn:officialName xml:lang="sn">Slovenia</gn:officialName>
+        <gn:officialName xml:lang="sw">Slovenia</gn:officialName>
+        <gn:alternateName>Slovenia</gn:alternateName>
+        <gn:officialName xml:lang="jv">Slovénia</gn:officialName>
+        <gn:officialName xml:lang="is">Slóvenía</gn:officialName>
+        <gn:officialName xml:lang="ee">Slovenia nutome</gn:officialName>
+        <gn:alternateName xml:lang="fur">Slovenie</gn:alternateName>
+        <gn:officialName xml:lang="fy">Slovenië</gn:officialName>
+        <gn:alternateName xml:lang="li">Slovenië</gn:alternateName>
+        <gn:officialName xml:lang="nl">Slovenië</gn:officialName>
+        <gn:officialName xml:lang="fr">Slovénie</gn:officialName>
+        <gn:alternateName xml:lang="nrm">Slovénie</gn:alternateName>
+        <gn:alternateName xml:lang="frp">Slovènie</gn:alternateName>
+        <gn:officialName xml:lang="da">Slovenien</gn:officialName>
+        <gn:officialName xml:lang="sv">Slovenien</gn:officialName>
+        <gn:officialName xml:lang="bs">Slovenija</gn:officialName>
+        <gn:alternateName xml:lang="hbs">Slovenija</gn:alternateName>
+        <gn:officialName xml:lang="hr">Slovenija</gn:officialName>
+        <gn:officialName xml:lang="sl">Slovenija</gn:officialName>
+        <gn:alternateName>Slovenija</gn:alternateName>
+        <gn:officialName xml:lang="lt">Slovėnija</gn:officialName>
+        <gn:officialName xml:lang="lv">Slovēnija</gn:officialName>
+        <gn:alternateName xml:lang="eo">Slovenio</gn:alternateName>
+        <gn:officialName xml:lang="az">Sloveniya</gn:officialName>
+        <gn:officialName xml:lang="uz">Sloveniya</gn:officialName>
+        <gn:alternateName xml:lang="vo">Sloveniyän</gn:alternateName>
+        <gn:officialName xml:lang="eo">Slovenujo</gn:officialName>
+        <gn:officialName xml:lang="ku">Slovenya</gn:officialName>
+        <gn:officialName xml:lang="tr">Slovenya</gn:officialName>
+        <gn:officialName xml:lang="ak">Slovinia</gn:officialName>
+        <gn:officialName xml:lang="cs">Slovinsko</gn:officialName>
+        <gn:officialName xml:lang="sk">Slovinsko</gn:officialName>
+        <gn:officialName xml:lang="pl">Słowenia</gn:officialName>
+        <gn:officialName xml:lang="af">Slowenië</gn:officialName>
+        <gn:alternateName xml:lang="bar">Slowenien</gn:alternateName>
+        <gn:officialName xml:lang="de">Slowenien</gn:officialName>
+        <gn:officialName xml:lang="lb">Slowenien</gn:officialName>
+        <gn:alternateName xml:lang="nds">Slowenien</gn:alternateName>
+        <gn:officialName xml:lang="ff">Slowenii</gn:officialName>
+        <gn:officialName xml:lang="tk">Sloweniýa</gn:officialName>
+        <gn:alternateName xml:lang="hsb">Słowjenska</gn:alternateName>
+        <gn:alternateName>Socialist Republic of Slovenia</gn:alternateName>
+        <gn:alternateName>Socijalistička Republika Slovenija</gn:alternateName>
+        <gn:officialName xml:lang="sg">Solovenïi</gn:officialName>
+        <gn:officialName xml:lang="ha">Sulobeniya</gn:officialName>
+        <gn:officialName xml:lang="hu">Szlovénia</gn:officialName>
+        <gn:alternateName xml:lang="vi">Xlô-ven-ni-a</gn:alternateName>
+        <gn:officialName xml:lang="vi">Xlô-ven-ni-a (Slovenia)</gn:officialName>
+        <gn:officialName xml:lang="el">Σλοβενία</gn:officialName>
+        <gn:officialName xml:lang="be">Славенія</gn:officialName>
+        <gn:officialName xml:lang="ce">Словени</gn:officialName>
+        <gn:officialName xml:lang="mn">Словени</gn:officialName>
+        <gn:alternateName xml:lang="os">Словени</gn:alternateName>
+        <gn:officialName xml:lang="mk">Словенија</gn:officialName>
+        <gn:officialName xml:lang="sr">Словенија</gn:officialName>
+        <gn:officialName xml:lang="bg">Словения</gn:officialName>
+        <gn:officialName xml:lang="kk">Словения</gn:officialName>
+        <gn:officialName xml:lang="ky">Словения</gn:officialName>
+        <gn:officialName xml:lang="ru">Словения</gn:officialName>
+        <gn:officialName xml:lang="tg">Словения</gn:officialName>
+        <gn:officialName xml:lang="tt">Словения</gn:officialName>
+        <gn:officialName xml:lang="uk">Словенія</gn:officialName>
+        <gn:officialName xml:lang="ka">სლოვენია</gn:officialName>
+        <gn:officialName xml:lang="hy">Սլովենիա</gn:officialName>
+        <gn:officialName xml:lang="yi">סלאוועניע</gn:officialName>
+        <gn:officialName xml:lang="he">סלובניה</gn:officialName>
+        <gn:officialName xml:lang="fa">اسلوونی</gn:officialName>
+        <gn:officialName xml:lang="fa">سلوانیا</gn:officialName>
+        <gn:officialName xml:lang="ps">سلوانیا</gn:officialName>
+        <gn:officialName xml:lang="ar">سلوفينيا</gn:officialName>
+        <gn:officialName xml:lang="ur">سلووینیا</gn:officialName>
+        <gn:officialName xml:lang="ks">سَلووینِیا</gn:officialName>
+        <gn:alternateName xml:lang="ug">سلوۋېنىيە</gn:alternateName>
+        <gn:officialName xml:lang="sd">سلوینیا</gn:officialName>
+        <gn:officialName xml:lang="ku">سلۆڤێنیا</gn:officialName>
+        <gn:officialName xml:lang="ug">سىلوۋېنىيە</gn:officialName>
+        <gn:alternateName xml:lang="arc">ܣܠܘܒܢܝܐ</gn:alternateName>
+        <gn:officialName xml:lang="am">ስሎቬኒያ</gn:officialName>
+        <gn:officialName xml:lang="ti">ስሎቬኒያ</gn:officialName>
+        <gn:officialName xml:lang="ne">स्लोभेनिया</gn:officialName>
+        <gn:officialName xml:lang="hi">स्लोवेनिया</gn:officialName>
+        <gn:officialName xml:lang="mr">स्लोव्हेनिया</gn:officialName>
+        <gn:officialName xml:lang="as">শ্লোভেনিয়া</gn:officialName>
+        <gn:officialName xml:lang="bn">স্লোভানিয়া</gn:officialName>
+        <gn:alternateName xml:lang="bn">স্লোভেনিয়া</gn:alternateName>
+        <gn:officialName xml:lang="pa">ਸਲੋਵੇਨੀਆ</gn:officialName>
+        <gn:officialName xml:lang="gu">સ્લોવેનિયા</gn:officialName>
+        <gn:officialName xml:lang="or">ସ୍ଲୋଭେନିଆ</gn:officialName>
+        <gn:officialName xml:lang="ta">ஸ்லோவேனியா</gn:officialName>
+        <gn:officialName xml:lang="te">స్లోవేనియా</gn:officialName>
+        <gn:officialName xml:lang="kn">ಸ್ಲೋವೇನಿಯಾ</gn:officialName>
+        <gn:officialName xml:lang="ml">സ്ലോവേനിയ</gn:officialName>
+        <gn:officialName xml:lang="si">ස්ලෝවේනියාව</gn:officialName>
+        <gn:alternateName xml:lang="th">ประเทศสโลวีเนีย</gn:alternateName>
+        <gn:officialName xml:lang="th">สโลวีเนีย</gn:officialName>
+        <gn:officialName xml:lang="lo">ສະໂລເວເນຍ</gn:officialName>
+        <gn:officialName xml:lang="bo">ས་ལཽ་ཝེ་ནི་ཡ།</gn:officialName>
+        <gn:officialName xml:lang="dz">སུ་ལོ་བི་ནི་ཡ</gn:officialName>
+        <gn:officialName xml:lang="my">ဆလိုဗေးနီးယား</gn:officialName>
+        <gn:officialName xml:lang="km">ស្លូវេនី</gn:officialName>
+        <gn:officialName xml:lang="ja">スロベニア</gn:officialName>
+        <gn:officialName xml:lang="zh">斯洛文尼亚</gn:officialName>
+        <gn:featureClass rdf:resource="https://www.geonames.org/ontology#A"/>
+        <gn:featureCode rdf:resource="https://www.geonames.org/ontology#A.PCLI"/>
+        <gn:countryCode>SI</gn:countryCode>
+        <gn:population>2067372</gn:population>
+        <wgs84_pos:lat>46.08333</wgs84_pos:lat>
+        <wgs84_pos:long>15</wgs84_pos:long>
+        <gn:parentFeature rdf:resource="https://sws.geonames.org/6695072/"/>
+        <gn:parentFeature rdf:resource="https://sws.geonames.org/12217848/"/>
+        <gn:parentFeature rdf:resource="https://sws.geonames.org/12503661/"/>
+        <gn:parentFeature rdf:resource="https://sws.geonames.org/12216908/"/>
+        <gn:parentFeature rdf:resource="https://sws.geonames.org/9408658/"/>
+        <gn:childrenFeatures rdf:resource="https://sws.geonames.org/3190538/contains.rdf"/>
+        <gn:neighbouringFeatures rdf:resource="https://sws.geonames.org/3190538/neighbours.rdf"/>
+        <gn:locationMap rdf:resource="https://www.geonames.org/3190538/republic-of-slovenia.html"/>
+        <gn:wikipediaArticle rdf:resource="https://en.wikipedia.org/wiki/Slovenia"/>
+        <rdfs:seeAlso rdf:resource="https://dbpedia.org/resource/Slovenia"/>
+        <gn:wikipediaArticle rdf:resource="https://ru.wikipedia.org/wiki/%D0%A1%D0%BB%D0%BE%D0%B2%D0%B5%D0%BD%D0%B8%D1%8F"/>
+    </gn:Feature>
+    <foaf:Document rdf:about="https://sws.geonames.org/3190538/about.rdf">
+        <foaf:primaryTopic rdf:resource="https://sws.geonames.org/3190538/"/>
+        <cc:license rdf:resource="https://creativecommons.org/licenses/by/4.0/"/>
+        <cc:attributionURL rdf:resource="https://www.geonames.org"/>
+        <cc:attributionName rdf:datatype="https://www.w3.org/2001/XMLSchema#string">GeoNames</cc:attributionName>
+        <dcterms:created rdf:datatype="https://www.w3.org/2001/XMLSchema#date">2006-01-15</dcterms:created>
+        <dcterms:modified rdf:datatype="https://www.w3.org/2001/XMLSchema#date">2023-01-02</dcterms:modified>
+    </foaf:Document>
+</rdf:RDF>

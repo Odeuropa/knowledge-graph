@@ -1,47 +1,94 @@
-<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd ">
-<html>
-<head>
-<title>GeoNames</title>
-<link rel="search" type="application/opensearchdescription+xml" title="geonames" href="https://www.geonames.org/opensearch-description.xml">
-<link href="/geonames.ico" rel="shortcut icon" >
-<link rel="StyleSheet" href="/geonames.css" type="text/css" >
-</head>
-<body>
-<table id="topmenutable" cellpadding="0" cellspacing="0"><tr>
-<td class="topmenu">&nbsp;<a href="/" title="GeoName Home">&nbsp;GeoNames Home</a>&nbsp;|&nbsp;<a href="/postal-codes/" title="Postal Codes">Postal Codes</a>&nbsp;|&nbsp;<a href="/export/" title="Database Dump and Webservice API">Download / Webservice</a>&nbsp;|&nbsp;<a href="/about.html" title="About GeoNames">About</a>&nbsp;</td>
-<td class="topsearch">
-   <form class="topsearch" name="searchForm" method="get" action="/servlet/geonames" >
-
-      search <input class="topmenu" name="q" size="20" value="" type="text">
-     <input type="hidden" name="srv" value="1">
-   </form>
-
-   <span id="topmenulogin">
-<a href="https://www.geonames.org/login" title="login or create new user account">login</a>
-   </span>
-</td></tr>
-</table>
-
-<br><br><br><br>
-<div style="margin:auto; width:500px; padding:40px; text-align:left" class="formTemplateClass">
-Connection to localhost:5432 refused. Check that the hostname and port are correct and that the postmaster is accepting TCP/IP connections.
-</div>
-
-
-<p>&nbsp;</p><p>&nbsp;</p><p>&nbsp;</p><p>&nbsp;</p>
-<div id="pageFooter">
-info@geonames.org  <img src="/img/smallant.gif" alt="ant" align="middle" hspace="40" border="0">
-<p>
-<a href="/">GeoNames Home</a>
-<span class="separator">&#8226;</span>
-<a href="/postal-codes/">Postal Codes</a>
-<span class="separator">&#8226;</span>
-<a href="/export/">Download / Webservice</a>
-<span class="separator">&#8226;</span>
-<a href="http://forum.geonames.org">Forum</a>
-<span class="separator">&#8226;</span>
-<a href="http://geonames.wordpress.com">Blog</a>
-<span class="separator">&#8226;</span>
-<a href="/sitemap.html">Sitemap</a>
-</div>
-</body></html>
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<rdf:RDF xmlns:cc="http://creativecommons.org/ns#" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:foaf="http://xmlns.com/foaf/0.1/" xmlns:gn="http://www.geonames.org/ontology#" xmlns:owl="http://www.w3.org/2002/07/owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:wgs84_pos="http://www.w3.org/2003/01/geo/wgs84_pos#">
+    <gn:Feature rdf:about="https://sws.geonames.org/1815286/">
+        <rdfs:isDefinedBy rdf:resource="https://sws.geonames.org/1815286/about.rdf"/>
+        <gn:name>Chengdu</gn:name>
+        <gn:alternateName xml:lang="ko">청두 시</gn:alternateName>
+        <gn:alternateName xml:lang="cs">Čcheng-tu</gn:alternateName>
+        <gn:alternateName xml:lang="sk">Čcheng-tu</gn:alternateName>
+        <gn:alternateName xml:lang="lv">Čendu</gn:alternateName>
+        <gn:alternateName xml:lang="vep">Čendu</gn:alternateName>
+        <gn:alternateName xml:lang="lt">Čengdu</gn:alternateName>
+        <gn:alternateName xml:lang="tr">Çengdu</gn:alternateName>
+        <gn:alternateName xml:lang="eo">Ĉengduo</gn:alternateName>
+        <gn:alternateName xml:lang="uz">Chendu</gn:alternateName>
+        <gn:alternateName xml:lang="da">Chengdu</gn:alternateName>
+        <gn:alternateName xml:lang="de">Chengdu</gn:alternateName>
+        <gn:alternateName xml:lang="en">Chengdu</gn:alternateName>
+        <gn:alternateName xml:lang="eu">Chengdu</gn:alternateName>
+        <gn:alternateName xml:lang="fi">Chengdu</gn:alternateName>
+        <gn:alternateName xml:lang="fr">Chengdu</gn:alternateName>
+        <gn:alternateName xml:lang="id">Chengdu</gn:alternateName>
+        <gn:alternateName xml:lang="it">Chengdu</gn:alternateName>
+        <gn:alternateName xml:lang="nl">Chengdu</gn:alternateName>
+        <gn:alternateName xml:lang="no">Chengdu</gn:alternateName>
+        <gn:alternateName xml:lang="pl">Chengdu</gn:alternateName>
+        <gn:alternateName xml:lang="pt">Chengdu</gn:alternateName>
+        <gn:alternateName xml:lang="sv">Chengdu</gn:alternateName>
+        <gn:alternateName>Chengdu</gn:alternateName>
+        <gn:alternateName xml:lang="es">Chengdú</gn:alternateName>
+        <gn:alternateName>Chengdu Shi</gn:alternateName>
+        <gn:alternateName>Ch’eng-tu</gn:alternateName>
+        <gn:alternateName>Ch’eng-tu-hsien</gn:alternateName>
+        <gn:alternateName>Ch’eng-tu-shih</gn:alternateName>
+        <gn:alternateName xml:lang="hu">Csengtu</gn:alternateName>
+        <gn:alternateName xml:lang="za">Cwngzduh</gn:alternateName>
+        <gn:alternateName>Hua-yang</gn:alternateName>
+        <gn:alternateName xml:lang="hak">Sàng-tû-sṳ</gn:alternateName>
+        <gn:alternateName xml:lang="nan">Sêng-to͘-chhī</gn:alternateName>
+        <gn:alternateName xml:lang="cdo">Sìng-dŭ</gn:alternateName>
+        <gn:alternateName xml:lang="vi">Thành Đô</gn:alternateName>
+        <gn:alternateName xml:lang="ca">Txengdu</gn:alternateName>
+        <gn:alternateName xml:lang="el">Τσενγκντού</gn:alternateName>
+        <gn:alternateName xml:lang="mk">Ченгду</gn:alternateName>
+        <gn:alternateName xml:lang="sr">Ченгду</gn:alternateName>
+        <gn:alternateName xml:lang="uk">Ченду</gn:alternateName>
+        <gn:alternateName xml:lang="mn">Чөндү</gn:alternateName>
+        <gn:alternateName xml:lang="bg">Чънду</gn:alternateName>
+        <gn:alternateName xml:lang="tt">Чыңду</gn:alternateName>
+        <gn:alternateName xml:lang="ce">Чэнду</gn:alternateName>
+        <gn:alternateName xml:lang="ru">Чэнду</gn:alternateName>
+        <gn:alternateName xml:lang="sah">Чэнду</gn:alternateName>
+        <gn:alternateName xml:lang="hy">Չենդու</gn:alternateName>
+        <gn:alternateName xml:lang="he">צנגדו</gn:alternateName>
+        <gn:alternateName xml:lang="ar">تشنغدو</gn:alternateName>
+        <gn:alternateName xml:lang="fa">چنگدو</gn:alternateName>
+        <gn:alternateName xml:lang="pnb">چینگدو</gn:alternateName>
+        <gn:alternateName xml:lang="ur">چینگدو</gn:alternateName>
+        <gn:alternateName xml:lang="ug">چېڭدۇ شەھىر</gn:alternateName>
+        <gn:alternateName xml:lang="hi">चेंगदू</gn:alternateName>
+        <gn:alternateName xml:lang="mr">छंतू</gn:alternateName>
+        <gn:alternateName xml:lang="pa">ਚੇਂਗਦੂ</gn:alternateName>
+        <gn:alternateName xml:lang="ta">செங்டூ</gn:alternateName>
+        <gn:alternateName xml:lang="th">เฉิงตู</gn:alternateName>
+        <gn:alternateName xml:lang="my">ချင်းဒူမြို့</gn:alternateName>
+        <gn:alternateName xml:lang="yue">成都</gn:alternateName>
+        <gn:alternateName xml:lang="zh">成都</gn:alternateName>
+        <gn:alternateName xml:lang="ja">成都市</gn:alternateName>
+        <gn:alternateName xml:lang="lzh">成都市</gn:alternateName>
+        <gn:alternateName xml:lang="zh">成都市</gn:alternateName>
+        <gn:featureClass rdf:resource="https://www.geonames.org/ontology#P"/>
+        <gn:featureCode rdf:resource="https://www.geonames.org/ontology#P.PPLA"/>
+        <gn:countryCode>CN</gn:countryCode>
+        <gn:population>13568357</gn:population>
+        <wgs84_pos:lat>30.66667</wgs84_pos:lat>
+        <wgs84_pos:long>104.06667</wgs84_pos:long>
+        <gn:parentFeature rdf:resource="https://sws.geonames.org/1815285/"/>
+        <gn:parentCountry rdf:resource="https://sws.geonames.org/1814991/"/>
+        <gn:parentADM1 rdf:resource="https://sws.geonames.org/1794299/"/>
+        <gn:parentADM2 rdf:resource="https://sws.geonames.org/1815285/"/>
+        <gn:nearbyFeatures rdf:resource="https://sws.geonames.org/1815286/nearby.rdf"/>
+        <gn:locationMap rdf:resource="https://www.geonames.org/1815286/chengdu.html"/>
+        <gn:wikipediaArticle rdf:resource="https://en.wikipedia.org/wiki/Chengdu"/>
+        <rdfs:seeAlso rdf:resource="https://dbpedia.org/resource/Chengdu"/>
+        <gn:wikipediaArticle rdf:resource="https://ru.wikipedia.org/wiki/%D0%A7%D1%8D%D0%BD%D0%B4%D1%83"/>
+    </gn:Feature>
+    <foaf:Document rdf:about="https://sws.geonames.org/1815286/about.rdf">
+        <foaf:primaryTopic rdf:resource="https://sws.geonames.org/1815286/"/>
+        <cc:license rdf:resource="https://creativecommons.org/licenses/by/4.0/"/>
+        <cc:attributionURL rdf:resource="https://www.geonames.org"/>
+        <cc:attributionName rdf:datatype="https://www.w3.org/2001/XMLSchema#string">GeoNames</cc:attributionName>
+        <dcterms:created rdf:datatype="https://www.w3.org/2001/XMLSchema#date">2006-01-15</dcterms:created>
+        <dcterms:modified rdf:datatype="https://www.w3.org/2001/XMLSchema#date">2021-12-13</dcterms:modified>
+    </foaf:Document>
+</rdf:RDF>

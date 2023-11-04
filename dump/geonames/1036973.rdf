@@ -1,47 +1,194 @@
-<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd ">
-<html>
-<head>
-<title>GeoNames</title>
-<link rel="search" type="application/opensearchdescription+xml" title="geonames" href="https://www.geonames.org/opensearch-description.xml">
-<link href="/geonames.ico" rel="shortcut icon" >
-<link rel="StyleSheet" href="/geonames.css" type="text/css" >
-</head>
-<body>
-<table id="topmenutable" cellpadding="0" cellspacing="0"><tr>
-<td class="topmenu">&nbsp;<a href="/" title="GeoName Home">&nbsp;GeoNames Home</a>&nbsp;|&nbsp;<a href="/postal-codes/" title="Postal Codes">Postal Codes</a>&nbsp;|&nbsp;<a href="/export/" title="Database Dump and Webservice API">Download / Webservice</a>&nbsp;|&nbsp;<a href="/about.html" title="About GeoNames">About</a>&nbsp;</td>
-<td class="topsearch">
-   <form class="topsearch" name="searchForm" method="get" action="/servlet/geonames" >
-
-      search <input class="topmenu" name="q" size="20" value="" type="text">
-     <input type="hidden" name="srv" value="1">
-   </form>
-
-   <span id="topmenulogin">
-<a href="https://www.geonames.org/login" title="login or create new user account">login</a>
-   </span>
-</td></tr>
-</table>
-
-<br><br><br><br>
-<div style="margin:auto; width:500px; padding:40px; text-align:left" class="formTemplateClass">
-the hourly limit of 1000 credits for 176.145.110.165 has been exceeded. Please throttle your requests or use the commercial service.
-</div>
-
-
-<p>&nbsp;</p><p>&nbsp;</p><p>&nbsp;</p><p>&nbsp;</p>
-<div id="pageFooter">
-info@geonames.org  <img src="/img/smallant.gif" alt="ant" align="middle" hspace="40" border="0">
-<p>
-<a href="/">GeoNames Home</a>
-<span class="separator">&#8226;</span>
-<a href="/postal-codes/">Postal Codes</a>
-<span class="separator">&#8226;</span>
-<a href="/export/">Download / Webservice</a>
-<span class="separator">&#8226;</span>
-<a href="http://forum.geonames.org">Forum</a>
-<span class="separator">&#8226;</span>
-<a href="http://geonames.wordpress.com">Blog</a>
-<span class="separator">&#8226;</span>
-<a href="/sitemap.html">Sitemap</a>
-</div>
-</body></html>
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<rdf:RDF xmlns:cc="http://creativecommons.org/ns#" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:foaf="http://xmlns.com/foaf/0.1/" xmlns:gn="http://www.geonames.org/ontology#" xmlns:owl="http://www.w3.org/2002/07/owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:wgs84_pos="http://www.w3.org/2003/01/geo/wgs84_pos#">
+    <gn:Feature rdf:about="https://sws.geonames.org/1036973/">
+        <rdfs:isDefinedBy rdf:resource="https://sws.geonames.org/1036973/about.rdf"/>
+        <gn:name>Mozambique</gn:name>
+        <gn:officialName xml:lang="ko">모잠비크</gn:officialName>
+        <gn:alternateName>Colónia de Moçambique</gn:alternateName>
+        <gn:alternateName>Estado de Moçambique</gn:alternateName>
+        <gn:officialName xml:lang="mt">il-Mozambique</gn:officialName>
+        <gn:officialName xml:lang="zu">i-Mozambique</gn:officialName>
+        <gn:officialName xml:lang="ca">Moçambic</gn:officialName>
+        <gn:officialName xml:lang="oc">Moçambic</gn:officialName>
+        <gn:officialName xml:lang="da">Moçambique</gn:officialName>
+        <gn:officialName xml:lang="kl">Moçambique</gn:officialName>
+        <gn:officialName xml:lang="pt">Moçambique</gn:officialName>
+        <gn:officialName xml:lang="sv">Moçambique</gn:officialName>
+        <gn:alternateName xml:lang="vi">Mô-dăm-bích</gn:alternateName>
+        <gn:officialName xml:lang="vi">Mô-dăm- bích (Mozambique)</gn:officialName>
+        <gn:officialName xml:lang="ga">Mósaimbíc</gn:officialName>
+        <gn:officialName xml:lang="gd">Mòsaimbic</gn:officialName>
+        <gn:officialName xml:lang="rm">Mosambic</gn:officialName>
+        <gn:alternateName xml:lang="ang">Mosambice</gn:alternateName>
+        <gn:officialName xml:lang="af">Mosambiek</gn:officialName>
+        <gn:officialName xml:lang="wo">Mosàmbig</gn:officialName>
+        <gn:officialName xml:lang="et">Mosambiik</gn:officialName>
+        <gn:officialName xml:lang="cs">Mosambik</gn:officialName>
+        <gn:officialName xml:lang="de">Mosambik</gn:officialName>
+        <gn:officialName xml:lang="fi">Mosambik</gn:officialName>
+        <gn:officialName xml:lang="fo">Mosambik</gn:officialName>
+        <gn:officialName xml:lang="jv">Mosambik</gn:officialName>
+        <gn:alternateName xml:lang="kw">Mosambik</gn:alternateName>
+        <gn:officialName xml:lang="lb">Mosambik</gn:officialName>
+        <gn:officialName xml:lang="nb">Mosambik</gn:officialName>
+        <gn:alternateName xml:lang="nds">Mosambik</gn:alternateName>
+        <gn:alternateName xml:lang="nn">Mosambik</gn:alternateName>
+        <gn:officialName xml:lang="no">Mosambik</gn:officialName>
+        <gn:officialName xml:lang="se">Mosambik</gn:officialName>
+        <gn:officialName xml:lang="is">Mósambík</gn:officialName>
+        <gn:alternateName xml:lang="ilo">Mosambike</gn:alternateName>
+        <gn:alternateName xml:lang="tet">Mosambike</gn:alternateName>
+        <gn:officialName xml:lang="yo">Moṣamibiku</gn:officialName>
+        <gn:officialName xml:lang="ff">Mosammbik</gn:officialName>
+        <gn:officialName xml:lang="to">Mosēmipiki</gn:officialName>
+        <gn:officialName xml:lang="ro">Mozambic</gn:officialName>
+        <gn:officialName xml:lang="it">Mozambico</gn:officialName>
+        <gn:alternateName xml:lang="la">Mozambicum</gn:alternateName>
+        <gn:officialName xml:lang="lg">Mozambiiki</gn:officialName>
+        <gn:officialName xml:lang="ak">Mozambik</gn:officialName>
+        <gn:officialName xml:lang="az">Mozambik</gn:officialName>
+        <gn:officialName xml:lang="br">Mozambik</gn:officialName>
+        <gn:officialName xml:lang="bs">Mozambik</gn:officialName>
+        <gn:officialName xml:lang="cs">Mozambik</gn:officialName>
+        <gn:officialName xml:lang="ha">Mozambik</gn:officialName>
+        <gn:alternateName xml:lang="hbs">Mozambik</gn:alternateName>
+        <gn:officialName xml:lang="hr">Mozambik</gn:officialName>
+        <gn:officialName xml:lang="hu">Mozambik</gn:officialName>
+        <gn:officialName xml:lang="id">Mozambik</gn:officialName>
+        <gn:officialName xml:lang="ig">Mozambik</gn:officialName>
+        <gn:alternateName xml:lang="io">Mozambik</gn:alternateName>
+        <gn:alternateName xml:lang="ms">Mozambik</gn:alternateName>
+        <gn:officialName xml:lang="pl">Mozambik</gn:officialName>
+        <gn:officialName xml:lang="sk">Mozambik</gn:officialName>
+        <gn:officialName xml:lang="sl">Mozambik</gn:officialName>
+        <gn:officialName xml:lang="sq">Mozambik</gn:officialName>
+        <gn:officialName xml:lang="tk">Mozambik</gn:officialName>
+        <gn:officialName xml:lang="tr">Mozambik</gn:officialName>
+        <gn:officialName xml:lang="uz">Mozambik</gn:officialName>
+        <gn:officialName xml:lang="ku">Mozambîk</gn:officialName>
+        <gn:officialName xml:lang="lv">Mozambika</gn:officialName>
+        <gn:officialName xml:lang="mg">Mozambika</gn:officialName>
+        <gn:officialName xml:lang="sg">Mözämbîka</gn:officialName>
+        <gn:alternateName xml:lang="vo">Mozambikän</gn:alternateName>
+        <gn:officialName xml:lang="lt">Mozambikas</gn:officialName>
+        <gn:officialName xml:lang="eu">Mozambike</gn:officialName>
+        <gn:officialName xml:lang="lu">Mozambiki</gn:officialName>
+        <gn:officialName xml:lang="rn">Mozambiki</gn:officialName>
+        <gn:officialName xml:lang="ln">Mozambíki</gn:officialName>
+        <gn:officialName xml:lang="ee">Mozambiki nutome</gn:officialName>
+        <gn:officialName xml:lang="eo">Mozambiko</gn:officialName>
+        <gn:alternateName xml:lang="sq">Mozambiku</gn:alternateName>
+        <gn:alternateName xml:lang="an">Mozambique</gn:alternateName>
+        <gn:alternateName xml:lang="ast">Mozambique</gn:alternateName>
+        <gn:officialName xml:lang="cy">Mozambique</gn:officialName>
+        <gn:officialName xml:lang="da">Mozambique</gn:officialName>
+        <gn:officialName xml:lang="en">Mozambique</gn:officialName>
+        <gn:officialName xml:lang="es">Mozambique</gn:officialName>
+        <gn:officialName xml:lang="fr">Mozambique</gn:officialName>
+        <gn:alternateName xml:lang="frp">Mozambique</gn:alternateName>
+        <gn:officialName xml:lang="fy">Mozambique</gn:officialName>
+        <gn:officialName xml:lang="gl">Mozambique</gn:officialName>
+        <gn:officialName xml:lang="ia">Mozambique</gn:officialName>
+        <gn:alternateName xml:lang="id">Mozambique</gn:alternateName>
+        <gn:officialName xml:lang="ms">Mozambique</gn:officialName>
+        <gn:officialName xml:lang="nd">Mozambique</gn:officialName>
+        <gn:officialName xml:lang="nl">Mozambique</gn:officialName>
+        <gn:alternateName xml:lang="pam">Mozambique</gn:alternateName>
+        <gn:officialName xml:lang="qu">Mozambique</gn:officialName>
+        <gn:officialName xml:lang="sn">Mozambique</gn:officialName>
+        <gn:alternateName xml:lang="tl">Mozambique</gn:alternateName>
+        <gn:alternateName xml:lang="ts">Mozambique</gn:alternateName>
+        <gn:officialName xml:lang="vi">Mozambique</gn:officialName>
+        <gn:alternateName xml:lang="gl">Mozambique - Moçambique</gn:alternateName>
+        <gn:officialName xml:lang="bm">Mozanbiki</gn:officialName>
+        <gn:officialName xml:lang="ki">Msumbiji</gn:officialName>
+        <gn:officialName xml:lang="sw">Msumbiji</gn:officialName>
+        <gn:officialName xml:lang="so">Musambiik</gn:officialName>
+        <gn:alternateName>People’s Republic of Mozambique</gn:alternateName>
+        <gn:alternateName>Portuguese East Africa</gn:alternateName>
+        <gn:alternateName>Província de Moçambique</gn:alternateName>
+        <gn:alternateName xml:lang="pt">República de Moçambique</gn:alternateName>
+        <gn:alternateName>República Popular de Moçambique</gn:alternateName>
+        <gn:alternateName xml:lang="en">Republic of Mozambique</gn:alternateName>
+        <gn:alternateName>State of Mozambique</gn:alternateName>
+        <gn:officialName xml:lang="el">Μοζαμβίκη</gn:officialName>
+        <gn:officialName xml:lang="be">Мазамбік</gn:officialName>
+        <gn:alternateName xml:lang="mk">Мозамбе</gn:alternateName>
+        <gn:officialName xml:lang="bg">Мозамбик</gn:officialName>
+        <gn:officialName xml:lang="ce">Мозамбик</gn:officialName>
+        <gn:officialName xml:lang="kk">Мозамбик</gn:officialName>
+        <gn:officialName xml:lang="ky">Мозамбик</gn:officialName>
+        <gn:officialName xml:lang="mk">Мозамбик</gn:officialName>
+        <gn:officialName xml:lang="mn">Мозамбик</gn:officialName>
+        <gn:alternateName xml:lang="os">Мозамбик</gn:alternateName>
+        <gn:officialName xml:lang="ru">Мозамбик</gn:officialName>
+        <gn:officialName xml:lang="sr">Мозамбик</gn:officialName>
+        <gn:officialName xml:lang="tg">Мозамбик</gn:officialName>
+        <gn:officialName xml:lang="tt">Мозамбик</gn:officialName>
+        <gn:officialName xml:lang="uk">Мозамбік</gn:officialName>
+        <gn:officialName xml:lang="ka">მოზამბიკი</gn:officialName>
+        <gn:officialName xml:lang="hy">Մոզամբիկ</gn:officialName>
+        <gn:officialName xml:lang="yi">מאזאַמביק</gn:officialName>
+        <gn:officialName xml:lang="he">מוזמביק</gn:officialName>
+        <gn:officialName xml:lang="ug">موزامبىك</gn:officialName>
+        <gn:officialName xml:lang="fa">موزامبیک</gn:officialName>
+        <gn:officialName xml:lang="ks">موزَمبِک</gn:officialName>
+        <gn:officialName xml:lang="ar">موزمبيق</gn:officialName>
+        <gn:officialName xml:lang="ps">موزمبيق</gn:officialName>
+        <gn:officialName xml:lang="sd">موزمبیق</gn:officialName>
+        <gn:officialName xml:lang="ur">موزمبیق</gn:officialName>
+        <gn:officialName xml:lang="ku">مۆزامبیک</gn:officialName>
+        <gn:officialName xml:lang="am">ሞዛምቢክ</gn:officialName>
+        <gn:officialName xml:lang="ti">ሞዛምቢክ</gn:officialName>
+        <gn:alternateName xml:lang="ks">मोजम्बीक</gn:alternateName>
+        <gn:alternateName xml:lang="sa">मोजम्बीक</gn:alternateName>
+        <gn:alternateName xml:lang="hi">मोजाम्बिक</gn:alternateName>
+        <gn:officialName xml:lang="ne">मोजाम्बिक</gn:officialName>
+        <gn:officialName xml:lang="hi">मोज़ाम्बिक</gn:officialName>
+        <gn:alternateName xml:lang="hi">मोज़ाम्बीक</gn:alternateName>
+        <gn:officialName xml:lang="mr">मोझाम्बिक</gn:officialName>
+        <gn:officialName xml:lang="as">ম’জামবিক</gn:officialName>
+        <gn:officialName xml:lang="bn">মোজাম্বিক</gn:officialName>
+        <gn:officialName xml:lang="pa">ਮੋਜ਼ਾਮਬੀਕ</gn:officialName>
+        <gn:officialName xml:lang="gu">મોઝામ્બિક</gn:officialName>
+        <gn:officialName xml:lang="or">ମୋଜାମ୍ବିକ୍‌</gn:officialName>
+        <gn:officialName xml:lang="ta">மொசாம்பிக்</gn:officialName>
+        <gn:officialName xml:lang="te">మొజాంబిక్</gn:officialName>
+        <gn:officialName xml:lang="kn">ಮೊಜಾಂಬಿಕ್</gn:officialName>
+        <gn:officialName xml:lang="ml">മൊസാംബിക്ക്</gn:officialName>
+        <gn:officialName xml:lang="si">මොසැම්බික්</gn:officialName>
+        <gn:alternateName xml:lang="th">ประเทศโมซัมบิก</gn:alternateName>
+        <gn:officialName xml:lang="th">โมซัมบิก</gn:officialName>
+        <gn:alternateName xml:lang="th">โมแซมบิค</gn:alternateName>
+        <gn:officialName xml:lang="lo">ໂມແຊມບິກ</gn:officialName>
+        <gn:officialName xml:lang="dz">མོ་ཛམ་བྷིཀ</gn:officialName>
+        <gn:officialName xml:lang="bo">མོ་ཛམ་བིག།</gn:officialName>
+        <gn:officialName xml:lang="my">မိုဇမ်ဘစ်</gn:officialName>
+        <gn:officialName xml:lang="km">ម៉ូសំប៊ិក</gn:officialName>
+        <gn:officialName xml:lang="ja">モザンビーク</gn:officialName>
+        <gn:officialName xml:lang="ja">モザンビーク共和国</gn:officialName>
+        <gn:officialName xml:lang="zh">莫桑比克</gn:officialName>
+        <gn:featureClass rdf:resource="https://www.geonames.org/ontology#A"/>
+        <gn:featureCode rdf:resource="https://www.geonames.org/ontology#A.PCLI"/>
+        <gn:countryCode>MZ</gn:countryCode>
+        <gn:population>29495962</gn:population>
+        <wgs84_pos:lat>-18.25</wgs84_pos:lat>
+        <wgs84_pos:long>35</wgs84_pos:long>
+        <gn:parentFeature rdf:resource="https://sws.geonames.org/11812257/"/>
+        <gn:parentFeature rdf:resource="https://sws.geonames.org/7729889/"/>
+        <gn:childrenFeatures rdf:resource="https://sws.geonames.org/1036973/contains.rdf"/>
+        <gn:neighbouringFeatures rdf:resource="https://sws.geonames.org/1036973/neighbours.rdf"/>
+        <gn:locationMap rdf:resource="https://www.geonames.org/1036973/republic-of-mozambique.html"/>
+        <gn:wikipediaArticle rdf:resource="https://en.wikipedia.org/wiki/Mozambique"/>
+        <rdfs:seeAlso rdf:resource="https://dbpedia.org/resource/Mozambique"/>
+        <gn:wikipediaArticle rdf:resource="https://ru.wikipedia.org/wiki/%D0%9C%D0%BE%D0%B7%D0%B0%D0%BC%D0%B1%D0%B8%D0%BA"/>
+    </gn:Feature>
+    <foaf:Document rdf:about="https://sws.geonames.org/1036973/about.rdf">
+        <foaf:primaryTopic rdf:resource="https://sws.geonames.org/1036973/"/>
+        <cc:license rdf:resource="https://creativecommons.org/licenses/by/4.0/"/>
+        <cc:attributionURL rdf:resource="https://www.geonames.org"/>
+        <cc:attributionName rdf:datatype="https://www.w3.org/2001/XMLSchema#string">GeoNames</cc:attributionName>
+        <dcterms:created rdf:datatype="https://www.w3.org/2001/XMLSchema#date">2006-01-15</dcterms:created>
+        <dcterms:modified rdf:datatype="https://www.w3.org/2001/XMLSchema#date">2021-08-16</dcterms:modified>
+    </foaf:Document>
+</rdf:RDF>

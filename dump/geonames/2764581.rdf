@@ -1,47 +1,94 @@
-<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd ">
-<html>
-<head>
-<title>GeoNames</title>
-<link rel="search" type="application/opensearchdescription+xml" title="geonames" href="https://www.geonames.org/opensearch-description.xml">
-<link href="/geonames.ico" rel="shortcut icon" >
-<link rel="StyleSheet" href="/geonames.css" type="text/css" >
-</head>
-<body>
-<table id="topmenutable" cellpadding="0" cellspacing="0"><tr>
-<td class="topmenu">&nbsp;<a href="/" title="GeoName Home">&nbsp;GeoNames Home</a>&nbsp;|&nbsp;<a href="/postal-codes/" title="Postal Codes">Postal Codes</a>&nbsp;|&nbsp;<a href="/export/" title="Database Dump and Webservice API">Download / Webservice</a>&nbsp;|&nbsp;<a href="/about.html" title="About GeoNames">About</a>&nbsp;</td>
-<td class="topsearch">
-   <form class="topsearch" name="searchForm" method="get" action="/servlet/geonames" >
-
-      search <input class="topmenu" name="q" size="20" value="" type="text">
-     <input type="hidden" name="srv" value="1">
-   </form>
-
-   <span id="topmenulogin">
-<a href="https://www.geonames.org/login" title="login or create new user account">login</a>
-   </span>
-</td></tr>
-</table>
-
-<br><br><br><br>
-<div style="margin:auto; width:500px; padding:40px; text-align:left" class="formTemplateClass">
-the hourly limit of 1000 credits for 176.145.110.165 has been exceeded. Please throttle your requests or use the commercial service.
-</div>
-
-
-<p>&nbsp;</p><p>&nbsp;</p><p>&nbsp;</p><p>&nbsp;</p>
-<div id="pageFooter">
-info@geonames.org  <img src="/img/smallant.gif" alt="ant" align="middle" hspace="40" border="0">
-<p>
-<a href="/">GeoNames Home</a>
-<span class="separator">&#8226;</span>
-<a href="/postal-codes/">Postal Codes</a>
-<span class="separator">&#8226;</span>
-<a href="/export/">Download / Webservice</a>
-<span class="separator">&#8226;</span>
-<a href="http://forum.geonames.org">Forum</a>
-<span class="separator">&#8226;</span>
-<a href="http://geonames.wordpress.com">Blog</a>
-<span class="separator">&#8226;</span>
-<a href="/sitemap.html">Sitemap</a>
-</div>
-</body></html>
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<rdf:RDF xmlns:cc="http://creativecommons.org/ns#" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:foaf="http://xmlns.com/foaf/0.1/" xmlns:gn="http://www.geonames.org/ontology#" xmlns:owl="http://www.w3.org/2002/07/owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:wgs84_pos="http://www.w3.org/2003/01/geo/wgs84_pos#">
+    <gn:Feature rdf:about="https://sws.geonames.org/2764581/">
+        <rdfs:isDefinedBy rdf:resource="https://sws.geonames.org/2764581/about.rdf"/>
+        <gn:name>Styria</gn:name>
+        <gn:alternateName xml:lang="ko">슈타이어마르크 주</gn:alternateName>
+        <gn:alternateName xml:lang="an">Estiria</gn:alternateName>
+        <gn:alternateName xml:lang="es">Estiria</gn:alternateName>
+        <gn:alternateName xml:lang="eu">Estiria</gn:alternateName>
+        <gn:alternateName xml:lang="gl">Estiria</gn:alternateName>
+        <gn:alternateName xml:lang="ca">Estíria</gn:alternateName>
+        <gn:alternateName xml:lang="oc">Estíria</gn:alternateName>
+        <gn:alternateName xml:lang="pt">Estíria</gn:alternateName>
+        <gn:alternateName xml:lang="sc">Istìria</gn:alternateName>
+        <gn:alternateName xml:lang="hu">Stájerország</gn:alternateName>
+        <gn:alternateName xml:lang="bs">Štajerska</gn:alternateName>
+        <gn:alternateName xml:lang="hbs">Štajerska</gn:alternateName>
+        <gn:alternateName xml:lang="hr">Štajerska</gn:alternateName>
+        <gn:alternateName xml:lang="sl">Štajerska</gn:alternateName>
+        <gn:alternateName xml:lang="sk">Štajersko</gn:alternateName>
+        <gn:alternateName xml:lang="bar">Steiamoak</gn:alternateName>
+        <gn:alternateName xml:lang="et">Steiermargi liidumaa</gn:alternateName>
+        <gn:officialName xml:lang="de">Steiermark</gn:officialName>
+        <gn:shortName>Steiermark</gn:shortName>
+        <gn:alternateName xml:lang="fil">Steiermark Wappen.svg|55px</gn:alternateName>
+        <gn:alternateName xml:lang="af">Stiermarke</gn:alternateName>
+        <gn:alternateName xml:lang="nl">Stiermarken</gn:alternateName>
+        <gn:alternateName xml:lang="br">Stiria</gn:alternateName>
+        <gn:alternateName xml:lang="id">Stiria</gn:alternateName>
+        <gn:alternateName xml:lang="ie">Stiria</gn:alternateName>
+        <gn:officialName xml:lang="it">Stiria</gn:officialName>
+        <gn:alternateName xml:lang="ms">Stiria</gn:alternateName>
+        <gn:alternateName xml:lang="ro">Stiria</gn:alternateName>
+        <gn:alternateName xml:lang="scn">Stiria</gn:alternateName>
+        <gn:alternateName xml:lang="vec">Stiria</gn:alternateName>
+        <gn:alternateName xml:lang="fur">Stirie</gn:alternateName>
+        <gn:alternateName xml:lang="lt">Štirija</gn:alternateName>
+        <gn:alternateName xml:lang="lv">Štīrija</gn:alternateName>
+        <gn:alternateName xml:lang="eo">Stirio</gn:alternateName>
+        <gn:alternateName xml:lang="az">Ştiriya</gn:alternateName>
+        <gn:alternateName xml:lang="cy">Styria</gn:alternateName>
+        <gn:alternateName xml:lang="en">Styria</gn:alternateName>
+        <gn:alternateName xml:lang="ga">Styria</gn:alternateName>
+        <gn:alternateName xml:lang="la">Styria</gn:alternateName>
+        <gn:alternateName xml:lang="pl">Styria</gn:alternateName>
+        <gn:alternateName xml:lang="tl">Styria</gn:alternateName>
+        <gn:alternateName xml:lang="war">Styria</gn:alternateName>
+        <gn:alternateName xml:lang="fr">Styrie</gn:alternateName>
+        <gn:alternateName xml:lang="cs">Štýrsko</gn:alternateName>
+        <gn:alternateName xml:lang="csb">Sztejermark</gn:alternateName>
+        <gn:alternateName xml:lang="el">Στυρία</gn:alternateName>
+        <gn:alternateName xml:lang="tg">Иёлати Штирия</gn:alternateName>
+        <gn:alternateName xml:lang="mk">Штаерска</gn:alternateName>
+        <gn:alternateName xml:lang="sr">Штајерска</gn:alternateName>
+        <gn:alternateName xml:lang="mn">Штир</gn:alternateName>
+        <gn:alternateName xml:lang="os">Штири</gn:alternateName>
+        <gn:alternateName xml:lang="ru">Штирия</gn:alternateName>
+        <gn:alternateName xml:lang="uk">Штирія</gn:alternateName>
+        <gn:alternateName xml:lang="be">Штырыя</gn:alternateName>
+        <gn:alternateName xml:lang="bg">Щирия</gn:alternateName>
+        <gn:alternateName xml:lang="ka">შტირია</gn:alternateName>
+        <gn:alternateName xml:lang="hy">Շտիրիա</gn:alternateName>
+        <gn:alternateName xml:lang="he">שטיריה</gn:alternateName>
+        <gn:alternateName xml:lang="fa">اشتایرمارک</gn:alternateName>
+        <gn:alternateName xml:lang="ug">سترىيە</gn:alternateName>
+        <gn:alternateName xml:lang="pnb">سٹیریا</gn:alternateName>
+        <gn:alternateName xml:lang="ur">سٹیریا</gn:alternateName>
+        <gn:alternateName xml:lang="ar">شتايرمارك</gn:alternateName>
+        <gn:alternateName xml:lang="mr">श्टायरमार्क</gn:alternateName>
+        <gn:alternateName xml:lang="th">รัฐสติเรีย</gn:alternateName>
+        <gn:alternateName xml:lang="ja">シュタイアーマルク州</gn:alternateName>
+        <gn:alternateName xml:lang="zh">施泰爾馬克州</gn:alternateName>
+        <gn:featureClass rdf:resource="https://www.geonames.org/ontology#A"/>
+        <gn:featureCode rdf:resource="https://www.geonames.org/ontology#A.ADM1"/>
+        <gn:countryCode>AT</gn:countryCode>
+        <gn:population>1252922</gn:population>
+        <wgs84_pos:lat>47.25</wgs84_pos:lat>
+        <wgs84_pos:long>15.16667</wgs84_pos:long>
+        <gn:parentFeature rdf:resource="https://sws.geonames.org/2782113/"/>
+        <gn:parentCountry rdf:resource="https://sws.geonames.org/2782113/"/>
+        <gn:childrenFeatures rdf:resource="https://sws.geonames.org/2764581/contains.rdf"/>
+        <gn:locationMap rdf:resource="https://www.geonames.org/2764581/steiermark.html"/>
+        <gn:wikipediaArticle rdf:resource="https://en.wikipedia.org/wiki/Styria"/>
+        <rdfs:seeAlso rdf:resource="https://dbpedia.org/resource/Styria"/>
+    </gn:Feature>
+    <foaf:Document rdf:about="https://sws.geonames.org/2764581/about.rdf">
+        <foaf:primaryTopic rdf:resource="https://sws.geonames.org/2764581/"/>
+        <cc:license rdf:resource="https://creativecommons.org/licenses/by/4.0/"/>
+        <cc:attributionURL rdf:resource="https://www.geonames.org"/>
+        <cc:attributionName rdf:datatype="https://www.w3.org/2001/XMLSchema#string">GeoNames</cc:attributionName>
+        <dcterms:created rdf:datatype="https://www.w3.org/2001/XMLSchema#date">2006-01-15</dcterms:created>
+        <dcterms:modified rdf:datatype="https://www.w3.org/2001/XMLSchema#date">2023-02-16</dcterms:modified>
+    </foaf:Document>
+</rdf:RDF>

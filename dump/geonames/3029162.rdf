@@ -1,47 +1,98 @@
-<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd ">
-<html>
-<head>
-<title>GeoNames</title>
-<link rel="search" type="application/opensearchdescription+xml" title="geonames" href="https://www.geonames.org/opensearch-description.xml">
-<link href="/geonames.ico" rel="shortcut icon" >
-<link rel="StyleSheet" href="/geonames.css" type="text/css" >
-</head>
-<body>
-<table id="topmenutable" cellpadding="0" cellspacing="0"><tr>
-<td class="topmenu">&nbsp;<a href="/" title="GeoName Home">&nbsp;GeoNames Home</a>&nbsp;|&nbsp;<a href="/postal-codes/" title="Postal Codes">Postal Codes</a>&nbsp;|&nbsp;<a href="/export/" title="Database Dump and Webservice API">Download / Webservice</a>&nbsp;|&nbsp;<a href="/about.html" title="About GeoNames">About</a>&nbsp;</td>
-<td class="topsearch">
-   <form class="topsearch" name="searchForm" method="get" action="/servlet/geonames" >
-
-      search <input class="topmenu" name="q" size="20" value="" type="text">
-     <input type="hidden" name="srv" value="1">
-   </form>
-
-   <span id="topmenulogin">
-<a href="https://www.geonames.org/login" title="login or create new user account">login</a>
-   </span>
-</td></tr>
-</table>
-
-<br><br><br><br>
-<div style="margin:auto; width:500px; padding:40px; text-align:left" class="formTemplateClass">
-Connection to localhost:5432 refused. Check that the hostname and port are correct and that the postmaster is accepting TCP/IP connections.
-</div>
-
-
-<p>&nbsp;</p><p>&nbsp;</p><p>&nbsp;</p><p>&nbsp;</p>
-<div id="pageFooter">
-info@geonames.org  <img src="/img/smallant.gif" alt="ant" align="middle" hspace="40" border="0">
-<p>
-<a href="/">GeoNames Home</a>
-<span class="separator">&#8226;</span>
-<a href="/postal-codes/">Postal Codes</a>
-<span class="separator">&#8226;</span>
-<a href="/export/">Download / Webservice</a>
-<span class="separator">&#8226;</span>
-<a href="http://forum.geonames.org">Forum</a>
-<span class="separator">&#8226;</span>
-<a href="http://geonames.wordpress.com">Blog</a>
-<span class="separator">&#8226;</span>
-<a href="/sitemap.html">Sitemap</a>
-</div>
-</body></html>
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<rdf:RDF xmlns:cc="http://creativecommons.org/ns#" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:foaf="http://xmlns.com/foaf/0.1/" xmlns:gn="http://www.geonames.org/ontology#" xmlns:owl="http://www.w3.org/2002/07/owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:wgs84_pos="http://www.w3.org/2003/01/geo/wgs84_pos#">
+    <gn:Feature rdf:about="https://sws.geonames.org/3029162/">
+        <rdfs:isDefinedBy rdf:resource="https://sws.geonames.org/3029162/about.rdf"/>
+        <gn:name>Calais</gn:name>
+        <gn:alternateName xml:lang="ko">칼레</gn:alternateName>
+        <gn:alternateName xml:lang="ca">Calais</gn:alternateName>
+        <gn:alternateName xml:lang="cs">Calais</gn:alternateName>
+        <gn:alternateName xml:lang="de">Calais</gn:alternateName>
+        <gn:alternateName xml:lang="en">Calais</gn:alternateName>
+        <gn:alternateName xml:lang="eo">Calais</gn:alternateName>
+        <gn:alternateName xml:lang="es">Calais</gn:alternateName>
+        <gn:alternateName xml:lang="fi">Calais</gn:alternateName>
+        <gn:alternateName xml:lang="fr">Calais</gn:alternateName>
+        <gn:alternateName xml:lang="gl">Calais</gn:alternateName>
+        <gn:alternateName xml:lang="hr">Calais</gn:alternateName>
+        <gn:alternateName xml:lang="id">Calais</gn:alternateName>
+        <gn:alternateName xml:lang="it">Calais</gn:alternateName>
+        <gn:alternateName xml:lang="nl">Calais</gn:alternateName>
+        <gn:alternateName xml:lang="no">Calais</gn:alternateName>
+        <gn:alternateName xml:lang="pl">Calais</gn:alternateName>
+        <gn:alternateName xml:lang="pt">Calais</gn:alternateName>
+        <gn:alternateName xml:lang="ro">Calais</gn:alternateName>
+        <gn:alternateName xml:lang="sr">Calais</gn:alternateName>
+        <gn:alternateName xml:lang="sv">Calais</gn:alternateName>
+        <gn:alternateName xml:lang="vi">Calais</gn:alternateName>
+        <gn:alternateName xml:lang="pcd">Calés</gn:alternateName>
+        <gn:alternateName xml:lang="la">Calesium</gn:alternateName>
+        <gn:alternateName xml:lang="az">Kale</gn:alternateName>
+        <gn:alternateName xml:lang="lt">Kalė</gn:alternateName>
+        <gn:alternateName xml:lang="lv">Kalē</gn:alternateName>
+        <gn:alternateName xml:lang="fy">Kales</gn:alternateName>
+        <gn:alternateName xml:lang="li">Kales</gn:alternateName>
+        <gn:alternateName xml:lang="nl">Kales</gn:alternateName>
+        <gn:alternateName xml:lang="el">Καλαί</gn:alternateName>
+        <gn:alternateName xml:lang="be">Кале</gn:alternateName>
+        <gn:alternateName xml:lang="bg">Кале</gn:alternateName>
+        <gn:alternateName xml:lang="kk">Кале</gn:alternateName>
+        <gn:alternateName xml:lang="mk">Кале</gn:alternateName>
+        <gn:alternateName xml:lang="ru">Кале</gn:alternateName>
+        <gn:alternateName xml:lang="sr">Кале</gn:alternateName>
+        <gn:alternateName xml:lang="uk">Кале</gn:alternateName>
+        <gn:alternateName xml:lang="ky">Кале шаары</gn:alternateName>
+        <gn:alternateName xml:lang="hy">Կալե</gn:alternateName>
+        <gn:alternateName xml:lang="he">קאלה</gn:alternateName>
+        <gn:alternateName xml:lang="ar">كاليه</gn:alternateName>
+        <gn:alternateName xml:lang="azb">کاله</gn:alternateName>
+        <gn:alternateName xml:lang="fa">کاله</gn:alternateName>
+        <gn:alternateName xml:lang="mzn">کاله</gn:alternateName>
+        <gn:alternateName xml:lang="pnb">کالے</gn:alternateName>
+        <gn:alternateName xml:lang="ta">கலே</gn:alternateName>
+        <gn:alternateName xml:lang="th">กาแล</gn:alternateName>
+        <gn:alternateName xml:lang="ja">カレー</gn:alternateName>
+        <gn:alternateName xml:lang="zh">加来</gn:alternateName>
+        <gn:alternateName xml:lang="wuu">加莱</gn:alternateName>
+        <gn:featureClass rdf:resource="https://www.geonames.org/ontology#P"/>
+        <gn:featureCode rdf:resource="https://www.geonames.org/ontology#P.PPLA3"/>
+        <gn:countryCode>FR</gn:countryCode>
+        <gn:population>74433</gn:population>
+        <gn:postalCode>62100</gn:postalCode>
+        <gn:postalCode>62101 CEDEX</gn:postalCode>
+        <gn:postalCode>62102 CEDEX</gn:postalCode>
+        <gn:postalCode>62103 CEDEX</gn:postalCode>
+        <gn:postalCode>62104 CEDEX</gn:postalCode>
+        <gn:postalCode>62105 CEDEX</gn:postalCode>
+        <gn:postalCode>62106 CEDEX</gn:postalCode>
+        <gn:postalCode>62107 CEDEX</gn:postalCode>
+        <gn:postalCode>62108 CEDEX</gn:postalCode>
+        <gn:postalCode>62109 CEDEX</gn:postalCode>
+        <gn:postalCode>62225 CEDEX</gn:postalCode>
+        <gn:postalCode>62226 CEDEX</gn:postalCode>
+        <gn:postalCode>62228 CEDEX</gn:postalCode>
+        <gn:postalCode>62906 CEDEX</gn:postalCode>
+        <gn:postalCode>62907 CEDEX</gn:postalCode>
+        <gn:postalCode>62908 CEDEX</gn:postalCode>
+        <wgs84_pos:lat>50.95194</wgs84_pos:lat>
+        <wgs84_pos:long>1.85635</wgs84_pos:long>
+        <gn:parentFeature rdf:resource="https://sws.geonames.org/6618424/"/>
+        <gn:parentCountry rdf:resource="https://sws.geonames.org/3017382/"/>
+        <gn:parentADM1 rdf:resource="https://sws.geonames.org/11071624/"/>
+        <gn:parentADM2 rdf:resource="https://sws.geonames.org/2988430/"/>
+        <gn:parentADM3 rdf:resource="https://sws.geonames.org/3029161/"/>
+        <gn:parentADM4 rdf:resource="https://sws.geonames.org/6618424/"/>
+        <gn:nearbyFeatures rdf:resource="https://sws.geonames.org/3029162/nearby.rdf"/>
+        <gn:locationMap rdf:resource="https://www.geonames.org/3029162/calais.html"/>
+        <gn:wikipediaArticle rdf:resource="https://en.wikipedia.org/wiki/Calais"/>
+        <rdfs:seeAlso rdf:resource="https://dbpedia.org/resource/Calais"/>
+        <gn:wikipediaArticle rdf:resource="https://ru.wikipedia.org/wiki/%D0%9A%D0%B0%D0%BB%D0%B5"/>
+    </gn:Feature>
+    <foaf:Document rdf:about="https://sws.geonames.org/3029162/about.rdf">
+        <foaf:primaryTopic rdf:resource="https://sws.geonames.org/3029162/"/>
+        <cc:license rdf:resource="https://creativecommons.org/licenses/by/4.0/"/>
+        <cc:attributionURL rdf:resource="https://www.geonames.org"/>
+        <cc:attributionName rdf:datatype="https://www.w3.org/2001/XMLSchema#string">GeoNames</cc:attributionName>
+        <dcterms:created rdf:datatype="https://www.w3.org/2001/XMLSchema#date">2006-01-15</dcterms:created>
+        <dcterms:modified rdf:datatype="https://www.w3.org/2001/XMLSchema#date">2019-09-05</dcterms:modified>
+    </foaf:Document>
+</rdf:RDF>

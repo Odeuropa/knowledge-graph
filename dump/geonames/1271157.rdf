@@ -1,47 +1,108 @@
-<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd ">
-<html>
-<head>
-<title>GeoNames</title>
-<link rel="search" type="application/opensearchdescription+xml" title="geonames" href="https://www.geonames.org/opensearch-description.xml">
-<link href="/geonames.ico" rel="shortcut icon" >
-<link rel="StyleSheet" href="/geonames.css" type="text/css" >
-</head>
-<body>
-<table id="topmenutable" cellpadding="0" cellspacing="0"><tr>
-<td class="topmenu">&nbsp;<a href="/" title="GeoName Home">&nbsp;GeoNames Home</a>&nbsp;|&nbsp;<a href="/postal-codes/" title="Postal Codes">Postal Codes</a>&nbsp;|&nbsp;<a href="/export/" title="Database Dump and Webservice API">Download / Webservice</a>&nbsp;|&nbsp;<a href="/about.html" title="About GeoNames">About</a>&nbsp;</td>
-<td class="topsearch">
-   <form class="topsearch" name="searchForm" method="get" action="/servlet/geonames" >
-
-      search <input class="topmenu" name="q" size="20" value="" type="text">
-     <input type="hidden" name="srv" value="1">
-   </form>
-
-   <span id="topmenulogin">
-<a href="https://www.geonames.org/login" title="login or create new user account">login</a>
-   </span>
-</td></tr>
-</table>
-
-<br><br><br><br>
-<div style="margin:auto; width:500px; padding:40px; text-align:left" class="formTemplateClass">
-the hourly limit of 1000 credits for 176.145.110.165 has been exceeded. Please throttle your requests or use the commercial service.
-</div>
-
-
-<p>&nbsp;</p><p>&nbsp;</p><p>&nbsp;</p><p>&nbsp;</p>
-<div id="pageFooter">
-info@geonames.org  <img src="/img/smallant.gif" alt="ant" align="middle" hspace="40" border="0">
-<p>
-<a href="/">GeoNames Home</a>
-<span class="separator">&#8226;</span>
-<a href="/postal-codes/">Postal Codes</a>
-<span class="separator">&#8226;</span>
-<a href="/export/">Download / Webservice</a>
-<span class="separator">&#8226;</span>
-<a href="http://forum.geonames.org">Forum</a>
-<span class="separator">&#8226;</span>
-<a href="http://geonames.wordpress.com">Blog</a>
-<span class="separator">&#8226;</span>
-<a href="/sitemap.html">Sitemap</a>
-</div>
-</body></html>
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<rdf:RDF xmlns:cc="http://creativecommons.org/ns#" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:foaf="http://xmlns.com/foaf/0.1/" xmlns:gn="http://www.geonames.org/ontology#" xmlns:owl="http://www.w3.org/2002/07/owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:wgs84_pos="http://www.w3.org/2003/01/geo/wgs84_pos#">
+    <gn:Feature rdf:about="https://sws.geonames.org/1271157/">
+        <rdfs:isDefinedBy rdf:resource="https://sws.geonames.org/1271157/about.rdf"/>
+        <gn:name>Goa</gn:name>
+        <gn:alternateName xml:lang="ko">고아 주</gn:alternateName>
+        <gn:alternateName>Cólonia Goa</gn:alternateName>
+        <gn:alternateName>Distrito de Goa</gn:alternateName>
+        <gn:alternateName xml:lang="ca">Goa</gn:alternateName>
+        <gn:alternateName xml:lang="cs">Goa</gn:alternateName>
+        <gn:alternateName xml:lang="da">Goa</gn:alternateName>
+        <gn:alternateName xml:lang="de">Goa</gn:alternateName>
+        <gn:shortName xml:lang="en">Goa</gn:shortName>
+        <gn:alternateName xml:lang="es">Goa</gn:alternateName>
+        <gn:alternateName xml:lang="fi">Goa</gn:alternateName>
+        <gn:shortName xml:lang="fr">Goa</gn:shortName>
+        <gn:alternateName xml:lang="gl">Goa</gn:alternateName>
+        <gn:alternateName xml:lang="hu">Goa</gn:alternateName>
+        <gn:alternateName xml:lang="ia">Goa</gn:alternateName>
+        <gn:alternateName xml:lang="id">Goa</gn:alternateName>
+        <gn:alternateName xml:lang="it">Goa</gn:alternateName>
+        <gn:alternateName xml:lang="lt">Goa</gn:alternateName>
+        <gn:alternateName xml:lang="nl">Goa</gn:alternateName>
+        <gn:alternateName xml:lang="nn">Goa</gn:alternateName>
+        <gn:alternateName xml:lang="no">Goa</gn:alternateName>
+        <gn:alternateName xml:lang="pl">Goa</gn:alternateName>
+        <gn:alternateName xml:lang="pt">Goa</gn:alternateName>
+        <gn:alternateName xml:lang="ro">Goa</gn:alternateName>
+        <gn:alternateName xml:lang="sk">Goa</gn:alternateName>
+        <gn:alternateName xml:lang="sv">Goa</gn:alternateName>
+        <gn:alternateName>Goa</gn:alternateName>
+        <gn:alternateName xml:lang="is">Góa</gn:alternateName>
+        <gn:alternateName>Goa District</gn:alternateName>
+        <gn:alternateName xml:lang="eo">Goao</gn:alternateName>
+        <gn:alternateName xml:lang="et">Goa osariik</gn:alternateName>
+        <gn:alternateName xml:lang="az">Qoa</gn:alternateName>
+        <gn:alternateName>State of Goa</gn:alternateName>
+        <gn:alternateName>Union Territory of Goa</gn:alternateName>
+        <gn:alternateName>Union Territory of Goa, Damān and Diu</gn:alternateName>
+        <gn:alternateName xml:lang="el">Γκόα</gn:alternateName>
+        <gn:alternateName xml:lang="be">Гоа</gn:alternateName>
+        <gn:alternateName xml:lang="bg">Гоа</gn:alternateName>
+        <gn:alternateName xml:lang="ce">Гоа</gn:alternateName>
+        <gn:alternateName xml:lang="kk">Гоа</gn:alternateName>
+        <gn:alternateName xml:lang="mk">Гоа</gn:alternateName>
+        <gn:alternateName xml:lang="ru">Гоа</gn:alternateName>
+        <gn:alternateName xml:lang="sr">Гоа</gn:alternateName>
+        <gn:alternateName xml:lang="uk">Гоа</gn:alternateName>
+        <gn:alternateName xml:lang="tg">Гуа</gn:alternateName>
+        <gn:alternateName xml:lang="ka">გოა</gn:alternateName>
+        <gn:alternateName xml:lang="xmf">გოა</gn:alternateName>
+        <gn:alternateName xml:lang="he">גואה</gn:alternateName>
+        <gn:alternateName xml:lang="ar">غوا</gn:alternateName>
+        <gn:alternateName xml:lang="lrc">گوآ</gn:alternateName>
+        <gn:alternateName xml:lang="fa">گوا</gn:alternateName>
+        <gn:alternateName xml:lang="ks">گوا</gn:alternateName>
+        <gn:alternateName xml:lang="pnb">گوا</gn:alternateName>
+        <gn:alternateName xml:lang="ps">گوا</gn:alternateName>
+        <gn:alternateName xml:lang="ur">گوا</gn:alternateName>
+        <gn:alternateName xml:lang="dv">ގޯވާ</gn:alternateName>
+        <gn:alternateName xml:lang="ne">गोआ</gn:alternateName>
+        <gn:alternateName xml:lang="gom">गोंय</gn:alternateName>
+        <gn:alternateName xml:lang="bh">गोवा</gn:alternateName>
+        <gn:alternateName xml:lang="hi">गोवा</gn:alternateName>
+        <gn:alternateName xml:lang="mai">गोवा</gn:alternateName>
+        <gn:alternateName xml:lang="mr">गोवा</gn:alternateName>
+        <gn:alternateName xml:lang="new">गोवा</gn:alternateName>
+        <gn:alternateName xml:lang="sa">गोवाराज्यम्</gn:alternateName>
+        <gn:alternateName xml:lang="bpy">গৱা</gn:alternateName>
+        <gn:alternateName xml:lang="bn">গোয়া</gn:alternateName>
+        <gn:alternateName xml:lang="as">গোৱা</gn:alternateName>
+        <gn:alternateName xml:lang="pa">ਗੋਅਾ</gn:alternateName>
+        <gn:alternateName xml:lang="gu">ગોઆ</gn:alternateName>
+        <gn:alternateName xml:lang="or">ଗୋଆ</gn:alternateName>
+        <gn:alternateName xml:lang="ta">கோவா</gn:alternateName>
+        <gn:alternateName xml:lang="te">గోవా</gn:alternateName>
+        <gn:alternateName xml:lang="kn">ಗೋವ</gn:alternateName>
+        <gn:alternateName xml:lang="ml">ഗോവ</gn:alternateName>
+        <gn:alternateName xml:lang="th">รัฐกัว</gn:alternateName>
+        <gn:alternateName xml:lang="bo">གྷོའ།</gn:alternateName>
+        <gn:alternateName xml:lang="my">ဂိုအာ</gn:alternateName>
+        <gn:alternateName xml:lang="ja">ゴア州</gn:alternateName>
+        <gn:alternateName xml:lang="yue">果阿</gn:alternateName>
+        <gn:alternateName xml:lang="wuu">果阿邦</gn:alternateName>
+        <gn:alternateName xml:lang="zh">果阿邦</gn:alternateName>
+        <gn:featureClass rdf:resource="https://www.geonames.org/ontology#A"/>
+        <gn:featureCode rdf:resource="https://www.geonames.org/ontology#A.ADM1"/>
+        <gn:countryCode>IN</gn:countryCode>
+        <gn:population>1458545</gn:population>
+        <wgs84_pos:lat>15.33333</wgs84_pos:lat>
+        <wgs84_pos:long>74.08333</wgs84_pos:long>
+        <gn:parentFeature rdf:resource="https://sws.geonames.org/1269750/"/>
+        <gn:parentCountry rdf:resource="https://sws.geonames.org/1269750/"/>
+        <gn:childrenFeatures rdf:resource="https://sws.geonames.org/1271157/contains.rdf"/>
+        <gn:locationMap rdf:resource="https://www.geonames.org/1271157/goa.html"/>
+        <gn:wikipediaArticle rdf:resource="https://en.wikipedia.org/wiki/Goa"/>
+        <rdfs:seeAlso rdf:resource="https://dbpedia.org/resource/Goa"/>
+        <gn:wikipediaArticle rdf:resource="https://ru.wikipedia.org/wiki/%D0%93%D0%BE%D0%B0"/>
+    </gn:Feature>
+    <foaf:Document rdf:about="https://sws.geonames.org/1271157/about.rdf">
+        <foaf:primaryTopic rdf:resource="https://sws.geonames.org/1271157/"/>
+        <cc:license rdf:resource="https://creativecommons.org/licenses/by/4.0/"/>
+        <cc:attributionURL rdf:resource="https://www.geonames.org"/>
+        <cc:attributionName rdf:datatype="https://www.w3.org/2001/XMLSchema#string">GeoNames</cc:attributionName>
+        <dcterms:created rdf:datatype="https://www.w3.org/2001/XMLSchema#date">2006-01-15</dcterms:created>
+        <dcterms:modified rdf:datatype="https://www.w3.org/2001/XMLSchema#date">2017-11-12</dcterms:modified>
+    </foaf:Document>
+</rdf:RDF>
