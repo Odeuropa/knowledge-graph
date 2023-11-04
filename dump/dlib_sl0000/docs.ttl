@@ -4,6 +4,12 @@
 @prefix time: <http://www.w3.org/2006/time#> .
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 
+<http://data.odeuropa.eu/place/c9476c61-f9da-5b76-9cb7-083c002fd478> a crm:E53_Place ;
+    rdfs:label "UK" .
+
+<http://data.odeuropa.eu/place/df63c1d0-5e69-583a-81c2-c4295b7a9426> a crm:E53_Place ;
+    rdfs:label "Italy" .
+
 <http://data.odeuropa.eu/source/03c4132a-b206-5d66-888e-74577c527ebb> a crm:E33_Linguistic_Object ;
     rdfs:label "Buttlarjeva vodba"@sl ;
     schema:dateCreated <http://data.odeuropa.eu/time/0d65493b-7f84-5539-b09b-0bd1dfab2a47> ;
@@ -1026,8 +1032,6 @@
     schema:url <http://www.dlib.si/details/URN:NBN:SI:DOC-A4S1OJKI> ;
     schema:volumeNumber "45" .
 
-<https://sws.geonames.org/2635167/> a crm:E53_Place .
-
 <https://sws.geonames.org/2643743/> a crm:E53_Place .
 
 <https://sws.geonames.org/2750405/> a crm:E53_Place .
@@ -1035,8 +1039,6 @@
 <https://sws.geonames.org/2921044/> a crm:E53_Place .
 
 <https://sws.geonames.org/2971549/> a crm:E53_Place .
-
-<https://sws.geonames.org/3175395/> a crm:E53_Place .
 
 <https://sws.geonames.org/3570675/> a crm:E53_Place .
 

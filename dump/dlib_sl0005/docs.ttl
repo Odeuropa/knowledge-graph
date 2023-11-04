@@ -4,6 +4,12 @@
 @prefix time: <http://www.w3.org/2006/time#> .
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 
+<http://data.odeuropa.eu/place/c9476c61-f9da-5b76-9cb7-083c002fd478> a crm:E53_Place ;
+    rdfs:label "UK" .
+
+<http://data.odeuropa.eu/place/df63c1d0-5e69-583a-81c2-c4295b7a9426> a crm:E53_Place ;
+    rdfs:label "Italy" .
+
 <http://data.odeuropa.eu/source/001f1676-03f3-5a23-9522-3b28ba22d641> a crm:E33_Linguistic_Object ;
     rdfs:label "Zdenko Petersilka"@sl ;
     schema:dateCreated <http://data.odeuropa.eu/time/3232e19f-2ca8-507d-aef8-2c23b8426af5> ;
@@ -294,7 +300,7 @@
     schema:inLanguage "sl" ;
     schema:isPartOf <http://data.odeuropa.eu/source/ac6da563-557b-5dfc-a520-49744865a986> ;
     schema:issueNumber "12" ;
-    schema:locationCreated <https://sws.geonames.org/3175986/> ;
+    schema:locationCreated <https://sws.geonames.org/3239191/> ;
     schema:publisher <http://data.odeuropa.eu/actor/a1d663a5-8e25-517f-b44d-d9b0348d5c5a> ;
     schema:url <http://www.dlib.si/details/URN:NBN:SI:DOC-6JKJQI9N> ;
     schema:volumeNumber "12" .
@@ -352,7 +358,7 @@
     schema:inLanguage "sl" ;
     schema:isPartOf <http://data.odeuropa.eu/source/0aa33ccf-5524-5732-90b9-ad533110e8a7> ;
     schema:issueNumber "48" ;
-    schema:locationCreated <https://sws.geonames.org/3175986/> ;
+    schema:locationCreated <https://sws.geonames.org/3239191/> ;
     schema:publisher <http://data.odeuropa.eu/actor/6b46c10e-3fa8-57b9-9f18-d3f09d5a2d0a> ;
     schema:url <http://www.dlib.si/details/URN:NBN:SI:DOC-54SEESDJ> ;
     schema:volumeNumber "17" .
@@ -614,7 +620,7 @@
     schema:inLanguage "sl" ;
     schema:isPartOf <http://data.odeuropa.eu/source/94c4d0de-7150-5755-b363-7472644a5d22> ;
     schema:issueNumber "597" ;
-    schema:locationCreated <https://sws.geonames.org/4887398/> ;
+    schema:locationCreated <https://sws.geonames.org/4887539/> ;
     schema:publisher <http://data.odeuropa.eu/actor/70a4862f-b526-5294-a0f8-fe22427868d1> ;
     schema:url <http://www.dlib.si/details/URN:NBN:SI:DOC-9LAEDJEC> ;
     schema:volumeNumber "14" .
@@ -1069,8 +1075,6 @@
     schema:publisher <http://data.odeuropa.eu/actor/33e05035-9c5f-5b20-bc69-e3467218fa7b> ;
     schema:url <http://www.dlib.si/details/URN:NBN:SI:DOC-G471OAI2> .
 
-<https://sws.geonames.org/2635167/> a crm:E53_Place .
-
 <https://sws.geonames.org/2643743/> a crm:E53_Place .
 
 <https://sws.geonames.org/2750405/> a crm:E53_Place .
@@ -1078,8 +1082,6 @@
 <https://sws.geonames.org/2921044/> a crm:E53_Place .
 
 <https://sws.geonames.org/2971549/> a crm:E53_Place .
-
-<https://sws.geonames.org/3175395/> a crm:E53_Place .
 
 <https://sws.geonames.org/3570675/> a crm:E53_Place .
 
@@ -1588,7 +1590,7 @@
     time:hasBeginning "1911-07-14"^^xsd:date ;
     time:hasEnd "1911-07-14"^^xsd:date .
 
-<https://sws.geonames.org/4887398/> a crm:E53_Place .
+<https://sws.geonames.org/4887539/> a crm:E53_Place .
 
 <https://sws.geonames.org/5128581/> a crm:E53_Place .
 
@@ -1677,7 +1679,7 @@
 
 <https://sws.geonames.org/3165185/> a crm:E53_Place .
 
-<https://sws.geonames.org/3175986/> a crm:E53_Place .
+<https://sws.geonames.org/3239191/> a crm:E53_Place .
 
 <http://data.odeuropa.eu/actor/33e05035-9c5f-5b20-bc69-e3467218fa7b> a crm:E39_Actor ;
     rdfs:label "Kolinska tovarna" .

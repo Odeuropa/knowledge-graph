@@ -4,6 +4,12 @@
 @prefix time: <http://www.w3.org/2006/time#> .
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 
+<http://data.odeuropa.eu/place/c9476c61-f9da-5b76-9cb7-083c002fd478> a crm:E53_Place ;
+    rdfs:label "UK" .
+
+<http://data.odeuropa.eu/place/df63c1d0-5e69-583a-81c2-c4295b7a9426> a crm:E53_Place ;
+    rdfs:label "Italy" .
+
 <http://data.odeuropa.eu/source/0148e915-7266-5cbb-9b9b-d08d48a74b6e> a crm:E33_Linguistic_Object ;
     rdfs:label "Učiteljica"@sl ;
     schema:dateCreated <http://data.odeuropa.eu/time/5dbd256e-a390-518d-b174-22e53e66f319> ;
@@ -67,7 +73,7 @@
     schema:inLanguage "sl" ;
     schema:isPartOf <http://data.odeuropa.eu/source/ac6da563-557b-5dfc-a520-49744865a986> ;
     schema:issueNumber "4" ;
-    schema:locationCreated <https://sws.geonames.org/3175986/> ;
+    schema:locationCreated <https://sws.geonames.org/3239191/> ;
     schema:publisher <http://data.odeuropa.eu/actor/a1d663a5-8e25-517f-b44d-d9b0348d5c5a> ;
     schema:url <http://www.dlib.si/details/URN:NBN:SI:DOC-KDNRZI8V> ;
     schema:volumeNumber "7" .
@@ -1068,8 +1074,6 @@
     schema:url <http://www.dlib.si/details/URN:NBN:SI:DOC-EQGZQR8P> ;
     schema:volumeNumber "1" .
 
-<https://sws.geonames.org/2635167/> a crm:E53_Place .
-
 <https://sws.geonames.org/2643743/> a crm:E53_Place .
 
 <https://sws.geonames.org/2750405/> a crm:E53_Place .
@@ -1077,8 +1081,6 @@
 <https://sws.geonames.org/2921044/> a crm:E53_Place .
 
 <https://sws.geonames.org/2971549/> a crm:E53_Place .
-
-<https://sws.geonames.org/3175395/> a crm:E53_Place .
 
 <https://sws.geonames.org/3570675/> a crm:E53_Place .
 
@@ -1594,7 +1596,7 @@
 
 <https://sws.geonames.org/3067696/> a crm:E53_Place .
 
-<https://sws.geonames.org/3175986/> a crm:E53_Place .
+<https://sws.geonames.org/3239191/> a crm:E53_Place .
 
 <http://data.odeuropa.eu/actor/1fe43f9d-c6a5-5827-abc2-aaefc94be279> a crm:E39_Actor ;
     rdfs:label "Narodna tiskarna" .

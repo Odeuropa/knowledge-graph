@@ -4,13 +4,19 @@
 @prefix time: <http://www.w3.org/2006/time#> .
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 
+<http://data.odeuropa.eu/place/c9476c61-f9da-5b76-9cb7-083c002fd478> a crm:E53_Place ;
+    rdfs:label "UK" .
+
+<http://data.odeuropa.eu/place/df63c1d0-5e69-583a-81c2-c4295b7a9426> a crm:E53_Place ;
+    rdfs:label "Italy" .
+
 <http://data.odeuropa.eu/source/0208ddac-ce63-5141-ae60-fe519fdcda2c> a crm:E33_Linguistic_Object ;
     rdfs:label "Prosveta"@sl ;
     schema:dateCreated <http://data.odeuropa.eu/time/e215d709-5f1f-5065-a7ef-cc7bec357315> ;
     schema:inLanguage "sl" ;
     schema:isPartOf <http://data.odeuropa.eu/source/bc3cd737-8c02-5ea2-a567-45ab9abaa2c9> ;
     schema:issueNumber "173" ;
-    schema:locationCreated <http://data.odeuropa.eu/place/5aee7dd0-a476-5df7-986b-8bf3c232688d> ;
+    schema:locationCreated <https://sws.geonames.org/2661881/> ;
     schema:publisher <http://data.odeuropa.eu/actor/612663c2-869a-5be0-8c59-4c7a95b52d17> ;
     schema:url <http://www.dlib.si/details/URN:NBN:SI:DOC-BR4C7I8H> ;
     schema:volumeNumber "12" .
@@ -241,7 +247,7 @@
     schema:inLanguage "sl" ;
     schema:isPartOf <http://data.odeuropa.eu/source/0aa33ccf-5524-5732-90b9-ad533110e8a7> ;
     schema:issueNumber "36" ;
-    schema:locationCreated <https://sws.geonames.org/3175986/> ;
+    schema:locationCreated <https://sws.geonames.org/3239191/> ;
     schema:publisher <http://data.odeuropa.eu/actor/6b46c10e-3fa8-57b9-9f18-d3f09d5a2d0a> ;
     schema:url <http://www.dlib.si/details/URN:NBN:SI:DOC-UC4CQANJ> ;
     schema:volumeNumber "12" .
@@ -584,7 +590,7 @@
     schema:inLanguage "sl" ;
     schema:isPartOf <http://data.odeuropa.eu/source/0aa33ccf-5524-5732-90b9-ad533110e8a7> ;
     schema:issueNumber "24" ;
-    schema:locationCreated <https://sws.geonames.org/3175986/> ;
+    schema:locationCreated <https://sws.geonames.org/3239191/> ;
     schema:publisher <http://data.odeuropa.eu/actor/6b46c10e-3fa8-57b9-9f18-d3f09d5a2d0a> ;
     schema:url <http://www.dlib.si/details/URN:NBN:SI:DOC-VL2OXAEM> ;
     schema:volumeNumber "13" .
@@ -823,7 +829,7 @@
     schema:inLanguage "sl" ;
     schema:isPartOf <http://data.odeuropa.eu/source/38bcd1e6-6778-5cc8-a094-579463c8ba03> ;
     schema:issueNumber "43" ;
-    schema:locationCreated <https://sws.geonames.org/3175986/> ;
+    schema:locationCreated <https://sws.geonames.org/3239191/> ;
     schema:publisher <http://data.odeuropa.eu/actor/3ea53e40-4fae-50bb-92ba-700dd6d2d8da> ;
     schema:url <http://www.dlib.si/details/URN:NBN:SI:DOC-OSMFXYXD> ;
     schema:volumeNumber "2" .
@@ -895,7 +901,7 @@
     schema:inLanguage "sl" ;
     schema:isPartOf <http://data.odeuropa.eu/source/0aa33ccf-5524-5732-90b9-ad533110e8a7> ;
     schema:issueNumber "26" ;
-    schema:locationCreated <https://sws.geonames.org/3175986/> ;
+    schema:locationCreated <https://sws.geonames.org/3239191/> ;
     schema:publisher <http://data.odeuropa.eu/actor/6b46c10e-3fa8-57b9-9f18-d3f09d5a2d0a> ;
     schema:url <http://www.dlib.si/details/URN:NBN:SI:DOC-QOBVOKD0> ;
     schema:volumeNumber "17" .
@@ -1058,8 +1064,6 @@
     schema:url <http://www.dlib.si/details/URN:NBN:SI:DOC-P5GTQBBS> ;
     schema:volumeNumber "8" .
 
-<https://sws.geonames.org/2635167/> a crm:E53_Place .
-
 <https://sws.geonames.org/2643743/> a crm:E53_Place .
 
 <https://sws.geonames.org/2750405/> a crm:E53_Place .
@@ -1067,8 +1071,6 @@
 <https://sws.geonames.org/2921044/> a crm:E53_Place .
 
 <https://sws.geonames.org/2971549/> a crm:E53_Place .
-
-<https://sws.geonames.org/3175395/> a crm:E53_Place .
 
 <https://sws.geonames.org/3570675/> a crm:E53_Place .
 
@@ -1149,9 +1151,6 @@
 
 <http://data.odeuropa.eu/genre/SCIE> a <http://www.w3.org/2004/02/skos/core#Concept> ;
     rdfs:label "Scientific and philosophical texts"@en .
-
-<http://data.odeuropa.eu/place/5aee7dd0-a476-5df7-986b-8bf3c232688d> a crm:E53_Place ;
-    rdfs:label "ZDA" .
 
 <http://data.odeuropa.eu/source/0460cbd2-393f-5e22-b243-01b6509ffe06> a crm:E33_Linguistic_Object ;
     rdfs:label "Kurent (1918)" .
@@ -1630,6 +1629,8 @@
     time:hasBeginning "1905-06-15"^^xsd:date ;
     time:hasEnd "1905-06-15"^^xsd:date .
 
+<https://sws.geonames.org/2661881/> a crm:E53_Place .
+
 <https://sws.geonames.org/3195506/> a crm:E53_Place .
 
 <https://sws.geonames.org/5128581/> a crm:E53_Place .
@@ -1748,7 +1749,7 @@
 
 <https://sws.geonames.org/3067696/> a crm:E53_Place .
 
-<https://sws.geonames.org/3175986/> a crm:E53_Place .
+<https://sws.geonames.org/3239191/> a crm:E53_Place .
 
 <http://data.odeuropa.eu/actor/8d0db489-59ac-59a0-b06b-74be06f9c739> a crm:E39_Actor ;
     rdfs:label "Ivan Tomšič, v Ljubljani" .

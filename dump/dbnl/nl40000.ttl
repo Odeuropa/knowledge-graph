@@ -1,0 +1,134 @@
+@prefix crm: <http://erlangen-crm.org/current/> .
+@prefix od: <http://data.odeuropa.eu/ontology/> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix reo: <https://read-it.acc.hum.uu.nl/ontology#> .
+@prefix schema: <https://schema.org/> .
+@prefix time: <http://www.w3.org/2006/time#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<http://data.odeuropa.eu/emotion-type/courage> a <http://www.w3.org/2004/02/skos/core#Concept>,
+        reo:REO21 ;
+    rdfs:label "courage" ;
+    reo:readP27 <http://data.odeuropa.eu/experience/a113a62e-1c91-5d58-8c64-a4192c21ba3e> .
+
+<http://data.odeuropa.eu/emotion-type/disgust> a <http://www.w3.org/2004/02/skos/core#Concept>,
+        reo:REO21 ;
+    rdfs:label "disgust" ;
+    reo:readP27 <http://data.odeuropa.eu/experience/6125fb6e-5851-57eb-8828-3e5d1ff0d6ec> .
+
+<http://data.odeuropa.eu/experience/6125fb6e-5851-57eb-8828-3e5d1ff0d6ec/assignment/1> a crm:E13_Attribute_Assignment ;
+    rdfs:label "stanc"@nl ;
+    crm:P140_assigned_attribute_to <http://data.odeuropa.eu/smell/d6a7d1a7-dd53-54ef-b911-63f631cf79a3> ;
+    crm:P141_assigned <http://data.odeuropa.eu/attribute/stanc_nl> ;
+    crm:P14_carried_out_by <http://data.odeuropa.eu/actor/8eb87a64-8510-536f-843e-30a00862516c> ;
+    crm:P17_was_motivated_by <http://data.odeuropa.eu/experience/6125fb6e-5851-57eb-8828-3e5d1ff0d6ec> .
+
+<http://data.odeuropa.eu/experience/6125fb6e-5851-57eb-8828-3e5d1ff0d6ec/assignment/2> a crm:E13_Attribute_Assignment ;
+    rdfs:label "stanc"@nl ;
+    crm:P140_assigned_attribute_to <http://data.odeuropa.eu/smell/d6a7d1a7-dd53-54ef-b911-63f631cf79a3> ;
+    crm:P141_assigned <http://data.odeuropa.eu/attribute/stanc_nl> ;
+    crm:P14_carried_out_by <http://data.odeuropa.eu/actor/8eb87a64-8510-536f-843e-30a00862516c> ;
+    crm:P17_was_motivated_by <http://data.odeuropa.eu/experience/6125fb6e-5851-57eb-8828-3e5d1ff0d6ec> .
+
+<http://data.odeuropa.eu/source/715b1997-1f73-5d70-a0de-c831b44e2821> crm:P165_incorporates <http://data.odeuropa.eu/source/715b1997-1f73-5d70-a0de-c831b44e2821/fragment/a218f148-8099-5054-81ec-25eb5c9d0534>,
+        <http://data.odeuropa.eu/source/715b1997-1f73-5d70-a0de-c831b44e2821/fragment/f011b750-46a8-562c-b8dd-46ebfbf5e1a6> ;
+    crm:P67_refers_to <http://data.odeuropa.eu/emission/573eedfd-8e78-5e7c-a358-0782c92d0bfa>,
+        <http://data.odeuropa.eu/emission/98f9e1ba-ccf7-530e-9cfd-ad0a40774ade>,
+        <http://data.odeuropa.eu/experience/6125fb6e-5851-57eb-8828-3e5d1ff0d6ec>,
+        <http://data.odeuropa.eu/experience/a113a62e-1c91-5d58-8c64-a4192c21ba3e>,
+        <http://data.odeuropa.eu/smell/00855e29-1792-5ba1-b578-6b9b68e6680e>,
+        <http://data.odeuropa.eu/smell/d6a7d1a7-dd53-54ef-b911-63f631cf79a3> .
+
+<< <http://data.odeuropa.eu/emotion-type/courage> reo:readP27 <http://data.odeuropa.eu/experience/a113a62e-1c91-5d58-8c64-a4192c21ba3e> >> rdf:value "0.978690505027771"^^xsd:float .
+
+<< <http://data.odeuropa.eu/emotion-type/disgust> reo:readP27 <http://data.odeuropa.eu/experience/6125fb6e-5851-57eb-8828-3e5d1ff0d6ec> >> rdf:value "0.7271897792816162"^^xsd:float .
+
+<< <http://data.odeuropa.eu/source/715b1997-1f73-5d70-a0de-c831b44e2821/fragment/a218f148-8099-5054-81ec-25eb5c9d0534> crm:P67_refers_to <http://data.odeuropa.eu/emission/98f9e1ba-ccf7-530e-9cfd-ad0a40774ade> >> prov:wasGeneratedBy <http://data.odeuropa.eu/provenance/d0b53ca6-ed66-5f96-9231-a7cc1c6dcd9b> .
+
+<< <http://data.odeuropa.eu/source/715b1997-1f73-5d70-a0de-c831b44e2821/fragment/a218f148-8099-5054-81ec-25eb5c9d0534> crm:P67_refers_to <http://data.odeuropa.eu/experience/6125fb6e-5851-57eb-8828-3e5d1ff0d6ec> >> prov:wasGeneratedBy <http://data.odeuropa.eu/provenance/d0b53ca6-ed66-5f96-9231-a7cc1c6dcd9b> .
+
+<< <http://data.odeuropa.eu/source/715b1997-1f73-5d70-a0de-c831b44e2821/fragment/a218f148-8099-5054-81ec-25eb5c9d0534> crm:P67_refers_to <http://data.odeuropa.eu/smell/d6a7d1a7-dd53-54ef-b911-63f631cf79a3> >> prov:wasGeneratedBy <http://data.odeuropa.eu/provenance/d0b53ca6-ed66-5f96-9231-a7cc1c6dcd9b> .
+
+<< <http://data.odeuropa.eu/source/715b1997-1f73-5d70-a0de-c831b44e2821/fragment/f011b750-46a8-562c-b8dd-46ebfbf5e1a6> crm:P67_refers_to <http://data.odeuropa.eu/emission/573eedfd-8e78-5e7c-a358-0782c92d0bfa> >> prov:wasGeneratedBy <http://data.odeuropa.eu/provenance/d0b53ca6-ed66-5f96-9231-a7cc1c6dcd9b> .
+
+<< <http://data.odeuropa.eu/source/715b1997-1f73-5d70-a0de-c831b44e2821/fragment/f011b750-46a8-562c-b8dd-46ebfbf5e1a6> crm:P67_refers_to <http://data.odeuropa.eu/experience/a113a62e-1c91-5d58-8c64-a4192c21ba3e> >> prov:wasGeneratedBy <http://data.odeuropa.eu/provenance/d0b53ca6-ed66-5f96-9231-a7cc1c6dcd9b> .
+
+<< <http://data.odeuropa.eu/source/715b1997-1f73-5d70-a0de-c831b44e2821/fragment/f011b750-46a8-562c-b8dd-46ebfbf5e1a6> crm:P67_refers_to <http://data.odeuropa.eu/smell/00855e29-1792-5ba1-b578-6b9b68e6680e> >> prov:wasGeneratedBy <http://data.odeuropa.eu/provenance/d0b53ca6-ed66-5f96-9231-a7cc1c6dcd9b> .
+
+<< <http://data.odeuropa.eu/source/715b1997-1f73-5d70-a0de-c831b44e2821> crm:P67_refers_to <http://data.odeuropa.eu/emission/573eedfd-8e78-5e7c-a358-0782c92d0bfa> >> prov:wasGeneratedBy <http://data.odeuropa.eu/provenance/d0b53ca6-ed66-5f96-9231-a7cc1c6dcd9b> .
+
+<< <http://data.odeuropa.eu/source/715b1997-1f73-5d70-a0de-c831b44e2821> crm:P67_refers_to <http://data.odeuropa.eu/emission/98f9e1ba-ccf7-530e-9cfd-ad0a40774ade> >> prov:wasGeneratedBy <http://data.odeuropa.eu/provenance/d0b53ca6-ed66-5f96-9231-a7cc1c6dcd9b> .
+
+<< <http://data.odeuropa.eu/source/715b1997-1f73-5d70-a0de-c831b44e2821> crm:P67_refers_to <http://data.odeuropa.eu/experience/6125fb6e-5851-57eb-8828-3e5d1ff0d6ec> >> prov:wasGeneratedBy <http://data.odeuropa.eu/provenance/d0b53ca6-ed66-5f96-9231-a7cc1c6dcd9b> .
+
+<< <http://data.odeuropa.eu/source/715b1997-1f73-5d70-a0de-c831b44e2821> crm:P67_refers_to <http://data.odeuropa.eu/experience/a113a62e-1c91-5d58-8c64-a4192c21ba3e> >> prov:wasGeneratedBy <http://data.odeuropa.eu/provenance/d0b53ca6-ed66-5f96-9231-a7cc1c6dcd9b> .
+
+<< <http://data.odeuropa.eu/source/715b1997-1f73-5d70-a0de-c831b44e2821> crm:P67_refers_to <http://data.odeuropa.eu/smell/00855e29-1792-5ba1-b578-6b9b68e6680e> >> prov:wasGeneratedBy <http://data.odeuropa.eu/provenance/d0b53ca6-ed66-5f96-9231-a7cc1c6dcd9b> .
+
+<< <http://data.odeuropa.eu/source/715b1997-1f73-5d70-a0de-c831b44e2821> crm:P67_refers_to <http://data.odeuropa.eu/smell/d6a7d1a7-dd53-54ef-b911-63f631cf79a3> >> prov:wasGeneratedBy <http://data.odeuropa.eu/provenance/d0b53ca6-ed66-5f96-9231-a7cc1c6dcd9b> .
+
+<http://data.odeuropa.eu/actor/e5055cce-31f1-5b27-814f-5903c30ebf85> a crm:E39_Actor ;
+    rdfs:label "de zoon den vader" .
+
+<http://data.odeuropa.eu/software/d3c92f59-a7e7-5f3a-9ddf-d3c898ebc59e> a prov:SoftwareAgent ;
+    rdfs:label "SmellClassifier" ;
+    schema:url <https://github.com/Odeuropa/wp3-information-extraction-system> .
+
+<http://data.odeuropa.eu/source/715b1997-1f73-5d70-a0de-c831b44e2821/fragment/a218f148-8099-5054-81ec-25eb5c9d0534> a crm:E33_Linguistic_Object ;
+    crm:P106_is_composed_of "hem"@nl,
+        "stanc"@nl ;
+    crm:P67_refers_to <http://data.odeuropa.eu/emission/98f9e1ba-ccf7-530e-9cfd-ad0a40774ade>,
+        <http://data.odeuropa.eu/experience/6125fb6e-5851-57eb-8828-3e5d1ff0d6ec>,
+        <http://data.odeuropa.eu/smell/d6a7d1a7-dd53-54ef-b911-63f631cf79a3> ;
+    rdf:value "| Dese fol .12c Duelius , doe hem in zijnre outheit verweten wort , van enen zinen viant , dat hem zijn adem stanc , ghinc hi drooflic thuus ende vraechde zinen wive Ytaliam , waer omme datsi hem nijt en hadde ghezeyt , op dat hi hem daer of soude moghen laten reynighen .Doe antwoorde hem Ytalia aldus : ‘ Dat had ic u gheernne ghezeyt , had ic nijt gewaent , dat een yghelic manne zijn adem hem so hadde gheroken ’ ."@nl ;
+    schema:position 2 ;
+    schema:url <https://www.dbnl.org/titels/titel.php?id=_sca001scae02> .
+
+<http://data.odeuropa.eu/source/715b1997-1f73-5d70-a0de-c831b44e2821/fragment/f011b750-46a8-562c-b8dd-46ebfbf5e1a6> a crm:E33_Linguistic_Object ;
+    crm:P106_is_composed_of "de zoon den vader"@nl,
+        "neus"@nl ;
+    crm:P67_refers_to <http://data.odeuropa.eu/emission/573eedfd-8e78-5e7c-a358-0782c92d0bfa>,
+        <http://data.odeuropa.eu/experience/a113a62e-1c91-5d58-8c64-a4192c21ba3e>,
+        <http://data.odeuropa.eu/smell/00855e29-1792-5ba1-b578-6b9b68e6680e> ;
+    rdf:value "Etienne de Bourbon heeft dit verhaal gehoord van Magister Nicholaus de Flaviniaco , dien hij dikwijls aanhaalt , en ‘ van vele anderen .’ Hier bijt de zoon den vader lip en neus af ; hij krijgt gratie en betert zijn leven .Dit exempel komt ook voor in het Speculum morale van Vincentius van Beauvais ( Pars III , Lib ."@nl ;
+    schema:position 1 ;
+    schema:url <https://www.dbnl.org/titels/titel.php?id=_sca001scae02> .
+
+<http://data.odeuropa.eu/attribute/stanc_nl> a crm:E90_Symbolic_Object ;
+    rdfs:label "stanc"@nl .
+
+<http://data.odeuropa.eu/emission/573eedfd-8e78-5e7c-a358-0782c92d0bfa> a od:L12_Smell_Emission ;
+    od:F1_generated <http://data.odeuropa.eu/smell/00855e29-1792-5ba1-b578-6b9b68e6680e> ;
+    time:hasTime <http://data.odeuropa.eu/time/b4645460-c680-5000-bd3a-1f76c693585f> .
+
+<http://data.odeuropa.eu/emission/98f9e1ba-ccf7-530e-9cfd-ad0a40774ade> a od:L12_Smell_Emission ;
+    od:F1_generated <http://data.odeuropa.eu/smell/d6a7d1a7-dd53-54ef-b911-63f631cf79a3> ;
+    time:hasTime <http://data.odeuropa.eu/time/b4645460-c680-5000-bd3a-1f76c693585f> .
+
+<http://data.odeuropa.eu/actor/8eb87a64-8510-536f-843e-30a00862516c> a crm:E39_Actor ;
+    rdfs:label "hem" .
+
+<http://data.odeuropa.eu/experience/a113a62e-1c91-5d58-8c64-a4192c21ba3e> a od:L13_Olfactory_Experience ;
+    od:F2_perceived <http://data.odeuropa.eu/smell/00855e29-1792-5ba1-b578-6b9b68e6680e> ;
+    crm:P14_carried_out_by <http://data.odeuropa.eu/actor/e5055cce-31f1-5b27-814f-5903c30ebf85> ;
+    time:hasTime <http://data.odeuropa.eu/time/b4645460-c680-5000-bd3a-1f76c693585f> .
+
+<http://data.odeuropa.eu/smell/00855e29-1792-5ba1-b578-6b9b68e6680e> a od:L11_Smell ;
+    rdfs:label "neus"@nl .
+
+<http://data.odeuropa.eu/experience/6125fb6e-5851-57eb-8828-3e5d1ff0d6ec> a od:L13_Olfactory_Experience ;
+    od:F2_perceived <http://data.odeuropa.eu/smell/d6a7d1a7-dd53-54ef-b911-63f631cf79a3> ;
+    crm:P14_carried_out_by <http://data.odeuropa.eu/actor/8eb87a64-8510-536f-843e-30a00862516c> ;
+    time:hasTime <http://data.odeuropa.eu/time/b4645460-c680-5000-bd3a-1f76c693585f> .
+
+<http://data.odeuropa.eu/smell/d6a7d1a7-dd53-54ef-b911-63f631cf79a3> a od:L11_Smell ;
+    rdfs:label "stanc"@nl .
+
+<http://data.odeuropa.eu/provenance/d0b53ca6-ed66-5f96-9231-a7cc1c6dcd9b> a prov:Activity ;
+    rdfs:label "Automatic annotation" ;
+    rdfs:comment "Automatic Annotation within the Odeuropa project" ;
+    prov:wasAssociatedWith <http://data.odeuropa.eu/odeuropa>,
+        <http://data.odeuropa.eu/software/d3c92f59-a7e7-5f3a-9ddf-d3c898ebc59e> .
+

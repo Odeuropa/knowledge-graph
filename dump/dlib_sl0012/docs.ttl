@@ -4,6 +4,12 @@
 @prefix time: <http://www.w3.org/2006/time#> .
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 
+<http://data.odeuropa.eu/place/c9476c61-f9da-5b76-9cb7-083c002fd478> a crm:E53_Place ;
+    rdfs:label "UK" .
+
+<http://data.odeuropa.eu/place/df63c1d0-5e69-583a-81c2-c4295b7a9426> a crm:E53_Place ;
+    rdfs:label "Italy" .
+
 <http://data.odeuropa.eu/source/0039311e-9f83-5f43-b7a1-875656fb45a3> a crm:E33_Linguistic_Object ;
     rdfs:label "Zgodnja Danica: katoliški cerkveni list"@sl ;
     schema:dateCreated <http://data.odeuropa.eu/time/fbb78e75-6a6c-5a99-b083-4d3cadc9d02d> ;
@@ -421,7 +427,7 @@
     schema:inLanguage "sl" ;
     schema:isPartOf <http://data.odeuropa.eu/source/94c4d0de-7150-5755-b363-7472644a5d22> ;
     schema:issueNumber "126" ;
-    schema:locationCreated <https://sws.geonames.org/4887398/> ;
+    schema:locationCreated <https://sws.geonames.org/4887539/> ;
     schema:publisher <http://data.odeuropa.eu/actor/70a4862f-b526-5294-a0f8-fe22427868d1> ;
     schema:url <http://www.dlib.si/details/URN:NBN:SI:DOC-K8NMJE9B> ;
     schema:volumeNumber "5" .
@@ -1041,7 +1047,7 @@
     schema:inLanguage "sl" ;
     schema:isPartOf <http://data.odeuropa.eu/source/95149ca6-347c-5c39-8009-41aeb8ef72ee> ;
     schema:issueNumber "6" ;
-    schema:locationCreated <https://sws.geonames.org/4899581/> ;
+    schema:locationCreated <http://data.odeuropa.eu/place/3260b572-51db-5589-8716-08fd9ada9684> ;
     schema:publisher <http://data.odeuropa.eu/actor/26e88688-0f0b-5df2-8146-6822fde797b7> ;
     schema:url <http://www.dlib.si/details/URN:NBN:SI:DOC-DQ9IQLRE> ;
     schema:volumeNumber "1" .
@@ -1058,8 +1064,6 @@
     schema:url <http://www.dlib.si/details/URN:NBN:SI:DOC-52TGDGDI> ;
     schema:volumeNumber "1" .
 
-<https://sws.geonames.org/2635167/> a crm:E53_Place .
-
 <https://sws.geonames.org/2643743/> a crm:E53_Place .
 
 <https://sws.geonames.org/2750405/> a crm:E53_Place .
@@ -1067,8 +1071,6 @@
 <https://sws.geonames.org/2921044/> a crm:E53_Place .
 
 <https://sws.geonames.org/2971549/> a crm:E53_Place .
-
-<https://sws.geonames.org/3175395/> a crm:E53_Place .
 
 <https://sws.geonames.org/3570675/> a crm:E53_Place .
 
@@ -1146,6 +1148,9 @@
 
 <http://data.odeuropa.eu/genre/REL> a <http://www.w3.org/2004/02/skos/core#Concept> ;
     rdfs:label "Religion"@en .
+
+<http://data.odeuropa.eu/place/3260b572-51db-5589-8716-08fd9ada9684> a crm:E53_Place ;
+    rdfs:label "Lemont, Ill." .
 
 <http://data.odeuropa.eu/place/617c8c05-6ce8-5d8e-a2f6-e6b8644cafda> a crm:E53_Place ;
     rdfs:label "Ljubljana, Trst" .
@@ -1626,9 +1631,7 @@
 
 <https://sws.geonames.org/3067696/> a crm:E53_Place .
 
-<https://sws.geonames.org/4887398/> a crm:E53_Place .
-
-<https://sws.geonames.org/4899581/> a crm:E53_Place .
+<https://sws.geonames.org/4887539/> a crm:E53_Place .
 
 <http://data.odeuropa.eu/actor/1285f409-d35f-5330-921c-87072a388b67> a crm:E39_Actor ;
     rdfs:label "Katoliška tiskarna" .

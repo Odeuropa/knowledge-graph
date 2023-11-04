@@ -4,6 +4,12 @@
 @prefix time: <http://www.w3.org/2006/time#> .
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 
+<http://data.odeuropa.eu/place/c9476c61-f9da-5b76-9cb7-083c002fd478> a crm:E53_Place ;
+    rdfs:label "UK" .
+
+<http://data.odeuropa.eu/place/df63c1d0-5e69-583a-81c2-c4295b7a9426> a crm:E53_Place ;
+    rdfs:label "Italy" .
+
 <http://data.odeuropa.eu/source/063c8162-670e-5379-a987-5f101b0201d0> a crm:E33_Linguistic_Object ;
     rdfs:label "Kmetijske in rokodelske novice"@sl ;
     schema:dateCreated <http://data.odeuropa.eu/time/04f6894a-c2fd-5661-8313-56eb40a79653> ;
@@ -162,7 +168,7 @@
     schema:inLanguage "sl" ;
     schema:isPartOf <http://data.odeuropa.eu/source/0aa33ccf-5524-5732-90b9-ad533110e8a7> ;
     schema:issueNumber "35" ;
-    schema:locationCreated <https://sws.geonames.org/3175986/> ;
+    schema:locationCreated <https://sws.geonames.org/3239191/> ;
     schema:publisher <http://data.odeuropa.eu/actor/6b46c10e-3fa8-57b9-9f18-d3f09d5a2d0a> ;
     schema:url <http://www.dlib.si/details/URN:NBN:SI:DOC-H8PGZSYQ> ;
     schema:volumeNumber "12" .
@@ -419,7 +425,7 @@
     schema:inLanguage "sl" ;
     schema:isPartOf <http://data.odeuropa.eu/source/94c4d0de-7150-5755-b363-7472644a5d22> ;
     schema:issueNumber "1" ;
-    schema:locationCreated <https://sws.geonames.org/4887398/> ;
+    schema:locationCreated <https://sws.geonames.org/4887539/> ;
     schema:publisher <http://data.odeuropa.eu/actor/70a4862f-b526-5294-a0f8-fe22427868d1> ;
     schema:url <http://www.dlib.si/details/URN:NBN:SI:DOC-ENCD3COB> ;
     schema:volumeNumber "2" .
@@ -504,7 +510,7 @@
     schema:inLanguage "sl" ;
     schema:isPartOf <http://data.odeuropa.eu/source/bc3cd737-8c02-5ea2-a567-45ab9abaa2c9> ;
     schema:issueNumber "162" ;
-    schema:locationCreated <http://data.odeuropa.eu/place/5aee7dd0-a476-5df7-986b-8bf3c232688d> ;
+    schema:locationCreated <https://sws.geonames.org/2661881/> ;
     schema:publisher <http://data.odeuropa.eu/actor/612663c2-869a-5be0-8c59-4c7a95b52d17> ;
     schema:url <http://www.dlib.si/details/URN:NBN:SI:DOC-PDQMGACU> ;
     schema:volumeNumber "11" .
@@ -561,7 +567,7 @@
     schema:inLanguage "sl" ;
     schema:isPartOf <http://data.odeuropa.eu/source/95149ca6-347c-5c39-8009-41aeb8ef72ee> ;
     schema:issueNumber "7" ;
-    schema:locationCreated <https://sws.geonames.org/4899581/> ;
+    schema:locationCreated <http://data.odeuropa.eu/place/3260b572-51db-5589-8716-08fd9ada9684> ;
     schema:publisher <http://data.odeuropa.eu/actor/26e88688-0f0b-5df2-8146-6822fde797b7> ;
     schema:url <http://www.dlib.si/details/URN:NBN:SI:DOC-9BW9CADL> ;
     schema:volumeNumber "6" .
@@ -1076,8 +1082,6 @@
     schema:url <http://www.dlib.si/details/URN:NBN:SI:DOC-JBZFGCYE> ;
     schema:volumeNumber "20" .
 
-<https://sws.geonames.org/2635167/> a crm:E53_Place .
-
 <https://sws.geonames.org/2643743/> a crm:E53_Place .
 
 <https://sws.geonames.org/2750405/> a crm:E53_Place .
@@ -1085,8 +1089,6 @@
 <https://sws.geonames.org/2921044/> a crm:E53_Place .
 
 <https://sws.geonames.org/2971549/> a crm:E53_Place .
-
-<https://sws.geonames.org/3175395/> a crm:E53_Place .
 
 <https://sws.geonames.org/3570675/> a crm:E53_Place .
 
@@ -1177,8 +1179,8 @@
 <http://data.odeuropa.eu/genre/SCIE> a <http://www.w3.org/2004/02/skos/core#Concept> ;
     rdfs:label "Scientific and philosophical texts"@en .
 
-<http://data.odeuropa.eu/place/5aee7dd0-a476-5df7-986b-8bf3c232688d> a crm:E53_Place ;
-    rdfs:label "ZDA" .
+<http://data.odeuropa.eu/place/3260b572-51db-5589-8716-08fd9ada9684> a crm:E53_Place ;
+    rdfs:label "Lemont, Ill." .
 
 <http://data.odeuropa.eu/source/0460cbd2-393f-5e22-b243-01b6509ffe06> a crm:E33_Linguistic_Object ;
     rdfs:label "Kurent (1918)" .
@@ -1676,15 +1678,15 @@
     time:hasBeginning "1914-03-25"^^xsd:date ;
     time:hasEnd "1914-03-25"^^xsd:date .
 
-<https://sws.geonames.org/2774326/> a crm:E53_Place .
+<https://sws.geonames.org/2661881/> a crm:E53_Place .
 
-<https://sws.geonames.org/3175986/> a crm:E53_Place .
+<https://sws.geonames.org/2774326/> a crm:E53_Place .
 
 <https://sws.geonames.org/3194648/> a crm:E53_Place .
 
-<https://sws.geonames.org/4887398/> a crm:E53_Place .
+<https://sws.geonames.org/3239191/> a crm:E53_Place .
 
-<https://sws.geonames.org/4899581/> a crm:E53_Place .
+<https://sws.geonames.org/4887539/> a crm:E53_Place .
 
 <http://data.odeuropa.eu/actor/0c02356e-42f3-5914-a464-321a8dc5da86> a crm:E39_Actor ;
     rdfs:label "Ljudska tiskarna" .

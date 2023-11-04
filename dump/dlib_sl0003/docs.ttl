@@ -4,6 +4,12 @@
 @prefix time: <http://www.w3.org/2006/time#> .
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 
+<http://data.odeuropa.eu/place/c9476c61-f9da-5b76-9cb7-083c002fd478> a crm:E53_Place ;
+    rdfs:label "UK" .
+
+<http://data.odeuropa.eu/place/df63c1d0-5e69-583a-81c2-c4295b7a9426> a crm:E53_Place ;
+    rdfs:label "Italy" .
+
 <http://data.odeuropa.eu/source/02042c18-a67e-5c4b-a2c9-cbd054ccdcf0> a crm:E33_Linguistic_Object ;
     rdfs:label "Uradni list c. kr. okrajnega glavarstva v Ptuju"@sl ;
     schema:dateCreated <http://data.odeuropa.eu/time/52c30706-b698-57f1-99e5-7edb65b884a8> ;
@@ -232,7 +238,7 @@
     schema:inLanguage "sl" ;
     schema:isPartOf <http://data.odeuropa.eu/source/ac6da563-557b-5dfc-a520-49744865a986> ;
     schema:issueNumber "7" ;
-    schema:locationCreated <https://sws.geonames.org/3175986/> ;
+    schema:locationCreated <https://sws.geonames.org/3239191/> ;
     schema:publisher <http://data.odeuropa.eu/actor/a1d663a5-8e25-517f-b44d-d9b0348d5c5a> ;
     schema:url <http://www.dlib.si/details/URN:NBN:SI:DOC-UOXJ6T3W> ;
     schema:volumeNumber "13" .
@@ -770,7 +776,7 @@
     schema:inLanguage "sl" ;
     schema:isPartOf <http://data.odeuropa.eu/source/0aa33ccf-5524-5732-90b9-ad533110e8a7> ;
     schema:issueNumber "34" ;
-    schema:locationCreated <https://sws.geonames.org/3175986/> ;
+    schema:locationCreated <https://sws.geonames.org/3239191/> ;
     schema:publisher <http://data.odeuropa.eu/actor/6b46c10e-3fa8-57b9-9f18-d3f09d5a2d0a> ;
     schema:url <http://www.dlib.si/details/URN:NBN:SI:DOC-CMYWZVYX> ;
     schema:volumeNumber "12" .
@@ -1056,8 +1062,6 @@
     schema:url <http://www.dlib.si/details/URN:NBN:SI:DOC-EVC2RBQJ> ;
     schema:volumeNumber "33" .
 
-<https://sws.geonames.org/2635167/> a crm:E53_Place .
-
 <https://sws.geonames.org/2643743/> a crm:E53_Place .
 
 <https://sws.geonames.org/2750405/> a crm:E53_Place .
@@ -1065,8 +1069,6 @@
 <https://sws.geonames.org/2921044/> a crm:E53_Place .
 
 <https://sws.geonames.org/2971549/> a crm:E53_Place .
-
-<https://sws.geonames.org/3175395/> a crm:E53_Place .
 
 <https://sws.geonames.org/3570675/> a crm:E53_Place .
 
@@ -1700,7 +1702,7 @@
 
 <https://sws.geonames.org/3165185/> a crm:E53_Place .
 
-<https://sws.geonames.org/3175986/> a crm:E53_Place .
+<https://sws.geonames.org/3239191/> a crm:E53_Place .
 
 <http://data.odeuropa.eu/actor/4c59a476-a44c-51cb-bd95-dc05a674c8d0> a crm:E39_Actor ;
     rdfs:label "Katoliško tiskovno društvo" .

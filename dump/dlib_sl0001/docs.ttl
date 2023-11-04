@@ -4,6 +4,12 @@
 @prefix time: <http://www.w3.org/2006/time#> .
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 
+<http://data.odeuropa.eu/place/c9476c61-f9da-5b76-9cb7-083c002fd478> a crm:E53_Place ;
+    rdfs:label "UK" .
+
+<http://data.odeuropa.eu/place/df63c1d0-5e69-583a-81c2-c4295b7a9426> a crm:E53_Place ;
+    rdfs:label "Italy" .
+
 <http://data.odeuropa.eu/source/02132fc1-fa9e-5f78-ae98-24435e8b98d9> a crm:E33_Linguistic_Object ;
     rdfs:label "Državni zakonik za kraljevine in dežele v državnem zboru zastopane"@sl ;
     schema:dateCreated <http://data.odeuropa.eu/time/103973dd-7766-5345-874d-b3b699744a14> ;
@@ -96,7 +102,7 @@
     schema:inLanguage "sl" ;
     schema:isPartOf <http://data.odeuropa.eu/source/ac6da563-557b-5dfc-a520-49744865a986> ;
     schema:issueNumber "5" ;
-    schema:locationCreated <https://sws.geonames.org/3175986/> ;
+    schema:locationCreated <https://sws.geonames.org/3239191/> ;
     schema:publisher <http://data.odeuropa.eu/actor/a1d663a5-8e25-517f-b44d-d9b0348d5c5a> ;
     schema:url <http://www.dlib.si/details/URN:NBN:SI:DOC-SKVF8J5H> ;
     schema:volumeNumber "13" .
@@ -280,7 +286,7 @@
     schema:inLanguage "sl" ;
     schema:isPartOf <http://data.odeuropa.eu/source/ac6da563-557b-5dfc-a520-49744865a986> ;
     schema:issueNumber "4" ;
-    schema:locationCreated <https://sws.geonames.org/3175986/> ;
+    schema:locationCreated <https://sws.geonames.org/3239191/> ;
     schema:publisher <http://data.odeuropa.eu/actor/a1d663a5-8e25-517f-b44d-d9b0348d5c5a> ;
     schema:url <http://www.dlib.si/details/URN:NBN:SI:DOC-XILD0CBH> ;
     schema:volumeNumber "13" .
@@ -1029,8 +1035,6 @@
     schema:url <http://www.dlib.si/details/URN:NBN:SI:DOC-OK1OTYAN> ;
     schema:volumeNumber "25" .
 
-<https://sws.geonames.org/2635167/> a crm:E53_Place .
-
 <https://sws.geonames.org/2643743/> a crm:E53_Place .
 
 <https://sws.geonames.org/2750405/> a crm:E53_Place .
@@ -1038,8 +1042,6 @@
 <https://sws.geonames.org/2921044/> a crm:E53_Place .
 
 <https://sws.geonames.org/2971549/> a crm:E53_Place .
-
-<https://sws.geonames.org/3175395/> a crm:E53_Place .
 
 <https://sws.geonames.org/3570675/> a crm:E53_Place .
 
@@ -1566,7 +1568,7 @@
     time:hasBeginning "1916"^^xsd:gYear ;
     time:hasEnd "1916"^^xsd:gYear .
 
-<https://sws.geonames.org/3175986/> a crm:E53_Place .
+<https://sws.geonames.org/3239191/> a crm:E53_Place .
 
 <http://data.odeuropa.eu/actor/1fe43f9d-c6a5-5827-abc2-aaefc94be279> a crm:E39_Actor ;
     rdfs:label "Narodna tiskarna" .
