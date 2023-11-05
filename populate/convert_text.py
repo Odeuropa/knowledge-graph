@@ -12,7 +12,6 @@ from tqdm import tqdm
 from rdflib import SDO, RDF, SKOS
 import rispy
 
-
 from entities import *
 from entities.Graph import ODEUROPA_PROJECT
 from entities.vocabularies import VocabularyManager as VocabularyManager
@@ -111,7 +110,7 @@ def get_multi(keys, obj):
 
 
 def get_emotion(identifier, sentence, sw, emotions):
-    res = [x for x in emotions if x['Book'] == identifier and x['Sentence'] == sentence and x['Smell_Word'] == sw]
+    res = [x for x in emotions[identifier] if (x['Sentence'] == sentence and x['Smell_Word'] == sw)]
     if len(res) == 0:
         return None
     return res.pop()
@@ -518,7 +517,7 @@ def run(root, output, lang=None, organised_in_batches=False, metadata_format='ts
                 .replace('BritishLibrary-', 'emotions-BritishLibrary-')
                 .replace('-frames.tsv', '.jsonl'))
 
-            emotions = []
+            emotions = {}
             if path.isfile(emotion_file):
                 print('Loading emotions')
                 emotion_prov = Provenance(codename, 'Automatic emotion extraction',
@@ -527,7 +526,12 @@ def run(root, output, lang=None, organised_in_batches=False, metadata_format='ts
                 emotion_prov.add_software('EMOLIT', 'https://doi.org/10.5281/zenodo.8114516')
 
                 with open(emotion_file) as f:
-                    emotions = [json.loads(l) for l in f.read().splitlines()]
+                    for l in f.read().splitlines():
+                        em = json.loads(l)
+                        book = em['Book']
+                        if book not in emotions:
+                            emotions[book] = []
+                        emotions[book].append(em)
 
             tsv_data = pd.read_csv(frames, sep='\t', index_col=False).drop_duplicates().replace(np.nan, '', regex=True)
 
@@ -566,7 +570,7 @@ def run(root, output, lang=None, organised_in_batches=False, metadata_format='ts
     Graph.reset()
 
     emotion_file = path.join(root, 'emotions.jsonl')
-    emotions = []
+    emotions = {}
     if path.isfile(emotion_file):
         print('Loading emotions')
         emotion_prov = Provenance(codename, 'Automatic emotion extraction',
@@ -575,7 +579,12 @@ def run(root, output, lang=None, organised_in_batches=False, metadata_format='ts
         emotion_prov.add_software('EMOLIT', 'https://doi.org/10.5281/zenodo.8114516')
 
         with open(emotion_file) as f:
-            emotions = [json.loads(l) for l in f.read().splitlines()]
+            for l in f.read().splitlines():
+                em = json.loads(l)
+                book = em['Book']
+                if book not in emotions:
+                    emotions[book] = []
+                emotions[book].append(em)
 
     for lg in lang_list:
         em_tsv = path.join(root, f"{lg}-frame-elements-emotion.tsv")

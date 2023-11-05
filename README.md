@@ -42,6 +42,7 @@ Upload ontologies (Odeuropa + CRM + CRMsci + REO)
 Upload dumps
 
     python3 scripts/load_dump.py odor
+    python3 scripts/load_dump.py nuk
     python3 scripts/load_dump.py europeana
     python3 scripts/load_dump.py getty
     python3 scripts/load_dump.py geonames
@@ -52,10 +53,10 @@ Upload dumps
     python3 scripts/load_dump.py gutenberg
     python3 scripts/load_dump.py gutenberg_it
     python3 scripts/load_dump.py medical-heritage
+    python3 scripts/load_dump.py gallica
     python3 scripts/load_dump.py eebo
     python3 scripts/load_dump.py ecco
     python3 scripts/load_dump.py pulse
-    python3 scripts/load_dump.py gallica
     python3 scripts/load_dump.py grimm
     python3 scripts/load_dump.py bibbleue
     python3 scripts/load_dump.py dbnl
