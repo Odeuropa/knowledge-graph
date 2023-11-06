@@ -114,6 +114,8 @@ def get_multi(keys, obj):
 
 
 def get_emotion(identifier, sentence, sw, emotions):
+    if identifier not in emotions:
+        return None
     res = [x for x in emotions[identifier] if (x['Sentence'] == sentence and x['Smell_Word'] == sw)]
     if len(res) == 0:
         return None
@@ -638,4 +640,5 @@ def parse_arguments():
 
 if __name__ == "__main__":
     args = parse_arguments()
+    print('%%%%%%%%%% processing ' + args.input)
     run(args.input, args.output, args.lang, args.batch, args.metadata)

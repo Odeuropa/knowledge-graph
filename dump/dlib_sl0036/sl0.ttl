@@ -6993,9 +6993,6 @@
 <http://data.odeuropa.eu/object/cc64e296-267e-5eb6-a69d-29841cfdc79c> a crmsci:S10_Material_Substantial ;
     rdfs:label "smodke"@sl .
 
-<http://data.odeuropa.eu/object/cc831547-d629-5906-9d78-6f1a99f31c68> a crmsci:S10_Material_Substantial ;
-    rdfs:label "čista voda"@sl .
-
 <http://data.odeuropa.eu/object/cd5a77f1-6219-5ffd-b6ec-4ce816836249> a crmsci:S10_Material_Substantial ;
     rdfs:label "mandra"@sl .
 
@@ -10438,17 +10435,17 @@
 
 <http://data.odeuropa.eu/emission/02ff1c58-ac26-5ba1-a102-6b3fae5120c7> a od:L12_Smell_Emission ;
     od:F1_generated <http://data.odeuropa.eu/smell/8482d77f-abc1-54f8-81b2-99649987e9aa> ;
-    od:F3_had_source <http://data.odeuropa.eu/object/76ef6ac1-78bf-5078-83c9-d31ab01be59b>,
-        <http://data.odeuropa.eu/object/b58e2df3-c8bd-5693-a5b9-4a75e8d519ab>,
-        <http://data.odeuropa.eu/object/cbd926e5-a85e-5d7d-b16f-44c46b7d7531>,
-        <http://data.odeuropa.eu/object/dc19b6ce-d625-5d8f-b00c-6c79ce945e31> ;
+    od:F3_had_source <http://data.odeuropa.eu/object/b58e2df3-c8bd-5693-a5b9-4a75e8d519ab>,
+        <http://data.odeuropa.eu/object/dc19b6ce-d625-5d8f-b00c-6c79ce945e31>,
+        <http://data.odeuropa.eu/vocabulary/olfactory-objects/299>,
+        <http://data.odeuropa.eu/vocabulary/olfactory-objects/81> ;
     time:hasTime <http://data.odeuropa.eu/time/7b1e2825-141c-59bf-8600-d1e37b1ec78e> .
 
 <http://data.odeuropa.eu/emission/041b447b-f37d-5d30-97a2-2d90af0e2c5b> a od:L12_Smell_Emission ;
     od:F1_generated <http://data.odeuropa.eu/smell/e2e9e1a1-b52f-504e-8909-646e95c721bf> ;
     od:F3_had_source <http://data.odeuropa.eu/object/0aada3af-138d-5a72-ac88-253315b6e041>,
         <http://data.odeuropa.eu/object/26563623-6194-525e-a3c0-0db08eb29ed5>,
-        <http://data.odeuropa.eu/object/96cb1239-7595-5f9a-98d7-37bef2e972ae> ;
+        <http://data.odeuropa.eu/vocabulary/olfactory-objects/299> ;
     time:hasTime <http://data.odeuropa.eu/time/cb54252a-be33-5558-87cd-77f4c3a184a5> .
 
 <http://data.odeuropa.eu/emission/0579eca1-163d-5e25-9b23-01b2a32004b1> a od:L12_Smell_Emission ;
@@ -10461,7 +10458,7 @@
 
 <http://data.odeuropa.eu/emission/07c9c639-b9e7-545c-9938-72c243f09ee2> a od:L12_Smell_Emission ;
     od:F1_generated <http://data.odeuropa.eu/smell/26be1d1f-ed76-5c3c-9501-5a5ac9b603b7> ;
-    od:F3_had_source <http://data.odeuropa.eu/object/36e84ee1-4606-5684-bf2f-2eedde0dadd9> ;
+    od:F3_had_source <http://data.odeuropa.eu/vocabulary/olfactory-objects/494> ;
     time:hasTime <http://data.odeuropa.eu/time/29ce4f30-b5c5-5df4-b3eb-f13c313f90a9> .
 
 <http://data.odeuropa.eu/emission/08e8c006-231b-501f-837f-987118272d45> a od:L12_Smell_Emission ;
@@ -10480,8 +10477,8 @@
 
 <http://data.odeuropa.eu/emission/0a8d822d-8052-51b1-8ce3-b67917dcfdbe> a od:L12_Smell_Emission ;
     od:F1_generated <http://data.odeuropa.eu/smell/c9fb37e0-af31-5601-97ba-7f774bb2e47e> ;
-    od:F3_had_source <http://data.odeuropa.eu/object/797dfdb4-3f7b-5ec4-a8bf-f9f68bdf9535>,
-        <http://data.odeuropa.eu/object/8352cff3-d99b-5185-92ef-1a2846d73b2d> ;
+    od:F3_had_source <http://data.odeuropa.eu/object/8352cff3-d99b-5185-92ef-1a2846d73b2d>,
+        <http://data.odeuropa.eu/vocabulary/olfactory-objects/152> ;
     time:hasTime <http://data.odeuropa.eu/time/29ce4f30-b5c5-5df4-b3eb-f13c313f90a9> .
 
 <http://data.odeuropa.eu/emission/0d91be72-1eea-50ef-8c76-3b0137af5745> a od:L12_Smell_Emission ;
@@ -10506,8 +10503,8 @@
 
 <http://data.odeuropa.eu/emission/106f7676-cfce-5933-8bd2-aabe8087fb6d> a od:L12_Smell_Emission ;
     od:F1_generated <http://data.odeuropa.eu/smell/4aadb22a-80c4-5658-9e7d-28bdeb196767> ;
-    od:F3_had_source <http://data.odeuropa.eu/object/3a3b63b2-b4e3-5c4b-be95-34c6b09afe02>,
-        <http://data.odeuropa.eu/object/80dd5d52-bac5-54eb-924e-823d5625f0bc> ;
+    od:F3_had_source <http://data.odeuropa.eu/vocabulary/olfactory-objects/362>,
+        <http://data.odeuropa.eu/vocabulary/olfactory-objects/550> ;
     time:hasTime <http://data.odeuropa.eu/time/d3ffe17a-41d6-5ae4-bab2-e4341d8a385b> .
 
 <http://data.odeuropa.eu/emission/10acb770-5ed7-5995-9b33-6c865e63154c> a od:L12_Smell_Emission ;
@@ -10563,9 +10560,9 @@
 
 <http://data.odeuropa.eu/emission/187c3fbb-a540-57ad-893d-5e74a829f476> a od:L12_Smell_Emission ;
     od:F1_generated <http://data.odeuropa.eu/smell/f5e3f008-e4a9-5480-befc-a08ed96c4902> ;
-    od:F3_had_source <http://data.odeuropa.eu/object/2602aae6-5b77-5cc5-95b7-f5b7c5faf5df>,
-        <http://data.odeuropa.eu/object/63aa84f1-ea5f-5ddd-8fc0-705625020a19>,
-        <http://data.odeuropa.eu/object/d5ebcfba-9d8e-5df3-8e60-4b52674433d5> ;
+    od:F3_had_source <http://data.odeuropa.eu/object/63aa84f1-ea5f-5ddd-8fc0-705625020a19>,
+        <http://data.odeuropa.eu/object/d5ebcfba-9d8e-5df3-8e60-4b52674433d5>,
+        <http://data.odeuropa.eu/vocabulary/olfactory-objects/413> ;
     time:hasTime <http://data.odeuropa.eu/time/b4645460-c680-5000-bd3a-1f76c693585f> .
 
 <http://data.odeuropa.eu/emission/1ad9fa83-b9a0-5a67-bda9-3e9fd7169dac> a od:L12_Smell_Emission ;
@@ -10650,7 +10647,7 @@
 
 <http://data.odeuropa.eu/emission/2bec4368-dae5-52df-8c97-912263ee2fff> a od:L12_Smell_Emission ;
     od:F1_generated <http://data.odeuropa.eu/smell/1bddc2d8-eecd-5ff3-bb66-bf6b9251ee79> ;
-    od:F3_had_source <http://data.odeuropa.eu/object/e096a9c2-8c7e-50f8-b8b2-d253f3fda645> ;
+    od:F3_had_source <http://data.odeuropa.eu/vocabulary/olfactory-objects/269> ;
     time:hasTime <http://data.odeuropa.eu/time/408f372a-d1dc-5b7d-8028-ec4ac69246b8> .
 
 <http://data.odeuropa.eu/emission/2c55bf49-0a94-56ed-80fa-dd106fc05203> a od:L12_Smell_Emission ;
@@ -10666,12 +10663,12 @@
 
 <http://data.odeuropa.eu/emission/2e26588b-ba55-51aa-982b-3a9cd5dce7f3> a od:L12_Smell_Emission ;
     od:F1_generated <http://data.odeuropa.eu/smell/24aa21bf-5db2-5503-9aa1-7328bcd416b3> ;
-    od:F3_had_source <http://data.odeuropa.eu/object/08592cd2-77a5-554f-b3cf-9b0661406307> ;
+    od:F3_had_source <http://data.odeuropa.eu/vocabulary/olfactory-objects/126> ;
     time:hasTime <http://data.odeuropa.eu/time/29ce4f30-b5c5-5df4-b3eb-f13c313f90a9> .
 
 <http://data.odeuropa.eu/emission/2ee48528-5588-546e-9770-8a5fe2f45770> a od:L12_Smell_Emission ;
     od:F1_generated <http://data.odeuropa.eu/smell/f6803773-c5be-50c0-957b-9de16246d804> ;
-    od:F3_had_source <http://data.odeuropa.eu/object/583992a0-c791-5ce5-b4e1-6afc343fe4d8> ;
+    od:F3_had_source <http://data.odeuropa.eu/vocabulary/olfactory-objects/68> ;
     time:hasTime <http://data.odeuropa.eu/time/04da5723-74bc-567c-8c42-0def7cfd61f9> .
 
 <http://data.odeuropa.eu/emission/30350e3b-3163-55c2-93f6-14760e2c7582> a od:L12_Smell_Emission ;
@@ -10685,13 +10682,12 @@
 
 <http://data.odeuropa.eu/emission/31ae5c0e-615e-5761-96ff-da4794df74ef> a od:L12_Smell_Emission ;
     od:F1_generated <http://data.odeuropa.eu/smell/e9013881-1c6a-50c3-a166-71ec58d06366> ;
-    od:F3_had_source <http://data.odeuropa.eu/object/fb5f3729-330d-5474-9f56-9658d9108525>,
-        <http://data.odeuropa.eu/object/feb0127c-f4e4-5473-8e3d-53ed915674ee> ;
+    od:F3_had_source <http://data.odeuropa.eu/vocabulary/olfactory-objects/138> ;
     time:hasTime <http://data.odeuropa.eu/time/64a1f12b-fc50-5201-93ec-8c1527a102c4> .
 
 <http://data.odeuropa.eu/emission/32c7733f-4d9a-5479-bb0a-9683e42d5633> a od:L12_Smell_Emission ;
     od:F1_generated <http://data.odeuropa.eu/smell/05ffbaff-e1d9-5f2e-bf6f-715d6ddbfbd1> ;
-    od:F3_had_source <http://data.odeuropa.eu/object/efbf7e4f-74aa-5dbb-9f4b-469e66705b97> ;
+    od:F3_had_source <http://data.odeuropa.eu/vocabulary/olfactory-objects/269> ;
     time:hasTime <http://data.odeuropa.eu/time/a6474005-3b22-51ce-822b-9394d65a2e19> .
 
 <http://data.odeuropa.eu/emission/354984cc-9f62-585c-943f-c61e4920e4e9> a od:L12_Smell_Emission ;
@@ -10709,8 +10705,8 @@
 
 <http://data.odeuropa.eu/emission/369a0b00-2481-5786-820e-8df91cf71439> a od:L12_Smell_Emission ;
     od:F1_generated <http://data.odeuropa.eu/smell/993f3eeb-b36f-5e6a-9d01-9647e7fdc3b5> ;
-    od:F3_had_source <http://data.odeuropa.eu/object/8a908895-96be-5c16-a092-12ed05087898>,
-        <http://data.odeuropa.eu/object/a9d95e58-3f60-5699-93c7-f7db9f7800b8> ;
+    od:F3_had_source <http://data.odeuropa.eu/object/a9d95e58-3f60-5699-93c7-f7db9f7800b8>,
+        <http://data.odeuropa.eu/vocabulary/olfactory-objects/223> ;
     time:hasTime <http://data.odeuropa.eu/time/ce62f2e6-a7f2-5ce5-a499-8500797fa0fe> .
 
 <http://data.odeuropa.eu/emission/3887da58-0e71-5712-be4f-7ccaf015b724> a od:L12_Smell_Emission ;
@@ -10734,7 +10730,7 @@
 
 <http://data.odeuropa.eu/emission/3e649de3-fc92-50f1-83eb-636d89fc706d> a od:L12_Smell_Emission ;
     od:F1_generated <http://data.odeuropa.eu/smell/9640b97f-5b40-5755-ba41-56e59a69f930> ;
-    od:F3_had_source <http://data.odeuropa.eu/object/00aab0e6-0021-57d4-bd5a-0a5868ffb21a> ;
+    od:F3_had_source <http://data.odeuropa.eu/vocabulary/olfactory-objects/403> ;
     time:hasTime <http://data.odeuropa.eu/time/e144386c-3d6f-5626-82f3-5c24c24fe3ad> .
 
 <http://data.odeuropa.eu/emission/3fd4d207-aa10-5f64-809a-59d751798377> a od:L12_Smell_Emission ;
@@ -10753,7 +10749,7 @@
 
 <http://data.odeuropa.eu/emission/41a1150f-a451-5ab4-8553-024e4352294a> a od:L12_Smell_Emission ;
     od:F1_generated <http://data.odeuropa.eu/smell/3b7a38c3-52d2-5d9d-bcfc-89ffff173c07> ;
-    od:F3_had_source <http://data.odeuropa.eu/object/96a8e5ae-3d29-58a2-be2f-0a873a33caf4> ;
+    od:F3_had_source <http://data.odeuropa.eu/vocabulary/olfactory-objects/138> ;
     time:hasTime <http://data.odeuropa.eu/time/b8f0ecc2-bb43-5a78-9d5b-0855eb686bcd> .
 
 <http://data.odeuropa.eu/emission/42d0c44f-aa76-5cff-bced-fc1e4f0888c0> a od:L12_Smell_Emission ;
@@ -10787,7 +10783,7 @@
 
 <http://data.odeuropa.eu/emission/4a434ebb-b795-50a6-a40f-e4288b5789ee> a od:L12_Smell_Emission ;
     od:F1_generated <http://data.odeuropa.eu/smell/5d6d113c-f6c0-5ea1-8886-d13b062719d4> ;
-    od:F3_had_source <http://data.odeuropa.eu/object/3597ba84-e39c-538d-9063-b61c616f7f28> ;
+    od:F3_had_source <http://data.odeuropa.eu/vocabulary/olfactory-objects/126> ;
     time:hasTime <http://data.odeuropa.eu/time/8034d731-4ab9-54ea-82de-5b990d4bf460> .
 
 <http://data.odeuropa.eu/emission/4b54a98a-9aee-556d-9f3c-461a393846c0> a od:L12_Smell_Emission ;
@@ -10825,7 +10821,7 @@
 
 <http://data.odeuropa.eu/emission/4feae6ce-e6e9-509b-976c-f5cafe0d9e0d> a od:L12_Smell_Emission ;
     od:F1_generated <http://data.odeuropa.eu/smell/3ba3d67c-1650-567e-94a3-ee0e7f4454d9> ;
-    od:F3_had_source <http://data.odeuropa.eu/object/8a9354a8-d525-5256-945a-e68d97475fba> ;
+    od:F3_had_source <http://data.odeuropa.eu/vocabulary/olfactory-objects/21> ;
     time:hasTime <http://data.odeuropa.eu/time/2e138583-2f54-5e32-864b-461ce682f36f> .
 
 <http://data.odeuropa.eu/emission/527e677b-c23b-528f-b929-0ec05755e1ad> a od:L12_Smell_Emission ;
@@ -10864,7 +10860,7 @@
 
 <http://data.odeuropa.eu/emission/58d2a9a6-bc73-579a-b229-037fc12481b6> a od:L12_Smell_Emission ;
     od:F1_generated <http://data.odeuropa.eu/smell/c649a5bc-9549-5262-a23e-4ce3873f6215> ;
-    od:F3_had_source <http://data.odeuropa.eu/object/38458f55-d8ce-5fc2-b2fa-aee2ca50386a> ;
+    od:F3_had_source <http://data.odeuropa.eu/vocabulary/olfactory-objects/417> ;
     time:hasTime <http://data.odeuropa.eu/time/15f4a8c0-cae1-5aeb-8e34-5a88a93dc163> .
 
 <http://data.odeuropa.eu/emission/5b50d771-6770-5cdb-8d58-5a5b2aa3b308> a od:L12_Smell_Emission ;
@@ -10879,7 +10875,7 @@
 
 <http://data.odeuropa.eu/emission/5c94a507-80ae-5992-816e-452f3cb74665> a od:L12_Smell_Emission ;
     od:F1_generated <http://data.odeuropa.eu/smell/c3eebbec-a220-5c93-b186-43ccc1793f79> ;
-    od:F3_had_source <http://data.odeuropa.eu/object/28730b52-58b4-5bf8-9948-3f7c36c93d87> ;
+    od:F3_had_source <http://data.odeuropa.eu/vocabulary/olfactory-objects/72> ;
     time:hasTime <http://data.odeuropa.eu/time/7b1e2825-141c-59bf-8600-d1e37b1ec78e> .
 
 <http://data.odeuropa.eu/emission/5ca40140-b82f-5303-8fd7-f05de6556235> a od:L12_Smell_Emission ;
@@ -10887,19 +10883,19 @@
     od:F3_had_source <http://data.odeuropa.eu/object/09a290ed-3bca-5449-a3f4-a0a82767f8ec>,
         <http://data.odeuropa.eu/object/1dd8c94f-65f0-5f90-95ce-b80aa1acf5ad>,
         <http://data.odeuropa.eu/object/2811b388-3939-5d53-a615-a91cb0572bb8>,
-        <http://data.odeuropa.eu/object/43079ca9-3cef-5ad9-85b9-5762403aa47c> ;
+        <http://data.odeuropa.eu/vocabulary/olfactory-objects/78> ;
     time:hasTime <http://data.odeuropa.eu/time/6c41165f-8bd5-5afc-a3b5-767622aaac0c> .
 
 <http://data.odeuropa.eu/emission/5d3d9a06-e00a-50f5-884a-4af5e98bd3e8> a od:L12_Smell_Emission ;
     od:F1_generated <http://data.odeuropa.eu/smell/870d956a-9953-50c3-9b63-bbc87ab2a8e6> ;
-    od:F3_had_source <http://data.odeuropa.eu/object/24d157e3-3ae2-58fb-a128-ddb535744c1a>,
-        <http://data.odeuropa.eu/object/da42f715-9dc9-5b1e-be71-947ef027ee8d> ;
+    od:F3_had_source <http://data.odeuropa.eu/vocabulary/olfactory-objects/50>,
+        <http://data.odeuropa.eu/vocabulary/olfactory-objects/71> ;
     time:hasTime <http://data.odeuropa.eu/time/29ce4f30-b5c5-5df4-b3eb-f13c313f90a9> .
 
 <http://data.odeuropa.eu/emission/5d445026-5a39-5b84-a4eb-0ff7b79fef04> a od:L12_Smell_Emission ;
     od:F1_generated <http://data.odeuropa.eu/smell/38d0c605-5c0d-5ee8-8a2d-cfccb1e7545d> ;
-    od:F3_had_source <http://data.odeuropa.eu/object/0f565436-b75b-5e25-acf6-ff09b6a6143a>,
-        <http://data.odeuropa.eu/object/3f7e7e32-fe75-5e52-b8b3-50918bcfae2d> ;
+    od:F3_had_source <http://data.odeuropa.eu/vocabulary/olfactory-objects/346>,
+        <http://data.odeuropa.eu/vocabulary/olfactory-objects/403> ;
     time:hasTime <http://data.odeuropa.eu/time/e144386c-3d6f-5626-82f3-5c24c24fe3ad> .
 
 <http://data.odeuropa.eu/emission/5eba0d81-6dda-57f1-9826-b9f8c6a38e04> a od:L12_Smell_Emission ;
@@ -10915,7 +10911,7 @@
 <http://data.odeuropa.eu/emission/62730cc6-047c-5fbc-9e3f-699c53ae6296> a od:L12_Smell_Emission ;
     od:F1_generated <http://data.odeuropa.eu/smell/c8884f49-eac1-55b7-9123-3a47cf623229> ;
     od:F3_had_source <http://data.odeuropa.eu/object/cd5a77f1-6219-5ffd-b6ec-4ce816836249>,
-        <http://data.odeuropa.eu/object/e7e574a1-6ae7-58e5-88b9-70fb421752b0> ;
+        <http://data.odeuropa.eu/vocabulary/olfactory-objects/72> ;
     time:hasTime <http://data.odeuropa.eu/time/7b1e2825-141c-59bf-8600-d1e37b1ec78e> .
 
 <http://data.odeuropa.eu/emission/62be116b-1a26-5228-bb5e-dacb9961ab62> a od:L12_Smell_Emission ;
@@ -10935,7 +10931,7 @@
 
 <http://data.odeuropa.eu/emission/6392841f-f857-5279-a3a1-a35d63af1fd3> a od:L12_Smell_Emission ;
     od:F1_generated <http://data.odeuropa.eu/smell/e891b02a-2033-50ce-be3d-f8f756a9cd3d> ;
-    od:F3_had_source <http://data.odeuropa.eu/object/f2c134d2-f689-5426-944d-812231789dbb> ;
+    od:F3_had_source <http://data.odeuropa.eu/vocabulary/olfactory-objects/72> ;
     time:hasTime <http://data.odeuropa.eu/time/c713aee3-f009-5059-b0d1-c5d2aa3afe47> .
 
 <http://data.odeuropa.eu/emission/63d9f980-3e46-53c3-95f1-77d64a6fd546> a od:L12_Smell_Emission ;
@@ -10961,7 +10957,7 @@
 
 <http://data.odeuropa.eu/emission/678e6f0b-83bc-58c4-a5db-0bdd132f2dd9> a od:L12_Smell_Emission ;
     od:F1_generated <http://data.odeuropa.eu/smell/d0b5f95d-1ab9-505e-9b66-8f3269553c00> ;
-    od:F3_had_source <http://data.odeuropa.eu/object/08043290-445f-554e-abaa-6fae47aa49f4> ;
+    od:F3_had_source <http://data.odeuropa.eu/vocabulary/olfactory-objects/223> ;
     time:hasTime <http://data.odeuropa.eu/time/b4645460-c680-5000-bd3a-1f76c693585f> .
 
 <http://data.odeuropa.eu/emission/68772e6e-1635-581b-a2fd-0c334af29e44> a od:L12_Smell_Emission ;
@@ -11015,7 +11011,7 @@
 
 <http://data.odeuropa.eu/emission/6dc99b89-a08b-54d5-8159-9b56301cbe3f> a od:L12_Smell_Emission ;
     od:F1_generated <http://data.odeuropa.eu/smell/4a839acc-3d5b-5ebc-9b13-41492bc7be92> ;
-    od:F3_had_source <http://data.odeuropa.eu/object/dae90ffa-616b-55bb-b2c8-a46b9d33b9ed> ;
+    od:F3_had_source <http://data.odeuropa.eu/vocabulary/olfactory-objects/243> ;
     time:hasTime <http://data.odeuropa.eu/time/26843c13-9dd8-5abc-b6b7-709347684bab> .
 
 <http://data.odeuropa.eu/emission/6ece86be-92c1-5ceb-ab8e-28ebf241b9ff> a od:L12_Smell_Emission ;
@@ -11032,8 +11028,8 @@
 
 <http://data.odeuropa.eu/emission/6fc0d079-ae80-5a24-b8d0-b4a4aa0f2dbc> a od:L12_Smell_Emission ;
     od:F1_generated <http://data.odeuropa.eu/smell/7970e7cb-a8e5-5c39-aede-70b4d8bd0500> ;
-    od:F3_had_source <http://data.odeuropa.eu/object/1989386a-9180-5643-a7c1-d78204fdb336>,
-        <http://data.odeuropa.eu/object/71c73a7c-2b88-52d7-ba35-df6964682654> ;
+    od:F3_had_source <http://data.odeuropa.eu/vocabulary/olfactory-objects/282>,
+        <http://data.odeuropa.eu/vocabulary/olfactory-objects/312> ;
     time:hasTime <http://data.odeuropa.eu/time/7b1e2825-141c-59bf-8600-d1e37b1ec78e> .
 
 <http://data.odeuropa.eu/emission/70a22922-d80c-5200-a278-e92dd3c0de01> a od:L12_Smell_Emission ;
@@ -11065,7 +11061,7 @@
 
 <http://data.odeuropa.eu/emission/75c32bc0-d34f-58c4-b9f1-9a95a072700e> a od:L12_Smell_Emission ;
     od:F1_generated <http://data.odeuropa.eu/smell/45bd3d81-5dc8-5aaf-89bb-4dc79be7d830> ;
-    od:F3_had_source <http://data.odeuropa.eu/object/ae355536-bc5f-517a-b583-fac592831375> ;
+    od:F3_had_source <http://data.odeuropa.eu/vocabulary/olfactory-objects/65> ;
     time:hasTime <http://data.odeuropa.eu/time/897bdb11-1fc5-56b6-bcd7-5863cf8b074b> .
 
 <http://data.odeuropa.eu/emission/7708cce1-1803-5af2-93e1-2bf6755159eb> a od:L12_Smell_Emission ;
@@ -11098,24 +11094,24 @@
 <http://data.odeuropa.eu/emission/7b3cf8d8-e89a-56a8-a3ed-4f5172de2bed> a od:L12_Smell_Emission ;
     od:F1_generated <http://data.odeuropa.eu/smell/f637cd69-f160-50e7-86d8-d8e754f0bd78> ;
     od:F3_had_source <http://data.odeuropa.eu/object/b6dfe8ac-a510-5081-b565-a11d9f03e5da>,
-        <http://data.odeuropa.eu/object/fd04e839-fe2a-509a-85c6-0dd23d042d33> ;
+        <http://data.odeuropa.eu/vocabulary/olfactory-objects/18> ;
     time:hasTime <http://data.odeuropa.eu/time/15f4a8c0-cae1-5aeb-8e34-5a88a93dc163> .
 
 <http://data.odeuropa.eu/emission/7be78466-3f35-5141-a71d-1d7f19d8f48d> a od:L12_Smell_Emission ;
     od:F1_generated <http://data.odeuropa.eu/smell/634bf40e-551e-5796-adcb-070c15398b63> ;
-    od:F3_had_source <http://data.odeuropa.eu/object/2a2ec190-86be-56fe-ae54-4854ddc1b0b2> ;
+    od:F3_had_source <http://data.odeuropa.eu/vocabulary/olfactory-objects/287> ;
     time:hasTime <http://data.odeuropa.eu/time/bd61f2fd-a814-589e-a823-6269b23e8e92> .
 
 <http://data.odeuropa.eu/emission/7bfcbad9-7820-5731-a98c-eb43e46c1b89> a od:L12_Smell_Emission ;
     od:F1_generated <http://data.odeuropa.eu/smell/8f20001f-7f3c-5eae-8610-a9cd3460b48a> ;
-    od:F3_had_source <http://data.odeuropa.eu/object/4094c5dd-e7fb-5ac3-8efe-70d17ace69d1>,
-        <http://data.odeuropa.eu/object/a631f302-5268-593c-b352-eb461686003b>,
-        <http://data.odeuropa.eu/object/ba198df7-7421-50c0-8a88-787d9967a37f> ;
+    od:F3_had_source <http://data.odeuropa.eu/vocabulary/olfactory-objects/110>,
+        <http://data.odeuropa.eu/vocabulary/olfactory-objects/312>,
+        <http://data.odeuropa.eu/vocabulary/olfactory-objects/410> ;
     time:hasTime <http://data.odeuropa.eu/time/f64f0992-4b51-5bf9-bb15-85b401a81887> .
 
 <http://data.odeuropa.eu/emission/7ce484b3-2f54-56e2-bbd9-a6041df1f8c0> a od:L12_Smell_Emission ;
     od:F1_generated <http://data.odeuropa.eu/smell/9fcd816a-9e90-55f4-a0ed-ed4419e343b1> ;
-    od:F3_had_source <http://data.odeuropa.eu/object/6a2db066-ed44-59ac-b106-b120fff4f13d> ;
+    od:F3_had_source <http://data.odeuropa.eu/vocabulary/olfactory-objects/169> ;
     time:hasTime <http://data.odeuropa.eu/time/5e86c96c-0541-56bd-b328-d40c549f8804> .
 
 <http://data.odeuropa.eu/emission/7cf89d6f-6cd1-5d49-9fa1-d387ec70a4b5> a od:L12_Smell_Emission ;
@@ -11128,8 +11124,7 @@
 
 <http://data.odeuropa.eu/emission/7d5c42bb-1baa-5143-ab1c-7fa23374e1f6> a od:L12_Smell_Emission ;
     od:F1_generated <http://data.odeuropa.eu/smell/b974bde0-9dd4-5178-b9d4-f4a7685e7baf> ;
-    od:F3_had_source <http://data.odeuropa.eu/object/30e393dd-265f-535d-9c60-967ae1909743>,
-        <http://data.odeuropa.eu/object/cc831547-d629-5906-9d78-6f1a99f31c68> ;
+    od:F3_had_source <http://data.odeuropa.eu/object/30e393dd-265f-535d-9c60-967ae1909743> ;
     time:hasTime <http://data.odeuropa.eu/time/cb54252a-be33-5558-87cd-77f4c3a184a5> .
 
 <http://data.odeuropa.eu/emission/7e7168b4-1920-5d87-b2e0-bce06574df50> a od:L12_Smell_Emission ;
@@ -11151,8 +11146,8 @@
 
 <http://data.odeuropa.eu/emission/822c1c33-eb6a-5898-b61f-905659733c04> a od:L12_Smell_Emission ;
     od:F1_generated <http://data.odeuropa.eu/smell/e932dc27-e201-5bd4-9319-5b27712aac96> ;
-    od:F3_had_source <http://data.odeuropa.eu/object/94129369-d72e-56e8-a32b-55d74927e785>,
-        <http://data.odeuropa.eu/object/b89d639d-f22b-5c6a-a52d-54b0e4eb3a17> ;
+    od:F3_had_source <http://data.odeuropa.eu/vocabulary/olfactory-objects/175>,
+        <http://data.odeuropa.eu/vocabulary/olfactory-objects/72> ;
     time:hasTime <http://data.odeuropa.eu/time/7b1e2825-141c-59bf-8600-d1e37b1ec78e> .
 
 <http://data.odeuropa.eu/emission/82a086ee-5438-5ace-9e93-00fdef46ed47> a od:L12_Smell_Emission ;
@@ -11173,8 +11168,8 @@
 
 <http://data.odeuropa.eu/emission/843ac849-2a6e-52bf-96cc-b9c791b1d7be> a od:L12_Smell_Emission ;
     od:F1_generated <http://data.odeuropa.eu/smell/03e3be57-0b11-5f0b-837e-a750533b61b7> ;
-    od:F3_had_source <http://data.odeuropa.eu/object/18238979-1222-52c7-8f18-b6c6f8501e75>,
-        <http://data.odeuropa.eu/object/c14c672d-5fdf-5d07-be55-5787243e0ccd> ;
+    od:F3_had_source <http://data.odeuropa.eu/object/c14c672d-5fdf-5d07-be55-5787243e0ccd>,
+        <http://data.odeuropa.eu/vocabulary/olfactory-objects/161> ;
     time:hasTime <http://data.odeuropa.eu/time/af4ef4e3-b68f-51fa-879b-b63d902c9ff2> .
 
 <http://data.odeuropa.eu/emission/843b7c05-13d5-57f8-bbd4-83822d58ec96> a od:L12_Smell_Emission ;
@@ -11192,9 +11187,9 @@
 <http://data.odeuropa.eu/emission/874c00c0-4458-5e86-9b23-8b4da2c6c794> a od:L12_Smell_Emission ;
     od:F1_generated <http://data.odeuropa.eu/smell/73f7f9e8-904c-51f2-94a4-fa1f7d853eba> ;
     od:F3_had_source <http://data.odeuropa.eu/object/62f69c60-547b-58cd-a660-d5b67f27c1f3>,
-        <http://data.odeuropa.eu/object/76e9ba63-0dba-5f3a-a5a6-f3a3602a9305>,
-        <http://data.odeuropa.eu/object/77a9ba77-b929-57c3-8df0-419280dc038d>,
-        <http://data.odeuropa.eu/object/ed351841-7401-5953-875d-567e00172152> ;
+        <http://data.odeuropa.eu/vocabulary/olfactory-objects/175>,
+        <http://data.odeuropa.eu/vocabulary/olfactory-objects/362>,
+        <http://data.odeuropa.eu/vocabulary/olfactory-objects/72> ;
     time:hasTime <http://data.odeuropa.eu/time/cb54252a-be33-5558-87cd-77f4c3a184a5> .
 
 <http://data.odeuropa.eu/emission/8a2a02a1-c1e2-50cc-9864-0911861fa28d> a od:L12_Smell_Emission ;
@@ -11222,8 +11217,7 @@
 
 <http://data.odeuropa.eu/emission/8ca99a78-bdf5-5fd1-88dc-353900b70f40> a od:L12_Smell_Emission ;
     od:F1_generated <http://data.odeuropa.eu/smell/55e2859f-7b48-598e-9c2f-7fd2dcc64015> ;
-    od:F3_had_source <http://data.odeuropa.eu/object/1c53ab9f-35fe-53fb-899b-273c790225df>,
-        <http://data.odeuropa.eu/object/487a915c-fc53-5228-833c-d18ea5a90d40> ;
+    od:F3_had_source <http://data.odeuropa.eu/vocabulary/olfactory-objects/72> ;
     time:hasTime <http://data.odeuropa.eu/time/7b1e2825-141c-59bf-8600-d1e37b1ec78e> .
 
 <http://data.odeuropa.eu/emission/8cdfe921-cbc7-512c-9fe0-a944955001cb> a od:L12_Smell_Emission ;
@@ -11257,12 +11251,12 @@
 
 <http://data.odeuropa.eu/emission/8f8916f2-a1e4-5b99-9817-e62c5a2ff15c> a od:L12_Smell_Emission ;
     od:F1_generated <http://data.odeuropa.eu/smell/aaacc8b7-5fd3-519b-89d9-66ae93ef8cda> ;
-    od:F3_had_source <http://data.odeuropa.eu/object/5670bb70-aef0-5fb3-850b-bf4ba4124753> ;
+    od:F3_had_source <http://data.odeuropa.eu/vocabulary/olfactory-objects/72> ;
     time:hasTime <http://data.odeuropa.eu/time/15f4a8c0-cae1-5aeb-8e34-5a88a93dc163> .
 
 <http://data.odeuropa.eu/emission/8fd60ef1-0b9f-555e-8ef8-c6cccd4dd113> a od:L12_Smell_Emission ;
     od:F1_generated <http://data.odeuropa.eu/smell/220e9450-474e-5cb3-9cdc-b9f3e8e76bf6> ;
-    od:F3_had_source <http://data.odeuropa.eu/object/ba3e63e6-8b67-5ef6-b0ff-bacda4fd2914> ;
+    od:F3_had_source <http://data.odeuropa.eu/vocabulary/olfactory-objects/530> ;
     time:hasTime <http://data.odeuropa.eu/time/cbf22428-9adc-5266-9f46-0391b948dee2> .
 
 <http://data.odeuropa.eu/emission/8fe9f3ed-c014-5354-85e7-c6a391cf751d> a od:L12_Smell_Emission ;
@@ -11277,7 +11271,7 @@
 
 <http://data.odeuropa.eu/emission/90dc58c4-e632-5b34-8060-d475913d2357> a od:L12_Smell_Emission ;
     od:F1_generated <http://data.odeuropa.eu/smell/bad5805f-f55a-510a-b260-75459d3d589b> ;
-    od:F3_had_source <http://data.odeuropa.eu/object/a3beefc8-3179-535b-8739-c384094c2619> ;
+    od:F3_had_source <http://data.odeuropa.eu/vocabulary/olfactory-objects/417> ;
     time:hasTime <http://data.odeuropa.eu/time/29ce4f30-b5c5-5df4-b3eb-f13c313f90a9> .
 
 <http://data.odeuropa.eu/emission/91e561cd-9dda-51f4-a6a6-46e38c57f655> a od:L12_Smell_Emission ;
@@ -11291,14 +11285,14 @@
 
 <http://data.odeuropa.eu/emission/9735755e-c7d4-5e91-9160-89d5bc02dc68> a od:L12_Smell_Emission ;
     od:F1_generated <http://data.odeuropa.eu/smell/b95ad228-352e-5173-b9e9-a1396accf57a> ;
-    od:F3_had_source <http://data.odeuropa.eu/object/09217d56-4cc6-50b8-bb01-77ff55882221>,
-        <http://data.odeuropa.eu/object/b1a18c5f-5f83-54e2-803f-833ec739addd>,
-        <http://data.odeuropa.eu/object/bee720fd-fc2f-5acc-9c8f-7f1993939155> ;
+    od:F3_had_source <http://data.odeuropa.eu/object/b1a18c5f-5f83-54e2-803f-833ec739addd>,
+        <http://data.odeuropa.eu/vocabulary/olfactory-objects/417>,
+        <http://data.odeuropa.eu/vocabulary/olfactory-objects/530> ;
     time:hasTime <http://data.odeuropa.eu/time/29ce4f30-b5c5-5df4-b3eb-f13c313f90a9> .
 
 <http://data.odeuropa.eu/emission/97637689-b599-537f-96a5-e7ae58d25839> a od:L12_Smell_Emission ;
     od:F1_generated <http://data.odeuropa.eu/smell/f623c97d-ef05-52a9-9974-bd8088f1aa45> ;
-    od:F3_had_source <http://data.odeuropa.eu/object/1469eb1e-d6d4-522e-a30d-6b8f6ecc4b68> ;
+    od:F3_had_source <http://data.odeuropa.eu/vocabulary/olfactory-objects/72> ;
     time:hasTime <http://data.odeuropa.eu/time/15f4a8c0-cae1-5aeb-8e34-5a88a93dc163> .
 
 <http://data.odeuropa.eu/emission/97f5fc3f-1cf7-5409-8f2a-36c590df9e35> a od:L12_Smell_Emission ;
@@ -11317,7 +11311,7 @@
 <http://data.odeuropa.eu/emission/99617caa-6ae9-556f-bd36-aefc98433e10> a od:L12_Smell_Emission ;
     od:F1_generated <http://data.odeuropa.eu/smell/e91146cc-52ff-5af4-98a5-37f4784f809f> ;
     od:F3_had_source <http://data.odeuropa.eu/object/432d2f36-a386-5d9f-bf57-8da777767e5d>,
-        <http://data.odeuropa.eu/object/6d6b4b6c-1f97-5066-a693-16c94393912d> ;
+        <http://data.odeuropa.eu/vocabulary/olfactory-objects/204> ;
     time:hasTime <http://data.odeuropa.eu/time/aea10896-6b6d-5e34-a1ea-a41f3607dbef> .
 
 <http://data.odeuropa.eu/emission/9982890c-a89d-51cd-a500-bdd811d3a6cd> a od:L12_Smell_Emission ;
@@ -11330,7 +11324,7 @@
 
 <http://data.odeuropa.eu/emission/99869afa-b89f-520a-9201-9001c7482dcf> a od:L12_Smell_Emission ;
     od:F1_generated <http://data.odeuropa.eu/smell/1c7a3aad-fcc9-523b-9f5b-61ed228b8269> ;
-    od:F3_had_source <http://data.odeuropa.eu/object/4c412d27-5795-5c71-bf9a-48a74a465238> ;
+    od:F3_had_source <http://data.odeuropa.eu/vocabulary/olfactory-objects/72> ;
     time:hasTime <http://data.odeuropa.eu/time/c713aee3-f009-5059-b0d1-c5d2aa3afe47> .
 
 <http://data.odeuropa.eu/emission/9a008f69-ab0e-578e-98b7-b4c933d8af84> a od:L12_Smell_Emission ;
@@ -11340,7 +11334,7 @@
 
 <http://data.odeuropa.eu/emission/9a1548ff-2c4f-5e47-92e0-350dd247d3ad> a od:L12_Smell_Emission ;
     od:F1_generated <http://data.odeuropa.eu/smell/454b1de5-1fd2-5e64-98c8-a870371de6cc> ;
-    od:F3_had_source <http://data.odeuropa.eu/object/af894606-2447-5d0e-8450-dfc70767e0d1> ;
+    od:F3_had_source <http://data.odeuropa.eu/vocabulary/olfactory-objects/72> ;
     time:hasTime <http://data.odeuropa.eu/time/7b1e2825-141c-59bf-8600-d1e37b1ec78e> .
 
 <http://data.odeuropa.eu/emission/9d3bc577-2431-5380-8242-4cab8624e9a1> a od:L12_Smell_Emission ;
@@ -11350,7 +11344,7 @@
 
 <http://data.odeuropa.eu/emission/9e323c94-2aaf-5d87-8890-6bcd533ed9d8> a od:L12_Smell_Emission ;
     od:F1_generated <http://data.odeuropa.eu/smell/ce981274-525e-5a99-9a45-ec78890bca61> ;
-    od:F3_had_source <http://data.odeuropa.eu/object/5c01c388-1c27-549d-bde0-74fbd89883d2> ;
+    od:F3_had_source <http://data.odeuropa.eu/vocabulary/olfactory-objects/169> ;
     time:hasTime <http://data.odeuropa.eu/time/aea10896-6b6d-5e34-a1ea-a41f3607dbef> .
 
 <http://data.odeuropa.eu/emission/9ead58e7-f2c5-5595-a17e-c29c5a5c074f> a od:L12_Smell_Emission ;
@@ -11417,7 +11411,7 @@
 <http://data.odeuropa.eu/emission/a6c7689c-d1a3-5373-a13c-fba9a8dbadbd> a od:L12_Smell_Emission ;
     od:F1_generated <http://data.odeuropa.eu/smell/bb256b15-f2c2-5dca-88cc-e232968c9233> ;
     od:F3_had_source <http://data.odeuropa.eu/object/80b139f7-6731-52b6-abdf-0fd6a04b248a>,
-        <http://data.odeuropa.eu/object/c774477e-b561-59a2-a01e-99b757e180ac> ;
+        <http://data.odeuropa.eu/vocabulary/olfactory-objects/242> ;
     time:hasTime <http://data.odeuropa.eu/time/d1f957d8-18f9-5633-a5b7-73def90c6c24> .
 
 <http://data.odeuropa.eu/emission/a6fb12bc-a57a-514e-b77d-3c569762ec2a> a od:L12_Smell_Emission ;
@@ -11454,12 +11448,12 @@
 
 <http://data.odeuropa.eu/emission/aca5523e-38a2-5d02-9804-dcf74270166e> a od:L12_Smell_Emission ;
     od:F1_generated <http://data.odeuropa.eu/smell/25a4e6dd-2bc1-5076-a94f-a3458ab0f18d> ;
-    od:F3_had_source <http://data.odeuropa.eu/object/1982bea8-8acf-59d5-b1ca-9edc9842c48a> ;
+    od:F3_had_source <http://data.odeuropa.eu/vocabulary/olfactory-objects/223> ;
     time:hasTime <http://data.odeuropa.eu/time/c73dcc34-b87d-5a03-b45e-d679615e952f> .
 
 <http://data.odeuropa.eu/emission/aee4b26c-b475-5391-8989-da96cf781e76> a od:L12_Smell_Emission ;
     od:F1_generated <http://data.odeuropa.eu/smell/a0d5e3a4-6008-5748-9499-cec610c8d7ec> ;
-    od:F3_had_source <http://data.odeuropa.eu/object/93eac3c5-a96a-596e-9e55-b78949157c93> ;
+    od:F3_had_source <http://data.odeuropa.eu/vocabulary/olfactory-objects/126> ;
     time:hasTime <http://data.odeuropa.eu/time/6f88907a-0b13-5071-928c-5b986d473e48> .
 
 <http://data.odeuropa.eu/emission/af1d09f4-4f46-565c-8e1e-3b11277c75cd> a od:L12_Smell_Emission ;
@@ -11554,17 +11548,17 @@
 
 <http://data.odeuropa.eu/emission/c76fab7b-a40b-529f-a410-3f80edb0ab5c> a od:L12_Smell_Emission ;
     od:F1_generated <http://data.odeuropa.eu/smell/237eb613-5807-549d-8b48-bfccf7ccabe4> ;
-    od:F3_had_source <http://data.odeuropa.eu/object/4c6b5868-b592-564a-aa20-383ae57d6d3f> ;
+    od:F3_had_source <http://data.odeuropa.eu/vocabulary/olfactory-objects/138> ;
     time:hasTime <http://data.odeuropa.eu/time/15f4a8c0-cae1-5aeb-8e34-5a88a93dc163> .
 
 <http://data.odeuropa.eu/emission/c7b68f63-5baa-5689-9818-a13230b17de9> a od:L12_Smell_Emission ;
     od:F1_generated <http://data.odeuropa.eu/smell/fd43514d-be74-5a74-a4eb-42592408c8bc> ;
     od:F3_had_source <http://data.odeuropa.eu/object/20ff53c5-889c-52ba-a3c1-62abe8e7f0f0>,
-        <http://data.odeuropa.eu/object/22b90813-1a97-5ddf-89a8-22fe82992018>,
         <http://data.odeuropa.eu/object/3168b39b-c3c1-5c05-afb9-3c72e46af8df>,
         <http://data.odeuropa.eu/object/868b8123-697c-5e88-8cbb-ec0395c94a8f>,
-        <http://data.odeuropa.eu/object/a549491b-92c3-5011-877c-6e18ae202847>,
-        <http://data.odeuropa.eu/object/c3e6ed65-9667-59cd-b652-16319dc0b9db> ;
+        <http://data.odeuropa.eu/object/c3e6ed65-9667-59cd-b652-16319dc0b9db>,
+        <http://data.odeuropa.eu/vocabulary/olfactory-objects/161>,
+        <http://data.odeuropa.eu/vocabulary/olfactory-objects/50> ;
     time:hasTime <http://data.odeuropa.eu/time/d2dfb0d2-d79b-56ac-b33d-f0c4734c0c38> .
 
 <http://data.odeuropa.eu/emission/c7cede42-dbcd-5d4d-931a-72fd6b9f2de8> a od:L12_Smell_Emission ;
@@ -11581,15 +11575,15 @@
 
 <http://data.odeuropa.eu/emission/cb17125a-38e6-5d0c-b453-4f7a9b06cc97> a od:L12_Smell_Emission ;
     od:F1_generated <http://data.odeuropa.eu/smell/0765229d-f21c-56bc-acf4-3cf8b2f26e73> ;
-    od:F3_had_source <http://data.odeuropa.eu/object/d9c866c9-fbd6-51bd-a4c8-ddd59d669e00> ;
+    od:F3_had_source <http://data.odeuropa.eu/vocabulary/olfactory-objects/371> ;
     time:hasTime <http://data.odeuropa.eu/time/6f88907a-0b13-5071-928c-5b986d473e48> .
 
 <http://data.odeuropa.eu/emission/ccb51e3e-2974-5dd7-998b-7f6b7f36dfe3> a od:L12_Smell_Emission ;
     od:F1_generated <http://data.odeuropa.eu/smell/07738019-3771-5751-b5bf-18e7a19226fa> ;
     od:F3_had_source <http://data.odeuropa.eu/object/0311aef0-eaeb-5030-ab15-b09ecb89c6d5>,
         <http://data.odeuropa.eu/object/14405415-de43-5ef3-a285-0967b6c0f8af>,
-        <http://data.odeuropa.eu/object/722f4b26-0112-50af-88d4-e4f6a3ea2602>,
-        <http://data.odeuropa.eu/object/95b02780-e7a2-5575-866f-14e68afde472> ;
+        <http://data.odeuropa.eu/vocabulary/olfactory-objects/551>,
+        <http://data.odeuropa.eu/vocabulary/olfactory-objects/72> ;
     time:hasTime <http://data.odeuropa.eu/time/e144386c-3d6f-5626-82f3-5c24c24fe3ad> .
 
 <http://data.odeuropa.eu/emission/cd15d903-8eea-5ea7-80a1-af1fee1d4425> a od:L12_Smell_Emission ;
@@ -11600,7 +11594,7 @@
 
 <http://data.odeuropa.eu/emission/ce125534-6a60-5869-8e88-16042d3d49f5> a od:L12_Smell_Emission ;
     od:F1_generated <http://data.odeuropa.eu/smell/5a047f48-f185-5197-8e8a-daea4cd8559a> ;
-    od:F3_had_source <http://data.odeuropa.eu/object/b725a637-d58f-5cd6-9de7-bf4e2c4d9af2> ;
+    od:F3_had_source <http://data.odeuropa.eu/vocabulary/olfactory-objects/223> ;
     time:hasTime <http://data.odeuropa.eu/time/c73dcc34-b87d-5a03-b45e-d679615e952f> .
 
 <http://data.odeuropa.eu/emission/ce1ea9a8-b7ab-5566-80d4-282c9a9c8f77> a od:L12_Smell_Emission ;
@@ -11609,8 +11603,8 @@
 
 <http://data.odeuropa.eu/emission/ce2f2447-98bd-5fd0-aacc-fa29c356b54c> a od:L12_Smell_Emission ;
     od:F1_generated <http://data.odeuropa.eu/smell/20018f21-5a3d-57bf-bb2d-d72303269f30> ;
-    od:F3_had_source <http://data.odeuropa.eu/object/b135501d-f73a-5dc9-b3b1-7131c02030f5>,
-        <http://data.odeuropa.eu/object/ceb7b743-b548-5844-8401-d7461b8ff7c7> ;
+    od:F3_had_source <http://data.odeuropa.eu/object/ceb7b743-b548-5844-8401-d7461b8ff7c7>,
+        <http://data.odeuropa.eu/vocabulary/olfactory-objects/181> ;
     time:hasTime <http://data.odeuropa.eu/time/c5ee3b08-4969-5dc0-8348-e0f229454c30> .
 
 <http://data.odeuropa.eu/emission/cf4bbe21-4e81-5b56-b889-431a88d135f7> a od:L12_Smell_Emission ;
@@ -11619,7 +11613,7 @@
 
 <http://data.odeuropa.eu/emission/d08fcd86-763b-568b-b470-787bfa5b9b62> a od:L12_Smell_Emission ;
     od:F1_generated <http://data.odeuropa.eu/smell/69de9e43-7525-5ecf-8ca3-a59f59f01c31> ;
-    od:F3_had_source <http://data.odeuropa.eu/object/be14f9a3-c87c-5eb1-82ac-830ad4e500f5> ;
+    od:F3_had_source <http://data.odeuropa.eu/vocabulary/olfactory-objects/536> ;
     time:hasTime <http://data.odeuropa.eu/time/a6474005-3b22-51ce-822b-9394d65a2e19> .
 
 <http://data.odeuropa.eu/emission/d1a9bbd1-3c39-59b2-a53a-64733388d82e> a od:L12_Smell_Emission ;
@@ -11634,8 +11628,8 @@
 
 <http://data.odeuropa.eu/emission/d622197b-2aee-5acd-af19-ffbd6d09006d> a od:L12_Smell_Emission ;
     od:F1_generated <http://data.odeuropa.eu/smell/b0cc4e24-4a33-574b-9abc-29c838bd6885> ;
-    od:F3_had_source <http://data.odeuropa.eu/object/9b22ff7a-c2e7-54ed-9695-75767e92f5f3>,
-        <http://data.odeuropa.eu/object/e68558a1-b794-5fd1-b611-2971bbd807f2> ;
+    od:F3_had_source <http://data.odeuropa.eu/object/e68558a1-b794-5fd1-b611-2971bbd807f2>,
+        <http://data.odeuropa.eu/vocabulary/olfactory-objects/494> ;
     time:hasTime <http://data.odeuropa.eu/time/29ce4f30-b5c5-5df4-b3eb-f13c313f90a9> .
 
 <http://data.odeuropa.eu/emission/d6308b57-628d-53db-a60f-3679b264cabb> a od:L12_Smell_Emission ;
@@ -11665,8 +11659,8 @@
 
 <http://data.odeuropa.eu/emission/db967030-fc23-56d6-821d-8d026270555f> a od:L12_Smell_Emission ;
     od:F1_generated <http://data.odeuropa.eu/smell/d37381fb-fe46-548c-aa96-3d0b381f0e6d> ;
-    od:F3_had_source <http://data.odeuropa.eu/object/1f84cff9-5045-5be6-b7ac-64d8d84359e4>,
-        <http://data.odeuropa.eu/object/e76cc1f8-8951-50f6-a264-2588c0c6342f> ;
+    od:F3_had_source <http://data.odeuropa.eu/vocabulary/olfactory-objects/282>,
+        <http://data.odeuropa.eu/vocabulary/olfactory-objects/312> ;
     time:hasTime <http://data.odeuropa.eu/time/cb54252a-be33-5558-87cd-77f4c3a184a5> .
 
 <http://data.odeuropa.eu/emission/dbcd4743-1fce-5567-9724-d6bde6790b2c> a od:L12_Smell_Emission ;
@@ -11732,8 +11726,8 @@
 
 <http://data.odeuropa.eu/emission/e9c390f8-ff4b-58ce-8e32-6d3d05c6ac60> a od:L12_Smell_Emission ;
     od:F1_generated <http://data.odeuropa.eu/smell/72cf3041-368c-5954-a536-cb292b605cff> ;
-    od:F3_had_source <http://data.odeuropa.eu/object/6a60d5c7-3dcc-5494-9e5f-b34016eda2c4>,
-        <http://data.odeuropa.eu/object/a5a04ce7-7a3d-54fb-ac9c-0f7c07629de7> ;
+    od:F3_had_source <http://data.odeuropa.eu/object/a5a04ce7-7a3d-54fb-ac9c-0f7c07629de7>,
+        <http://data.odeuropa.eu/vocabulary/olfactory-objects/50> ;
     time:hasTime <http://data.odeuropa.eu/time/5e86c96c-0541-56bd-b328-d40c549f8804> .
 
 <http://data.odeuropa.eu/emission/e9d00835-16ea-57c4-83f3-600671202669> a od:L12_Smell_Emission ;
@@ -11746,7 +11740,7 @@
 
 <http://data.odeuropa.eu/emission/eed2a02b-62c1-5699-a178-e560e4e6c266> a od:L12_Smell_Emission ;
     od:F1_generated <http://data.odeuropa.eu/smell/e26aed75-2c1d-5e85-a68d-aea84e09932c> ;
-    od:F3_had_source <http://data.odeuropa.eu/object/17cf542e-d479-5fc5-ae1d-8851b4914371> ;
+    od:F3_had_source <http://data.odeuropa.eu/vocabulary/olfactory-objects/223> ;
     time:hasTime <http://data.odeuropa.eu/time/15f4a8c0-cae1-5aeb-8e34-5a88a93dc163> .
 
 <http://data.odeuropa.eu/emission/eed7d837-2b6d-52e3-9d10-eecf4f4fec7d> a od:L12_Smell_Emission ;
@@ -11756,8 +11750,8 @@
 
 <http://data.odeuropa.eu/emission/f0d85c6f-a093-5e5a-83b2-437b197b8046> a od:L12_Smell_Emission ;
     od:F1_generated <http://data.odeuropa.eu/smell/71af55a3-0f17-5347-b85e-a7d784c53614> ;
-    od:F3_had_source <http://data.odeuropa.eu/object/dc997b30-997f-562d-8ac2-d0a18b53c67a>,
-        <http://data.odeuropa.eu/object/f1edacb6-b4b9-557c-ba2c-2d895f9c3ea8> ;
+    od:F3_had_source <http://data.odeuropa.eu/vocabulary/olfactory-objects/269>,
+        <http://data.odeuropa.eu/vocabulary/olfactory-objects/536> ;
     time:hasTime <http://data.odeuropa.eu/time/b4645460-c680-5000-bd3a-1f76c693585f> .
 
 <http://data.odeuropa.eu/emission/f0e21ba2-5fe8-5cf5-abf4-f6efc19293de> a od:L12_Smell_Emission ;
@@ -11771,7 +11765,7 @@
 
 <http://data.odeuropa.eu/emission/f3cbb24a-1fd9-527e-b778-8feb921b3a49> a od:L12_Smell_Emission ;
     od:F1_generated <http://data.odeuropa.eu/smell/b2830653-14cd-5b45-aebb-1554db3b9dd5> ;
-    od:F3_had_source <http://data.odeuropa.eu/object/78eded78-3dec-568a-9a7e-98ca6940b259> ;
+    od:F3_had_source <http://data.odeuropa.eu/vocabulary/olfactory-objects/169> ;
     time:hasTime <http://data.odeuropa.eu/time/6c41165f-8bd5-5afc-a3b5-767622aaac0c> .
 
 <http://data.odeuropa.eu/emission/f4501317-082a-5b4f-acde-f671698d76c0> a od:L12_Smell_Emission ;
@@ -11814,7 +11808,7 @@
     od:F3_had_source <http://data.odeuropa.eu/object/04050166-50aa-51a3-a84c-5d0a888c2120>,
         <http://data.odeuropa.eu/object/4b30adc5-0161-5fb6-bd37-4a9218d5ad5d>,
         <http://data.odeuropa.eu/object/b4c485d4-9ebf-5836-b0c5-d5d56c14ff73>,
-        <http://data.odeuropa.eu/object/c979fa70-a528-50d8-9239-89345c689491> ;
+        <http://data.odeuropa.eu/vocabulary/olfactory-objects/403> ;
     time:hasTime <http://data.odeuropa.eu/time/e144386c-3d6f-5626-82f3-5c24c24fe3ad> .
 
 <http://data.odeuropa.eu/emission/f8a422f8-700a-536b-ab49-96791012d162> a od:L12_Smell_Emission ;
@@ -11834,16 +11828,16 @@
 
 <http://data.odeuropa.eu/emission/f93d0215-86e4-512e-99ec-a7e496c4b06b> a od:L12_Smell_Emission ;
     od:F1_generated <http://data.odeuropa.eu/smell/3ebd7985-e14d-56ad-8b11-e759b5217619> ;
-    od:F3_had_source <http://data.odeuropa.eu/object/0bcdca9c-8d3c-5f74-8b8a-18d793643f0d>,
-        <http://data.odeuropa.eu/object/b5a45826-6613-5b95-82f3-5db53c928fd7>,
-        <http://data.odeuropa.eu/object/d636eff4-f058-55cc-a01f-10d9b8c66b08>,
-        <http://data.odeuropa.eu/object/f3466e8b-58ea-5707-8b81-ac5c66665c9e> ;
+    od:F3_had_source <http://data.odeuropa.eu/object/f3466e8b-58ea-5707-8b81-ac5c66665c9e>,
+        <http://data.odeuropa.eu/vocabulary/olfactory-objects/287>,
+        <http://data.odeuropa.eu/vocabulary/olfactory-objects/300>,
+        <http://data.odeuropa.eu/vocabulary/olfactory-objects/305> ;
     time:hasTime <http://data.odeuropa.eu/time/bd61f2fd-a814-589e-a823-6269b23e8e92> .
 
 <http://data.odeuropa.eu/emission/fa069ec3-d5d2-5b6f-810c-5308a31c5ff3> a od:L12_Smell_Emission ;
     od:F1_generated <http://data.odeuropa.eu/smell/95307aba-9cf2-5633-bcab-9d9035c94794> ;
     od:F3_had_source <http://data.odeuropa.eu/object/284c950d-2cef-5942-bb2b-94eae3894a16>,
-        <http://data.odeuropa.eu/object/2c01d150-21d5-5098-8038-79abebb6e8ba> ;
+        <http://data.odeuropa.eu/vocabulary/olfactory-objects/180> ;
     time:hasTime <http://data.odeuropa.eu/time/2b72121f-7f5a-5eda-bf1a-aeea93d1a57b> .
 
 <http://data.odeuropa.eu/emission/fb62d0b3-2510-5ae4-aeba-e1a19892f4f0> a od:L12_Smell_Emission ;
