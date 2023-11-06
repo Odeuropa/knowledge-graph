@@ -56,6 +56,10 @@ def get_safe(name, obj):
     r = obj[name]
     if type(r) == float and isnan(r):
         return ''
+    if '|' in r:
+        p = r.split('|', 1)
+        if p[0].lower() == p[1].lower():
+            return p[0]
     return r
 
 

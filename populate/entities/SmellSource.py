@@ -26,7 +26,7 @@ class SmellSource(Entity):
             self.set_class(CRMsci.S10_Material_Substantial)
             self.add_label(label, lang)
         else:
-            self.uri = lemma
+            self.set_uri(lemma)
             # self.add(CRM.P137_exemplifies, lemma)
             # if role == 'place':
             #     self.set_class(CRM.E53_Place)

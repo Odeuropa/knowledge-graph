@@ -58,6 +58,9 @@ class Entity:
     def same_as(self, entity):
         self.add(OWL.sameAs, entity)
 
+    def set_uri(self, new_uri):
+        self.uri = new_uri
+        self.res = URIRef(new_uri)
 
 class MiniEntity(Entity):
     def __init__(self, group, id, label, clas):

@@ -44,6 +44,7 @@ Upload dumps
     python3 scripts/load_dump.py odor
     python3 scripts/load_dump.py nuk
     python3 scripts/load_dump.py europeana
+    python3 scripts/load_dump.py rijksmuseum
     python3 scripts/load_dump.py getty
     python3 scripts/load_dump.py geonames
     python3 scripts/load_dump.py text-annotation
