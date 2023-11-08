@@ -91,7 +91,6 @@ class Emotion(MiniEntity):
         super().__init__('emotion-type', typ, typ, SKOS.Concept)
 
         self.set_class(REO.REO21)
-        self.add_label(label)
         if sentiment and sentiment.strip():
             self.add(CRM.P2_has_type, MiniEntity('sentiment', sentiment.strip().lower(), sentiment, SKOS.Concept))
 
@@ -99,7 +98,8 @@ class Emotion(MiniEntity):
             typ = typ.strip()
             match = VocManager.get('emotion').search(typ)
             if len(match.lemmata) and match.lemmata[0].score == 1:
-                self.uri = match.lemmata[0].id
+                self.set_uri(match.lemmata[0].id)
                 # self.add(CRM.P137_exemplifies, match.lemmata[0].id)
-            # else:
+            else:
+                self.add_label(label)
             #     self.add(CRM.P137_exemplifies, MiniEntity('emotion-type', typ, typ, SKOS.Concept))
