@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<rdf:RDF xmlns:cc="http://creativecommons.org/ns#" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:foaf="http://xmlns.com/foaf/0.1/" xmlns:gn="http://www.geonames.org/ontology#" xmlns:owl="http://www.w3.org/2002/07/owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:wgs84_pos="http://www.w3.org/2003/01/geo/wgs84_pos#">
+    <gn:Feature rdf:about="https://sws.geonames.org/3901872/">
+        <rdfs:isDefinedBy rdf:resource="https://sws.geonames.org/3901872/about.rdf"/>
+        <gn:name>Vallegrande</gn:name>
+        <gn:alternateName>Provincia Vallegrande</gn:alternateName>
+        <gn:shortName xml:lang="en">Vallegrande</gn:shortName>
+        <gn:shortName xml:lang="es">Vallegrande</gn:shortName>
+        <gn:alternateName>Valle Grande</gn:alternateName>
+        <gn:alternateName>Ville Grande</gn:alternateName>
+        <gn:featureClass rdf:resource="https://www.geonames.org/ontology#A"/>
+        <gn:featureCode rdf:resource="https://www.geonames.org/ontology#A.ADM2"/>
+        <gn:countryCode>BO</gn:countryCode>
+        <gn:population>26576</gn:population>
+        <wgs84_pos:lat>-18.63131</wgs84_pos:lat>
+        <wgs84_pos:long>-64.00306</wgs84_pos:long>
+        <gn:parentFeature rdf:resource="https://sws.geonames.org/3904907/"/>
+        <gn:parentCountry rdf:resource="https://sws.geonames.org/3923057/"/>
+        <gn:parentADM1 rdf:resource="https://sws.geonames.org/3904907/"/>
+        <gn:childrenFeatures rdf:resource="https://sws.geonames.org/3901872/contains.rdf"/>
+        <gn:locationMap rdf:resource="https://www.geonames.org/3901872/provincia-vallegrande.html"/>
+    </gn:Feature>
+    <foaf:Document rdf:about="https://sws.geonames.org/3901872/about.rdf">
+        <foaf:primaryTopic rdf:resource="https://sws.geonames.org/3901872/"/>
+        <cc:license rdf:resource="https://creativecommons.org/licenses/by/4.0/"/>
+        <cc:attributionURL rdf:resource="https://www.geonames.org"/>
+        <cc:attributionName rdf:datatype="https://www.w3.org/2001/XMLSchema#string">GeoNames</cc:attributionName>
+        <dcterms:created rdf:datatype="https://www.w3.org/2001/XMLSchema#date">2006-01-15</dcterms:created>
+        <dcterms:modified rdf:datatype="https://www.w3.org/2001/XMLSchema#date">2020-02-07</dcterms:modified>
+    </foaf:Document>
+</rdf:RDF>
