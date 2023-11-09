@@ -3,7 +3,7 @@ import os
 
 from tqdm import tqdm
 
-test_mode = True
+test_mode = False
 def _default_sparql(endpoint):
     sparql = SPARQLWrapper(endpoint)
 

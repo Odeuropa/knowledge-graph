@@ -61,8 +61,6 @@ Upload dumps
     python3 scripts/load_dump.py grimm
     python3 scripts/load_dump.py bibbleue
     python3 scripts/load_dump.py dbnl
-    python3 scripts/load_dump.py dbnl_nl1
-    python3 scripts/load_dump.py dbnl_nl3
     python3 scripts/load_dump.py liberliber
     python3 scripts/load_dump.py dta
     python3 scripts/load_dump.py dta_de2
