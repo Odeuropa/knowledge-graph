@@ -34,17 +34,17 @@ class VocabularyController:
 
     def search(self, q, lang='en', n=10, autocomplete=False):
         voc = Vocabulary.get_all(self.name, self.scheme, self.endpoint)
-
         if not q:
             return voc
         return voc.search(q, lang, n, autocomplete)
 
-    def interlink(self, word, lang='en', fallback=None):
+    def interlink(self, word, lang='en', fallback=None, disable_preproc=False):
         # TODO repeat without adjectives if not found?
         if len(word) < 3:
             return None, None
         q = word.lower()
-        if lang in nlp:
+
+        if not disable_preproc and lang in nlp:
             tk = nlp[lang](q)
             tokens = []
             root_found = False
@@ -113,7 +113,7 @@ def get(identifier):
 
 def interlink_multiple(label, lang, vocs):
     for x in vocs:
-        uri, type = get(x).interlink(label, lang, fallback=None)
+        uri, type = get(x).interlink(label, lang, fallback=None, disable_preproc='gesture' in x)
         if uri is not None:
             return uri, type, x
     return None, None, None

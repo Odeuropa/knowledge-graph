@@ -153,8 +153,9 @@
 <http://data.odeuropa.eu/experience/0323e538-89dc-5452-bd7d-dc30e80f4b63/assignment/1> a crm:E13_Attribute_Assignment ;
     rdfs:label "pungent"@en ;
     crm:P140_assigned_attribute_to <http://data.odeuropa.eu/smell/72493238-53e7-54d8-8779-de984f730815> ;
-    crm:P141_assigned <http://data.odeuropa.eu/attribute/pungent_en> ;
-    crm:P17_was_motivated_by <http://data.odeuropa.eu/experience/0323e538-89dc-5452-bd7d-dc30e80f4b63> .
+    crm:P141_assigned <http://data.odeuropa.eu/vocabulary/vdi-hedonic/19n> ;
+    crm:P17_was_motivated_by <http://data.odeuropa.eu/experience/0323e538-89dc-5452-bd7d-dc30e80f4b63> ;
+    crm:P2_has_type <http://data.odeuropa.eu/attribute-type/hedonic> .
 
 <http://data.odeuropa.eu/experience/0323e538-89dc-5452-bd7d-dc30e80f4b63/assignment/2> a crm:E13_Attribute_Assignment ;
     rdfs:label "fragrant"@en ;
@@ -180,8 +181,9 @@
 <http://data.odeuropa.eu/experience/06705048-c675-5f69-9cb5-80a28c41b2dc/assignment/1> a crm:E13_Attribute_Assignment ;
     rdfs:label "sweet"@en ;
     crm:P140_assigned_attribute_to <http://data.odeuropa.eu/smell/d21f5f95-94d5-5d38-8bc5-725c9e7d823f> ;
-    crm:P141_assigned <http://data.odeuropa.eu/attribute/sweet_en> ;
-    crm:P17_was_motivated_by <http://data.odeuropa.eu/experience/06705048-c675-5f69-9cb5-80a28c41b2dc> .
+    crm:P141_assigned <http://data.odeuropa.eu/vocabulary/vdi-hedonic/11n> ;
+    crm:P17_was_motivated_by <http://data.odeuropa.eu/experience/06705048-c675-5f69-9cb5-80a28c41b2dc> ;
+    crm:P2_has_type <http://data.odeuropa.eu/attribute-type/hedonic> .
 
 <http://data.odeuropa.eu/experience/06852816-bb59-5725-8532-d22ad3fd181c/assignment/1> a crm:E13_Attribute_Assignment ;
     rdfs:label "altogether peculiar to itself"@en ;
@@ -288,8 +290,9 @@
 <http://data.odeuropa.eu/experience/0b9245ae-b5e8-53c7-be20-1609a0bd9707/assignment/1> a crm:E13_Attribute_Assignment ;
     rdfs:label "Aromatick"@en ;
     crm:P140_assigned_attribute_to <http://data.odeuropa.eu/smell/81acd4f8-12d6-5107-898f-7da59c5f89f1> ;
-    crm:P141_assigned <http://data.odeuropa.eu/attribute/Aromatick_en> ;
-    crm:P17_was_motivated_by <http://data.odeuropa.eu/experience/0b9245ae-b5e8-53c7-be20-1609a0bd9707> .
+    crm:P141_assigned <http://data.odeuropa.eu/vocabulary/edwards/aromatic> ;
+    crm:P17_was_motivated_by <http://data.odeuropa.eu/experience/0b9245ae-b5e8-53c7-be20-1609a0bd9707> ;
+    crm:P2_has_type <http://data.odeuropa.eu/attribute-type/character> .
 
 <http://data.odeuropa.eu/experience/0c3e5335-c41d-5f8b-bccb-0294c6ec7182/assignment/1> a crm:E13_Attribute_Assignment ;
     rdfs:label "strong"@en ;
@@ -456,8 +459,9 @@
 <http://data.odeuropa.eu/experience/14cb6dab-dac2-57d2-9f77-b7595f008419/assignment/1> a crm:E13_Attribute_Assignment ;
     rdfs:label "aromatic"@en ;
     crm:P140_assigned_attribute_to <http://data.odeuropa.eu/smell/06951232-9220-55cb-92b6-20e53230d389> ;
-    crm:P141_assigned <http://data.odeuropa.eu/attribute/aromatic_en> ;
-    crm:P17_was_motivated_by <http://data.odeuropa.eu/experience/14cb6dab-dac2-57d2-9f77-b7595f008419> .
+    crm:P141_assigned <http://data.odeuropa.eu/vocabulary/edwards/aromatic> ;
+    crm:P17_was_motivated_by <http://data.odeuropa.eu/experience/14cb6dab-dac2-57d2-9f77-b7595f008419> ;
+    crm:P2_has_type <http://data.odeuropa.eu/attribute-type/character> .
 
 <http://data.odeuropa.eu/experience/153cec7c-8248-5553-87a7-3656a84c6782/assignment/1> a crm:E13_Attribute_Assignment ;
     rdfs:label "fetid"@en ;
@@ -469,16 +473,18 @@
 <http://data.odeuropa.eu/experience/1592eda4-7ff7-586c-a9e1-c7bb6f1ef016/assignment/1> a crm:E13_Attribute_Assignment ;
     rdfs:label "floral"@en ;
     crm:P140_assigned_attribute_to <http://data.odeuropa.eu/smell/96807548-3349-5ab7-a45c-0e18b7a21f5c> ;
-    crm:P141_assigned <http://data.odeuropa.eu/attribute/floral_en> ;
+    crm:P141_assigned <http://data.odeuropa.eu/vocabulary/edwards/floral> ;
     crm:P14_carried_out_by <http://data.odeuropa.eu/actor/8914855c-90ff-502a-b76a-a4a9c5f6e5ce> ;
-    crm:P17_was_motivated_by <http://data.odeuropa.eu/experience/1592eda4-7ff7-586c-a9e1-c7bb6f1ef016> .
+    crm:P17_was_motivated_by <http://data.odeuropa.eu/experience/1592eda4-7ff7-586c-a9e1-c7bb6f1ef016> ;
+    crm:P2_has_type <http://data.odeuropa.eu/attribute-type/character> .
 
 <http://data.odeuropa.eu/experience/1592eda4-7ff7-586c-a9e1-c7bb6f1ef016/assignment/2> a crm:E13_Attribute_Assignment ;
     rdfs:label "fresh"@en ;
     crm:P140_assigned_attribute_to <http://data.odeuropa.eu/smell/96807548-3349-5ab7-a45c-0e18b7a21f5c> ;
-    crm:P141_assigned <http://data.odeuropa.eu/attribute/fresh_en> ;
+    crm:P141_assigned <http://data.odeuropa.eu/vocabulary/vdi-hedonic/23p> ;
     crm:P14_carried_out_by <http://data.odeuropa.eu/actor/8914855c-90ff-502a-b76a-a4a9c5f6e5ce> ;
-    crm:P17_was_motivated_by <http://data.odeuropa.eu/experience/1592eda4-7ff7-586c-a9e1-c7bb6f1ef016> .
+    crm:P17_was_motivated_by <http://data.odeuropa.eu/experience/1592eda4-7ff7-586c-a9e1-c7bb6f1ef016> ;
+    crm:P2_has_type <http://data.odeuropa.eu/attribute-type/hedonic> .
 
 <http://data.odeuropa.eu/experience/174cf9ac-977b-575a-b9f9-a3192309cd34/assignment/1> a crm:E13_Attribute_Assignment ;
     rdfs:label "putrid"@en ;
@@ -495,20 +501,23 @@
 <http://data.odeuropa.eu/experience/1850952d-12cb-5f69-8817-476ec0bd8684/assignment/1> a crm:E13_Attribute_Assignment ;
     rdfs:label "aromatic"@en ;
     crm:P140_assigned_attribute_to <http://data.odeuropa.eu/smell/489766a1-3e6e-5a78-b03e-b6927d0a8e18> ;
-    crm:P141_assigned <http://data.odeuropa.eu/attribute/aromatic_en> ;
-    crm:P17_was_motivated_by <http://data.odeuropa.eu/experience/1850952d-12cb-5f69-8817-476ec0bd8684> .
+    crm:P141_assigned <http://data.odeuropa.eu/vocabulary/edwards/aromatic> ;
+    crm:P17_was_motivated_by <http://data.odeuropa.eu/experience/1850952d-12cb-5f69-8817-476ec0bd8684> ;
+    crm:P2_has_type <http://data.odeuropa.eu/attribute-type/character> .
 
 <http://data.odeuropa.eu/experience/187e193b-1704-52ae-9e46-67015bd99137/assignment/1> a crm:E13_Attribute_Assignment ;
     rdfs:label "aromatic"@en ;
     crm:P140_assigned_attribute_to <http://data.odeuropa.eu/smell/694d2965-6f6e-5f4f-a718-1e31c938caf9> ;
-    crm:P141_assigned <http://data.odeuropa.eu/attribute/aromatic_en> ;
-    crm:P17_was_motivated_by <http://data.odeuropa.eu/experience/187e193b-1704-52ae-9e46-67015bd99137> .
+    crm:P141_assigned <http://data.odeuropa.eu/vocabulary/edwards/aromatic> ;
+    crm:P17_was_motivated_by <http://data.odeuropa.eu/experience/187e193b-1704-52ae-9e46-67015bd99137> ;
+    crm:P2_has_type <http://data.odeuropa.eu/attribute-type/character> .
 
 <http://data.odeuropa.eu/experience/1883dbb9-6844-5811-9711-8bddf5ff7e15/assignment/1> a crm:E13_Attribute_Assignment ;
     rdfs:label "slight"@en ;
     crm:P140_assigned_attribute_to <http://data.odeuropa.eu/smell/ade84f4f-befd-5e38-97e8-23bd9cf2ba75> ;
-    crm:P141_assigned <http://data.odeuropa.eu/attribute/slight_en> ;
-    crm:P17_was_motivated_by <http://data.odeuropa.eu/experience/1883dbb9-6844-5811-9711-8bddf5ff7e15> .
+    crm:P141_assigned <http://data.odeuropa.eu/vocabulary/vdi-hedonic/05n> ;
+    crm:P17_was_motivated_by <http://data.odeuropa.eu/experience/1883dbb9-6844-5811-9711-8bddf5ff7e15> ;
+    crm:P2_has_type <http://data.odeuropa.eu/attribute-type/hedonic> .
 
 <http://data.odeuropa.eu/experience/1883dbb9-6844-5811-9711-8bddf5ff7e15/assignment/2> a crm:E13_Attribute_Assignment ;
     rdfs:label "imperceptible"@en ;
@@ -526,9 +535,8 @@
 <http://data.odeuropa.eu/experience/1c314c62-af64-54fc-b852-9f0d9e7149aa/assignment/1> a crm:E13_Attribute_Assignment ;
     rdfs:label "body"@en ;
     crm:P140_assigned_attribute_to <http://data.odeuropa.eu/smell/a1957e3a-76ff-508d-bcc6-f0e914189fd7> ;
-    crm:P141_assigned <http://data.odeuropa.eu/vocabulary/olfactory-objects/533> ;
-    crm:P17_was_motivated_by <http://data.odeuropa.eu/experience/1c314c62-af64-54fc-b852-9f0d9e7149aa> ;
-    crm:P2_has_type <http://data.odeuropa.eu/attribute-type/intensity> .
+    crm:P141_assigned <http://data.odeuropa.eu/attribute/body_en> ;
+    crm:P17_was_motivated_by <http://data.odeuropa.eu/experience/1c314c62-af64-54fc-b852-9f0d9e7149aa> .
 
 <http://data.odeuropa.eu/experience/1c314c62-af64-54fc-b852-9f0d9e7149aa/assignment/2> a crm:E13_Attribute_Assignment ;
     rdfs:label "attractive"@en ;
@@ -591,8 +599,9 @@
 <http://data.odeuropa.eu/experience/1f72c219-3963-5878-bdff-23ce3799e4b9/assignment/1> a crm:E13_Attribute_Assignment ;
     rdfs:label "Aromatick"@en ;
     crm:P140_assigned_attribute_to <http://data.odeuropa.eu/smell/499b1259-9dca-561d-b86d-5829d3bf3458> ;
-    crm:P141_assigned <http://data.odeuropa.eu/attribute/Aromatick_en> ;
-    crm:P17_was_motivated_by <http://data.odeuropa.eu/experience/1f72c219-3963-5878-bdff-23ce3799e4b9> .
+    crm:P141_assigned <http://data.odeuropa.eu/vocabulary/edwards/aromatic> ;
+    crm:P17_was_motivated_by <http://data.odeuropa.eu/experience/1f72c219-3963-5878-bdff-23ce3799e4b9> ;
+    crm:P2_has_type <http://data.odeuropa.eu/attribute-type/character> .
 
 <http://data.odeuropa.eu/experience/1f72c219-3963-5878-bdff-23ce3799e4b9/assignment/2> a crm:E13_Attribute_Assignment ;
     rdfs:label "Strong"@en ;
@@ -604,8 +613,9 @@
 <http://data.odeuropa.eu/experience/1f72c219-3963-5878-bdff-23ce3799e4b9/assignment/3> a crm:E13_Attribute_Assignment ;
     rdfs:label "Bitters"@en ;
     crm:P140_assigned_attribute_to <http://data.odeuropa.eu/smell/499b1259-9dca-561d-b86d-5829d3bf3458> ;
-    crm:P141_assigned <http://data.odeuropa.eu/attribute/Bitters_en> ;
-    crm:P17_was_motivated_by <http://data.odeuropa.eu/experience/1f72c219-3963-5878-bdff-23ce3799e4b9> .
+    crm:P141_assigned <http://data.odeuropa.eu/vocabulary/vdi-hedonic/11p> ;
+    crm:P17_was_motivated_by <http://data.odeuropa.eu/experience/1f72c219-3963-5878-bdff-23ce3799e4b9> ;
+    crm:P2_has_type <http://data.odeuropa.eu/attribute-type/hedonic> .
 
 <http://data.odeuropa.eu/experience/1f9958d8-148e-58f8-808a-5408ba58f187/assignment/1> a crm:E13_Attribute_Assignment ;
     rdfs:label "Fetid"@en ;
@@ -628,8 +638,9 @@
 <http://data.odeuropa.eu/experience/20b0ddc2-7441-5b7e-99fe-42a888619b0a/assignment/2> a crm:E13_Attribute_Assignment ;
     rdfs:label "strongly aromatic"@en ;
     crm:P140_assigned_attribute_to <http://data.odeuropa.eu/smell/7c0186e2-4f3b-5f88-b290-5b25a54d16b1> ;
-    crm:P141_assigned <http://data.odeuropa.eu/attribute/strongly%20aromatic_en> ;
+    crm:P141_assigned <http://data.odeuropa.eu/vocabulary/edwards/aromatic> ;
     crm:P17_was_motivated_by <http://data.odeuropa.eu/experience/20b0ddc2-7441-5b7e-99fe-42a888619b0a> ;
+    crm:P2_has_type <http://data.odeuropa.eu/attribute-type/character> ;
     rdfs:comment "strongly"@en .
 
 <http://data.odeuropa.eu/experience/20b0ddc2-7441-5b7e-99fe-42a888619b0a/assignment/3> a crm:E13_Attribute_Assignment ;
@@ -647,8 +658,9 @@
 <http://data.odeuropa.eu/experience/21350aa0-38d5-5552-80a9-6dd0e419c182/assignment/1> a crm:E13_Attribute_Assignment ;
     rdfs:label "aromatic"@en ;
     crm:P140_assigned_attribute_to <http://data.odeuropa.eu/smell/4ab07dd2-ce02-595d-80dd-a6367a83513b> ;
-    crm:P141_assigned <http://data.odeuropa.eu/attribute/aromatic_en> ;
-    crm:P17_was_motivated_by <http://data.odeuropa.eu/experience/21350aa0-38d5-5552-80a9-6dd0e419c182> .
+    crm:P141_assigned <http://data.odeuropa.eu/vocabulary/edwards/aromatic> ;
+    crm:P17_was_motivated_by <http://data.odeuropa.eu/experience/21350aa0-38d5-5552-80a9-6dd0e419c182> ;
+    crm:P2_has_type <http://data.odeuropa.eu/attribute-type/character> .
 
 <http://data.odeuropa.eu/experience/21b16c3c-d3ef-5f16-bdd4-5b365affd5c8/assignment/1> a crm:E13_Attribute_Assignment ;
     rdfs:label "peculiar"@en ;
@@ -703,8 +715,9 @@
 <http://data.odeuropa.eu/experience/26c2a623-5869-58de-9a6b-620702c62b2c/assignment/1> a crm:E13_Attribute_Assignment ;
     rdfs:label "aromatic"@en ;
     crm:P140_assigned_attribute_to <http://data.odeuropa.eu/smell/d1ed5ba9-f5af-5e16-95b7-0028b01f9fc8> ;
-    crm:P141_assigned <http://data.odeuropa.eu/attribute/aromatic_en> ;
-    crm:P17_was_motivated_by <http://data.odeuropa.eu/experience/26c2a623-5869-58de-9a6b-620702c62b2c> .
+    crm:P141_assigned <http://data.odeuropa.eu/vocabulary/edwards/aromatic> ;
+    crm:P17_was_motivated_by <http://data.odeuropa.eu/experience/26c2a623-5869-58de-9a6b-620702c62b2c> ;
+    crm:P2_has_type <http://data.odeuropa.eu/attribute-type/character> .
 
 <http://data.odeuropa.eu/experience/2762bd5d-61b7-5191-8ab0-91b080b5d7fe/assignment/1> a crm:E13_Attribute_Assignment ;
     rdfs:label "worst"@en ;
@@ -715,8 +728,9 @@
 <http://data.odeuropa.eu/experience/28207f18-08f6-5949-80b6-643c4504be5b/assignment/1> a crm:E13_Attribute_Assignment ;
     rdfs:label "pungent"@en ;
     crm:P140_assigned_attribute_to <http://data.odeuropa.eu/smell/e397feca-ee07-51b6-9894-bbbb7a54cea4> ;
-    crm:P141_assigned <http://data.odeuropa.eu/attribute/pungent_en> ;
-    crm:P17_was_motivated_by <http://data.odeuropa.eu/experience/28207f18-08f6-5949-80b6-643c4504be5b> .
+    crm:P141_assigned <http://data.odeuropa.eu/vocabulary/vdi-hedonic/19n> ;
+    crm:P17_was_motivated_by <http://data.odeuropa.eu/experience/28207f18-08f6-5949-80b6-643c4504be5b> ;
+    crm:P2_has_type <http://data.odeuropa.eu/attribute-type/hedonic> .
 
 <http://data.odeuropa.eu/experience/28ab7efb-2da6-5e13-87d4-110143acad6b/assignment/1> a crm:E13_Attribute_Assignment ;
     rdfs:label "faetid"@en ;
@@ -789,8 +803,9 @@
 <http://data.odeuropa.eu/experience/2e243005-332c-58e2-9925-91f4291721b0/assignment/1> a crm:E13_Attribute_Assignment ;
     rdfs:label "aromatic"@en ;
     crm:P140_assigned_attribute_to <http://data.odeuropa.eu/smell/c5158191-6fdc-5b48-a66d-40c029c8b07f> ;
-    crm:P141_assigned <http://data.odeuropa.eu/attribute/aromatic_en> ;
-    crm:P17_was_motivated_by <http://data.odeuropa.eu/experience/2e243005-332c-58e2-9925-91f4291721b0> .
+    crm:P141_assigned <http://data.odeuropa.eu/vocabulary/edwards/aromatic> ;
+    crm:P17_was_motivated_by <http://data.odeuropa.eu/experience/2e243005-332c-58e2-9925-91f4291721b0> ;
+    crm:P2_has_type <http://data.odeuropa.eu/attribute-type/character> .
 
 <http://data.odeuropa.eu/experience/2e5a565d-0b4c-5f7f-a6e3-3887a5ea6135/assignment/1> a crm:E13_Attribute_Assignment ;
     rdfs:label "foul"@en ;
@@ -828,8 +843,9 @@
 <http://data.odeuropa.eu/experience/2fb52c84-9132-5e7e-bb66-06818afffb1c/assignment/1> a crm:E13_Attribute_Assignment ;
     rdfs:label "Bitterish"@en ;
     crm:P140_assigned_attribute_to <http://data.odeuropa.eu/smell/5deea27e-2cd1-5e8f-b005-ba9fb082a510> ;
-    crm:P141_assigned <http://data.odeuropa.eu/attribute/Bitterish_en> ;
-    crm:P17_was_motivated_by <http://data.odeuropa.eu/experience/2fb52c84-9132-5e7e-bb66-06818afffb1c> .
+    crm:P141_assigned <http://data.odeuropa.eu/vocabulary/vdi-hedonic/11p> ;
+    crm:P17_was_motivated_by <http://data.odeuropa.eu/experience/2fb52c84-9132-5e7e-bb66-06818afffb1c> ;
+    crm:P2_has_type <http://data.odeuropa.eu/attribute-type/hedonic> .
 
 <http://data.odeuropa.eu/experience/3066702b-ea7e-5857-82e7-049111d50b3c/assignment/1> a crm:E13_Attribute_Assignment ;
     rdfs:label "stinking"@en ;
@@ -1005,8 +1021,9 @@
 <http://data.odeuropa.eu/experience/3cdf1d8e-ae39-56b2-b898-a5767dc7aa14/assignment/1> a crm:E13_Attribute_Assignment ;
     rdfs:label "aromatic"@en ;
     crm:P140_assigned_attribute_to <http://data.odeuropa.eu/smell/00aef604-6d2a-5b26-864b-db6c03464fe7> ;
-    crm:P141_assigned <http://data.odeuropa.eu/attribute/aromatic_en> ;
-    crm:P17_was_motivated_by <http://data.odeuropa.eu/experience/3cdf1d8e-ae39-56b2-b898-a5767dc7aa14> .
+    crm:P141_assigned <http://data.odeuropa.eu/vocabulary/edwards/aromatic> ;
+    crm:P17_was_motivated_by <http://data.odeuropa.eu/experience/3cdf1d8e-ae39-56b2-b898-a5767dc7aa14> ;
+    crm:P2_has_type <http://data.odeuropa.eu/attribute-type/character> .
 
 <http://data.odeuropa.eu/experience/3d5e7517-ecbd-525b-9b2a-5893763555f6/assignment/1> a crm:E13_Attribute_Assignment ;
     rdfs:label "vinous"@en ;
@@ -1035,8 +1052,9 @@
 <http://data.odeuropa.eu/experience/3f1e86ba-f232-551e-b19c-e38fa462415b/assignment/1> a crm:E13_Attribute_Assignment ;
     rdfs:label "Aromatick"@en ;
     crm:P140_assigned_attribute_to <http://data.odeuropa.eu/smell/aa8acbcb-eb81-5432-b48c-22f6b66d7458> ;
-    crm:P141_assigned <http://data.odeuropa.eu/attribute/Aromatick_en> ;
-    crm:P17_was_motivated_by <http://data.odeuropa.eu/experience/3f1e86ba-f232-551e-b19c-e38fa462415b> .
+    crm:P141_assigned <http://data.odeuropa.eu/vocabulary/edwards/aromatic> ;
+    crm:P17_was_motivated_by <http://data.odeuropa.eu/experience/3f1e86ba-f232-551e-b19c-e38fa462415b> ;
+    crm:P2_has_type <http://data.odeuropa.eu/attribute-type/character> .
 
 <http://data.odeuropa.eu/experience/4007bb7b-ba21-5eca-ac45-f7667db6130a/assignment/1> a crm:E13_Attribute_Assignment ;
     rdfs:label "foul"@en ;
@@ -1060,9 +1078,10 @@
 <http://data.odeuropa.eu/experience/42a386a8-d0fe-5daa-a794-7b19aa808ea3/assignment/1> a crm:E13_Attribute_Assignment ;
     rdfs:label "hot"@en ;
     crm:P140_assigned_attribute_to <http://data.odeuropa.eu/smell/43b16f55-2806-5da2-806f-e33199cf3549> ;
-    crm:P141_assigned <http://data.odeuropa.eu/attribute/hot_en> ;
+    crm:P141_assigned <http://data.odeuropa.eu/vocabulary/vdi-hedonic/13n> ;
     crm:P14_carried_out_by <http://data.odeuropa.eu/actor/fc971db6-2436-5ecc-85e6-22b77865207e> ;
-    crm:P17_was_motivated_by <http://data.odeuropa.eu/experience/42a386a8-d0fe-5daa-a794-7b19aa808ea3> .
+    crm:P17_was_motivated_by <http://data.odeuropa.eu/experience/42a386a8-d0fe-5daa-a794-7b19aa808ea3> ;
+    crm:P2_has_type <http://data.odeuropa.eu/attribute-type/hedonic> .
 
 <http://data.odeuropa.eu/experience/42a386a8-d0fe-5daa-a794-7b19aa808ea3/assignment/2> a crm:E13_Attribute_Assignment ;
     rdfs:label "reeking"@en ;
@@ -1099,9 +1118,9 @@
 <http://data.odeuropa.eu/experience/4444cea0-d8da-55e4-9956-ca25351432be/assignment/1> a crm:E13_Attribute_Assignment ;
     rdfs:label "so aromatick"@en ;
     crm:P140_assigned_attribute_to <http://data.odeuropa.eu/smell/0c543cfb-961a-5d38-b591-cdc2ccff157b> ;
-    crm:P141_assigned <http://data.odeuropa.eu/attribute/so%20aromatick_en> ;
+    crm:P141_assigned <http://data.odeuropa.eu/vocabulary/edwards/aromatic> ;
     crm:P17_was_motivated_by <http://data.odeuropa.eu/experience/4444cea0-d8da-55e4-9956-ca25351432be> ;
-    rdfs:comment "so"@en .
+    crm:P2_has_type <http://data.odeuropa.eu/attribute-type/character> .
 
 <http://data.odeuropa.eu/experience/4444cea0-d8da-55e4-9956-ca25351432be/assignment/2> a crm:E13_Attribute_Assignment ;
     rdfs:label "comforble"@en ;
@@ -1196,9 +1215,10 @@
 <http://data.odeuropa.eu/experience/4a3ce717-6c37-5909-a325-2ab53bb8c7e9/assignment/1> a crm:E13_Attribute_Assignment ;
     rdfs:label "aromatick"@en ;
     crm:P140_assigned_attribute_to <http://data.odeuropa.eu/smell/f5c94137-2c9a-50a7-bb63-da640aad71f0> ;
-    crm:P141_assigned <http://data.odeuropa.eu/attribute/aromatick_en> ;
+    crm:P141_assigned <http://data.odeuropa.eu/vocabulary/edwards/aromatic> ;
     crm:P14_carried_out_by <http://data.odeuropa.eu/actor/1a2a7421-35dc-5137-b890-2f053a598cb7> ;
-    crm:P17_was_motivated_by <http://data.odeuropa.eu/experience/4a3ce717-6c37-5909-a325-2ab53bb8c7e9> .
+    crm:P17_was_motivated_by <http://data.odeuropa.eu/experience/4a3ce717-6c37-5909-a325-2ab53bb8c7e9> ;
+    crm:P2_has_type <http://data.odeuropa.eu/attribute-type/character> .
 
 <http://data.odeuropa.eu/experience/4bae38c5-3b3c-5424-bca5-ab38f39412b0/assignment/1> a crm:E13_Attribute_Assignment ;
     rdfs:label "offensive"@en ;
@@ -1324,8 +1344,9 @@
 <http://data.odeuropa.eu/experience/583da4bf-e47f-533b-9c10-04334fc7884f/assignment/1> a crm:E13_Attribute_Assignment ;
     rdfs:label "sweet"@en ;
     crm:P140_assigned_attribute_to <http://data.odeuropa.eu/smell/cabb3ba9-390a-5d67-bde8-8f4ccdc4f69c> ;
-    crm:P141_assigned <http://data.odeuropa.eu/attribute/sweet_en> ;
-    crm:P17_was_motivated_by <http://data.odeuropa.eu/experience/583da4bf-e47f-533b-9c10-04334fc7884f> .
+    crm:P141_assigned <http://data.odeuropa.eu/vocabulary/vdi-hedonic/11n> ;
+    crm:P17_was_motivated_by <http://data.odeuropa.eu/experience/583da4bf-e47f-533b-9c10-04334fc7884f> ;
+    crm:P2_has_type <http://data.odeuropa.eu/attribute-type/hedonic> .
 
 <http://data.odeuropa.eu/experience/58d660bb-7c0d-5c94-a115-876b6b4b621e/assignment/1> a crm:E13_Attribute_Assignment ;
     rdfs:label "strong"@en ;
@@ -1376,15 +1397,17 @@
 <http://data.odeuropa.eu/experience/5d9ecb75-0de6-5d70-a6bc-339296166cbc/assignment/1> a crm:E13_Attribute_Assignment ;
     rdfs:label "aromatick"@en ;
     crm:P140_assigned_attribute_to <http://data.odeuropa.eu/smell/5e5387b6-a063-5265-959e-38c97f84ca8d> ;
-    crm:P141_assigned <http://data.odeuropa.eu/attribute/aromatick_en> ;
+    crm:P141_assigned <http://data.odeuropa.eu/vocabulary/edwards/aromatic> ;
     crm:P14_carried_out_by <http://data.odeuropa.eu/actor/1a2a7421-35dc-5137-b890-2f053a598cb7> ;
-    crm:P17_was_motivated_by <http://data.odeuropa.eu/experience/5d9ecb75-0de6-5d70-a6bc-339296166cbc> .
+    crm:P17_was_motivated_by <http://data.odeuropa.eu/experience/5d9ecb75-0de6-5d70-a6bc-339296166cbc> ;
+    crm:P2_has_type <http://data.odeuropa.eu/attribute-type/character> .
 
 <http://data.odeuropa.eu/experience/5e6488f3-8eff-5ec7-a716-94b7cfceccf2/assignment/1> a crm:E13_Attribute_Assignment ;
     rdfs:label "sweet"@en ;
     crm:P140_assigned_attribute_to <http://data.odeuropa.eu/smell/7482af36-92ef-5c33-ba64-108520a1e9fb> ;
-    crm:P141_assigned <http://data.odeuropa.eu/attribute/sweet_en> ;
-    crm:P17_was_motivated_by <http://data.odeuropa.eu/experience/5e6488f3-8eff-5ec7-a716-94b7cfceccf2> .
+    crm:P141_assigned <http://data.odeuropa.eu/vocabulary/vdi-hedonic/11n> ;
+    crm:P17_was_motivated_by <http://data.odeuropa.eu/experience/5e6488f3-8eff-5ec7-a716-94b7cfceccf2> ;
+    crm:P2_has_type <http://data.odeuropa.eu/attribute-type/hedonic> .
 
 <http://data.odeuropa.eu/experience/5f1406c0-6bad-5f5e-9842-bacbe717dfbb/assignment/1> a crm:E13_Attribute_Assignment ;
     rdfs:label "Fetid"@en ;
@@ -1401,8 +1424,9 @@
 <http://data.odeuropa.eu/experience/60b661c8-ae34-5b09-88d3-6ebe7545c891/assignment/1> a crm:E13_Attribute_Assignment ;
     rdfs:label "much more aromatic"@en ;
     crm:P140_assigned_attribute_to <http://data.odeuropa.eu/smell/ce10484d-32d1-58ff-8f4a-c74cb53fffa1> ;
-    crm:P141_assigned <http://data.odeuropa.eu/attribute/much%20more%20aromatic_en> ;
+    crm:P141_assigned <http://data.odeuropa.eu/vocabulary/edwards/aromatic> ;
     crm:P17_was_motivated_by <http://data.odeuropa.eu/experience/60b661c8-ae34-5b09-88d3-6ebe7545c891> ;
+    crm:P2_has_type <http://data.odeuropa.eu/attribute-type/character> ;
     rdfs:comment "much more"@en .
 
 <http://data.odeuropa.eu/experience/610c35ae-7e52-55c7-9bc9-f5d8612400b0/assignment/1> a crm:E13_Attribute_Assignment ;
@@ -1426,9 +1450,8 @@
 <http://data.odeuropa.eu/experience/63a892b8-03a5-5469-ab2f-b5a4e3978b66/assignment/1> a crm:E13_Attribute_Assignment ;
     rdfs:label "body"@en ;
     crm:P140_assigned_attribute_to <http://data.odeuropa.eu/smell/c115d949-fee1-5be6-87c8-08642dcf24f0> ;
-    crm:P141_assigned <http://data.odeuropa.eu/vocabulary/olfactory-objects/533> ;
-    crm:P17_was_motivated_by <http://data.odeuropa.eu/experience/63a892b8-03a5-5469-ab2f-b5a4e3978b66> ;
-    crm:P2_has_type <http://data.odeuropa.eu/attribute-type/intensity> .
+    crm:P141_assigned <http://data.odeuropa.eu/attribute/body_en> ;
+    crm:P17_was_motivated_by <http://data.odeuropa.eu/experience/63a892b8-03a5-5469-ab2f-b5a4e3978b66> .
 
 <http://data.odeuropa.eu/experience/64082e72-bf62-5f22-a91e-ce0ac7c6d2d4/assignment/1> a crm:E13_Attribute_Assignment ;
     rdfs:label "much the strongest"@en ;
@@ -1465,8 +1488,9 @@
 <http://data.odeuropa.eu/experience/65bc1c45-8006-5f32-be70-ed7b6f3ce7a8/assignment/1> a crm:E13_Attribute_Assignment ;
     rdfs:label "delicate"@en ;
     crm:P140_assigned_attribute_to <http://data.odeuropa.eu/smell/1e874399-4107-5d65-b3ff-66dcf50aab14> ;
-    crm:P141_assigned <http://data.odeuropa.eu/attribute/delicate_en> ;
-    crm:P17_was_motivated_by <http://data.odeuropa.eu/experience/65bc1c45-8006-5f32-be70-ed7b6f3ce7a8> .
+    crm:P141_assigned <http://data.odeuropa.eu/vocabulary/vdi-hedonic/04n> ;
+    crm:P17_was_motivated_by <http://data.odeuropa.eu/experience/65bc1c45-8006-5f32-be70-ed7b6f3ce7a8> ;
+    crm:P2_has_type <http://data.odeuropa.eu/attribute-type/hedonic> .
 
 <http://data.odeuropa.eu/experience/660911ef-dff0-533e-a797-bd8d7323faa6/assignment/1> a crm:E13_Attribute_Assignment ;
     rdfs:label "fetid"@en ;
@@ -1513,8 +1537,9 @@
 <http://data.odeuropa.eu/experience/6890be14-9f59-5d4b-949b-bb877f4123b2/assignment/1> a crm:E13_Attribute_Assignment ;
     rdfs:label "very delicate"@en ;
     crm:P140_assigned_attribute_to <http://data.odeuropa.eu/smell/16fdce69-b881-5801-b82e-ebfa021caa5f> ;
-    crm:P141_assigned <http://data.odeuropa.eu/attribute/very%20delicate_en> ;
+    crm:P141_assigned <http://data.odeuropa.eu/vocabulary/vdi-hedonic/04n> ;
     crm:P17_was_motivated_by <http://data.odeuropa.eu/experience/6890be14-9f59-5d4b-949b-bb877f4123b2> ;
+    crm:P2_has_type <http://data.odeuropa.eu/attribute-type/hedonic> ;
     rdfs:comment "very"@en .
 
 <http://data.odeuropa.eu/experience/69849229-a3e0-54a3-8149-18cf56a04d8e/assignment/1> a crm:E13_Attribute_Assignment ;
@@ -1526,8 +1551,9 @@
 <http://data.odeuropa.eu/experience/6ad107c2-f22c-5d7b-8348-5ef31d2b7571/assignment/1> a crm:E13_Attribute_Assignment ;
     rdfs:label "aromatic"@en ;
     crm:P140_assigned_attribute_to <http://data.odeuropa.eu/smell/d2dca6c0-e130-5828-b7e2-f75526b6daa5> ;
-    crm:P141_assigned <http://data.odeuropa.eu/attribute/aromatic_en> ;
-    crm:P17_was_motivated_by <http://data.odeuropa.eu/experience/6ad107c2-f22c-5d7b-8348-5ef31d2b7571> .
+    crm:P141_assigned <http://data.odeuropa.eu/vocabulary/edwards/aromatic> ;
+    crm:P17_was_motivated_by <http://data.odeuropa.eu/experience/6ad107c2-f22c-5d7b-8348-5ef31d2b7571> ;
+    crm:P2_has_type <http://data.odeuropa.eu/attribute-type/character> .
 
 <http://data.odeuropa.eu/experience/6aea5708-86c9-5763-a6ac-7389a946d68b/assignment/1> a crm:E13_Attribute_Assignment ;
     rdfs:label "scented"@en ;
@@ -1558,8 +1584,9 @@
 <http://data.odeuropa.eu/experience/6ea14e25-c367-5e9c-904e-38c0c342f8c3/assignment/1> a crm:E13_Attribute_Assignment ;
     rdfs:label "sweet"@en ;
     crm:P140_assigned_attribute_to <http://data.odeuropa.eu/smell/3f432ae6-1cbc-5af9-a462-6296fe63cead> ;
-    crm:P141_assigned <http://data.odeuropa.eu/attribute/sweet_en> ;
-    crm:P17_was_motivated_by <http://data.odeuropa.eu/experience/6ea14e25-c367-5e9c-904e-38c0c342f8c3> .
+    crm:P141_assigned <http://data.odeuropa.eu/vocabulary/vdi-hedonic/11n> ;
+    crm:P17_was_motivated_by <http://data.odeuropa.eu/experience/6ea14e25-c367-5e9c-904e-38c0c342f8c3> ;
+    crm:P2_has_type <http://data.odeuropa.eu/attribute-type/hedonic> .
 
 <http://data.odeuropa.eu/experience/6ea14e25-c367-5e9c-904e-38c0c342f8c3/assignment/2> a crm:E13_Attribute_Assignment ;
     rdfs:label "rich"@en ;
@@ -1596,8 +1623,9 @@
 <http://data.odeuropa.eu/experience/6fdf6939-5481-5d2d-a0b1-f443d8f565e7/assignment/1> a crm:E13_Attribute_Assignment ;
     rdfs:label "fine"@en ;
     crm:P140_assigned_attribute_to <http://data.odeuropa.eu/smell/44a99338-f8f8-5b51-ad03-ebdcd26bf23d> ;
-    crm:P141_assigned <http://data.odeuropa.eu/attribute/fine_en> ;
-    crm:P17_was_motivated_by <http://data.odeuropa.eu/experience/6fdf6939-5481-5d2d-a0b1-f443d8f565e7> .
+    crm:P141_assigned <http://data.odeuropa.eu/vocabulary/vdi-hedonic/02n> ;
+    crm:P17_was_motivated_by <http://data.odeuropa.eu/experience/6fdf6939-5481-5d2d-a0b1-f443d8f565e7> ;
+    crm:P2_has_type <http://data.odeuropa.eu/attribute-type/hedonic> .
 
 <http://data.odeuropa.eu/experience/6fdf6939-5481-5d2d-a0b1-f443d8f565e7/assignment/2> a crm:E13_Attribute_Assignment ;
     rdfs:label "etherealised"@en ;
@@ -1614,9 +1642,10 @@
 <http://data.odeuropa.eu/experience/6ff818a1-1c34-5c14-8ffb-8cecbf29cc30/assignment/1> a crm:E13_Attribute_Assignment ;
     rdfs:label "slight"@en ;
     crm:P140_assigned_attribute_to <http://data.odeuropa.eu/smell/d13246f5-1929-55b5-a742-42962f6c8623> ;
-    crm:P141_assigned <http://data.odeuropa.eu/attribute/slight_en> ;
+    crm:P141_assigned <http://data.odeuropa.eu/vocabulary/vdi-hedonic/05n> ;
     crm:P14_carried_out_by <http://data.odeuropa.eu/actor/c32cc985-c316-53fe-8229-802d9225f78a> ;
-    crm:P17_was_motivated_by <http://data.odeuropa.eu/experience/6ff818a1-1c34-5c14-8ffb-8cecbf29cc30> .
+    crm:P17_was_motivated_by <http://data.odeuropa.eu/experience/6ff818a1-1c34-5c14-8ffb-8cecbf29cc30> ;
+    crm:P2_has_type <http://data.odeuropa.eu/attribute-type/hedonic> .
 
 <http://data.odeuropa.eu/experience/70379cd1-1395-537e-b95a-e749c6fe8694/assignment/1> a crm:E13_Attribute_Assignment ;
     rdfs:label "peculiar"@en ;
@@ -1634,8 +1663,9 @@
 <http://data.odeuropa.eu/experience/70cdfa42-cac3-5242-8cce-ab5d0f1d588a/assignment/1> a crm:E13_Attribute_Assignment ;
     rdfs:label "Aromatick"@en ;
     crm:P140_assigned_attribute_to <http://data.odeuropa.eu/smell/000c1a9f-6603-5fde-b4e5-d72516c4b8ee> ;
-    crm:P141_assigned <http://data.odeuropa.eu/attribute/Aromatick_en> ;
-    crm:P17_was_motivated_by <http://data.odeuropa.eu/experience/70cdfa42-cac3-5242-8cce-ab5d0f1d588a> .
+    crm:P141_assigned <http://data.odeuropa.eu/vocabulary/edwards/aromatic> ;
+    crm:P17_was_motivated_by <http://data.odeuropa.eu/experience/70cdfa42-cac3-5242-8cce-ab5d0f1d588a> ;
+    crm:P2_has_type <http://data.odeuropa.eu/attribute-type/character> .
 
 <http://data.odeuropa.eu/experience/71a5bbdc-9557-55f8-8e5a-cda1ca9501c0/assignment/1> a crm:E13_Attribute_Assignment ;
     rdfs:label "perceptible"@en ;
@@ -1709,8 +1739,9 @@
 <http://data.odeuropa.eu/experience/7509aeac-a0c3-543d-aec2-6c0d7cd34a22/assignment/1> a crm:E13_Attribute_Assignment ;
     rdfs:label "aromatic"@en ;
     crm:P140_assigned_attribute_to <http://data.odeuropa.eu/smell/529a1be4-5fe2-510c-a4fc-47851ddcfc62> ;
-    crm:P141_assigned <http://data.odeuropa.eu/attribute/aromatic_en> ;
-    crm:P17_was_motivated_by <http://data.odeuropa.eu/experience/7509aeac-a0c3-543d-aec2-6c0d7cd34a22> .
+    crm:P141_assigned <http://data.odeuropa.eu/vocabulary/edwards/aromatic> ;
+    crm:P17_was_motivated_by <http://data.odeuropa.eu/experience/7509aeac-a0c3-543d-aec2-6c0d7cd34a22> ;
+    crm:P2_has_type <http://data.odeuropa.eu/attribute-type/character> .
 
 <http://data.odeuropa.eu/experience/7592314d-73f3-5459-bfca-044684926c41/assignment/1> a crm:E13_Attribute_Assignment ;
     rdfs:label "natural"@en ;
@@ -1755,8 +1786,9 @@
 <http://data.odeuropa.eu/experience/7713e15c-f8b4-55a7-bb0a-3136962b0cfe/assignment/1> a crm:E13_Attribute_Assignment ;
     rdfs:label "pungent"@en ;
     crm:P140_assigned_attribute_to <http://data.odeuropa.eu/smell/73a82ade-49a5-5b55-8a7d-8c57cdde5511> ;
-    crm:P141_assigned <http://data.odeuropa.eu/attribute/pungent_en> ;
-    crm:P17_was_motivated_by <http://data.odeuropa.eu/experience/7713e15c-f8b4-55a7-bb0a-3136962b0cfe> .
+    crm:P141_assigned <http://data.odeuropa.eu/vocabulary/vdi-hedonic/19n> ;
+    crm:P17_was_motivated_by <http://data.odeuropa.eu/experience/7713e15c-f8b4-55a7-bb0a-3136962b0cfe> ;
+    crm:P2_has_type <http://data.odeuropa.eu/attribute-type/hedonic> .
 
 <http://data.odeuropa.eu/experience/7713e15c-f8b4-55a7-bb0a-3136962b0cfe/assignment/2> a crm:E13_Attribute_Assignment ;
     rdfs:label "slightly acid"@en ;
@@ -1792,8 +1824,9 @@
 <http://data.odeuropa.eu/experience/77edfca6-2f8b-55ff-a7e5-92109b40340d/assignment/1> a crm:E13_Attribute_Assignment ;
     rdfs:label "aromaticall"@en ;
     crm:P140_assigned_attribute_to <http://data.odeuropa.eu/smell/f8bdc559-5c39-5951-9328-120e4ace6355> ;
-    crm:P141_assigned <http://data.odeuropa.eu/attribute/aromaticall_en> ;
-    crm:P17_was_motivated_by <http://data.odeuropa.eu/experience/77edfca6-2f8b-55ff-a7e5-92109b40340d> .
+    crm:P141_assigned <http://data.odeuropa.eu/vocabulary/edwards/aromatic> ;
+    crm:P17_was_motivated_by <http://data.odeuropa.eu/experience/77edfca6-2f8b-55ff-a7e5-92109b40340d> ;
+    crm:P2_has_type <http://data.odeuropa.eu/attribute-type/character> .
 
 <http://data.odeuropa.eu/experience/7837aa38-f48f-5d7f-86ef-8f9416fe408c/assignment/1> a crm:E13_Attribute_Assignment ;
     rdfs:label "almost intolerable"@en ;
@@ -1818,8 +1851,9 @@
 <http://data.odeuropa.eu/experience/78c13244-d861-5e08-8a48-1ef1e4309492/assignment/1> a crm:E13_Attribute_Assignment ;
     rdfs:label "pleasing"@en ;
     crm:P140_assigned_attribute_to <http://data.odeuropa.eu/smell/433dd3a6-b8d4-5a3f-af41-73ea11ccdd10> ;
-    crm:P141_assigned <http://data.odeuropa.eu/attribute/pleasing_en> ;
-    crm:P17_was_motivated_by <http://data.odeuropa.eu/experience/78c13244-d861-5e08-8a48-1ef1e4309492> .
+    crm:P141_assigned <http://data.odeuropa.eu/vocabulary/vdi-hedonic/29p> ;
+    crm:P17_was_motivated_by <http://data.odeuropa.eu/experience/78c13244-d861-5e08-8a48-1ef1e4309492> ;
+    crm:P2_has_type <http://data.odeuropa.eu/attribute-type/hedonic> .
 
 <http://data.odeuropa.eu/experience/790c812d-b6ae-53a2-8c2c-761ad5a69575/assignment/1> a crm:E13_Attribute_Assignment ;
     rdfs:label "foul"@en ;
@@ -1864,8 +1898,9 @@
 <http://data.odeuropa.eu/experience/7bcf2f07-8904-5297-b228-7663aa039054/assignment/1> a crm:E13_Attribute_Assignment ;
     rdfs:label "bitter"@en ;
     crm:P140_assigned_attribute_to <http://data.odeuropa.eu/smell/267e2c49-e77e-55e1-a81f-9a94b7bf5aee> ;
-    crm:P141_assigned <http://data.odeuropa.eu/attribute/bitter_en> ;
-    crm:P17_was_motivated_by <http://data.odeuropa.eu/experience/7bcf2f07-8904-5297-b228-7663aa039054> .
+    crm:P141_assigned <http://data.odeuropa.eu/vocabulary/vdi-hedonic/11p> ;
+    crm:P17_was_motivated_by <http://data.odeuropa.eu/experience/7bcf2f07-8904-5297-b228-7663aa039054> ;
+    crm:P2_has_type <http://data.odeuropa.eu/attribute-type/hedonic> .
 
 <http://data.odeuropa.eu/experience/7de649b1-3a98-59bd-9640-ebb3f668a1ed/assignment/1> a crm:E13_Attribute_Assignment ;
     rdfs:label "pulmonary"@en ;
@@ -1890,8 +1925,9 @@
 <http://data.odeuropa.eu/experience/7f5f2c45-ff59-5fd0-b287-c63530221ad8/assignment/1> a crm:E13_Attribute_Assignment ;
     rdfs:label "sweet"@en ;
     crm:P140_assigned_attribute_to <http://data.odeuropa.eu/smell/11fba162-6622-5e8e-bec3-05c8f19ec386> ;
-    crm:P141_assigned <http://data.odeuropa.eu/attribute/sweet_en> ;
-    crm:P17_was_motivated_by <http://data.odeuropa.eu/experience/7f5f2c45-ff59-5fd0-b287-c63530221ad8> .
+    crm:P141_assigned <http://data.odeuropa.eu/vocabulary/vdi-hedonic/11n> ;
+    crm:P17_was_motivated_by <http://data.odeuropa.eu/experience/7f5f2c45-ff59-5fd0-b287-c63530221ad8> ;
+    crm:P2_has_type <http://data.odeuropa.eu/attribute-type/hedonic> .
 
 <http://data.odeuropa.eu/experience/7f83b269-ce8d-5003-ac93-b35592be3c44/assignment/1> a crm:E13_Attribute_Assignment ;
     rdfs:label "bad"@en ;
@@ -2005,8 +2041,9 @@
 <http://data.odeuropa.eu/experience/871ba6aa-3a24-5471-a4c5-0d3ab898532c/assignment/1> a crm:E13_Attribute_Assignment ;
     rdfs:label "slight"@en ;
     crm:P140_assigned_attribute_to <http://data.odeuropa.eu/smell/965fbaf8-00e2-50e5-9216-569f35a97d53> ;
-    crm:P141_assigned <http://data.odeuropa.eu/attribute/slight_en> ;
-    crm:P17_was_motivated_by <http://data.odeuropa.eu/experience/871ba6aa-3a24-5471-a4c5-0d3ab898532c> .
+    crm:P141_assigned <http://data.odeuropa.eu/vocabulary/vdi-hedonic/05n> ;
+    crm:P17_was_motivated_by <http://data.odeuropa.eu/experience/871ba6aa-3a24-5471-a4c5-0d3ab898532c> ;
+    crm:P2_has_type <http://data.odeuropa.eu/attribute-type/hedonic> .
 
 <http://data.odeuropa.eu/experience/871ba6aa-3a24-5471-a4c5-0d3ab898532c/assignment/2> a crm:E13_Attribute_Assignment ;
     rdfs:label "imperceptible"@en ;
@@ -2036,8 +2073,9 @@
 <http://data.odeuropa.eu/experience/87fbb827-1644-5bf0-9a25-1119dbfe3249/assignment/1> a crm:E13_Attribute_Assignment ;
     rdfs:label "Floral"@en ;
     crm:P140_assigned_attribute_to <http://data.odeuropa.eu/smell/66b4a092-5d82-543d-b132-daad2c8fdebb> ;
-    crm:P141_assigned <http://data.odeuropa.eu/attribute/Floral_en> ;
-    crm:P17_was_motivated_by <http://data.odeuropa.eu/experience/87fbb827-1644-5bf0-9a25-1119dbfe3249> .
+    crm:P141_assigned <http://data.odeuropa.eu/vocabulary/edwards/floral> ;
+    crm:P17_was_motivated_by <http://data.odeuropa.eu/experience/87fbb827-1644-5bf0-9a25-1119dbfe3249> ;
+    crm:P2_has_type <http://data.odeuropa.eu/attribute-type/character> .
 
 <http://data.odeuropa.eu/experience/8831690e-2f71-5fef-9298-7a804d2c5323/assignment/1> a crm:E13_Attribute_Assignment ;
     rdfs:label "specific"@en ;
@@ -2081,8 +2119,9 @@
 <http://data.odeuropa.eu/experience/899a2139-0d95-50e9-b53e-f38cef74e093/assignment/1> a crm:E13_Attribute_Assignment ;
     rdfs:label "Pungent"@en ;
     crm:P140_assigned_attribute_to <http://data.odeuropa.eu/smell/8b9b0448-59d3-566d-8adc-eebd6fe33a09> ;
-    crm:P141_assigned <http://data.odeuropa.eu/attribute/Pungent_en> ;
-    crm:P17_was_motivated_by <http://data.odeuropa.eu/experience/899a2139-0d95-50e9-b53e-f38cef74e093> .
+    crm:P141_assigned <http://data.odeuropa.eu/vocabulary/vdi-hedonic/19n> ;
+    crm:P17_was_motivated_by <http://data.odeuropa.eu/experience/899a2139-0d95-50e9-b53e-f38cef74e093> ;
+    crm:P2_has_type <http://data.odeuropa.eu/attribute-type/hedonic> .
 
 <http://data.odeuropa.eu/experience/899a2139-0d95-50e9-b53e-f38cef74e093/assignment/2> a crm:E13_Attribute_Assignment ;
     rdfs:label "Volatile"@en ;
@@ -2123,8 +2162,9 @@
 <http://data.odeuropa.eu/experience/8de7d4bb-1754-5829-99aa-b326c573a9b2/assignment/2> a crm:E13_Attribute_Assignment ;
     rdfs:label "sweet"@en ;
     crm:P140_assigned_attribute_to <http://data.odeuropa.eu/smell/338968a8-1d38-5d5f-a8a0-ddf3bf62882b> ;
-    crm:P141_assigned <http://data.odeuropa.eu/attribute/sweet_en> ;
-    crm:P17_was_motivated_by <http://data.odeuropa.eu/experience/8de7d4bb-1754-5829-99aa-b326c573a9b2> .
+    crm:P141_assigned <http://data.odeuropa.eu/vocabulary/vdi-hedonic/11n> ;
+    crm:P17_was_motivated_by <http://data.odeuropa.eu/experience/8de7d4bb-1754-5829-99aa-b326c573a9b2> ;
+    crm:P2_has_type <http://data.odeuropa.eu/attribute-type/hedonic> .
 
 <http://data.odeuropa.eu/experience/8de7d4bb-1754-5829-99aa-b326c573a9b2/assignment/3> a crm:E13_Attribute_Assignment ;
     rdfs:label "ethereaT"@en ;
@@ -2207,15 +2247,17 @@
 <http://data.odeuropa.eu/experience/96891ddb-8d99-53d1-b4f4-bf7a8a659bb9/assignment/1> a crm:E13_Attribute_Assignment ;
     rdfs:label "as sweet"@en ;
     crm:P140_assigned_attribute_to <http://data.odeuropa.eu/smell/0b385bcb-079f-5c48-9644-a83dc43396bf> ;
-    crm:P141_assigned <http://data.odeuropa.eu/attribute/as%20sweet_en> ;
+    crm:P141_assigned <http://data.odeuropa.eu/vocabulary/vdi-hedonic/11n> ;
     crm:P17_was_motivated_by <http://data.odeuropa.eu/experience/96891ddb-8d99-53d1-b4f4-bf7a8a659bb9> ;
+    crm:P2_has_type <http://data.odeuropa.eu/attribute-type/hedonic> ;
     rdfs:comment "as"@en .
 
 <http://data.odeuropa.eu/experience/97ecee95-d1db-5cce-a140-19d6910d5861/assignment/1> a crm:E13_Attribute_Assignment ;
     rdfs:label "too fresh"@en ;
     crm:P140_assigned_attribute_to <http://data.odeuropa.eu/smell/4dcd84b7-e3e1-5b94-a92a-b2abdaba6a8d> ;
-    crm:P141_assigned <http://data.odeuropa.eu/attribute/too%20fresh_en> ;
+    crm:P141_assigned <http://data.odeuropa.eu/vocabulary/vdi-hedonic/23p> ;
     crm:P17_was_motivated_by <http://data.odeuropa.eu/experience/97ecee95-d1db-5cce-a140-19d6910d5861> ;
+    crm:P2_has_type <http://data.odeuropa.eu/attribute-type/hedonic> ;
     rdfs:comment "too"@en .
 
 <http://data.odeuropa.eu/experience/981fcaa8-443c-51d9-b6e8-a0f545d77a04/assignment/1> a crm:E13_Attribute_Assignment ;
@@ -2240,8 +2282,9 @@
 <http://data.odeuropa.eu/experience/992d2648-d6ad-5b3c-baf4-8d961b88b192/assignment/2> a crm:E13_Attribute_Assignment ;
     rdfs:label "fine"@en ;
     crm:P140_assigned_attribute_to <http://data.odeuropa.eu/smell/9a7f236f-0616-5cb6-927a-d332d02fee40> ;
-    crm:P141_assigned <http://data.odeuropa.eu/attribute/fine_en> ;
-    crm:P17_was_motivated_by <http://data.odeuropa.eu/experience/992d2648-d6ad-5b3c-baf4-8d961b88b192> .
+    crm:P141_assigned <http://data.odeuropa.eu/vocabulary/vdi-hedonic/02n> ;
+    crm:P17_was_motivated_by <http://data.odeuropa.eu/experience/992d2648-d6ad-5b3c-baf4-8d961b88b192> ;
+    crm:P2_has_type <http://data.odeuropa.eu/attribute-type/hedonic> .
 
 <http://data.odeuropa.eu/experience/99aa3f70-b6a5-5c90-a8d9-1bbfe17b553e/assignment/1> a crm:E13_Attribute_Assignment ;
     rdfs:label "strong"@en ;
@@ -2372,8 +2415,9 @@
 <http://data.odeuropa.eu/experience/a5237b1b-278e-51ee-9006-fb2bd50a258c/assignment/1> a crm:E13_Attribute_Assignment ;
     rdfs:label "sweet"@en ;
     crm:P140_assigned_attribute_to <http://data.odeuropa.eu/smell/3ecc7e3b-2847-56f6-bb91-c5d45aa91da5> ;
-    crm:P141_assigned <http://data.odeuropa.eu/attribute/sweet_en> ;
-    crm:P17_was_motivated_by <http://data.odeuropa.eu/experience/a5237b1b-278e-51ee-9006-fb2bd50a258c> .
+    crm:P141_assigned <http://data.odeuropa.eu/vocabulary/vdi-hedonic/11n> ;
+    crm:P17_was_motivated_by <http://data.odeuropa.eu/experience/a5237b1b-278e-51ee-9006-fb2bd50a258c> ;
+    crm:P2_has_type <http://data.odeuropa.eu/attribute-type/hedonic> .
 
 <http://data.odeuropa.eu/experience/a58b7c3e-5c71-5bfd-ab29-bb9b2289ef91/assignment/1> a crm:E13_Attribute_Assignment ;
     rdfs:label "fetid"@en ;
@@ -2421,8 +2465,9 @@
 <http://data.odeuropa.eu/experience/abd87089-b282-5420-b49f-c78312525a56/assignment/1> a crm:E13_Attribute_Assignment ;
     rdfs:label "pungent"@en ;
     crm:P140_assigned_attribute_to <http://data.odeuropa.eu/smell/479090ec-256b-5a04-9763-b5d2381b241e> ;
-    crm:P141_assigned <http://data.odeuropa.eu/attribute/pungent_en> ;
-    crm:P17_was_motivated_by <http://data.odeuropa.eu/experience/abd87089-b282-5420-b49f-c78312525a56> .
+    crm:P141_assigned <http://data.odeuropa.eu/vocabulary/vdi-hedonic/19n> ;
+    crm:P17_was_motivated_by <http://data.odeuropa.eu/experience/abd87089-b282-5420-b49f-c78312525a56> ;
+    crm:P2_has_type <http://data.odeuropa.eu/attribute-type/hedonic> .
 
 <http://data.odeuropa.eu/experience/ad644f44-d114-5a70-b94b-0052c37473db/assignment/1> a crm:E13_Attribute_Assignment ;
     rdfs:label "faint"@en ;
@@ -2465,14 +2510,16 @@
 <http://data.odeuropa.eu/experience/b06c4a6f-aba0-5ffe-96ca-ea62aec2444a/assignment/1> a crm:E13_Attribute_Assignment ;
     rdfs:label "aromatic"@en ;
     crm:P140_assigned_attribute_to <http://data.odeuropa.eu/smell/05709b18-ffe2-5b60-9953-db7e52f3e25b> ;
-    crm:P141_assigned <http://data.odeuropa.eu/attribute/aromatic_en> ;
-    crm:P17_was_motivated_by <http://data.odeuropa.eu/experience/b06c4a6f-aba0-5ffe-96ca-ea62aec2444a> .
+    crm:P141_assigned <http://data.odeuropa.eu/vocabulary/edwards/aromatic> ;
+    crm:P17_was_motivated_by <http://data.odeuropa.eu/experience/b06c4a6f-aba0-5ffe-96ca-ea62aec2444a> ;
+    crm:P2_has_type <http://data.odeuropa.eu/attribute-type/character> .
 
 <http://data.odeuropa.eu/experience/b08730fe-e80e-5ad8-b284-4f9f2bf99b4d/assignment/1> a crm:E13_Attribute_Assignment ;
     rdfs:label "sweet"@en ;
     crm:P140_assigned_attribute_to <http://data.odeuropa.eu/smell/5d271b78-a946-500f-961a-66798211229d> ;
-    crm:P141_assigned <http://data.odeuropa.eu/attribute/sweet_en> ;
-    crm:P17_was_motivated_by <http://data.odeuropa.eu/experience/b08730fe-e80e-5ad8-b284-4f9f2bf99b4d> .
+    crm:P141_assigned <http://data.odeuropa.eu/vocabulary/vdi-hedonic/11n> ;
+    crm:P17_was_motivated_by <http://data.odeuropa.eu/experience/b08730fe-e80e-5ad8-b284-4f9f2bf99b4d> ;
+    crm:P2_has_type <http://data.odeuropa.eu/attribute-type/hedonic> .
 
 <http://data.odeuropa.eu/experience/b133a74a-8a89-5503-97fa-56d0c1bcc267/assignment/1> a crm:E13_Attribute_Assignment ;
     rdfs:label "fragrant"@en ;
@@ -2495,9 +2542,10 @@
 <http://data.odeuropa.eu/experience/b26422a1-4507-556e-b645-15497b124431/assignment/1> a crm:E13_Attribute_Assignment ;
     rdfs:label "sweet"@en ;
     crm:P140_assigned_attribute_to <http://data.odeuropa.eu/smell/9fad55af-2b44-549b-91ac-c0794d7d5aab> ;
-    crm:P141_assigned <http://data.odeuropa.eu/attribute/sweet_en> ;
+    crm:P141_assigned <http://data.odeuropa.eu/vocabulary/vdi-hedonic/11n> ;
     crm:P14_carried_out_by <http://data.odeuropa.eu/actor/9a35fd84-7c93-5f0e-ad03-61d1ee93c539> ;
-    crm:P17_was_motivated_by <http://data.odeuropa.eu/experience/b26422a1-4507-556e-b645-15497b124431> .
+    crm:P17_was_motivated_by <http://data.odeuropa.eu/experience/b26422a1-4507-556e-b645-15497b124431> ;
+    crm:P2_has_type <http://data.odeuropa.eu/attribute-type/hedonic> .
 
 <http://data.odeuropa.eu/experience/b2a21dbb-e1f7-563c-8644-6d7e253cd2ee/assignment/1> a crm:E13_Attribute_Assignment ;
     rdfs:label "stinking"@en ;
@@ -2508,8 +2556,9 @@
 <http://data.odeuropa.eu/experience/b2a5f24b-c2ae-5e4e-b9ba-341e1e5e94b8/assignment/1> a crm:E13_Attribute_Assignment ;
     rdfs:label "most delicate"@en ;
     crm:P140_assigned_attribute_to <http://data.odeuropa.eu/smell/73d744ef-545d-5970-a8d2-99edf7d7f219> ;
-    crm:P141_assigned <http://data.odeuropa.eu/attribute/most%20delicate_en> ;
+    crm:P141_assigned <http://data.odeuropa.eu/vocabulary/vdi-hedonic/04n> ;
     crm:P17_was_motivated_by <http://data.odeuropa.eu/experience/b2a5f24b-c2ae-5e4e-b9ba-341e1e5e94b8> ;
+    crm:P2_has_type <http://data.odeuropa.eu/attribute-type/hedonic> ;
     rdfs:comment "most"@en .
 
 <http://data.odeuropa.eu/experience/b2fe23a6-7d63-56fa-bd36-2fc935adbc1e/assignment/1> a crm:E13_Attribute_Assignment ;
@@ -2570,8 +2619,9 @@
 <http://data.odeuropa.eu/experience/b873e858-4bd0-5b0d-9728-69ed2f8b4036/assignment/1> a crm:E13_Attribute_Assignment ;
     rdfs:label "pungent"@en ;
     crm:P140_assigned_attribute_to <http://data.odeuropa.eu/smell/dd40d26d-1ac5-505f-a663-9610aaef1b14> ;
-    crm:P141_assigned <http://data.odeuropa.eu/attribute/pungent_en> ;
-    crm:P17_was_motivated_by <http://data.odeuropa.eu/experience/b873e858-4bd0-5b0d-9728-69ed2f8b4036> .
+    crm:P141_assigned <http://data.odeuropa.eu/vocabulary/vdi-hedonic/19n> ;
+    crm:P17_was_motivated_by <http://data.odeuropa.eu/experience/b873e858-4bd0-5b0d-9728-69ed2f8b4036> ;
+    crm:P2_has_type <http://data.odeuropa.eu/attribute-type/hedonic> .
 
 <http://data.odeuropa.eu/experience/b87e419e-f1a9-59de-949f-25dac03e8d8a/assignment/1> a crm:E13_Attribute_Assignment ;
     rdfs:label "foul"@en ;
@@ -2627,15 +2677,16 @@
 <http://data.odeuropa.eu/experience/c0c84805-5f8a-54f2-b3a3-2946cd4ab1f4/assignment/1> a crm:E13_Attribute_Assignment ;
     rdfs:label "very hot"@en ;
     crm:P140_assigned_attribute_to <http://data.odeuropa.eu/smell/394062f7-7988-5ab4-b7c2-4c2bf91db09a> ;
-    crm:P141_assigned <http://data.odeuropa.eu/attribute/very%20hot_en> ;
+    crm:P141_assigned <http://data.odeuropa.eu/vocabulary/vdi-hedonic/13n> ;
     crm:P17_was_motivated_by <http://data.odeuropa.eu/experience/c0c84805-5f8a-54f2-b3a3-2946cd4ab1f4> ;
+    crm:P2_has_type <http://data.odeuropa.eu/attribute-type/hedonic> ;
     rdfs:comment "very"@en .
 
 <http://data.odeuropa.eu/experience/c0d51401-8279-5c20-a40f-76d30480074d/assignment/1> a crm:E13_Attribute_Assignment ;
     rdfs:label "sickening"@en ;
     crm:P140_assigned_attribute_to <http://data.odeuropa.eu/smell/be6e7480-50f4-5c94-a400-f55f661d9786> ;
     crm:P141_assigned <http://data.odeuropa.eu/attribute/sickening_en> ;
-    crm:P14_carried_out_by <http://data.odeuropa.eu/actor/7ff74e30-7946-5c8b-844e-c17558de14ed> ;
+    crm:P14_carried_out_by <http://data.odeuropa.eu/actor/6cb55cf3-73c3-58f0-b4b5-c9a2b2cd0234> ;
     crm:P17_was_motivated_by <http://data.odeuropa.eu/experience/c0d51401-8279-5c20-a40f-76d30480074d> .
 
 <http://data.odeuropa.eu/experience/c1f7571a-09f7-5e87-a8a3-6b3fdda18dee/assignment/1> a crm:E13_Attribute_Assignment ;
@@ -2653,14 +2704,16 @@
 <http://data.odeuropa.eu/experience/c2e7f537-74d8-5305-bd19-b5a6feead35c/assignment/1> a crm:E13_Attribute_Assignment ;
     rdfs:label "the most interesting"@en ;
     crm:P140_assigned_attribute_to <http://data.odeuropa.eu/smell/26c46483-dab4-5e16-8a1a-55d23dc59781> ;
-    crm:P141_assigned <http://data.odeuropa.eu/attribute/the%20most%20interesting_en> ;
-    crm:P17_was_motivated_by <http://data.odeuropa.eu/experience/c2e7f537-74d8-5305-bd19-b5a6feead35c> .
+    crm:P141_assigned <http://data.odeuropa.eu/vocabulary/vdi-hedonic/12p> ;
+    crm:P17_was_motivated_by <http://data.odeuropa.eu/experience/c2e7f537-74d8-5305-bd19-b5a6feead35c> ;
+    crm:P2_has_type <http://data.odeuropa.eu/attribute-type/hedonic> .
 
 <http://data.odeuropa.eu/experience/c311c32a-15ac-5a09-ba77-613d73e195f8/assignment/1> a crm:E13_Attribute_Assignment ;
     rdfs:label "pungent"@en ;
     crm:P140_assigned_attribute_to <http://data.odeuropa.eu/smell/02177480-6b33-5f1d-8125-2a375e0883d4> ;
-    crm:P141_assigned <http://data.odeuropa.eu/attribute/pungent_en> ;
-    crm:P17_was_motivated_by <http://data.odeuropa.eu/experience/c311c32a-15ac-5a09-ba77-613d73e195f8> .
+    crm:P141_assigned <http://data.odeuropa.eu/vocabulary/vdi-hedonic/19n> ;
+    crm:P17_was_motivated_by <http://data.odeuropa.eu/experience/c311c32a-15ac-5a09-ba77-613d73e195f8> ;
+    crm:P2_has_type <http://data.odeuropa.eu/attribute-type/hedonic> .
 
 <http://data.odeuropa.eu/experience/c4016572-ba01-5105-802f-7bbeebc085db/assignment/1> a crm:E13_Attribute_Assignment ;
     rdfs:label "overpowering"@en ;
@@ -2733,14 +2786,16 @@
 <http://data.odeuropa.eu/experience/c8ffdab1-aae7-5d7e-86ce-4f1526163681/assignment/1> a crm:E13_Attribute_Assignment ;
     rdfs:label "aromatic"@en ;
     crm:P140_assigned_attribute_to <http://data.odeuropa.eu/smell/63f4688d-39e0-57e5-a9c8-96141fd55df2> ;
-    crm:P141_assigned <http://data.odeuropa.eu/attribute/aromatic_en> ;
-    crm:P17_was_motivated_by <http://data.odeuropa.eu/experience/c8ffdab1-aae7-5d7e-86ce-4f1526163681> .
+    crm:P141_assigned <http://data.odeuropa.eu/vocabulary/edwards/aromatic> ;
+    crm:P17_was_motivated_by <http://data.odeuropa.eu/experience/c8ffdab1-aae7-5d7e-86ce-4f1526163681> ;
+    crm:P2_has_type <http://data.odeuropa.eu/attribute-type/character> .
 
 <http://data.odeuropa.eu/experience/c8ffdab1-aae7-5d7e-86ce-4f1526163681/assignment/2> a crm:E13_Attribute_Assignment ;
     rdfs:label "fine"@en ;
     crm:P140_assigned_attribute_to <http://data.odeuropa.eu/smell/63f4688d-39e0-57e5-a9c8-96141fd55df2> ;
-    crm:P141_assigned <http://data.odeuropa.eu/attribute/fine_en> ;
-    crm:P17_was_motivated_by <http://data.odeuropa.eu/experience/c8ffdab1-aae7-5d7e-86ce-4f1526163681> .
+    crm:P141_assigned <http://data.odeuropa.eu/vocabulary/vdi-hedonic/02n> ;
+    crm:P17_was_motivated_by <http://data.odeuropa.eu/experience/c8ffdab1-aae7-5d7e-86ce-4f1526163681> ;
+    crm:P2_has_type <http://data.odeuropa.eu/attribute-type/hedonic> .
 
 <http://data.odeuropa.eu/experience/c96dd9af-7ece-5399-b930-4f8f5887a1b0/assignment/1> a crm:E13_Attribute_Assignment ;
     rdfs:label "fouler"@en ;
@@ -2766,8 +2821,9 @@
 <http://data.odeuropa.eu/experience/c9f4c9bf-652f-5a77-bef8-a240292b2a72/assignment/1> a crm:E13_Attribute_Assignment ;
     rdfs:label "pungent"@en ;
     crm:P140_assigned_attribute_to <http://data.odeuropa.eu/smell/b548009a-390e-54f7-b107-29e02b1e7679> ;
-    crm:P141_assigned <http://data.odeuropa.eu/attribute/pungent_en> ;
-    crm:P17_was_motivated_by <http://data.odeuropa.eu/experience/c9f4c9bf-652f-5a77-bef8-a240292b2a72> .
+    crm:P141_assigned <http://data.odeuropa.eu/vocabulary/vdi-hedonic/19n> ;
+    crm:P17_was_motivated_by <http://data.odeuropa.eu/experience/c9f4c9bf-652f-5a77-bef8-a240292b2a72> ;
+    crm:P2_has_type <http://data.odeuropa.eu/attribute-type/hedonic> .
 
 <http://data.odeuropa.eu/experience/c9f4c9bf-652f-5a77-bef8-a240292b2a72/assignment/2> a crm:E13_Attribute_Assignment ;
     rdfs:label "rich"@en ;
@@ -2785,8 +2841,9 @@
 <http://data.odeuropa.eu/experience/ca993a9f-d2ac-5ed0-8447-2fef63526f90/assignment/1> a crm:E13_Attribute_Assignment ;
     rdfs:label "aromatic"@en ;
     crm:P140_assigned_attribute_to <http://data.odeuropa.eu/smell/155ee54b-ed3f-57ce-8132-315eec1423b2> ;
-    crm:P141_assigned <http://data.odeuropa.eu/attribute/aromatic_en> ;
-    crm:P17_was_motivated_by <http://data.odeuropa.eu/experience/ca993a9f-d2ac-5ed0-8447-2fef63526f90> .
+    crm:P141_assigned <http://data.odeuropa.eu/vocabulary/edwards/aromatic> ;
+    crm:P17_was_motivated_by <http://data.odeuropa.eu/experience/ca993a9f-d2ac-5ed0-8447-2fef63526f90> ;
+    crm:P2_has_type <http://data.odeuropa.eu/attribute-type/character> .
 
 <http://data.odeuropa.eu/experience/cb9204c8-dc23-5ca6-a3f7-c2d90c5cded3/assignment/1> a crm:E13_Attribute_Assignment ;
     rdfs:label "Fetid"@en ;
@@ -2797,8 +2854,9 @@
 <http://data.odeuropa.eu/experience/cba779cb-a53c-57ee-a0f6-5713a71379a9/assignment/1> a crm:E13_Attribute_Assignment ;
     rdfs:label "very pungent"@en ;
     crm:P140_assigned_attribute_to <http://data.odeuropa.eu/smell/e96be8c3-adf7-5a59-8346-77982337b4fb> ;
-    crm:P141_assigned <http://data.odeuropa.eu/attribute/very%20pungent_en> ;
+    crm:P141_assigned <http://data.odeuropa.eu/vocabulary/vdi-hedonic/19n> ;
     crm:P17_was_motivated_by <http://data.odeuropa.eu/experience/cba779cb-a53c-57ee-a0f6-5713a71379a9> ;
+    crm:P2_has_type <http://data.odeuropa.eu/attribute-type/hedonic> ;
     rdfs:comment "very"@en .
 
 <http://data.odeuropa.eu/experience/cc0452a8-ddde-5349-8f01-1b98cc2285f3/assignment/1> a crm:E13_Attribute_Assignment ;
@@ -2811,27 +2869,31 @@
 <http://data.odeuropa.eu/experience/cc691985-6055-5f52-a08a-10e85929c797/assignment/1> a crm:E13_Attribute_Assignment ;
     rdfs:label "Aromatic"@en ;
     crm:P140_assigned_attribute_to <http://data.odeuropa.eu/smell/24d44d1e-c7ec-5fc3-97e2-f59dc1fbbb35> ;
-    crm:P141_assigned <http://data.odeuropa.eu/attribute/Aromatic_en> ;
-    crm:P17_was_motivated_by <http://data.odeuropa.eu/experience/cc691985-6055-5f52-a08a-10e85929c797> .
+    crm:P141_assigned <http://data.odeuropa.eu/vocabulary/edwards/aromatic> ;
+    crm:P17_was_motivated_by <http://data.odeuropa.eu/experience/cc691985-6055-5f52-a08a-10e85929c797> ;
+    crm:P2_has_type <http://data.odeuropa.eu/attribute-type/character> .
 
 <http://data.odeuropa.eu/experience/ccaca400-cc5b-5d9a-bc4a-82c88f9fcb09/assignment/1> a crm:E13_Attribute_Assignment ;
     rdfs:label "strongly aromatic"@en ;
     crm:P140_assigned_attribute_to <http://data.odeuropa.eu/smell/4088949d-95e5-5c20-8872-ef5187c59388> ;
-    crm:P141_assigned <http://data.odeuropa.eu/attribute/strongly%20aromatic_en> ;
+    crm:P141_assigned <http://data.odeuropa.eu/vocabulary/edwards/aromatic> ;
     crm:P17_was_motivated_by <http://data.odeuropa.eu/experience/ccaca400-cc5b-5d9a-bc4a-82c88f9fcb09> ;
+    crm:P2_has_type <http://data.odeuropa.eu/attribute-type/character> ;
     rdfs:comment "strongly"@en .
 
 <http://data.odeuropa.eu/experience/cd164044-c595-5915-9a7a-1fcdb37e1423/assignment/1> a crm:E13_Attribute_Assignment ;
     rdfs:label "aromatic"@en ;
     crm:P140_assigned_attribute_to <http://data.odeuropa.eu/smell/387ce4ad-841d-5d9f-804d-74073bb89abd> ;
-    crm:P141_assigned <http://data.odeuropa.eu/attribute/aromatic_en> ;
-    crm:P17_was_motivated_by <http://data.odeuropa.eu/experience/cd164044-c595-5915-9a7a-1fcdb37e1423> .
+    crm:P141_assigned <http://data.odeuropa.eu/vocabulary/edwards/aromatic> ;
+    crm:P17_was_motivated_by <http://data.odeuropa.eu/experience/cd164044-c595-5915-9a7a-1fcdb37e1423> ;
+    crm:P2_has_type <http://data.odeuropa.eu/attribute-type/character> .
 
 <http://data.odeuropa.eu/experience/cdc41699-02a0-5880-af1f-da9870ab979b/assignment/1> a crm:E13_Attribute_Assignment ;
     rdfs:label "sweet"@en ;
     crm:P140_assigned_attribute_to <http://data.odeuropa.eu/smell/9efd7226-2738-52b7-baed-29e0568b49f2> ;
-    crm:P141_assigned <http://data.odeuropa.eu/attribute/sweet_en> ;
-    crm:P17_was_motivated_by <http://data.odeuropa.eu/experience/cdc41699-02a0-5880-af1f-da9870ab979b> .
+    crm:P141_assigned <http://data.odeuropa.eu/vocabulary/vdi-hedonic/11n> ;
+    crm:P17_was_motivated_by <http://data.odeuropa.eu/experience/cdc41699-02a0-5880-af1f-da9870ab979b> ;
+    crm:P2_has_type <http://data.odeuropa.eu/attribute-type/hedonic> .
 
 <http://data.odeuropa.eu/experience/ce4de8fe-98bd-5ed1-9f66-416dfd59a424/assignment/1> a crm:E13_Attribute_Assignment ;
     rdfs:label "putrid"@en ;
@@ -2917,8 +2979,9 @@
 <http://data.odeuropa.eu/experience/d3deca4b-2b74-547c-8cba-ad977779bf74/assignment/1> a crm:E13_Attribute_Assignment ;
     rdfs:label "aromatic"@en ;
     crm:P140_assigned_attribute_to <http://data.odeuropa.eu/smell/266019d9-637e-5a74-a120-f778da273b7a> ;
-    crm:P141_assigned <http://data.odeuropa.eu/attribute/aromatic_en> ;
-    crm:P17_was_motivated_by <http://data.odeuropa.eu/experience/d3deca4b-2b74-547c-8cba-ad977779bf74> .
+    crm:P141_assigned <http://data.odeuropa.eu/vocabulary/edwards/aromatic> ;
+    crm:P17_was_motivated_by <http://data.odeuropa.eu/experience/d3deca4b-2b74-547c-8cba-ad977779bf74> ;
+    crm:P2_has_type <http://data.odeuropa.eu/attribute-type/character> .
 
 <http://data.odeuropa.eu/experience/d405b492-3336-5724-a6bf-b6593c0ab387/assignment/1> a crm:E13_Attribute_Assignment ;
     rdfs:label "Fetid"@en ;
@@ -2935,8 +2998,9 @@
 <http://data.odeuropa.eu/experience/d405b492-3336-5724-a6bf-b6593c0ab387/assignment/3> a crm:E13_Attribute_Assignment ;
     rdfs:label "Sweetish"@en ;
     crm:P140_assigned_attribute_to <http://data.odeuropa.eu/smell/62a92935-7787-5bfa-8400-b46d01c23ccf> ;
-    crm:P141_assigned <http://data.odeuropa.eu/attribute/Sweetish_en> ;
-    crm:P17_was_motivated_by <http://data.odeuropa.eu/experience/d405b492-3336-5724-a6bf-b6593c0ab387> .
+    crm:P141_assigned <http://data.odeuropa.eu/vocabulary/vdi-hedonic/11n> ;
+    crm:P17_was_motivated_by <http://data.odeuropa.eu/experience/d405b492-3336-5724-a6bf-b6593c0ab387> ;
+    crm:P2_has_type <http://data.odeuropa.eu/attribute-type/hedonic> .
 
 <http://data.odeuropa.eu/experience/d505a9a6-10fd-5416-b705-09fa30e94820/assignment/1> a crm:E13_Attribute_Assignment ;
     rdfs:label "bad"@en ;
@@ -2953,8 +3017,9 @@
 <http://data.odeuropa.eu/experience/d6a29496-19d9-5090-afb3-df2f252f4f6d/assignment/1> a crm:E13_Attribute_Assignment ;
     rdfs:label "pungent"@en ;
     crm:P140_assigned_attribute_to <http://data.odeuropa.eu/smell/9393f4b6-609f-5473-a59c-06f364067034> ;
-    crm:P141_assigned <http://data.odeuropa.eu/attribute/pungent_en> ;
-    crm:P17_was_motivated_by <http://data.odeuropa.eu/experience/d6a29496-19d9-5090-afb3-df2f252f4f6d> .
+    crm:P141_assigned <http://data.odeuropa.eu/vocabulary/vdi-hedonic/19n> ;
+    crm:P17_was_motivated_by <http://data.odeuropa.eu/experience/d6a29496-19d9-5090-afb3-df2f252f4f6d> ;
+    crm:P2_has_type <http://data.odeuropa.eu/attribute-type/hedonic> .
 
 <http://data.odeuropa.eu/experience/d7c10fa0-b137-51a6-b1cc-09fd24045794/assignment/1> a crm:E13_Attribute_Assignment ;
     rdfs:label "quick"@en ;
@@ -2965,8 +3030,9 @@
 <http://data.odeuropa.eu/experience/d7c10fa0-b137-51a6-b1cc-09fd24045794/assignment/2> a crm:E13_Attribute_Assignment ;
     rdfs:label "pungent"@en ;
     crm:P140_assigned_attribute_to <http://data.odeuropa.eu/smell/cedc6e08-2586-5419-9ae1-8e8f5752263a> ;
-    crm:P141_assigned <http://data.odeuropa.eu/attribute/pungent_en> ;
-    crm:P17_was_motivated_by <http://data.odeuropa.eu/experience/d7c10fa0-b137-51a6-b1cc-09fd24045794> .
+    crm:P141_assigned <http://data.odeuropa.eu/vocabulary/vdi-hedonic/19n> ;
+    crm:P17_was_motivated_by <http://data.odeuropa.eu/experience/d7c10fa0-b137-51a6-b1cc-09fd24045794> ;
+    crm:P2_has_type <http://data.odeuropa.eu/attribute-type/hedonic> .
 
 <http://data.odeuropa.eu/experience/d8337de2-06bf-547e-9ad3-dfacf6990f2a/assignment/1> a crm:E13_Attribute_Assignment ;
     rdfs:label "other"@en ;
@@ -2996,8 +3062,9 @@
 <http://data.odeuropa.eu/experience/dacfaff7-6b4f-5656-bb6f-0edc226609b0/assignment/1> a crm:E13_Attribute_Assignment ;
     rdfs:label "fresh"@en ;
     crm:P140_assigned_attribute_to <http://data.odeuropa.eu/smell/e53e5be9-f463-56c3-ba11-67d040092716> ;
-    crm:P141_assigned <http://data.odeuropa.eu/attribute/fresh_en> ;
-    crm:P17_was_motivated_by <http://data.odeuropa.eu/experience/dacfaff7-6b4f-5656-bb6f-0edc226609b0> .
+    crm:P141_assigned <http://data.odeuropa.eu/vocabulary/vdi-hedonic/23p> ;
+    crm:P17_was_motivated_by <http://data.odeuropa.eu/experience/dacfaff7-6b4f-5656-bb6f-0edc226609b0> ;
+    crm:P2_has_type <http://data.odeuropa.eu/attribute-type/hedonic> .
 
 <http://data.odeuropa.eu/experience/db167080-809f-5180-bc45-1d6d569d4ea7/assignment/1> a crm:E13_Attribute_Assignment ;
     rdfs:label "stinking"@en ;
@@ -3033,8 +3100,9 @@
 <http://data.odeuropa.eu/experience/dc0d0135-5b6c-5f35-8ebd-b81e09acd954/assignment/1> a crm:E13_Attribute_Assignment ;
     rdfs:label "unpleasant"@en ;
     crm:P140_assigned_attribute_to <http://data.odeuropa.eu/smell/e44c081c-c1b7-5db3-98d5-5c64ba736943> ;
-    crm:P141_assigned <http://data.odeuropa.eu/attribute/unpleasant_en> ;
-    crm:P17_was_motivated_by <http://data.odeuropa.eu/experience/dc0d0135-5b6c-5f35-8ebd-b81e09acd954> .
+    crm:P141_assigned <http://data.odeuropa.eu/vocabulary/vdi-hedonic/29n> ;
+    crm:P17_was_motivated_by <http://data.odeuropa.eu/experience/dc0d0135-5b6c-5f35-8ebd-b81e09acd954> ;
+    crm:P2_has_type <http://data.odeuropa.eu/attribute-type/hedonic> .
 
 <http://data.odeuropa.eu/experience/dc47c2f9-3214-5443-9598-b37fe5703d9d/assignment/1> a crm:E13_Attribute_Assignment ;
     rdfs:label "more horribly sickening"@en ;
@@ -3052,8 +3120,9 @@
 <http://data.odeuropa.eu/experience/ddc55e91-4bed-5762-ad71-7db9dd13c6ea/assignment/1> a crm:E13_Attribute_Assignment ;
     rdfs:label "delicate"@en ;
     crm:P140_assigned_attribute_to <http://data.odeuropa.eu/smell/4e19843b-60dc-571e-a18c-b201cce2f616> ;
-    crm:P141_assigned <http://data.odeuropa.eu/attribute/delicate_en> ;
-    crm:P17_was_motivated_by <http://data.odeuropa.eu/experience/ddc55e91-4bed-5762-ad71-7db9dd13c6ea> .
+    crm:P141_assigned <http://data.odeuropa.eu/vocabulary/vdi-hedonic/04n> ;
+    crm:P17_was_motivated_by <http://data.odeuropa.eu/experience/ddc55e91-4bed-5762-ad71-7db9dd13c6ea> ;
+    crm:P2_has_type <http://data.odeuropa.eu/attribute-type/hedonic> .
 
 <http://data.odeuropa.eu/experience/df2e2f48-7966-567e-b4da-4fd8d62b1e55/assignment/1> a crm:E13_Attribute_Assignment ;
     rdfs:label "very powerful"@en ;
@@ -3065,15 +3134,17 @@
 <http://data.odeuropa.eu/experience/df2e2f48-7966-567e-b4da-4fd8d62b1e55/assignment/2> a crm:E13_Attribute_Assignment ;
     rdfs:label "pungent"@en ;
     crm:P140_assigned_attribute_to <http://data.odeuropa.eu/smell/6ab519ac-dca1-59ac-8fac-65b38b04eaf3> ;
-    crm:P141_assigned <http://data.odeuropa.eu/attribute/pungent_en> ;
-    crm:P17_was_motivated_by <http://data.odeuropa.eu/experience/df2e2f48-7966-567e-b4da-4fd8d62b1e55> .
+    crm:P141_assigned <http://data.odeuropa.eu/vocabulary/vdi-hedonic/19n> ;
+    crm:P17_was_motivated_by <http://data.odeuropa.eu/experience/df2e2f48-7966-567e-b4da-4fd8d62b1e55> ;
+    crm:P2_has_type <http://data.odeuropa.eu/attribute-type/hedonic> .
 
 <http://data.odeuropa.eu/experience/e0612ea0-d1a5-52a0-9892-fd5401105f0b/assignment/1> a crm:E13_Attribute_Assignment ;
     rdfs:label "pungent"@en ;
     crm:P140_assigned_attribute_to <http://data.odeuropa.eu/smell/6e587031-29df-5289-b8b4-6a12cb1a1344> ;
-    crm:P141_assigned <http://data.odeuropa.eu/attribute/pungent_en> ;
+    crm:P141_assigned <http://data.odeuropa.eu/vocabulary/vdi-hedonic/19n> ;
     crm:P14_carried_out_by <http://data.odeuropa.eu/actor/bb6aeb49-1dde-58cd-96e5-743a6101ec08> ;
-    crm:P17_was_motivated_by <http://data.odeuropa.eu/experience/e0612ea0-d1a5-52a0-9892-fd5401105f0b> .
+    crm:P17_was_motivated_by <http://data.odeuropa.eu/experience/e0612ea0-d1a5-52a0-9892-fd5401105f0b> ;
+    crm:P2_has_type <http://data.odeuropa.eu/attribute-type/hedonic> .
 
 <http://data.odeuropa.eu/experience/e0838a99-d3fb-5652-b90d-9aba48a24b89/assignment/1> a crm:E13_Attribute_Assignment ;
     rdfs:label "noisom"@en ;
@@ -3125,20 +3196,23 @@
 <http://data.odeuropa.eu/experience/e34f4da6-aace-5e5b-bcde-da20a56f3f2b/assignment/2> a crm:E13_Attribute_Assignment ;
     rdfs:label "Aromatick"@en ;
     crm:P140_assigned_attribute_to <http://data.odeuropa.eu/smell/a5fd376b-a3b7-58ac-a081-f09836cc3c04> ;
-    crm:P141_assigned <http://data.odeuropa.eu/attribute/Aromatick_en> ;
-    crm:P17_was_motivated_by <http://data.odeuropa.eu/experience/e34f4da6-aace-5e5b-bcde-da20a56f3f2b> .
+    crm:P141_assigned <http://data.odeuropa.eu/vocabulary/edwards/aromatic> ;
+    crm:P17_was_motivated_by <http://data.odeuropa.eu/experience/e34f4da6-aace-5e5b-bcde-da20a56f3f2b> ;
+    crm:P2_has_type <http://data.odeuropa.eu/attribute-type/character> .
 
 <http://data.odeuropa.eu/experience/e34f4da6-aace-5e5b-bcde-da20a56f3f2b/assignment/3> a crm:E13_Attribute_Assignment ;
     rdfs:label "Pungency"@en ;
     crm:P140_assigned_attribute_to <http://data.odeuropa.eu/smell/a5fd376b-a3b7-58ac-a081-f09836cc3c04> ;
-    crm:P141_assigned <http://data.odeuropa.eu/attribute/Pungency_en> ;
-    crm:P17_was_motivated_by <http://data.odeuropa.eu/experience/e34f4da6-aace-5e5b-bcde-da20a56f3f2b> .
+    crm:P141_assigned <http://data.odeuropa.eu/vocabulary/vdi-hedonic/19n> ;
+    crm:P17_was_motivated_by <http://data.odeuropa.eu/experience/e34f4da6-aace-5e5b-bcde-da20a56f3f2b> ;
+    crm:P2_has_type <http://data.odeuropa.eu/attribute-type/hedonic> .
 
 <http://data.odeuropa.eu/experience/e423ddbb-17a3-5663-bc8e-e7aa9ab39236/assignment/1> a crm:E13_Attribute_Assignment ;
     rdfs:label "aromatic"@en ;
     crm:P140_assigned_attribute_to <http://data.odeuropa.eu/smell/11b28f73-fc68-5f96-ab73-82fd485d5eae> ;
-    crm:P141_assigned <http://data.odeuropa.eu/attribute/aromatic_en> ;
-    crm:P17_was_motivated_by <http://data.odeuropa.eu/experience/e423ddbb-17a3-5663-bc8e-e7aa9ab39236> .
+    crm:P141_assigned <http://data.odeuropa.eu/vocabulary/edwards/aromatic> ;
+    crm:P17_was_motivated_by <http://data.odeuropa.eu/experience/e423ddbb-17a3-5663-bc8e-e7aa9ab39236> ;
+    crm:P2_has_type <http://data.odeuropa.eu/attribute-type/character> .
 
 <http://data.odeuropa.eu/experience/e4b06cc6-0c1b-5a6a-b243-9d1e44d5fe90/assignment/1> a crm:E13_Attribute_Assignment ;
     rdfs:label "so great"@en ;
@@ -3177,14 +3251,16 @@
 <http://data.odeuropa.eu/experience/e8de34bd-59e6-58cb-b263-1b15f20fc031/assignment/1> a crm:E13_Attribute_Assignment ;
     rdfs:label "sweet"@en ;
     crm:P140_assigned_attribute_to <http://data.odeuropa.eu/smell/b8b55b09-800f-5baa-9205-427635378e34> ;
-    crm:P141_assigned <http://data.odeuropa.eu/attribute/sweet_en> ;
-    crm:P17_was_motivated_by <http://data.odeuropa.eu/experience/e8de34bd-59e6-58cb-b263-1b15f20fc031> .
+    crm:P141_assigned <http://data.odeuropa.eu/vocabulary/vdi-hedonic/11n> ;
+    crm:P17_was_motivated_by <http://data.odeuropa.eu/experience/e8de34bd-59e6-58cb-b263-1b15f20fc031> ;
+    crm:P2_has_type <http://data.odeuropa.eu/attribute-type/hedonic> .
 
 <http://data.odeuropa.eu/experience/e8f1dfd9-368f-5ffa-8175-4b9290f8aa9b/assignment/1> a crm:E13_Attribute_Assignment ;
     rdfs:label "exquisitely pleasing"@en ;
     crm:P140_assigned_attribute_to <http://data.odeuropa.eu/smell/41643149-4201-5dbe-a6a1-4a126d4324ad> ;
-    crm:P141_assigned <http://data.odeuropa.eu/attribute/exquisitely%20pleasing_en> ;
+    crm:P141_assigned <http://data.odeuropa.eu/vocabulary/vdi-hedonic/29p> ;
     crm:P17_was_motivated_by <http://data.odeuropa.eu/experience/e8f1dfd9-368f-5ffa-8175-4b9290f8aa9b> ;
+    crm:P2_has_type <http://data.odeuropa.eu/attribute-type/hedonic> ;
     rdfs:comment "exquisitely"@en .
 
 <http://data.odeuropa.eu/experience/e8f1dfd9-368f-5ffa-8175-4b9290f8aa9b/assignment/2> a crm:E13_Attribute_Assignment ;
@@ -3232,9 +3308,10 @@
 <http://data.odeuropa.eu/experience/ef24967e-99b8-5d66-97b1-bcfed056cde0/assignment/1> a crm:E13_Attribute_Assignment ;
     rdfs:label "sweet"@en ;
     crm:P140_assigned_attribute_to <http://data.odeuropa.eu/smell/50260eff-9e63-5e1e-a75a-8574b2bc3201> ;
-    crm:P141_assigned <http://data.odeuropa.eu/attribute/sweet_en> ;
+    crm:P141_assigned <http://data.odeuropa.eu/vocabulary/vdi-hedonic/11n> ;
     crm:P14_carried_out_by <http://data.odeuropa.eu/actor/a15c86eb-3cd7-5462-9a0b-cdb5316baf55> ;
-    crm:P17_was_motivated_by <http://data.odeuropa.eu/experience/ef24967e-99b8-5d66-97b1-bcfed056cde0> .
+    crm:P17_was_motivated_by <http://data.odeuropa.eu/experience/ef24967e-99b8-5d66-97b1-bcfed056cde0> ;
+    crm:P2_has_type <http://data.odeuropa.eu/attribute-type/hedonic> .
 
 <http://data.odeuropa.eu/experience/ef883dc0-c1f4-53cd-80f7-6b3d3ab0e541/assignment/1> a crm:E13_Attribute_Assignment ;
     rdfs:label "stinking"@en ;
@@ -3263,20 +3340,23 @@
 <http://data.odeuropa.eu/experience/f3d2ae2f-1f63-5486-b6e7-da3dc18f3e12/assignment/1> a crm:E13_Attribute_Assignment ;
     rdfs:label "sweet"@en ;
     crm:P140_assigned_attribute_to <http://data.odeuropa.eu/smell/1eaa25d0-2a47-5384-9b83-319886327a26> ;
-    crm:P141_assigned <http://data.odeuropa.eu/attribute/sweet_en> ;
-    crm:P17_was_motivated_by <http://data.odeuropa.eu/experience/f3d2ae2f-1f63-5486-b6e7-da3dc18f3e12> .
+    crm:P141_assigned <http://data.odeuropa.eu/vocabulary/vdi-hedonic/11n> ;
+    crm:P17_was_motivated_by <http://data.odeuropa.eu/experience/f3d2ae2f-1f63-5486-b6e7-da3dc18f3e12> ;
+    crm:P2_has_type <http://data.odeuropa.eu/attribute-type/hedonic> .
 
 <http://data.odeuropa.eu/experience/f3d8bc61-37e3-5a86-be33-02d672752d20/assignment/1> a crm:E13_Attribute_Assignment ;
     rdfs:label "sweet"@en ;
     crm:P140_assigned_attribute_to <http://data.odeuropa.eu/smell/45f4d6cc-bb3c-5e74-ad7d-b35b40613ea9> ;
-    crm:P141_assigned <http://data.odeuropa.eu/attribute/sweet_en> ;
-    crm:P17_was_motivated_by <http://data.odeuropa.eu/experience/f3d8bc61-37e3-5a86-be33-02d672752d20> .
+    crm:P141_assigned <http://data.odeuropa.eu/vocabulary/vdi-hedonic/11n> ;
+    crm:P17_was_motivated_by <http://data.odeuropa.eu/experience/f3d8bc61-37e3-5a86-be33-02d672752d20> ;
+    crm:P2_has_type <http://data.odeuropa.eu/attribute-type/hedonic> .
 
 <http://data.odeuropa.eu/experience/f3d8bc61-37e3-5a86-be33-02d672752d20/assignment/2> a crm:E13_Attribute_Assignment ;
     rdfs:label "sweet"@en ;
     crm:P140_assigned_attribute_to <http://data.odeuropa.eu/smell/45f4d6cc-bb3c-5e74-ad7d-b35b40613ea9> ;
-    crm:P141_assigned <http://data.odeuropa.eu/attribute/sweet_en> ;
-    crm:P17_was_motivated_by <http://data.odeuropa.eu/experience/f3d8bc61-37e3-5a86-be33-02d672752d20> .
+    crm:P141_assigned <http://data.odeuropa.eu/vocabulary/vdi-hedonic/11n> ;
+    crm:P17_was_motivated_by <http://data.odeuropa.eu/experience/f3d8bc61-37e3-5a86-be33-02d672752d20> ;
+    crm:P2_has_type <http://data.odeuropa.eu/attribute-type/hedonic> .
 
 <http://data.odeuropa.eu/experience/f5da0329-039c-585c-8447-9365ac2421c1/assignment/1> a crm:E13_Attribute_Assignment ;
     rdfs:label "much more distinguishable"@en ;
@@ -3314,8 +3394,9 @@
 <http://data.odeuropa.eu/experience/fa245c57-2b11-5ee5-815c-ae00f63b8c41/assignment/1> a crm:E13_Attribute_Assignment ;
     rdfs:label "fine"@en ;
     crm:P140_assigned_attribute_to <http://data.odeuropa.eu/smell/aad0324b-efec-5b1c-b633-d555392e9edc> ;
-    crm:P141_assigned <http://data.odeuropa.eu/attribute/fine_en> ;
-    crm:P17_was_motivated_by <http://data.odeuropa.eu/experience/fa245c57-2b11-5ee5-815c-ae00f63b8c41> .
+    crm:P141_assigned <http://data.odeuropa.eu/vocabulary/vdi-hedonic/02n> ;
+    crm:P17_was_motivated_by <http://data.odeuropa.eu/experience/fa245c57-2b11-5ee5-815c-ae00f63b8c41> ;
+    crm:P2_has_type <http://data.odeuropa.eu/attribute-type/hedonic> .
 
 <http://data.odeuropa.eu/experience/fa8d509e-c716-5ab5-acaf-f68fc08285ac/assignment/1> a crm:E13_Attribute_Assignment ;
     rdfs:label "good"@en ;
@@ -3326,8 +3407,9 @@
 <http://data.odeuropa.eu/experience/fb539499-340e-5e05-93d3-912be4a0c1eb/assignment/1> a crm:E13_Attribute_Assignment ;
     rdfs:label "Pungent"@en ;
     crm:P140_assigned_attribute_to <http://data.odeuropa.eu/smell/a129ddb2-e569-56c3-bea6-b2604cb74987> ;
-    crm:P141_assigned <http://data.odeuropa.eu/attribute/Pungent_en> ;
-    crm:P17_was_motivated_by <http://data.odeuropa.eu/experience/fb539499-340e-5e05-93d3-912be4a0c1eb> .
+    crm:P141_assigned <http://data.odeuropa.eu/vocabulary/vdi-hedonic/19n> ;
+    crm:P17_was_motivated_by <http://data.odeuropa.eu/experience/fb539499-340e-5e05-93d3-912be4a0c1eb> ;
+    crm:P2_has_type <http://data.odeuropa.eu/attribute-type/hedonic> .
 
 <http://data.odeuropa.eu/experience/fb539499-340e-5e05-93d3-912be4a0c1eb/assignment/2> a crm:E13_Attribute_Assignment ;
     rdfs:label "Saline"@en ;
@@ -3390,8 +3472,9 @@
 <http://data.odeuropa.eu/experience/fc90acdd-beee-5292-a50c-f1c7153b4773/assignment/4> a crm:E13_Attribute_Assignment ;
     rdfs:label "Bitter"@en ;
     crm:P140_assigned_attribute_to <http://data.odeuropa.eu/smell/cc7af658-624d-589d-bbfa-3b31f86fe7c8> ;
-    crm:P141_assigned <http://data.odeuropa.eu/attribute/Bitter_en> ;
-    crm:P17_was_motivated_by <http://data.odeuropa.eu/experience/fc90acdd-beee-5292-a50c-f1c7153b4773> .
+    crm:P141_assigned <http://data.odeuropa.eu/vocabulary/vdi-hedonic/11p> ;
+    crm:P17_was_motivated_by <http://data.odeuropa.eu/experience/fc90acdd-beee-5292-a50c-f1c7153b4773> ;
+    crm:P2_has_type <http://data.odeuropa.eu/attribute-type/hedonic> .
 
 <http://data.odeuropa.eu/experience/fda2f410-f130-5f73-8bad-44bc9bb7a35b/assignment/1> a crm:E13_Attribute_Assignment ;
     rdfs:label "the richest and purest"@en ;
@@ -3402,8 +3485,9 @@
 <http://data.odeuropa.eu/experience/fdb0de4c-7620-59f6-a979-594ae8c9a745/assignment/1> a crm:E13_Attribute_Assignment ;
     rdfs:label "Pungent"@en ;
     crm:P140_assigned_attribute_to <http://data.odeuropa.eu/smell/857e2e43-85e6-577a-b632-51e0e9d055bf> ;
-    crm:P141_assigned <http://data.odeuropa.eu/attribute/Pungent_en> ;
-    crm:P17_was_motivated_by <http://data.odeuropa.eu/experience/fdb0de4c-7620-59f6-a979-594ae8c9a745> .
+    crm:P141_assigned <http://data.odeuropa.eu/vocabulary/vdi-hedonic/19n> ;
+    crm:P17_was_motivated_by <http://data.odeuropa.eu/experience/fdb0de4c-7620-59f6-a979-594ae8c9a745> ;
+    crm:P2_has_type <http://data.odeuropa.eu/attribute-type/hedonic> .
 
 <http://data.odeuropa.eu/experience/fdb0de4c-7620-59f6-a979-594ae8c9a745/assignment/2> a crm:E13_Attribute_Assignment ;
     rdfs:label "Volatile"@en ;
@@ -3414,8 +3498,9 @@
 <http://data.odeuropa.eu/experience/fdb2437d-74ef-5bf3-aae1-e793d6800cc6/assignment/1> a crm:E13_Attribute_Assignment ;
     rdfs:label "floral"@en ;
     crm:P140_assigned_attribute_to <http://data.odeuropa.eu/smell/597b41d3-0e63-52f2-bec1-57b20b33e1ac> ;
-    crm:P141_assigned <http://data.odeuropa.eu/attribute/floral_en> ;
-    crm:P17_was_motivated_by <http://data.odeuropa.eu/experience/fdb2437d-74ef-5bf3-aae1-e793d6800cc6> .
+    crm:P141_assigned <http://data.odeuropa.eu/vocabulary/edwards/floral> ;
+    crm:P17_was_motivated_by <http://data.odeuropa.eu/experience/fdb2437d-74ef-5bf3-aae1-e793d6800cc6> ;
+    crm:P2_has_type <http://data.odeuropa.eu/attribute-type/character> .
 
 <http://data.odeuropa.eu/experience/fdb2437d-74ef-5bf3-aae1-e793d6800cc6/assignment/2> a crm:E13_Attribute_Assignment ;
     rdfs:label "generally positive"@en ;
@@ -18895,9 +18980,6 @@
 <http://data.odeuropa.eu/actor/666745e8-fe42-5eaf-80c0-3870d47c6f5b> a crm:E39_Actor ;
     rdfs:label "Families" .
 
-<http://data.odeuropa.eu/actor/6cb55cf3-73c3-58f0-b4b5-c9a2b2cd0234> a crm:E39_Actor ;
-    rdfs:label "some healthy persons" .
-
 <http://data.odeuropa.eu/actor/6d9881fc-18c0-5843-8b0f-5b662e5e30a6> a crm:E39_Actor ;
     rdfs:label "an ingenious Acquaintance of mine" .
 
@@ -18909,6 +18991,9 @@
 
 <http://data.odeuropa.eu/actor/765691c8-0a2e-53b6-bf15-81bfa7419c47> a crm:E39_Actor ;
     rdfs:label "the subject" .
+
+<http://data.odeuropa.eu/actor/7ff74e30-7946-5c8b-844e-c17558de14ed> a crm:E39_Actor ;
+    rdfs:label "delicate persons" .
 
 <http://data.odeuropa.eu/actor/803bc6ab-fa5f-588d-ae5f-052b6417f143> a crm:E39_Actor ;
     rdfs:label "my" .
@@ -19058,32 +19143,17 @@
 <http://data.odeuropa.eu/attribute/Acid_en> a crm:E90_Symbolic_Object ;
     rdfs:label "Acid"@en .
 
-<http://data.odeuropa.eu/attribute/Aromatic_en> a crm:E90_Symbolic_Object ;
-    rdfs:label "Aromatic"@en .
-
 <http://data.odeuropa.eu/attribute/Balsamick_en> a crm:E90_Symbolic_Object ;
     rdfs:label "Balsamick"@en .
 
 <http://data.odeuropa.eu/attribute/Big_en> a crm:E90_Symbolic_Object ;
     rdfs:label "Big"@en .
 
-<http://data.odeuropa.eu/attribute/Bitter_en> a crm:E90_Symbolic_Object ;
-    rdfs:label "Bitter"@en .
-
-<http://data.odeuropa.eu/attribute/Bitterish_en> a crm:E90_Symbolic_Object ;
-    rdfs:label "Bitterish"@en .
-
-<http://data.odeuropa.eu/attribute/Bitters_en> a crm:E90_Symbolic_Object ;
-    rdfs:label "Bitters"@en .
-
 <http://data.odeuropa.eu/attribute/Cardiaque_en> a crm:E90_Symbolic_Object ;
     rdfs:label "Cardiaque"@en .
 
 <http://data.odeuropa.eu/attribute/Dead-Nettle_en> a crm:E90_Symbolic_Object ;
     rdfs:label "Dead-Nettle"@en .
-
-<http://data.odeuropa.eu/attribute/Floral_en> a crm:E90_Symbolic_Object ;
-    rdfs:label "Floral"@en .
 
 <http://data.odeuropa.eu/attribute/Fragrant_en> a crm:E90_Symbolic_Object ;
     rdfs:label "Fragrant"@en .
@@ -19097,9 +19167,6 @@
 <http://data.odeuropa.eu/attribute/Pulmonary_en> a crm:E90_Symbolic_Object ;
     rdfs:label "Pulmonary"@en .
 
-<http://data.odeuropa.eu/attribute/Pungency_en> a crm:E90_Symbolic_Object ;
-    rdfs:label "Pungency"@en .
-
 <http://data.odeuropa.eu/attribute/Saline_en> a crm:E90_Symbolic_Object ;
     rdfs:label "Saline"@en .
 
@@ -19111,9 +19178,6 @@
 
 <http://data.odeuropa.eu/attribute/Sweet-smelling_en> a crm:E90_Symbolic_Object ;
     rdfs:label "Sweet-smelling"@en .
-
-<http://data.odeuropa.eu/attribute/Sweetish_en> a crm:E90_Symbolic_Object ;
-    rdfs:label "Sweetish"@en .
 
 <http://data.odeuropa.eu/attribute/The%20refreshing_en> a crm:E90_Symbolic_Object ;
     rdfs:label "The refreshing"@en .
@@ -19142,12 +19206,6 @@
 <http://data.odeuropa.eu/attribute/animal_en> a crm:E90_Symbolic_Object ;
     rdfs:label "animal"@en .
 
-<http://data.odeuropa.eu/attribute/aromaticall_en> a crm:E90_Symbolic_Object ;
-    rdfs:label "aromaticall"@en .
-
-<http://data.odeuropa.eu/attribute/as%20sweet_en> a crm:E90_Symbolic_Object ;
-    rdfs:label "as sweet"@en .
-
 <http://data.odeuropa.eu/attribute/as%20volatile%20as%20ether_en> a crm:E90_Symbolic_Object ;
     rdfs:label "as volatile as ether"@en .
 
@@ -19159,9 +19217,6 @@
 
 <http://data.odeuropa.eu/attribute/beats%20both%20Benares%20and%20Peshawar_en> a crm:E90_Symbolic_Object ;
     rdfs:label "beats both Benares and Peshawar"@en .
-
-<http://data.odeuropa.eu/attribute/bitter_en> a crm:E90_Symbolic_Object ;
-    rdfs:label "bitter"@en .
 
 <http://data.odeuropa.eu/attribute/both%20varieties%20of_en> a crm:E90_Symbolic_Object ;
     rdfs:label "both varieties of"@en .
@@ -19208,9 +19263,6 @@
 <http://data.odeuropa.eu/attribute/exquisite_en> a crm:E90_Symbolic_Object ;
     rdfs:label "exquisite"@en .
 
-<http://data.odeuropa.eu/attribute/exquisitely%20pleasing_en> a crm:E90_Symbolic_Object ;
-    rdfs:label "exquisitely pleasing"@en .
-
 <http://data.odeuropa.eu/attribute/faetid_en> a crm:E90_Symbolic_Object ;
     rdfs:label "faetid"@en .
 
@@ -19255,9 +19307,6 @@
 
 <http://data.odeuropa.eu/attribute/highly%20fragrant_en> a crm:E90_Symbolic_Object ;
     rdfs:label "highly fragrant"@en .
-
-<http://data.odeuropa.eu/attribute/hot_en> a crm:E90_Symbolic_Object ;
-    rdfs:label "hot"@en .
 
 <http://data.odeuropa.eu/attribute/in%20the%20highest%20Degree_en> a crm:E90_Symbolic_Object ;
     rdfs:label "in the highest Degree"@en .
@@ -19304,9 +19353,6 @@
 <http://data.odeuropa.eu/attribute/more%20horribly%20sickening_en> a crm:E90_Symbolic_Object ;
     rdfs:label "more horribly sickening"@en .
 
-<http://data.odeuropa.eu/attribute/most%20delicate_en> a crm:E90_Symbolic_Object ;
-    rdfs:label "most delicate"@en .
-
 <http://data.odeuropa.eu/attribute/most%20delicious_en> a crm:E90_Symbolic_Object ;
     rdfs:label "most delicious"@en .
 
@@ -19318,9 +19364,6 @@
 
 <http://data.odeuropa.eu/attribute/mouldering_en> a crm:E90_Symbolic_Object ;
     rdfs:label "mouldering"@en .
-
-<http://data.odeuropa.eu/attribute/much%20more%20aromatic_en> a crm:E90_Symbolic_Object ;
-    rdfs:label "much more aromatic"@en .
 
 <http://data.odeuropa.eu/attribute/much%20more%20distinguishable_en> a crm:E90_Symbolic_Object ;
     rdfs:label "much more distinguishable"@en .
@@ -19409,9 +19452,6 @@
 <http://data.odeuropa.eu/attribute/pestilential_en> a crm:E90_Symbolic_Object ;
     rdfs:label "pestilential"@en .
 
-<http://data.odeuropa.eu/attribute/pleasing_en> a crm:E90_Symbolic_Object ;
-    rdfs:label "pleasing"@en .
-
 <http://data.odeuropa.eu/attribute/powerful_en> a crm:E90_Symbolic_Object ;
     rdfs:label "powerful"@en .
 
@@ -19459,9 +19499,6 @@
 
 <http://data.odeuropa.eu/attribute/smelling_en> a crm:E90_Symbolic_Object ;
     rdfs:label "smelling"@en .
-
-<http://data.odeuropa.eu/attribute/so%20aromatick_en> a crm:E90_Symbolic_Object ;
-    rdfs:label "so aromatick"@en .
 
 <http://data.odeuropa.eu/attribute/so%20f%C5%93tid_en> a crm:E90_Symbolic_Object ;
     rdfs:label "so fœtid"@en .
@@ -19520,9 +19557,6 @@
 <http://data.odeuropa.eu/attribute/the%20most%20delicate_en> a crm:E90_Symbolic_Object ;
     rdfs:label "the most delicate"@en .
 
-<http://data.odeuropa.eu/attribute/the%20most%20interesting_en> a crm:E90_Symbolic_Object ;
-    rdfs:label "the most interesting"@en .
-
 <http://data.odeuropa.eu/attribute/the%20most%20widely%20popular_en> a crm:E90_Symbolic_Object ;
     rdfs:label "the most widely popular"@en .
 
@@ -19550,17 +19584,11 @@
 <http://data.odeuropa.eu/attribute/toilet_en> a crm:E90_Symbolic_Object ;
     rdfs:label "toilet"@en .
 
-<http://data.odeuropa.eu/attribute/too%20fresh_en> a crm:E90_Symbolic_Object ;
-    rdfs:label "too fresh"@en .
-
 <http://data.odeuropa.eu/attribute/unhealthy_en> a crm:E90_Symbolic_Object ;
     rdfs:label "unhealthy"@en .
 
 <http://data.odeuropa.eu/attribute/unknown_en> a crm:E90_Symbolic_Object ;
     rdfs:label "unknown"@en .
-
-<http://data.odeuropa.eu/attribute/unpleasant_en> a crm:E90_Symbolic_Object ;
-    rdfs:label "unpleasant"@en .
 
 <http://data.odeuropa.eu/attribute/unsavourie_en> a crm:E90_Symbolic_Object ;
     rdfs:label "unsavourie"@en .
@@ -19577,9 +19605,6 @@
 <http://data.odeuropa.eu/attribute/very%20characteristic_en> a crm:E90_Symbolic_Object ;
     rdfs:label "very characteristic"@en .
 
-<http://data.odeuropa.eu/attribute/very%20delicate_en> a crm:E90_Symbolic_Object ;
-    rdfs:label "very delicate"@en .
-
 <http://data.odeuropa.eu/attribute/very%20different%20from%20every%20product%20of%20an%20English%20garden_en> a crm:E90_Symbolic_Object ;
     rdfs:label "very different from every product of an English garden"@en .
 
@@ -19592,14 +19617,8 @@
 <http://data.odeuropa.eu/attribute/very%20grateful_en> a crm:E90_Symbolic_Object ;
     rdfs:label "very grateful"@en .
 
-<http://data.odeuropa.eu/attribute/very%20hot_en> a crm:E90_Symbolic_Object ;
-    rdfs:label "very hot"@en .
-
 <http://data.odeuropa.eu/attribute/very%20powerful_en> a crm:E90_Symbolic_Object ;
     rdfs:label "very powerful"@en .
-
-<http://data.odeuropa.eu/attribute/very%20pungent_en> a crm:E90_Symbolic_Object ;
-    rdfs:label "very pungent"@en .
 
 <http://data.odeuropa.eu/attribute/very%20sensitive_en> a crm:E90_Symbolic_Object ;
     rdfs:label "very sensitive"@en .
@@ -19828,9 +19847,6 @@
 
 <http://data.odeuropa.eu/object/1a5f324c-0179-5fdc-87d6-911f98582e8e> a crmsci:S10_Material_Substantial ;
     rdfs:label "The Combang Caracnassi ,"@en .
-
-<http://data.odeuropa.eu/object/1a67cc01-f772-5f4c-b3e5-0ad7a3fb9386> a crmsci:S10_Material_Substantial ;
-    rdfs:label "the acid"@en .
 
 <http://data.odeuropa.eu/object/1acae9a9-fa64-5f8b-b437-4ae3212dc96b> a crmsci:S10_Material_Substantial ;
     rdfs:label "Ferment oil of Urtica urens ( “ The Small Xettle ” )"@en .
@@ -20471,9 +20487,6 @@
 <http://data.odeuropa.eu/object/6738db44-395b-51c1-9645-0f5532e70bbd> a crmsci:S10_Material_Substantial ;
     rdfs:label "the East"@en .
 
-<http://data.odeuropa.eu/object/677ac067-f68a-5ed5-9b04-46fabf9e9c57> a crmsci:S10_Material_Substantial ;
-    rdfs:label "tow"@en .
-
 <http://data.odeuropa.eu/object/67d96534-da27-52f2-9c98-73a495929ad1> a crmsci:S10_Material_Substantial ;
     rdfs:label "myself"@en .
 
@@ -20750,9 +20763,6 @@
 <http://data.odeuropa.eu/object/8b072e1c-5dbb-5efa-a5a2-0c14efaf9096> a crmsci:S10_Material_Substantial ;
     rdfs:label "flues"@en .
 
-<http://data.odeuropa.eu/object/8b555568-f913-50f8-a0f1-68c0d3a87d01> a crmsci:S10_Material_Substantial ;
-    rdfs:label "Aromaticks"@en .
-
 <http://data.odeuropa.eu/object/8c9cefc6-cebc-5d11-8c19-a311d92c4927> a crmsci:S10_Material_Substantial ;
     rdfs:label "them"@en .
 
@@ -20864,9 +20874,6 @@
 <http://data.odeuropa.eu/object/9b0f6f60-00c6-54bc-9084-391191516252> a crmsci:S10_Material_Substantial ;
     rdfs:label "all the houshold-stuffe"@en .
 
-<http://data.odeuropa.eu/object/9b457a73-29fa-58c5-a6d4-5be30636f3d4> a crmsci:S10_Material_Substantial ;
-    rdfs:label "The distillate"@en .
-
 <http://data.odeuropa.eu/object/9bdcfd6d-a1ca-55f2-941c-109fa5a1c467> a crmsci:S10_Material_Substantial ;
     rdfs:label "the stone"@en .
 
@@ -20899,9 +20906,6 @@
 
 <http://data.odeuropa.eu/object/a08b231b-d437-57cb-9af6-9b0ba1e1d5be> a crmsci:S10_Material_Substantial ;
     rdfs:label "dung"@en .
-
-<http://data.odeuropa.eu/object/a1244ea6-3fe4-5670-a476-d5310e2a4e12> a crmsci:S10_Material_Substantial ;
-    rdfs:label "paradise"@en .
 
 <http://data.odeuropa.eu/object/a1466263-379e-5173-8f17-04df4b968021> a crmsci:S10_Material_Substantial ;
     rdfs:label "six different-coloured wools"@en .
@@ -21005,9 +21009,6 @@
 <http://data.odeuropa.eu/object/abdcd961-11f3-580d-a249-facf11b36f6d> a crmsci:S10_Material_Substantial ;
     rdfs:label "the air of a cold country"@en .
 
-<http://data.odeuropa.eu/object/ac740397-387b-57e3-b1ae-e6e2579626dc> a crmsci:S10_Material_Substantial ;
-    rdfs:label "pleasures"@en .
-
 <http://data.odeuropa.eu/object/acd62dff-287e-5795-a452-b4c8a1cf7504> a crmsci:S10_Material_Substantial ;
     rdfs:label "in black clothes"@en .
 
@@ -21016,9 +21017,6 @@
 
 <http://data.odeuropa.eu/object/ad399466-7b27-5122-b5c7-2a9282c65ce9> a crmsci:S10_Material_Substantial ;
     rdfs:label "Ivy-Gum"@en .
-
-<http://data.odeuropa.eu/object/ad5a2664-1cd6-5935-aa0c-81783ea1f834> a crmsci:S10_Material_Substantial ;
-    rdfs:label "the hayfield odour"@en .
 
 <http://data.odeuropa.eu/object/adbe323d-dd74-5f51-8d95-03059de71d02> a crmsci:S10_Material_Substantial ;
     rdfs:label "the beautiful gems"@en .
@@ -21299,9 +21297,6 @@
 <http://data.odeuropa.eu/object/d060bd22-c4b2-5826-8125-3c3114836d92> a crmsci:S10_Material_Substantial ;
     rdfs:label "dark brownish spot"@en .
 
-<http://data.odeuropa.eu/object/d074e084-87dd-5e5d-9ae8-9376f3fad1ae> a crmsci:S10_Material_Substantial ;
-    rdfs:label "places"@en .
-
 <http://data.odeuropa.eu/object/d0d7f99e-b577-5542-91de-2bd7ef219e8f> a crmsci:S10_Material_Substantial ;
     rdfs:label "Narcoticks"@en .
 
@@ -21367,9 +21362,6 @@
 
 <http://data.odeuropa.eu/object/d87bc57e-8a83-5be5-8c93-4629c5518130> a crmsci:S10_Material_Substantial ;
     rdfs:label "in six ounces of the warm fluid"@en .
-
-<http://data.odeuropa.eu/object/d94b77dd-94e5-5b8e-84e3-bdd988ce5c00> a crmsci:S10_Material_Substantial ;
-    rdfs:label "Tables"@en .
 
 <http://data.odeuropa.eu/object/d9f92f56-46e0-5009-98ce-02b5e0234543> a crmsci:S10_Material_Substantial ;
     rdfs:label "the oyle of Linum Rhodtum"@en .
@@ -21530,9 +21522,6 @@
 <http://data.odeuropa.eu/object/ecd9c18d-463a-5574-b8fc-35fe8e5186a0> a crmsci:S10_Material_Substantial ;
     rdfs:label "non - fuliginous flame"@en .
 
-<http://data.odeuropa.eu/object/ecffd2a9-0a28-585b-be78-e89f286ca0a4> a crmsci:S10_Material_Substantial ;
-    rdfs:label "organs"@en .
-
 <http://data.odeuropa.eu/object/ed923319-9bd9-5726-b012-11966bc4e750> a crmsci:S10_Material_Substantial ;
     rdfs:label "Pelargonia"@en .
 
@@ -21685,6 +21674,10 @@
 
 <http://data.odeuropa.eu/object/ffd4071c-b3c0-5507-ac95-8359befbcee0> a crmsci:S10_Material_Substantial ;
     rdfs:label "such as those given off from the works complained of"@en .
+
+<http://data.odeuropa.eu/place/e83e70c9-6897-5e7c-b602-0bc741471dc7> a crm:E53_Place ;
+    rdfs:label "arabia" ;
+    crm:P137_exemplifies <http://data.odeuropa.eu/vocabulary/fragrant-spaces/109> .
 
 <http://data.odeuropa.eu/source/01180aa2-1da4-5240-9af6-78f698ac8bf9/fragment/2a1b58f0-a86d-5c00-9ab6-898eedb8e593> a crm:E33_Linguistic_Object ;
     crm:P106_is_composed_of "leaf"@en,
@@ -32683,9 +32676,6 @@ snuff			every Cicerone								002E Charles Dickens 1846 Pictures from Italy__52_
 <http://data.odeuropa.eu/thing/7bca4f8c-63f5-506b-a257-640d463ec71c> a crm:E70_Thing ;
     rdfs:label "if it had been recently dipped from a sewer"@en .
 
-<http://data.odeuropa.eu/thing/7c8dc140-af28-53c9-aa27-dae5b7dc5d80> a crm:E70_Thing ;
-    rdfs:label "arabia"@en .
-
 <http://data.odeuropa.eu/thing/8b506bac-b220-5cd2-b90d-7a13b7ae27ed> a crm:E70_Thing ;
     rdfs:label "that of the leaves"@en .
 
@@ -32803,6 +32793,9 @@ snuff			every Cicerone								002E Charles Dickens 1846 Pictures from Italy__52_
 <http://data.odeuropa.eu/actor/696c6c7e-82b6-5beb-a761-76d532e76c57> a crm:E39_Actor ;
     rdfs:label "the wicked and vngodly sinner" .
 
+<http://data.odeuropa.eu/actor/6cb55cf3-73c3-58f0-b4b5-c9a2b2cd0234> a crm:E39_Actor ;
+    rdfs:label "some healthy persons" .
+
 <http://data.odeuropa.eu/actor/6d9e13d6-1710-583f-94bc-e792f3e6d2a6> a crm:E39_Actor ;
     rdfs:label "STEWART , army agent" .
 
@@ -32818,9 +32811,6 @@ snuff			every Cicerone								002E Charles Dickens 1846 Pictures from Italy__52_
 <http://data.odeuropa.eu/actor/7c801006-3a13-52ae-a1d0-78aa460ef671> a crm:E39_Actor ;
     rdfs:label "Finch" .
 
-<http://data.odeuropa.eu/actor/7ff74e30-7946-5c8b-844e-c17558de14ed> a crm:E39_Actor ;
-    rdfs:label "delicate persons" .
-
 <http://data.odeuropa.eu/actor/8a709637-cc54-5109-a575-364a93be9ce0> a crm:E39_Actor ;
     rdfs:label "by many of the gentlemen" .
 
@@ -32833,9 +32823,8 @@ snuff			every Cicerone								002E Charles Dickens 1846 Pictures from Italy__52_
 <http://data.odeuropa.eu/actor/916dd051-2847-591e-ae80-38bbde05e2b5> a crm:E39_Actor ;
     rdfs:label "Flush" .
 
-<http://data.odeuropa.eu/actor/9c437913-005c-5225-9ff2-8beeae75da8f> a crm:E21_Person ;
-    rdfs:label "the Women" ;
-    crm:P137_exemplifies <http://data.odeuropa.eu/vocabulary/olfactory-objects/541> .
+<http://data.odeuropa.eu/actor/9c437913-005c-5225-9ff2-8beeae75da8f> a crm:E39_Actor ;
+    rdfs:label "the Women" .
 
 <http://data.odeuropa.eu/actor/9dcee635-fd5d-5924-8759-a06437b1fae8> a crm:E39_Actor ;
     rdfs:label "the olfactory nerves" .
@@ -32893,14 +32882,11 @@ snuff			every Cicerone								002E Charles Dickens 1846 Pictures from Italy__52_
 <http://data.odeuropa.eu/attribute/agreeable_en> a crm:E90_Symbolic_Object ;
     rdfs:label "agreeable"@en .
 
-<http://data.odeuropa.eu/attribute/aromatick_en> a crm:E90_Symbolic_Object ;
-    rdfs:label "aromatick"@en .
+<http://data.odeuropa.eu/attribute/body_en> a crm:E90_Symbolic_Object ;
+    rdfs:label "body"@en .
 
 <http://data.odeuropa.eu/attribute/corrupt_en> a crm:E90_Symbolic_Object ;
     rdfs:label "corrupt"@en .
-
-<http://data.odeuropa.eu/attribute/delicate_en> a crm:E90_Symbolic_Object ;
-    rdfs:label "delicate"@en .
 
 <http://data.odeuropa.eu/attribute/different_en> a crm:E90_Symbolic_Object ;
     rdfs:label "different"@en .
@@ -32910,12 +32896,6 @@ snuff			every Cicerone								002E Charles Dickens 1846 Pictures from Italy__52_
 
 <http://data.odeuropa.eu/attribute/essential_en> a crm:E90_Symbolic_Object ;
     rdfs:label "essential"@en .
-
-<http://data.odeuropa.eu/attribute/floral_en> a crm:E90_Symbolic_Object ;
-    rdfs:label "floral"@en .
-
-<http://data.odeuropa.eu/attribute/fresh_en> a crm:E90_Symbolic_Object ;
-    rdfs:label "fresh"@en .
 
 <http://data.odeuropa.eu/attribute/generally%20positive_en> a crm:E90_Symbolic_Object ;
     rdfs:label "generally positive"@en .
@@ -32949,9 +32929,6 @@ snuff			every Cicerone								002E Charles Dickens 1846 Pictures from Italy__52_
 
 <http://data.odeuropa.eu/attribute/stinke_en> a crm:E90_Symbolic_Object ;
     rdfs:label "stinke"@en .
-
-<http://data.odeuropa.eu/attribute/strongly%20aromatic_en> a crm:E90_Symbolic_Object ;
-    rdfs:label "strongly aromatic"@en .
 
 <http://data.odeuropa.eu/attribute/such_en> a crm:E90_Symbolic_Object ;
     rdfs:label "such"@en .
@@ -33105,7 +33082,7 @@ snuff			every Cicerone								002E Charles Dickens 1846 Pictures from Italy__52_
 
 <http://data.odeuropa.eu/emission/09cb0acc-e95c-5fd7-b0e7-7876e6c5d73a> a od:L12_Smell_Emission ;
     od:F1_generated <http://data.odeuropa.eu/smell/014fb0c9-e7bd-59d6-8591-b48b7f10b497> ;
-    od:F3_had_source <http://data.odeuropa.eu/object/8b555568-f913-50f8-a0f1-68c0d3a87d01> ;
+    od:F3_had_source <http://data.odeuropa.eu/vocabulary/olfactory-objects/653> ;
     time:hasTime <http://data.odeuropa.eu/time/c348f838-4d5d-50dd-86f5-5068247fa4b8> .
 
 <http://data.odeuropa.eu/emission/09dcadf4-2eb7-51ff-95e7-51b35fc4c1fd> a od:L12_Smell_Emission ;
@@ -34025,7 +34002,7 @@ snuff			every Cicerone								002E Charles Dickens 1846 Pictures from Italy__52_
 
 <http://data.odeuropa.eu/emission/332bd600-7b1b-5ec3-b537-bea41aa951c8> a od:L12_Smell_Emission ;
     od:F1_generated <http://data.odeuropa.eu/smell/908fae1e-e2eb-5918-9775-ce2df63ea250> ;
-    od:F3_had_source <http://data.odeuropa.eu/object/ecffd2a9-0a28-585b-be78-e89f286ca0a4> ;
+    od:F3_had_source <http://data.odeuropa.eu/vocabulary/olfactory-objects/322> ;
     crm:P7_took_place_at <http://data.odeuropa.eu/place/e9408ca6-f0bf-54fc-b6ff-3b3764a3357f>,
         <http://data.odeuropa.eu/place/fffea8cf-d276-5e56-b466-3ed1d438a684> ;
     time:hasTime <http://data.odeuropa.eu/time/94f1e857-d79e-53d9-b8dd-ee641f0f9310> .
@@ -34713,7 +34690,7 @@ snuff			every Cicerone								002E Charles Dickens 1846 Pictures from Italy__52_
 
 <http://data.odeuropa.eu/emission/55ca7906-5fd5-5d9f-bc72-acab4912a36c> a od:L12_Smell_Emission ;
     od:F1_generated <http://data.odeuropa.eu/smell/af922426-4d29-51bd-892e-0d65d158ce0d> ;
-    od:F3_had_source <http://data.odeuropa.eu/object/ad5a2664-1cd6-5935-aa0c-81783ea1f834> ;
+    od:F3_had_source <http://data.odeuropa.eu/vocabulary/fragrant-spaces/30> ;
     time:hasTime <http://data.odeuropa.eu/time/54469aae-872a-5876-9b18-6f5f13f5d111> .
 
 <http://data.odeuropa.eu/emission/55cec9ec-34d5-59b7-950f-d269b23ff675> a od:L12_Smell_Emission ;
@@ -35076,7 +35053,7 @@ snuff			every Cicerone								002E Charles Dickens 1846 Pictures from Italy__52_
 
 <http://data.odeuropa.eu/emission/68f55a61-2509-531e-99cc-67fd3aa63284> a od:L12_Smell_Emission ;
     od:F1_generated <http://data.odeuropa.eu/smell/762c3b48-02b9-53ad-a631-715a7c9540fd> ;
-    od:F3_had_source <http://data.odeuropa.eu/object/d074e084-87dd-5e5d-9ae8-9376f3fad1ae> ;
+    od:F3_had_source <http://data.odeuropa.eu/vocabulary/fragrant-spaces/121> ;
     time:hasTime <http://data.odeuropa.eu/time/5d8ee10d-6a5b-5fa6-9fc5-3ec85cb0ca1b> .
 
 <http://data.odeuropa.eu/emission/6910bc4d-1768-5ef5-852b-325884e2a186> a od:L12_Smell_Emission ;
@@ -35098,7 +35075,7 @@ snuff			every Cicerone								002E Charles Dickens 1846 Pictures from Italy__52_
 
 <http://data.odeuropa.eu/emission/693db0e2-d40a-549e-bbdc-de49a51067d2> a od:L12_Smell_Emission ;
     od:F1_generated <http://data.odeuropa.eu/smell/afd4451f-2184-57d3-9bb9-6da4eb49ca82> ;
-    crm:P7_took_place_at <https://sws.geonames.org/3020679/> ;
+    crm:P7_took_place_at <http://data.odeuropa.eu/place/43fec6e9-93c5-5f4f-bb28-e7924dab1dee> ;
     time:hasTime <http://data.odeuropa.eu/time/9eed2791-f291-55c7-b47f-f0d7166bc876> .
 
 <http://data.odeuropa.eu/emission/69a56dc4-582e-5614-8ffb-3f464b14218d> a od:L12_Smell_Emission ;
@@ -35452,7 +35429,7 @@ snuff			every Cicerone								002E Charles Dickens 1846 Pictures from Italy__52_
 
 <http://data.odeuropa.eu/emission/7aaf64f9-2eca-55c4-a614-e834815e7bfd> a od:L12_Smell_Emission ;
     od:F1_generated <http://data.odeuropa.eu/smell/f53f122a-d2ad-5c16-8aa9-ebdf8651a4ba> ;
-    od:F3_had_source <http://data.odeuropa.eu/object/a1244ea6-3fe4-5670-a476-d5310e2a4e12> ;
+    od:F3_had_source <http://data.odeuropa.eu/vocabulary/fragrant-spaces/108> ;
     time:hasTime <http://data.odeuropa.eu/time/49841b18-a5fc-5e94-8e63-6fc733c3f940> .
 
 <http://data.odeuropa.eu/emission/7af8a2ca-18dd-5343-ae6e-eed5b43d49e8> a od:L12_Smell_Emission ;
@@ -35594,7 +35571,7 @@ snuff			every Cicerone								002E Charles Dickens 1846 Pictures from Italy__52_
 <http://data.odeuropa.eu/emission/80a2d01a-ed5c-5a6c-b6f0-624f4dd44b21> a od:L12_Smell_Emission ;
     od:F1_generated <http://data.odeuropa.eu/smell/576ce091-9188-588c-8b89-f6337467ee0e> ;
     od:F4_had_carrier <http://data.odeuropa.eu/object/192ef016-90c5-5985-8ea0-4967fb65043d>,
-        <http://data.odeuropa.eu/object/d94b77dd-94e5-5b8e-84e3-bdd988ce5c00> ;
+        <http://data.odeuropa.eu/vocabulary/fragrant-spaces/116> ;
     time:hasTime <http://data.odeuropa.eu/time/be0ee383-2b67-58c7-8ae9-7e2cb036257f> .
 
 <http://data.odeuropa.eu/emission/81c2651a-182a-5f4e-846b-571ba28cf73b> a od:L12_Smell_Emission ;
@@ -36108,7 +36085,7 @@ snuff			every Cicerone								002E Charles Dickens 1846 Pictures from Italy__52_
 
 <http://data.odeuropa.eu/emission/98a9e854-5659-59cf-8334-c6add5d15cc1> a od:L12_Smell_Emission ;
     od:F1_generated <http://data.odeuropa.eu/smell/e8a63071-4847-515c-9d7f-cdd602e5c16f> ;
-    od:F4_had_carrier <http://data.odeuropa.eu/object/9b457a73-29fa-58c5-a6d4-5be30636f3d4> ;
+    od:F4_had_carrier <http://data.odeuropa.eu/vocabulary/fragrant-spaces/17> ;
     time:hasTime <http://data.odeuropa.eu/time/df862698-973c-58f0-a534-b7120964a68a> .
 
 <http://data.odeuropa.eu/emission/997f1419-3b51-54a5-80e1-ba3968f869ac> a od:L12_Smell_Emission ;
@@ -36391,7 +36368,7 @@ snuff			every Cicerone								002E Charles Dickens 1846 Pictures from Italy__52_
 
 <http://data.odeuropa.eu/emission/aaa398e4-abbf-5af2-897e-7c0212e32848> a od:L12_Smell_Emission ;
     od:F1_generated <http://data.odeuropa.eu/smell/bc15e67b-dc86-578e-8a11-f63f6f6805bc> ;
-    od:F3_had_source <http://data.odeuropa.eu/object/ac740397-387b-57e3-b1ae-e6e2579626dc> ;
+    od:F3_had_source <http://data.odeuropa.eu/vocabulary/fragrant-spaces/79> ;
     time:hasTime <http://data.odeuropa.eu/time/5e4d21a3-797a-5c71-a571-916753a66b3c> .
 
 <http://data.odeuropa.eu/emission/aacd8d29-3209-56b0-a0b2-d11e9f5cf978> a od:L12_Smell_Emission ;
@@ -37455,7 +37432,7 @@ snuff			every Cicerone								002E Charles Dickens 1846 Pictures from Italy__52_
 
 <http://data.odeuropa.eu/emission/e318e232-d5da-5c52-9855-807c8ba9bc36> a od:L12_Smell_Emission ;
     od:F1_generated <http://data.odeuropa.eu/smell/5ce80267-44b6-5389-908b-6e8265d78adc> ;
-    crm:P7_took_place_at <https://sws.geonames.org/6957698/> ;
+    crm:P7_took_place_at <http://data.odeuropa.eu/place/e783c780-6b0a-59ff-a32a-90087227bbbb> ;
     time:hasTime <http://data.odeuropa.eu/time/38c61ef4-9905-5e77-a5e4-95a24fb06c5c> .
 
 <http://data.odeuropa.eu/emission/e4611144-ed1d-5e91-8f6c-f7810709e3bb> a od:L12_Smell_Emission ;
@@ -37797,7 +37774,7 @@ snuff			every Cicerone								002E Charles Dickens 1846 Pictures from Italy__52_
 
 <http://data.odeuropa.eu/emission/f3855ed4-66cf-583d-9f17-cf77e6bc85f9> a od:L12_Smell_Emission ;
     od:F1_generated <http://data.odeuropa.eu/smell/1e9600b3-7dd1-5487-9a8e-bd74803cadbe> ;
-    od:F3_had_source <http://data.odeuropa.eu/object/1a67cc01-f772-5f4c-b3e5-0ad7a3fb9386> ;
+    od:F3_had_source <http://data.odeuropa.eu/vocabulary/olfactory-objects/619> ;
     time:hasTime <http://data.odeuropa.eu/time/3d46e59c-14a1-557c-8676-ba6ff62fda97>,
         <http://data.odeuropa.eu/time/d441192b-2f1b-56d5-9b37-25a8277cf65e> .
 
@@ -37926,8 +37903,8 @@ snuff			every Cicerone								002E Charles Dickens 1846 Pictures from Italy__52_
 
 <http://data.odeuropa.eu/emission/f9c566fc-6376-59bc-9a32-dc6a78b28dcd> a od:L12_Smell_Emission ;
     od:F1_generated <http://data.odeuropa.eu/smell/9393f4b6-609f-5473-a59c-06f364067034> ;
-    od:F3_had_source <http://data.odeuropa.eu/object/677ac067-f68a-5ed5-9b04-46fabf9e9c57>,
-        <http://data.odeuropa.eu/object/9506761f-abc6-5e3a-ae66-8240309233a8>,
+    od:F3_had_source <http://data.odeuropa.eu/object/9506761f-abc6-5e3a-ae66-8240309233a8>,
+        <http://data.odeuropa.eu/vocabulary/fragrant-spaces/126>,
         <http://data.odeuropa.eu/vocabulary/olfactory-objects/230> ;
     od:F4_had_carrier <http://data.odeuropa.eu/vocabulary/olfactory-objects/417> ;
     crm:P7_took_place_at <http://data.odeuropa.eu/place/be79ebb8-d6ae-5666-9146-54438505046c> ;
@@ -38684,7 +38661,7 @@ snuff			every Cicerone								002E Charles Dickens 1846 Pictures from Italy__52_
 
 <http://data.odeuropa.eu/experience/66e59499-a877-5add-9259-8cee957831c4> a od:L13_Olfactory_Experience ;
     od:F2_perceived <http://data.odeuropa.eu/smell/5ce80267-44b6-5389-908b-6e8265d78adc> ;
-    crm:P7_took_place_at <https://sws.geonames.org/6957698/> ;
+    crm:P7_took_place_at <http://data.odeuropa.eu/place/e783c780-6b0a-59ff-a32a-90087227bbbb> ;
     time:hasTime <http://data.odeuropa.eu/time/38c61ef4-9905-5e77-a5e4-95a24fb06c5c> .
 
 <http://data.odeuropa.eu/experience/68704548-b2cf-571e-9408-e69441ed75f4> a od:L13_Olfactory_Experience ;
@@ -39739,7 +39716,8 @@ snuff			every Cicerone								002E Charles Dickens 1846 Pictures from Italy__52_
     rdfs:label "from the premises of Messrs" .
 
 <http://data.odeuropa.eu/place/1a3df11b-4b66-566d-9256-d5e0d6add0f3> a crm:E53_Place ;
-    rdfs:label "the place" .
+    rdfs:label "the place" ;
+    crm:P137_exemplifies <http://data.odeuropa.eu/vocabulary/fragrant-spaces/121> .
 
 <http://data.odeuropa.eu/place/1a626b24-8f6c-57b0-8d5c-bb314f94ad30> a crm:E53_Place ;
     rdfs:label "the floor" .
@@ -39809,6 +39787,10 @@ snuff			every Cicerone								002E Charles Dickens 1846 Pictures from Italy__52_
 <http://data.odeuropa.eu/place/3f2344e7-eb28-5ba5-83e5-e6944c996def> a crm:E53_Place ;
     rdfs:label "the works upon Greenwich" .
 
+<http://data.odeuropa.eu/place/43fec6e9-93c5-5f4f-bb28-e7924dab1dee> a crm:E53_Place ;
+    rdfs:label "places" ;
+    crm:P137_exemplifies <http://data.odeuropa.eu/vocabulary/fragrant-spaces/121> .
+
 <http://data.odeuropa.eu/place/46704146-20d8-5144-b21e-e3b05fcb4f8a> a crm:E53_Place ;
     rdfs:label "Barking Creek" .
 
@@ -39829,7 +39811,8 @@ snuff			every Cicerone								002E Charles Dickens 1846 Pictures from Italy__52_
     rdfs:label "at the barracks" .
 
 <http://data.odeuropa.eu/place/5a7df309-c062-5d32-804c-bcc63296cba1> a crm:E53_Place ;
-    rdfs:label "in a place" .
+    rdfs:label "in a place" ;
+    crm:P137_exemplifies <http://data.odeuropa.eu/vocabulary/fragrant-spaces/121> .
 
 <http://data.odeuropa.eu/place/5ac92044-c9fc-5016-a018-012837fec728> a crm:E53_Place ;
     rdfs:label "in the little lanes at the back of Lai Bazar" .
@@ -39961,8 +39944,7 @@ snuff			every Cicerone								002E Charles Dickens 1846 Pictures from Italy__52_
     rdfs:label "even distant docks" .
 
 <http://data.odeuropa.eu/place/c071dbf5-938c-5c28-a20e-bdd05a0eca1d> a crm:E53_Place ;
-    rdfs:label "in the breath" ;
-    crm:P137_exemplifies <http://data.odeuropa.eu/vocabulary/olfactory-objects/537> .
+    rdfs:label "in the breath" .
 
 <http://data.odeuropa.eu/place/c201409f-24d4-52e1-a92d-f96c1394cea8> a crm:E53_Place ;
     rdfs:label "in some of the commoner places of public resort" .
@@ -40000,7 +39982,7 @@ snuff			every Cicerone								002E Charles Dickens 1846 Pictures from Italy__52_
 
 <http://data.odeuropa.eu/place/da7d09e4-4f2e-5ed1-b7b0-ae649d3b2189> a crm:E53_Place ;
     rdfs:label "the sewage" ;
-    crm:P137_exemplifies <http://data.odeuropa.eu/vocabulary/olfactory-objects/676> .
+    crm:P137_exemplifies <http://data.odeuropa.eu/vocabulary/fragrant-spaces/98> .
 
 <http://data.odeuropa.eu/place/dd31935e-8f25-541c-b6ce-c3decfd8038c> a crm:E53_Place ;
     rdfs:label "through main streets and back streets" .
@@ -40022,6 +40004,10 @@ snuff			every Cicerone								002E Charles Dickens 1846 Pictures from Italy__52_
 
 <http://data.odeuropa.eu/place/e565e8a3-1f71-5c47-8978-f7aa46314e83> a crm:E53_Place ;
     rdfs:label "the inward roomes of our soules" .
+
+<http://data.odeuropa.eu/place/e783c780-6b0a-59ff-a32a-90087227bbbb> a crm:E53_Place ;
+    rdfs:label "of Arabia" ;
+    crm:P137_exemplifies <http://data.odeuropa.eu/vocabulary/fragrant-spaces/109> .
 
 <http://data.odeuropa.eu/place/e9408ca6-f0bf-54fc-b6ff-3b3764a3357f> a crm:E53_Place ;
     rdfs:label "on the dorsal side of the abdominal extremity" .
@@ -40281,8 +40267,6 @@ snuff			every Cicerone								002E Charles Dickens 1846 Pictures from Italy__52_
 
 <https://sws.geonames.org/2646826/> a crm:E53_Place .
 
-<https://sws.geonames.org/3020679/> a crm:E53_Place .
-
 <https://sws.geonames.org/3171728/> a crm:E53_Place .
 
 <https://sws.geonames.org/3570675/> a crm:E53_Place .
@@ -40300,8 +40284,6 @@ snuff			every Cicerone								002E Charles Dickens 1846 Pictures from Italy__52_
 <https://sws.geonames.org/6255146/> a crm:E53_Place .
 
 <https://sws.geonames.org/6255148/> a crm:E53_Place .
-
-<https://sws.geonames.org/6957698/> a crm:E53_Place .
 
 <https://sws.geonames.org/7249375/> a crm:E53_Place .
 
@@ -40331,9 +40313,6 @@ snuff			every Cicerone								002E Charles Dickens 1846 Pictures from Italy__52_
 <http://data.odeuropa.eu/actor/f21622b7-10b7-5514-94ad-60d9ea3d6050> a crm:E39_Actor ;
     rdfs:label "Colonel Leathom" .
 
-<http://data.odeuropa.eu/attribute/Pungent_en> a crm:E90_Symbolic_Object ;
-    rdfs:label "Pungent"@en .
-
 <http://data.odeuropa.eu/attribute/little_en> a crm:E90_Symbolic_Object ;
     rdfs:label "little"@en .
 
@@ -40345,9 +40324,6 @@ snuff			every Cicerone								002E Charles Dickens 1846 Pictures from Italy__52_
 
 <http://data.odeuropa.eu/attribute/pulmonary_en> a crm:E90_Symbolic_Object ;
     rdfs:label "pulmonary"@en .
-
-<http://data.odeuropa.eu/attribute/slight_en> a crm:E90_Symbolic_Object ;
-    rdfs:label "slight"@en .
 
 <http://data.odeuropa.eu/attribute/very%20fragrant_en> a crm:E90_Symbolic_Object ;
     rdfs:label "very fragrant"@en .
@@ -40835,7 +40811,7 @@ snuff			every Cicerone								002E Charles Dickens 1846 Pictures from Italy__52_
 
 <http://data.odeuropa.eu/experience/3ab179a4-f06e-5078-b4a9-c8e263534a0a> a od:L13_Olfactory_Experience ;
     od:F2_perceived <http://data.odeuropa.eu/smell/7cfc8848-452a-554e-b573-01dad4e65141> ;
-    od:F6_evoked <http://data.odeuropa.eu/thing/7c8dc140-af28-53c9-aa27-dae5b7dc5d80> ;
+    od:F6_evoked <http://data.odeuropa.eu/place/e83e70c9-6897-5e7c-b602-0bc741471dc7> ;
     time:hasTime <http://data.odeuropa.eu/time/f305400e-87e0-569f-bcf1-085bb3b6eb31> .
 
 <http://data.odeuropa.eu/experience/3bfac94c-9e19-5e85-88e2-97897cd949d7> a od:L13_Olfactory_Experience ;
@@ -41476,7 +41452,7 @@ snuff			every Cicerone								002E Charles Dickens 1846 Pictures from Italy__52_
 <http://data.odeuropa.eu/experience/7f55059c-6549-5dda-a4ac-6875584f8987> a od:L13_Olfactory_Experience ;
     od:F2_perceived <http://data.odeuropa.eu/smell/afd4451f-2184-57d3-9bb9-6da4eb49ca82> ;
     crm:P14_carried_out_by <http://data.odeuropa.eu/actor/7334570d-50c5-5fb8-9619-0b49b892dfe8> ;
-    crm:P7_took_place_at <https://sws.geonames.org/3020679/> ;
+    crm:P7_took_place_at <http://data.odeuropa.eu/place/43fec6e9-93c5-5f4f-bb28-e7924dab1dee> ;
     time:hasTime <http://data.odeuropa.eu/time/9eed2791-f291-55c7-b47f-f0d7166bc876> .
 
 <http://data.odeuropa.eu/experience/7f5f2c45-ff59-5fd0-b287-c63530221ad8> a od:L13_Olfactory_Experience ;
@@ -42474,9 +42450,6 @@ snuff			every Cicerone								002E Charles Dickens 1846 Pictures from Italy__52_
 
 <http://data.odeuropa.eu/attribute/acid_en> a crm:E90_Symbolic_Object ;
     rdfs:label "acid"@en .
-
-<http://data.odeuropa.eu/attribute/fine_en> a crm:E90_Symbolic_Object ;
-    rdfs:label "fine"@en .
 
 <http://data.odeuropa.eu/attribute/offensive_en> a crm:E90_Symbolic_Object ;
     rdfs:label "offensive"@en .
@@ -44469,9 +44442,6 @@ snuff			every Cicerone								002E Charles Dickens 1846 Pictures from Italy__52_
 <http://data.odeuropa.eu/actor/f6749c14-79c8-5077-bbc0-f2d86fee478a> a crm:E39_Actor ;
     rdfs:label "We" .
 
-<http://data.odeuropa.eu/attribute/Aromatick_en> a crm:E90_Symbolic_Object ;
-    rdfs:label "Aromatick"@en .
-
 <http://data.odeuropa.eu/attribute/faecal_en> a crm:E90_Symbolic_Object ;
     rdfs:label "faecal"@en .
 
@@ -45944,20 +45914,11 @@ snuff			every Cicerone								002E Charles Dickens 1846 Pictures from Italy__52_
 <http://data.odeuropa.eu/actor/c1a8e4ad-110d-5d48-95ef-eb9437cda2b2> a crm:E39_Actor ;
     rdfs:label "He" .
 
-<http://data.odeuropa.eu/attribute/pungent_en> a crm:E90_Symbolic_Object ;
-    rdfs:label "pungent"@en .
-
 <http://data.odeuropa.eu/attribute/stinking_en> a crm:E90_Symbolic_Object ;
     rdfs:label "stinking"@en .
 
 <http://data.odeuropa.eu/attribute/fragrant_en> a crm:E90_Symbolic_Object ;
     rdfs:label "fragrant"@en .
-
-<http://data.odeuropa.eu/attribute/aromatic_en> a crm:E90_Symbolic_Object ;
-    rdfs:label "aromatic"@en .
-
-<http://data.odeuropa.eu/attribute/sweet_en> a crm:E90_Symbolic_Object ;
-    rdfs:label "sweet"@en .
 
 <http://data.odeuropa.eu/actor/39aa5a8a-9d0c-56fc-852a-4fef7e7dbd4d> a crm:E39_Actor ;
     rdfs:label "I" .
@@ -45971,6 +45932,9 @@ snuff			every Cicerone								002E Charles Dickens 1846 Pictures from Italy__52_
 <http://data.odeuropa.eu/attribute/fetid_en> a crm:E90_Symbolic_Object ;
     rdfs:label "fetid"@en .
 
+<http://data.odeuropa.eu/attribute-type/character> a crm:E55_Type ;
+    rdfs:label "character" .
+
 <http://data.odeuropa.eu/attribute-type/intensity> a crm:E55_Type ;
     rdfs:label "intensity" .
 
@@ -45978,6 +45942,9 @@ snuff			every Cicerone								002E Charles Dickens 1846 Pictures from Italy__52_
     rdfs:label "1833" ;
     time:hasBeginning "1833"^^xsd:gYear ;
     time:hasEnd "1833"^^xsd:gYear .
+
+<http://data.odeuropa.eu/attribute-type/hedonic> a crm:E55_Type ;
+    rdfs:label "hedonic" .
 
 <http://data.odeuropa.eu/provenance/7dfbb2db-cd51-5631-b84e-873c84320f79> a prov:Activity ;
     rdfs:label "Manual text annotation" ;

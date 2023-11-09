@@ -195,9 +195,9 @@ def guess_annotation(body, seed):
         # no choice, generic
         annotation = Thing(seed, body['name'], 'en')
     elif role == 'gesture':
-        annotation = Gesture(seed, body['name'], 'en', lemma=uri)
+        annotation = uri # Gesture(seed, body['name'], 'en', lemma=uri)
     else:
-        annotation = SmellSource(seed, body['name'], lang='en', lemma=uri, role=role)
+        annotation = uri # SmellSource(seed, body['name'], lang='en', lemma=uri, role=role)
     return annotation
 
 

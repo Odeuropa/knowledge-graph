@@ -74,6 +74,8 @@ class Vocabulary:
 
     def __init__(self, data, family=None):
         self.family = family
+        self.search_cache = {}
+
         if isinstance(data, list):
             self.lemmata = data
             return
@@ -94,8 +96,6 @@ class Vocabulary:
 
     def autocomplete(self, q, lang, n=10):
         return self.search(q, lang, n, True)
-
-    search_cache = {}
 
     def search(self, q, lang, n=10, autocomplete=False):
         if q in self.search_cache:

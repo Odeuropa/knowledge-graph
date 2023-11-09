@@ -54,8 +54,8 @@ class OlfactoryExperience(Entity):
         lemma, role = VocManager.get('olfactory-gestures').interlink(gesture, lang)
         if lemma is not None:
             print('found!', gesture, lemma)
-            gest = Gesture(self.seed + '$' + str(self.gesture_id), gesture, lang, lemma)
-            self.add(ODEUROPA.F5_involved_gesture, gest)
+            # gest = Gesture(self.seed + '$' + str(self.gesture_id), gesture, lang, lemma)
+            self.add(ODEUROPA.F5_involved_gesture, lemma)
 
         # nothing more for now
         # TODO better strategy: here there are mostly long texts
