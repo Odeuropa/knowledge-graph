@@ -17,8 +17,9 @@
 <http://data.odeuropa.eu/experience/000fb2af-cfb8-5b11-a289-aa65ec9b596e/assignment/2> a crm:E13_Attribute_Assignment ;
     rdfs:label "prijazen"@sl ;
     crm:P140_assigned_attribute_to <http://data.odeuropa.eu/smell/05eba4e2-83a3-5090-90eb-f6117ebb313e> ;
-    crm:P141_assigned <http://data.odeuropa.eu/attribute/prijazen_sl> ;
-    crm:P17_was_motivated_by <http://data.odeuropa.eu/experience/000fb2af-cfb8-5b11-a289-aa65ec9b596e> .
+    crm:P141_assigned <http://data.odeuropa.eu/vocabulary/vdi-hedonic/21p> ;
+    crm:P17_was_motivated_by <http://data.odeuropa.eu/experience/000fb2af-cfb8-5b11-a289-aa65ec9b596e> ;
+    crm:P2_has_type <http://data.odeuropa.eu/attribute-type/hedonic> .
 
 <http://data.odeuropa.eu/experience/000fb2af-cfb8-5b11-a289-aa65ec9b596e/assignment/3> a crm:E13_Attribute_Assignment ;
     rdfs:label "pomirljiv"@sl ;
@@ -59,8 +60,9 @@
 <http://data.odeuropa.eu/experience/055e7552-db60-5875-917f-16b3a0c100d8/assignment/1> a crm:E13_Attribute_Assignment ;
     rdfs:label "neprijeten"@sl ;
     crm:P140_assigned_attribute_to <http://data.odeuropa.eu/smell/e93a3714-7e95-5e62-aba0-199104092186> ;
-    crm:P141_assigned <http://data.odeuropa.eu/attribute/neprijeten_sl> ;
-    crm:P17_was_motivated_by <http://data.odeuropa.eu/experience/055e7552-db60-5875-917f-16b3a0c100d8> .
+    crm:P141_assigned <http://data.odeuropa.eu/vocabulary/vdi-hedonic/29n> ;
+    crm:P17_was_motivated_by <http://data.odeuropa.eu/experience/055e7552-db60-5875-917f-16b3a0c100d8> ;
+    crm:P2_has_type <http://data.odeuropa.eu/attribute-type/hedonic> .
 
 <http://data.odeuropa.eu/experience/05d32368-1560-5298-8f8d-95472ce09949/assignment/1> a crm:E13_Attribute_Assignment ;
     rdfs:label "gnilo"@sl ;
@@ -125,20 +127,23 @@
 <http://data.odeuropa.eu/experience/1089a6f7-b74b-5a27-9a78-3f311ffae01a/assignment/1> a crm:E13_Attribute_Assignment ;
     rdfs:label "prijeten okus"@sl ;
     crm:P140_assigned_attribute_to <http://data.odeuropa.eu/smell/0ea07184-7b22-53c5-8d00-1684bfc9c67a> ;
-    crm:P141_assigned <http://data.odeuropa.eu/attribute/prijeten%20okus_sl> ;
-    crm:P17_was_motivated_by <http://data.odeuropa.eu/experience/1089a6f7-b74b-5a27-9a78-3f311ffae01a> .
+    crm:P141_assigned <http://data.odeuropa.eu/vocabulary/vdi-hedonic/29p> ;
+    crm:P17_was_motivated_by <http://data.odeuropa.eu/experience/1089a6f7-b74b-5a27-9a78-3f311ffae01a> ;
+    crm:P2_has_type <http://data.odeuropa.eu/attribute-type/hedonic> .
 
 <http://data.odeuropa.eu/experience/10b116dd-29c5-5d91-9044-c646282908c6/assignment/1> a crm:E13_Attribute_Assignment ;
     rdfs:label "prijeten"@sl ;
     crm:P140_assigned_attribute_to <http://data.odeuropa.eu/smell/ab5c5340-ccba-564f-96ca-b1e74b540ba1> ;
-    crm:P141_assigned <http://data.odeuropa.eu/attribute/prijeten_sl> ;
-    crm:P17_was_motivated_by <http://data.odeuropa.eu/experience/10b116dd-29c5-5d91-9044-c646282908c6> .
+    crm:P141_assigned <http://data.odeuropa.eu/vocabulary/vdi-hedonic/29p> ;
+    crm:P17_was_motivated_by <http://data.odeuropa.eu/experience/10b116dd-29c5-5d91-9044-c646282908c6> ;
+    crm:P2_has_type <http://data.odeuropa.eu/attribute-type/hedonic> .
 
 <http://data.odeuropa.eu/experience/10ce74ac-0c28-5ea7-bb6a-c1b92edbefd0/assignment/1> a crm:E13_Attribute_Assignment ;
     rdfs:label "prijetno"@sl ;
     crm:P140_assigned_attribute_to <http://data.odeuropa.eu/smell/eeef32b8-e605-5366-8d07-db7fd96c1c56> ;
-    crm:P141_assigned <http://data.odeuropa.eu/attribute/prijetno_sl> ;
-    crm:P17_was_motivated_by <http://data.odeuropa.eu/experience/10ce74ac-0c28-5ea7-bb6a-c1b92edbefd0> .
+    crm:P141_assigned <http://data.odeuropa.eu/vocabulary/vdi-hedonic/29p> ;
+    crm:P17_was_motivated_by <http://data.odeuropa.eu/experience/10ce74ac-0c28-5ea7-bb6a-c1b92edbefd0> ;
+    crm:P2_has_type <http://data.odeuropa.eu/attribute-type/hedonic> .
 
 <http://data.odeuropa.eu/experience/119cf23c-26ce-5631-88a8-820f4d648a6d/assignment/1> a crm:E13_Attribute_Assignment ;
     rdfs:label "silen"@sl ;
@@ -167,14 +172,16 @@
 <http://data.odeuropa.eu/experience/185d3d44-d37d-5a60-8b69-29afdb5faa29/assignment/1> a crm:E13_Attribute_Assignment ;
     rdfs:label "finega"@sl ;
     crm:P140_assigned_attribute_to <http://data.odeuropa.eu/smell/fc7ad539-1db6-55b5-acd0-7bd22e47b1d9> ;
-    crm:P141_assigned <http://data.odeuropa.eu/attribute/finega_sl> ;
-    crm:P17_was_motivated_by <http://data.odeuropa.eu/experience/185d3d44-d37d-5a60-8b69-29afdb5faa29> .
+    crm:P141_assigned <http://data.odeuropa.eu/vocabulary/vdi-hedonic/02n> ;
+    crm:P17_was_motivated_by <http://data.odeuropa.eu/experience/185d3d44-d37d-5a60-8b69-29afdb5faa29> ;
+    crm:P2_has_type <http://data.odeuropa.eu/attribute-type/hedonic> .
 
 <http://data.odeuropa.eu/experience/185d3d44-d37d-5a60-8b69-29afdb5faa29/assignment/2> a crm:E13_Attribute_Assignment ;
     rdfs:label "prijetnega"@sl ;
     crm:P140_assigned_attribute_to <http://data.odeuropa.eu/smell/fc7ad539-1db6-55b5-acd0-7bd22e47b1d9> ;
-    crm:P141_assigned <http://data.odeuropa.eu/attribute/prijetnega_sl> ;
-    crm:P17_was_motivated_by <http://data.odeuropa.eu/experience/185d3d44-d37d-5a60-8b69-29afdb5faa29> .
+    crm:P141_assigned <http://data.odeuropa.eu/vocabulary/vdi-hedonic/29p> ;
+    crm:P17_was_motivated_by <http://data.odeuropa.eu/experience/185d3d44-d37d-5a60-8b69-29afdb5faa29> ;
+    crm:P2_has_type <http://data.odeuropa.eu/attribute-type/hedonic> .
 
 <http://data.odeuropa.eu/experience/194f3f71-b7fd-58fe-9d4e-0a91b4a62f20/assignment/1> a crm:E13_Attribute_Assignment ;
     rdfs:label "priljubljeni"@sl ;
@@ -245,8 +252,9 @@
 <http://data.odeuropa.eu/experience/23db973d-c7b8-5e75-81b8-1143ae6aae10/assignment/1> a crm:E13_Attribute_Assignment ;
     rdfs:label "prijeten"@sl ;
     crm:P140_assigned_attribute_to <http://data.odeuropa.eu/smell/301cd2a5-ab4c-521f-91e7-e7d51cf0581b> ;
-    crm:P141_assigned <http://data.odeuropa.eu/attribute/prijeten_sl> ;
-    crm:P17_was_motivated_by <http://data.odeuropa.eu/experience/23db973d-c7b8-5e75-81b8-1143ae6aae10> .
+    crm:P141_assigned <http://data.odeuropa.eu/vocabulary/vdi-hedonic/29p> ;
+    crm:P17_was_motivated_by <http://data.odeuropa.eu/experience/23db973d-c7b8-5e75-81b8-1143ae6aae10> ;
+    crm:P2_has_type <http://data.odeuropa.eu/attribute-type/hedonic> .
 
 <http://data.odeuropa.eu/experience/24c85851-cd61-554b-a393-d07e632388cb/assignment/1> a crm:E13_Attribute_Assignment ;
     rdfs:label "estetično"@sl ;
@@ -263,8 +271,9 @@
 <http://data.odeuropa.eu/experience/250f1c61-09db-55ec-a913-9cd7eefe1feb/assignment/1> a crm:E13_Attribute_Assignment ;
     rdfs:label "svež"@sl ;
     crm:P140_assigned_attribute_to <http://data.odeuropa.eu/smell/cf8ccb6a-60b6-5bd6-80f4-0491b039c77f> ;
-    crm:P141_assigned <http://data.odeuropa.eu/attribute/sve%C5%BE_sl> ;
-    crm:P17_was_motivated_by <http://data.odeuropa.eu/experience/250f1c61-09db-55ec-a913-9cd7eefe1feb> .
+    crm:P141_assigned <http://data.odeuropa.eu/vocabulary/vdi-hedonic/23p> ;
+    crm:P17_was_motivated_by <http://data.odeuropa.eu/experience/250f1c61-09db-55ec-a913-9cd7eefe1feb> ;
+    crm:P2_has_type <http://data.odeuropa.eu/attribute-type/hedonic> .
 
 <http://data.odeuropa.eu/experience/261d8294-50ae-5bf5-b197-4e3f6c87e7d6/assignment/1> a crm:E13_Attribute_Assignment ;
     rdfs:label "Opojen"@sl ;
@@ -329,8 +338,9 @@
 <http://data.odeuropa.eu/experience/37733fc8-5aa7-575c-8092-12b9e91a9618/assignment/1> a crm:E13_Attribute_Assignment ;
     rdfs:label "sladko"@sl ;
     crm:P140_assigned_attribute_to <http://data.odeuropa.eu/smell/b9014263-bb79-55f8-b9fa-7a891e3a2f97> ;
-    crm:P141_assigned <http://data.odeuropa.eu/attribute/sladko_sl> ;
-    crm:P17_was_motivated_by <http://data.odeuropa.eu/experience/37733fc8-5aa7-575c-8092-12b9e91a9618> .
+    crm:P141_assigned <http://data.odeuropa.eu/vocabulary/vdi-hedonic/11n> ;
+    crm:P17_was_motivated_by <http://data.odeuropa.eu/experience/37733fc8-5aa7-575c-8092-12b9e91a9618> ;
+    crm:P2_has_type <http://data.odeuropa.eu/attribute-type/hedonic> .
 
 <http://data.odeuropa.eu/experience/384bd81c-442e-5d65-9451-4803e11266d9/assignment/1> a crm:E13_Attribute_Assignment ;
     rdfs:label "bolje"@sl ;
@@ -347,8 +357,9 @@
 <http://data.odeuropa.eu/experience/3bfa83cd-a243-55bb-992c-fb31b47e9385/assignment/1> a crm:E13_Attribute_Assignment ;
     rdfs:label "neprijetnega"@sl ;
     crm:P140_assigned_attribute_to <http://data.odeuropa.eu/smell/e42b01c6-8300-5b1a-95c4-1c6432320367> ;
-    crm:P141_assigned <http://data.odeuropa.eu/attribute/neprijetnega_sl> ;
-    crm:P17_was_motivated_by <http://data.odeuropa.eu/experience/3bfa83cd-a243-55bb-992c-fb31b47e9385> .
+    crm:P141_assigned <http://data.odeuropa.eu/vocabulary/vdi-hedonic/29n> ;
+    crm:P17_was_motivated_by <http://data.odeuropa.eu/experience/3bfa83cd-a243-55bb-992c-fb31b47e9385> ;
+    crm:P2_has_type <http://data.odeuropa.eu/attribute-type/hedonic> .
 
 <http://data.odeuropa.eu/experience/3bfa83cd-a243-55bb-992c-fb31b47e9385/assignment/2> a crm:E13_Attribute_Assignment ;
     rdfs:label "pomešanega"@sl ;
@@ -377,14 +388,16 @@
 <http://data.odeuropa.eu/experience/42cc3a74-441e-51c2-979d-772a04a678b3/assignment/2> a crm:E13_Attribute_Assignment ;
     rdfs:label "prijeten"@sl ;
     crm:P140_assigned_attribute_to <http://data.odeuropa.eu/smell/7defff2c-bfda-5800-98b9-c6aed021726f> ;
-    crm:P141_assigned <http://data.odeuropa.eu/attribute/prijeten_sl> ;
-    crm:P17_was_motivated_by <http://data.odeuropa.eu/experience/42cc3a74-441e-51c2-979d-772a04a678b3> .
+    crm:P141_assigned <http://data.odeuropa.eu/vocabulary/vdi-hedonic/29p> ;
+    crm:P17_was_motivated_by <http://data.odeuropa.eu/experience/42cc3a74-441e-51c2-979d-772a04a678b3> ;
+    crm:P2_has_type <http://data.odeuropa.eu/attribute-type/hedonic> .
 
 <http://data.odeuropa.eu/experience/44af3a4d-0c6a-513f-92f5-953129f87039/assignment/1> a crm:E13_Attribute_Assignment ;
     rdfs:label "prijetno"@sl ;
     crm:P140_assigned_attribute_to <http://data.odeuropa.eu/smell/eb0f2386-18e4-5624-973e-ae9a98407fc7> ;
-    crm:P141_assigned <http://data.odeuropa.eu/attribute/prijetno_sl> ;
-    crm:P17_was_motivated_by <http://data.odeuropa.eu/experience/44af3a4d-0c6a-513f-92f5-953129f87039> .
+    crm:P141_assigned <http://data.odeuropa.eu/vocabulary/vdi-hedonic/29p> ;
+    crm:P17_was_motivated_by <http://data.odeuropa.eu/experience/44af3a4d-0c6a-513f-92f5-953129f87039> ;
+    crm:P2_has_type <http://data.odeuropa.eu/attribute-type/hedonic> .
 
 <http://data.odeuropa.eu/experience/490626b1-2387-583c-8e03-49b6a2ca1eb9/assignment/1> a crm:E13_Attribute_Assignment ;
     rdfs:label "nemirnega"@sl ;
@@ -401,8 +414,9 @@
 <http://data.odeuropa.eu/experience/4e377145-e574-530c-95af-19523da9659a/assignment/1> a crm:E13_Attribute_Assignment ;
     rdfs:label "neprijetni"@sl ;
     crm:P140_assigned_attribute_to <http://data.odeuropa.eu/smell/e6b5115f-6031-5add-b846-0ab9a03da8b7> ;
-    crm:P141_assigned <http://data.odeuropa.eu/attribute/neprijetni_sl> ;
-    crm:P17_was_motivated_by <http://data.odeuropa.eu/experience/4e377145-e574-530c-95af-19523da9659a> .
+    crm:P141_assigned <http://data.odeuropa.eu/vocabulary/vdi-hedonic/29n> ;
+    crm:P17_was_motivated_by <http://data.odeuropa.eu/experience/4e377145-e574-530c-95af-19523da9659a> ;
+    crm:P2_has_type <http://data.odeuropa.eu/attribute-type/hedonic> .
 
 <http://data.odeuropa.eu/experience/4f0fe068-9f91-591f-85a8-badb49b4dd6e/assignment/1> a crm:E13_Attribute_Assignment ;
     rdfs:label "hudi"@sl ;
@@ -419,14 +433,16 @@
 <http://data.odeuropa.eu/experience/516c5670-86ed-50a3-b017-e6bc2b74a9e4/assignment/1> a crm:E13_Attribute_Assignment ;
     rdfs:label "sladko"@sl ;
     crm:P140_assigned_attribute_to <http://data.odeuropa.eu/smell/3599b569-cf54-5082-9486-e2fe99528096> ;
-    crm:P141_assigned <http://data.odeuropa.eu/attribute/sladko_sl> ;
-    crm:P17_was_motivated_by <http://data.odeuropa.eu/experience/516c5670-86ed-50a3-b017-e6bc2b74a9e4> .
+    crm:P141_assigned <http://data.odeuropa.eu/vocabulary/vdi-hedonic/11n> ;
+    crm:P17_was_motivated_by <http://data.odeuropa.eu/experience/516c5670-86ed-50a3-b017-e6bc2b74a9e4> ;
+    crm:P2_has_type <http://data.odeuropa.eu/attribute-type/hedonic> .
 
 <http://data.odeuropa.eu/experience/51adc746-641f-5fd9-87c3-ee0a10cc8213/assignment/1> a crm:E13_Attribute_Assignment ;
     rdfs:label "Neprijetni"@sl ;
     crm:P140_assigned_attribute_to <http://data.odeuropa.eu/smell/74defc9f-b751-5058-b3f6-d80ae348ad11> ;
-    crm:P141_assigned <http://data.odeuropa.eu/attribute/Neprijetni_sl> ;
-    crm:P17_was_motivated_by <http://data.odeuropa.eu/experience/51adc746-641f-5fd9-87c3-ee0a10cc8213> .
+    crm:P141_assigned <http://data.odeuropa.eu/vocabulary/vdi-hedonic/29n> ;
+    crm:P17_was_motivated_by <http://data.odeuropa.eu/experience/51adc746-641f-5fd9-87c3-ee0a10cc8213> ;
+    crm:P2_has_type <http://data.odeuropa.eu/attribute-type/hedonic> .
 
 <http://data.odeuropa.eu/experience/51adc746-641f-5fd9-87c3-ee0a10cc8213/assignment/2> a crm:E13_Attribute_Assignment ;
     rdfs:label "zoprni"@sl ;
@@ -437,8 +453,9 @@
 <http://data.odeuropa.eu/experience/51bae2fb-ab6d-5cc4-926a-fc40bcf91848/assignment/1> a crm:E13_Attribute_Assignment ;
     rdfs:label "neprijazni"@sl ;
     crm:P140_assigned_attribute_to <http://data.odeuropa.eu/smell/6c03c807-0daf-5446-b78b-d58cb0534d5d> ;
-    crm:P141_assigned <http://data.odeuropa.eu/attribute/neprijazni_sl> ;
-    crm:P17_was_motivated_by <http://data.odeuropa.eu/experience/51bae2fb-ab6d-5cc4-926a-fc40bcf91848> .
+    crm:P141_assigned <http://data.odeuropa.eu/vocabulary/vdi-hedonic/29n> ;
+    crm:P17_was_motivated_by <http://data.odeuropa.eu/experience/51bae2fb-ab6d-5cc4-926a-fc40bcf91848> ;
+    crm:P2_has_type <http://data.odeuropa.eu/attribute-type/hedonic> .
 
 <http://data.odeuropa.eu/experience/528ae482-6eca-5455-b5f8-4a1eedd0f2ff/assignment/1> a crm:E13_Attribute_Assignment ;
     rdfs:label "bojeviti"@sl ;
@@ -449,14 +466,16 @@
 <http://data.odeuropa.eu/experience/55b1b7f4-de21-59d6-9958-de9318570b6b/assignment/1> a crm:E13_Attribute_Assignment ;
     rdfs:label "grenki"@sl ;
     crm:P140_assigned_attribute_to <http://data.odeuropa.eu/smell/b452cb28-2e58-5abc-8c8d-837a5f3a358d> ;
-    crm:P141_assigned <http://data.odeuropa.eu/attribute/grenki_sl> ;
-    crm:P17_was_motivated_by <http://data.odeuropa.eu/experience/55b1b7f4-de21-59d6-9958-de9318570b6b> .
+    crm:P141_assigned <http://data.odeuropa.eu/vocabulary/vdi-hedonic/11p> ;
+    crm:P17_was_motivated_by <http://data.odeuropa.eu/experience/55b1b7f4-de21-59d6-9958-de9318570b6b> ;
+    crm:P2_has_type <http://data.odeuropa.eu/attribute-type/hedonic> .
 
 <http://data.odeuropa.eu/experience/55b1b7f4-de21-59d6-9958-de9318570b6b/assignment/2> a crm:E13_Attribute_Assignment ;
     rdfs:label "težki"@sl ;
     crm:P140_assigned_attribute_to <http://data.odeuropa.eu/smell/b452cb28-2e58-5abc-8c8d-837a5f3a358d> ;
-    crm:P141_assigned <http://data.odeuropa.eu/attribute/te%C5%BEki_sl> ;
-    crm:P17_was_motivated_by <http://data.odeuropa.eu/experience/55b1b7f4-de21-59d6-9958-de9318570b6b> .
+    crm:P141_assigned <http://data.odeuropa.eu/vocabulary/vdi-hedonic/05p> ;
+    crm:P17_was_motivated_by <http://data.odeuropa.eu/experience/55b1b7f4-de21-59d6-9958-de9318570b6b> ;
+    crm:P2_has_type <http://data.odeuropa.eu/attribute-type/hedonic> .
 
 <http://data.odeuropa.eu/experience/55b1b7f4-de21-59d6-9958-de9318570b6b/assignment/3> a crm:E13_Attribute_Assignment ;
     rdfs:label "mrtvaški"@sl ;
@@ -479,20 +498,23 @@
 <http://data.odeuropa.eu/experience/580d1672-a2cc-5196-bb59-e510d49407d2/assignment/2> a crm:E13_Attribute_Assignment ;
     rdfs:label "prijetim"@sl ;
     crm:P140_assigned_attribute_to <http://data.odeuropa.eu/smell/f8a10f62-2d66-521a-9407-c7f90fe33824> ;
-    crm:P141_assigned <http://data.odeuropa.eu/attribute/prijetim_sl> ;
-    crm:P17_was_motivated_by <http://data.odeuropa.eu/experience/580d1672-a2cc-5196-bb59-e510d49407d2> .
+    crm:P141_assigned <http://data.odeuropa.eu/vocabulary/vdi-hedonic/29p> ;
+    crm:P17_was_motivated_by <http://data.odeuropa.eu/experience/580d1672-a2cc-5196-bb59-e510d49407d2> ;
+    crm:P2_has_type <http://data.odeuropa.eu/attribute-type/hedonic> .
 
 <http://data.odeuropa.eu/experience/58882251-7382-5d5b-bef1-93ff8ef78207/assignment/1> a crm:E13_Attribute_Assignment ;
     rdfs:label "prijetnim"@sl ;
     crm:P140_assigned_attribute_to <http://data.odeuropa.eu/smell/46af9904-f0c5-58a3-b96a-cb11b7ddefaa> ;
-    crm:P141_assigned <http://data.odeuropa.eu/attribute/prijetnim_sl> ;
-    crm:P17_was_motivated_by <http://data.odeuropa.eu/experience/58882251-7382-5d5b-bef1-93ff8ef78207> .
+    crm:P141_assigned <http://data.odeuropa.eu/vocabulary/vdi-hedonic/29p> ;
+    crm:P17_was_motivated_by <http://data.odeuropa.eu/experience/58882251-7382-5d5b-bef1-93ff8ef78207> ;
+    crm:P2_has_type <http://data.odeuropa.eu/attribute-type/hedonic> .
 
 <http://data.odeuropa.eu/experience/5b661f5f-d2f8-5b90-97b7-f2fb9c91ca61/assignment/1> a crm:E13_Attribute_Assignment ;
     rdfs:label "prijeten"@sl ;
     crm:P140_assigned_attribute_to <http://data.odeuropa.eu/smell/e9f707fb-0aa8-5532-958a-f8a879cf3346> ;
-    crm:P141_assigned <http://data.odeuropa.eu/attribute/prijeten_sl> ;
-    crm:P17_was_motivated_by <http://data.odeuropa.eu/experience/5b661f5f-d2f8-5b90-97b7-f2fb9c91ca61> .
+    crm:P141_assigned <http://data.odeuropa.eu/vocabulary/vdi-hedonic/29p> ;
+    crm:P17_was_motivated_by <http://data.odeuropa.eu/experience/5b661f5f-d2f8-5b90-97b7-f2fb9c91ca61> ;
+    crm:P2_has_type <http://data.odeuropa.eu/attribute-type/hedonic> .
 
 <http://data.odeuropa.eu/experience/5b7be100-5b59-5afa-aa8d-e91306ca2146/assignment/1> a crm:E13_Attribute_Assignment ;
     rdfs:label "jajoč prijetni"@sl ;
@@ -540,8 +562,9 @@
 <http://data.odeuropa.eu/experience/5feb2fb4-b8fd-5ffb-9932-42618dec67a4/assignment/3> a crm:E13_Attribute_Assignment ;
     rdfs:label "prijeten"@sl ;
     crm:P140_assigned_attribute_to <http://data.odeuropa.eu/smell/9f7b924e-474e-5309-b6fa-e276f078824f> ;
-    crm:P141_assigned <http://data.odeuropa.eu/attribute/prijeten_sl> ;
-    crm:P17_was_motivated_by <http://data.odeuropa.eu/experience/5feb2fb4-b8fd-5ffb-9932-42618dec67a4> .
+    crm:P141_assigned <http://data.odeuropa.eu/vocabulary/vdi-hedonic/29p> ;
+    crm:P17_was_motivated_by <http://data.odeuropa.eu/experience/5feb2fb4-b8fd-5ffb-9932-42618dec67a4> ;
+    crm:P2_has_type <http://data.odeuropa.eu/attribute-type/hedonic> .
 
 <http://data.odeuropa.eu/experience/63fd7cc0-5e17-57b5-9eb5-e54781b2b07e/assignment/1> a crm:E13_Attribute_Assignment ;
     rdfs:label "najžlahtnejše"@sl ;
@@ -552,8 +575,9 @@
 <http://data.odeuropa.eu/experience/64cdeae8-a8b8-5f9b-a689-4be1bb5f0de7/assignment/1> a crm:E13_Attribute_Assignment ;
     rdfs:label "neprijeten"@sl ;
     crm:P140_assigned_attribute_to <http://data.odeuropa.eu/smell/eb9fb5bf-e41f-5df5-bd79-224a5981619f> ;
-    crm:P141_assigned <http://data.odeuropa.eu/attribute/neprijeten_sl> ;
-    crm:P17_was_motivated_by <http://data.odeuropa.eu/experience/64cdeae8-a8b8-5f9b-a689-4be1bb5f0de7> .
+    crm:P141_assigned <http://data.odeuropa.eu/vocabulary/vdi-hedonic/29n> ;
+    crm:P17_was_motivated_by <http://data.odeuropa.eu/experience/64cdeae8-a8b8-5f9b-a689-4be1bb5f0de7> ;
+    crm:P2_has_type <http://data.odeuropa.eu/attribute-type/hedonic> .
 
 <http://data.odeuropa.eu/experience/65ee9fb2-0948-552a-9a24-735c5ebd3c49/assignment/1> a crm:E13_Attribute_Assignment ;
     rdfs:label "nemirni"@sl ;
@@ -594,8 +618,9 @@
 <http://data.odeuropa.eu/experience/6d0875a9-f01c-5201-a23e-815de778e32a/assignment/2> a crm:E13_Attribute_Assignment ;
     rdfs:label "sladko"@sl ;
     crm:P140_assigned_attribute_to <http://data.odeuropa.eu/smell/850d71b5-e82d-5365-a90e-3759d1ed3c19> ;
-    crm:P141_assigned <http://data.odeuropa.eu/attribute/sladko_sl> ;
-    crm:P17_was_motivated_by <http://data.odeuropa.eu/experience/6d0875a9-f01c-5201-a23e-815de778e32a> .
+    crm:P141_assigned <http://data.odeuropa.eu/vocabulary/vdi-hedonic/11n> ;
+    crm:P17_was_motivated_by <http://data.odeuropa.eu/experience/6d0875a9-f01c-5201-a23e-815de778e32a> ;
+    crm:P2_has_type <http://data.odeuropa.eu/attribute-type/hedonic> .
 
 <http://data.odeuropa.eu/experience/6d31ca43-41a8-5dba-8eab-9fdd35afdf9e/assignment/1> a crm:E13_Attribute_Assignment ;
     rdfs:label "hladen"@sl ;
@@ -636,14 +661,16 @@
 <http://data.odeuropa.eu/experience/73c37b86-feee-53b4-b9f9-1eaf87aeaa0d/assignment/1> a crm:E13_Attribute_Assignment ;
     rdfs:label "hud"@sl ;
     crm:P140_assigned_attribute_to <http://data.odeuropa.eu/smell/0a1bc86f-68a7-571d-8645-c24f8f1ea61c> ;
-    crm:P141_assigned <http://data.odeuropa.eu/attribute/hud_sl> ;
-    crm:P17_was_motivated_by <http://data.odeuropa.eu/experience/73c37b86-feee-53b4-b9f9-1eaf87aeaa0d> .
+    crm:P141_assigned <http://data.odeuropa.eu/vocabulary/vdi-hedonic/26n> ;
+    crm:P17_was_motivated_by <http://data.odeuropa.eu/experience/73c37b86-feee-53b4-b9f9-1eaf87aeaa0d> ;
+    crm:P2_has_type <http://data.odeuropa.eu/attribute-type/hedonic> .
 
 <http://data.odeuropa.eu/experience/740639aa-21c8-5950-9f62-8a143bf8fde7/assignment/1> a crm:E13_Attribute_Assignment ;
     rdfs:label "neprijazen"@sl ;
     crm:P140_assigned_attribute_to <http://data.odeuropa.eu/smell/5dbaee6d-8279-5e38-a6bd-0b355ff95474> ;
-    crm:P141_assigned <http://data.odeuropa.eu/attribute/neprijazen_sl> ;
-    crm:P17_was_motivated_by <http://data.odeuropa.eu/experience/740639aa-21c8-5950-9f62-8a143bf8fde7> .
+    crm:P141_assigned <http://data.odeuropa.eu/vocabulary/vdi-hedonic/29n> ;
+    crm:P17_was_motivated_by <http://data.odeuropa.eu/experience/740639aa-21c8-5950-9f62-8a143bf8fde7> ;
+    crm:P2_has_type <http://data.odeuropa.eu/attribute-type/hedonic> .
 
 <http://data.odeuropa.eu/experience/74d2423f-a94b-5ebd-96de-17d4d0ca0fff/assignment/1> a crm:E13_Attribute_Assignment ;
     rdfs:label "ne ravno prijetno"@sl ;
@@ -684,8 +711,9 @@
 <http://data.odeuropa.eu/experience/76b45e12-0def-50b6-991a-15f63d87cedb/assignment/1> a crm:E13_Attribute_Assignment ;
     rdfs:label "prijetno"@sl ;
     crm:P140_assigned_attribute_to <http://data.odeuropa.eu/smell/1c984e98-bf5d-5229-a0d1-ffc9f290e6fd> ;
-    crm:P141_assigned <http://data.odeuropa.eu/attribute/prijetno_sl> ;
-    crm:P17_was_motivated_by <http://data.odeuropa.eu/experience/76b45e12-0def-50b6-991a-15f63d87cedb> .
+    crm:P141_assigned <http://data.odeuropa.eu/vocabulary/vdi-hedonic/29p> ;
+    crm:P17_was_motivated_by <http://data.odeuropa.eu/experience/76b45e12-0def-50b6-991a-15f63d87cedb> ;
+    crm:P2_has_type <http://data.odeuropa.eu/attribute-type/hedonic> .
 
 <http://data.odeuropa.eu/experience/7890ae02-9724-5bee-ab56-df451de40af0/assignment/1> a crm:E13_Attribute_Assignment ;
     rdfs:label "vijoličnim"@sl ;
@@ -702,8 +730,9 @@
 <http://data.odeuropa.eu/experience/7df2647d-f5a3-507d-94ef-efbabe5c9691/assignment/1> a crm:E13_Attribute_Assignment ;
     rdfs:label "popolnoma gnilih"@sl ;
     crm:P140_assigned_attribute_to <http://data.odeuropa.eu/smell/1aadea47-e8d2-5170-bdac-6460469d0f6a> ;
-    crm:P141_assigned <http://data.odeuropa.eu/attribute/popolnoma%20gnilih_sl> ;
-    crm:P17_was_motivated_by <http://data.odeuropa.eu/experience/7df2647d-f5a3-507d-94ef-efbabe5c9691> .
+    crm:P141_assigned <http://data.odeuropa.eu/vocabulary/vdi-hedonic/21n> ;
+    crm:P17_was_motivated_by <http://data.odeuropa.eu/experience/7df2647d-f5a3-507d-94ef-efbabe5c9691> ;
+    crm:P2_has_type <http://data.odeuropa.eu/attribute-type/hedonic> .
 
 <http://data.odeuropa.eu/experience/7f4f2e9c-5bea-5352-bf80-e45361b4103c/assignment/1> a crm:E13_Attribute_Assignment ;
     rdfs:label "jako"@sl ;
@@ -786,8 +815,9 @@
 <http://data.odeuropa.eu/experience/9596770d-d2b1-56ba-be22-c577e2115b89/assignment/1> a crm:E13_Attribute_Assignment ;
     rdfs:label "prijetno"@sl ;
     crm:P140_assigned_attribute_to <http://data.odeuropa.eu/smell/ca5cc4a2-ad72-5bf6-9d0b-4b087ff39842> ;
-    crm:P141_assigned <http://data.odeuropa.eu/attribute/prijetno_sl> ;
-    crm:P17_was_motivated_by <http://data.odeuropa.eu/experience/9596770d-d2b1-56ba-be22-c577e2115b89> .
+    crm:P141_assigned <http://data.odeuropa.eu/vocabulary/vdi-hedonic/29p> ;
+    crm:P17_was_motivated_by <http://data.odeuropa.eu/experience/9596770d-d2b1-56ba-be22-c577e2115b89> ;
+    crm:P2_has_type <http://data.odeuropa.eu/attribute-type/hedonic> .
 
 <http://data.odeuropa.eu/experience/96c98bcb-5100-5f7c-88b6-0d784a01267a/assignment/1> a crm:E13_Attribute_Assignment ;
     rdfs:label "boljega"@sl ;
@@ -858,14 +888,16 @@
 <http://data.odeuropa.eu/experience/ac775821-0173-55e5-bd4a-be137b543756/assignment/1> a crm:E13_Attribute_Assignment ;
     rdfs:label "prijetno"@sl ;
     crm:P140_assigned_attribute_to <http://data.odeuropa.eu/smell/92209bf4-8052-568b-9cd0-95dd45cfc501> ;
-    crm:P141_assigned <http://data.odeuropa.eu/attribute/prijetno_sl> ;
-    crm:P17_was_motivated_by <http://data.odeuropa.eu/experience/ac775821-0173-55e5-bd4a-be137b543756> .
+    crm:P141_assigned <http://data.odeuropa.eu/vocabulary/vdi-hedonic/29p> ;
+    crm:P17_was_motivated_by <http://data.odeuropa.eu/experience/ac775821-0173-55e5-bd4a-be137b543756> ;
+    crm:P2_has_type <http://data.odeuropa.eu/attribute-type/hedonic> .
 
 <http://data.odeuropa.eu/experience/ad291546-1f19-53a0-b71b-4616257acf02/assignment/1> a crm:E13_Attribute_Assignment ;
     rdfs:label "sladki"@sl ;
     crm:P140_assigned_attribute_to <http://data.odeuropa.eu/smell/ff2e37ce-764c-5f2a-8b25-fc22b7c7e6cc> ;
-    crm:P141_assigned <http://data.odeuropa.eu/attribute/sladki_sl> ;
-    crm:P17_was_motivated_by <http://data.odeuropa.eu/experience/ad291546-1f19-53a0-b71b-4616257acf02> .
+    crm:P141_assigned <http://data.odeuropa.eu/vocabulary/vdi-hedonic/11n> ;
+    crm:P17_was_motivated_by <http://data.odeuropa.eu/experience/ad291546-1f19-53a0-b71b-4616257acf02> ;
+    crm:P2_has_type <http://data.odeuropa.eu/attribute-type/hedonic> .
 
 <http://data.odeuropa.eu/experience/ae18e617-716e-528e-b79a-a5c5bec6e55c/assignment/1> a crm:E13_Attribute_Assignment ;
     rdfs:label "zdravilnih"@sl ;
@@ -900,8 +932,9 @@
 <http://data.odeuropa.eu/experience/bd82bbdf-2c79-5473-a0d9-80e799e653f7/assignment/1> a crm:E13_Attribute_Assignment ;
     rdfs:label "slad"@sl ;
     crm:P140_assigned_attribute_to <http://data.odeuropa.eu/smell/9ddcf73c-f4a8-5b5f-b9a5-bcf98875fd05> ;
-    crm:P141_assigned <http://data.odeuropa.eu/attribute/slad_sl> ;
-    crm:P17_was_motivated_by <http://data.odeuropa.eu/experience/bd82bbdf-2c79-5473-a0d9-80e799e653f7> .
+    crm:P141_assigned <http://data.odeuropa.eu/vocabulary/vdi-hedonic/11n> ;
+    crm:P17_was_motivated_by <http://data.odeuropa.eu/experience/bd82bbdf-2c79-5473-a0d9-80e799e653f7> ;
+    crm:P2_has_type <http://data.odeuropa.eu/attribute-type/hedonic> .
 
 <http://data.odeuropa.eu/experience/be1ec61a-4e2e-5218-b722-fcf572633084/assignment/1> a crm:E13_Attribute_Assignment ;
     rdfs:label "mehak"@sl ;
@@ -966,14 +999,16 @@
 <http://data.odeuropa.eu/experience/cb590af5-4400-56f9-847d-3d497c1611be/assignment/3> a crm:E13_Attribute_Assignment ;
     rdfs:label "okusne"@sl ;
     crm:P140_assigned_attribute_to <http://data.odeuropa.eu/smell/30ea82e0-403c-5ca5-96d8-5dade0b37d9f> ;
-    crm:P141_assigned <http://data.odeuropa.eu/attribute/okusne_sl> ;
-    crm:P17_was_motivated_by <http://data.odeuropa.eu/experience/cb590af5-4400-56f9-847d-3d497c1611be> .
+    crm:P141_assigned <http://data.odeuropa.eu/vocabulary/vdi-hedonic/18p> ;
+    crm:P17_was_motivated_by <http://data.odeuropa.eu/experience/cb590af5-4400-56f9-847d-3d497c1611be> ;
+    crm:P2_has_type <http://data.odeuropa.eu/attribute-type/hedonic> .
 
 <http://data.odeuropa.eu/experience/ccd50fe8-b275-53dc-87eb-f71739ad0a1f/assignment/1> a crm:E13_Attribute_Assignment ;
     rdfs:label "surovo"@sl ;
     crm:P140_assigned_attribute_to <http://data.odeuropa.eu/smell/63eded1e-1c7c-5265-a286-7a1d713ee9ef> ;
-    crm:P141_assigned <http://data.odeuropa.eu/attribute/surovo_sl> ;
-    crm:P17_was_motivated_by <http://data.odeuropa.eu/experience/ccd50fe8-b275-53dc-87eb-f71739ad0a1f> .
+    crm:P141_assigned <http://data.odeuropa.eu/vocabulary/vdi-hedonic/02p> ;
+    crm:P17_was_motivated_by <http://data.odeuropa.eu/experience/ccd50fe8-b275-53dc-87eb-f71739ad0a1f> ;
+    crm:P2_has_type <http://data.odeuropa.eu/attribute-type/hedonic> .
 
 <http://data.odeuropa.eu/experience/ccd50fe8-b275-53dc-87eb-f71739ad0a1f/assignment/2> a crm:E13_Attribute_Assignment ;
     rdfs:label "žgano"@sl ;
@@ -1044,8 +1079,9 @@
 <http://data.odeuropa.eu/experience/d51d0dbc-8324-582a-b624-d95949759f1e/assignment/2> a crm:E13_Attribute_Assignment ;
     rdfs:label "sladko"@sl ;
     crm:P140_assigned_attribute_to <http://data.odeuropa.eu/smell/4559b75b-b5f0-563b-ac68-a59e163b0369> ;
-    crm:P141_assigned <http://data.odeuropa.eu/attribute/sladko_sl> ;
-    crm:P17_was_motivated_by <http://data.odeuropa.eu/experience/d51d0dbc-8324-582a-b624-d95949759f1e> .
+    crm:P141_assigned <http://data.odeuropa.eu/vocabulary/vdi-hedonic/11n> ;
+    crm:P17_was_motivated_by <http://data.odeuropa.eu/experience/d51d0dbc-8324-582a-b624-d95949759f1e> ;
+    crm:P2_has_type <http://data.odeuropa.eu/attribute-type/hedonic> .
 
 <http://data.odeuropa.eu/experience/d527ca83-ebf4-5759-ae5e-9f2efc0f9e75/assignment/1> a crm:E13_Attribute_Assignment ;
     rdfs:label "boljše"@sl ;
@@ -1062,8 +1098,9 @@
 <http://data.odeuropa.eu/experience/d7af7402-349a-521a-bf4e-16a77ce669ac/assignment/1> a crm:E13_Attribute_Assignment ;
     rdfs:label "surove"@sl ;
     crm:P140_assigned_attribute_to <http://data.odeuropa.eu/smell/f1db99e3-2fd9-5539-a1b1-7b7568c9fa81> ;
-    crm:P141_assigned <http://data.odeuropa.eu/attribute/surove_sl> ;
-    crm:P17_was_motivated_by <http://data.odeuropa.eu/experience/d7af7402-349a-521a-bf4e-16a77ce669ac> .
+    crm:P141_assigned <http://data.odeuropa.eu/vocabulary/vdi-hedonic/02p> ;
+    crm:P17_was_motivated_by <http://data.odeuropa.eu/experience/d7af7402-349a-521a-bf4e-16a77ce669ac> ;
+    crm:P2_has_type <http://data.odeuropa.eu/attribute-type/hedonic> .
 
 <http://data.odeuropa.eu/experience/d7af7402-349a-521a-bf4e-16a77ce669ac/assignment/2> a crm:E13_Attribute_Assignment ;
     rdfs:label "neslane"@sl ;
@@ -1086,14 +1123,16 @@
 <http://data.odeuropa.eu/experience/d8f2061c-86f5-5ccb-afc8-cec42e58890a/assignment/1> a crm:E13_Attribute_Assignment ;
     rdfs:label "prijetno"@sl ;
     crm:P140_assigned_attribute_to <http://data.odeuropa.eu/smell/0b71faf6-0fc0-53ea-8f3c-236c33fb644a> ;
-    crm:P141_assigned <http://data.odeuropa.eu/attribute/prijetno_sl> ;
-    crm:P17_was_motivated_by <http://data.odeuropa.eu/experience/d8f2061c-86f5-5ccb-afc8-cec42e58890a> .
+    crm:P141_assigned <http://data.odeuropa.eu/vocabulary/vdi-hedonic/29p> ;
+    crm:P17_was_motivated_by <http://data.odeuropa.eu/experience/d8f2061c-86f5-5ccb-afc8-cec42e58890a> ;
+    crm:P2_has_type <http://data.odeuropa.eu/attribute-type/hedonic> .
 
 <http://data.odeuropa.eu/experience/d95ba26f-2e4b-507f-963d-adb33fe3d878/assignment/1> a crm:E13_Attribute_Assignment ;
     rdfs:label "neprijetno"@sl ;
     crm:P140_assigned_attribute_to <http://data.odeuropa.eu/smell/3ea97d02-fddc-5e5a-a82d-3287efe01be4> ;
-    crm:P141_assigned <http://data.odeuropa.eu/attribute/neprijetno_sl> ;
-    crm:P17_was_motivated_by <http://data.odeuropa.eu/experience/d95ba26f-2e4b-507f-963d-adb33fe3d878> .
+    crm:P141_assigned <http://data.odeuropa.eu/vocabulary/vdi-hedonic/29n> ;
+    crm:P17_was_motivated_by <http://data.odeuropa.eu/experience/d95ba26f-2e4b-507f-963d-adb33fe3d878> ;
+    crm:P2_has_type <http://data.odeuropa.eu/attribute-type/hedonic> .
 
 <http://data.odeuropa.eu/experience/d9a2dc16-ec1f-512c-b3da-4566a8423790/assignment/1> a crm:E13_Attribute_Assignment ;
     rdfs:label "balzamično"@sl ;
@@ -1122,8 +1161,9 @@
 <http://data.odeuropa.eu/experience/deb61111-bd2a-5d5d-8cb8-e30162a2d773/assignment/1> a crm:E13_Attribute_Assignment ;
     rdfs:label "zelo prijetno"@sl ;
     crm:P140_assigned_attribute_to <http://data.odeuropa.eu/smell/71fbebf1-06f2-5c60-8a06-ca2a020b9dd6> ;
-    crm:P141_assigned <http://data.odeuropa.eu/attribute/zelo%20prijetno_sl> ;
-    crm:P17_was_motivated_by <http://data.odeuropa.eu/experience/deb61111-bd2a-5d5d-8cb8-e30162a2d773> .
+    crm:P141_assigned <http://data.odeuropa.eu/vocabulary/vdi-hedonic/29n> ;
+    crm:P17_was_motivated_by <http://data.odeuropa.eu/experience/deb61111-bd2a-5d5d-8cb8-e30162a2d773> ;
+    crm:P2_has_type <http://data.odeuropa.eu/attribute-type/hedonic> .
 
 <http://data.odeuropa.eu/experience/dfd6fb66-528c-5846-bbb8-18f7d00118d8/assignment/1> a crm:E13_Attribute_Assignment ;
     rdfs:label "velikanski"@sl ;
@@ -1164,8 +1204,9 @@
 <http://data.odeuropa.eu/experience/e7e4de70-5bce-5565-9772-a6672bc15ab9/assignment/1> a crm:E13_Attribute_Assignment ;
     rdfs:label "vroč"@sl ;
     crm:P140_assigned_attribute_to <http://data.odeuropa.eu/smell/3d5f69eb-b232-5b49-8e46-9972b4d7d378> ;
-    crm:P141_assigned <http://data.odeuropa.eu/attribute/vro%C4%8D_sl> ;
-    crm:P17_was_motivated_by <http://data.odeuropa.eu/experience/e7e4de70-5bce-5565-9772-a6672bc15ab9> .
+    crm:P141_assigned <http://data.odeuropa.eu/vocabulary/vdi-hedonic/13n> ;
+    crm:P17_was_motivated_by <http://data.odeuropa.eu/experience/e7e4de70-5bce-5565-9772-a6672bc15ab9> ;
+    crm:P2_has_type <http://data.odeuropa.eu/attribute-type/hedonic> .
 
 <http://data.odeuropa.eu/experience/e89206aa-963d-5070-b070-1c98ff4d9188/assignment/1> a crm:E13_Attribute_Assignment ;
     rdfs:label "kojitn"@sl ;
@@ -1182,8 +1223,9 @@
 <http://data.odeuropa.eu/experience/e9f5edec-de1c-5edd-ad33-8498182d90c8/assignment/1> a crm:E13_Attribute_Assignment ;
     rdfs:label "prijetno"@sl ;
     crm:P140_assigned_attribute_to <http://data.odeuropa.eu/smell/654cfd66-b2fd-57c3-b5fb-502cd5af978a> ;
-    crm:P141_assigned <http://data.odeuropa.eu/attribute/prijetno_sl> ;
-    crm:P17_was_motivated_by <http://data.odeuropa.eu/experience/e9f5edec-de1c-5edd-ad33-8498182d90c8> .
+    crm:P141_assigned <http://data.odeuropa.eu/vocabulary/vdi-hedonic/29p> ;
+    crm:P17_was_motivated_by <http://data.odeuropa.eu/experience/e9f5edec-de1c-5edd-ad33-8498182d90c8> ;
+    crm:P2_has_type <http://data.odeuropa.eu/attribute-type/hedonic> .
 
 <http://data.odeuropa.eu/experience/e9f5edec-de1c-5edd-ad33-8498182d90c8/assignment/2> a crm:E13_Attribute_Assignment ;
     rdfs:label "rastlinskim esenčnim"@sl ;
@@ -1224,8 +1266,9 @@
 <http://data.odeuropa.eu/experience/f1022a1b-88d1-5a00-8212-79e64195b5ae/assignment/1> a crm:E13_Attribute_Assignment ;
     rdfs:label "prijeten"@sl ;
     crm:P140_assigned_attribute_to <http://data.odeuropa.eu/smell/6b085e71-e538-5663-aa48-d048d60d5ed2> ;
-    crm:P141_assigned <http://data.odeuropa.eu/attribute/prijeten_sl> ;
-    crm:P17_was_motivated_by <http://data.odeuropa.eu/experience/f1022a1b-88d1-5a00-8212-79e64195b5ae> .
+    crm:P141_assigned <http://data.odeuropa.eu/vocabulary/vdi-hedonic/29p> ;
+    crm:P17_was_motivated_by <http://data.odeuropa.eu/experience/f1022a1b-88d1-5a00-8212-79e64195b5ae> ;
+    crm:P2_has_type <http://data.odeuropa.eu/attribute-type/hedonic> .
 
 <http://data.odeuropa.eu/experience/f1ac4899-ed60-5fb6-bcf8-df7b43d9d0cf/assignment/1> a crm:E13_Attribute_Assignment ;
     rdfs:label "beloroki"@sl ;
@@ -7096,9 +7139,6 @@
 <http://data.odeuropa.eu/attribute/Juna%C5%A1ki_sl> a crm:E90_Symbolic_Object ;
     rdfs:label "Junaški"@sl .
 
-<http://data.odeuropa.eu/attribute/Neprijetni_sl> a crm:E90_Symbolic_Object ;
-    rdfs:label "Neprijetni"@sl .
-
 <http://data.odeuropa.eu/attribute/Opojen_sl> a crm:E90_Symbolic_Object ;
     rdfs:label "Opojen"@sl .
 
@@ -7156,9 +7196,6 @@
 <http://data.odeuropa.eu/attribute/farsko_sl> a crm:E90_Symbolic_Object ;
     rdfs:label "farsko"@sl .
 
-<http://data.odeuropa.eu/attribute/finega_sl> a crm:E90_Symbolic_Object ;
-    rdfs:label "finega"@sl .
-
 <http://data.odeuropa.eu/attribute/gerdega_sl> a crm:E90_Symbolic_Object ;
     rdfs:label "gerdega"@sl .
 
@@ -7174,9 +7211,6 @@
 <http://data.odeuropa.eu/attribute/grdega_sl> a crm:E90_Symbolic_Object ;
     rdfs:label "grdega"@sl .
 
-<http://data.odeuropa.eu/attribute/grenki_sl> a crm:E90_Symbolic_Object ;
-    rdfs:label "grenki"@sl .
-
 <http://data.odeuropa.eu/attribute/grenkih_sl> a crm:E90_Symbolic_Object ;
     rdfs:label "grenkih"@sl .
 
@@ -7188,9 +7222,6 @@
 
 <http://data.odeuropa.eu/attribute/hladen_sl> a crm:E90_Symbolic_Object ;
     rdfs:label "hladen"@sl .
-
-<http://data.odeuropa.eu/attribute/hud_sl> a crm:E90_Symbolic_Object ;
-    rdfs:label "hud"@sl .
 
 <http://data.odeuropa.eu/attribute/hudi_sl> a crm:E90_Symbolic_Object ;
     rdfs:label "hudi"@sl .
@@ -7297,21 +7328,6 @@
 <http://data.odeuropa.eu/attribute/nemirni_sl> a crm:E90_Symbolic_Object ;
     rdfs:label "nemirni"@sl .
 
-<http://data.odeuropa.eu/attribute/neprijazen_sl> a crm:E90_Symbolic_Object ;
-    rdfs:label "neprijazen"@sl .
-
-<http://data.odeuropa.eu/attribute/neprijazni_sl> a crm:E90_Symbolic_Object ;
-    rdfs:label "neprijazni"@sl .
-
-<http://data.odeuropa.eu/attribute/neprijetnega_sl> a crm:E90_Symbolic_Object ;
-    rdfs:label "neprijetnega"@sl .
-
-<http://data.odeuropa.eu/attribute/neprijetni_sl> a crm:E90_Symbolic_Object ;
-    rdfs:label "neprijetni"@sl .
-
-<http://data.odeuropa.eu/attribute/neprijetno_sl> a crm:E90_Symbolic_Object ;
-    rdfs:label "neprijetno"@sl .
-
 <http://data.odeuropa.eu/attribute/neslane_sl> a crm:E90_Symbolic_Object ;
     rdfs:label "neslane"@sl .
 
@@ -7323,9 +7339,6 @@
 
 <http://data.odeuropa.eu/attribute/okusa_sl> a crm:E90_Symbolic_Object ;
     rdfs:label "okusa"@sl .
-
-<http://data.odeuropa.eu/attribute/okusne_sl> a crm:E90_Symbolic_Object ;
-    rdfs:label "okusne"@sl .
 
 <http://data.odeuropa.eu/attribute/opojen_sl> a crm:E90_Symbolic_Object ;
     rdfs:label "opojen"@sl .
@@ -7366,9 +7379,6 @@
 <http://data.odeuropa.eu/attribute/pomirljiv_sl> a crm:E90_Symbolic_Object ;
     rdfs:label "pomirljiv"@sl .
 
-<http://data.odeuropa.eu/attribute/popolnoma%20gnilih_sl> a crm:E90_Symbolic_Object ;
-    rdfs:label "popolnoma gnilih"@sl .
-
 <http://data.odeuropa.eu/attribute/poseben_sl> a crm:E90_Symbolic_Object ;
     rdfs:label "poseben"@sl .
 
@@ -7389,21 +7399,6 @@
 
 <http://data.odeuropa.eu/attribute/preve%C4%8D_sl> a crm:E90_Symbolic_Object ;
     rdfs:label "preveč"@sl .
-
-<http://data.odeuropa.eu/attribute/prijazen_sl> a crm:E90_Symbolic_Object ;
-    rdfs:label "prijazen"@sl .
-
-<http://data.odeuropa.eu/attribute/prijeten%20okus_sl> a crm:E90_Symbolic_Object ;
-    rdfs:label "prijeten okus"@sl .
-
-<http://data.odeuropa.eu/attribute/prijetim_sl> a crm:E90_Symbolic_Object ;
-    rdfs:label "prijetim"@sl .
-
-<http://data.odeuropa.eu/attribute/prijetnega_sl> a crm:E90_Symbolic_Object ;
-    rdfs:label "prijetnega"@sl .
-
-<http://data.odeuropa.eu/attribute/prijetnim_sl> a crm:E90_Symbolic_Object ;
-    rdfs:label "prijetnim"@sl .
 
 <http://data.odeuropa.eu/attribute/priljubljeni_sl> a crm:E90_Symbolic_Object ;
     rdfs:label "priljubljeni"@sl .
@@ -7432,14 +7427,8 @@
 <http://data.odeuropa.eu/attribute/slab%C5%A1em_sl> a crm:E90_Symbolic_Object ;
     rdfs:label "slabšem"@sl .
 
-<http://data.odeuropa.eu/attribute/slad_sl> a crm:E90_Symbolic_Object ;
-    rdfs:label "slad"@sl .
-
 <http://data.odeuropa.eu/attribute/sladek_sl> a crm:E90_Symbolic_Object ;
     rdfs:label "sladek"@sl .
-
-<http://data.odeuropa.eu/attribute/sladki_sl> a crm:E90_Symbolic_Object ;
-    rdfs:label "sladki"@sl .
 
 <http://data.odeuropa.eu/attribute/slasten_sl> a crm:E90_Symbolic_Object ;
     rdfs:label "slasten"@sl .
@@ -7462,26 +7451,14 @@
 <http://data.odeuropa.eu/attribute/strupeni_sl> a crm:E90_Symbolic_Object ;
     rdfs:label "strupeni"@sl .
 
-<http://data.odeuropa.eu/attribute/surove_sl> a crm:E90_Symbolic_Object ;
-    rdfs:label "surove"@sl .
-
-<http://data.odeuropa.eu/attribute/surovo_sl> a crm:E90_Symbolic_Object ;
-    rdfs:label "surovo"@sl .
-
 <http://data.odeuropa.eu/attribute/sve%C5%BE%20poganski_sl> a crm:E90_Symbolic_Object ;
     rdfs:label "svež poganski"@sl .
-
-<http://data.odeuropa.eu/attribute/sve%C5%BE_sl> a crm:E90_Symbolic_Object ;
-    rdfs:label "svež"@sl .
 
 <http://data.odeuropa.eu/attribute/sve%C5%BEi_sl> a crm:E90_Symbolic_Object ;
     rdfs:label "sveži"@sl .
 
 <http://data.odeuropa.eu/attribute/te%C5%BEak_sl> a crm:E90_Symbolic_Object ;
     rdfs:label "težak"@sl .
-
-<http://data.odeuropa.eu/attribute/te%C5%BEki_sl> a crm:E90_Symbolic_Object ;
-    rdfs:label "težki"@sl .
 
 <http://data.odeuropa.eu/attribute/temnej%C5%A1a_sl> a crm:E90_Symbolic_Object ;
     rdfs:label "temnejša"@sl .
@@ -7510,9 +7487,6 @@
 <http://data.odeuropa.eu/attribute/vijoli%C4%8Dnim_sl> a crm:E90_Symbolic_Object ;
     rdfs:label "vijoličnim"@sl .
 
-<http://data.odeuropa.eu/attribute/vro%C4%8D_sl> a crm:E90_Symbolic_Object ;
-    rdfs:label "vroč"@sl .
-
 <http://data.odeuropa.eu/attribute/vro%C4%8Do_sl> a crm:E90_Symbolic_Object ;
     rdfs:label "vročo"@sl .
 
@@ -7524,9 +7498,6 @@
 
 <http://data.odeuropa.eu/attribute/zdravilnimi_sl> a crm:E90_Symbolic_Object ;
     rdfs:label "zdravilnimi"@sl .
-
-<http://data.odeuropa.eu/attribute/zelo%20prijetno_sl> a crm:E90_Symbolic_Object ;
-    rdfs:label "zelo prijetno"@sl .
 
 <http://data.odeuropa.eu/attribute/zopernem_sl> a crm:E90_Symbolic_Object ;
     rdfs:label "zopernem"@sl .
@@ -7680,9 +7651,6 @@
 
 <http://data.odeuropa.eu/object/38eb271d-73d5-59ea-a5bc-f63c21c0a1cb> a crmsci:S10_Material_Substantial ;
     rdfs:label "žganjica"@sl .
-
-<http://data.odeuropa.eu/object/3966f749-be1e-56ad-bc35-63cc93f4e229> a crmsci:S10_Material_Substantial ;
-    rdfs:label "črni"@sl .
 
 <http://data.odeuropa.eu/object/3b1ed424-4bf0-52e5-a461-2e938984204a> a crmsci:S10_Material_Substantial ;
     rdfs:label "ta riba"@sl .
@@ -8163,9 +8131,6 @@
 
 <http://data.odeuropa.eu/object/d8131ad4-ec9d-50b2-9417-afe8bfa1271c> a crmsci:S10_Material_Substantial ;
     rdfs:label "cvetje"@sl .
-
-<http://data.odeuropa.eu/object/d9e12996-b6d9-556d-845d-4deeab4d76d8> a crmsci:S10_Material_Substantial ;
-    rdfs:label "mil"@sl .
 
 <http://data.odeuropa.eu/object/daa2fd93-1372-5aaf-982c-71f6dfef0c50> a crmsci:S10_Material_Substantial ;
     rdfs:label "vina"@sl .
@@ -12128,9 +12093,6 @@
 <http://data.odeuropa.eu/attribute/hudega_sl> a crm:E90_Symbolic_Object ;
     rdfs:label "hudega"@sl .
 
-<http://data.odeuropa.eu/attribute/neprijeten_sl> a crm:E90_Symbolic_Object ;
-    rdfs:label "neprijeten"@sl .
-
 <http://data.odeuropa.eu/attribute/neznosen_sl> a crm:E90_Symbolic_Object ;
     rdfs:label "neznosen"@sl .
 
@@ -12712,7 +12674,7 @@
 <http://data.odeuropa.eu/emission/595c5f55-6cc7-51d0-a09e-110f1ee7703c> a od:L12_Smell_Emission ;
     od:F1_generated <http://data.odeuropa.eu/smell/dc05876f-7ffd-577b-b15f-bad766fbd711> ;
     od:F3_had_source <http://data.odeuropa.eu/object/4c05a62a-21c0-5135-8a9c-e00663a2e82b>,
-        <http://data.odeuropa.eu/object/d9e12996-b6d9-556d-845d-4deeab4d76d8> ;
+        <http://data.odeuropa.eu/vocabulary/olfactory-objects/152> ;
     time:hasTime <http://data.odeuropa.eu/time/808fd14c-03ed-5b66-b66c-982ca55373f0> .
 
 <http://data.odeuropa.eu/emission/5976b90a-fdb4-515f-9f8a-a5fef4f62700> a od:L12_Smell_Emission ;
@@ -12835,14 +12797,14 @@
 <http://data.odeuropa.eu/emission/65e6d5f5-d672-5417-bead-0b645ae17fc8> a od:L12_Smell_Emission ;
     od:F1_generated <http://data.odeuropa.eu/smell/63eded1e-1c7c-5265-a286-7a1d713ee9ef> ;
     od:F3_had_source <http://data.odeuropa.eu/object/178fec07-5a2a-5279-a081-635b98fcdf76>,
-        <http://data.odeuropa.eu/object/3966f749-be1e-56ad-bc35-63cc93f4e229>,
         <http://data.odeuropa.eu/object/4d6dcc71-c9a3-5f43-87e7-c29217b8f8c8>,
         <http://data.odeuropa.eu/object/649aaad0-68ec-5ba8-ae3b-539d8d68cd25>,
         <http://data.odeuropa.eu/object/7fc79cec-bef2-5b92-8754-b18ac0eb0760>,
         <http://data.odeuropa.eu/object/b0325f58-7248-54fe-8763-49bd20818267>,
         <http://data.odeuropa.eu/object/b75ef048-5414-58cb-b146-271d25e08ac8>,
         <http://data.odeuropa.eu/vocabulary/olfactory-objects/109>,
-        <http://data.odeuropa.eu/vocabulary/olfactory-objects/161> ;
+        <http://data.odeuropa.eu/vocabulary/olfactory-objects/161>,
+        <http://data.odeuropa.eu/vocabulary/olfactory-objects/271> ;
     time:hasTime <http://data.odeuropa.eu/time/9d001fb0-0fcf-545d-bb34-70893ca0ca62> .
 
 <http://data.odeuropa.eu/emission/66414e8b-50ce-51c6-a0a0-b8d484525d35> a od:L12_Smell_Emission ;
@@ -15231,9 +15193,6 @@
     od:F2_perceived <http://data.odeuropa.eu/smell/9cc716b7-5a75-569e-91b6-f869b6785ad3> ;
     time:hasTime <http://data.odeuropa.eu/time/c5d6d2ce-1fe1-5a9e-83a9-fc0ef070d1c8> .
 
-<http://data.odeuropa.eu/attribute/sladko_sl> a crm:E90_Symbolic_Object ;
-    rdfs:label "sladko"@sl .
-
 <http://data.odeuropa.eu/attribute/zdravilnih_sl> a crm:E90_Symbolic_Object ;
     rdfs:label "zdravilnih"@sl .
 
@@ -16385,9 +16344,6 @@
     rdfs:label "dehti"@sl,
         "vonj"@sl .
 
-<http://data.odeuropa.eu/attribute/prijeten_sl> a crm:E90_Symbolic_Object ;
-    rdfs:label "prijeten"@sl .
-
 <http://data.odeuropa.eu/smell/0bff2e5e-a29f-58f8-b921-aa263b21fe2c> a od:L11_Smell ;
     rdfs:label "dišeče"@sl .
 
@@ -16468,9 +16424,6 @@
 
 <http://data.odeuropa.eu/attribute/lepo_sl> a crm:E90_Symbolic_Object ;
     rdfs:label "lepo"@sl .
-
-<http://data.odeuropa.eu/attribute/prijetno_sl> a crm:E90_Symbolic_Object ;
-    rdfs:label "prijetno"@sl .
 
 <http://data.odeuropa.eu/smell/05eba4e2-83a3-5090-90eb-f6117ebb313e> a od:L11_Smell ;
     rdfs:label "aroma"@sl,
