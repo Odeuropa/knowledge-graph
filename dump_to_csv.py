@@ -8,6 +8,7 @@ from rdflib import Graph, RDF, URIRef
 test_mode = True
 
 vocabs = 'dump-flat/vocabularies'
+gn_dump = 'dump/geonames'
 
 
 def _default_sparql(endpoint):
@@ -56,8 +57,8 @@ WHERE {
 
 graphs_list = sparql(graphs_query)
 
-for i, g in enumerate(sorted([graph['g']['value'] for graph in graphs_list])):
-    id = g.split('/')[-1]
+for i, gr in enumerate(sorted([graph['g']['value'] for graph in graphs_list])):
+    id = gr.split('/')[-1]
     print(f'* Graph {i}/{len(graphs_list)}: {id}')
     if id in ['image-annotation', 'odor', 'nuk', 'europeana', 'rijksmuseum']:
         continue
@@ -69,70 +70,79 @@ for i, g in enumerate(sorted([graph['g']['value'] for graph in graphs_list])):
         first = True
 
         for x in glob.glob(f'./dump-flat/{id}*'):
-            for y in [t for t in os.listdir(x) if t.endswith('.ttl') and not t.startswith('docs') and t != 'graph.ttl']:
-                g = Graph()
-                for v in os.listdir(vocabs):
-                    g.parse(os.path.join(vocabs, v))
+            g = Graph()
+            for v in os.listdir(vocabs):
+                g.parse(os.path.join(vocabs, v))
+            for v in os.listdir(gn_dump):
+                g.parse(os.path.join(gn_dump, v))
 
+            for y in [t for t in os.listdir(x) if t.endswith('.ttl') and t != 'graph.ttl']:
                 g.parse(os.path.join(x, y), format="n3")
 
-                smells_list = [sm for sm in g.subjects(RDF.type, URIRef('http://data.odeuropa.eu/ontology/L11_Smell'))]
-                # smells_list = g.query(smells_query %  'LIMIT 100' if test_mode else '')
+            smells_list = [sm for sm in g.subjects(RDF.type, URIRef('http://data.odeuropa.eu/ontology/L11_Smell'))]
+            # smells_list = g.query(smells_query %  'LIMIT 100' if test_mode else '')
 
-                for s in tqdm(smells_list[0:100]):
-                    lang = y[0:2]
-                    q = f'''
-                    {prefixes}
-                    select distinct * 
-                    where {{ 
-                        <{s}> rdfs:label ?smell_word .
-                        ?emission od:F1_generated <{s}>.
-                        OPTIONAL {{
-                            ?emission od:F3_had_source ?smell_source . 
-                            ?smell_source rdfs:label|skos:prefLabel ?smell_source_label .
-                            FILTER(LANG(?smell_source_label) = <{lang}>)
-                        }}
-                        OPTIONAL {{
-                            ?emission od:F3_had_carrier ?carrier .
-                            ?carrier rdfs:label|skos:prefLabel ?carrier_label .
-                            FILTER(LANG(?carrier_label) = <{lang}>)
+            for s in tqdm(smells_list):
+                q_lang = f'''{prefixes}
+                    SELECT DISTINCT ?lang WHERE {{
+                    ?book crm:P67_refers_to <{s}> ; schema:inLanguage ?lang }}'''
+                lang = [x['lang'] for x in g.query(q_lang)][0]
+
+                q = f'''
+                {prefixes}
+                select distinct * 
+                where {{ 
+                    <{s}> rdfs:label ?smell_word .
+                    ?emission od:F1_generated <{s}>.
+                    OPTIONAL {{
+                        ?emission od:F3_had_source ?smell_source . 
+                        ?smell_source rdfs:label|skos:prefLabel ?smell_source_label .
+                        FILTER(LANG(?smell_source_label) = "{lang}")
+                    }}
+                    OPTIONAL {{
+                        ?emission od:F4_had_carrier ?carrier .
+                        ?carrier rdfs:label|skos:prefLabel ?carrier_label .
+                        FILTER(LANG(?carrier_label) = "{lang}")
+                
+                    }}
+                    OPTIONAL {{
+                        ?emission crm:P7_took_place_at ?place .
+                        ?place gn:name | rdfs:label ?place_label .
+                        # FILTER(LANG(?place_label) = "{lang}")
+                    }}
+                    OPTIONAL {{?emission time:hasTime / rdfs:label ?time}}
+                    ?experience od:F2_perceived <{s}> .
+                    OPTIONAL {{
+                        ?experience crm:P14_carried_out_by ?perceiver.
+                        ?perceiver rdfs:label ?perceiver_label .
+                    }}
+                    OPTIONAL {{
+                        ?experience od:F6_evoked ?evoked.
+                        ?evoked rdfs:label|skos:prefLabel ?evoked_label .
+                        FILTER(LANG(?evoked_label) = "{lang}")
+                    }}
+                    OPTIONAL {{[] crm:P141_assigned ?quality ; 
+                                 crm:P140_assigned_attribute_to <{s}> ;
+                                  rdfs:label ?quality_label .
+                    }}
+                    OPTIONAL {{?emotion reo:readP27 ?experience ; 
+                            rdfs:label|skos:prefLabel ?emotion_label 
+                    }}
                     
-                        }}
-                        OPTIONAL {{
-                            ?emission crm:P7_took_place_at ?place .
-                            ?place gn:name | rdfs:label ?place_label .
-                            FILTER(LANG(?place_label) = <{lang}>)
-                        }}
-                        OPTIONAL {{?emission time:hasTime / rdfs:label ?time}}
-                        ?experience od:F2_perceived <{s}> .
-                        OPTIONAL {{
-                            ?experience crm:P14_carried_out_by ?perceiver.
-                            ?perceiver rdfs:label ?perceiver_label .
-                        }}
-                        OPTIONAL {{
-                            ?experience od:F6_evoked ?evoked.
-                            ?evoked rdfs:label|skos:prefLabel ?evoked_label .
-                            FILTER(LANG(?evoked_label) = <{lang}>)
-                        }}
-                        OPTIONAL {{[] crm:P141_assigned ?quality ; 
-                                     crm:P140_assigned_attribute_to <{s}> .
-                            ?quality skos:prefLabel | rdfs:label ?quality_label .
-                            FILTER(LANG(?quality_label) = <{lang}>)
-                        }}
-                        OPTIONAL {{?emotion reo:readP27 ?experience ; 
-                                rdfs:label|skos:prefLabel ?emotion_label 
-                        }}
-                        
-                        ?frag crm:P67_refers_to <{s}> ; rdf:value ?sentence.
-                        ?book crm:P165_incorporates ?frag . 
-                    }}'''
-                    props = g.query(q)
-                    # print(len(props.bindings))
-                    props = props.serialize(format='csv').decode("utf-8")
+                    ?frag crm:P67_refers_to <{s}> ; rdf:value ?sentence.
+                    ?book crm:P165_incorporates ?frag ; schema:inLanguage ?lang .
+                    
+                    VALUES ?smell {{ <{s}> }}
+                    VALUES ?g {{ <{gr}> }}
+                }}'''
+                # print(q)
+                props = g.query(q)
+                # print(len(props.bindings))
+                props = props.serialize(format='csv').decode("utf-8")
 
-                    if not first:
-                        props = props.split('\n', maxsplit=1)[-1]
+                if not first:
+                    props = props.split('\n', maxsplit=1)[-1]
 
-                    f.write(props)
+                f.write(props)
 
-                    first = False
+                first = False
