@@ -56,7 +56,7 @@ def normalized_fname(fname):
     return None
 
 
-def process_metadata(df):
+def process_metadata(df, skip_metadata=False):
     for i, r in tqdm(df.iterrows(), total=df.shape[0]):
         idf = r['File Name']
         if idf == '':
@@ -101,87 +101,93 @@ def process_metadata(df):
         if date == 'XXXX':
             date = None
 
-        creator = r['Artist']
-        if creator is not None:
-            creator = re.sub(r'\[ [A-Z]+ ]', '', creator)
-            creator = re.sub(r'\|', '', creator)
-            creator = re.sub(r'(,? )?\(?\?\)?', '', creator).strip()
+        if skip_metadata:
+            creator = None
+            loc = None
+        else:
+            creator = r['Artist']
+            if creator is not None:
+                creator = re.sub(r'\[ [A-Z]+ ]', '', creator)
+                creator = re.sub(r'\|', '', creator)
+                creator = re.sub(r'(,? )?\(?\?\)?', '', creator).strip()
 
-        loc = r.get('Original Location', "").replace('|', '')
+            loc = r.get('Original Location', "").replace('|', '')
+
         to = ImageObject(idf, r['Title'].strip(), creator, date, loc, r.get('Image Credits'), lang,
-                         risk_of_homonyms=True)
+                             risk_of_homonyms=True)
 
-        # parse locations
-        loc = r.get('Current Location', '')
-        splitting = r'(; | - )'
-        if re.match("^(.{1,15}) ;", loc):
-            splitting = r'\$'  # no split
-        for m in re.split(splitting, loc):
-            m = re.sub(r'\(city\)', "", m)
-            m = re.sub(r'Inventar-Nr\..+', "", m)
-            m = re.sub(r'inv\./cat\.nr.+', "", m)
-            m = re.sub(r'\d{4}-\d{2}(-\d{2})?', "", m)
-            m = re.sub(r'((\d{2}-)?\d{2}-)?\d{4}', "", m)
-            m = re.sub(r'donated to (the )?', "", m)
-            m = re.sub(r'[-.,;]$', "", m.strip()).replace('|', '').strip()
-            if len(m) > 1 and not m.startswith('seen'):
-                to.add_location(m, lang)
+        if not skip_metadata:
+            # parse locations
+            loc = r.get('Current Location', '')
+            splitting = r'(; | - )'
+            if re.match("^(.{1,15}) ;", loc):
+                splitting = r'\$'  # no split
+            for m in re.split(splitting, loc):
+                m = re.sub(r'\(city\)', "", m)
+                m = re.sub(r'Inventar-Nr\..+', "", m)
+                m = re.sub(r'inv\./cat\.nr.+', "", m)
+                m = re.sub(r'\d{4}-\d{2}(-\d{2})?', "", m)
+                m = re.sub(r'((\d{2}-)?\d{2}-)?\d{4}', "", m)
+                m = re.sub(r'donated to (the )?', "", m)
+                m = re.sub(r'[-.,;]$', "", m.strip()).replace('|', '').strip()
+                if len(m) > 1 and not m.startswith('seen'):
+                    to.add_location(m, lang)
 
-        to.add_identifier(r.get('Repository Number'))
-        if 'beniculturali' in url:
-            q = {
-                "proto": {
-                    "id": "?id",
-                    "depiction": "$foaf:depiction$required$var:dep"
-                },
-                "$where": [
-                    "?id a arco:HistoricOrArtisticProperty"
-                ],
-                "$values": {
-                    "?dep": f"http://www.sigecweb.beniculturali.it/images/fullsize/ICCD1004087/ICCD10023739_185047.JPG"
+            to.add_identifier(r.get('Repository Number'))
+            if 'beniculturali' in url:
+                q = {
+                    "proto": {
+                        "id": "?id",
+                        "depiction": "$foaf:depiction$required$var:dep"
+                    },
+                    "$where": [
+                        "?id a arco:HistoricOrArtisticProperty"
+                    ],
+                    "$values": {
+                        "?dep": f"http://www.sigecweb.beniculturali.it/images/fullsize/ICCD1004087/ICCD10023739_185047.JPG"
+                    }
                 }
-            }
-            qres = sparqlTransformer(q, {
-                'endpoint': 'https://dati.cultura.gov.it/sparql'
-            })
-            url = qres[0]['id']
-            to.same_as(url)
+                qres = sparqlTransformer(q, {
+                    'endpoint': 'https://dati.cultura.gov.it/sparql'
+                })
+                url = qres[0]['id']
+                to.same_as(url)
 
-        to.add_url(url)
-        to.add_descr(r.get('Additional Information'), lang)
-        to.add_descr(r.get('Description'), lang)
-        to.add_license(r.get('License'))
+            to.add_url(url)
+            to.add_descr(r.get('Additional Information'), lang)
+            to.add_descr(r.get('Description'), lang)
+            to.add_license(r.get('License'))
 
-        # genre = r['Genre']
-        # if genre != 'unknown':
-        #     for g in genre.split(','):
-        #         if ">" in g:
-        #             g = g.split('>')[0]
-        #         g = g.replace('|', '').strip()
-        #         match, role = art.interlink(g, None, fallback=None)
-        #         if match is None:
-        #             to.add_subject(g)
-        #         else:
-        #             to.add_type(match)
+            # genre = r['Genre']
+            # if genre != 'unknown':
+            #     for g in genre.split(','):
+            #         if ">" in g:
+            #             g = g.split('>')[0]
+            #         g = g.replace('|', '').strip()
+            #         match, role = art.interlink(g, None, fallback=None)
+            #         if match is None:
+            #             to.add_subject(g)
+            #         else:
+            #             to.add_type(match)
 
-        # material = r['Material']
-        # if material:
-        #     material = material.replace('|', '').replace(' su ', ', ').lower()
-        #     material = material.replace(' auf ', ', ')
-        #     material = material.replace('(bis)', '')
-        #     material = re.sub(r'\((.+)\)', '', material)
-        #     material = re.sub(r': .+', '', material)
-        #     for m in material.split(r','):
-        #         if ">" in m:
-        #             m = m.split('>')[0]
-        #
-        #         m = m.strip()
-        #         if len(m) == 0:
-        #             continue
-        #         to.add_material(m)
-        #
-        # for k in r['Keywords'].split(','):
-        #     to.add_subject(k.replace('|', ''), 'en')
+            # material = r['Material']
+            # if material:
+            #     material = material.replace('|', '').replace(' su ', ', ').lower()
+            #     material = material.replace(' auf ', ', ')
+            #     material = material.replace('(bis)', '')
+            #     material = re.sub(r'\((.+)\)', '', material)
+            #     material = re.sub(r': .+', '', material)
+            #     for m in material.split(r','):
+            #         if ">" in m:
+            #             m = m.split('>')[0]
+            #
+            #         m = m.strip()
+            #         if len(m) == 0:
+            #             continue
+            #         to.add_material(m)
+            #
+            # for k in r['Keywords'].split(','):
+            #     to.add_subject(k.replace('|', ''), 'en')
 
         to.add_subject(r.get('Iconography'))
         docs[idf] = to
@@ -195,9 +201,9 @@ def guess_annotation(body, seed):
         # no choice, generic
         annotation = Thing(seed, body['name'], 'en')
     elif role == 'gesture':
-        annotation = uri # Gesture(seed, body['name'], 'en', lemma=uri)
+        annotation = Gesture(seed, body['name'], 'en', lemma=uri)
     else:
-        annotation = uri # SmellSource(seed, body['name'], lang='en', lemma=uri, role=role)
+        annotation = SmellSource(seed, body['name'], lang='en', lemma=uri, role=role)
     return annotation
 
 
@@ -250,16 +256,24 @@ def process_annotations(annotations, image_map, smell_map, automatic, gesture, _
 
         frag = cur_img.add_fragment(x['bbox'])
         ann = cat_map[x.get('category_id', x.get('cid'))]
+        gestures = x.get('gestures', [])
+
         cat = guess_annotation(ann, 'image-annotation' + cur_img.title + str(x['id']))
         smell, emission, experience = init_base_smell_entities(cur_img.internal_id, cur_img, smell_map, _prov)
 
-        if isinstance(cat, Gesture):
+
+        if len(gestures) > 0 and cat.uri == 'http://data.odeuropa.eu/vocabulary/olfactory-objects/539':
+            experience.add_gesture(gestures[0])
+            experience.add_perceiver(cat)
+        elif isinstance(cat, Gesture):
             if gesture or not cur_img.has_manual_gest_annotations:
                 experience.add_gesture(cat)
         elif isinstance(cat, SmellSource) and cat.role == 'carrier':
             emission.add_carrier(cat)
         else:
             emission.add_source(cat)
+
+
 
         frag.add_annotation(cat, _prov, x.get('score', 1))
 
@@ -309,7 +323,8 @@ def parse_annotations_file(json_file, out_folder):
         step = 50000
         for i in np.arange(0, len(annotations) - 1, step):
             print(f'Batch {int(i / step + 1)}/{math.ceil(len(annotations) / step)}')
-            process_annotations(annotations[i:i + step], image_map, smell_map, automatic, 'gesture' in json_file, _prov)
+            process_annotations(annotations[i:i + step], image_map, smell_map, automatic=automatic,
+                                gesture='gesture' in json_file, _prov=_prov)
             out = Graph.g.serialize(format='ttl')
             out = out.replace('"<<', '<<').replace('>>"', '>>')
             with open(f"{out_folder}/figs_annotated_{iterator}.ttl", 'w') as outfile:
@@ -318,7 +333,7 @@ def parse_annotations_file(json_file, out_folder):
             Graph.reset()
 
 
-def run(source_folder, out_folder):
+def run(source_folder, out_folder, skip_metadata=False):
     docs_file = path.join(source_folder, 'metadata.csv')
     out_folder = path.join(out_folder, source_folder.split('/')[-1])
     os.makedirs(out_folder, exist_ok=True)
@@ -339,9 +354,9 @@ def run(source_folder, out_folder):
         print(f'Batch {i + 1}/{len(batches)}')
         batch = raw_metadata.iloc[batch_start:batch_start + batch_dim, :]
 
-        process_metadata(batch)
-
-        Graph.g.serialize(destination=f"{out_folder}/figs_{i}.ttl")
+        process_metadata(batch, skip_metadata)
+        if not skip_metadata:
+            Graph.g.serialize(destination=f"{out_folder}/figs_{i}.ttl")
         Graph.reset()
 
     for i, f in enumerate(['annotations_gesture.json', 'annotations.json', 'annotations_automatic.json']):
@@ -363,10 +378,11 @@ def parse_arguments():
     parser = argparse.ArgumentParser(description='Convert csv from text into the Odeuropa Model.')
     parser.add_argument('--input', '-i', type=dir_path, default=DEFAULT_ROOT)
     parser.add_argument('--output', '-o', type=dir_path, default=DEFAULT_OUT)
+    parser.add_argument('--skip_metadata', action='store_true')
 
     return parser.parse_args()
 
 
 if __name__ == "__main__":
     args = parse_arguments()
-    run(args.input, args.output)
+    run(args.input, args.output, args.skip_metadata)

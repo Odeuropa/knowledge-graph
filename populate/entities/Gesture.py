@@ -8,14 +8,15 @@ class Gesture(Entity):
         super().__init__(seed, 'gesture')
         if label is None:
             label = seed
-        self.set_class(ODEUROPA.L7_Gesture)
-        self.add_label(label, lang)
 
         self.role = None
         if lemma is None:
             lemma, role = VocManager.get('olfactory-gestures').interlink(label, lang)
 
         self.interlinked = lemma is not None
-        if lemma is not None:
+        if lemma is None:
+            self.set_class(ODEUROPA.L7_Gesture)
+            self.add_label(label, lang)
+        else:
             self.set_uri(lemma)
             # self.add(CRM.P137_exemplifies, lemma)
