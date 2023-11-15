@@ -6,33 +6,30 @@
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 @prefix reo: <https://read-it.acc.hum.uu.nl/ontology#> .
 @prefix schema: <https://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
 @prefix time: <http://www.w3.org/2006/time#> .
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 
-<http://data.odeuropa.eu/emotion-type/> a <http://www.w3.org/2004/02/skos/core#Concept>,
+<http://data.odeuropa.eu/emotion-type/> a skos:Concept,
         reo:REO21 ;
     reo:readP27 <http://data.odeuropa.eu/experience/dea047e7-d67c-55b7-aee8-08299ec7f4d7> .
 
-<http://data.odeuropa.eu/emotion-type/anger> a <http://www.w3.org/2004/02/skos/core#Concept>,
+<http://data.odeuropa.eu/emotion-type/anger> a skos:Concept,
         reo:REO21 ;
     rdfs:label "anger" ;
     crm:P2_has_type <http://data.odeuropa.eu/sentiment/negative>,
         <http://data.odeuropa.eu/sentiment/positive> .
 
-<http://data.odeuropa.eu/emotion-type/anticipation> a <http://www.w3.org/2004/02/skos/core#Concept>,
+<http://data.odeuropa.eu/emotion-type/anticipation> a skos:Concept,
         reo:REO21 ;
     rdfs:label "anticipation" ;
     crm:P2_has_type <http://data.odeuropa.eu/sentiment/negative>,
         <http://data.odeuropa.eu/sentiment/neutral>,
         <http://data.odeuropa.eu/sentiment/positive> .
 
-<http://data.odeuropa.eu/emotion-type/desire> a <http://www.w3.org/2004/02/skos/core#Concept>,
+<http://data.odeuropa.eu/emotion-type/desire> a skos:Concept,
         reo:REO21 ;
-    rdfs:label "azzannano la mia carne",
-        "bruciante",
-        "desire",
-        "indefinibile",
-        "si sentì illanguidire e mancare in una mollezza invincibile" ;
+    rdfs:label "desire" ;
     crm:P2_has_type <http://data.odeuropa.eu/sentiment/neutral>,
         <http://data.odeuropa.eu/sentiment/positive> ;
     reo:readP27 <http://data.odeuropa.eu/experience/a12cfbfd-316f-5701-9d8b-2eb8e0e62951>,
@@ -40,40 +37,32 @@
         <http://data.odeuropa.eu/experience/dcb5190b-8574-5dbd-95ca-5f468c9c6995>,
         <http://data.odeuropa.eu/experience/f5467a83-0796-5611-ae9b-428274574628> .
 
-<http://data.odeuropa.eu/emotion-type/disgust> a <http://www.w3.org/2004/02/skos/core#Concept>,
+<http://data.odeuropa.eu/emotion-type/disgust> a skos:Concept,
         reo:REO21 ;
     rdfs:label "disgust" ;
     crm:P2_has_type <http://data.odeuropa.eu/sentiment/negative>,
         <http://data.odeuropa.eu/sentiment/neutral>,
         <http://data.odeuropa.eu/sentiment/positive> .
 
-<http://data.odeuropa.eu/emotion-type/fear> a <http://www.w3.org/2004/02/skos/core#Concept>,
+<http://data.odeuropa.eu/emotion-type/fear> a skos:Concept,
         reo:REO21 ;
     rdfs:label "fear" ;
     crm:P2_has_type <http://data.odeuropa.eu/sentiment/negative> .
 
-<http://data.odeuropa.eu/emotion-type/joy> a <http://www.w3.org/2004/02/skos/core#Concept>,
+<http://data.odeuropa.eu/emotion-type/joy> a skos:Concept,
         reo:REO21 ;
     rdfs:label "joy" ;
     crm:P2_has_type <http://data.odeuropa.eu/sentiment/negative>,
         <http://data.odeuropa.eu/sentiment/positive> .
 
-<http://data.odeuropa.eu/emotion-type/love> a <http://www.w3.org/2004/02/skos/core#Concept>,
+<http://data.odeuropa.eu/emotion-type/love> a skos:Concept,
         reo:REO21 ;
     rdfs:label "love" ;
     crm:P2_has_type <http://data.odeuropa.eu/sentiment/positive> .
 
-<http://data.odeuropa.eu/emotion-type/nostalgia> a <http://www.w3.org/2004/02/skos/core#Concept>,
+<http://data.odeuropa.eu/emotion-type/nostalgia> a skos:Concept,
         reo:REO21 ;
-    rdfs:label "Il momento suggerisce il dono di una galanterìa",
-        "Vi chiamano , vi chiamano , quel mare , quel sole , quel profumo : vogliono che voi li riconosciate",
-        "caro",
-        "che volle regalarci per ricordo",
-        "ci fanno ricordare le profumate mammolette della primavera",
-        "la rende così amena , così cara , così graziosa , così poetica",
-        "nostalgia",
-        "sa sempre di vecchiume",
-        "si pensa con dolore alle più gentili creazioni del genio umano , alle Laure , alle Beatrici del medio evo classico , alle Erinengardo , alle Giuliette del medio evo romantico ." ;
+    rdfs:label "nostalgia" ;
     crm:P2_has_type <http://data.odeuropa.eu/sentiment/negative>,
         <http://data.odeuropa.eu/sentiment/neutral>,
         <http://data.odeuropa.eu/sentiment/positive> ;
@@ -86,18 +75,18 @@
         <http://data.odeuropa.eu/experience/a94bafc0-edd2-56aa-8436-dcda5e9cdd0a>,
         <http://data.odeuropa.eu/experience/df0dc26f-0f8b-5c82-82b3-5cd7ea7513b7> .
 
-<http://data.odeuropa.eu/emotion-type/sadness> a <http://www.w3.org/2004/02/skos/core#Concept>,
+<http://data.odeuropa.eu/emotion-type/sadness> a skos:Concept,
         reo:REO21 ;
     rdfs:label "sadness" ;
     crm:P2_has_type <http://data.odeuropa.eu/sentiment/negative> .
 
-<http://data.odeuropa.eu/emotion-type/surprise> a <http://www.w3.org/2004/02/skos/core#Concept>,
+<http://data.odeuropa.eu/emotion-type/surprise> a skos:Concept,
         reo:REO21 ;
     rdfs:label "surprise" ;
     crm:P2_has_type <http://data.odeuropa.eu/sentiment/neutral>,
         <http://data.odeuropa.eu/sentiment/positive> .
 
-<http://data.odeuropa.eu/emotion-type/trust> a <http://www.w3.org/2004/02/skos/core#Concept>,
+<http://data.odeuropa.eu/emotion-type/trust> a skos:Concept,
         reo:REO21 ;
     rdfs:label "trust" ;
     crm:P2_has_type <http://data.odeuropa.eu/sentiment/negative>,
@@ -36044,7 +36033,7 @@ profumo								quando invece ili lellere ai vogliono purificare stanze			1815__R
     crm:P7_took_place_at <http://data.odeuropa.eu/place/f71efc79-bcab-5b15-9ca2-8f45c3184cb3> ;
     time:hasTime <http://data.odeuropa.eu/time/cf202db9-febf-584e-9501-ba6356d75cf6> .
 
-<http://data.odeuropa.eu/sentiment/neutral> a <http://www.w3.org/2004/02/skos/core#Concept> ;
+<http://data.odeuropa.eu/sentiment/neutral> a skos:Concept ;
     rdfs:label "Neutral" .
 
 <http://data.odeuropa.eu/smell/00184ea8-e1f6-5431-99a0-5ec43330ac34> a od:L11_Smell ;
@@ -36940,7 +36929,7 @@ profumo								quando invece ili lellere ai vogliono purificare stanze			1815__R
 <http://data.odeuropa.eu/actor/be5a8f88-f603-5303-a0e5-87721b3442c9> a crm:E39_Actor ;
     rdfs:label "egli" .
 
-<http://data.odeuropa.eu/sentiment/negative> a <http://www.w3.org/2004/02/skos/core#Concept> ;
+<http://data.odeuropa.eu/sentiment/negative> a skos:Concept ;
     rdfs:label "Negative" .
 
 <http://data.odeuropa.eu/smell/8938ea71-5968-51be-85b8-70ce3670415d> a od:L11_Smell ;
@@ -36953,7 +36942,7 @@ profumo								quando invece ili lellere ai vogliono purificare stanze			1815__R
 <http://data.odeuropa.eu/attribute/aromatico_it> a crm:E90_Symbolic_Object ;
     rdfs:label "aromatico"@it .
 
-<http://data.odeuropa.eu/sentiment/positive> a <http://www.w3.org/2004/02/skos/core#Concept> ;
+<http://data.odeuropa.eu/sentiment/positive> a skos:Concept ;
     rdfs:label "Positive" .
 
 <http://data.odeuropa.eu/attribute/odorosa_it> a crm:E90_Symbolic_Object ;

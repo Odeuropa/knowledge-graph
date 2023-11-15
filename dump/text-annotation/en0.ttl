@@ -6,39 +6,28 @@
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 @prefix reo: <https://read-it.acc.hum.uu.nl/ontology#> .
 @prefix schema: <https://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
 @prefix time: <http://www.w3.org/2006/time#> .
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 
-<http://data.odeuropa.eu/emotion-type/> a <http://www.w3.org/2004/02/skos/core#Concept>,
+<http://data.odeuropa.eu/emotion-type/> a skos:Concept,
         reo:REO21 ;
     crm:P2_has_type <http://data.odeuropa.eu/sentiment/neutral> ;
     reo:readP27 <http://data.odeuropa.eu/experience/7f9e6b11-71e0-5fe3-b6fc-3eb8de485d1f> .
 
-<http://data.odeuropa.eu/emotion-type/anger> a <http://www.w3.org/2004/02/skos/core#Concept>,
+<http://data.odeuropa.eu/emotion-type/anger> a skos:Concept,
         reo:REO21 ;
     rdfs:label "anger" ;
     crm:P2_has_type <http://data.odeuropa.eu/sentiment/negative> .
 
-<http://data.odeuropa.eu/emotion-type/courage> a <http://www.w3.org/2004/02/skos/core#Concept>,
+<http://data.odeuropa.eu/emotion-type/courage> a skos:Concept,
         reo:REO21 ;
-    rdfs:label "courage",
-        "not to valiant" ;
+    rdfs:label "courage" ;
     reo:readP27 <http://data.odeuropa.eu/experience/78bf3213-3d34-51bb-8561-16becfbb912a> .
 
-<http://data.odeuropa.eu/emotion-type/desire> a <http://www.w3.org/2004/02/skos/core#Concept>,
+<http://data.odeuropa.eu/emotion-type/desire> a skos:Concept,
         reo:REO21 ;
-    rdfs:label "attractive",
-        "desire",
-        "desired",
-        "has a curiously stimulating sexual influence on many men and women",
-        "in order to attract the attention of a particular girl",
-        "one of the most charming",
-        "sexual",
-        "sometimes",
-        "the most sexual",
-        "which pleases",
-        "with sensations of unmeasured pleasure",
-        "with the object of inducing love in the partner" ;
+    rdfs:label "desire" ;
     crm:P2_has_type <http://data.odeuropa.eu/sentiment/positive> ;
     reo:readP27 <http://data.odeuropa.eu/experience/2d08409f-7e77-5f9a-b318-036001a503c1>,
         <http://data.odeuropa.eu/experience/386d1739-225a-54fe-a326-ca32ca1d9bfa>,
@@ -54,62 +43,55 @@
         <http://data.odeuropa.eu/experience/d4e4e7f6-3fbf-5c07-a00a-4ff4455a619d>,
         <http://data.odeuropa.eu/experience/fe3f9ddb-f32a-57ac-99f4-936ace69a3ac> .
 
-<http://data.odeuropa.eu/emotion-type/disgust> a <http://www.w3.org/2004/02/skos/core#Concept>,
+<http://data.odeuropa.eu/emotion-type/disgust> a skos:Concept,
         reo:REO21 ;
     rdfs:label "disgust" ;
     crm:P2_has_type <http://data.odeuropa.eu/sentiment/negative>,
         <http://data.odeuropa.eu/sentiment/neutral> .
 
-<http://data.odeuropa.eu/emotion-type/honour> a <http://www.w3.org/2004/02/skos/core#Concept>,
+<http://data.odeuropa.eu/emotion-type/honour> a skos:Concept,
         reo:REO21 ;
-    rdfs:label "hon-ible",
-        "honour" ;
+    rdfs:label "honour" ;
     crm:P2_has_type <http://data.odeuropa.eu/sentiment/positive> ;
     reo:readP27 <http://data.odeuropa.eu/experience/4d1134d6-4bc5-5741-955b-b85cea168433> .
 
-<http://data.odeuropa.eu/emotion-type/hysteria> a <http://www.w3.org/2004/02/skos/core#Concept>,
+<http://data.odeuropa.eu/emotion-type/hysteria> a skos:Concept,
         reo:REO21 ;
-    rdfs:label "hysteria",
-        "hysteric Passions" ;
+    rdfs:label "hysteria" ;
     crm:P2_has_type <http://data.odeuropa.eu/sentiment/negative> ;
     reo:readP27 <http://data.odeuropa.eu/experience/1f16a49e-64e6-58b0-bf73-51907552c73c> .
 
-<http://data.odeuropa.eu/emotion-type/joy> a <http://www.w3.org/2004/02/skos/core#Concept>,
+<http://data.odeuropa.eu/emotion-type/joy> a skos:Concept,
         reo:REO21 ;
     rdfs:label "joy" ;
     crm:P2_has_type <http://data.odeuropa.eu/sentiment/positive> .
 
-<http://data.odeuropa.eu/emotion-type/love> a <http://www.w3.org/2004/02/skos/core#Concept>,
+<http://data.odeuropa.eu/emotion-type/love> a skos:Concept,
         reo:REO21 ;
     rdfs:label "love" ;
     crm:P2_has_type <http://data.odeuropa.eu/sentiment/positive> .
 
-<http://data.odeuropa.eu/emotion-type/nostalgia> a <http://www.w3.org/2004/02/skos/core#Concept>,
+<http://data.odeuropa.eu/emotion-type/nostalgia> a skos:Concept,
         reo:REO21 ;
-    rdfs:label "And linked in memory with that evening ’ s glory there comes , like the gentle strain of a long-forgotten song",
-        "Heaven knows how beautiful they may have been at one time",
-        "I",
-        "nostalgia",
-        "the same inseparable blending of emotions that clings",
-        "there sticks horrible to my memory" ;
+    rdfs:label "nostalgia" ;
     reo:readP27 <http://data.odeuropa.eu/experience/23ce4beb-4d3f-5184-bc77-c02ee3d01a1e>,
         <http://data.odeuropa.eu/experience/4803ad2b-3a3a-5141-850a-e0aa798b34db>,
         <http://data.odeuropa.eu/experience/ad644f44-d114-5a70-b94b-0052c37473db>,
         <http://data.odeuropa.eu/experience/c9f4c9bf-652f-5a77-bef8-a240292b2a72>,
         <http://data.odeuropa.eu/experience/dd8d4377-10ab-5a95-bcb9-28f46dfe6f30> .
 
-<http://data.odeuropa.eu/emotion-type/sadness> a <http://www.w3.org/2004/02/skos/core#Concept>,
+<http://data.odeuropa.eu/emotion-type/sadness> a skos:Concept,
         reo:REO21 ;
     rdfs:label "sadness" ;
     crm:P2_has_type <http://data.odeuropa.eu/sentiment/negative> .
 
-<http://data.odeuropa.eu/emotion-type/surprise> a <http://www.w3.org/2004/02/skos/core#Concept>,
+<http://data.odeuropa.eu/emotion-type/surprise> a skos:Concept,
         reo:REO21 ;
     rdfs:label "surprise" ;
     crm:P2_has_type <http://data.odeuropa.eu/sentiment/negative>,
         <http://data.odeuropa.eu/sentiment/neutral> .
 
-<http://data.odeuropa.eu/emotion-type/trust> a <http://www.w3.org/2004/02/skos/core#Concept>,
+<http://data.odeuropa.eu/emotion-type/trust> a skos:Concept,
         reo:REO21 ;
     rdfs:label "trust" ;
     crm:P2_has_type <http://data.odeuropa.eu/sentiment/positive> .
@@ -991,7 +973,7 @@
     rdfs:label "the different intensities"@en ;
     crm:P140_assigned_attribute_to <http://data.odeuropa.eu/smell/0fe96506-af01-552f-b880-dc0f809e6e0a> ;
     crm:P141_assigned <http://data.odeuropa.eu/attribute/the%20different%20intensities_en> ;
-    crm:P14_carried_out_by <http://data.odeuropa.eu/actor/5cdfe530-dc24-57dd-8f73-8373d29f580a> ;
+    crm:P14_carried_out_by <http://data.odeuropa.eu/actor/8f5eb16c-de40-5bdb-af50-770f96d80fab> ;
     crm:P17_was_motivated_by <http://data.odeuropa.eu/experience/37e85cc0-cb3c-55ea-99ec-d01c002c9041> .
 
 <http://data.odeuropa.eu/experience/3a056de2-b871-57f3-9518-a75710b84cbc/assignment/1> a crm:E13_Attribute_Assignment ;
@@ -2686,7 +2668,7 @@
     rdfs:label "sickening"@en ;
     crm:P140_assigned_attribute_to <http://data.odeuropa.eu/smell/be6e7480-50f4-5c94-a400-f55f661d9786> ;
     crm:P141_assigned <http://data.odeuropa.eu/attribute/sickening_en> ;
-    crm:P14_carried_out_by <http://data.odeuropa.eu/actor/6cb55cf3-73c3-58f0-b4b5-c9a2b2cd0234> ;
+    crm:P14_carried_out_by <http://data.odeuropa.eu/actor/7ff74e30-7946-5c8b-844e-c17558de14ed> ;
     crm:P17_was_motivated_by <http://data.odeuropa.eu/experience/c0d51401-8279-5c20-a40f-76d30480074d> .
 
 <http://data.odeuropa.eu/experience/c1f7571a-09f7-5e87-a8a3-6b3fdda18dee/assignment/1> a crm:E13_Attribute_Assignment ;
@@ -18974,11 +18956,17 @@
 <http://data.odeuropa.eu/actor/59e60240-e19d-5b4b-8b74-99d398c1ac15> a crm:E39_Actor ;
     rdfs:label "neighbouring tenants" .
 
+<http://data.odeuropa.eu/actor/5cdfe530-dc24-57dd-8f73-8373d29f580a> a crm:E39_Actor ;
+    rdfs:label "several of my friends" .
+
 <http://data.odeuropa.eu/actor/6379d311-eb02-509f-b621-b0edf0f44933> a crm:E39_Actor ;
     rdfs:label "Women of a tender , nice Constitution" .
 
 <http://data.odeuropa.eu/actor/666745e8-fe42-5eaf-80c0-3870d47c6f5b> a crm:E39_Actor ;
     rdfs:label "Families" .
+
+<http://data.odeuropa.eu/actor/6cb55cf3-73c3-58f0-b4b5-c9a2b2cd0234> a crm:E39_Actor ;
+    rdfs:label "some healthy persons" .
 
 <http://data.odeuropa.eu/actor/6d9881fc-18c0-5843-8b0f-5b662e5e30a6> a crm:E39_Actor ;
     rdfs:label "an ingenious Acquaintance of mine" .
@@ -18991,9 +18979,6 @@
 
 <http://data.odeuropa.eu/actor/765691c8-0a2e-53b6-bf15-81bfa7419c47> a crm:E39_Actor ;
     rdfs:label "the subject" .
-
-<http://data.odeuropa.eu/actor/7ff74e30-7946-5c8b-844e-c17558de14ed> a crm:E39_Actor ;
-    rdfs:label "delicate persons" .
 
 <http://data.odeuropa.eu/actor/803bc6ab-fa5f-588d-ae5f-052b6417f143> a crm:E39_Actor ;
     rdfs:label "my" .
@@ -19014,9 +18999,6 @@
 
 <http://data.odeuropa.eu/actor/85f085e7-15a2-51bf-bece-6234d520f279> a crm:E39_Actor ;
     rdfs:label "Dr , Wise" .
-
-<http://data.odeuropa.eu/actor/8f5eb16c-de40-5bdb-af50-770f96d80fab> a crm:E39_Actor ;
-    rdfs:label "All the members of the family" .
 
 <http://data.odeuropa.eu/actor/91e6e373-4233-513a-8e41-79ecf10d3968> a crm:E39_Actor ;
     rdfs:label "My" .
@@ -32784,17 +32766,11 @@ snuff			every Cicerone								002E Charles Dickens 1846 Pictures from Italy__52_
 <http://data.odeuropa.eu/actor/5637e9d5-759e-596c-baa4-8a9b20510a81> a crm:E39_Actor ;
     rdfs:label "in our nostrels" .
 
-<http://data.odeuropa.eu/actor/5cdfe530-dc24-57dd-8f73-8373d29f580a> a crm:E39_Actor ;
-    rdfs:label "several of my friends" .
-
 <http://data.odeuropa.eu/actor/5f257a43-031c-5b14-8868-458f30591959> a crm:E39_Actor ;
     rdfs:label "householders" .
 
 <http://data.odeuropa.eu/actor/696c6c7e-82b6-5beb-a761-76d532e76c57> a crm:E39_Actor ;
     rdfs:label "the wicked and vngodly sinner" .
-
-<http://data.odeuropa.eu/actor/6cb55cf3-73c3-58f0-b4b5-c9a2b2cd0234> a crm:E39_Actor ;
-    rdfs:label "some healthy persons" .
 
 <http://data.odeuropa.eu/actor/6d9e13d6-1710-583f-94bc-e792f3e6d2a6> a crm:E39_Actor ;
     rdfs:label "STEWART , army agent" .
@@ -32811,6 +32787,9 @@ snuff			every Cicerone								002E Charles Dickens 1846 Pictures from Italy__52_
 <http://data.odeuropa.eu/actor/7c801006-3a13-52ae-a1d0-78aa460ef671> a crm:E39_Actor ;
     rdfs:label "Finch" .
 
+<http://data.odeuropa.eu/actor/7ff74e30-7946-5c8b-844e-c17558de14ed> a crm:E39_Actor ;
+    rdfs:label "delicate persons" .
+
 <http://data.odeuropa.eu/actor/8a709637-cc54-5109-a575-364a93be9ce0> a crm:E39_Actor ;
     rdfs:label "by many of the gentlemen" .
 
@@ -32819,6 +32798,9 @@ snuff			every Cicerone								002E Charles Dickens 1846 Pictures from Italy__52_
 
 <http://data.odeuropa.eu/actor/8cb387cb-1e45-5fa1-8c18-2789d9d1cdb6> a crm:E39_Actor ;
     rdfs:label "you'll" .
+
+<http://data.odeuropa.eu/actor/8f5eb16c-de40-5bdb-af50-770f96d80fab> a crm:E39_Actor ;
+    rdfs:label "All the members of the family" .
 
 <http://data.odeuropa.eu/actor/916dd051-2847-591e-ae80-38bbde05e2b5> a crm:E39_Actor ;
     rdfs:label "Flush" .
@@ -42427,7 +42409,7 @@ snuff			every Cicerone								002E Charles Dickens 1846 Pictures from Italy__52_
     od:F2_perceived <http://data.odeuropa.eu/smell/d2e8e471-bee0-5a1b-852e-5c672e754928> ;
     time:hasTime <http://data.odeuropa.eu/time/b3579928-1a77-56a9-b7ea-e06675947356> .
 
-<http://data.odeuropa.eu/sentiment/neutral> a <http://www.w3.org/2004/02/skos/core#Concept> ;
+<http://data.odeuropa.eu/sentiment/neutral> a skos:Concept ;
     rdfs:label "Neutral" .
 
 <http://data.odeuropa.eu/actor/1a2a7421-35dc-5137-b890-2f053a598cb7> a crm:E39_Actor ;
@@ -44538,10 +44520,10 @@ snuff			every Cicerone								002E Charles Dickens 1846 Pictures from Italy__52_
     od:F2_perceived <http://data.odeuropa.eu/smell/597b41d3-0e63-52f2-bec1-57b20b33e1ac> ;
     time:hasTime <http://data.odeuropa.eu/time/72082e32-e83d-5d5c-9219-9f39b9101eb3> .
 
-<http://data.odeuropa.eu/sentiment/negative> a <http://www.w3.org/2004/02/skos/core#Concept> ;
+<http://data.odeuropa.eu/sentiment/negative> a skos:Concept ;
     rdfs:label "Negative" .
 
-<http://data.odeuropa.eu/sentiment/positive> a <http://www.w3.org/2004/02/skos/core#Concept> ;
+<http://data.odeuropa.eu/sentiment/positive> a skos:Concept ;
     rdfs:label "Positive" .
 
 <http://data.odeuropa.eu/smell/000925d9-f147-5624-a5df-ee0251413390> a od:L11_Smell ;

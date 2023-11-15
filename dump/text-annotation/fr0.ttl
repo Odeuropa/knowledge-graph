@@ -6,56 +6,37 @@
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 @prefix reo: <https://read-it.acc.hum.uu.nl/ontology#> .
 @prefix schema: <https://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
 @prefix time: <http://www.w3.org/2006/time#> .
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 
-<http://data.odeuropa.eu/emotion-type/> a <http://www.w3.org/2004/02/skos/core#Concept>,
+<http://data.odeuropa.eu/emotion-type/> a skos:Concept,
         reo:REO21 ;
     reo:readP27 <http://data.odeuropa.eu/experience/20fa5910-45e8-5e8c-a95e-17d106ecb84d> .
 
-<http://data.odeuropa.eu/emotion-type/anger> a <http://www.w3.org/2004/02/skos/core#Concept>,
+<http://data.odeuropa.eu/emotion-type/anger> a skos:Concept,
         reo:REO21 ;
     rdfs:label "anger" ;
     crm:P2_has_type <http://data.odeuropa.eu/sentiment/negative> .
 
-<http://data.odeuropa.eu/emotion-type/anticipation> a <http://www.w3.org/2004/02/skos/core#Concept>,
+<http://data.odeuropa.eu/emotion-type/anticipation> a skos:Concept,
         reo:REO21 ;
     rdfs:label "anticipation" ;
     crm:P2_has_type <http://data.odeuropa.eu/sentiment/negative>,
         <http://data.odeuropa.eu/sentiment/neutral>,
         <http://data.odeuropa.eu/sentiment/positive> .
 
-<http://data.odeuropa.eu/emotion-type/calm> a <http://www.w3.org/2004/02/skos/core#Concept>,
+<http://data.odeuropa.eu/emotion-type/calm> a skos:Concept,
         reo:REO21 ;
-    rdfs:label "calm",
-        "calme",
-        "paix",
-        "sérénité" ;
+    rdfs:label "calm" ;
     crm:P2_has_type <http://data.odeuropa.eu/sentiment/positive> ;
     reo:readP27 <http://data.odeuropa.eu/experience/1f532cf2-5849-50c5-a1a9-35b9019ee5b7>,
         <http://data.odeuropa.eu/experience/cf495815-cfb8-5006-8589-292c43d42be4>,
         <http://data.odeuropa.eu/experience/f34e0823-15bd-5164-99e1-0779581878d4> .
 
-<http://data.odeuropa.eu/emotion-type/desire> a <http://www.w3.org/2004/02/skos/core#Concept>,
+<http://data.odeuropa.eu/emotion-type/desire> a skos:Concept,
         reo:REO21 ;
-    rdfs:label "Délices",
-        "charmant",
-        "charme",
-        "charmer",
-        "chasteté",
-        "convoiteux",
-        "desire",
-        "désirer",
-        "l'amour",
-        "lascivetés",
-        "licencieuses",
-        "plaisais",
-        "plaisir",
-        "plaisirs",
-        "sans passion",
-        "satisfaire",
-        "vanité",
-        "voluptés" ;
+    rdfs:label "desire" ;
     crm:P2_has_type <http://data.odeuropa.eu/sentiment/negative>,
         <http://data.odeuropa.eu/sentiment/neutral>,
         <http://data.odeuropa.eu/sentiment/positive> ;
@@ -74,47 +55,39 @@
         <http://data.odeuropa.eu/experience/a1f7d756-dae6-503e-bd64-c99249358d18>,
         <http://data.odeuropa.eu/experience/f34e0823-15bd-5164-99e1-0779581878d4> .
 
-<http://data.odeuropa.eu/emotion-type/disgust> a <http://www.w3.org/2004/02/skos/core#Concept>,
+<http://data.odeuropa.eu/emotion-type/disgust> a skos:Concept,
         reo:REO21 ;
     rdfs:label "disgust" ;
     crm:P2_has_type <http://data.odeuropa.eu/sentiment/negative>,
         <http://data.odeuropa.eu/sentiment/positive> .
 
-<http://data.odeuropa.eu/emotion-type/fear> a <http://www.w3.org/2004/02/skos/core#Concept>,
+<http://data.odeuropa.eu/emotion-type/fear> a skos:Concept,
         reo:REO21 ;
     rdfs:label "fear" ;
     crm:P2_has_type <http://data.odeuropa.eu/sentiment/negative>,
         <http://data.odeuropa.eu/sentiment/positive> .
 
-<http://data.odeuropa.eu/emotion-type/hope> a <http://www.w3.org/2004/02/skos/core#Concept>,
+<http://data.odeuropa.eu/emotion-type/hope> a skos:Concept,
         reo:REO21 ;
-    rdfs:label "hope",
-        "rappeler des augures favorables" ;
+    rdfs:label "hope" ;
     crm:P2_has_type <http://data.odeuropa.eu/sentiment/positive> ;
     reo:readP27 <http://data.odeuropa.eu/experience/00110afb-17c2-5a7a-98ab-0046fc6e4e21> .
 
-<http://data.odeuropa.eu/emotion-type/joy> a <http://www.w3.org/2004/02/skos/core#Concept>,
+<http://data.odeuropa.eu/emotion-type/joy> a skos:Concept,
         reo:REO21 ;
     rdfs:label "joy" ;
     crm:P2_has_type <http://data.odeuropa.eu/sentiment/negative>,
         <http://data.odeuropa.eu/sentiment/positive> .
 
-<http://data.odeuropa.eu/emotion-type/love> a <http://www.w3.org/2004/02/skos/core#Concept>,
+<http://data.odeuropa.eu/emotion-type/love> a skos:Concept,
         reo:REO21 ;
     rdfs:label "love" ;
     crm:P2_has_type <http://data.odeuropa.eu/sentiment/neutral>,
         <http://data.odeuropa.eu/sentiment/positive> .
 
-<http://data.odeuropa.eu/emotion-type/nostalgia> a <http://www.w3.org/2004/02/skos/core#Concept>,
+<http://data.odeuropa.eu/emotion-type/nostalgia> a skos:Concept,
         reo:REO21 ;
-    rdfs:label "J ' étais trop heureux !",
-        "consolation",
-        "derniers soupirs",
-        "nostalgia",
-        "quel temps vous me rappelez",
-        "rêveries",
-        "soigneusement",
-        "souvenirs" ;
+    rdfs:label "nostalgia" ;
     crm:P2_has_type <http://data.odeuropa.eu/sentiment/negative>,
         <http://data.odeuropa.eu/sentiment/neutral>,
         <http://data.odeuropa.eu/sentiment/positive> ;
@@ -125,25 +98,24 @@
         <http://data.odeuropa.eu/experience/f12ac555-1c83-5349-a5d8-5899a64e4ab3>,
         <http://data.odeuropa.eu/experience/f671e8bc-5fec-5d11-b261-3e55565998ce> .
 
-<http://data.odeuropa.eu/emotion-type/sadness> a <http://www.w3.org/2004/02/skos/core#Concept>,
+<http://data.odeuropa.eu/emotion-type/sadness> a skos:Concept,
         reo:REO21 ;
     rdfs:label "sadness" ;
     crm:P2_has_type <http://data.odeuropa.eu/sentiment/negative> .
 
-<http://data.odeuropa.eu/emotion-type/shyness> a <http://www.w3.org/2004/02/skos/core#Concept>,
+<http://data.odeuropa.eu/emotion-type/shyness> a skos:Concept,
         reo:REO21 ;
-    rdfs:label "rougissant",
-        "shyness" ;
+    rdfs:label "shyness" ;
     crm:P2_has_type <http://data.odeuropa.eu/sentiment/positive> ;
     reo:readP27 <http://data.odeuropa.eu/experience/07847d46-2314-539b-bc51-7c5810d4bd46> .
 
-<http://data.odeuropa.eu/emotion-type/surprise> a <http://www.w3.org/2004/02/skos/core#Concept>,
+<http://data.odeuropa.eu/emotion-type/surprise> a skos:Concept,
         reo:REO21 ;
     rdfs:label "surprise" ;
     crm:P2_has_type <http://data.odeuropa.eu/sentiment/neutral>,
         <http://data.odeuropa.eu/sentiment/positive> .
 
-<http://data.odeuropa.eu/emotion-type/trust> a <http://www.w3.org/2004/02/skos/core#Concept>,
+<http://data.odeuropa.eu/emotion-type/trust> a skos:Concept,
         reo:REO21 ;
     rdfs:label "trust" ;
     crm:P2_has_type <http://data.odeuropa.eu/sentiment/neutral>,
@@ -912,7 +884,7 @@
     rdfs:label "suaves"@fr ;
     crm:P140_assigned_attribute_to <http://data.odeuropa.eu/smell/4a7bd09c-7d1b-5d11-a3e3-3cdf9f246193> ;
     crm:P141_assigned <http://data.odeuropa.eu/vocabulary/vdi-hedonic/11n> ;
-    crm:P14_carried_out_by <http://data.odeuropa.eu/actor/d8f13449-1233-50b9-85ca-1719bbbb175d> ;
+    crm:P14_carried_out_by <http://data.odeuropa.eu/actor/36e0c128-9d3c-5903-9ef5-a746a74eb328> ;
     crm:P17_was_motivated_by <http://data.odeuropa.eu/experience/8db0ad23-022b-584c-9f13-97278a96ef35> ;
     crm:P2_has_type <http://data.odeuropa.eu/attribute-type/hedonic> .
 
@@ -1517,7 +1489,7 @@
     rdfs:label "naturelle"@fr ;
     crm:P140_assigned_attribute_to <http://data.odeuropa.eu/smell/15d86b80-62d9-5b6d-afc7-25ce22378447> ;
     crm:P141_assigned <http://data.odeuropa.eu/attribute/naturelle_fr> ;
-    crm:P14_carried_out_by <http://data.odeuropa.eu/actor/3efef40e-0f88-5b51-b301-0c454a65de3e> ;
+    crm:P14_carried_out_by <http://data.odeuropa.eu/actor/d4ee9617-08a8-54ad-8477-266f40e4ba5c> ;
     crm:P17_was_motivated_by <http://data.odeuropa.eu/experience/f97568cf-33ba-5ece-a58f-0672bd3d2098> .
 
 <http://data.odeuropa.eu/source/0806dd60-b1a6-5f38-aff0-e66948416094> crm:P165_incorporates <http://data.odeuropa.eu/source/0806dd60-b1a6-5f38-aff0-e66948416094/fragment/3f826920-c700-5de1-af43-a557b5019f15>,
@@ -8149,6 +8121,9 @@
 <http://data.odeuropa.eu/actor/39ba354d-0eec-5033-a231-d8be7d2a1731> a crm:E39_Actor ;
     rdfs:label "charcutier" .
 
+<http://data.odeuropa.eu/actor/3efef40e-0f88-5b51-b301-0c454a65de3e> a crm:E39_Actor ;
+    rdfs:label "Rayer" .
+
 <http://data.odeuropa.eu/actor/4c3a3546-1ef2-5d72-9d76-1c088a60ab4b> a crm:E39_Actor ;
     rdfs:label "j'avois" .
 
@@ -8203,8 +8178,8 @@
 <http://data.odeuropa.eu/actor/d41eed9b-2369-5e7e-902a-c18cd312de39> a crm:E39_Actor ;
     rdfs:label "chacun" .
 
-<http://data.odeuropa.eu/actor/d4ee9617-08a8-54ad-8477-266f40e4ba5c> a crm:E39_Actor ;
-    rdfs:label "quelques autres" .
+<http://data.odeuropa.eu/actor/d8f13449-1233-50b9-85ca-1719bbbb175d> a crm:E39_Actor ;
+    rdfs:label "rossignols" .
 
 <http://data.odeuropa.eu/actor/d938201a-e73d-54f2-8a3b-43461219f9c6> a crm:E39_Actor ;
     rdfs:label "Mercure" .
@@ -14112,9 +14087,6 @@
 <http://data.odeuropa.eu/actor/33281e29-65b0-5ff4-ba61-28585f61610d> a crm:E39_Actor ;
     rdfs:label "hommes délicats essensuéls" .
 
-<http://data.odeuropa.eu/actor/3efef40e-0f88-5b51-b301-0c454a65de3e> a crm:E39_Actor ;
-    rdfs:label "Rayer" .
-
 <http://data.odeuropa.eu/actor/65aee243-d361-5635-99dd-7232d0a10b44> a crm:E39_Actor ;
     rdfs:label "William Moore" .
 
@@ -14154,8 +14126,8 @@
 <http://data.odeuropa.eu/actor/cf911fd6-5383-5a24-a9cd-c9cb15547822> a crm:E39_Actor ;
     rdfs:label "Anciens" .
 
-<http://data.odeuropa.eu/actor/d8f13449-1233-50b9-85ca-1719bbbb175d> a crm:E39_Actor ;
-    rdfs:label "rossignols" .
+<http://data.odeuropa.eu/actor/d4ee9617-08a8-54ad-8477-266f40e4ba5c> a crm:E39_Actor ;
+    rdfs:label "quelques autres" .
 
 <http://data.odeuropa.eu/actor/e4285158-9316-5177-8365-145f990f72ed> a crm:E39_Actor ;
     rdfs:label "autres" .
@@ -17613,9 +17585,6 @@
 
 <https://sws.geonames.org/721179/> a crm:E53_Place .
 
-<http://data.odeuropa.eu/actor/36e0c128-9d3c-5903-9ef5-a746a74eb328> a crm:E39_Actor ;
-    rdfs:label "leur" .
-
 <http://data.odeuropa.eu/actor/4e189230-3003-51c8-ae21-3bd20fb24a83> a crm:E39_Actor ;
     rdfs:label "Hermès" .
 
@@ -18289,6 +18258,9 @@
     crm:P14_carried_out_by <http://data.odeuropa.eu/actor/9849d4c5-3bfa-5f57-8f9c-ba4b022c0d5e> ;
     crm:P7_took_place_at <https://sws.geonames.org/3570364/> ;
     time:hasTime <http://data.odeuropa.eu/time/82025508-f3a5-5348-9d8b-0159164febfc> .
+
+<http://data.odeuropa.eu/actor/36e0c128-9d3c-5903-9ef5-a746a74eb328> a crm:E39_Actor ;
+    rdfs:label "leur" .
 
 <http://data.odeuropa.eu/actor/46795a65-7714-5f7f-a790-88c3dd5cc977> a crm:E39_Actor ;
     rdfs:label "quelqu'un" .
@@ -19791,7 +19763,7 @@
     rdfs:label "chambres" ;
     crm:P137_exemplifies <http://data.odeuropa.eu/vocabulary/fragrant-spaces/111> .
 
-<http://data.odeuropa.eu/sentiment/neutral> a <http://www.w3.org/2004/02/skos/core#Concept> ;
+<http://data.odeuropa.eu/sentiment/neutral> a skos:Concept ;
     rdfs:label "Neutral" .
 
 <http://data.odeuropa.eu/smell/0735c4dc-669b-5f99-96e6-2f8cd3b29ba8> a od:L11_Smell ;
@@ -19907,7 +19879,7 @@
     od:F2_perceived <http://data.odeuropa.eu/smell/a82cfd54-7c3a-500e-a22a-7f7c64e70fde> ;
     time:hasTime <http://data.odeuropa.eu/time/96842583-3e63-541b-88e3-1a025f127e91> .
 
-<http://data.odeuropa.eu/sentiment/negative> a <http://www.w3.org/2004/02/skos/core#Concept> ;
+<http://data.odeuropa.eu/sentiment/negative> a skos:Concept ;
     rdfs:label "Negative" .
 
 <http://data.odeuropa.eu/smell/a82cfd54-7c3a-500e-a22a-7f7c64e70fde> a od:L11_Smell ;
@@ -19926,7 +19898,7 @@
 
 <https://sws.geonames.org/2988507/> a crm:E53_Place .
 
-<http://data.odeuropa.eu/sentiment/positive> a <http://www.w3.org/2004/02/skos/core#Concept> ;
+<http://data.odeuropa.eu/sentiment/positive> a skos:Concept ;
     rdfs:label "Positive" .
 
 <http://data.odeuropa.eu/actor/f6c2e273-b3a7-58c2-9404-5a58594ec568> a crm:E39_Actor ;

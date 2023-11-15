@@ -100,6 +100,4 @@ class Emotion(MiniEntity):
             if len(match.lemmata) and match.lemmata[0].score == 1:
                 self.set_uri(match.lemmata[0].id)
                 # self.add(CRM.P137_exemplifies, match.lemmata[0].id)
-            else:
-                self.add_label(label)
             #     self.add(CRM.P137_exemplifies, MiniEntity('emotion-type', typ, typ, SKOS.Concept))

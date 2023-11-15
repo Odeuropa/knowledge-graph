@@ -1,6 +1,7 @@
 @prefix crm: <http://erlangen-crm.org/current/> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 @prefix schema: <https://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
 @prefix time: <http://www.w3.org/2006/time#> .
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 
@@ -6719,7 +6720,7 @@ schadelykheid der dampen van rottend water"""@nl ;
 <http://data.odeuropa.eu/actor/4a45823f-b79b-5571-9b72-1bd086c2879f> a crm:E21_Person ;
     rdfs:label "Murnik, Rado" .
 
-<http://data.odeuropa.eu/genre/OTH> a <http://www.w3.org/2004/02/skos/core#Concept> ;
+<http://data.odeuropa.eu/genre/OTH> a skos:Concept ;
     rdfs:label "Other"@en .
 
 <http://data.odeuropa.eu/time/260c497d-a092-5af7-b2cf-cfe26f14f0f6> a time:TemporalEntity ;
@@ -6837,41 +6838,41 @@ schadelykheid der dampen van rottend water"""@nl ;
 
 <https://sws.geonames.org/2950159/> a crm:E53_Place .
 
-<http://data.odeuropa.eu/genre/PER> a <http://www.w3.org/2004/02/skos/core#Concept> ;
+<http://data.odeuropa.eu/genre/PER> a skos:Concept ;
     rdfs:label "Perfume books, fashion"@en .
 
-<http://data.odeuropa.eu/genre/THE> a <http://www.w3.org/2004/02/skos/core#Concept> ;
+<http://data.odeuropa.eu/genre/THE> a skos:Concept ;
     rdfs:label "Theater"@en .
 
-<http://data.odeuropa.eu/genre/LAW> a <http://www.w3.org/2004/02/skos/core#Concept> ;
+<http://data.odeuropa.eu/genre/LAW> a skos:Concept ;
     rdfs:label "Legal / criminal texts"@en .
 
 <https://sws.geonames.org/3173435/> a crm:E53_Place .
 
 <https://sws.geonames.org/3239115/> a crm:E53_Place .
 
-<http://data.odeuropa.eu/genre/PUB> a <http://www.w3.org/2004/02/skos/core#Concept> ;
+<http://data.odeuropa.eu/genre/PUB> a skos:Concept ;
     rdfs:label "Public Health"@en .
 
-<http://data.odeuropa.eu/genre/HOUS> a <http://www.w3.org/2004/02/skos/core#Concept> ;
+<http://data.odeuropa.eu/genre/HOUS> a skos:Concept ;
     rdfs:label "Household texts & recipes"@en .
 
 <https://sws.geonames.org/2988507/> a crm:E53_Place .
 
-<http://data.odeuropa.eu/genre/REL> a <http://www.w3.org/2004/02/skos/core#Concept> ;
+<http://data.odeuropa.eu/genre/REL> a skos:Concept ;
     rdfs:label "Religion"@en .
 
-<http://data.odeuropa.eu/genre/MED> a <http://www.w3.org/2004/02/skos/core#Concept> ;
+<http://data.odeuropa.eu/genre/MED> a skos:Concept ;
     rdfs:label "Medicine"@en .
 
-<http://data.odeuropa.eu/genre/SCIE> a <http://www.w3.org/2004/02/skos/core#Concept> ;
+<http://data.odeuropa.eu/genre/SCIE> a skos:Concept ;
     rdfs:label "Scientific and philosophical texts"@en .
 
-<http://data.odeuropa.eu/genre/TRAV> a <http://www.w3.org/2004/02/skos/core#Concept> ;
+<http://data.odeuropa.eu/genre/TRAV> a skos:Concept ;
     rdfs:label "Travel literature / ethnography"@en .
 
 <https://sws.geonames.org/2643743/> a crm:E53_Place .
 
-<http://data.odeuropa.eu/genre/LIT> a <http://www.w3.org/2004/02/skos/core#Concept> ;
+<http://data.odeuropa.eu/genre/LIT> a skos:Concept ;
     rdfs:label "Novels & poetry"@en .
 
