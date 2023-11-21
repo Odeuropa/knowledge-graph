@@ -21,9 +21,9 @@ with open(GEONAMES_CACHE, 'r') as _f:
         cache = {}
 
 IN_PREFIX = {
-    'en': r'(?i)^(all |anywhere |certain (parts )?)?(at|i[un](to)?|hot|upon|between|down ([oi]n)?|every|all|the whole|many|about|above|across|his|her|our|out(side)?( in| of)?|near|throughout|even( in)?|of|on|along|from|to|before|over) ',
+    'en': r'(?i)^(all |here |(any|every)where |certain (parts )?)?(at|i[un](to)?|hot|upon|between|below|down ([oi]n)?|every|all|the whole|many|about|beyond|above|across|his|her|our|out(side)?( in| of)?|near|throughout|even( in)?|of|on|along|from|to|before|over) ',
     'it': r"(?i)^(d ?'|a |i[un] |(da|ne|su|a)(gl)?i |presso |per |(da|ne|su|a)(l(l[aoe])?)? |(da|ne|su)ll ?')",
-    'fr': r"(?i)^((de|en|dans|à|aux?|sur|autur du?) |d')",
+    'fr': r"(?i)^(coin )?((de|en|dans|à|aux?|sur|autur du?) |d')",
     'nl': r'(?i)^(by|te|op|in) ',
     'de': r'(?i)^(by|te|op|in|im|von|au[sß]|auff?) ',
     'sl': r'(?i)^(v|pod?|o[bd]|na|iz) '

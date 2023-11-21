@@ -1,7 +1,8 @@
 from os import path
 import re
-from rdflib import SKOS
+from rdflib import SKOS, URIRef
 
+import urllib.parse
 from .AttributeAssignment import AttributeAssignment
 from .Entity import Entity, MiniEntity
 from .Thing import Thing
@@ -12,6 +13,7 @@ from .Graph import add, is_invalid
 from .utils.pos import Prepositions
 from .ontologies import ODEUROPA, CRM, REO
 from .vocabularies import VocabularyManager as VocManager
+from .config import BASE
 
 
 class OlfactoryExperience(Entity):
@@ -86,18 +88,27 @@ class OlfactoryExperience(Entity):
         return em.add(REO.readP27, self)
 
 
-class Emotion(MiniEntity):
+class Emotion(Entity):
     def __init__(self, seed, label, typ, sentiment):
-        super().__init__('emotion-type', typ, typ, SKOS.Concept)
+        safe_id = urllib.parse.quote(re.sub(r'\s+', '_', typ)[0:40])
+        self.uri = path.join(BASE, 'emotion-type', safe_id)
 
-        self.set_class(REO.REO21)
-        if sentiment and sentiment.strip():
-            self.add(CRM.P2_has_type, MiniEntity('sentiment', sentiment.strip().lower(), sentiment, SKOS.Concept))
+        # if sentiment and sentiment.strip():
+        #     self.add(CRM.P2_has_type, MiniEntity('sentiment', sentiment.strip().lower(), sentiment, SKOS.Concept))
 
         if typ and typ.strip():
             typ = typ.strip()
             match = VocManager.get('emotion').search(typ)
             if len(match.lemmata) and match.lemmata[0].score == 1:
-                self.set_uri(match.lemmata[0].id)
+                new_uri = match.lemmata[0].id
+                if 'object' not in new_uri:
+                    self.uri = new_uri
+                    self.res = URIRef(self.uri)
+
                 # self.add(CRM.P137_exemplifies, match.lemmata[0].id)
-            #     self.add(CRM.P137_exemplifies, MiniEntity('emotion-type', typ, typ, SKOS.Concept))
+                # self.add(CRM.P137_exemplifies, MiniEntity('emotion-type', typ, typ, SKOS.Concept))
+            else:
+                self.res = URIRef(self.uri)
+                self.add_label(typ)
+                self.set_class(REO.REO21)
+                self.set_class(SKOS.Concept)

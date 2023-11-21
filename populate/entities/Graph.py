@@ -1,7 +1,7 @@
 import rdflib.plugins.parsers.notation3
 import validators
 import numpy as np
-from rdflib import Graph, URIRef, Literal, TIME, SDO, OWL, PROV, RDF, XSD
+from rdflib import Graph, URIRef, Literal, TIME, SDO, OWL, PROV, RDF, XSD, SKOS
 from .ontologies import *
 from .Entity import Entity
 
@@ -22,6 +22,7 @@ def set_prefixes(gx):
     gx.bind("reo", REO)
     gx.bind("prov", PROV)
     gx.bind("nsa", NINSUNA)
+    gx.bind("skos", SKOS)
 
 
 def reset():
