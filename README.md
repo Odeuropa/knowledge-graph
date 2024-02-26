@@ -1,5 +1,7 @@
 # European Olfactory Knowledge Graph
 
+[![DOI](https://zenodo.org/badge/381655602.svg)](https://zenodo.org/doi/10.5281/zenodo.10709702)
+
 Series of scripts, procedures and dumps for deploying the EOKG on GraphDB and Docker.
 
 #### Requirements
