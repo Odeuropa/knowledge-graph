@@ -5,7 +5,14 @@ import glob
 from tqdm import tqdm
 from rdflib import Graph, RDF, URIRef
 
+import destarify
+
 test_mode = True
+
+if not os.path.isdir('dump-flat'):
+    print('destarify in progress')
+    destarify.run()
+
 
 vocabs = 'dump-flat/vocabularies'
 gn_dump = 'dump/geonames'
