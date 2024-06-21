@@ -457,4 +457,72 @@
           "Odorants"@nl, "Geruchsstoff"@de, "Odorants"@sl.
 
 
+:expert-taxonomy-family a skos:Concept;
+  skos:prefLabel "Expert Taxonomy"@en.
 
+:expert-taxonomy a skosmos:Vocabulary, void:Dataset ;
+        dc:title "Expert taxonomy of olfactory descriptors" ;
+        dc:subject :expert-taxonomy-family ;
+        dc:type mdrtype:THESAURUS ;
+        void:uriSpace "http://data.odeuropa.eu/vocabulary/expert-taxonomy/";
+        skosmos:language "en";
+        skosmos:fallbackLanguages "en";
+        skosmos:defaultLanguage "en" ;
+        skosmos:groupClass skos:Collection ;
+        skosmos:hasMultiLingualProperty dc:bibliographicCitation, skos:definition ;
+        skosmos:showDeprecated "true" ;
+        skosmos:shortName "Expert taxonomy - Descriptors";
+        skosmos:showChangeList "false" ;
+        skosmos:showNotation "true" ;
+        skosmos:loadExternalResources "true" ;
+        skosmos:showTopConcepts "true" ;
+        skosmos:externalProperty owl:sameAs, skos:closeMatch, skos:exactMatch;
+        skosmos:mainConceptScheme <http://data.odeuropa.eu/vocabulary/expert-taxonomy> ;
+        void:sparqlEndpoint <https://data.odeuropa.eu/repositories/odeuropa> ;
+        void:dataDump <https://raw.githubusercontent.com/akshay-sajann/computer_ontology/main/create_taxonomy_rdf/expert_taxonomy.ttl> ;
+        skosmos:sparqlGraph <http://data.odeuropa.eu/vocabulary/expert-taxonomy> .
+
+:expert-taxonomy-quality a skosmos:Vocabulary, void:Dataset ;
+        dc:title "Expert taxonomy of olfactory qualities" ;
+        dc:subject :expert-taxonomy-family ;
+        dc:type mdrtype:THESAURUS ;
+        void:uriSpace "http://data.odeuropa.eu/vocabulary/expert-taxonomy-quality/";
+        skosmos:language "en";
+        skosmos:fallbackLanguages "en";
+        skosmos:defaultLanguage "en" ;
+        skosmos:groupClass skos:Collection ;
+        skosmos:hasMultiLingualProperty dc:bibliographicCitation, skos:definition ;
+        skosmos:showDeprecated "true" ;
+        skosmos:shortName "Expert taxonomy - Qualities";
+        skosmos:showChangeList "false" ;
+        skosmos:showNotation "true" ;
+        skosmos:loadExternalResources "true" ;
+        skosmos:showTopConcepts "true" ;
+        skosmos:externalProperty owl:sameAs, skos:closeMatch, skos:exactMatch;
+        skosmos:mainConceptScheme <http://data.odeuropa.eu/vocabulary/expert-taxonomy-quality> ;
+        void:sparqlEndpoint <https://data.odeuropa.eu/repositories/odeuropa> ;
+        void:dataDump <https://raw.githubusercontent.com/akshay-sajann/computer_ontology/main/create_taxonomy_rdf/expert_taxonomy-quality.ttl> ;
+        skosmos:sparqlGraph <http://data.odeuropa.eu/vocabulary/expert-taxonomy-quality> .
+
+
+:expert-taxonomy-chemical a skosmos:Vocabulary, void:Dataset ;
+        dc:title "Expert taxonomy: chemical compounds" ;
+        dc:subject :expert-taxonomy-family ;
+        dc:type mdrtype:THESAURUS ;
+        void:uriSpace "http://data.odeuropa.eu/vocabulary/expert-taxonomy-chemical/";
+        skosmos:language "en";
+        skosmos:fallbackLanguages "en";
+        skosmos:defaultLanguage "en" ;
+        skosmos:groupClass skos:Collection ;
+        skosmos:hasMultiLingualProperty dc:bibliographicCitation, skos:definition ;
+        skosmos:showDeprecated "true" ;
+        skosmos:shortName "Expert taxonomy - Chemical";
+        skosmos:showChangeList "false" ;
+        skosmos:showNotation "true" ;
+        skosmos:loadExternalResources "true" ;
+        skosmos:showTopConcepts "true" ;
+        skosmos:externalProperty owl:sameAs, skos:closeMatch, skos:exactMatch;
+        skosmos:mainConceptScheme <http://data.odeuropa.eu/vocabulary/expert-taxonomy-chemical> ;
+        void:sparqlEndpoint <https://data.odeuropa.eu/repositories/odeuropa> ;
+        void:dataDump <https://raw.githubusercontent.com/akshay-sajann/computer_ontology/main/create_taxonomy_rdf/expert_taxonomy-chemical.ttl> ;
+        skosmos:sparqlGraph <http://data.odeuropa.eu/vocabulary/expert-taxonomy-chemical> .
