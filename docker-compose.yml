@@ -3,7 +3,7 @@ version: "3"
 services:
   graphdb:
     container_name: odeuropa_graphdb
-    image: ontotext/graphdb:10.1.1
+    image: ontotext/graphdb:11.0.0
     restart: unless-stopped
     environment:
       GDB_JAVA_OPTS: >-
@@ -11,6 +11,7 @@ services:
         -Dgraphdb.home=/opt/graphdb/home
         -Dgraphdb.workbench.importDirectory=/opt/graphdb/home/graphdb-import
         -Dgraphdb.workbench.cors.enable=true
+        -Dgraphdb.stats.default=DISABLED
         -DenablePredicateList=true
         -Denable-context-index=true
         -Dentity-pool-implementation=transactional
