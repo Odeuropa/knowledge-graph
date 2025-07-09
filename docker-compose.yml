@@ -3,7 +3,7 @@ version: "3"
 services:
   graphdb:
     container_name: odeuropa_graphdb
-    image: ontotext/graphdb:11.0.0
+    image: ontotext/graphdb:11.0.2
     restart: unless-stopped
     environment:
       GDB_JAVA_OPTS: >-
