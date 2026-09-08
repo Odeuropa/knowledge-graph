@@ -18,6 +18,9 @@ services:
         -Dhealth.max.query.time.seconds=60
         -Dgraphdb.append.request.id.headers=true
         -Dreuse.vars.in.subselects=true
+        -Dgraphdb.health.minimal.free.storage.warn=15
+        -Dgraphdb.health.minimal.free.storage.error=10
+        -Dgraphdb.health.minimal.free.storage.fatal=5
     ports:
       - 7200:7200
     volumes:
