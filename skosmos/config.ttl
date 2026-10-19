@@ -10,6 +10,7 @@
 @prefix skos: <http://www.w3.org/2004/02/skos/core#> .
 @prefix skosmos: <http://purl.org/net/skosmos#> .
 @prefix isothes: <http://purl.org/iso25964/skos-thes#> .
+@prefix cheminf: <http://semanticscience.org/resource/CHEMINF_> .
 @prefix mdrtype: <http://publications.europa.eu/resource/authority/dataset-type/> .
 @prefix : <#> .
 
@@ -521,6 +522,8 @@
         skosmos:showNotation "true" ;
         skosmos:loadExternalResources "true" ;
         skosmos:showTopConcepts "true" ;
+	skosmos:hierarchyProperty skos:broader ;
+	skosmos:defaultSidebarView "hierarchy" ;
         skosmos:externalProperty owl:sameAs, skos:closeMatch, skos:exactMatch;
         skosmos:mainConceptScheme <http://data.odeuropa.eu/vocabulary/expert-taxonomy-chemical> ;
         void:sparqlEndpoint <https://data.odeuropa.eu/repositories/odeuropa> ;
